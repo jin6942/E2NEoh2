@@ -25886,7 +25886,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "Few scientific discoveries make progress without the guidance of trained experts."
+      "text": "Few people outside the expert community can contribute to scientific progress."
      },
      {
       "number": 2,
@@ -25915,14 +25915,14 @@
        3
       ],
       "surface": "Few",
-      "reason_ko": "전문가의 지도 없이는 진전하는 발견이 거의 없다는 뜻이 되어 본문(시민이 발견·기여)과 반대임을 판단해야 함"
+      "reason_ko": "전문가 밖의 사람은 기여하기 어렵다는 뜻이 되어 본문(시민이 발견·기여)과 반대임을 판단해야 함"
      },
      {
       "term_id": "u1-r3s",
       "choice_number": 1,
       "choice_span": [
-       32,
-       40
+       69,
+       77
       ],
       "surface": "progress",
       "reason_ko": "진보(progress)가 누구에 의해 이루어지는지를 판단하는 핵심어"
@@ -26716,7 +26716,7 @@
      }
     ],
     "passage": "In Alberta, Canada, there were some “aurora chasers” who formed an informal group online. They would leave their homes at night and try to get exceptional photographs of auroras. Then they would share them with the rest of the group.\nIn the summer of 2014, the group members began to notice something strange appearing in the night sky. There were unusual ribbons of green and purple light, some of which seemed to stretch for thousands of kilometers. Sometimes they lasted for just a few minutes, while other times they remained in the sky for a whole hour. They were similar in appearance to auroras, yet they possessed some notably different features. Unsure of what they were, the group decided to name the phenomenon “Steve,” based on a scene from an animated movie where some characters give that name to an unfamiliar object.\nAfter photographing Steve for several years and discussing what it might be, the group members decided to get help from experts. They showed their photos of Steve to a professor of astronomy at a local university and a scientist at NASA. Surprisingly, neither of them had any idea what Steve was. They confirmed that it was not an aurora, but it did not resemble anything they had seen before. They realized that the group had discovered a new type of phenomenon that had never been properly studied. In order to learn more about it, NASA funded a citizen science project involving the public. The project asked ordinary people to gather photos of Steve and send them to NASA. It is still in progress today.",
-    "summary": "When aurora chasers noticed a(n) (A) light in the night sky that even experts could not explain, NASA started a project that depends on the (B) of ordinary people."
+    "summary": "When aurora chasers noticed a(n) (A) light in the night sky that even experts could not explain, NASA supported a project that depends on the (B) of ordinary people."
    },
    {
     "id": "Q17",
@@ -27204,7 +27204,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "Few scientific discoveries make progress without the guidance of trained experts."
+      "text": "Few people outside the expert community can contribute to scientific progress."
      },
      {
       "number": 2,
@@ -27229,7 +27229,7 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "STEVE는 전문가의 지도가 아니라 오로라 추적자들의 활동으로 발견되었고 전문가들도 그 공로를 인정했으므로 반대 내용이다."
+      "text": "전문가가 아닌 오로라 추적자들이 STEVE를 발견해 공로를 인정받았고, 시민 과학자도 과학에 귀중한 기여를 할 수 있다고 했으므로 반대 내용이다."
      },
      {
       "number": 2,
@@ -27247,7 +27247,7 @@
     "choices_ko": [
      {
       "number": 1,
-      "text": "훈련받은 전문가의 지도 없이 진전을 이루는 과학적 발견은 거의 없다."
+      "text": "전문가 집단 밖의 사람들 중 과학의 진보에 기여할 수 있는 사람은 거의 없다."
      },
      {
       "number": 2,
@@ -27333,7 +27333,7 @@
      },
      {
       "number": 5,
-      "text": "Schawinski는 일이 아주 적은 시간밖에 걸리지 않아서 신난다고 생각했다."
+      "text": "Schawinski는 일이 아주 적은 시간밖에 걸리지 않아서 흥미진진하다고 여겼다."
      }
     ]
    },
@@ -27768,7 +27768,7 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "①의 앞 문장은 대문자 표기와 이름의 뜻을 설명한다. 여기에 넣으면 전문가들이 공로를 인정했다는 근거보다 먼저 나와, ‘그들이 없었다면’이 누구의 공로를 말하는지 연결이 약해진다."
+      "text": "①의 앞 문장은 이름(it)이 대문자로 쓰이고 무엇을 뜻하는지 설명한다. 여기에 넣으면 주어진 문장의 it이 현상이 아니라 이름을 가리키게 되고, them이 가리킬 오로라 추적자들도 두 문장 앞에 떨어져 있어 연결되지 않는다. 또 전문가들이 공로를 인정했다는 근거보다 먼저 나오게 된다."
      },
      {
       "number": 3,
@@ -28260,7 +28260,7 @@
      }
     ],
     "answer": 5,
-    "evidence": "He had to classify around one million images … / Lintott suggested that he turn to the Internet … / the two men ended up launching a crowdsourced online project known as Galaxy Zoo. The website was kept as simple as possible …",
+    "evidence": "He had to classify around one million images … / Lintott suggested that he turn to the Internet to ask other people for help. / the two men ended up launching a crowdsourced online project known as Galaxy Zoo … with a very basic design and an easy-to-use interface.",
     "explanation": "혼자 하기엔 엄청난 은하 분류 작업을 인터넷에서 대중이 함께 참여하는 온라인 프로젝트(Galaxy Zoo)로 바꾸어 해결해 간 과정을 다루므로 ⑤가 제목으로 적절하다.",
     "wrong_reasons": [
      {
@@ -28643,7 +28643,7 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "①에 넣으면 참여자 수와 분류 건수를 말하기 전에 ‘그렇게 많은 이미지(that many images)’가 나와 가리킬 대상이 불분명하다."
+      "text": "①에 넣으면 ‘그렇게 많은 이미지(that many images)’가 가리킬 7,500만 건의 분류보다 앞에 놓이고, 주어진 문장을 이어받는 In fact 문장과도 떨어져 연결이 끊긴다."
      },
      {
       "number": 3,
@@ -28692,11 +28692,11 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "NASA는 대중이 참여하는 프로젝트를 지원했고, 수수께끼는 아직 풀리지 않았다."
+      "text": "NASA는 일반인에게 사진을 모아 보내 달라고 하는 대중 참여 프로젝트로 더 알아보려 했고, 수수께끼는 아직 풀리지 않았다."
      },
      {
       "number": 3,
-      "text": "전문가들은 연구를 거부하지 않았고 NASA는 프로젝트에 자금을 지원했다."
+      "text": "전문가들은 연구를 거부하지 않았고, 더 알아보기 위한 대중 참여 프로젝트는 지금도 진행 중이다."
      },
      {
       "number": 4,
@@ -28758,7 +28758,7 @@
     ],
     "answer": 4,
     "evidence": "In order to learn more about it, NASA funded a citizen science project involving the public. The project asked ordinary people to gather photos of Steve and send them to NASA. It is still in progress today.",
-    "explanation": "NASA는 Steve에 대해 더 알기 위해 대중이 참여하는 프로젝트를 만들었고, 그 프로젝트는 일반인에게 사진을 모아 보내 달라고 요청했으며 오늘날에도 진행 중이다. 따라서 ④의 canceled(취소했다)는 문맥에 맞지 않고 funded(자금을 지원했다)가 되어야 한다.",
+    "explanation": "NASA는 Steve에 대해 더 알기 위해 대중이 참여하는 프로젝트에 자금을 지원했고, 그 프로젝트는 일반인에게 사진을 모아 보내 달라고 요청했으며 오늘날에도 진행 중이다. 따라서 ④의 canceled(취소했다)는 문맥에 맞지 않고 funded(자금을 지원했다)가 되어야 한다.",
     "wrong_reasons": [
      {
       "number": 1,
