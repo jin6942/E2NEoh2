@@ -46,3 +46,12 @@
 - 정답 대조: M·N 조건부 PASS, 해설·선지 보완 9건(Q01 ① 연어, Q09·Q23 ① 오답 근거, Q17·Q24 근거, Q25 해설, Q16 요약문, Q02 ⑤ 해석) 반영 → 재확인 M·N PASS.
 - 현행 유지(검수자 수용): these two projects 발췌 밖 지시, 회차 안 내용 문항 부분 중복, Q12 발문 조사 ‘coats가’, Q07 분량 경계(124단어, 표본 최소 122 이상).
 - 결과: 문제_FINAL 저장(sha 869b57f5…), 검수 기록 Q_M·Q_N, DOCX 문제부 patch 저장본 내용·서식 PASS. 정답 분포 ①3 ②7 ③5 ④5 ⑤5.
+
+2026-09-26 5단계 통합 정리
+- 문제_FINAL patch 후 저장본 full 검사 내용·서식 PASS(표지·해석지·분석지 블록 보존), LibreOffice 예비 렌더 63쪽 전체 확인.
+- 관찰: 3회 장문 세트가 예비 렌더에서 48/49쪽 분리. 쪽 조정은 실제 Word 관찰 근거가 필요하므로 변경하지 않고 Word 확인 대기로 기록.
+
+2026-09-26 6단계 출고 준비
+- split_book export/verify: SPLIT_CONTENT_MATCH, 전체통합본 바이트 동일, 5권 EXACT_PARTITION, ZIP 엔트리 DOCX 6개 정확.
+- 분권 쪽수(LibreOffice 예비): 01 해석지 18 / 02 지문분석지 14 / 03 워크북+변형문제 8 / 04 실전모의 9 / 05 정답해설지 14 = 63.
+- check_release_text: machine PASS, 경고 1건(R-0001, 28쪽 V-ing 줄 끝 하이픈 분리로 인한 PDF 추출 차이) → R 판단 대기.

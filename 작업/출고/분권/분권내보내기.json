@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "kind": "INTEGRATED_PLUS_FIVE_DOCX",
+  "delivery_mode": "integrated_plus_five_docx",
+  "filename_base": "혼공독해교재_영어2_능률(오)_2과",
+  "source_docx": {
+    "path": "/home/user/E2NEoh2/결과물/혼공독해교재_영어2_능률(오)_2과_전체통합본.docx",
+    "sha256": "47fb2aa73d83f3e99c987713abf8ce5c05670fff1c93e15e6d046011722a07e6"
+  },
+  "plan": {
+    "path": "/home/user/E2NEoh2/작업/검사기록/04_문제FINAL_역할계획.json",
+    "sha256": "7856a2867bf7b9711f0d0bd0db5905303f6c105f84b8f91c9b17c8b3ea54ad94"
+  },
+  "integrated_docx": {
+    "path": "/home/user/E2NEoh2/작업/출고/분권/혼공독해교재_영어2_능률(오)_2과_전체통합본.docx",
+    "filename": "혼공독해교재_영어2_능률(오)_2과_전체통합본.docx",
+    "sha256": "47fb2aa73d83f3e99c987713abf8ce5c05670fff1c93e15e6d046011722a07e6"
+  },
+  "source_coverage": [
+    "cover",
+    "u1/reading",
+    "u1/analysis",
+    "u1/workbook",
+    "u2/reading",
+    "u2/analysis",
+    "u2/workbook",
+    "u3/reading",
+    "u3/analysis",
+    "u3/workbook",
+    "u4/reading",
+    "u4/analysis",
+    "u4/workbook",
+    "mock1",
+    "mock2",
+    "mock3",
+    "answers/quick",
+    "u1/answers",
+    "u2/answers",
+    "u3/answers",
+    "u4/answers",
+    "answers/mock1",
+    "answers/mock2",
+    "answers/mock3"
+  ],
+  "cover_policy": "PRESERVED_ONCE_IN_READING",
+  "volumes": [
+    {
+      "kind": "reading",
+      "filename": "혼공독해교재_영어2_능률(오)_2과_01_해석지.docx",
+      "path": "/home/user/E2NEoh2/작업/출고/분권/혼공독해교재_영어2_능률(오)_2과_01_해석지.docx",
+      "sha256": "f28e7bd17cbdfe9507a9d48bc50da123f4b01a49da31d536351235e5a4ad0479",
+      "block_ids": [
+        "cover",
+        "u1/reading",
+        "u2/reading",
+        "u3/reading",
+        "u4/reading"
+      ],
+      "block_sha256": {
+        "cover": "da85ff423f2fc71af67efd25da08f50e9fedb1da1fc9d8ecf1839d3cca9240d3",
+        "u1/reading": "45090cea3a3c8da7b6f435c1c2c2633dbc0a0715734b29f3e37699d70853d168",
+        "u2/reading": "4c99089d6766fc924eb82f71b245dc39b5e03d07722685700780d9cc8932c736",
+        "u3/reading": "a6e9af1fd1af5ce9d574ecbcbf270f5d65c10ebe172e32732cb6c4a3bcb7d574",
+        "u4/reading": "7fb28cd324e884278c06a121be0d46e6060ca9131921eec4ae8ea814b084eac5"
+      }
+    },
+    {
+      "kind": "analysis",
+      "filename": "혼공독해교재_영어2_능률(오)_2과_02_지문분석지.docx",
+      "path": "/home/user/E2NEoh2/작업/출고/분권/혼공독해교재_영어2_능률(오)_2과_02_지문분석지.docx",
+      "sha256": "849b9cc677873ddfabbf5b304da952e0ce4ae93ec4c5bd909f68c5724fdeda13",
+      "block_ids": [
+        "u1/analysis",
+        "u2/analysis",
+        "u3/analysis",
+        "u4/analysis"
+      ],
+      "block_sha256": {
+        "u1/analysis": "287f16345d1df757dc6d07cb9d6a1b7577e464f491685d82311fae911ad5cec8",
+        "u2/analysis": "a5a751efc5567b23a4cd3b59f977486a088a6cc1a2d3d715bc0f80c5ac498f75",
+        "u3/analysis": "5d9a6b1ecff78c4be4b0d0a32489bfc36ff3970753a87f551c17c53000e8a483",
+        "u4/analysis": "c85bdcd6fbf68f1ef638cc811c8c1c8d6e7ba88a71969140b0b4a7d9be6b70fe"
+      }
+    },
+    {
+      "kind": "workbook",
+      "filename": "혼공독해교재_영어2_능률(오)_2과_03_워크북+변형문제.docx",
+      "path": "/home/user/E2NEoh2/작업/출고/분권/혼공독해교재_영어2_능률(오)_2과_03_워크북+변형문제.docx",
+      "sha256": "280bceecc4f4f3b406c8282f16b70a47471320321a968eb619561d22d6eea5d6",
+      "block_ids": [
+        "u1/workbook",
+        "u2/workbook",
+        "u3/workbook",
+        "u4/workbook"
+      ],
+      "block_sha256": {
+        "u1/workbook": "0a51fd2a7801f95675e019f050f3404876ab11955f7a6eb28f6e8b71d3562978",
+        "u2/workbook": "2cf2c99bc6d0ccd8bf00998f601093033c0c149c52d78edb5587e08d84b06510",
+        "u3/workbook": "4eef17c396bc514d3747eb957ac70504f3a7478fd2e3b484400e70059677dc00",
+        "u4/workbook": "4a89b1fc08f1d1a3057b54292b0e5cc0c19fadc969b489e404e4e542e92a2385"
+      }
+    },
+    {
+      "kind": "mock",
+      "filename": "혼공독해교재_영어2_능률(오)_2과_04_실전모의.docx",
+      "path": "/home/user/E2NEoh2/작업/출고/분권/혼공독해교재_영어2_능률(오)_2과_04_실전모의.docx",
+      "sha256": "49f558f46a50c140626b182fff7d389e20f2b07f540f3f3f35b81daeffeae52f",
+      "block_ids": [
+        "mock1",
+        "mock2",
+        "mock3"
+      ],
+      "block_sha256": {
+        "mock1": "2a3a58e875dc86e52e5b662c4144bd291fb57096f405809f1d8c02e933093d7c",
+        "mock2": "4d34e80e3fa985399c3ee70d3e60588a46b7f002ab4076cfa6391366b52fe6a4",
+        "mock3": "02013f072a435f52a50c1227189d5b81b4cc3cb6ae2b2ebb6dba5ea418d9c863"
+      }
+    },
+    {
+      "kind": "answers",
+      "filename": "혼공독해교재_영어2_능률(오)_2과_05_정답해설지.docx",
+      "path": "/home/user/E2NEoh2/작업/출고/분권/혼공독해교재_영어2_능률(오)_2과_05_정답해설지.docx",
+      "sha256": "36b8727d2f58b3bbddc72c7a3b9aed1591a6aa564d7b279548ffcaa9eb7236d5",
+      "block_ids": [
+        "answers/quick",
+        "u1/answers",
+        "u2/answers",
+        "u3/answers",
+        "u4/answers",
+        "answers/mock1",
+        "answers/mock2",
+        "answers/mock3"
+      ],
+      "block_sha256": {
+        "answers/quick": "aa411452f542839f0c27cd10d35883814eeb5878d65673c734c78a7a01d08c0e",
+        "u1/answers": "a4d093ff1291b5c7a3242d20855e1c245fe66f3430a39678a3bc4b0847891dd5",
+        "u2/answers": "823c999569bd985f5e99c8f741a49577d570ececf5d38c2d7e5bd7eda68eb00c",
+        "u3/answers": "4213e45e636159b30d4aea7793e68eb64b4bb7ede2b061655f7e2e4309bfa5c1",
+        "u4/answers": "ebdef875f7ff6d7e34b99854b09779be393697a1f88fa14b427c2e3b204cb78a",
+        "answers/mock1": "5c59590552c447b8f9703ccf7b7c6f53e87f4d338e7835d2d83ad2885ed42b4d",
+        "answers/mock2": "1b4bb134dd8a5bbbf3ad3ececabeeb8d04de653cb87dd9e32b39d18aee019df7",
+        "answers/mock3": "df61f3462dcf7ea7d5419b372968674f21633fa9b40b2643d314eaaf16c31183"
+      }
+    }
+  ],
+  "visual_review": "NOT_PERFORMED",
+  "release_authorization": "NOT_PERFORMED",
+  "delivery_zip": {
+    "path": "/home/user/E2NEoh2/작업/출고/분권/혼공독해교재_영어2_능률(오)_2과.zip",
+    "filename": "혼공독해교재_영어2_능률(오)_2과.zip",
+    "sha256": "b358d6276e1f4c99f939bc06086c6252789ffc968b782867dbed7c558075d927",
+    "docx_entry_sha256": {
+      "혼공독해교재_영어2_능률(오)_2과_전체통합본.docx": "47fb2aa73d83f3e99c987713abf8ce5c05670fff1c93e15e6d046011722a07e6",
+      "혼공독해교재_영어2_능률(오)_2과_01_해석지.docx": "f28e7bd17cbdfe9507a9d48bc50da123f4b01a49da31d536351235e5a4ad0479",
+      "혼공독해교재_영어2_능률(오)_2과_02_지문분석지.docx": "849b9cc677873ddfabbf5b304da952e0ce4ae93ec4c5bd909f68c5724fdeda13",
+      "혼공독해교재_영어2_능률(오)_2과_03_워크북+변형문제.docx": "280bceecc4f4f3b406c8282f16b70a47471320321a968eb619561d22d6eea5d6",
+      "혼공독해교재_영어2_능률(오)_2과_04_실전모의.docx": "49f558f46a50c140626b182fff7d389e20f2b07f540f3f3f35b81daeffeae52f",
+      "혼공독해교재_영어2_능률(오)_2과_05_정답해설지.docx": "36b8727d2f58b3bbddc72c7a3b9aed1591a6aa564d7b279548ffcaa9eb7236d5"
+    }
+  },
+  "saved_validation": {
+    "status": "SPLIT_CONTENT_MATCH",
+    "errors": [],
+    "protected_paths": [
+      "/home/user/E2NEoh2/결과물/혼공독해교재_영어2_능률(오)_2과_전체통합본.docx",
+      "/home/user/E2NEoh2/작업/검사기록/04_문제FINAL_역할계획.json",
+      "/home/user/E2NEoh2/작업/출고/분권/혼공독해교재_영어2_능률(오)_2과_전체통합본.docx",
+      "/home/user/E2NEoh2/작업/출고/분권/혼공독해교재_영어2_능률(오)_2과_01_해석지.docx",
+      "/home/user/E2NEoh2/작업/출고/분권/혼공독해교재_영어2_능률(오)_2과_02_지문분석지.docx",
+      "/home/user/E2NEoh2/작업/출고/분권/혼공독해교재_영어2_능률(오)_2과_03_워크북+변형문제.docx",
+      "/home/user/E2NEoh2/작업/출고/분권/혼공독해교재_영어2_능률(오)_2과_04_실전모의.docx",
+      "/home/user/E2NEoh2/작업/출고/분권/혼공독해교재_영어2_능률(오)_2과_05_정답해설지.docx",
+      "/home/user/E2NEoh2/작업/출고/분권/혼공독해교재_영어2_능률(오)_2과.zip"
+    ],
+    "checked_volumes": [
+      "reading",
+      "analysis",
+      "workbook",
+      "mock",
+      "answers"
+    ],
+    "checked_docx_count": 6,
+    "integrated_copy": "BYTE_IDENTICAL",
+    "source_block_count": 24,
+    "delivery_zip": "SIX_DOCX_EXACT_BYTES",
+    "content_and_format_preservation": "EXACT_PARTITION",
+    "visual_review": "NOT_PERFORMED",
+    "release_authorization": "NOT_PERFORMED"
+  }
+}
