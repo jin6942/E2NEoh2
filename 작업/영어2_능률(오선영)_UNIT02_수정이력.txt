@@ -68,6 +68,13 @@
   s10 shaped ‘형성된’, s16 launch ‘시작하다, 개시하다’, s25 launched ‘개설된’, s23 participants ‘참여자들’(청크·자연 해석 포함),
   s31 with ‘~을 가진’·청크 ‘200만’·자연 해석 어순, s57 자연 해석 어순, It takes A B to V·notice A V-ing 슬롯 A(이/가),
   s46 that V′ ‘V′하는’, s60 힌트에 목적어 their time과 대명사 참조 포함, u4-gp3 V-ing·목적어 분리 대입,
-  u3-gp2·gp3·gp4 한 초점 정리, u3 흐름(전문가와의 협력) 도입 보강, s52·u4 쉬운 풀이 원문 밖 표현 정리, s38 seem 보어 포함 근거 기록, 오늘의 낱말 acknowledge 원형.
+  u3-gp2·gp3·gp4 한 초점 정리, u3 흐름(전문가와의 협력) 도입 보강, s52·u4 쉬운 풀이 원문 밖 표현 정리, s38 seem 보어 포함 근거 기록, 오늘의 낱말 acknowledge 원형(→ 반영(3)에서 규칙에 따라 acknowledged로 복원).
   문제: Q04 ③ promote를 배운 뜻(촉진하다)으로 교체, Q16 요약문 After, Q18 오답 ①, Q09 오답 ④ 근거 보강, Q09·Q23 오답 해설 번호 중복 표기 정리.
 - 사용자 판단 대기 10건(수정인계 참조) → 답을 받은 뒤 반영하고 학습 FINAL·문제 FINAL 재저장, L·Q 재확인, DOCX·분권·ZIP 갱신 예정.
+
+- 반영(2) 사용자 결정: ① STEVE 각주·자연 해석을 교과서 해석 “속도 증가에 따른 강한 열 방출”로 통일 ② 구문 대입 7곳(u1-gp1·gp2, u2-gp1·gp2, u3-gp1·gp2, u4-gp3) 낱말·목적어·수식어 분리 ③ s52 명사절 that 힌트 삭제(강조 구문 힌트만 유지, gp5 보충 사유 갱신) ④ s20 asked to V 묶기 시도 → 공통 검사 도구 오류(수동 p.p. 표제어는 실제형만)로 현행 유지 ⑤~⑦·⑩ 현행 유지 ⑧⑨ 공통 스킬 변경 사항이라 방법 선택 대기.
+  학습 FINAL fdb3ae3b… / 문제 FINAL 609e03d0… 저장 → L-A(u1·u2+연결)·L-B(u3·u4)·Q-3·N 재확인.
+- 반영(3) L-B 재확인 지적: R-1 오늘의 낱말 acknowledged / 인정했다 복원(workbook.md 34행: 오늘의 낱말은 실제형), R-2 s51 각주 제작 메모 삭제.
+  학습 FINAL 9fb62d37… / 문제 FINAL ee68e1f6… 최종 저장 → L-A·L-B·Q-3·N 최종 해시 기준 PASS.
+- DOCX patch(저장본 full 내용·서식 PASS, sha b0bc144c…), 분권 재생성 작업/출고/분권_재검수/(split verify PASS, ZIP sha 1cb1693a…), LibreOffice 예비 렌더 63쪽, check_release_text 경고 1건(R-0001 동일), R 재확인 내용 대응 PASS.
+- 검수 기록: L_A·L_B·L_continuity·L_bundle_재검수, Q_Q3(M 역할)·Q_N_재검수 작성(이전 기록은 이력으로 보존).

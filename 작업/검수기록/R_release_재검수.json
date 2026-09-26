@@ -1,0 +1,94 @@
+{
+ "id": "R-release-rereview",
+ "kind": "release",
+ "role": "R",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "claude-agent-R-release",
+ "execution_id": "subagent-a0a73f7822d85a6e6",
+ "performed_at": "2026-09-26T20:10:00Z",
+ "method": "재검수 출고 세트: ZIP 재개봉(엔트리·이름·바이트), 통합 DOCX↔학습/문제 FINAL 전수, 원문 PDF↔원고 전수, 01~04권 정답 혼입, 빠른 정답, R준비 경고 화면 확인, 수정인계 대조",
+ "summary": "내용 대응 PASS. 인계·이력 기록 지적 3건(F-1~F-3) 수정. Word 렌더·Word 기준 J/K 미실시",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4"
+  ],
+  "question_ids": [
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06",
+   "Q07",
+   "Q08",
+   "Q09",
+   "Q10",
+   "Q11",
+   "Q12",
+   "Q13",
+   "Q14",
+   "Q15",
+   "Q16",
+   "Q17",
+   "Q18",
+   "Q19",
+   "Q20",
+   "Q21",
+   "Q22",
+   "Q23",
+   "Q24",
+   "Q25"
+  ]
+ },
+ "bindings": {
+  "package_sha256": "4fcd6a2f2d6542160e46cc4cddd22129d67413f334cd82febdc6661d97b112c4",
+  "manuscript_sha256": "3f7e5391b2ef05450c7a90383e75a727dc3969074449f93c7cd08bcebf0611a3",
+  "plan_sha256": "797dabc38ac94b35a2aefa62d6c0a95b9303d1b3e020ab01ca36f1b747d8139b",
+  "contract_sha256": "a4028654fa35f7b70df2822900e2da4c8167bc1d8417ef9597ea192a0bb2096e",
+  "docx_sha256": "b0bc144c1b99ac0737b32c0efccac7d4cf743cad0bd3b454bbd5f4c923370188",
+  "pdf_sha256": "3a0e38907b17d752582b14486c5399c0013ee7096b37147a3d3421c909bcde4f",
+  "learning_final_sha256": "9fb62d371dd7d4b2f5e51aa4e712840e798f10c2b3fbd0fd1ee1acec990925d9",
+  "assessment_final_sha256": "ee68e1f64a2a5c30cc3de546aad8d608a3a95d5f6a815fee3e6e6e4bcf02fbfd",
+  "split_manifest_sha256": "7a438538ac7a92eaed4426122c3f2bfd82160ea960ddba6473e7bb98ef8dbf54",
+  "delivery_zip_sha256": "1cb1693a783553f354ec415ae16b3a2d2553142e41e6bffb2e7cef9ca337aac9"
+ },
+ "findings": [
+  {
+   "id": "F-1",
+   "description": "수정인계 FINAL 해시·분권 경로·R 결과가 옛 세트를 가리킴",
+   "status": "resolved",
+   "resolution": "현재 해시·분권_재검수 경로·재검수 R 결과로 갱신",
+   "recheck": "수정인계 현재본"
+  },
+  {
+   "id": "F-2",
+   "description": "수정이력 재검수 절에 반영(2)(3) 누락",
+   "status": "resolved",
+   "resolution": "반영(2)(3)과 재생성 내역 추가",
+   "recheck": "수정이력 현재본"
+  },
+  {
+   "id": "F-3",
+   "description": "수정인계 사용자 판단 10건 결정 결과 미기록",
+   "status": "resolved",
+   "resolution": "결정 결과 기록, ⑧⑨는 공통 스킬 변경 사항으로 사용자 답 대기(교재 내용 변경 없음)",
+   "recheck": "수정인계 현재본"
+  }
+ ],
+ "release_text_dispositions": {
+  "R-0001": {
+   "status": "resolved",
+   "resolution": "28쪽 52번 문장 각주 V-ing 줄 끝 하이픈에서 pdfium이 표시 문자를 반환한 추출 차이. DOCX·FINAL 정상, 인쇄면 V- / ing 확인, 기대·관찰 글자 수 94253 동일",
+   "recheck": "새 예비 PDF 28쪽 글자 상자 영역 확대 확인"
+  }
+ },
+ "unbound_note": "volume_set·pdf_set·word_renders·word_page_map은 Microsoft Word 분권 렌더가 있어야 계산되므로 미연결(Word 미실시)"
+}

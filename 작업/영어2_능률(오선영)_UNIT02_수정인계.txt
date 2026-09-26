@@ -6,14 +6,15 @@
   - 근거: 2026-09-26 사용자 선택 “4단위 (추천)” (무소제목 짧은 단락 p01·p10 단독 단위)
 [파일명 약칭] 능률(오) — 2026-09-26 사용자 선택
 
-[현재 단계] 재검수 반영 중 — 확실한 수정은 원고에 반영(FINAL·DOCX 재저장 전), 사용자 판단 10건 대기
-[사용자 판단 대기] ① STEVE 풀이(교과서 ‘속도 증가에 따른 강한 열 방출’) ② 구문 대입 방식(V′·V-ing 자리 낱말/목적어 분리, 7곳) ③ s52 힌트 겹침 ④ s20 asked to V 각주 묶음 ⑤ 두 번째 기능 결합 힌트 기준 ⑥ u3 기본 구문 had p.p. 선정 ⑦ these two projects ⑧ 공통 안내 ★핵심 설명 ⑨ 워크북 5번 답안선 줄 수 ⑩ 실전문제 지문 출처 표시
+[현재 단계] 재검수 반영 완료(최종본 기준 L-A·L-B·Q-3·N·R PASS) · 출고 판정은 Word 렌더·Word 조판(J/K) 미실시로 대기
+[재검수 사용자 결정(2026-09-26)] ① STEVE 교과서 해석 통일(반영) ② 구문 대입 7곳 분리(반영) ③ s52 명사절 힌트 삭제(반영) ④ s20 asked to V 묶기: 사용자 B 선택, 공통 검사 도구가 수동 p.p. 표제어 확장을 금지해 현행 분리 유지(도구 제약, 스킬 개선 과제) ⑤ 두 번째 기능 결합 힌트: 현행 유지 ⑥ u3 had p.p.: 유지 ⑦ these two projects: 유지 ⑩ 실전문제 지문 출처: 규칙대로 미표시
+[사용자 답 대기] ⑧ 공통 안내 ★핵심 설명 추가·⑨ 워크북 5번 답안선 2줄: 공통 스킬(MASTER·계약) 변경 사항 → 반영 방법 A(스킬 수정안만 전달, 이 교재 현행 유지, 추천)/B(이 환경 스킬 사본 수정 후 재조판) 선택 대기
 [통합 DOCX] 결과물/혼공독해교재_영어2_능률(오)_2과_전체통합본.docx (학습+워크북+모의고사+정답해설 전체 반영, BUILT_NOT_FINAL)
 [원고] 작업/영어2_능률(오)_UNIT02_원고.json (작성 모듈 작업/u1~u4.py → make_manuscript.py로 생성)
 [QC] 작업/영어2_능률(오선영)_UNIT02_QC_HANDOFF.txt (학습) / 작업/영어2_능률(오선영)_UNIT02_문제_QC_HANDOFF.txt (문제, 교사용 진단 포함)
-[FINAL] 작업/영어2_능률(오선영)_UNIT02_FINAL.txt (S·L 독립 검수 반영, 오늘의 낱말 교체 후 L 재확인 PASS · sha 74df6029…)
-[검수 기록] 작업/검수기록/S_source.json, L_bundle.json(+L_u1u4·L_u2·L_u3·L_continuity), Q_M.json, Q_N.json
-[문제 FINAL] 작업/영어2_능률(오선영)_UNIT02_문제_FINAL.txt (sha 869b57f5…)
+[FINAL] 작업/영어2_능률(오선영)_UNIT02_FINAL.txt (재검수 반영 최종 · sha 9fb62d37…)
+[검수 기록] 현재 유효: S_source.json, L_bundle_재검수.json(+L_A·L_B·L_continuity_재검수), Q_Q3.json(M 역할), Q_N_재검수.json, R_release_재검수.json · 이력 보존: L_bundle·L_u*·L_continuity·Q_M·Q_N·R_release(재검수 전)
+[문제 FINAL] 작업/영어2_능률(오선영)_UNIT02_문제_FINAL.txt (재검수 반영 최종 · sha ee68e1f6…)
 
 [부분별 상태]
 | 부분 | 제작 | 독립 검수 | DOCX 반영 |
@@ -25,10 +26,10 @@
 [미해결] 없음
 [현행 유지(검수자 수용)] ① 결론 단락 지문(Q01·Q09·Q14·Q19)의 “these two projects”가 발췌 밖 Galaxy Zoo를 함께 가리킴: 원문 표현·정답 무관·원문 삭제 금지 ② 회차 안 내용 문항끼리 부분 중복: 본문 길이상 불가피, 정답 노출 없음 ③ Q12 발문 조사 ‘coats가’(발음 [코츠] 기준, 근거 작업/검수입력/Q_compare_재확인.json·N 대조 보고 수용) ④ Q07 분량 경계 124단어(표본 최소 122 이상, 같은 회차 Q06과 겹치지 않도록 범위 유지, M 재확인 수용)
 [다음 조치] Word 환경에서 전체통합본·분권 5권 렌더 → Word 기준 J/K 조판 검수(아래 Word 확인 대기 항목) → 필요 시 장문 세트 passage_group 이동 → 분권 재추출 → R 바인딩 갱신 → verify_split_release 재실행
-[출고 기록] 작업/검수기록/출고기록.json → 검증 결과 작업/출고/출고검증.json: S·L·M·N 연결 통과, 남은 항목은 Word 렌더(통합·분권)·word_layout 검수 부재와 이에 따른 R 바인딩(volume_set·pdf_set·word_renders·word_page_map) 미연결뿐
-[분권·ZIP] 작업/출고/분권/ (전체통합본+01~05권, 혼공독해교재_영어2_능률(오)_2과.zip: DOCX 6개, split verify SPLIT_CONTENT_MATCH·EXACT_PARTITION)
+[출고 기록] 현재: 작업/검수기록/출고기록_재검수.json → 검증 작업/출고/출고검증_재검수.json: S·L·M·N 기록 연결 통과, 남은 항목은 Word 렌더(통합·분권)·word_layout 검수 부재와 그에 따른 R 바인딩(volume_set·pdf_set·word_renders·word_page_map) 미연결뿐 · 이전 기록 출고기록.json은 이력
+[분권·ZIP] 작업/출고/분권_재검수/ (전체통합본+01~05권, 혼공독해교재_영어2_능률(오)_2과.zip sha 1cb1693a…, SPLIT_CONTENT_MATCH·EXACT_PARTITION) · 이전 세트 작업/출고/분권/은 이력
 [Word 확인 대기] ① 전 페이지 Word 렌더(환경에 Word 없음) ② 3회 장문 세트(6~7번)가 LibreOffice 예비 렌더에서 48/49쪽으로 갈림 → Word에서 같으면 layout_adjustments의 passage_group 이동 필요 ③ 28쪽 각주 “V-ing” 줄 끝 분리(LibreOffice) ④ 1회 장문 세트(6~7번)도 예비 렌더 42/43쪽 분리(J 발견) ⑤ 6쪽 문단1 분석 유반 3줄 넘침(승인된 분석 설명부 소폭 조정 대상 여부) ⑥ 유반 9항목 표 빈 칸의 답안선(7·21·33·39쪽) 디자인 확인
-[6단계 예비 검수] J(통합본 63쪽)·K(분권 5권) LibreOffice 예비 조판: 겹침·잘림·누락·정답 혼입 없음, 장문 세트 분리 2건 Word 확인 대기 / R 내용 대응 PASS(ZIP 6개·FINAL 대조·정답 분리·빠른 정답), R-0001 resolved
+[6단계 예비 검수] J·K LibreOffice 예비 조판(재검수 전 세트 기준, 쪽 흐름 변화 없음 63쪽): 겹침·잘림·누락·정답 혼입 없음, 장문 세트 분리 2건 Word 확인 대기 / R 내용 대응: 재검수 세트 기준 PASS, R-0001 resolved
 [문제 편성표] 워크북 4 + 미니 모의고사 7문항×3회 = 25문항 (정답 분포 ①3 ②7 ③5 ④5 ⑤5)
 | 문항 | 세트 | 유형 | 원문 범위 | 정답 |
 | Q01 | 워크북 문단1 | 요지 | 50~60 | ③ |
