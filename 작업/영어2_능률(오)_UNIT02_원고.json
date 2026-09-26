@@ -1380,8 +1380,8 @@
     },
     {
      "id": "u3-w5",
-     "text": "acknowledge",
-     "meaning_ko": "인정하다",
+     "text": "acknowledged",
+     "meaning_ko": "인정했다",
      "source_gloss_id": "s52-g03"
     },
     {
@@ -21335,7 +21335,7 @@
       ]
      ],
      "headword": "Strong Thermal Emission Velocity Enhancement",
-     "meaning_ko": "속도 증가에 따른 강한 열 방출 (STEVE의 각 글자가 나타내는 말, 교과서 해석)",
+     "meaning_ko": "속도 증가에 따른 강한 열 방출 (STEVE의 각 글자가 나타내는 말)",
      "star": false
     }
    ],

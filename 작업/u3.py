@@ -557,7 +557,7 @@ def sentences(T):
     s.g('stands|for', 'stand for', '~을 의미하다, ~을 나타내다', verb_form={'usage': 'third-person-singular',
         'source_span': s.span_of('stands'), 'lemma': 'stand', 'review_record': '주어 it(3인칭 단수)의 일반동사 stands → 원형 stand.'})
     s.g('Strong Thermal Emission Velocity Enhancement', 'Strong Thermal Emission Velocity Enhancement',
-        '속도 증가에 따른 강한 열 방출 (STEVE의 각 글자가 나타내는 말, 교과서 해석)', proper=True)
+        '속도 증가에 따른 강한 열 방출 (STEVE의 각 글자가 나타내는 말)', proper=True)
     s.vf_hint(fn=f, lex=wr, en='is now written', ko='이제 쓰인다', formula='be p.p.', step_form='written', step_ko='쓰인',
               en_mark=['is'], ko_mark=['인다'], span='it is now written', meaning='이제 (모두 대문자로) 쓰인다',
               explanation='빈 힌트 문장의 수동태 후보: is now written(현재 수동). 표시 범위 안 부사 now 보존, 주어와 in all capital letters 제외.')
@@ -707,7 +707,7 @@ UNIT = {
         {'id': W['phenomenon'], 'text': 'phenomenon', 'meaning_ko': '현상'},
         {'id': W['possess'], 'text': 'possess', 'meaning_ko': '지니다, 가지다'},
         {'id': W['resemble'], 'text': 'resemble', 'meaning_ko': '닮다, 비슷하다'},
-        {'id': W['acknowledged'], 'text': 'acknowledge', 'meaning_ko': '인정하다'},
+        {'id': W['acknowledged'], 'text': 'acknowledged', 'meaning_ko': '인정했다'},
         {'id': W['dedicated'], 'text': 'dedicated', 'meaning_ko': '헌신적인'},
         {'id': W['deserve'], 'text': 'deserve', 'meaning_ko': '~을 받을 만하다'},
         {'id': W['confirm'], 'text': 'confirm', 'meaning_ko': '확인하다'},
