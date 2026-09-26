@@ -103,14 +103,14 @@ q(id='Q04', set_id='workbook', number=4, unit_id='u4', type='주장', first='s01
   question='다음 글에서 필자가 주장하는 바로 가장 적절한 것은?',
   choices=['Only professional scientists should be trusted to advance science.',
            'The ideas of amateurs are worthless unless experts check them first.',
-           'Scientists in lab coats should promote their work to ordinary people.',
+           'Only laboratory experiments can promote real scientific progress.',
            'Amateurs as well as experts can help advance science in valuable ways.',
            'Citizen science projects tend to hinder real scientific progress.'],
   answer=4,
   uses=[('u4-r2h', 1, 'professional', '전문 과학자만 신뢰해야 한다는 주장이 필자의 생각과 반대임을 알아야 함'),
         ('u4-r3h', 1, 'advance', '과학을 발전시키는 주체가 누구인지 판단하는 핵심어'),
         ('u4-r1a', 2, 'worthless', 'valuable과 반대되는 worthless가 필자의 생각과 어긋남'),
-        ('u4-r3s', 3, 'promote', '홍보·촉진(promote)이 필자의 주장과 무관함을 판단해야 함'),
+        ('u4-r3s', 3, 'promote', '과학의 진보를 촉진하는(promote) 주체를 실험실 실험으로만 한정하는 말이 필자의 주장과 어긋남을 판단해야 함'),
         ('u4-r2a', 4, 'Amateurs', '전문가가 아닌 사람(아마추어)도 주체라는 주장의 핵심어'),
         ('u4-r2s', 4, 'experts', '전문가만이 아니라는 대비의 핵심어'),
         ('u4-r3h', 4, 'advance', '과학을 발전시키는 일에 누구나 참여할 수 있다는 핵심어'),
@@ -120,12 +120,12 @@ q(id='Q04', set_id='workbook', number=4, unit_id='u4', type='주장', first='s01
   explanation='과학이 흰 가운을 입은 과학자만의 영역이라는 생각은 사실과 거리가 멀고, 과학은 모두의 것이며 누구나 과학 발전에 한몫할 수 있다고 주장한다. 뒤의 Schawinski 이야기는 이를 보여 줄 시민 과학 사례의 시작이다. 따라서 ④가 필자의 주장이다.',
   choices_ko=['전문 과학자들만이 과학을 발전시킬 것으로 신뢰받아야 한다.',
               '아마추어의 생각은 전문가가 먼저 확인하지 않으면 가치가 없다.',
-              '실험실 가운을 입은 과학자들은 평범한 사람들에게 자신들의 연구를 홍보해야 한다.',
+              '실험실 실험만이 진정한 과학의 진보를 촉진할 수 있다.',
               '전문가뿐만 아니라 아마추어도 귀중한 방식으로 과학의 발전을 도울 수 있다.',
               '시민 과학 프로젝트는 실제 과학의 진보를 방해하는 경향이 있다.'],
   wrong={1: '과학은 모두의 것이라는 필자의 주장과 정반대다.',
          2: '아마추어의 생각을 전문가가 확인해야 한다는 내용은 본문에 없고, 필자는 누구나 기여할 수 있다고 본다.',
-         3: '과학자의 홍보에 관한 내용은 본문에 없다.',
+         3: '필자는 실험실 밖의 평범한 사람들도 과학 발전에 한몫할 수 있다고 했으므로, 실험실 실험만이 진보를 촉진한다는 말은 반대다.',
          5: '필자는 평범한 사람들이 놀라운 과학적 업적에 기여한 시민 과학 프로젝트가 많았다고 했으므로 반대 내용이다. 뒤의 Schawinski 이야기도 그 사례를 소개하기 위한 것이다.'})
 
 # ---------------------------------------------------------------- 미니 모의고사 1회
@@ -209,10 +209,10 @@ q(id='Q09', set_id='mock1', number=5, type='삽입', first='s50', last='s60', gi
   answer=2,
   evidence='Experts have acknowledged that it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE. + If it had not been for them(= the dedicated members) …',
   explanation='주어진 문장의 them은 STEVE 발견의 공로를 인정받는 오로라 추적자 단체의 헌신적인 구성원들을 가리킨다. 그들이 없었다면 STEVE가 영원히 알려지지 않았을 것이라는 내용은 공로를 인정했다는 문장 바로 뒤인 ②에 들어가야 한다.',
-  wrong={1: '①의 앞 문장은 이름(it)이 대문자로 쓰이고 무엇을 뜻하는지 설명한다. 여기에 넣으면 주어진 문장의 it이 현상이 아니라 이름을 가리키게 되고, them이 가리킬 오로라 추적자들도 두 문장 앞에 떨어져 있어 연결되지 않는다. 또 전문가들이 공로를 인정했다는 근거보다 먼저 나오게 된다.',
-         3: '③의 앞 문장은 STEVE에 관한 이론이 증명되지 않았다는 내용이라 공로를 강조하는 주어진 문장이 이어지기 어색하다.',
-         4: '④ 앞에서는 과학자와 시민의 협력을 말하고 뒤에서는 두 프로젝트 참여자 전체로 넘어가므로 주어진 문장이 끼어들 자리가 아니다.',
-         5: '⑤ 앞뒤는 시민 과학자가 누구인지 설명하는 흐름이라 STEVE 발견자를 가리키는 them이 들어갈 수 없다.'})
+  wrong={1: '이 자리의 앞 문장은 이름(it)이 대문자로 쓰이고 무엇을 뜻하는지 설명한다. 여기에 넣으면 주어진 문장의 it이 현상이 아니라 이름을 가리키게 되고, them이 가리킬 오로라 추적자들도 두 문장 앞에 떨어져 있어 연결되지 않는다. 또 전문가들이 공로를 인정했다는 근거보다 먼저 나오게 된다.',
+         3: '이 자리의 앞 문장은 STEVE에 관한 이론이 증명되지 않았다는 내용이라 공로를 강조하는 주어진 문장이 이어지기 어색하다.',
+         4: '이 자리에 넣으면 them이 바로 앞의 Scientists and citizens를 가리키게 된다. 그들은 이미 발견된 STEVE를 함께 연구하고 있으므로 ‘영원히 알려지지 않은 채로 남았을 것’이라는 내용과 맞지 않고, 공로를 인정한 문장과도 떨어진다.',
+         5: '이 자리의 앞뒤는 시민 과학자가 누구인지 설명하는 흐름이라 STEVE 발견자를 가리키는 them이 들어갈 수 없다.'})
 
 q(id='Q10', set_id='mock1', number=6, type='제목', first='s01', last='s13', group='G1',
   question='윗글의 제목으로 가장 적절한 것은?',
@@ -318,7 +318,7 @@ q(id='Q15', set_id='mock2', number=4, type='무관한 문장', first='s24', last
          5: '③의 가정에 이어 혼자서는 수십 년이 걸렸을 것이라고 덧붙인다.'})
 
 q(id='Q16', set_id='mock2', number=5, type='요약', first='s34', last='s49',
-  summary='When aurora chasers noticed a(n) (A) light in the night sky that even experts could not explain, NASA supported a project that depends on the (B) of ordinary people.',
+  summary='After aurora chasers spotted a(n) (A) light in the night sky that even experts could not explain, NASA supported a project that depends on the (B) of ordinary people.',
   question='다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?',
   choices=['familiar …… participation',
            'mysterious …… criticism',
@@ -361,7 +361,7 @@ q(id='Q18', set_id='mock2', number=7, type='어휘', first='s07', last='s23', gr
   answer=2,
   evidence='with a very basic design and an easy-to-use interface. This allowed those who wanted to participate to get started quickly.',
   explanation='웹사이트는 매우 기본적인 디자인과 사용하기 쉬운 인터페이스를 갖추어 참여자들이 빨리 시작할 수 있었다. 따라서 ②의 complicated(복잡한)는 문맥에 맞지 않고 simple(단순한)이 되어야 한다.',
-  wrong={1: '따분하고 시간이 많이 걸리는 일을 앞두고 친구에게 그 상황을 불평했다(complained)는 흐름에 맞다.',
+  wrong={1: '따분하고 시간이 많이 걸리는 일 때문에 친구에게 그 상황을 불평했다(complained)는 흐름에 맞다.',
          3: '단순한 웹사이트 덕분에 빨리(quickly) 시작할 수 있었다는 흐름에 맞다.',
          4: '빨리 시작할 수 있도록 간단한(brief) 사용 지침으로 새 방문자를 맞이했다는 흐름에 맞다.',
          5: '사용 지침과 약간의 연습을 마친 뒤 효과적으로(effectively) 분류할 수 있었다는 흐름에 맞다.'})
@@ -442,10 +442,10 @@ q(id='Q23', set_id='mock3', number=5, type='삽입', first='s24', last='s33', gi
   answer=2,
   evidence='they made more than 75 million classifications. + If it had not been for those participants … + In fact, it would have taken him decades on his own.',
   explanation='주어진 문장은 참여자들이 없었다면 그렇게 많은 이미지를 분류할 수 없었을 것이라는 가정이다. 7,500만 건의 분류를 해냈다는 문장 뒤, 그리고 ‘사실 혼자서는 수십 년이 걸렸을 것’이라는 문장 앞인 ②에 들어가야 In fact가 자연스럽게 이어진다.',
-  wrong={1: '①에 넣으면 ‘그렇게 많은 이미지(that many images)’가 가리킬 7,500만 건의 분류보다 앞에 놓이고, 주어진 문장을 이어받는 In fact 문장과도 떨어져 연결이 끊긴다.',
-         3: '③에 넣으면 그 앞의 In fact, it would have taken him …에서 him이 가리킬 Schawinski가 아직 나오지 않아 연결이 끊기고, 뒤는 2007년 이후 15년이 흘렀다는 새로운 화제다.',
-         4: '④ 앞뒤는 Zooniverse의 현재 모습에 관한 내용이라 맞지 않는다.',
-         5: '⑤ 앞뒤도 Zooniverse의 활동과 프로젝트 소개라 참여자 가정이 들어갈 자리가 아니다.'})
+  wrong={1: '이 자리에 넣으면 ‘그렇게 많은 이미지(that many images)’가 가리킬 7,500만 건의 분류보다 앞에 놓이고, 주어진 문장을 이어받는 In fact 문장과도 떨어져 연결이 끊긴다.',
+         3: '이 자리에 넣으면 그 앞의 In fact, it would have taken him …에서 him이 가리킬 Schawinski가 아직 나오지 않아 연결이 끊기고, 뒤는 2007년 이후 15년이 흘렀다는 새로운 화제다.',
+         4: '이 자리의 앞뒤는 Zooniverse의 현재 모습에 관한 내용이라 맞지 않는다.',
+         5: '이 자리의 앞뒤도 Zooniverse의 활동과 프로젝트 소개라 참여자 가정이 들어갈 자리가 아니다.'})
 
 q(id='Q24', set_id='mock3', number=6, type='제목', first='s42', last='s55', group='G3',
   question='윗글의 제목으로 가장 적절한 것은?',

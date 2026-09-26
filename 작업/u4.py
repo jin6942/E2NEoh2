@@ -44,7 +44,7 @@ def sentences(T):
     s.ch('who desire to help advance science', '과학을 발전시키는 것을 돕기를 바라는')
     s.ch('in areas', '분야들에서')
     s.ch('that they are interested in.', '그들이 관심 있는.')
-    s.natural('대신, 그들은 시민 과학자들인데, 그들은 자신이 관심 있는 분야에서 과학의 발전을 돕고자 하는 평범한 사람들이다.')
+    s.natural('대신 그들은 시민 과학자, 즉 자신이 관심 있는 분야에서 과학의 발전을 돕고자 하는 평범한 사람들이다.')
     s.cl('main', 'they', subj='they', verbs=['are'])
     s.cl('subject_relative', 'who', verbs=['desire'], marker='who')
     s.cl('subordinate', 'that', subj='they', verbs=['are'], marker='that')
@@ -178,9 +178,10 @@ def sentences(T):
     s.g('world', 'world', '세상')
     s.brk('by', 'passive-agent-by', '수동 could be made의 행위자(누구에 의해)를 나타내는 by 구')
     s.prot('for the purpose of', 'fixed-expression', 'for the purpose of V-ing 숙어를 끊지 않음')
-    s.hint('citizen scientists [volunteering]', '[자발적으로 내는] 시민 과학자들', span='citizen scientists volunteering',
-           label='현재분사 후치수식', links=[(['ing'], ['는'])], meaning='(자신의 시간을) 자발적으로 내는 시민 과학자들',
-           explanation='현재분사 volunteering이 이끄는 구가 앞 명사 citizen scientists를 뒤에서 꾸민다. 목적어 their time 이하는 표시에서 제외.')
+    s.hint('citizen scientists [volunteering their time]', '[그들[시민 과학자들]의 시간을 자발적으로 내는] 시민 과학자들', span='citizen scientists volunteering their time',
+           label='현재분사 후치수식', links=[(['ing'], ['는'])], refs=[('their', '그들', '[시민 과학자들]')],
+           meaning='자신들의 시간을 자발적으로 내는 시민 과학자들',
+           explanation='현재분사 volunteering이 이끄는 구가 앞 명사 citizen scientists를 뒤에서 꾸민다. 분사 volunteer가 무엇을 내는지 알도록 목적어 their time까지 표시.')
     s.vf_hint(fn=f, lex=md, en='could be made', ko='이루어질 수도 있다', formula='could be p.p.', step_form='made', step_ko='이루어진',
               en_mark=['could be'], ko_mark=['질 수도 있다'], span='The next great scientific achievement could be made',
               meaning='이루어질 수도 있다',
@@ -223,19 +224,19 @@ def analysis(_):
             {'sentence_id': 's57', 'explanatory_sentences': [
                 '57번 문장은 56번에서 말한 참여자들이 어떤 사람들인지 알려 준다.',
                 '그들은 전문 과학자가 아니라 시민 과학자다.',
-                '시민 과학자는 직업은 달라도 자기가 좋아하는 분야에서 과학을 돕고 싶어 하는 보통 사람이다.',
+                '시민 과학자는 과학자가 직업은 아니지만, 자기가 관심 있는 분야에서 과학을 돕고 싶어 하는 보통 사람이다.',
                 '은하 사진을 분류한 사람들과 오로라 사진을 찍은 사람들이 바로 그런 예다.']},
             {'sentence_id': 's58', 'explanatory_sentences': [
                 '58번 문장은 글 맨 처음에 나온 ‘흰 가운을 입은 과학자’ 모습을 다시 꺼낸다.',
                 '시민 과학자에게는 과학 학위도, 흰 가운도 없을 수 있다.',
-                '그래도 과학에 도움이 되는 일을 충분히 할 수 있다.',
-                '글 처음의 흔한 생각이 틀렸다는 것을 이 문장에서 확실히 정리한다.']},
+                '그래도 과학에 귀중한 도움을 줄 수 있다.',
+                '글 처음의 흔한 생각이 사실과 다르다는 것을 이 문장이 다시 보여 준다.']},
             {'sentence_id': 's60', 'explanatory_sentences': [
                 '60번 문장은 글 전체를 마무리하며 앞으로의 가능성을 말한다.',
                 '다음에 나올 위대한 과학적 업적은 시민 과학자들이 이룰 수도 있다.',
                 '시민 과학자들은 돈을 받지 않고 자기 시간을 내어 참여한다.',
                 '그 이유는 세상을 더 잘 이해하고 싶기 때문이다.',
-                '‘할 수도 있다(could)’라고 했으므로 꼭 그렇게 된다는 뜻은 아니다.']},
+                '앞으로 그렇게 될 가능성이 있다는 말이다.']},
         ],
         'grammar_points': [
             {'id': 'u4-gp1', 'sentence_id': 's57', 'span': 'areas that they are interested in',
@@ -258,7 +259,7 @@ def analysis(_):
                           'answer_ko': '비록 시민 과학자들이 과학 학위를 가지고 있지 않을 수도 있지만'}},
             {'id': 'u4-gp3', 'sentence_id': 's60', 'span': 'citizen scientists volunteering their time',
              'title': '명사 + V-ing: ~하는 명사 (현재분사 후치수식)', 'formula_key': 'N + V-ing',
-             'explanation': '공식: 명사(N) + V-ing — ~하는 N. N = citizen scientists(시민 과학자들), V-ing = volunteering their time(자신들의 시간을 자발적으로 내다). '
+             'explanation': '공식: 명사(N) + V-ing — ~하는 N. N = citizen scientists(시민 과학자들), V-ing = volunteering(자발적으로 내다), 목적어 = their time(자신들의 시간). '
                             '→ 자신들의 시간을 자발적으로 내는 시민 과학자들.',
              'practice': {'span': 'citizen scientists volunteering their time',
                           'formula_support': {'en': 'N + V-ing', 'ko': '~하는 N'},

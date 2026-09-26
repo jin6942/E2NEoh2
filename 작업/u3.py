@@ -102,7 +102,7 @@ def sentences(T):
     s.g('began|to', 'begin to V', '~하기 시작하다 (began은 begin의 과거)',
         verb_construction={'kind': 'to-complement', 'verb_span': s.span_of('began'), 'lemma': 'begin',
                            'link_spans': [s.span_of('to')], 'review_record': 'began to notice: begin의 목적어 to V.'})
-    nt = s.g('notice', 'notice A V-ing', 'A가 ~하는 것을 알아채다',
+    nt = s.g('notice', 'notice A V-ing', 'A(이/가) ~하는 것을 알아채다',
              verb_construction={'kind': 'verb-frame', 'verb_span': s.span_of('notice'), 'lemma': 'notice', 'link_spans': [],
                                 'review_record': 'notice something strange appearing: A=something strange, V-ing=appearing(목적격 보어). V-ing 연결은 이 구문이 제공.'})
     s.g('something', 'something', '무언가')
@@ -152,7 +152,7 @@ def sentences(T):
     s.hint('ribbons of green and purple light, [some of which seemed to stretch]', '녹색과 보라색 빛의 띠들, [그리고 그중 일부는 뻗어 있는 것처럼 보였다]',
            span='ribbons of green and purple light, some of which seemed to stretch', label='관계대명사 some of which',
            links=[(['some of which'], ['그리고 그중 일부는'])], meaning='그리고 그 띠들 중 일부는 뻗어 있는 것처럼 보였다',
-           explanation='some of which: which는 앞의 unusual ribbons(빛의 띠들)를 받고 some of가 붙어 ‘그중 일부’가 주어 역할. seem to V는 보충 to V까지 함께 보여야 뜻이 잡혀 포함.')
+           explanation='some of which: which는 앞의 unusual ribbons(빛의 띠들)를 받고 some of가 붙어 ‘그중 일부’가 주어 역할. seem to V는 보충 to V까지 함께 보여야 뜻이 잡혀 포함(be 동사의 최소 보어 예외를 준용).')
     s.relative_ids = [rel['id']]
     s.review = ('유도부사 There + were, 주어 unusual ribbons of green and purple light(표시는 중심명사까지). '
                 'some of which 관계절(which=ribbons) 필수 힌트. thousands of 수량 표현 보호. 수동 없음.')
@@ -421,7 +421,7 @@ def sentences(T):
     link(f, dc)
     q = s.g('a new type of', 'a new type of', '새로운 유형의')
     s.g('phenomenon', 'phenomenon', '현상', star=W['phenomenon'], at=s.text.index('phenomenon'))
-    rel = s.g('that', 'that V′', 'V′한 (관계대명사)', at=s.text.index('that had never'))
+    rel = s.g('that', 'that V′', 'V′하는 (관계대명사)', at=s.text.index('that had never'))
     f2 = s.g('had|been', 'had been p.p.', '~되었다', kind='function', combines_with=[], at=s.text.index('had never'))
     s.g('never', 'never', '한 번도 ~않다')
     s.g('properly', 'properly', '제대로')
@@ -710,7 +710,7 @@ UNIT = {
         {'id': W['phenomenon'], 'text': 'phenomenon', 'meaning_ko': '현상'},
         {'id': W['possess'], 'text': 'possess', 'meaning_ko': '지니다, 가지다'},
         {'id': W['resemble'], 'text': 'resemble', 'meaning_ko': '닮다, 비슷하다'},
-        {'id': W['acknowledged'], 'text': 'acknowledged', 'meaning_ko': '인정했다'},
+        {'id': W['acknowledged'], 'text': 'acknowledge', 'meaning_ko': '인정하다'},
         {'id': W['dedicated'], 'text': 'dedicated', 'meaning_ko': '헌신적인'},
         {'id': W['deserve'], 'text': 'deserve', 'meaning_ko': '~을 받을 만하다'},
         {'id': W['confirm'], 'text': 'confirm', 'meaning_ko': '확인하다'},
@@ -730,7 +730,7 @@ def analysis(_):
             {'sentence_ids': [f's{n}' for n in range(37, 42)], 'label': '발견',
              'text_ko': '2014년 여름, 그들은 오로라와 비슷하지만 다른 특징을 지닌 녹색·보라색 빛의 띠를 보았고, 영화 장면을 따서 ‘Steve’라는 이름을 붙였다.'},
             {'sentence_ids': [f's{n}' for n in range(42, 50)], 'label': '전문가와의 협력',
-             'text_ko': '전문가들도 Steve가 무엇인지 몰랐고 제대로 연구된 적 없는 새로운 현상임을 깨달았다. 그래서 NASA는 대중의 사진을 모으는 시민 과학 프로젝트를 지원했고, 이 프로젝트는 지금도 진행 중이다.'},
+             'text_ko': '추적자들은 대학 교수와 NASA 과학자에게 사진을 보여 주었지만, 전문가들도 Steve가 무엇인지 몰랐고 제대로 연구된 적 없는 새로운 현상임을 깨달았다. 그래서 NASA는 대중의 사진을 모으는 시민 과학 프로젝트를 지원했고, 이 프로젝트는 지금도 진행 중이다.'},
             {'sentence_ids': [f's{n}' for n in range(50, 56)], 'label': '의의',
              'text_ko': '처음 발견한 사람들을 기려 이름은 STEVE로 유지되었고, 전문가들도 그 공로를 인정했다. 아직 밝혀지지 않은 수수께끼를 과학자와 시민이 함께 풀어 가고 있다.'},
         ],
@@ -747,7 +747,7 @@ def analysis(_):
             {'sentence_id': 's52', 'explanatory_sentences': [
                 '52번 문장은 이 발견의 공로가 누구에게 있는지 밝힌다.',
                 '전문 과학자들이 STEVE를 처음 발견한 것이 아니다.',
-                '몇 년 동안 꾸준히 사진을 찍고 알린 오로라 추적자들 덕분에 STEVE가 알려졌다.',
+                '몇 년 동안 꾸준히 사진을 찍고 전문가에게 보여 준 오로라 추적자들 덕분에 STEVE가 알려졌다.',
                 '그래서 전문가들도 그 공로가 추적자들에게 있다고 인정했다.',
                 '이 점이 ‘시민도 과학에 기여할 수 있다’는 글 전체의 생각을 뒷받침한다.']},
         ],
@@ -768,7 +768,7 @@ def analysis(_):
              'title': 'It is A that V′: V′하는 것은 바로 A이다 (강조 구문)', 'formula_key': 'It is A that V′',
              'explanation': '공식: It is A that V′ — V′하는 것은 바로 A이다. A = the dedicated members of the aurora chasers group(오로라 추적자 단체의 헌신적인 구성원들), '
                             'V′ = deserve the credit for discovering STEVE(STEVE를 발견한 공로를 받을 만하다). '
-                            '→ STEVE를 발견한 공로를 받을 만한 것은 바로 오로라 추적자 단체의 헌신적인 구성원들이다. that 뒤 동사가 deserves가 아닌 deserve인 것은 강조된 A(members)가 복수이기 때문이다.',
+                            '→ STEVE를 발견한 공로를 받을 만한 것은 바로 오로라 추적자 단체의 헌신적인 구성원들이다.',
              'practice': {'span': 'it is the dedicated members of the aurora chasers group that deserve the credit',
                           'formula_support': {'en': 'It is A that V′', 'ko': 'V′하는 것은 바로 A이다'},
                           'support': [('s52', 'dedicated'), ('s52', 'members'), ('s52', 'of'), ('s52', 'aurora chasers group'),
@@ -778,7 +778,7 @@ def analysis(_):
              'title': 'had p.p.: ~했다 (과거완료, 기준이 되는 과거보다 먼저)', 'formula_key': 'had p.p.',
              'explanation': '공식: had p.p. — ~했다. 과거의 한 시점(realized, 깨달았다)보다 먼저 일어난 일을 나타낸다. '
                             'had = 과거완료 표지, p.p. = discovered(discover의 p.p.형, 발견하다), 주어 = the group(그 단체), 목적어 = a new type of phenomenon(새로운 유형의 현상). '
-                            '→ (전문가들이 깨달은 것은) 그 단체가 새로운 유형의 현상을 발견했다는 것이다. 발견이 깨달음보다 먼저다.',
+                            '→ 그 단체가 새로운 유형의 현상을 발견했다. 발견이 깨달음(realized)보다 먼저 일어난 일이다.',
              'practice': {'span': 'the group had discovered a new type of phenomenon',
                           'formula_support': {'en': 'had p.p.', 'ko': '~했다'},
                           'support': [('s46', 'group'), ('s46', 'discover'), ('s46', 'a new type of'), ('s46', 'phenomenon')],
@@ -786,7 +786,7 @@ def analysis(_):
             {'id': 'u3-gp4', 'sentence_id': 's46', 'span': 'phenomenon that had never been properly studied',
              'title': 'had been p.p.: ~되었다 (과거완료 수동)', 'formula_key': 'had been p.p.',
              'explanation': '공식: had been p.p. — ~되었다(그때까지). had been = 과거완료 수동 표지, p.p. = studied(연구된), never = 한 번도 ~않다, properly = 제대로. '
-                            '→ 한 번도 제대로 연구된 적이 없는 (현상). 주격 관계대명사 that이 phenomenon을 받으므로 연구의 대상이 현상이다.',
+                            '→ 한 번도 제대로 연구된 적이 없는 (현상).',
              'supplemental': {'function': ('s46', 'had been p.p.', 0),
                               'reason': 's46의 had never been studied는 명사절 that·필수 관계사 힌트 2개로 결합 힌트를 둘 수 없고, 기본 분석에 had been p.p. 설명이 없어 대표 사례를 1회 보충'},
              'practice': {'span': 'had never been properly studied',

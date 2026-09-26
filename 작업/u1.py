@@ -40,7 +40,7 @@ def sentences(T):
     s.g('long', 'long', '긴')
     s.g('white', 'white', '흰')
     s.g('lab|coats', 'lab coats', '실험실 가운')
-    s.g('who', 'who V′', 'V′하는 (관계대명사)')
+    who = s.g('who', 'who V′', 'V′하는 (관계대명사)')
     s.g('spend', 'spend A V-ing', 'V-ing하면서 A(시간)를 보내다',
         verb_construction={'kind': 'verb-frame', 'verb_span': s.span_of('spend'), 'lemma': 'spend',
                            'link_spans': [], 'review_record': 'spend their days conducting…and analyzing…: A=their days, V-ing=conducting/analyzing. V-ing 연결 뜻은 이 구문이 제공하므로 V-ing 기능 각주를 따로 두지 않음.'})
@@ -63,7 +63,7 @@ def sentences(T):
            links=[(['who'], ['는'])],
            meaning='나날을 보내는, 길고 흰 실험실 가운을 입은 과학자들',
            explanation='선행사 scientists(사람)를 주격 관계대명사 who가 받아 뒤 절 spend their days …가 꾸민다. 주격이므로 V′ spend까지만 표시하고 목적어·V-ing는 제외.')
-    s.relative_ids = [s.glosses[19]['id']]
+    s.relative_ids = [who['id']]
     s.brk('in', 'postnominal-preposition', 'in long, white lab coats는 앞 명사 scientists를 뒤에서 꾸미는 전치사구', after=s.text.index('scientists'))
     s.review = ('When 부사절·주절·주격 관계절 who를 확인. reserved는 a domain을 꾸미는 독립 과거분사. '
                 'in long, white lab coats는 scientists 후치수식이라 in 앞에서 끊음. consider A as B는 목적어 it을 사이에 두므로 한 청크 유지. '
@@ -149,7 +149,9 @@ def sentences(T):
     s.ch('in which ordinary people have made contributions', '평범한 사람들이 기여를 해 온')
     s.ch('to remarkable scientific accomplishments.', '놀라운 과학적 업적들에.')
     s.natural('평범한 사람들이 놀라운 과학적 업적에 기여해 온 수많은 시민 과학 프로젝트들이 있었다.')
-    s.cl('main', 'There', subj='numerous citizen science projects', verbs=[], vfirst=['have', 'been'])
+    s.cl('main', 'There', subj='numerous citizen science projects in which ordinary people have made contributions to remarkable scientific accomplishments',
+         disp='numerous citizen science projects', disp_review='관계절 in which … 은 뒤수식이라 S 표시는 한정어+중심명사까지(전체 주어는 subject_spans에 보존)',
+         verbs=[], vfirst=['have', 'been'])
     s.cl('subordinate', 'in', subj='ordinary people', verbs=['have', 'made'], marker='in which')
     f1 = s.g('have', 'have p.p.', '~해 왔다', kind='function', combines_with=[])
     b = s.g('been', 'be', '있다 (been은 be의 p.p.형)',

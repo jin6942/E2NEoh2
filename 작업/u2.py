@@ -111,7 +111,7 @@ def sentences(T):
     s.g('similar', 'similar', '비슷한')
     f = s.g('were', 'be p.p.', '~되다', kind='function', combines_with=[])
     s.g('actually', 'actually', '실제로는')
-    sh = s.g('shaped', 'shaped', '(~한) 모양으로 만들어진', verb_form=pp('passive-participle', s, 'shaped', 'shape', f['id']))
+    sh = s.g('shaped', 'shaped', '(~한) 모양으로 형성된', verb_form=pp('passive-participle', s, 'shaped', 'shape', f['id']))
     link(f, sh)
     s.g('slightly', 'slightly', '약간, 조금')
     s.g('differently', 'differently', '다르게')
@@ -168,7 +168,7 @@ def sentences(T):
     s.ch('to classify just 50,000 galaxies.', '고작 5만 개의 은하를 분류하는 데.')
     s.natural('Schawinski가 고작 5만 개의 은하를 분류하는 데 꼬박 일주일이 걸렸다.')
     s.cl('main', 'It', subj='It', verbs=['took'])
-    s.g('It|took|to', 'It takes A B to V', 'A가 ~하는 데 B(시간)가 걸리다 (took은 take의 과거)')
+    s.g('It|took|to', 'It takes A B to V', 'A(이/가) ~하는 데 B(시간)가 걸리다 (took은 take의 과거)')
     s.g('whole', 'whole', '꼬박, 전체의')
     s.g('week', 'week', '일주일')
     s.g('classify', 'classify', '분류하다', star=W['classify'])
@@ -262,7 +262,7 @@ def sentences(T):
     s.g('two', 'two', '두')
     s.g('men', 'men', '남자들')
     s.g('ended|up', 'end up V-ing', '결국 ~하게 되다', verb_form=pp('regular-past', s, 'ended', 'end'))
-    s.g('launching', 'launch', '시작하다, 출시하다', verb_form=pp('ing', s, 'launching', 'launch'))
+    s.g('launching', 'launch', '시작하다, 개시하다', verb_form=pp('ing', s, 'launching', 'launch'))
     s.g('crowdsourced', 'crowdsourced', '대중이 참여하는(크라우드소싱 방식의)')
     s.g('online', 'online', '온라인의')
     s.g('project', 'project', '프로젝트')
@@ -427,8 +427,8 @@ def sentences(T):
     s.ch('After completion', '완료 후에')
     s.ch('of the tutorial', '사용 지침의')
     s.ch('and a little bit of practice,', '그리고 약간의 연습 (후에),')
-    s.ch('the participants were able to classify galaxies effectively.', '참가자들은 은하를 효과적으로 분류할 수 있었다.')
-    s.natural('사용 지침을 마치고 약간 연습한 뒤에, 참가자들은 은하를 효과적으로 분류할 수 있었다.')
+    s.ch('the participants were able to classify galaxies effectively.', '참여자들은 은하를 효과적으로 분류할 수 있었다.')
+    s.natural('사용 지침을 마치고 약간 연습한 뒤에, 참여자들은 은하를 효과적으로 분류할 수 있었다.')
     s.cl('main', 'the', subj='the participants', verbs=['were'], occ=1)
     s.g('After', 'after', '~후에')
     s.g('completion', 'completion', '완료, 끝마침')
@@ -436,7 +436,7 @@ def sentences(T):
     s.g('tutorial', 'tutorial', '사용 지침', star=W['tutorial'])
     q = s.g('a little bit of', 'a little bit of', '약간의')
     s.g('practice', 'practice', '연습', at=s.text.index('of practice') + 3)
-    s.g('participants', 'participants', '참가자들', star=W['participants'])
+    s.g('participants', 'participants', '참여자들', star=W['participants'])
     s.g('were|able|to', 'be able to V', '~할 수 있다')
     s.g('classify', 'classify', '분류하다', star=W['classify'])
     s.g('galaxies', 'galaxies', '은하들')
@@ -496,7 +496,7 @@ def sentences(T):
     s.g('Shortly|after', 'shortly after S′ V′', 'S′(이/가) V′한 직후에')
     s.g('website', 'website', '웹사이트')
     f = s.g('was', 'be p.p.', '~되다', kind='function', combines_with=[])
-    la = s.g('launched', 'launched', '개설된, 출시된', verb_form=pp('passive-participle', s, 'launched', 'launch', f['id']))
+    la = s.g('launched', 'launched', '개설된', verb_form=pp('passive-participle', s, 'launched', 'launch', f['id']))
     link(f, la)
     s.g('nearly', 'nearly', '거의')
     s.g('classifications', 'classifications', '분류(한 건수)')
@@ -676,14 +676,14 @@ def sentences(T):
     # ---------------- s31 ----------------
     s = S('s31', T['s31'])
     s.ch('It is more active than ever before,', '그것은 그 어느 때보다 더 활발하다,')
-    s.ch('with about 2 million registered users worldwide.', '전 세계적으로 약 2백만 명의 등록된 사용자들과 함께.')
-    s.natural('전 세계적으로 약 200만 명의 등록된 사용자가 있는 그것은 그 어느 때보다 활발하다.')
+    s.ch('with about 2 million registered users worldwide.', '전 세계적으로 약 200만 명의 등록된 사용자들을 가진 채로.')
+    s.natural('그것은 전 세계에 약 200만 명의 등록된 사용자를 두고 있으며, 그 어느 때보다 활발하다.')
     s.cl('main', 'It', subj='It', verbs=['is'])
     s.g('It', 'it', '그것은', referent_ko='Zooniverse')
     s.g('is', 'is', '~이다')
     s.g('more|than|ever|before', 'more ~ than ever before', '그 어느 때보다 더 ~한')
     s.g('active', 'active', '활발한')
-    s.g('with', 'with', '~와 함께')
+    s.g('with', 'with', '~을 가진, ~이 있는')
     s.g('about', 'about', '약')
     s.g('million', 'million', '백만')
     s.g('registered', 'registered', '등록된', verb_form=pp('past-participle', s, 'registered', 'register'))
@@ -797,19 +797,19 @@ def analysis(_):
         ],
         'grammar_points': [
             {'id': 'u2-gp1', 'sentence_id': 's12', 'span': 'It took Schawinski a whole week to classify just 50,000 galaxies',
-             'title': 'It takes A B to V: A가 ~하는 데 B(시간)가 걸리다', 'formula_key': 'It takes A B to V',
-             'explanation': '공식: It takes A B to V — A가 ~하는 데 B(시간)가 걸리다. It은 따로 해석하지 않는 형식상 주어다. '
+             'title': 'It takes A B to V: A(이/가) ~하는 데 B(시간)가 걸리다', 'formula_key': 'It takes A B to V',
+             'explanation': '공식: It takes A B to V — A(이/가) ~하는 데 B(시간)가 걸리다. It은 따로 해석하지 않는 형식상 주어다. '
                             'took = take의 과거, A = Schawinski, B = a whole week(꼬박 일주일), to V = to classify just 50,000 galaxies(고작 5만 개의 은하를 분류하다). '
                             '→ Schawinski가 고작 5만 개의 은하를 분류하는 데 꼬박 일주일이 걸렸다.',
              'practice': {'span': 'It took Schawinski a whole week to classify',
-                          'formula_support': {'en': 'It takes A B to V', 'ko': 'A가 ~하는 데 B(시간)가 걸리다'},
+                          'formula_support': {'en': 'It takes A B to V', 'ko': 'A(이/가) ~하는 데 B(시간)가 걸리다'},
                           'support': [('s12', 'whole'), ('s12', 'week'), ('s12', 'classify')],
                           'answer_ko': 'Schawinski가 분류하는 데 꼬박 일주일이 걸렸다'}},
             {'id': 'u2-gp2', 'sentence_id': 's24', 'span': 'It was online media that helped spread the word about Galaxy Zoo',
              'title': 'It was A that V′: V′한 것은 바로 A였다 (강조 구문)', 'formula_key': 'It was A that V′',
              'explanation': '공식: It was A that V′ — V′한 것은 바로 A였다. 강조하는 말 A = online media(온라인 미디어), '
                             'V′ = helped spread the word about Galaxy Zoo(Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도왔다). '
-                            '→ Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도운 것은 바로 온라인 미디어였다. It과 that을 빼도 Online media helped spread the word.라는 완전한 문장이 되므로 가주어가 아닌 강조 구문이다.',
+                            '→ Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도운 것은 바로 온라인 미디어였다. It was와 that을 빼도 Online media helped spread the word.라는 완전한 문장이 되므로 가주어가 아닌 강조 구문이다.',
              'practice': {'span': 'It was online media that helped spread the word',
                           'formula_support': {'en': 'It was A that V′', 'ko': 'V′한 것은 바로 A였다'},
                           'support': [('s24', 'online'), ('s24', 'media'), ('s24', 'help V'), ('s24', 'spread the word')],

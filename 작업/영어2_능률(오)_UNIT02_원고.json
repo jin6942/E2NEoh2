@@ -1020,9 +1020,9 @@
        0,
        64
       ],
-      "title": "It takes A B to V: A가 ~하는 데 B(시간)가 걸리다",
+      "title": "It takes A B to V: A(이/가) ~하는 데 B(시간)가 걸리다",
       "formula_key": "It takes A B to V",
-      "explanation": "공식: It takes A B to V — A가 ~하는 데 B(시간)가 걸리다. It은 따로 해석하지 않는 형식상 주어다. took = take의 과거, A = Schawinski, B = a whole week(꼬박 일주일), to V = to classify just 50,000 galaxies(고작 5만 개의 은하를 분류하다). → Schawinski가 고작 5만 개의 은하를 분류하는 데 꼬박 일주일이 걸렸다.",
+      "explanation": "공식: It takes A B to V — A(이/가) ~하는 데 B(시간)가 걸리다. It은 따로 해석하지 않는 형식상 주어다. took = take의 과거, A = Schawinski, B = a whole week(꼬박 일주일), to V = to classify just 50,000 galaxies(고작 5만 개의 은하를 분류하다). → Schawinski가 고작 5만 개의 은하를 분류하는 데 꼬박 일주일이 걸렸다.",
       "practice": {
        "span": [
         0,
@@ -1030,7 +1030,7 @@
        ],
        "formula_support": {
         "en": "It takes A B to V",
-        "ko": "A가 ~하는 데 B(시간)가 걸리다"
+        "ko": "A(이/가) ~하는 데 B(시간)가 걸리다"
        },
        "answer_ko": "Schawinski가 분류하는 데 꼬박 일주일이 걸렸다",
        "support_gloss_ids": [
@@ -1049,7 +1049,7 @@
       ],
       "title": "It was A that V′: V′한 것은 바로 A였다 (강조 구문)",
       "formula_key": "It was A that V′",
-      "explanation": "공식: It was A that V′ — V′한 것은 바로 A였다. 강조하는 말 A = online media(온라인 미디어), V′ = helped spread the word about Galaxy Zoo(Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도왔다). → Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도운 것은 바로 온라인 미디어였다. It과 that을 빼도 Online media helped spread the word.라는 완전한 문장이 되므로 가주어가 아닌 강조 구문이다.",
+      "explanation": "공식: It was A that V′ — V′한 것은 바로 A였다. 강조하는 말 A = online media(온라인 미디어), V′ = helped spread the word about Galaxy Zoo(Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도왔다). → Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도운 것은 바로 온라인 미디어였다. It was와 that을 빼도 Online media helped spread the word.라는 완전한 문장이 되므로 가주어가 아닌 강조 구문이다.",
       "practice": {
        "span": [
         0,
@@ -1380,8 +1380,8 @@
     },
     {
      "id": "u3-w5",
-     "text": "acknowledged",
-     "meaning_ko": "인정했다",
+     "text": "acknowledge",
+     "meaning_ko": "인정하다",
      "source_gloss_id": "s52-g03"
     },
     {
@@ -1441,7 +1441,7 @@
        "s49"
       ],
       "label": "전문가와의 협력",
-      "text_ko": "전문가들도 Steve가 무엇인지 몰랐고 제대로 연구된 적 없는 새로운 현상임을 깨달았다. 그래서 NASA는 대중의 사진을 모으는 시민 과학 프로젝트를 지원했고, 이 프로젝트는 지금도 진행 중이다."
+      "text_ko": "추적자들은 대학 교수와 NASA 과학자에게 사진을 보여 주었지만, 전문가들도 Steve가 무엇인지 몰랐고 제대로 연구된 적 없는 새로운 현상임을 깨달았다. 그래서 NASA는 대중의 사진을 모으는 시민 과학 프로젝트를 지원했고, 이 프로젝트는 지금도 진행 중이다."
      },
      {
       "sentence_ids": [
@@ -1479,7 +1479,7 @@
       "explanatory_sentences": [
        "52번 문장은 이 발견의 공로가 누구에게 있는지 밝힌다.",
        "전문 과학자들이 STEVE를 처음 발견한 것이 아니다.",
-       "몇 년 동안 꾸준히 사진을 찍고 알린 오로라 추적자들 덕분에 STEVE가 알려졌다.",
+       "몇 년 동안 꾸준히 사진을 찍고 전문가에게 보여 준 오로라 추적자들 덕분에 STEVE가 알려졌다.",
        "그래서 전문가들도 그 공로가 추적자들에게 있다고 인정했다.",
        "이 점이 ‘시민도 과학에 기여할 수 있다’는 글 전체의 생각을 뒷받침한다."
       ]
@@ -1534,7 +1534,7 @@
       ],
       "title": "It is A that V′: V′하는 것은 바로 A이다 (강조 구문)",
       "formula_key": "It is A that V′",
-      "explanation": "공식: It is A that V′ — V′하는 것은 바로 A이다. A = the dedicated members of the aurora chasers group(오로라 추적자 단체의 헌신적인 구성원들), V′ = deserve the credit for discovering STEVE(STEVE를 발견한 공로를 받을 만하다). → STEVE를 발견한 공로를 받을 만한 것은 바로 오로라 추적자 단체의 헌신적인 구성원들이다. that 뒤 동사가 deserves가 아닌 deserve인 것은 강조된 A(members)가 복수이기 때문이다.",
+      "explanation": "공식: It is A that V′ — V′하는 것은 바로 A이다. A = the dedicated members of the aurora chasers group(오로라 추적자 단체의 헌신적인 구성원들), V′ = deserve the credit for discovering STEVE(STEVE를 발견한 공로를 받을 만하다). → STEVE를 발견한 공로를 받을 만한 것은 바로 오로라 추적자 단체의 헌신적인 구성원들이다.",
       "practice": {
        "span": [
         31,
@@ -1564,7 +1564,7 @@
       ],
       "title": "had p.p.: ~했다 (과거완료, 기준이 되는 과거보다 먼저)",
       "formula_key": "had p.p.",
-      "explanation": "공식: had p.p. — ~했다. 과거의 한 시점(realized, 깨달았다)보다 먼저 일어난 일을 나타낸다. had = 과거완료 표지, p.p. = discovered(discover의 p.p.형, 발견하다), 주어 = the group(그 단체), 목적어 = a new type of phenomenon(새로운 유형의 현상). → (전문가들이 깨달은 것은) 그 단체가 새로운 유형의 현상을 발견했다는 것이다. 발견이 깨달음보다 먼저다.",
+      "explanation": "공식: had p.p. — ~했다. 과거의 한 시점(realized, 깨달았다)보다 먼저 일어난 일을 나타낸다. had = 과거완료 표지, p.p. = discovered(discover의 p.p.형, 발견하다), 주어 = the group(그 단체), 목적어 = a new type of phenomenon(새로운 유형의 현상). → 그 단체가 새로운 유형의 현상을 발견했다. 발견이 깨달음(realized)보다 먼저 일어난 일이다.",
       "practice": {
        "span": [
         19,
@@ -1592,7 +1592,7 @@
       ],
       "title": "had been p.p.: ~되었다 (과거완료 수동)",
       "formula_key": "had been p.p.",
-      "explanation": "공식: had been p.p. — ~되었다(그때까지). had been = 과거완료 수동 표지, p.p. = studied(연구된), never = 한 번도 ~않다, properly = 제대로. → 한 번도 제대로 연구된 적이 없는 (현상). 주격 관계대명사 that이 phenomenon을 받으므로 연구의 대상이 현상이다.",
+      "explanation": "공식: had been p.p. — ~되었다(그때까지). had been = 과거완료 수동 표지, p.p. = studied(연구된), never = 한 번도 ~않다, properly = 제대로. → 한 번도 제대로 연구된 적이 없는 (현상).",
       "supplemental": {
        "reason": "s46의 had never been studied는 명사절 that·필수 관계사 힌트 2개로 결합 힌트를 둘 수 없고, 기본 분석에 had been p.p. 설명이 없어 대표 사례를 1회 보충",
        "function_gloss_id": "s46-g10"
@@ -1884,7 +1884,7 @@
       "explanatory_sentences": [
        "57번 문장은 56번에서 말한 참여자들이 어떤 사람들인지 알려 준다.",
        "그들은 전문 과학자가 아니라 시민 과학자다.",
-       "시민 과학자는 직업은 달라도 자기가 좋아하는 분야에서 과학을 돕고 싶어 하는 보통 사람이다.",
+       "시민 과학자는 과학자가 직업은 아니지만, 자기가 관심 있는 분야에서 과학을 돕고 싶어 하는 보통 사람이다.",
        "은하 사진을 분류한 사람들과 오로라 사진을 찍은 사람들이 바로 그런 예다."
       ]
      },
@@ -1893,8 +1893,8 @@
       "explanatory_sentences": [
        "58번 문장은 글 맨 처음에 나온 ‘흰 가운을 입은 과학자’ 모습을 다시 꺼낸다.",
        "시민 과학자에게는 과학 학위도, 흰 가운도 없을 수 있다.",
-       "그래도 과학에 도움이 되는 일을 충분히 할 수 있다.",
-       "글 처음의 흔한 생각이 틀렸다는 것을 이 문장에서 확실히 정리한다."
+       "그래도 과학에 귀중한 도움을 줄 수 있다.",
+       "글 처음의 흔한 생각이 사실과 다르다는 것을 이 문장이 다시 보여 준다."
       ]
      },
      {
@@ -1904,7 +1904,7 @@
        "다음에 나올 위대한 과학적 업적은 시민 과학자들이 이룰 수도 있다.",
        "시민 과학자들은 돈을 받지 않고 자기 시간을 내어 참여한다.",
        "그 이유는 세상을 더 잘 이해하고 싶기 때문이다.",
-       "‘할 수도 있다(could)’라고 했으므로 꼭 그렇게 된다는 뜻은 아니다."
+       "앞으로 그렇게 될 가능성이 있다는 말이다."
       ]
      }
     ],
@@ -1973,7 +1973,7 @@
       ],
       "title": "명사 + V-ing: ~하는 명사 (현재분사 후치수식)",
       "formula_key": "N + V-ing",
-      "explanation": "공식: 명사(N) + V-ing — ~하는 N. N = citizen scientists(시민 과학자들), V-ing = volunteering their time(자신들의 시간을 자발적으로 내다). → 자신들의 시간을 자발적으로 내는 시민 과학자들.",
+      "explanation": "공식: 명사(N) + V-ing — ~하는 N. N = citizen scientists(시민 과학자들), V-ing = volunteering(자발적으로 내다), 목적어 = their time(자신들의 시간). → 자신들의 시간을 자발적으로 내는 시민 과학자들.",
       "practice": {
        "span": [
         55,
@@ -2848,7 +2848,7 @@
      "s01-g07"
     ],
     "relative_gloss_ids": [
-     "s01-g20"
+     "s01-g19"
     ]
    }
   },
@@ -3823,9 +3823,16 @@
      "subject_spans": [
       [
        16,
+       139
+      ]
+     ],
+     "subject_display_spans": [
+      [
+       16,
        49
       ]
      ],
+     "subject_display_review": "관계절 in which … 은 뒤수식이라 S 표시는 한정어+중심명사까지(전체 주어는 subject_spans에 보존)",
      "verb_spans": [
       [
        6,
@@ -5670,7 +5677,7 @@
       ]
      ],
      "headword": "shaped",
-     "meaning_ko": "(~한) 모양으로 만들어진",
+     "meaning_ko": "(~한) 모양으로 형성된",
      "star": false,
      "verb_form": {
       "usage": "passive-participle",
@@ -6468,7 +6475,7 @@
       ]
      ],
      "headword": "It takes A B to V",
-     "meaning_ko": "A가 ~하는 데 B(시간)가 걸리다 (took은 take의 과거)",
+     "meaning_ko": "A(이/가) ~하는 데 B(시간)가 걸리다 (took은 take의 과거)",
      "star": false
     },
     {
@@ -7685,7 +7692,7 @@
       ]
      ],
      "headword": "launch",
-     "meaning_ko": "시작하다, 출시하다",
+     "meaning_ko": "시작하다, 개시하다",
      "star": false,
      "verb_form": {
       "usage": "ing",
@@ -9802,10 +9809,10 @@
     {
      "start": 63,
      "end": 123,
-     "ko": "참가자들은 은하를 효과적으로 분류할 수 있었다."
+     "ko": "참여자들은 은하를 효과적으로 분류할 수 있었다."
     }
    ],
-   "natural_ko": "사용 지침을 마치고 약간 연습한 뒤에, 참가자들은 은하를 효과적으로 분류할 수 있었다.",
+   "natural_ko": "사용 지침을 마치고 약간 연습한 뒤에, 참여자들은 은하를 효과적으로 분류할 수 있었다.",
    "clauses": [
     {
      "kind": "main",
@@ -9907,7 +9914,7 @@
       ]
      ],
      "headword": "participants",
-     "meaning_ko": "참가자들",
+     "meaning_ko": "참여자들",
      "star": true,
      "today_word_id": "u2-w7"
     },
@@ -10751,7 +10758,7 @@
       ]
      ],
      "headword": "launched",
-     "meaning_ko": "개설된, 출시된",
+     "meaning_ko": "개설된",
      "star": false,
      "verb_form": {
       "usage": "passive-participle",
@@ -13120,10 +13127,10 @@
     {
      "start": 36,
      "end": 84,
-     "ko": "전 세계적으로 약 2백만 명의 등록된 사용자들과 함께."
+     "ko": "전 세계적으로 약 200만 명의 등록된 사용자들을 가진 채로."
     }
    ],
-   "natural_ko": "전 세계적으로 약 200만 명의 등록된 사용자가 있는 그것은 그 어느 때보다 활발하다.",
+   "natural_ko": "그것은 전 세계에 약 200만 명의 등록된 사용자를 두고 있으며, 그 어느 때보다 활발하다.",
    "clauses": [
     {
      "kind": "main",
@@ -13213,7 +13220,7 @@
       ]
      ],
      "headword": "with",
-     "meaning_ko": "~와 함께",
+     "meaning_ko": "~을 가진, ~이 있는",
      "star": false
     },
     {
@@ -15134,7 +15141,7 @@
       ]
      ],
      "headword": "notice A V-ing",
-     "meaning_ko": "A가 ~하는 것을 알아채다",
+     "meaning_ko": "A(이/가) ~하는 것을 알아채다",
      "star": false,
      "kind": "lexical",
      "verb_construction": {
@@ -15821,7 +15828,7 @@
       85
      ],
      "meaning_ko": "그리고 그 띠들 중 일부는 뻗어 있는 것처럼 보였다",
-     "explanation": "some of which: which는 앞의 unusual ribbons(빛의 띠들)를 받고 some of가 붙어 ‘그중 일부’가 주어 역할. seem to V는 보충 to V까지 함께 보여야 뜻이 잡혀 포함.",
+     "explanation": "some of which: which는 앞의 unusual ribbons(빛의 띠들)를 받고 some of가 붙어 ‘그중 일부’가 주어 역할. seem to V는 보충 to V까지 함께 보여야 뜻이 잡혀 포함(be 동사의 최소 보어 예외를 준용).",
      "display_pairs": [
       {
        "en": "ribbons of green and purple light, [some of which seemed to stretch]",
@@ -19508,7 +19515,7 @@
       ]
      ],
      "headword": "that V′",
-     "meaning_ko": "V′한 (관계대명사)",
+     "meaning_ko": "V′하는 (관계대명사)",
      "star": false
     },
     {
@@ -23655,7 +23662,7 @@
      "ko": "그들이 관심 있는."
     }
    ],
-   "natural_ko": "대신, 그들은 시민 과학자들인데, 그들은 자신이 관심 있는 분야에서 과학의 발전을 돕고자 하는 평범한 사람들이다.",
+   "natural_ko": "대신 그들은 시민 과학자, 즉 자신이 관심 있는 분야에서 과학의 발전을 돕고자 하는 평범한 사람들이다.",
    "clauses": [
     {
      "kind": "main",
@@ -25630,14 +25637,30 @@
     {
      "span": [
       55,
-      86
+      97
      ],
-     "meaning_ko": "(자신의 시간을) 자발적으로 내는 시민 과학자들",
-     "explanation": "현재분사 volunteering이 이끄는 구가 앞 명사 citizen scientists를 뒤에서 꾸민다. 목적어 their time 이하는 표시에서 제외.",
+     "meaning_ko": "자신들의 시간을 자발적으로 내는 시민 과학자들",
+     "explanation": "현재분사 volunteering이 이끄는 구가 앞 명사 citizen scientists를 뒤에서 꾸민다. 분사 volunteer가 무엇을 내는지 알도록 목적어 their time까지 표시.",
      "display_pairs": [
       {
-       "en": "citizen scientists [volunteering]",
-       "ko": "[자발적으로 내는] 시민 과학자들",
+       "en": "citizen scientists [volunteering their time]",
+       "ko": "[그들[시민 과학자들]의 시간을 자발적으로 내는] 시민 과학자들",
+       "pronoun_refs": [
+        {
+         "en_span": [
+          33,
+          38
+         ],
+         "ko_pronoun_span": [
+          1,
+          3
+         ],
+         "ko_reference_span": [
+          3,
+          12
+         ]
+        }
+       ],
        "emphasis_links": [
         {
          "en_spans": [
@@ -25648,8 +25671,8 @@
          ],
          "ko_spans": [
           [
-           8,
-           9
+           25,
+           26
           ]
          ]
         }
@@ -26186,7 +26209,7 @@
      },
      {
       "number": 3,
-      "text": "Scientists in lab coats should promote their work to ordinary people."
+      "text": "Only laboratory experiments can promote real scientific progress."
      },
      {
       "number": 4,
@@ -26233,11 +26256,11 @@
       "term_id": "u4-r3s",
       "choice_number": 3,
       "choice_span": [
-       31,
-       38
+       32,
+       39
       ],
       "surface": "promote",
-      "reason_ko": "홍보·촉진(promote)이 필자의 주장과 무관함을 판단해야 함"
+      "reason_ko": "과학의 진보를 촉진하는(promote) 주체를 실험실 실험으로만 한정하는 말이 필자의 주장과 어긋남을 판단해야 함"
      },
      {
       "term_id": "u4-r2a",
@@ -26716,7 +26739,7 @@
      }
     ],
     "passage": "In Alberta, Canada, there were some “aurora chasers” who formed an informal group online. They would leave their homes at night and try to get exceptional photographs of auroras. Then they would share them with the rest of the group.\nIn the summer of 2014, the group members began to notice something strange appearing in the night sky. There were unusual ribbons of green and purple light, some of which seemed to stretch for thousands of kilometers. Sometimes they lasted for just a few minutes, while other times they remained in the sky for a whole hour. They were similar in appearance to auroras, yet they possessed some notably different features. Unsure of what they were, the group decided to name the phenomenon “Steve,” based on a scene from an animated movie where some characters give that name to an unfamiliar object.\nAfter photographing Steve for several years and discussing what it might be, the group members decided to get help from experts. They showed their photos of Steve to a professor of astronomy at a local university and a scientist at NASA. Surprisingly, neither of them had any idea what Steve was. They confirmed that it was not an aurora, but it did not resemble anything they had seen before. They realized that the group had discovered a new type of phenomenon that had never been properly studied. In order to learn more about it, NASA funded a citizen science project involving the public. The project asked ordinary people to gather photos of Steve and send them to NASA. It is still in progress today.",
-    "summary": "When aurora chasers noticed a(n) (A) light in the night sky that even experts could not explain, NASA supported a project that depends on the (B) of ordinary people."
+    "summary": "After aurora chasers spotted a(n) (A) light in the night sky that even experts could not explain, NASA supported a project that depends on the (B) of ordinary people."
    },
    {
     "id": "Q17",
@@ -27422,7 +27445,7 @@
      },
      {
       "number": 3,
-      "text": "Scientists in lab coats should promote their work to ordinary people."
+      "text": "Only laboratory experiments can promote real scientific progress."
      },
      {
       "number": 4,
@@ -27447,7 +27470,7 @@
      },
      {
       "number": 3,
-      "text": "과학자의 홍보에 관한 내용은 본문에 없다."
+      "text": "필자는 실험실 밖의 평범한 사람들도 과학 발전에 한몫할 수 있다고 했으므로, 실험실 실험만이 진보를 촉진한다는 말은 반대다."
      },
      {
       "number": 5,
@@ -27465,7 +27488,7 @@
      },
      {
       "number": 3,
-      "text": "실험실 가운을 입은 과학자들은 평범한 사람들에게 자신들의 연구를 홍보해야 한다."
+      "text": "실험실 실험만이 진정한 과학의 진보를 촉진할 수 있다."
      },
      {
       "number": 4,
@@ -27768,19 +27791,19 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "①의 앞 문장은 이름(it)이 대문자로 쓰이고 무엇을 뜻하는지 설명한다. 여기에 넣으면 주어진 문장의 it이 현상이 아니라 이름을 가리키게 되고, them이 가리킬 오로라 추적자들도 두 문장 앞에 떨어져 있어 연결되지 않는다. 또 전문가들이 공로를 인정했다는 근거보다 먼저 나오게 된다."
+      "text": "이 자리의 앞 문장은 이름(it)이 대문자로 쓰이고 무엇을 뜻하는지 설명한다. 여기에 넣으면 주어진 문장의 it이 현상이 아니라 이름을 가리키게 되고, them이 가리킬 오로라 추적자들도 두 문장 앞에 떨어져 있어 연결되지 않는다. 또 전문가들이 공로를 인정했다는 근거보다 먼저 나오게 된다."
      },
      {
       "number": 3,
-      "text": "③의 앞 문장은 STEVE에 관한 이론이 증명되지 않았다는 내용이라 공로를 강조하는 주어진 문장이 이어지기 어색하다."
+      "text": "이 자리의 앞 문장은 STEVE에 관한 이론이 증명되지 않았다는 내용이라 공로를 강조하는 주어진 문장이 이어지기 어색하다."
      },
      {
       "number": 4,
-      "text": "④ 앞에서는 과학자와 시민의 협력을 말하고 뒤에서는 두 프로젝트 참여자 전체로 넘어가므로 주어진 문장이 끼어들 자리가 아니다."
+      "text": "이 자리에 넣으면 them이 바로 앞의 Scientists and citizens를 가리키게 된다. 그들은 이미 발견된 STEVE를 함께 연구하고 있으므로 ‘영원히 알려지지 않은 채로 남았을 것’이라는 내용과 맞지 않고, 공로를 인정한 문장과도 떨어진다."
      },
      {
       "number": 5,
-      "text": "⑤ 앞뒤는 시민 과학자가 누구인지 설명하는 흐름이라 STEVE 발견자를 가리키는 them이 들어갈 수 없다."
+      "text": "이 자리의 앞뒤는 시민 과학자가 누구인지 설명하는 흐름이라 STEVE 발견자를 가리키는 them이 들어갈 수 없다."
      }
     ],
     "choices_ko": []
@@ -28335,7 +28358,7 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "따분하고 시간이 많이 걸리는 일을 앞두고 친구에게 그 상황을 불평했다(complained)는 흐름에 맞다."
+      "text": "따분하고 시간이 많이 걸리는 일 때문에 친구에게 그 상황을 불평했다(complained)는 흐름에 맞다."
      },
      {
       "number": 3,
@@ -28643,19 +28666,19 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "①에 넣으면 ‘그렇게 많은 이미지(that many images)’가 가리킬 7,500만 건의 분류보다 앞에 놓이고, 주어진 문장을 이어받는 In fact 문장과도 떨어져 연결이 끊긴다."
+      "text": "이 자리에 넣으면 ‘그렇게 많은 이미지(that many images)’가 가리킬 7,500만 건의 분류보다 앞에 놓이고, 주어진 문장을 이어받는 In fact 문장과도 떨어져 연결이 끊긴다."
      },
      {
       "number": 3,
-      "text": "③에 넣으면 그 앞의 In fact, it would have taken him …에서 him이 가리킬 Schawinski가 아직 나오지 않아 연결이 끊기고, 뒤는 2007년 이후 15년이 흘렀다는 새로운 화제다."
+      "text": "이 자리에 넣으면 그 앞의 In fact, it would have taken him …에서 him이 가리킬 Schawinski가 아직 나오지 않아 연결이 끊기고, 뒤는 2007년 이후 15년이 흘렀다는 새로운 화제다."
      },
      {
       "number": 4,
-      "text": "④ 앞뒤는 Zooniverse의 현재 모습에 관한 내용이라 맞지 않는다."
+      "text": "이 자리의 앞뒤는 Zooniverse의 현재 모습에 관한 내용이라 맞지 않는다."
      },
      {
       "number": 5,
-      "text": "⑤ 앞뒤도 Zooniverse의 활동과 프로젝트 소개라 참여자 가정이 들어갈 자리가 아니다."
+      "text": "이 자리의 앞뒤도 Zooniverse의 활동과 프로젝트 소개라 참여자 가정이 들어갈 자리가 아니다."
      }
     ],
     "choices_ko": []
