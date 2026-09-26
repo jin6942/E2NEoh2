@@ -26745,7 +26745,7 @@
      },
      {
       "number": 5,
-      "text": "Turning an Overwhelming Task into a Simple Online Project"
+      "text": "Turning an Overwhelming Task into a Shared Online Project"
      }
     ],
     "passage": "Kevin Schawinski was a young astronomy researcher studying black holes and the evolution of galaxies at the University of Oxford. This might sound exciting, but his job there was dull and time-consuming. He had to classify around one million images of galaxies according to their shape. Since they all looked similar but were actually shaped slightly differently, the best way to do this was to sort them while looking at each one individually. Of course, this would require a tremendous amount of time. It took Schawinski a whole week to classify just 50,000 galaxies. He thought, “But what about the remaining 950,000?”\nOne evening after work, Schawinski met a friend named Chris Lintott and complained about the situation. Lintott suggested that he turn to the Internet to ask other people for help. Eventually, the two men ended up launching a crowdsourced online project known as Galaxy Zoo. The website was kept as simple as possible, with a very basic design and an easy-to-use interface. This allowed those who wanted to participate to get started quickly. New visitors were greeted with a brief tutorial that explained the project. Then they were shown an image of a galaxy and asked to click buttons that described its features. Is the galaxy smooth and rounded? Is its shape an oval or a spiral? After completion of the tutorial and a little bit of practice, the participants were able to classify galaxies effectively.",
@@ -26790,12 +26790,12 @@
     "number": 1,
     "type": "주장",
     "question": "다음 글에서 필자가 주장하는 바로 가장 적절한 것은?",
-    "answer": 1,
+    "answer": 5,
     "choice_mode": "text",
     "choices": [
      {
       "number": 1,
-      "text": "People who are curious about science should take part in research as citizen scientists."
+      "text": "Professional scientists should stop wearing white lab coats."
      },
      {
       "number": 2,
@@ -26811,7 +26811,7 @@
      },
      {
       "number": 5,
-      "text": "Professional scientists should stop wearing white lab coats."
+      "text": "People who are curious about science should take part in research as citizen scientists."
      }
     ],
     "passage": "In honor of the aurora chasers who first discovered the phenomenon, the name “Steve” has been kept. However, it is now written in all capital letters and stands for “Strong Thermal Emission Velocity Enhancement.” Experts have acknowledged that it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE. If it had not been for them, it might have remained unnoticed forever. There are many interesting theories about STEVE, but none of them have been proven for certain. Scientists and citizens continue to collaborate to solve this mystery, and they are learning more and more about STEVE every day.\nMost of the individuals involved in these two projects are not professional scientists. Instead, they are citizen scientists — ordinary people who desire to help advance science in areas that they are interested in. Even though citizen scientists may not have science degrees or long, white lab coats, they are still capable of making valuable contributions to science. You can become one as well if you have curiosity and an interest in taking part in scientific research. The next great scientific achievement could be made by citizen scientists volunteering their time for the purpose of better understanding the world."
@@ -27157,7 +27157,7 @@
     "id": "Q19",
     "set_id": "mock3",
     "number": 1,
-    "answer": 1
+    "answer": 5
    },
    {
     "id": "Q20",
@@ -28256,12 +28256,12 @@
      },
      {
       "number": 5,
-      "text": "Turning an Overwhelming Task into a Simple Online Project"
+      "text": "Turning an Overwhelming Task into a Shared Online Project"
      }
     ],
     "answer": 5,
     "evidence": "He had to classify around one million images … / Lintott suggested that he turn to the Internet … / the two men ended up launching a crowdsourced online project known as Galaxy Zoo. The website was kept as simple as possible …",
-    "explanation": "혼자 하기엔 엄청난 은하 분류 작업을 인터넷에서 대중의 도움을 받는 단순한 온라인 프로젝트(Galaxy Zoo)로 바꾸어 해결해 간 과정을 다루므로 ⑤가 제목으로 적절하다.",
+    "explanation": "혼자 하기엔 엄청난 은하 분류 작업을 인터넷에서 대중이 함께 참여하는 온라인 프로젝트(Galaxy Zoo)로 바꾸어 해결해 간 과정을 다루므로 ⑤가 제목으로 적절하다.",
     "wrong_reasons": [
      {
       "number": 1,
@@ -28299,7 +28299,7 @@
      },
      {
       "number": 5,
-      "text": "엄청난 과업을 단순한 온라인 프로젝트로 바꾸기"
+      "text": "엄청난 과업을 함께하는 온라인 프로젝트로 바꾸기"
      }
     ]
    },
@@ -28359,7 +28359,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "People who are curious about science should take part in research as citizen scientists."
+      "text": "Professional scientists should stop wearing white lab coats."
      },
      {
       "number": 2,
@@ -28375,13 +28375,17 @@
      },
      {
       "number": 5,
-      "text": "Professional scientists should stop wearing white lab coats."
+      "text": "People who are curious about science should take part in research as citizen scientists."
      }
     ],
-    "answer": 1,
+    "answer": 5,
     "evidence": "You can become one as well if you have curiosity and an interest in taking part in scientific research. The next great scientific achievement could be made by citizen scientists …",
-    "explanation": "STEVE 발견의 공로가 헌신적인 오로라 추적자들에게 있다는 사례를 든 뒤, 학위나 흰 가운이 없어도 시민 과학자는 귀중한 기여를 할 수 있고 호기심과 관심만 있으면 누구나 시민 과학자가 될 수 있다며 참여를 권한다. 따라서 ①이 주장이다.",
+    "explanation": "STEVE 발견의 공로가 헌신적인 오로라 추적자들에게 있다는 사례를 든 뒤, 학위나 흰 가운이 없어도 시민 과학자는 귀중한 기여를 할 수 있고 호기심과 관심만 있으면 누구나 시민 과학자가 될 수 있다며 참여를 권한다. 따라서 ⑤가 주장이다.",
     "wrong_reasons": [
+     {
+      "number": 1,
+      "text": "흰 가운은 학위가 없는 시민 과학자와의 대비로 언급되었을 뿐 이를 그만두라는 주장은 없다."
+     },
      {
       "number": 2,
       "text": "과학 학위가 없어도 기여할 수 있다고 했으므로 반대다."
@@ -28393,16 +28397,12 @@
      {
       "number": 4,
       "text": "필자는 관심 있는 분야에서 누구나 참여할 수 있다고 했을 뿐 특정 분야로 제한하지 않는다."
-     },
-     {
-      "number": 5,
-      "text": "흰 가운은 학위가 없는 시민 과학자와의 대비로 언급되었을 뿐 이를 그만두라는 주장은 없다."
      }
     ],
     "choices_ko": [
      {
       "number": 1,
-      "text": "과학에 호기심이 있는 사람들은 시민 과학자로서 연구에 참여해야 한다."
+      "text": "전문 과학자들은 흰 실험실 가운을 입는 것을 그만두어야 한다."
      },
      {
       "number": 2,
@@ -28418,7 +28418,7 @@
      },
      {
       "number": 5,
-      "text": "전문 과학자들은 흰 실험실 가운을 입는 것을 그만두어야 한다."
+      "text": "과학에 호기심이 있는 사람들은 시민 과학자로서 연구에 참여해야 한다."
      }
     ]
    },
