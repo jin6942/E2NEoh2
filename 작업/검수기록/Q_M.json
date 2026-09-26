@@ -1,0 +1,161 @@
+{
+ "id": "Q-M",
+ "kind": "questions",
+ "role": "M",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "claude-agent-Q-M",
+ "execution_id": "subagent-a51890d6fce490543",
+ "performed_at": "2026-09-26T18:25:00Z",
+ "method": "학생용 문항만 담은 블라인드 자료로 1차(25문항)·2차(재편성 후 25문항) 풀이를 먼저 저장한 뒤 대조 자료·해석분석 FINAL·문제 QC로 정답·해설·근거·분량 대조, 수정분 재확인. 참고 지침 assessment-content.md 49~177행은 실행 환경 권한 판정으로 열지 못해 지문·해설·FINAL 직접 대조로 판단",
+ "summary": "1·2차 블라인드 답 25문항 모두 정답과 일치(Q19는 선지 교환 후 동일 선지). 회차 내 정답 노출·자족성·선지 품질 지적 반영 후 재확인 PASS",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4"
+  ],
+  "question_ids": [
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06",
+   "Q07",
+   "Q08",
+   "Q09",
+   "Q10",
+   "Q11",
+   "Q12",
+   "Q13",
+   "Q14",
+   "Q15",
+   "Q16",
+   "Q17",
+   "Q18",
+   "Q19",
+   "Q20",
+   "Q21",
+   "Q22",
+   "Q23",
+   "Q24",
+   "Q25"
+  ]
+ },
+ "bindings": {
+  "package_sha256": "4fcd6a2f2d6542160e46cc4cddd22129d67413f334cd82febdc6661d97b112c4",
+  "assessment_content_sha256": "28e564a58a2dd7e3590bf21696f412345e12c8dfddb67cb7f687c009a1dfb554",
+  "learning_final_sha256": "74df6029b31ca0280ea35fd41ccd5bbd4e974ba4d23a39051ad9eee49cd0f8cb",
+  "assessment_final_sha256": "869b57f5d42860b40946cb82a07d147bae6f271d5d2b82f52a0a5db775112f55"
+ },
+ "solved_before_answer_key": true,
+ "answers": {
+  "Q01": 3,
+  "Q02": 5,
+  "Q03": 2,
+  "Q04": 4,
+  "Q05": 1,
+  "Q06": 2,
+  "Q07": 4,
+  "Q08": 4,
+  "Q09": 2,
+  "Q10": 3,
+  "Q11": 2,
+  "Q12": 1,
+  "Q13": 5,
+  "Q14": 5,
+  "Q15": 4,
+  "Q16": 3,
+  "Q17": 5,
+  "Q18": 2,
+  "Q19": 5,
+  "Q20": 3,
+  "Q21": 1,
+  "Q22": 3,
+  "Q23": 2,
+  "Q24": 2,
+  "Q25": 4
+ },
+ "blind_records": [
+  "작업/검수입력/M_blind_answers.json",
+  "작업/검수입력/M_blind_answers_2차.json"
+ ],
+ "findings": [
+  {
+   "id": "Q-X1",
+   "description": "같은 회차 안 정답 노출: mock2 Q18(어휘 unnoticed)의 원래 낱말이 Q16 지문에 원형으로 실림(1차 기준 번호)",
+   "status": "resolved",
+   "resolution": "회차별 원문 구간을 재편성(모의 21문항 배치 변경, 함축 신규·요지/주장 범위 조정·장문 어휘 표적 교체)",
+   "recheck": "2차 블라인드에서 세 회차 모두 노출 없음 확인"
+  },
+  {
+   "id": "Q-X2",
+   "description": "Q19(1차) 첫 문장 them/it 지시 대상이 발췌 밖",
+   "status": "resolved",
+   "resolution": "주장 범위를 s50~s60으로 넓혀 지시 대상 포함",
+   "recheck": "2차 블라인드에서 해소 확인"
+  },
+  {
+   "id": "Q-X3",
+   "description": "Q04(1차) 정답이 본문 주장 문장과 거의 같고 지문이 사례 중간에서 끊김",
+   "status": "resolved",
+   "resolution": "범위를 s01~s13(두 단락 전체)으로, 정답 선지를 바꿔 쓰기",
+   "recheck": "2차 블라인드에서 해소 확인"
+  },
+  {
+   "id": "Q-X4",
+   "description": "Q06 정답이 본문 문장 복사",
+   "status": "resolved",
+   "resolution": "정답 선지를 바꿔 쓰기(appeared to extend over a very long distance)",
+   "recheck": "2차 블라인드에서 해소 확인"
+  },
+  {
+   "id": "Q-X5",
+   "description": "Q01 오답 ①④가 단정형이라 상식으로 제거됨",
+   "status": "resolved",
+   "resolution": "범위·주체 오류형 오답으로 교체, 대조 단계 연어 지적으로 ① 재수정",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "Q-X6",
+   "description": "Q17(2차) 정답 선지 Simple이 같은 장문 Q18의 원래 낱말 노출",
+   "status": "resolved",
+   "resolution": "⑤를 Shared Online Project로 교체",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "Q-X7",
+   "description": "세 회차 1번 정답이 모두 ①",
+   "status": "resolved",
+   "resolution": "Q19 선지 ①⑤ 교환(정답 ⑤)",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "Q-X8",
+   "description": "해설 보강: Q09·Q23 ① 오답 근거 약함, Q17·Q24 근거가 장문에서 바뀐 문장 인용, Q25 해설 funded 뜻 불일치, Q16 요약문 started, Q02 ⑤ 해석",
+   "status": "resolved",
+   "resolution": "각각 수정",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "Q-X9",
+   "description": "these two projects·the phenomenon이 발췌 밖 지시(Q01·Q09·Q14·Q19)",
+   "status": "resolved",
+   "resolution": "현행 유지: 원문 결론 단락 표현이며 정답 판단과 무관, 원문 삭제·개작 금지, Galaxy Zoo 포함 시 400단어 초과",
+   "recheck": "검수자 수용"
+  },
+  {
+   "id": "Q-X10",
+   "description": "회차 안 지문 부분 중복(정답 노출 없음)",
+   "status": "resolved",
+   "resolution": "현행 유지: 본문 966~969단어로 회차당 7문항 배치 시 불가피, 노출 없는 배치로 한정",
+   "recheck": "검수자 수용"
+  }
+ ]
+}
