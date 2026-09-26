@@ -1,0 +1,58 @@
+{
+  "id": "SYNTHETIC-release-5",
+  "kind": "release",
+  "status": "PASS",
+  "reviewer_id": "SYNTHETIC-agent-5",
+  "execution_id": "SYNTHETIC-session-5",
+  "performed_at": "2026-01-01T00:00:00Z",
+  "independent": true,
+  "method": "Synthetic unit-test evidence only; no real independent review.",
+  "summary": "Fixture for release binding validation, never production evidence.",
+  "scope": {
+    "kind": "full",
+    "source_ids": [
+      "src"
+    ],
+    "unit_ids": [
+      "u1"
+    ],
+    "question_ids": [
+      "q1",
+      "mock1-1",
+      "mock1-2",
+      "mock1-3",
+      "mock1-4",
+      "mock1-5",
+      "mock2-1",
+      "mock2-2",
+      "mock2-3",
+      "mock2-4",
+      "mock2-5",
+      "mock3-1",
+      "mock3-2",
+      "mock3-3",
+      "mock3-4",
+      "mock3-5"
+    ]
+  },
+  "bindings": {
+    "manuscript_sha256": "6354480c248f494825dba28f6c617418eb6127b5c06cc5055b73ce574f1bba70",
+    "plan_sha256": "5c26d12c7e24475842722bdadc11788f10dded3f79c73e7f4028f51d17a1e9ec",
+    "contract_sha256": "a4028654fa35f7b70df2822900e2da4c8167bc1d8417ef9597ea192a0bb2096e",
+    "docx_sha256": "9e6ae32fa614572c1b45cfab0058c4bc9dbe3ea4c3ac89f308ac6b9a1af09801",
+    "pdf_sha256": "2040dd93ee9ece81ccde98579c56aa99a98c51c0a76d86708bc697a9bfbb3097",
+    "learning_final_sha256": "3a0fa16ce319c5cb7095e518f161cd144427e8a6ba4b7c9430051d68de8c4756",
+    "assessment_final_sha256": "67ddf83a079047ea0ac81a5e3c6ee3705a9c847bc9dff3be1ac709fde6392af4",
+    "split_manifest_sha256": "a0dba7c8898b797e3b41057622706cb280561e23a24d9281aff14bfb3e63a6c3",
+    "package_sha256": "4fcd6a2f2d6542160e46cc4cddd22129d67413f334cd82febdc6661d97b112c4",
+    "source_content_sha256": "c67fd3ee0e4224228826955285114011e195d07afb26935347d399178ee7d641",
+    "learning_content_sha256": "2fc5966119084231f9d70ab0085acf064f8359ec232f4c46a81a8c4bd92d9b10",
+    "assessment_content_sha256": "786b94b780bf40373b8093ae1bd4b9d84c82a5d70e1a34044ec2d876fec96701",
+    "delivery_zip_sha256": "51c1407160a5d345f78c8fb259479daa295b1f6e292a4c7e74f995cfc56901b0",
+    "volume_set_sha256": "e7146b7991cb0e8c5d16f067b3ec75b2b197ef950b10fe3b96243efbcab71b2c",
+    "pdf_set_sha256": "149f0c8920276c4c430eeb5226de97fc30a1650d7a424658c8451206ae798f1c",
+    "word_renders_sha256": "949b7bae032d48ed502ebd6020b5e6e7381f8417ea03fac65609c5d20de12ffc",
+    "word_page_map_sha256": "d061be8d867080d4ec92de3ba89fd6c287e1a359a486b0bf06add341c42414a2"
+  },
+  "findings": []
+}

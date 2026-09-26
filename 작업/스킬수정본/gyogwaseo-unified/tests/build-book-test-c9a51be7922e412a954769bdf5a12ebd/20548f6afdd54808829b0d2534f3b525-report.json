@@ -1,0 +1,390 @@
+{
+  "status": "BUILT_NOT_FINAL",
+  "scope": "learning",
+  "mode": "create",
+  "output": "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/build-book-test-c9a51be7922e412a954769bdf5a12ebd/cumulative.docx",
+  "plan_output": "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/build-book-test-c9a51be7922e412a954769bdf5a12ebd/20548f6afdd54808829b0d2534f3b525-plan.json",
+  "report_output": "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/build-book-test-c9a51be7922e412a954769bdf5a12ebd/20548f6afdd54808829b0d2534f3b525-report.json",
+  "input_path": null,
+  "input_file_sha256": null,
+  "manuscript_sha256": "8fa40bfeba451e6bba664880de5788e88c2b988ecadc7fe8db3407cc812f48e3",
+  "plan_sha256": "78487be9fc2f1149a0261f09955ef93e2a22c5ca4b3ff8144fe1f40a2942214d",
+  "contract_sha256": "a4028654fa35f7b70df2822900e2da4c8167bc1d8417ef9597ea192a0bb2096e",
+  "reference_sha256": "9af8460d2af50152f0b49c92191b98f8b7fcccd8b1a459365bb073ff07c8319b",
+  "saved_sha256": "6d16874f3e62fbc1ccae74aaead9f800aaf7e5bdb7b6c1576db87695747e4211",
+  "changed_blocks": [
+    "cover",
+    "u1/reading",
+    "u1/analysis"
+  ],
+  "preserved_blocks": [],
+  "saved_docx_validation": {
+    "status": "SAVED_CONTENT_MATCH",
+    "scope": "full",
+    "content_validation": "PASS",
+    "format_validation": "PASS",
+    "format_scope": "full",
+    "format_checked_blocks": [
+      "cover",
+      "u1/reading",
+      "u1/analysis"
+    ],
+    "format_errors": [],
+    "plan_sha256": "78487be9fc2f1149a0261f09955ef93e2a22c5ca4b3ff8144fe1f40a2942214d",
+    "contract_sha256": "a4028654fa35f7b70df2822900e2da4c8167bc1d8417ef9597ea192a0bb2096e",
+    "reference_sha256": "9af8460d2af50152f0b49c92191b98f8b7fcccd8b1a459365bb073ff07c8319b",
+    "format_validation_scope": "Stored OOXML properties and effective character formatting; not visual pagination or content semantics",
+    "saved_sha256": "6d16874f3e62fbc1ccae74aaead9f800aaf7e5bdb7b6c1576db87695747e4211",
+    "checked_blocks": [
+      "cover",
+      "u1/reading",
+      "u1/analysis"
+    ],
+    "errors": [],
+    "extracted": {
+      "path": "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/build-book-test-c9a51be7922e412a954769bdf5a12ebd/cumulative.docx",
+      "sha256": "6d16874f3e62fbc1ccae74aaead9f800aaf7e5bdb7b6c1576db87695747e4211",
+      "blocks": [
+        {
+          "id": "cover",
+          "elements": [
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "혼공교재 독해편"
+            },
+            {
+              "kind": "paragraph",
+              "text": "공통영어1"
+            },
+            {
+              "kind": "paragraph",
+              "text": "시험  ·  0과"
+            },
+            {
+              "kind": "table",
+              "rows": [
+                [
+                  [
+                    "Shared Layout Test Synthetic Data Only",
+                    "자동 연결 시험 · 학습용 자료 아님"
+                  ]
+                ]
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "text": "1개 문단   /   본문 3문장"
+            },
+            {
+              "kind": "paragraph",
+              "text": "혼공해석지 + 지문분석지"
+            },
+            {
+              "kind": "paragraph",
+              "text": "이 한 권으로 이어지는 학습"
+            },
+            {
+              "kind": "paragraph",
+              "text": "01   혼공해석지 — 먼저 스스로 해석하기"
+            },
+            {
+              "kind": "paragraph",
+              "text": "02   지문 분석 — 해석을 비교하고 흐름과 어법 확인하기"
+            }
+          ]
+        },
+        {
+          "id": "u1/reading",
+          "elements": [
+            {
+              "kind": "paragraph",
+              "text": "공통영어1 시험 · 0과 혼공해석지"
+            },
+            {
+              "kind": "paragraph",
+              "text": "문단 1 · 시험용 본문 · 문장 1~3"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Resource Care (자원 관리)"
+            },
+            {
+              "kind": "paragraph",
+              "text": "읽는 법  ① / 마다 끊어 읽기   ② 동사(V) 찾기   ③ 주어(S) 찾기   ④ ※ 단어 뜻 보기(★부터)   ⑤ 아래 줄에 내 해석 쓰기   ⑥ 지문 분석지의 끊어읽기 해석과 비교"
+            },
+            {
+              "kind": "paragraph",
+              "text": "기호  / 끊어 읽는 곳     ★ 꼭 외울 말     S 주어     V 동사     S′·V′ 절 속의 주어·동사\n        (주격 관계대명사 뒤에는 별도 주어가 없어 V′만 표시)     [ ] 그 절을 이끄는 말(that·if·when 등)\n        [( )] 생략된 접속사·관계사     ／ 절과 절의 경계     [and]·[;]는 절을 잇는 표시이며, S·V/S′·V′는 실제 절의 범위에 따릅니다.\n        주어 없이 동사로 시작하면 명령문 — 주어를 적지 않습니다     ~ 다른 말이 들어갈 자리"
+            },
+            {
+              "kind": "paragraph",
+              "text": "시작하기 전에 꼭"
+            },
+            {
+              "kind": "paragraph",
+              "text": "① 문장 맨 앞이 늘 주어는 아닙니다.\n   In · At · On · With · For · From · By 같은 전치사로 시작하는 덩어리는 지우고, 그 뒤에서 「누가·무엇이」를 찾으세요.\n   In flexible-time cultures, it seems …  →  In flexible-time cultures를 지우면 주어는 it\n   문두의 접속사절 범위를 먼저 확인하고 주절의 주어를 찾으세요. 콤마 유무만으로 구분하지 않습니다.\n   When we bought the bookshelves, the manager said …  →  주어는 the manager"
+            },
+            {
+              "kind": "paragraph",
+              "text": "② 해석은 S에 「은·는」, S′에 「이·가」를 붙여 시작합니다.\n   S they → 그들은        S′ the meeting → 그 회의가"
+            },
+            {
+              "kind": "paragraph",
+              "text": "③ 한 문장에 동사가 둘이면 둘 다 적어 뒀어요.\n   and로 이어지면 V1 and V2, 절이 나뉘면 S·V를 따로 적었습니다.\n   주어·동사 줄은 문장에 나온 순서 그대로입니다. [ ] 안에는 그 절을 이끄는 말을 적었습니다. 이끄는 말이 없는 주절은 S·V로 바로 표시합니다."
+            },
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Synthetic Source Heading"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1.  They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools.   ★﻿핵﻿심"
+            },
+            {
+              "kind": "paragraph",
+              "text": "주어·동사   S: They, V: repair"
+            },
+            {
+              "kind": "paragraph",
+              "text": "※ They — 시험용 뜻 (앞 문맥의 사람들) / ★ repair — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / tools — 시험용 뜻"
+            },
+            {
+              "kind": "paragraph",
+              "text": "나의 해석"
+            },
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "2.  We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials.   ★﻿핵﻿심"
+            },
+            {
+              "kind": "paragraph",
+              "text": "주어·동사   S: We, V: save"
+            },
+            {
+              "kind": "paragraph",
+              "text": "※ We — 시험용 뜻 / save — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / materials — 시험용 뜻"
+            },
+            {
+              "kind": "paragraph",
+              "text": "나의 해석"
+            },
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "3.  I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+            },
+            {
+              "kind": "paragraph",
+              "text": "주어·동사   S: I, V: protect"
+            },
+            {
+              "kind": "paragraph",
+              "text": "※ I — 시험용 뜻 / protect — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / resources — 시험용 뜻"
+            },
+            {
+              "kind": "paragraph",
+              "text": "나의 해석"
+            },
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "틀린 문장은 다음에 다시!  지문 분석지의 해석과 달랐던 문장 번호를 여기 적어 두고, 다음엔 그것만 다시 풀어요 → ________________"
+            }
+          ]
+        },
+        {
+          "id": "u1/analysis",
+          "elements": [
+            {
+              "kind": "paragraph",
+              "text": "0과 · 문단 1 | 지문 분석"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1.  1They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools.   ★﻿핵﻿심"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1시험용 대응 청크"
+            },
+            {
+              "kind": "paragraph",
+              "text": "↳ 자연 해석  시험용 자연 해석"
+            },
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "2.  1We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials.   ★﻿핵﻿심"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1시험용 대응 청크"
+            },
+            {
+              "kind": "paragraph",
+              "text": "↳ 자연 해석  시험용 자연 해석"
+            },
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "3.  1I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+            },
+            {
+              "kind": "paragraph",
+              "text": "1시험용 대응 청크"
+            },
+            {
+              "kind": "paragraph",
+              "text": "↳ 자연 해석  시험용 자연 해석"
+            },
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "0과 · 문단 1 | 지문 분석"
+            },
+            {
+              "kind": "paragraph",
+              "text": "▶ 글의 의도"
+            },
+            {
+              "kind": "paragraph",
+              "text": "자원을 아끼자는 내용"
+            },
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "▶ 글의 흐름"
+            },
+            {
+              "kind": "paragraph",
+              "text": "(흐름)  [1~3번 문장] — 시험용 흐름"
+            },
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "▶ 각 문장 쉬운 풀이"
+            },
+            {
+              "kind": "paragraph",
+              "text": "[1번 문장]  They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools."
+            },
+            {
+              "kind": "paragraph",
+              "text": "↳  설명 하나. 설명 둘."
+            },
+            {
+              "kind": "paragraph",
+              "text": "[2번 문장]  We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials."
+            },
+            {
+              "kind": "paragraph",
+              "text": "↳  설명 하나. 설명 둘."
+            },
+            {
+              "kind": "paragraph",
+              "text": "[3번 문장]  I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+            },
+            {
+              "kind": "paragraph",
+              "text": "↳  설명 하나. 설명 둘."
+            },
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "▶ 구문으로 해석하기"
+            },
+            {
+              "kind": "paragraph",
+              "text": "① 시험 [1번 문장]:  T — 시험용 설명"
+            },
+            {
+              "kind": "paragraph",
+              "text": "② 시험 [2번 문장]:  W — 시험용 설명"
+            },
+            {
+              "kind": "paragraph",
+              "text": "③ 시험 [3번 문장]:  I — 시험용 설명"
+            },
+            {
+              "kind": "paragraph",
+              "text": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "▶ 필수 유의어 / 반의어"
+            },
+            {
+              "kind": "paragraph",
+              "text": "term0head (시험용 뜻)   ≈  term0synonym (시험용 뜻)   ↔  term0antonym (시험용 뜻)"
+            },
+            {
+              "kind": "paragraph",
+              "text": "term1head (시험용 뜻)   ≈  term1synonym (시험용 뜻)   ↔  term1antonym (시험용 뜻)"
+            },
+            {
+              "kind": "paragraph",
+              "text": "term2head (시험용 뜻)   ≈  term2synonym (시험용 뜻)   ↔  term2antonym (시험용 뜻)"
+            }
+          ]
+        }
+      ],
+      "unmanaged_body_elements": []
+    },
+    "layout_geometry_review": "NOT_PERFORMED",
+    "semantic_review": "NOT_PERFORMED",
+    "question_answer_validity": "NOT_PERFORMED"
+  },
+  "independent_content_review": "NOT_PERFORMED",
+  "semantic_review": "NOT_PERFORMED",
+  "word_visual_review": "NOT_PERFORMED",
+  "release_validation": "NOT_PERFORMED",
+  "next_step": "Complete independent content and Word visual reviews, then run verify_release.py"
+}

@@ -376,11 +376,9 @@ def sentences(T):
     s.g('image', 'image', '이미지')
     s.g('of', 'of', '~의')
     s.g('galaxy', 'galaxy', '은하')
-    ak = s.g('asked', 'asked', '요청받은', verb_form=pp('passive-participle', s, 'asked', 'ask', f['id']))
-    link(f, sh, ak)
-    f2 = s.g('to', 'to V', '~하도록', kind='function', combines_with=[], at=s.text.index('to click'))
-    cl = s.g('click', 'click', '클릭하다')
-    link(f2, cl)
+    link(f, sh)
+    s.g('asked|to', 'be asked to V', '~하도록 요청받다')
+    s.g('click', 'click', '클릭하다')
     s.g('buttons', 'buttons', '버튼들')
     rel = s.g('that', 'that V′', 'V′한 (관계대명사)')
     s.g('described', 'describe', '설명하다, 묘사하다', verb_form=pp('regular-past', s, 'described', 'describe'))
@@ -393,7 +391,7 @@ def sentences(T):
     s.relative_ids = [rel['id']]
     s.review = ('주어 they의 병렬 수동 were shown … and (were) asked to V: be는 한 번, p.p. 두 개가 같은 기능 각주에 연결. '
                 '필수 관계사 that 힌트. 수동은 힌트가 있어 분석 be p.p. 대표로 연결. of a galaxy 후치수식 경계. '
-                'to click은 수동 asked의 보충 to V이지만 수동 p.p. 각주 표제어는 실제형 asked만 허용되어 to V — ~하도록으로 분리(L2-6 검수자 수용). 재검수에서 묶음(B)을 사용자가 선택했으나 공통 검사 도구가 수동 p.p. 표제어에 실제형 외 추가를 금지해 현행 유지.')
+                'and (were) asked to click: 사용자 지시(2026-09-26)로 동사 보충 to V를 묶어 be 구문 한 각주 be asked to V — ~하도록 요청받다로 제공(gloss-rules의 be called A·be provided with처럼 be+p.p. 구문을 사전형으로 유지하는 조항 적용). were는 shown과 공유되어 be p.p. 기능 각주에 남김. click은 낱말 각주로 별도 지원.')
     out.append(s)
 
     # ---------------- s21 ----------------

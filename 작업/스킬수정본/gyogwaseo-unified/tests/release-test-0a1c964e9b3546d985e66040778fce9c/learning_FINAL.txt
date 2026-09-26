@@ -1,0 +1,91 @@
+[교재명] 공통영어1 시험
+[과목] 공통영어1
+[출판사·저자] 시험
+[UNIT] UNIT00
+[학생용 과 표시] 0과
+[권위 원문] synthetic-source.txt · test
+[자료 범위] 혼공해석지 + 지문분석지
+
+===== [지문] u1 =====
+[SOURCE] src
+[학습 단위] u1
+[원문 범위] 시험용 본문 · 원문 문장 1~3
+[원문 소제목] Synthetic Source Heading
+[소제목 출처] h1 · fixture heading before s1 · 앞 문장 s1 · SHA256 86c89b9557696565d8bc95658b17e45706748b5486726aa82e7d697fcab8d0bb
+----- [문장 1] -----
+[핵심 문장] 예
+[원문]
+They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools.
+[혼공 끊어읽기]
+They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools.
+[S/V] S: They, V: repair
+[각주]
+They — 시험용 뜻 (앞 문맥의 사람들) / ★ repair — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / tools — 시험용 뜻
+[분석 끊어읽기 영어]
+They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools.
+[분석 끊어읽기 한국어]
+시험용 대응 청크
+[자연 해석]
+시험용 자연 해석
+----- [/문장 1] -----
+
+----- [문장 2] -----
+[핵심 문장] 예
+[원문]
+We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials.
+[혼공 끊어읽기]
+We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials.
+[S/V] S: We, V: save
+[각주]
+We — 시험용 뜻 / save — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / materials — 시험용 뜻
+[분석 끊어읽기 영어]
+We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials.
+[분석 끊어읽기 한국어]
+시험용 대응 청크
+[자연 해석]
+시험용 자연 해석
+----- [/문장 2] -----
+
+----- [문장 3] -----
+[핵심 문장] 아니오
+[원문]
+I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.
+[혼공 끊어읽기]
+I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.
+[S/V] S: I, V: protect
+[각주]
+I — 시험용 뜻 / protect — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / resources — 시험용 뜻
+[분석 끊어읽기 영어]
+I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.
+[분석 끊어읽기 한국어]
+시험용 대응 청크
+[자연 해석]
+시험용 자연 해석
+----- [/문장 3] -----
+
+----- [분석 단위] u1 -----
+[SOURCE_RANGE] 시험용 본문 · 원문 문장 1~3
+[주제] Resource Care (자원 관리)
+[글의 의도/요지]
+자원을 아끼자는 내용
+[글의 흐름]
+(흐름) 시험용 본문 · 원문 문장 1~3 — 시험용 흐름
+[각 문장 쉬운 풀이]
+[1번 문장] They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools.
+설명 하나. 설명 둘.
+[2번 문장] We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials.
+설명 하나. 설명 둘.
+[3번 문장] I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.
+설명 하나. 설명 둘.
+[구문으로 해석하기]
+시험 [1번 문장]: They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. — 시험용 설명
+시험 [2번 문장]: We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. — 시험용 설명
+시험 [3번 문장]: I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources. — 시험용 설명
+[유의어·반의어]
+표제어: term0head (시험용 뜻) / 유의어: term0synonym (시험용 뜻) / 반의어: term0antonym (시험용 뜻)
+표제어: term1head (시험용 뜻) / 유의어: term1synonym (시험용 뜻) / 반의어: term1antonym (시험용 뜻)
+표제어: term2head (시험용 뜻) / 유의어: term2synonym (시험용 뜻) / 반의어: term2antonym (시험용 뜻)
+----- [/분석 단위] -----
+===== [/지문] =====
+
+Synthetic divergence

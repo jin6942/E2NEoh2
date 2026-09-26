@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "kind": "INTEGRATED_PLUS_FIVE_DOCX",
+  "delivery_mode": "integrated_plus_five_docx",
+  "filename_base": "혼공독해교재_공통영어2_능률(민)_1과",
+  "source_docx": {
+    "path": "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/synthetic.docx",
+    "sha256": "9e6ae32fa614572c1b45cfab0058c4bc9dbe3ea4c3ac89f308ac6b9a1af09801"
+  },
+  "plan": {
+    "path": "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/plan.json",
+    "sha256": "5c26d12c7e24475842722bdadc11788f10dded3f79c73e7f4028f51d17a1e9ec"
+  },
+  "integrated_docx": {
+    "path": "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/six-deliverables/혼공독해교재_공통영어2_능률(민)_1과_전체통합본.docx",
+    "filename": "혼공독해교재_공통영어2_능률(민)_1과_전체통합본.docx",
+    "sha256": "9e6ae32fa614572c1b45cfab0058c4bc9dbe3ea4c3ac89f308ac6b9a1af09801"
+  },
+  "source_coverage": [
+    "cover",
+    "u1/reading",
+    "u1/analysis",
+    "u1/workbook",
+    "mock1",
+    "mock2",
+    "mock3",
+    "answers/quick",
+    "u1/answers",
+    "answers/mock1",
+    "answers/mock2",
+    "answers/mock3"
+  ],
+  "cover_policy": "PRESERVED_ONCE_IN_READING",
+  "volumes": [
+    {
+      "kind": "reading",
+      "filename": "혼공독해교재_공통영어2_능률(민)_1과_01_해석지.docx",
+      "path": "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/six-deliverables/혼공독해교재_공통영어2_능률(민)_1과_01_해석지.docx",
+      "sha256": "ceabe5ca7a6b3878b7a54caac8b1efc5a87f38cd5467aa795ce6b86535703c1c",
+      "block_ids": [
+        "cover",
+        "u1/reading"
+      ],
+      "block_sha256": {
+        "cover": "52160c97f30c55988d9dbd5c5c2e31cd6b91e1826aab0fb12f887772aeb870a6",
+        "u1/reading": "5d85c56841061c3456e5809ede76e5312e5aae95c61556a9368963d0dc60edec"
+      }
+    },
+    {
+      "kind": "analysis",
+      "filename": "혼공독해교재_공통영어2_능률(민)_1과_02_지문분석지.docx",
+      "path": "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/six-deliverables/혼공독해교재_공통영어2_능률(민)_1과_02_지문분석지.docx",
+      "sha256": "0b29796b58cf9ed76f4fd977731d4724e3a99cabea56daf6aa1ed8732f6d7105",
+      "block_ids": [
+        "u1/analysis"
+      ],
+      "block_sha256": {
+        "u1/analysis": "9e30b07674aa2211223177aedb90be0e6072f04d7c3dc89868ea81531400e3be"
+      }
+    },
+    {
+      "kind": "workbook",
+      "filename": "혼공독해교재_공통영어2_능률(민)_1과_03_워크북+변형문제.docx",
+      "path": "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/six-deliverables/혼공독해교재_공통영어2_능률(민)_1과_03_워크북+변형문제.docx",
+      "sha256": "b82aff49048b3c09c04a549cbfbb9cfdd97ce8211d3c35d9c7e75f102d63c464",
+      "block_ids": [
+        "u1/workbook"
+      ],
+      "block_sha256": {
+        "u1/workbook": "653063b8e5af5804cc3f1d1993c5f92a418127a8bd4b04ce67d5d716a7dd198b"
+      }
+    },
+    {
+      "kind": "mock",
+      "filename": "혼공독해교재_공통영어2_능률(민)_1과_04_실전모의.docx",
+      "path": "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/six-deliverables/혼공독해교재_공통영어2_능률(민)_1과_04_실전모의.docx",
+      "sha256": "a52182e8c583cf54a8e149608f5728a85aa2d52ca7959a75d9648421ca5bb8cc",
+      "block_ids": [
+        "mock1",
+        "mock2",
+        "mock3"
+      ],
+      "block_sha256": {
+        "mock1": "56be117e534be8d20f19ab0b574e57a8570a0062953bb54dbe5bc03c59499a52",
+        "mock2": "eef840d6e4a3522b682d8dc86b4805083d56d859d738e7d84fc09b86f072f13f",
+        "mock3": "a420a0b4db5dd3de3e98aab7bd49da04de6ec26356644f997a8545d32ab5af20"
+      }
+    },
+    {
+      "kind": "answers",
+      "filename": "혼공독해교재_공통영어2_능률(민)_1과_05_정답해설지.docx",
+      "path": "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/six-deliverables/혼공독해교재_공통영어2_능률(민)_1과_05_정답해설지.docx",
+      "sha256": "24444182752efbe5fecdcd813f2a9d48c69dc29f626013f0fd154bcf354dc422",
+      "block_ids": [
+        "answers/quick",
+        "u1/answers",
+        "answers/mock1",
+        "answers/mock2",
+        "answers/mock3"
+      ],
+      "block_sha256": {
+        "answers/quick": "9e6e5139f93a1e879d26c2909e5ca108d7d55177a96f7b8c66a8efff0951e636",
+        "u1/answers": "2cc07ade44f967c055110f5c1feb88c2d31ecb3315ed9eaae59bd4ad9aa59648",
+        "answers/mock1": "8f8e26575c38534e67a7e66376619476ed8b62475f3a6128135909fc7aa2919c",
+        "answers/mock2": "19cef0f7a49d655a965c16dd2ef5c3d3ba9d31f35959f49a04232769066f4a43",
+        "answers/mock3": "cff47efdfc01af47084236d7a7e7043eb547e9b07edae05099506d1c1e8aea2b"
+      }
+    }
+  ],
+  "visual_review": "NOT_PERFORMED",
+  "release_authorization": "NOT_PERFORMED",
+  "delivery_zip": {
+    "path": "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/six-deliverables/혼공독해교재_공통영어2_능률(민)_1과.zip",
+    "filename": "혼공독해교재_공통영어2_능률(민)_1과.zip",
+    "sha256": "d50fb221dc7b175eae29f564bd21a6f9741d56a6c940569cc24e8bce0e5a2eb1",
+    "docx_entry_sha256": {
+      "혼공독해교재_공통영어2_능률(민)_1과_전체통합본.docx": "9e6ae32fa614572c1b45cfab0058c4bc9dbe3ea4c3ac89f308ac6b9a1af09801",
+      "혼공독해교재_공통영어2_능률(민)_1과_01_해석지.docx": "ceabe5ca7a6b3878b7a54caac8b1efc5a87f38cd5467aa795ce6b86535703c1c",
+      "혼공독해교재_공통영어2_능률(민)_1과_02_지문분석지.docx": "0b29796b58cf9ed76f4fd977731d4724e3a99cabea56daf6aa1ed8732f6d7105",
+      "혼공독해교재_공통영어2_능률(민)_1과_03_워크북+변형문제.docx": "b82aff49048b3c09c04a549cbfbb9cfdd97ce8211d3c35d9c7e75f102d63c464",
+      "혼공독해교재_공통영어2_능률(민)_1과_04_실전모의.docx": "a52182e8c583cf54a8e149608f5728a85aa2d52ca7959a75d9648421ca5bb8cc",
+      "혼공독해교재_공통영어2_능률(민)_1과_05_정답해설지.docx": "24444182752efbe5fecdcd813f2a9d48c69dc29f626013f0fd154bcf354dc422"
+    }
+  },
+  "saved_validation": {
+    "status": "SPLIT_CONTENT_MATCH",
+    "errors": [],
+    "protected_paths": [
+      "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/synthetic.docx",
+      "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/plan.json",
+      "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/six-deliverables/혼공독해교재_공통영어2_능률(민)_1과_전체통합본.docx",
+      "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/six-deliverables/혼공독해교재_공통영어2_능률(민)_1과_01_해석지.docx",
+      "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/six-deliverables/혼공독해교재_공통영어2_능률(민)_1과_02_지문분석지.docx",
+      "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/six-deliverables/혼공독해교재_공통영어2_능률(민)_1과_03_워크북+변형문제.docx",
+      "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/six-deliverables/혼공독해교재_공통영어2_능률(민)_1과_04_실전모의.docx",
+      "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/six-deliverables/혼공독해교재_공통영어2_능률(민)_1과_05_정답해설지.docx",
+      "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/release-test-23b2b686fbd04ba48cbcb156a95b50b2/six-deliverables/혼공독해교재_공통영어2_능률(민)_1과.zip"
+    ],
+    "checked_volumes": [
+      "reading",
+      "analysis",
+      "workbook",
+      "mock",
+      "answers"
+    ],
+    "checked_docx_count": 6,
+    "integrated_copy": "BYTE_IDENTICAL",
+    "source_block_count": 12,
+    "delivery_zip": "SIX_DOCX_EXACT_BYTES",
+    "content_and_format_preservation": "EXACT_PARTITION",
+    "visual_review": "NOT_PERFORMED",
+    "release_authorization": "NOT_PERFORMED"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "SYNTHETIC-child-N-workbook",
+  "kind": "questions",
+  "status": "PASS",
+  "reviewer_id": "SYNTHETIC-reviewer-N-workbook",
+  "execution_id": "SYNTHETIC-execution-N-workbook",
+  "performed_at": "2026-01-01T00:00:00Z",
+  "independent": true,
+  "method": "Synthetic unit-test evidence only; no real independent review.",
+  "summary": "Fixture for release binding validation, never production evidence.",
+  "scope": {
+    "kind": "partial",
+    "question_ids": [
+      "q1"
+    ]
+  },
+  "bindings": {
+    "manuscript_sha256": "6354480c248f494825dba28f6c617418eb6127b5c06cc5055b73ce574f1bba70",
+    "plan_sha256": "5c26d12c7e24475842722bdadc11788f10dded3f79c73e7f4028f51d17a1e9ec",
+    "contract_sha256": "a4028654fa35f7b70df2822900e2da4c8167bc1d8417ef9597ea192a0bb2096e",
+    "docx_sha256": "9e6ae32fa614572c1b45cfab0058c4bc9dbe3ea4c3ac89f308ac6b9a1af09801",
+    "pdf_sha256": "2040dd93ee9ece81ccde98579c56aa99a98c51c0a76d86708bc697a9bfbb3097",
+    "learning_final_sha256": "3a0fa16ce319c5cb7095e518f161cd144427e8a6ba4b7c9430051d68de8c4756",
+    "assessment_final_sha256": "67ddf83a079047ea0ac81a5e3c6ee3705a9c847bc9dff3be1ac709fde6392af4",
+    "package_sha256": "4fcd6a2f2d6542160e46cc4cddd22129d67413f334cd82febdc6661d97b112c4",
+    "source_content_sha256": "c67fd3ee0e4224228826955285114011e195d07afb26935347d399178ee7d641",
+    "learning_content_sha256": "2fc5966119084231f9d70ab0085acf064f8359ec232f4c46a81a8c4bd92d9b10",
+    "assessment_content_sha256": "786b94b780bf40373b8093ae1bd4b9d84c82a5d70e1a34044ec2d876fec96701"
+  },
+  "findings": [],
+  "solved_before_answer_key": true,
+  "answers": {
+    "q1": 1
+  },
+  "length_reviews": {
+    "q1": {
+      "status": "PASS",
+      "rationale": "Synthetic gate fixture only; no real length approval.",
+      "benchmark_ids": [
+        "202603241-Q23",
+        "202606041-Q23",
+        "202609021-Q23"
+      ]
+    }
+  },
+  "schema_version": 1,
+  "type": "review_shard",
+  "role": "N"
+}

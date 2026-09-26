@@ -389,7 +389,7 @@ Then they were shown an image of a galaxy and asked to click buttons that descri
 Then they were shown an image / of a galaxy / and asked to click buttons / that described its features.
 [S/V] S: they, V: were shown and asked ／ [that] V′: described
 [각주]
-then — 그런 다음 / they — 그들은 (새로운 방문자들) / be p.p. — ~되다 / shown — 보여진 / image — 이미지 / of — ~의 / galaxy — 은하 / asked — 요청받은 / to V — ~하도록 / click — 클릭하다 / buttons — 버튼들 / that V′ — V′한 (관계대명사) / describe — 설명하다, 묘사하다 / its — 그것의 (이미지 속 은하) / features — 특징들
+then — 그런 다음 / they — 그들은 (새로운 방문자들) / be p.p. — ~되다 / shown — 보여진 / image — 이미지 / of — ~의 / galaxy — 은하 / be asked to V — ~하도록 요청받다 / click — 클릭하다 / buttons — 버튼들 / that V′ — V′한 (관계대명사) / describe — 설명하다, 묘사하다 / its — 그것의 (이미지 속 은하) / features — 특징들
 [구조 힌트] buttons [that described] → [설명한] 버튼들 (주격 관계대명사 that)
 [분석 끊어읽기 영어]
 Then they were shown an image / of a galaxy / and asked to click buttons / that described its features.

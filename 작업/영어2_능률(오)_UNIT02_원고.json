@@ -9103,8 +9103,7 @@
      "star": false,
      "kind": "function",
      "combines_with": [
-      "s20-g04",
-      "s20-g08"
+      "s20-g04"
      ]
     },
     {
@@ -9171,40 +9170,18 @@
       [
        46,
        51
-      ]
-     ],
-     "headword": "asked",
-     "meaning_ko": "요청받은",
-     "star": false,
-     "verb_form": {
-      "usage": "passive-participle",
-      "source_span": [
-       46,
-       51
       ],
-      "lemma": "ask",
-      "function_gloss_id": "s20-g03"
-     },
-     "kind": "lexical"
-    },
-    {
-     "id": "s20-g09",
-     "spans": [
       [
        52,
        54
       ]
      ],
-     "headword": "to V",
-     "meaning_ko": "~하도록",
-     "star": false,
-     "kind": "function",
-     "combines_with": [
-      "s20-g10"
-     ]
+     "headword": "be asked to V",
+     "meaning_ko": "~하도록 요청받다",
+     "star": false
     },
     {
-     "id": "s20-g10",
+     "id": "s20-g09",
      "spans": [
       [
        55,
@@ -9213,11 +9190,10 @@
      ],
      "headword": "click",
      "meaning_ko": "클릭하다",
-     "star": false,
-     "kind": "lexical"
+     "star": false
     },
     {
-     "id": "s20-g11",
+     "id": "s20-g10",
      "spans": [
       [
        61,
@@ -9229,7 +9205,7 @@
      "star": false
     },
     {
-     "id": "s20-g12",
+     "id": "s20-g11",
      "spans": [
       [
        69,
@@ -9241,7 +9217,7 @@
      "star": false
     },
     {
-     "id": "s20-g13",
+     "id": "s20-g12",
      "spans": [
       [
        74,
@@ -9261,7 +9237,7 @@
      }
     },
     {
-     "id": "s20-g14",
+     "id": "s20-g13",
      "spans": [
       [
        84,
@@ -9274,7 +9250,7 @@
      "referent_ko": "이미지 속 은하"
     },
     {
-     "id": "s20-g15",
+     "id": "s20-g14",
      "spans": [
       [
        88,
@@ -9374,49 +9350,49 @@
       52,
       54
      ],
-     "gloss_id": "s20-g09"
+     "gloss_id": "s20-g08"
     },
     {
      "span": [
       55,
       60
      ],
-     "gloss_id": "s20-g10"
+     "gloss_id": "s20-g09"
     },
     {
      "span": [
       61,
       68
      ],
-     "gloss_id": "s20-g11"
+     "gloss_id": "s20-g10"
     },
     {
      "span": [
       69,
       73
      ],
-     "gloss_id": "s20-g12"
+     "gloss_id": "s20-g11"
     },
     {
      "span": [
       74,
       83
      ],
-     "gloss_id": "s20-g13"
+     "gloss_id": "s20-g12"
     },
     {
      "span": [
       84,
       87
      ],
-     "gloss_id": "s20-g14"
+     "gloss_id": "s20-g13"
     },
     {
      "span": [
       88,
       96
      ],
-     "gloss_id": "s20-g15"
+     "gloss_id": "s20-g14"
     }
    ],
    "hints": [
@@ -9453,7 +9429,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "주어 they의 병렬 수동 were shown … and (were) asked to V: be는 한 번, p.p. 두 개가 같은 기능 각주에 연결. 필수 관계사 that 힌트. 수동은 힌트가 있어 분석 be p.p. 대표로 연결. of a galaxy 후치수식 경계. to click은 수동 asked의 보충 to V이지만 수동 p.p. 각주 표제어는 실제형 asked만 허용되어 to V — ~하도록으로 분리(L2-6 검수자 수용). 재검수에서 묶음(B)을 사용자가 선택했으나 공통 검사 도구가 수동 p.p. 표제어에 실제형 외 추가를 금지해 현행 유지.",
+    "review_record": "주어 they의 병렬 수동 were shown … and (were) asked to V: be는 한 번, p.p. 두 개가 같은 기능 각주에 연결. 필수 관계사 that 힌트. 수동은 힌트가 있어 분석 be p.p. 대표로 연결. of a galaxy 후치수식 경계. and (were) asked to click: 사용자 지시(2026-09-26)로 동사 보충 to V를 묶어 be 구문 한 각주 be asked to V — ~하도록 요청받다로 제공(gloss-rules의 be called A·be provided with처럼 be+p.p. 구문을 사전형으로 유지하는 조항 적용). were는 shown과 공유되어 be p.p. 기능 각주에 남김. click은 낱말 각주로 별도 지원.",
     "required_breaks": [
      {
       "at": 30,
@@ -9463,11 +9439,10 @@
     ],
     "protected_spans": [],
     "function_gloss_ids": [
-     "s20-g03",
-     "s20-g09"
+     "s20-g03"
     ],
     "relative_gloss_ids": [
-     "s20-g12"
+     "s20-g11"
     ]
    }
   },
