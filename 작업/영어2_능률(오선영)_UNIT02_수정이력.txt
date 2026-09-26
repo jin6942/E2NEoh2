@@ -1,0 +1,13 @@
+[수정 이력] 영어2 NE능률(오선영) 2과 — 누적 기록(삭제하지 않음)
+
+2026-09-26 1단계 제작
+- 사용자 결정: 공통 단위 4개(도입·Classifying Galaxies·Chasing Steve·결론), 파일명 약칭 능률(오), 6단계 후 ZIP까지 제작.
+- 원문 전사: PDF 텍스트 추출 + 1~4쪽 이미지 대조, 단락 10개(들여쓰기), 60문장.
+- 자체검수 1회 수정(6건):
+  1) s06 청크: 숙어 take a look at이 갈라짐 → 한 청크.
+  2) s12 청크 해석: Schawinski에게 → Schawinski가(힌트·각주 틀과 일치).
+  3) s29 힌트: 시작한 → 시작된(청크와 일치).
+  4) s52 청크: 인정받아야 하는 → 받을 만한(deserve 각주와 일치), 자연 해석도 맞춤.
+  5) s60 힌트: 영어에 없는 목적어 ‘시간을’을 한국어에서 제거.
+  6) u4 흐름: 1문장 구간(58~58) 해소를 위해 2개 구간으로 재구성.
+- 재검증: check_learning_content(learning) STRUCTURE_PASS, review_preflight(learning) 진단 0건, build_book 저장본 내용·서식 PASS.
