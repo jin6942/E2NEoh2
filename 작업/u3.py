@@ -2,8 +2,8 @@
 from author import S, link
 from u2 import pp
 
-W = {'exceptional': 'u3-w1', 'phenomenon': 'u3-w2', 'unfamiliar': 'u3-w3', 'resemble': 'u3-w4',
-     'acknowledged': 'u3-w5', 'dedicated': 'u3-w6', 'deserve': 'u3-w7', 'collaborate': 'u3-w8'}
+W = {'informal': 'u3-w1', 'phenomenon': 'u3-w2', 'possess': 'u3-w3', 'resemble': 'u3-w4',
+     'acknowledged': 'u3-w5', 'dedicated': 'u3-w6', 'deserve': 'u3-w7', 'confirm': 'u3-w8'}
 
 
 def sentences(T):
@@ -25,7 +25,7 @@ def sentences(T):
     s.g('aurora|chasers', 'aurora chasers', '오로라 추적자들 (오로라를 쫓아다니며 관찰하는 사람들)')
     rel = s.g('who', 'who V′', 'V′한 (관계대명사)')
     s.g('formed', 'form', '결성하다, 만들다', verb_form=pp('regular-past', s, 'formed', 'form'))
-    s.g('informal', 'informal', '비공식적인')
+    s.g('informal', 'informal', '비공식적인', star=W['informal'])
     s.g('group', 'group', '단체, 모임')
     s.g('online', 'online', '온라인에서')
     s.extra_cov[tuple(s.span_of('there'))] = {'exemption': 'below-middle1-unneeded', 'level': 'below-middle1',
@@ -55,7 +55,7 @@ def sentences(T):
                                 'link_spans': [s.span_of('to')], 'review_record': 'try to get: try의 목적어 to V.'})
     link(f, lv, tr)
     s.g('get', 'get', '얻다, (사진을) 찍다')
-    s.g('exceptional', 'exceptional', '특별한, 뛰어난', star=W['exceptional'])
+    s.g('exceptional', 'exceptional', '특별한, 뛰어난')
     s.g('photographs', 'photographs', '사진들')
     s.g('of', 'of', '~의')
     s.g('auroras', 'auroras', '오로라들')
@@ -203,7 +203,7 @@ def sentences(T):
     s.g('auroras', 'auroras', '오로라들')
     s.g('yet', 'yet', '하지만, 그렇지만')
     s.g('they', 'they', '그것들은', referent_ko='녹색과 보라색 빛의 띠들')
-    s.g('possessed', 'possess', '지니다, 가지다', verb_form=pp('regular-past', s, 'possessed', 'possess'))
+    s.g('possessed', 'possess', '지니다, 가지다', star=W['possess'], verb_form=pp('regular-past', s, 'possessed', 'possess'))
     s.g('some', 'some', '몇몇의, 몇 가지')
     s.g('notably', 'notably', '현저하게, 눈에 띄게')
     s.g('different', 'different', '다른')
@@ -251,7 +251,7 @@ def sentences(T):
     s.glosses[-1]['spans'] = [s.span_of('give'), s.span_of('to', s.text.index('name to'))]
     s.g('that', 'that', '그', at=s.text.index('that name'))
     s.g('name', 'name', '이름', at=s.text.index('that name') + 5)
-    s.g('unfamiliar', 'unfamiliar', '낯선, 익숙하지 않은', star=W['unfamiliar'])
+    s.g('unfamiliar', 'unfamiliar', '낯선, 익숙하지 않은')
     s.g('object', 'object', '물체')
     s.hint('[what they were]', '[그것들[빛의 띠들]이 무엇인지]', span='what they were',
            label='간접의문문 what', links=[(['what'], ['이', '무엇인지'])], refs=[('they', '그것들', '[빛의 띠들]')],
@@ -372,7 +372,7 @@ def sentences(T):
     s.clauses[-1]['verb_spans'] = [[s.text.index('had seen'), s.text.index('had seen') + 3],
                                   [s.text.index('seen'), s.text.index('seen') + 4]]
     s.g('They', 'they', '그들은', referent_ko='지역 대학의 천문학 교수와 NASA의 과학자')
-    s.g('confirmed', 'confirm', '확인하다', verb_form=pp('regular-past', s, 'confirmed', 'confirm'))
+    s.g('confirmed', 'confirm', '확인하다', star=W['confirm'], verb_form=pp('regular-past', s, 'confirmed', 'confirm'))
     s.g('that', 'that S′ V′', 'S′(이/가) V′라는 것을 (접속사)')
     s.g('it', 'it', '그것이', referent_ko='Steve')
     s.g('was', 'was', '~이었다 (be의 과거)', verb_form=pp('irregular-past', s, 'was', 'be'))
@@ -684,7 +684,7 @@ def sentences(T):
     s.g('continue|to', 'continue to V', '계속 ~하다',
         verb_construction={'kind': 'to-complement', 'verb_span': s.span_of('continue'), 'lemma': 'continue',
                            'link_spans': [s.span_of('to')], 'review_record': 'continue to collaborate: continue의 목적어 to V.'})
-    s.g('collaborate', 'collaborate', '협력하다', star=W['collaborate'])
+    s.g('collaborate', 'collaborate', '협력하다')
     f = s.g('to', 'to V', '~하기 위해', kind='function', combines_with=[], at=s.text.index('to solve'))
     sv = s.g('solve', 'solve', '풀다, 해결하다')
     link(f, sv)
@@ -706,14 +706,14 @@ UNIT = {
     'id': 'u3', 'source_id': 'src', 'paragraph_ids': ['p06', 'p07', 'p08', 'p09'],
     'sentence_ids': [f's{n:02d}' for n in range(34, 56)],
     'today_words': [
-        {'id': W['exceptional'], 'text': 'exceptional', 'meaning_ko': '특별한, 뛰어난'},
+        {'id': W['informal'], 'text': 'informal', 'meaning_ko': '비공식적인'},
         {'id': W['phenomenon'], 'text': 'phenomenon', 'meaning_ko': '현상'},
-        {'id': W['unfamiliar'], 'text': 'unfamiliar', 'meaning_ko': '낯선, 익숙하지 않은'},
+        {'id': W['possess'], 'text': 'possess', 'meaning_ko': '지니다, 가지다'},
         {'id': W['resemble'], 'text': 'resemble', 'meaning_ko': '닮다, 비슷하다'},
         {'id': W['acknowledged'], 'text': 'acknowledged', 'meaning_ko': '인정했다'},
         {'id': W['dedicated'], 'text': 'dedicated', 'meaning_ko': '헌신적인'},
         {'id': W['deserve'], 'text': 'deserve', 'meaning_ko': '~을 받을 만하다'},
-        {'id': W['collaborate'], 'text': 'collaborate', 'meaning_ko': '협력하다'},
+        {'id': W['confirm'], 'text': 'confirm', 'meaning_ko': '확인하다'},
     ],
 }
 

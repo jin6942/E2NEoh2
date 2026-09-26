@@ -2,8 +2,8 @@
 from author import S, link
 from u2 import pp
 
-W = {'involved': 'u4-w1', 'professional': 'u4-w2', 'desire': 'u4-w3', 'capable': 'u4-w4',
-     'valuable': 'u4-w5', 'curiosity': 'u4-w6', 'achievement': 'u4-w7', 'volunteer': 'u4-w8'}
+W = {'involved': 'u4-w1', 'degrees': 'u4-w2', 'desire': 'u4-w3', 'capable': 'u4-w4',
+     'individuals': 'u4-w5', 'curiosity': 'u4-w6', 'achievement': 'u4-w7', 'volunteer': 'u4-w8'}
 
 
 def sentences(T):
@@ -17,7 +17,7 @@ def sentences(T):
     s.natural('이 두 프로젝트에 참여한 사람들 대부분은 전문 과학자가 아니다.')
     s.cl('main', 'Most', subj='Most of the individuals involved in these two projects', verbs=['are'])
     s.g('Most|of', 'most of', '~ 중 대부분')
-    s.g('individuals', 'individuals', '개인들, 사람들')
+    s.g('individuals', 'individuals', '개인들, 사람들', star=W['individuals'])
     iv = s.g('involved|in', 'involved in', '(~에) 참여한', star=W['involved'],
              verb_form=pp('past-participle', s, 'involved', 'involve'))
     s.g('these', 'these', '이')
@@ -25,7 +25,7 @@ def sentences(T):
     s.g('projects', 'projects', '프로젝트들')
     s.g('are', 'are', '~이다')
     s.g('not', 'not', '~이 아닌')
-    s.g('professional', 'professional', '전문적인, 직업적인', star=W['professional'])
+    s.g('professional', 'professional', '전문적인, 직업적인')
     s.g('scientists', 'scientists', '과학자들')
     s.hint('the individuals [involved in these two projects]', '[이 두 프로젝트에 참여한] 개인들',
            span='the individuals involved in these two projects', label='과거분사 후치수식',
@@ -95,7 +95,7 @@ def sentences(T):
     f = s.g('may|not', 'may not V', '~하지 않을 수도 있다', kind='function', combines_with=[])
     hv = s.g('have', 'have', '가지고 있다')
     link(f, hv)
-    s.g('science|degrees', 'science degrees', '과학 학위')
+    s.g('science|degrees', 'science degrees', '과학 학위', star=W['degrees'])
     s.g('or', 'or', '또는')
     s.g('long', 'long', '긴')
     s.g('white', 'white', '흰')
@@ -105,7 +105,7 @@ def sentences(T):
     s.g('still', 'still', '여전히')
     s.glosses.sort(key=lambda g: g['spans'][0][0])
     s.g('making', 'make', '하다 (흔한 뜻: 만들다)', verb_form=pp('ing', s, 'making', 'make'), at=s.text.index('making'))
-    s.g('valuable', 'valuable', '귀중한, 가치 있는', star=W['valuable'])
+    s.g('valuable', 'valuable', '귀중한, 가치 있는')
     s.g('contributions', 'contributions', '기여, 공헌')
     s.g('to', 'to', '~에')
     s.g('science', 'science', '과학', at=s.text.index('to science') + 3)
@@ -196,10 +196,10 @@ UNIT = {
     'sentence_ids': ['s56', 's57', 's58', 's59', 's60'],
     'today_words': [
         {'id': W['involved'], 'text': 'involved in', 'meaning_ko': '~에 참여한'},
-        {'id': W['professional'], 'text': 'professional', 'meaning_ko': '전문적인, 직업적인'},
+        {'id': W['degrees'], 'text': 'science degrees', 'meaning_ko': '과학 학위'},
         {'id': W['desire'], 'text': 'desire to V', 'meaning_ko': '~하기를 바라다'},
         {'id': W['capable'], 'text': 'be capable of', 'meaning_ko': '~할 수 있다'},
-        {'id': W['valuable'], 'text': 'valuable', 'meaning_ko': '귀중한, 가치 있는'},
+        {'id': W['individuals'], 'text': 'individuals', 'meaning_ko': '개인들, 사람들'},
         {'id': W['curiosity'], 'text': 'curiosity', 'meaning_ko': '호기심'},
         {'id': W['achievement'], 'text': 'achievement', 'meaning_ko': '업적, 성취'},
         {'id': W['volunteer'], 'text': 'volunteer', 'meaning_ko': '(시간·노력을) 자발적으로 내다'},

@@ -133,6 +133,7 @@ def main(scope='learning'):
     if scope == 'full':
         import assessment_data
         assessment_data.attach(data)
+        data['set_labels'] = {f'mock{n}': f'미니 모의고사 {n}회' for n in (1, 2, 3)}
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding='utf-8')
     return data
 

@@ -30,8 +30,8 @@ def sentences(T):
                                'review_record': 'consider it as a domain: A=it(과학), B=a domain. as는 B를 이끄는 고정 연결어.'})
     link(f, c)
     s.g('it', 'it', '그것을', referent_ko='과학')
-    s.g('domain', 'domain', '영역, 분야')
-    s.g('reserved', 'reserved', '지정된',
+    s.g('domain', 'domain', '영역, 분야', star='u1-w2')
+    s.g('reserved', 'reserved', '지정된', star='u1-w3',
         verb_form={'usage': 'past-participle', 'source_span': s.span_of('reserved'), 'lemma': 'reserve'})
     s.g('exclusively', 'exclusively', '오로지, 독점적으로', star='u1-w7')
     s.g('for', 'for', '~을 위해')
@@ -119,7 +119,7 @@ def sentences(T):
     s.cl('main', 'we', subj='we all', verbs=['have'], marker='and')
     s.g('In|reality', 'in reality', '사실은, 실제로는')
     s.g('science', 'science', '과학')
-    s.g('belongs|to', 'belong to', '~의 것이다, ~에 속하다',
+    s.g('belongs|to', 'belong to', '~의 것이다, ~에 속하다', star='u1-w5',
         verb_form={'usage': 'third-person-singular', 'source_span': s.span_of('belongs'), 'lemma': 'belong',
                    'review_record': '주어 science(3인칭 단수)의 일반동사 belongs → 원형 belong.'})
     s.g('everyone', 'everyone', '모든 사람')
@@ -128,9 +128,9 @@ def sentences(T):
     s.g('have', 'have', '가지고 있다')
     s.g('ability', 'ability', '능력')
     f = s.g('to', 'to V', '~할', kind='function', combines_with=[])
-    p = s.g('play|role|in', 'play a role in', '~에서 역할을 하다, ~에 한몫하다')
+    p = s.g('play|role|in', 'play a role in', '~에서 역할을 하다, ~에 한몫하다', star='u1-w8')
     link(f, p)
-    s.g('advancement', 'advancement', '발전, 진보', star='u1-w2')
+    s.g('advancement', 'advancement', '발전, 진보')
     s.g('of', 'of', '~의')
     s.g('science', 'science', '과학', at=s.text.index('of science') + 3)
     s.hint('the ability [to play]', '[할] 능력', span='the ability to play a role in the advancement',
@@ -156,7 +156,7 @@ def sentences(T):
             verb_form={'usage': 'perfect-participle', 'source_span': s.span_of('been'), 'lemma': 'be',
                        'function_gloss_id': f1['id']})
     link(f1, b)
-    s.g('numerous', 'numerous', '수많은', star='u1-w3')
+    s.g('numerous', 'numerous', '수많은')
     s.g('citizen|science', 'citizen science', '시민 과학 (일반 시민이 참여하는 과학 연구)')
     s.g('projects', 'projects', '프로젝트들, 연구 과제들')
     rel = s.g('in|which', 'in which S′ V′', 'S′(이/가) V′하는 (관계대명사)')
@@ -169,7 +169,7 @@ def sentences(T):
     link(f2, m)
     s.g('contributions', 'contributions', '기여, 공헌', star='u1-w4')
     s.g('to', 'to', '~에')
-    s.g('remarkable', 'remarkable', '놀라운, 주목할 만한', star='u1-w5')
+    s.g('remarkable', 'remarkable', '놀라운, 주목할 만한')
     s.g('scientific', 'scientific', '과학적인')
     s.g('accomplishments', 'accomplishments', '업적들, 성과들', star='u1-w6')
     s.extra_cov[tuple(s.span_of('There'))] = {'exemption': 'below-middle1-unneeded', 'level': 'below-middle1',
@@ -204,12 +204,13 @@ UNIT = {
     'sentence_ids': ['s01', 's02', 's03', 's04', 's05', 's06'],
     'today_words': [
         {'id': 'u1-w1', 'text': 'perception', 'meaning_ko': '인식', 'source_gloss_id': None},
-        {'id': 'u1-w2', 'text': 'advancement', 'meaning_ko': '발전, 진보', 'source_gloss_id': None},
-        {'id': 'u1-w3', 'text': 'numerous', 'meaning_ko': '수많은', 'source_gloss_id': None},
+        {'id': 'u1-w2', 'text': 'domain', 'meaning_ko': '영역, 분야', 'source_gloss_id': None},
+        {'id': 'u1-w3', 'text': 'reserved', 'meaning_ko': '지정된', 'source_gloss_id': None},
         {'id': 'u1-w4', 'text': 'contributions', 'meaning_ko': '기여, 공헌', 'source_gloss_id': None},
-        {'id': 'u1-w5', 'text': 'remarkable', 'meaning_ko': '놀라운, 주목할 만한', 'source_gloss_id': None},
+        {'id': 'u1-w5', 'text': 'belong to', 'meaning_ko': '~의 것이다, ~에 속하다', 'source_gloss_id': None},
         {'id': 'u1-w6', 'text': 'accomplishments', 'meaning_ko': '업적들, 성과들', 'source_gloss_id': None},
         {'id': 'u1-w7', 'text': 'exclusively', 'meaning_ko': '오로지, 독점적으로', 'source_gloss_id': None},
+        {'id': 'u1-w8', 'text': 'play a role in', 'meaning_ko': '~에서 역할을 하다, ~에 한몫하다', 'source_gloss_id': None},
     ],
 }
 

@@ -5,11 +5,11 @@
  "role": "L",
  "status": "PASS",
  "independent": true,
- "performed_at": "2026-09-26T17:40:00Z",
+ "performed_at": "2026-09-26T18:40:00Z",
  "bindings": {
   "package_sha256": "4fcd6a2f2d6542160e46cc4cddd22129d67413f334cd82febdc6661d97b112c4",
-  "learning_content_sha256": "5e182645624bd81d1be4fadbb17f95e88c7e98673454b6e6aa5c854c0ef7e248",
-  "learning_final_sha256": "76a03710cd82c9f14b7915323a5b1126956074338dee955a97e69c2cdba69b27"
+  "learning_content_sha256": "37dc07277cb2bdae3769ded152e6e21af327949082b33f3359431c60568adea4",
+  "learning_final_sha256": "74df6029b31ca0280ea35fd41ccd5bbd4e974ba4d23a39051ad9eee49cd0f8cb"
  },
  "id": "L-u1-u4",
  "reviewer_id": "claude-agent-L-u1u4-continuity",
@@ -130,6 +130,13 @@
    "status": "resolved",
    "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
    "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  },
+  {
+   "id": "LR-u1u4",
+   "description": "u1: domain·reserved·belong to·play a role in ★ 추가, advancement·numerous·remarkable ★ 제거 / u4: individuals·science degrees ★ 추가, professional·valuable ★ 제거. 3단계 문제 제작 중 오늘의 낱말과 유반 표제어 중복을 없애려고 오늘의 낱말(★)을 교체함. 현재 FINAL(74df6029…) 기준 재확인",
+   "status": "resolved",
+   "resolution": "★ 위치만 변경, 원문·청크·해석·S/V·각주 뜻·힌트·분석 불변",
+   "recheck": "같은 검수 실행이 이전 FINAL 대비 diff·원고 JSON을 대조해 PASS 판정"
   }
  ]
 }

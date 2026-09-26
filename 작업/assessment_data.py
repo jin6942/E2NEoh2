@@ -99,7 +99,7 @@ q(id='Q03', set_id='workbook', number=3, unit_id='u3', type='제목', first='s34
          4: '그것은 오로라가 아니었고 이전에 본 어떤 것과도 닮지 않은 새로운 유형의 현상이었다.',
          5: '사진을 보여 주었지만 전문가도 정체를 알지 못했으므로 무엇인지 증명했다는 말은 틀리다.'})
 
-q(id='Q04', set_id='workbook', number=4, unit_id='u4', type='주장', first='s01', last='s06',
+q(id='Q04', set_id='workbook', number=4, unit_id='u4', type='주장', first='s01', last='s09',
   question='다음 글에서 필자가 주장하는 바로 가장 적절한 것은?',
   choices=['Only professional scientists should be trusted to advance science.',
            'The ideas of amateurs are worthless unless experts check them first.',
@@ -124,7 +124,7 @@ q(id='Q04', set_id='workbook', number=4, unit_id='u4', type='주장', first='s01
   wrong={1: '과학은 모두의 것이라는 필자의 주장과 정반대다.',
          2: '아마추어의 생각을 전문가가 확인해야 한다는 내용은 본문에 없고, 필자는 누구나 기여할 수 있다고 본다.',
          3: '과학자의 홍보에 관한 내용은 본문에 없다.',
-         5: '필자는 평범한 사람들이 놀라운 과학적 업적에 기여한 시민 과학 프로젝트가 많았다고 했으므로 반대 내용이다.'})
+         5: '필자는 평범한 사람들이 놀라운 과학적 업적에 기여한 시민 과학 프로젝트가 많았다고 했으므로 반대 내용이다. 뒤의 Schawinski 이야기도 그 사례를 소개하기 위한 것이다.'})
 
 # ---------------------------------------------------------------- 미니 모의고사 1회
 q(id='Q05', set_id='mock1', number=1, type='주제', first='s24', last='s33',
@@ -205,7 +205,7 @@ q(id='Q09', set_id='mock1', number=5, type='삽입', first='s50', last='s60', gi
   answer=2,
   evidence='Experts have acknowledged that it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE. + If it had not been for them(= the dedicated members) …',
   explanation='주어진 문장의 them은 STEVE 발견의 공로를 인정받는 오로라 추적자 단체의 헌신적인 구성원들을 가리킨다. 그들이 없었다면 STEVE가 영원히 알려지지 않았을 것이라는 내용은 공로를 인정했다는 문장 바로 뒤인 ②에 들어가야 한다.',
-  wrong={1: '①의 앞 문장은 STEVE라는 이름이 무엇을 뜻하는지 설명하므로 them(구성원들)과 연결되지 않는다.',
+  wrong={1: '①의 앞 문장은 대문자 표기와 이름의 뜻을 설명한다. 여기에 넣으면 전문가들이 공로를 인정했다는 근거보다 먼저 나와, ‘그들이 없었다면’이 누구의 공로를 말하는지 연결이 약해진다.',
          3: '③의 앞 문장은 STEVE에 관한 이론이 증명되지 않았다는 내용이라 공로를 강조하는 주어진 문장이 이어지기 어색하다.',
          4: '④ 앞에서는 과학자와 시민의 협력을 말하고 뒤에서는 두 프로젝트 참여자 전체로 넘어가므로 주어진 문장이 끼어들 자리가 아니다.',
          5: '⑤ 앞뒤는 시민 과학자가 누구인지 설명하는 흐름이라 STEVE 발견자를 가리키는 them이 들어갈 수 없다.'})
@@ -263,7 +263,7 @@ q(id='Q12', set_id='mock2', number=1, type='요지', first='s14', last='s28',
          4: '참여자들이 없었다면 그렇게 많이 분류할 수 없었고 혼자서는 수십 년이 걸렸을 것이라고 했다.',
          5: '간단한 사용 지침과 약간의 연습 후 효과적으로 분류할 수 있었다고 했으므로 반대다.'})
 
-q(id='Q13', set_id='mock2', number=2, type='함축 의미', first='s07', last='s16',
+q(id='Q13', set_id='mock2', number=2, type='함축 의미', first='s07', last='s18',
   target='what about the remaining 950,000',
   question='밑줄 친 what about the remaining 950,000가 다음 글에서 의미하는 바로 가장 적절한 것은?',
   choices=['He wanted to know where the other images had been stored.',
@@ -300,14 +300,14 @@ q(id='Q15', set_id='mock2', number=4, type='요약', first='s34', last='s49',
   summary='When aurora chasers noticed a(n) (A) light in the night sky that even experts could not explain, NASA started a project that depends on the (B) of ordinary people.',
   question='다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?',
   choices=['familiar …… participation',
-           'unfamiliar …… criticism',
-           'unfamiliar …… participation',
+           'mysterious …… criticism',
+           'mysterious …… participation',
            'familiar …… donations',
            'dangerous …… participation'],
   answer=3,
   evidence='something strange appearing in the night sky / neither of them had any idea what Steve was / NASA funded a citizen science project involving the public. The project asked ordinary people to gather photos of Steve …',
-  explanation='추적자들이 전문가도 설명하지 못하는 낯선(unfamiliar) 빛을 발견했고, NASA는 일반인의 참여(participation)로 사진을 모으는 프로젝트를 지원했다. 따라서 ③이다.',
-  choices_ko=['익숙한 …… 참여', '낯선 …… 비판', '낯선 …… 참여', '익숙한 …… 기부', '위험한 …… 참여'],
+  explanation='추적자들이 전문가도 설명하지 못하는 정체불명의(mysterious) 빛을 발견했고, NASA는 일반인의 참여(participation)로 사진을 모으는 프로젝트를 지원했다. 따라서 ③이다.',
+  choices_ko=['익숙한 …… 참여', '신비한(정체를 알 수 없는) …… 비판', '신비한(정체를 알 수 없는) …… 참여', '익숙한 …… 기부', '위험한 …… 참여'],
   wrong={1: '(A) 전문가도 무엇인지 몰랐으므로 familiar(익숙한)는 틀리다.',
          2: '(B) 프로젝트는 일반인에게 사진을 모아 보내 달라고 요청했으므로 criticism(비판)은 틀리다.',
          4: '(A) familiar가 틀리고, (B) 기부(donations)가 아니라 사진을 모으는 참여를 요청했다.',
@@ -362,7 +362,7 @@ q(id='Q18', set_id='mock2', number=7, type='어휘', first='s42', last='s55', gr
          4: '처음 발견한 추적자들에게 경의를 표하여(in honor of) 이름을 유지했다는 흐름에 맞다.'})
 
 # ---------------------------------------------------------------- 미니 모의고사 3회
-q(id='Q19', set_id='mock3', number=1, type='주장', first='s56', last='s60',
+q(id='Q19', set_id='mock3', number=1, type='주장', first='s53', last='s60',
   question='다음 글에서 필자가 주장하는 바로 가장 적절한 것은?',
   choices=['People who are curious about science should take part in research as citizen scientists.',
            'People should earn a science degree before joining any research project.',
@@ -382,12 +382,12 @@ q(id='Q19', set_id='mock3', number=1, type='주장', first='s56', last='s60',
          4: '두 프로젝트는 은하 분류와 STEVE였고, 필자는 특정 분야로 제한하지 않는다.',
          5: '흰 가운은 학위가 없는 시민 과학자와의 대비로 언급되었을 뿐 이를 그만두라는 주장은 없다.'})
 
-q(id='Q20', set_id='mock3', number=2, type='순서', first='s14', last='s23',
-  blocks=('s14', 's15', {'A': ('s18', 's19'), 'B': ('s20', 's23'), 'C': ('s16', 's17')}),
+q(id='Q20', set_id='mock3', number=2, type='순서', first='s14', last='s24',
+  blocks=('s14', 's15', {'A': ('s18', 's19'), 'B': ('s20', 's24'), 'C': ('s16', 's17')}),
   question='주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?',
   answer=4,
   evidence='(C) “Eventually, the two men ended up launching … Galaxy Zoo.” / (A) “This allowed …”의 This가 (C)의 단순한 웹사이트를 가리키고 New visitors were greeted … / (B) “Then they were shown …”의 they가 (A)의 New visitors를 가리킴.',
-  explanation='친구 Lintott이 인터넷에 도움을 청하라고 제안한 뒤, (C) 두 사람이 Galaxy Zoo를 만들고 웹사이트를 단순하게 유지했다. (A) 이 단순함 덕분에 누구나 빨리 시작할 수 있었고 새 방문자는 사용 지침으로 환영받았다. (B) 그다음(Then) 방문자들은 은하 이미지를 보고 버튼을 눌렀고 연습 후 효과적으로 분류했다. 따라서 (C)-(A)-(B)이다.',
+  explanation='친구 Lintott이 인터넷에 도움을 청하라고 제안한 뒤, (C) 두 사람이 Galaxy Zoo를 만들고 웹사이트를 단순하게 유지했다. (A) 이 단순함 덕분에 누구나 빨리 시작할 수 있었고 새 방문자는 사용 지침으로 환영받았다. (B) 그다음(Then) 방문자들은 은하 이미지를 보고 버튼을 눌렀고 연습 후 효과적으로 분류했으며, 온라인 미디어 덕분에 참여자가 점점 늘었다. 따라서 (C)-(A)-(B)이다.',
   wrong={1: '(A)의 This가 가리킬 단순한 웹사이트가 앞에 없어 연결되지 않는다.',
          2: '(B)의 they(방문자들)가 먼저 나오면 가리킬 대상이 없다.',
          3: '(B)가 (A)보다 먼저 오면 Then과 they가 가리킬 새 방문자가 아직 소개되지 않는다.',
@@ -400,7 +400,7 @@ q(id='Q21', set_id='mock3', number=3, type='삽입', first='s24', last='s33', gi
   evidence='they made more than 75 million classifications. + If it had not been for those participants … + In fact, it would have taken him decades on his own.',
   explanation='주어진 문장은 참여자들이 없었다면 그렇게 많은 이미지를 분류할 수 없었을 것이라는 가정이다. 7,500만 건의 분류를 해냈다는 문장 뒤, 그리고 ‘사실 혼자서는 수십 년이 걸렸을 것’이라는 문장 앞인 ②에 들어가야 In fact가 자연스럽게 이어진다.',
   wrong={1: '①에 넣으면 참여자 수와 분류 건수를 말하기 전에 ‘그렇게 많은 이미지(that many images)’가 나와 가리킬 대상이 불분명하다.',
-         3: '③ 앞은 2007년 이후 15년이 흘렀다는 새로운 화제의 시작이라 가정이 끼어들 수 없다.',
+         3: '③에 넣으면 그 앞의 In fact, it would have taken him …에서 him이 가리킬 Schawinski가 아직 나오지 않아 연결이 끊기고, 뒤는 2007년 이후 15년이 흘렀다는 새로운 화제다.',
          4: '④ 앞뒤는 Zooniverse의 현재 모습에 관한 내용이라 맞지 않는다.',
          5: '⑤ 앞뒤도 Zooniverse의 활동과 프로젝트 소개라 참여자 가정이 들어갈 자리가 아니다.'})
 

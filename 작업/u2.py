@@ -1,7 +1,7 @@
 """공통 단위 2: Classifying Galaxies (s07~s33, 단락 p02~p05; 짧은 단락이 있어 소제목 전체 묶음)."""
 from author import S, link
 
-W = {'classify': 'u2-w1', 'tremendous': 'u2-w2', 'individually': 'u2-w3', 'complain': 'u2-w4',
+W = {'classify': 'u2-w1', 'suggest': 'u2-w2', 'individually': 'u2-w3', 'complain': 'u2-w4',
      'tutorial': 'u2-w5', 'effectively': 'u2-w6', 'participants': 'u2-w7', 'platforms': 'u2-w8'}
 
 
@@ -156,7 +156,7 @@ def sentences(T):
     f = s.g('would', 'would V', '~할 것이다', kind='function', combines_with=[])
     r = s.g('require', 'require', '필요로 하다')
     link(f, r)
-    q = s.g('a tremendous amount of', 'a tremendous amount of', '엄청난 양의', star=W['tremendous'])
+    q = s.g('a tremendous amount of', 'a tremendous amount of', '엄청난 양의')
     s.g('time', 'time', '시간', at=s.text.index('of time') + 3)
     s.prot('a tremendous amount of', 'quantity-kind-of', '수량 표현 a tremendous amount of가 뒤 명사 time 앞에서 ‘엄청난 양의’로 같은 어순 대응', gloss=q)
     s.review = '단일 주절, would V. a tremendous amount of는 같은 어순 ~의 수량 표현으로 한 각주·보호 범위. 힌트 불필요, 수동 없음.'
@@ -228,7 +228,7 @@ def sentences(T):
     s.natural('Lintott은 그에게 다른 사람들에게 도움을 요청하기 위해 인터넷에 의지해 보라고 제안했다.')
     s.cl('main', 'Lintott', subj='Lintott', verbs=['suggested'])
     s.cl('subordinate', 'that', subj='he', verbs=['turn'], marker='that')
-    s.g('suggested', 'suggest', '제안하다', verb_form=pp('regular-past', s, 'suggested', 'suggest'))
+    s.g('suggested', 'suggest', '제안하다', star=W['suggest'], verb_form=pp('regular-past', s, 'suggested', 'suggest'))
     s.g('that', 'that S′ (should) V′', 'S′(이/가) V′해야 한다고 (접속사)')
     s.g('he', 'he', '그가', referent_ko='Kevin Schawinski')
     s.g('turn|to', 'turn to', '~에 의지하다')
@@ -749,7 +749,7 @@ UNIT = {
     'sentence_ids': [f's{n:02d}' for n in range(7, 34)],
     'today_words': [
         {'id': W['classify'], 'text': 'classify', 'meaning_ko': '분류하다'},
-        {'id': W['tremendous'], 'text': 'tremendous', 'meaning_ko': '엄청난'},
+        {'id': W['suggest'], 'text': 'suggest', 'meaning_ko': '제안하다'},
         {'id': W['individually'], 'text': 'individually', 'meaning_ko': '개별적으로, 하나씩'},
         {'id': W['complain'], 'text': 'complain', 'meaning_ko': '불평하다'},
         {'id': W['tutorial'], 'text': 'tutorial', 'meaning_ko': '사용 지침, 안내'},

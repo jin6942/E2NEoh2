@@ -18,7 +18,7 @@ When we think about science, we might consider it as a domain reserved exclusive
 When we think about science, / we might consider it as a domain / reserved exclusively for scientists / in long, white lab coats / who spend their days / conducting experiments and analyzing data.
 [S/V] [When] S′: we, V′: think ／ S: we, V: might consider ／ [who] V′: spend
 [각주]
-when S′ V′ — S′(이/가) V′할 때 / we — 우리가 / think — 생각하다 / about — ~에 관해 / science — 과학 / we — 우리는 / might V — ~할 수도 있다 / consider A as B — A를 B로 여기다 / it — 그것을 (과학) / domain — 영역, 분야 / reserved — 지정된 / ★ exclusively — 오로지, 독점적으로 / for — ~을 위해 / scientists — 과학자들 / in — ~을 입은 (흔한 뜻: ~안에) / long — 긴 / white — 흰 / lab coats — 실험실 가운 / who V′ — V′하는 (관계대명사) / spend A V-ing — V-ing하면서 A(시간)를 보내다 / their — 그들의 (과학자들) / days — 나날, 하루하루 / conduct — (실험 등을) 하다, 수행하다 / experiments — 실험들 / analyze — 분석하다 / data — 데이터, 자료
+when S′ V′ — S′(이/가) V′할 때 / we — 우리가 / think — 생각하다 / about — ~에 관해 / science — 과학 / we — 우리는 / might V — ~할 수도 있다 / consider A as B — A를 B로 여기다 / it — 그것을 (과학) / ★ domain — 영역, 분야 / ★ reserved — 지정된 / ★ exclusively — 오로지, 독점적으로 / for — ~을 위해 / scientists — 과학자들 / in — ~을 입은 (흔한 뜻: ~안에) / long — 긴 / white — 흰 / lab coats — 실험실 가운 / who V′ — V′하는 (관계대명사) / spend A V-ing — V-ing하면서 A(시간)를 보내다 / their — 그들의 (과학자들) / days — 나날, 하루하루 / conduct — (실험 등을) 하다, 수행하다 / experiments — 실험들 / analyze — 분석하다 / data — 데이터, 자료
 [구조 힌트] a domain [reserved exclusively for scientists] → [오로지 과학자들을 위해 지정된] 영역 (과거분사 후치수식)
 [구조 힌트] scientists in long, white lab coats [who spend] → [보내는] 길고 흰 실험실 가운을 입은 과학자들 (주격 관계대명사 who)
 [분석 끊어읽기 영어]
@@ -71,7 +71,7 @@ In reality, science belongs to everyone, and we all have the ability to play a r
 In reality, / science belongs to everyone, / and we all have the ability / to play a role in the advancement / of science.
 [S/V] S: science, V: belongs ／ [and] S: we all, V: have
 [각주]
-in reality — 사실은, 실제로는 / science — 과학 / belong to — ~의 것이다, ~에 속하다 / everyone — 모든 사람 / we — 우리 / all — 모두 / have — 가지고 있다 / ability — 능력 / to V — ~할 / play a role in — ~에서 역할을 하다, ~에 한몫하다 / ★ advancement — 발전, 진보 / of — ~의 / science — 과학
+in reality — 사실은, 실제로는 / science — 과학 / ★ belong to — ~의 것이다, ~에 속하다 / everyone — 모든 사람 / we — 우리 / all — 모두 / have — 가지고 있다 / ability — 능력 / to V — ~할 / ★ play a role in — ~에서 역할을 하다, ~에 한몫하다 / advancement — 발전, 진보 / of — ~의 / science — 과학
 [구조 힌트] the ability [to play] → [할] 능력 (to부정사 후치수식)
 [분석 끊어읽기 영어]
 In reality, / science belongs to everyone, / and we all have the ability / to play a role in the advancement / of science.
@@ -89,7 +89,7 @@ There have been numerous citizen science projects in which ordinary people have 
 There have been numerous citizen science projects / in which ordinary people have made contributions / to remarkable scientific accomplishments.
 [S/V] S: numerous citizen science projects, V: have been ／ [in which] S′: ordinary people, V′: have made
 [각주]
-have p.p. — ~해 왔다 / be — 있다 (been은 be의 p.p.형) / ★ numerous — 수많은 / citizen science — 시민 과학 (일반 시민이 참여하는 과학 연구) / projects — 프로젝트들, 연구 과제들 / in which S′ V′ — S′(이/가) V′하는 (관계대명사) / ordinary — 평범한 / people — 사람들 / have p.p. — ~해 왔다 / make — 하다 (흔한 뜻: 만들다) (made는 make의 p.p.형) / ★ contributions — 기여, 공헌 / to — ~에 / ★ remarkable — 놀라운, 주목할 만한 / scientific — 과학적인 / ★ accomplishments — 업적들, 성과들
+have p.p. — ~해 왔다 / be — 있다 (been은 be의 p.p.형) / numerous — 수많은 / citizen science — 시민 과학 (일반 시민이 참여하는 과학 연구) / projects — 프로젝트들, 연구 과제들 / in which S′ V′ — S′(이/가) V′하는 (관계대명사) / ordinary — 평범한 / people — 사람들 / have p.p. — ~해 왔다 / make — 하다 (흔한 뜻: 만들다) (made는 make의 p.p.형) / ★ contributions — 기여, 공헌 / to — ~에 / remarkable — 놀라운, 주목할 만한 / scientific — 과학적인 / ★ accomplishments — 업적들, 성과들
 [구조 힌트] projects [in which ordinary people have made] → [평범한 사람들이 해 온] 프로젝트들 (전치사+관계대명사 in which)
 [분석 끊어읽기 영어]
 There have been numerous citizen science projects / in which ordinary people have made contributions / to remarkable scientific accomplishments.
@@ -229,7 +229,7 @@ Of course, this would require a tremendous amount of time.
 Of course, / this would require a tremendous amount of time.
 [S/V] S: this, V: would require
 [각주]
-of course — 물론 / this — 이것은 (은하 이미지를 하나하나 보면서 분류하는 일) / would V — ~할 것이다 / require — 필요로 하다 / ★ a tremendous amount of — 엄청난 양의 / time — 시간
+of course — 물론 / this — 이것은 (은하 이미지를 하나하나 보면서 분류하는 일) / would V — ~할 것이다 / require — 필요로 하다 / a tremendous amount of — 엄청난 양의 / time — 시간
 [분석 끊어읽기 영어]
 Of course, / this would require a tremendous amount of time.
 [분석 끊어읽기 한국어]
@@ -299,7 +299,7 @@ Lintott suggested that he turn to the Internet to ask other people for help.
 Lintott suggested / that he turn to the Internet / to ask other people for help.
 [S/V] S: Lintott, V: suggested ／ [that] S′: he, V′: turn
 [각주]
-suggest — 제안하다 / that S′ (should) V′ — S′(이/가) V′해야 한다고 (접속사) / he — 그가 (Kevin Schawinski) / turn to — ~에 의지하다 / the Internet — 인터넷 / to V — ~하기 위해 / ask A for B — A에게 B를 요청하다 / other — 다른 / people — 사람들 / help — 도움
+★ suggest — 제안하다 / that S′ (should) V′ — S′(이/가) V′해야 한다고 (접속사) / he — 그가 (Kevin Schawinski) / turn to — ~에 의지하다 / the Internet — 인터넷 / to V — ~하기 위해 / ask A for B — A에게 B를 요청하다 / other — 다른 / people — 사람들 / help — 도움
 [구조 힌트] [that he turn] → [그[Schawinski]가 의지해야 한다고] (명사절 접속사 that)
 [분석 끊어읽기 영어]
 Lintott suggested / that he turn to the Internet / to ask other people for help.
@@ -676,7 +676,7 @@ In Alberta, Canada, there were some “aurora chasers” who formed an informal 
 In Alberta, Canada, / there were some “aurora chasers” / who formed an informal group online.
 [S/V] S: some “aurora chasers”, V: were ／ [who] V′: formed
 [각주]
-in — ~에 / Alberta — 앨버타주 (캐나다의 주) / Canada — 캐나다 / were — 있었다 (be의 과거) / some — 몇몇의 / aurora chasers — 오로라 추적자들 (오로라를 쫓아다니며 관찰하는 사람들) / who V′ — V′한 (관계대명사) / form — 결성하다, 만들다 / informal — 비공식적인 / group — 단체, 모임 / online — 온라인에서
+in — ~에 / Alberta — 앨버타주 (캐나다의 주) / Canada — 캐나다 / were — 있었다 (be의 과거) / some — 몇몇의 / aurora chasers — 오로라 추적자들 (오로라를 쫓아다니며 관찰하는 사람들) / who V′ — V′한 (관계대명사) / form — 결성하다, 만들다 / ★ informal — 비공식적인 / group — 단체, 모임 / online — 온라인에서
 [구조 힌트] some “aurora chasers” [who formed] → [결성한] 몇몇 ‘오로라 추적자들’ (주격 관계대명사 who)
 [분석 끊어읽기 영어]
 In Alberta, Canada, / there were some “aurora chasers” / who formed an informal group online.
@@ -694,7 +694,7 @@ They would leave their homes at night and try to get exceptional photographs of 
 They would leave their homes at night / and try to get exceptional photographs / of auroras.
 [S/V] S: They, V: would leave and try
 [각주]
-they — 그들은 (오로라 추적자들) / would V — ~하곤 했다 / leave — 떠나다, 나서다 / their — 그들의 (오로라 추적자들) / homes — 집들 / at night — 밤에 / try to V — ~하려고 애쓰다 / get — 얻다, (사진을) 찍다 / ★ exceptional — 특별한, 뛰어난 / photographs — 사진들 / of — ~의 / auroras — 오로라들
+they — 그들은 (오로라 추적자들) / would V — ~하곤 했다 / leave — 떠나다, 나서다 / their — 그들의 (오로라 추적자들) / homes — 집들 / at night — 밤에 / try to V — ~하려고 애쓰다 / get — 얻다, (사진을) 찍다 / exceptional — 특별한, 뛰어난 / photographs — 사진들 / of — ~의 / auroras — 오로라들
 [분석 끊어읽기 영어]
 They would leave their homes at night / and try to get exceptional photographs / of auroras.
 [분석 끊어읽기 한국어]
@@ -782,7 +782,7 @@ They were similar in appearance to auroras, yet they possessed some notably diff
 They were similar in appearance to auroras, / yet they possessed some notably different features.
 [S/V] S: They, V: were ／ [yet] S: they, V: possessed
 [각주]
-they — 그것들은 (녹색과 보라색 빛의 띠들) / be similar to — ~와 비슷하다 / in appearance — 생김새가, 겉모습이 / auroras — 오로라들 / yet — 하지만, 그렇지만 / they — 그것들은 (녹색과 보라색 빛의 띠들) / possess — 지니다, 가지다 / some — 몇몇의, 몇 가지 / notably — 현저하게, 눈에 띄게 / different — 다른 / features — 특징들
+they — 그것들은 (녹색과 보라색 빛의 띠들) / be similar to — ~와 비슷하다 / in appearance — 생김새가, 겉모습이 / auroras — 오로라들 / yet — 하지만, 그렇지만 / they — 그것들은 (녹색과 보라색 빛의 띠들) / ★ possess — 지니다, 가지다 / some — 몇몇의, 몇 가지 / notably — 현저하게, 눈에 띄게 / different — 다른 / features — 특징들
 [분석 끊어읽기 영어]
 They were similar in appearance to auroras, / yet they possessed some notably different features.
 [분석 끊어읽기 한국어]
@@ -799,7 +799,7 @@ Unsure of what they were, the group decided to name the phenomenon “Steve,” 
 Unsure of what they were, / the group decided to name the phenomenon “Steve,” / based on a scene / from an animated movie / where some characters give that name / to an unfamiliar object.
 [S/V] [what] S′: they, V′: were ／ S: the group, V: decided ／ [where] S′: some characters, V′: give
 [각주]
-unsure of — ~을 확신하지 못하는 / what S′ V′ — S′(이/가) 무엇인지 / they — 그것들이 (녹색과 보라색 빛의 띠들) / were — ~이었다 (be의 과거) / group — 단체 / decide to V — ~하기로 결정하다 / name A B — A를 B라고 이름 짓다 / ★ phenomenon — 현상 / Steve — 스티브 (단체가 이 현상에 붙인 이름) / based on — ~을 바탕으로 / scene — 장면 / from — ~에 나오는 / animated — 애니메이션으로 된 / movie — 영화 / where S′ V′ — S′(이/가) V′하는 (앞말을 꾸미는 관계부사) / some — 몇몇의 / characters — 등장인물들 / give A to B — A를 B에게 붙이다 (흔한 뜻: 주다) / that — 그 / name — 이름 / ★ unfamiliar — 낯선, 익숙하지 않은 / object — 물체
+unsure of — ~을 확신하지 못하는 / what S′ V′ — S′(이/가) 무엇인지 / they — 그것들이 (녹색과 보라색 빛의 띠들) / were — ~이었다 (be의 과거) / group — 단체 / decide to V — ~하기로 결정하다 / name A B — A를 B라고 이름 짓다 / ★ phenomenon — 현상 / Steve — 스티브 (단체가 이 현상에 붙인 이름) / based on — ~을 바탕으로 / scene — 장면 / from — ~에 나오는 / animated — 애니메이션으로 된 / movie — 영화 / where S′ V′ — S′(이/가) V′하는 (앞말을 꾸미는 관계부사) / some — 몇몇의 / characters — 등장인물들 / give A to B — A를 B에게 붙이다 (흔한 뜻: 주다) / that — 그 / name — 이름 / unfamiliar — 낯선, 익숙하지 않은 / object — 물체
 [구조 힌트] [what they were] → [그것들[빛의 띠들]이 무엇인지] (간접의문문 what)
 [구조 힌트] an animated movie [where some characters give] → [몇몇 등장인물들이 붙이는] 한 애니메이션 영화 (관계부사 where)
 [분석 끊어읽기 영어]
@@ -872,7 +872,7 @@ They confirmed that it was not an aurora, but it did not resemble anything they 
 They confirmed / that it was not an aurora, / but it did not resemble anything / they had seen before.
 [S/V] S: They, V: confirmed ／ [that] S′: it, V′: was ／ [but] S: it, V: did not resemble ／ [(that)] S′: they, V′: had seen
 [각주]
-they — 그들은 (지역 대학의 천문학 교수와 NASA의 과학자) / confirm — 확인하다 / that S′ V′ — S′(이/가) V′라는 것을 (접속사) / it — 그것이 (Steve) / was — ~이었다 (be의 과거) / not — ~이 아닌 / aurora — 오로라 / it — 그것은 (Steve) / did not V — ~하지 않았다 / ★ resemble — 닮다, 비슷하다 / anything — (부정문에서) 어떤 것(도) / they — 그들이 (지역 대학의 천문학 교수와 NASA의 과학자) / had p.p. — ~했다 / see — 보다 (seen은 see의 p.p.형) / before — 이전에
+they — 그들은 (지역 대학의 천문학 교수와 NASA의 과학자) / ★ confirm — 확인하다 / that S′ V′ — S′(이/가) V′라는 것을 (접속사) / it — 그것이 (Steve) / was — ~이었다 (be의 과거) / not — ~이 아닌 / aurora — 오로라 / it — 그것은 (Steve) / did not V — ~하지 않았다 / ★ resemble — 닮다, 비슷하다 / anything — (부정문에서) 어떤 것(도) / they — 그들이 (지역 대학의 천문학 교수와 NASA의 과학자) / had p.p. — ~했다 / see — 보다 (seen은 see의 p.p.형) / before — 이전에
 [구조 힌트] [that it was not an aurora] → [그것[Steve]이 오로라가 아니라는 것] (명사절 접속사 that)
 [구조 힌트] anything [(that) they had seen] → [그들[교수와 과학자]이 보았던] 어떤 것 (목적격 관계대명사 that 생략)
 [분석 끊어읽기 영어]
@@ -1056,7 +1056,7 @@ Scientists and citizens continue to collaborate to solve this mystery, and they 
 Scientists and citizens continue to collaborate / to solve this mystery, / and they are learning more and more about STEVE / every day.
 [S/V] S: Scientists and citizens, V: continue ／ [and] S: they, V: are learning
 [각주]
-scientists — 과학자들 / citizens — 시민들 / continue to V — 계속 ~하다 / ★ collaborate — 협력하다 / to V — ~하기 위해 / solve — 풀다, 해결하다 / this — 이 / mystery — 수수께끼, 미스터리 / they — 그들은 (과학자들과 시민들) / be V-ing — ~하고 있다 / learn — 알게 되다, 배우다 / more and more — 점점 더 많은 것 / about — ~에 대해 / every day — 매일
+scientists — 과학자들 / citizens — 시민들 / continue to V — 계속 ~하다 / collaborate — 협력하다 / to V — ~하기 위해 / solve — 풀다, 해결하다 / this — 이 / mystery — 수수께끼, 미스터리 / they — 그들은 (과학자들과 시민들) / be V-ing — ~하고 있다 / learn — 알게 되다, 배우다 / more and more — 점점 더 많은 것 / about — ~에 대해 / every day — 매일
 [분석 끊어읽기 영어]
 Scientists and citizens continue to collaborate / to solve this mystery, / and they are learning more and more about STEVE / every day.
 [분석 끊어읽기 한국어]
@@ -1107,7 +1107,7 @@ Most of the individuals involved in these two projects are not professional scie
 Most of the individuals / involved in these two projects / are not professional scientists.
 [S/V] S: Most of the individuals involved in these two projects, V: are
 [각주]
-most of — ~ 중 대부분 / individuals — 개인들, 사람들 / ★ involved in — (~에) 참여한 / these — 이 / two — 두 / projects — 프로젝트들 / are — ~이다 / not — ~이 아닌 / ★ professional — 전문적인, 직업적인 / scientists — 과학자들
+most of — ~ 중 대부분 / ★ individuals — 개인들, 사람들 / ★ involved in — (~에) 참여한 / these — 이 / two — 두 / projects — 프로젝트들 / are — ~이다 / not — ~이 아닌 / professional — 전문적인, 직업적인 / scientists — 과학자들
 [구조 힌트] the individuals [involved in these two projects] → [이 두 프로젝트에 참여한] 개인들 (과거분사 후치수식)
 [분석 끊어읽기 영어]
 Most of the individuals / involved in these two projects / are not professional scientists.
@@ -1144,7 +1144,7 @@ Even though citizen scientists may not have science degrees or long, white lab c
 Even though citizen scientists may not have science degrees / or long, white lab coats, / they are still capable of making valuable contributions / to science.
 [S/V] [Even though] S′: citizen scientists, V′: may not have ／ S: they, V: are
 [각주]
-even though S′ V′ — 비록 S′(이/가) V′하지만 / citizen scientists — 시민 과학자들 / may not V — ~하지 않을 수도 있다 / have — 가지고 있다 / science degrees — 과학 학위 / or — 또는 / long — 긴 / white — 흰 / lab coats — 실험실 가운 / they — 그들은 (시민 과학자들) / ★ be capable of V-ing — ~할 수 있다 / still — 여전히 / make — 하다 (흔한 뜻: 만들다) / ★ valuable — 귀중한, 가치 있는 / contributions — 기여, 공헌 / to — ~에 / science — 과학
+even though S′ V′ — 비록 S′(이/가) V′하지만 / citizen scientists — 시민 과학자들 / may not V — ~하지 않을 수도 있다 / have — 가지고 있다 / ★ science degrees — 과학 학위 / or — 또는 / long — 긴 / white — 흰 / lab coats — 실험실 가운 / they — 그들은 (시민 과학자들) / ★ be capable of V-ing — ~할 수 있다 / still — 여전히 / make — 하다 (흔한 뜻: 만들다) / valuable — 귀중한, 가치 있는 / contributions — 기여, 공헌 / to — ~에 / science — 과학
 [구조 힌트] [Even though citizen scientists may not have] → [비록 시민 과학자들이 가지고 있지 않을 수도 있지만] (양보 접속사 even though)
 [분석 끊어읽기 영어]
 Even though citizen scientists may not have science degrees / or long, white lab coats, / they are still capable of making valuable contributions / to science.

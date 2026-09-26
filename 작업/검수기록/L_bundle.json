@@ -4,11 +4,11 @@
  "id": "L-bundle",
  "kind": "learning",
  "role": "L",
- "summary": "L 검수 3명(u1+u4·u2·u3)과 전체 연결 검수. 발견 41건+재검 2건 모두 해결 또는 근거 있는 현행 유지",
+ "summary": "L 검수 3명(u1+u4·u2·u3)과 전체 연결 검수. 발견 41건+재검 2건 모두 해결 또는 근거 있는 현행 유지 / 오늘의 낱말 ★ 교체 후 3명 모두 현재 FINAL 재확인 PASS",
  "bindings": {
   "package_sha256": "4fcd6a2f2d6542160e46cc4cddd22129d67413f334cd82febdc6661d97b112c4",
-  "learning_content_sha256": "5e182645624bd81d1be4fadbb17f95e88c7e98673454b6e6aa5c854c0ef7e248",
-  "learning_final_sha256": "76a03710cd82c9f14b7915323a5b1126956074338dee955a97e69c2cdba69b27"
+  "learning_content_sha256": "37dc07277cb2bdae3769ded152e6e21af327949082b33f3359431c60568adea4",
+  "learning_final_sha256": "74df6029b31ca0280ea35fd41ccd5bbd4e974ba4d23a39051ad9eee49cd0f8cb"
  },
  "scope": {
   "kind": "full",
@@ -25,19 +25,19 @@
  "children": [
   {
    "path": "L_u1u4.json",
-   "sha256": "fd86a68dd71780367547df38e33a8f06d45fa36249d80bfe868264ca46244b51"
+   "sha256": "7f4b6761aec71b812db6cf37314271740a7d6f8fdef05f0aedf6069ca72f72d1"
   },
   {
    "path": "L_u2.json",
-   "sha256": "cd09adc7fb47d2651450ef7892d40b2e46ae946fd538c93d9f0af3cb3840d7c2"
+   "sha256": "84bdf0d7de86e57f575973062f00bb164984d322888961fa2d0df7e8c571226a"
   },
   {
    "path": "L_u3.json",
-   "sha256": "bd0d028bc82e6b701496a0bdb22ffd0da1032fa048a051121c3ac3b97f8235be"
+   "sha256": "03a5e3d5beadb574e26a04433f2f9fe685e6efaf5560c96d0c76c37c6677c10c"
   }
  ],
  "continuity": {
   "path": "L_continuity.json",
-  "sha256": "8a6768c430c777bee59b2d0009727486f99a2f66c04d8cfb186535465635127d"
+  "sha256": "8ed94eee7d5f27d62c3f94ee3ecf2505783a27371cf38a5775d9852330033c89"
  }
 }

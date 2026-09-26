@@ -1,0 +1,1034 @@
+{
+  "schema_version": 1,
+  "purpose": "REVIEW_INPUT_PACKET_NOT_FINAL",
+  "status": "NOT_FINAL",
+  "certification": "NOT_CERTIFIED",
+  "role": "questions-blind",
+  "input_digest": {
+    "content_sha256": "614785ac739ad03a14b937f3a325da96f61f51773fdf5a125e29679b4d1ec989",
+    "canonical_full_json_sha256": "614785ac739ad03a14b937f3a325da96f61f51773fdf5a125e29679b4d1ec989",
+    "file_sha256": "a0b7c1d126242ea13db6dab0ea2927d8294ea5d550e3177deb122a216def7d22",
+    "file_sha256_status": "EXACT_INPUT_BYTES"
+  },
+  "current_rules": [
+    {
+      "path": "SKILL.md",
+      "sha256": "adc1c4b5d87fa57241835db2d00f74627e96d5c209cd3bfbe76d24fe6ca51cc1"
+    },
+    {
+      "path": "references/editorial-core.md",
+      "sha256": "b942dccbfa90c37236cdd51a9070add4f596cd95993f93242c0b20306b3eca0e"
+    },
+    {
+      "path": "references/workflow.md",
+      "sha256": "2220776def95a7b2c5f50532efcf392921791ef9d75b298d660b6cdd37b73c75"
+    },
+    {
+      "path": "references/layout-rules.md",
+      "sha256": "75a8f67a0364f902f12be53200a64629e23251e1d876d291a54d1128b9d995eb"
+    },
+    {
+      "path": "references/runtime-and-data.md",
+      "sha256": "ec73b7a681b089742505b011758daff69de9c6ebff209dec8474909b59f25d9b"
+    },
+    {
+      "path": "references/handoff-format.md",
+      "sha256": "e9b3ed617a7c3c90b079710c97431fac9ab41b1e84bf455f6bb803006e079619"
+    },
+    {
+      "path": "references/common-errors.md",
+      "sha256": "058db2bf1c0fb67cc43927a6a53cf8cd122e55ef54ca2db944ceaddaaf41c2e8"
+    },
+    {
+      "path": "references/current-revision.md",
+      "sha256": "2ced5f11ffdb1285b435d4457ef707bec8ae62d71953942af479cae63e7ac1e5"
+    },
+    {
+      "path": "references/manuscript-data.md",
+      "sha256": "87725de92c7ef8ec82b68dc8bf821252364578d0ae71ac800d5871236c881444"
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "9dd3d9c1d3d1863526481516facdbe9afe462176bc05596ecf1a705ae6bbabff"
+    },
+    {
+      "path": "references/review-efficiency.md",
+      "sha256": "37218e5b5973f1a368fe4bc32622fab0a90c09308bdaaafcab7150203052147d"
+    },
+    {
+      "path": "references/workbook.md",
+      "sha256": "c358dbc10dc4e457d746ea19321a1f22c16c8f098083588157dfe154a329cfc5"
+    },
+    {
+      "path": "references/assessment-content.md",
+      "sha256": "b0491c3804fadee2787d4d0910c33763b5bbe31186e94d4c844e2eeeffe0df2e"
+    }
+  ],
+  "review_contract": {
+    "independent_review": "NOT_PERFORMED",
+    "approval_reuse": "NOT_IMPLEMENTED",
+    "complete_final_required": true,
+    "existing_release_gate_unchanged": true,
+    "required_independent_question_solvers": 2,
+    "context_is_not_assigned_or_reviewed": true,
+    "unresolved_items": "COORDINATOR_MUST_SUPPLY_BLIND_SAFE_ITEMS; NOT_CLEARED_BY_PACKET",
+    "blind_use": "Fresh independent solver only. Store own answers and reasoning before opening comparison, source, learning material, or author feedback. Removing answers does not restore blindness for a solver who already saw them."
+  },
+  "scope": {
+    "assigned": {
+      "question_ids": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "Q19",
+        "Q20",
+        "Q21",
+        "Q22",
+        "Q23",
+        "Q24",
+        "Q25"
+      ]
+    },
+    "context_only": {
+      "question_ids": []
+    },
+    "whole_stage_assigned": true
+  },
+  "selected_data": {
+    "questions": [
+      {
+        "id": "Q01",
+        "set_id": "workbook",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 요지로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "In honor of the aurora chasers who first discovered the phenomenon, the name “Steve” has been kept. However, it is now written in all capital letters and stands for “Strong Thermal Emission Velocity Enhancement.” Experts have acknowledged that it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE. If it had not been for them, it might have remained unnoticed forever. There are many interesting theories about STEVE, but none of them have been proven for certain. Scientists and citizens continue to collaborate to solve this mystery, and they are learning more and more about STEVE every day. Most of the individuals involved in these two projects are not professional scientists. Instead, they are citizen scientists — ordinary people who desire to help advance science in areas that they are interested in. Even though citizen scientists may not have science degrees or long, white lab coats, they are still capable of making valuable contributions to science. You can become one as well if you have curiosity and an interest in taking part in scientific research. The next great scientific achievement could be made by citizen scientists volunteering their time for the purpose of better understanding the world.",
+            "underlines": []
+          },
+          {
+            "text": "①  Only a few experts are able to make real progress in understanding the night sky.",
+            "underlines": []
+          },
+          {
+            "text": "②  Numerous unproven theories show that citizen science is in decline.",
+            "underlines": []
+          },
+          {
+            "text": "③  Ordinary people can make remarkable contributions to the advancement of science.",
+            "underlines": []
+          },
+          {
+            "text": "④  Extraordinary discoveries are possible only for those with science degrees.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Citizen science projects are too ordinary to lead to new knowledge.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q02",
+        "set_id": "workbook",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  다음 글의 내용과 일치하지 않는 것은?",
+            "underlines": []
+          },
+          {
+            "text": "Kevin Schawinski was a young astronomy researcher studying black holes and the evolution of galaxies at the University of Oxford. This might sound exciting, but his job there was dull and time-consuming. He had to classify around one million images of galaxies according to their shape. Since they all looked similar but were actually shaped slightly differently, the best way to do this was to sort them while looking at each one individually. Of course, this would require a tremendous amount of time. It took Schawinski a whole week to classify just 50,000 galaxies. He thought, “But what about the remaining 950,000?” One evening after work, Schawinski met a friend named Chris Lintott and complained about the situation. Lintott suggested that he turn to the Internet to ask other people for help. Eventually, the two men ended up launching a crowdsourced online project known as Galaxy Zoo. The website was kept as simple as possible, with a very basic design and an easy-to-use interface. This allowed those who wanted to participate to get started quickly. New visitors were greeted with a brief tutorial that explained the project.",
+            "underlines": []
+          },
+          {
+            "text": "①  Schawinski’s work of classifying galaxy images at Oxford was boring.",
+            "underlines": []
+          },
+          {
+            "text": "②  Sorting the images one by one would require an enormous amount of time.",
+            "underlines": []
+          },
+          {
+            "text": "③  Lintott suggested using the Internet to get help from other people.",
+            "underlines": []
+          },
+          {
+            "text": "④  New visitors to the website were given a short tutorial about the project.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Schawinski found his task exciting because it took only a tiny amount of time.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q03",
+        "set_id": "workbook",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "In Alberta, Canada, there were some “aurora chasers” who formed an informal group online. They would leave their homes at night and try to get exceptional photographs of auroras. Then they would share them with the rest of the group. In the summer of 2014, the group members began to notice something strange appearing in the night sky. There were unusual ribbons of green and purple light, some of which seemed to stretch for thousands of kilometers. Sometimes they lasted for just a few minutes, while other times they remained in the sky for a whole hour. They were similar in appearance to auroras, yet they possessed some notably different features. Unsure of what they were, the group decided to name the phenomenon “Steve,” based on a scene from an animated movie where some characters give that name to an unfamiliar object. After photographing Steve for several years and discussing what it might be, the group members decided to get help from experts. They showed their photos of Steve to a professor of astronomy at a local university and a scientist at NASA. Surprisingly, neither of them had any idea what Steve was. They confirmed that it was not an aurora, but it did not resemble anything they had seen before. They realized that the group had discovered a new type of phenomenon that had never been properly studied.",
+            "underlines": []
+          },
+          {
+            "text": "①  How Aurora Chasers Competed with NASA for the Best Photos",
+            "underlines": []
+          },
+          {
+            "text": "②  A Strange New Light Spotted by Ordinary Sky Watchers",
+            "underlines": []
+          },
+          {
+            "text": "③  Why Experts Found the Lights Too Familiar to Study",
+            "underlines": []
+          },
+          {
+            "text": "④  An Average Aurora That Everyone Can See at Night",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Outstanding Photos That Proved What Steve Really Was",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q04",
+        "set_id": "workbook",
+        "number": 4,
+        "student_blocks": [
+          {
+            "text": "4.  다음 글에서 필자가 주장하는 바로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "When we think about science, we might consider it as a domain reserved exclusively for scientists in long, white lab coats who spend their days conducting experiments and analyzing data. They seem to have very little in common with ordinary people like us. However, this perception is far from the truth. In reality, science belongs to everyone, and we all have the ability to play a role in the advancement of science. There have been numerous citizen science projects in which ordinary people have made contributions to remarkable scientific accomplishments. Let’s take a look at two of them. Kevin Schawinski was a young astronomy researcher studying black holes and the evolution of galaxies at the University of Oxford. This might sound exciting, but his job there was dull and time-consuming. He had to classify around one million images of galaxies according to their shape.",
+            "underlines": []
+          },
+          {
+            "text": "①  Only professional scientists should be trusted to advance science.",
+            "underlines": []
+          },
+          {
+            "text": "②  The ideas of amateurs are worthless unless experts check them first.",
+            "underlines": []
+          },
+          {
+            "text": "③  Scientists in lab coats should promote their work to ordinary people.",
+            "underlines": []
+          },
+          {
+            "text": "④  Anyone, not only experts, can play a valuable role in advancing science.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Citizen science projects tend to hinder real scientific progress.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q05",
+        "set_id": "mock1",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 주제로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "It was online media that helped spread the word about Galaxy Zoo, bringing more and more participants to the website. Shortly after the website was launched, nearly 70,000 classifications were being made per hour. In a year and a half, more than 80,000 individuals participated, and they made more than 75 million classifications. If it had not been for those participants, Schawinski couldn’t have classified that many images. In fact, it would have taken him decades on his own. More than 15 years have passed since the project first began in 2007. Galaxy Zoo has now grown into Zooniverse, which is one of the most popular platforms on the Internet for ordinary people who want to participate in science projects. It is more active than ever before, with about 2 million registered users worldwide. It now offers a wide range of projects in astronomy, biology, physics, and more. If you want to get involved, you should definitely check it out!",
+            "underlines": []
+          },
+          {
+            "text": "①  the role of ordinary participants in the success and growth of Galaxy Zoo",
+            "underlines": []
+          },
+          {
+            "text": "②  the reasons online media reduced the popularity of Galaxy Zoo",
+            "underlines": []
+          },
+          {
+            "text": "③  the difficulty of classifying galaxies without professional training",
+            "underlines": []
+          },
+          {
+            "text": "④  the time Schawinski spent training new astronomy researchers",
+            "underlines": []
+          },
+          {
+            "text": "⑤  the dangers of sharing personal information on science websites",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q06",
+        "set_id": "mock1",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  다음 글의 내용과 일치하는 것은?",
+            "underlines": []
+          },
+          {
+            "text": "In Alberta, Canada, there were some “aurora chasers” who formed an informal group online. They would leave their homes at night and try to get exceptional photographs of auroras. Then they would share them with the rest of the group. In the summer of 2014, the group members began to notice something strange appearing in the night sky. There were unusual ribbons of green and purple light, some of which seemed to stretch for thousands of kilometers. Sometimes they lasted for just a few minutes, while other times they remained in the sky for a whole hour. They were similar in appearance to auroras, yet they possessed some notably different features. Unsure of what they were, the group decided to name the phenomenon “Steve,” based on a scene from an animated movie where some characters give that name to an unfamiliar object.",
+            "underlines": []
+          },
+          {
+            "text": "①  The aurora chasers met in person every week to share their photos.",
+            "underlines": []
+          },
+          {
+            "text": "②  Some of the ribbons of light seemed to stretch for thousands of kilometers.",
+            "underlines": []
+          },
+          {
+            "text": "③  The ribbons of light always stayed in the sky for exactly one hour.",
+            "underlines": []
+          },
+          {
+            "text": "④  The lights looked completely different from auroras.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  A NASA scientist gave the phenomenon the name “Steve.”",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q07",
+        "set_id": "mock1",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "After photographing Steve for several years and discussing what it might be, the group members decided to get help from experts. They showed their photos of Steve to a professor of astronomy at a local university and a scientist at NASA. Surprisingly, neither of them had any idea what Steve was. They confirmed that it was not an aurora, but it did not resemble anything they had seen before. They realized that the group had discovered ________________. In order to learn more about it, NASA funded a citizen science project involving the public. The project asked ordinary people to gather photos of Steve and send them to NASA. It is still in progress today.",
+            "underlines": []
+          },
+          {
+            "text": "①  an old kind of aurora that experts had studied for years",
+            "underlines": []
+          },
+          {
+            "text": "②  a photograph that NASA had already published",
+            "underlines": []
+          },
+          {
+            "text": "③  a common light that anyone could easily identify",
+            "underlines": []
+          },
+          {
+            "text": "④  something that science had not yet properly explained",
+            "underlines": []
+          },
+          {
+            "text": "⑤  a mistake in the way the group had taken photos",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q08",
+        "set_id": "mock1",
+        "number": 4,
+        "student_blocks": [
+          {
+            "text": "4.  주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 글〉",
+            "underlines": []
+          },
+          {
+            "text": "When we think about science, we might consider it as a domain reserved exclusively for scientists in long, white lab coats who spend their days conducting experiments and analyzing data. They seem to have very little in common with ordinary people like us. However, this perception is far from the truth. ",
+            "underlines": []
+          },
+          {
+            "text": "(A) Since they all looked similar but were actually shaped slightly differently, the best way to do this was to sort them while looking at each one individually. Of course, this would require a tremendous amount of time. It took Schawinski a whole week to classify just 50,000 galaxies. He thought, “But what about the remaining 950,000?”",
+            "underlines": []
+          },
+          {
+            "text": "(B) In reality, science belongs to everyone, and we all have the ability to play a role in the advancement of science. There have been numerous citizen science projects in which ordinary people have made contributions to remarkable scientific accomplishments. Let’s take a look at two of them. ",
+            "underlines": []
+          },
+          {
+            "text": "(C) Kevin Schawinski was a young astronomy researcher studying black holes and the evolution of galaxies at the University of Oxford. This might sound exciting, but his job there was dull and time-consuming. He had to classify around one million images of galaxies according to their shape. ",
+            "underlines": []
+          },
+          {
+            "text": "①  A → C → B",
+            "underlines": []
+          },
+          {
+            "text": "②  B → A → C",
+            "underlines": []
+          },
+          {
+            "text": "③  B → C → A",
+            "underlines": []
+          },
+          {
+            "text": "④  C → A → B",
+            "underlines": []
+          },
+          {
+            "text": "⑤  C → B → A",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q09",
+        "set_id": "mock1",
+        "number": 5,
+        "student_blocks": [
+          {
+            "text": "5.  글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 문장〉",
+            "underlines": []
+          },
+          {
+            "text": "If it had not been for them, it might have remained unnoticed forever.",
+            "underlines": []
+          },
+          {
+            "text": "In honor of the aurora chasers who first discovered the phenomenon, the name “Steve” has been kept. However, it is now written in all capital letters and stands for “Strong Thermal Emission Velocity Enhancement.” ① Experts have acknowledged that it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE. ② There are many interesting theories about STEVE, but none of them have been proven for certain. ③ Scientists and citizens continue to collaborate to solve this mystery, and they are learning more and more about STEVE every day. ④ Most of the individuals involved in these two projects are not professional scientists. ⑤ Instead, they are citizen scientists — ordinary people who desire to help advance science in areas that they are interested in. Even though citizen scientists may not have science degrees or long, white lab coats, they are still capable of making valuable contributions to science. You can become one as well if you have curiosity and an interest in taking part in scientific research. The next great scientific achievement could be made by citizen scientists volunteering their time for the purpose of better understanding the world.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q10",
+        "set_id": "mock1",
+        "number": 6,
+        "passage_group_id": "long-mock1",
+        "student_blocks": [
+          {
+            "text": "6.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  How Computers Replaced Human Researchers in Astronomy",
+            "underlines": []
+          },
+          {
+            "text": "②  The Dangers of Asking Strangers Online for Help",
+            "underlines": []
+          },
+          {
+            "text": "③  Why All Galaxies Look Exactly the Same",
+            "underlines": []
+          },
+          {
+            "text": "④  A Researcher Who Gave Up on Classifying Galaxies",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Turning an Overwhelming Task into a Simple Online Project",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q11",
+        "set_id": "mock1",
+        "number": 7,
+        "passage_group_id": "long-mock1",
+        "student_blocks": [
+          {
+            "text": "7.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q12",
+        "set_id": "mock2",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 요지로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "One evening after work, Schawinski met a friend named Chris Lintott and complained about the situation. Lintott suggested that he turn to the Internet to ask other people for help. Eventually, the two men ended up launching a crowdsourced online project known as Galaxy Zoo. The website was kept as simple as possible, with a very basic design and an easy-to-use interface. This allowed those who wanted to participate to get started quickly. New visitors were greeted with a brief tutorial that explained the project. Then they were shown an image of a galaxy and asked to click buttons that described its features. Is the galaxy smooth and rounded? Is its shape an oval or a spiral? After completion of the tutorial and a little bit of practice, the participants were able to classify galaxies effectively. It was online media that helped spread the word about Galaxy Zoo, bringing more and more participants to the website. Shortly after the website was launched, nearly 70,000 classifications were being made per hour. In a year and a half, more than 80,000 individuals participated, and they made more than 75 million classifications. If it had not been for those participants, Schawinski couldn’t have classified that many images. In fact, it would have taken him decades on his own.",
+            "underlines": []
+          },
+          {
+            "text": "①  A simple website and many ordinary helpers made a huge classification task possible.",
+            "underlines": []
+          },
+          {
+            "text": "②  Online media made it harder for scientists to find volunteers.",
+            "underlines": []
+          },
+          {
+            "text": "③  Classifying galaxies requires years of professional training.",
+            "underlines": []
+          },
+          {
+            "text": "④  Schawinski finished most of the classifications by himself.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Tutorials make citizen science projects too complicated for beginners.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q13",
+        "set_id": "mock2",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  밑줄 친 what about the remaining 950,000가 다음 글에서 의미하는 바로 가장 적절한 것은?",
+            "underlines": [
+              [
+                9,
+                41
+              ]
+            ]
+          },
+          {
+            "text": "Kevin Schawinski was a young astronomy researcher studying black holes and the evolution of galaxies at the University of Oxford. This might sound exciting, but his job there was dull and time-consuming. He had to classify around one million images of galaxies according to their shape. Since they all looked similar but were actually shaped slightly differently, the best way to do this was to sort them while looking at each one individually. Of course, this would require a tremendous amount of time. It took Schawinski a whole week to classify just 50,000 galaxies. He thought, “But what about the remaining 950,000?” One evening after work, Schawinski met a friend named Chris Lintott and complained about the situation. Lintott suggested that he turn to the Internet to ask other people for help. Eventually, the two men ended up launching a crowdsourced online project known as Galaxy Zoo. The website was kept as simple as possible, with a very basic design and an easy-to-use interface. This allowed those who wanted to participate to get started quickly.",
+            "underlines": [
+              [
+                587,
+                619
+              ]
+            ]
+          },
+          {
+            "text": "①  He wanted to know where the other images had been stored.",
+            "underlines": []
+          },
+          {
+            "text": "②  He worried that classifying all the other images alone would take far too long.",
+            "underlines": []
+          },
+          {
+            "text": "③  He was excited that there were many more galaxies to study.",
+            "underlines": []
+          },
+          {
+            "text": "④  He thought the remaining images were too similar to classify.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  He hoped his friend would pay someone to finish the work.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q14",
+        "set_id": "mock2",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 글에서 전체 흐름과 관계 없는 문장은?",
+            "underlines": []
+          },
+          {
+            "text": "It was online media that helped spread the word about Galaxy Zoo, bringing more and more participants to the website. ① Shortly after the website was launched, nearly 70,000 classifications were being made per hour. ② In a year and a half, more than 80,000 individuals participated, and they made more than 75 million classifications. ③ If it had not been for those participants, Schawinski couldn’t have classified that many images. ④ Some astronomers still prefer to observe galaxies through huge telescopes built on high mountains. ⑤ In fact, it would have taken him decades on his own. More than 15 years have passed since the project first began in 2007. Galaxy Zoo has now grown into Zooniverse, which is one of the most popular platforms on the Internet for ordinary people who want to participate in science projects. It is more active than ever before, with about 2 million registered users worldwide. It now offers a wide range of projects in astronomy, biology, physics, and more. If you want to get involved, you should definitely check it out!",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q15",
+        "set_id": "mock2",
+        "number": 4,
+        "student_blocks": [
+          {
+            "text": "4.  다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "In Alberta, Canada, there were some “aurora chasers” who formed an informal group online. They would leave their homes at night and try to get exceptional photographs of auroras. Then they would share them with the rest of the group. In the summer of 2014, the group members began to notice something strange appearing in the night sky. There were unusual ribbons of green and purple light, some of which seemed to stretch for thousands of kilometers. Sometimes they lasted for just a few minutes, while other times they remained in the sky for a whole hour. They were similar in appearance to auroras, yet they possessed some notably different features. Unsure of what they were, the group decided to name the phenomenon “Steve,” based on a scene from an animated movie where some characters give that name to an unfamiliar object. After photographing Steve for several years and discussing what it might be, the group members decided to get help from experts. They showed their photos of Steve to a professor of astronomy at a local university and a scientist at NASA. Surprisingly, neither of them had any idea what Steve was. They confirmed that it was not an aurora, but it did not resemble anything they had seen before. They realized that the group had discovered a new type of phenomenon that had never been properly studied. In order to learn more about it, NASA funded a citizen science project involving the public. The project asked ordinary people to gather photos of Steve and send them to NASA. It is still in progress today.",
+            "underlines": []
+          },
+          {
+            "text": "[요약문] When aurora chasers noticed a(n) (A) light in the night sky that even experts could not explain, NASA started a project that depends on the (B) of ordinary people.",
+            "underlines": []
+          },
+          {
+            "text": "①  familiar …… participation",
+            "underlines": []
+          },
+          {
+            "text": "②  mysterious …… criticism",
+            "underlines": []
+          },
+          {
+            "text": "③  mysterious …… participation",
+            "underlines": []
+          },
+          {
+            "text": "④  familiar …… donations",
+            "underlines": []
+          },
+          {
+            "text": "⑤  dangerous …… participation",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q16",
+        "set_id": "mock2",
+        "number": 5,
+        "student_blocks": [
+          {
+            "text": "5.  다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "In honor of the aurora chasers who first discovered the phenomenon, the name “Steve” has been kept. However, it is now written in all capital letters and stands for “Strong Thermal Emission Velocity Enhancement.” Experts have acknowledged that it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE. If it had not been for them, it might have remained unnoticed forever. There are many interesting theories about STEVE, but none of them have been proven for certain. Scientists and citizens continue to collaborate to solve this mystery, and they are learning more and more about STEVE every day. Most of the individuals involved in these two projects are not professional scientists. Instead, they are citizen scientists — ordinary people who desire to help advance science in areas that they are interested in. Even though citizen scientists may not have science degrees or long, white lab coats, they are still ________________. You can become one as well if you have curiosity and an interest in taking part in scientific research. The next great scientific achievement could be made by citizen scientists volunteering their time for the purpose of better understanding the world.",
+            "underlines": []
+          },
+          {
+            "text": "①  unable to understand real scientific research",
+            "underlines": []
+          },
+          {
+            "text": "②  required to become professional scientists first",
+            "underlines": []
+          },
+          {
+            "text": "③  less important than the experts at NASA",
+            "underlines": []
+          },
+          {
+            "text": "④  interested only in taking beautiful photographs",
+            "underlines": []
+          },
+          {
+            "text": "⑤  able to do something truly useful for science",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q17",
+        "set_id": "mock2",
+        "number": 6,
+        "passage_group_id": "long-mock2",
+        "student_blocks": [
+          {
+            "text": "6.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  How NASA Solved the Mystery of STEVE Alone",
+            "underlines": []
+          },
+          {
+            "text": "②  STEVE: A Discovery Credited to Dedicated Amateurs",
+            "underlines": []
+          },
+          {
+            "text": "③  Why Experts Refused to Study Strange Lights",
+            "underlines": []
+          },
+          {
+            "text": "④  The Science Behind Ordinary Auroras",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Tips for Taking Better Photos of the Night Sky",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q18",
+        "set_id": "mock2",
+        "number": 7,
+        "passage_group_id": "long-mock2",
+        "student_blocks": [
+          {
+            "text": "7.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q19",
+        "set_id": "mock3",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글에서 필자가 주장하는 바로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "If it had not been for them, it might have remained unnoticed forever. There are many interesting theories about STEVE, but none of them have been proven for certain. Scientists and citizens continue to collaborate to solve this mystery, and they are learning more and more about STEVE every day. Most of the individuals involved in these two projects are not professional scientists. Instead, they are citizen scientists — ordinary people who desire to help advance science in areas that they are interested in. Even though citizen scientists may not have science degrees or long, white lab coats, they are still capable of making valuable contributions to science. You can become one as well if you have curiosity and an interest in taking part in scientific research. The next great scientific achievement could be made by citizen scientists volunteering their time for the purpose of better understanding the world.",
+            "underlines": []
+          },
+          {
+            "text": "①  People who are curious about science should take part in research as citizen scientists.",
+            "underlines": []
+          },
+          {
+            "text": "②  People should earn a science degree before joining any research project.",
+            "underlines": []
+          },
+          {
+            "text": "③  Citizen scientists should be paid for the time they spend on research.",
+            "underlines": []
+          },
+          {
+            "text": "④  Only projects about the night sky really need help from the public.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Professional scientists should stop wearing white lab coats.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q20",
+        "set_id": "mock3",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 글〉",
+            "underlines": []
+          },
+          {
+            "text": "One evening after work, Schawinski met a friend named Chris Lintott and complained about the situation. Lintott suggested that he turn to the Internet to ask other people for help. ",
+            "underlines": []
+          },
+          {
+            "text": "(A) This allowed those who wanted to participate to get started quickly. New visitors were greeted with a brief tutorial that explained the project. ",
+            "underlines": []
+          },
+          {
+            "text": "(B) Then they were shown an image of a galaxy and asked to click buttons that described its features. Is the galaxy smooth and rounded? Is its shape an oval or a spiral? After completion of the tutorial and a little bit of practice, the participants were able to classify galaxies effectively. It was online media that helped spread the word about Galaxy Zoo, bringing more and more participants to the website.",
+            "underlines": []
+          },
+          {
+            "text": "(C) Eventually, the two men ended up launching a crowdsourced online project known as Galaxy Zoo. The website was kept as simple as possible, with a very basic design and an easy-to-use interface. ",
+            "underlines": []
+          },
+          {
+            "text": "①  A → C → B",
+            "underlines": []
+          },
+          {
+            "text": "②  B → A → C",
+            "underlines": []
+          },
+          {
+            "text": "③  B → C → A",
+            "underlines": []
+          },
+          {
+            "text": "④  C → A → B",
+            "underlines": []
+          },
+          {
+            "text": "⑤  C → B → A",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q21",
+        "set_id": "mock3",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 문장〉",
+            "underlines": []
+          },
+          {
+            "text": "If it had not been for those participants, Schawinski couldn’t have classified that many images.",
+            "underlines": []
+          },
+          {
+            "text": "It was online media that helped spread the word about Galaxy Zoo, bringing more and more participants to the website. Shortly after the website was launched, nearly 70,000 classifications were being made per hour. ① In a year and a half, more than 80,000 individuals participated, and they made more than 75 million classifications. ② In fact, it would have taken him decades on his own. ③ More than 15 years have passed since the project first began in 2007. ④ Galaxy Zoo has now grown into Zooniverse, which is one of the most popular platforms on the Internet for ordinary people who want to participate in science projects. ⑤ It is more active than ever before, with about 2 million registered users worldwide. It now offers a wide range of projects in astronomy, biology, physics, and more. If you want to get involved, you should definitely check it out!",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q22",
+        "set_id": "mock3",
+        "number": 4,
+        "student_blocks": [
+          {
+            "text": "4.  다음 글의 내용과 일치하지 않는 것은?",
+            "underlines": []
+          },
+          {
+            "text": "After photographing Steve for several years and discussing what it might be, the group members decided to get help from experts. They showed their photos of Steve to a professor of astronomy at a local university and a scientist at NASA. Surprisingly, neither of them had any idea what Steve was. They confirmed that it was not an aurora, but it did not resemble anything they had seen before. They realized that the group had discovered a new type of phenomenon that had never been properly studied. In order to learn more about it, NASA funded a citizen science project involving the public. The project asked ordinary people to gather photos of Steve and send them to NASA. It is still in progress today. In honor of the aurora chasers who first discovered the phenomenon, the name “Steve” has been kept. However, it is now written in all capital letters and stands for “Strong Thermal Emission Velocity Enhancement.” Experts have acknowledged that it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE. If it had not been for them, it might have remained unnoticed forever. There are many interesting theories about STEVE, but none of them have been proven for certain. Scientists and citizens continue to collaborate to solve this mystery, and they are learning more and more about STEVE every day.",
+            "underlines": []
+          },
+          {
+            "text": "①  The group took photos of Steve for several years before asking experts for help.",
+            "underlines": []
+          },
+          {
+            "text": "②  Neither the professor nor the NASA scientist knew what Steve was.",
+            "underlines": []
+          },
+          {
+            "text": "③  NASA supported a project that asked the public to send in photos.",
+            "underlines": []
+          },
+          {
+            "text": "④  The name “Steve” was kept to honor the aurora chasers.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Scientists have now proven one theory about STEVE for certain.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q23",
+        "set_id": "mock3",
+        "number": 5,
+        "student_blocks": [
+          {
+            "text": "5.  다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "In Alberta, Canada, there were some “aurora chasers” who formed an informal group online. They would leave their homes at night and try to get exceptional photographs of auroras. Then they would share them with the rest of the group. In the summer of 2014, the group members began to notice something strange appearing in the night sky. There were unusual ribbons of green and purple light, some of which seemed to stretch for thousands of kilometers. Sometimes they lasted for just a few minutes, while other times they remained in the sky for a whole hour. They were similar in appearance to auroras, yet they possessed ________________. Unsure of what they were, the group decided to name the phenomenon “Steve,” based on a scene from an animated movie where some characters give that name to an unfamiliar object.",
+            "underlines": []
+          },
+          {
+            "text": "①  characteristics that set them apart from auroras",
+            "underlines": []
+          },
+          {
+            "text": "②  exactly the same colors that all auroras have",
+            "underlines": []
+          },
+          {
+            "text": "③  no connection at all to the night sky",
+            "underlines": []
+          },
+          {
+            "text": "④  a shape that nobody was able to photograph",
+            "underlines": []
+          },
+          {
+            "text": "⑤  a name that scientists had already given them",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q24",
+        "set_id": "mock3",
+        "number": 6,
+        "passage_group_id": "long-mock3",
+        "student_blocks": [
+          {
+            "text": "6.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  Why Scientists Should Work Alone in Their Labs",
+            "underlines": []
+          },
+          {
+            "text": "②  The Long History of the White Lab Coat",
+            "underlines": []
+          },
+          {
+            "text": "③  Science for Everyone: A Task Too Big for One Scientist",
+            "underlines": []
+          },
+          {
+            "text": "④  How to Classify Galaxies by Their Color",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Ordinary People Have Nothing to Do with Science",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q25",
+        "set_id": "mock3",
+        "number": 7,
+        "passage_group_id": "long-mock3",
+        "student_blocks": [
+          {
+            "text": "7.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": []
+          }
+        ]
+      }
+    ],
+    "passage_groups": [
+      {
+        "id": "long-mock1",
+        "question_ids": [
+          "Q10",
+          "Q11"
+        ],
+        "student_blocks": [
+          {
+            "text": "Kevin Schawinski was a young astronomy researcher studying black holes and the evolution of galaxies at the University of Oxford. This might sound exciting, but his job there was ① dull and time-consuming. He had to classify around one million images of galaxies according to their shape. Since they all looked ② similar but were actually shaped slightly differently, the best way to do this was to sort them while looking at each one individually. Of course, this would require a ③ tremendous amount of time. It took Schawinski a whole week to classify just 50,000 galaxies. He thought, “But what about the remaining 950,000?”",
+            "underlines": [
+              [
+                181,
+                185
+              ],
+              [
+                313,
+                320
+              ],
+              [
+                483,
+                493
+              ]
+            ]
+          },
+          {
+            "text": "One evening after work, Schawinski met a friend named Chris Lintott and complained about the situation. Lintott suggested that he turn to the Internet to ask other people for help. Eventually, the two men ended up launching a crowdsourced online project known as Galaxy Zoo. The website was kept as ④ complicated as possible, with a very basic design and an easy-to-use interface. This allowed those who wanted to participate to get started ⑤ quickly. New visitors were greeted with a brief tutorial that explained the project. Then they were shown an image of a galaxy and asked to click buttons that described its features. Is the galaxy smooth and rounded? Is its shape an oval or a spiral? After completion of the tutorial and a little bit of practice, the participants were able to classify galaxies effectively.",
+            "underlines": [
+              [
+                301,
+                312
+              ],
+              [
+                443,
+                450
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "long-mock2",
+        "question_ids": [
+          "Q17",
+          "Q18"
+        ],
+        "student_blocks": [
+          {
+            "text": "After photographing Steve for several years and discussing what it might be, the group members decided to get help from experts. They showed their photos of Steve to a professor of astronomy at a local university and a scientist at NASA. Surprisingly, neither of them had any idea what Steve was. They ① confirmed that it was not an aurora, but it did not resemble anything they had seen before. They realized that the group had discovered a new type of phenomenon that had never been ② properly studied. In order to learn more about it, NASA funded a citizen science project involving the public. The project asked ordinary people to ③ gather photos of Steve and send them to NASA. It is still in progress today.",
+            "underlines": [
+              [
+                304,
+                313
+              ],
+              [
+                487,
+                495
+              ],
+              [
+                637,
+                643
+              ]
+            ]
+          },
+          {
+            "text": "In ④ honor of the aurora chasers who first discovered the phenomenon, the name “Steve” has been kept. However, it is now written in all capital letters and stands for “Strong Thermal Emission Velocity Enhancement.” Experts have acknowledged that it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE. If it had not been for them, it might have remained ⑤ famous forever. There are many interesting theories about STEVE, but none of them have been proven for certain. Scientists and citizens continue to collaborate to solve this mystery, and they are learning more and more about STEVE every day.",
+            "underlines": [
+              [
+                5,
+                10
+              ],
+              [
+                403,
+                409
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "long-mock3",
+        "question_ids": [
+          "Q24",
+          "Q25"
+        ],
+        "student_blocks": [
+          {
+            "text": "When we think about science, we might consider it as a domain reserved ① exclusively for scientists in long, white lab coats who spend their days conducting experiments and analyzing data. They seem to have very ② much in common with ordinary people like us. However, this perception is far from the truth. In reality, science belongs to everyone, and we all have the ability to play a role in the advancement of science. There have been numerous citizen science projects in which ordinary people have made contributions to ③ remarkable scientific accomplishments. Let’s take a look at two of them.",
+            "underlines": [
+              [
+                73,
+                84
+              ],
+              [
+                214,
+                218
+              ],
+              [
+                526,
+                536
+              ]
+            ]
+          },
+          {
+            "text": "Kevin Schawinski was a young astronomy researcher studying black holes and the evolution of galaxies at the University of Oxford. This might sound exciting, but his job there was ④ dull and time-consuming. He had to classify around one million images of galaxies according to their shape. Since they all looked similar but were actually shaped slightly differently, the best way to do this was to sort them while looking at each one ⑤ individually. Of course, this would require a tremendous amount of time. It took Schawinski a whole week to classify just 50,000 galaxies. He thought, “But what about the remaining 950,000?”",
+            "underlines": [
+              [
+                181,
+                185
+              ],
+              [
+                435,
+                447
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
