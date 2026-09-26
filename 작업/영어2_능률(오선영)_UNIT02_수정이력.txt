@@ -11,3 +11,13 @@
   5) s60 힌트: 영어에 없는 목적어 ‘시간을’을 한국어에서 제거.
   6) u4 흐름: 1문장 구간(58~58) 해소를 위해 2개 구간으로 재구성.
 - 재검증: check_learning_content(learning) STRUCTURE_PASS, review_preflight(learning) 진단 0건, build_book 저장본 내용·서식 PASS.
+
+2026-09-26 2단계 독립 검수
+- S(원문): PASS, 발견 0건(문자 단위 일치, 60문장·10단락 확인).
+- L(u1+u4·연결 / u2 / u3): 최초 40건 + 연결 7건(중복 포함) + 재검 신규 2건. 주요 수정:
+  숙어 청크 분리 해소(s02·s30·s60), 쉬운 풀이의 원문 밖 내용 제거(s10·s24·s37·s41·s60), 수치 수식어(s27 약 백만),
+  대명사 조사(s20·s53), A(이/가) 강조(s27·s53), 관계절 선행사 표시(s38), 간접의문 힌트 범위(s41),
+  STEVE 풀이(강한 열 방출 속도 증가), 다의어 표기(make/made), 구문 항목 한 초점(u1-gp1·u4-gp3), u3-gp4 연습 답, 분리 각주(complain/about, bring/to, participate/in).
+- 현행 유지 1건: L2-6(s20 asked to V) — 수동 p.p. 각주 표제어 계약상 실제형 asked만 허용, 검수자 수용.
+- 충돌 조정: s37 청크(L3-7 vs LN-1) → 청크 경계 재조정으로 양쪽 해결, 두 검수자 확인.
+- 재검증: STRUCTURE_PASS, FINAL 내보내기, DOCX patch 저장본 내용·서식 PASS(표지 보존).

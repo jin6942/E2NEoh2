@@ -81,13 +81,15 @@ def sentences(T):
     s.g('seem|to', 'seem to V', '~하는 것 같다',
         verb_construction={'kind': 'to-complement', 'verb_span': s.span_of('seem'), 'lemma': 'seem',
                            'link_spans': [s.span_of('to')], 'review_record': 'seem to have: 동사 seem의 뜻을 완성하는 to V 보충.'})
-    s.g('have|little|in|common|with', 'have little in common with A', 'A와 공통점이 거의 없다')
+    s.g('have|little|in|common', 'have little in common', '공통점이 거의 없다')
     s.g('very', 'very', '매우')
+    s.g('with', 'with', '~와')
     s.g('ordinary', 'ordinary', '평범한')
     s.g('people', 'people', '사람들')
     s.g('like', 'like', '~ 같은')
     s.g('us', 'us', '우리', referent_ko='글쓴이와 독자를 포함한 평범한 사람들')
-    s.review = ('단일 주절. seem to V 보충 부정사, have little in common with 숙어. like us는 ordinary people을 꾸미는 전치사구이나 뜻이 쉬워 청크로만 구분. '
+    s.brk('like', 'postnominal-preposition', 'like us는 앞 명사 ordinary people을 뒤에서 꾸미는 전치사구')
+    s.review = ('단일 주절. seem to V 보충 부정사, have little in common 숙어와 with 분리. like us는 ordinary people을 꾸미는 전치사구이나 뜻이 쉬워 청크로만 구분. '
                 '관계사·접속사절·수동 없음 → 힌트 없음. very는 little을 꾸며 숙어 사이에 끼어 있음.')
     out.append(s)
 
@@ -161,7 +163,7 @@ def sentences(T):
     s.g('ordinary', 'ordinary', '평범한')
     s.g('people', 'people', '사람들')
     f2 = s.g('have', 'have p.p.', '~해 왔다', kind='function', combines_with=[])
-    m = s.g('made', 'make', '하다, 만들다 (made는 make의 p.p.형)',
+    m = s.g('made', 'make', '하다 (흔한 뜻: 만들다) (made는 make의 p.p.형)',
             verb_form={'usage': 'perfect-participle', 'source_span': s.span_of('made'), 'lemma': 'make',
                        'function_gloss_id': f2['id']})
     link(f2, m)
@@ -221,7 +223,7 @@ def analysis(ids):
         'intent_ko': '과학이 흰 가운을 입은 과학자들만의 영역이라는 생각은 틀렸고, 누구나 과학 발전에 한몫할 수 있다는 점을 밝히며 시민 과학 프로젝트 두 가지를 소개하려는 글이다.',
         'flow': [
             {'sentence_ids': ['s01', 's02'], 'label': '도입',
-             'text_ko': '과학은 실험실 가운을 입은 과학자들만의 영역이고 우리 같은 보통 사람과는 거리가 멀다는 흔한 생각을 먼저 보여 준다.'},
+             'text_ko': '과학은 실험실 가운을 입은 과학자들만의 영역이고, 그런 과학자들은 우리 같은 보통 사람과 공통점이 거의 없다는 흔한 생각을 먼저 보여 준다.'},
             {'sentence_ids': ['s03', 's04'], 'label': '반박',
              'text_ko': 'However로 방향을 바꿔 그 생각이 틀렸다고 말하고, 과학은 모두의 것이며 누구나 과학 발전에 한몫할 수 있다는 중심 생각을 밝힌다.'},
             {'sentence_ids': ['s05', 's06'], 'label': '예고',
@@ -249,7 +251,7 @@ def analysis(ids):
              'title': 'spend + A + V-ing: V-ing하면서 A(시간)를 보내다', 'formula_key': 'spend A V-ing',
              'explanation': '공식: spend + A + V-ing — V-ing하면서 A(시간)를 보내다. '
                             'A = their days(그들의 나날), V-ing = conducting experiments(실험을 하다), analyzing data(데이터를 분석하다). '
-                            '→ 실험을 하고 데이터를 분석하면서 그들의 나날을 보내다. 앞의 who가 scientists를 받으므로 ‘…나날을 보내는 과학자들’로 이어 읽는다.',
+                            '→ 실험을 하고 데이터를 분석하면서 그들의 나날을 보내다.',
              'practice': {'span': 'spend their days conducting experiments',
                           'formula_support': {'en': 'spend A V-ing', 'ko': 'V-ing하면서 A(시간)를 보내다'},
                           'support': [('s01', 'their'), ('s01', 'days'), ('s01', 'conduct'), ('s01', 'experiments')],
@@ -265,7 +267,7 @@ def analysis(ids):
             {'id': 'u1-gp3', 'sentence_id': 's05', 'span': 'projects in which ordinary people have made contributions to remarkable scientific accomplishments',
              'title': '명사 + in which S′ V′: S′가 V′하는 명사', 'formula_key': 'in which S′ V′',
              'explanation': '공식: 명사 + in which S′ V′ — S′(이/가) V′하는 명사. 선행사 = projects(프로젝트들), in which = 그 프로젝트들 안에서, '
-                            'S′ = ordinary people(평범한 사람들), V′ = have made contributions(기여를 해 왔다). '
+                            'S′ = ordinary people(평범한 사람들), V′ = have made(해 왔다), 목적어 = contributions(기여). '
                             '→ 평범한 사람들이 기여를 해 온 프로젝트들. 전치사 in이 관계대명사 which 앞에 붙어 ‘그 프로젝트 안에서’라는 관계를 나타낸다.',
              'practice': {'span': 'projects in which ordinary people have made contributions',
                           'formula_support': {'en': 'in which S′ V′', 'ko': 'S′(이/가) V′하는'},
@@ -300,4 +302,13 @@ def analysis(ids):
              'synonym': {'id': 'u1-r3s', 'text': 'progress', 'meaning_ko': '진보, 발전'},
              'antonym': {'id': 'u1-r3a', 'text': 'decline', 'meaning_ko': '쇠퇴, 감소'}},
         ],
+    }
+
+
+def workbook():
+    return {
+        'relation_order': ['u1-r2s', 'u1-r1a', 'u1-r3h', 'u1-r2a', 'u1-r1h', 'u1-r3s', 'u1-r2h', 'u1-r3a', 'u1-r1s'],
+        'key_sentence_ids': ['s01', 's05'],
+        'question_id': 'Q01',
+        'syntax_point_ids': ['u1-gp1', 'u1-gp2', 'u1-gp3', 'u1-gp4'],
     }

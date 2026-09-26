@@ -209,8 +209,9 @@ def sentences(T):
     s.g('friend', 'friend', '친구')
     nm = s.g('named', 'named', '(~라는) 이름의', verb_form=pp('past-participle', s, 'named', 'name'))
     s.g('Chris|Lintott', 'Chris Lintott', '크리스 린톳 (Schawinski의 친구)', proper=True)
-    s.g('complained|about', 'complain about', '~에 대해 불평하다', star=W['complain'],
+    s.g('complained', 'complain', '불평하다', star=W['complain'],
         verb_form=pp('regular-past', s, 'complained', 'complain'))
+    s.g('about', 'about', '~에 대해')
     s.g('situation', 'situation', '상황')
     s.hint('a friend [named Chris Lintott]', '[Chris Lintott이라는 이름의] 친구', span='a friend named Chris Lintott',
            label='과거분사 후치수식', links=[(['named'], ['이름의'])], participle_focus_gloss_id=nm['id'],
@@ -278,8 +279,8 @@ def sentences(T):
     # ---------------- s17 ----------------
     s = S('s17', T['s17'])
     s.ch('The website was kept as simple as possible,', '그 웹사이트는 가능한 한 단순하게 유지되었다,')
-    s.ch('with a very basic design', '매우 기본적인 디자인과')
-    s.ch('and an easy-to-use interface.', '그리고 사용하기 쉬운 인터페이스를 갖추고.')
+    s.ch('with a very basic design', '매우 기본적인 디자인을 갖추고')
+    s.ch('and an easy-to-use interface.', '그리고 사용하기 쉬운 인터페이스를 (갖추고).')
     s.natural('그 웹사이트는 매우 기본적인 디자인과 사용하기 쉬운 인터페이스를 갖추어 최대한 단순하게 유지되었다.')
     s.cl('main', 'The', subj='The website', verbs=['was', 'kept'])
     s.g('website', 'website', '웹사이트')
@@ -369,7 +370,7 @@ def sentences(T):
     s.cl('main', 'they', subj='they', verbs=['were', 'shown', 'and', 'asked'])
     s.cl('subject_relative', 'that', verbs=['described'], marker='that')
     s.g('Then', 'then', '그런 다음')
-    s.g('they', 'they', '그들', referent_ko='새로운 방문자들')
+    s.g('they', 'they', '그들은', referent_ko='새로운 방문자들')
     f = s.g('were', 'be p.p.', '~되다', kind='function', combines_with=[])
     sh = s.g('shown', 'shown', '보여진', verb_form=pp('passive-participle', s, 'shown', 'show', f['id']))
     s.g('image', 'image', '이미지')
@@ -391,7 +392,8 @@ def sentences(T):
     s.brk('of', 'postnominal-preposition', 'of a galaxy는 앞 명사 an image를 꾸미는 전치사구')
     s.relative_ids = [rel['id']]
     s.review = ('주어 they의 병렬 수동 were shown … and (were) asked to V: be는 한 번, p.p. 두 개가 같은 기능 각주에 연결. '
-                '필수 관계사 that 힌트. 수동은 힌트가 있어 분석 be p.p. 대표로 연결. of a galaxy 후치수식 경계.')
+                '필수 관계사 that 힌트. 수동은 힌트가 있어 분석 be p.p. 대표로 연결. of a galaxy 후치수식 경계. '
+                'to click은 수동 asked의 보충 to V이지만 수동 p.p. 각주 표제어는 실제형 asked만 허용되어 to V — ~하도록으로 분리(L2-6 검수자 수용).')
     out.append(s)
 
     # ---------------- s21 ----------------
@@ -399,7 +401,7 @@ def sentences(T):
     s.ch('Is the galaxy smooth and rounded?', '그 은하는 매끄럽고 둥근가?')
     s.natural('그 은하는 매끄럽고 둥근가?')
     s.cl('main', 'Is', subj='the galaxy', verbs=[], vfirst=['Is'])
-    s.g('Is', 'is', '~인가 (의문)')
+    s.g('Is', 'is', '~인가')
     s.g('galaxy', 'galaxy', '은하')
     s.g('smooth', 'smooth', '매끄러운')
     s.g('rounded', 'rounded', '둥근')
@@ -411,7 +413,7 @@ def sentences(T):
     s.ch('Is its shape an oval or a spiral?', '그것의 모양은 타원형인가 아니면 나선형인가?')
     s.natural('그 은하의 모양은 타원형인가, 아니면 나선형인가?')
     s.cl('main', 'Is', subj='its shape', verbs=[], vfirst=['Is'])
-    s.g('Is', 'is', '~인가 (의문)')
+    s.g('Is', 'is', '~인가')
     s.g('its', 'its', '그것의', referent_ko='그 은하')
     s.g('shape', 'shape', '모양')
     s.g('oval', 'oval', '타원형')
@@ -464,14 +466,13 @@ def sentences(T):
     s.g('spread|word', 'spread the word', '소문을 퍼뜨리다')
     s.g('about', 'about', '~에 대한')
     f = s.g('bringing', 'V-ing', '~하면서 (분사구문)', kind='function', combines_with=[])
-    br = s.g('bringing|to', 'bring A to B', 'A를 B로 데려오다', same=True, verb_form=pp('ing', s, 'bringing', 'bring'),
-             verb_construction={'kind': 'verb-frame', 'verb_span': s.span_of('bringing'), 'lemma': 'bring',
-                                'link_spans': [s.span_of('to', s.text.index('participants'))],
-                                'review_record': 'bringing more and more participants to the website: A=more and more participants, B=the website.'})
+    br = s.g('bringing', 'bring', '데려오다', same=True, verb_form=pp('ing', s, 'bringing', 'bring'))
     link(f, br)
     s.g('more|and|more', 'more and more', '점점 더 많은')
     s.g('participants', 'participants', '참여자들', star=W['participants'])
+    s.g('to', 'to', '~로', at=s.text.index('to the website'))
     s.g('website', 'website', '웹사이트')
+    s.brk('about', 'postnominal-preposition', 'about Galaxy Zoo는 앞 명사 the word를 꾸미는 전치사구')
     s.hint('It was online media [that helped]', '[도운] 것은 바로 온라인 미디어였다', span='It was online media that helped',
            label='It ~ that 강조 구문', links=[(['It was', 'that'], ['것은 바로', '였다'])],
            meaning='(소문을 퍼뜨리는 것을) 도운 것은 바로 온라인 미디어였다',
@@ -500,7 +501,7 @@ def sentences(T):
     s.g('nearly', 'nearly', '거의')
     s.g('classifications', 'classifications', '분류(한 건수)')
     f2 = s.g('were|being', 'be being p.p.', '~되고 있다', kind='function', combines_with=[])
-    md = s.g('made', 'made', '이루어진, 만들어진', verb_form=pp('passive-participle', s, 'made', 'make', f2['id']))
+    md = s.g('made', 'made', '이루어진 (흔한 뜻: 만들어진)', verb_form=pp('passive-participle', s, 'made', 'make', f2['id']))
     link(f2, md)
     s.g('per', 'per', '~당')
     s.g('hour', 'hour', '시간')
@@ -544,7 +545,7 @@ def sentences(T):
     s.natural('그 참여자들이 없었다면, Schawinski는 그렇게 많은 이미지를 분류할 수 없었을 것이다.')
     s.cl('subordinate', 'If', subj='it', verbs=['had not been'], marker='If')
     s.cl('main', 'Schawinski', subj='Schawinski', verbs=['couldn’t have classified'])
-    s.g('If|it|had|not|been|for', 'If it had not been for A', 'A가 없었다면')
+    s.g('If|it|had|not|been|for', 'If it had not been for A', 'A(이/가) 없었다면')
     s.g('those', 'those', '그')
     s.g('participants', 'participants', '참여자들', star=W['participants'])
     f = s.g('couldn’t|have', 'couldn’t have p.p.', '~할 수 없었을 것이다', kind='function', combines_with=[])
@@ -555,7 +556,7 @@ def sentences(T):
     s.g('images', 'images', '이미지들')
     s.hint('[If it had not been for] those participants', '그 참여자들이 [없었다면]',
            span='If it had not been for those participants', label='가정법 과거완료 If it had not been for',
-           links=[(['If it had not been for'], ['없었다면'])], meaning='그 참여자들이 없었다면',
+           links=[(['If it had not been for'], [('이', 0), '없었다면'])], meaning='그 참여자들이 없었다면',
            explanation='If it had not been for A: A가 없었다면(과거 사실의 반대). 주절 couldn’t have p.p.와 짝을 이룬다.')
     s.vf_hint(fn=f, lex=c, en='couldn’t have classified', ko='분류할 수 없었을 것이다', formula='couldn’t have p.p.',
               step_form='classify', step_ko='분류하다', en_mark=['couldn’t have'], ko_mark=['수 없었을 것이다'],
@@ -654,7 +655,8 @@ def sentences(T):
     s.g('want|to', 'want to V', '~하고 싶어 하다',
         verb_construction={'kind': 'to-complement', 'verb_span': s.span_of('want'), 'lemma': 'want',
                            'link_spans': [s.span_of('to', s.text.index('want'))], 'review_record': 'want to participate: want의 목적어 to V.'})
-    s.g('participate|in', 'participate in', '~에 참여하다')
+    s.g('participate', 'participate', '참여하다')
+    s.g('in', 'in', '~에', at=s.text.index('in science'))
     s.g('science', 'science', '과학')
     s.g('projects', 'projects', '프로젝트들')
     s.hint('Zooniverse, [which is one]', 'Zooniverse, [그리고 그것은 하나이다]',
@@ -681,7 +683,7 @@ def sentences(T):
     s.g('is', 'is', '~이다')
     s.g('more|than|ever|before', 'more ~ than ever before', '그 어느 때보다 더 ~한')
     s.g('active', 'active', '활발한')
-    s.g('with', 'with', '~을 가지고, ~와 함께')
+    s.g('with', 'with', '~와 함께')
     s.g('about', 'about', '약')
     s.g('million', 'million', '백만')
     s.g('registered', 'registered', '등록된', verb_form=pp('past-participle', s, 'registered', 'register'))
@@ -693,7 +695,7 @@ def sentences(T):
     # ---------------- s32 ----------------
     s = S('s32', T['s32'])
     s.ch('It now offers a wide range of projects', '그것은 현재 광범위한 프로젝트들을 제공한다')
-    s.ch('in astronomy, biology, physics, and more.', '천문학, 생물학, 물리학 등의.')
+    s.ch('in astronomy, biology, physics, and more.', '천문학, 생물학, 물리학 등 분야의.')
     s.natural('현재 그것은 천문학, 생물학, 물리학 등 다양한 분야의 프로젝트를 제공하고 있다.')
     s.cl('main', 'It', subj='It', verbs=['offers'])
     s.g('It', 'it', '그것은', referent_ko='Zooniverse')
@@ -709,9 +711,9 @@ def sentences(T):
     s.g('more', 'more', '그 밖의 것들')
     s.prot('a wide range of', 'quantity-kind-of', '수량·종류 표현 a wide range of가 뒤 명사 projects 앞에서 ‘광범위한’으로 같은 어순 대응', gloss=q)
     s.brk('in', 'postnominal-preposition', 'in astronomy … and more는 앞 명사 projects를 꾸미는 전치사구')
-    s.hint('projects [in astronomy, biology, physics, and more]', '[천문학, 생물학, 물리학 등의] 프로젝트들',
+    s.hint('projects [in astronomy, biology, physics, and more]', '[천문학, 생물학, 물리학 등 분야의] 프로젝트들',
            span='projects in astronomy, biology, physics, and more', label='전치사구 후치수식',
-           links=[(['in'], ['의'])], meaning='천문학, 생물학, 물리학 등의 프로젝트들',
+           links=[(['in'], ['분야의'])], meaning='천문학, 생물학, 물리학 등 분야의 프로젝트들',
            explanation='전치사구 in astronomy, biology, physics, and more가 앞 명사 projects를 뒤에서 꾸민다(분야).')
     s.review = '단일 주절. a wide range of 수량 표현 보호, 전치사구 후치수식 → 힌트. 수동 없음.'
     out.append(s)
@@ -749,7 +751,7 @@ UNIT = {
         {'id': W['classify'], 'text': 'classify', 'meaning_ko': '분류하다'},
         {'id': W['tremendous'], 'text': 'tremendous', 'meaning_ko': '엄청난'},
         {'id': W['individually'], 'text': 'individually', 'meaning_ko': '개별적으로, 하나씩'},
-        {'id': W['complain'], 'text': 'complain about', 'meaning_ko': '~에 대해 불평하다'},
+        {'id': W['complain'], 'text': 'complain', 'meaning_ko': '불평하다'},
         {'id': W['tutorial'], 'text': 'tutorial', 'meaning_ko': '사용 지침, 안내'},
         {'id': W['effectively'], 'text': 'effectively', 'meaning_ko': '효과적으로'},
         {'id': W['participants'], 'text': 'participants', 'meaning_ko': '참여자들, 참가자들'},
@@ -779,16 +781,16 @@ def analysis(_):
                 '10번 문장은 9번에서 말한 분류 작업이 왜 그렇게 힘들었는지 설명한다.',
                 '은하 사진들은 얼핏 보면 다 비슷하다.',
                 '하지만 자세히 보면 모양이 조금씩 다르다.',
-                '그래서 컴퓨터처럼 한꺼번에 처리할 수 없고, 사람이 사진을 한 장씩 직접 보며 나눠야 했다.',
+                '그래서 사진을 한 장씩 직접 보면서 나누는 것이 가장 좋은 방법이었다.',
                 '이 점이 11번 문장의 ‘엄청난 시간이 든다’로 이어진다.']},
             {'sentence_id': 's24', 'explanatory_sentences': [
                 '24번 문장은 Galaxy Zoo가 어떻게 많은 사람을 모았는지 보여 준다.',
                 '사람들이 인터넷 기사나 게시물로 Galaxy Zoo 소식을 서로 전했다.',
                 '그 소식을 본 사람들이 점점 더 많이 웹사이트에 찾아왔다.',
-                '문장 앞의 It was ~ that은 ‘소문을 낸 것은 바로 온라인 미디어였다’처럼 그 주인공을 힘주어 말하는 표현이다.']},
+                '글쓴이는 소문이 퍼지도록 도운 것이 바로 온라인 미디어였다고 힘주어 말한다.']},
             {'sentence_id': 's27', 'explanatory_sentences': [
                 '27번 문장은 24~26번에서 본 참여자들의 힘을 한 번 더 강조한다.',
-                '실제로는 참여자들이 있었기 때문에 백만 장에 가까운 이미지를 분류할 수 있었다.',
+                '실제로는 참여자들이 있었기 때문에 약 백만 장이나 되는 이미지를 분류할 수 있었다.',
                 '이 문장은 반대로 ‘만약 그들이 없었다면’이라고 상상해 본다.',
                 '그랬다면 Schawinski 혼자서는 그만큼 분류하지 못했을 것이다.',
                 '28번 문장은 혼자였다면 수십 년이 걸렸을 거라고 덧붙인다.']},
@@ -813,11 +815,11 @@ def analysis(_):
                           'support': [('s24', 'online'), ('s24', 'media'), ('s24', 'help V'), ('s24', 'spread the word')],
                           'answer_ko': '소문을 퍼뜨리는 것을 도운 것은 바로 온라인 미디어였다'}},
             {'id': 'u2-gp3', 'sentence_id': 's27', 'span': 'If it had not been for those participants',
-             'title': 'If it had not been for A: A가 없었다면', 'formula_key': 'If it had not been for A',
-             'explanation': '공식: If it had not been for A — A가 없었다면(과거 사실과 반대로 가정). A = those participants(그 참여자들). '
+             'title': 'If it had not been for A: A(이/가) 없었다면', 'formula_key': 'If it had not been for A',
+             'explanation': '공식: If it had not been for A — A(이/가) 없었다면(과거 사실과 반대로 가정). A = those participants(그 참여자들). '
                             '→ 그 참여자들이 없었다면. 뒤 주절은 couldn’t have p.p.(~할 수 없었을 것이다)로 짝을 이루어 “그 참여자들이 없었다면 Schawinski는 그렇게 많은 이미지를 분류할 수 없었을 것이다”가 된다. 실제로는 참여자들이 있었다는 뜻이다.',
              'practice': {'span': 'If it had not been for those participants',
-                          'formula_support': {'en': 'If it had not been for A', 'ko': 'A가 없었다면'},
+                          'formula_support': {'en': 'If it had not been for A', 'ko': 'A(이/가) 없었다면'},
                           'support': [('s27', 'those'), ('s27', 'participants')],
                           'answer_ko': '그 참여자들이 없었다면'}},
             {'id': 'u2-gp4', 'sentence_id': 's17', 'span': 'The website was kept as simple as possible',
@@ -874,4 +876,13 @@ def analysis(_):
              'synonym': {'id': 'u2-r3s', 'text': 'short', 'meaning_ko': '짧은'},
              'antonym': {'id': 'u2-r3a', 'text': 'lengthy', 'meaning_ko': '긴, 장황한'}},
         ],
+    }
+
+
+def workbook():
+    return {
+        'relation_order': ['u2-r2s', 'u2-r1a', 'u2-r3h', 'u2-r2a', 'u2-r1h', 'u2-r3s', 'u2-r2h', 'u2-r3a', 'u2-r1s'],
+        'key_sentence_ids': ['s24', 's27'],
+        'question_id': 'Q02',
+        'syntax_point_ids': ['u2-gp1', 'u2-gp2', 'u2-gp3', 'u2-gp4', 'u2-gp5'],
     }

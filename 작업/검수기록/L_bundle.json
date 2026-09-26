@@ -1,0 +1,43 @@
+{
+ "schema_version": 1,
+ "type": "review_bundle",
+ "id": "L-bundle",
+ "kind": "learning",
+ "role": "L",
+ "summary": "L 검수 3명(u1+u4·u2·u3)과 전체 연결 검수. 발견 41건+재검 2건 모두 해결 또는 근거 있는 현행 유지",
+ "bindings": {
+  "package_sha256": "4fcd6a2f2d6542160e46cc4cddd22129d67413f334cd82febdc6661d97b112c4",
+  "learning_content_sha256": "5e182645624bd81d1be4fadbb17f95e88c7e98673454b6e6aa5c854c0ef7e248",
+  "learning_final_sha256": "76a03710cd82c9f14b7915323a5b1126956074338dee955a97e69c2cdba69b27"
+ },
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4"
+  ]
+ },
+ "children": [
+  {
+   "path": "L_u1u4.json",
+   "sha256": "fd86a68dd71780367547df38e33a8f06d45fa36249d80bfe868264ca46244b51"
+  },
+  {
+   "path": "L_u2.json",
+   "sha256": "cd09adc7fb47d2651450ef7892d40b2e46ae946fd538c93d9f0af3cb3840d7c2"
+  },
+  {
+   "path": "L_u3.json",
+   "sha256": "bd0d028bc82e6b701496a0bdb22ffd0da1032fa048a051121c3ac3b97f8235be"
+  }
+ ],
+ "continuity": {
+  "path": "L_continuity.json",
+  "sha256": "8a6768c430c777bee59b2d0009727486f99a2f66c04d8cfb186535465635127d"
+ }
+}

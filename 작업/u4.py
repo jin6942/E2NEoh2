@@ -104,7 +104,7 @@ def sentences(T):
     s.g('are|capable|of', 'be capable of V-ing', '~할 수 있다', star=W['capable'])
     s.g('still', 'still', '여전히')
     s.glosses.sort(key=lambda g: g['spans'][0][0])
-    s.g('making', 'make', '하다, 만들다', verb_form=pp('ing', s, 'making', 'make'), at=s.text.index('making'))
+    s.g('making', 'make', '하다 (흔한 뜻: 만들다)', verb_form=pp('ing', s, 'making', 'make'), at=s.text.index('making'))
     s.g('valuable', 'valuable', '귀중한, 가치 있는', star=W['valuable'])
     s.g('contributions', 'contributions', '기여, 공헌')
     s.g('to', 'to', '~에')
@@ -122,7 +122,7 @@ def sentences(T):
     s.ch('You can become one as well', '여러분도 그런 사람이 될 수 있다')
     s.ch('if you have curiosity and an interest', '만약 여러분이 호기심과 관심을 가지고 있다면')
     s.ch('in taking part in scientific research.', '과학 연구에 참여하는 것에 대한.')
-    s.natural('과학 연구에 참여하는 것에 대한 호기심과 관심이 있다면 여러분도 시민 과학자가 될 수 있다.')
+    s.natural('호기심과, 과학 연구에 참여하는 것에 대한 관심이 있다면 여러분도 시민 과학자가 될 수 있다.')
     s.cl('main', 'You', subj='You', verbs=['can', 'become'])
     s.cl('subordinate', 'if', subj='you', verbs=['have'], marker='if')
     f = s.g('can', 'can V', '~할 수 있다', kind='function', combines_with=[])
@@ -154,8 +154,7 @@ def sentences(T):
     s.ch('The next great scientific achievement could be made', '다음의 위대한 과학적 업적은 이루어질 수도 있다')
     s.ch('by citizen scientists', '시민 과학자들에 의해')
     s.ch('volunteering their time', '자신들의 시간을 자발적으로 내는')
-    s.ch('for the purpose', '목적을 위해')
-    s.ch('of better understanding the world.', '세상을 더 잘 이해하는 것의.')
+    s.ch('for the purpose of better understanding the world.', '세상을 더 잘 이해하기 위한 목적으로.')
     s.natural('다음의 위대한 과학적 업적은 세상을 더 잘 이해하기 위해 자신의 시간을 자발적으로 내는 시민 과학자들에 의해 이루어질 수도 있다.')
     s.cl('main', 'The', subj='The next great scientific achievement', verbs=['could be made'])
     s.g('next', 'next', '다음의')
@@ -163,7 +162,7 @@ def sentences(T):
     s.g('scientific', 'scientific', '과학적인')
     s.g('achievement', 'achievement', '업적, 성취', star=W['achievement'])
     f = s.g('could|be', 'could be p.p.', '~될 수도 있다', kind='function', combines_with=[])
-    md = s.g('made', 'made', '이루어진, 만들어진', verb_form=pp('passive-participle', s, 'made', 'make', f['id']))
+    md = s.g('made', 'made', '이루어진 (흔한 뜻: 만들어진)', verb_form=pp('passive-participle', s, 'made', 'make', f['id']))
     link(f, md)
     s.g('by', 'by', '~에 의해')
     s.g('citizen|scientists', 'citizen scientists', '시민 과학자들')
@@ -178,7 +177,7 @@ def sentences(T):
     s.g('understanding', 'understand', '이해하다', verb_form=pp('ing', s, 'understanding', 'understand'))
     s.g('world', 'world', '세상')
     s.brk('by', 'passive-agent-by', '수동 could be made의 행위자(누구에 의해)를 나타내는 by 구')
-    s.brk('of', 'postnominal-preposition', 'of better understanding the world는 앞 명사 the purpose를 꾸미는 전치사구')
+    s.prot('for the purpose of', 'fixed-expression', 'for the purpose of V-ing 숙어를 끊지 않음')
     s.hint('citizen scientists [volunteering]', '[자발적으로 내는] 시민 과학자들', span='citizen scientists volunteering',
            label='현재분사 후치수식', links=[(['ing'], ['는'])], meaning='(자신의 시간을) 자발적으로 내는 시민 과학자들',
            explanation='현재분사 volunteering이 이끄는 구가 앞 명사 citizen scientists를 뒤에서 꾸민다. 목적어 their time 이하는 표시에서 제외.')
@@ -213,10 +212,10 @@ def analysis(_):
         'heading_kind': '주제',
         'title_or_topic_en': 'Anyone Can Become a Citizen Scientist',
         'title_or_topic_ko': '누구나 시민 과학자가 될 수 있다',
-        'intent_ko': '두 프로젝트의 참여자 대부분이 전문가가 아닌 시민 과학자였다는 점을 정리하고, 호기심과 관심만 있으면 누구나 과학에 기여할 수 있다고 독자의 참여를 권하는 글이다.',
+        'intent_ko': '두 프로젝트의 참여자 대부분이 전문가가 아닌 시민 과학자라는 점을 정리하고, 호기심과 관심만 있으면 누구나 과학에 기여할 수 있다고 독자의 참여를 권하는 글이다.',
         'flow': [
             {'sentence_ids': ['s56', 's57'], 'label': '정리',
-             'text_ko': '두 프로젝트에 참여한 사람들 대부분은 전문 과학자가 아니라, 관심 분야에서 과학 발전을 돕고 싶어 하는 평범한 시민 과학자였다고 정리한다.'},
+             'text_ko': '두 프로젝트에 참여한 사람들 대부분은 전문 과학자가 아니라, 관심 분야에서 과학 발전을 돕고 싶어 하는 평범한 시민 과학자라고 정리한다.'},
             {'sentence_ids': ['s58', 's59', 's60'], 'label': '주장과 권유',
              'text_ko': '과학 학위나 흰 가운이 없어도 시민 과학자는 과학에 귀중한 기여를 할 수 있다며 글 처음의 ‘흰 가운’ 생각을 다시 뒤집는다. 호기심과 관심만 있으면 독자도 시민 과학자가 될 수 있고, 다음 위대한 업적은 시민 과학자들이 이룰 수도 있다며 참여를 권한다.'},
         ],
@@ -233,7 +232,7 @@ def analysis(_):
                 '글 처음의 흔한 생각이 틀렸다는 것을 이 문장에서 확실히 정리한다.']},
             {'sentence_id': 's60', 'explanatory_sentences': [
                 '60번 문장은 글 전체를 마무리하며 앞으로의 가능성을 말한다.',
-                '다음에 나올 큰 과학적 발견은 전문가가 아니라 시민 과학자들이 해낼 수도 있다.',
+                '다음에 나올 위대한 과학적 업적은 시민 과학자들이 이룰 수도 있다.',
                 '시민 과학자들은 돈을 받지 않고 자기 시간을 내어 참여한다.',
                 '그 이유는 세상을 더 잘 이해하고 싶기 때문이다.',
                 '‘할 수도 있다(could)’라고 했으므로 꼭 그렇게 된다는 뜻은 아니다.']},
@@ -257,10 +256,10 @@ def analysis(_):
                           'formula_support': {'en': 'even though S′ V′', 'ko': '비록 S′(이/가) V′하지만'},
                           'support': [('s58', 'citizen scientists'), ('s58', 'may not V'), ('s58', 'have'), ('s58', 'science degrees')],
                           'answer_ko': '비록 시민 과학자들이 과학 학위를 가지고 있지 않을 수도 있지만'}},
-            {'id': 'u4-gp3', 'sentence_id': 's60', 'span': 'citizen scientists volunteering their time for the purpose of better understanding the world',
+            {'id': 'u4-gp3', 'sentence_id': 's60', 'span': 'citizen scientists volunteering their time',
              'title': '명사 + V-ing: ~하는 명사 (현재분사 후치수식)', 'formula_key': 'N + V-ing',
              'explanation': '공식: 명사(N) + V-ing — ~하는 N. N = citizen scientists(시민 과학자들), V-ing = volunteering their time(자신들의 시간을 자발적으로 내다). '
-                            '→ 자신들의 시간을 자발적으로 내는 시민 과학자들. 뒤의 for the purpose of better understanding the world(세상을 더 잘 이해하기 위한 목적으로)가 시간을 내는 이유를 덧붙인다.',
+                            '→ 자신들의 시간을 자발적으로 내는 시민 과학자들.',
              'practice': {'span': 'citizen scientists volunteering their time',
                           'formula_support': {'en': 'N + V-ing', 'ko': '~하는 N'},
                           'support': [('s60', 'citizen scientists'), ('s60', 'volunteer'), ('s60', 'their'), ('s60', 'time')],
@@ -281,4 +280,13 @@ def analysis(_):
              'synonym': {'id': 'u4-r3s', 'text': 'promote', 'meaning_ko': '촉진하다, 발전시키다'},
              'antonym': {'id': 'u4-r3a', 'text': 'hinder', 'meaning_ko': '방해하다'}},
         ],
+    }
+
+
+def workbook():
+    return {
+        'relation_order': ['u4-r2s', 'u4-r1a', 'u4-r3h', 'u4-r2a', 'u4-r1h', 'u4-r3s', 'u4-r2h', 'u4-r3a', 'u4-r1s'],
+        'key_sentence_ids': ['s58', 's60'],
+        'question_id': 'Q04',
+        'syntax_point_ids': ['u4-gp1', 'u4-gp2', 'u4-gp3'],
     }

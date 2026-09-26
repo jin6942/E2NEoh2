@@ -89,9 +89,10 @@ def sentences(T):
     s = S('s37', T['s37'])
     s.ch('In the summer', '여름에')
     s.ch('of 2014,', '2014년의,')
-    s.ch('the group members began to notice something', '그 단체 구성원들은 무언가를 알아채기 시작했다')
+    s.ch('the group members began to notice', '그 단체 구성원들은 알아채기 시작했다')
+    s.ch('something', '무언가가')
     s.ch('strange', '이상한')
-    s.ch('appearing in the night sky.', '밤하늘에 나타나는.')
+    s.ch('appearing in the night sky.', '밤하늘에 나타나는 것을.')
     s.natural('2014년 여름, 그 단체 구성원들은 밤하늘에 이상한 무언가가 나타나는 것을 알아채기 시작했다.')
     s.cl('main', 'the', subj='the group members', verbs=['began'], occ=1)
     s.g('In', 'in', '~에')
@@ -148,8 +149,8 @@ def sentences(T):
         'reason': '유도부사 there(초등 기초어)는 따로 해석하지 않으며 뒤 were 각주의 ‘있었다’로 뜻을 지원'}
     s.brk('of', 'postnominal-preposition', 'of green and purple light는 앞 명사 ribbons를 꾸미는 전치사구')
     s.prot('thousands of', 'quantity-kind-of', '수량 표현 thousands of가 kilometers 앞에서 ‘수천의’로 같은 어순 대응', gloss=q)
-    s.hint('light, [some of which seemed to stretch]', '빛, [그리고 그중 일부는 뻗어 있는 것처럼 보였다]',
-           span='light, some of which seemed to stretch', label='관계대명사 some of which',
+    s.hint('ribbons of green and purple light, [some of which seemed to stretch]', '녹색과 보라색 빛의 띠들, [그리고 그중 일부는 뻗어 있는 것처럼 보였다]',
+           span='ribbons of green and purple light, some of which seemed to stretch', label='관계대명사 some of which',
            links=[(['some of which'], ['그리고 그중 일부는'])], meaning='그리고 그 띠들 중 일부는 뻗어 있는 것처럼 보였다',
            explanation='some of which: which는 앞의 unusual ribbons(빛의 띠들)를 받고 some of가 붙어 ‘그중 일부’가 주어 역할. seem to V는 보충 to V까지 함께 보여야 뜻이 잡혀 포함.')
     s.relative_ids = [rel['id']]
@@ -243,7 +244,7 @@ def sentences(T):
     rel = s.g('where', 'where S′ V′', 'S′(이/가) V′하는 (앞말을 꾸미는 관계부사)')
     s.g('some', 'some', '몇몇의')
     s.g('characters', 'characters', '등장인물들')
-    s.g('give|to', 'give A to B', 'A를 B에게 주다(붙이다)',
+    s.g('give|to', 'give A to B', 'A를 B에게 붙이다 (흔한 뜻: 주다)',
         verb_construction={'kind': 'verb-frame', 'verb_span': s.span_of('give'), 'lemma': 'give',
                            'link_spans': [s.span_of('to', s.text.index('name to'))],
                            'review_record': 'give that name to an unfamiliar object: A=that name, B=an unfamiliar object.'})
@@ -252,10 +253,10 @@ def sentences(T):
     s.g('name', 'name', '이름', at=s.text.index('that name') + 5)
     s.g('unfamiliar', 'unfamiliar', '낯선, 익숙하지 않은', star=W['unfamiliar'])
     s.g('object', 'object', '물체')
-    s.hint('Unsure of [what they were]', '[그것들[빛의 띠들]이 무엇인지] 확신하지 못하는', span='Unsure of what they were',
+    s.hint('[what they were]', '[그것들[빛의 띠들]이 무엇인지]', span='what they were',
            label='간접의문문 what', links=[(['what'], ['이', '무엇인지'])], refs=[('they', '그것들', '[빛의 띠들]')],
-           meaning='그것들이 무엇인지 확신하지 못하는',
-           explanation='unsure of의 목적어 자리에 간접의문문 what S′ V′(그것들이 무엇인지)가 온다. 형용사구 Unsure of …가 문장 앞에서 주어 the group의 상태를 나타낸다.')
+           meaning='그것들이 무엇인지',
+           explanation='unsure of의 목적어 자리의 간접의문문 what S′ V′(그것들이 무엇인지). 바깥 형용사 Unsure of는 표시에서 제외.')
     s.hint('an animated movie [where some characters give]', '[몇몇 등장인물들이 붙이는] 한 애니메이션 영화',
            span='an animated movie where some characters give', label='관계부사 where',
            links=[(['where'], ['이', '는'])], meaning='몇몇 등장인물들이 (낯선 물체에 그 이름을) 붙이는 한 애니메이션 영화',
@@ -294,7 +295,7 @@ def sentences(T):
     s.g('experts', 'experts', '전문가들')
     s.hint('[After photographing Steve for several years and discussing]', '[몇 년 동안 Steve의 사진을 찍고 논의한 후에]',
            span='After photographing Steve for several years and discussing', label='전치사 after + 동명사',
-           links=[(['After', 'ing', ('ing', 1)], ['후에'])], meaning='몇 년 동안 Steve의 사진을 찍고 논의한 후에',
+           links=[(['After', 'ing', ('ing', 1)], ['한 후에'])], meaning='몇 년 동안 Steve의 사진을 찍고 논의한 후에',
            explanation='전치사 After 뒤 동명사 photographing과 discussing이 and로 병렬되어 ‘~하고 ~한 후에’. 두 ing를 모두 after 기능에 연결하고 목적어 what절은 제외.')
     s.hint('[what it might be]', '[그것[Steve]이 무엇일지]', span='what it might be', label='간접의문문 what',
            links=[(['what'], ['이', '무엇일지'])], refs=[('it', '그것', '[Steve]')], meaning='그것이 무엇일지',
@@ -542,7 +543,7 @@ def sentences(T):
     s.ch('However,', '그러나,')
     s.ch('it is now written in all capital letters', '그것은 이제 모두 대문자로 쓰인다')
     s.ch('and stands for “Strong Thermal Emission Velocity Enhancement.”', '그리고 ‘Strong Thermal Emission Velocity Enhancement’를 의미한다.')
-    s.natural('그러나 그것은 이제 모두 대문자로 쓰이며, ‘속도 증가에 따른 강한 열 방출(Strong Thermal Emission Velocity Enhancement)’을 의미한다.')
+    s.natural('그러나 그것은 이제 모두 대문자로 쓰이며, ‘강한 열 방출 속도 증가(Strong Thermal Emission Velocity Enhancement)’를 의미한다.')
     s.cl('main', 'it', subj='it', verbs=['is', 'written', 'and', 'stands'])
     s.g('However', 'however', '그러나')
     s.g('it', 'it', '그것은', referent_ko='Steve라는 이름')
@@ -556,7 +557,7 @@ def sentences(T):
     s.g('stands|for', 'stand for', '~을 의미하다, ~을 나타내다', verb_form={'usage': 'third-person-singular',
         'source_span': s.span_of('stands'), 'lemma': 'stand', 'review_record': '주어 it(3인칭 단수)의 일반동사 stands → 원형 stand.'})
     s.g('Strong Thermal Emission Velocity Enhancement', 'Strong Thermal Emission Velocity Enhancement',
-        '속도 증가에 따른 강한 열 방출 (STEVE의 각 글자가 나타내는 말)', proper=True)
+        '강한 열 방출 속도 증가 (STEVE의 각 글자가 나타내는 말)', proper=True)
     s.vf_hint(fn=f, lex=wr, en='is now written', ko='이제 쓰인다', formula='be p.p.', step_form='written', step_ko='쓰인',
               en_mark=['is'], ko_mark=['인다'], span='it is now written', meaning='이제 (모두 대문자로) 쓰인다',
               explanation='빈 힌트 문장의 수동태 후보: is now written(현재 수동). 표시 범위 안 부사 now 보존, 주어와 in all capital letters 제외.')
@@ -618,8 +619,8 @@ def sentences(T):
     s.natural('만약 그들이 없었다면, 그것은 영원히 알려지지 못한 채 남았을지도 모른다.')
     s.cl('subordinate', 'If', subj='it', verbs=['had not been'], marker='If')
     s.cl('main', 'it', subj='it', verbs=['might have remained'], occ=1)
-    s.g('If|it|had|not|been|for', 'If it had not been for A', 'A가 없었다면')
-    s.g('them', 'them', '그들', referent_ko='오로라 추적자 단체의 헌신적인 구성원들')
+    s.g('If|it|had|not|been|for', 'If it had not been for A', 'A(이/가) 없었다면')
+    s.g('them', 'them', '그들이', referent_ko='오로라 추적자 단체의 헌신적인 구성원들')
     s.g('it', 'it', '그것은', referent_ko='STEVE', at=s.text.index('it might'))
     f = s.g('might|have', 'might have p.p.', '~했을지도 모른다', kind='function', combines_with=[])
     rm = s.g('remained', 'remain', '(~인 채로) 남다 (remained는 remain의 p.p.형)',
@@ -628,7 +629,7 @@ def sentences(T):
     s.g('unnoticed', 'unnoticed', '알려지지 않은, 눈에 띄지 않은')
     s.g('forever', 'forever', '영원히')
     s.hint('[If it had not been for] them', '그들[오로라 추적자들]이 [없었다면]', span='If it had not been for them',
-           label='가정법 과거완료 If it had not been for', links=[(['If it had not been for'], ['없었다면'])],
+           label='가정법 과거완료 If it had not been for', links=[(['If it had not been for'], [('이', 0), '없었다면'])],
            refs=[('them', '그들', '[오로라 추적자들]')], meaning='그들이 없었다면',
            explanation='If it had not been for A: A가 없었다면. A=them(오로라 추적자 단체 구성원들). 주절 might have p.p.와 짝.')
     s.vf_hint(fn=f, lex=rm, en='might have remained', ko='남았을지도 모른다', formula='might have p.p.', step_form='remain',
@@ -725,7 +726,7 @@ def analysis(_):
         'intent_ko': '오로라 사진을 찍던 평범한 사람들이 새로운 하늘 현상 STEVE를 발견하고 과학자들과 함께 연구하게 된 사례를 통해, 시민도 새로운 과학적 발견을 이끌 수 있음을 보여 주는 글이다.',
         'flow': [
             {'sentence_ids': ['s34', 's35', 's36'], 'label': '배경',
-             'text_ko': '캐나다 앨버타의 ‘오로라 추적자들’은 온라인 모임을 만들어 밤마다 오로라 사진을 찍고 서로 공유했다.'},
+             'text_ko': '캐나다 앨버타의 ‘오로라 추적자들’은 온라인 모임을 만들어 밤에 오로라 사진을 찍고 서로 공유했다.'},
             {'sentence_ids': [f's{n}' for n in range(37, 42)], 'label': '발견',
              'text_ko': '2014년 여름, 그들은 오로라와 비슷하지만 다른 특징을 지닌 녹색·보라색 빛의 띠를 보았고, 영화 장면을 따서 ‘Steve’라는 이름을 붙였다.'},
             {'sentence_ids': [f's{n}' for n in range(42, 50)], 'label': '전문가와의 협력',
@@ -736,13 +737,12 @@ def analysis(_):
         'easy_explanations': [
             {'sentence_id': 's37', 'explanatory_sentences': [
                 '37번 문장부터 이야기의 중심 사건이 시작된다.',
-                '밤마다 오로라 사진을 찍던 사람들이 평소와 다른 무언가를 하늘에서 보기 시작했다.',
-                '늘 하늘을 지켜보던 사람들이었기 때문에 작은 차이도 알아챌 수 있었다.',
-                '38~40번 문장은 그것이 어떻게 생겼는지 자세히 설명한다.']},
+                '밤에 오로라 사진을 찍으러 다니던 사람들이 하늘에서 평소와 다른 이상한 무언가를 보기 시작했다.',
+                '38~40번 문장은 그것이 어떤 모습이었고 얼마나 오래 보였는지 자세히 설명한다.']},
             {'sentence_id': 's41', 'explanatory_sentences': [
                 '41번 문장은 이 현상에 왜 ‘Steve’라는 사람 이름이 붙었는지 알려 준다.',
                 '추적자들은 그 빛이 정확히 무엇인지 알 수 없었다.',
-                '어떤 애니메이션 영화에서는 등장인물들이 처음 보는 물체를 그냥 ‘Steve’라고 부른다.',
+                '어떤 애니메이션 영화에는 몇몇 등장인물들이 낯선 물체에 ‘Steve’라는 이름을 붙이는 장면이 있다.',
                 '추적자들도 그 장면처럼 정체를 모르는 빛에 ‘Steve’라는 이름을 붙였다.']},
             {'sentence_id': 's52', 'explanatory_sentences': [
                 '52번 문장은 이 발견의 공로가 누구에게 있는지 밝힌다.',
@@ -756,12 +756,12 @@ def analysis(_):
              'title': '명사 + where S′ V′: S′가 V′하는 명사 (관계부사)', 'formula_key': 'where S′ V′',
              'explanation': '공식: 명사 + where S′ V′ — S′(이/가) V′하는 명사. 선행사 = an animated movie(한 애니메이션 영화: 장면이 펼쳐지는 곳), '
                             'S′ = some characters(몇몇 등장인물들), V′ = give that name to an unfamiliar object(낯선 물체에 그 이름을 붙이다). '
-                            '→ 몇몇 등장인물들이 낯선 물체에 그 이름을 붙이는 한 애니메이션 영화. where 뒤에는 주어와 목적어를 모두 갖춘 절이 온다.',
+                            '→ 몇몇 등장인물들이 낯선 물체에 그 이름을 붙이는 한 애니메이션 영화.',
              'practice': {'span': 'an animated movie where some characters give that name',
                           'formula_support': {'en': 'where S′ V′', 'ko': 'S′(이/가) V′하는 (앞말을 꾸미는 관계부사)'},
                           'support': [('s41', 'animated'), ('s41', 'movie'), ('s41', 'some'), ('s41', 'characters'),
                                       ('s41', 'give A to B'), ('s41', 'that'), ('s41', 'name')],
-                          'support_overrides': [{'gloss': ('s41', 'give A to B'), 'form': 'give', 'meaning_ko': '주다, 붙이다',
+                          'support_overrides': [{'gloss': ('s41', 'give A to B'), 'form': 'give', 'meaning_ko': '붙이다 (흔한 뜻: 주다)',
                                                  'review_record': '연습 범위에 to B가 없어 give A to B의 A/B 틀 대신 기본 동사 give만 지원'}],
                           'answer_ko': '몇몇 등장인물들이 그 이름을 붙이는 한 애니메이션 영화'}},
             {'id': 'u3-gp2', 'sentence_id': 's52', 'span': 'it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE',
@@ -789,10 +789,10 @@ def analysis(_):
                             '→ 한 번도 제대로 연구된 적이 없는 (현상). 주격 관계대명사 that이 phenomenon을 받으므로 연구의 대상이 현상이다.',
              'supplemental': {'function': ('s46', 'had been p.p.', 0),
                               'reason': 's46의 had never been studied는 명사절 that·필수 관계사 힌트 2개로 결합 힌트를 둘 수 없고, 기본 분석에 had been p.p. 설명이 없어 대표 사례를 1회 보충'},
-             'practice': {'span': 'that had never been properly studied',
+             'practice': {'span': 'had never been properly studied',
                           'formula_support': {'en': 'had been p.p.', 'ko': '~되었다'},
                           'support': [('s46', 'never'), ('s46', 'properly'), ('s46', 'studied')],
-                          'answer_ko': '한 번도 제대로 연구된 적이 없는'}},
+                          'answer_ko': '한 번도 제대로 연구된 적이 없었다'}},
             {'id': 'u3-gp5', 'sentence_id': 's52', 'span': 'Experts have acknowledged',
              'title': 'have p.p.: ~했다 (현재완료)', 'formula_key': 'have p.p.',
              'explanation': '공식: have p.p. — ~했다(그 결과가 지금까지 이어짐). have = 현재완료 표지, p.p. = acknowledged(acknowledge의 p.p.형, 인정하다), 주어 = Experts(전문가들). '
@@ -833,4 +833,13 @@ def analysis(_):
              'synonym': {'id': 'u3-r3s', 'text': 'cooperate', 'meaning_ko': '협력하다, 협동하다'},
              'antonym': {'id': 'u3-r3a', 'text': 'compete', 'meaning_ko': '경쟁하다'}},
         ],
+    }
+
+
+def workbook():
+    return {
+        'relation_order': ['u3-r2s', 'u3-r1a', 'u3-r3h', 'u3-r2a', 'u3-r1h', 'u3-r3s', 'u3-r2h', 'u3-r3a', 'u3-r1s'],
+        'key_sentence_ids': ['s46', 's52'],
+        'question_id': 'Q03',
+        'syntax_point_ids': ['u3-gp1', 'u3-gp2', 'u3-gp3', 'u3-gp4', 'u3-gp5'],
     }

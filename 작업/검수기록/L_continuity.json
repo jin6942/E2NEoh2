@@ -1,0 +1,89 @@
+{
+ "schema_version": 1,
+ "kind": "learning",
+ "role": "L",
+ "status": "PASS",
+ "independent": true,
+ "performed_at": "2026-09-26T17:40:00Z",
+ "bindings": {
+  "package_sha256": "4fcd6a2f2d6542160e46cc4cddd22129d67413f334cd82febdc6661d97b112c4",
+  "learning_content_sha256": "5e182645624bd81d1be4fadbb17f95e88c7e98673454b6e6aa5c854c0ef7e248",
+  "learning_final_sha256": "76a03710cd82c9f14b7915323a5b1126956074338dee955a97e69c2cdba69b27"
+ },
+ "id": "L-continuity",
+ "reviewer_id": "claude-agent-L-u1u4-continuity",
+ "execution_id": "subagent-aa43cedd24e57f822",
+ "method": "u1~u4 전체 60문장과 네 분석 단위를 읽고 교차 참조·지시 대상·용어·흐름 연결 확인, 수정 후 전체 재실행",
+ "summary": "연결 지적 7건+재검 1건(LN-1) 모두 해결, 단위 간 지시 대상·용어 일관",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4"
+  ]
+ },
+ "findings": [
+  {
+   "id": "LC-1",
+   "description": "s30 숙어 청크 분리",
+   "status": "resolved",
+   "resolution": "원고 수정",
+   "recheck": "재확인 해결"
+  },
+  {
+   "id": "LC-2",
+   "description": "s25 made 다의어",
+   "status": "resolved",
+   "resolution": "원고 수정",
+   "recheck": "재확인 해결"
+  },
+  {
+   "id": "LC-3",
+   "description": "s53 them 조사",
+   "status": "resolved",
+   "resolution": "원고 수정",
+   "recheck": "재확인 해결"
+  },
+  {
+   "id": "LC-4",
+   "description": "s37 교차 참조",
+   "status": "resolved",
+   "resolution": "원고 수정",
+   "recheck": "재확인 해결"
+  },
+  {
+   "id": "LC-5",
+   "description": "s24 쉬운 풀이 문법",
+   "status": "resolved",
+   "resolution": "원고 수정",
+   "recheck": "재확인 해결"
+  },
+  {
+   "id": "LC-6",
+   "description": "s10 쉬운 풀이 추측",
+   "status": "resolved",
+   "resolution": "원고 수정",
+   "recheck": "재확인 해결"
+  },
+  {
+   "id": "LC-7",
+   "description": "s27 수치",
+   "status": "resolved",
+   "resolution": "원고 수정",
+   "recheck": "재확인 해결"
+  },
+  {
+   "id": "LN-1",
+   "description": "s37 한국어 청크의 ~ 표기",
+   "status": "resolved",
+   "resolution": "원고 수정",
+   "recheck": "재확인 해결"
+  }
+ ],
+ "type": "learning_continuity"
+}

@@ -1,0 +1,152 @@
+{
+ "schema_version": 1,
+ "type": "review_shard",
+ "kind": "learning",
+ "role": "L",
+ "status": "PASS",
+ "independent": true,
+ "performed_at": "2026-09-26T17:40:00Z",
+ "bindings": {
+  "package_sha256": "4fcd6a2f2d6542160e46cc4cddd22129d67413f334cd82febdc6661d97b112c4",
+  "learning_content_sha256": "5e182645624bd81d1be4fadbb17f95e88c7e98673454b6e6aa5c854c0ef7e248",
+  "learning_final_sha256": "76a03710cd82c9f14b7915323a5b1126956074338dee955a97e69c2cdba69b27"
+ },
+ "id": "L-u3",
+ "reviewer_id": "claude-agent-L-u3",
+ "execution_id": "subagent-a6d38288f9df9af6d",
+ "method": "규칙 7종 전체 정독 후 u3 22문장을 QC·원고 JSON·원문과 대조, 힌트 강조 오프셋·대명사 참조·수동/완료 경로·보충 연습 확인, 수정 후 재검증",
+ "summary": "최초 13건 + 재검 1건 발견 → 전부 수정·재검증 해결(s37 청크는 연결 검수 의견과 함께 재조정)",
+ "scope": {
+  "kind": "partial",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u3"
+  ],
+  "sentence_ids": [
+   "s34",
+   "s35",
+   "s36",
+   "s37",
+   "s38",
+   "s39",
+   "s40",
+   "s41",
+   "s42",
+   "s43",
+   "s44",
+   "s45",
+   "s46",
+   "s47",
+   "s48",
+   "s49",
+   "s50",
+   "s51",
+   "s52",
+   "s53",
+   "s54",
+   "s55"
+  ]
+ },
+ "findings": [
+  {
+   "id": "L3-1",
+   "description": "s38 관계절 선행사 표시",
+   "status": "resolved",
+   "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
+   "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  },
+  {
+   "id": "L3-2",
+   "description": "s41 간접의문 힌트 범위",
+   "status": "resolved",
+   "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
+   "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  },
+  {
+   "id": "L3-3",
+   "description": "s51 STEVE 풀이",
+   "status": "resolved",
+   "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
+   "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  },
+  {
+   "id": "L3-4",
+   "description": "s53 them 조사",
+   "status": "resolved",
+   "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
+   "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  },
+  {
+   "id": "L3-5",
+   "description": "s53 A 조사 강조",
+   "status": "resolved",
+   "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
+   "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  },
+  {
+   "id": "L3-6",
+   "description": "s42 after V-ing 어미 강조",
+   "status": "resolved",
+   "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
+   "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  },
+  {
+   "id": "L3-7",
+   "description": "s37 청크와 notice A V-ing",
+   "status": "resolved",
+   "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
+   "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  },
+  {
+   "id": "L3-8",
+   "description": "s41 give 뜻 표기",
+   "status": "resolved",
+   "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
+   "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  },
+  {
+   "id": "L3-9",
+   "description": "s37 쉬운 풀이 추측",
+   "status": "resolved",
+   "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
+   "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  },
+  {
+   "id": "L3-10",
+   "description": "s41 쉬운 풀이 과장",
+   "status": "resolved",
+   "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
+   "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  },
+  {
+   "id": "L3-11",
+   "description": "u3 흐름 밤마다",
+   "status": "resolved",
+   "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
+   "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  },
+  {
+   "id": "L3-12",
+   "description": "u3-gp4 연습 답 형태",
+   "status": "resolved",
+   "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
+   "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  },
+  {
+   "id": "L3-13",
+   "description": "u3-gp1 잘못된 일반 규칙",
+   "status": "resolved",
+   "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
+   "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  },
+  {
+   "id": "L3R-N1",
+   "description": "u3-gp1 support override 뜻",
+   "status": "resolved",
+   "resolution": "제작자가 검수자 제안대로 원고 수정·재생성",
+   "recheck": "같은 검수자가 재생성 원고·QC에서 재확인: 해결"
+  }
+ ]
+}
