@@ -1,0 +1,76 @@
+{
+  "reviewer": "Q3",
+  "solved_before_answer_key": true,
+  "packet_sha256": "c73b0ab162e0d563c71af3b2354a689f4d0f16e5fb3190d0161154b95ebe3d3d",
+  "files_read_in_blind_stage": [
+    "/home/user/E2NEoh2/작업/검수입력/Q_blind_3차.json",
+    "gyogwaseo-unified/references/assessment-content.md"
+  ],
+  "answers": {
+    "Q01": 3, "Q02": 5, "Q03": 2, "Q04": 4,
+    "Q05": 1, "Q06": 2, "Q07": 4, "Q08": 4, "Q09": 2, "Q10": 3, "Q11": 2,
+    "Q12": 1, "Q13": 5, "Q14": 5, "Q15": 4, "Q16": 3, "Q17": 5, "Q18": 2,
+    "Q19": 5, "Q20": 3, "Q21": 1, "Q22": 3, "Q23": 2, "Q24": 2, "Q25": 4
+  },
+  "items": {
+    "Q01": {"set": "workbook", "type": "요지", "answer": 3, "evidence": "Even though citizen scientists may not have science degrees or long, white lab coats, they are still capable of making valuable contributions to science.", "uniqueness": "확정", "issues": ["지문 중 'these two projects'가 발췌 밖 Galaxy Zoo까지 가리킴(정답 무관)", "오답 4개가 모두 본문 정반대 진술이라 난도 낮음", "⑤ 'too ordinary to lead to new knowledge'는 다소 부자연스러운 연어"]},
+    "Q02": {"set": "workbook", "type": "내용불일치", "answer": 5, "evidence": "his job there was dull and time-consuming (exciting도, 시간이 적게 든 것도 아님)", "uniqueness": "확정", "issues": ["⑤가 exciting·tiny amount 두 군데 모두 틀려 쉽게 드러남(낮음)"]},
+    "Q03": {"set": "workbook", "type": "제목", "answer": 2, "evidence": "notice something strange appearing in the night sky ... discovered a new type of phenomenon that had never been properly studied", "uniqueness": "확정", "issues": ["난도 낮음"]},
+    "Q04": {"set": "workbook", "type": "주장", "answer": 4, "evidence": "In reality, science belongs to everyone, and we all have the ability to play a role in the advancement of science.", "uniqueness": "확정", "issues": ["지문 후반(Schawinski의 지루한 분류 작업)은 주장과 직접 연결되지 않는 도입 사례로, 정답이 지문 전반부만 포괄(낮음)"]},
+    "Q05": {"set": "mock1", "type": "주제", "answer": 1, "evidence": "If it had not been for those participants, Schawinski couldn’t have classified that many images. / Galaxy Zoo has now grown into Zooniverse", "uniqueness": "확정", "issues": ["⑤ 개인정보 위험은 본문과 무관한 별개 이야기(1개 허용 범위)", "난도 낮음"]},
+    "Q06": {"set": "mock1", "type": "내용일치", "answer": 2, "evidence": "some of which seemed to stretch for thousands of kilometers", "uniqueness": "확정", "issues": ["⑤ NASA는 이 발췌에 등장하지 않음(이름은 group이 붙였다는 근거로 배제 가능, 문제 없음)"]},
+    "Q07": {"set": "mock1", "type": "빈칸", "answer": 4, "evidence": "neither of them had any idea what Steve was ... not an aurora ... did not resemble anything they had seen before", "uniqueness": "확정", "issues": ["정답 선지 'properly'가 원표현 낱말과 같음(빈칸 가려져 있어 노출 아님)", "지문 약 123단어(원형)로 고2 빈칸 표본 대비 짧을 가능성 — 2단계에서 표본 대조 필요"]},
+    "Q08": {"set": "mock1", "type": "순서", "answer": 4, "evidence": "(C) launching ... Galaxy Zoo / kept as simple → (A) This allowed ... tutorial → (B) Then they were shown ...", "uniqueness": "확정", "issues": ["주어진 글의 'the situation'이 발췌 밖 분류 작업을 가리킴(이해 가능, 낮음)", "(B) 끝 문장 'It was online media...'는 다음 단락 첫 문장이며 같은 회 Q05 첫 문장과 동일(정답 노출은 아님)"]},
+    "Q09": {"set": "mock1", "type": "삽입", "answer": 2, "evidence": "them = the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE", "uniqueness": "확정", "issues": ["'these two projects' 발췌 밖 지시(정답 무관)", "④ 위치는 'them=Scientists and citizens'로 읽힐 여지가 있으나 remained unnoticed(발견 문맥)와 맞지 않아 배제 가능"]},
+    "Q10": {"set": "mock1", "type": "제목(장문)", "answer": 3, "evidence": "science belongs to everyone ... / It took Schawinski a whole week to classify just 50,000 galaxies", "uniqueness": "확정", "issues": ["어휘 오류 ② much가 제목 근거를 훼손하지 않음 확인", "장문 200단어로 고2 41~42 표본 대비 짧을 가능성", "오답이 모두 명백히 무관·정반대라 난도 낮음"]},
+    "Q11": {"set": "mock1", "type": "어휘(장문)", "answer": 2, "evidence": "much → little: 'However, this perception is far from the truth'와 대비되려면 평범한 사람과 공통점이 거의 없다는 인식이어야 함", "uniqueness": "확정", "issues": []},
+    "Q12": {"set": "mock2", "type": "함축 의미", "answer": 1, "evidence": "a domain reserved exclusively for scientists ... They seem to have very little in common with ordinary people like us.", "uniqueness": "확정", "issues": ["표적 표현이 거의 문자 그대로여서 함축성이 약하고 오답(③④⑤)이 황당해 매우 쉬움", "판단 근거는 첫 단락뿐이며 뒤 Schawinski 단락은 발문과 무관한 덧붙임(분량용)", "같은 회 Q14 지문의 'long, white lab coats'가 보조 힌트(정답 노출 수준은 아님)"]},
+    "Q13": {"set": "mock2", "type": "내용불일치", "answer": 5, "evidence": "There are many interesting theories about STEVE, but none of them have been proven for certain.", "uniqueness": "확정", "issues": ["같은 회 Q16과 전문가·NASA 단락이 겹치고 ③ 'NASA supported a project'가 Q16 요약문과 같은 표현(정답 노출은 아님)"]},
+    "Q14": {"set": "mock2", "type": "빈칸", "answer": 5, "evidence": "Even though ... may not have science degrees ..., they are still ___ / The next great scientific achievement could be made by citizen scientists", "uniqueness": "확정", "issues": ["'these two projects' 발췌 밖 지시(정답 무관)", "③ NASA는 이 발췌에 등장하지 않음(배제 가능)"]},
+    "Q15": {"set": "mock2", "type": "무관한 문장", "answer": 4, "evidence": "④ 망원경 관측 선호 문장은 참여자 기여 흐름과 무관, ⑤ 'him'이 ③의 Schawinski를 이어받음", "uniqueness": "확정", "issues": []},
+    "Q16": {"set": "mock2", "type": "요약", "answer": 3, "evidence": "neither of them had any idea what Steve was / NASA funded a citizen science project involving the public ... asked ordinary people to gather photos", "uniqueness": "확정", "issues": ["요약문 'When aurora chasers noticed ..., NASA supported'는 시간 관계가 부정확(관찰 후 수년 뒤 전문가 확인 → NASA 지원). 'After ...' 등으로 다듬기 권장(낮음)"]},
+    "Q17": {"set": "mock2", "type": "제목(장문)", "answer": 5, "evidence": "classify around one million images ... Lintott suggested that he turn to the Internet ... launching a crowdsourced online project", "uniqueness": "확정", "issues": ["어휘 오류 ② complicated가 제목 근거를 훼손하지 않음 확인"]},
+    "Q18": {"set": "mock2", "type": "어휘(장문)", "answer": 2, "evidence": "complicated → simple: with a very basic design and an easy-to-use interface / allowed ... to get started quickly", "uniqueness": "확정", "issues": []},
+    "Q19": {"set": "mock3", "type": "주장", "answer": 5, "evidence": "You can become one as well if you have curiosity and an interest in taking part in scientific research.", "uniqueness": "확정", "issues": ["'these two projects' 발췌 밖 지시(정답 무관)", "Q01·Q09·Q14와 같은 발췌 범위(유형 반복은 허용)"]},
+    "Q20": {"set": "mock3", "type": "요지", "answer": 3, "evidence": "kept as simple as possible ... brief tutorial ... the participants were able to classify galaxies effectively", "uniqueness": "확정", "issues": ["'the situation' 발췌 밖 지시(낮음)"]},
+    "Q21": {"set": "mock3", "type": "빈칸", "answer": 1, "evidence": "similar in appearance to auroras, yet ... ___ (yet의 대조)", "uniqueness": "확정", "issues": []},
+    "Q22": {"set": "mock3", "type": "순서", "answer": 3, "evidence": "far from the truth → (B) In reality ... two of them → (C) Kevin Schawinski ... classify images → (A) Since they all looked similar ... do this", "uniqueness": "확정", "issues": []},
+    "Q23": {"set": "mock3", "type": "삽입", "answer": 2, "evidence": "② 뒤 'In fact, it would have taken him decades on his own'의 him이 주어진 문장의 Schawinski를 필요로 함", "uniqueness": "확정", "issues": []},
+    "Q24": {"set": "mock3", "type": "제목(장문)", "answer": 2, "evidence": "Experts have acknowledged that it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE.", "uniqueness": "확정", "issues": ["어휘 오류 ④ canceled가 제목 근거를 훼손하지 않음 확인"]},
+    "Q25": {"set": "mock3", "type": "어휘(장문)", "answer": 4, "evidence": "canceled → funded 류: In order to learn more about it ... / It is still in progress today.", "uniqueness": "확정", "issues": []}
+  },
+  "set_exposure_check": {
+    "mock1": {
+      "items": ["Q05", "Q06", "Q07", "Q08", "Q09", "Q10", "Q11"],
+      "blank_original": "Q07 원표현(a new type of phenomenon that had never been properly studied)이 같은 회 다른 지문에 없음",
+      "vocab_original": "Q11 원낱말(little) 포함 지문이 같은 회에 없음",
+      "order_insertion": "Q08 C-A-B 연결부, Q09 주어진 문장이 같은 회 다른 지문에 원문 그대로 없음. Q05 첫 문장이 Q08 (B) 끝 문장과 동일하나 배열 단서는 아님",
+      "irrelevant": "해당 없음",
+      "result": "노출 없음"
+    },
+    "mock2": {
+      "items": ["Q12", "Q13", "Q14", "Q15", "Q16", "Q17", "Q18"],
+      "blank_original": "Q14 원표현(capable of making valuable contributions to science)이 같은 회 다른 지문에 없음",
+      "vocab_original": "Q18 원낱말(simple) 포함 지문이 같은 회에 없음",
+      "order_insertion": "해당 없음",
+      "irrelevant": "Q15 원래 흐름(③→⑤)이 같은 회 다른 지문에 없음",
+      "other": "Q13·Q16 발췌 부분 겹침, Q12·Q17 Schawinski 단락 겹침, Q13·Q14 STEVE 명명 단락 겹침 — 정답 노출은 아님",
+      "result": "노출 없음"
+    },
+    "mock3": {
+      "items": ["Q19", "Q20", "Q21", "Q22", "Q23", "Q24", "Q25"],
+      "blank_original": "Q21 원표현(some notably different features)이 같은 회 다른 지문에 없음",
+      "vocab_original": "Q25 원낱말(funded) 포함 지문이 같은 회에 없음",
+      "order_insertion": "Q22 intro 단락, Q23 주어진 문장이 같은 회 다른 지문에 없음",
+      "irrelevant": "해당 없음",
+      "other": "Q19·Q24 STEVE 명명 단락 겹침 — 정답 노출은 아님",
+      "result": "노출 없음"
+    },
+    "cross_set_note": "워크북(Q01~Q04)에는 모의 문항 원문이 복원형으로 실려 있음(Q02→Q08·Q18, Q03→Q07·Q21, Q04→Q11·Q22, Q01→Q09·Q14). 회차 밖이고 같은 교과서 본문 특성상 불가피 — 참고 사항"
+  },
+  "length_notes_blind": {
+    "word_counts_approx": {"Q01": 203, "Q02": 187, "Q03": 229, "Q04": 200, "Q05": 160, "Q06": 142, "Q07": "113(빈칸형)/약123(원형)", "Q08": 156, "Q09": 203, "Q12": 200, "Q13": 229, "Q14": "196(빈칸형)", "Q15": "174(추가문 포함)", "Q16": 266, "Q19": 203, "Q20": 136, "Q21": "138(빈칸형)", "Q22": 200, "Q23": 160, "long-mock1": 200, "long-mock2": 238, "long-mock3": 229},
+    "watch": ["Q07", "Q20", "Q21", "long-mock1", "long-mock3"]
+  },
+  "answer_distribution": {"1": 3, "2": 7, "3": 5, "4": 5, "5": 5}
+}
