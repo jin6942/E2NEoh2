@@ -1,0 +1,38 @@
+{
+  "reviewer": "N",
+  "solved_before_answer_key": true,
+  "packet_sha256": "c1e86cb4ddd37e7d0d55a5a5955eebc125cd2f518a5b8067650f556f4d4a3489",
+  "answers": {"Q01":3,"Q02":5,"Q03":2,"Q04":4,"Q05":1,"Q06":2,"Q07":4,"Q08":4,"Q09":2,"Q10":3,"Q11":2,"Q12":1,"Q13":5,"Q14":5,"Q15":4,"Q16":3,"Q17":5,"Q18":2,"Q19":1,"Q20":3,"Q21":1,"Q22":3,"Q23":2,"Q24":2,"Q25":4},
+  "set_exposure_check": {
+    "mock1": {"leak":false,"detail":"Q07 빈칸 원문(a new type of phenomenon that had never been properly studied), Q08 순서(C-A-B 연속 원문), Q09 삽입 문장(If it had not been for them...), Q11 원어(little) 및 나머지 표적(exclusively·remarkable·dull·individually), Q15형 무관 문장 없음 — 모두 회차 내 다른 지문에 원형으로 없음. 참고: Q05 첫 문장이 Q08 (B) 마지막 문장과 같으나 A/C 순서를 드러내지 않음."},
+    "mock2": {"leak":false,"detail":"Q14 빈칸 원문(capable of making valuable contributions to science), Q15 무관 문장, Q18 원어(simple) 및 나머지 표적(complained·quickly·brief·effectively)이 회차 내 다른 지문에 없음. 다만 지문 중복이 큼: Q13∩Q14('In honor…every day' 6문장), Q13∩Q16('After photographing…in progress today' 8문장), Q12∩장문 Q17·Q18 1단락(Schawinski 단락 7문장 동일)."},
+    "mock3": {"leak":false,"detail":"Q21 빈칸 원문(some notably different features), Q22 순서 원문, Q23 삽입 문장, Q25 원어(funded) 및 나머지 표적(Surprisingly·confirmed·properly·gather)이 회차 내 다른 지문에 없음. 지문 중복: Q19 앞 6문장 = 장문 Q24·Q25 2단락 전체."}
+  },
+  "items": {
+    "Q01": {"answer":3,"evidence":"Even though citizen scientists may not have science degrees or long, white lab coats, they are still capable of making valuable contributions to science.","uniqueness":"확정","issues":["자족성(1차 지적 미해결): 'these two projects'가 발췌 밖 Galaxy Zoo를 가리키고 첫 문장 'the phenomenon'도 선행 대상 없음. 판단에는 영향 없음.","오답 ①④가 완화되어 개선됨. ②⑤는 여전히 상식으로 제거되는 수준."]},
+    "Q02": {"answer":5,"evidence":"his job there was dull and time-consuming / this would require a tremendous amount of time.","uniqueness":"확정","issues":[]},
+    "Q03": {"answer":2,"evidence":"began to notice something strange appearing in the night sky ... discovered a new type of phenomenon that had never been properly studied.","uniqueness":"확정","issues":[]},
+    "Q04": {"answer":4,"evidence":"In reality, science belongs to everyone, and we all have the ability to play a role in the advancement of science.","uniqueness":"확정","issues":["정답이 바꿔 쓰기로 개선됨. 사례 단락이 '950,000?'까지 이어져 중간에 끊기는 문제는 해소. 사례 부분은 주장 판단에 쓰이지 않지만 예시로 허용 가능."]},
+    "Q05": {"answer":1,"evidence":"If it had not been for those participants, Schawinski couldn't have classified that many images. / Galaxy Zoo has now grown into Zooniverse ...","uniqueness":"확정","issues":["경미: 'Schawinski'가 소개 없이 등장."]},
+    "Q06": {"answer":2,"evidence":"some of which seemed to stretch for thousands of kilometers (→ extend over a very long distance)","uniqueness":"확정","issues":["1차 지적(단순 일치) 반영 확인."]},
+    "Q07": {"answer":4,"evidence":"neither of them had any idea what Steve was ... it did not resemble anything they had seen before.","uniqueness":"확정","issues":[]},
+    "Q08": {"answer":4,"evidence":"주어진 글(Internet 제안) → (C) Eventually ... launching Galaxy Zoo; website kept simple → (A) This allowed ... quickly; brief tutorial → (B) Then they were shown an image ...","uniqueness":"확정","issues":[]},
+    "Q09": {"answer":2,"evidence":"them = the dedicated members of the aurora chasers group, it = STEVE → 'deserve the credit for discovering STEVE' 바로 뒤.","uniqueness":"확정","issues":["자족성 경미: 후반 'these two projects'가 발췌 밖을 가리킴(판단 영향 없음)."]},
+    "Q10": {"answer":3,"evidence":"science belongs to everyone ... / He had to classify around one million images ... a whole week to classify just 50,000 galaxies.","uniqueness":"확정","issues":["Q11 오류어 much를 넣어도 'However, this perception is far from the truth' 이후 논지가 남아 제목 근거 유지."]},
+    "Q11": {"answer":2,"evidence":"② much → little: 'However, this perception is far from the truth'와 'science belongs to everyone'의 반박 구조상 '공통점이 거의 없어 보인다'여야 함.","uniqueness":"확정","issues":[]},
+    "Q12": {"answer":1,"evidence":"a domain reserved exclusively for scientists in long, white lab coats ... They seem to have very little in common with ordinary people like us.","uniqueness":"확정","issues":["함축 표적이 비유성이 약해 거의 글자 그대로 풀림(난도 낮음).","출제 범위: 뒤 Schawinski 사례 7문장은 판단에 쓰이지 않으며, 같은 회차 장문(Q17·Q18) 1단락과 똑같은 문장이 반복됨. 도입 단락까지만 쓰는 것을 제안.","발문 조사: 'coats가'는 발음 기준이면 '~이'."]},
+    "Q13": {"answer":5,"evidence":"There are many interesting theories about STEVE, but none of them have been proven for certain.","uniqueness":"확정","issues":["⑤가 바꿔 쓰기로 개선됨.","같은 회차 Q14·Q16 지문과 문장 중복이 큼(정답 노출은 아님)."]},
+    "Q14": {"answer":5,"evidence":"Even though ... (양보) they are still ___ → 긍정; 'ordinary people who desire to help advance science', 'The next great scientific achievement could be made by citizen scientists'.","uniqueness":"확정","issues":["자족성 경미: 'these two projects'가 발췌 밖을 가리킴."]},
+    "Q15": {"answer":4,"evidence":"④ 망원경 관측 선호 문장은 참여자 덕분의 분류 성과 흐름과 무관. 빼면 ③ 'Schawinski couldn't have classified' → ⑤ 'it would have taken him decades'로 이어짐.","uniqueness":"확정","issues":[]},
+    "Q16": {"answer":3,"evidence":"(A) something strange ... neither of them had any idea → mysterious; (B) NASA funded a citizen science project involving the public ... asked ordinary people to gather photos → participation.","uniqueness":"확정","issues":[]},
+    "Q17": {"answer":5,"evidence":"classify around one million images ... a whole week for just 50,000 / launching a crowdsourced online project ... very basic design and an easy-to-use interface ... participants were able to classify galaxies effectively.","uniqueness":"확정","issues":["Q18 오류어 complicated가 들어간 상태에서도 'very basic design, easy-to-use interface'가 남아 제목의 'Simple' 근거 유지."]},
+    "Q18": {"answer":2,"evidence":"② complicated → simple: 'with a very basic design and an easy-to-use interface. This allowed ... to get started quickly.'","uniqueness":"확정","issues":["1차 노출 문제 해소: 같은 회차에 'as simple as possible' 원형이 없음."]},
+    "Q19": {"answer":1,"evidence":"You can become one as well if you have curiosity and an interest in taking part in scientific research.","uniqueness":"확정","issues":["1차 지적(첫 문장 them/it 선행 대상 없음) 해소. 'these two projects'는 여전히 발췌 밖을 가리킴(경미).","같은 회차 장문 Q24·Q25 2단락(6문장)과 똑같은 문장이 반복됨."]},
+    "Q20": {"answer":3,"evidence":"The website was kept as simple as possible ... a brief tutorial ... After completion of the tutorial and a little bit of practice, the participants were able to classify galaxies effectively.","uniqueness":"확정","issues":[]},
+    "Q21": {"answer":1,"evidence":"They were similar in appearance to auroras, yet (대조) ... / Unsure of what they were.","uniqueness":"확정","issues":[]},
+    "Q22": {"answer":3,"evidence":"주어진 글 'this perception is far from the truth' → (B) In reality ... Let's take a look at two of them → (C) Kevin Schawinski ... classify around one million images → (A) Since they(=images) all looked similar ...","uniqueness":"확정","issues":[]},
+    "Q23": {"answer":2,"evidence":"'75 million classifications' 뒤, 'In fact, it would have taken him decades' 앞: him의 선행사 Schawinski가 주어진 문장에만 있음.","uniqueness":"확정","issues":[]},
+    "Q24": {"answer":2,"evidence":"Experts have acknowledged that it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE. If it had not been for them, it might have remained unnoticed forever.","uniqueness":"확정","issues":["Q25 오류어 canceled를 넣어도 제목 ② 근거(2단락)는 유지됨."]},
+    "Q25": {"answer":4,"evidence":"④ canceled → funded: 'In order to learn more about it'(목적)과 'The project asked ordinary people... It is still in progress today'와 모순.","uniqueness":"확정","issues":[]}
+  }
+}
