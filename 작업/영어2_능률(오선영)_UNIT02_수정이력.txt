@@ -78,3 +78,9 @@
   학습 FINAL 9fb62d37… / 문제 FINAL ee68e1f6… 최종 저장 → L-A·L-B·Q-3·N 최종 해시 기준 PASS.
 - DOCX patch(저장본 full 내용·서식 PASS, sha b0bc144c…), 분권 재생성 작업/출고/분권_재검수/(split verify PASS, ZIP sha 1cb1693a…), LibreOffice 예비 렌더 63쪽, check_release_text 경고 1건(R-0001 동일), R 재확인 내용 대응 PASS.
 - 검수 기록: L_A·L_B·L_continuity·L_bundle_재검수, Q_Q3(M 역할)·Q_N_재검수 작성(이전 기록은 이력으로 보존).
+
+2026-09-26 사용자 추가 지시(“asked / to V 구문으로, 6~7번 장문 다음 페이지로, 발문 않는·없는 밑줄”)
+- s20: be asked to V — ~하도록 요청받다 한 각주(gloss-rules be+p.p. 구문 사전형 조항, were는 shown의 be p.p.에 유지). 학습 FINAL aa36cc88….
+- 사용자 선택 “스킬 도구 수정·이 교재부터 반영”: 공통 스킬 사본(작업/스킬수정본)에서 book_plan.py(장문 세트 page_break_before, 발문 부정어 않는·않은·없는 밑줄, 워크북 5번 답안선 2줄+사이 간격), layout-contract.json(기호 안내 ★핵심), layout-rules.md(규칙 기록) 수정. patch 작업/스킬수정_2026-09-26.patch.
+- DOCX patch(저장본 full PASS), 분권_최종·ZIP(ac638943…), 예비 렌더 64쪽, 출고 텍스트 경고 R-0001 동일.
+- 최종 확인: S·L-A(s20·연결)·L-B·Q-3·N·R PASS, K 예비 조판 PASS(04권 2회 5번 뒤 빈 공간은 지시에 따른 결과). 최종 기록 *_최종.json, 출고기록_최종.json.
