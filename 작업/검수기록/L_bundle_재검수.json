@@ -1,0 +1,39 @@
+{
+ "schema_version": 1,
+ "type": "review_bundle",
+ "id": "L-bundle-rereview",
+ "kind": "learning",
+ "role": "L",
+ "summary": "재검수 L-A(u1·u2)·L-B(u3·u4)와 전체 연결. 사용자 판단 반영 후 최종 FINAL 기준 PASS",
+ "bindings": {
+  "package_sha256": "4fcd6a2f2d6542160e46cc4cddd22129d67413f334cd82febdc6661d97b112c4",
+  "learning_content_sha256": "bf4f5997b01536f10036329120b633daa8b4f04c16c335a5ad262583b9078b6b",
+  "learning_final_sha256": "9fb62d371dd7d4b2f5e51aa4e712840e798f10c2b3fbd0fd1ee1acec990925d9"
+ },
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4"
+  ]
+ },
+ "children": [
+  {
+   "path": "L_A_재검수.json",
+   "sha256": "5cc7fbca47bb4ebf5580dd56dec0356f816e16ec8a3ba14fd886d78b3d7cace9"
+  },
+  {
+   "path": "L_B_재검수.json",
+   "sha256": "42b33170d22c3792d2443f50b386318261775420bb4f6d5c057a6a06dca2970d"
+  }
+ ],
+ "continuity": {
+  "path": "L_continuity_재검수.json",
+  "sha256": "4500a1a6fba55c18d3f93f1c3e9e9ba3371dd0b3ec9a18e54f271225071a42e9"
+ }
+}

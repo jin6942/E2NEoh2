@@ -1,0 +1,150 @@
+{
+ "schema_version": 1,
+ "type": "review_shard",
+ "id": "L-A-rereview",
+ "kind": "learning",
+ "role": "L",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "claude-agent-L-A-rereview",
+ "execution_id": "subagent-a628dcf553377abe8",
+ "performed_at": "2026-09-26T20:00:00Z",
+ "method": "새 검수자가 u1·u2 33문장 전수 재검수(원문 PDF·FINAL·원고 JSON·규칙 대조) 후 반영분·최종 해시 재확인",
+ "summary": "지적 LA-01~LA-10과 판단 2건. 확정 수정 반영 후 PASS, 최종 FINAL 9fb62d37 기준 유지",
+ "scope": {
+  "kind": "partial",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2"
+  ],
+  "sentence_ids": [
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08",
+   "s09",
+   "s10",
+   "s11",
+   "s12",
+   "s13",
+   "s14",
+   "s15",
+   "s16",
+   "s17",
+   "s18",
+   "s19",
+   "s20",
+   "s21",
+   "s22",
+   "s23",
+   "s24",
+   "s25",
+   "s26",
+   "s27",
+   "s28",
+   "s29",
+   "s30",
+   "s31",
+   "s32",
+   "s33"
+  ]
+ },
+ "bindings": {
+  "package_sha256": "4fcd6a2f2d6542160e46cc4cddd22129d67413f334cd82febdc6661d97b112c4",
+  "learning_content_sha256": "bf4f5997b01536f10036329120b633daa8b4f04c16c335a5ad262583b9078b6b",
+  "learning_final_sha256": "9fb62d371dd7d4b2f5e51aa4e712840e798f10c2b3fbd0fd1ee1acec990925d9"
+ },
+ "findings": [
+  {
+   "id": "LA-01",
+   "description": "s24 u2-gp2 “It과 that을 빼도” 비문 설명",
+   "status": "resolved",
+   "resolution": "“It was와 that”으로 수정",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LA-02",
+   "description": "s01 relative_gloss_ids가 spend 각주를 가리킴",
+   "status": "resolved",
+   "resolution": "who 각주 ID로 수정",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LA-03",
+   "description": "s05 전체 주어 subject_spans 축약",
+   "status": "resolved",
+   "resolution": "전체 주어 보존+표시 범위 분리",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LA-04",
+   "description": "구문 대입에서 V-ing·to V·V′ 자리에 구 전체 대입",
+   "status": "resolved",
+   "resolution": "사용자 결정 A: 7곳 낱말·목적어·수식어 분리",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LA-05",
+   "description": "s31 with 뜻·청크",
+   "status": "resolved",
+   "resolution": "~을 가진, ~이 있는 / 청크·자연 해석 수정",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LA-06",
+   "description": "launch·launched 출시 뜻",
+   "status": "resolved",
+   "resolution": "시작하다, 개시하다 / 개설된",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LA-07",
+   "description": "s23 participants 참가자들",
+   "status": "resolved",
+   "resolution": "참여자들로 통일",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LA-08",
+   "description": "s29 힌트 시작된(선택)",
+   "status": "resolved",
+   "resolution": "현행 유지(한국어 자연성)",
+   "recheck": "검수자 수용"
+  },
+  {
+   "id": "LA-09",
+   "description": "s10 shaped 만들어진",
+   "status": "resolved",
+   "resolution": "형성된",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LA-10",
+   "description": "spend A V-ing 뜻의 영어 슬롯(선택)",
+   "status": "resolved",
+   "resolution": "현행 유지(각주·분석·워크북 일치)",
+   "recheck": "검수자 수용"
+  },
+  {
+   "id": "LA-P1",
+   "description": "s20 asked to V 묶기(사용자 B 선택)",
+   "status": "resolved",
+   "resolution": "공통 검사 도구가 수동 p.p. 표제어 확장을 금지해 현행 분리 유지, 수정인계에 도구 제약 기록",
+   "recheck": "검수자 확인"
+  },
+  {
+   "id": "LA-P2",
+   "description": "두 번째 기능 결합 힌트 기준",
+   "status": "resolved",
+   "resolution": "사용자 결정: 현행(선별 허용) 유지",
+   "recheck": "해당 없음"
+  }
+ ]
+}
