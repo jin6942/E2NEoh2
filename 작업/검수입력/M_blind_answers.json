@@ -1,0 +1,226 @@
+{
+ "reviewer": "M",
+ "solved_before_answer_key": true,
+ "packet_sha256": "6f86251b1987c8723e5e73baf4d36c720dd5c0e497073b888e7235c13c6fbbd3",
+ "answers": {
+  "Q01": 3,
+  "Q02": 5,
+  "Q03": 2,
+  "Q04": 4,
+  "Q05": 1,
+  "Q06": 2,
+  "Q07": 4,
+  "Q08": 3,
+  "Q09": 2,
+  "Q10": 5,
+  "Q11": 4,
+  "Q12": 1,
+  "Q13": 2,
+  "Q14": 4,
+  "Q15": 3,
+  "Q16": 5,
+  "Q17": 2,
+  "Q18": 5,
+  "Q19": 1,
+  "Q20": 4,
+  "Q21": 2,
+  "Q22": 5,
+  "Q23": 1,
+  "Q24": 3,
+  "Q25": 2
+ },
+ "items": {
+  "Q01": {
+   "answer": 3,
+   "evidence": "Even though citizen scientists may not have science degrees ... they are still capable of making valuable contributions to science.",
+   "uniqueness": "확정",
+   "issues": [
+    "오답 ①②④⑤가 모두 본문과 정반대라 너무 쉬움",
+    "발췌가 STEVE 단락 끝에서 시작하는데 'these two projects'가 나옴. 두 번째 프로젝트(Galaxy Zoo)가 지문에 없어 지시 대상이 불명확함",
+    "Q09·Q16과 지문이 완전히 같음(교재 안에서 같은 지문이 세 번 나옴)"
+   ]
+  },
+  "Q02": {
+   "answer": 5,
+   "evidence": "This might sound exciting, but his job there was dull and time-consuming. / It took Schawinski a whole week to classify just 50,000 galaxies.",
+   "uniqueness": "확정",
+   "issues": [
+    "⑤는 지문 두 문장과 대놓고 반대여서 바로 골라짐(너무 쉬움)"
+   ]
+  },
+  "Q03": {
+   "answer": 2,
+   "evidence": "the group members began to notice something strange appearing in the night sky ... They realized that the group had discovered a new type of phenomenon that had never been properly studied.",
+   "uniqueness": "확정",
+   "issues": [
+    "오답 ①③④⑤가 약해서 쉬움"
+   ]
+  },
+  "Q04": {
+   "answer": 4,
+   "evidence": "In reality, science belongs to everyone, and we all have the ability to play a role in the advancement of science.",
+   "uniqueness": "확정",
+   "issues": [
+    "주장이 담긴 서론 뒤에 Schawinski 사례 첫 세 문장이 붙어 있지만, 풀이에는 지장 없음"
+   ]
+  },
+  "Q05": {
+   "answer": 1,
+   "evidence": "If it had not been for those participants, Schawinski couldn't have classified that many images. / Galaxy Zoo has now grown into Zooniverse ...",
+   "uniqueness": "확정",
+   "issues": []
+  },
+  "Q06": {
+   "answer": 2,
+   "evidence": "There were unusual ribbons of green and purple light, some of which seemed to stretch for thousands of kilometers.",
+   "uniqueness": "확정",
+   "issues": [
+    "정답 ②가 본문 문장을 거의 그대로 옮겨서 낱말 일치만으로 풀림(너무 쉬움)",
+    "Q23과 지문이 같음"
+   ]
+  },
+  "Q07": {
+   "answer": 4,
+   "evidence": "They confirmed that it was not an aurora, but it did not resemble anything they had seen before. / In order to learn more about it ...",
+   "uniqueness": "확정",
+   "issues": []
+  },
+  "Q08": {
+   "answer": 3,
+   "evidence": "주어진 글 'this perception is far from the truth' → (B) In reality, science belongs to everyone ... two of them → (C) Kevin Schawinski ... classify around one million images → (A) Since they all looked similar ... 'do this'",
+   "uniqueness": "확정",
+   "issues": [
+    "같은 mock1의 Q10·Q11 장문 1단락과 내용이 겹침(Q11의 정답 낱말은 드러나지 않음)"
+   ]
+  },
+  "Q09": {
+   "answer": 2,
+   "evidence": "Experts have acknowledged that ... the dedicated members of the aurora chasers group ... deserve the credit for discovering STEVE. [If it had not been for them, it might have remained unnoticed forever.] 앞 문장의 them(members)과 it(STEVE)을 받아 공로를 뒷받침함",
+   "uniqueness": "확정",
+   "issues": [
+    "'these two projects'의 지시 대상이 지문에 없음(Q01과 같음)",
+    "Q01과 지문이 같음"
+   ]
+  },
+  "Q10": {
+   "answer": 5,
+   "evidence": "He had to classify around one million images ... Eventually, the two men ended up launching a crowdsourced online project ... The website was kept as simple as possible",
+   "uniqueness": "확정",
+   "issues": [
+    "오답 ①~④가 약해서 쉬움"
+   ]
+  },
+  "Q11": {
+   "answer": 4,
+   "evidence": "④ complicated는 바로 뒤 'with a very basic design and an easy-to-use interface'와 'get started quickly'에 어긋남. simple이 맞음",
+   "uniqueness": "확정",
+   "issues": []
+  },
+  "Q12": {
+   "answer": 1,
+   "evidence": "The website was kept as simple as possible ... more than 80,000 individuals participated ... If it had not been for those participants, Schawinski couldn't have classified that many images.",
+   "uniqueness": "확정",
+   "issues": []
+  },
+  "Q13": {
+   "answer": 2,
+   "evidence": "It took Schawinski a whole week to classify just 50,000 galaxies. / one million images → 남은 950,000개를 혼자 하면 시간이 너무 오래 걸림, complained about the situation",
+   "uniqueness": "확정",
+   "issues": [
+    "④는 본문의 similar를 끌어온 오답인데, 뜻은 정답과 분명히 달라 문제 없음"
+   ]
+  },
+  "Q14": {
+   "answer": 4,
+   "evidence": "Galaxy Zoo 참여자와 분류량 흐름 속에 망원경 관측 선호 문장이 끼어 있음. ③ 참여자 없이는 불가 → ⑤ In fact, 혼자면 수십 년",
+   "uniqueness": "확정",
+   "issues": []
+  },
+  "Q15": {
+   "answer": 3,
+   "evidence": "(A) something strange ... neither of them had any idea what Steve was → mysterious / (B) NASA funded a citizen science project involving the public ... asked ordinary people to gather photos → participation",
+   "uniqueness": "확정",
+   "issues": []
+  },
+  "Q16": {
+   "answer": 5,
+   "evidence": "they are still capable of making valuable contributions to science / Most of the individuals involved ... are not professional scientists",
+   "uniqueness": "확정",
+   "issues": [
+    "Q01·Q09와 지문이 같음",
+    "같은 mock2의 Q18 장문과 STEVE 단락이 겹침. 특히 Q16 지문의 'it might have remained unnoticed forever'가 Q18의 정답 ⑤ famous를 그대로 드러냄(같은 회차 안 정답 노출)"
+   ]
+  },
+  "Q17": {
+   "answer": 2,
+   "evidence": "Experts have acknowledged that it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE.",
+   "uniqueness": "확정",
+   "issues": []
+  },
+  "Q18": {
+   "answer": 5,
+   "evidence": "⑤ famous: 'If it had not been for them, it might have remained famous forever'는 앞 문장(동호회원들이 발견의 공로를 받아야 한다)과 어긋남. unnoticed가 맞음",
+   "uniqueness": "확정",
+   "issues": [
+    "같은 mock2의 Q16 지문에 원래 문장 'remained unnoticed forever'가 그대로 나옴. 정답이 새어 나가므로 Q16 지문 범위를 바꾸거나 Q18 출제 낱말을 바꿔야 함"
+   ]
+  },
+  "Q19": {
+   "answer": 1,
+   "evidence": "You can become one as well if you have curiosity and an interest in taking part in scientific research.",
+   "uniqueness": "확정",
+   "issues": [
+    "지문 첫 문장 'If it had not been for them, it might have remained unnoticed forever.'의 them과 it이 가리키는 말이 없어 글이 갑자기 시작됨. 'Experts have acknowledged ...'부터 시작하거나 첫 문장을 빼야 함",
+    "'these two projects'의 지시 대상이 지문에 없음",
+    "같은 mock3의 Q22 지문과 겹침"
+   ]
+  },
+  "Q20": {
+   "answer": 4,
+   "evidence": "(C) Eventually ... launching ... Galaxy Zoo. The website was kept as simple as possible → (A) This allowed ... get started quickly ... brief tutorial → (B) Then they were shown an image ...",
+   "uniqueness": "확정",
+   "issues": []
+  },
+  "Q21": {
+   "answer": 2,
+   "evidence": "주어진 문장이 75 million classifications 바로 뒤에 들어가야 ② 뒤 'In fact, it would have taken him decades on his own'의 him(Schawinski)이 가리키는 말이 생김",
+   "uniqueness": "확정",
+   "issues": [
+    "Q05·Q14와 지문이 같음"
+   ]
+  },
+  "Q22": {
+   "answer": 5,
+   "evidence": "There are many interesting theories about STEVE, but none of them have been proven for certain.",
+   "uniqueness": "확정",
+   "issues": [
+    "⑤가 본문 문장과 대놓고 반대여서 쉬움"
+   ]
+  },
+  "Q23": {
+   "answer": 1,
+   "evidence": "They were similar in appearance to auroras, yet they possessed some notably different features.",
+   "uniqueness": "확정",
+   "issues": [
+    "Q06과 지문이 같음"
+   ]
+  },
+  "Q24": {
+   "answer": 3,
+   "evidence": "science belongs to everyone ... ordinary people have made contributions ... / one million images ... tremendous amount of time",
+   "uniqueness": "확정",
+   "issues": [
+    "정답 ③ 'Science for Everyone: A Task Too Big for One Scientist'는 두 단락을 억지로 이어 붙여서 영어 제목으로 다소 어색함",
+    "오답 ①②④⑤가 본문과 정반대이거나 관련이 없어 너무 쉬움"
+   ]
+  },
+  "Q25": {
+   "answer": 2,
+   "evidence": "② much: 'They seem to have very much in common with ordinary people like us. However, this perception is far from the truth.' 과학이 과학자만의 영역이라는 인식과 어긋남. little이 맞음",
+   "uniqueness": "확정",
+   "issues": [
+    "③ remarkable 등 나머지는 적절함. 다른 회차(Q04 workbook, Q08 mock1)에 원래 문장 'very little'이 나오지만 같은 회차 안에서 드러나지는 않음"
+   ]
+  }
+ }
+}
