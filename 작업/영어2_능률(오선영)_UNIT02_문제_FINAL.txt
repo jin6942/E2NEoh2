@@ -178,7 +178,7 @@ CHOICES_KR:
 
 [4. 구문 결합해서 해석하기]
 1. It took Schawinski a whole week to classify → ______________________________
-도움말: It takes A B to V — A가 ~하는 데 B(시간)가 걸리다 / whole — 꼬박, 전체의 / week — 일주일 / classify — 분류하다
+도움말: It takes A B to V — A(이/가) ~하는 데 B(시간)가 걸리다 / whole — 꼬박, 전체의 / week — 일주일 / classify — 분류하다
 2. It was online media that helped spread the word → ______________________________
 도움말: It was A that V′ — V′한 것은 바로 A였다 / online — 온라인 / media — 미디어, 매체 / help V — ~하는 것을 돕다 / spread the word — 소문을 퍼뜨리다
 3. If it had not been for those participants → ______________________________
@@ -228,7 +228,7 @@ SOURCE_RANGE:
 2. phenomenon
 3. possess
 4. resemble
-5. acknowledged
+5. acknowledge
 6. dedicated
 7. deserve
 8. confirm
@@ -303,7 +303,7 @@ CHOICES_KR:
 | 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
 | --- | --- | --- | --- | --- | --- |
 | 1 | 비공식적인 | 2 | 현상 | 3 | 지니다, 가지다 |
-| 4 | 닮다, 비슷하다 | 5 | 인정했다 | 6 | 헌신적인 |
+| 4 | 닮다, 비슷하다 | 5 | 인정하다 | 6 | 헌신적인 |
 | 7 | ~을 받을 만하다 | 8 | 확인하다 |  |  |
 [2. 유의어·반의어 뜻 쓰기]
 | 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
@@ -366,7 +366,7 @@ When we think about science, we might consider it as a domain reserved exclusive
 CHOICES:
 ① Only professional scientists should be trusted to advance science.
 ② The ideas of amateurs are worthless unless experts check them first.
-③ Scientists in lab coats should promote their work to ordinary people.
+③ Only laboratory experiments can promote real scientific progress.
 ④ Amateurs as well as experts can help advance science in valuable ways.
 ⑤ Citizen science projects tend to hinder real scientific progress.
 ANSWER:
@@ -378,12 +378,12 @@ EXPLANATION:
 WRONG_ANALYSIS:
 ① 과학은 모두의 것이라는 필자의 주장과 정반대다.
 ② 아마추어의 생각을 전문가가 확인해야 한다는 내용은 본문에 없고, 필자는 누구나 기여할 수 있다고 본다.
-③ 과학자의 홍보에 관한 내용은 본문에 없다.
+③ 필자는 실험실 밖의 평범한 사람들도 과학 발전에 한몫할 수 있다고 했으므로, 실험실 실험만이 진보를 촉진한다는 말은 반대다.
 ⑤ 필자는 평범한 사람들이 놀라운 과학적 업적에 기여한 시민 과학 프로젝트가 많았다고 했으므로 반대 내용이다. 뒤의 Schawinski 이야기도 그 사례를 소개하기 위한 것이다.
 CHOICES_KR:
 ① 전문 과학자들만이 과학을 발전시킬 것으로 신뢰받아야 한다.
 ② 아마추어의 생각은 전문가가 먼저 확인하지 않으면 가치가 없다.
-③ 실험실 가운을 입은 과학자들은 평범한 사람들에게 자신들의 연구를 홍보해야 한다.
+③ 실험실 실험만이 진정한 과학의 진보를 촉진할 수 있다.
 ④ 전문가뿐만 아니라 아마추어도 귀중한 방식으로 과학의 발전을 도울 수 있다.
 ⑤ 시민 과학 프로젝트는 실제 과학의 진보를 방해하는 경향이 있다.
 [/Q04]
@@ -593,10 +593,10 @@ Experts have acknowledged that it is the dedicated members of the aurora chasers
 EXPLANATION:
 주어진 문장의 them은 STEVE 발견의 공로를 인정받는 오로라 추적자 단체의 헌신적인 구성원들을 가리킨다. 그들이 없었다면 STEVE가 영원히 알려지지 않았을 것이라는 내용은 공로를 인정했다는 문장 바로 뒤인 ②에 들어가야 한다.
 WRONG_ANALYSIS:
-① ①의 앞 문장은 이름(it)이 대문자로 쓰이고 무엇을 뜻하는지 설명한다. 여기에 넣으면 주어진 문장의 it이 현상이 아니라 이름을 가리키게 되고, them이 가리킬 오로라 추적자들도 두 문장 앞에 떨어져 있어 연결되지 않는다. 또 전문가들이 공로를 인정했다는 근거보다 먼저 나오게 된다.
-③ ③의 앞 문장은 STEVE에 관한 이론이 증명되지 않았다는 내용이라 공로를 강조하는 주어진 문장이 이어지기 어색하다.
-④ ④ 앞에서는 과학자와 시민의 협력을 말하고 뒤에서는 두 프로젝트 참여자 전체로 넘어가므로 주어진 문장이 끼어들 자리가 아니다.
-⑤ ⑤ 앞뒤는 시민 과학자가 누구인지 설명하는 흐름이라 STEVE 발견자를 가리키는 them이 들어갈 수 없다.
+① 이 자리의 앞 문장은 이름(it)이 대문자로 쓰이고 무엇을 뜻하는지 설명한다. 여기에 넣으면 주어진 문장의 it이 현상이 아니라 이름을 가리키게 되고, them이 가리킬 오로라 추적자들도 두 문장 앞에 떨어져 있어 연결되지 않는다. 또 전문가들이 공로를 인정했다는 근거보다 먼저 나오게 된다.
+③ 이 자리의 앞 문장은 STEVE에 관한 이론이 증명되지 않았다는 내용이라 공로를 강조하는 주어진 문장이 이어지기 어색하다.
+④ 이 자리에 넣으면 them이 바로 앞의 Scientists and citizens를 가리키게 된다. 그들은 이미 발견된 STEVE를 함께 연구하고 있으므로 ‘영원히 알려지지 않은 채로 남았을 것’이라는 내용과 맞지 않고, 공로를 인정한 문장과도 떨어진다.
+⑤ 이 자리의 앞뒤는 시민 과학자가 누구인지 설명하는 흐름이라 STEVE 발견자를 가리키는 them이 들어갈 수 없다.
 [/Q09]
 
 [PASSAGE_GROUP long-mock1]
@@ -837,7 +837,7 @@ QUESTION:
 PASSAGE:
 In Alberta, Canada, there were some “aurora chasers” who formed an informal group online. They would leave their homes at night and try to get exceptional photographs of auroras. Then they would share them with the rest of the group. In the summer of 2014, the group members began to notice something strange appearing in the night sky. There were unusual ribbons of green and purple light, some of which seemed to stretch for thousands of kilometers. Sometimes they lasted for just a few minutes, while other times they remained in the sky for a whole hour. They were similar in appearance to auroras, yet they possessed some notably different features. Unsure of what they were, the group decided to name the phenomenon “Steve,” based on a scene from an animated movie where some characters give that name to an unfamiliar object. After photographing Steve for several years and discussing what it might be, the group members decided to get help from experts. They showed their photos of Steve to a professor of astronomy at a local university and a scientist at NASA. Surprisingly, neither of them had any idea what Steve was. They confirmed that it was not an aurora, but it did not resemble anything they had seen before. They realized that the group had discovered a new type of phenomenon that had never been properly studied. In order to learn more about it, NASA funded a citizen science project involving the public. The project asked ordinary people to gather photos of Steve and send them to NASA. It is still in progress today.
 [요약문]
-When aurora chasers noticed a(n) (A) light in the night sky that even experts could not explain, NASA supported a project that depends on the (B) of ordinary people.
+After aurora chasers spotted a(n) (A) light in the night sky that even experts could not explain, NASA supported a project that depends on the (B) of ordinary people.
 CHOICES:
 ① familiar …… participation
 ② mysterious …… criticism
@@ -937,7 +937,7 @@ with a very basic design and an easy-to-use interface. This allowed those who wa
 EXPLANATION:
 웹사이트는 매우 기본적인 디자인과 사용하기 쉬운 인터페이스를 갖추어 참여자들이 빨리 시작할 수 있었다. 따라서 ②의 complicated(복잡한)는 문맥에 맞지 않고 simple(단순한)이 되어야 한다.
 WRONG_ANALYSIS:
-① 따분하고 시간이 많이 걸리는 일을 앞두고 친구에게 그 상황을 불평했다(complained)는 흐름에 맞다.
+① 따분하고 시간이 많이 걸리는 일 때문에 친구에게 그 상황을 불평했다(complained)는 흐름에 맞다.
 ③ 단순한 웹사이트 덕분에 빨리(quickly) 시작할 수 있었다는 흐름에 맞다.
 ④ 빨리 시작할 수 있도록 간단한(brief) 사용 지침으로 새 방문자를 맞이했다는 흐름에 맞다.
 ⑤ 사용 지침과 약간의 연습을 마친 뒤 효과적으로(effectively) 분류할 수 있었다는 흐름에 맞다.
@@ -1115,10 +1115,10 @@ they made more than 75 million classifications. + If it had not been for those p
 EXPLANATION:
 주어진 문장은 참여자들이 없었다면 그렇게 많은 이미지를 분류할 수 없었을 것이라는 가정이다. 7,500만 건의 분류를 해냈다는 문장 뒤, 그리고 ‘사실 혼자서는 수십 년이 걸렸을 것’이라는 문장 앞인 ②에 들어가야 In fact가 자연스럽게 이어진다.
 WRONG_ANALYSIS:
-① ①에 넣으면 ‘그렇게 많은 이미지(that many images)’가 가리킬 7,500만 건의 분류보다 앞에 놓이고, 주어진 문장을 이어받는 In fact 문장과도 떨어져 연결이 끊긴다.
-③ ③에 넣으면 그 앞의 In fact, it would have taken him …에서 him이 가리킬 Schawinski가 아직 나오지 않아 연결이 끊기고, 뒤는 2007년 이후 15년이 흘렀다는 새로운 화제다.
-④ ④ 앞뒤는 Zooniverse의 현재 모습에 관한 내용이라 맞지 않는다.
-⑤ ⑤ 앞뒤도 Zooniverse의 활동과 프로젝트 소개라 참여자 가정이 들어갈 자리가 아니다.
+① 이 자리에 넣으면 ‘그렇게 많은 이미지(that many images)’가 가리킬 7,500만 건의 분류보다 앞에 놓이고, 주어진 문장을 이어받는 In fact 문장과도 떨어져 연결이 끊긴다.
+③ 이 자리에 넣으면 그 앞의 In fact, it would have taken him …에서 him이 가리킬 Schawinski가 아직 나오지 않아 연결이 끊기고, 뒤는 2007년 이후 15년이 흘렀다는 새로운 화제다.
+④ 이 자리의 앞뒤는 Zooniverse의 현재 모습에 관한 내용이라 맞지 않는다.
+⑤ 이 자리의 앞뒤도 Zooniverse의 활동과 프로젝트 소개라 참여자 가정이 들어갈 자리가 아니다.
 [/Q23]
 
 [PASSAGE_GROUP long-mock3]

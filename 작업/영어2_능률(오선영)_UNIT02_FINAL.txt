@@ -133,8 +133,8 @@ Let’s take a look at two of them.
 [5번 문장] There have been numerous citizen science projects in which ordinary people have made contributions to remarkable scientific accomplishments.
 5번 문장은 4번의 주장이 실제로 가능하다는 근거를 든다. 시민 과학은 과학자가 아닌 일반 시민이 참여하는 과학 연구를 말한다. 이런 프로젝트에서 보통 사람들이 놀라운 과학 성과에 힘을 보탠 일이 이미 많았다. 그래서 6번 문장에서 그 가운데 두 가지를 살펴보자고 한다.
 [구문으로 해석하기]
-spend + A + V-ing: V-ing하면서 A(시간)를 보내다 [1번 문장]: spend their days conducting experiments and analyzing data — 공식: spend + A + V-ing — V-ing하면서 A(시간)를 보내다. A = their days(그들의 나날), V-ing = conducting experiments(실험을 하다), analyzing data(데이터를 분석하다). → 실험을 하고 데이터를 분석하면서 그들의 나날을 보내다.
-명사 + to V: ~할 명사 [4번 문장]: the ability to play a role in the advancement of science — 공식: 명사(N) + to V — ~할 N. N = the ability(능력), to V = to play a role in the advancement of science(과학의 발전에서 역할을 하다). → 과학의 발전에서 역할을 할 능력. to부정사가 앞 명사 ability를 뒤에서 꾸며 어떤 능력인지 알려 준다.
+spend + A + V-ing: V-ing하면서 A(시간)를 보내다 [1번 문장]: spend their days conducting experiments and analyzing data — 공식: spend + A + V-ing — V-ing하면서 A(시간)를 보내다. A = their days(그들의 나날), V-ing = conducting(하다)·analyzing(분석하다), 각 V-ing의 목적어 = experiments(실험을)·data(데이터를). → 실험을 하고 데이터를 분석하면서 그들의 나날을 보내다.
+명사 + to V: ~할 명사 [4번 문장]: the ability to play a role in the advancement of science — 공식: 명사(N) + to V — ~할 N. N = the ability(능력), to V = to play a role in(~에서 역할을 하다), in의 대상 = the advancement of science(과학의 발전). → 과학의 발전에서 역할을 할 능력. to부정사가 앞 명사 ability를 뒤에서 꾸며 어떤 능력인지 알려 준다.
 명사 + in which S′ V′: S′가 V′하는 명사 [5번 문장]: projects in which ordinary people have made contributions to remarkable scientific accomplishments — 공식: 명사 + in which S′ V′ — S′(이/가) V′하는 명사. 선행사 = projects(프로젝트들), in which = 그 프로젝트들 안에서, S′ = ordinary people(평범한 사람들), V′ = have made(해 왔다), 목적어 = contributions(기여). → 평범한 사람들이 기여를 해 온 프로젝트들. 전치사 in이 관계대명사 which 앞에 붙어 ‘그 프로젝트 안에서’라는 관계를 나타낸다.
 have p.p.: ~해 왔다 (There have been ~: ~이 있어 왔다) [5번 문장]: There have been numerous citizen science projects — 공식: have p.p. — ~해 왔다. p.p. = been(be의 p.p.형, 있다), 주어 = numerous citizen science projects(수많은 시민 과학 프로젝트들). There는 따로 해석하지 않는다. → 수많은 시민 과학 프로젝트들이 있어 왔다. 과거부터 지금까지 이어진 일임을 나타낸다.
 [유의어·반의어]
@@ -210,7 +210,7 @@ Since they all looked similar but were actually shaped slightly differently, the
 Since they all looked similar / but were actually shaped slightly differently, / the best way to do this / was to sort them / while looking at each one individually.
 [S/V] [Since] S′: they all, V′: looked but were shaped ／ S: the best way, V: was
 [각주]
-since S′ V′ — S′(이/가) V′하기 때문에 / they — 그것들은 (은하 이미지들) / all — 모두 / look — ~해 보이다 / similar — 비슷한 / be p.p. — ~되다 / actually — 실제로는 / shaped — (~한) 모양으로 만들어진 / slightly — 약간, 조금 / differently — 다르게 / best — 가장 좋은 (good의 최상급) / way — 방법 / to V — ~할 / do — 하다 / this — 이것을 (은하 이미지를 모양에 따라 분류하는 일) / was — ~이었다 (be의 과거) / to V — ~하는 것 / sort — 분류하다, 정리하다 / them — 그것들을 (은하 이미지들) / while V-ing — ~하면서 / look at — ~을 보다 / each one — 각각, 하나하나 / ★ individually — 개별적으로, 하나씩
+since S′ V′ — S′(이/가) V′하기 때문에 / they — 그것들은 (은하 이미지들) / all — 모두 / look — ~해 보이다 / similar — 비슷한 / be p.p. — ~되다 / actually — 실제로는 / shaped — (~한) 모양으로 형성된 / slightly — 약간, 조금 / differently — 다르게 / best — 가장 좋은 (good의 최상급) / way — 방법 / to V — ~할 / do — 하다 / this — 이것을 (은하 이미지를 모양에 따라 분류하는 일) / was — ~이었다 (be의 과거) / to V — ~하는 것 / sort — 분류하다, 정리하다 / them — 그것들을 (은하 이미지들) / while V-ing — ~하면서 / look at — ~을 보다 / each one — 각각, 하나하나 / ★ individually — 개별적으로, 하나씩
 [구조 힌트] the best way [to do this] → [이것[이미지를 모양별로 분류하는 일]을 할] 가장 좋은 방법 (to부정사 후치수식)
 [구조 힌트] [while looking at] → [보면서] (접속사 while + V-ing)
 [분석 끊어읽기 영어]
@@ -246,7 +246,7 @@ It took Schawinski a whole week to classify just 50,000 galaxies.
 It took Schawinski a whole week / to classify just 50,000 galaxies.
 [S/V] S: It, V: took
 [각주]
-It takes A B to V — A가 ~하는 데 B(시간)가 걸리다 (took은 take의 과거) / whole — 꼬박, 전체의 / week — 일주일 / ★ classify — 분류하다 / just — 고작, 겨우 / galaxies — 은하들
+It takes A B to V — A(이/가) ~하는 데 B(시간)가 걸리다 (took은 take의 과거) / whole — 꼬박, 전체의 / week — 일주일 / ★ classify — 분류하다 / just — 고작, 겨우 / galaxies — 은하들
 [구조 힌트] It took Schawinski a whole week [to classify] → Schawinski가 [분류하는 데] 꼬박 일주일이 걸렸다 (It takes A B to V 구문)
 [분석 끊어읽기 영어]
 It took Schawinski a whole week / to classify just 50,000 galaxies.
@@ -317,7 +317,7 @@ Eventually, the two men ended up launching a crowdsourced online project known a
 Eventually, / the two men ended up launching / a crowdsourced online project / known as Galaxy Zoo.
 [S/V] S: the two men, V: ended up
 [각주]
-eventually — 결국 / two — 두 / men — 남자들 / end up V-ing — 결국 ~하게 되다 / launch — 시작하다, 출시하다 / crowdsourced — 대중이 참여하는(크라우드소싱 방식의) / online — 온라인의 / project — 프로젝트 / known as — (~라고) 알려진 / Galaxy Zoo — 갤럭시 주 (은하 분류 온라인 프로젝트 이름)
+eventually — 결국 / two — 두 / men — 남자들 / end up V-ing — 결국 ~하게 되다 / launch — 시작하다, 개시하다 / crowdsourced — 대중이 참여하는(크라우드소싱 방식의) / online — 온라인의 / project — 프로젝트 / known as — (~라고) 알려진 / Galaxy Zoo — 갤럭시 주 (은하 분류 온라인 프로젝트 이름)
 [구조 힌트] a crowdsourced online project [known as Galaxy Zoo] → [Galaxy Zoo라고 알려진] 대중 참여 온라인 프로젝트 (과거분사 후치수식)
 [분석 끊어읽기 영어]
 Eventually, / the two men ended up launching / a crowdsourced online project / known as Galaxy Zoo.
@@ -441,13 +441,13 @@ After completion of the tutorial and a little bit of practice, the participants 
 After completion / of the tutorial / and a little bit of practice, / the participants were able to classify galaxies effectively.
 [S/V] S: the participants, V: were
 [각주]
-after — ~후에 / completion — 완료, 끝마침 / of — ~의 / ★ tutorial — 사용 지침 / a little bit of — 약간의 / practice — 연습 / ★ participants — 참가자들 / be able to V — ~할 수 있다 / ★ classify — 분류하다 / galaxies — 은하들 / ★ effectively — 효과적으로
+after — ~후에 / completion — 완료, 끝마침 / of — ~의 / ★ tutorial — 사용 지침 / a little bit of — 약간의 / practice — 연습 / ★ participants — 참여자들 / be able to V — ~할 수 있다 / ★ classify — 분류하다 / galaxies — 은하들 / ★ effectively — 효과적으로
 [분석 끊어읽기 영어]
 After completion / of the tutorial / and a little bit of practice, / the participants were able to classify galaxies effectively.
 [분석 끊어읽기 한국어]
-완료 후에 / 사용 지침의 / 그리고 약간의 연습 (후에), / 참가자들은 은하를 효과적으로 분류할 수 있었다.
+완료 후에 / 사용 지침의 / 그리고 약간의 연습 (후에), / 참여자들은 은하를 효과적으로 분류할 수 있었다.
 [자연 해석]
-사용 지침을 마치고 약간 연습한 뒤에, 참가자들은 은하를 효과적으로 분류할 수 있었다.
+사용 지침을 마치고 약간 연습한 뒤에, 참여자들은 은하를 효과적으로 분류할 수 있었다.
 ----- [/문장 23] -----
 
 ----- [문장 24] -----
@@ -477,7 +477,7 @@ Shortly after the website was launched, nearly 70,000 classifications were being
 Shortly after the website was launched, / nearly 70,000 classifications were being made / per hour.
 [S/V] [after] S′: the website, V′: was launched ／ S: nearly 70,000 classifications, V: were being made
 [각주]
-shortly after S′ V′ — S′(이/가) V′한 직후에 / website — 웹사이트 / be p.p. — ~되다 / launched — 개설된, 출시된 / nearly — 거의 / classifications — 분류(한 건수) / be being p.p. — ~되고 있다 / made — 이루어진 (흔한 뜻: 만들어진) / per — ~당 / hour — 시간
+shortly after S′ V′ — S′(이/가) V′한 직후에 / website — 웹사이트 / be p.p. — ~되다 / launched — 개설된 / nearly — 거의 / classifications — 분류(한 건수) / be being p.p. — ~되고 있다 / made — 이루어진 (흔한 뜻: 만들어진) / per — ~당 / hour — 시간
 [구조 힌트] [Shortly after the website was launched] → [그 웹사이트가 개설된 직후에] (시간 접속사 after)
 [구조 힌트] made(이루어진) → were being made(이루어지고 있었다) (be being p.p.)
 [분석 끊어읽기 영어]
@@ -588,13 +588,13 @@ It is more active than ever before, with about 2 million registered users worldw
 It is more active than ever before, / with about 2 million registered users worldwide.
 [S/V] S: It, V: is
 [각주]
-it — 그것은 (Zooniverse) / is — ~이다 / more ~ than ever before — 그 어느 때보다 더 ~한 / active — 활발한 / with — ~와 함께 / about — 약 / million — 백만 / registered — 등록된 / users — 사용자들 / worldwide — 전 세계적으로
+it — 그것은 (Zooniverse) / is — ~이다 / more ~ than ever before — 그 어느 때보다 더 ~한 / active — 활발한 / with — ~을 가진, ~이 있는 / about — 약 / million — 백만 / registered — 등록된 / users — 사용자들 / worldwide — 전 세계적으로
 [분석 끊어읽기 영어]
 It is more active than ever before, / with about 2 million registered users worldwide.
 [분석 끊어읽기 한국어]
-그것은 그 어느 때보다 더 활발하다, / 전 세계적으로 약 2백만 명의 등록된 사용자들과 함께.
+그것은 그 어느 때보다 더 활발하다, / 전 세계적으로 약 200만 명의 등록된 사용자들을 가진 채로.
 [자연 해석]
-전 세계적으로 약 200만 명의 등록된 사용자가 있는 그것은 그 어느 때보다 활발하다.
+그것은 전 세계에 약 200만 명의 등록된 사용자를 두고 있으며, 그 어느 때보다 활발하다.
 ----- [/문장 31] -----
 
 ----- [문장 32] -----
@@ -650,8 +650,8 @@ If you want to get involved, / you should definitely check it out!
 [27번 문장] If it had not been for those participants, Schawinski couldn’t have classified that many images.
 27번 문장은 24~26번에서 본 참여자들의 힘을 한 번 더 강조한다. 실제로는 참여자들이 있었기 때문에 약 백만 장이나 되는 이미지를 분류할 수 있었다. 이 문장은 반대로 ‘만약 그들이 없었다면’이라고 상상해 본다. 그랬다면 Schawinski 혼자서는 그만큼 분류하지 못했을 것이다. 28번 문장은 혼자였다면 수십 년이 걸렸을 거라고 덧붙인다.
 [구문으로 해석하기]
-It takes A B to V: A가 ~하는 데 B(시간)가 걸리다 [12번 문장]: It took Schawinski a whole week to classify just 50,000 galaxies — 공식: It takes A B to V — A가 ~하는 데 B(시간)가 걸리다. It은 따로 해석하지 않는 형식상 주어다. took = take의 과거, A = Schawinski, B = a whole week(꼬박 일주일), to V = to classify just 50,000 galaxies(고작 5만 개의 은하를 분류하다). → Schawinski가 고작 5만 개의 은하를 분류하는 데 꼬박 일주일이 걸렸다.
-It was A that V′: V′한 것은 바로 A였다 (강조 구문) [24번 문장]: It was online media that helped spread the word about Galaxy Zoo — 공식: It was A that V′ — V′한 것은 바로 A였다. 강조하는 말 A = online media(온라인 미디어), V′ = helped spread the word about Galaxy Zoo(Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도왔다). → Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도운 것은 바로 온라인 미디어였다. It과 that을 빼도 Online media helped spread the word.라는 완전한 문장이 되므로 가주어가 아닌 강조 구문이다.
+It takes A B to V: A(이/가) ~하는 데 B(시간)가 걸리다 [12번 문장]: It took Schawinski a whole week to classify just 50,000 galaxies — 공식: It takes A B to V — A(이/가) ~하는 데 B(시간)가 걸리다. It은 따로 해석하지 않는 형식상 주어다. took = take의 과거, A = Schawinski, B = a whole week(꼬박 일주일), to V = to classify(분류하다), 목적어 = just 50,000 galaxies(고작 5만 개의 은하). → Schawinski가 고작 5만 개의 은하를 분류하는 데 꼬박 일주일이 걸렸다.
+It was A that V′: V′한 것은 바로 A였다 (강조 구문) [24번 문장]: It was online media that helped spread the word about Galaxy Zoo — 공식: It was A that V′ — V′한 것은 바로 A였다. 강조하는 말 A = online media(온라인 미디어), V′ = helped spread the word(소문을 퍼뜨리는 것을 도왔다: help V + spread the word), 뒤에서 꾸미는 말 = about Galaxy Zoo(Galaxy Zoo에 대한). → Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도운 것은 바로 온라인 미디어였다. It was와 that을 빼도 Online media helped spread the word.라는 완전한 문장이 되므로 가주어가 아닌 강조 구문이다.
 If it had not been for A: A(이/가) 없었다면 [27번 문장]: If it had not been for those participants — 공식: If it had not been for A — A(이/가) 없었다면(과거 사실과 반대로 가정). A = those participants(그 참여자들). → 그 참여자들이 없었다면. 뒤 주절은 couldn’t have p.p.(~할 수 없었을 것이다)로 짝을 이루어 “그 참여자들이 없었다면 Schawinski는 그렇게 많은 이미지를 분류할 수 없었을 것이다”가 된다. 실제로는 참여자들이 있었다는 뜻이다.
 be p.p.: ~되다 (수동태) [17번 문장]: The website was kept as simple as possible — 공식: be p.p. — ~되다. be = was(과거), p.p. = kept(유지된), 주어 = The website(그 웹사이트), 보어 = as simple as possible(가능한 한 단순하게). → 그 웹사이트는 가능한 한 단순하게 유지되었다. 누군가가 웹사이트를 단순하게 유지한 것이므로 주어는 동작을 받는 쪽이다.
 have p.p.: ~했다 (현재완료) [30번 문장]: Galaxy Zoo has now grown into Zooniverse — 공식: have p.p. — ~했다(지금까지 이어진 결과). have = has, p.p. = grown(grow의 p.p.형), grow into A = A로 성장하다, A = Zooniverse, 주어 = Galaxy Zoo. → Galaxy Zoo는 이제 Zooniverse로 성장했다. 2007년에 시작해 지금은 Zooniverse가 되어 있다는 결과를 나타낸다.
@@ -728,7 +728,7 @@ In the summer of 2014, the group members began to notice something strange appea
 In the summer / of 2014, / the group members began to notice / something / strange / appearing in the night sky.
 [S/V] S: the group members, V: began
 [각주]
-in — ~에 / summer — 여름 / of — ~의 / group members — 단체 구성원들 / begin to V — ~하기 시작하다 (began은 begin의 과거) / notice A V-ing — A가 ~하는 것을 알아채다 / something — 무언가 / strange — 이상한 / appear — 나타나다 / in — ~에 / night sky — 밤하늘
+in — ~에 / summer — 여름 / of — ~의 / group members — 단체 구성원들 / begin to V — ~하기 시작하다 (began은 begin의 과거) / notice A V-ing — A(이/가) ~하는 것을 알아채다 / something — 무언가 / strange — 이상한 / appear — 나타나다 / in — ~에 / night sky — 밤하늘
 [구조 힌트] notice [something strange appearing] → [이상한 무언가가 나타나는 것을] 알아채다 (notice A V-ing 구문)
 [분석 끊어읽기 영어]
 In the summer / of 2014, / the group members began to notice / something / strange / appearing in the night sky.
@@ -891,7 +891,7 @@ They realized that the group had discovered a new type of phenomenon that had ne
 They realized / that the group had discovered a new type of phenomenon / that had never been properly studied.
 [S/V] S: They, V: realized ／ [that] S′: the group, V′: had discovered ／ [that] V′: had been studied
 [각주]
-they — 그들은 (지역 대학의 천문학 교수와 NASA의 과학자) / realize — 깨닫다 / that S′ V′ — S′(이/가) V′라는 것을 (접속사) / group — 단체 / had p.p. — ~했다 / discover — 발견하다 (discovered는 discover의 p.p.형) / a new type of — 새로운 유형의 / ★ phenomenon — 현상 / that V′ — V′한 (관계대명사) / had been p.p. — ~되었다 / never — 한 번도 ~않다 / properly — 제대로 / studied — 연구된
+they — 그들은 (지역 대학의 천문학 교수와 NASA의 과학자) / realize — 깨닫다 / that S′ V′ — S′(이/가) V′라는 것을 (접속사) / group — 단체 / had p.p. — ~했다 / discover — 발견하다 (discovered는 discover의 p.p.형) / a new type of — 새로운 유형의 / ★ phenomenon — 현상 / that V′ — V′하는 (관계대명사) / had been p.p. — ~되었다 / never — 한 번도 ~않다 / properly — 제대로 / studied — 연구된
 [구조 힌트] [that the group had discovered] → [그 단체가 발견했다는 것] (명사절 접속사 that)
 [구조 힌트] phenomenon [that had never been properly studied] → [한 번도 제대로 연구된 적이 없는] 현상 (주격 관계대명사 that)
 [분석 끊어읽기 영어]
@@ -982,14 +982,14 @@ However, it is now written in all capital letters and stands for “Strong Therm
 However, / it is now written in all capital letters / and stands for “Strong Thermal Emission Velocity Enhancement.”
 [S/V] S: it, V: is written and stands
 [각주]
-however — 그러나 / it — 그것은 (Steve라는 이름) / be p.p. — ~되다 / now — 이제 / written — 쓰인 / in — ~로 (흔한 뜻: ~안에) / all — 모두, 모든 / capital letters — 대문자 / stand for — ~을 의미하다, ~을 나타내다 / Strong Thermal Emission Velocity Enhancement — 강한 열 방출 속도 증가 (STEVE의 각 글자가 나타내는 말)
+however — 그러나 / it — 그것은 (Steve라는 이름) / be p.p. — ~되다 / now — 이제 / written — 쓰인 / in — ~로 (흔한 뜻: ~안에) / all — 모두, 모든 / capital letters — 대문자 / stand for — ~을 의미하다, ~을 나타내다 / Strong Thermal Emission Velocity Enhancement — 속도 증가에 따른 강한 열 방출 (STEVE의 각 글자가 나타내는 말, 교과서 해석)
 [구조 힌트] written(쓰인) → is now written(이제 쓰인다) (be p.p.)
 [분석 끊어읽기 영어]
 However, / it is now written in all capital letters / and stands for “Strong Thermal Emission Velocity Enhancement.”
 [분석 끊어읽기 한국어]
 그러나, / 그것은 이제 모두 대문자로 쓰인다 / 그리고 ‘Strong Thermal Emission Velocity Enhancement’를 의미한다.
 [자연 해석]
-그러나 그것은 이제 모두 대문자로 쓰이며, ‘강한 열 방출 속도 증가(Strong Thermal Emission Velocity Enhancement)’를 의미한다.
+그러나 그것은 이제 모두 대문자로 쓰이며, ‘속도 증가에 따른 강한 열 방출(Strong Thermal Emission Velocity Enhancement)’을 의미한다.
 ----- [/문장 51] -----
 
 ----- [문장 52] -----
@@ -1001,7 +1001,6 @@ Experts have acknowledged / that it is the dedicated members / of the aurora cha
 [S/V] S: Experts, V: have acknowledged ／ [that] S′: it, V′: is ／ [that] V′: deserve
 [각주]
 experts — 전문가들 / have p.p. — ~했다 / ★ acknowledge — 인정하다 (acknowledged는 acknowledge의 p.p.형) / that S′ V′ — S′(이/가) V′라는 것을 (접속사) / It is A that V′ — V′하는 것은 바로 A이다 / ★ dedicated — 헌신적인 / members — 구성원들 / of — ~의 / aurora chasers group — 오로라 추적자 단체 / ★ deserve — ~을 받을 만하다 / credit — 공로, 인정 / for — ~에 대한 / V-ing — ~하는 것 / discover — 발견하다 / STEVE — 스티브 (Strong Thermal Emission Velocity Enhancement의 머리글자)
-[구조 힌트] [that it is the dedicated members] → [바로 헌신적인 구성원들이라는 것] (명사절 접속사 that)
 [구조 힌트] it is the dedicated members of the aurora chasers group [that deserve] → [받을 만한] 것은 바로 오로라 추적자 단체의 헌신적인 구성원들이다 (It ~ that 강조 구문)
 [분석 끊어읽기 영어]
 Experts have acknowledged / that it is the dedicated members / of the aurora chasers group / that deserve the credit / for discovering STEVE.
@@ -1073,7 +1072,7 @@ Scientists and citizens continue to collaborate / to solve this mystery, / and t
 [글의 흐름]
 (배경) 본문 · 원문 문장 34~36 — 캐나다 앨버타의 ‘오로라 추적자들’은 온라인 모임을 만들어 밤에 오로라 사진을 찍고 서로 공유했다.
 (발견) 본문 · 원문 문장 37~41 — 2014년 여름, 그들은 오로라와 비슷하지만 다른 특징을 지닌 녹색·보라색 빛의 띠를 보았고, 영화 장면을 따서 ‘Steve’라는 이름을 붙였다.
-(전문가와의 협력) 본문 · 원문 문장 42~49 — 전문가들도 Steve가 무엇인지 몰랐고 제대로 연구된 적 없는 새로운 현상임을 깨달았다. 그래서 NASA는 대중의 사진을 모으는 시민 과학 프로젝트를 지원했고, 이 프로젝트는 지금도 진행 중이다.
+(전문가와의 협력) 본문 · 원문 문장 42~49 — 추적자들은 대학 교수와 NASA 과학자에게 사진을 보여 주었지만, 전문가들도 Steve가 무엇인지 몰랐고 제대로 연구된 적 없는 새로운 현상임을 깨달았다. 그래서 NASA는 대중의 사진을 모으는 시민 과학 프로젝트를 지원했고, 이 프로젝트는 지금도 진행 중이다.
 (의의) 본문 · 원문 문장 50~55 — 처음 발견한 사람들을 기려 이름은 STEVE로 유지되었고, 전문가들도 그 공로를 인정했다. 아직 밝혀지지 않은 수수께끼를 과학자와 시민이 함께 풀어 가고 있다.
 [각 문장 쉬운 풀이]
 [37번 문장] In the summer of 2014, the group members began to notice something strange appearing in the night sky.
@@ -1081,12 +1080,12 @@ Scientists and citizens continue to collaborate / to solve this mystery, / and t
 [41번 문장] Unsure of what they were, the group decided to name the phenomenon “Steve,” based on a scene from an animated movie where some characters give that name to an unfamiliar object.
 41번 문장은 이 현상에 왜 ‘Steve’라는 사람 이름이 붙었는지 알려 준다. 추적자들은 그 빛이 정확히 무엇인지 알 수 없었다. 어떤 애니메이션 영화에는 몇몇 등장인물들이 낯선 물체에 ‘Steve’라는 이름을 붙이는 장면이 있다. 추적자들도 그 장면처럼 정체를 모르는 빛에 ‘Steve’라는 이름을 붙였다.
 [52번 문장] Experts have acknowledged that it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE.
-52번 문장은 이 발견의 공로가 누구에게 있는지 밝힌다. 전문 과학자들이 STEVE를 처음 발견한 것이 아니다. 몇 년 동안 꾸준히 사진을 찍고 알린 오로라 추적자들 덕분에 STEVE가 알려졌다. 그래서 전문가들도 그 공로가 추적자들에게 있다고 인정했다. 이 점이 ‘시민도 과학에 기여할 수 있다’는 글 전체의 생각을 뒷받침한다.
+52번 문장은 이 발견의 공로가 누구에게 있는지 밝힌다. 전문 과학자들이 STEVE를 처음 발견한 것이 아니다. 몇 년 동안 꾸준히 사진을 찍고 전문가에게 보여 준 오로라 추적자들 덕분에 STEVE가 알려졌다. 그래서 전문가들도 그 공로가 추적자들에게 있다고 인정했다. 이 점이 ‘시민도 과학에 기여할 수 있다’는 글 전체의 생각을 뒷받침한다.
 [구문으로 해석하기]
-명사 + where S′ V′: S′가 V′하는 명사 (관계부사) [41번 문장]: an animated movie where some characters give that name to an unfamiliar object — 공식: 명사 + where S′ V′ — S′(이/가) V′하는 명사. 선행사 = an animated movie(한 애니메이션 영화: 장면이 펼쳐지는 곳), S′ = some characters(몇몇 등장인물들), V′ = give that name to an unfamiliar object(낯선 물체에 그 이름을 붙이다). → 몇몇 등장인물들이 낯선 물체에 그 이름을 붙이는 한 애니메이션 영화.
-It is A that V′: V′하는 것은 바로 A이다 (강조 구문) [52번 문장]: it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE — 공식: It is A that V′ — V′하는 것은 바로 A이다. A = the dedicated members of the aurora chasers group(오로라 추적자 단체의 헌신적인 구성원들), V′ = deserve the credit for discovering STEVE(STEVE를 발견한 공로를 받을 만하다). → STEVE를 발견한 공로를 받을 만한 것은 바로 오로라 추적자 단체의 헌신적인 구성원들이다. that 뒤 동사가 deserves가 아닌 deserve인 것은 강조된 A(members)가 복수이기 때문이다.
-had p.p.: ~했다 (과거완료, 기준이 되는 과거보다 먼저) [46번 문장]: They realized that the group had discovered a new type of phenomenon — 공식: had p.p. — ~했다. 과거의 한 시점(realized, 깨달았다)보다 먼저 일어난 일을 나타낸다. had = 과거완료 표지, p.p. = discovered(discover의 p.p.형, 발견하다), 주어 = the group(그 단체), 목적어 = a new type of phenomenon(새로운 유형의 현상). → (전문가들이 깨달은 것은) 그 단체가 새로운 유형의 현상을 발견했다는 것이다. 발견이 깨달음보다 먼저다.
-had been p.p.: ~되었다 (과거완료 수동) [46번 문장]: phenomenon that had never been properly studied — 공식: had been p.p. — ~되었다(그때까지). had been = 과거완료 수동 표지, p.p. = studied(연구된), never = 한 번도 ~않다, properly = 제대로. → 한 번도 제대로 연구된 적이 없는 (현상). 주격 관계대명사 that이 phenomenon을 받으므로 연구의 대상이 현상이다.
+명사 + where S′ V′: S′가 V′하는 명사 (관계부사) [41번 문장]: an animated movie where some characters give that name to an unfamiliar object — 공식: 명사 + where S′ V′ — S′(이/가) V′하는 명사. 선행사 = an animated movie(한 애니메이션 영화: 장면이 펼쳐지는 곳), S′ = some characters(몇몇 등장인물들), V′ = give(붙이다, give A to B), A = that name(그 이름), to B = to an unfamiliar object(낯선 물체에). → 몇몇 등장인물들이 낯선 물체에 그 이름을 붙이는 한 애니메이션 영화.
+It is A that V′: V′하는 것은 바로 A이다 (강조 구문) [52번 문장]: it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE — 공식: It is A that V′ — V′하는 것은 바로 A이다. A = the dedicated members of the aurora chasers group(오로라 추적자 단체의 헌신적인 구성원들), V′ = deserve(~을 받을 만하다), 목적어 = the credit(공로), 뒤에서 꾸미는 말 = for discovering STEVE(STEVE를 발견한 데 대한). → STEVE를 발견한 공로를 받을 만한 것은 바로 오로라 추적자 단체의 헌신적인 구성원들이다.
+had p.p.: ~했다 (과거완료, 기준이 되는 과거보다 먼저) [46번 문장]: They realized that the group had discovered a new type of phenomenon — 공식: had p.p. — ~했다. 과거의 한 시점(realized, 깨달았다)보다 먼저 일어난 일을 나타낸다. had = 과거완료 표지, p.p. = discovered(discover의 p.p.형, 발견하다), 주어 = the group(그 단체), 목적어 = a new type of phenomenon(새로운 유형의 현상). → 그 단체가 새로운 유형의 현상을 발견했다. 발견이 깨달음(realized)보다 먼저 일어난 일이다.
+had been p.p.: ~되었다 (과거완료 수동) [46번 문장]: phenomenon that had never been properly studied — 공식: had been p.p. — ~되었다(그때까지). had been = 과거완료 수동 표지, p.p. = studied(연구된), never = 한 번도 ~않다, properly = 제대로. → 한 번도 제대로 연구된 적이 없는 (현상).
 have p.p.: ~했다 (현재완료) [52번 문장]: Experts have acknowledged — 공식: have p.p. — ~했다(그 결과가 지금까지 이어짐). have = 현재완료 표지, p.p. = acknowledged(acknowledge의 p.p.형, 인정하다), 주어 = Experts(전문가들). → 전문가들은 인정했다. 지금도 그 인정이 유효하다는 뜻을 담는다.
 [유의어·반의어]
 표제어: exceptional (특별한, 뛰어난) / 유의어: outstanding (뛰어난, 두드러진) / 반의어: average (평범한, 보통의)
@@ -1133,7 +1132,7 @@ Instead, / they are citizen scientists — / ordinary people / who desire to hel
 [분석 끊어읽기 한국어]
 대신, / 그들은 시민 과학자들이다 — / 평범한 사람들 / 과학을 발전시키는 것을 돕기를 바라는 / 분야들에서 / 그들이 관심 있는.
 [자연 해석]
-대신, 그들은 시민 과학자들인데, 그들은 자신이 관심 있는 분야에서 과학의 발전을 돕고자 하는 평범한 사람들이다.
+대신 그들은 시민 과학자, 즉 자신이 관심 있는 분야에서 과학의 발전을 돕고자 하는 평범한 사람들이다.
 ----- [/문장 57] -----
 
 ----- [문장 58] -----
@@ -1181,7 +1180,7 @@ The next great scientific achievement could be made / by citizen scientists / vo
 [S/V] S: The next great scientific achievement, V: could be made
 [각주]
 next — 다음의 / great — 위대한 / scientific — 과학적인 / ★ achievement — 업적, 성취 / could be p.p. — ~될 수도 있다 / made — 이루어진 (흔한 뜻: 만들어진) / by — ~에 의해 / citizen scientists — 시민 과학자들 / V-ing — ~하는 / ★ volunteer — (시간·노력을) 자발적으로 내다 / their — 그들의 (시민 과학자들) / time — 시간 / for the purpose of V-ing — ~하기 위한 목적으로 / better — 더 잘 (well의 비교급) / understand — 이해하다 / world — 세상
-[구조 힌트] citizen scientists [volunteering] → [자발적으로 내는] 시민 과학자들 (현재분사 후치수식)
+[구조 힌트] citizen scientists [volunteering their time] → [그들[시민 과학자들]의 시간을 자발적으로 내는] 시민 과학자들 (현재분사 후치수식)
 [구조 힌트] made(이루어진) → could be made(이루어질 수도 있다) (could be p.p.)
 [분석 끊어읽기 영어]
 The next great scientific achievement could be made / by citizen scientists / volunteering their time / for the purpose of better understanding the world.
@@ -1201,15 +1200,15 @@ The next great scientific achievement could be made / by citizen scientists / vo
 (주장과 권유) 본문 · 원문 문장 58~60 — 과학 학위나 흰 가운이 없어도 시민 과학자는 과학에 귀중한 기여를 할 수 있다며 글 처음의 ‘흰 가운’ 생각을 다시 뒤집는다. 호기심과 관심만 있으면 독자도 시민 과학자가 될 수 있고, 다음 위대한 업적은 시민 과학자들이 이룰 수도 있다며 참여를 권한다.
 [각 문장 쉬운 풀이]
 [57번 문장] Instead, they are citizen scientists — ordinary people who desire to help advance science in areas that they are interested in.
-57번 문장은 56번에서 말한 참여자들이 어떤 사람들인지 알려 준다. 그들은 전문 과학자가 아니라 시민 과학자다. 시민 과학자는 직업은 달라도 자기가 좋아하는 분야에서 과학을 돕고 싶어 하는 보통 사람이다. 은하 사진을 분류한 사람들과 오로라 사진을 찍은 사람들이 바로 그런 예다.
+57번 문장은 56번에서 말한 참여자들이 어떤 사람들인지 알려 준다. 그들은 전문 과학자가 아니라 시민 과학자다. 시민 과학자는 과학자가 직업은 아니지만, 자기가 관심 있는 분야에서 과학을 돕고 싶어 하는 보통 사람이다. 은하 사진을 분류한 사람들과 오로라 사진을 찍은 사람들이 바로 그런 예다.
 [58번 문장] Even though citizen scientists may not have science degrees or long, white lab coats, they are still capable of making valuable contributions to science.
-58번 문장은 글 맨 처음에 나온 ‘흰 가운을 입은 과학자’ 모습을 다시 꺼낸다. 시민 과학자에게는 과학 학위도, 흰 가운도 없을 수 있다. 그래도 과학에 도움이 되는 일을 충분히 할 수 있다. 글 처음의 흔한 생각이 틀렸다는 것을 이 문장에서 확실히 정리한다.
+58번 문장은 글 맨 처음에 나온 ‘흰 가운을 입은 과학자’ 모습을 다시 꺼낸다. 시민 과학자에게는 과학 학위도, 흰 가운도 없을 수 있다. 그래도 과학에 귀중한 도움을 줄 수 있다. 글 처음의 흔한 생각이 사실과 다르다는 것을 이 문장이 다시 보여 준다.
 [60번 문장] The next great scientific achievement could be made by citizen scientists volunteering their time for the purpose of better understanding the world.
-60번 문장은 글 전체를 마무리하며 앞으로의 가능성을 말한다. 다음에 나올 위대한 과학적 업적은 시민 과학자들이 이룰 수도 있다. 시민 과학자들은 돈을 받지 않고 자기 시간을 내어 참여한다. 그 이유는 세상을 더 잘 이해하고 싶기 때문이다. ‘할 수도 있다(could)’라고 했으므로 꼭 그렇게 된다는 뜻은 아니다.
+60번 문장은 글 전체를 마무리하며 앞으로의 가능성을 말한다. 다음에 나올 위대한 과학적 업적은 시민 과학자들이 이룰 수도 있다. 시민 과학자들은 돈을 받지 않고 자기 시간을 내어 참여한다. 그 이유는 세상을 더 잘 이해하고 싶기 때문이다. 앞으로 그렇게 될 가능성이 있다는 말이다.
 [구문으로 해석하기]
 명사 + that S′ V′ … 전치사: S′가 V′하는 명사 (전치사가 절 끝에 남음) [57번 문장]: areas that they are interested in — 공식: 명사 + that S′ V′ + 전치사 — S′(이/가) V′하는 명사. 선행사 = areas(분야들), S′ = they(시민 과학자들), V′ = are interested in(~에 관심이 있다). 원래 they are interested in areas에서 areas가 앞으로 나가고 전치사 in이 끝에 남았다. → 그들이 관심 있는 분야들.
 even though S′ V′: 비록 S′가 V′하지만 [58번 문장]: Even though citizen scientists may not have science degrees or long, white lab coats — 공식: even though S′ V′ — 비록 S′(이/가) V′하지만. S′ = citizen scientists(시민 과학자들), V′ = may not have(가지고 있지 않을 수도 있다), 목적어 = science degrees or long, white lab coats(과학 학위나 길고 흰 실험실 가운). → 비록 시민 과학자들이 과학 학위나 길고 흰 실험실 가운을 가지고 있지 않을 수도 있지만. 뒤 주절(그래도 기여할 수 있다)과 반대되는 내용이다.
-명사 + V-ing: ~하는 명사 (현재분사 후치수식) [60번 문장]: citizen scientists volunteering their time — 공식: 명사(N) + V-ing — ~하는 N. N = citizen scientists(시민 과학자들), V-ing = volunteering their time(자신들의 시간을 자발적으로 내다). → 자신들의 시간을 자발적으로 내는 시민 과학자들.
+명사 + V-ing: ~하는 명사 (현재분사 후치수식) [60번 문장]: citizen scientists volunteering their time — 공식: 명사(N) + V-ing — ~하는 N. N = citizen scientists(시민 과학자들), V-ing = volunteering(자발적으로 내다), 목적어 = their time(자신들의 시간). → 자신들의 시간을 자발적으로 내는 시민 과학자들.
 [유의어·반의어]
 표제어: valuable (귀중한, 가치 있는) / 유의어: precious (소중한, 귀중한) / 반의어: worthless (가치 없는)
 표제어: professional (전문적인, 직업적인) / 유의어: expert (전문가의, 숙련된) / 반의어: amateur (아마추어의, 비전문가의)

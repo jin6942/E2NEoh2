@@ -393,7 +393,7 @@ def sentences(T):
     s.relative_ids = [rel['id']]
     s.review = ('주어 they의 병렬 수동 were shown … and (were) asked to V: be는 한 번, p.p. 두 개가 같은 기능 각주에 연결. '
                 '필수 관계사 that 힌트. 수동은 힌트가 있어 분석 be p.p. 대표로 연결. of a galaxy 후치수식 경계. '
-                'to click은 수동 asked의 보충 to V이지만 수동 p.p. 각주 표제어는 실제형 asked만 허용되어 to V — ~하도록으로 분리(L2-6 검수자 수용).')
+                'to click은 수동 asked의 보충 to V이지만 수동 p.p. 각주 표제어는 실제형 asked만 허용되어 to V — ~하도록으로 분리(L2-6 검수자 수용). 재검수에서 묶음(B)을 사용자가 선택했으나 공통 검사 도구가 수동 p.p. 표제어에 실제형 외 추가를 금지해 현행 유지.')
     out.append(s)
 
     # ---------------- s21 ----------------
@@ -799,7 +799,7 @@ def analysis(_):
             {'id': 'u2-gp1', 'sentence_id': 's12', 'span': 'It took Schawinski a whole week to classify just 50,000 galaxies',
              'title': 'It takes A B to V: A(이/가) ~하는 데 B(시간)가 걸리다', 'formula_key': 'It takes A B to V',
              'explanation': '공식: It takes A B to V — A(이/가) ~하는 데 B(시간)가 걸리다. It은 따로 해석하지 않는 형식상 주어다. '
-                            'took = take의 과거, A = Schawinski, B = a whole week(꼬박 일주일), to V = to classify just 50,000 galaxies(고작 5만 개의 은하를 분류하다). '
+                            'took = take의 과거, A = Schawinski, B = a whole week(꼬박 일주일), to V = to classify(분류하다), 목적어 = just 50,000 galaxies(고작 5만 개의 은하). '
                             '→ Schawinski가 고작 5만 개의 은하를 분류하는 데 꼬박 일주일이 걸렸다.',
              'practice': {'span': 'It took Schawinski a whole week to classify',
                           'formula_support': {'en': 'It takes A B to V', 'ko': 'A(이/가) ~하는 데 B(시간)가 걸리다'},
@@ -808,7 +808,7 @@ def analysis(_):
             {'id': 'u2-gp2', 'sentence_id': 's24', 'span': 'It was online media that helped spread the word about Galaxy Zoo',
              'title': 'It was A that V′: V′한 것은 바로 A였다 (강조 구문)', 'formula_key': 'It was A that V′',
              'explanation': '공식: It was A that V′ — V′한 것은 바로 A였다. 강조하는 말 A = online media(온라인 미디어), '
-                            'V′ = helped spread the word about Galaxy Zoo(Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도왔다). '
+                            'V′ = helped spread the word(소문을 퍼뜨리는 것을 도왔다: help V + spread the word), 뒤에서 꾸미는 말 = about Galaxy Zoo(Galaxy Zoo에 대한). '
                             '→ Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도운 것은 바로 온라인 미디어였다. It was와 that을 빼도 Online media helped spread the word.라는 완전한 문장이 되므로 가주어가 아닌 강조 구문이다.',
              'practice': {'span': 'It was online media that helped spread the word',
                           'formula_support': {'en': 'It was A that V′', 'ko': 'V′한 것은 바로 A였다'},

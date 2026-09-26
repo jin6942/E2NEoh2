@@ -543,7 +543,7 @@ def sentences(T):
     s.ch('However,', '그러나,')
     s.ch('it is now written in all capital letters', '그것은 이제 모두 대문자로 쓰인다')
     s.ch('and stands for “Strong Thermal Emission Velocity Enhancement.”', '그리고 ‘Strong Thermal Emission Velocity Enhancement’를 의미한다.')
-    s.natural('그러나 그것은 이제 모두 대문자로 쓰이며, ‘강한 열 방출 속도 증가(Strong Thermal Emission Velocity Enhancement)’를 의미한다.')
+    s.natural('그러나 그것은 이제 모두 대문자로 쓰이며, ‘속도 증가에 따른 강한 열 방출(Strong Thermal Emission Velocity Enhancement)’을 의미한다.')
     s.cl('main', 'it', subj='it', verbs=['is', 'written', 'and', 'stands'])
     s.g('However', 'however', '그러나')
     s.g('it', 'it', '그것은', referent_ko='Steve라는 이름')
@@ -557,7 +557,7 @@ def sentences(T):
     s.g('stands|for', 'stand for', '~을 의미하다, ~을 나타내다', verb_form={'usage': 'third-person-singular',
         'source_span': s.span_of('stands'), 'lemma': 'stand', 'review_record': '주어 it(3인칭 단수)의 일반동사 stands → 원형 stand.'})
     s.g('Strong Thermal Emission Velocity Enhancement', 'Strong Thermal Emission Velocity Enhancement',
-        '강한 열 방출 속도 증가 (STEVE의 각 글자가 나타내는 말)', proper=True)
+        '속도 증가에 따른 강한 열 방출 (STEVE의 각 글자가 나타내는 말, 교과서 해석)', proper=True)
     s.vf_hint(fn=f, lex=wr, en='is now written', ko='이제 쓰인다', formula='be p.p.', step_form='written', step_ko='쓰인',
               en_mark=['is'], ko_mark=['인다'], span='it is now written', meaning='이제 (모두 대문자로) 쓰인다',
               explanation='빈 힌트 문장의 수동태 후보: is now written(현재 수동). 표시 범위 안 부사 now 보존, 주어와 in all capital letters 제외.')
@@ -598,17 +598,14 @@ def sentences(T):
     s.g('STEVE', 'STEVE', '스티브 (Strong Thermal Emission Velocity Enhancement의 머리글자)', proper=True)
     s.brk('of', 'postnominal-preposition', 'of the aurora chasers group은 앞 명사 members를 꾸미는 전치사구')
     s.brk('for', 'postnominal-preposition', 'for discovering STEVE는 앞 명사 the credit을 꾸미는 전치사구')
-    s.hint('[that it is the dedicated members]', '[바로 헌신적인 구성원들이라는 것]', span='that it is the dedicated members',
-           label='명사절 접속사 that', links=[(['that'], ['이라는 것'])], meaning='바로 헌신적인 구성원들이라는 것',
-           explanation='acknowledged의 목적어 that절. 절 안이 It is A that 강조 구문이라 be의 최소 보어 the dedicated members까지 표시.')
     s.hint('it is the dedicated members of the aurora chasers group [that deserve]',
            '[받을 만한] 것은 바로 오로라 추적자 단체의 헌신적인 구성원들이다',
            span='it is the dedicated members of the aurora chasers group that deserve', label='It ~ that 강조 구문',
            links=[(['it is', ('that', 0)], ['것은 바로', '이다'])],
            meaning='(공로를) 받을 만한 것은 바로 오로라 추적자 단체의 헌신적인 구성원들이다',
-           explanation='It is A that V′: A(the dedicated members of the aurora chasers group)를 강조. that 뒤 deserve가 복수 A와 수일치.')
+           explanation='It is A that V′: A(the dedicated members of the aurora chasers group)를 강조한다.')
     s.review = ('주절 have acknowledged + 명사절 that + 그 안의 It is A that 강조 구문(두 번째 that은 강조의 that이라 관계사 목록에 넣지 않음). '
-                '힌트 2개. 현재완료 have acknowledged는 분석 보충 have p.p.(u3-gp5)에 연결. of/for 후치수식 경계.')
+                '힌트 1개(강조 구문). 명사절 that 힌트는 강조 구문 힌트와 범위가 겹치고 초점이 섞여 삭제(재검수 LB 판단 3, 사용자 결정 B). 현재완료 have acknowledged는 분석 보충 have p.p.(u3-gp5)에 연결. of/for 후치수식 경계.')
     s.relative_ids = []
     out.append(s)
 
@@ -755,7 +752,7 @@ def analysis(_):
             {'id': 'u3-gp1', 'sentence_id': 's41', 'span': 'an animated movie where some characters give that name to an unfamiliar object',
              'title': '명사 + where S′ V′: S′가 V′하는 명사 (관계부사)', 'formula_key': 'where S′ V′',
              'explanation': '공식: 명사 + where S′ V′ — S′(이/가) V′하는 명사. 선행사 = an animated movie(한 애니메이션 영화: 장면이 펼쳐지는 곳), '
-                            'S′ = some characters(몇몇 등장인물들), V′ = give that name to an unfamiliar object(낯선 물체에 그 이름을 붙이다). '
+                            'S′ = some characters(몇몇 등장인물들), V′ = give(붙이다, give A to B), A = that name(그 이름), to B = to an unfamiliar object(낯선 물체에). '
                             '→ 몇몇 등장인물들이 낯선 물체에 그 이름을 붙이는 한 애니메이션 영화.',
              'practice': {'span': 'an animated movie where some characters give that name',
                           'formula_support': {'en': 'where S′ V′', 'ko': 'S′(이/가) V′하는 (앞말을 꾸미는 관계부사)'},
@@ -767,7 +764,7 @@ def analysis(_):
             {'id': 'u3-gp2', 'sentence_id': 's52', 'span': 'it is the dedicated members of the aurora chasers group that deserve the credit for discovering STEVE',
              'title': 'It is A that V′: V′하는 것은 바로 A이다 (강조 구문)', 'formula_key': 'It is A that V′',
              'explanation': '공식: It is A that V′ — V′하는 것은 바로 A이다. A = the dedicated members of the aurora chasers group(오로라 추적자 단체의 헌신적인 구성원들), '
-                            'V′ = deserve the credit for discovering STEVE(STEVE를 발견한 공로를 받을 만하다). '
+                            'V′ = deserve(~을 받을 만하다), 목적어 = the credit(공로), 뒤에서 꾸미는 말 = for discovering STEVE(STEVE를 발견한 데 대한). '
                             '→ STEVE를 발견한 공로를 받을 만한 것은 바로 오로라 추적자 단체의 헌신적인 구성원들이다.',
              'practice': {'span': 'it is the dedicated members of the aurora chasers group that deserve the credit',
                           'formula_support': {'en': 'It is A that V′', 'ko': 'V′하는 것은 바로 A이다'},
@@ -798,7 +795,7 @@ def analysis(_):
              'explanation': '공식: have p.p. — ~했다(그 결과가 지금까지 이어짐). have = 현재완료 표지, p.p. = acknowledged(acknowledge의 p.p.형, 인정하다), 주어 = Experts(전문가들). '
                             '→ 전문가들은 인정했다. 지금도 그 인정이 유효하다는 뜻을 담는다.',
              'supplemental': {'function': ('s52', 'have p.p.', 0),
-                              'reason': 's52의 have acknowledged는 힌트 2개(명사절 that·강조 구문)로 결합 힌트를 둘 수 없고, 기본 분석에 have p.p. 설명이 없어 대표 사례를 1회 보충'},
+                              'reason': 's52의 have acknowledged는 핵심인 강조 구문 힌트가 있어 결합 힌트를 추가하지 않고, 기본 분석에 have p.p. 설명이 없어 대표 사례를 1회 보충'},
              'practice': {'span': 'Experts have acknowledged',
                           'formula_support': {'en': 'have p.p.', 'ko': '~했다'},
                           'support': [('s52', 'experts'), ('s52', 'acknowledge')],

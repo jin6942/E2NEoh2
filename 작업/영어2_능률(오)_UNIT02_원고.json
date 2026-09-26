@@ -629,7 +629,7 @@
       ],
       "title": "spend + A + V-ing: V-ing하면서 A(시간)를 보내다",
       "formula_key": "spend A V-ing",
-      "explanation": "공식: spend + A + V-ing — V-ing하면서 A(시간)를 보내다. A = their days(그들의 나날), V-ing = conducting experiments(실험을 하다), analyzing data(데이터를 분석하다). → 실험을 하고 데이터를 분석하면서 그들의 나날을 보내다.",
+      "explanation": "공식: spend + A + V-ing — V-ing하면서 A(시간)를 보내다. A = their days(그들의 나날), V-ing = conducting(하다)·analyzing(분석하다), 각 V-ing의 목적어 = experiments(실험을)·data(데이터를). → 실험을 하고 데이터를 분석하면서 그들의 나날을 보내다.",
       "practice": {
        "span": [
         127,
@@ -657,7 +657,7 @@
       ],
       "title": "명사 + to V: ~할 명사",
       "formula_key": "N + to V",
-      "explanation": "공식: 명사(N) + to V — ~할 N. N = the ability(능력), to V = to play a role in the advancement of science(과학의 발전에서 역할을 하다). → 과학의 발전에서 역할을 할 능력. to부정사가 앞 명사 ability를 뒤에서 꾸며 어떤 능력인지 알려 준다.",
+      "explanation": "공식: 명사(N) + to V — ~할 N. N = the ability(능력), to V = to play a role in(~에서 역할을 하다), in의 대상 = the advancement of science(과학의 발전). → 과학의 발전에서 역할을 할 능력. to부정사가 앞 명사 ability를 뒤에서 꾸며 어떤 능력인지 알려 준다.",
       "practice": {
        "span": [
         57,
@@ -1022,7 +1022,7 @@
       ],
       "title": "It takes A B to V: A(이/가) ~하는 데 B(시간)가 걸리다",
       "formula_key": "It takes A B to V",
-      "explanation": "공식: It takes A B to V — A(이/가) ~하는 데 B(시간)가 걸리다. It은 따로 해석하지 않는 형식상 주어다. took = take의 과거, A = Schawinski, B = a whole week(꼬박 일주일), to V = to classify just 50,000 galaxies(고작 5만 개의 은하를 분류하다). → Schawinski가 고작 5만 개의 은하를 분류하는 데 꼬박 일주일이 걸렸다.",
+      "explanation": "공식: It takes A B to V — A(이/가) ~하는 데 B(시간)가 걸리다. It은 따로 해석하지 않는 형식상 주어다. took = take의 과거, A = Schawinski, B = a whole week(꼬박 일주일), to V = to classify(분류하다), 목적어 = just 50,000 galaxies(고작 5만 개의 은하). → Schawinski가 고작 5만 개의 은하를 분류하는 데 꼬박 일주일이 걸렸다.",
       "practice": {
        "span": [
         0,
@@ -1049,7 +1049,7 @@
       ],
       "title": "It was A that V′: V′한 것은 바로 A였다 (강조 구문)",
       "formula_key": "It was A that V′",
-      "explanation": "공식: It was A that V′ — V′한 것은 바로 A였다. 강조하는 말 A = online media(온라인 미디어), V′ = helped spread the word about Galaxy Zoo(Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도왔다). → Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도운 것은 바로 온라인 미디어였다. It was와 that을 빼도 Online media helped spread the word.라는 완전한 문장이 되므로 가주어가 아닌 강조 구문이다.",
+      "explanation": "공식: It was A that V′ — V′한 것은 바로 A였다. 강조하는 말 A = online media(온라인 미디어), V′ = helped spread the word(소문을 퍼뜨리는 것을 도왔다: help V + spread the word), 뒤에서 꾸미는 말 = about Galaxy Zoo(Galaxy Zoo에 대한). → Galaxy Zoo에 대한 소문을 퍼뜨리는 것을 도운 것은 바로 온라인 미디어였다. It was와 that을 빼도 Online media helped spread the word.라는 완전한 문장이 되므로 가주어가 아닌 강조 구문이다.",
       "practice": {
        "span": [
         0,
@@ -1495,7 +1495,7 @@
       ],
       "title": "명사 + where S′ V′: S′가 V′하는 명사 (관계부사)",
       "formula_key": "where S′ V′",
-      "explanation": "공식: 명사 + where S′ V′ — S′(이/가) V′하는 명사. 선행사 = an animated movie(한 애니메이션 영화: 장면이 펼쳐지는 곳), S′ = some characters(몇몇 등장인물들), V′ = give that name to an unfamiliar object(낯선 물체에 그 이름을 붙이다). → 몇몇 등장인물들이 낯선 물체에 그 이름을 붙이는 한 애니메이션 영화.",
+      "explanation": "공식: 명사 + where S′ V′ — S′(이/가) V′하는 명사. 선행사 = an animated movie(한 애니메이션 영화: 장면이 펼쳐지는 곳), S′ = some characters(몇몇 등장인물들), V′ = give(붙이다, give A to B), A = that name(그 이름), to B = to an unfamiliar object(낯선 물체에). → 몇몇 등장인물들이 낯선 물체에 그 이름을 붙이는 한 애니메이션 영화.",
       "practice": {
        "span": [
         98,
@@ -1534,7 +1534,7 @@
       ],
       "title": "It is A that V′: V′하는 것은 바로 A이다 (강조 구문)",
       "formula_key": "It is A that V′",
-      "explanation": "공식: It is A that V′ — V′하는 것은 바로 A이다. A = the dedicated members of the aurora chasers group(오로라 추적자 단체의 헌신적인 구성원들), V′ = deserve the credit for discovering STEVE(STEVE를 발견한 공로를 받을 만하다). → STEVE를 발견한 공로를 받을 만한 것은 바로 오로라 추적자 단체의 헌신적인 구성원들이다.",
+      "explanation": "공식: It is A that V′ — V′하는 것은 바로 A이다. A = the dedicated members of the aurora chasers group(오로라 추적자 단체의 헌신적인 구성원들), V′ = deserve(~을 받을 만하다), 목적어 = the credit(공로), 뒤에서 꾸미는 말 = for discovering STEVE(STEVE를 발견한 데 대한). → STEVE를 발견한 공로를 받을 만한 것은 바로 오로라 추적자 단체의 헌신적인 구성원들이다.",
       "practice": {
        "span": [
         31,
@@ -1625,7 +1625,7 @@
       "formula_key": "have p.p.",
       "explanation": "공식: have p.p. — ~했다(그 결과가 지금까지 이어짐). have = 현재완료 표지, p.p. = acknowledged(acknowledge의 p.p.형, 인정하다), 주어 = Experts(전문가들). → 전문가들은 인정했다. 지금도 그 인정이 유효하다는 뜻을 담는다.",
       "supplemental": {
-       "reason": "s52의 have acknowledged는 힌트 2개(명사절 that·강조 구문)로 결합 힌트를 둘 수 없고, 기본 분석에 have p.p. 설명이 없어 대표 사례를 1회 보충",
+       "reason": "s52의 have acknowledged는 핵심인 강조 구문 힌트가 있어 결합 힌트를 추가하지 않고, 기본 분석에 have p.p. 설명이 없어 대표 사례를 1회 보충",
        "function_gloss_id": "s52-g02"
       },
       "practice": {
@@ -9453,7 +9453,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "주어 they의 병렬 수동 were shown … and (were) asked to V: be는 한 번, p.p. 두 개가 같은 기능 각주에 연결. 필수 관계사 that 힌트. 수동은 힌트가 있어 분석 be p.p. 대표로 연결. of a galaxy 후치수식 경계. to click은 수동 asked의 보충 to V이지만 수동 p.p. 각주 표제어는 실제형 asked만 허용되어 to V — ~하도록으로 분리(L2-6 검수자 수용).",
+    "review_record": "주어 they의 병렬 수동 were shown … and (were) asked to V: be는 한 번, p.p. 두 개가 같은 기능 각주에 연결. 필수 관계사 that 힌트. 수동은 힌트가 있어 분석 be p.p. 대표로 연결. of a galaxy 후치수식 경계. to click은 수동 asked의 보충 to V이지만 수동 p.p. 각주 표제어는 실제형 asked만 허용되어 to V — ~하도록으로 분리(L2-6 검수자 수용). 재검수에서 묶음(B)을 사용자가 선택했으나 공통 검사 도구가 수동 p.p. 표제어에 실제형 외 추가를 금지해 현행 유지.",
     "required_breaks": [
      {
       "at": 30,
@@ -21154,7 +21154,7 @@
      "ko": "그리고 ‘Strong Thermal Emission Velocity Enhancement’를 의미한다."
     }
    ],
-   "natural_ko": "그러나 그것은 이제 모두 대문자로 쓰이며, ‘강한 열 방출 속도 증가(Strong Thermal Emission Velocity Enhancement)’를 의미한다.",
+   "natural_ko": "그러나 그것은 이제 모두 대문자로 쓰이며, ‘속도 증가에 따른 강한 열 방출(Strong Thermal Emission Velocity Enhancement)’을 의미한다.",
    "clauses": [
     {
      "kind": "main",
@@ -21335,7 +21335,7 @@
       ]
      ],
      "headword": "Strong Thermal Emission Velocity Enhancement",
-     "meaning_ko": "강한 열 방출 속도 증가 (STEVE의 각 글자가 나타내는 말)",
+     "meaning_ko": "속도 증가에 따른 강한 열 방출 (STEVE의 각 글자가 나타내는 말, 교과서 해석)",
      "star": false
     }
    ],
@@ -21989,42 +21989,11 @@
    "hints": [
     {
      "span": [
-      26,
-      58
-     ],
-     "meaning_ko": "바로 헌신적인 구성원들이라는 것",
-     "explanation": "acknowledged의 목적어 that절. 절 안이 It is A that 강조 구문이라 be의 최소 보어 the dedicated members까지 표시.",
-     "display_pairs": [
-      {
-       "en": "[that it is the dedicated members]",
-       "ko": "[바로 헌신적인 구성원들이라는 것]",
-       "emphasis_links": [
-        {
-         "en_spans": [
-          [
-           1,
-           5
-          ]
-         ],
-         "ko_spans": [
-          [
-           13,
-           18
-          ]
-         ]
-        }
-       ]
-      }
-     ],
-     "structure_label": "명사절 접속사 that"
-    },
-    {
-     "span": [
       31,
       99
      ],
      "meaning_ko": "(공로를) 받을 만한 것은 바로 오로라 추적자 단체의 헌신적인 구성원들이다",
-     "explanation": "It is A that V′: A(the dedicated members of the aurora chasers group)를 강조. that 뒤 deserve가 복수 A와 수일치.",
+     "explanation": "It is A that V′: A(the dedicated members of the aurora chasers group)를 강조한다.",
      "display_pairs": [
       {
        "en": "it is the dedicated members of the aurora chasers group [that deserve]",
@@ -22059,7 +22028,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "주절 have acknowledged + 명사절 that + 그 안의 It is A that 강조 구문(두 번째 that은 강조의 that이라 관계사 목록에 넣지 않음). 힌트 2개. 현재완료 have acknowledged는 분석 보충 have p.p.(u3-gp5)에 연결. of/for 후치수식 경계.",
+    "review_record": "주절 have acknowledged + 명사절 that + 그 안의 It is A that 강조 구문(두 번째 that은 강조의 that이라 관계사 목록에 넣지 않음). 힌트 1개(강조 구문). 명사절 that 힌트는 강조 구문 힌트와 범위가 겹치고 초점이 섞여 삭제(재검수 LB 판단 3, 사용자 결정 B). 현재완료 have acknowledged는 분석 보충 have p.p.(u3-gp5)에 연결. of/for 후치수식 경계.",
     "required_breaks": [
      {
       "at": 59,

@@ -253,7 +253,7 @@ def analysis(ids):
             {'id': 'u1-gp1', 'sentence_id': 's01', 'span': 'spend their days conducting experiments and analyzing data',
              'title': 'spend + A + V-ing: V-ing하면서 A(시간)를 보내다', 'formula_key': 'spend A V-ing',
              'explanation': '공식: spend + A + V-ing — V-ing하면서 A(시간)를 보내다. '
-                            'A = their days(그들의 나날), V-ing = conducting experiments(실험을 하다), analyzing data(데이터를 분석하다). '
+                            'A = their days(그들의 나날), V-ing = conducting(하다)·analyzing(분석하다), 각 V-ing의 목적어 = experiments(실험을)·data(데이터를). '
                             '→ 실험을 하고 데이터를 분석하면서 그들의 나날을 보내다.',
              'practice': {'span': 'spend their days conducting experiments',
                           'formula_support': {'en': 'spend A V-ing', 'ko': 'V-ing하면서 A(시간)를 보내다'},
@@ -261,7 +261,7 @@ def analysis(ids):
                           'answer_ko': '실험을 하면서 그들의 나날을 보내다'}},
             {'id': 'u1-gp2', 'sentence_id': 's04', 'span': 'the ability to play a role in the advancement of science',
              'title': '명사 + to V: ~할 명사', 'formula_key': 'N + to V',
-             'explanation': '공식: 명사(N) + to V — ~할 N. N = the ability(능력), to V = to play a role in the advancement of science(과학의 발전에서 역할을 하다). '
+             'explanation': '공식: 명사(N) + to V — ~할 N. N = the ability(능력), to V = to play a role in(~에서 역할을 하다), in의 대상 = the advancement of science(과학의 발전). '
                             '→ 과학의 발전에서 역할을 할 능력. to부정사가 앞 명사 ability를 뒤에서 꾸며 어떤 능력인지 알려 준다.',
              'practice': {'span': 'the ability to play a role in the advancement',
                           'formula_support': {'en': 'N + to V', 'ko': '~할 N'},
