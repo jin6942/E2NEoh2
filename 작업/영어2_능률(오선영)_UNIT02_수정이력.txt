@@ -55,3 +55,8 @@
 - split_book export/verify: SPLIT_CONTENT_MATCH, 전체통합본 바이트 동일, 5권 EXACT_PARTITION, ZIP 엔트리 DOCX 6개 정확.
 - 분권 쪽수(LibreOffice 예비): 01 해석지 18 / 02 지문분석지 14 / 03 워크북+변형문제 8 / 04 실전모의 9 / 05 정답해설지 14 = 63.
 - check_release_text: machine PASS, 경고 1건(R-0001, 28쪽 V-ing 줄 끝 하이픈 분리로 인한 PDF 추출 차이) → R 판단 대기.
+
+2026-09-26 6단계 출고 검수
+- J(통합본 63쪽)·K(분권 5권) LibreOffice 예비 조판 검수: 겹침·잘림·누락·깨짐·정답 혼입 없음. 1회·3회 장문 세트 쪽 분리 2건, 6쪽 유반 넘침, 유반 표 빈 칸 답안선 등은 Word 확인 대기(쪽 조정은 Word 관찰 근거 필요).
+- R 내용 대응 PASS: ZIP 6개 바이트·이름, 통합본↔학습/문제 FINAL 전수, 원문 PDF↔원고 전수, 01~04권 정답 혼입 0건, 빠른 정답 25개 일치. R-0001(V-ing 줄 끝 하이픈) resolved. F-1(수정인계 현행 유지 2건 누락) 수정.
+- 출고 기록 작성, verify_split_release: S·L·M·N 기록 연결 통과. 남은 항목은 Word 렌더·Word 조판 검수 부재와 그에 따른 R 바인딩 미연결 → 표준 최종 출고 통과 아님(Word 대기).

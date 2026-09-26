@@ -1,0 +1,13 @@
+{
+ "id": "J-preliminary",
+ "kind": "layout_preliminary",
+ "role": "J",
+ "status": "PRELIMINARY_NOT_WORD",
+ "renderer": "LibreOffice (Microsoft Word 없음)",
+ "reviewer_id": "claude-agent-J-layout",
+ "execution_id": "subagent-aa5432968f12faebc",
+ "performed_at": "2026-09-26T18:35:00Z",
+ "scope_note": "전체통합본 63쪽",
+ "summary": "겹침·잘림·누락·깨짐 없음, 1회·3회 장문 세트 42/43·48/49쪽 분리, 6쪽 유반 넘침, 45쪽 하단 여백, 유반 표 빈 칸 답안선",
+ "note": "Word 조판 검수(word_layout)를 대신하지 않음. 출고 기록 reviews에 연결하지 않음"
+}
