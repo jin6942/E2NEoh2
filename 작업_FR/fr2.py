@@ -40,10 +40,10 @@ def sentences(T):
     s.g('happiness', 'happiness', '행복')
     s.g('than', 'than', '~보다')
     s.g('things', 'things', '물건들')
-    s.hint('have found [that experiences deliver]', '[경험들이 가져다준다는 것을] 발견했다',
-           span='have found that experiences deliver', label='명사절 접속사 that',
+    s.hint('[that experiences deliver]', '[경험들이 가져다준다는 것을]',
+           span='that experiences deliver', label='명사절 접속사 that',
            links=[(['that'], ['이', '다는 것을'])],
-           meaning='경험들이 (더 오래 지속되는 행복을) 가져다준다는 것을 발견했다',
+           meaning='경험들이 (더 오래 지속되는 행복을) 가져다준다는 것을',
            explanation='have found의 목적어 that절. S′ experiences, V′ deliver까지 표시하고 목적어 longer lasting happiness 이하는 제외.')
     s.review = ('등위 주어 Gilovich and other researchers(전체 유지) + 능동 완료 have found + 목적어 that 명사절(S′ experiences, V′ deliver). '
                 'longer lasting happiness than things는 비교급. 힌트 1개(명사절 that). have p.p.는 힌트가 있는 문장이라 분석 보충 u2-gp4로 연결. 수동 없음.')
@@ -111,18 +111,23 @@ def sentences(T):
     l2 = s.g('done', 'do', '하다 (done은 do의 p.p.형)', verb_form=pp('perfect-participle', s, 'done', 'do', f2['id']))
     link(f2, l2)
     s.g('places', 'places', '장소들')
-    f3 = s.g('we’ve', 'have p.p.', '~했다 (we’ve = we have, we = 우리가)', kind='function', combines_with=[], at=i3)
-    l3 = s.g('been', 'be', '(~에) 가 있다 (been은 be의 p.p.형)', verb_form=pp('perfect-participle', s, 'been', 'be', f3['id']))
+    f3 = s.g('we’ve', 'have p.p.', '~한 적이 있다 (we’ve = we have, we = 우리가)', kind='function', combines_with=[], at=i3)
+    l3 = s.g('been', 'be', '가 있다 (been은 be의 p.p.형)', verb_form=pp('perfect-participle', s, 'been', 'be', f3['id']))
     link(f3, l3)
     s.g('to', 'to', '~에')
     s.hint('everything [(that) we’ve seen]', '[우리[사람들]가 본] 모든 것',
            span='everything we’ve seen', label='목적격 관계대명사 that 생략', display_mode='omitted-relative',
            omitted_relative='that', links=[(['that'], ['가', '본'])], refs=[('we', '우리', '[사람들]')],
            meaning='우리가 본 모든 것',
-           explanation='선행사 everything 뒤 목적격 관계대명사 that이 생략된 관계절(seen의 목적어 자리). the things we’ve done, the places we’ve been to도 같은 구조로 병렬.')
+           explanation='선행사 everything 뒤 목적격 관계대명사 that이 생략된 관계절(seen의 목적어 자리). the things we’ve done도 같은 구조로 병렬.')
+    s.hint('the places [(that) we’ve been to]', '[우리[사람들]가 가 본] 장소들',
+           span='the places we’ve been to', label='목적격 관계대명사 that 생략', display_mode='omitted-relative',
+           omitted_relative='that', links=[(['that'], ['가', '본'])], refs=[('we', '우리', '[사람들]')],
+           meaning='우리가 가 본 장소들',
+           explanation='선행사 the places 뒤 목적격 관계대명사 that이 생략된 관계절. the places는 전치사 to의 목적어 자리라, 빈자리가 있는 to까지 표시(사용자 확정 기준).')
     s.review = ('두 절이 but으로 연결(We are not our possessions / we are the accumulation of …). of의 목적어 세 개(everything, the things, the places)가 각각 목적격 관계대명사가 생략된 관계절 '
                 'we’ve seen / we’ve done / we’ve been to의 꾸밈을 받음(’ve = have, 능동 완료). have been to는 ‘~에 가 본 적이 있다’. '
-                '힌트 1개(생략 관계사 대표 1개 — 같은 구조 셋은 설명에서 병렬로 안내). not A, but B는 u2-gp2로 지원. have p.p. 세 곳은 분석 보충 u2-gp4로 연결. 수동 없음.')
+                '힌트 2개(생략 관계사 everything we’ve seen, the places we’ve been to). 생략 관계절이 셋이라 문장당 최대 2개 한도와 충돌 — the things we’ve done은 첫 힌트 설명에서 병렬로 안내하고 사용자 보고(2단계 L 검수 FLb-03). not A, but B는 u2-gp2로 지원. have p.p. 세 곳은 분석 보충 u2-gp4로 연결. 수동 없음.')
     out.append(s)
 
     # ---------------- s16 ----------------
@@ -148,8 +153,8 @@ def sentences(T):
     s.g('says', 'say', '말하다', verb_form=v3(s, 'says', 'say', 'Gilovich'))
     s.brk('of', 'postnominal-preposition', 'of ourselves는 앞 명사 a bigger part를 뒤에서 꾸미는 전치사구')
     s.hint('[says Gilovich]', '[길로비치는 말한다]', span='says Gilovich', label='인용 뒤 동사·주어 도치',
-           links=[(['Gilovich'], ['는'])], meaning='길로비치는 말한다',
-           explanation='직접 인용 뒤에서 동사 says가 주어 Gilovich 앞에 온 도치. 해석은 ‘길로비치는 말한다’.')
+           links=[(['says'], ['말한다'])], meaning='길로비치는 말한다',
+           explanation='직접 인용 뒤에서 동사 says가 주어 Gilovich 앞에 온 도치. 앞으로 나간 요소 says ↔ 말한다를 강조(s49 보어 도치 선례와 같은 기준). 해석은 ‘길로비치는 말한다’.')
     s.review = ('인용된 절 Our experiences are a bigger part of ourselves than our material goods(비교급 bigger … than) + 인용 뒤 도치 says Gilovich. '
                 'Gilovich는 1번 문장에서 제공한 고유명사 반복. 힌트 1개(도치). 관계사·수동 없음.')
     out.append(s)
@@ -163,7 +168,7 @@ def sentences(T):
     s.g('really', 'really', '정말')
     lk = s.g('like', 'like', '좋아하다')
     link(f, lk)
-    s.g('your', 'your', '여러분의', referent_ko='독자')
+    s.g('your', 'your', '여러분의', referent_ko='사람들')
     s.g('material', 'material', '물질적인')
     s.g('stuff', 'stuff', '물건, 것', star=W['stuff'])
     s.review = '단일 절 You can really like your material stuff(인용 계속). 연결·관계사·수동 없음 → 힌트 없음.'
@@ -175,8 +180,7 @@ def sentences(T):
     s.ch('that part', '일부가')
     s.ch('of your identity', '여러분의 정체성의')
     s.ch('is connected to those things,', '그 물건들에 연결되어 있다고,')
-    s.ch('but nonetheless they remain separate', '하지만 그럼에도 불구하고 그것들은 분리된 채로 남아 있다')
-    s.ch('from you.', '여러분으로부터.')
+    s.ch('but nonetheless they remain separate from you.', '하지만 그럼에도 불구하고 그것들은 여러분으로부터 분리된 채로 남아 있다.')
     s.natural('여러분은 심지어 자신의 정체성 일부가 그 물건들과 연결되어 있다고 생각할 수도 있지만, 그럼에도 그것들은 여러분과 분리된 채로 남아 있다.')
     s.cl('main', 'You', subj='You', verbs=['can', 'think'])
     s.cl('subordinate', 'that', subj='part of your identity', verbs=['is', 'connected'], marker='that', disp='part',
@@ -189,7 +193,7 @@ def sentences(T):
     s.g('that', 'that S′ V′', 'S′(이/가) V′라고')
     s.g('part', 'part', '일부')
     s.g('of', 'of', '~의')
-    s.g('your', 'your', '여러분의', referent_ko='독자')
+    s.g('your', 'your', '여러분의', referent_ko='사람들')
     s.g('identity', 'identity', '정체성, 나다움', star=W['identity'])
     fb = s.g('is', 'be p.p.', '~되다', kind='function', combines_with=[])
     cn = s.g('connected', 'connected', '연결된', verb_form=pp('passive-participle', s, 'connected', 'connect', fb['id']))
@@ -203,10 +207,10 @@ def sentences(T):
     s.g('separate', 'separate', '분리된, 별개의')
     s.g('from', 'from', '~로부터')
     s.brk('of', 'postnominal-preposition', 'of your identity는 앞 명사 part를 뒤에서 꾸미는 전치사구')
-    s.hint('think [that part of your identity is connected]', '[여러분[독자]의 정체성의 일부가 연결되어 있다고] 생각하다',
-           span='think that part of your identity is connected', label='명사절 접속사 that',
-           links=[(['that'], ['가', '다고'])], refs=[('your', '여러분', '[독자]')],
-           meaning='여러분의 정체성의 일부가 (그 물건들에) 연결되어 있다고 생각하다',
+    s.hint('[that part of your identity is connected]', '[여러분[사람들]의 정체성의 일부가 연결되어 있다고]',
+           span='that part of your identity is connected', label='명사절 접속사 that',
+           links=[(['that'], ['가', '다고'])], refs=[('your', '여러분', '[사람들]')],
+           meaning='여러분의 정체성의 일부가 (그 물건들에) 연결되어 있다고',
            explanation='think의 목적어 that절. S′ part of your identity, V′ is connected까지 표시하고 to those things는 제외.')
     s.review = ('주절 You can even think + 목적어 that 명사절(S′ part of your identity, V′ is connected — 수동) + but nonetheless 뒤 둘째 절 they remain separate from you(remain + 형용사 보어). '
                 '힌트 1개(명사절 that). 수동 is connected는 힌트가 있는 문장이라 분석 보충 u2-gp5로 연결.')
@@ -220,7 +224,7 @@ def sentences(T):
     s.natural('반면에 여러분의 경험은 정말로 여러분의 일부이다.')
     s.cl('main', 'your', subj='your experiences', verbs=['are'])
     s.g('On|the|other|hand', 'on the other hand', '반면에, 다른 한편으로', star=W['other_hand'])
-    s.g('your', 'your', '여러분의', referent_ko='독자')
+    s.g('your', 'your', '여러분의', referent_ko='사람들')
     s.g('experiences', 'experiences', '경험들')
     s.g('really', 'really', '정말로')
     s.g('are', 'are', '~이다')
@@ -287,8 +291,9 @@ def analysis(_):
                 '그는 경험이 물질적인 물건보다 우리 자신에서 더 큰 부분을 차지한다고 말한다.',
                 '문장 끝의 says Gilovich는 이 말을 한 사람이 길로비치라는 것을 알려 준다.']},
             {'sentence_id': 's18', 'explanatory_sentences': [
-                '18번 문장은 물건과 우리 사이의 관계를 설명한다.',
-                '우리는 어떤 물건이 나를 보여 주는 한 부분이라고 생각할 수도 있다.',
+                '17번에서 길로비치는 우리가 물건을 정말 좋아할 수 있다고 먼저 인정한다.',
+                '18번은 한 걸음 더 나아간다.',
+                '우리는 내 정체성의 일부가 어떤 물건과 이어져 있다고 생각할 수도 있다.',
                 '그래도 그 물건은 여전히 나와 떨어져 있는 따로 된 것이다.',
                 '19번 문장은 이와 달리 경험은 정말로 나의 일부라고 말한다.']},
         ],
@@ -307,7 +312,7 @@ def analysis(_):
              'title': 'not A, but B: A가 아니라 B', 'formula_key': 'not A, but B',
              'explanation': '공식: S are not A, but S are B — S는 A가 아니라 B이다. S = we(우리), A = our possessions(우리의 소유물들), '
                             'B = the accumulation of everything we’ve seen(우리가 본 모든 것의 축적). '
-                            '→ 우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다. not과 but이 짝을 이루어 A를 부정하고 B를 강조한다.',
+                            '→ 우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다. not과 but이 짝을 이루어 A를 부정하고 B를 강조한다. 원문의 B는 뒤의 the things we’ve done(우리가 한 일들), the places we’ve been to(우리가 가 본 장소들)까지 이어진다.',
              'practice': {'span': 'We are not our possessions, but we are the accumulation of everything we’ve seen',
                           'formula_support': {'en': 'not A, but B', 'ko': 'A가 아니라 B'},
                           'support': [('s15', 'our'), ('s15', 'possessions'), ('s15', 'accumulation'), ('s15', 'of'),
@@ -326,9 +331,9 @@ def analysis(_):
             {'id': 'u2-gp4', 'sentence_id': 's13', 'span': 'Gilovich and other researchers have found',
              'title': 'have p.p.: ~했다 (have found: 발견했다)', 'formula_key': 'have p.p.',
              'explanation': '공식: have p.p. — ~했다. p.p. = found(find의 p.p.형, find = 발견하다), 주어 = Gilovich and other researchers(길로비치와 다른 연구자들). '
-                            '→ 길로비치와 다른 연구자들은 발견했다. 무엇을 발견했는지는 뒤의 that절이 알려 준다. 15번의 we’ve seen·done·been(’ve = have)도 같은 have p.p.다.',
+                            '→ 길로비치와 다른 연구자들은 발견했다. 무엇을 발견했는지는 뒤의 that절이 알려 준다. 15번의 we’ve seen·done·been(’ve = have)도 같은 have p.p.이며, have been to는 ‘~에 가 본 적이 있다’(경험)이다.',
              'supplemental': {'function': ('s13', 'have p.p.', 0),
-                              'reason': 's13의 능동 완료 have found와 s15의 we’ve seen·done·been은 각각 명사절·관계사·짝 구조 힌트를 선정해 결합 힌트로 두지 않았고, 기본 분석 3개에 have p.p. 설명이 없어 이 단위 대표 사례로 1회 보충'},
+                              'reason': 's13의 능동 완료 have found와 s15의 we’ve seen·done·been은 각각 명사절 힌트와 생략 관계사 힌트를 선정한 문장이라 결합 힌트로 두지 않았고, 기본 분석 3개에 have p.p. 설명이 없어 이 단위 대표 사례로 1회 보충'},
              'practice': {'span': 'Gilovich and other researchers have found',
                           'formula_support': {'en': 'have p.p.', 'ko': '~했다'},
                           'support': [('s13', 'other'), ('s13', 'researchers'), ('s13', 'find')],
@@ -349,7 +354,7 @@ def analysis(_):
             {'function': ('s13', 'have p.p.', 0), 'route': 'analysis', 'grammar_point_id': 'u2-gp4',
              'review_record': 'have found: 명사절 that 힌트가 있는 문장이라 분석 보충 u2-gp4로 연결'},
             {'function': ('s15', 'have p.p.', 0), 'route': 'analysis', 'grammar_point_id': 'u2-gp4',
-             'review_record': 'we’ve seen: 관계사·짝 구조 힌트가 있는 문장이라 분석 보충 u2-gp4로 연결'},
+             'review_record': 'we’ve seen: 생략 관계사 힌트가 있는 문장이라 분석 보충 u2-gp4로 연결'},
             {'function': ('s15', 'have p.p.', 1), 'route': 'analysis', 'grammar_point_id': 'u2-gp4',
              'review_record': 'we’ve done: 같은 이유로 u2-gp4로 연결'},
             {'function': ('s15', 'have p.p.', 2), 'route': 'analysis', 'grammar_point_id': 'u2-gp4',

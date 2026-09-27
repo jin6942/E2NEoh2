@@ -1,0 +1,130 @@
+{
+  "reviewer": "FR-L-b",
+  "role": "L (학습 단위 u2 독립 검수 + u1·u2 전체 연결 검수)",
+  "reviewed_files": [
+    "작업_FR/영어2_YBM(박준언)_2과FurtherReading_QC_HANDOFF.txt (u2 251~422행, u1 9~249행 연결용)",
+    "작업_FR/검수입력/L_u2.json (glosses·hints·emphasis_links·pronoun_refs·clauses·reading_checks·grammar_points·formula_routes·workbook)",
+    "작업_FR/검수입력/L_u1.json (today_words·relations·grammar_points 연결 대조)",
+    "(2022개정)2026년_영어II_YBM(박준언)_2과_본문.pdf 5쪽 왼쪽 단 영어(pypdfium2 텍스트층으로 s13~s20 원문 일치 확인)"
+  ],
+  "scope": {
+    "unit_ids": ["u2"],
+    "sentence_ids": ["s13", "s14", "s15", "s16", "s17", "s18", "s19", "s20"],
+    "cross_unit": true
+  },
+  "rules_read": [
+    "작업/스킬수정본/gyogwaseo-unified/SKILL.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/editorial-core.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/analysis-content.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/gloss-rules.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/grammar-labels.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/preposition-meanings.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/proper-nouns.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/common-errors.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/review-efficiency.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/manuscript-data.md (hints·omitted-relative·protected_spans·proper-name-repeat 해당 절)",
+    "작업/영어2_YBM(박준언)_UNIT02_수정인계.txt (사용자 ‘현행유지’ 결정 ①~⑤ 선례 확인)"
+  ],
+  "findings": [
+    {
+      "id": "FLb-01",
+      "sentence_id": "s13",
+      "field": "hints[0].display_pairs[0] (구조 힌트, 명사절 접속사 that)",
+      "current": "have found [that experiences deliver] → [경험들이 가져다준다는 것을] 발견했다 (명사절 접속사 that)",
+      "problem": "일반 명사절 힌트에 바깥 동사 have found와 그 뜻 ‘발견했다’를 붙였다. 규칙이 바로 이 예를 들어 금지한다: ‘일반 명사절 바깥의 means·have found 같은 동사는 빼며’(SKILL.md 49행, editorial-core 134행), ‘해당 절의 시작부터 동사까지만 표시하며 바깥 means·have found·think about 등을 넣지 않는다’(analysis-content 104행), manuscript-data 104행(‘일반 명사절 바깥의 means·have found … 는 넣지 않는다’). 연결동사 보어·생략 관계사 빈자리 결정(사용자 현행 유지)과 무관한 사안이다.",
+      "proposed_fix": "en: \"[that experiences deliver]\", ko: \"[경험들이 가져다준다는 것을]\" (각주 s13-g05 ‘V′라는 것을’과 맞추려면 ‘것을’ 유지 가능, 승인 예시처럼 ‘것’으로 끝내도 됨). emphasis_links는 en_spans [[1,5]], ko_spans [[4,5],[10,15]]로 다시 계산. structure_label 유지. have found는 u2-gp4 경로가 그대로 유효하다.",
+      "severity": "확정오류"
+    },
+    {
+      "id": "FLb-02",
+      "sentence_id": "s18",
+      "field": "hints[0].display_pairs[0] (구조 힌트, 명사절 접속사 that)",
+      "current": "think [that part of your identity is connected] → [여러분[독자]의 정체성의 일부가 연결되어 있다고] 생각하다 (명사절 접속사 that)",
+      "problem": "FLb-01과 같은 위반이다. 명사절 바깥 동사 think와 ‘생각하다’가 들어 있다. analysis-content 104행이 ‘바깥 … think about 등을 넣지 않는다’고 명시하며 SKILL.md 49행과 editorial-core 134행도 같은 규칙이다.",
+      "proposed_fix": "en: \"[that part of your identity is connected]\", ko: \"[여러분[독자]의 정체성의 일부가 연결되어 있다고]\". emphasis_links는 en [[1,5]], ko [[17,18],[25,27]], pronoun_refs는 en_span [14,18], ko_pronoun_span [1,4], ko_reference_span [4,8]로 둔다. 참조어는 FLb-08 판단에 따른다. u2-gp3(think that S′ V′) 분석·연습은 그대로 둔다.",
+      "severity": "확정오류"
+    },
+    {
+      "id": "FLb-03",
+      "sentence_id": "s15",
+      "field": "hints (생략 관계사 힌트 수·충돌 보고)",
+      "current": "힌트 1개: everything [(that) we’ve seen] → [우리[사람들]가 본] 모든 것 (목적격 관계대명사 that 생략). review_record: ‘생략 관계사 대표 1개 — 같은 구조 셋은 설명에서 병렬로 안내’",
+      "problem": "s15에는 실제 목적격 관계절이 3개 있다(everything we’ve seen / the things we’ve done / the places we’ve been to). 규칙상 실제 관계사절은 생략 여부와 무관하게 힌트에 포함하고, 명시 관계사와 생략 관계사의 연결이 ‘모두’ 힌트에 들어갔는지 대조해야 한다(SKILL.md 47행, analysis-content 100·199행 4단계, common-errors 3). omitted-relative 힌트는 display_pairs가 정확히 1개이고(manuscript-data 105행) 문장당 최대 2개이므로 세 관계절을 다 담을 수는 없다. 이 경우 규칙은 ‘서로 다른 필수 관계를 담을 수 없으면 실제 원문과 함께 충돌을 보고한다’고 정한다. 현재 원고는 두 번째 힌트 자리가 비어 있는데도 1개만 넣었고, 충돌을 사용자에게 보고하지도 않았다. ‘설명에서 병렬로 안내’는 학생용에 출력되지 않는 내부 explanation이다. 특히 전치사 목적어 자리가 빈 the places we’ve been to는 학생이 가장 놓치기 쉽다.",
+      "proposed_fix": "두 번째 omitted-relative 힌트를 추가한다: en \"the places [(that) we’ve been to]\", ko \"[우리[사람들]가 가 본] 장소들\", structure_label ‘목적격 관계대명사 that 생략’, omitted_relative ‘that’. 표시 범위는 사용자 확정 기준(빈자리가 있는 곳까지)에 따라 to까지 둔다. emphasis_links는 en [[13,17]], ko [[8,9],[12,13]], pronoun_refs는 en [19,21], ko_pronoun [1,3], ko_reference [3,8]. 남는 the things we’ve done은 한도 초과 충돌로 reading_checks.review_record에 기록하고 사용자에게 보고한다(두 번째 힌트를 done으로 고를지도 함께 제시).",
+      "severity": "확정오류"
+    },
+    {
+      "id": "FLb-04",
+      "sentence_id": "s15",
+      "field": "glosses s15-g16·s15-g17 (have p.p. / be — (~에) 가 있다) ↔ 끊어읽기·자연 해석",
+      "current": "have p.p. — ~했다 (we’ve = we have, we = 우리가) / be — (~에) 가 있다 (been은 be의 p.p.형) / to — ~에 ; 한국어 청크 ‘우리가 가 본’, review_record ‘have been to는 ~에 가 본 적이 있다’",
+      "problem": "기능/낱말 분리는 능동 완료 규칙에 맞다(원형 be와 실제 p.p. been 관계 명시). 그러나 두 뜻을 결합하면 ‘(~에) 가 있었다’가 되어 청크·자연 해석의 경험 뜻 ‘가 본(적이 있는)’과 어긋난다. 각주 뜻은 같은 문장의 끊어읽기·해석과 일치해야 한다(gloss-rules 검수 6). 또 ‘모든 현재완료를 ~했다로 고정하지 않는다’, ‘결과·경험·계속 등 실제 문맥을 확인하며 한 뜻으로 고정하지 않는다’(gloss-rules 66·188행)는 기준에 비추어, 경험 문맥인 have been to에 ~했다를 기계적으로 쓴 것으로 보인다. be 뜻의 ‘(~에)’ 자리 표시는 바로 뒤 to — ~에와 겹친다.",
+      "proposed_fix": "(권고) s15-g16을 경험 뜻 ‘have p.p. — ~한 적이 있다 (we’ve = we have, we = 우리가)’로 바꾸고 s15-g17은 ‘be — 가 있다 (been은 be의 p.p.형)’로 둔다. 결합하면 ‘(~에) 가 있은 적이 있다 ≈ 가 본 적이 있다’가 되어 청크 ‘가 본’과 이어진다. 이렇게 바꾸면 u2-gp4 끝 문장(‘15번의 we’ve seen·done·been도 같은 have p.p.다’)에 ‘been to는 경험(~한 적이 있다)’ 한 구절을 보충한다. 현행 유지로 정하더라도 결합 뜻과 청크의 차이는 L 결정으로 기록할 것.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "FLb-05",
+      "sentence_id": "s15",
+      "field": "glosses s15-g10·s15-g13·s15-g16 (have p.p.가 we’ve 전체 [70,75] 등을 덮고 we 뜻을 괄호에 병기)",
+      "current": "have p.p. — ~했다 (we’ve = we have, we = 우리가) ×3, spans = ‘we’ve’ 전체",
+      "problem": "규칙 위반은 아니다. 대명사 격(우리가)이 맞고, ’ve = have 안내 덕분에 S/V의 ’ve seen(U53 원형 유지)을 이해할 수 있다. 다만 두 가지가 어긋난다. ① 기능 공식 각주의 원문 위치가 주어 대명사 we까지 흡수해서, 표제어·뜻·위치·종류를 구조화된 별도 값으로 보존하라는 기준(gloss-rules 233행)과 ‘한 항목 한 표제어’ 관행에서 벗어난다. ② 같은 문장과 교재 전체의 we 각주는 모두 ‘(사람들)’ 지시 대상을 다는데 이 세 곳만 빠졌다. u1은 축약형을 표제어에서 펼치는 ‘it’s (= it is) —’, ‘there’s (= there is) —’ 형식이라 단위 간 표기도 다르다.",
+      "proposed_fix": "(권고) we [70,72]·[93,95]·[120,122]를 별도 각주 ‘we — 우리가 (사람들)’로 분리하고, 기능 각주는 ’ve [72,75]·[95,98]·[122,125] 위치에 ‘have p.p. — ~했다 (’ve = have)’로 둔다. 현행을 유지한다면 괄호 안을 ‘(we’ve = we have, we = 우리가, 사람들)’처럼 지시 대상까지 맞추는 정도만 검토한다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "FLb-06",
+      "sentence_id": "s15",
+      "field": "analysis.grammar_points u2-gp2 (not A, but B) explanation·practice.answer_ko",
+      "current": "B = the accumulation of everything we’ve seen(우리가 본 모든 것의 축적). → 우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다.",
+      "problem": "원문의 실제 B는 the accumulation of [everything we’ve seen, the things we’ve done, and the places we’ve been to] 전체다. 발췌 범위를 줄인 것은 허용되지만(최소 연습 구절), 설명의 ‘B =’ 대입이 B를 seen에서 끝나는 구로 확정해 버린다. 그러면 ‘낱말과 구의 범위를 혼동하지 않았는지’ 기준(analysis-content 235행)에 어긋나고, 결합 해석도 ‘본 것만의 축적’으로 좁혀진다.",
+      "proposed_fix": "발췌·연습 범위는 유지하되 설명의 대입을 ‘B = the accumulation of everything we’ve seen, …(of 뒤에 the things we’ve done, the places we’ve been to가 이어짐)’처럼 B가 이어짐을 밝힌다. 결합 해석 끝에도 ‘…’ 또는 ‘(한 일들, 가 본 장소들까지)’를 둔다. 워크북 정답은 발췌 범위에 맞으므로 그대로 둔다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "FLb-07",
+      "sentence_id": "s15",
+      "field": "analysis.grammar_points u2-gp4.supplemental.reason, analysis.formula_routes[1] review_record",
+      "current": "‘s15의 we’ve seen·done·been은 각각 명사절·관계사·짝 구조 힌트를 선정해 결합 힌트로 두지 않았고’ / ‘we’ve seen: 관계사·짝 구조 힌트가 있는 문장이라 …’",
+      "problem": "s15에는 짝 구조(paired-structure) 힌트가 없다(생략 관계사 힌트 1개뿐이며 not A, but B는 u2-gp2 분석으로만 지원). 경로 기록의 근거 문구가 사실과 다르다. 경로 자체(u2-gp4로 1회 보충)는 타당하다.",
+      "proposed_fix": "근거를 실제에 맞게 고친다. 예: ‘s15는 생략 관계사 힌트를 우선 선정(FLb-03 반영 시 문장당 2개 한도 사용)하여 have p.p. 결합 힌트를 두지 않음’.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "FLb-08",
+      "sentence_id": "s17",
+      "field": "glosses s17-g04·s18-g07·s19-g02 (your — 여러분의 (독자)), s18 hint 참조 ‘여러분[독자]’",
+      "current": "your — 여러분의 (독자) / 힌트 ‘여러분[독자]의’",
+      "problem": "s17~s20은 길로비치의 직접 인용이다. 그 안의 you/your는 이 글의 독자가 아니라 일반 사람을 가리키는 총칭적 you다. 같은 인용의 s16·s20에서는 our·we를 ‘(사람들)’로 처리해 인용 안 지칭이 서로 어긋난다. your는 필수 지칭 목록 밖이지만, 지칭을 적는다면 문맥에서 확인해야 하며 추측하면 안 된다(gloss-rules 201행, analysis-content 124행). u1 s1의 ‘Don’t spend your money on things’는 필자가 독자에게 제시하는 결론이라 ‘(독자)’가 자연스럽다.",
+      "proposed_fix": "(권고) 인용 안 your 3곳과 s18 힌트 참조를 ‘(사람들)’로 통일한다. 힌트는 ‘여러분[사람들]의’이며 ko_reference_span을 다시 계산한다. 현행 유지로 정하면 ‘인용 속 you = 청자·독자’ 판단을 review_record에 남긴다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "FLb-09",
+      "sentence_id": "s18",
+      "field": "analysis.easy_explanations (s18)",
+      "current": "18번 문장은 물건과 우리 사이의 관계를 설명한다. / 우리는 어떤 물건이 나를 보여 주는 한 부분이라고 생각할 수도 있다. / 그래도 그 물건은 여전히 나와 떨어져 있는 따로 된 것이다. / 19번 문장은 이와 달리 경험은 정말로 나의 일부라고 말한다.",
+      "problem": "원문은 ‘정체성의 일부가 그 물건들에 연결되어 있다’고 생각할 수 있다는 것이다. 둘째 설명문은 이것을 ‘물건이 나를 보여 주는 한 부분’으로 바꿔 원문과 다른, 더 강한 진술로 만든다(쉬운 풀이 8: 원문에 없는 내용·원문보다 강한 단정 금지). 또 한 항목 안에서 ‘우리는 … 나를 … 나와’로 인칭이 바뀐다. 앞 문맥인 17번(물건을 정말 좋아할 수 있다)과의 연결·역할도 밝히지 않았다(쉬운 풀이 1).",
+      "proposed_fix": "예: ‘17번에서 길로비치는 우리가 물건을 정말 좋아할 수 있다고 먼저 인정한다. 18번은 한 걸음 더 나아간다. 우리는 내 정체성의 일부가 어떤 물건과 이어져 있다고 생각할 수도 있다. 그래도 그 물건은 여전히 나와 떨어져 있는 따로 된 것이다. 19번 문장은 이와 달리 경험은 정말로 나의 일부라고 말한다.’",
+      "severity": "검토제안"
+    },
+    {
+      "id": "FLb-10",
+      "sentence_id": "s18",
+      "field": "chunks (마지막 경계 ‘separate / from you’)",
+      "current": "but nonetheless they remain separate / from you. ↔ 하지만 그럼에도 불구하고 그것들은 분리된 채로 남아 있다 / 여러분으로부터.",
+      "problem": "from you는 명사 후치수식이 아니라 형용사 separate의 보충 전치사구다(separate from ~와 분리된). 규칙은 형용사와 그 보충 전치사구를 가르지 않도록 하고 adjective-complement 보호 범위를 둔다(analysis-content 39행 ‘a book / full / of pictures로 자르거나’, manuscript-data 125행, common-errors 9). 현재 한국어 청크 ‘여러분으로부터.’는 서술어 뒤에 따로 떨어져 연결이 어색하다.",
+      "proposed_fix": "(권고) 두 청크를 합친다: ‘but nonetheless they remain separate from you.’ ↔ ‘하지만 그럼에도 불구하고 그것들은 여러분으로부터 분리된 채로 남아 있다.’(6낱말). reading_checks.protected_spans에 adjective-complement(separate from you)를 선언한다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "FLb-11",
+      "sentence_id": "s16",
+      "field": "hints[0].display_pairs[0].emphasis_links (인용 뒤 동사·주어 도치)",
+      "current": "[says Gilovich] → [길로비치는 말한다]; 강조 Gilovich ↔ 는",
+      "problem": "표시 범위·한국어·이름표는 적절하다. 도치 힌트 선정도 ‘도치’ 연결 유형으로 근거가 있다. 다만 영어 주어 명사 전체(Gilovich)를 강조하고 한국어는 조사 ‘는’만 대응시켰다. 이는 ‘영어는 해당 공식의 실제 문법 표지에 연결하며 주어 명사 전체를 강조하지 않는다’(analysis-content 142행)와 어긋날 수 있다. 사용자 확정 선례 ⑤(s49 보어 도치)는 앞으로 나간 요소(Related ↔ 관련된)에 강조를 두었다.",
+      "proposed_fix": "(권고) 선례 ⑤에 맞춰 앞으로 나간 동사 says ↔ 말한다에 강조를 두거나, 현행(주어 ↔ 는)을 유지하려면 그 근거를 review_record에 남긴다.",
+      "severity": "검토제안"
+    }
+  ],
+  "checked_ok_summary": "원문: s13~s20 영어가 권위 PDF 5쪽 왼쪽 단(3·4단락)과 글자 단위로 일치하고, 청크를 다시 붙이면 원문과 같으며, 영한 청크 수(3/2/8/4/1/6/3/2)가 대응한다. 후치수식 필수 경계(s14 of our identity, s16 of ourselves, s19 of you, s20 of our experiences)가 맞고 각주는 원문 순서다. s13: 등위 주어 전체 유지, have p.p.—~했다 / find—발견하다 (found는 find의 p.p.형) 규칙 준수, longer(long의 비교급)·lasting 적절. Gilovich는 같은 독립 본문(SOURCE src)의 s01-g05 ‘Thomas Gilovich’에 proper-name-repeat로 연결되어 s13·s16 모두 첫 등장 규칙에 맞다(단위 u1·u2는 같은 지문이다). s14: That’s because S′ V′를 한 틀로 묶은 각주, S/V ’s(U53 원형 유지, is 판정), 힌트의 최소 보어 a part 포함(사용자 확정 연결동사 기준 적용 정확), That[경험이 더 오래가는 행복을 주는 것] 참조의 위치·조사(그것[…]은)·지칭 내용이 각주·쉬운 풀이·자연 해석과 일치하고, 강조 because ↔ 이·기 때문이다가 정확하다. That’s 틀 포함은 각주·u2-gp1과 같은 통합 틀이라 허용 범위로 판단했다. s15: S/V ’ve seen·’ve done·’ve been(’s만 has 병기하는 U53에 부합)과 생략 관계절 [(that)] S′·V′ 3개 표시가 맞다. 각주의 we=우리가 격, 원형+p.p. 관계 안내, 기존 omitted-relative 힌트(that↔가·본, we[사람들])가 정확하다. 학생 이해 면에서 ’ve = have 안내는 유효하다(형식은 FLb-05 참고). s16: 인용 뒤 도치 표시·이름표·한국어 적절, says→say 3인칭 단수 원형 선언 정확. s17·s19·s20: 힌트 없음 판단 타당(관계사·수동·어려운 연결 없음), 단독 you 제외. s18: they—그것들은(물질적인 물건들) 필수 지칭, be p.p.—~되다 / connected—연결된(수동 실제형), S/V 주어 표시 축약(part)과 검토 기록이 정확하다. 분석: u2-gp4(have p.p., s13 대표)·u2-gp5(be p.p., s18 대표) 보충은 기본 3개에 해당 공식 설명이 없어 1회씩 둔 것으로 규칙에 맞다. formula_routes는 u2의 수동·능동 완료 기능 각주 5개(s13-g03, s15-g10·g13·g16, s18-g09)를 빠짐없이 경로에 연결한다. gp5 연습은 gp3 연습 범위 안에 들어가 겹치지만 단위 안 수동태가 s18 하나뿐이라 규칙상 불가피하다. 워크북 4번 syntax_point_ids gp1~gp5 순서가 분석과 1:1이고 도움말 각주 ID는 같은 문장의 실제 각주다. 핵심 문장(s13·s15)·쉬운 풀이 3문장(14·16·18)·유반 3세트(lasting/material/separate) 수량을 충족한다. 연결(u1↔u2): 흐름(연구 결론→물건 행복이 빨리 사라지는 세 이유→경험이 오래가는 이유→길로비치 인용)과 두 단위 의도·제목 형식이 전체 글과 맞다. 같은 낱말 뜻·표기가 일관된다(possessions 소유물들, 가진 물건들 / things 물건들, s15는 문맥상 일들 / happiness 행복 / experiences 경험들 / identity 정체성, 나다움 ★ s14·s18 / material 물질적인 / 길로비치 음차). ★는 단위별 오늘의 낱말에만 연결된다(u1의 possession이 u2 s15에서 ★ 없이 나오는 것은 규칙대로). 오늘의 낱말(u1 8, u2 8)과 유반(u1 clear·critical·novel, u2 lasting·material·separate)은 단위 간 중복이 없다. 지시 대상은 we·our·ourselves=사람들, they=물건들/물질적인 물건들, That·this·it·one이 문맥과 일치한다. 인용 안 your=독자만 FLb-08로 검토를 제안한다."
+}

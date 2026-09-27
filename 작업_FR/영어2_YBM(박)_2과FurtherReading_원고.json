@@ -615,8 +615,9 @@
      {
       "sentence_id": "s18",
       "explanatory_sentences": [
-       "18번 문장은 물건과 우리 사이의 관계를 설명한다.",
-       "우리는 어떤 물건이 나를 보여 주는 한 부분이라고 생각할 수도 있다.",
+       "17번에서 길로비치는 우리가 물건을 정말 좋아할 수 있다고 먼저 인정한다.",
+       "18번은 한 걸음 더 나아간다.",
+       "우리는 내 정체성의 일부가 어떤 물건과 이어져 있다고 생각할 수도 있다.",
        "그래도 그 물건은 여전히 나와 떨어져 있는 따로 된 것이다.",
        "19번 문장은 이와 달리 경험은 정말로 나의 일부라고 말한다."
       ]
@@ -662,7 +663,7 @@
       ],
       "title": "not A, but B: A가 아니라 B",
       "formula_key": "not A, but B",
-      "explanation": "공식: S are not A, but S are B — S는 A가 아니라 B이다. S = we(우리), A = our possessions(우리의 소유물들), B = the accumulation of everything we’ve seen(우리가 본 모든 것의 축적). → 우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다. not과 but이 짝을 이루어 A를 부정하고 B를 강조한다.",
+      "explanation": "공식: S are not A, but S are B — S는 A가 아니라 B이다. S = we(우리), A = our possessions(우리의 소유물들), B = the accumulation of everything we’ve seen(우리가 본 모든 것의 축적). → 우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다. not과 but이 짝을 이루어 A를 부정하고 B를 강조한다. 원문의 B는 뒤의 the things we’ve done(우리가 한 일들), the places we’ve been to(우리가 가 본 장소들)까지 이어진다.",
       "practice": {
        "span": [
         0,
@@ -727,9 +728,9 @@
       ],
       "title": "have p.p.: ~했다 (have found: 발견했다)",
       "formula_key": "have p.p.",
-      "explanation": "공식: have p.p. — ~했다. p.p. = found(find의 p.p.형, find = 발견하다), 주어 = Gilovich and other researchers(길로비치와 다른 연구자들). → 길로비치와 다른 연구자들은 발견했다. 무엇을 발견했는지는 뒤의 that절이 알려 준다. 15번의 we’ve seen·done·been(’ve = have)도 같은 have p.p.다.",
+      "explanation": "공식: have p.p. — ~했다. p.p. = found(find의 p.p.형, find = 발견하다), 주어 = Gilovich and other researchers(길로비치와 다른 연구자들). → 길로비치와 다른 연구자들은 발견했다. 무엇을 발견했는지는 뒤의 that절이 알려 준다. 15번의 we’ve seen·done·been(’ve = have)도 같은 have p.p.이며, have been to는 ‘~에 가 본 적이 있다’(경험)이다.",
       "supplemental": {
-       "reason": "s13의 능동 완료 have found와 s15의 we’ve seen·done·been은 각각 명사절·관계사·짝 구조 힌트를 선정해 결합 힌트로 두지 않았고, 기본 분석 3개에 have p.p. 설명이 없어 이 단위 대표 사례로 1회 보충",
+       "reason": "s13의 능동 완료 have found와 s15의 we’ve seen·done·been은 각각 명사절 힌트와 생략 관계사 힌트를 선정한 문장이라 결합 힌트로 두지 않았고, 기본 분석 3개에 have p.p. 설명이 없어 이 단위 대표 사례로 1회 보충",
        "function_gloss_id": "s13-g03"
       },
       "practice": {
@@ -801,7 +802,7 @@
       "formula_key": "have p.p.",
       "route": "analysis",
       "grammar_point_id": "u2-gp4",
-      "review_record": "we’ve seen: 관계사·짝 구조 힌트가 있는 문장이라 분석 보충 u2-gp4로 연결"
+      "review_record": "we’ve seen: 생략 관계사 힌트가 있는 문장이라 분석 보충 u2-gp4로 연결"
      },
      {
       "sentence_id": "s15",
@@ -5050,21 +5051,21 @@
    "hints": [
     {
      "span": [
-      31,
+      42,
       66
      ],
-     "meaning_ko": "경험들이 (더 오래 지속되는 행복을) 가져다준다는 것을 발견했다",
+     "meaning_ko": "경험들이 (더 오래 지속되는 행복을) 가져다준다는 것을",
      "explanation": "have found의 목적어 that절. S′ experiences, V′ deliver까지 표시하고 목적어 longer lasting happiness 이하는 제외.",
      "display_pairs": [
       {
-       "en": "have found [that experiences deliver]",
-       "ko": "[경험들이 가져다준다는 것을] 발견했다",
+       "en": "[that experiences deliver]",
+       "ko": "[경험들이 가져다준다는 것을]",
        "emphasis_links": [
         {
          "en_spans": [
           [
-           12,
-           16
+           1,
+           5
           ]
          ],
          "ko_spans": [
@@ -5758,7 +5759,7 @@
       ]
      ],
      "headword": "have p.p.",
-     "meaning_ko": "~했다 (we’ve = we have, we = 우리가)",
+     "meaning_ko": "~한 적이 있다 (we’ve = we have, we = 우리가)",
      "star": false,
      "kind": "function",
      "combines_with": [
@@ -5774,7 +5775,7 @@
       ]
      ],
      "headword": "be",
-     "meaning_ko": "(~에) 가 있다 (been은 be의 p.p.형)",
+     "meaning_ko": "가 있다 (been은 be의 p.p.형)",
      "star": false,
      "verb_form": {
       "usage": "perfect-participle",
@@ -5985,7 +5986,7 @@
       80
      ],
      "meaning_ko": "우리가 본 모든 것",
-     "explanation": "선행사 everything 뒤 목적격 관계대명사 that이 생략된 관계절(seen의 목적어 자리). the things we’ve done, the places we’ve been to도 같은 구조로 병렬.",
+     "explanation": "선행사 everything 뒤 목적격 관계대명사 that이 생략된 관계절(seen의 목적어 자리). the things we’ve done도 같은 구조로 병렬.",
      "display_pairs": [
       {
        "en": "everything [(that) we’ve seen]",
@@ -6031,10 +6032,63 @@
      "structure_label": "목적격 관계대명사 that 생략",
      "display_mode": "omitted-relative",
      "omitted_relative": "that"
+    },
+    {
+     "span": [
+      109,
+      133
+     ],
+     "meaning_ko": "우리가 가 본 장소들",
+     "explanation": "선행사 the places 뒤 목적격 관계대명사 that이 생략된 관계절. the places는 전치사 to의 목적어 자리라, 빈자리가 있는 to까지 표시(사용자 확정 기준).",
+     "display_pairs": [
+      {
+       "en": "the places [(that) we’ve been to]",
+       "ko": "[우리[사람들]가 가 본] 장소들",
+       "pronoun_refs": [
+        {
+         "en_span": [
+          19,
+          21
+         ],
+         "ko_pronoun_span": [
+          1,
+          3
+         ],
+         "ko_reference_span": [
+          3,
+          8
+         ]
+        }
+       ],
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           13,
+           17
+          ]
+         ],
+         "ko_spans": [
+          [
+           8,
+           9
+          ],
+          [
+           12,
+           13
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "목적격 관계대명사 that 생략",
+     "display_mode": "omitted-relative",
+     "omitted_relative": "that"
     }
    ],
    "reading_checks": {
-    "review_record": "두 절이 but으로 연결(We are not our possessions / we are the accumulation of …). of의 목적어 세 개(everything, the things, the places)가 각각 목적격 관계대명사가 생략된 관계절 we’ve seen / we’ve done / we’ve been to의 꾸밈을 받음(’ve = have, 능동 완료). have been to는 ‘~에 가 본 적이 있다’. 힌트 1개(생략 관계사 대표 1개 — 같은 구조 셋은 설명에서 병렬로 안내). not A, but B는 u2-gp2로 지원. have p.p. 세 곳은 분석 보충 u2-gp4로 연결. 수동 없음.",
+    "review_record": "두 절이 but으로 연결(We are not our possessions / we are the accumulation of …). of의 목적어 세 개(everything, the things, the places)가 각각 목적격 관계대명사가 생략된 관계절 we’ve seen / we’ve done / we’ve been to의 꾸밈을 받음(’ve = have, 능동 완료). have been to는 ‘~에 가 본 적이 있다’. 힌트 2개(생략 관계사 everything we’ve seen, the places we’ve been to). 생략 관계절이 셋이라 문장당 최대 2개 한도와 충돌 — the things we’ve done은 첫 힌트 설명에서 병렬로 안내하고 사용자 보고(2단계 L 검수 FLb-03). not A, but B는 u2-gp2로 지원. have p.p. 세 곳은 분석 보충 u2-gp4로 연결. 수동 없음.",
     "required_breaks": [],
     "protected_spans": [],
     "function_gloss_ids": [
@@ -6376,7 +6430,7 @@
       87
      ],
      "meaning_ko": "길로비치는 말한다",
-     "explanation": "직접 인용 뒤에서 동사 says가 주어 Gilovich 앞에 온 도치. 해석은 ‘길로비치는 말한다’.",
+     "explanation": "직접 인용 뒤에서 동사 says가 주어 Gilovich 앞에 온 도치. 앞으로 나간 요소 says ↔ 말한다를 강조(s49 보어 도치 선례와 같은 기준). 해석은 ‘길로비치는 말한다’.",
      "display_pairs": [
       {
        "en": "[says Gilovich]",
@@ -6385,14 +6439,14 @@
         {
          "en_spans": [
           [
-           6,
-           14
+           1,
+           5
           ]
          ],
          "ko_spans": [
           [
-           5,
-           6
+           7,
+           10
           ]
          ]
         }
@@ -6504,7 +6558,7 @@
      "headword": "your",
      "meaning_ko": "여러분의",
      "star": false,
-     "referent_ko": "독자"
+     "referent_ko": "사람들"
     },
     {
      "id": "s17-g05",
@@ -6623,13 +6677,8 @@
     },
     {
      "start": 76,
-     "end": 112,
-     "ko": "하지만 그럼에도 불구하고 그것들은 분리된 채로 남아 있다"
-    },
-    {
-     "start": 113,
      "end": 122,
-     "ko": "여러분으로부터."
+     "ko": "하지만 그럼에도 불구하고 그것들은 여러분으로부터 분리된 채로 남아 있다."
     }
    ],
    "natural_ko": "여러분은 심지어 자신의 정체성 일부가 그 물건들과 연결되어 있다고 생각할 수도 있지만, 그럼에도 그것들은 여러분과 분리된 채로 남아 있다.",
@@ -6789,7 +6838,7 @@
      "headword": "your",
      "meaning_ko": "여러분의",
      "star": false,
-     "referent_ko": "독자"
+     "referent_ko": "사람들"
     },
     {
      "id": "s18-g08",
@@ -7097,20 +7146,20 @@
    "hints": [
     {
      "span": [
-      13,
+      19,
       58
      ],
-     "meaning_ko": "여러분의 정체성의 일부가 (그 물건들에) 연결되어 있다고 생각하다",
+     "meaning_ko": "여러분의 정체성의 일부가 (그 물건들에) 연결되어 있다고",
      "explanation": "think의 목적어 that절. S′ part of your identity, V′ is connected까지 표시하고 to those things는 제외.",
      "display_pairs": [
       {
-       "en": "think [that part of your identity is connected]",
-       "ko": "[여러분[독자]의 정체성의 일부가 연결되어 있다고] 생각하다",
+       "en": "[that part of your identity is connected]",
+       "ko": "[여러분[사람들]의 정체성의 일부가 연결되어 있다고]",
        "pronoun_refs": [
         {
          "en_span": [
-          20,
-          24
+          14,
+          18
          ],
          "ko_pronoun_span": [
           1,
@@ -7118,7 +7167,7 @@
          ],
          "ko_reference_span": [
           4,
-          8
+          9
          ]
         }
        ],
@@ -7126,18 +7175,18 @@
         {
          "en_spans": [
           [
-           7,
-           11
+           1,
+           5
           ]
          ],
          "ko_spans": [
           [
-           17,
-           18
+           18,
+           19
           ],
           [
-           25,
-           27
+           26,
+           28
           ]
          ]
         }
@@ -7242,7 +7291,7 @@
      "headword": "your",
      "meaning_ko": "여러분의",
      "star": false,
-     "referent_ko": "독자"
+     "referent_ko": "사람들"
     },
     {
      "id": "s19-g03",

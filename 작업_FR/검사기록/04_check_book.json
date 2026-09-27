@@ -65,6 +65,10 @@
                 },
                 {
                   "start": 18,
+                  "end": 27
+                },
+                {
+                  "start": 28,
                   "end": 47
                 },
                 {
@@ -93,7 +97,8 @@
                   "role": "analysis_english_chunks",
                   "chunks": [
                     "A long-term study",
-                    "conducted by Thomas Gilovich,",
+                    "conducted",
+                    "by Thomas Gilovich,",
                     "a psychology professor",
                     "at Cornell University,",
                     "reached a powerful and clear conclusion:",
@@ -105,7 +110,8 @@
                   "role": "analysis_korean_chunks",
                   "chunks": [
                     "장기적인 연구는",
-                    "토머스 길로비치에 의해 수행된,",
+                    "수행된",
+                    "토머스 길로비치에 의해,",
                     "심리학 교수인",
                     "코넬 대학교의,",
                     "강력하고 분명한 결론에 도달했다:",
@@ -811,10 +817,6 @@
                 },
                 {
                   "start": 76,
-                  "end": 112
-                },
-                {
-                  "start": 113,
                   "end": 122
                 }
               ],
@@ -826,8 +828,7 @@
                     "that part",
                     "of your identity",
                     "is connected to those things,",
-                    "but nonetheless they remain separate",
-                    "from you."
+                    "but nonetheless they remain separate from you."
                   ]
                 },
                 {
@@ -837,8 +838,7 @@
                     "일부가",
                     "여러분의 정체성의",
                     "그 물건들에 연결되어 있다고,",
-                    "하지만 그럼에도 불구하고 그것들은 분리된 채로 남아 있다",
-                    "여러분으로부터."
+                    "하지만 그럼에도 불구하고 그것들은 여러분으로부터 분리된 채로 남아 있다."
                   ]
                 },
                 {
@@ -1642,5 +1642,5 @@
   "independent_reviews": "NOT_PERFORMED",
   "docx_presence": "NOT_CHECKED_BY_THIS_TOOL",
   "visual_review": "NOT_PERFORMED",
-  "input_sha256": "7aaa518d46c63f2f9473b442369163a68e1e5b107370eec40997b889c151be16"
+  "input_sha256": "04b74f1250b6da8bf77c63ed19dc269e5586f171af6e3f4d924c7f835517076c"
 }

@@ -1,0 +1,80 @@
+{
+ "stage": "FR 2단계 L 검수 반영 결정",
+ "decisions": [
+  {
+   "id": "FLa-01",
+   "decision": "반영",
+   "note": "s01 conducted / by Thomas Gilovich 청크 분리(수동 행위자 by 앞 경계) + required_breaks에 passive-agent-by·at 앞 후치수식 추가"
+  },
+  {
+   "id": "FLa-02",
+   "decision": "반영",
+   "note": "s07 what V′ — V′했던 것 (seemed 과거와 일치)"
+  },
+  {
+   "id": "FLa-03",
+   "decision": "미반영",
+   "note": "compare A with B 구문이 A 자리의 ‘를’을 이미 주므로 themselves에 조사를 중복하지 않는 예외(gloss-rules ‘별도 전치사·구문 뜻이 조사 역할을 제공하면 대명사에 같은 조사를 중복하지 않는다’)"
+  },
+  {
+   "id": "FLa-04",
+   "decision": "반영",
+   "note": "s02 쉬운 풀이 ‘물건만큼 오래갈 것’으로 원문 비교 기준에 맞춤"
+  },
+  {
+   "id": "FLb-01",
+   "decision": "반영",
+   "note": "s13 명사절 힌트에서 바깥 동사 have found 제외"
+  },
+  {
+   "id": "FLb-02",
+   "decision": "반영",
+   "note": "s18 명사절 힌트에서 바깥 동사 think 제외"
+  },
+  {
+   "id": "FLb-03",
+   "decision": "반영·사용자 보고",
+   "note": "s15 둘째 생략 관계사 힌트(the places [(that) we’ve been to]) 추가. 생략 관계절 3개가 문장당 2개 한도와 충돌 — the things we’ve done은 첫 힌트 설명에서 병렬로 안내"
+  },
+  {
+   "id": "FLb-04",
+   "decision": "반영",
+   "note": "s15 have been to: have p.p. — ~한 적이 있다, be — 가 있다(‘(~에)’ 중복 제거), u2-gp4에 경험 뜻 보충"
+  },
+  {
+   "id": "FLb-05",
+   "decision": "미반영",
+   "note": "we’ve는 낱말 하나(토큰)로 처리되어 각주 하나가 토큰 전체를 덮어야 하므로 we와 ’ve 분리 불가. we의 뜻(우리가)은 각주 괄호에 병기"
+  },
+  {
+   "id": "FLb-06",
+   "decision": "반영",
+   "note": "u2-gp2 설명에 B가 the things …, the places …까지 이어짐을 보충"
+  },
+  {
+   "id": "FLb-07",
+   "decision": "반영",
+   "note": "u2-gp4 보충 근거와 formula_routes 기록에서 ‘짝 구조’ 문구 정정"
+  },
+  {
+   "id": "FLb-08",
+   "decision": "반영",
+   "note": "인용(s17~s19) 안의 your 지칭을 ‘사람들’로 통일(s18 힌트 포함). s01의 your는 독자에게 하는 명령이라 ‘독자’ 유지"
+  },
+  {
+   "id": "FLb-09",
+   "decision": "반영",
+   "note": "s18 쉬운 풀이를 17번과 연결하고 원문보다 강한 표현 정리"
+  },
+  {
+   "id": "FLb-10",
+   "decision": "반영",
+   "note": "s18 separate from you 청크 병합"
+  },
+  {
+   "id": "FLb-11",
+   "decision": "반영",
+   "note": "s16 도치 힌트 강조를 앞으로 나간 동사 says ↔ 말한다로(s49 선례 기준)"
+  }
+ ]
+}
