@@ -1,29 +1,42 @@
 {
- "id": "UNIT02-Q-questions-2026-09-27",
+ "id": "UNIT02-Q-M-2026-09-27",
  "kind": "questions",
  "status": "PASS",
  "independent": true,
- "reviews": [
-  {
-   "reviewer_id": "subagent:M",
-   "execution_id": "session_01JP1crHgUQtE68wz5D1SjUc/stage4-M",
-   "solved_before_answer_key": true,
-   "blind_record": "4단계_M_블라인드답.json",
-   "compare_record": "4단계_M_대조.json",
-   "detail_scope": "Q01~Q13 해설, 워크북 u1~u3"
-  },
-  {
-   "reviewer_id": "subagent:N",
-   "execution_id": "session_01JP1crHgUQtE68wz5D1SjUc/stage4-N",
-   "solved_before_answer_key": true,
-   "blind_record": "4단계_N_블라인드답.json",
-   "compare_record": "4단계_N_대조.json",
-   "detail_scope": "Q14~Q26 해설, 워크북 u4·u5, 3회 편성"
-  }
- ],
- "performed_at": "2026-09-27T13:00:00Z",
+ "reviewer_id": "subagent-M",
+ "execution_id": "session_01JP1crHgUQtE68wz5D1SjUc/stage4-M",
+ "performed_at": "2026-09-27T14:00:00Z",
  "method": "M·N 각각 정답·해설이 없는 블라인드 문제지만 보고 26문항 풀이·근거 저장(학습 원고·정답 미열람) → 대조 자료·교사용 전문·학습 FINAL·원문·편성표로 대조 및 담당 상세 검수 → 제작 세션 반영 → check_book·review_preflight(full) PASS, 수정 diff 대조",
  "summary": "두 검수자 블라인드 답 26/26 모두 정답과 일치(불일치 0). 확정오류 1건(N-01)·검토제안 8건(블라인드 의견 포함) 중 반영 8, 미반영 1(M-04). 분량: 26문항 모두 고2 동유형 표본 이상(independent_length_review_required 없음). 회차 내 정답 노출 없음(N 확인). 6단계 K-05(요약문 빈칸 표시) 반영 후 해시 갱신: 표시만 바뀌고 문항 내용·정답 불변이라 M·N 재풀이 불필요로 판단.",
+ "solved_before_answer_key": true,
+ "answers": {
+  "Q01": 4,
+  "Q02": 5,
+  "Q03": 2,
+  "Q04": 3,
+  "Q05": 1,
+  "Q06": 5,
+  "Q07": 2,
+  "Q08": 3,
+  "Q09": 4,
+  "Q10": 1,
+  "Q11": 4,
+  "Q12": 2,
+  "Q13": 3,
+  "Q14": 5,
+  "Q15": 1,
+  "Q16": 1,
+  "Q17": 4,
+  "Q18": 3,
+  "Q19": 5,
+  "Q20": 2,
+  "Q21": 2,
+  "Q22": 4,
+  "Q23": 3,
+  "Q24": 5,
+  "Q25": 1,
+  "Q26": 3
+ },
  "scope": {
   "kind": "full",
   "source_ids": [
@@ -66,10 +79,10 @@
   ]
  },
  "bindings": {
+  "package_sha256": "4a1d3b5f95fef740593b3c6755e5b18d7aabac7a57f2cd0380409090a3c4eba3",
   "assessment_content_sha256": "05b506e7827989e3a691fa2a5ed1b8db03fad7112c34b5bd7fe0d4261ec137ed",
   "learning_final_sha256": "fc51ae8643d0e2e4b08d040cd427bbd647aaf28e774e449add3d7d9603cb1d6c",
-  "assessment_final_sha256": "484b1c0ba55d1ede701afd333ef05846c4c574ec6d64534f3d88147b51cb86b9",
-  "manuscript_file_sha256": "6fc2e98d1c5f89cced7a2e7d3cd6342a671486beb4f34ad13dc39557ff83328c"
+  "assessment_final_sha256": "484b1c0ba55d1ede701afd333ef05846c4c574ec6d64534f3d88147b51cb86b9"
  },
  "findings": [
   {

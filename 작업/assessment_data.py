@@ -386,7 +386,7 @@ q(id='Q19', set_id='mock2', number=7, type='어휘', first='s23', last='s36', gr
 
 # ================================================================ 미니 모의고사 3회
 q(id='Q20', set_id='mock3', number=1, type='요약', first='s13', last='s22',
-  summary='The subscription economy benefits both companies and consumers, and it is especially attractive to people who now value (A) more than (B).',
+  summary='The subscription economy benefits both companies and consumers, and it is especially attractive to people who now value (A) ________ more than (B) ________.',
   question='다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?',
   choices=['possession …… access',
            'access …… possession',

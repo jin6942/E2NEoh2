@@ -3,12 +3,12 @@
   "type": "release_text_preflight",
   "status": "NOT_CERTIFIED",
   "bindings": {
-    "manuscript_sha256": "91af88eb03cb4aa852dad24b9f200ac0c59b4d7174c3d9549cd66150cb5c5d37",
-    "plan_sha256": "bcc6278022c165db12fda4ac28d7651df65a3c0c53d87340a6e75ddf95c9386d",
-    "docx_sha256": "87cf9727087dc3d7381913f423a86a93ce7f33dde7ae6b17af352c4990551fef",
-    "pdf_sha256": "6db19a62578667a1d185fa08783b0bbd47dff557a253671a16171f43c995fb43",
+    "manuscript_sha256": "6fc2e98d1c5f89cced7a2e7d3cd6342a671486beb4f34ad13dc39557ff83328c",
+    "plan_sha256": "470d9d2fe9fb3d549cfb5371fb5df9bee4b879575b2789ead913dd5631e12f51",
+    "docx_sha256": "2c040748d4de0ffbc88790a72022b0675056f8dd56c7eaaac966bb6558964aff",
+    "pdf_sha256": "454abeba3ce30ab8f0ea2c049dc19d77000854503f2ea205e01e49e918fa0313",
     "learning_final_sha256": "fc51ae8643d0e2e4b08d040cd427bbd647aaf28e774e449add3d7d9603cb1d6c",
-    "assessment_final_sha256": "31830a73455bd29b7445cec0956e9b514094da581dfe381b21412cf66dd47ef0",
+    "assessment_final_sha256": "484b1c0ba55d1ede701afd333ef05846c4c574ec6d64534f3d88147b51cb86b9",
     "package_sha256": "4a1d3b5f95fef740593b3c6755e5b18d7aabac7a57f2cd0380409090a3c4eba3"
   },
   "machine_status": "PASS",
@@ -622,7 +622,7 @@
       },
       {
         "page": 55,
-        "characters": 3307,
+        "characters": 3325,
         "fonts": [
           "DejaVuSans",
           "DejaVuSans-Bold",
@@ -820,8 +820,8 @@
     "footer_policy": "Only actual DOCX footer patterns near page foot excluded; no body crop",
     "normalized_text_equal": false,
     "normalization": "Whitespace including NBSP and invisible joiners in the exact approved ★핵심 marker only; no spelling, glyph or punctuation substitutions",
-    "expected_characters": 105113,
-    "observed_characters": 105113
+    "expected_characters": 105129,
+    "observed_characters": 105129
   },
   "independent_review": "NOT_PERFORMED",
   "visual_review": "NOT_PERFORMED",

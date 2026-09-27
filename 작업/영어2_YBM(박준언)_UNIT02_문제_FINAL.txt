@@ -1052,7 +1052,7 @@ QUESTION:
 PASSAGE:
 The subscription economy brings advantages for both companies and consumers. Companies can have a stable revenue and build customer loyalty by using the subscription model. From the consumers’ perspective, they can enjoy a wider range of choices and personalized experiences. They can also save money by having flexible subscription contracts. The rise of the subscription economy is closely connected to two major drivers: changes in consumption trends and the rapid growth of online platforms. The subscription economy is highly relevant to how people consume goods and services nowadays. More and more people prioritize experiences over owning things. This makes the subscription economy attractive to them because it offers access to services or content without the requirement of ownership. For example, by subscribing to a music streaming service, consumers can enjoy limitless music without the need for having disc albums. Another example is subscribing to clothing services, where consumers can explore a variety of clothing styles without filling up their drawers.
 [요약문]
-The subscription economy benefits both companies and consumers, and it is especially attractive to people who now value (A) more than (B).
+The subscription economy benefits both companies and consumers, and it is especially attractive to people who now value (A) ________ more than (B) ________.
 CHOICES:
 ① possession …… access
 ② access …… possession

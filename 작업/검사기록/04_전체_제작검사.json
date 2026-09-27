@@ -6,43 +6,43 @@
   "plan_output": "/home/user/E2NEoh2/작업/검사기록/04_전체_역할계획.json",
   "report_output": "/home/user/E2NEoh2/작업/검사기록/04_전체_제작검사.json",
   "input_path": "/home/user/E2NEoh2/작업/영어2_YBM(박)_UNIT02_원고.json",
-  "input_file_sha256": "91af88eb03cb4aa852dad24b9f200ac0c59b4d7174c3d9549cd66150cb5c5d37",
-  "manuscript_sha256": "71046f19c8a0fd1e99a1d131120d8d3a898234dd78e1e3fdff7b2d6843194eac",
-  "plan_sha256": "6621942637d4af2456e5c5685d35722c86b8cd03fbcce340f59b0266ba0312be",
+  "input_file_sha256": "6fc2e98d1c5f89cced7a2e7d3cd6342a671486beb4f34ad13dc39557ff83328c",
+  "manuscript_sha256": "f11ec72bff19e9d347775c4d1fc1b0d16162a5adf0e96012407b7db0cc162ba1",
+  "plan_sha256": "6f6f1479bb89d4ee6537cb7a46f1999b102dfc094adeb5529f9d9fbcfce4187d",
   "contract_sha256": "b7c4db140782f052923ea67cb6e1034725db9fd758c3aa4e93884e83cf37be4e",
   "reference_sha256": "9af8460d2af50152f0b49c92191b98f8b7fcccd8b1a459365bb073ff07c8319b",
-  "saved_sha256": "87cf9727087dc3d7381913f423a86a93ce7f33dde7ae6b17af352c4990551fef",
+  "saved_sha256": "2c040748d4de0ffbc88790a72022b0675056f8dd56c7eaaac966bb6558964aff",
   "changed_blocks": [
+    "mock3"
+  ],
+  "preserved_blocks": [
+    "cover",
     "u1/reading",
     "u1/analysis",
     "u1/workbook",
     "u2/reading",
     "u2/analysis",
+    "u2/workbook",
     "u3/reading",
     "u3/analysis",
+    "u3/workbook",
     "u4/reading",
     "u4/analysis",
+    "u4/workbook",
     "u5/reading",
     "u5/analysis",
     "u5/workbook",
+    "mock1",
     "mock2",
-    "mock3",
+    "answers/quick",
     "u1/answers",
+    "u2/answers",
     "u3/answers",
     "u4/answers",
+    "u5/answers",
     "answers/mock1",
     "answers/mock2",
     "answers/mock3"
-  ],
-  "preserved_blocks": [
-    "cover",
-    "u2/workbook",
-    "u3/workbook",
-    "u4/workbook",
-    "mock1",
-    "answers/quick",
-    "u2/answers",
-    "u5/answers"
   ],
   "saved_docx_validation": {
     "status": "SAVED_CONTENT_MATCH",
@@ -81,11 +81,11 @@
       "answers/mock3"
     ],
     "format_errors": [],
-    "plan_sha256": "6621942637d4af2456e5c5685d35722c86b8cd03fbcce340f59b0266ba0312be",
+    "plan_sha256": "6f6f1479bb89d4ee6537cb7a46f1999b102dfc094adeb5529f9d9fbcfce4187d",
     "contract_sha256": "b7c4db140782f052923ea67cb6e1034725db9fd758c3aa4e93884e83cf37be4e",
     "reference_sha256": "9af8460d2af50152f0b49c92191b98f8b7fcccd8b1a459365bb073ff07c8319b",
     "format_validation_scope": "Stored OOXML properties and effective character formatting; not visual pagination or content semantics",
-    "saved_sha256": "87cf9727087dc3d7381913f423a86a93ce7f33dde7ae6b17af352c4990551fef",
+    "saved_sha256": "2c040748d4de0ffbc88790a72022b0675056f8dd56c7eaaac966bb6558964aff",
     "checked_blocks": [
       "cover",
       "u1/reading",
@@ -119,7 +119,7 @@
     "errors": [],
     "extracted": {
       "path": "/home/user/E2NEoh2/결과물/혼공독해교재_영어2_YBM(박)_2과_전체통합본.docx",
-      "sha256": "87cf9727087dc3d7381913f423a86a93ce7f33dde7ae6b17af352c4990551fef",
+      "sha256": "2c040748d4de0ffbc88790a72022b0675056f8dd56c7eaaac966bb6558964aff",
       "blocks": [
         {
           "id": "cover",
@@ -5335,7 +5335,7 @@
             },
             {
               "kind": "paragraph",
-              "text": "[요약문] The subscription economy benefits both companies and consumers, and it is especially attractive to people who now value (A) more than (B)."
+              "text": "[요약문] The subscription economy benefits both companies and consumers, and it is especially attractive to people who now value (A) ________ more than (B) ________."
             },
             {
               "kind": "paragraph",
