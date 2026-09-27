@@ -1,0 +1,495 @@
+{
+ "id": "UNIT02-L-learning-2026-09-27",
+ "kind": "learning",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "subagents:L-a(u1,u2)+L-b(u3)+L-c(u4,u5)+L-연결(cross-unit)+L-재검(recheck)",
+ "execution_id": "session_01JP1crHgUQtE68wz5D1SjUc/stage2-L (각 서브에이전트 별도 실행, 제작 맥락 미공유)",
+ "producer_note": "제작은 같은 세션의 주 실행. 검수자는 제작 대화를 보지 않은 새 서브에이전트이며, 확정 오류 반영은 제작 세션이 수행하고 별도 재검증자가 확인.",
+ "performed_at": "2026-09-27T12:30:00Z",
+ "method": "단위별 L 3명(u1+u2 / u3 / u4+u5)이 원문 PDF·스킬 규칙과 대조해 전 문장 검수, L-연결이 단위 간 연결·일관성 검수 → 제작 세션이 규칙 대조 후 반영 → L-재검이 수정부·미반영 사유 재검증 → 재검 지적 6건 반영 → check_learning_content(full)·check_book·review_preflight(full) 재실행 PASS",
+ "summary": "1차 지적 확정오류 15건·검토제안 41건 + 재검 6건. 반영 54건, 미반영(규칙 근거) 7건, 유지 판정 4건. 사용자 보고 대상: Lb-04(s32 생략 that vs 짝 구조), Lc-14(s50 seem 보어), special_s38(생략 관계사 표시 범위), Lb-09, Lc-13.",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4",
+   "u5"
+  ]
+ },
+ "bindings": {
+  "learning_content_sha256": "1710015db8c731b9c5e44625f0ec3b6482f9aec3ee1330a40213067ad1f59275",
+  "learning_final_sha256": "fc51ae8643d0e2e4b08d040cd427bbd647aaf28e774e449add3d7d9603cb1d6c",
+  "manuscript_file_sha256": "c21334cef7ee67b83da772d13d8419a400a8b03b95932083c4b6e5ca82e93f1b"
+ },
+ "records": [
+  "2단계_L_a_u1u2.json",
+  "2단계_L_b_u3.json",
+  "2단계_L_c_u4u5.json",
+  "2단계_L_연결.json",
+  "2단계_L_반영결정.json",
+  "2단계_L_재검.json"
+ ],
+ "findings": [
+  {
+   "id": "La-01",
+   "description": "La-01",
+   "status": "resolved",
+   "resolution": "반영: log in / to 분리, 오늘의 낱말 u1-w4 'log in', u1-gp1 설명·연습 지원 갱신",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-02",
+   "description": "La-02",
+   "status": "resolved",
+   "resolution": "반영: stay updated / about 분리, 오늘의 낱말 u1-w6 'stay updated', 보호 범위 축소",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-03",
+   "description": "La-03",
+   "status": "resolved",
+   "resolution": "반영: 각주·힌트·청크를 '계속 최신 정보를 알다'로 통일(자연 해석은 의역 유지)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-04",
+   "description": "La-04",
+   "status": "resolved",
+   "resolution": "반영: take part / in 분리(청크는 유지)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-05",
+   "description": "La-05",
+   "status": "resolved",
+   "resolution": "반영: whatever 뜻을 '~하는 어떤 것이든'으로 통일(각주·힌트·u1-gp3·연습 정답)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-06",
+   "description": "La-06",
+   "status": "resolved",
+   "resolution": "반영: u1-gp3 결합 문장 교정",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-07",
+   "description": "La-07",
+   "status": "resolved",
+   "resolution": "반영: s11 such as 청크 병합(영·한 모두)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-08",
+   "description": "La-08",
+   "status": "resolved",
+   "resolution": "미반영: 관계사 각주는 공식 틀 'V′하는'을 쓰고 미래 시제는 같은 문장 will V 각주가 보충. 표기 규칙 위반 아님",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-09",
+   "description": "La-09",
+   "status": "resolved",
+   "resolution": "미반영: manuscript-data.md 독립 p.p. 항목이 괄호 안내(예: '(행사가) 열린')를 허용하므로 '(~에) 기반한' 유지. 힌트 강조와 괄호 밖 뜻 '기반한'이 일치해야 하는 독립 p.p. 초점 검사도 이 표기를 전제로 함",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-10",
+   "description": "La-10",
+   "status": "resolved",
+   "resolution": "반영: not — ~지 않다",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-11",
+   "description": "La-11",
+   "status": "resolved",
+   "resolution": "반영: rise 흔한 뜻 '상승'",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-12",
+   "description": "La-12",
+   "status": "resolved",
+   "resolution": "반영: u1 흐름 1~3 라벨·내용 보완",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-13",
+   "description": "La-13",
+   "status": "resolved",
+   "resolution": "반영: s01 쉬운 풀이 원문 밖 세부 삭제",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-14",
+   "description": "La-14",
+   "status": "resolved",
+   "resolution": "반영: s14 '매달' → '정기적으로'(LX-07과 함께)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-15",
+   "description": "La-15",
+   "status": "resolved",
+   "resolution": "미반영: common-errors.md '철자가 같다고 다른 위치의 각주까지 삭제하지 않는다'에 따라 같은 문장의 다른 위치 낱말도 위치별로 제공하는 현행 유지(검사 통과)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-01",
+   "description": "Lb-01",
+   "status": "resolved",
+   "resolution": "반영: conditions 흔한 뜻 병기(LX-02와 동일)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-02",
+   "description": "Lb-02",
+   "status": "resolved",
+   "resolution": "반영: appreciate 흔한 뜻 병기",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-03",
+   "description": "Lb-03",
+   "status": "resolved",
+   "resolution": "반영: (나)안: '~하면서' 유지, u3-gp2 설명과 s33 힌트 설명에서 '결과' 표현 제거. 워크북 정답 변경 없음",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-04",
+   "description": "Lb-04",
+   "status": "resolved",
+   "resolution": "미반영·사용자 보고: 생략 that 명사절은 V′가 either enjoy … or save로 갈라져 최소 연속 표시가 불가 → 짝 구조·what 힌트 유지. review_record의 '각주로 지원' 문구를 사실대로 정정",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-05",
+   "description": "Lb-05",
+   "status": "resolved",
+   "resolution": "반영: s20 쉬운 풀이 단정 완화",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-06",
+   "description": "Lb-06",
+   "status": "resolved",
+   "resolution": "반영: s27 쉬운 풀이 원문 밖 조건 삭제",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-07",
+   "description": "Lb-07",
+   "status": "resolved",
+   "resolution": "반영: s32 쉬운 풀이 '마음껏' 삭제",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-08",
+   "description": "Lb-08",
+   "status": "resolved",
+   "resolution": "반영: rather than — ~ 대신에(기능어 한 뜻)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-09",
+   "description": "Lb-09",
+   "status": "resolved",
+   "resolution": "미반영·사용자 보고: 오늘의 낱말 personalize(동사)와 s28 personalized(형용사화 과거분사)는 다른 표제어라 ★ 연결하지 않음",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-10",
+   "description": "Lb-10",
+   "status": "resolved",
+   "resolution": "반영: their own — 그들 자신의 한 항목으로 통합",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-01",
+   "description": "Lc-01",
+   "status": "resolved",
+   "resolution": "반영: s48 It … to V — ~하는 것이",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-02",
+   "description": "Lc-02",
+   "status": "resolved",
+   "resolution": "반영: s51 It … to V — ~하는 것이",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-03",
+   "description": "Lc-03",
+   "status": "resolved",
+   "resolution": "반영: s56 have p.p. — ~했다",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-04",
+   "description": "Lc-04",
+   "status": "resolved",
+   "resolution": "반영: s57 청크 4:4로 재편(It~that 보호 유지)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-05",
+   "description": "Lc-05",
+   "status": "resolved",
+   "resolution": "반영: s57 It is expected that S′ V′ — S′(이/가) V′라고 예상된다",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-06",
+   "description": "Lc-06",
+   "status": "resolved",
+   "resolution": "반영: u5-gp2 연습 지원에 of 추가",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-07",
+   "description": "Lc-07",
+   "status": "resolved",
+   "resolution": "반영: u4-gp4 연습 정답 '할 수 있어 왔다(= 할 수 있게 되었다)'로 공식 결합과 일치",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-08",
+   "description": "Lc-08",
+   "status": "resolved",
+   "resolution": "반영: s38 쉬운 풀이 '집에서' 삭제",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-09",
+   "description": "Lc-09",
+   "status": "resolved",
+   "resolution": "반영: (가)안: s42 which 힌트 표시를 앞 동명사구까지 넓혀 선행사 판정과 일치",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-10",
+   "description": "Lc-10",
+   "status": "resolved",
+   "resolution": "반영: s43 bring A B 힌트를 과거분사 후치수식(based on) 힌트로 교체(준동사 수식 우선 규칙)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-11",
+   "description": "Lc-11",
+   "status": "resolved",
+   "resolution": "반영: s46 자연 해석 양태 보존",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-12",
+   "description": "Lc-12",
+   "status": "resolved",
+   "resolution": "반영: s46 쉬운 풀이 단정 완화",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-13",
+   "description": "Lc-13",
+   "status": "resolved",
+   "resolution": "미반영·사용자 보고: 도치된 보어의 문법 표지가 과거분사 Related라 현 강조 유지, 근거를 review_record에 기록",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-14",
+   "description": "Lc-14",
+   "status": "resolved",
+   "resolution": "유지·사용자 보고: seem 최소 보어 affordable 표시 유지, review_record 기록",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-15",
+   "description": "Lc-15",
+   "status": "resolved",
+   "resolution": "반영: s50 쉬운 풀이 가능성 표현 보존(+LX-07 '정기적으로')",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-16",
+   "description": "Lc-16",
+   "status": "resolved",
+   "resolution": "반영: u5-gp3 V-ing 자리 대입 설명",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-17",
+   "description": "Lc-17",
+   "status": "resolved",
+   "resolution": "반영: s54 which 선행사 판정을 표시(disposable packaging)와 일치",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-18",
+   "description": "Lc-18",
+   "status": "resolved",
+   "resolution": "반영: u4 흐름 '즐길 수 있다'(LX-12와 함께)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-19",
+   "description": "Lc-19",
+   "status": "resolved",
+   "resolution": "반영: u5 흐름 가능·예상 표현 보존(LX-04와 함께)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LX-01",
+   "description": "LX-01",
+   "status": "resolved",
+   "resolution": "반영: s41 tastes 흔한 뜻 병기",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LX-02",
+   "description": "LX-02",
+   "status": "resolved",
+   "resolution": "반영: Lb-01과 동일",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LX-03",
+   "description": "LX-03",
+   "status": "resolved",
+   "resolution": "반영: s58 쉬운 풀이 '예상된다' 보존",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LX-04",
+   "description": "LX-04",
+   "status": "resolved",
+   "resolution": "반영: u5 의도·결론 흐름 '예상된다'",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LX-05",
+   "description": "LX-05",
+   "status": "resolved",
+   "resolution": "반영: u3 흐름 이유 1에 s18·17번 첫째 동인 연결 추가",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LX-06",
+   "description": "LX-06",
+   "status": "resolved",
+   "resolution": "반영: u4 의도에 17번 둘째 동인 연결 추가",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LX-07",
+   "description": "LX-07",
+   "status": "resolved",
+   "resolution": "반영: s14·s50 '매달' → '정기적으로'",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LX-08",
+   "description": "LX-08",
+   "status": "resolved",
+   "resolution": "반영: s39 on — ~에서 (흔한 뜻: ~위에)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LX-09",
+   "description": "LX-09",
+   "status": "resolved",
+   "resolution": "반영: s43 personalized '개인 맞춤형의'로 통일(각주·분석 청크)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LX-10",
+   "description": "LX-10",
+   "status": "resolved",
+   "resolution": "반영: s58 we 지칭 '우리 모두'로 통일",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LX-11",
+   "description": "LX-11",
+   "status": "resolved",
+   "resolution": "미반영: 제목 연결 문장 추가는 선택 사항이며 20번 쉬운 풀이의 역할 설명 범위 밖",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LX-12",
+   "description": "LX-12",
+   "status": "resolved",
+   "resolution": "반영: Lc-18과 동일",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "special_s04",
+   "description": "special_s04",
+   "status": "resolved",
+   "resolution": "유지: L-a 판정: 규칙(보어 예외는 be동사만)대로 finds까지",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "special_s25",
+   "description": "special_s25",
+   "status": "resolved",
+   "resolution": "유지: L-b 판정: 이유(~하기 때문에)",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "special_s38",
+   "description": "special_s38",
+   "status": "resolved",
+   "resolution": "유지·사용자 보고: L-c 판정: 빈자리가 있는 to watch까지 표시 유지",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-01",
+   "description": "LR-01",
+   "status": "resolved",
+   "resolution": "반영: s54 힌트 meaning·harms 각주 기록을 선행사 disposable packaging으로 통일",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-02",
+   "description": "LR-02",
+   "status": "resolved",
+   "resolution": "반영: u4-gp3 인용을 having …부터로 넓히고 which = 앞의 동명사구로 정정",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-03",
+   "description": "LR-03",
+   "status": "resolved",
+   "resolution": "반영: s24 내부 기록의 '결과' 표현을 '~하면서'로 정정",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-04",
+   "description": "LR-04",
+   "status": "resolved",
+   "resolution": "반영: s50 쉬운 풀이 '보이다' 중복 제거: '크지 않아서 부담이 없어 보일 수 있다'",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-05",
+   "description": "LR-05",
+   "status": "resolved",
+   "resolution": "반영: Q17 해설 '계속 커질 것이므로' → '이미 삶에 깊이 자리 잡았고 앞으로도 커질 것으로 예상되므로'",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-06",
+   "description": "LR-06",
+   "status": "resolved",
+   "resolution": "반영: u4-gp4 제목 괄호를 '할 수 있어 왔다, 곧 ~할 수 있게 되었다'로 정답과 일치",
+   "recheck": "L-재검 확인 + 구조 검사 PASS"
+  }
+ ]
+}

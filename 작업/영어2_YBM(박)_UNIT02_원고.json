@@ -1708,12 +1708,12 @@
       "id": "u4-gp3",
       "sentence_id": "s42",
       "span": [
-       45,
+       18,
        101
       ],
       "title": ", which V′: 그리고 그것은 V′하다 (계속적 관계대명사)",
       "formula_key": ", which V′",
-      "explanation": "공식: , which V′ — 그리고 그것은 V′하다. which = 앞 절 내용(다양한 선택과 맞춤화를 가지는 것), in turn = 결과적으로, V′ = enhances(높이다), 목적어 = their satisfaction(그들의 만족). → 그리고 그것은 결과적으로 그들의 만족을 높인다. 콤마 뒤 which는 앞말을 받아 설명을 이어 간다.",
+      "explanation": "공식: , which V′ — 그리고 그것은 V′하다. which = 앞의 동명사구(다양한 선택과 맞춤화를 가지는 것), in turn = 결과적으로, V′ = enhances(높이다), 목적어 = their satisfaction(그들의 만족). → 그리고 그것은 결과적으로 그들의 만족을 높인다. 콤마 뒤 which는 앞말을 받아 설명을 이어 간다.",
       "practice": {
        "span": [
         60,
@@ -1739,7 +1739,7 @@
        73,
        119
       ],
-      "title": "have p.p.: ~해 왔다 (have been able to V: ~할 수 있게 되었다)",
+      "title": "have p.p.: ~해 왔다 (have been able to V: ~할 수 있어 왔다, 곧 ~할 수 있게 되었다)",
       "formula_key": "have p.p.",
       "explanation": "공식: have p.p. — ~해 왔다. p.p. = been(be의 p.p.형), be able to V = ~할 수 있다, V = do(하다), 목적어 = numerous things(수많은 일들). → 수많은 일들을 할 수 있어 왔다, 곧 할 수 있게 되었다. 기기가 발전한 뒤로 지금까지 계속 그렇다는 뜻이다.",
       "supplemental": {
@@ -1991,7 +1991,7 @@
       "sentence_id": "s50",
       "explanatory_sentences": [
        "50번 문장은 49번에서 말한 재정적 부담이 어떻게 생기는지 보여 준다.",
-       "구독 하나의 요금은 크지 않아 보여서 부담이 없어 보일 수 있다.",
+       "구독 하나의 요금은 크지 않아서 부담이 없어 보일 수 있다.",
        "하지만 음악, 영상, 옷처럼 여러 개를 구독하면 정기적으로 나가는 돈이 합쳐져 금방 커질 수 있다.",
        "add up은 작은 것들이 더해져 점점 불어난다는 뜻이다."
       ]
@@ -12111,7 +12111,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "단일 주절 offers + 콤마 뒤 분사구 enabling A to V(구독 경제가 선택지를 제공한 결과) + based on …(personalize의 기준). a diverse range of는 같은 어순 ~의 범위 표현. 힌트 1개(enable A to V; 분사 연결은 한국어 ~하면서로 함께 보임). 관계사·수동 없음.",
+    "review_record": "단일 주절 offers + 콤마 뒤 분사구 enabling A to V(선택지를 제공하면서 덧붙는 일, ~하면서) + based on …(personalize의 기준). a diverse range of는 같은 어순 ~의 범위 표현. 힌트 1개(enable A to V; 분사 연결은 한국어 ~하면서로 함께 보임). 관계사·수동 없음.",
     "required_breaks": [],
     "protected_spans": [
      {
@@ -24902,7 +24902,7 @@
        113
       ],
       "lemma": "harm",
-      "review_record": "주어 which(일회용 포장 사용의 증가)(3인칭 단수)의 일반동사 harms → 원형 harm."
+      "review_record": "주어 which(일회용 포장)(3인칭 단수)의 일반동사 harms → 원형 harm."
      }
     },
     {
@@ -25065,7 +25065,7 @@
       80,
       113
      ],
-     "meaning_ko": "일회용 포장(의 사용 증가), 그리고 그것은 (환경을) 해친다",
+     "meaning_ko": "일회용 포장, 그리고 그것은 (환경을) 해친다",
      "explanation": "콤마 뒤 계속적 관계대명사 which가 바로 앞의 일회용 포장(disposable packaging)을 받아 설명을 덧붙인다(추가 설명이라 그리고). 주격이라 V′ harms까지 표시하고 목적어 the environment는 제외.",
      "display_pairs": [
       {
@@ -29829,7 +29829,7 @@
     ],
     "answer": 4,
     "evidence": "(C) “This can result in excessive consumption …”의 This가 주어진 글의 ‘여러 서비스에 쉽게 가입하고 많이 쓰게 되는 것’을 가리킴 / (A) “Related to the concern of overconsumption is the financial burden …” / (B) “Additionally, … environmental pollution.” → “Despite the potential limitations …”",
-    "explanation": "주어진 글은 과소비 우려와 그 원인(쉽게 여러 서비스에 가입하고 많이 씀)을 말한다. (C) This로 그것이 과도한 소비로 이어진다고 하고 필요한 서비스만 구독하라고 한다. (A) 과소비 우려와 관련된 재정적 부담을 말하고, (B) Additionally로 환경 오염을 덧붙인 뒤 한계에도 불구하고 구독이 계속 커질 것이므로 현명한 소비자가 되자고 결론짓는다. 따라서 (C)-(A)-(B)이다.",
+    "explanation": "주어진 글은 과소비 우려와 그 원인(쉽게 여러 서비스에 가입하고 많이 씀)을 말한다. (C) This로 그것이 과도한 소비로 이어진다고 하고 필요한 서비스만 구독하라고 한다. (A) 과소비 우려와 관련된 재정적 부담을 말하고, (B) Additionally로 환경 오염을 덧붙인 뒤 한계에도 불구하고 구독이 이미 삶에 깊이 자리 잡았고 앞으로도 커질 것으로 예상되므로 현명한 소비자가 되자고 결론짓는다. 따라서 (C)-(A)-(B)이다.",
     "wrong_reasons": [
      {
       "number": 1,

@@ -228,7 +228,7 @@ def sentences(T):
            label='enable A to V 구문', links=[(['enabling', 'to'], ['이', '수 있게'])], emphasis_policy='ko-only-verb-construction',
            meaning='개인들이 (그들의 경험을) 개인 맞춤화할 수 있게 해 주면서',
            explanation='분사 enabling이 이끄는 부분에서 enable A to V: A가 ~할 수 있게 해 주다. A=individuals, to V=to personalize. 목적어 their experiences는 표시에서 제외.')
-    s.review = ('단일 주절 offers + 콤마 뒤 분사구 enabling A to V(구독 경제가 선택지를 제공한 결과) + based on …(personalize의 기준). '
+    s.review = ('단일 주절 offers + 콤마 뒤 분사구 enabling A to V(선택지를 제공하면서 덧붙는 일, ~하면서) + based on …(personalize의 기준). '
                 'a diverse range of는 같은 어순 ~의 범위 표현. 힌트 1개(enable A to V; 분사 연결은 한국어 ~하면서로 함께 보임). 관계사·수동 없음.')
     out.append(s)
 

@@ -327,9 +327,9 @@ def analysis(_):
                           'formula_support': {'en': 'make it easy for A to V', 'ko': 'A(이/가) ~하는 것을 쉽게 만들다'},
                           'support': [('s40', 'companies'), ('s40', 'offer'), ('s40', 'customized'), ('s40', 'products'), ('s40', 'services')],
                           'answer_ko': '기업들이 맞춤형 제품과 서비스를 제공하는 것을 쉽게 만들다'}},
-            {'id': 'u4-gp3', 'sentence_id': 's42', 'span': 'customization, which in turn enhances their satisfaction',
+            {'id': 'u4-gp3', 'sentence_id': 's42', 'span': 'having diverse choices and customization, which in turn enhances their satisfaction',
              'title': ', which V′: 그리고 그것은 V′하다 (계속적 관계대명사)', 'formula_key': ', which V′',
-             'explanation': '공식: , which V′ — 그리고 그것은 V′하다. which = 앞 절 내용(다양한 선택과 맞춤화를 가지는 것), '
+             'explanation': '공식: , which V′ — 그리고 그것은 V′하다. which = 앞의 동명사구(다양한 선택과 맞춤화를 가지는 것), '
                             'in turn = 결과적으로, V′ = enhances(높이다), 목적어 = their satisfaction(그들의 만족). '
                             '→ 그리고 그것은 결과적으로 그들의 만족을 높인다. 콤마 뒤 which는 앞말을 받아 설명을 이어 간다.',
              'practice': {'span': 'which in turn enhances their satisfaction',
@@ -337,7 +337,7 @@ def analysis(_):
                           'support': [('s42', 'in turn'), ('s42', 'enhance'), ('s42', 'their'), ('s42', 'satisfaction')],
                           'answer_ko': '그리고 그것은 결과적으로 그들의 만족을 높인다'}},
             {'id': 'u4-gp4', 'sentence_id': 's37', 'span': 'consumers have been able to do numerous things',
-             'title': 'have p.p.: ~해 왔다 (have been able to V: ~할 수 있게 되었다)', 'formula_key': 'have p.p.',
+             'title': 'have p.p.: ~해 왔다 (have been able to V: ~할 수 있어 왔다, 곧 ~할 수 있게 되었다)', 'formula_key': 'have p.p.',
              'explanation': '공식: have p.p. — ~해 왔다. p.p. = been(be의 p.p.형), be able to V = ~할 수 있다, V = do(하다), 목적어 = numerous things(수많은 일들). '
                             '→ 수많은 일들을 할 수 있어 왔다, 곧 할 수 있게 되었다. 기기가 발전한 뒤로 지금까지 계속 그렇다는 뜻이다.',
              'supplemental': {'function': ('s37', 'have p.p.', 0),

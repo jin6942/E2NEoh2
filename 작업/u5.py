@@ -345,14 +345,14 @@ def sentences(T):
     s.g('disposable', 'disposable', '일회용의')
     s.g('packaging', 'packaging', '포장', at=s.text.index('packaging,'))
     rel = s.g('which', ', which V′', '그리고 그것은 V′하다 (계속적 관계대명사)')
-    s.g('harms', 'harm', '해치다', verb_form=v3(s, 'harms', 'harm', 'which(일회용 포장 사용의 증가)'))
+    s.g('harms', 'harm', '해치다', verb_form=v3(s, 'harms', 'harm', 'which(일회용 포장)'))
     s.g('environment', 'environment', '환경')
     s.brk('of', 'postnominal-preposition', 'of products는 앞 명사 The regular delivery를 뒤에서 꾸미는 전치사구')
     s.brk('in', 'postnominal-preposition', 'in packaging materials는 앞 명사 products를 뒤에서 꾸미는 전치사구')
     s.brk('of', 'postnominal-preposition', 'of disposable packaging은 앞 명사 the use를 뒤에서 꾸미는 전치사구', after=s.text.index('use'))
     s.hint('disposable packaging, [which harms]', '일회용 포장, [그리고 그것은 해친다]', span='disposable packaging, which harms',
            label='계속적 관계대명사 which', links=[(['which'], ['그리고 그것은'])],
-           meaning='일회용 포장(의 사용 증가), 그리고 그것은 (환경을) 해친다',
+           meaning='일회용 포장, 그리고 그것은 (환경을) 해친다',
            explanation='콤마 뒤 계속적 관계대명사 which가 바로 앞의 일회용 포장(disposable packaging)을 받아 설명을 덧붙인다(추가 설명이라 그리고). 주격이라 V′ harms까지 표시하고 목적어 the environment는 제외.')
     s.relative_ids = [rel['id']]
     s.review = ('주어 The regular delivery of products in packaging materials(표시 The regular delivery) + can increase + 계속적 관계대명사 which(표시한 선행사 disposable packaging을 받음, 2단계 L 검수 Lc-17로 판정 통일). '
@@ -557,7 +557,7 @@ def analysis(_):
                 '편리함이 오히려 지나치게 쓰는 원인이 될 수 있다는 뜻이다.']},
             {'sentence_id': 's50', 'explanatory_sentences': [
                 '50번 문장은 49번에서 말한 재정적 부담이 어떻게 생기는지 보여 준다.',
-                '구독 하나의 요금은 크지 않아 보여서 부담이 없어 보일 수 있다.',
+                '구독 하나의 요금은 크지 않아서 부담이 없어 보일 수 있다.',
                 '하지만 음악, 영상, 옷처럼 여러 개를 구독하면 정기적으로 나가는 돈이 합쳐져 금방 커질 수 있다.',
                 'add up은 작은 것들이 더해져 점점 불어난다는 뜻이다.']},
             {'sentence_id': 's58', 'explanatory_sentences': [
