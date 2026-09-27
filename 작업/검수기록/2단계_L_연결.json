@@ -1,0 +1,133 @@
+{
+ "reviewer": "L-연결",
+ "scope": {
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4",
+   "u5"
+  ],
+  "kind": "cross-unit"
+ },
+ "rules_read": [
+  "작업/스킬수정본/gyogwaseo-unified/SKILL.md",
+  "references/editorial-core.md (공통 단위·각주·오늘의 낱말·유반 관련 부분)",
+  "references/analysis-content.md (원문 경계와 공통 학습 단위, 대명사와 지칭 대상, 공통 학습 단위별 지문분석: 글의 의도·흐름·유의어·반의어, 각 문장 쉬운 풀이 1~8번과 체크리스트)",
+  "references/gloss-rules.md (기본 형식과 순서의 반복 제공·흔한 뜻 병기, 대명사, 금지와 검수, 각주 ★와 오늘의 낱말)",
+  "references/proper-nouns.md (첫 등장 규칙) 및 scripts/check_learning_content.py의 proper-name-repeat 판정(같은 독립 원문 기준)",
+  "references/review-efficiency.md 'L·J/K 배정과 전체 연결'",
+  "references/split-delivery.md (분권이 단위별이 아니라 자료 종류별임을 확인)"
+ ],
+ "findings": [
+  {
+   "id": "LX-01",
+   "sentence_id": "s41",
+   "field": "[각주] tastes",
+   "current": "tastes — 취향들",
+   "problem": "같은 낱말 tastes가 u3 s25에서는 'tastes — 취향들 (흔한 뜻: 맛)'로 흔한 뜻을 함께 주는데 u4 s41에서는 흔한 뜻이 빠졌다. gloss-rules '문맥 뜻이 흔한 뜻과 다르면 흔한 뜻을 뒤에 함께 제공한다'와 '같은 표현이 다른 문장에 나오면 다시 제공한다'에 어긋나고 단위 간 표기가 불일치한다.",
+   "proposed_fix": "tastes — 취향들 (흔한 뜻: 맛)",
+   "severity": "확정오류"
+  },
+  {
+   "id": "LX-02",
+   "sentence_id": "s28",
+   "field": "[각주] conditions",
+   "current": "conditions — 상태들",
+   "problem": "바로 앞 s27의 같은 낱말은 'conditions — 상태들 (흔한 뜻: 조건들)'인데 s28에서는 흔한 뜻이 빠졌다(같은 u3 안이지만 같은 낱말 표기 일관성 문제로 함께 보고). 위 규칙과 같은 이유로 불일치.",
+   "proposed_fix": "conditions — 상태들 (흔한 뜻: 조건들)",
+   "severity": "확정오류"
+  },
+  {
+   "id": "LX-03",
+   "sentence_id": "s58",
+   "field": "[각 문장 쉬운 풀이] 58번 문장",
+   "current": "56~57번에서 구독 경제는 한계가 있어도 계속 커질 것이라고 했다.",
+   "problem": "s57 원문은 'It is expected that new subscription services will be continuously provided ...'로 '예상된다'는 전망이고, s56은 현재 상황(삶에 자리 잡았고 더 많은 기업이 뛰어들고 있다)이다. '계속 커질 것이라고 했다'는 예상의 단서를 지워 원문보다 강한 단정이 된다(analysis-content 쉬운 풀이 8번 '원문보다 강한 단정' 금지).",
+   "proposed_fix": "56~57번에서 구독 서비스는 한계가 있어도 이미 우리 삶에 깊이 자리 잡았고, 앞으로도 새로운 분야에서 계속 나올 것으로 예상된다고 했다.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "LX-04",
+   "sentence_id": "unit u5",
+   "field": "[글의 의도/요지]·[글의 흐름] (결론) 56~58",
+   "current": "[글의 의도/요지] … 구독 경제가 계속 커질 것이므로 필요한 서비스만 받는 현명한 소비자가 되어야 한다고 주장하는 글이다. / [글의 흐름] (결론) 본문 · 원문 문장 56~58 — 이런 한계에도 구독은 이미 우리 삶에 깊이 자리 잡았고 앞으로 더 많은 분야로 퍼질 것이다.",
+   "problem": "LX-03과 같은 근거: s57은 '예상된다(It is expected)'인데 의도·흐름 요약이 확정 사실처럼 단정한다. 결론 단락 첫 문장 s56(현재의 정착)과 s57(전망)의 차이가 흐려진다.",
+   "proposed_fix": "[글의 의도/요지] … 구독 경제가 이미 삶에 깊이 자리 잡았고 앞으로도 커질 것으로 예상되므로 필요한 서비스만 받는 현명한 소비자가 되어야 한다고 주장하는 글이다. / [글의 흐름] (결론) … 이런 한계에도 구독은 이미 우리 삶에 깊이 자리 잡았고, 앞으로 더 많은 분야로 퍼질 것으로 예상된다.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "LX-05",
+   "sentence_id": "unit u3",
+   "field": "[글의 흐름] (이유 1) 18~22 및 [글의 의도/요지]",
+   "current": "(이유 1: 소유보다 경험) 본문 · 원문 문장 18~22 — 사람들은 물건을 갖는 것보다 경험을 중시하게 되었고, 구독은 소유하지 않고도 서비스를 쓸 수 있게 해 주어 매력적이다. 음악 스트리밍과 의류 구독이 그 예다.",
+   "problem": "s18(구독 경제는 요즘 사람들이 소비하는 방식과 밀접하다)은 u3 전체(s19·s23·s29의 세 가지 소비 경향)를 여는 중심 문장이며 s17이 예고한 첫째 동인 '소비 추세의 변화'를 받는다. 그런데 흐름 1단계 요약에 s18 내용과 s17과의 연결이 없고 '이유 1'에만 묶여, s17 쉬운 풀이의 '뒤 소제목들에서 이 두 가지를 하나씩 자세히 다룬다'와 u3 의도·흐름이 이어지지 않는다(글의 흐름은 앞뒤 논리 관계가 드러나야 함).",
+   "proposed_fix": "(이유 1: 소유보다 경험) 본문 · 원문 문장 18~22 — 구독 경제는 요즘 사람들이 소비하는 방식, 곧 17번에서 말한 첫째 동인과 밀접하게 관련된다. 먼저 사람들은 물건을 갖는 것보다 경험을 중시하게 되었고, 구독은 소유하지 않고도 서비스를 쓸 수 있게 해 주어 매력적이다. 음악 스트리밍과 의류 구독이 그 예다. (의도/요지는 필요하면 앞에 '17번에서 예고한 첫째 동인인 소비 방식의 변화를 다루며,'를 덧붙임)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "LX-06",
+   "sentence_id": "unit u4",
+   "field": "[글의 의도/요지]",
+   "current": "디지털 기기와 온라인 플랫폼의 발전 덕분에 소비자는 원하는 서비스를 쉽게 이용하게 되었고, 기업은 인공지능과 빅데이터로 소비자에게 맞춤형 서비스를 제공해 만족을 높인다는 점을 설명하는 글이다.",
+   "problem": "u4 소제목(Online platforms drive the subscription economy)은 s17이 예고한 둘째 동인 '온라인 플랫폼의 급속한 성장'을 다루는 부분인데, u4 의도·흐름 어디에도 이 연결이 없다. u2 s17 쉬운 풀이의 예고와 짝을 맞추면 단위 간 흐름이 분명해진다.",
+   "proposed_fix": "17번 문장에서 예고한 둘째 동인인 온라인 플랫폼의 성장을 다루는 글로, 디지털 기기와 온라인 플랫폼의 발전 덕분에 소비자는 원하는 서비스를 쉽게 이용하게 되었고, 기업은 인공지능과 빅데이터로 소비자에게 맞춤형 서비스를 제공해 만족을 높인다는 점을 설명한다.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "LX-07",
+   "sentence_id": "s14, s50",
+   "field": "[각 문장 쉬운 풀이] 14번·50번 문장",
+   "current": "s14: 구독자는 매달 정해진 돈을 내기 때문에 기업은 수입을 미리 예상할 수 있다. / s50: 하지만 음악, 영상, 옷처럼 여러 개를 구독하면 매달 나가는 돈이 합쳐져 금방 커진다.",
+   "problem": "원문은 'a regular subscription'(s12)·'the cost of individual subscriptions'(s50)로 '정기적'일 뿐 '매달'이라는 주기를 말하지 않는다. 두 단위가 같은 가정을 반복해 원문에 없는 조건을 사실처럼 제시한다(쉬운 풀이 7·8번). 뜻은 크게 틀리지 않아 검토제안으로 둔다.",
+   "proposed_fix": "s14: 구독자는 정해진 돈을 정기적으로 내기 때문에 기업은 수입을 미리 예상할 수 있다. / s50: 하지만 음악, 영상, 옷처럼 여러 개를 구독하면 정기적으로 나가는 돈이 합쳐져 금방 커진다.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "LX-08",
+   "sentence_id": "s39",
+   "field": "[각주] on",
+   "current": "on — ~에서",
+   "problem": "u1 s01의 같은 구 'on her smartphone'은 'on — ~으로 (흔한 뜻: ~위에)'로 문맥 뜻과 흔한 뜻을 함께 주는데, u4 s39 'on their smartphones or other digital devices'는 흔한 뜻 없이 '~에서'만 준다. s39 자연 해석도 '스마트폰이나 다른 디지털 기기로'여서 각주·분석 끊어읽기(기기들에서)와 자연 해석의 조사가 갈린다.",
+   "proposed_fix": "최소 수정: on — ~에서 (흔한 뜻: ~위에). (s01과 완전히 맞추려면 on — ~으로 (흔한 뜻: ~위에)로 하고 분석 끊어읽기 한국어를 '그들의 스마트폰이나 다른 디지털 기기들로'로 함께 고침)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "LX-09",
+   "sentence_id": "s43",
+   "field": "[각주] personalized 및 [분석 끊어읽기 한국어]",
+   "current": "personalized — 개인 맞춤화된 / 분석: 개인 맞춤화된 의류 스타일을 제안하는 것 같은",
+   "problem": "같은 형용사 personalized가 u2 s15 '개인 맞춤형의, 개인에게 맞춘', u3 s28 '개인 맞춤형의', u4 s43 '개인 맞춤화된'으로 표기가 갈린다. s43 자연 해석은 '개인 맞춤 의류 스타일'. 뜻은 통하지만 핵심 용어 계열(personalization 개인 맞춤화 / personalize 개인 맞춤화하다 / personalized 개인 맞춤형의)의 표기 통일을 권한다.",
+   "proposed_fix": "personalized — 개인 맞춤형의 / 분석: 개인 맞춤형 의류 스타일을 제안하는 것 같은",
+   "severity": "검토제안"
+  },
+  {
+   "id": "LX-10",
+   "sentence_id": "s58",
+   "field": "[각주] we",
+   "current": "we — 우리는 (글쓴이와 독자를 포함한 소비자들)",
+   "problem": "결론 단락 첫 문장 s56은 'our — 우리의 (글쓴이와 독자를 포함한 우리 모두)'인데 같은 단락 s58은 we의 지칭 대상을 '소비자들'로 적어 같은 '우리'의 지칭이 다르게 표기된다. s58은 'we … become wise consumers'라서 we=소비자들로 적으면 '소비자들이 현명한 소비자가 된다'로 읽혀 어색하다.",
+   "proposed_fix": "we — 우리는 (글쓴이와 독자를 포함한 우리 모두)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "LX-11",
+   "sentence_id": "s20",
+   "field": "[각 문장 쉬운 풀이] 20번 문장",
+   "current": "20번 문장은 19번에서 말한 변화가 왜 구독 경제에 유리한지 설명한다. … 그래서 경험을 중시하는 사람들에게 구독 경제가 매력적으로 보인다.",
+   "problem": "s20 'access … without the requirement of ownership'은 교재 표지·제목 'The Subscription Economy: From Ownership to Access(구독 경제: 소유에서 접근으로)'의 핵심을 직접 말하는 문장인데, 어느 단위의 의도·흐름·쉬운 풀이에도 제목과의 연결이 없다. 해석은 access를 '이용'으로, 제목은 '접근'으로 옮겨 학생이 둘을 연결하기 어렵다.",
+   "proposed_fix": "20번 풀이 끝에 한 문장 추가: 글의 제목 ‘소유에서 접근으로’는 바로 이렇게 물건을 갖지 않고 이용할 권리를 얻는 쪽으로 바뀐 것을 가리킨다.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "LX-12",
+   "sentence_id": "unit u4",
+   "field": "[글의 흐름] (소비자의 편리함) 37~39",
+   "current": "예전에는 극장에 가거나 비디오를 사야 했지만, 지금은 누구나 구독 플랫폼으로 수많은 영화를 즐긴다.",
+   "problem": "s39 원문은 'whoever wants to watch a movie can access … and enjoy'로 '원하면 누구나 즐길 수 있다'는 가능성이다. '누구나 … 즐긴다'는 조건(원하는 사람)과 양태(can)를 지워 사실 단정이 된다.",
+   "proposed_fix": "예전에는 극장에 가거나 비디오를 사야 했지만, 지금은 영화를 보고 싶은 사람은 누구나 구독 플랫폼으로 수많은 영화를 즐길 수 있다.",
+   "severity": "검토제안"
+  }
+ ],
+ "checked_ok_summary": "(1) 원문 대조: pypdfium2로 권위 PDF 1~4쪽 왼쪽 단을 추출해 58문장 모두 공백 무시 문자 일치 확인. 제목 'The Subscription Economy: From Ownership to Access', 소제목 4개와 위치(s07·s18·s37·s44 앞), 단락 13개(p01~p13)와 단위 구성 u1 s01~06 / u2 s07~17 / u3 s18~36 / u4 s37~43 / u5 s44~58(소제목 없는 결론 단락 p13 s56~58 포함)이 원문과 일치. (2) 단위 경계 지시어: s07 it=구독 경제, s09 it=구독 기반 비즈니스 모델 개념, s10 these business models, s12 these benefits(=s11 지속적 가치), s20 This/them/it, s25 This aspect(=s24 맞춤화), s35 they, s36 it=업그레이드, s38 they=과거의 사람들, s40 these platforms(=s39 구독 플랫폼), s43 them/their=고객들, s47 This, s51 these subscriptions, s55 this problem, s56 they=구독 서비스들 모두 각주·힌트 참조괄호·자연 해석에서 올바름. s18·s37·s44는 대명사 없음. (3) 쉬운 풀이 교차 참조 번호(5→4, 11→10, 14→13, 17 예고→u3·u4, 20→19, 27→26, 32→30·31, 38→37·39, 42→41, 46→45, 50→49, 58→56~57)가 모두 실제 문장과 맞고, s17 '뒤 소제목들에서 두 동인을 다룬다'는 u3(소비 경향)·u4(온라인 플랫폼) 구성과 일치. 다섯 단위 의도·흐름(도입 사례→확산·이점·동인→인기 이유→온라인 플랫폼→한계와 결론) 사이 모순·중복 없음(u3 s33과 u4의 플랫폼 내용 겹침은 원문 자체의 겹침). 각 단위 흐름은 모든 문장을 원문 순서로 한 번씩 포함. (4) 용어 통일: subscription 구독, subscription economy 구독 경제, subscription service 구독 서비스, subscription model 구독 모델, business model 비즈니스 모델, platform 플랫폼, consumer 소비자, customer 고객, company 기업, provide/offer 제공하다, own 소유하다·ownership 소유, subscribe to ~을 구독하다, customization 맞춤화, enhance 높이다, satisfaction 만족, convenience 편리함, delivery 배송, latest 최신의, whoever·make it easy for A to V·by V-ing·It … to V의 각주·힌트·구문 이름표가 단위 간 일관. access 명사(s11·s20 접근, 이용 (권한))와 동사(s39 접속하다, 이용하다), own 동사/형용사(s24 자신의), expand 타동/자동(s04/s10), review 복습하다/검토하다, concern 고민/우려, individual 개인의/개별의의 뜻 차이는 문맥상 정당. advantages 이점(s13)/장점(s44)은 단점과 짝을 이루는 s44 문맥상 허용. (5) 오늘의 낱말 5단위 40개에 단위 간 중복 없음, 단위 안 반복 출현(devices, satisfaction, overconsumption)의 ★ 대응 정상. 유의어·반의어 15세트 표제어 중복 없음, 반의어 limited·uniform·reusable의 뜻이 해당 원문 각주와 일치. (6) s07의 Jiyun 재각주 생략은 같은 독립 원문(src) 안 첫 등장 규칙(check_learning_content의 proper-name-repeat 기준)에 맞고, 분권도 단위별이 아니라 자료 종류별이라 문제없음. 수정인계의 L 확인 요청 ①~③(s25 as, s38 생략 관계사 범위, s04 whatever 힌트)은 단위 문장 세부라 단위 검수자 범위로 남김."
+}
