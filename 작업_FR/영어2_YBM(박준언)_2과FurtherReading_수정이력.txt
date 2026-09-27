@@ -1,0 +1,29 @@
+[수정 이력] 영어2 YBM(박준언) 2과 Further Reading — 누적 기록(삭제하지 않음)
+
+2026-09-27 작업 시작 — 사용자 지시 “이제 futher reading작업하자.”
+- 사용자 결정(질문 응답):
+  ① 결과물 “별도 교재 (추천)”: 2과 본문 교재(출고 완료)는 건드리지 않고 표지부터 정답까지 따로 제작.
+  ② 단위 “2단위 (추천)”: u1 = 단락 p01~p02(s01~s12, 물건의 행복이 빨리 사라지는 이유) / u2 = 단락 p03~p04(s13~s20, 경험이 오래가는 행복을 주는 이유).
+     ※ 질문 때 단락별 문장 수를 7·9·4·5로 잘못 안내했으나 실제는 5·7·3·5(총 20문장). 2단위 구성은 그대로 유효.
+  ③ 문제 “워크북+모의 1회 (추천)”: 단위당 워크북 실전문제 1개(2문항) + 미니 모의고사 1회 7문항(일반 5 + 공유 장문 2). assessment.scope = custom(사용자 지시 기록).
+  ④ 진행 “본문과 동일 (추천)”: 제작 1·3·5 + 독립 검수 2·4·6(서브에이전트, S·R은 기계 대조) + 최종 출고, Word 확인은 본문처럼 제외.
+  ⑤ 파일명 “스킬 사본 1줄 수정 (추천)”: 작업/스킬수정본/gyogwaseo-unified/scripts/split_book.py의 교재 기본 이름 검사에 ‘N과FurtherReading’ 허용을 추가(공통 스킬 원본은 수정하지 않음).
+     기본 이름: 혼공독해교재_영어2_YBM(박)_2과FurtherReading.
+- 작업 폴더: 작업_FR/ (2과 본문 작업/ 폴더와 분리). 공통 도구 author.py와 스킬 사본은 작업/에서 사용.
+
+2026-09-27 1단계 해석·분석 제작
+- 원문 전사: PDF 5쪽 텍스트층과 섹션 표시·제목·20문장 1,544자 문자 단위 완전 일치. 단락 4개 들여쓰기 확인. 인용문은 인용 안 마침표 기준으로 문장 분할.
+- 축약형 처리: it’s·there’s·That’s는 S/V에서 V: ’s(is), we’ve seen·done·been은 V′: ’ve seen 등. 각주는 it’s (= it is), there’s (= there is), That’s because S′ V′, have p.p.(we’ve = we have)로 토큰 전체를 덮음.
+- 검사 중 수정: s04 보어 that절 힌트가 관계절 힌트를 포함해 ‘포함 힌트 합치기’ 위반 → 필수 관계사 힌트만 유지(that절은 각주·u1-gp2). s15 짝 구조 힌트(not A but B)는 표시 형식·대명사 참조가 겹쳐 제외(u2-gp2로 지원).
+- 자체검수 1회 수정 3건: s03 it’s·s12 there’s 각주 괄호 중복 정리(표제어로 이동), s14 because 힌트에 연결동사 become의 최소 보어 a part 추가(“경험들이 되기 때문이다” 뜻 불완전 해소).
+- 재검증: check_learning_content(learning) STRUCTURE_PASS(2단위·20문장·194각주), review_preflight(learning) 진단 0건, build_book(learning, create) 저장본 SAVED_CONTENT_MATCH·format PASS.
+
+2026-09-27 3단계 워크북·문제 제작
+- 편성(custom): Q01 워크북 u1 주제(s01~s12), Q02 워크북 u2 요지(s10~s20), 모의 1회 Q03 내용 불일치(s01~s12) · Q04 함축 raising the bar(s01~s14) · Q05 요약(s02~s15) · Q06 요지(s04~s15) · Q07 주장(s01~s15) · Q08 제목·Q09 어휘(공유 장문 s01~s20).
+- 회차 편성 원칙: 공유 장문이 전체 지문이라 같은 회 일반 문항에 빈칸·순서·삽입·무관 유형을 쓰지 않음(장문에서 답이 드러남). 어휘 표적은 일반 문항 지문(모두 s01~s15)에 없는 s16~s19에만 둠.
+- 분량: 9문항 모두 고2 동유형 표본 이상(independent_length_review_required 없음). 정답: Q01 ③ Q02 ⑤ / Q03 ② Q04 ④ Q05 ① Q06 ③ Q07 ⑤ Q08 ② Q09 ④.
+- 재검증: check_book STRUCTURE_PASS(9문항), review_preflight(full) 경고 0, build_book(full, patch) 저장본 SAVED_CONTENT_MATCH·format PASS(학습부 4블록 보존).
+
+2026-09-27 5단계 통합 정리
+- LibreOffice 예비 렌더 24쪽(작업_FR/예비렌더_LibreOffice). 표지: 2개 문단·본문 20문장·전체 9문항, “워크북 실전문제 2문항 + 미니 모의고사 7문항×1회”. 쪽 머리 출처 표시 ‘Further Reading’. 표지에는 과 표시 ‘2과’와 제목만 있고 ‘Further Reading’ 글자는 없음(표지 형식 고정).
+- 검수 입력 자료 생성: 작업_FR/검수입력/L_u1·L_u2.json, Q_blind_전체.json.

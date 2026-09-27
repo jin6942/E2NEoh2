@@ -1,0 +1,975 @@
+{
+  "status": "STRUCTURE_PASS",
+  "scope": "full",
+  "lesson_identity": {
+    "number": 2,
+    "kind": "lesson",
+    "internal_id": "UNIT02",
+    "display": "2과"
+  },
+  "source_checks": [
+    {
+      "issues": [],
+      "subheading_count": 0,
+      "reviewed_boundary_count": 0,
+      "review_evidence": "REVIEWER_SUPPLIED_EXTERNAL_SOURCE_BYTES_NOT_CHECKED"
+    }
+  ],
+  "source_count": 1,
+  "unit_count": 2,
+  "sentence_count": 20,
+  "gloss_count": 194,
+  "shortages": [],
+  "sv_lines": {
+    "src/s01": "S: A long-term study, V: reached ／ V: Don’t spend",
+    "src/s02": "S: We, V: assume ／ [that] S′: the happiness, V′: will last ／ [(that)] S′: we, V′: get",
+    "src/s03": "S: it, V: ’s",
+    "src/s04": "S: The trouble, V: is ／ [that] S′: the happiness, V′: fades ／ [(that)] S′: they, V′: provide",
+    "src/s05": "S: three critical reasons, V: are",
+    "src/s06": "S: we, V: get",
+    "src/s07": "S: What once seemed novel and exciting, V: becomes ／ [What] V′: seemed",
+    "src/s08": "S: we, V: keep",
+    "src/s09": "S: New purchases, V: lead",
+    "src/s10": "[As soon as] S′: we, V′: get ／ S: we, V: look",
+    "src/s11": "S: possessions, V: stimulate",
+    "src/s12": "S: We, V: buy and are ／ [until] S′: a friend, V′: buys ／ [and] S: someone, V: ’s",
+    "src/s13": "S: Gilovich and other researchers, V: have found ／ [that] S′: experiences, V′: deliver",
+    "src/s14": "S: That, V: ’s ／ [because] S′: experiences, V′: become",
+    "src/s15": "S: We, V: are ／ [but] S: we, V: are ／ [(that)] S′: we, V′: ’ve seen ／ [(that)] S′: we, V′: ’ve done ／ [(that)] S′: we, V′: ’ve been",
+    "src/s16": "S: Our experiences, V: are ／ S: Gilovich, V: says",
+    "src/s17": "S: You, V: can like",
+    "src/s18": "S: You, V: can think ／ [that] S′: part, V′: is connected ／ [but] S: they, V: remain",
+    "src/s19": "S: your experiences, V: are",
+    "src/s20": "S: We, V: are"
+  },
+  "analysis_bodies": {
+    "status": "STRUCTURE_VALIDATED",
+    "semantic_review": "NOT_PERFORMED",
+    "standalone_model_translation_section": false,
+    "units": [
+      {
+        "unit_number": 1,
+        "source_id": "src",
+        "role": "analysis_reading_body",
+        "sentences": [
+          {
+            "source_id": "src",
+            "sentence_id": "s01",
+            "original": "A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 17
+              },
+              {
+                "start": 18,
+                "end": 47
+              },
+              {
+                "start": 48,
+                "end": 70
+              },
+              {
+                "start": 71,
+                "end": 93
+              },
+              {
+                "start": 94,
+                "end": 134
+              },
+              {
+                "start": 135,
+                "end": 157
+              },
+              {
+                "start": 158,
+                "end": 168
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "A long-term study",
+                  "conducted by Thomas Gilovich,",
+                  "a psychology professor",
+                  "at Cornell University,",
+                  "reached a powerful and clear conclusion:",
+                  "Don’t spend your money",
+                  "on things."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "장기적인 연구는",
+                  "토머스 길로비치에 의해 수행된,",
+                  "심리학 교수인",
+                  "코넬 대학교의,",
+                  "강력하고 분명한 결론에 도달했다:",
+                  "여러분의 돈을 쓰지 마라",
+                  "물건들에."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "코넬 대학교의 심리학 교수인 토머스 길로비치가 수행한 장기적인 연구는 강력하고 분명한 결론에 도달했는데, 그것은 물건에 돈을 쓰지 말라는 것이다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s02",
+            "original": "We assume that the happiness we get from buying something will last as long as the thing itself.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 9
+              },
+              {
+                "start": 10,
+                "end": 28
+              },
+              {
+                "start": 29,
+                "end": 35
+              },
+              {
+                "start": 36,
+                "end": 57
+              },
+              {
+                "start": 58,
+                "end": 67
+              },
+              {
+                "start": 68,
+                "end": 96
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "We assume",
+                  "that the happiness",
+                  "we get",
+                  "from buying something",
+                  "will last",
+                  "as long as the thing itself."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "우리는 생각한다",
+                  "행복이",
+                  "우리가 얻는",
+                  "무언가를 사는 것으로부터",
+                  "지속될 것이라고",
+                  "그 물건 자체만큼 오래."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "우리는 무언가를 사서 얻는 행복이 그 물건 자체만큼 오래 지속될 것이라고 생각한다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s03",
+            "original": "But it’s wrong.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 15
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "But it’s wrong."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "하지만 그것은 틀렸다."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "하지만 그 생각은 틀렸다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s04",
+            "original": "The trouble with things is that the happiness they provide fades quickly.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 11
+              },
+              {
+                "start": 12,
+                "end": 23
+              },
+              {
+                "start": 24,
+                "end": 45
+              },
+              {
+                "start": 46,
+                "end": 58
+              },
+              {
+                "start": 59,
+                "end": 73
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "The trouble",
+                  "with things",
+                  "is that the happiness",
+                  "they provide",
+                  "fades quickly."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "문제는",
+                  "물건들의",
+                  "행복이",
+                  "그것들이 제공하는",
+                  "빨리 사라진다는 것이다."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "물건의 문제는 물건이 주는 행복이 빨리 사라진다는 것이다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s05",
+            "original": "There are three critical reasons for this.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 32
+              },
+              {
+                "start": 33,
+                "end": 42
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "There are three critical reasons",
+                  "for this."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "세 가지 결정적인 이유들이 있다",
+                  "이것에 대한."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "여기에는 세 가지 결정적인 이유가 있다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s06",
+            "original": "First, we get used to new possessions.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 6
+              },
+              {
+                "start": 7,
+                "end": 38
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "First,",
+                  "we get used to new possessions."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "첫째,",
+                  "우리는 새로운 소유물들에 익숙해진다."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "첫째, 우리는 새로 가진 물건에 익숙해진다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s07",
+            "original": "What once seemed novel and exciting quickly becomes the norm.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 35
+              },
+              {
+                "start": 36,
+                "end": 61
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "What once seemed novel and exciting",
+                  "quickly becomes the norm."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "한때 새롭고 신나 보였던 것이",
+                  "빨리 일상적인 것이 된다."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "한때 새롭고 신나 보였던 것은 금방 평범한 일상이 된다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s08",
+            "original": "Second, we keep raising the bar.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 7
+              },
+              {
+                "start": 8,
+                "end": 32
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "Second,",
+                  "we keep raising the bar."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "둘째,",
+                  "우리는 계속 기준을 높인다."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "둘째, 우리는 계속 기준을 높인다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s09",
+            "original": "New purchases lead to new expectations.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 39
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "New purchases lead to new expectations."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "새로운 구매들은 새로운 기대들로 이어진다."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "새로 산 물건은 새로운 기대로 이어진다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s10",
+            "original": "As soon as we get used to a new possession, we look for an even better one.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 43
+              },
+              {
+                "start": 44,
+                "end": 75
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "As soon as we get used to a new possession,",
+                  "we look for an even better one."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "우리가 새로운 소유물에 익숙해지자마자,",
+                  "우리는 훨씬 더 좋은 것을 찾는다."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "새로 가진 물건에 익숙해지자마자 우리는 훨씬 더 좋은 것을 찾는다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s11",
+            "original": "Third, possessions stimulate humans to compare themselves with others.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 6
+              },
+              {
+                "start": 7,
+                "end": 35
+              },
+              {
+                "start": 36,
+                "end": 70
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "Third,",
+                  "possessions stimulate humans",
+                  "to compare themselves with others."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "셋째,",
+                  "소유물들은 인간들을 자극한다",
+                  "그들 자신을 다른 사람들과 비교하도록."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "셋째, 소유물은 인간이 자신을 다른 사람과 비교하도록 자극한다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s12",
+            "original": "We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 16
+              },
+              {
+                "start": 17,
+                "end": 41
+              },
+              {
+                "start": 42,
+                "end": 75
+              },
+              {
+                "start": 76,
+                "end": 102
+              },
+              {
+                "start": 103,
+                "end": 121
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "We buy a new car",
+                  "and are thrilled with it",
+                  "until a friend buys a better one,",
+                  "and there’s always someone",
+                  "with a better one."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "우리는 새 차를 산다",
+                  "그리고 그것에 몹시 기뻐한다",
+                  "친구가 더 좋은 것을 살 때까지,",
+                  "그리고 항상 누군가가 있다",
+                  "더 좋은 것을 가진."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "우리는 새 차를 사서 친구가 더 좋은 차를 살 때까지 그 차에 몹시 기뻐하는데, 더 좋은 차를 가진 사람은 언제나 있다."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit_number": 2,
+        "source_id": "src",
+        "role": "analysis_reading_body",
+        "sentences": [
+          {
+            "source_id": "src",
+            "sentence_id": "s13",
+            "original": "Gilovich and other researchers have found that experiences deliver longer lasting happiness than things.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 41
+              },
+              {
+                "start": 42,
+                "end": 91
+              },
+              {
+                "start": 92,
+                "end": 104
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "Gilovich and other researchers have found",
+                  "that experiences deliver longer lasting happiness",
+                  "than things."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "길로비치와 다른 연구자들은 발견했다",
+                  "경험들이 더 오래 지속되는 행복을 가져다준다는 것을",
+                  "물건들보다."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "길로비치와 다른 연구자들은 경험이 물건보다 더 오래 지속되는 행복을 가져다준다는 것을 발견했다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s14",
+            "original": "That’s because experiences become a part of our identity.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 40
+              },
+              {
+                "start": 41,
+                "end": 57
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "That’s because experiences become a part",
+                  "of our identity."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "그것은 경험들이 일부가 되기 때문이다",
+                  "우리의 정체성의."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "그것은 경험이 우리 정체성의 일부가 되기 때문이다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s15",
+            "original": "We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 27
+              },
+              {
+                "start": 28,
+                "end": 55
+              },
+              {
+                "start": 56,
+                "end": 69
+              },
+              {
+                "start": 70,
+                "end": 81
+              },
+              {
+                "start": 82,
+                "end": 92
+              },
+              {
+                "start": 93,
+                "end": 104
+              },
+              {
+                "start": 105,
+                "end": 119
+              },
+              {
+                "start": 120,
+                "end": 134
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "We are not our possessions,",
+                  "but we are the accumulation",
+                  "of everything",
+                  "we’ve seen,",
+                  "the things",
+                  "we’ve done,",
+                  "and the places",
+                  "we’ve been to."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "우리는 우리의 소유물들이 아니다,",
+                  "하지만 우리는 축적이다",
+                  "모든 것의",
+                  "우리가 본,",
+                  "일들의",
+                  "우리가 한,",
+                  "그리고 장소들의",
+                  "우리가 가 본."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "우리는 우리가 가진 물건이 아니라, 우리가 본 모든 것, 우리가 한 일들, 우리가 가 본 장소들이 쌓인 존재이다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s16",
+            "original": "“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 34
+              },
+              {
+                "start": 35,
+                "end": 47
+              },
+              {
+                "start": 48,
+                "end": 73
+              },
+              {
+                "start": 74,
+                "end": 88
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "“Our experiences are a bigger part",
+                  "of ourselves",
+                  "than our material goods,”",
+                  "says Gilovich."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "“우리의 경험들은 더 큰 부분이다",
+                  "우리 자신의",
+                  "우리의 물질적인 재화들보다,”",
+                  "길로비치는 말한다."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "“우리의 경험은 물질적인 재화보다 우리 자신의 더 큰 부분이다.”라고 길로비치는 말한다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s17",
+            "original": "“You can really like your material stuff.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 41
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "“You can really like your material stuff."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "“여러분은 여러분의 물질적인 물건들을 정말 좋아할 수 있다."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "“여러분은 물질적인 물건을 정말 좋아할 수 있다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s18",
+            "original": "You can even think that part of your identity is connected to those things, but nonetheless they remain separate from you.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 18
+              },
+              {
+                "start": 19,
+                "end": 28
+              },
+              {
+                "start": 29,
+                "end": 45
+              },
+              {
+                "start": 46,
+                "end": 75
+              },
+              {
+                "start": 76,
+                "end": 112
+              },
+              {
+                "start": 113,
+                "end": 122
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "You can even think",
+                  "that part",
+                  "of your identity",
+                  "is connected to those things,",
+                  "but nonetheless they remain separate",
+                  "from you."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "여러분은 심지어 생각할 수도 있다",
+                  "일부가",
+                  "여러분의 정체성의",
+                  "그 물건들에 연결되어 있다고,",
+                  "하지만 그럼에도 불구하고 그것들은 분리된 채로 남아 있다",
+                  "여러분으로부터."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "여러분은 심지어 자신의 정체성 일부가 그 물건들과 연결되어 있다고 생각할 수도 있지만, 그럼에도 그것들은 여러분과 분리된 채로 남아 있다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s19",
+            "original": "On the other hand, your experiences really are part of you.",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 18
+              },
+              {
+                "start": 19,
+                "end": 51
+              },
+              {
+                "start": 52,
+                "end": 59
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "On the other hand,",
+                  "your experiences really are part",
+                  "of you."
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "반면에,",
+                  "여러분의 경험들은 정말로 일부이다",
+                  "여러분의."
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "반면에 여러분의 경험은 정말로 여러분의 일부이다."
+              }
+            ]
+          },
+          {
+            "source_id": "src",
+            "sentence_id": "s20",
+            "original": "We are the sum total of our experiences.”",
+            "source_spans": [
+              {
+                "start": 0,
+                "end": 20
+              },
+              {
+                "start": 21,
+                "end": 41
+              }
+            ],
+            "blocks": [
+              {
+                "role": "analysis_english_chunks",
+                "chunks": [
+                  "We are the sum total",
+                  "of our experiences.”"
+                ]
+              },
+              {
+                "role": "analysis_korean_chunks",
+                "chunks": [
+                  "우리는 총합이다",
+                  "우리의 경험들의.”"
+                ]
+              },
+              {
+                "role": "analysis_natural_translation",
+                "text": "우리는 우리 경험의 총합이다.”"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "source_artifact_bytes": "NOT_CHECKED_BY_THIS_TOOL",
+  "lexical_level_and_exemptions": "REVIEWER_SUPPLIED_NOT_AUTOMATICALLY_VERIFIED",
+  "all_repeated_today_word_occurrences": "REQUIRES_SEMANTIC_REVIEW",
+  "verb_form_declarations": {
+    "form_count": 14,
+    "phrase_count": 0,
+    "status": "DECLARED_LOCATIONS_CHECKED",
+    "scope": "REVIEWER_DECLARED_LOCATIONS_ONLY_NOT_GRAMMAR_OR_MEANING_INFERENCE"
+  },
+  "reading_rule_declarations": "SUPPLIED_CONSTRAINTS_ONLY_NOT_GRAMMAR_INFERENCE",
+  "reading_revision_audit": "DECLARATIONS_REQUIRED",
+  "relative_hint_declarations": {
+    "status": "DECLARED_LOCATIONS_CHECKED",
+    "declared_sentence_count": 20,
+    "undeclared_sentences": [],
+    "scope": "REVIEWER_DECLARED_LOCATIONS_ONLY_NOT_GRAMMAR_INFERENCE"
+  },
+  "syntax_training": {
+    "version": 1,
+    "status": "DECLARED_LINKS_CHECKED",
+    "units": [
+      {
+        "unit_id": "u1",
+        "status": "DECLARED_LINKS_CHECKED",
+        "base_grammar_point_count": 3,
+        "supplemental_count": 0,
+        "formula_occurrence_count": 0,
+        "practice_count": 3,
+        "workbook_links": "CHECKED",
+        "semantic_review": "NOT_PERFORMED"
+      },
+      {
+        "unit_id": "u2",
+        "status": "DECLARED_LINKS_CHECKED",
+        "base_grammar_point_count": 3,
+        "supplemental_count": 2,
+        "formula_occurrence_count": 5,
+        "practice_count": 5,
+        "workbook_links": "CHECKED",
+        "semantic_review": "NOT_PERFORMED"
+      }
+    ],
+    "semantic_review": "NOT_PERFORMED"
+  },
+  "semantic_review": "NOT_PERFORMED",
+  "visual_review": "NOT_PERFORMED",
+  "input_sha256": "001162a12ed8364af693a4bb0122a16bfcc1e5c4da71b8d0b44079635fbb9959"
+}

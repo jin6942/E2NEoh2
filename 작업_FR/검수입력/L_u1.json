@@ -1,0 +1,7763 @@
+{
+  "schema_version": 1,
+  "purpose": "REVIEW_INPUT_PACKET_NOT_FINAL",
+  "status": "NOT_FINAL",
+  "certification": "NOT_CERTIFIED",
+  "role": "learning",
+  "input_digest": {
+    "content_sha256": "f95baaf9a78d344a2b3cce18002d1ffdb98e86317fbf8b6537a2a22d1410e8a0",
+    "canonical_full_json_sha256": "f95baaf9a78d344a2b3cce18002d1ffdb98e86317fbf8b6537a2a22d1410e8a0",
+    "file_sha256": "001162a12ed8364af693a4bb0122a16bfcc1e5c4da71b8d0b44079635fbb9959",
+    "file_sha256_status": "EXACT_INPUT_BYTES"
+  },
+  "current_rules": [
+    {
+      "path": "SKILL.md",
+      "sha256": "adc1c4b5d87fa57241835db2d00f74627e96d5c209cd3bfbe76d24fe6ca51cc1"
+    },
+    {
+      "path": "references/editorial-core.md",
+      "sha256": "b942dccbfa90c37236cdd51a9070add4f596cd95993f93242c0b20306b3eca0e"
+    },
+    {
+      "path": "references/workflow.md",
+      "sha256": "2220776def95a7b2c5f50532efcf392921791ef9d75b298d660b6cdd37b73c75"
+    },
+    {
+      "path": "references/layout-rules.md",
+      "sha256": "22e093364b7aaca7e9540de75728cf100521dd0bd2dfc3aeb6376825a774807d"
+    },
+    {
+      "path": "references/runtime-and-data.md",
+      "sha256": "ec73b7a681b089742505b011758daff69de9c6ebff209dec8474909b59f25d9b"
+    },
+    {
+      "path": "references/handoff-format.md",
+      "sha256": "e9b3ed617a7c3c90b079710c97431fac9ab41b1e84bf455f6bb803006e079619"
+    },
+    {
+      "path": "references/common-errors.md",
+      "sha256": "058db2bf1c0fb67cc43927a6a53cf8cd122e55ef54ca2db944ceaddaaf41c2e8"
+    },
+    {
+      "path": "references/current-revision.md",
+      "sha256": "2ced5f11ffdb1285b435d4457ef707bec8ae62d71953942af479cae63e7ac1e5"
+    },
+    {
+      "path": "references/manuscript-data.md",
+      "sha256": "87725de92c7ef8ec82b68dc8bf821252364578d0ae71ac800d5871236c881444"
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "9dd3d9c1d3d1863526481516facdbe9afe462176bc05596ecf1a705ae6bbabff"
+    },
+    {
+      "path": "references/review-efficiency.md",
+      "sha256": "37218e5b5973f1a368fe4bc32622fab0a90c09308bdaaafcab7150203052147d"
+    },
+    {
+      "path": "references/analysis-content.md",
+      "sha256": "b540184bc73f36428fbcf73dd77586bf34f5603808113cbedd6cc1ae276e1725"
+    },
+    {
+      "path": "references/gloss-rules.md",
+      "sha256": "fadc5232711b8720e23e1499024a67590b619a8be139e2bacae27402dd50ab90"
+    },
+    {
+      "path": "references/grammar-labels.md",
+      "sha256": "3fa79f6f8047d338179f4ed1cc1b6c7cf4fa6bdb756cc005fb8719b84e8bb79e"
+    },
+    {
+      "path": "references/preposition-meanings.md",
+      "sha256": "2d4925a74820229d6a18fa3d5560f5469d7480cac5e8a211f58635723062a966"
+    },
+    {
+      "path": "references/proper-nouns.md",
+      "sha256": "0fc99a1aad355e4a3241bb0d758ae15d8bc142ad17150d54577f2646e1b7aebe"
+    }
+  ],
+  "review_contract": {
+    "independent_review": "NOT_PERFORMED",
+    "approval_reuse": "NOT_IMPLEMENTED",
+    "complete_final_required": true,
+    "existing_release_gate_unchanged": true,
+    "required_independent_question_solvers": 2,
+    "context_is_not_assigned_or_reviewed": true,
+    "unresolved_items": "CONSULT_CURRENT_HANDOFF_SEPARATELY; NOT_CLEARED_BY_PACKET"
+  },
+  "scope": {
+    "assigned": {
+      "unit_ids": [
+        "u1"
+      ],
+      "sentence_refs": [
+        {
+          "source_id": "src",
+          "sentence_id": "s01"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s02"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s03"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s04"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s05"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s06"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s07"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s08"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s09"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s10"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s11"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s12"
+        }
+      ]
+    },
+    "context_only": {
+      "source_ids": [
+        "src"
+      ],
+      "unit_ids": [
+        "u2"
+      ],
+      "sentence_refs": [
+        {
+          "source_id": "src",
+          "sentence_id": "s13"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s14"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s15"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s16"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s17"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s18"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s19"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s20"
+        }
+      ]
+    },
+    "whole_stage_assigned": false,
+    "cross_unit_consistency_review": "NOT_PERFORMED"
+  },
+  "selected_data": {
+    "metadata": {
+      "book_name": "영어II YBM(박준언) 2과 Further Reading",
+      "course": "영어II",
+      "publisher_author": "YBM(박준언)",
+      "lesson": "2과",
+      "lesson_id": "UNIT02",
+      "syntax_training_version": 1
+    },
+    "units": [
+      {
+        "id": "u1",
+        "source_id": "src",
+        "paragraph_ids": [
+          "p01",
+          "p02"
+        ],
+        "sentence_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s04",
+          "s05",
+          "s06",
+          "s07",
+          "s08",
+          "s09",
+          "s10",
+          "s11",
+          "s12"
+        ],
+        "today_words": [
+          {
+            "id": "u1-w1",
+            "text": "long-term",
+            "meaning_ko": "장기적인, 오랜 기간의",
+            "source_gloss_id": "s01-g01"
+          },
+          {
+            "id": "u1-w2",
+            "text": "conclusion",
+            "meaning_ko": "결론",
+            "source_gloss_id": "s01-g13"
+          },
+          {
+            "id": "u1-w3",
+            "text": "assume",
+            "meaning_ko": "가정하다, 생각하다",
+            "source_gloss_id": "s02-g02"
+          },
+          {
+            "id": "u1-w4",
+            "text": "fade",
+            "meaning_ko": "사라지다, 희미해지다",
+            "source_gloss_id": "s04-g09"
+          },
+          {
+            "id": "u1-w5",
+            "text": "get used to",
+            "meaning_ko": "~에 익숙해지다",
+            "source_gloss_id": "s06-g03"
+          },
+          {
+            "id": "u1-w6",
+            "text": "possession",
+            "meaning_ko": "소유물, 가진 물건",
+            "source_gloss_id": "s06-g05"
+          },
+          {
+            "id": "u1-w7",
+            "text": "raise the bar",
+            "meaning_ko": "기준을 높이다",
+            "source_gloss_id": "s08-g04"
+          },
+          {
+            "id": "u1-w8",
+            "text": "stimulate A to V",
+            "meaning_ko": "A가 ~하도록 자극하다",
+            "source_gloss_id": "s11-g03"
+          }
+        ],
+        "analysis": {
+          "heading_kind": "제목",
+          "title_or_topic_en": "Why the Happiness from Things Fades Quickly",
+          "title_or_topic_ko": "물건이 주는 행복이 빨리 사라지는 이유",
+          "intent_ko": "물건에 돈을 쓰지 말라는 장기 연구의 결론을 소개하고, 물건이 주는 행복이 빨리 사라지는 세 가지 이유(새 물건에 익숙해짐, 계속 높아지는 기대, 남과의 비교)를 차례로 설명하는 글이다.",
+          "flow": [
+            {
+              "sentence_ids": [
+                "s01",
+                "s02",
+                "s03",
+                "s04",
+                "s05"
+              ],
+              "label": "연구 결론과 문제 제기",
+              "text_ko": "길로비치 교수의 장기 연구는 물건에 돈을 쓰지 말라는 결론을 내렸다. 우리는 물건에서 얻는 행복이 물건만큼 오래간다고 생각하지만 그것은 틀렸다. 물건이 주는 행복은 빨리 사라지며, 여기에는 세 가지 이유가 있다."
+            },
+            {
+              "sentence_ids": [
+                "s06",
+                "s07",
+                "s08",
+                "s09",
+                "s10",
+                "s11",
+                "s12"
+              ],
+              "label": "세 가지 이유",
+              "text_ko": "첫째, 새 물건에 곧 익숙해져 새로움이 평범해진다. 둘째, 기준이 계속 높아져 익숙해지자마자 더 좋은 것을 찾는다. 셋째, 물건은 남과 비교하게 만드는데, 더 좋은 것을 가진 사람은 언제나 있다."
+            }
+          ],
+          "easy_explanations": [
+            {
+              "sentence_id": "s02",
+              "explanatory_sentences": [
+                "2번 문장은 1번의 결론을 설명하려고 우리가 흔히 하는 생각을 먼저 꺼낸다.",
+                "물건을 사면 기분이 좋아진다.",
+                "우리는 그 물건을 가지고 있는 동안 이 좋은 기분도 계속될 것이라고 생각한다.",
+                "3번 문장에서 글쓴이는 이 생각이 틀렸다고 말한다."
+              ]
+            },
+            {
+              "sentence_id": "s07",
+              "explanatory_sentences": [
+                "7번 문장은 6번에서 말한 첫째 이유를 더 자세히 풀어 준다.",
+                "새 물건을 처음 샀을 때는 새롭고 신나게 느껴진다.",
+                "하지만 그 물건은 금방 늘 있는 평범한 것이 된다.",
+                "그래서 처음 느꼈던 즐거움도 오래가지 않는다."
+              ]
+            },
+            {
+              "sentence_id": "s12",
+              "explanatory_sentences": [
+                "12번 문장은 11번에서 말한 셋째 이유인 남과의 비교를 새 차의 예로 보여 준다.",
+                "우리는 새 차를 사면 몹시 기뻐한다.",
+                "그런데 그 기쁨은 친구가 더 좋은 차를 살 때까지만 간다.",
+                "게다가 더 좋은 것을 가진 사람은 언제나 있다."
+              ]
+            }
+          ],
+          "grammar_points": [
+            {
+              "id": "u1-gp1",
+              "sentence_id": "s02",
+              "span": [
+                15,
+                57
+              ],
+              "title": "명사 + (that) S′ V′: S′가 V′하는 명사",
+              "formula_key": "N + (that) S′ V′",
+              "explanation": "공식: 명사(N) + (that) S′ V′ — S′(이/가) V′하는 N. 선행사 = the happiness(행복), 생략된 that = 목적격 관계대명사(get의 목적어 자리), S′ = we(우리), V′ = get(얻다), from buying something = 무언가를 사는 것으로부터. → 우리가 무언가를 사는 것으로부터 얻는 행복. get 뒤에 목적어가 없는 것은 앞의 the happiness가 그 자리의 뜻을 맡기 때문이다.",
+              "practice": {
+                "span": [
+                  15,
+                  57
+                ],
+                "formula_support": {
+                  "en": "N + (that) S′ V′",
+                  "ko": "S′(이/가) V′하는 N"
+                },
+                "answer_ko": "우리가 무언가를 사는 것으로부터 얻는 행복",
+                "support_gloss_ids": [
+                  "s02-g04",
+                  "s02-g05",
+                  "s02-g06",
+                  "s02-g07",
+                  "s02-g08",
+                  "s02-g09",
+                  "s02-g10"
+                ]
+              }
+            },
+            {
+              "id": "u1-gp2",
+              "sentence_id": "s04",
+              "span": [
+                0,
+                72
+              ],
+              "title": "A is that S′ V′: A는 S′가 V′한다는 것이다",
+              "formula_key": "is that S′ V′",
+              "explanation": "공식: A is that S′ V′ — A는 S′(이/가) V′한다는 것이다. A = The trouble with things(물건들의 문제), that = 명사절 접속사(~라는 것), S′ = the happiness they provide(그것들[물건들]이 제공하는 행복), V′ = fades(사라지다), quickly = 빨리. → 물건들의 문제는 그것들이 제공하는 행복이 빨리 사라진다는 것이다. is 뒤 that절이 주어가 무엇인지 설명하는 보어다.",
+              "practice": {
+                "span": [
+                  24,
+                  72
+                ],
+                "formula_support": {
+                  "en": "is that S′ V′",
+                  "ko": "S′(이/가) V′한다는 것이다"
+                },
+                "answer_ko": "그것들이 제공하는 행복이 빨리 사라진다는 것이다",
+                "support_gloss_ids": [
+                  "s04-g06",
+                  "s04-g07",
+                  "s04-g08",
+                  "s04-g09",
+                  "s04-g10"
+                ]
+              }
+            },
+            {
+              "id": "u1-gp3",
+              "sentence_id": "s11",
+              "span": [
+                7,
+                69
+              ],
+              "title": "stimulate A to V: A가 ~하도록 자극하다",
+              "formula_key": "stimulate A to V",
+              "explanation": "공식: stimulate A to V — A(이/가) ~하도록 자극하다. A = humans(인간들), to V = to compare(비교하다; compare A with B = A를 B와 비교하다), compare의 목적어 = themselves(그들 자신), with others = 다른 사람들과. → 인간들이 그들 자신을 다른 사람들과 비교하도록 자극하다.",
+              "practice": {
+                "span": [
+                  19,
+                  69
+                ],
+                "formula_support": {
+                  "en": "stimulate A to V",
+                  "ko": "A(이/가) ~하도록 자극하다"
+                },
+                "answer_ko": "인간들이 그들 자신을 다른 사람들과 비교하도록 자극하다",
+                "support_gloss_ids": [
+                  "s11-g04",
+                  "s11-g05",
+                  "s11-g06",
+                  "s11-g07"
+                ]
+              }
+            }
+          ],
+          "formula_routes": [],
+          "relations": [
+            {
+              "head": {
+                "id": "u1-r1h",
+                "text": "clear",
+                "meaning_ko": "분명한"
+              },
+              "synonym": {
+                "id": "u1-r1s",
+                "text": "obvious",
+                "meaning_ko": "명백한"
+              },
+              "antonym": {
+                "id": "u1-r1a",
+                "text": "vague",
+                "meaning_ko": "모호한, 희미한"
+              }
+            },
+            {
+              "head": {
+                "id": "u1-r2h",
+                "text": "critical",
+                "meaning_ko": "결정적인, 매우 중요한"
+              },
+              "synonym": {
+                "id": "u1-r2s",
+                "text": "essential",
+                "meaning_ko": "필수적인, 매우 중요한"
+              },
+              "antonym": {
+                "id": "u1-r2a",
+                "text": "minor",
+                "meaning_ko": "사소한, 작은"
+              }
+            },
+            {
+              "head": {
+                "id": "u1-r3h",
+                "text": "novel",
+                "meaning_ko": "새로운, 참신한"
+              },
+              "synonym": {
+                "id": "u1-r3s",
+                "text": "fresh",
+                "meaning_ko": "새로운, 신선한"
+              },
+              "antonym": {
+                "id": "u1-r3a",
+                "text": "familiar",
+                "meaning_ko": "익숙한, 친숙한"
+              }
+            }
+          ]
+        },
+        "workbook": {
+          "relation_order": [
+            "u1-r2s",
+            "u1-r1a",
+            "u1-r3h",
+            "u1-r2a",
+            "u1-r1h",
+            "u1-r3s",
+            "u1-r2h",
+            "u1-r3a",
+            "u1-r1s"
+          ],
+          "key_sentence_ids": [
+            "s04",
+            "s10"
+          ],
+          "question_id": "Q01",
+          "syntax_point_ids": [
+            "u1-gp1",
+            "u1-gp2",
+            "u1-gp3"
+          ]
+        }
+      }
+    ],
+    "sentences": [
+      {
+        "source_id": "src",
+        "id": "s01",
+        "text": "A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 17,
+            "ko": "장기적인 연구는"
+          },
+          {
+            "start": 18,
+            "end": 47,
+            "ko": "토머스 길로비치에 의해 수행된,"
+          },
+          {
+            "start": 48,
+            "end": 70,
+            "ko": "심리학 교수인"
+          },
+          {
+            "start": 71,
+            "end": 93,
+            "ko": "코넬 대학교의,"
+          },
+          {
+            "start": 94,
+            "end": 134,
+            "ko": "강력하고 분명한 결론에 도달했다:"
+          },
+          {
+            "start": 135,
+            "end": 157,
+            "ko": "여러분의 돈을 쓰지 마라"
+          },
+          {
+            "start": 158,
+            "end": 168,
+            "ko": "물건들에."
+          }
+        ],
+        "natural_ko": "코넬 대학교의 심리학 교수인 토머스 길로비치가 수행한 장기적인 연구는 강력하고 분명한 결론에 도달했는데, 그것은 물건에 돈을 쓰지 말라는 것이다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                0,
+                92
+              ]
+            ],
+            "subject_display_spans": [
+              [
+                0,
+                17
+              ]
+            ],
+            "subject_display_review": "중심명사 study까지 표시하고 뒤에서 꾸미는 과거분사구 conducted by …와 동격 a psychology professor …는 제외",
+            "verb_spans": [
+              [
+                94,
+                101
+              ]
+            ]
+          },
+          {
+            "kind": "imperative",
+            "start": 135,
+            "subject_spans": [],
+            "verb_spans": [
+              [
+                135,
+                140
+              ],
+              [
+                141,
+                146
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s01-g01",
+            "spans": [
+              [
+                2,
+                11
+              ]
+            ],
+            "headword": "long-term",
+            "meaning_ko": "장기적인, 오랜 기간의",
+            "star": true,
+            "today_word_id": "u1-w1"
+          },
+          {
+            "id": "s01-g02",
+            "spans": [
+              [
+                12,
+                17
+              ]
+            ],
+            "headword": "study",
+            "meaning_ko": "연구",
+            "star": false
+          },
+          {
+            "id": "s01-g03",
+            "spans": [
+              [
+                18,
+                27
+              ]
+            ],
+            "headword": "conducted",
+            "meaning_ko": "수행된, 실시된",
+            "star": false,
+            "verb_form": {
+              "usage": "past-participle",
+              "source_span": [
+                18,
+                27
+              ],
+              "lemma": "conduct"
+            }
+          },
+          {
+            "id": "s01-g04",
+            "spans": [
+              [
+                28,
+                30
+              ]
+            ],
+            "headword": "by",
+            "meaning_ko": "~에 의해",
+            "star": false
+          },
+          {
+            "id": "s01-g05",
+            "spans": [
+              [
+                31,
+                46
+              ]
+            ],
+            "headword": "Thomas Gilovich",
+            "meaning_ko": "토머스 길로비치 (코넬 대학교 심리학 교수)",
+            "star": false
+          },
+          {
+            "id": "s01-g06",
+            "spans": [
+              [
+                50,
+                60
+              ]
+            ],
+            "headword": "psychology",
+            "meaning_ko": "심리학",
+            "star": false
+          },
+          {
+            "id": "s01-g07",
+            "spans": [
+              [
+                61,
+                70
+              ]
+            ],
+            "headword": "professor",
+            "meaning_ko": "교수",
+            "star": false
+          },
+          {
+            "id": "s01-g08",
+            "spans": [
+              [
+                71,
+                73
+              ]
+            ],
+            "headword": "at",
+            "meaning_ko": "~의",
+            "star": false
+          },
+          {
+            "id": "s01-g09",
+            "spans": [
+              [
+                74,
+                92
+              ]
+            ],
+            "headword": "Cornell University",
+            "meaning_ko": "코넬 대학교",
+            "star": false
+          },
+          {
+            "id": "s01-g10",
+            "spans": [
+              [
+                94,
+                101
+              ]
+            ],
+            "headword": "reach",
+            "meaning_ko": "~에 도달하다, 이르다",
+            "star": false,
+            "verb_form": {
+              "usage": "regular-past",
+              "source_span": [
+                94,
+                101
+              ],
+              "lemma": "reach"
+            }
+          },
+          {
+            "id": "s01-g11",
+            "spans": [
+              [
+                104,
+                112
+              ]
+            ],
+            "headword": "powerful",
+            "meaning_ko": "강력한",
+            "star": false
+          },
+          {
+            "id": "s01-g12",
+            "spans": [
+              [
+                117,
+                122
+              ]
+            ],
+            "headword": "clear",
+            "meaning_ko": "분명한",
+            "star": false
+          },
+          {
+            "id": "s01-g13",
+            "spans": [
+              [
+                123,
+                133
+              ]
+            ],
+            "headword": "conclusion",
+            "meaning_ko": "결론",
+            "star": true,
+            "today_word_id": "u1-w2"
+          },
+          {
+            "id": "s01-g14",
+            "spans": [
+              [
+                135,
+                140
+              ]
+            ],
+            "headword": "don’t V",
+            "meaning_ko": "~하지 마라",
+            "star": false
+          },
+          {
+            "id": "s01-g15",
+            "spans": [
+              [
+                141,
+                146
+              ],
+              [
+                158,
+                160
+              ]
+            ],
+            "headword": "spend A on B",
+            "meaning_ko": "B에 A를 쓰다",
+            "star": false,
+            "kind": "lexical",
+            "verb_construction": {
+              "kind": "verb-frame",
+              "verb_span": [
+                141,
+                146
+              ],
+              "lemma": "spend",
+              "link_spans": [
+                [
+                  158,
+                  160
+                ]
+              ],
+              "review_record": "spend your money on things: A=your money, B=things."
+            }
+          },
+          {
+            "id": "s01-g16",
+            "spans": [
+              [
+                147,
+                151
+              ]
+            ],
+            "headword": "your",
+            "meaning_ko": "여러분의",
+            "star": false,
+            "referent_ko": "독자"
+          },
+          {
+            "id": "s01-g17",
+            "spans": [
+              [
+                152,
+                157
+              ]
+            ],
+            "headword": "money",
+            "meaning_ko": "돈",
+            "star": false
+          },
+          {
+            "id": "s01-g18",
+            "spans": [
+              [
+                161,
+                167
+              ]
+            ],
+            "headword": "things",
+            "meaning_ko": "물건들",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              1
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              2,
+              6
+            ],
+            "gloss_id": "s01-g01"
+          },
+          {
+            "span": [
+              7,
+              11
+            ],
+            "gloss_id": "s01-g01"
+          },
+          {
+            "span": [
+              12,
+              17
+            ],
+            "gloss_id": "s01-g02"
+          },
+          {
+            "span": [
+              18,
+              27
+            ],
+            "gloss_id": "s01-g03"
+          },
+          {
+            "span": [
+              28,
+              30
+            ],
+            "gloss_id": "s01-g04"
+          },
+          {
+            "span": [
+              31,
+              37
+            ],
+            "gloss_id": "s01-g05"
+          },
+          {
+            "span": [
+              38,
+              46
+            ],
+            "gloss_id": "s01-g05"
+          },
+          {
+            "span": [
+              48,
+              49
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              50,
+              60
+            ],
+            "gloss_id": "s01-g06"
+          },
+          {
+            "span": [
+              61,
+              70
+            ],
+            "gloss_id": "s01-g07"
+          },
+          {
+            "span": [
+              71,
+              73
+            ],
+            "gloss_id": "s01-g08"
+          },
+          {
+            "span": [
+              74,
+              81
+            ],
+            "gloss_id": "s01-g09"
+          },
+          {
+            "span": [
+              82,
+              92
+            ],
+            "gloss_id": "s01-g09"
+          },
+          {
+            "span": [
+              94,
+              101
+            ],
+            "gloss_id": "s01-g10"
+          },
+          {
+            "span": [
+              102,
+              103
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              104,
+              112
+            ],
+            "gloss_id": "s01-g11"
+          },
+          {
+            "span": [
+              113,
+              116
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              117,
+              122
+            ],
+            "gloss_id": "s01-g12"
+          },
+          {
+            "span": [
+              123,
+              133
+            ],
+            "gloss_id": "s01-g13"
+          },
+          {
+            "span": [
+              135,
+              140
+            ],
+            "gloss_id": "s01-g14"
+          },
+          {
+            "span": [
+              141,
+              146
+            ],
+            "gloss_id": "s01-g15"
+          },
+          {
+            "span": [
+              147,
+              151
+            ],
+            "gloss_id": "s01-g16"
+          },
+          {
+            "span": [
+              152,
+              157
+            ],
+            "gloss_id": "s01-g17"
+          },
+          {
+            "span": [
+              158,
+              160
+            ],
+            "gloss_id": "s01-g15"
+          },
+          {
+            "span": [
+              161,
+              167
+            ],
+            "gloss_id": "s01-g18"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              0,
+              46
+            ],
+            "meaning_ko": "토머스 길로비치에 의해 수행된 장기적인 연구",
+            "explanation": "과거분사구 conducted by Thomas Gilovich가 앞 명사 A long-term study를 뒤에서 꾸민다. conducted ↔ 수행된.",
+            "display_pairs": [
+              {
+                "en": "A long-term study [conducted by Thomas Gilovich]",
+                "ko": "[토머스 길로비치에 의해 수행된] 장기적인 연구",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        19,
+                        28
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        14,
+                        17
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "과거분사 후치수식",
+            "participle_focus_gloss_id": "s01-g03"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "주절 주어 A long-term study(과거분사구 conducted by …와 동격 a psychology professor at Cornell University가 뒤에서 꾸밈) + reached. 콜론 뒤 부정 명령문 Don’t spend A on B는 결론의 내용. 힌트 1개(과거분사 후치수식). spend A on B는 각주로 지원. 관계사·수동 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s02",
+        "text": "We assume that the happiness we get from buying something will last as long as the thing itself.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 9,
+            "ko": "우리는 생각한다"
+          },
+          {
+            "start": 10,
+            "end": 28,
+            "ko": "행복이"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "ko": "우리가 얻는"
+          },
+          {
+            "start": 36,
+            "end": 57,
+            "ko": "무언가를 사는 것으로부터"
+          },
+          {
+            "start": 58,
+            "end": 67,
+            "ko": "지속될 것이라고"
+          },
+          {
+            "start": 68,
+            "end": 96,
+            "ko": "그 물건 자체만큼 오래."
+          }
+        ],
+        "natural_ko": "우리는 무언가를 사서 얻는 행복이 그 물건 자체만큼 오래 지속될 것이라고 생각한다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                0,
+                2
+              ]
+            ],
+            "verb_spans": [
+              [
+                3,
+                9
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 10,
+            "marker": "that",
+            "subject_spans": [
+              [
+                15,
+                57
+              ]
+            ],
+            "subject_display_spans": [
+              [
+                15,
+                28
+              ]
+            ],
+            "subject_display_review": "중심명사 happiness까지 표시하고 뒤에서 꾸미는 관계절 we get from buying something은 제외",
+            "verb_spans": [
+              [
+                58,
+                62
+              ],
+              [
+                63,
+                67
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 29,
+            "marker": "that",
+            "omitted_marker": true,
+            "subject_spans": [
+              [
+                29,
+                31
+              ]
+            ],
+            "verb_spans": [
+              [
+                32,
+                35
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s02-g01",
+            "spans": [
+              [
+                0,
+                2
+              ]
+            ],
+            "headword": "we",
+            "meaning_ko": "우리는",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s02-g02",
+            "spans": [
+              [
+                3,
+                9
+              ]
+            ],
+            "headword": "assume",
+            "meaning_ko": "가정하다, 생각하다",
+            "star": true,
+            "today_word_id": "u1-w3"
+          },
+          {
+            "id": "s02-g03",
+            "spans": [
+              [
+                10,
+                14
+              ]
+            ],
+            "headword": "that S′ V′",
+            "meaning_ko": "S′(이/가) V′라고",
+            "star": false
+          },
+          {
+            "id": "s02-g04",
+            "spans": [
+              [
+                19,
+                28
+              ]
+            ],
+            "headword": "happiness",
+            "meaning_ko": "행복",
+            "star": false
+          },
+          {
+            "id": "s02-g05",
+            "spans": [
+              [
+                29,
+                31
+              ]
+            ],
+            "headword": "we",
+            "meaning_ko": "우리가",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s02-g06",
+            "spans": [
+              [
+                32,
+                35
+              ]
+            ],
+            "headword": "get",
+            "meaning_ko": "얻다",
+            "star": false
+          },
+          {
+            "id": "s02-g07",
+            "spans": [
+              [
+                36,
+                40
+              ]
+            ],
+            "headword": "from",
+            "meaning_ko": "~로부터",
+            "star": false
+          },
+          {
+            "id": "s02-g08",
+            "spans": [
+              [
+                41,
+                47
+              ]
+            ],
+            "headword": "V-ing",
+            "meaning_ko": "~하는 것",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s02-g09"
+            ]
+          },
+          {
+            "id": "s02-g09",
+            "spans": [
+              [
+                41,
+                47
+              ]
+            ],
+            "headword": "buy",
+            "meaning_ko": "사다",
+            "star": false,
+            "verb_form": {
+              "usage": "ing",
+              "source_span": [
+                41,
+                47
+              ],
+              "lemma": "buy"
+            },
+            "kind": "lexical"
+          },
+          {
+            "id": "s02-g10",
+            "spans": [
+              [
+                48,
+                57
+              ]
+            ],
+            "headword": "something",
+            "meaning_ko": "무언가",
+            "star": false
+          },
+          {
+            "id": "s02-g11",
+            "spans": [
+              [
+                58,
+                62
+              ]
+            ],
+            "headword": "will V",
+            "meaning_ko": "~할 것이다",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s02-g12"
+            ]
+          },
+          {
+            "id": "s02-g12",
+            "spans": [
+              [
+                63,
+                67
+              ]
+            ],
+            "headword": "last",
+            "meaning_ko": "지속되다",
+            "star": false,
+            "kind": "lexical"
+          },
+          {
+            "id": "s02-g13",
+            "spans": [
+              [
+                68,
+                70
+              ],
+              [
+                71,
+                75
+              ],
+              [
+                76,
+                78
+              ]
+            ],
+            "headword": "as long as A",
+            "meaning_ko": "A만큼 오래",
+            "star": false
+          },
+          {
+            "id": "s02-g14",
+            "spans": [
+              [
+                83,
+                88
+              ]
+            ],
+            "headword": "thing",
+            "meaning_ko": "물건",
+            "star": false
+          },
+          {
+            "id": "s02-g15",
+            "spans": [
+              [
+                89,
+                95
+              ]
+            ],
+            "headword": "itself",
+            "meaning_ko": "그 자체",
+            "star": false,
+            "referent_ko": "물건"
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              2
+            ],
+            "gloss_id": "s02-g01"
+          },
+          {
+            "span": [
+              3,
+              9
+            ],
+            "gloss_id": "s02-g02"
+          },
+          {
+            "span": [
+              10,
+              14
+            ],
+            "gloss_id": "s02-g03"
+          },
+          {
+            "span": [
+              15,
+              18
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              19,
+              28
+            ],
+            "gloss_id": "s02-g04"
+          },
+          {
+            "span": [
+              29,
+              31
+            ],
+            "gloss_id": "s02-g05"
+          },
+          {
+            "span": [
+              32,
+              35
+            ],
+            "gloss_id": "s02-g06"
+          },
+          {
+            "span": [
+              36,
+              40
+            ],
+            "gloss_id": "s02-g07"
+          },
+          {
+            "span": [
+              41,
+              47
+            ],
+            "gloss_id": "s02-g09"
+          },
+          {
+            "span": [
+              48,
+              57
+            ],
+            "gloss_id": "s02-g10"
+          },
+          {
+            "span": [
+              58,
+              62
+            ],
+            "gloss_id": "s02-g11"
+          },
+          {
+            "span": [
+              63,
+              67
+            ],
+            "gloss_id": "s02-g12"
+          },
+          {
+            "span": [
+              68,
+              70
+            ],
+            "gloss_id": "s02-g13"
+          },
+          {
+            "span": [
+              71,
+              75
+            ],
+            "gloss_id": "s02-g13"
+          },
+          {
+            "span": [
+              76,
+              78
+            ],
+            "gloss_id": "s02-g13"
+          },
+          {
+            "span": [
+              79,
+              82
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              83,
+              88
+            ],
+            "gloss_id": "s02-g14"
+          },
+          {
+            "span": [
+              89,
+              95
+            ],
+            "gloss_id": "s02-g15"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              15,
+              35
+            ],
+            "meaning_ko": "우리가 얻는 행복",
+            "explanation": "선행사 the happiness 뒤 목적격 관계대명사 that이 생략된 관계절. the happiness가 get의 목적어 자리. S′ we, V′ get까지 표시하고 from buying something은 제외.",
+            "display_pairs": [
+              {
+                "en": "the happiness [(that) we get]",
+                "ko": "[우리[사람들]가 얻는] 행복",
+                "pronoun_refs": [
+                  {
+                    "en_span": [
+                      22,
+                      24
+                    ],
+                    "ko_pronoun_span": [
+                      1,
+                      3
+                    ],
+                    "ko_reference_span": [
+                      3,
+                      8
+                    ]
+                  }
+                ],
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        16,
+                        20
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        8,
+                        9
+                      ],
+                      [
+                        11,
+                        12
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "목적격 관계대명사 that 생략",
+            "display_mode": "omitted-relative",
+            "omitted_relative": "that"
+          },
+          {
+            "span": [
+              58,
+              95
+            ],
+            "meaning_ko": "그 물건 자체만큼 오래 지속될 것이다",
+            "explanation": "as long as A: A만큼 오래(원급 비교). 조건의 ‘~하는 한’이 아니라 행복이 지속되는 길이를 물건과 비교한다.",
+            "display_pairs": [
+              {
+                "en": "will last [as long as] the thing itself",
+                "ko": "그 물건 자체[만큼 오래] 지속될 것이다",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        11,
+                        13
+                      ],
+                      [
+                        19,
+                        21
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        8,
+                        10
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "원급 비교 as ~ as"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "주절 We assume + 명사절 접속사 that절(S′ the happiness …, V′ will last) + that절 주어 안의 목적격 관계대명사 생략 관계절 we get from buying something. as long as the thing itself는 원급 비교(조건 아님). 힌트 2개(생략 관계사, 원급 비교). that 명사절은 각주·S/V로 지원. 수동 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [
+            "s02-g08",
+            "s02-g11"
+          ],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s03",
+        "text": "But it’s wrong.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 15,
+            "ko": "하지만 그것은 틀렸다."
+          }
+        ],
+        "natural_ko": "하지만 그 생각은 틀렸다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 4,
+            "subject_spans": [
+              [
+                4,
+                6
+              ]
+            ],
+            "verb_spans": [
+              [
+                6,
+                8
+              ]
+            ],
+            "contraction_readings": [
+              {
+                "span": [
+                  6,
+                  8
+                ],
+                "expanded": "is"
+              }
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s03-g01",
+            "spans": [
+              [
+                4,
+                8
+              ]
+            ],
+            "headword": "it’s (= it is)",
+            "meaning_ko": "그것은 ~이다",
+            "star": false,
+            "referent_ko": "물건만큼 행복이 오래간다는 생각"
+          },
+          {
+            "id": "s03-g02",
+            "spans": [
+              [
+                9,
+                14
+              ]
+            ],
+            "headword": "wrong",
+            "meaning_ko": "틀린",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              3
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              4,
+              8
+            ],
+            "gloss_id": "s03-g01"
+          },
+          {
+            "span": [
+              9,
+              14
+            ],
+            "gloss_id": "s03-g02"
+          }
+        ],
+        "hints": [],
+        "reading_checks": {
+          "review_record": "단일 절 it’s(= it is) wrong. it은 앞 문장의 생각을 가리킴. 연결·관계사·수동 없음 → 힌트 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s04",
+        "text": "The trouble with things is that the happiness they provide fades quickly.",
+        "key": true,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 11,
+            "ko": "문제는"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "ko": "물건들의"
+          },
+          {
+            "start": 24,
+            "end": 45,
+            "ko": "행복이"
+          },
+          {
+            "start": 46,
+            "end": 58,
+            "ko": "그것들이 제공하는"
+          },
+          {
+            "start": 59,
+            "end": 73,
+            "ko": "빨리 사라진다는 것이다."
+          }
+        ],
+        "natural_ko": "물건의 문제는 물건이 주는 행복이 빨리 사라진다는 것이다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                0,
+                23
+              ]
+            ],
+            "subject_display_spans": [
+              [
+                0,
+                11
+              ]
+            ],
+            "subject_display_review": "중심명사 trouble까지 표시하고 뒤에서 꾸미는 with things는 제외",
+            "verb_spans": [
+              [
+                24,
+                26
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 27,
+            "marker": "that",
+            "subject_spans": [
+              [
+                32,
+                58
+              ]
+            ],
+            "subject_display_spans": [
+              [
+                32,
+                45
+              ]
+            ],
+            "subject_display_review": "중심명사 happiness까지 표시하고 뒤에서 꾸미는 관계절 they provide는 제외",
+            "verb_spans": [
+              [
+                59,
+                64
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 46,
+            "marker": "that",
+            "omitted_marker": true,
+            "subject_spans": [
+              [
+                46,
+                50
+              ]
+            ],
+            "verb_spans": [
+              [
+                51,
+                58
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s04-g01",
+            "spans": [
+              [
+                4,
+                11
+              ]
+            ],
+            "headword": "trouble",
+            "meaning_ko": "문제, 골칫거리",
+            "star": false
+          },
+          {
+            "id": "s04-g02",
+            "spans": [
+              [
+                12,
+                16
+              ]
+            ],
+            "headword": "with",
+            "meaning_ko": "~의",
+            "star": false
+          },
+          {
+            "id": "s04-g03",
+            "spans": [
+              [
+                17,
+                23
+              ]
+            ],
+            "headword": "things",
+            "meaning_ko": "물건들",
+            "star": false
+          },
+          {
+            "id": "s04-g04",
+            "spans": [
+              [
+                24,
+                26
+              ]
+            ],
+            "headword": "is",
+            "meaning_ko": "~이다",
+            "star": false
+          },
+          {
+            "id": "s04-g05",
+            "spans": [
+              [
+                27,
+                31
+              ]
+            ],
+            "headword": "that S′ V′",
+            "meaning_ko": "S′(이/가) V′라는 것",
+            "star": false
+          },
+          {
+            "id": "s04-g06",
+            "spans": [
+              [
+                36,
+                45
+              ]
+            ],
+            "headword": "happiness",
+            "meaning_ko": "행복",
+            "star": false
+          },
+          {
+            "id": "s04-g07",
+            "spans": [
+              [
+                46,
+                50
+              ]
+            ],
+            "headword": "they",
+            "meaning_ko": "그것들이",
+            "star": false,
+            "referent_ko": "물건들"
+          },
+          {
+            "id": "s04-g08",
+            "spans": [
+              [
+                51,
+                58
+              ]
+            ],
+            "headword": "provide",
+            "meaning_ko": "제공하다",
+            "star": false
+          },
+          {
+            "id": "s04-g09",
+            "spans": [
+              [
+                59,
+                64
+              ]
+            ],
+            "headword": "fade",
+            "meaning_ko": "사라지다, 희미해지다",
+            "star": true,
+            "today_word_id": "u1-w4",
+            "verb_form": {
+              "usage": "third-person-singular",
+              "source_span": [
+                59,
+                64
+              ],
+              "lemma": "fade",
+              "review_record": "주어 the happiness(3인칭 단수)의 일반동사 fades → 원형 fade."
+            }
+          },
+          {
+            "id": "s04-g10",
+            "spans": [
+              [
+                65,
+                72
+              ]
+            ],
+            "headword": "quickly",
+            "meaning_ko": "빨리",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              3
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              4,
+              11
+            ],
+            "gloss_id": "s04-g01"
+          },
+          {
+            "span": [
+              12,
+              16
+            ],
+            "gloss_id": "s04-g02"
+          },
+          {
+            "span": [
+              17,
+              23
+            ],
+            "gloss_id": "s04-g03"
+          },
+          {
+            "span": [
+              24,
+              26
+            ],
+            "gloss_id": "s04-g04"
+          },
+          {
+            "span": [
+              27,
+              31
+            ],
+            "gloss_id": "s04-g05"
+          },
+          {
+            "span": [
+              32,
+              35
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              36,
+              45
+            ],
+            "gloss_id": "s04-g06"
+          },
+          {
+            "span": [
+              46,
+              50
+            ],
+            "gloss_id": "s04-g07"
+          },
+          {
+            "span": [
+              51,
+              58
+            ],
+            "gloss_id": "s04-g08"
+          },
+          {
+            "span": [
+              59,
+              64
+            ],
+            "gloss_id": "s04-g09"
+          },
+          {
+            "span": [
+              65,
+              72
+            ],
+            "gloss_id": "s04-g10"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              32,
+              58
+            ],
+            "meaning_ko": "그것들이 제공하는 행복",
+            "explanation": "선행사 the happiness 뒤 목적격 관계대명사 that이 생략된 관계절(provide의 목적어 자리). S′ they, V′ provide.",
+            "display_pairs": [
+              {
+                "en": "the happiness [(that) they provide]",
+                "ko": "[그것들[물건들]이 제공하는] 행복",
+                "pronoun_refs": [
+                  {
+                    "en_span": [
+                      22,
+                      26
+                    ],
+                    "ko_pronoun_span": [
+                      1,
+                      4
+                    ],
+                    "ko_reference_span": [
+                      4,
+                      9
+                    ]
+                  }
+                ],
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        16,
+                        20
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        9,
+                        10
+                      ],
+                      [
+                        14,
+                        15
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "목적격 관계대명사 that 생략",
+            "display_mode": "omitted-relative",
+            "omitted_relative": "that"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "주어 The trouble with things(with 앞 후치수식 경계) + is + 보어 that 명사절(S′ the happiness they provide, V′ fades). that절 주어 안에 목적격 관계대명사 생략 관계절 they provide. 보어 that절 힌트는 관계절 힌트를 포함해 합쳐야 하므로 필수 관계사 힌트 1개만 두고, that절은 각주·S/V·u1-gp2로 지원. 수동 없음.",
+          "required_breaks": [
+            {
+              "at": 12,
+              "kind": "postnominal-preposition",
+              "reason": "with things는 앞 명사 The trouble을 뒤에서 꾸미는 전치사구"
+            }
+          ],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s05",
+        "text": "There are three critical reasons for this.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 32,
+            "ko": "세 가지 결정적인 이유들이 있다"
+          },
+          {
+            "start": 33,
+            "end": 42,
+            "ko": "이것에 대한."
+          }
+        ],
+        "natural_ko": "여기에는 세 가지 결정적인 이유가 있다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                10,
+                41
+              ]
+            ],
+            "subject_display_spans": [
+              [
+                10,
+                32
+              ]
+            ],
+            "subject_display_review": "중심명사 reasons까지 표시하고 뒤에서 꾸미는 for this는 제외(유도부사 There는 주어 아님)",
+            "verb_spans": [
+              [
+                6,
+                9
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s05-g01",
+            "spans": [
+              [
+                6,
+                9
+              ]
+            ],
+            "headword": "are",
+            "meaning_ko": "있다",
+            "star": false
+          },
+          {
+            "id": "s05-g02",
+            "spans": [
+              [
+                10,
+                15
+              ]
+            ],
+            "headword": "three",
+            "meaning_ko": "세 가지의",
+            "star": false
+          },
+          {
+            "id": "s05-g03",
+            "spans": [
+              [
+                16,
+                24
+              ]
+            ],
+            "headword": "critical",
+            "meaning_ko": "결정적인, 매우 중요한",
+            "star": false
+          },
+          {
+            "id": "s05-g04",
+            "spans": [
+              [
+                25,
+                32
+              ]
+            ],
+            "headword": "reasons",
+            "meaning_ko": "이유들",
+            "star": false
+          },
+          {
+            "id": "s05-g05",
+            "spans": [
+              [
+                33,
+                36
+              ]
+            ],
+            "headword": "for",
+            "meaning_ko": "~에 대한",
+            "star": false
+          },
+          {
+            "id": "s05-g06",
+            "spans": [
+              [
+                37,
+                41
+              ]
+            ],
+            "headword": "this",
+            "meaning_ko": "이것",
+            "star": false,
+            "referent_ko": "물건이 주는 행복이 빨리 사라지는 것"
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              5
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "유도부사 There(초등 기초어)는 따로 해석하지 않으며 뒤 are 각주의 ‘있다’로 뜻을 지원"
+          },
+          {
+            "span": [
+              6,
+              9
+            ],
+            "gloss_id": "s05-g01"
+          },
+          {
+            "span": [
+              10,
+              15
+            ],
+            "gloss_id": "s05-g02"
+          },
+          {
+            "span": [
+              16,
+              24
+            ],
+            "gloss_id": "s05-g03"
+          },
+          {
+            "span": [
+              25,
+              32
+            ],
+            "gloss_id": "s05-g04"
+          },
+          {
+            "span": [
+              33,
+              36
+            ],
+            "gloss_id": "s05-g05"
+          },
+          {
+            "span": [
+              37,
+              41
+            ],
+            "gloss_id": "s05-g06"
+          }
+        ],
+        "hints": [],
+        "reading_checks": {
+          "review_record": "유도부사 There + are + 주어 three critical reasons for this. for this의 this는 앞 문장 내용. 연결·관계사·수동 없음 → 힌트 없음.",
+          "required_breaks": [
+            {
+              "at": 33,
+              "kind": "postnominal-preposition",
+              "reason": "for this는 앞 명사 three critical reasons를 뒤에서 꾸미는 전치사구"
+            }
+          ],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s06",
+        "text": "First, we get used to new possessions.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 6,
+            "ko": "첫째,"
+          },
+          {
+            "start": 7,
+            "end": 38,
+            "ko": "우리는 새로운 소유물들에 익숙해진다."
+          }
+        ],
+        "natural_ko": "첫째, 우리는 새로 가진 물건에 익숙해진다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 7,
+            "subject_spans": [
+              [
+                7,
+                9
+              ]
+            ],
+            "verb_spans": [
+              [
+                10,
+                13
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s06-g01",
+            "spans": [
+              [
+                0,
+                5
+              ]
+            ],
+            "headword": "first",
+            "meaning_ko": "첫째",
+            "star": false
+          },
+          {
+            "id": "s06-g02",
+            "spans": [
+              [
+                7,
+                9
+              ]
+            ],
+            "headword": "we",
+            "meaning_ko": "우리는",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s06-g03",
+            "spans": [
+              [
+                10,
+                13
+              ],
+              [
+                14,
+                18
+              ],
+              [
+                19,
+                21
+              ]
+            ],
+            "headword": "get used to",
+            "meaning_ko": "~에 익숙해지다",
+            "star": true,
+            "today_word_id": "u1-w5"
+          },
+          {
+            "id": "s06-g04",
+            "spans": [
+              [
+                22,
+                25
+              ]
+            ],
+            "headword": "new",
+            "meaning_ko": "새로운",
+            "star": false
+          },
+          {
+            "id": "s06-g05",
+            "spans": [
+              [
+                26,
+                37
+              ]
+            ],
+            "headword": "possessions",
+            "meaning_ko": "소유물들, 가진 물건들",
+            "star": true,
+            "today_word_id": "u1-w6"
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              5
+            ],
+            "gloss_id": "s06-g01"
+          },
+          {
+            "span": [
+              7,
+              9
+            ],
+            "gloss_id": "s06-g02"
+          },
+          {
+            "span": [
+              10,
+              13
+            ],
+            "gloss_id": "s06-g03"
+          },
+          {
+            "span": [
+              14,
+              18
+            ],
+            "gloss_id": "s06-g03"
+          },
+          {
+            "span": [
+              19,
+              21
+            ],
+            "gloss_id": "s06-g03"
+          },
+          {
+            "span": [
+              22,
+              25
+            ],
+            "gloss_id": "s06-g04"
+          },
+          {
+            "span": [
+              26,
+              37
+            ],
+            "gloss_id": "s06-g05"
+          }
+        ],
+        "hints": [],
+        "reading_checks": {
+          "review_record": "단일 절. get used to(~에 익숙해지다)는 used to를 따로 떼면 뜻이 달라지는 고정 표현이라 한 각주. 연결·관계사·수동 없음 → 힌트 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s07",
+        "text": "What once seemed novel and exciting quickly becomes the norm.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 35,
+            "ko": "한때 새롭고 신나 보였던 것이"
+          },
+          {
+            "start": 36,
+            "end": 61,
+            "ko": "빨리 일상적인 것이 된다."
+          }
+        ],
+        "natural_ko": "한때 새롭고 신나 보였던 것은 금방 평범한 일상이 된다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                0,
+                35
+              ]
+            ],
+            "verb_spans": [
+              [
+                44,
+                51
+              ]
+            ]
+          },
+          {
+            "kind": "subject_relative",
+            "start": 0,
+            "marker": "What",
+            "subject_spans": [],
+            "verb_spans": [
+              [
+                10,
+                16
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s07-g01",
+            "spans": [
+              [
+                0,
+                4
+              ]
+            ],
+            "headword": "what V′",
+            "meaning_ko": "V′하는 것 (관계대명사)",
+            "star": false
+          },
+          {
+            "id": "s07-g02",
+            "spans": [
+              [
+                5,
+                9
+              ]
+            ],
+            "headword": "once",
+            "meaning_ko": "한때",
+            "star": false
+          },
+          {
+            "id": "s07-g03",
+            "spans": [
+              [
+                10,
+                16
+              ]
+            ],
+            "headword": "seem",
+            "meaning_ko": "~해 보이다",
+            "star": false,
+            "verb_form": {
+              "usage": "regular-past",
+              "source_span": [
+                10,
+                16
+              ],
+              "lemma": "seem"
+            }
+          },
+          {
+            "id": "s07-g04",
+            "spans": [
+              [
+                17,
+                22
+              ]
+            ],
+            "headword": "novel",
+            "meaning_ko": "새로운, 참신한 (흔한 뜻: 소설)",
+            "star": false
+          },
+          {
+            "id": "s07-g05",
+            "spans": [
+              [
+                27,
+                35
+              ]
+            ],
+            "headword": "exciting",
+            "meaning_ko": "신나는, 흥미진진한",
+            "star": false
+          },
+          {
+            "id": "s07-g06",
+            "spans": [
+              [
+                36,
+                43
+              ]
+            ],
+            "headword": "quickly",
+            "meaning_ko": "빨리",
+            "star": false
+          },
+          {
+            "id": "s07-g07",
+            "spans": [
+              [
+                44,
+                51
+              ]
+            ],
+            "headword": "become",
+            "meaning_ko": "~이 되다",
+            "star": false,
+            "verb_form": {
+              "usage": "third-person-singular",
+              "source_span": [
+                44,
+                51
+              ],
+              "lemma": "become",
+              "review_record": "주어 What 관계절(3인칭 단수)의 일반동사 becomes → 원형 become."
+            }
+          },
+          {
+            "id": "s07-g08",
+            "spans": [
+              [
+                56,
+                60
+              ]
+            ],
+            "headword": "norm",
+            "meaning_ko": "일상적인 것, 표준",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              4
+            ],
+            "gloss_id": "s07-g01"
+          },
+          {
+            "span": [
+              5,
+              9
+            ],
+            "gloss_id": "s07-g02"
+          },
+          {
+            "span": [
+              10,
+              16
+            ],
+            "gloss_id": "s07-g03"
+          },
+          {
+            "span": [
+              17,
+              22
+            ],
+            "gloss_id": "s07-g04"
+          },
+          {
+            "span": [
+              23,
+              26
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              27,
+              35
+            ],
+            "gloss_id": "s07-g05"
+          },
+          {
+            "span": [
+              36,
+              43
+            ],
+            "gloss_id": "s07-g06"
+          },
+          {
+            "span": [
+              44,
+              51
+            ],
+            "gloss_id": "s07-g07"
+          },
+          {
+            "span": [
+              52,
+              55
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              56,
+              60
+            ],
+            "gloss_id": "s07-g08"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              0,
+              35
+            ],
+            "meaning_ko": "한때 새롭고 신나 보였던 것",
+            "explanation": "선행사를 포함한 관계대명사 what이 이끄는 절이 문장 전체의 주어다. what이 seemed의 주어라 V′ seemed와 뜻을 잡는 최소 보어 novel and exciting까지 표시.",
+            "display_pairs": [
+              {
+                "en": "[What once seemed novel and exciting]",
+                "ko": "[한때 새롭고 신나 보였던 것]",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        1,
+                        5
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        13,
+                        16
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "관계대명사 what"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "관계대명사 what절(What once seemed novel and exciting)이 주어 + becomes the norm. what은 seemed의 주어. seem은 보어 없이 뜻이 잡히지 않아 최소 보어까지 표시(s50 결정 “현행 유지”와 같은 기준). 힌트 1개(필수 관계사). 수동 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": [
+            "s07-g01"
+          ]
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s08",
+        "text": "Second, we keep raising the bar.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 7,
+            "ko": "둘째,"
+          },
+          {
+            "start": 8,
+            "end": 32,
+            "ko": "우리는 계속 기준을 높인다."
+          }
+        ],
+        "natural_ko": "둘째, 우리는 계속 기준을 높인다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 8,
+            "subject_spans": [
+              [
+                8,
+                10
+              ]
+            ],
+            "verb_spans": [
+              [
+                11,
+                15
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s08-g01",
+            "spans": [
+              [
+                0,
+                6
+              ]
+            ],
+            "headword": "second",
+            "meaning_ko": "둘째",
+            "star": false
+          },
+          {
+            "id": "s08-g02",
+            "spans": [
+              [
+                8,
+                10
+              ]
+            ],
+            "headword": "we",
+            "meaning_ko": "우리는",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s08-g03",
+            "spans": [
+              [
+                11,
+                15
+              ]
+            ],
+            "headword": "keep V-ing",
+            "meaning_ko": "계속 ~하다",
+            "star": false,
+            "kind": "lexical",
+            "verb_construction": {
+              "kind": "verb-frame",
+              "verb_span": [
+                11,
+                15
+              ],
+              "lemma": "keep",
+              "link_spans": [],
+              "review_record": "keep raising the bar: keep의 목적어 V-ing. V-ing 연결 뜻은 이 구문이 제공."
+            }
+          },
+          {
+            "id": "s08-g04",
+            "spans": [
+              [
+                16,
+                31
+              ]
+            ],
+            "headword": "raise the bar",
+            "meaning_ko": "기준을 높이다",
+            "star": true,
+            "today_word_id": "u1-w7",
+            "verb_form": {
+              "usage": "ing",
+              "source_span": [
+                16,
+                23
+              ],
+              "lemma": "raise"
+            }
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              6
+            ],
+            "gloss_id": "s08-g01"
+          },
+          {
+            "span": [
+              8,
+              10
+            ],
+            "gloss_id": "s08-g02"
+          },
+          {
+            "span": [
+              11,
+              15
+            ],
+            "gloss_id": "s08-g03"
+          },
+          {
+            "span": [
+              16,
+              23
+            ],
+            "gloss_id": "s08-g04"
+          },
+          {
+            "span": [
+              24,
+              27
+            ],
+            "gloss_id": "s08-g04"
+          },
+          {
+            "span": [
+              28,
+              31
+            ],
+            "gloss_id": "s08-g04"
+          }
+        ],
+        "hints": [],
+        "reading_checks": {
+          "review_record": "단일 절 keep V-ing(raising the bar, 기준을 높이다 — 한 덩어리 표현). 연결·관계사·수동 없음 → 힌트 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s09",
+        "text": "New purchases lead to new expectations.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 39,
+            "ko": "새로운 구매들은 새로운 기대들로 이어진다."
+          }
+        ],
+        "natural_ko": "새로 산 물건은 새로운 기대로 이어진다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                0,
+                13
+              ]
+            ],
+            "verb_spans": [
+              [
+                14,
+                18
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s09-g01",
+            "spans": [
+              [
+                0,
+                3
+              ]
+            ],
+            "headword": "new",
+            "meaning_ko": "새로운",
+            "star": false
+          },
+          {
+            "id": "s09-g02",
+            "spans": [
+              [
+                4,
+                13
+              ]
+            ],
+            "headword": "purchases",
+            "meaning_ko": "구매들, 구매한 물건들",
+            "star": false
+          },
+          {
+            "id": "s09-g03",
+            "spans": [
+              [
+                14,
+                18
+              ]
+            ],
+            "headword": "lead",
+            "meaning_ko": "이어지다",
+            "star": false
+          },
+          {
+            "id": "s09-g04",
+            "spans": [
+              [
+                19,
+                21
+              ]
+            ],
+            "headword": "to",
+            "meaning_ko": "~로",
+            "star": false
+          },
+          {
+            "id": "s09-g05",
+            "spans": [
+              [
+                22,
+                25
+              ]
+            ],
+            "headword": "new",
+            "meaning_ko": "새로운",
+            "star": false
+          },
+          {
+            "id": "s09-g06",
+            "spans": [
+              [
+                26,
+                38
+              ]
+            ],
+            "headword": "expectations",
+            "meaning_ko": "기대들",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              3
+            ],
+            "gloss_id": "s09-g01"
+          },
+          {
+            "span": [
+              4,
+              13
+            ],
+            "gloss_id": "s09-g02"
+          },
+          {
+            "span": [
+              14,
+              18
+            ],
+            "gloss_id": "s09-g03"
+          },
+          {
+            "span": [
+              19,
+              21
+            ],
+            "gloss_id": "s09-g04"
+          },
+          {
+            "span": [
+              22,
+              25
+            ],
+            "gloss_id": "s09-g05"
+          },
+          {
+            "span": [
+              26,
+              38
+            ],
+            "gloss_id": "s09-g06"
+          }
+        ],
+        "hints": [],
+        "reading_checks": {
+          "review_record": "단일 절. lead와 to는 대표 뜻(~로)으로 이해되어 분리. 연결·관계사·수동 없음 → 힌트 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s10",
+        "text": "As soon as we get used to a new possession, we look for an even better one.",
+        "key": true,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 43,
+            "ko": "우리가 새로운 소유물에 익숙해지자마자,"
+          },
+          {
+            "start": 44,
+            "end": 75,
+            "ko": "우리는 훨씬 더 좋은 것을 찾는다."
+          }
+        ],
+        "natural_ko": "새로 가진 물건에 익숙해지자마자 우리는 훨씬 더 좋은 것을 찾는다.",
+        "clauses": [
+          {
+            "kind": "subordinate",
+            "start": 0,
+            "marker": "As soon as",
+            "subject_spans": [
+              [
+                11,
+                13
+              ]
+            ],
+            "verb_spans": [
+              [
+                14,
+                17
+              ]
+            ]
+          },
+          {
+            "kind": "main",
+            "start": 44,
+            "subject_spans": [
+              [
+                44,
+                46
+              ]
+            ],
+            "verb_spans": [
+              [
+                47,
+                51
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s10-g01",
+            "spans": [
+              [
+                0,
+                2
+              ],
+              [
+                3,
+                7
+              ],
+              [
+                8,
+                10
+              ]
+            ],
+            "headword": "as soon as S′ V′",
+            "meaning_ko": "S′(이/가) V′하자마자",
+            "star": false
+          },
+          {
+            "id": "s10-g02",
+            "spans": [
+              [
+                11,
+                13
+              ]
+            ],
+            "headword": "we",
+            "meaning_ko": "우리가",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s10-g03",
+            "spans": [
+              [
+                14,
+                17
+              ],
+              [
+                18,
+                22
+              ],
+              [
+                23,
+                25
+              ]
+            ],
+            "headword": "get used to",
+            "meaning_ko": "~에 익숙해지다",
+            "star": true,
+            "today_word_id": "u1-w5"
+          },
+          {
+            "id": "s10-g04",
+            "spans": [
+              [
+                28,
+                31
+              ]
+            ],
+            "headword": "new",
+            "meaning_ko": "새로운",
+            "star": false
+          },
+          {
+            "id": "s10-g05",
+            "spans": [
+              [
+                32,
+                42
+              ]
+            ],
+            "headword": "possession",
+            "meaning_ko": "소유물, 가진 물건",
+            "star": true,
+            "today_word_id": "u1-w6"
+          },
+          {
+            "id": "s10-g06",
+            "spans": [
+              [
+                44,
+                46
+              ]
+            ],
+            "headword": "we",
+            "meaning_ko": "우리는",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s10-g07",
+            "spans": [
+              [
+                47,
+                51
+              ],
+              [
+                52,
+                55
+              ]
+            ],
+            "headword": "look for",
+            "meaning_ko": "~을 찾다",
+            "star": false
+          },
+          {
+            "id": "s10-g08",
+            "spans": [
+              [
+                59,
+                63
+              ]
+            ],
+            "headword": "even",
+            "meaning_ko": "훨씬",
+            "star": false
+          },
+          {
+            "id": "s10-g09",
+            "spans": [
+              [
+                64,
+                70
+              ]
+            ],
+            "headword": "better",
+            "meaning_ko": "더 좋은 (good의 비교급)",
+            "star": false
+          },
+          {
+            "id": "s10-g10",
+            "spans": [
+              [
+                71,
+                74
+              ]
+            ],
+            "headword": "one",
+            "meaning_ko": "것",
+            "star": false,
+            "referent_ko": "소유물"
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              2
+            ],
+            "gloss_id": "s10-g01"
+          },
+          {
+            "span": [
+              3,
+              7
+            ],
+            "gloss_id": "s10-g01"
+          },
+          {
+            "span": [
+              8,
+              10
+            ],
+            "gloss_id": "s10-g01"
+          },
+          {
+            "span": [
+              11,
+              13
+            ],
+            "gloss_id": "s10-g02"
+          },
+          {
+            "span": [
+              14,
+              17
+            ],
+            "gloss_id": "s10-g03"
+          },
+          {
+            "span": [
+              18,
+              22
+            ],
+            "gloss_id": "s10-g03"
+          },
+          {
+            "span": [
+              23,
+              25
+            ],
+            "gloss_id": "s10-g03"
+          },
+          {
+            "span": [
+              26,
+              27
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              28,
+              31
+            ],
+            "gloss_id": "s10-g04"
+          },
+          {
+            "span": [
+              32,
+              42
+            ],
+            "gloss_id": "s10-g05"
+          },
+          {
+            "span": [
+              44,
+              46
+            ],
+            "gloss_id": "s10-g06"
+          },
+          {
+            "span": [
+              47,
+              51
+            ],
+            "gloss_id": "s10-g07"
+          },
+          {
+            "span": [
+              52,
+              55
+            ],
+            "gloss_id": "s10-g07"
+          },
+          {
+            "span": [
+              56,
+              58
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              59,
+              63
+            ],
+            "gloss_id": "s10-g08"
+          },
+          {
+            "span": [
+              64,
+              70
+            ],
+            "gloss_id": "s10-g09"
+          },
+          {
+            "span": [
+              71,
+              74
+            ],
+            "gloss_id": "s10-g10"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              0,
+              22
+            ],
+            "meaning_ko": "우리가 (새로운 소유물에) 익숙해지자마자",
+            "explanation": "as soon as S′ V′: S′가 V′하자마자. S′ we, V′ get used까지 표시하고 to a new possession은 제외.",
+            "display_pairs": [
+              {
+                "en": "[As soon as we get used]",
+                "ko": "[우리[사람들]가 익숙해지자마자]",
+                "pronoun_refs": [
+                  {
+                    "en_span": [
+                      12,
+                      14
+                    ],
+                    "ko_pronoun_span": [
+                      1,
+                      3
+                    ],
+                    "ko_reference_span": [
+                      3,
+                      8
+                    ]
+                  }
+                ],
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        1,
+                        11
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        8,
+                        9
+                      ],
+                      [
+                        14,
+                        17
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "접속사 as soon as"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "시간 부사절 As soon as(S′ we, V′ get) + 주절 we look for an even better one. one은 possession을 대신함. 힌트 1개(as soon as). 관계사·수동 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s11",
+        "text": "Third, possessions stimulate humans to compare themselves with others.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 6,
+            "ko": "셋째,"
+          },
+          {
+            "start": 7,
+            "end": 35,
+            "ko": "소유물들은 인간들을 자극한다"
+          },
+          {
+            "start": 36,
+            "end": 70,
+            "ko": "그들 자신을 다른 사람들과 비교하도록."
+          }
+        ],
+        "natural_ko": "셋째, 소유물은 인간이 자신을 다른 사람과 비교하도록 자극한다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 7,
+            "subject_spans": [
+              [
+                7,
+                18
+              ]
+            ],
+            "verb_spans": [
+              [
+                19,
+                28
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s11-g01",
+            "spans": [
+              [
+                0,
+                5
+              ]
+            ],
+            "headword": "third",
+            "meaning_ko": "셋째",
+            "star": false
+          },
+          {
+            "id": "s11-g02",
+            "spans": [
+              [
+                7,
+                18
+              ]
+            ],
+            "headword": "possessions",
+            "meaning_ko": "소유물들, 가진 물건들",
+            "star": true,
+            "today_word_id": "u1-w6"
+          },
+          {
+            "id": "s11-g03",
+            "spans": [
+              [
+                19,
+                28
+              ],
+              [
+                36,
+                38
+              ]
+            ],
+            "headword": "stimulate A to V",
+            "meaning_ko": "A(이/가) ~하도록 자극하다",
+            "star": true,
+            "today_word_id": "u1-w8",
+            "kind": "lexical",
+            "verb_construction": {
+              "kind": "verb-frame",
+              "verb_span": [
+                19,
+                28
+              ],
+              "lemma": "stimulate",
+              "link_spans": [
+                [
+                  36,
+                  38
+                ]
+              ],
+              "review_record": "stimulate humans to compare: A=humans, to V=to compare."
+            }
+          },
+          {
+            "id": "s11-g04",
+            "spans": [
+              [
+                29,
+                35
+              ]
+            ],
+            "headword": "humans",
+            "meaning_ko": "인간들",
+            "star": false
+          },
+          {
+            "id": "s11-g05",
+            "spans": [
+              [
+                39,
+                46
+              ],
+              [
+                58,
+                62
+              ]
+            ],
+            "headword": "compare A with B",
+            "meaning_ko": "A를 B와 비교하다",
+            "star": false
+          },
+          {
+            "id": "s11-g06",
+            "spans": [
+              [
+                47,
+                57
+              ]
+            ],
+            "headword": "themselves",
+            "meaning_ko": "그들 자신",
+            "star": false,
+            "referent_ko": "인간들"
+          },
+          {
+            "id": "s11-g07",
+            "spans": [
+              [
+                63,
+                69
+              ]
+            ],
+            "headword": "others",
+            "meaning_ko": "다른 사람들",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              5
+            ],
+            "gloss_id": "s11-g01"
+          },
+          {
+            "span": [
+              7,
+              18
+            ],
+            "gloss_id": "s11-g02"
+          },
+          {
+            "span": [
+              19,
+              28
+            ],
+            "gloss_id": "s11-g03"
+          },
+          {
+            "span": [
+              29,
+              35
+            ],
+            "gloss_id": "s11-g04"
+          },
+          {
+            "span": [
+              36,
+              38
+            ],
+            "gloss_id": "s11-g03"
+          },
+          {
+            "span": [
+              39,
+              46
+            ],
+            "gloss_id": "s11-g05"
+          },
+          {
+            "span": [
+              47,
+              57
+            ],
+            "gloss_id": "s11-g06"
+          },
+          {
+            "span": [
+              58,
+              62
+            ],
+            "gloss_id": "s11-g05"
+          },
+          {
+            "span": [
+              63,
+              69
+            ],
+            "gloss_id": "s11-g07"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              19,
+              46
+            ],
+            "meaning_ko": "인간들이 (자신을 다른 사람들과) 비교하도록 자극한다",
+            "explanation": "stimulate A to V: A가 ~하도록 자극하다. A=humans, to V=to compare. 목적어 themselves와 with others는 표시에서 제외.",
+            "display_pairs": [
+              {
+                "en": "stimulate humans [to compare]",
+                "ko": "인간들이 [비교하도록] 자극한다",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        0,
+                        9
+                      ],
+                      [
+                        18,
+                        20
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        3,
+                        4
+                      ],
+                      [
+                        9,
+                        11
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "stimulate A to V 구문",
+            "emphasis_policy": "ko-only-verb-construction"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "단일 절 stimulate A to V(A=humans, to V=to compare) + compare A with B(A=themselves, B=others). 상위 문법 연결이 없어 동사 구문 stimulate A to V를 힌트로 선정. 관계사·수동 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s12",
+        "text": "We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 16,
+            "ko": "우리는 새 차를 산다"
+          },
+          {
+            "start": 17,
+            "end": 41,
+            "ko": "그리고 그것에 몹시 기뻐한다"
+          },
+          {
+            "start": 42,
+            "end": 75,
+            "ko": "친구가 더 좋은 것을 살 때까지,"
+          },
+          {
+            "start": 76,
+            "end": 102,
+            "ko": "그리고 항상 누군가가 있다"
+          },
+          {
+            "start": 103,
+            "end": 121,
+            "ko": "더 좋은 것을 가진."
+          }
+        ],
+        "natural_ko": "우리는 새 차를 사서 친구가 더 좋은 차를 살 때까지 그 차에 몹시 기뻐하는데, 더 좋은 차를 가진 사람은 언제나 있다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                0,
+                2
+              ]
+            ],
+            "verb_spans": [
+              [
+                3,
+                6
+              ],
+              [
+                17,
+                20
+              ],
+              [
+                21,
+                24
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 42,
+            "marker": "until",
+            "subject_spans": [
+              [
+                48,
+                56
+              ]
+            ],
+            "verb_spans": [
+              [
+                57,
+                61
+              ]
+            ]
+          },
+          {
+            "kind": "main",
+            "start": 80,
+            "marker": "and",
+            "subject_spans": [
+              [
+                95,
+                120
+              ]
+            ],
+            "subject_display_spans": [
+              [
+                95,
+                102
+              ]
+            ],
+            "subject_display_review": "중심 대명사 someone까지 표시하고 뒤에서 꾸미는 with a better one은 제외(유도부사 there는 주어 아님)",
+            "verb_spans": [
+              [
+                85,
+                87
+              ]
+            ],
+            "contraction_readings": [
+              {
+                "span": [
+                  85,
+                  87
+                ],
+                "expanded": "is"
+              }
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s12-g01",
+            "spans": [
+              [
+                0,
+                2
+              ]
+            ],
+            "headword": "we",
+            "meaning_ko": "우리는",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s12-g02",
+            "spans": [
+              [
+                3,
+                6
+              ]
+            ],
+            "headword": "buy",
+            "meaning_ko": "사다",
+            "star": false
+          },
+          {
+            "id": "s12-g03",
+            "spans": [
+              [
+                9,
+                12
+              ]
+            ],
+            "headword": "new",
+            "meaning_ko": "새로운",
+            "star": false
+          },
+          {
+            "id": "s12-g04",
+            "spans": [
+              [
+                13,
+                16
+              ]
+            ],
+            "headword": "car",
+            "meaning_ko": "차",
+            "star": false
+          },
+          {
+            "id": "s12-g05",
+            "spans": [
+              [
+                21,
+                24
+              ],
+              [
+                25,
+                33
+              ],
+              [
+                34,
+                38
+              ]
+            ],
+            "headword": "be thrilled with",
+            "meaning_ko": "~에 몹시 기뻐하다",
+            "star": false
+          },
+          {
+            "id": "s12-g06",
+            "spans": [
+              [
+                39,
+                41
+              ]
+            ],
+            "headword": "it",
+            "meaning_ko": "그것",
+            "star": false,
+            "referent_ko": "새 차"
+          },
+          {
+            "id": "s12-g07",
+            "spans": [
+              [
+                42,
+                47
+              ]
+            ],
+            "headword": "until S′ V′",
+            "meaning_ko": "S′(이/가) V′할 때까지",
+            "star": false
+          },
+          {
+            "id": "s12-g08",
+            "spans": [
+              [
+                50,
+                56
+              ]
+            ],
+            "headword": "friend",
+            "meaning_ko": "친구",
+            "star": false
+          },
+          {
+            "id": "s12-g09",
+            "spans": [
+              [
+                57,
+                61
+              ]
+            ],
+            "headword": "buy",
+            "meaning_ko": "사다",
+            "star": false,
+            "verb_form": {
+              "usage": "third-person-singular",
+              "source_span": [
+                57,
+                61
+              ],
+              "lemma": "buy",
+              "review_record": "주어 a friend(3인칭 단수)의 일반동사 buys → 원형 buy."
+            }
+          },
+          {
+            "id": "s12-g10",
+            "spans": [
+              [
+                64,
+                70
+              ]
+            ],
+            "headword": "better",
+            "meaning_ko": "더 좋은 (good의 비교급)",
+            "star": false
+          },
+          {
+            "id": "s12-g11",
+            "spans": [
+              [
+                71,
+                74
+              ]
+            ],
+            "headword": "one",
+            "meaning_ko": "것",
+            "star": false,
+            "referent_ko": "차"
+          },
+          {
+            "id": "s12-g12",
+            "spans": [
+              [
+                80,
+                87
+              ]
+            ],
+            "headword": "there’s (= there is)",
+            "meaning_ko": "~이 있다",
+            "star": false
+          },
+          {
+            "id": "s12-g13",
+            "spans": [
+              [
+                88,
+                94
+              ]
+            ],
+            "headword": "always",
+            "meaning_ko": "항상",
+            "star": false
+          },
+          {
+            "id": "s12-g14",
+            "spans": [
+              [
+                95,
+                102
+              ]
+            ],
+            "headword": "someone",
+            "meaning_ko": "누군가",
+            "star": false
+          },
+          {
+            "id": "s12-g15",
+            "spans": [
+              [
+                103,
+                107
+              ]
+            ],
+            "headword": "with",
+            "meaning_ko": "~을 가진",
+            "star": false
+          },
+          {
+            "id": "s12-g16",
+            "spans": [
+              [
+                110,
+                116
+              ]
+            ],
+            "headword": "better",
+            "meaning_ko": "더 좋은 (good의 비교급)",
+            "star": false
+          },
+          {
+            "id": "s12-g17",
+            "spans": [
+              [
+                117,
+                120
+              ]
+            ],
+            "headword": "one",
+            "meaning_ko": "것",
+            "star": false,
+            "referent_ko": "차"
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              2
+            ],
+            "gloss_id": "s12-g01"
+          },
+          {
+            "span": [
+              3,
+              6
+            ],
+            "gloss_id": "s12-g02"
+          },
+          {
+            "span": [
+              7,
+              8
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              9,
+              12
+            ],
+            "gloss_id": "s12-g03"
+          },
+          {
+            "span": [
+              13,
+              16
+            ],
+            "gloss_id": "s12-g04"
+          },
+          {
+            "span": [
+              17,
+              20
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              21,
+              24
+            ],
+            "gloss_id": "s12-g05"
+          },
+          {
+            "span": [
+              25,
+              33
+            ],
+            "gloss_id": "s12-g05"
+          },
+          {
+            "span": [
+              34,
+              38
+            ],
+            "gloss_id": "s12-g05"
+          },
+          {
+            "span": [
+              39,
+              41
+            ],
+            "gloss_id": "s12-g06"
+          },
+          {
+            "span": [
+              42,
+              47
+            ],
+            "gloss_id": "s12-g07"
+          },
+          {
+            "span": [
+              48,
+              49
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              50,
+              56
+            ],
+            "gloss_id": "s12-g08"
+          },
+          {
+            "span": [
+              57,
+              61
+            ],
+            "gloss_id": "s12-g09"
+          },
+          {
+            "span": [
+              62,
+              63
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              64,
+              70
+            ],
+            "gloss_id": "s12-g10"
+          },
+          {
+            "span": [
+              71,
+              74
+            ],
+            "gloss_id": "s12-g11"
+          },
+          {
+            "span": [
+              76,
+              79
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              80,
+              87
+            ],
+            "gloss_id": "s12-g12"
+          },
+          {
+            "span": [
+              88,
+              94
+            ],
+            "gloss_id": "s12-g13"
+          },
+          {
+            "span": [
+              95,
+              102
+            ],
+            "gloss_id": "s12-g14"
+          },
+          {
+            "span": [
+              103,
+              107
+            ],
+            "gloss_id": "s12-g15"
+          },
+          {
+            "span": [
+              108,
+              109
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              110,
+              116
+            ],
+            "gloss_id": "s12-g16"
+          },
+          {
+            "span": [
+              117,
+              120
+            ],
+            "gloss_id": "s12-g17"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              42,
+              61
+            ],
+            "meaning_ko": "친구가 (더 좋은 것을) 살 때까지",
+            "explanation": "until S′ V′: S′가 V′할 때까지. S′ a friend, V′ buys까지 표시하고 목적어 a better one은 제외.",
+            "display_pairs": [
+              {
+                "en": "[until a friend buys]",
+                "ko": "[친구가 살 때까지]",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        1,
+                        6
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        3,
+                        4
+                      ],
+                      [
+                        7,
+                        10
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "접속사 until"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "첫 절 We buy … and are thrilled with it(동사 buy와 are가 and로 병렬, be thrilled with는 한 각주) + 시간 부사절 until(S′ a friend, V′ buys) + and 뒤 둘째 절 there’s(= there is) always someone with a better one. one은 car를 대신함. 힌트 1개(until). 관계사·수동 없음.",
+          "required_breaks": [
+            {
+              "at": 103,
+              "kind": "postnominal-preposition",
+              "reason": "with a better one은 앞 대명사 someone을 뒤에서 꾸미는 전치사구"
+            }
+          ],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": []
+        }
+      }
+    ]
+  },
+  "context": {
+    "sources": [
+      {
+        "id": "src",
+        "label": "Further Reading",
+        "text": "A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things. We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this.\nFirst, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.\n“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff. You can even think that part of your identity is connected to those things, but nonetheless they remain separate from you. On the other hand, your experiences really are part of you. We are the sum total of our experiences.”",
+        "sentences": [
+          {
+            "id": "s01",
+            "start": 0,
+            "end": 168
+          },
+          {
+            "id": "s02",
+            "start": 169,
+            "end": 265
+          },
+          {
+            "id": "s03",
+            "start": 266,
+            "end": 281
+          },
+          {
+            "id": "s04",
+            "start": 282,
+            "end": 355
+          },
+          {
+            "id": "s05",
+            "start": 356,
+            "end": 398
+          },
+          {
+            "id": "s06",
+            "start": 399,
+            "end": 437
+          },
+          {
+            "id": "s07",
+            "start": 438,
+            "end": 499
+          },
+          {
+            "id": "s08",
+            "start": 500,
+            "end": 532
+          },
+          {
+            "id": "s09",
+            "start": 533,
+            "end": 572
+          },
+          {
+            "id": "s10",
+            "start": 573,
+            "end": 648
+          },
+          {
+            "id": "s11",
+            "start": 649,
+            "end": 719
+          },
+          {
+            "id": "s12",
+            "start": 720,
+            "end": 841
+          },
+          {
+            "id": "s13",
+            "start": 842,
+            "end": 946
+          },
+          {
+            "id": "s14",
+            "start": 947,
+            "end": 1004
+          },
+          {
+            "id": "s15",
+            "start": 1005,
+            "end": 1139
+          },
+          {
+            "id": "s16",
+            "start": 1140,
+            "end": 1228
+          },
+          {
+            "id": "s17",
+            "start": 1229,
+            "end": 1270
+          },
+          {
+            "id": "s18",
+            "start": 1271,
+            "end": 1393
+          },
+          {
+            "id": "s19",
+            "start": 1394,
+            "end": 1453
+          },
+          {
+            "id": "s20",
+            "start": 1454,
+            "end": 1495
+          }
+        ],
+        "subheadings": [],
+        "provenance": {
+          "filename": "(2022개정)2026년_영어II_YBM(박준언)_2과_본문.pdf",
+          "sha256": "3819ed05f25db9b61fe8cc72f218c4928bc52260f406e73f680fb5454ecc0ae9",
+          "location": "원본 PDF 5쪽 Further Reading 왼쪽 단 영어 본문 전체(섹션 표시 Further Reading·제목 Happiness Comes From Experiences 제외, 오른쪽 단 한국어 해석·세로 저작권 문구 제외)",
+          "verification_record": "2026-09-27 pypdfium2 텍스트 추출로 5쪽 영어 줄(섹션 표시·제목 포함 1,544자)을 원고와 문자 단위 대조해 완전 일치. 줄바꿈은 공백으로 연결. 곡선 아포스트로피(Don’t·it’s·there’s·That’s·we’ve)와 곡선 따옴표 원문 유지. 단락 4개는 들여쓰기로 확인. 인용문은 인용 안 마침표 기준으로 문장을 나눔."
+        }
+      }
+    ],
+    "paragraphs": [
+      {
+        "id": "p01",
+        "source_id": "src",
+        "subheading_id": null,
+        "sentence_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s04",
+          "s05"
+        ]
+      },
+      {
+        "id": "p02",
+        "source_id": "src",
+        "subheading_id": null,
+        "sentence_ids": [
+          "s06",
+          "s07",
+          "s08",
+          "s09",
+          "s10",
+          "s11",
+          "s12"
+        ]
+      },
+      {
+        "id": "p03",
+        "source_id": "src",
+        "subheading_id": null,
+        "sentence_ids": [
+          "s13",
+          "s14",
+          "s15"
+        ]
+      },
+      {
+        "id": "p04",
+        "source_id": "src",
+        "subheading_id": null,
+        "sentence_ids": [
+          "s16",
+          "s17",
+          "s18",
+          "s19",
+          "s20"
+        ]
+      }
+    ],
+    "grouping_resolutions": [
+      {
+        "source_id": "src",
+        "paragraph_ids": [
+          "p01",
+          "p02"
+        ],
+        "instruction": "2026-09-27 사용자 선택 “2단위 (추천)”: 소제목 없는 단락 p01(5문장)·p02(7문장)를 물건의 행복이 빨리 사라지는 이유로 묶음"
+      },
+      {
+        "source_id": "src",
+        "paragraph_ids": [
+          "p03",
+          "p04"
+        ],
+        "instruction": "2026-09-27 사용자 선택 “2단위 (추천)”: 소제목 없는 짧은 단락 p03(3문장)·p04(5문장)를 경험이 오래가는 행복을 주는 이유로 묶음"
+      }
+    ],
+    "units": [
+      {
+        "id": "u2",
+        "source_id": "src",
+        "paragraph_ids": [
+          "p03",
+          "p04"
+        ],
+        "sentence_ids": [
+          "s13",
+          "s14",
+          "s15",
+          "s16",
+          "s17",
+          "s18",
+          "s19",
+          "s20"
+        ],
+        "today_words": [
+          {
+            "id": "u2-w1",
+            "text": "deliver",
+            "meaning_ko": "가져다주다, 전하다",
+            "source_gloss_id": "s13-g07"
+          },
+          {
+            "id": "u2-w2",
+            "text": "identity",
+            "meaning_ko": "정체성, 나다움",
+            "source_gloss_id": "s14-g07"
+          },
+          {
+            "id": "u2-w3",
+            "text": "accumulation",
+            "meaning_ko": "축적, 쌓인 것",
+            "source_gloss_id": "s15-g07"
+          },
+          {
+            "id": "u2-w4",
+            "text": "stuff",
+            "meaning_ko": "물건, 것",
+            "source_gloss_id": "s17-g06"
+          },
+          {
+            "id": "u2-w5",
+            "text": "nonetheless",
+            "meaning_ko": "그럼에도 불구하고",
+            "source_gloss_id": "s18-g14"
+          },
+          {
+            "id": "u2-w6",
+            "text": "remain",
+            "meaning_ko": "(여전히) ~인 채로 남아 있다",
+            "source_gloss_id": "s18-g16"
+          },
+          {
+            "id": "u2-w7",
+            "text": "on the other hand",
+            "meaning_ko": "반면에, 다른 한편으로",
+            "source_gloss_id": "s19-g01"
+          },
+          {
+            "id": "u2-w8",
+            "text": "sum total",
+            "meaning_ko": "총합, 전부",
+            "source_gloss_id": "s20-g03"
+          }
+        ],
+        "analysis": {
+          "heading_kind": "제목",
+          "title_or_topic_en": "Why Experiences Bring Longer Lasting Happiness",
+          "title_or_topic_ko": "경험이 더 오래가는 행복을 주는 이유",
+          "intent_ko": "경험이 물건보다 더 오래가는 행복을 주는 이유를 경험이 우리 정체성의 일부가 된다는 점으로 설명하고, 길로비치의 말을 인용해 우리는 경험의 총합이라고 강조하는 글이다.",
+          "flow": [
+            {
+              "sentence_ids": [
+                "s13",
+                "s14",
+                "s15"
+              ],
+              "label": "경험이 오래가는 이유",
+              "text_ko": "길로비치와 다른 연구자들은 경험이 물건보다 더 오래 지속되는 행복을 가져다준다는 것을 발견했다. 경험은 우리 정체성의 일부가 되기 때문이다. 우리는 가진 물건이 아니라 보고, 하고, 가 본 모든 것이 쌓인 존재다."
+            },
+            {
+              "sentence_ids": [
+                "s16",
+                "s17",
+                "s18",
+                "s19",
+                "s20"
+              ],
+              "label": "길로비치의 말",
+              "text_ko": "길로비치는 경험이 물질적인 재화보다 우리 자신의 더 큰 부분이라고 말한다. 물건을 좋아하고 그것이 정체성과 연결되어 있다고 생각할 수는 있어도 물건은 여전히 우리와 분리되어 있다. 반면 경험은 정말로 우리의 일부이며, 우리는 경험의 총합이다."
+            }
+          ],
+          "easy_explanations": [
+            {
+              "sentence_id": "s14",
+              "explanatory_sentences": [
+                "14번 문장은 13번에서 말한 연구 결과의 이유를 설명한다.",
+                "That은 경험이 물건보다 더 오래가는 행복을 준다는 13번의 내용을 가리킨다.",
+                "우리가 한 경험은 우리가 어떤 사람인지를 이루는 한 부분이 된다.",
+                "글쓴이는 이것이 경험의 행복이 더 오래가는 이유라고 말한다."
+              ]
+            },
+            {
+              "sentence_id": "s16",
+              "explanatory_sentences": [
+                "16번 문장부터는 길로비치 교수가 직접 한 말을 옮긴다.",
+                "그는 경험이 물질적인 물건보다 우리 자신에서 더 큰 부분을 차지한다고 말한다.",
+                "문장 끝의 says Gilovich는 이 말을 한 사람이 길로비치라는 것을 알려 준다."
+              ]
+            },
+            {
+              "sentence_id": "s18",
+              "explanatory_sentences": [
+                "18번 문장은 물건과 우리 사이의 관계를 설명한다.",
+                "우리는 어떤 물건이 나를 보여 주는 한 부분이라고 생각할 수도 있다.",
+                "그래도 그 물건은 여전히 나와 떨어져 있는 따로 된 것이다.",
+                "19번 문장은 이와 달리 경험은 정말로 나의 일부라고 말한다."
+              ]
+            }
+          ],
+          "grammar_points": [
+            {
+              "id": "u2-gp1",
+              "sentence_id": "s14",
+              "span": [
+                0,
+                56
+              ],
+              "title": "That’s because S′ V′: 그것은 S′가 V′하기 때문이다",
+              "formula_key": "That’s because S′ V′",
+              "explanation": "공식: That’s because S′ V′ — 그것은 S′(이/가) V′하기 때문이다. That = 앞 문장 내용(경험이 물건보다 더 오래 지속되는 행복을 가져다주는 것), S′ = experiences(경험들), V′ = become(~이 되다), 보어 = a part of our identity(우리 정체성의 일부). → 그것은 경험들이 우리 정체성의 일부가 되기 때문이다. That’s because 뒤에는 앞 내용의 이유가 온다.",
+              "practice": {
+                "span": [
+                  0,
+                  56
+                ],
+                "formula_support": {
+                  "en": "That’s because S′ V′",
+                  "ko": "그것은 S′(이/가) V′하기 때문이다"
+                },
+                "answer_ko": "그것은 경험들이 우리 정체성의 일부가 되기 때문이다",
+                "support_gloss_ids": [
+                  "s14-g02",
+                  "s14-g03",
+                  "s14-g04",
+                  "s14-g05",
+                  "s14-g06",
+                  "s14-g07"
+                ]
+              }
+            },
+            {
+              "id": "u2-gp2",
+              "sentence_id": "s15",
+              "span": [
+                0,
+                80
+              ],
+              "title": "not A, but B: A가 아니라 B",
+              "formula_key": "not A, but B",
+              "explanation": "공식: S are not A, but S are B — S는 A가 아니라 B이다. S = we(우리), A = our possessions(우리의 소유물들), B = the accumulation of everything we’ve seen(우리가 본 모든 것의 축적). → 우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다. not과 but이 짝을 이루어 A를 부정하고 B를 강조한다.",
+              "practice": {
+                "span": [
+                  0,
+                  80
+                ],
+                "formula_support": {
+                  "en": "not A, but B",
+                  "ko": "A가 아니라 B"
+                },
+                "answer_ko": "우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다",
+                "support_gloss_ids": [
+                  "s15-g03",
+                  "s15-g04",
+                  "s15-g07",
+                  "s15-g08",
+                  "s15-g09",
+                  "s15-g10",
+                  "s15-g11"
+                ]
+              }
+            },
+            {
+              "id": "u2-gp3",
+              "sentence_id": "s18",
+              "span": [
+                0,
+                74
+              ],
+              "title": "think that S′ V′: S′가 V′라고 생각하다",
+              "formula_key": "think that S′ V′",
+              "explanation": "공식: think that S′ V′ — S′(이/가) V′라고 생각하다. can = ~할 수 있다, even = 심지어, that = 명사절 접속사(~라고), S′ = part of your identity(여러분 정체성의 일부), V′ = is connected(연결되어 있다), to those things = 그 물건들에. → 여러분은 심지어 여러분 정체성의 일부가 그 물건들에 연결되어 있다고 생각할 수도 있다.",
+              "practice": {
+                "span": [
+                  13,
+                  74
+                ],
+                "formula_support": {
+                  "en": "think that S′ V′",
+                  "ko": "S′(이/가) V′라고 생각하다"
+                },
+                "answer_ko": "여러분 정체성의 일부가 그 물건들에 연결되어 있다고 생각하다",
+                "support_gloss_ids": [
+                  "s18-g03",
+                  "s18-g05",
+                  "s18-g06",
+                  "s18-g07",
+                  "s18-g08",
+                  "s18-g09",
+                  "s18-g10",
+                  "s18-g11",
+                  "s18-g12",
+                  "s18-g13"
+                ]
+              }
+            },
+            {
+              "id": "u2-gp4",
+              "sentence_id": "s13",
+              "span": [
+                0,
+                41
+              ],
+              "title": "have p.p.: ~했다 (have found: 발견했다)",
+              "formula_key": "have p.p.",
+              "explanation": "공식: have p.p. — ~했다. p.p. = found(find의 p.p.형, find = 발견하다), 주어 = Gilovich and other researchers(길로비치와 다른 연구자들). → 길로비치와 다른 연구자들은 발견했다. 무엇을 발견했는지는 뒤의 that절이 알려 준다. 15번의 we’ve seen·done·been(’ve = have)도 같은 have p.p.다.",
+              "supplemental": {
+                "reason": "s13의 능동 완료 have found와 s15의 we’ve seen·done·been은 각각 명사절·관계사·짝 구조 힌트를 선정해 결합 힌트로 두지 않았고, 기본 분석 3개에 have p.p. 설명이 없어 이 단위 대표 사례로 1회 보충",
+                "function_gloss_id": "s13-g03"
+              },
+              "practice": {
+                "span": [
+                  0,
+                  41
+                ],
+                "formula_support": {
+                  "en": "have p.p.",
+                  "ko": "~했다"
+                },
+                "answer_ko": "길로비치와 다른 연구자들은 발견했다",
+                "support_gloss_ids": [
+                  "s13-g01",
+                  "s13-g02",
+                  "s13-g04"
+                ]
+              }
+            },
+            {
+              "id": "u2-gp5",
+              "sentence_id": "s18",
+              "span": [
+                24,
+                74
+              ],
+              "title": "be p.p.: ~되다 (is connected: 연결되어 있다)",
+              "formula_key": "be p.p.",
+              "explanation": "공식: be p.p. — ~되다. p.p. = connected(연결된, connect의 p.p.형), 주어 = part of your identity(여러분 정체성의 일부), to those things = 그 물건들에. → 여러분 정체성의 일부가 그 물건들에 연결되어 있다. 정체성의 일부는 스스로 연결하는 것이 아니라 ‘연결되는’ 쪽이라 수동을 쓴다.",
+              "supplemental": {
+                "reason": "s18의 수동 is connected는 명사절 that 힌트 표시 범위 안이라 결합 힌트로 두지 않았고, 기본 분석 3개에 be p.p. 설명이 없어 이 단위 대표 사례로 1회 보충",
+                "function_gloss_id": "s18-g09"
+              },
+              "practice": {
+                "span": [
+                  24,
+                  74
+                ],
+                "formula_support": {
+                  "en": "be p.p.",
+                  "ko": "~되다"
+                },
+                "answer_ko": "여러분 정체성의 일부가 그 물건들에 연결되어 있다",
+                "support_gloss_ids": [
+                  "s18-g05",
+                  "s18-g06",
+                  "s18-g07",
+                  "s18-g08",
+                  "s18-g10",
+                  "s18-g11",
+                  "s18-g12",
+                  "s18-g13"
+                ]
+              }
+            }
+          ],
+          "formula_routes": [
+            {
+              "sentence_id": "s13",
+              "function_gloss_id": "s13-g03",
+              "formula_key": "have p.p.",
+              "route": "analysis",
+              "grammar_point_id": "u2-gp4",
+              "review_record": "have found: 명사절 that 힌트가 있는 문장이라 분석 보충 u2-gp4로 연결"
+            },
+            {
+              "sentence_id": "s15",
+              "function_gloss_id": "s15-g10",
+              "formula_key": "have p.p.",
+              "route": "analysis",
+              "grammar_point_id": "u2-gp4",
+              "review_record": "we’ve seen: 관계사·짝 구조 힌트가 있는 문장이라 분석 보충 u2-gp4로 연결"
+            },
+            {
+              "sentence_id": "s15",
+              "function_gloss_id": "s15-g13",
+              "formula_key": "have p.p.",
+              "route": "analysis",
+              "grammar_point_id": "u2-gp4",
+              "review_record": "we’ve done: 같은 이유로 u2-gp4로 연결"
+            },
+            {
+              "sentence_id": "s15",
+              "function_gloss_id": "s15-g16",
+              "formula_key": "have p.p.",
+              "route": "analysis",
+              "grammar_point_id": "u2-gp4",
+              "review_record": "we’ve been to: 같은 이유로 u2-gp4로 연결"
+            },
+            {
+              "sentence_id": "s18",
+              "function_gloss_id": "s18-g09",
+              "formula_key": "be p.p.",
+              "route": "analysis",
+              "grammar_point_id": "u2-gp5",
+              "review_record": "is connected: 명사절 that 힌트 표시 범위 안이라 분석 보충 u2-gp5로 연결"
+            }
+          ],
+          "relations": [
+            {
+              "head": {
+                "id": "u2-r1h",
+                "text": "lasting",
+                "meaning_ko": "지속되는, 오래가는"
+              },
+              "synonym": {
+                "id": "u2-r1s",
+                "text": "enduring",
+                "meaning_ko": "오래가는, 지속적인"
+              },
+              "antonym": {
+                "id": "u2-r1a",
+                "text": "temporary",
+                "meaning_ko": "일시적인"
+              }
+            },
+            {
+              "head": {
+                "id": "u2-r2h",
+                "text": "material",
+                "meaning_ko": "물질적인"
+              },
+              "synonym": {
+                "id": "u2-r2s",
+                "text": "physical",
+                "meaning_ko": "물리적인, 물질의"
+              },
+              "antonym": {
+                "id": "u2-r2a",
+                "text": "spiritual",
+                "meaning_ko": "정신적인"
+              }
+            },
+            {
+              "head": {
+                "id": "u2-r3h",
+                "text": "separate",
+                "meaning_ko": "분리된, 별개의"
+              },
+              "synonym": {
+                "id": "u2-r3s",
+                "text": "distinct",
+                "meaning_ko": "별개의, 뚜렷이 다른"
+              },
+              "antonym": {
+                "id": "u2-r3a",
+                "text": "united",
+                "meaning_ko": "결합된, 하나가 된"
+              }
+            }
+          ]
+        },
+        "workbook": {
+          "relation_order": [
+            "u2-r3s",
+            "u2-r1a",
+            "u2-r2h",
+            "u2-r3a",
+            "u2-r1h",
+            "u2-r2s",
+            "u2-r3h",
+            "u2-r2a",
+            "u2-r1s"
+          ],
+          "key_sentence_ids": [
+            "s13",
+            "s15"
+          ],
+          "question_id": "Q02",
+          "syntax_point_ids": [
+            "u2-gp1",
+            "u2-gp2",
+            "u2-gp3",
+            "u2-gp4",
+            "u2-gp5"
+          ]
+        }
+      }
+    ],
+    "sentences": [
+      {
+        "source_id": "src",
+        "id": "s13",
+        "text": "Gilovich and other researchers have found that experiences deliver longer lasting happiness than things.",
+        "key": true,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 41,
+            "ko": "길로비치와 다른 연구자들은 발견했다"
+          },
+          {
+            "start": 42,
+            "end": 91,
+            "ko": "경험들이 더 오래 지속되는 행복을 가져다준다는 것을"
+          },
+          {
+            "start": 92,
+            "end": 104,
+            "ko": "물건들보다."
+          }
+        ],
+        "natural_ko": "길로비치와 다른 연구자들은 경험이 물건보다 더 오래 지속되는 행복을 가져다준다는 것을 발견했다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                0,
+                30
+              ]
+            ],
+            "verb_spans": [
+              [
+                31,
+                35
+              ],
+              [
+                36,
+                41
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 42,
+            "marker": "that",
+            "subject_spans": [
+              [
+                47,
+                58
+              ]
+            ],
+            "verb_spans": [
+              [
+                59,
+                66
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s13-g01",
+            "spans": [
+              [
+                13,
+                18
+              ]
+            ],
+            "headword": "other",
+            "meaning_ko": "다른",
+            "star": false
+          },
+          {
+            "id": "s13-g02",
+            "spans": [
+              [
+                19,
+                30
+              ]
+            ],
+            "headword": "researchers",
+            "meaning_ko": "연구자들",
+            "star": false
+          },
+          {
+            "id": "s13-g03",
+            "spans": [
+              [
+                31,
+                35
+              ]
+            ],
+            "headword": "have p.p.",
+            "meaning_ko": "~했다",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s13-g04"
+            ]
+          },
+          {
+            "id": "s13-g04",
+            "spans": [
+              [
+                36,
+                41
+              ]
+            ],
+            "headword": "find",
+            "meaning_ko": "발견하다 (found는 find의 p.p.형)",
+            "star": false,
+            "verb_form": {
+              "usage": "perfect-participle",
+              "source_span": [
+                36,
+                41
+              ],
+              "lemma": "find",
+              "function_gloss_id": "s13-g03"
+            },
+            "kind": "lexical"
+          },
+          {
+            "id": "s13-g05",
+            "spans": [
+              [
+                42,
+                46
+              ]
+            ],
+            "headword": "that S′ V′",
+            "meaning_ko": "S′(이/가) V′라는 것을",
+            "star": false
+          },
+          {
+            "id": "s13-g06",
+            "spans": [
+              [
+                47,
+                58
+              ]
+            ],
+            "headword": "experiences",
+            "meaning_ko": "경험들",
+            "star": false
+          },
+          {
+            "id": "s13-g07",
+            "spans": [
+              [
+                59,
+                66
+              ]
+            ],
+            "headword": "deliver",
+            "meaning_ko": "가져다주다, 전하다",
+            "star": true,
+            "today_word_id": "u2-w1"
+          },
+          {
+            "id": "s13-g08",
+            "spans": [
+              [
+                67,
+                73
+              ]
+            ],
+            "headword": "longer",
+            "meaning_ko": "더 오래 (long의 비교급)",
+            "star": false
+          },
+          {
+            "id": "s13-g09",
+            "spans": [
+              [
+                74,
+                81
+              ]
+            ],
+            "headword": "lasting",
+            "meaning_ko": "지속되는",
+            "star": false
+          },
+          {
+            "id": "s13-g10",
+            "spans": [
+              [
+                82,
+                91
+              ]
+            ],
+            "headword": "happiness",
+            "meaning_ko": "행복",
+            "star": false
+          },
+          {
+            "id": "s13-g11",
+            "spans": [
+              [
+                92,
+                96
+              ]
+            ],
+            "headword": "than",
+            "meaning_ko": "~보다",
+            "star": false
+          },
+          {
+            "id": "s13-g12",
+            "spans": [
+              [
+                97,
+                103
+              ]
+            ],
+            "headword": "things",
+            "meaning_ko": "물건들",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              8
+            ],
+            "exemption": "proper-name-repeat",
+            "first_gloss_id": "s01-g05",
+            "reason": "같은 지문에서 먼저 제공한 고유명사 반복"
+          },
+          {
+            "span": [
+              9,
+              12
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              13,
+              18
+            ],
+            "gloss_id": "s13-g01"
+          },
+          {
+            "span": [
+              19,
+              30
+            ],
+            "gloss_id": "s13-g02"
+          },
+          {
+            "span": [
+              31,
+              35
+            ],
+            "gloss_id": "s13-g03"
+          },
+          {
+            "span": [
+              36,
+              41
+            ],
+            "gloss_id": "s13-g04"
+          },
+          {
+            "span": [
+              42,
+              46
+            ],
+            "gloss_id": "s13-g05"
+          },
+          {
+            "span": [
+              47,
+              58
+            ],
+            "gloss_id": "s13-g06"
+          },
+          {
+            "span": [
+              59,
+              66
+            ],
+            "gloss_id": "s13-g07"
+          },
+          {
+            "span": [
+              67,
+              73
+            ],
+            "gloss_id": "s13-g08"
+          },
+          {
+            "span": [
+              74,
+              81
+            ],
+            "gloss_id": "s13-g09"
+          },
+          {
+            "span": [
+              82,
+              91
+            ],
+            "gloss_id": "s13-g10"
+          },
+          {
+            "span": [
+              92,
+              96
+            ],
+            "gloss_id": "s13-g11"
+          },
+          {
+            "span": [
+              97,
+              103
+            ],
+            "gloss_id": "s13-g12"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              31,
+              66
+            ],
+            "meaning_ko": "경험들이 (더 오래 지속되는 행복을) 가져다준다는 것을 발견했다",
+            "explanation": "have found의 목적어 that절. S′ experiences, V′ deliver까지 표시하고 목적어 longer lasting happiness 이하는 제외.",
+            "display_pairs": [
+              {
+                "en": "have found [that experiences deliver]",
+                "ko": "[경험들이 가져다준다는 것을] 발견했다",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        12,
+                        16
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        4,
+                        5
+                      ],
+                      [
+                        10,
+                        15
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "명사절 접속사 that"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "등위 주어 Gilovich and other researchers(전체 유지) + 능동 완료 have found + 목적어 that 명사절(S′ experiences, V′ deliver). longer lasting happiness than things는 비교급. 힌트 1개(명사절 that). have p.p.는 힌트가 있는 문장이라 분석 보충 u2-gp4로 연결. 수동 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [
+            "s13-g03"
+          ],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s14",
+        "text": "That’s because experiences become a part of our identity.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 40,
+            "ko": "그것은 경험들이 일부가 되기 때문이다"
+          },
+          {
+            "start": 41,
+            "end": 57,
+            "ko": "우리의 정체성의."
+          }
+        ],
+        "natural_ko": "그것은 경험이 우리 정체성의 일부가 되기 때문이다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                0,
+                4
+              ]
+            ],
+            "verb_spans": [
+              [
+                4,
+                6
+              ]
+            ],
+            "contraction_readings": [
+              {
+                "span": [
+                  4,
+                  6
+                ],
+                "expanded": "is"
+              }
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 7,
+            "marker": "because",
+            "subject_spans": [
+              [
+                15,
+                26
+              ]
+            ],
+            "verb_spans": [
+              [
+                27,
+                33
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s14-g01",
+            "spans": [
+              [
+                0,
+                6
+              ],
+              [
+                7,
+                14
+              ]
+            ],
+            "headword": "That’s because S′ V′",
+            "meaning_ko": "그것은 S′(이/가) V′하기 때문이다",
+            "star": false,
+            "referent_ko": "경험이 물건보다 더 오래 지속되는 행복을 가져다주는 것"
+          },
+          {
+            "id": "s14-g02",
+            "spans": [
+              [
+                15,
+                26
+              ]
+            ],
+            "headword": "experiences",
+            "meaning_ko": "경험들",
+            "star": false
+          },
+          {
+            "id": "s14-g03",
+            "spans": [
+              [
+                27,
+                33
+              ]
+            ],
+            "headword": "become",
+            "meaning_ko": "~이 되다",
+            "star": false
+          },
+          {
+            "id": "s14-g04",
+            "spans": [
+              [
+                36,
+                40
+              ]
+            ],
+            "headword": "part",
+            "meaning_ko": "일부, 부분",
+            "star": false
+          },
+          {
+            "id": "s14-g05",
+            "spans": [
+              [
+                41,
+                43
+              ]
+            ],
+            "headword": "of",
+            "meaning_ko": "~의",
+            "star": false
+          },
+          {
+            "id": "s14-g06",
+            "spans": [
+              [
+                44,
+                47
+              ]
+            ],
+            "headword": "our",
+            "meaning_ko": "우리의",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s14-g07",
+            "spans": [
+              [
+                48,
+                56
+              ]
+            ],
+            "headword": "identity",
+            "meaning_ko": "정체성, 나다움",
+            "star": true,
+            "today_word_id": "u2-w2"
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              6
+            ],
+            "gloss_id": "s14-g01"
+          },
+          {
+            "span": [
+              7,
+              14
+            ],
+            "gloss_id": "s14-g01"
+          },
+          {
+            "span": [
+              15,
+              26
+            ],
+            "gloss_id": "s14-g02"
+          },
+          {
+            "span": [
+              27,
+              33
+            ],
+            "gloss_id": "s14-g03"
+          },
+          {
+            "span": [
+              34,
+              35
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              36,
+              40
+            ],
+            "gloss_id": "s14-g04"
+          },
+          {
+            "span": [
+              41,
+              43
+            ],
+            "gloss_id": "s14-g05"
+          },
+          {
+            "span": [
+              44,
+              47
+            ],
+            "gloss_id": "s14-g06"
+          },
+          {
+            "span": [
+              48,
+              56
+            ],
+            "gloss_id": "s14-g07"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              0,
+              40
+            ],
+            "meaning_ko": "그것은 경험들이 (우리 정체성의) 일부가 되기 때문이다",
+            "explanation": "That’s because S′ V′: 그것은 S′가 V′하기 때문이다. That은 앞 문장 내용. S′ experiences, V′ become과 뜻을 잡는 최소 보어 a part까지 표시하고 of our identity는 제외(연결동사 become은 seem과 같은 최소 보어 기준).",
+            "display_pairs": [
+              {
+                "en": "[That’s because experiences become a part]",
+                "ko": "[그것[경험이 더 오래가는 행복을 주는 것]은 경험들이 일부가 되기 때문이다]",
+                "pronoun_refs": [
+                  {
+                    "en_span": [
+                      1,
+                      5
+                    ],
+                    "ko_pronoun_span": [
+                      1,
+                      3
+                    ],
+                    "ko_reference_span": [
+                      3,
+                      24
+                    ]
+                  }
+                ],
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        8,
+                        15
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        29,
+                        30
+                      ],
+                      [
+                        36,
+                        42
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "이유 접속사 because"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "주절 That’s(= That is) + 이유 부사절 because(S′ experiences, V′ become). That은 13번 문장의 연구 결과를 가리킴. of our identity 앞 후치수식 경계. 힌트 1개(because). 관계사·수동 없음.",
+          "required_breaks": [
+            {
+              "at": 41,
+              "kind": "postnominal-preposition",
+              "reason": "of our identity는 앞 명사 a part를 뒤에서 꾸미는 전치사구"
+            }
+          ],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s15",
+        "text": "We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.",
+        "key": true,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 27,
+            "ko": "우리는 우리의 소유물들이 아니다,"
+          },
+          {
+            "start": 28,
+            "end": 55,
+            "ko": "하지만 우리는 축적이다"
+          },
+          {
+            "start": 56,
+            "end": 69,
+            "ko": "모든 것의"
+          },
+          {
+            "start": 70,
+            "end": 81,
+            "ko": "우리가 본,"
+          },
+          {
+            "start": 82,
+            "end": 92,
+            "ko": "일들의"
+          },
+          {
+            "start": 93,
+            "end": 104,
+            "ko": "우리가 한,"
+          },
+          {
+            "start": 105,
+            "end": 119,
+            "ko": "그리고 장소들의"
+          },
+          {
+            "start": 120,
+            "end": 134,
+            "ko": "우리가 가 본."
+          }
+        ],
+        "natural_ko": "우리는 우리가 가진 물건이 아니라, 우리가 본 모든 것, 우리가 한 일들, 우리가 가 본 장소들이 쌓인 존재이다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                0,
+                2
+              ]
+            ],
+            "verb_spans": [
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          {
+            "kind": "main",
+            "start": 32,
+            "marker": "but",
+            "subject_spans": [
+              [
+                32,
+                34
+              ]
+            ],
+            "verb_spans": [
+              [
+                35,
+                38
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 70,
+            "marker": "that",
+            "omitted_marker": true,
+            "subject_spans": [
+              [
+                70,
+                72
+              ]
+            ],
+            "verb_spans": [
+              [
+                72,
+                75
+              ],
+              [
+                76,
+                80
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 93,
+            "marker": "that",
+            "omitted_marker": true,
+            "subject_spans": [
+              [
+                93,
+                95
+              ]
+            ],
+            "verb_spans": [
+              [
+                95,
+                98
+              ],
+              [
+                99,
+                103
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 120,
+            "marker": "that",
+            "omitted_marker": true,
+            "subject_spans": [
+              [
+                120,
+                122
+              ]
+            ],
+            "verb_spans": [
+              [
+                122,
+                125
+              ],
+              [
+                126,
+                130
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s15-g01",
+            "spans": [
+              [
+                0,
+                2
+              ]
+            ],
+            "headword": "we",
+            "meaning_ko": "우리는",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s15-g02",
+            "spans": [
+              [
+                3,
+                6
+              ],
+              [
+                7,
+                10
+              ]
+            ],
+            "headword": "are not",
+            "meaning_ko": "~이 아니다",
+            "star": false
+          },
+          {
+            "id": "s15-g03",
+            "spans": [
+              [
+                11,
+                14
+              ]
+            ],
+            "headword": "our",
+            "meaning_ko": "우리의",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s15-g04",
+            "spans": [
+              [
+                15,
+                26
+              ]
+            ],
+            "headword": "possessions",
+            "meaning_ko": "소유물들, 가진 물건들",
+            "star": false
+          },
+          {
+            "id": "s15-g05",
+            "spans": [
+              [
+                32,
+                34
+              ]
+            ],
+            "headword": "we",
+            "meaning_ko": "우리는",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s15-g06",
+            "spans": [
+              [
+                35,
+                38
+              ]
+            ],
+            "headword": "are",
+            "meaning_ko": "~이다",
+            "star": false
+          },
+          {
+            "id": "s15-g07",
+            "spans": [
+              [
+                43,
+                55
+              ]
+            ],
+            "headword": "accumulation",
+            "meaning_ko": "축적, 쌓인 것",
+            "star": true,
+            "today_word_id": "u2-w3"
+          },
+          {
+            "id": "s15-g08",
+            "spans": [
+              [
+                56,
+                58
+              ]
+            ],
+            "headword": "of",
+            "meaning_ko": "~의",
+            "star": false
+          },
+          {
+            "id": "s15-g09",
+            "spans": [
+              [
+                59,
+                69
+              ]
+            ],
+            "headword": "everything",
+            "meaning_ko": "모든 것",
+            "star": false
+          },
+          {
+            "id": "s15-g10",
+            "spans": [
+              [
+                70,
+                75
+              ]
+            ],
+            "headword": "have p.p.",
+            "meaning_ko": "~했다 (we’ve = we have, we = 우리가)",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s15-g11"
+            ]
+          },
+          {
+            "id": "s15-g11",
+            "spans": [
+              [
+                76,
+                80
+              ]
+            ],
+            "headword": "see",
+            "meaning_ko": "보다 (seen은 see의 p.p.형)",
+            "star": false,
+            "verb_form": {
+              "usage": "perfect-participle",
+              "source_span": [
+                76,
+                80
+              ],
+              "lemma": "see",
+              "function_gloss_id": "s15-g10"
+            },
+            "kind": "lexical"
+          },
+          {
+            "id": "s15-g12",
+            "spans": [
+              [
+                86,
+                92
+              ]
+            ],
+            "headword": "things",
+            "meaning_ko": "일들, 것들",
+            "star": false
+          },
+          {
+            "id": "s15-g13",
+            "spans": [
+              [
+                93,
+                98
+              ]
+            ],
+            "headword": "have p.p.",
+            "meaning_ko": "~했다 (we’ve = we have, we = 우리가)",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s15-g14"
+            ]
+          },
+          {
+            "id": "s15-g14",
+            "spans": [
+              [
+                99,
+                103
+              ]
+            ],
+            "headword": "do",
+            "meaning_ko": "하다 (done은 do의 p.p.형)",
+            "star": false,
+            "verb_form": {
+              "usage": "perfect-participle",
+              "source_span": [
+                99,
+                103
+              ],
+              "lemma": "do",
+              "function_gloss_id": "s15-g13"
+            },
+            "kind": "lexical"
+          },
+          {
+            "id": "s15-g15",
+            "spans": [
+              [
+                113,
+                119
+              ]
+            ],
+            "headword": "places",
+            "meaning_ko": "장소들",
+            "star": false
+          },
+          {
+            "id": "s15-g16",
+            "spans": [
+              [
+                120,
+                125
+              ]
+            ],
+            "headword": "have p.p.",
+            "meaning_ko": "~했다 (we’ve = we have, we = 우리가)",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s15-g17"
+            ]
+          },
+          {
+            "id": "s15-g17",
+            "spans": [
+              [
+                126,
+                130
+              ]
+            ],
+            "headword": "be",
+            "meaning_ko": "(~에) 가 있다 (been은 be의 p.p.형)",
+            "star": false,
+            "verb_form": {
+              "usage": "perfect-participle",
+              "source_span": [
+                126,
+                130
+              ],
+              "lemma": "be",
+              "function_gloss_id": "s15-g16"
+            },
+            "kind": "lexical"
+          },
+          {
+            "id": "s15-g18",
+            "spans": [
+              [
+                131,
+                133
+              ]
+            ],
+            "headword": "to",
+            "meaning_ko": "~에",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              2
+            ],
+            "gloss_id": "s15-g01"
+          },
+          {
+            "span": [
+              3,
+              6
+            ],
+            "gloss_id": "s15-g02"
+          },
+          {
+            "span": [
+              7,
+              10
+            ],
+            "gloss_id": "s15-g02"
+          },
+          {
+            "span": [
+              11,
+              14
+            ],
+            "gloss_id": "s15-g03"
+          },
+          {
+            "span": [
+              15,
+              26
+            ],
+            "gloss_id": "s15-g04"
+          },
+          {
+            "span": [
+              28,
+              31
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              32,
+              34
+            ],
+            "gloss_id": "s15-g05"
+          },
+          {
+            "span": [
+              35,
+              38
+            ],
+            "gloss_id": "s15-g06"
+          },
+          {
+            "span": [
+              39,
+              42
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              43,
+              55
+            ],
+            "gloss_id": "s15-g07"
+          },
+          {
+            "span": [
+              56,
+              58
+            ],
+            "gloss_id": "s15-g08"
+          },
+          {
+            "span": [
+              59,
+              69
+            ],
+            "gloss_id": "s15-g09"
+          },
+          {
+            "span": [
+              70,
+              75
+            ],
+            "gloss_id": "s15-g10"
+          },
+          {
+            "span": [
+              76,
+              80
+            ],
+            "gloss_id": "s15-g11"
+          },
+          {
+            "span": [
+              82,
+              85
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              86,
+              92
+            ],
+            "gloss_id": "s15-g12"
+          },
+          {
+            "span": [
+              93,
+              98
+            ],
+            "gloss_id": "s15-g13"
+          },
+          {
+            "span": [
+              99,
+              103
+            ],
+            "gloss_id": "s15-g14"
+          },
+          {
+            "span": [
+              105,
+              108
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              109,
+              112
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              113,
+              119
+            ],
+            "gloss_id": "s15-g15"
+          },
+          {
+            "span": [
+              120,
+              125
+            ],
+            "gloss_id": "s15-g16"
+          },
+          {
+            "span": [
+              126,
+              130
+            ],
+            "gloss_id": "s15-g17"
+          },
+          {
+            "span": [
+              131,
+              133
+            ],
+            "gloss_id": "s15-g18"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              59,
+              80
+            ],
+            "meaning_ko": "우리가 본 모든 것",
+            "explanation": "선행사 everything 뒤 목적격 관계대명사 that이 생략된 관계절(seen의 목적어 자리). the things we’ve done, the places we’ve been to도 같은 구조로 병렬.",
+            "display_pairs": [
+              {
+                "en": "everything [(that) we’ve seen]",
+                "ko": "[우리[사람들]가 본] 모든 것",
+                "pronoun_refs": [
+                  {
+                    "en_span": [
+                      19,
+                      21
+                    ],
+                    "ko_pronoun_span": [
+                      1,
+                      3
+                    ],
+                    "ko_reference_span": [
+                      3,
+                      8
+                    ]
+                  }
+                ],
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        13,
+                        17
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        8,
+                        9
+                      ],
+                      [
+                        10,
+                        11
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "목적격 관계대명사 that 생략",
+            "display_mode": "omitted-relative",
+            "omitted_relative": "that"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "두 절이 but으로 연결(We are not our possessions / we are the accumulation of …). of의 목적어 세 개(everything, the things, the places)가 각각 목적격 관계대명사가 생략된 관계절 we’ve seen / we’ve done / we’ve been to의 꾸밈을 받음(’ve = have, 능동 완료). have been to는 ‘~에 가 본 적이 있다’. 힌트 1개(생략 관계사 대표 1개 — 같은 구조 셋은 설명에서 병렬로 안내). not A, but B는 u2-gp2로 지원. have p.p. 세 곳은 분석 보충 u2-gp4로 연결. 수동 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [
+            "s15-g10",
+            "s15-g13",
+            "s15-g16"
+          ],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s16",
+        "text": "“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 34,
+            "ko": "“우리의 경험들은 더 큰 부분이다"
+          },
+          {
+            "start": 35,
+            "end": 47,
+            "ko": "우리 자신의"
+          },
+          {
+            "start": 48,
+            "end": 73,
+            "ko": "우리의 물질적인 재화들보다,”"
+          },
+          {
+            "start": 74,
+            "end": 88,
+            "ko": "길로비치는 말한다."
+          }
+        ],
+        "natural_ko": "“우리의 경험은 물질적인 재화보다 우리 자신의 더 큰 부분이다.”라고 길로비치는 말한다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 1,
+            "subject_spans": [
+              [
+                1,
+                16
+              ]
+            ],
+            "verb_spans": [
+              [
+                17,
+                20
+              ]
+            ]
+          },
+          {
+            "kind": "main",
+            "start": 74,
+            "subject_spans": [
+              [
+                79,
+                87
+              ]
+            ],
+            "verb_spans": [
+              [
+                74,
+                78
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s16-g01",
+            "spans": [
+              [
+                1,
+                4
+              ]
+            ],
+            "headword": "our",
+            "meaning_ko": "우리의",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s16-g02",
+            "spans": [
+              [
+                5,
+                16
+              ]
+            ],
+            "headword": "experiences",
+            "meaning_ko": "경험들",
+            "star": false
+          },
+          {
+            "id": "s16-g03",
+            "spans": [
+              [
+                17,
+                20
+              ]
+            ],
+            "headword": "are",
+            "meaning_ko": "~이다",
+            "star": false
+          },
+          {
+            "id": "s16-g04",
+            "spans": [
+              [
+                23,
+                29
+              ]
+            ],
+            "headword": "bigger",
+            "meaning_ko": "더 큰 (big의 비교급)",
+            "star": false
+          },
+          {
+            "id": "s16-g05",
+            "spans": [
+              [
+                30,
+                34
+              ]
+            ],
+            "headword": "part",
+            "meaning_ko": "부분, 일부",
+            "star": false
+          },
+          {
+            "id": "s16-g06",
+            "spans": [
+              [
+                35,
+                37
+              ]
+            ],
+            "headword": "of",
+            "meaning_ko": "~의",
+            "star": false
+          },
+          {
+            "id": "s16-g07",
+            "spans": [
+              [
+                38,
+                47
+              ]
+            ],
+            "headword": "ourselves",
+            "meaning_ko": "우리 자신",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s16-g08",
+            "spans": [
+              [
+                48,
+                52
+              ]
+            ],
+            "headword": "than",
+            "meaning_ko": "~보다",
+            "star": false
+          },
+          {
+            "id": "s16-g09",
+            "spans": [
+              [
+                53,
+                56
+              ]
+            ],
+            "headword": "our",
+            "meaning_ko": "우리의",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s16-g10",
+            "spans": [
+              [
+                57,
+                65
+              ]
+            ],
+            "headword": "material",
+            "meaning_ko": "물질적인",
+            "star": false
+          },
+          {
+            "id": "s16-g11",
+            "spans": [
+              [
+                66,
+                71
+              ]
+            ],
+            "headword": "goods",
+            "meaning_ko": "재화들, 물건들",
+            "star": false
+          },
+          {
+            "id": "s16-g12",
+            "spans": [
+              [
+                74,
+                78
+              ]
+            ],
+            "headword": "say",
+            "meaning_ko": "말하다",
+            "star": false,
+            "verb_form": {
+              "usage": "third-person-singular",
+              "source_span": [
+                74,
+                78
+              ],
+              "lemma": "say",
+              "review_record": "주어 Gilovich(3인칭 단수)의 일반동사 says → 원형 say."
+            }
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              1,
+              4
+            ],
+            "gloss_id": "s16-g01"
+          },
+          {
+            "span": [
+              5,
+              16
+            ],
+            "gloss_id": "s16-g02"
+          },
+          {
+            "span": [
+              17,
+              20
+            ],
+            "gloss_id": "s16-g03"
+          },
+          {
+            "span": [
+              21,
+              22
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              23,
+              29
+            ],
+            "gloss_id": "s16-g04"
+          },
+          {
+            "span": [
+              30,
+              34
+            ],
+            "gloss_id": "s16-g05"
+          },
+          {
+            "span": [
+              35,
+              37
+            ],
+            "gloss_id": "s16-g06"
+          },
+          {
+            "span": [
+              38,
+              47
+            ],
+            "gloss_id": "s16-g07"
+          },
+          {
+            "span": [
+              48,
+              52
+            ],
+            "gloss_id": "s16-g08"
+          },
+          {
+            "span": [
+              53,
+              56
+            ],
+            "gloss_id": "s16-g09"
+          },
+          {
+            "span": [
+              57,
+              65
+            ],
+            "gloss_id": "s16-g10"
+          },
+          {
+            "span": [
+              66,
+              71
+            ],
+            "gloss_id": "s16-g11"
+          },
+          {
+            "span": [
+              74,
+              78
+            ],
+            "gloss_id": "s16-g12"
+          },
+          {
+            "span": [
+              79,
+              87
+            ],
+            "exemption": "proper-name-repeat",
+            "first_gloss_id": "s01-g05",
+            "reason": "같은 지문에서 먼저 제공한 고유명사 반복"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              74,
+              87
+            ],
+            "meaning_ko": "길로비치는 말한다",
+            "explanation": "직접 인용 뒤에서 동사 says가 주어 Gilovich 앞에 온 도치. 해석은 ‘길로비치는 말한다’.",
+            "display_pairs": [
+              {
+                "en": "[says Gilovich]",
+                "ko": "[길로비치는 말한다]",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        6,
+                        14
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        5,
+                        6
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "인용 뒤 동사·주어 도치"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "인용된 절 Our experiences are a bigger part of ourselves than our material goods(비교급 bigger … than) + 인용 뒤 도치 says Gilovich. Gilovich는 1번 문장에서 제공한 고유명사 반복. 힌트 1개(도치). 관계사·수동 없음.",
+          "required_breaks": [
+            {
+              "at": 35,
+              "kind": "postnominal-preposition",
+              "reason": "of ourselves는 앞 명사 a bigger part를 뒤에서 꾸미는 전치사구"
+            }
+          ],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s17",
+        "text": "“You can really like your material stuff.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 41,
+            "ko": "“여러분은 여러분의 물질적인 물건들을 정말 좋아할 수 있다."
+          }
+        ],
+        "natural_ko": "“여러분은 물질적인 물건을 정말 좋아할 수 있다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 1,
+            "subject_spans": [
+              [
+                1,
+                4
+              ]
+            ],
+            "verb_spans": [
+              [
+                5,
+                8
+              ],
+              [
+                16,
+                20
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s17-g01",
+            "spans": [
+              [
+                5,
+                8
+              ]
+            ],
+            "headword": "can V",
+            "meaning_ko": "~할 수 있다",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s17-g03"
+            ]
+          },
+          {
+            "id": "s17-g02",
+            "spans": [
+              [
+                9,
+                15
+              ]
+            ],
+            "headword": "really",
+            "meaning_ko": "정말",
+            "star": false
+          },
+          {
+            "id": "s17-g03",
+            "spans": [
+              [
+                16,
+                20
+              ]
+            ],
+            "headword": "like",
+            "meaning_ko": "좋아하다",
+            "star": false,
+            "kind": "lexical"
+          },
+          {
+            "id": "s17-g04",
+            "spans": [
+              [
+                21,
+                25
+              ]
+            ],
+            "headword": "your",
+            "meaning_ko": "여러분의",
+            "star": false,
+            "referent_ko": "독자"
+          },
+          {
+            "id": "s17-g05",
+            "spans": [
+              [
+                26,
+                34
+              ]
+            ],
+            "headword": "material",
+            "meaning_ko": "물질적인",
+            "star": false
+          },
+          {
+            "id": "s17-g06",
+            "spans": [
+              [
+                35,
+                40
+              ]
+            ],
+            "headword": "stuff",
+            "meaning_ko": "물건, 것",
+            "star": true,
+            "today_word_id": "u2-w4"
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              1,
+              4
+            ],
+            "exemption": "standalone-you",
+            "reason": "단독 you 각주 제외(사용자 지정)"
+          },
+          {
+            "span": [
+              5,
+              8
+            ],
+            "gloss_id": "s17-g01"
+          },
+          {
+            "span": [
+              9,
+              15
+            ],
+            "gloss_id": "s17-g02"
+          },
+          {
+            "span": [
+              16,
+              20
+            ],
+            "gloss_id": "s17-g03"
+          },
+          {
+            "span": [
+              21,
+              25
+            ],
+            "gloss_id": "s17-g04"
+          },
+          {
+            "span": [
+              26,
+              34
+            ],
+            "gloss_id": "s17-g05"
+          },
+          {
+            "span": [
+              35,
+              40
+            ],
+            "gloss_id": "s17-g06"
+          }
+        ],
+        "hints": [],
+        "reading_checks": {
+          "review_record": "단일 절 You can really like your material stuff(인용 계속). 연결·관계사·수동 없음 → 힌트 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [
+            "s17-g01"
+          ],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s18",
+        "text": "You can even think that part of your identity is connected to those things, but nonetheless they remain separate from you.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 18,
+            "ko": "여러분은 심지어 생각할 수도 있다"
+          },
+          {
+            "start": 19,
+            "end": 28,
+            "ko": "일부가"
+          },
+          {
+            "start": 29,
+            "end": 45,
+            "ko": "여러분의 정체성의"
+          },
+          {
+            "start": 46,
+            "end": 75,
+            "ko": "그 물건들에 연결되어 있다고,"
+          },
+          {
+            "start": 76,
+            "end": 112,
+            "ko": "하지만 그럼에도 불구하고 그것들은 분리된 채로 남아 있다"
+          },
+          {
+            "start": 113,
+            "end": 122,
+            "ko": "여러분으로부터."
+          }
+        ],
+        "natural_ko": "여러분은 심지어 자신의 정체성 일부가 그 물건들과 연결되어 있다고 생각할 수도 있지만, 그럼에도 그것들은 여러분과 분리된 채로 남아 있다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                0,
+                3
+              ]
+            ],
+            "verb_spans": [
+              [
+                4,
+                7
+              ],
+              [
+                13,
+                18
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 19,
+            "marker": "that",
+            "subject_spans": [
+              [
+                24,
+                45
+              ]
+            ],
+            "subject_display_spans": [
+              [
+                24,
+                28
+              ]
+            ],
+            "subject_display_review": "중심명사 part까지 표시하고 뒤에서 꾸미는 of your identity는 제외",
+            "verb_spans": [
+              [
+                46,
+                48
+              ],
+              [
+                49,
+                58
+              ]
+            ]
+          },
+          {
+            "kind": "main",
+            "start": 92,
+            "marker": "but",
+            "subject_spans": [
+              [
+                92,
+                96
+              ]
+            ],
+            "verb_spans": [
+              [
+                97,
+                103
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s18-g01",
+            "spans": [
+              [
+                4,
+                7
+              ]
+            ],
+            "headword": "can V",
+            "meaning_ko": "~할 수 있다",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s18-g03"
+            ]
+          },
+          {
+            "id": "s18-g02",
+            "spans": [
+              [
+                8,
+                12
+              ]
+            ],
+            "headword": "even",
+            "meaning_ko": "심지어",
+            "star": false
+          },
+          {
+            "id": "s18-g03",
+            "spans": [
+              [
+                13,
+                18
+              ]
+            ],
+            "headword": "think",
+            "meaning_ko": "생각하다",
+            "star": false,
+            "kind": "lexical"
+          },
+          {
+            "id": "s18-g04",
+            "spans": [
+              [
+                19,
+                23
+              ]
+            ],
+            "headword": "that S′ V′",
+            "meaning_ko": "S′(이/가) V′라고",
+            "star": false
+          },
+          {
+            "id": "s18-g05",
+            "spans": [
+              [
+                24,
+                28
+              ]
+            ],
+            "headword": "part",
+            "meaning_ko": "일부",
+            "star": false
+          },
+          {
+            "id": "s18-g06",
+            "spans": [
+              [
+                29,
+                31
+              ]
+            ],
+            "headword": "of",
+            "meaning_ko": "~의",
+            "star": false
+          },
+          {
+            "id": "s18-g07",
+            "spans": [
+              [
+                32,
+                36
+              ]
+            ],
+            "headword": "your",
+            "meaning_ko": "여러분의",
+            "star": false,
+            "referent_ko": "독자"
+          },
+          {
+            "id": "s18-g08",
+            "spans": [
+              [
+                37,
+                45
+              ]
+            ],
+            "headword": "identity",
+            "meaning_ko": "정체성, 나다움",
+            "star": true,
+            "today_word_id": "u2-w2"
+          },
+          {
+            "id": "s18-g09",
+            "spans": [
+              [
+                46,
+                48
+              ]
+            ],
+            "headword": "be p.p.",
+            "meaning_ko": "~되다",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s18-g10"
+            ]
+          },
+          {
+            "id": "s18-g10",
+            "spans": [
+              [
+                49,
+                58
+              ]
+            ],
+            "headword": "connected",
+            "meaning_ko": "연결된",
+            "star": false,
+            "verb_form": {
+              "usage": "passive-participle",
+              "source_span": [
+                49,
+                58
+              ],
+              "lemma": "connect",
+              "function_gloss_id": "s18-g09"
+            },
+            "kind": "lexical"
+          },
+          {
+            "id": "s18-g11",
+            "spans": [
+              [
+                59,
+                61
+              ]
+            ],
+            "headword": "to",
+            "meaning_ko": "~에",
+            "star": false
+          },
+          {
+            "id": "s18-g12",
+            "spans": [
+              [
+                62,
+                67
+              ]
+            ],
+            "headword": "those",
+            "meaning_ko": "그",
+            "star": false
+          },
+          {
+            "id": "s18-g13",
+            "spans": [
+              [
+                68,
+                74
+              ]
+            ],
+            "headword": "things",
+            "meaning_ko": "물건들",
+            "star": false
+          },
+          {
+            "id": "s18-g14",
+            "spans": [
+              [
+                80,
+                91
+              ]
+            ],
+            "headword": "nonetheless",
+            "meaning_ko": "그럼에도 불구하고",
+            "star": true,
+            "today_word_id": "u2-w5"
+          },
+          {
+            "id": "s18-g15",
+            "spans": [
+              [
+                92,
+                96
+              ]
+            ],
+            "headword": "they",
+            "meaning_ko": "그것들은",
+            "star": false,
+            "referent_ko": "물질적인 물건들"
+          },
+          {
+            "id": "s18-g16",
+            "spans": [
+              [
+                97,
+                103
+              ]
+            ],
+            "headword": "remain",
+            "meaning_ko": "(여전히) ~인 채로 남아 있다",
+            "star": true,
+            "today_word_id": "u2-w6"
+          },
+          {
+            "id": "s18-g17",
+            "spans": [
+              [
+                104,
+                112
+              ]
+            ],
+            "headword": "separate",
+            "meaning_ko": "분리된, 별개의",
+            "star": false
+          },
+          {
+            "id": "s18-g18",
+            "spans": [
+              [
+                113,
+                117
+              ]
+            ],
+            "headword": "from",
+            "meaning_ko": "~로부터",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              3
+            ],
+            "exemption": "standalone-you",
+            "reason": "단독 you 각주 제외(사용자 지정)"
+          },
+          {
+            "span": [
+              4,
+              7
+            ],
+            "gloss_id": "s18-g01"
+          },
+          {
+            "span": [
+              8,
+              12
+            ],
+            "gloss_id": "s18-g02"
+          },
+          {
+            "span": [
+              13,
+              18
+            ],
+            "gloss_id": "s18-g03"
+          },
+          {
+            "span": [
+              19,
+              23
+            ],
+            "gloss_id": "s18-g04"
+          },
+          {
+            "span": [
+              24,
+              28
+            ],
+            "gloss_id": "s18-g05"
+          },
+          {
+            "span": [
+              29,
+              31
+            ],
+            "gloss_id": "s18-g06"
+          },
+          {
+            "span": [
+              32,
+              36
+            ],
+            "gloss_id": "s18-g07"
+          },
+          {
+            "span": [
+              37,
+              45
+            ],
+            "gloss_id": "s18-g08"
+          },
+          {
+            "span": [
+              46,
+              48
+            ],
+            "gloss_id": "s18-g09"
+          },
+          {
+            "span": [
+              49,
+              58
+            ],
+            "gloss_id": "s18-g10"
+          },
+          {
+            "span": [
+              59,
+              61
+            ],
+            "gloss_id": "s18-g11"
+          },
+          {
+            "span": [
+              62,
+              67
+            ],
+            "gloss_id": "s18-g12"
+          },
+          {
+            "span": [
+              68,
+              74
+            ],
+            "gloss_id": "s18-g13"
+          },
+          {
+            "span": [
+              76,
+              79
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              80,
+              91
+            ],
+            "gloss_id": "s18-g14"
+          },
+          {
+            "span": [
+              92,
+              96
+            ],
+            "gloss_id": "s18-g15"
+          },
+          {
+            "span": [
+              97,
+              103
+            ],
+            "gloss_id": "s18-g16"
+          },
+          {
+            "span": [
+              104,
+              112
+            ],
+            "gloss_id": "s18-g17"
+          },
+          {
+            "span": [
+              113,
+              117
+            ],
+            "gloss_id": "s18-g18"
+          },
+          {
+            "span": [
+              118,
+              121
+            ],
+            "exemption": "standalone-you",
+            "reason": "단독 you 각주 제외(사용자 지정)"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              13,
+              58
+            ],
+            "meaning_ko": "여러분의 정체성의 일부가 (그 물건들에) 연결되어 있다고 생각하다",
+            "explanation": "think의 목적어 that절. S′ part of your identity, V′ is connected까지 표시하고 to those things는 제외.",
+            "display_pairs": [
+              {
+                "en": "think [that part of your identity is connected]",
+                "ko": "[여러분[독자]의 정체성의 일부가 연결되어 있다고] 생각하다",
+                "pronoun_refs": [
+                  {
+                    "en_span": [
+                      20,
+                      24
+                    ],
+                    "ko_pronoun_span": [
+                      1,
+                      4
+                    ],
+                    "ko_reference_span": [
+                      4,
+                      8
+                    ]
+                  }
+                ],
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        7,
+                        11
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        17,
+                        18
+                      ],
+                      [
+                        25,
+                        27
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "명사절 접속사 that"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "주절 You can even think + 목적어 that 명사절(S′ part of your identity, V′ is connected — 수동) + but nonetheless 뒤 둘째 절 they remain separate from you(remain + 형용사 보어). 힌트 1개(명사절 that). 수동 is connected는 힌트가 있는 문장이라 분석 보충 u2-gp5로 연결.",
+          "required_breaks": [
+            {
+              "at": 29,
+              "kind": "postnominal-preposition",
+              "reason": "of your identity는 앞 명사 part를 뒤에서 꾸미는 전치사구"
+            }
+          ],
+          "protected_spans": [],
+          "function_gloss_ids": [
+            "s18-g01",
+            "s18-g09"
+          ],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s19",
+        "text": "On the other hand, your experiences really are part of you.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 18,
+            "ko": "반면에,"
+          },
+          {
+            "start": 19,
+            "end": 51,
+            "ko": "여러분의 경험들은 정말로 일부이다"
+          },
+          {
+            "start": 52,
+            "end": 59,
+            "ko": "여러분의."
+          }
+        ],
+        "natural_ko": "반면에 여러분의 경험은 정말로 여러분의 일부이다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 19,
+            "subject_spans": [
+              [
+                19,
+                35
+              ]
+            ],
+            "verb_spans": [
+              [
+                43,
+                46
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s19-g01",
+            "spans": [
+              [
+                0,
+                2
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                7,
+                12
+              ],
+              [
+                13,
+                17
+              ]
+            ],
+            "headword": "on the other hand",
+            "meaning_ko": "반면에, 다른 한편으로",
+            "star": true,
+            "today_word_id": "u2-w7"
+          },
+          {
+            "id": "s19-g02",
+            "spans": [
+              [
+                19,
+                23
+              ]
+            ],
+            "headword": "your",
+            "meaning_ko": "여러분의",
+            "star": false,
+            "referent_ko": "독자"
+          },
+          {
+            "id": "s19-g03",
+            "spans": [
+              [
+                24,
+                35
+              ]
+            ],
+            "headword": "experiences",
+            "meaning_ko": "경험들",
+            "star": false
+          },
+          {
+            "id": "s19-g04",
+            "spans": [
+              [
+                36,
+                42
+              ]
+            ],
+            "headword": "really",
+            "meaning_ko": "정말로",
+            "star": false
+          },
+          {
+            "id": "s19-g05",
+            "spans": [
+              [
+                43,
+                46
+              ]
+            ],
+            "headword": "are",
+            "meaning_ko": "~이다",
+            "star": false
+          },
+          {
+            "id": "s19-g06",
+            "spans": [
+              [
+                47,
+                51
+              ]
+            ],
+            "headword": "part",
+            "meaning_ko": "일부",
+            "star": false
+          },
+          {
+            "id": "s19-g07",
+            "spans": [
+              [
+                52,
+                54
+              ]
+            ],
+            "headword": "of",
+            "meaning_ko": "~의",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              2
+            ],
+            "gloss_id": "s19-g01"
+          },
+          {
+            "span": [
+              3,
+              6
+            ],
+            "gloss_id": "s19-g01"
+          },
+          {
+            "span": [
+              7,
+              12
+            ],
+            "gloss_id": "s19-g01"
+          },
+          {
+            "span": [
+              13,
+              17
+            ],
+            "gloss_id": "s19-g01"
+          },
+          {
+            "span": [
+              19,
+              23
+            ],
+            "gloss_id": "s19-g02"
+          },
+          {
+            "span": [
+              24,
+              35
+            ],
+            "gloss_id": "s19-g03"
+          },
+          {
+            "span": [
+              36,
+              42
+            ],
+            "gloss_id": "s19-g04"
+          },
+          {
+            "span": [
+              43,
+              46
+            ],
+            "gloss_id": "s19-g05"
+          },
+          {
+            "span": [
+              47,
+              51
+            ],
+            "gloss_id": "s19-g06"
+          },
+          {
+            "span": [
+              52,
+              54
+            ],
+            "gloss_id": "s19-g07"
+          },
+          {
+            "span": [
+              55,
+              58
+            ],
+            "exemption": "standalone-you",
+            "reason": "단독 you 각주 제외(사용자 지정)"
+          }
+        ],
+        "hints": [],
+        "reading_checks": {
+          "review_record": "단일 절 your experiences really are part of you(18번의 물건과 대조). 연결·관계사·수동 없음 → 힌트 없음.",
+          "required_breaks": [
+            {
+              "at": 52,
+              "kind": "postnominal-preposition",
+              "reason": "of you는 앞 명사 part를 뒤에서 꾸미는 전치사구"
+            }
+          ],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s20",
+        "text": "We are the sum total of our experiences.”",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 20,
+            "ko": "우리는 총합이다"
+          },
+          {
+            "start": 21,
+            "end": 41,
+            "ko": "우리의 경험들의.”"
+          }
+        ],
+        "natural_ko": "우리는 우리 경험의 총합이다.”",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                0,
+                2
+              ]
+            ],
+            "verb_spans": [
+              [
+                3,
+                6
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s20-g01",
+            "spans": [
+              [
+                0,
+                2
+              ]
+            ],
+            "headword": "we",
+            "meaning_ko": "우리는",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s20-g02",
+            "spans": [
+              [
+                3,
+                6
+              ]
+            ],
+            "headword": "are",
+            "meaning_ko": "~이다",
+            "star": false
+          },
+          {
+            "id": "s20-g03",
+            "spans": [
+              [
+                11,
+                20
+              ]
+            ],
+            "headword": "sum total",
+            "meaning_ko": "총합, 전부",
+            "star": true,
+            "today_word_id": "u2-w8"
+          },
+          {
+            "id": "s20-g04",
+            "spans": [
+              [
+                21,
+                23
+              ]
+            ],
+            "headword": "of",
+            "meaning_ko": "~의",
+            "star": false
+          },
+          {
+            "id": "s20-g05",
+            "spans": [
+              [
+                24,
+                27
+              ]
+            ],
+            "headword": "our",
+            "meaning_ko": "우리의",
+            "star": false,
+            "referent_ko": "사람들"
+          },
+          {
+            "id": "s20-g06",
+            "spans": [
+              [
+                28,
+                39
+              ]
+            ],
+            "headword": "experiences",
+            "meaning_ko": "경험들",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              2
+            ],
+            "gloss_id": "s20-g01"
+          },
+          {
+            "span": [
+              3,
+              6
+            ],
+            "gloss_id": "s20-g02"
+          },
+          {
+            "span": [
+              7,
+              10
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              11,
+              14
+            ],
+            "gloss_id": "s20-g03"
+          },
+          {
+            "span": [
+              15,
+              20
+            ],
+            "gloss_id": "s20-g03"
+          },
+          {
+            "span": [
+              21,
+              23
+            ],
+            "gloss_id": "s20-g04"
+          },
+          {
+            "span": [
+              24,
+              27
+            ],
+            "gloss_id": "s20-g05"
+          },
+          {
+            "span": [
+              28,
+              39
+            ],
+            "gloss_id": "s20-g06"
+          }
+        ],
+        "hints": [],
+        "reading_checks": {
+          "review_record": "단일 절 We are the sum total of our experiences(인용 끝). 연결·관계사·수동 없음 → 힌트 없음.",
+          "required_breaks": [
+            {
+              "at": 21,
+              "kind": "postnominal-preposition",
+              "reason": "of our experiences는 앞 명사 the sum total을 뒤에서 꾸미는 전치사구"
+            }
+          ],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": []
+        }
+      }
+    ]
+  }
+}

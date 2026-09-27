@@ -55,7 +55,7 @@ But it’s wrong.
 But it’s wrong.
 [S/V] S: it, V: ’s
 [각주]
-it’s — 그것은 ~이다 (it is의 줄임말) (물건만큼 행복이 오래간다는 생각) / wrong — 틀린
+it’s (= it is) — 그것은 ~이다 (물건만큼 행복이 오래간다는 생각) / wrong — 틀린
 [분석 끊어읽기 영어]
 But it’s wrong.
 [분석 끊어읽기 한국어]
@@ -212,7 +212,7 @@ We buy a new car and are thrilled with it until a friend buys a better one, and 
 We buy a new car / and are thrilled with it / until a friend buys a better one, / and there’s always someone / with a better one.
 [S/V] S: We, V: buy and are ／ [until] S′: a friend, V′: buys ／ [and] S: someone, V: ’s
 [각주]
-we — 우리는 (사람들) / buy — 사다 / new — 새로운 / car — 차 / be thrilled with — ~에 몹시 기뻐하다 / it — 그것 (새 차) / until S′ V′ — S′(이/가) V′할 때까지 / friend — 친구 / buy — 사다 / better — 더 좋은 (good의 비교급) / one — 것 (차) / there’s — ~이 있다 (there is의 줄임말) / always — 항상 / someone — 누군가 / with — ~을 가진 / better — 더 좋은 (good의 비교급) / one — 것 (차)
+we — 우리는 (사람들) / buy — 사다 / new — 새로운 / car — 차 / be thrilled with — ~에 몹시 기뻐하다 / it — 그것 (새 차) / until S′ V′ — S′(이/가) V′할 때까지 / friend — 친구 / buy — 사다 / better — 더 좋은 (good의 비교급) / one — 것 (차) / there’s (= there is) — ~이 있다 / always — 항상 / someone — 누군가 / with — ~을 가진 / better — 더 좋은 (good의 비교급) / one — 것 (차)
 [구조 힌트] [until a friend buys] → [친구가 살 때까지] (접속사 until)
 [분석 끊어읽기 영어]
 We buy a new car / and are thrilled with it / until a friend buys a better one, / and there’s always someone / with a better one.
@@ -279,7 +279,7 @@ That’s because experiences become a part / of our identity.
 [S/V] S: That, V: ’s ／ [because] S′: experiences, V′: become
 [각주]
 That’s because S′ V′ — 그것은 S′(이/가) V′하기 때문이다 (경험이 물건보다 더 오래 지속되는 행복을 가져다주는 것) / experiences — 경험들 / become — ~이 되다 / part — 일부, 부분 / of — ~의 / our — 우리의 (사람들) / ★ identity — 정체성, 나다움
-[구조 힌트] [That’s because experiences become] → [그것[경험이 더 오래가는 행복을 주는 것]은 경험들이 되기 때문이다] (이유 접속사 because)
+[구조 힌트] [That’s because experiences become a part] → [그것[경험이 더 오래가는 행복을 주는 것]은 경험들이 일부가 되기 때문이다] (이유 접속사 because)
 [분석 끊어읽기 영어]
 That’s because experiences become a part / of our identity.
 [분석 끊어읽기 한국어]

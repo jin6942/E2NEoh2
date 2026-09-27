@@ -1,0 +1,461 @@
+{
+  "schema_version": 1,
+  "purpose": "REVIEW_INPUT_PACKET_NOT_FINAL",
+  "status": "NOT_FINAL",
+  "certification": "NOT_CERTIFIED",
+  "role": "questions-blind",
+  "input_digest": {
+    "content_sha256": "f95baaf9a78d344a2b3cce18002d1ffdb98e86317fbf8b6537a2a22d1410e8a0",
+    "canonical_full_json_sha256": "f95baaf9a78d344a2b3cce18002d1ffdb98e86317fbf8b6537a2a22d1410e8a0",
+    "file_sha256": "001162a12ed8364af693a4bb0122a16bfcc1e5c4da71b8d0b44079635fbb9959",
+    "file_sha256_status": "EXACT_INPUT_BYTES"
+  },
+  "current_rules": [
+    {
+      "path": "SKILL.md",
+      "sha256": "adc1c4b5d87fa57241835db2d00f74627e96d5c209cd3bfbe76d24fe6ca51cc1"
+    },
+    {
+      "path": "references/editorial-core.md",
+      "sha256": "b942dccbfa90c37236cdd51a9070add4f596cd95993f93242c0b20306b3eca0e"
+    },
+    {
+      "path": "references/workflow.md",
+      "sha256": "2220776def95a7b2c5f50532efcf392921791ef9d75b298d660b6cdd37b73c75"
+    },
+    {
+      "path": "references/layout-rules.md",
+      "sha256": "22e093364b7aaca7e9540de75728cf100521dd0bd2dfc3aeb6376825a774807d"
+    },
+    {
+      "path": "references/runtime-and-data.md",
+      "sha256": "ec73b7a681b089742505b011758daff69de9c6ebff209dec8474909b59f25d9b"
+    },
+    {
+      "path": "references/handoff-format.md",
+      "sha256": "e9b3ed617a7c3c90b079710c97431fac9ab41b1e84bf455f6bb803006e079619"
+    },
+    {
+      "path": "references/common-errors.md",
+      "sha256": "058db2bf1c0fb67cc43927a6a53cf8cd122e55ef54ca2db944ceaddaaf41c2e8"
+    },
+    {
+      "path": "references/current-revision.md",
+      "sha256": "2ced5f11ffdb1285b435d4457ef707bec8ae62d71953942af479cae63e7ac1e5"
+    },
+    {
+      "path": "references/manuscript-data.md",
+      "sha256": "87725de92c7ef8ec82b68dc8bf821252364578d0ae71ac800d5871236c881444"
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "9dd3d9c1d3d1863526481516facdbe9afe462176bc05596ecf1a705ae6bbabff"
+    },
+    {
+      "path": "references/review-efficiency.md",
+      "sha256": "37218e5b5973f1a368fe4bc32622fab0a90c09308bdaaafcab7150203052147d"
+    },
+    {
+      "path": "references/workbook.md",
+      "sha256": "c358dbc10dc4e457d746ea19321a1f22c16c8f098083588157dfe154a329cfc5"
+    },
+    {
+      "path": "references/assessment-content.md",
+      "sha256": "b0491c3804fadee2787d4d0910c33763b5bbe31186e94d4c844e2eeeffe0df2e"
+    }
+  ],
+  "review_contract": {
+    "independent_review": "NOT_PERFORMED",
+    "approval_reuse": "NOT_IMPLEMENTED",
+    "complete_final_required": true,
+    "existing_release_gate_unchanged": true,
+    "required_independent_question_solvers": 2,
+    "context_is_not_assigned_or_reviewed": true,
+    "unresolved_items": "COORDINATOR_MUST_SUPPLY_BLIND_SAFE_ITEMS; NOT_CLEARED_BY_PACKET",
+    "blind_use": "Fresh independent solver only. Store own answers and reasoning before opening comparison, source, learning material, or author feedback. Removing answers does not restore blindness for a solver who already saw them."
+  },
+  "scope": {
+    "assigned": {
+      "question_ids": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09"
+      ]
+    },
+    "context_only": {
+      "question_ids": []
+    },
+    "whole_stage_assigned": true
+  },
+  "selected_data": {
+    "questions": [
+      {
+        "id": "Q01",
+        "set_id": "workbook",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 주제로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things. We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this. First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.",
+            "underlines": []
+          },
+          {
+            "text": "①  the essential role of shopping in making people happy",
+            "underlines": []
+          },
+          {
+            "text": "②  why familiar possessions bring more joy than novel ones",
+            "underlines": []
+          },
+          {
+            "text": "③  critical reasons why the happiness from things does not last long",
+            "underlines": []
+          },
+          {
+            "text": "④  minor differences between buying cars and buying clothes",
+            "underlines": []
+          },
+          {
+            "text": "⑤  the obvious benefits of comparing ourselves with others",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q02",
+        "set_id": "workbook",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  다음 글의 요지로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one. Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to. “Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff. You can even think that part of your identity is connected to those things, but nonetheless they remain separate from you. On the other hand, your experiences really are part of you. We are the sum total of our experiences.”",
+            "underlines": []
+          },
+          {
+            "text": "①  Physical items are the best way to show who we really are.",
+            "underlines": []
+          },
+          {
+            "text": "②  Buying a better car than our friends’ brings us enduring joy.",
+            "underlines": []
+          },
+          {
+            "text": "③  Material goods and experiences give us the same kind of happiness.",
+            "underlines": []
+          },
+          {
+            "text": "④  Our experiences remain separate from our sense of self.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Experiences give more lasting happiness because they become part of who we are.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q03",
+        "set_id": "mock1",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 내용과 일치하지 않는 것은?",
+            "underlines": [
+              [
+                19,
+                21
+              ]
+            ]
+          },
+          {
+            "text": "A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things. We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this. First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.",
+            "underlines": []
+          },
+          {
+            "text": "①  Thomas Gilovich’s study was carried out over a long period.",
+            "underlines": []
+          },
+          {
+            "text": "②  People are usually right to think the joy of buying lasts long.",
+            "underlines": []
+          },
+          {
+            "text": "③  New things soon stop feeling fresh and thrilling.",
+            "underlines": []
+          },
+          {
+            "text": "④  Once people are used to what they bought, they look for something better.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Owning things leads people to measure themselves against others.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q04",
+        "set_id": "mock1",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  밑줄 친 raising the bar가 다음 글에서 의미하는 바로 가장 적절한 것은?",
+            "underlines": [
+              [
+                9,
+                24
+              ]
+            ]
+          },
+          {
+            "text": "A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things. We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this. First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one. Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity.",
+            "underlines": [
+              [
+                516,
+                531
+              ]
+            ]
+          },
+          {
+            "text": "①  making the prices of new products higher",
+            "underlines": []
+          },
+          {
+            "text": "②  trying to own fewer things than before",
+            "underlines": []
+          },
+          {
+            "text": "③  spending more time with friends and family",
+            "underlines": []
+          },
+          {
+            "text": "④  expecting something better from each new purchase",
+            "underlines": []
+          },
+          {
+            "text": "⑤  setting strict rules for saving money",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q05",
+        "set_id": "mock1",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this. First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one. Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.",
+            "underlines": []
+          },
+          {
+            "text": "[요약문] The happiness we get from things tends to be (A) ________, while experiences give us more lasting happiness because they become part of our (B) ________.",
+            "underlines": []
+          },
+          {
+            "text": "①  short-lived …… identity",
+            "underlines": []
+          },
+          {
+            "text": "②  long-lasting …… identity",
+            "underlines": []
+          },
+          {
+            "text": "③  short-lived …… wealth",
+            "underlines": []
+          },
+          {
+            "text": "④  exciting …… possessions",
+            "underlines": []
+          },
+          {
+            "text": "⑤  permanent …… memories",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q06",
+        "set_id": "mock1",
+        "number": 4,
+        "student_blocks": [
+          {
+            "text": "4.  다음 글의 요지로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this. First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one. Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.",
+            "underlines": []
+          },
+          {
+            "text": "①  Comparing our possessions with others’ helps us feel satisfied.",
+            "underlines": []
+          },
+          {
+            "text": "②  New purchases always create deeper happiness than old ones.",
+            "underlines": []
+          },
+          {
+            "text": "③  Unlike things, experiences bring happiness that lasts because they shape who we are.",
+            "underlines": []
+          },
+          {
+            "text": "④  We should buy better products to keep our expectations high.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Researchers still cannot explain why experiences make us happy.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q07",
+        "set_id": "mock1",
+        "number": 5,
+        "student_blocks": [
+          {
+            "text": "5.  다음 글에서 필자가 주장하는 바로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things. We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this. First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one. Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.",
+            "underlines": []
+          },
+          {
+            "text": "①  We should buy new things often to keep ourselves excited.",
+            "underlines": []
+          },
+          {
+            "text": "②  We must stop comparing our cars with our friends’ cars.",
+            "underlines": []
+          },
+          {
+            "text": "③  We should set higher standards for the products we buy.",
+            "underlines": []
+          },
+          {
+            "text": "④  We need to save money instead of spending it on anything.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  We should spend our money on experiences rather than on things.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q08",
+        "set_id": "mock1",
+        "number": 6,
+        "passage_group_id": "long-mock1",
+        "student_blocks": [
+          {
+            "text": "6.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  How to Choose the Best Car for Your Family",
+            "underlines": []
+          },
+          {
+            "text": "②  Spend on Experiences, Not on Things",
+            "underlines": []
+          },
+          {
+            "text": "③  Why We Should Always Upgrade Our Possessions",
+            "underlines": []
+          },
+          {
+            "text": "④  Comparing Yourself with Others: The Key to Joy",
+            "underlines": []
+          },
+          {
+            "text": "⑤  The Science of Saving Money for the Future",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q09",
+        "set_id": "mock1",
+        "number": 7,
+        "passage_group_id": "long-mock1",
+        "student_blocks": [
+          {
+            "text": "7.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": [
+              [
+                36,
+                38
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "passage_groups": [
+      {
+        "id": "long-mock1",
+        "question_ids": [
+          "Q08",
+          "Q09"
+        ],
+        "student_blocks": [
+          {
+            "text": "A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things. We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this.",
+            "underlines": []
+          },
+          {
+            "text": "First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.",
+            "underlines": []
+          },
+          {
+            "text": "Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.",
+            "underlines": []
+          },
+          {
+            "text": "“Our experiences are a ① bigger part of ourselves than our material goods,” says Gilovich. “You can really ② like your material stuff. You can even think that part of your identity is ③ connected to those things, but nonetheless they remain ④ inseparable from you. On the other hand, your experiences really are ⑤ part of you. We are the sum total of our experiences.”",
+            "underlines": [
+              [
+                25,
+                31
+              ],
+              [
+                109,
+                113
+              ],
+              [
+                186,
+                195
+              ],
+              [
+                243,
+                254
+              ],
+              [
+                314,
+                318
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
