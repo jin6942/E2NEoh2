@@ -1,0 +1,422 @@
+[교재명] 영어2 YBM(박준언)
+[과목] 영어2
+[출판사·저자] YBM(박준언)
+[UNIT] UNIT02
+[학생용 과 표시] 2과
+[권위 원문] (2022개정)2026년_영어II_YBM(박준언)_2과_본문.pdf · 원본 PDF 5쪽 Further Reading 왼쪽 단 영어 본문 전체(섹션 표시 Further Reading·제목 Happiness Comes From Experiences 제외, 오른쪽 단 한국어 해석·세로 저작권 문구 제외)
+[자료 범위] 혼공해석지 + 지문분석지
+
+===== [지문] u1 =====
+[SOURCE] src
+[학습 단위] u1
+[원문 범위] Further Reading · 원문 문장 1~12
+----- [문장 1] -----
+[핵심 문장] 아니오
+[원문]
+A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things.
+[혼공 끊어읽기]
+A long-term study / conducted by Thomas Gilovich, / a psychology professor / at Cornell University, / reached a powerful and clear conclusion: / Don’t spend your money / on things.
+[S/V] S: A long-term study, V: reached ／ V: Don’t spend
+[각주]
+★ long-term — 장기적인, 오랜 기간의 / study — 연구 / conducted — 수행된, 실시된 / by — ~에 의해 / Thomas Gilovich — 토머스 길로비치 (코넬 대학교 심리학 교수) / psychology — 심리학 / professor — 교수 / at — ~의 / Cornell University — 코넬 대학교 / reach — ~에 도달하다, 이르다 / powerful — 강력한 / clear — 분명한 / ★ conclusion — 결론 / don’t V — ~하지 마라 / spend A on B — B에 A를 쓰다 / your — 여러분의 (독자) / money — 돈 / things — 물건들
+[구조 힌트] A long-term study [conducted by Thomas Gilovich] → [토머스 길로비치에 의해 수행된] 장기적인 연구 (과거분사 후치수식)
+[분석 끊어읽기 영어]
+A long-term study / conducted by Thomas Gilovich, / a psychology professor / at Cornell University, / reached a powerful and clear conclusion: / Don’t spend your money / on things.
+[분석 끊어읽기 한국어]
+장기적인 연구는 / 토머스 길로비치에 의해 수행된, / 심리학 교수인 / 코넬 대학교의, / 강력하고 분명한 결론에 도달했다: / 여러분의 돈을 쓰지 마라 / 물건들에.
+[자연 해석]
+코넬 대학교의 심리학 교수인 토머스 길로비치가 수행한 장기적인 연구는 강력하고 분명한 결론에 도달했는데, 그것은 물건에 돈을 쓰지 말라는 것이다.
+----- [/문장 1] -----
+
+----- [문장 2] -----
+[핵심 문장] 아니오
+[원문]
+We assume that the happiness we get from buying something will last as long as the thing itself.
+[혼공 끊어읽기]
+We assume / that the happiness / we get / from buying something / will last / as long as the thing itself.
+[S/V] S: We, V: assume ／ [that] S′: the happiness, V′: will last ／ [(that)] S′: we, V′: get
+[각주]
+we — 우리는 (사람들) / ★ assume — 가정하다, 생각하다 / that S′ V′ — S′(이/가) V′라고 / happiness — 행복 / we — 우리가 (사람들) / get — 얻다 / from — ~로부터 / V-ing — ~하는 것 / buy — 사다 / something — 무언가 / will V — ~할 것이다 / last — 지속되다 / as long as A — A만큼 오래 / thing — 물건 / itself — 그 자체 (물건)
+[구조 힌트] the happiness [(that) we get] → [우리[사람들]가 얻는] 행복 (목적격 관계대명사 that 생략)
+[구조 힌트] will last [as long as] the thing itself → 그 물건 자체[만큼 오래] 지속될 것이다 (원급 비교 as ~ as)
+[분석 끊어읽기 영어]
+We assume / that the happiness / we get / from buying something / will last / as long as the thing itself.
+[분석 끊어읽기 한국어]
+우리는 생각한다 / 행복이 / 우리가 얻는 / 무언가를 사는 것으로부터 / 지속될 것이라고 / 그 물건 자체만큼 오래.
+[자연 해석]
+우리는 무언가를 사서 얻는 행복이 그 물건 자체만큼 오래 지속될 것이라고 생각한다.
+----- [/문장 2] -----
+
+----- [문장 3] -----
+[핵심 문장] 아니오
+[원문]
+But it’s wrong.
+[혼공 끊어읽기]
+But it’s wrong.
+[S/V] S: it, V: ’s
+[각주]
+it’s — 그것은 ~이다 (it is의 줄임말) (물건만큼 행복이 오래간다는 생각) / wrong — 틀린
+[분석 끊어읽기 영어]
+But it’s wrong.
+[분석 끊어읽기 한국어]
+하지만 그것은 틀렸다.
+[자연 해석]
+하지만 그 생각은 틀렸다.
+----- [/문장 3] -----
+
+----- [문장 4] -----
+[핵심 문장] 예
+[원문]
+The trouble with things is that the happiness they provide fades quickly.
+[혼공 끊어읽기]
+The trouble / with things / is that the happiness / they provide / fades quickly.
+[S/V] S: The trouble, V: is ／ [that] S′: the happiness, V′: fades ／ [(that)] S′: they, V′: provide
+[각주]
+trouble — 문제, 골칫거리 / with — ~의 / things — 물건들 / is — ~이다 / that S′ V′ — S′(이/가) V′라는 것 / happiness — 행복 / they — 그것들이 (물건들) / provide — 제공하다 / ★ fade — 사라지다, 희미해지다 / quickly — 빨리
+[구조 힌트] the happiness [(that) they provide] → [그것들[물건들]이 제공하는] 행복 (목적격 관계대명사 that 생략)
+[분석 끊어읽기 영어]
+The trouble / with things / is that the happiness / they provide / fades quickly.
+[분석 끊어읽기 한국어]
+문제는 / 물건들의 / 행복이 / 그것들이 제공하는 / 빨리 사라진다는 것이다.
+[자연 해석]
+물건의 문제는 물건이 주는 행복이 빨리 사라진다는 것이다.
+----- [/문장 4] -----
+
+----- [문장 5] -----
+[핵심 문장] 아니오
+[원문]
+There are three critical reasons for this.
+[혼공 끊어읽기]
+There are three critical reasons / for this.
+[S/V] S: three critical reasons, V: are
+[각주]
+are — 있다 / three — 세 가지의 / critical — 결정적인, 매우 중요한 / reasons — 이유들 / for — ~에 대한 / this — 이것 (물건이 주는 행복이 빨리 사라지는 것)
+[분석 끊어읽기 영어]
+There are three critical reasons / for this.
+[분석 끊어읽기 한국어]
+세 가지 결정적인 이유들이 있다 / 이것에 대한.
+[자연 해석]
+여기에는 세 가지 결정적인 이유가 있다.
+----- [/문장 5] -----
+
+----- [문장 6] -----
+[핵심 문장] 아니오
+[원문]
+First, we get used to new possessions.
+[혼공 끊어읽기]
+First, / we get used to new possessions.
+[S/V] S: we, V: get
+[각주]
+first — 첫째 / we — 우리는 (사람들) / ★ get used to — ~에 익숙해지다 / new — 새로운 / ★ possessions — 소유물들, 가진 물건들
+[분석 끊어읽기 영어]
+First, / we get used to new possessions.
+[분석 끊어읽기 한국어]
+첫째, / 우리는 새로운 소유물들에 익숙해진다.
+[자연 해석]
+첫째, 우리는 새로 가진 물건에 익숙해진다.
+----- [/문장 6] -----
+
+----- [문장 7] -----
+[핵심 문장] 아니오
+[원문]
+What once seemed novel and exciting quickly becomes the norm.
+[혼공 끊어읽기]
+What once seemed novel and exciting / quickly becomes the norm.
+[S/V] S: What once seemed novel and exciting, V: becomes ／ [What] V′: seemed
+[각주]
+what V′ — V′하는 것 (관계대명사) / once — 한때 / seem — ~해 보이다 / novel — 새로운, 참신한 (흔한 뜻: 소설) / exciting — 신나는, 흥미진진한 / quickly — 빨리 / become — ~이 되다 / norm — 일상적인 것, 표준
+[구조 힌트] [What once seemed novel and exciting] → [한때 새롭고 신나 보였던 것] (관계대명사 what)
+[분석 끊어읽기 영어]
+What once seemed novel and exciting / quickly becomes the norm.
+[분석 끊어읽기 한국어]
+한때 새롭고 신나 보였던 것이 / 빨리 일상적인 것이 된다.
+[자연 해석]
+한때 새롭고 신나 보였던 것은 금방 평범한 일상이 된다.
+----- [/문장 7] -----
+
+----- [문장 8] -----
+[핵심 문장] 아니오
+[원문]
+Second, we keep raising the bar.
+[혼공 끊어읽기]
+Second, / we keep raising the bar.
+[S/V] S: we, V: keep
+[각주]
+second — 둘째 / we — 우리는 (사람들) / keep V-ing — 계속 ~하다 / ★ raise the bar — 기준을 높이다
+[분석 끊어읽기 영어]
+Second, / we keep raising the bar.
+[분석 끊어읽기 한국어]
+둘째, / 우리는 계속 기준을 높인다.
+[자연 해석]
+둘째, 우리는 계속 기준을 높인다.
+----- [/문장 8] -----
+
+----- [문장 9] -----
+[핵심 문장] 아니오
+[원문]
+New purchases lead to new expectations.
+[혼공 끊어읽기]
+New purchases lead to new expectations.
+[S/V] S: New purchases, V: lead
+[각주]
+new — 새로운 / purchases — 구매들, 구매한 물건들 / lead — 이어지다 / to — ~로 / new — 새로운 / expectations — 기대들
+[분석 끊어읽기 영어]
+New purchases lead to new expectations.
+[분석 끊어읽기 한국어]
+새로운 구매들은 새로운 기대들로 이어진다.
+[자연 해석]
+새로 산 물건은 새로운 기대로 이어진다.
+----- [/문장 9] -----
+
+----- [문장 10] -----
+[핵심 문장] 예
+[원문]
+As soon as we get used to a new possession, we look for an even better one.
+[혼공 끊어읽기]
+As soon as we get used to a new possession, / we look for an even better one.
+[S/V] [As soon as] S′: we, V′: get ／ S: we, V: look
+[각주]
+as soon as S′ V′ — S′(이/가) V′하자마자 / we — 우리가 (사람들) / ★ get used to — ~에 익숙해지다 / new — 새로운 / ★ possession — 소유물, 가진 물건 / we — 우리는 (사람들) / look for — ~을 찾다 / even — 훨씬 / better — 더 좋은 (good의 비교급) / one — 것 (소유물)
+[구조 힌트] [As soon as we get used] → [우리[사람들]가 익숙해지자마자] (접속사 as soon as)
+[분석 끊어읽기 영어]
+As soon as we get used to a new possession, / we look for an even better one.
+[분석 끊어읽기 한국어]
+우리가 새로운 소유물에 익숙해지자마자, / 우리는 훨씬 더 좋은 것을 찾는다.
+[자연 해석]
+새로 가진 물건에 익숙해지자마자 우리는 훨씬 더 좋은 것을 찾는다.
+----- [/문장 10] -----
+
+----- [문장 11] -----
+[핵심 문장] 아니오
+[원문]
+Third, possessions stimulate humans to compare themselves with others.
+[혼공 끊어읽기]
+Third, / possessions stimulate humans / to compare themselves with others.
+[S/V] S: possessions, V: stimulate
+[각주]
+third — 셋째 / ★ possessions — 소유물들, 가진 물건들 / ★ stimulate A to V — A(이/가) ~하도록 자극하다 / humans — 인간들 / compare A with B — A를 B와 비교하다 / themselves — 그들 자신 (인간들) / others — 다른 사람들
+[구조 힌트] stimulate humans [to compare] → 인간들이 [비교하도록] 자극한다 (stimulate A to V 구문)
+[분석 끊어읽기 영어]
+Third, / possessions stimulate humans / to compare themselves with others.
+[분석 끊어읽기 한국어]
+셋째, / 소유물들은 인간들을 자극한다 / 그들 자신을 다른 사람들과 비교하도록.
+[자연 해석]
+셋째, 소유물은 인간이 자신을 다른 사람과 비교하도록 자극한다.
+----- [/문장 11] -----
+
+----- [문장 12] -----
+[핵심 문장] 아니오
+[원문]
+We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.
+[혼공 끊어읽기]
+We buy a new car / and are thrilled with it / until a friend buys a better one, / and there’s always someone / with a better one.
+[S/V] S: We, V: buy and are ／ [until] S′: a friend, V′: buys ／ [and] S: someone, V: ’s
+[각주]
+we — 우리는 (사람들) / buy — 사다 / new — 새로운 / car — 차 / be thrilled with — ~에 몹시 기뻐하다 / it — 그것 (새 차) / until S′ V′ — S′(이/가) V′할 때까지 / friend — 친구 / buy — 사다 / better — 더 좋은 (good의 비교급) / one — 것 (차) / there’s — ~이 있다 (there is의 줄임말) / always — 항상 / someone — 누군가 / with — ~을 가진 / better — 더 좋은 (good의 비교급) / one — 것 (차)
+[구조 힌트] [until a friend buys] → [친구가 살 때까지] (접속사 until)
+[분석 끊어읽기 영어]
+We buy a new car / and are thrilled with it / until a friend buys a better one, / and there’s always someone / with a better one.
+[분석 끊어읽기 한국어]
+우리는 새 차를 산다 / 그리고 그것에 몹시 기뻐한다 / 친구가 더 좋은 것을 살 때까지, / 그리고 항상 누군가가 있다 / 더 좋은 것을 가진.
+[자연 해석]
+우리는 새 차를 사서 친구가 더 좋은 차를 살 때까지 그 차에 몹시 기뻐하는데, 더 좋은 차를 가진 사람은 언제나 있다.
+----- [/문장 12] -----
+
+----- [분석 단위] u1 -----
+[SOURCE_RANGE] Further Reading · 원문 문장 1~12
+[제목] Why the Happiness from Things Fades Quickly (물건이 주는 행복이 빨리 사라지는 이유)
+[글의 의도/요지]
+물건에 돈을 쓰지 말라는 장기 연구의 결론을 소개하고, 물건이 주는 행복이 빨리 사라지는 세 가지 이유(새 물건에 익숙해짐, 계속 높아지는 기대, 남과의 비교)를 차례로 설명하는 글이다.
+[글의 흐름]
+(연구 결론과 문제 제기) Further Reading · 원문 문장 1~5 — 길로비치 교수의 장기 연구는 물건에 돈을 쓰지 말라는 결론을 내렸다. 우리는 물건에서 얻는 행복이 물건만큼 오래간다고 생각하지만 그것은 틀렸다. 물건이 주는 행복은 빨리 사라지며, 여기에는 세 가지 이유가 있다.
+(세 가지 이유) Further Reading · 원문 문장 6~12 — 첫째, 새 물건에 곧 익숙해져 새로움이 평범해진다. 둘째, 기준이 계속 높아져 익숙해지자마자 더 좋은 것을 찾는다. 셋째, 물건은 남과 비교하게 만드는데, 더 좋은 것을 가진 사람은 언제나 있다.
+[각 문장 쉬운 풀이]
+[2번 문장] We assume that the happiness we get from buying something will last as long as the thing itself.
+2번 문장은 1번의 결론을 설명하려고 우리가 흔히 하는 생각을 먼저 꺼낸다. 물건을 사면 기분이 좋아진다. 우리는 그 물건을 가지고 있는 동안 이 좋은 기분도 계속될 것이라고 생각한다. 3번 문장에서 글쓴이는 이 생각이 틀렸다고 말한다.
+[7번 문장] What once seemed novel and exciting quickly becomes the norm.
+7번 문장은 6번에서 말한 첫째 이유를 더 자세히 풀어 준다. 새 물건을 처음 샀을 때는 새롭고 신나게 느껴진다. 하지만 그 물건은 금방 늘 있는 평범한 것이 된다. 그래서 처음 느꼈던 즐거움도 오래가지 않는다.
+[12번 문장] We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.
+12번 문장은 11번에서 말한 셋째 이유인 남과의 비교를 새 차의 예로 보여 준다. 우리는 새 차를 사면 몹시 기뻐한다. 그런데 그 기쁨은 친구가 더 좋은 차를 살 때까지만 간다. 게다가 더 좋은 것을 가진 사람은 언제나 있다.
+[구문으로 해석하기]
+명사 + (that) S′ V′: S′가 V′하는 명사 [2번 문장]: the happiness we get from buying something — 공식: 명사(N) + (that) S′ V′ — S′(이/가) V′하는 N. 선행사 = the happiness(행복), 생략된 that = 목적격 관계대명사(get의 목적어 자리), S′ = we(우리), V′ = get(얻다), from buying something = 무언가를 사는 것으로부터. → 우리가 무언가를 사는 것으로부터 얻는 행복. get 뒤에 목적어가 없는 것은 앞의 the happiness가 그 자리의 뜻을 맡기 때문이다.
+A is that S′ V′: A는 S′가 V′한다는 것이다 [4번 문장]: The trouble with things is that the happiness they provide fades quickly — 공식: A is that S′ V′ — A는 S′(이/가) V′한다는 것이다. A = The trouble with things(물건들의 문제), that = 명사절 접속사(~라는 것), S′ = the happiness they provide(그것들[물건들]이 제공하는 행복), V′ = fades(사라지다), quickly = 빨리. → 물건들의 문제는 그것들이 제공하는 행복이 빨리 사라진다는 것이다. is 뒤 that절이 주어가 무엇인지 설명하는 보어다.
+stimulate A to V: A가 ~하도록 자극하다 [11번 문장]: possessions stimulate humans to compare themselves with others — 공식: stimulate A to V — A(이/가) ~하도록 자극하다. A = humans(인간들), to V = to compare(비교하다; compare A with B = A를 B와 비교하다), compare의 목적어 = themselves(그들 자신), with others = 다른 사람들과. → 인간들이 그들 자신을 다른 사람들과 비교하도록 자극하다.
+[유의어·반의어]
+표제어: clear (분명한) / 유의어: obvious (명백한) / 반의어: vague (모호한, 희미한)
+표제어: critical (결정적인, 매우 중요한) / 유의어: essential (필수적인, 매우 중요한) / 반의어: minor (사소한, 작은)
+표제어: novel (새로운, 참신한) / 유의어: fresh (새로운, 신선한) / 반의어: familiar (익숙한, 친숙한)
+----- [/분석 단위] -----
+===== [/지문] =====
+
+===== [지문] u2 =====
+[SOURCE] src
+[학습 단위] u2
+[원문 범위] Further Reading · 원문 문장 13~20
+----- [문장 13] -----
+[핵심 문장] 예
+[원문]
+Gilovich and other researchers have found that experiences deliver longer lasting happiness than things.
+[혼공 끊어읽기]
+Gilovich and other researchers have found / that experiences deliver longer lasting happiness / than things.
+[S/V] S: Gilovich and other researchers, V: have found ／ [that] S′: experiences, V′: deliver
+[각주]
+other — 다른 / researchers — 연구자들 / have p.p. — ~했다 / find — 발견하다 (found는 find의 p.p.형) / that S′ V′ — S′(이/가) V′라는 것을 / experiences — 경험들 / ★ deliver — 가져다주다, 전하다 / longer — 더 오래 (long의 비교급) / lasting — 지속되는 / happiness — 행복 / than — ~보다 / things — 물건들
+[구조 힌트] have found [that experiences deliver] → [경험들이 가져다준다는 것을] 발견했다 (명사절 접속사 that)
+[분석 끊어읽기 영어]
+Gilovich and other researchers have found / that experiences deliver longer lasting happiness / than things.
+[분석 끊어읽기 한국어]
+길로비치와 다른 연구자들은 발견했다 / 경험들이 더 오래 지속되는 행복을 가져다준다는 것을 / 물건들보다.
+[자연 해석]
+길로비치와 다른 연구자들은 경험이 물건보다 더 오래 지속되는 행복을 가져다준다는 것을 발견했다.
+----- [/문장 13] -----
+
+----- [문장 14] -----
+[핵심 문장] 아니오
+[원문]
+That’s because experiences become a part of our identity.
+[혼공 끊어읽기]
+That’s because experiences become a part / of our identity.
+[S/V] S: That, V: ’s ／ [because] S′: experiences, V′: become
+[각주]
+That’s because S′ V′ — 그것은 S′(이/가) V′하기 때문이다 (경험이 물건보다 더 오래 지속되는 행복을 가져다주는 것) / experiences — 경험들 / become — ~이 되다 / part — 일부, 부분 / of — ~의 / our — 우리의 (사람들) / ★ identity — 정체성, 나다움
+[구조 힌트] [That’s because experiences become] → [그것[경험이 더 오래가는 행복을 주는 것]은 경험들이 되기 때문이다] (이유 접속사 because)
+[분석 끊어읽기 영어]
+That’s because experiences become a part / of our identity.
+[분석 끊어읽기 한국어]
+그것은 경험들이 일부가 되기 때문이다 / 우리의 정체성의.
+[자연 해석]
+그것은 경험이 우리 정체성의 일부가 되기 때문이다.
+----- [/문장 14] -----
+
+----- [문장 15] -----
+[핵심 문장] 예
+[원문]
+We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.
+[혼공 끊어읽기]
+We are not our possessions, / but we are the accumulation / of everything / we’ve seen, / the things / we’ve done, / and the places / we’ve been to.
+[S/V] S: We, V: are ／ [but] S: we, V: are ／ [(that)] S′: we, V′: ’ve seen ／ [(that)] S′: we, V′: ’ve done ／ [(that)] S′: we, V′: ’ve been
+[각주]
+we — 우리는 (사람들) / are not — ~이 아니다 / our — 우리의 (사람들) / possessions — 소유물들, 가진 물건들 / we — 우리는 (사람들) / are — ~이다 / ★ accumulation — 축적, 쌓인 것 / of — ~의 / everything — 모든 것 / have p.p. — ~했다 (we’ve = we have, we = 우리가) / see — 보다 (seen은 see의 p.p.형) / things — 일들, 것들 / have p.p. — ~했다 (we’ve = we have, we = 우리가) / do — 하다 (done은 do의 p.p.형) / places — 장소들 / have p.p. — ~했다 (we’ve = we have, we = 우리가) / be — (~에) 가 있다 (been은 be의 p.p.형) / to — ~에
+[구조 힌트] everything [(that) we’ve seen] → [우리[사람들]가 본] 모든 것 (목적격 관계대명사 that 생략)
+[분석 끊어읽기 영어]
+We are not our possessions, / but we are the accumulation / of everything / we’ve seen, / the things / we’ve done, / and the places / we’ve been to.
+[분석 끊어읽기 한국어]
+우리는 우리의 소유물들이 아니다, / 하지만 우리는 축적이다 / 모든 것의 / 우리가 본, / 일들의 / 우리가 한, / 그리고 장소들의 / 우리가 가 본.
+[자연 해석]
+우리는 우리가 가진 물건이 아니라, 우리가 본 모든 것, 우리가 한 일들, 우리가 가 본 장소들이 쌓인 존재이다.
+----- [/문장 15] -----
+
+----- [문장 16] -----
+[핵심 문장] 아니오
+[원문]
+“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich.
+[혼공 끊어읽기]
+“Our experiences are a bigger part / of ourselves / than our material goods,” / says Gilovich.
+[S/V] S: Our experiences, V: are ／ S: Gilovich, V: says
+[각주]
+our — 우리의 (사람들) / experiences — 경험들 / are — ~이다 / bigger — 더 큰 (big의 비교급) / part — 부분, 일부 / of — ~의 / ourselves — 우리 자신 (사람들) / than — ~보다 / our — 우리의 (사람들) / material — 물질적인 / goods — 재화들, 물건들 / say — 말하다
+[구조 힌트] [says Gilovich] → [길로비치는 말한다] (인용 뒤 동사·주어 도치)
+[분석 끊어읽기 영어]
+“Our experiences are a bigger part / of ourselves / than our material goods,” / says Gilovich.
+[분석 끊어읽기 한국어]
+“우리의 경험들은 더 큰 부분이다 / 우리 자신의 / 우리의 물질적인 재화들보다,” / 길로비치는 말한다.
+[자연 해석]
+“우리의 경험은 물질적인 재화보다 우리 자신의 더 큰 부분이다.”라고 길로비치는 말한다.
+----- [/문장 16] -----
+
+----- [문장 17] -----
+[핵심 문장] 아니오
+[원문]
+“You can really like your material stuff.
+[혼공 끊어읽기]
+“You can really like your material stuff.
+[S/V] S: You, V: can like
+[각주]
+can V — ~할 수 있다 / really — 정말 / like — 좋아하다 / your — 여러분의 (독자) / material — 물질적인 / ★ stuff — 물건, 것
+[분석 끊어읽기 영어]
+“You can really like your material stuff.
+[분석 끊어읽기 한국어]
+“여러분은 여러분의 물질적인 물건들을 정말 좋아할 수 있다.
+[자연 해석]
+“여러분은 물질적인 물건을 정말 좋아할 수 있다.
+----- [/문장 17] -----
+
+----- [문장 18] -----
+[핵심 문장] 아니오
+[원문]
+You can even think that part of your identity is connected to those things, but nonetheless they remain separate from you.
+[혼공 끊어읽기]
+You can even think / that part / of your identity / is connected to those things, / but nonetheless they remain separate / from you.
+[S/V] S: You, V: can think ／ [that] S′: part, V′: is connected ／ [but] S: they, V: remain
+[각주]
+can V — ~할 수 있다 / even — 심지어 / think — 생각하다 / that S′ V′ — S′(이/가) V′라고 / part — 일부 / of — ~의 / your — 여러분의 (독자) / ★ identity — 정체성, 나다움 / be p.p. — ~되다 / connected — 연결된 / to — ~에 / those — 그 / things — 물건들 / ★ nonetheless — 그럼에도 불구하고 / they — 그것들은 (물질적인 물건들) / ★ remain — (여전히) ~인 채로 남아 있다 / separate — 분리된, 별개의 / from — ~로부터
+[구조 힌트] think [that part of your identity is connected] → [여러분[독자]의 정체성의 일부가 연결되어 있다고] 생각하다 (명사절 접속사 that)
+[분석 끊어읽기 영어]
+You can even think / that part / of your identity / is connected to those things, / but nonetheless they remain separate / from you.
+[분석 끊어읽기 한국어]
+여러분은 심지어 생각할 수도 있다 / 일부가 / 여러분의 정체성의 / 그 물건들에 연결되어 있다고, / 하지만 그럼에도 불구하고 그것들은 분리된 채로 남아 있다 / 여러분으로부터.
+[자연 해석]
+여러분은 심지어 자신의 정체성 일부가 그 물건들과 연결되어 있다고 생각할 수도 있지만, 그럼에도 그것들은 여러분과 분리된 채로 남아 있다.
+----- [/문장 18] -----
+
+----- [문장 19] -----
+[핵심 문장] 아니오
+[원문]
+On the other hand, your experiences really are part of you.
+[혼공 끊어읽기]
+On the other hand, / your experiences really are part / of you.
+[S/V] S: your experiences, V: are
+[각주]
+★ on the other hand — 반면에, 다른 한편으로 / your — 여러분의 (독자) / experiences — 경험들 / really — 정말로 / are — ~이다 / part — 일부 / of — ~의
+[분석 끊어읽기 영어]
+On the other hand, / your experiences really are part / of you.
+[분석 끊어읽기 한국어]
+반면에, / 여러분의 경험들은 정말로 일부이다 / 여러분의.
+[자연 해석]
+반면에 여러분의 경험은 정말로 여러분의 일부이다.
+----- [/문장 19] -----
+
+----- [문장 20] -----
+[핵심 문장] 아니오
+[원문]
+We are the sum total of our experiences.”
+[혼공 끊어읽기]
+We are the sum total / of our experiences.”
+[S/V] S: We, V: are
+[각주]
+we — 우리는 (사람들) / are — ~이다 / ★ sum total — 총합, 전부 / of — ~의 / our — 우리의 (사람들) / experiences — 경험들
+[분석 끊어읽기 영어]
+We are the sum total / of our experiences.”
+[분석 끊어읽기 한국어]
+우리는 총합이다 / 우리의 경험들의.”
+[자연 해석]
+우리는 우리 경험의 총합이다.”
+----- [/문장 20] -----
+
+----- [분석 단위] u2 -----
+[SOURCE_RANGE] Further Reading · 원문 문장 13~20
+[제목] Why Experiences Bring Longer Lasting Happiness (경험이 더 오래가는 행복을 주는 이유)
+[글의 의도/요지]
+경험이 물건보다 더 오래가는 행복을 주는 이유를 경험이 우리 정체성의 일부가 된다는 점으로 설명하고, 길로비치의 말을 인용해 우리는 경험의 총합이라고 강조하는 글이다.
+[글의 흐름]
+(경험이 오래가는 이유) Further Reading · 원문 문장 13~15 — 길로비치와 다른 연구자들은 경험이 물건보다 더 오래 지속되는 행복을 가져다준다는 것을 발견했다. 경험은 우리 정체성의 일부가 되기 때문이다. 우리는 가진 물건이 아니라 보고, 하고, 가 본 모든 것이 쌓인 존재다.
+(길로비치의 말) Further Reading · 원문 문장 16~20 — 길로비치는 경험이 물질적인 재화보다 우리 자신의 더 큰 부분이라고 말한다. 물건을 좋아하고 그것이 정체성과 연결되어 있다고 생각할 수는 있어도 물건은 여전히 우리와 분리되어 있다. 반면 경험은 정말로 우리의 일부이며, 우리는 경험의 총합이다.
+[각 문장 쉬운 풀이]
+[14번 문장] That’s because experiences become a part of our identity.
+14번 문장은 13번에서 말한 연구 결과의 이유를 설명한다. That은 경험이 물건보다 더 오래가는 행복을 준다는 13번의 내용을 가리킨다. 우리가 한 경험은 우리가 어떤 사람인지를 이루는 한 부분이 된다. 글쓴이는 이것이 경험의 행복이 더 오래가는 이유라고 말한다.
+[16번 문장] “Our experiences are a bigger part of ourselves than our material goods,” says Gilovich.
+16번 문장부터는 길로비치 교수가 직접 한 말을 옮긴다. 그는 경험이 물질적인 물건보다 우리 자신에서 더 큰 부분을 차지한다고 말한다. 문장 끝의 says Gilovich는 이 말을 한 사람이 길로비치라는 것을 알려 준다.
+[18번 문장] You can even think that part of your identity is connected to those things, but nonetheless they remain separate from you.
+18번 문장은 물건과 우리 사이의 관계를 설명한다. 우리는 어떤 물건이 나를 보여 주는 한 부분이라고 생각할 수도 있다. 그래도 그 물건은 여전히 나와 떨어져 있는 따로 된 것이다. 19번 문장은 이와 달리 경험은 정말로 나의 일부라고 말한다.
+[구문으로 해석하기]
+That’s because S′ V′: 그것은 S′가 V′하기 때문이다 [14번 문장]: That’s because experiences become a part of our identity — 공식: That’s because S′ V′ — 그것은 S′(이/가) V′하기 때문이다. That = 앞 문장 내용(경험이 물건보다 더 오래 지속되는 행복을 가져다주는 것), S′ = experiences(경험들), V′ = become(~이 되다), 보어 = a part of our identity(우리 정체성의 일부). → 그것은 경험들이 우리 정체성의 일부가 되기 때문이다. That’s because 뒤에는 앞 내용의 이유가 온다.
+not A, but B: A가 아니라 B [15번 문장]: We are not our possessions, but we are the accumulation of everything we’ve seen — 공식: S are not A, but S are B — S는 A가 아니라 B이다. S = we(우리), A = our possessions(우리의 소유물들), B = the accumulation of everything we’ve seen(우리가 본 모든 것의 축적). → 우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다. not과 but이 짝을 이루어 A를 부정하고 B를 강조한다.
+think that S′ V′: S′가 V′라고 생각하다 [18번 문장]: You can even think that part of your identity is connected to those things — 공식: think that S′ V′ — S′(이/가) V′라고 생각하다. can = ~할 수 있다, even = 심지어, that = 명사절 접속사(~라고), S′ = part of your identity(여러분 정체성의 일부), V′ = is connected(연결되어 있다), to those things = 그 물건들에. → 여러분은 심지어 여러분 정체성의 일부가 그 물건들에 연결되어 있다고 생각할 수도 있다.
+have p.p.: ~했다 (have found: 발견했다) [13번 문장]: Gilovich and other researchers have found — 공식: have p.p. — ~했다. p.p. = found(find의 p.p.형, find = 발견하다), 주어 = Gilovich and other researchers(길로비치와 다른 연구자들). → 길로비치와 다른 연구자들은 발견했다. 무엇을 발견했는지는 뒤의 that절이 알려 준다. 15번의 we’ve seen·done·been(’ve = have)도 같은 have p.p.다.
+be p.p.: ~되다 (is connected: 연결되어 있다) [18번 문장]: part of your identity is connected to those things — 공식: be p.p. — ~되다. p.p. = connected(연결된, connect의 p.p.형), 주어 = part of your identity(여러분 정체성의 일부), to those things = 그 물건들에. → 여러분 정체성의 일부가 그 물건들에 연결되어 있다. 정체성의 일부는 스스로 연결하는 것이 아니라 ‘연결되는’ 쪽이라 수동을 쓴다.
+[유의어·반의어]
+표제어: lasting (지속되는, 오래가는) / 유의어: enduring (오래가는, 지속적인) / 반의어: temporary (일시적인)
+표제어: material (물질적인) / 유의어: physical (물리적인, 물질의) / 반의어: spiritual (정신적인)
+표제어: separate (분리된, 별개의) / 유의어: distinct (별개의, 뚜렷이 다른) / 반의어: united (결합된, 하나가 된)
+----- [/분석 단위] -----
+===== [/지문] =====

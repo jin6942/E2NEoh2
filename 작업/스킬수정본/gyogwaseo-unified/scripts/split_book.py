@@ -43,8 +43,8 @@ def validate_base(value):
     if (not isinstance(value, str) or not value.startswith('혼공독해교재_')
             or re.search(r'[<>:"/\\|?*\x00-\x1f]', value)
             or value.rstrip(' .') != value or len(value) > 160
-            or not re.fullmatch(r'혼공독해교재_[^_]+_[^_]+_(?:[1-9]\d*과|SpecialLesson[1-9]\d*)', value)):
-        raise ValueError('Use the confirmed base 혼공독해교재_과목_출판사(저자약칭)_1과 or SpecialLesson1; no extension or path')
+            or not re.fullmatch(r'혼공독해교재_[^_]+_[^_]+_(?:[1-9]\d*과(?:FurtherReading)?|SpecialLesson[1-9]\d*)', value)):
+        raise ValueError('Use the confirmed base 혼공독해교재_과목_출판사(저자약칭)_1과, 1과FurtherReading or SpecialLesson1; no extension or path')
     return value
 
 
