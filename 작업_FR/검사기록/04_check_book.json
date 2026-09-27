@@ -1037,11 +1037,11 @@
       }
     },
     "Q02": {
-      "original": "First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.\n“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff. You can even think that part of your identity is connected to those things, but nonetheless they remain separate from you. On the other hand, your experiences really are part of you. We are the sum total of our experiences.”",
+      "original": "First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.\n“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff.",
       "source_id": "src",
       "source_span": [
         399,
-        1495
+        1270
       ],
       "source_sentence_ids": [
         "s06",
@@ -1055,14 +1055,11 @@
         "s14",
         "s15",
         "s16",
-        "s17",
-        "s18",
-        "s19",
-        "s20"
+        "s17"
       ],
-      "word_count": 188,
+      "word_count": 148,
       "type": "요지",
-      "passage": "First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.\n“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff. You can even think that part of your identity is connected to those things, but nonetheless they remain separate from you. On the other hand, your experiences really are part of you. We are the sum total of our experiences.”",
+      "passage": "First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.\n“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff.",
       "annotations": [],
       "source_reconstruction": "PASS",
       "semantic_review": "NOT_PERFORMED",
@@ -1082,10 +1079,10 @@
           144,
           130
         ],
-        "assessment_word_count": 188,
+        "assessment_word_count": 148,
         "shorter_than_all_references": false,
         "independent_review_required": false,
-        "rationale": "요지 고2 표본 [162, 144, 130]단어와 비교해 현재 188단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "rationale": "요지 고2 표본 [162, 144, 130]단어와 비교해 현재 148단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
         "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
       }
     },
@@ -1645,5 +1642,5 @@
   "independent_reviews": "NOT_PERFORMED",
   "docx_presence": "NOT_CHECKED_BY_THIS_TOOL",
   "visual_review": "NOT_PERFORMED",
-  "input_sha256": "62b3f9f0f7867554e671dcd89cc52f13706c9dfef49a6d3211455313ab154458"
+  "input_sha256": "7aaa518d46c63f2f9473b442369163a68e1e5b107370eec40997b889c151be16"
 }

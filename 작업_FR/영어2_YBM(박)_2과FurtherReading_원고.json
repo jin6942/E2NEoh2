@@ -7744,10 +7744,10 @@
      },
      {
       "number": 5,
-      "text": "Experiences give more lasting happiness because they become part of who we are."
+      "text": "Experiences give us more lasting joy because they shape who we are."
      }
     ],
-    "passage": "First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.\n“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff. You can even think that part of your identity is connected to those things, but nonetheless they remain separate from you. On the other hand, your experiences really are part of you. We are the sum total of our experiences.”",
+    "passage": "First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.\n“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff.",
     "learned_relation_uses": [
      {
       "term_id": "u2-r2s",
@@ -7793,8 +7793,8 @@
       "term_id": "u2-r1h",
       "choice_number": 5,
       "choice_span": [
-       22,
-       29
+       25,
+       32
       ],
       "surface": "lasting",
       "reason_ko": "lasting(오래가는)의 뜻을 알아야 경험이 더 오래가는 행복을 준다는 요지를 판단할 수 있음"
@@ -7820,11 +7820,11 @@
      },
      {
       "number": 3,
-      "text": "New things soon stop feeling fresh and thrilling."
+      "text": "Thomas Gilovich teaches psychology at Cornell University."
      },
      {
       "number": 4,
-      "text": "Once people are used to what they bought, they look for something better."
+      "text": "The writer gives three reasons why the joy from things fades."
      },
      {
       "number": 5,
@@ -7883,7 +7883,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "The happiness from things lasts as long as the things themselves."
+      "text": "Comparing ourselves with others makes our possessions feel more special."
      },
      {
       "number": 2,
@@ -7986,7 +7986,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "How to Choose the Best Car for Your Family"
+      "text": "Why Shopping Makes Us Happier Than Traveling"
      },
      {
       "number": 2,
@@ -7994,15 +7994,15 @@
      },
      {
       "number": 3,
-      "text": "Why We Should Always Upgrade Our Possessions"
+      "text": "The Lasting Joy of Owning the Latest Products"
      },
      {
       "number": 4,
-      "text": "Comparing Yourself with Others: The Key to Joy"
+      "text": "How to Stop Comparing Yourself with Others"
      },
      {
       "number": 5,
-      "text": "The Science of Saving Money for the Future"
+      "text": "Memories Fade, but Things Remain"
      }
     ],
     "passage": "A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things. We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this.\nFirst, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.\n“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff. You can even think that part of your identity is connected to those things, but nonetheless they remain separate from you. On the other hand, your experiences really are part of you. We are the sum total of our experiences.”",
@@ -8192,7 +8192,7 @@
      },
      {
       "number": 5,
-      "text": "Experiences give more lasting happiness because they become part of who we are."
+      "text": "Experiences give us more lasting joy because they shape who we are."
      }
     ],
     "answer": 5,
@@ -8201,7 +8201,7 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "물건이 정체성과 연결되어 있다고 생각해도 물건은 여전히 우리와 분리되어 있다고 했다."
+      "text": "우리는 우리의 소유물이 아니라 경험이 쌓인 존재라고 했다(“We are not our possessions”)."
      },
      {
       "number": 2,
@@ -8213,7 +8213,7 @@
      },
      {
       "number": 4,
-      "text": "경험은 정말로 우리의 일부라고 했으므로 반대다."
+      "text": "경험은 우리 정체성의 일부가 된다고 했으므로 반대다(“experiences become a part of our identity”)."
      }
     ],
     "choices_ko": [
@@ -8235,7 +8235,7 @@
      },
      {
       "number": 5,
-      "text": "경험은 우리를 이루는 일부가 되기 때문에 더 오래가는 행복을 준다."
+      "text": "경험은 우리가 어떤 사람인지를 만들어 가기 때문에 더 오래가는 기쁨을 준다."
      }
     ]
    },
@@ -8254,11 +8254,11 @@
      },
      {
       "number": 3,
-      "text": "New things soon stop feeling fresh and thrilling."
+      "text": "Thomas Gilovich teaches psychology at Cornell University."
      },
      {
       "number": 4,
-      "text": "Once people are used to what they bought, they look for something better."
+      "text": "The writer gives three reasons why the joy from things fades."
      },
      {
       "number": 5,
@@ -8275,11 +8275,11 @@
      },
      {
       "number": 3,
-      "text": "“What once seemed novel and exciting quickly becomes the norm.”과 일치한다."
+      "text": "“Thomas Gilovich, a psychology professor at Cornell University”와 일치한다."
      },
      {
       "number": 4,
-      "text": "“As soon as we get used to a new possession, we look for an even better one.”과 일치한다."
+      "text": "“There are three critical reasons for this.” 뒤에 First·Second·Third로 세 이유를 제시한다."
      },
      {
       "number": 5,
@@ -8297,11 +8297,11 @@
      },
      {
       "number": 3,
-      "text": "새 물건은 곧 새롭고 신나게 느껴지지 않게 된다."
+      "text": "토머스 길로비치는 코넬 대학교에서 심리학을 가르친다."
      },
      {
       "number": 4,
-      "text": "사람들은 산 물건에 익숙해지면 더 좋은 것을 찾는다."
+      "text": "글쓴이는 물건에서 얻는 기쁨이 사라지는 세 가지 이유를 제시한다."
      },
      {
       "number": 5,
@@ -8386,7 +8386,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "The happiness from things lasts as long as the things themselves."
+      "text": "Comparing ourselves with others makes our possessions feel more special."
      },
      {
       "number": 2,
@@ -8411,7 +8411,7 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "물건이 주는 행복은 빨리 사라진다고 했다(“the happiness they provide fades quickly”)."
+      "text": "남과의 비교는 물건이 주는 행복이 빨리 사라지는 셋째 이유로 제시되었다."
      },
      {
       "number": 2,
@@ -8429,7 +8429,7 @@
     "choices_ko": [
      {
       "number": 1,
-      "text": "물건에서 얻는 행복은 그 물건 자체만큼 오래간다."
+      "text": "자신을 남과 비교하는 것은 우리의 소유물을 더 특별하게 느끼게 한다."
      },
      {
       "number": 2,
@@ -8596,7 +8596,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "How to Choose the Best Car for Your Family"
+      "text": "Why Shopping Makes Us Happier Than Traveling"
      },
      {
       "number": 2,
@@ -8604,15 +8604,15 @@
      },
      {
       "number": 3,
-      "text": "Why We Should Always Upgrade Our Possessions"
+      "text": "The Lasting Joy of Owning the Latest Products"
      },
      {
       "number": 4,
-      "text": "Comparing Yourself with Others: The Key to Joy"
+      "text": "How to Stop Comparing Yourself with Others"
      },
      {
       "number": 5,
-      "text": "The Science of Saving Money for the Future"
+      "text": "Memories Fade, but Things Remain"
      }
     ],
     "answer": 2,
@@ -8621,25 +8621,25 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "차는 남과 비교하는 예로 나올 뿐이다."
+      "text": "물건에 돈을 쓰지 말라고 했고 경험이 더 오래가는 행복을 준다고 했으므로 반대다."
      },
      {
       "number": 3,
-      "text": "계속 더 좋은 것을 찾는 것은 물건의 행복이 사라지는 이유로 제시되었다."
+      "text": "새 물건의 즐거움은 금방 평범해진다고 했으므로 반대다."
      },
      {
       "number": 4,
-      "text": "남과의 비교는 행복을 사라지게 하는 이유로 제시되었다."
+      "text": "남과의 비교는 물건의 행복이 사라지는 셋째 이유일 뿐, 비교를 멈추는 방법은 나오지 않는다."
      },
      {
       "number": 5,
-      "text": "돈을 모으는 방법은 나오지 않는다."
+      "text": "물건이 주는 행복은 빨리 사라지고 경험은 우리의 일부로 남는다고 했으므로 반대다."
      }
     ],
     "choices_ko": [
      {
       "number": 1,
-      "text": "가족을 위한 최고의 차를 고르는 방법"
+      "text": "쇼핑이 여행보다 우리를 더 행복하게 하는 이유"
      },
      {
       "number": 2,
@@ -8647,15 +8647,15 @@
      },
      {
       "number": 3,
-      "text": "우리가 항상 소유물을 업그레이드해야 하는 이유"
+      "text": "최신 제품을 소유하는 오래가는 기쁨"
      },
      {
       "number": 4,
-      "text": "자신을 남과 비교하기: 기쁨의 열쇠"
+      "text": "자신을 남과 비교하는 것을 멈추는 방법"
      },
      {
       "number": 5,
-      "text": "미래를 위해 돈을 모으는 과학"
+      "text": "기억은 희미해지지만 물건은 남는다"
      }
     ]
    },
@@ -8745,7 +8745,7 @@
    "type": "요지",
    "source_id": "src",
    "first_sentence": "s06",
-   "last_sentence": "s20",
+   "last_sentence": "s17",
    "length_review": {
     "profile_id": "kr-hs-english-2026-3-6-9-v1",
     "grade": 2,
@@ -8754,7 +8754,7 @@
      "202606042-Q22",
      "202609022-Q22"
     ],
-    "rationale": "요지 고2 표본 [162, 144, 130]단어와 비교해 현재 188단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+    "rationale": "요지 고2 표본 [162, 144, 130]단어와 비교해 현재 148단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
    }
   },
   {
