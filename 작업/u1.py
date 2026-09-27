@@ -38,8 +38,9 @@ def sentences(T):
     s.g('her', 'her', '그녀의', referent_ko='지윤')
     s.g('day', 'day', '하루')
     f = s.g('by', 'by V-ing', '~함으로써', kind='function', combines_with=[])
-    lg = s.g('logging|in|to', 'log in to', '~에 로그인하다', star=W['login'], verb_form=pp('ing', s, 'logging', 'log'))
+    lg = s.g('logging|in', 'log in', '로그인하다', star=W['login'], verb_form=pp('ing', s, 'logging', 'log'))
     link(f, lg)
+    s.g('to', 'to', '~에')
     s.g('music', 'music', '음악')
     s.g('streaming', 'streaming', '스트리밍 (인터넷으로 실시간 재생하는 방식)')
     s.g('service', 'service', '서비스')
@@ -50,7 +51,7 @@ def sentences(T):
            links=[(['by', 'ing'], ['함으로써'])],
            meaning='로그인함으로써', explanation='전치사 by + 동명사 logging in: ~함으로써(수단). 하루를 무엇으로 시작하는지 보여 준다. 대상 to a music streaming service는 표시에서 제외.')
     s.review = ('주어 Jiyun 뒤 콤마 사이 a high school student는 동격 명사구. 단일 주절(starts). by + 동명사 logging in(수단) → 힌트. '
-                'log in to는 한 각주. on her smartphone은 도구(~으로). 관계사·접속사절·수동 없음.')
+                'log in과 to는 대표 뜻(~에)으로 이해되어 분리(L 검수 La-01). on her smartphone은 도구(~으로). 관계사·접속사절·수동 없음.')
     out.append(s)
 
     # ---------------- s02 ----------------
@@ -132,7 +133,7 @@ def sentences(T):
     s.g('her', 'her', '그녀의', referent_ko='지윤')
     s.g('knowledge', 'knowledge', '지식')
     s.g('in', 'in', '~에서')
-    s.g('whatever', 'whatever S′ V′', 'S′(이/가) V′하는 것은 무엇이든')
+    s.g('whatever', 'whatever S′ V′', 'S′(이/가) V′하는 어떤 것이든')
     s.g('she', 'she', '그녀가', referent_ko='지윤')
     s.g('finds', 'find A B', 'A를 B하다고 여기다', verb_form=v3(s, 'finds', 'find', 'she'),
         verb_construction={'kind': 'verb-frame', 'verb_span': s.span_of('finds'), 'lemma': 'find', 'link_spans': [],
@@ -141,13 +142,15 @@ def sentences(T):
     s.hint('[to expand]', '[넓히기 위해]', span='to expand', label='목적의 to부정사',
            links=[(['to'], ['기 위해'])], meaning='(그녀의 지식을) 넓히기 위해',
            explanation='to expand her knowledge …는 강의 서비스를 활용하는 목적을 나타낸다. 목적어 her knowledge는 표시에서 제외.')
-    s.hint('[whatever she finds]', '[그녀[지윤]가 여기는 것은 무엇이든]', span='whatever she finds',
-           label='복합관계대명사 whatever', links=[(['whatever'], ['가', '는 것은 무엇이든'])],
+    s.hint('[whatever she finds]', '[그녀[지윤]가 여기는 어떤 것이든]', span='whatever she finds',
+           label='복합관계대명사 whatever', links=[(['whatever'], ['가', '는 어떤 것이든'])],
            refs=[('she', '그녀', '[지윤]')],
-           meaning='그녀가 (흥미롭다고) 여기는 것은 무엇이든',
+           meaning='그녀가 (흥미롭다고) 여기는 어떤 것이든',
            explanation='전치사 in의 목적어 자리에 whatever절이 온다. whatever는 find A B의 A(목적어)이며 B는 interesting. 절 연결 표시는 S′ she, V′ finds까지로 하고 보어 interesting은 제외.')
     s.review = ('주절 utilizes + 목적 to부정사 to expand + 전치사 in의 목적어인 복합관계대명사절 whatever she finds interesting(find A B, A=whatever). '
-                'whatever는 관계사 각주 목록에 넣지 않음(선행사가 없는 복합관계사, 힌트로 연결 제공). 힌트 2개(목적 to V, whatever). 수동 없음.')
+                'whatever는 관계사 각주 목록에 넣지 않음(선행사가 없는 복합관계사, 힌트로 연결 제공). 힌트 2개(목적 to V, whatever). 수동 없음. '
+                'whatever 힌트 표시 범위: 2단계 L 검수(La 특별 확인)에서 규칙(절 연결은 S′·V′까지, 보어 예외는 be동사만)대로 finds까지 유지로 판정. interesting은 각주·청크·u1-gp3에서 보충. '
+                'in 뒤에 대입되도록 whatever 뜻을 ‘어떤 것이든’으로 통일(La-05).')
     out.append(s)
 
     # ---------------- s05 ----------------
@@ -155,7 +158,7 @@ def sentences(T):
     s.ch('For example,', '예를 들어,')
     s.ch('she watches various academic lectures', '그녀는 다양한 학술 강의들을 시청한다')
     s.ch('to review her schoolwork', '그녀의 학교 공부를 복습하기 위해')
-    s.ch('and stay updated about the latest knowledge', '그리고 최신 지식에 대해 계속 새로 알기 위해')
+    s.ch('and stay updated about the latest knowledge', '그리고 최신 지식에 관해 계속 최신 정보를 알기 위해')
     s.ch('in her chosen field of study.', '그녀가 선택한 학문 분야에서의.')
     s.natural('예를 들어, 그녀는 학교 공부를 복습하고 자신이 선택한 학문 분야의 최신 지식을 계속 새로 알기 위해 다양한 학술 강의를 시청한다.')
     s.cl('main', 'she', subj='she', verbs=['watches'])
@@ -169,8 +172,9 @@ def sentences(T):
     rv = s.g('review', 'review', '복습하다 (흔한 뜻: 검토하다)')
     s.g('her', 'her', '그녀의', referent_ko='지윤')
     s.g('schoolwork', 'schoolwork', '학교 공부, 학업')
-    st = s.g('stay|updated|about', 'stay updated about', '~에 대해 계속 최신 정보를 알고 있다', star=W['updated'])
+    st = s.g('stay|updated', 'stay updated', '계속 최신 정보를 알다', star=W['updated'])
     link(f, rv, st)
+    s.g('about', 'about', '~에 관해')
     s.g('latest', 'latest', '최신의')
     s.g('knowledge', 'knowledge', '지식')
     s.g('in', 'in', '~에서의')
@@ -180,11 +184,11 @@ def sentences(T):
     s.brk('in', 'postnominal-preposition', 'in her chosen field of study는 앞 명사 the latest knowledge를 뒤에서 꾸미는 전치사구',
           after=s.text.index('knowledge'))
     s.prot('field of study', 'fixed-expression', 'field of study(학문 분야)는 한 덩어리 명사 표현이라 of 앞에서 끊지 않음')
-    s.prot('stay updated about', 'fixed-expression', 'stay updated about 숙어를 끊지 않음')
-    s.hint('[to review her schoolwork and stay updated]', '[그녀[지윤]의 학교 공부를 복습하고 계속 새로 알기 위해]',
+    s.prot('stay updated', 'fixed-expression', 'stay updated(계속 최신 정보를 알다)를 끊지 않음')
+    s.hint('[to review her schoolwork and stay updated]', '[그녀[지윤]의 학교 공부를 복습하고 계속 최신 정보를 알기 위해]',
            span='to review her schoolwork and stay updated', label='목적의 to부정사',
            links=[(['to'], ['기 위해'])], refs=[('her', '그녀', '[지윤]')],
-           meaning='학교 공부를 복습하고 (최신 지식에 대해) 계속 새로 알기 위해',
+           meaning='학교 공부를 복습하고 (최신 지식에 관해) 계속 최신 정보를 알기 위해',
            explanation='목적의 to 뒤에 동사원형 review와 stay가 and로 병렬되어 둘 다 to에 걸린다. stay가 to 없이 이어져 학생이 놓치기 쉬워 병렬 두 동사까지 표시하고 about 이하 대상은 제외.')
     s.review = ('단일 주절 watches + 목적 to부정사(to review … and stay updated …: 두 동사원형이 to를 공유). the latest knowledge를 in her chosen field of study가 꾸며 in 앞에서 끊음. '
                 'chosen은 명사 앞 독립 과거분사, field of study는 한 덩어리 표현. 힌트 1개(목적 to V의 병렬). 수동 없음.')
@@ -236,9 +240,9 @@ UNIT = {
         {'id': W['subscription'], 'text': 'subscription', 'meaning_ko': '구독'},
         {'id': W['delivery'], 'text': 'delivery', 'meaning_ko': '배송, 배달'},
         {'id': W['utilize'], 'text': 'utilize', 'meaning_ko': '활용하다, 이용하다'},
-        {'id': W['login'], 'text': 'log in to', 'meaning_ko': '~에 로그인하다'},
+        {'id': W['login'], 'text': 'log in', 'meaning_ko': '로그인하다'},
         {'id': W['academic'], 'text': 'academic', 'meaning_ko': '학술적인, 학문의'},
-        {'id': W['updated'], 'text': 'stay updated about', 'meaning_ko': '~에 대해 계속 최신 정보를 알고 있다'},
+        {'id': W['updated'], 'text': 'stay updated', 'meaning_ko': '계속 최신 정보를 알다'},
         {'id': W['field'], 'text': 'field of study', 'meaning_ko': '학문 분야, 연구 분야'},
         {'id': W['quality'], 'text': 'quality time', 'meaning_ko': '(함께 보내는) 좋은 시간, 소중한 시간'},
     ],
@@ -252,8 +256,8 @@ def analysis(_):
         'title_or_topic_ko': '구독 서비스로 가득한 하루',
         'intent_ko': '고등학생 지윤이의 하루를 따라가며 음악 감상·아침 식사·공부·주말 여가까지 일상의 많은 부분이 구독 서비스로 채워져 있음을 보여 주고, 구독 경제라는 화제를 꺼내는 도입 글이다.',
         'flow': [
-            {'sentence_ids': ['s01', 's02', 's03'], 'label': '아침',
-             'text_ko': '지윤이는 스마트폰으로 음악 스트리밍 서비스에 로그인하며 하루를 시작하고, 아침 식사 재료도 구독 서비스로 배송받는다.'},
+            {'sentence_ids': ['s01', 's02', 's03'], 'label': '아침과 일상',
+             'text_ko': '지윤이는 스마트폰으로 음악 스트리밍 서비스에 로그인하며 하루를 시작하고, 매일 좋아하는 음악을 듣고 새 노래와 아티스트를 찾아본다. 아침 식사 재료도 구독 서비스로 배송받는다.'},
             {'sentence_ids': ['s04', 's05', 's06'], 'label': '방과 후와 주말',
              'text_ko': '방과 후에는 동영상 강의 서비스로 공부를 넓히고, 주말에는 가족과 스트리밍 서비스로 영화나 드라마를 본다. 하루 전체가 구독 서비스와 이어져 있다.'},
         ],
@@ -261,7 +265,7 @@ def analysis(_):
             {'sentence_id': 's01', 'explanatory_sentences': [
                 '1번 문장은 지윤이라는 고등학생의 하루로 글을 시작한다.',
                 '스트리밍 서비스는 음악이나 영상을 내려받지 않고 인터넷으로 바로 틀어 주는 서비스다.',
-                '지윤이는 아침에 눈을 뜨자마자 이 서비스에 로그인한다.',
+                '지윤이는 하루를 시작하면서 가장 먼저 이 서비스에 로그인한다.',
                 '글쓴이는 이 평범한 아침 모습으로 구독 서비스가 우리 생활 가까이에 있다는 것을 보여 준다.']},
             {'sentence_id': 's03', 'explanatory_sentences': [
                 '3번 문장은 음악에 이어 먹는 일에서도 구독 서비스가 쓰인다는 것을 보여 준다.',
@@ -277,11 +281,11 @@ def analysis(_):
         'grammar_points': [
             {'id': 'u1-gp1', 'sentence_id': 's01', 'span': 'starts her day by logging in to a music streaming service',
              'title': 'by + V-ing: ~함으로써', 'formula_key': 'by V-ing',
-             'explanation': '공식: by + V-ing — ~함으로써. V-ing = logging in to(~에 로그인하다), 대상 = a music streaming service(음악 스트리밍 서비스). '
+             'explanation': '공식: by + V-ing — ~함으로써. V-ing = logging in(로그인하다), to = ~에, 대상 = a music streaming service(음악 스트리밍 서비스). '
                             '→ 음악 스트리밍 서비스에 로그인함으로써. 앞의 starts her day(그녀의 하루를 시작한다)와 합치면 ‘로그인하는 것으로 하루를 시작한다’가 된다.',
              'practice': {'span': 'by logging in to a music streaming service',
                           'formula_support': {'en': 'by V-ing', 'ko': '~함으로써'},
-                          'support': [('s01', 'log in to'), ('s01', 'music'), ('s01', 'streaming'), ('s01', 'service')],
+                          'support': [('s01', 'log in'), ('s01', 'to'), ('s01', 'music'), ('s01', 'streaming'), ('s01', 'service')],
                           'answer_ko': '음악 스트리밍 서비스에 로그인함으로써'}},
             {'id': 'u1-gp2', 'sentence_id': 's03', 'span': 'a subscription service that provides fresh vegetables and fruits',
              'title': '명사 + that V′: V′하는 명사', 'formula_key': 'N + that V′',
@@ -294,14 +298,14 @@ def analysis(_):
                                       ('s03', 'vegetables'), ('s03', 'fruits')],
                           'answer_ko': '신선한 채소와 과일을 제공하는 구독 서비스'}},
             {'id': 'u1-gp3', 'sentence_id': 's04', 'span': 'whatever she finds interesting',
-             'title': 'whatever S′ V′: S′가 V′하는 것은 무엇이든', 'formula_key': 'whatever S′ V′',
-             'explanation': '공식: whatever S′ V′ — S′(이/가) V′하는 것은 무엇이든. S′ = she(지윤), V′ = finds(여기다; find A B = A를 B하다고 여기다), '
+             'title': 'whatever S′ V′: S′가 V′하는 어떤 것이든', 'formula_key': 'whatever S′ V′',
+             'explanation': '공식: whatever S′ V′ — S′(이/가) V′하는 어떤 것이든. S′ = she(지윤), V′ = finds(여기다; find A B = A를 B하다고 여기다), '
                             'A = whatever(앞으로 나간 목적어), B = interesting(흥미로운). '
-                            '→ 그녀가 흥미롭다고 여기는 것은 무엇이든. 앞의 in과 합치면 ‘그녀가 흥미를 느끼는 어떤 것에서든’이다.',
+                            '→ 그녀가 흥미롭다고 여기는 어떤 것이든. 앞의 in(~에서)과 합치면 ‘그녀가 흥미롭다고 여기는 어떤 것에서든’이다.',
              'practice': {'span': 'whatever she finds interesting',
-                          'formula_support': {'en': 'whatever S′ V′', 'ko': 'S′(이/가) V′하는 것은 무엇이든'},
+                          'formula_support': {'en': 'whatever S′ V′', 'ko': 'S′(이/가) V′하는 어떤 것이든'},
                           'support': [('s04', 'she'), ('s04', 'find A B'), ('s04', 'interesting')],
-                          'answer_ko': '그녀가 흥미롭다고 여기는 것은 무엇이든'}},
+                          'answer_ko': '그녀가 흥미롭다고 여기는 어떤 것이든'}},
         ],
         'formula_routes': [],
         'relations': [

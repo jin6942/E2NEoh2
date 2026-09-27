@@ -546,8 +546,8 @@
     },
     {
      "id": "u1-w4",
-     "text": "log in to",
-     "meaning_ko": "~에 로그인하다",
+     "text": "log in",
+     "meaning_ko": "로그인하다",
      "source_gloss_id": "s01-g07"
     },
     {
@@ -558,15 +558,15 @@
     },
     {
      "id": "u1-w6",
-     "text": "stay updated about",
-     "meaning_ko": "~에 대해 계속 최신 정보를 알고 있다",
+     "text": "stay updated",
+     "meaning_ko": "계속 최신 정보를 알다",
      "source_gloss_id": "s05-g11"
     },
     {
      "id": "u1-w7",
      "text": "field of study",
      "meaning_ko": "학문 분야, 연구 분야",
-     "source_gloss_id": "s05-g17"
+     "source_gloss_id": "s05-g18"
     },
     {
      "id": "u1-w8",
@@ -587,8 +587,8 @@
        "s02",
        "s03"
       ],
-      "label": "아침",
-      "text_ko": "지윤이는 스마트폰으로 음악 스트리밍 서비스에 로그인하며 하루를 시작하고, 아침 식사 재료도 구독 서비스로 배송받는다."
+      "label": "아침과 일상",
+      "text_ko": "지윤이는 스마트폰으로 음악 스트리밍 서비스에 로그인하며 하루를 시작하고, 매일 좋아하는 음악을 듣고 새 노래와 아티스트를 찾아본다. 아침 식사 재료도 구독 서비스로 배송받는다."
      },
      {
       "sentence_ids": [
@@ -606,7 +606,7 @@
       "explanatory_sentences": [
        "1번 문장은 지윤이라는 고등학생의 하루로 글을 시작한다.",
        "스트리밍 서비스는 음악이나 영상을 내려받지 않고 인터넷으로 바로 틀어 주는 서비스다.",
-       "지윤이는 아침에 눈을 뜨자마자 이 서비스에 로그인한다.",
+       "지윤이는 하루를 시작하면서 가장 먼저 이 서비스에 로그인한다.",
        "글쓴이는 이 평범한 아침 모습으로 구독 서비스가 우리 생활 가까이에 있다는 것을 보여 준다."
       ]
      },
@@ -639,7 +639,7 @@
       ],
       "title": "by + V-ing: ~함으로써",
       "formula_key": "by V-ing",
-      "explanation": "공식: by + V-ing — ~함으로써. V-ing = logging in to(~에 로그인하다), 대상 = a music streaming service(음악 스트리밍 서비스). → 음악 스트리밍 서비스에 로그인함으로써. 앞의 starts her day(그녀의 하루를 시작한다)와 합치면 ‘로그인하는 것으로 하루를 시작한다’가 된다.",
+      "explanation": "공식: by + V-ing — ~함으로써. V-ing = logging in(로그인하다), to = ~에, 대상 = a music streaming service(음악 스트리밍 서비스). → 음악 스트리밍 서비스에 로그인함으로써. 앞의 starts her day(그녀의 하루를 시작한다)와 합치면 ‘로그인하는 것으로 하루를 시작한다’가 된다.",
       "practice": {
        "span": [
         45,
@@ -654,7 +654,8 @@
         "s01-g07",
         "s01-g08",
         "s01-g09",
-        "s01-g10"
+        "s01-g10",
+        "s01-g11"
        ]
       }
      },
@@ -695,9 +696,9 @@
        80,
        110
       ],
-      "title": "whatever S′ V′: S′가 V′하는 것은 무엇이든",
+      "title": "whatever S′ V′: S′가 V′하는 어떤 것이든",
       "formula_key": "whatever S′ V′",
-      "explanation": "공식: whatever S′ V′ — S′(이/가) V′하는 것은 무엇이든. S′ = she(지윤), V′ = finds(여기다; find A B = A를 B하다고 여기다), A = whatever(앞으로 나간 목적어), B = interesting(흥미로운). → 그녀가 흥미롭다고 여기는 것은 무엇이든. 앞의 in과 합치면 ‘그녀가 흥미를 느끼는 어떤 것에서든’이다.",
+      "explanation": "공식: whatever S′ V′ — S′(이/가) V′하는 어떤 것이든. S′ = she(지윤), V′ = finds(여기다; find A B = A를 B하다고 여기다), A = whatever(앞으로 나간 목적어), B = interesting(흥미로운). → 그녀가 흥미롭다고 여기는 어떤 것이든. 앞의 in(~에서)과 합치면 ‘그녀가 흥미롭다고 여기는 어떤 것에서든’이다.",
       "practice": {
        "span": [
         80,
@@ -705,9 +706,9 @@
        ],
        "formula_support": {
         "en": "whatever S′ V′",
-        "ko": "S′(이/가) V′하는 것은 무엇이든"
+        "ko": "S′(이/가) V′하는 어떤 것이든"
        },
-       "answer_ko": "그녀가 흥미롭다고 여기는 것은 무엇이든",
+       "answer_ko": "그녀가 흥미롭다고 여기는 어떤 것이든",
        "support_gloss_ids": [
         "s04-g12",
         "s04-g13",
@@ -916,7 +917,7 @@
       "sentence_id": "s14",
       "explanatory_sentences": [
        "14번 문장은 13번에서 말한 이점 중 기업이 얻는 이점을 먼저 설명한다.",
-       "구독자는 매달 정해진 돈을 내기 때문에 기업은 수입을 미리 예상할 수 있다.",
+       "구독자는 정해진 돈을 정기적으로 내기 때문에 기업은 수입을 미리 예상할 수 있다.",
        "이것이 안정적인 수입이다.",
        "또 고객이 한 서비스를 오래 쓰면서 그 기업을 계속 찾게 되는데, 이것을 고객 충성도라고 한다."
       ]
@@ -1252,7 +1253,7 @@
        "s22"
       ],
       "label": "이유 1: 소유보다 경험",
-      "text_ko": "사람들은 물건을 갖는 것보다 경험을 중시하게 되었고, 구독은 소유하지 않고도 서비스를 쓸 수 있게 해 주어 매력적이다. 음악 스트리밍과 의류 구독이 그 예다."
+      "text_ko": "구독 경제는 요즘 사람들이 소비하는 방식, 곧 17번에서 말한 첫째 동인인 소비 추세의 변화와 밀접하게 관련된다. 사람들은 물건을 갖는 것보다 경험을 중시하게 되었고, 구독은 소유하지 않고도 서비스를 쓸 수 있게 해 주어 매력적이다. 음악 스트리밍과 의류 구독이 그 예다."
      },
      {
       "sentence_ids": [
@@ -1286,7 +1287,7 @@
       "sentence_id": "s20",
       "explanatory_sentences": [
        "20번 문장은 19번에서 말한 변화가 왜 구독 경제에 유리한지 설명한다.",
-       "요즘 사람들은 물건을 갖는 것보다 무언가를 경험하는 것을 더 중요하게 여긴다.",
+       "요즘은 물건을 갖는 것보다 무언가를 경험하는 것을 더 중요하게 여기는 사람이 점점 늘고 있다.",
        "구독을 하면 물건을 사서 가지지 않아도 서비스나 콘텐츠를 쓸 수 있다.",
        "그래서 경험을 중시하는 사람들에게 구독 경제가 매력적으로 보인다."
       ]
@@ -1297,7 +1298,7 @@
        "27번 문장은 26번에서 소개한 화장품 구독 서비스가 어떤 점에서 눈에 띄는지 알려 준다.",
        "이 서비스는 먼저 고객의 지금 피부 상태를 꼼꼼히 살핀다.",
        "그다음 그 사람에게 맞는 제품을 추천한다.",
-       "필요하면 그 사람의 피부 고민에 딱 맞는 화장품을 따로 만들어 주기도 한다.",
+       "추천에는 그 사람의 피부 고민을 해결하도록 만든 화장품을 제조해 주는 것까지 들어 있다.",
        "모두에게 같은 제품을 파는 것이 아니라 한 사람 한 사람에게 맞춰 준다는 점이 핵심이다."
       ]
      },
@@ -1305,7 +1306,7 @@
       "sentence_id": "s32",
       "explanatory_sentences": [
        "32번 문장은 30번과 31번에서 말한 두 가지 구독 방식을 정리한다.",
-       "첫째 방식은 정해진 돈을 내고 여러 가지 상품을 마음껏 누리는 것이다.",
+       "첫째 방식은 정해진 돈을 내고 여러 가지 상품을 누리는 것이다.",
        "둘째 방식은 정말 필요한 것만 골라서 돈을 아끼는 것이다.",
        "소비자는 자기 상황에 맞는 방식을 고를 수 있다.",
        "이것이 구독의 유연성이다."
@@ -1350,7 +1351,7 @@
       ],
       "title": "enable A to V: A가 ~할 수 있게 해 주다",
       "formula_key": "enable A to V",
-      "explanation": "공식: enable A to V — A(이/가) ~할 수 있게 해 주다. A = individuals(개인들), to V = to personalize(개인 맞춤화하다), personalize의 목적어 = their experiences(그들의 경험). → 개인들이 그들의 경험을 개인 맞춤화할 수 있게 해 주다. 콤마 뒤 enabling은 앞 절(다양한 선택지를 제공한다)의 결과를 이어 준다.",
+      "explanation": "공식: enable A to V — A(이/가) ~할 수 있게 해 주다. A = individuals(개인들), to V = to personalize(개인 맞춤화하다), personalize의 목적어 = their experiences(그들의 경험). → 개인들이 그들의 경험을 개인 맞춤화할 수 있게 해 주다. 콤마 뒤 enabling은 앞 절(다양한 선택지를 제공한다)에 이어지는 일을 ‘~하면서’로 덧붙인다.",
       "practice": {
        "span": [
         73,
@@ -1595,7 +1596,7 @@
     "heading_kind": "주제",
     "title_or_topic_en": "How Online Platforms Drive the Subscription Economy",
     "title_or_topic_ko": "온라인 플랫폼이 구독 경제를 이끄는 방식",
-    "intent_ko": "디지털 기기와 온라인 플랫폼의 발전 덕분에 소비자는 원하는 서비스를 쉽게 이용하게 되었고, 기업은 인공지능과 빅데이터로 소비자에게 맞춤형 서비스를 제공해 만족을 높인다는 점을 설명하는 글이다.",
+    "intent_ko": "17번 문장에서 예고한 둘째 동인인 온라인 플랫폼의 성장을 다루며, 디지털 기기와 온라인 플랫폼의 발전 덕분에 소비자는 원하는 서비스를 쉽게 이용하게 되었고, 기업은 인공지능과 빅데이터로 소비자에게 맞춤형 서비스를 제공해 만족을 높인다는 점을 설명하는 글이다.",
     "flow": [
      {
       "sentence_ids": [
@@ -1604,7 +1605,7 @@
        "s39"
       ],
       "label": "소비자의 편리함",
-      "text_ko": "스마트폰 등 디지털 기기가 발전하면서 소비자는 많은 일을 쉽게 할 수 있게 되었다. 예전에는 극장에 가거나 비디오를 사야 했지만, 지금은 누구나 구독 플랫폼으로 수많은 영화를 즐긴다."
+      "text_ko": "스마트폰 등 디지털 기기가 발전하면서 소비자는 많은 일을 쉽게 할 수 있게 되었다. 예전에는 극장에 가거나 비디오를 사야 했지만, 지금은 영화를 보고 싶은 사람은 누구나 구독 플랫폼으로 수많은 영화를 즐길 수 있다."
      },
      {
       "sentence_ids": [
@@ -1623,7 +1624,7 @@
       "explanatory_sentences": [
        "38번 문장은 37번에서 말한 변화가 얼마나 큰지 보여 주려고 옛날 모습을 꺼낸다.",
        "예전에는 영화를 보려면 극장에 가야 했다.",
-       "집에서 보려면 비디오를 직접 사야 했다.",
+       "보고 싶은 비디오가 있으면 직접 사야 했다.",
        "다른 방법이 없었다는 점이 39번의 오늘날 모습과 대비된다."
       ]
      },
@@ -1754,7 +1755,7 @@
         "en": "have p.p.",
         "ko": "~해 왔다"
        },
-       "answer_ko": "수많은 일들을 할 수 있게 되었다",
+       "answer_ko": "수많은 일들을 할 수 있어 왔다(= 할 수 있게 되었다)",
        "support_gloss_ids": [
         "s37-g11",
         "s37-g12",
@@ -1933,7 +1934,7 @@
     "heading_kind": "주제",
     "title_or_topic_en": "The Limitations of the Subscription Economy and Wise Consumers",
     "title_or_topic_ko": "구독 경제의 한계와 현명한 소비자",
-    "intent_ko": "구독 경제의 단점으로 과소비, 재정적 부담, 환경 오염을 들고 각각의 대처법을 제시한 뒤, 구독 경제가 계속 커질 것이므로 필요한 서비스만 받는 현명한 소비자가 되어야 한다고 주장하는 글이다.",
+    "intent_ko": "구독 경제의 단점으로 과소비, 재정적 부담, 환경 오염을 들고 각각의 대처법을 제시한 뒤, 구독 경제가 이미 삶에 깊이 자리 잡았고 앞으로도 커질 것으로 예상되므로 필요한 서비스만 받는 현명한 소비자가 되어야 한다고 주장하는 글이다.",
     "flow": [
      {
       "sentence_ids": [
@@ -1944,7 +1945,7 @@
        "s48"
       ],
       "label": "한계 1: 과소비",
-      "text_ko": "장점만 있는 것은 아니다. 구독은 편리해서 여러 서비스에 쉽게 가입하게 되고, 필요보다 많이 쓰는 과소비로 이어질 수 있다. 그래서 정말 필요한 서비스만 구독하고 비슷한 서비스는 피해야 한다."
+      "text_ko": "장점만 있는 것은 아니다. 구독은 편리해서 여러 서비스에 쉽게 가입할 수 있고, 필요보다 많이 쓰는 과소비로 이어질 수 있다. 그래서 정말 필요한 서비스만 구독하고 비슷한 서비스는 피해야 한다."
      },
      {
       "sentence_ids": [
@@ -1972,7 +1973,7 @@
        "s58"
       ],
       "label": "결론",
-      "text_ko": "이런 한계에도 구독은 이미 우리 삶에 깊이 자리 잡았고 앞으로 더 많은 분야로 퍼질 것이다. 그러므로 구독 경제를 깊이 이해하고 필요한 서비스만 받는 현명한 소비자가 되어야 한다."
+      "text_ko": "이런 한계에도 구독은 이미 우리 삶에 깊이 자리 잡았고, 앞으로 더 많은 분야로 퍼질 것으로 예상된다. 그러므로 구독 경제를 깊이 이해하고 필요한 서비스만 받는 현명한 소비자가 되어야 한다."
      }
     ],
     "easy_explanations": [
@@ -1981,8 +1982,8 @@
       "explanatory_sentences": [
        "46번 문장은 45번에서 말한 과소비가 왜 생기는지 설명한다.",
        "구독은 클릭 몇 번이면 가입할 수 있을 만큼 편리하다.",
-       "그래서 별생각 없이 여러 서비스에 가입하기 쉽다.",
-       "가입한 뒤에는 콘텐츠나 제품도 많이 쓰게 된다.",
+       "그래서 여러 서비스에 가입하기 쉽다.",
+       "가입한 뒤에는 콘텐츠나 제품도 많이 쓰기 쉽다.",
        "편리함이 오히려 지나치게 쓰는 원인이 될 수 있다는 뜻이다."
       ]
      },
@@ -1990,8 +1991,8 @@
       "sentence_id": "s50",
       "explanatory_sentences": [
        "50번 문장은 49번에서 말한 재정적 부담이 어떻게 생기는지 보여 준다.",
-       "구독 하나의 요금은 크지 않아서 부담이 없어 보인다.",
-       "하지만 음악, 영상, 옷처럼 여러 개를 구독하면 매달 나가는 돈이 합쳐져 금방 커진다.",
+       "구독 하나의 요금은 크지 않아 보여서 부담이 없어 보일 수 있다.",
+       "하지만 음악, 영상, 옷처럼 여러 개를 구독하면 정기적으로 나가는 돈이 합쳐져 금방 커질 수 있다.",
        "add up은 작은 것들이 더해져 점점 불어난다는 뜻이다."
       ]
      },
@@ -1999,7 +2000,7 @@
       "sentence_id": "s58",
       "explanatory_sentences": [
        "58번 문장은 글 전체의 결론이다.",
-       "56~57번에서 구독 경제는 한계가 있어도 계속 커질 것이라고 했다.",
+       "56~57번에서 구독 서비스는 한계가 있어도 이미 우리 삶에 깊이 자리 잡았고, 앞으로도 새로운 분야에서 계속 나올 것으로 예상된다고 했다.",
        "그래서 글쓴이는 무조건 구독을 피하라고 하지 않는다.",
        "구독 경제를 잘 알고, 정말 필요한 서비스만 골라 받는 현명한 소비자가 되자고 말한다."
       ]
@@ -2056,6 +2057,7 @@
        "answer_ko": "과소비의 우려와 관련된 것은 재정적 부담이다",
        "support_gloss_ids": [
         "s49-g02",
+        "s49-g03",
         "s49-g04",
         "s49-g06",
         "s49-g07"
@@ -2071,7 +2073,7 @@
       ],
       "title": "동명사 주어: V-ing ~ — ~하는 것은",
       "formula_key": "V-ing 주어",
-      "explanation": "공식: V-ing(동명사구) + V — ~하는 것은 V하다. 주어 = subscribing to multiple services(여러 서비스를 구독하는 것), V = can add up(불어날 수 있다), quickly = 빠르게. → 여러 서비스들을 구독하는 것은 빠르게 불어날 수 있다. 곧 여러 개를 구독하면 비용이 빠르게 쌓인다는 뜻이다.",
+      "explanation": "공식: V-ing(동명사구) + V — ~하는 것은 V하다. V-ing = subscribing(subscribe to — ~을 구독하다) → 구독하는 것, 대상 = multiple services(여러 서비스), V = can add up(불어날 수 있다), quickly = 빠르게. → 여러 서비스들을 구독하는 것은 빠르게 불어날 수 있다. 곧 여러 개를 구독하면 비용이 빠르게 쌓인다는 뜻이다.",
       "practice": {
        "span": [
         64,
@@ -2389,14 +2391,10 @@
       [
        56,
        58
-      ],
-      [
-       59,
-       61
       ]
      ],
-     "headword": "log in to",
-     "meaning_ko": "~에 로그인하다",
+     "headword": "log in",
+     "meaning_ko": "로그인하다",
      "star": true,
      "today_word_id": "u1-w4",
      "verb_form": {
@@ -2413,6 +2411,18 @@
      "id": "s01-g08",
      "spans": [
       [
+       59,
+       61
+      ]
+     ],
+     "headword": "to",
+     "meaning_ko": "~에",
+     "star": false
+    },
+    {
+     "id": "s01-g09",
+     "spans": [
+      [
        64,
        69
       ]
@@ -2422,7 +2432,7 @@
      "star": false
     },
     {
-     "id": "s01-g09",
+     "id": "s01-g10",
      "spans": [
       [
        70,
@@ -2434,7 +2444,7 @@
      "star": false
     },
     {
-     "id": "s01-g10",
+     "id": "s01-g11",
      "spans": [
       [
        80,
@@ -2446,7 +2456,7 @@
      "star": false
     },
     {
-     "id": "s01-g11",
+     "id": "s01-g12",
      "spans": [
       [
        88,
@@ -2458,7 +2468,7 @@
      "star": false
     },
     {
-     "id": "s01-g12",
+     "id": "s01-g13",
      "spans": [
       [
        91,
@@ -2471,7 +2481,7 @@
      "referent_ko": "지윤"
     },
     {
-     "id": "s01-g13",
+     "id": "s01-g14",
      "spans": [
       [
        95,
@@ -2568,7 +2578,7 @@
       59,
       61
      ],
-     "gloss_id": "s01-g07"
+     "gloss_id": "s01-g08"
     },
     {
      "span": [
@@ -2584,42 +2594,42 @@
       64,
       69
      ],
-     "gloss_id": "s01-g08"
+     "gloss_id": "s01-g09"
     },
     {
      "span": [
       70,
       79
      ],
-     "gloss_id": "s01-g09"
+     "gloss_id": "s01-g10"
     },
     {
      "span": [
       80,
       87
      ],
-     "gloss_id": "s01-g10"
+     "gloss_id": "s01-g11"
     },
     {
      "span": [
       88,
       90
      ],
-     "gloss_id": "s01-g11"
+     "gloss_id": "s01-g12"
     },
     {
      "span": [
       91,
       94
      ],
-     "gloss_id": "s01-g12"
+     "gloss_id": "s01-g13"
     },
     {
      "span": [
       95,
       105
      ],
-     "gloss_id": "s01-g13"
+     "gloss_id": "s01-g14"
     }
    ],
    "hints": [
@@ -2660,7 +2670,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "주어 Jiyun 뒤 콤마 사이 a high school student는 동격 명사구. 단일 주절(starts). by + 동명사 logging in(수단) → 힌트. log in to는 한 각주. on her smartphone은 도구(~으로). 관계사·접속사절·수동 없음.",
+    "review_record": "주어 Jiyun 뒤 콤마 사이 a high school student는 동격 명사구. 단일 주절(starts). by + 동명사 logging in(수단) → 힌트. log in과 to는 대표 뜻(~에)으로 이해되어 분리(L 검수 La-01). on her smartphone은 도구(~으로). 관계사·접속사절·수동 없음.",
     "required_breaks": [],
     "protected_spans": [],
     "function_gloss_ids": [
@@ -3680,7 +3690,7 @@
       ]
      ],
      "headword": "whatever S′ V′",
-     "meaning_ko": "S′(이/가) V′하는 것은 무엇이든",
+     "meaning_ko": "S′(이/가) V′하는 어떤 것이든",
      "star": false
     },
     {
@@ -3903,12 +3913,12 @@
       80,
       98
      ],
-     "meaning_ko": "그녀가 (흥미롭다고) 여기는 것은 무엇이든",
+     "meaning_ko": "그녀가 (흥미롭다고) 여기는 어떤 것이든",
      "explanation": "전치사 in의 목적어 자리에 whatever절이 온다. whatever는 find A B의 A(목적어)이며 B는 interesting. 절 연결 표시는 S′ she, V′ finds까지로 하고 보어 interesting은 제외.",
      "display_pairs": [
       {
        "en": "[whatever she finds]",
-       "ko": "[그녀[지윤]가 여기는 것은 무엇이든]",
+       "ko": "[그녀[지윤]가 여기는 어떤 것이든]",
        "pronoun_refs": [
         {
          "en_span": [
@@ -3940,7 +3950,7 @@
           ],
           [
            11,
-           20
+           19
           ]
          ]
         }
@@ -3951,7 +3961,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "주절 utilizes + 목적 to부정사 to expand + 전치사 in의 목적어인 복합관계대명사절 whatever she finds interesting(find A B, A=whatever). whatever는 관계사 각주 목록에 넣지 않음(선행사가 없는 복합관계사, 힌트로 연결 제공). 힌트 2개(목적 to V, whatever). 수동 없음.",
+    "review_record": "주절 utilizes + 목적 to부정사 to expand + 전치사 in의 목적어인 복합관계대명사절 whatever she finds interesting(find A B, A=whatever). whatever는 관계사 각주 목록에 넣지 않음(선행사가 없는 복합관계사, 힌트로 연결 제공). 힌트 2개(목적 to V, whatever). 수동 없음. whatever 힌트 표시 범위: 2단계 L 검수(La 특별 확인)에서 규칙(절 연결은 S′·V′까지, 보어 예외는 be동사만)대로 finds까지 유지로 판정. interesting은 각주·청크·u1-gp3에서 보충. in 뒤에 대입되도록 whatever 뜻을 ‘어떤 것이든’으로 통일(La-05).",
     "required_breaks": [],
     "protected_spans": [],
     "function_gloss_ids": [
@@ -3984,7 +3994,7 @@
     {
      "start": 76,
      "end": 119,
-     "ko": "그리고 최신 지식에 대해 계속 새로 알기 위해"
+     "ko": "그리고 최신 지식에 관해 계속 최신 정보를 알기 위해"
     },
     {
      "start": 120,
@@ -4164,20 +4174,28 @@
       [
        85,
        92
-      ],
-      [
-       93,
-       98
       ]
      ],
-     "headword": "stay updated about",
-     "meaning_ko": "~에 대해 계속 최신 정보를 알고 있다",
+     "headword": "stay updated",
+     "meaning_ko": "계속 최신 정보를 알다",
      "star": true,
      "today_word_id": "u1-w6",
      "kind": "lexical"
     },
     {
      "id": "s05-g12",
+     "spans": [
+      [
+       93,
+       98
+      ]
+     ],
+     "headword": "about",
+     "meaning_ko": "~에 관해",
+     "star": false
+    },
+    {
+     "id": "s05-g13",
      "spans": [
       [
        103,
@@ -4189,7 +4207,7 @@
      "star": false
     },
     {
-     "id": "s05-g13",
+     "id": "s05-g14",
      "spans": [
       [
        110,
@@ -4201,7 +4219,7 @@
      "star": false
     },
     {
-     "id": "s05-g14",
+     "id": "s05-g15",
      "spans": [
       [
        120,
@@ -4213,7 +4231,7 @@
      "star": false
     },
     {
-     "id": "s05-g15",
+     "id": "s05-g16",
      "spans": [
       [
        123,
@@ -4226,7 +4244,7 @@
      "referent_ko": "지윤"
     },
     {
-     "id": "s05-g16",
+     "id": "s05-g17",
      "spans": [
       [
        127,
@@ -4246,7 +4264,7 @@
      }
     },
     {
-     "id": "s05-g17",
+     "id": "s05-g18",
      "spans": [
       [
        134,
@@ -4372,7 +4390,7 @@
       93,
       98
      ],
-     "gloss_id": "s05-g11"
+     "gloss_id": "s05-g12"
     },
     {
      "span": [
@@ -4388,56 +4406,56 @@
       103,
       109
      ],
-     "gloss_id": "s05-g12"
+     "gloss_id": "s05-g13"
     },
     {
      "span": [
       110,
       119
      ],
-     "gloss_id": "s05-g13"
+     "gloss_id": "s05-g14"
     },
     {
      "span": [
       120,
       122
      ],
-     "gloss_id": "s05-g14"
+     "gloss_id": "s05-g15"
     },
     {
      "span": [
       123,
       126
      ],
-     "gloss_id": "s05-g15"
+     "gloss_id": "s05-g16"
     },
     {
      "span": [
       127,
       133
      ],
-     "gloss_id": "s05-g16"
+     "gloss_id": "s05-g17"
     },
     {
      "span": [
       134,
       139
      ],
-     "gloss_id": "s05-g17"
+     "gloss_id": "s05-g18"
     },
     {
      "span": [
       140,
       142
      ],
-     "gloss_id": "s05-g17"
+     "gloss_id": "s05-g18"
     },
     {
      "span": [
       143,
       148
      ],
-     "gloss_id": "s05-g17"
+     "gloss_id": "s05-g18"
     }
    ],
    "hints": [
@@ -4446,12 +4464,12 @@
       51,
       92
      ],
-     "meaning_ko": "학교 공부를 복습하고 (최신 지식에 대해) 계속 새로 알기 위해",
+     "meaning_ko": "학교 공부를 복습하고 (최신 지식에 관해) 계속 최신 정보를 알기 위해",
      "explanation": "목적의 to 뒤에 동사원형 review와 stay가 and로 병렬되어 둘 다 to에 걸린다. stay가 to 없이 이어져 학생이 놓치기 쉬워 병렬 두 동사까지 표시하고 about 이하 대상은 제외.",
      "display_pairs": [
       {
        "en": "[to review her schoolwork and stay updated]",
-       "ko": "[그녀[지윤]의 학교 공부를 복습하고 계속 새로 알기 위해]",
+       "ko": "[그녀[지윤]의 학교 공부를 복습하고 계속 최신 정보를 알기 위해]",
        "pronoun_refs": [
         {
          "en_span": [
@@ -4478,8 +4496,8 @@
          ],
          "ko_spans": [
           [
-           28,
-           32
+           32,
+           36
           ]
          ]
         }
@@ -4510,10 +4528,10 @@
      {
       "span": [
        80,
-       98
+       92
       ],
       "kind": "fixed-expression",
-      "reason": "stay updated about 숙어를 끊지 않음"
+      "reason": "stay updated(계속 최신 정보를 알다)를 끊지 않음"
      }
     ],
     "function_gloss_ids": [
@@ -5206,14 +5224,10 @@
       [
        104,
        108
-      ],
-      [
-       109,
-       111
       ]
      ],
-     "headword": "take part in",
-     "meaning_ko": "~에 참여하다",
+     "headword": "take part",
+     "meaning_ko": "참여하다",
      "star": false,
      "verb_form": {
       "usage": "ing",
@@ -5227,6 +5241,18 @@
     },
     {
      "id": "s07-g11",
+     "spans": [
+      [
+       109,
+       111
+      ]
+     ],
+     "headword": "in",
+     "meaning_ko": "~에",
+     "star": false
+    },
+    {
+     "id": "s07-g12",
      "spans": [
       [
        112,
@@ -5378,19 +5404,19 @@
       109,
       111
      ],
-     "gloss_id": "s07-g10"
+     "gloss_id": "s07-g11"
     },
     {
      "span": [
       112,
       114
      ],
-     "gloss_id": "s07-g11"
+     "gloss_id": "s07-g12"
     }
    ],
    "hints": [],
    "reading_checks": {
-    "review_record": "두 독립절(and). 둘째 절은 현재진행 is taking part in(사이 부사 actively). take part in 숙어 한 청크. 관계사·접속사절·수동 없음 → 힌트 없음.",
+    "review_record": "두 독립절(and). 둘째 절은 현재진행 is taking part in(사이 부사 actively). take part와 in은 대표 뜻(~에)으로 이해되어 각주 분리(L 검수 La-04), 청크는 한 덩어리 유지. 관계사·접속사절·수동 없음 → 힌트 없음.",
     "required_breaks": [],
     "protected_spans": [],
     "function_gloss_ids": [
@@ -5551,7 +5577,7 @@
       ]
      ],
      "headword": "not",
-     "meaning_ko": "~이 아닌",
+     "meaning_ko": "~지 않다",
      "star": false
     },
     {
@@ -6461,13 +6487,8 @@
     },
     {
      "start": 111,
-     "end": 153,
-     "ko": "새로운 콘텐츠, 더 많은 개인 맞춤화,"
-    },
-    {
-     "start": 154,
      "end": 163,
-     "ko": "또는 접근 같은"
+     "ko": "새로운 콘텐츠, 더 많은 개인 맞춤화, 또는 접근 같은"
     },
     {
      "start": 164,
@@ -8677,7 +8698,7 @@
       ]
      ],
      "headword": "rise",
-     "meaning_ko": "부상, 성장 (흔한 뜻: 오르다)",
+     "meaning_ko": "부상, 성장 (흔한 뜻: 상승)",
      "star": false
     },
     {
@@ -11845,27 +11866,19 @@
       [
        136,
        141
-      ]
-     ],
-     "headword": "their",
-     "meaning_ko": "그들",
-     "star": false,
-     "referent_ko": "개인들"
-    },
-    {
-     "id": "s24-g14",
-     "spans": [
+      ],
       [
        142,
        145
       ]
      ],
-     "headword": "own",
-     "meaning_ko": "자신의",
-     "star": false
+     "headword": "their own",
+     "meaning_ko": "그들 자신의",
+     "star": false,
+     "referent_ko": "개인들"
     },
     {
-     "id": "s24-g15",
+     "id": "s24-g14",
      "spans": [
       [
        146,
@@ -11877,7 +11890,7 @@
      "star": false
     },
     {
-     "id": "s24-g16",
+     "id": "s24-g15",
      "spans": [
       [
        162,
@@ -12030,14 +12043,14 @@
       142,
       145
      ],
-     "gloss_id": "s24-g14"
+     "gloss_id": "s24-g13"
     },
     {
      "span": [
       146,
       157
      ],
-     "gloss_id": "s24-g15"
+     "gloss_id": "s24-g14"
     },
     {
      "span": [
@@ -12052,7 +12065,7 @@
       162,
       171
      ],
-     "gloss_id": "s24-g16"
+     "gloss_id": "s24-g15"
     }
    ],
    "hints": [
@@ -12851,7 +12864,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "주절 is more popular(주어 표시 This aspect) + as 부사절(문맥상 이유: 젊은 세대가 더 좋아하는 까닭) + 동명사 목적어 expressing·discovering 병렬 + 주격 관계절 that fit with. as는 ‘~함에 따라’로도 읽을 수 있으나 앞 절의 이유를 대는 흐름이라 이유로 판정(L 검수 확인 필요). 힌트 2개(as 절, 필수 관계사). 수동 없음.",
+    "review_record": "주절 is more popular(주어 표시 This aspect) + as 부사절(문맥상 이유: 젊은 세대가 더 좋아하는 까닭) + 동명사 목적어 expressing·discovering 병렬 + 주격 관계절 that fit with. as는 ‘~함에 따라’로도 읽을 수 있으나 앞 절의 이유를 대는 흐름이라 이유로 판정. 2단계 L 검수(Lb 특별 확인)에서 이유 유지로 판정: as절 enjoy는 상태동사 단순현재라 변화·비례 뜻이 없고 주절 more popular among younger generations는 세대 비교라 비례가 성립하지 않음. 힌트 2개(as 절, 필수 관계사). 수동 없음.",
     "required_breaks": [
      {
       "at": 12,
@@ -14102,7 +14115,7 @@
       ]
      ],
      "headword": "conditions",
-     "meaning_ko": "상태들",
+     "meaning_ko": "상태들 (흔한 뜻: 조건들)",
      "star": false
     },
     {
@@ -14118,7 +14131,7 @@
       ]
      ],
      "headword": "rather than",
-     "meaning_ko": "~ 대신에, ~보다는",
+     "meaning_ko": "~ 대신에",
      "star": false
     },
     {
@@ -14433,7 +14446,7 @@
       ]
      ],
      "headword": "appreciate",
-     "meaning_ko": "높이 평가하다, 진가를 알다",
+     "meaning_ko": "높이 평가하다, 진가를 알다 (흔한 뜻: 감사하다)",
      "star": false
     },
     {
@@ -16007,7 +16020,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "주절 This means + 접속사 that이 생략된 명사절(they can either enjoy … or save …, can이 두 동사에 걸림) + by + 동명사 + 관계대명사 what절(selecting의 목적어). 힌트 2개(either A or B 짝 구조, 관계대명사 what). 생략 that 명사절은 힌트 수 한도로 S/V 표시와 각주로 지원. 수동 없음.",
+    "review_record": "주절 This means + 접속사 that이 생략된 명사절(they can either enjoy … or save …, can이 두 동사에 걸림) + by + 동명사 + 관계대명사 what절(selecting의 목적어). 힌트 2개(either A or B 짝 구조, 관계대명사 what). 생략 that 명사절은 S/V 줄의 절 구분으로만 지원(별도 각주 없음). 2단계 L 검수(Lb-04): 생략 that 명사절(우선 검토)과 either A or B 짝 구조가 문장당 2개 한도에서 충돌 — 생략 that 표시는 V′가 either enjoy … or save로 갈라져 최소 연속 범위로 보여 줄 수 없어 현행 유지, 사용자 보고 대상. 수동 없음.",
     "required_breaks": [],
     "protected_spans": [
      {
@@ -16378,7 +16391,7 @@
       112
      ],
      "meaning_ko": "소비자들의 편리함을 높이면서",
-     "explanation": "콤마 뒤 enhancing …은 앞 내용(쉽게 이용할 수 있게 됨)과 함께 일어나는 결과를 덧붙이는 분사구. ing ↔ 면서.",
+     "explanation": "콤마 뒤 enhancing …은 앞 내용(쉽게 이용할 수 있게 됨)과 함께 일어나는 일을 ‘~하면서’로 덧붙이는 분사구. ing ↔ 면서.",
      "display_pairs": [
       {
        "en": "[enhancing consumers’ convenience]",
@@ -18395,7 +18408,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "단일 주절 had no choice but to go … or purchase …(to 뒤 두 동사원형이 or로 병렬) + 목적격 관계대명사가 생략된 관계절 they wanted to watch(선행사 the videos). 생략 관계사 힌트 1개. 수동 없음.",
+    "review_record": "단일 주절 had no choice but to go … or purchase …(to 뒤 두 동사원형이 or로 병렬) + 목적격 관계대명사가 생략된 관계절 they wanted to watch(선행사 the videos). 생략 관계사 힌트 1개. 수동 없음. 표시 범위: 2단계 L 검수(Lc 특별 확인)에서 유지로 판정 — 관계사의 빈자리(the videos = watch의 목적어)가 있는 동사까지 표시해야 관계가 바로 보이며, wanted에서 멈추면 the videos가 wanted의 목적어처럼 보임. 규칙 문언에 명시된 경우는 아니어서 사용자 보고 대상.",
     "required_breaks": [],
     "protected_spans": [],
     "function_gloss_ids": [],
@@ -18692,7 +18705,7 @@
       ]
      ],
      "headword": "on",
-     "meaning_ko": "~에서",
+     "meaning_ko": "~에서 (흔한 뜻: ~위에)",
      "star": false
     },
     {
@@ -19600,7 +19613,7 @@
       ]
      ],
      "headword": "tastes",
-     "meaning_ko": "취향들",
+     "meaning_ko": "취향들 (흔한 뜻: 맛)",
      "star": false
     },
     {
@@ -20111,27 +20124,27 @@
    "hints": [
     {
      "span": [
-      45,
+      18,
       82
      ],
      "meaning_ko": "(다양한 선택과 맞춤화를 가지는 것), 그리고 그것은 결과적으로 (그들의 만족을) 높인다",
-     "explanation": "콤마 뒤 계속적 관계대명사 which가 앞 절의 내용(다양한 선택과 맞춤화를 가지는 것)을 받아 결과를 덧붙인다. 추가 설명 문맥이라 ‘그리고’. 주격이라 V′ enhances까지(사이 부사 in turn 보존) 표시하고 목적어 their satisfaction은 제외.",
+     "explanation": "콤마 뒤 계속적 관계대명사 which가 앞의 동명사구(다양한 선택과 맞춤화를 가지는 것)를 받아 결과를 덧붙인다. 받는 대상을 표시에 함께 보인다. 추가 설명 문맥이라 ‘그리고’. 주격이라 V′ enhances까지(사이 부사 in turn 보존) 표시하고 목적어 their satisfaction은 제외.",
      "display_pairs": [
       {
-       "en": "customization, [which in turn enhances]",
-       "ko": "맞춤화, [그리고 그것은 결과적으로 높인다]",
+       "en": "having diverse choices and customization, [which in turn enhances]",
+       "ko": "다양한 선택과 맞춤화를 가지는 것, [그리고 그것은 결과적으로 높인다]",
        "emphasis_links": [
         {
          "en_spans": [
           [
-           16,
-           21
+           43,
+           48
           ]
          ],
          "ko_spans": [
           [
-           6,
-           13
+           21,
+           28
           ]
          ]
         }
@@ -20167,7 +20180,7 @@
     {
      "start": 10,
      "end": 57,
-     "ko": "개인 맞춤화된 의류 스타일을 제안하는 것 같은"
+     "ko": "개인 맞춤형 의류 스타일을 제안하는 것 같은"
     },
     {
      "start": 58,
@@ -20304,7 +20317,7 @@
       ]
      ],
      "headword": "personalized",
-     "meaning_ko": "개인 맞춤화된",
+     "meaning_ko": "개인 맞춤형의",
      "star": false,
      "verb_form": {
       "usage": "past-participle",
@@ -20801,46 +20814,26 @@
     },
     {
      "span": [
-      168,
-      197
+      42,
+      94
      ],
-     "meaning_ko": "그들에게 큰 만족을 가져다준다",
-     "explanation": "bring A B: A에게 B를 가져다주다. A=them(고객들), B=great satisfaction. 주어가 길어 멀리 떨어진 동사 bring과 두 목적어의 연결을 놓치기 쉬워 선정.",
+     "meaning_ko": "고객들의 구매 기록에 기초한 의류 스타일들",
+     "explanation": "과거분사구 based on customers’ purchase history가 앞 명사 clothing styles를 뒤에서 꾸민다. based ↔ 기초한.",
      "display_pairs": [
       {
-       "en": "bring them [great satisfaction]",
-       "ko": "그들[고객들]에게 [큰 만족을] 가져다준다",
-       "pronoun_refs": [
-        {
-         "en_span": [
-          6,
-          10
-         ],
-         "ko_pronoun_span": [
-          0,
-          2
-         ],
-         "ko_reference_span": [
-          2,
-          7
-         ]
-        }
-       ],
+       "en": "clothing styles [based on customers’ purchase history]",
+       "ko": "[고객들의 구매 기록에 기초한] 의류 스타일들",
        "emphasis_links": [
         {
          "en_spans": [
           [
-           0,
-           5
+           17,
+           22
           ]
          ],
          "ko_spans": [
           [
-           7,
-           9
-          ],
-          [
-           15,
+           13,
            16
           ]
          ]
@@ -20848,12 +20841,12 @@
        ]
       }
      ],
-     "structure_label": "bring A B 구문",
-     "emphasis_policy": "ko-only-verb-construction"
+     "structure_label": "과거분사 후치수식",
+     "participle_focus_gloss_id": "s43-g08"
     }
    ],
    "reading_checks": {
-    "review_record": "주절 주어 Services(콤마 사이 such as + 동명사 suggesting … or recommending … 예시 삽입) + 동사 bring A B. based on …은 clothing styles를 꾸미는 과거분사, that match …는 videos를 꾸미는 주격 관계절. 힌트 2개(필수 관계사, bring A B). 수동 없음.",
+    "review_record": "주절 주어 Services(콤마 사이 such as + 동명사 suggesting … or recommending … 예시 삽입) + 동사 bring A B. based on …은 clothing styles를 꾸미는 과거분사, that match …는 videos를 꾸미는 주격 관계절. 힌트 2개(필수 관계사, 과거분사 후치수식). 2단계 L 검수(Lc-10): 준동사 수식이 동사 구문 bring A B보다 우선이라 bring A B 힌트를 과거분사 후치수식으로 교체(bring A B는 각주로 지원). 수동 없음.",
     "required_breaks": [
      {
       "at": 10,
@@ -21484,7 +21477,7 @@
      "ko": "그리고 많은 콘텐츠나 제품을 사용하는 것을."
     }
    ],
-   "natural_ko": "구독 모델의 편리함과 접근성 때문에 소비자들은 여러 서비스에 쉽게 가입하고 많은 콘텐츠나 제품을 쉽게 사용하게 된다.",
+   "natural_ko": "구독 모델의 편리함과 접근성 때문에 소비자들은 여러 서비스에 쉽게 가입하고 많은 콘텐츠나 제품을 쉽게 사용할 수 있다.",
    "clauses": [
     {
      "kind": "main",
@@ -22424,7 +22417,7 @@
       ]
      ],
      "headword": "It … to V",
-     "meaning_ko": "~하는 것은 (It은 뒤의 to V를 대신함)",
+     "meaning_ko": "~하는 것이 (It은 뒤의 to V를 대신함)",
      "star": false
     },
     {
@@ -23215,7 +23208,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "보어 Related to the concern of overconsumption이 앞으로 나간 도치 문장: V is, S the financial burden that … (관계절 포함). 목적격 관계절 that subscriptions can create. 힌트 2개(보어 도치, 필수 관계사). 수동 없음(Related는 보어 과거분사).",
+    "review_record": "보어 Related to the concern of overconsumption이 앞으로 나간 도치 문장: V is, S the financial burden that … (관계절 포함). 목적격 관계절 that subscriptions can create. 힌트 2개(보어 도치, 필수 관계사). 수동 없음(Related는 보어 과거분사). 2단계 L 검수(Lc-13): 도치된 보어의 문법 표지가 과거분사 Related라 Related ↔ 관련된 독립 p.p. 대응 강조를 유지.",
     "required_breaks": [
      {
       "at": 23,
@@ -23722,7 +23715,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "대조 부사절 While(주어 표시 the cost, V′ may seem + 보어 affordable) + 주절 동명사 주어 subscribing to multiple services(전체 유지) + can add up. 힌트 2개(while 절, 동명사 주어). 관계사·수동 없음.",
+    "review_record": "대조 부사절 While(주어 표시 the cost, V′ may seem + 보어 affordable) + 주절 동명사 주어 subscribing to multiple services(전체 유지) + can add up. 힌트 2개(while 절, 동명사 주어). 관계사·수동 없음. 2단계 L 검수(Lc-14): 연결동사 seem은 be처럼 보어 없이 뜻이 잡히지 않아 be동사 최소 보어 예외를 준용해 affordable까지 표시 — 규칙 문언은 be동사만 명시하므로 사용자 보고 대상.",
     "required_breaks": [
      {
       "at": 15,
@@ -23799,7 +23792,7 @@
       ]
      ],
      "headword": "It … to V",
-     "meaning_ko": "~하는 것은 (It은 뒤의 to V를 대신함)",
+     "meaning_ko": "~하는 것이 (It은 뒤의 to V를 대신함)",
      "star": false
     },
     {
@@ -25073,7 +25066,7 @@
       113
      ],
      "meaning_ko": "일회용 포장(의 사용 증가), 그리고 그것은 (환경을) 해친다",
-     "explanation": "콤마 뒤 계속적 관계대명사 which가 앞의 일회용 포장 사용 증가를 받아 결과를 덧붙인다(추가 설명이라 그리고). 주격이라 V′ harms까지 표시하고 목적어 the environment는 제외.",
+     "explanation": "콤마 뒤 계속적 관계대명사 which가 바로 앞의 일회용 포장(disposable packaging)을 받아 설명을 덧붙인다(추가 설명이라 그리고). 주격이라 V′ harms까지 표시하고 목적어 the environment는 제외.",
      "display_pairs": [
       {
        "en": "disposable packaging, [which harms]",
@@ -25100,7 +25093,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "주어 The regular delivery of products in packaging materials(표시 The regular delivery) + can increase + 계속적 관계대명사 which(앞 절의 일회용 포장 사용 증가를 받음). of·in·of 앞 후치수식 경계. 필수 관계사 힌트 1개. 수동 없음.",
+    "review_record": "주어 The regular delivery of products in packaging materials(표시 The regular delivery) + can increase + 계속적 관계대명사 which(표시한 선행사 disposable packaging을 받음, 2단계 L 검수 Lc-17로 판정 통일). of·in·of 앞 후치수식 경계. 필수 관계사 힌트 1개. 수동 없음.",
     "required_breaks": [
      {
       "at": 21,
@@ -25729,7 +25722,7 @@
       ]
      ],
      "headword": "have p.p.",
-     "meaning_ko": "~하게 되었다",
+     "meaning_ko": "~했다",
      "star": false,
      "kind": "function",
      "combines_with": [
@@ -26198,13 +26191,8 @@
    "chunks": [
     {
      "start": 0,
-     "end": 45,
-     "ko": "새로운 구독 서비스들이 ~라고 예상된다"
-    },
-    {
-     "start": 46,
      "end": 75,
-     "ko": "지속적으로 제공될 것이라고"
+     "ko": "새로운 구독 서비스들이 지속적으로 제공될 것이라고 예상된다"
     },
     {
      "start": 76,
@@ -26276,7 +26264,7 @@
       ]
      ],
      "headword": "It is expected that S′ V′",
-     "meaning_ko": "S′(이/가) V′할 것으로 예상된다",
+     "meaning_ko": "S′(이/가) V′라고 예상된다",
      "star": false
     },
     {
@@ -26746,7 +26734,7 @@
      "headword": "we",
      "meaning_ko": "우리는",
      "star": false,
-     "referent_ko": "글쓴이와 독자를 포함한 소비자들"
+     "referent_ko": "글쓴이와 독자를 포함한 우리 모두"
     },
     {
      "id": "s58-g02",
@@ -28119,7 +28107,7 @@
      },
      {
       "number": 5,
-      "text": "In the beginning, only a few items such as milk were sold by subscription."
+      "text": "In the beginning, subscriptions covered only limited products like milk and newspapers."
      }
     ],
     "passage": "Jiyun, a high school student, starts her day by logging in to a music streaming service on her smartphone. She enjoys listening to her favorite music, discovering new songs, and exploring new artists every day. For a healthy breakfast, Jiyun receives a delivery from a subscription service that provides fresh vegetables and fruits. After school, Jiyun utilizes a video lecture service to expand her knowledge in whatever she finds interesting. For example, she watches various academic lectures to review her schoolwork and stay updated about the latest knowledge in her chosen field of study. During weekends, Jiyun and her family spend quality time together watching movies or dramas using a streaming service.\nTo be sure, the subscription economy is a popular economic model nowadays, and Jiyun is actively taking part in it. The concept of business models based on subscriptions is not new. Initially it was limited to products such as milk and newspapers."
@@ -28484,7 +28472,7 @@
       "text": "stop collecting information about customers"
      }
     ],
-    "passage": "With the development of various digital devices centered on smartphones, consumers have been able to do numerous things with great ease. In the past, people had no choice but to go to the theater or purchase the videos they wanted to watch. Today, whoever wants to watch a movie can access online media subscription platforms and enjoy a vast selection of movies on their smartphones or other digital devices.\nAt the same time, these platforms make it easy for companies to ________________ to customers. By applying AI and big data algorithm technology, companies identify consumers’ needs, tastes, and consumption patterns. People appreciate having diverse choices and customization, which in turn enhances their satisfaction. Services, such as suggesting personalized clothing styles based on customers’ purchase history or recommending videos that match their movie and video viewing history, bring them great satisfaction."
+    "passage": "With the development of various digital devices centered on smartphones, consumers have been able to do numerous things with great ease. In the past, people had no choice but to go to the theater or purchase the videos they wanted to watch. Today, whoever wants to watch a movie can access online media subscription platforms and enjoy a vast selection of movies on their smartphones or other digital devices.\nAt the same time, these platforms make it easy for companies to ________________. By applying AI and big data algorithm technology, companies identify consumers’ needs, tastes, and consumption patterns. People appreciate having diverse choices and customization, which in turn enhances their satisfaction. Services, such as suggesting personalized clothing styles based on customers’ purchase history or recommending videos that match their movie and video viewing history, bring them great satisfaction."
    },
    {
     "id": "Q23",
@@ -29577,7 +29565,7 @@
      },
      {
       "number": 5,
-      "text": "In the beginning, only a few items such as milk were sold by subscription."
+      "text": "In the beginning, subscriptions covered only limited products like milk and newspapers."
      }
     ],
     "answer": 3,
@@ -29620,7 +29608,7 @@
      },
      {
       "number": 5,
-      "text": "처음에는 우유 같은 몇몇 품목만 구독으로 판매되었다."
+      "text": "처음에는 구독이 우유와 신문 같은 한정된 제품에만 적용되었다."
      }
     ]
    },
@@ -30945,7 +30933,7 @@
    "last_sentence": "s43",
    "replacement_span": [
     474,
-    512
+    525
    ],
    "length_review": {
     "profile_id": "kr-hs-english-2026-3-6-9-v1",

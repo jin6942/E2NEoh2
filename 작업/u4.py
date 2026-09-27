@@ -78,7 +78,7 @@ def sentences(T):
            meaning='그들이 보기를 원했던 비디오들',
            explanation='선행사 the videos 뒤 목적격 관계대명사 that이 생략된 관계절. the videos는 wanted가 아니라 to watch의 목적어이므로 빈자리가 있는 to watch까지 표시한다(S′ they, V′ wanted).')
     s.review = ('단일 주절 had no choice but to go … or purchase …(to 뒤 두 동사원형이 or로 병렬) + 목적격 관계대명사가 생략된 관계절 they wanted to watch(선행사 the videos). '
-                '생략 관계사 힌트 1개. 수동 없음.')
+                '생략 관계사 힌트 1개. 수동 없음. 표시 범위: 2단계 L 검수(Lc 특별 확인)에서 유지로 판정 — 관계사의 빈자리(the videos = watch의 목적어)가 있는 동사까지 표시해야 관계가 바로 보이며, wanted에서 멈추면 the videos가 wanted의 목적어처럼 보임. 규칙 문언에 명시된 경우는 아니어서 사용자 보고 대상.')
     out.append(s)
 
     # ---------------- s39 ----------------
@@ -108,7 +108,7 @@ def sentences(T):
     link(f, ac, ej)
     q = s.g('a vast selection of', 'a vast selection of', '엄청나게 다양한')
     s.g('movies', 'movies', '영화들')
-    s.g('on', 'on', '~에서')
+    s.g('on', 'on', '~에서 (흔한 뜻: ~위에)')
     s.g('their', 'their', '그들의', referent_ko='영화를 보고 싶은 사람들')
     s.g('smartphones', 'smartphones', '스마트폰들')
     s.g('or', 'or', '또는', at=s.text.index('or other'))
@@ -168,7 +168,7 @@ def sentences(T):
     s.g('identify', 'identify', '파악하다, 확인하다', star=W['identify'])
     s.g('consumers’', 'consumers’', '소비자들의')
     s.g('needs', 'needs', '요구들, 필요들')
-    s.g('tastes', 'tastes', '취향들')
+    s.g('tastes', 'tastes', '취향들 (흔한 뜻: 맛)')
     s.g('consumption', 'consumption', '소비')
     s.g('patterns', 'patterns', '패턴들, 양식들')
     s.hint('[By applying]', '[적용함으로써]', span='By applying', label='전치사 by + 동명사',
@@ -197,10 +197,11 @@ def sentences(T):
     s.g('enhances', 'enhance', '높이다, 향상시키다', verb_form=v3(s, 'enhances', 'enhance', 'which(다양한 선택과 맞춤화를 누리는 것)'))
     s.g('their', 'their', '그들의', referent_ko='사람들')
     s.g('satisfaction', 'satisfaction', '만족', star=W['satisfaction'])
-    s.hint('customization, [which in turn enhances]', '맞춤화, [그리고 그것은 결과적으로 높인다]', span='customization, which in turn enhances',
+    s.hint('having diverse choices and customization, [which in turn enhances]', '다양한 선택과 맞춤화를 가지는 것, [그리고 그것은 결과적으로 높인다]',
+           span='having diverse choices and customization, which in turn enhances',
            label='계속적 관계대명사 which', links=[(['which'], ['그리고 그것은'])],
            meaning='(다양한 선택과 맞춤화를 가지는 것), 그리고 그것은 결과적으로 (그들의 만족을) 높인다',
-           explanation='콤마 뒤 계속적 관계대명사 which가 앞 절의 내용(다양한 선택과 맞춤화를 가지는 것)을 받아 결과를 덧붙인다. 추가 설명 문맥이라 ‘그리고’. 주격이라 V′ enhances까지(사이 부사 in turn 보존) 표시하고 목적어 their satisfaction은 제외.')
+           explanation='콤마 뒤 계속적 관계대명사 which가 앞의 동명사구(다양한 선택과 맞춤화를 가지는 것)를 받아 결과를 덧붙인다. 받는 대상을 표시에 함께 보인다. 추가 설명 문맥이라 ‘그리고’. 주격이라 V′ enhances까지(사이 부사 in turn 보존) 표시하고 목적어 their satisfaction은 제외.')
     s.relative_ids = [rel['id']]
     s.review = ('주절 appreciate + 동명사 목적어 having … + 계속적 관계대명사 which(앞 내용 전체를 받음, 추가 설명이라 그리고). '
                 '필수 관계사 힌트 1개. 수동 없음.')
@@ -209,7 +210,7 @@ def sentences(T):
     # ---------------- s43 ----------------
     s = S('s43', T['s43'], key=True)
     s.ch('Services,', '서비스들은,')
-    s.ch('such as suggesting personalized clothing styles', '개인 맞춤화된 의류 스타일을 제안하는 것 같은')
+    s.ch('such as suggesting personalized clothing styles', '개인 맞춤형 의류 스타일을 제안하는 것 같은')
     s.ch('based on customers’ purchase history', '고객들의 구매 기록에 기초한')
     s.ch('or recommending videos', '또는 비디오들을 추천하는 것 (같은)')
     s.ch('that match their movie and video viewing history,', '그들의 영화 및 비디오 시청 기록에 맞는,')
@@ -224,10 +225,10 @@ def sentences(T):
     s.g('such|as', 'such as', '~ 같은')
     f = s.g('suggesting', 'V-ing', '~하는 것', kind='function', combines_with=[])
     sg = s.g('suggesting', 'suggest', '제안하다', same=True, verb_form=pp('ing', s, 'suggesting', 'suggest'))
-    s.g('personalized', 'personalized', '개인 맞춤화된', verb_form=pp('past-participle', s, 'personalized', 'personalize'))
+    s.g('personalized', 'personalized', '개인 맞춤형의', verb_form=pp('past-participle', s, 'personalized', 'personalize'))
     s.g('clothing', 'clothing', '의류, 옷')
     s.g('styles', 'styles', '스타일들')
-    s.g('based|on', 'based on', '(~에) 기초한', verb_form=pp('past-participle', s, 'based', 'base'))
+    bs = s.g('based|on', 'based on', '(~에) 기초한', verb_form=pp('past-participle', s, 'based', 'base'))
     s.g('customers’', 'customers’', '고객들의')
     s.g('purchase|history', 'purchase history', '구매 기록')
     s.g('or', 'or', '또는')
@@ -250,14 +251,15 @@ def sentences(T):
     s.hint('videos [that match]', '[맞는] 비디오들', span='videos that match', label='주격 관계대명사 that',
            links=[(['that'], ['는'])], meaning='(그들의 영화 및 비디오 시청 기록에) 맞는 비디오들',
            explanation='선행사 videos를 주격 관계대명사 that이 받아 match their movie and video viewing history가 꾸민다. V′ match까지만 표시.')
-    s.hint('bring them [great satisfaction]', '그들[고객들]에게 [큰 만족을] 가져다준다', span='bring them great satisfaction',
-           label='bring A B 구문', links=[(['bring'], ['에게', '을'])], emphasis_policy='ko-only-verb-construction',
-           refs=[('them', '그들', '[고객들]')],
-           meaning='그들에게 큰 만족을 가져다준다',
-           explanation='bring A B: A에게 B를 가져다주다. A=them(고객들), B=great satisfaction. 주어가 길어 멀리 떨어진 동사 bring과 두 목적어의 연결을 놓치기 쉬워 선정.')
+    s.hint('clothing styles [based on customers’ purchase history]', '[고객들의 구매 기록에 기초한] 의류 스타일들',
+           span='clothing styles based on customers’ purchase history', label='과거분사 후치수식',
+           links=[(['based'], ['기초한'])], participle_focus_gloss_id=bs['id'],
+           meaning='고객들의 구매 기록에 기초한 의류 스타일들',
+           explanation='과거분사구 based on customers’ purchase history가 앞 명사 clothing styles를 뒤에서 꾸민다. based ↔ 기초한.')
     s.relative_ids = [rel['id']]
     s.review = ('주절 주어 Services(콤마 사이 such as + 동명사 suggesting … or recommending … 예시 삽입) + 동사 bring A B. '
-                'based on …은 clothing styles를 꾸미는 과거분사, that match …는 videos를 꾸미는 주격 관계절. 힌트 2개(필수 관계사, bring A B). 수동 없음.')
+                'based on …은 clothing styles를 꾸미는 과거분사, that match …는 videos를 꾸미는 주격 관계절. 힌트 2개(필수 관계사, 과거분사 후치수식). '
+                '2단계 L 검수(Lc-10): 준동사 수식이 동사 구문 bring A B보다 우선이라 bring A B 힌트를 과거분사 후치수식으로 교체(bring A B는 각주로 지원). 수동 없음.')
     out.append(s)
     return out
 
@@ -283,10 +285,10 @@ def analysis(_):
         'heading_kind': '주제',
         'title_or_topic_en': 'How Online Platforms Drive the Subscription Economy',
         'title_or_topic_ko': '온라인 플랫폼이 구독 경제를 이끄는 방식',
-        'intent_ko': '디지털 기기와 온라인 플랫폼의 발전 덕분에 소비자는 원하는 서비스를 쉽게 이용하게 되었고, 기업은 인공지능과 빅데이터로 소비자에게 맞춤형 서비스를 제공해 만족을 높인다는 점을 설명하는 글이다.',
+        'intent_ko': '17번 문장에서 예고한 둘째 동인인 온라인 플랫폼의 성장을 다루며, 디지털 기기와 온라인 플랫폼의 발전 덕분에 소비자는 원하는 서비스를 쉽게 이용하게 되었고, 기업은 인공지능과 빅데이터로 소비자에게 맞춤형 서비스를 제공해 만족을 높인다는 점을 설명하는 글이다.',
         'flow': [
             {'sentence_ids': ['s37', 's38', 's39'], 'label': '소비자의 편리함',
-             'text_ko': '스마트폰 등 디지털 기기가 발전하면서 소비자는 많은 일을 쉽게 할 수 있게 되었다. 예전에는 극장에 가거나 비디오를 사야 했지만, 지금은 누구나 구독 플랫폼으로 수많은 영화를 즐긴다.'},
+             'text_ko': '스마트폰 등 디지털 기기가 발전하면서 소비자는 많은 일을 쉽게 할 수 있게 되었다. 예전에는 극장에 가거나 비디오를 사야 했지만, 지금은 영화를 보고 싶은 사람은 누구나 구독 플랫폼으로 수많은 영화를 즐길 수 있다.'},
             {'sentence_ids': ['s40', 's41', 's42', 's43'], 'label': '기업의 맞춤 서비스와 만족',
              'text_ko': '플랫폼은 기업이 맞춤형 상품을 제공하기 쉽게 해 준다. 기업은 인공지능과 빅데이터로 소비자의 요구와 취향을 파악하고, 사람들은 다양한 선택과 맞춤화 덕분에 더 만족한다. 구매 기록 기반 의류 추천과 시청 기록 기반 영상 추천이 그 예다.'},
         ],
@@ -294,7 +296,7 @@ def analysis(_):
             {'sentence_id': 's38', 'explanatory_sentences': [
                 '38번 문장은 37번에서 말한 변화가 얼마나 큰지 보여 주려고 옛날 모습을 꺼낸다.',
                 '예전에는 영화를 보려면 극장에 가야 했다.',
-                '집에서 보려면 비디오를 직접 사야 했다.',
+                '보고 싶은 비디오가 있으면 직접 사야 했다.',
                 '다른 방법이 없었다는 점이 39번의 오늘날 모습과 대비된다.']},
             {'sentence_id': 's40', 'explanatory_sentences': [
                 '40번 문장은 앞의 소비자 이야기에서 기업 이야기로 넘어간다.',
@@ -343,7 +345,7 @@ def analysis(_):
              'practice': {'span': 'have been able to do numerous things',
                           'formula_support': {'en': 'have p.p.', 'ko': '~해 왔다'},
                           'support': [('s37', 'be able to V'), ('s37', 'do'), ('s37', 'numerous'), ('s37', 'things')],
-                          'answer_ko': '수많은 일들을 할 수 있게 되었다'}},
+                          'answer_ko': '수많은 일들을 할 수 있어 왔다(= 할 수 있게 되었다)'}},
         ],
         'formula_routes': [
             {'function': ('s37', 'have p.p.', 0), 'route': 'analysis', 'grammar_point_id': 'u4-gp4',

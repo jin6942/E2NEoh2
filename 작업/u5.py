@@ -66,7 +66,7 @@ def sentences(T):
     s.ch('make it easy for consumers to sign up for', '소비자들이 가입하는 것을 쉽게 만든다')
     s.ch('multiple services', '여러 서비스에')
     s.ch('and use a lot of content or products.', '그리고 많은 콘텐츠나 제품을 사용하는 것을.')
-    s.natural('구독 모델의 편리함과 접근성 때문에 소비자들은 여러 서비스에 쉽게 가입하고 많은 콘텐츠나 제품을 쉽게 사용하게 된다.')
+    s.natural('구독 모델의 편리함과 접근성 때문에 소비자들은 여러 서비스에 쉽게 가입하고 많은 콘텐츠나 제품을 쉽게 사용할 수 있다.')
     s.cl('main', 'The', subj='The convenience and accessibility of the subscription model', verbs=['make'])
     s.g('convenience', 'convenience', '편리함, 편의성')
     s.g('accessibility', 'accessibility', '접근성, 이용하기 쉬움')
@@ -132,7 +132,7 @@ def sentences(T):
     s.natural('정말로 필요한 서비스만 구독하고, 비슷한 서비스를 구독하는 것은 피하는 것이 매우 중요하다.')
     s.cl('main', 'It', subj='It', verbs=['is'])
     s.cl('subject_relative', 'that', verbs=['are'], marker='that')
-    s.g('It|to', 'It … to V', '~하는 것은 (It은 뒤의 to V를 대신함)')
+    s.g('It|to', 'It … to V', '~하는 것이 (It은 뒤의 to V를 대신함)')
     s.g('is', 'is', '~이다')
     s.g('crucial', 'crucial', '매우 중요한, 결정적인')
     sb = s.g('subscribe|to', 'subscribe to', '~을 구독하다')
@@ -197,7 +197,8 @@ def sentences(T):
            explanation='선행사 the financial burden을 목적격 관계대명사 that이 받는다(create의 목적어). S′ subscriptions, V′ can create.')
     s.relative_ids = [rel['id']]
     s.review = ('보어 Related to the concern of overconsumption이 앞으로 나간 도치 문장: V is, S the financial burden that … (관계절 포함). '
-                '목적격 관계절 that subscriptions can create. 힌트 2개(보어 도치, 필수 관계사). 수동 없음(Related는 보어 과거분사).')
+                '목적격 관계절 that subscriptions can create. 힌트 2개(보어 도치, 필수 관계사). 수동 없음(Related는 보어 과거분사). '
+                '2단계 L 검수(Lc-13): 도치된 보어의 문법 표지가 과거분사 Related라 Related ↔ 관련된 독립 p.p. 대응 강조를 유지.')
     out.append(s)
 
     # ---------------- s50 ----------------
@@ -239,7 +240,7 @@ def sentences(T):
            links=[(['ing'], ['는 것은'])], meaning='여러 서비스들을 구독하는 것은 (비용이) 불어날 수 있다',
            explanation='동명사구 subscribing to multiple services가 주절의 주어(~하는 것은). 동사 can add up과 연결.')
     s.review = ('대조 부사절 While(주어 표시 the cost, V′ may seem + 보어 affordable) + 주절 동명사 주어 subscribing to multiple services(전체 유지) + can add up. '
-                '힌트 2개(while 절, 동명사 주어). 관계사·수동 없음.')
+                '힌트 2개(while 절, 동명사 주어). 관계사·수동 없음. 2단계 L 검수(Lc-14): 연결동사 seem은 be처럼 보어 없이 뜻이 잡히지 않아 be동사 최소 보어 예외를 준용해 affordable까지 표시 — 규칙 문언은 be동사만 명시하므로 사용자 보고 대상.')
     out.append(s)
 
     # ---------------- s51 ----------------
@@ -250,7 +251,7 @@ def sentences(T):
     s.ch('to avoid financial strain.', '재정적 압박을 피하기 위해.')
     s.natural('재정적 압박을 피하려면 이러한 구독 비용을 신중하게 따져 보는 것이 중요하다.')
     s.cl('main', 'It', subj='It', verbs=['is'])
-    s.g('It|to', 'It … to V', '~하는 것은 (It은 뒤의 to V를 대신함)')
+    s.g('It|to', 'It … to V', '~하는 것이 (It은 뒤의 to V를 대신함)')
     s.g('is', 'is', '~이다')
     s.g('important', 'important', '중요한')
     s.g('carefully', 'carefully', '신중하게')
@@ -352,9 +353,9 @@ def sentences(T):
     s.hint('disposable packaging, [which harms]', '일회용 포장, [그리고 그것은 해친다]', span='disposable packaging, which harms',
            label='계속적 관계대명사 which', links=[(['which'], ['그리고 그것은'])],
            meaning='일회용 포장(의 사용 증가), 그리고 그것은 (환경을) 해친다',
-           explanation='콤마 뒤 계속적 관계대명사 which가 앞의 일회용 포장 사용 증가를 받아 결과를 덧붙인다(추가 설명이라 그리고). 주격이라 V′ harms까지 표시하고 목적어 the environment는 제외.')
+           explanation='콤마 뒤 계속적 관계대명사 which가 바로 앞의 일회용 포장(disposable packaging)을 받아 설명을 덧붙인다(추가 설명이라 그리고). 주격이라 V′ harms까지 표시하고 목적어 the environment는 제외.')
     s.relative_ids = [rel['id']]
-    s.review = ('주어 The regular delivery of products in packaging materials(표시 The regular delivery) + can increase + 계속적 관계대명사 which(앞 절의 일회용 포장 사용 증가를 받음). '
+    s.review = ('주어 The regular delivery of products in packaging materials(표시 The regular delivery) + can increase + 계속적 관계대명사 which(표시한 선행사 disposable packaging을 받음, 2단계 L 검수 Lc-17로 판정 통일). '
                 'of·in·of 앞 후치수식 경계. 필수 관계사 힌트 1개. 수동 없음.')
     out.append(s)
 
@@ -412,7 +413,7 @@ def sentences(T):
     s.g('subscription', 'subscription', '구독')
     s.g('services', 'services', '서비스들')
     s.g('they', 'they', '그것들은', referent_ko='구독 서비스들')
-    f = s.g('have', 'have p.p.', '~하게 되었다', kind='function', combines_with=[])
+    f = s.g('have', 'have p.p.', '~했다', kind='function', combines_with=[])
     bc = s.g('become', 'become', '되다 (become은 become의 p.p.형)', verb_form=pp('perfect-participle', s, 'become', 'become', f['id']))
     link(f, bc)
     s.g('deeply', 'deeply', '깊이')
@@ -437,15 +438,14 @@ def sentences(T):
 
     # ---------------- s57 ----------------
     s = S('s57', T['s57'])
-    s.ch('It is expected that new subscription services', '새로운 구독 서비스들이 ~라고 예상된다')
-    s.ch('will be continuously provided', '지속적으로 제공될 것이라고')
+    s.ch('It is expected that new subscription services will be continuously provided', '새로운 구독 서비스들이 지속적으로 제공될 것이라고 예상된다')
     s.ch('to consumers', '소비자들에게')
     s.ch('in new areas', '새로운 영역들에서')
     s.ch('in the future.', '미래에.')
     s.natural('앞으로 새로운 영역에서 새로운 구독 서비스가 소비자에게 계속 제공될 것으로 예상된다.')
     s.cl('main', 'It', subj='It', verbs=['is', 'expected'])
     s.cl('subordinate', 'that', subj='new subscription services', verbs=['will be', 'provided'], marker='that')
-    it = s.g('It is expected that', 'It is expected that S′ V′', 'S′(이/가) V′할 것으로 예상된다')
+    it = s.g('It is expected that', 'It is expected that S′ V′', 'S′(이/가) V′라고 예상된다')
     s.g('new', 'new', '새로운')
     s.g('subscription', 'subscription', '구독')
     s.g('services', 'services', '서비스들')
@@ -482,7 +482,7 @@ def sentences(T):
     s.cl('main', 'We', subj='We', verbs=['need'])
     s.cl('subject_relative', 'who', verbs=['receive'], marker='who')
     s.cl('subject_relative', 'that', verbs=['are', 'needed'], marker='that')
-    s.g('We', 'we', '우리는', referent_ko='글쓴이와 독자를 포함한 소비자들')
+    s.g('We', 'we', '우리는', referent_ko='글쓴이와 독자를 포함한 우리 모두')
     s.g('need|to', 'need to V', '~할 필요가 있다',
         verb_construction={'kind': 'to-complement', 'verb_span': s.span_of('need'), 'lemma': 'need',
                            'link_spans': [s.span_of('to')], 'review_record': 'need to have … and become …: need의 목적어 to V(두 동사원형 병렬).'})
@@ -537,32 +537,32 @@ def analysis(_):
         'heading_kind': '주제',
         'title_or_topic_en': 'The Limitations of the Subscription Economy and Wise Consumers',
         'title_or_topic_ko': '구독 경제의 한계와 현명한 소비자',
-        'intent_ko': '구독 경제의 단점으로 과소비, 재정적 부담, 환경 오염을 들고 각각의 대처법을 제시한 뒤, 구독 경제가 계속 커질 것이므로 필요한 서비스만 받는 현명한 소비자가 되어야 한다고 주장하는 글이다.',
+        'intent_ko': '구독 경제의 단점으로 과소비, 재정적 부담, 환경 오염을 들고 각각의 대처법을 제시한 뒤, 구독 경제가 이미 삶에 깊이 자리 잡았고 앞으로도 커질 것으로 예상되므로 필요한 서비스만 받는 현명한 소비자가 되어야 한다고 주장하는 글이다.',
         'flow': [
             {'sentence_ids': ['s44', 's45', 's46', 's47', 's48'], 'label': '한계 1: 과소비',
-             'text_ko': '장점만 있는 것은 아니다. 구독은 편리해서 여러 서비스에 쉽게 가입하게 되고, 필요보다 많이 쓰는 과소비로 이어질 수 있다. 그래서 정말 필요한 서비스만 구독하고 비슷한 서비스는 피해야 한다.'},
+             'text_ko': '장점만 있는 것은 아니다. 구독은 편리해서 여러 서비스에 쉽게 가입할 수 있고, 필요보다 많이 쓰는 과소비로 이어질 수 있다. 그래서 정말 필요한 서비스만 구독하고 비슷한 서비스는 피해야 한다.'},
             {'sentence_ids': ['s49', 's50', 's51', 's52'], 'label': '한계 2: 재정 부담',
              'text_ko': '과소비와 이어지는 문제로 재정적 부담이 있다. 하나하나는 싸 보여도 여러 개를 구독하면 비용이 빠르게 불어나므로, 비용을 신중히 따지고 불필요한 구독을 정기적으로 정리하는 것이 좋다.'},
             {'sentence_ids': ['s53', 's54', 's55'], 'label': '한계 3: 환경 오염',
              'text_ko': '정기 배송은 일회용 포장을 늘려 환경을 해칠 수 있다. 친환경 포장재나 재사용 포장을 쓰면 이 문제를 줄일 수 있다.'},
             {'sentence_ids': ['s56', 's57', 's58'], 'label': '결론',
-             'text_ko': '이런 한계에도 구독은 이미 우리 삶에 깊이 자리 잡았고 앞으로 더 많은 분야로 퍼질 것이다. 그러므로 구독 경제를 깊이 이해하고 필요한 서비스만 받는 현명한 소비자가 되어야 한다.'},
+             'text_ko': '이런 한계에도 구독은 이미 우리 삶에 깊이 자리 잡았고, 앞으로 더 많은 분야로 퍼질 것으로 예상된다. 그러므로 구독 경제를 깊이 이해하고 필요한 서비스만 받는 현명한 소비자가 되어야 한다.'},
         ],
         'easy_explanations': [
             {'sentence_id': 's46', 'explanatory_sentences': [
                 '46번 문장은 45번에서 말한 과소비가 왜 생기는지 설명한다.',
                 '구독은 클릭 몇 번이면 가입할 수 있을 만큼 편리하다.',
-                '그래서 별생각 없이 여러 서비스에 가입하기 쉽다.',
-                '가입한 뒤에는 콘텐츠나 제품도 많이 쓰게 된다.',
+                '그래서 여러 서비스에 가입하기 쉽다.',
+                '가입한 뒤에는 콘텐츠나 제품도 많이 쓰기 쉽다.',
                 '편리함이 오히려 지나치게 쓰는 원인이 될 수 있다는 뜻이다.']},
             {'sentence_id': 's50', 'explanatory_sentences': [
                 '50번 문장은 49번에서 말한 재정적 부담이 어떻게 생기는지 보여 준다.',
-                '구독 하나의 요금은 크지 않아서 부담이 없어 보인다.',
-                '하지만 음악, 영상, 옷처럼 여러 개를 구독하면 매달 나가는 돈이 합쳐져 금방 커진다.',
+                '구독 하나의 요금은 크지 않아 보여서 부담이 없어 보일 수 있다.',
+                '하지만 음악, 영상, 옷처럼 여러 개를 구독하면 정기적으로 나가는 돈이 합쳐져 금방 커질 수 있다.',
                 'add up은 작은 것들이 더해져 점점 불어난다는 뜻이다.']},
             {'sentence_id': 's58', 'explanatory_sentences': [
                 '58번 문장은 글 전체의 결론이다.',
-                '56~57번에서 구독 경제는 한계가 있어도 계속 커질 것이라고 했다.',
+                '56~57번에서 구독 서비스는 한계가 있어도 이미 우리 삶에 깊이 자리 잡았고, 앞으로도 새로운 분야에서 계속 나올 것으로 예상된다고 했다.',
                 '그래서 글쓴이는 무조건 구독을 피하라고 하지 않는다.',
                 '구독 경제를 잘 알고, 정말 필요한 서비스만 골라 받는 현명한 소비자가 되자고 말한다.']},
         ],
@@ -582,11 +582,11 @@ def analysis(_):
                             '→ 과소비의 우려와 관련된 것은 재정적 부담이다. 원래 순서는 The financial burden is related to the concern of overconsumption이다.',
              'practice': {'span': 'Related to the concern of overconsumption is the financial burden',
                           'formula_support': {'en': 'Related to A is B', 'ko': 'A와 관련된 것은 B이다'},
-                          'support': [('s49', 'concern'), ('s49', 'overconsumption'), ('s49', 'financial'), ('s49', 'burden')],
+                          'support': [('s49', 'concern'), ('s49', 'of'), ('s49', 'overconsumption'), ('s49', 'financial'), ('s49', 'burden')],
                           'answer_ko': '과소비의 우려와 관련된 것은 재정적 부담이다'}},
             {'id': 'u5-gp3', 'sentence_id': 's50', 'span': 'subscribing to multiple services can add up quickly',
              'title': '동명사 주어: V-ing ~ — ~하는 것은', 'formula_key': 'V-ing 주어',
-             'explanation': '공식: V-ing(동명사구) + V — ~하는 것은 V하다. 주어 = subscribing to multiple services(여러 서비스를 구독하는 것), '
+             'explanation': '공식: V-ing(동명사구) + V — ~하는 것은 V하다. V-ing = subscribing(subscribe to — ~을 구독하다) → 구독하는 것, 대상 = multiple services(여러 서비스), '
                             'V = can add up(불어날 수 있다), quickly = 빠르게. → 여러 서비스들을 구독하는 것은 빠르게 불어날 수 있다. 곧 여러 개를 구독하면 비용이 빠르게 쌓인다는 뜻이다.',
              'practice': {'span': 'subscribing to multiple services can add up quickly',
                           'formula_support': {'en': 'V-ing 주어', 'ko': '~하는 것은'},

@@ -27,10 +27,11 @@ def sentences(T):
     s.g('nowadays', 'nowadays', '요즘')
     f = s.g('is', 'be V-ing', '~하고 있다', kind='function', combines_with=[], at=s.text.index('is actively'))
     s.g('actively', 'actively', '적극적으로')
-    tk = s.g('taking|part|in', 'take part in', '~에 참여하다', verb_form=pp('ing', s, 'taking', 'take'))
+    tk = s.g('taking|part', 'take part', '참여하다', verb_form=pp('ing', s, 'taking', 'take'))
     link(f, tk)
+    s.g('in', 'in', '~에')
     s.g('it', 'it', '그것', referent_ko='구독 경제')
-    s.review = ('두 독립절(and). 둘째 절은 현재진행 is taking part in(사이 부사 actively). take part in 숙어 한 청크. '
+    s.review = ('두 독립절(and). 둘째 절은 현재진행 is taking part in(사이 부사 actively). take part와 in은 대표 뜻(~에)으로 이해되어 각주 분리(L 검수 La-04), 청크는 한 덩어리 유지. '
                 '관계사·접속사절·수동 없음 → 힌트 없음.')
     out.append(s)
 
@@ -49,7 +50,7 @@ def sentences(T):
     bs = s.g('based|on', 'based on', '(~에) 기반한', verb_form=pp('past-participle', s, 'based', 'base'))
     s.g('subscriptions', 'subscriptions', '구독들')
     s.g('is', 'is', '~이다')
-    s.g('not', 'not', '~이 아닌')
+    s.g('not', 'not', '~지 않다')
     s.g('new', 'new', '새로운')
     s.brk('of', 'postnominal-preposition', 'of business models는 앞 명사 The concept을 뒤에서 꾸미는 전치사구')
     s.hint('business models [based on subscriptions]', '[구독에 기반한] 비즈니스 모델들', span='business models based on subscriptions',
@@ -121,8 +122,7 @@ def sentences(T):
     s.ch('Instead of creating a hit product', '히트 상품을 만들어 내는 것 대신에')
     s.ch('that will be sold once,', '한 번 팔릴,')
     s.ch('companies now prioritize providing continuing value,', '기업들은 이제 지속적인 가치를 제공하는 것을 우선시한다,')
-    s.ch('such as new content, more personalization,', '새로운 콘텐츠, 더 많은 개인 맞춤화,')
-    s.ch('or access', '또는 접근 같은')
+    s.ch('such as new content, more personalization, or access', '새로운 콘텐츠, 더 많은 개인 맞춤화, 또는 접근 같은')
     s.ch('to updates.', '업데이트에 대한.')
     s.natural('한 번 팔리고 끝날 히트 상품을 만드는 대신, 기업들은 이제 새로운 콘텐츠, 더 많은 개인 맞춤화, 업데이트 이용 같은 지속적인 가치를 제공하는 것을 우선시한다.')
     s.cl('main', 'Instead', subj='companies', verbs=['prioritize'])
@@ -292,7 +292,7 @@ def sentences(T):
     s.natural('구독 경제의 부상은 두 가지 주요 동인, 즉 소비 추세의 변화와 온라인 플랫폼의 급속한 성장과 밀접하게 연결되어 있다.')
     s.cl('main', 'The', subj='The rise of the subscription economy', verbs=['is', 'connected'], disp='The rise',
          disp_review='중심명사 rise까지 표시하고 뒤수식 of the subscription economy는 제외')
-    s.g('rise', 'rise', '부상, 성장 (흔한 뜻: 오르다)')
+    s.g('rise', 'rise', '부상, 성장 (흔한 뜻: 상승)')
     s.g('of', 'of', '~의')
     s.g('subscription|economy', 'subscription economy', '구독 경제')
     f = s.g('is', 'be p.p.', '~되어 있다', kind='function', combines_with=[])
@@ -363,7 +363,7 @@ def analysis(_):
                 '새 콘텐츠, 나에게 맞춘 서비스, 업데이트를 받을 권리 같은 것이 그런 가치다.']},
             {'sentence_id': 's14', 'explanatory_sentences': [
                 '14번 문장은 13번에서 말한 이점 중 기업이 얻는 이점을 먼저 설명한다.',
-                '구독자는 매달 정해진 돈을 내기 때문에 기업은 수입을 미리 예상할 수 있다.',
+                '구독자는 정해진 돈을 정기적으로 내기 때문에 기업은 수입을 미리 예상할 수 있다.',
                 '이것이 안정적인 수입이다.',
                 '또 고객이 한 서비스를 오래 쓰면서 그 기업을 계속 찾게 되는데, 이것을 고객 충성도라고 한다.']},
             {'sentence_id': 's17', 'explanatory_sentences': [

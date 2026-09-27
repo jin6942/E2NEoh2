@@ -1,0 +1,108 @@
+{
+  "status": "NOT_CERTIFIED",
+  "check_book": {
+    "status": "STRUCTURE_PASS",
+    "errors": [],
+    "learning": {
+      "status": "STRUCTURE_PASS",
+      "source_count": 1,
+      "unit_count": 5,
+      "sentence_count": 58,
+      "gloss_count": 778
+    },
+    "assessment": {
+      "status": "PASS",
+      "checked_question_count": 26
+    },
+    "checked_question_count": 26
+  },
+  "diagnostic_counts": {
+    "ERROR": 0,
+    "WARNING": 0,
+    "INFO": 4
+  },
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "SET_ANSWER_DISTRIBUTION",
+      "location": "assessment/sets/workbook",
+      "message": "Distribution only; no once-per-number requirement is imposed.",
+      "set_id": "workbook",
+      "question_count": 5,
+      "counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "invalid_answer_count": 0
+    },
+    {
+      "severity": "INFO",
+      "code": "SET_ANSWER_DISTRIBUTION",
+      "location": "assessment/sets/mock1",
+      "message": "Distribution only; no once-per-number requirement is imposed.",
+      "set_id": "mock1",
+      "question_count": 7,
+      "counts": {
+        "1": 1,
+        "2": 2,
+        "3": 1,
+        "4": 2,
+        "5": 1
+      },
+      "invalid_answer_count": 0
+    },
+    {
+      "severity": "INFO",
+      "code": "SET_ANSWER_DISTRIBUTION",
+      "location": "assessment/sets/mock2",
+      "message": "Distribution only; no once-per-number requirement is imposed.",
+      "set_id": "mock2",
+      "question_count": 7,
+      "counts": {
+        "1": 2,
+        "2": 0,
+        "3": 2,
+        "4": 1,
+        "5": 2
+      },
+      "invalid_answer_count": 0
+    },
+    {
+      "severity": "INFO",
+      "code": "SET_ANSWER_DISTRIBUTION",
+      "location": "assessment/sets/mock3",
+      "message": "Distribution only; no once-per-number requirement is imposed.",
+      "set_id": "mock3",
+      "question_count": 7,
+      "counts": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "4": 1,
+        "5": 1
+      },
+      "invalid_answer_count": 0
+    }
+  ],
+  "thresholds": {
+    "hint_min_original_words": 15,
+    "hint_display_ratio": 0.8,
+    "choice_contiguous_words": 5
+  },
+  "formula_hints_excluded_from_ratio": 5,
+  "semantic_review": "NOT_PERFORMED",
+  "independent_reviews": "NOT_PERFORMED",
+  "saved_artifact_checks": "NOT_PERFORMED",
+  "visual_review": "NOT_PERFORMED",
+  "limitations": [
+    "Sentence counts are punctuation candidates; quoted speech and ambiguous boundaries require L review.",
+    "Overlap compares case-folded English/number tokens in each displayed passage; it cannot judge answer leakage or justified repetition.",
+    "Summary markers are structural only; choice/translation/explanation A/B meanings require L and M/N review.",
+    "Grammar omissions, preposition grouping, meaning and correct-answer uniqueness require existing L/M/N review.",
+    "No warning is an automatic edit, approval, or replacement for full final-artifact and release checks."
+  ],
+  "input_sha256": "1e7a63bc6feb9d295b18fad2cf0da6aff10e8096dc00112ce20c2acf521619f1"
+}

@@ -220,8 +220,7 @@ def sentences(T):
     s.g('their', 'their', '그들의', referent_ko='개인들')
     s.g('experiences', 'experiences', '경험들')
     s.g('based|on', 'based on', '(~에) 기초하여', verb_form=pp('past-participle', s, 'based', 'base'))
-    s.g('their', 'their', '그들', referent_ko='개인들', at=s.text.index('their own'))
-    s.g('own', 'own', '자신의')
+    s.g('their|own', 'their own', '그들 자신의', referent_ko='개인들', at=s.text.index('their own'))
     s.g('preferences', 'preferences', '선호들, 취향들')
     s.g('interests', 'interests', '관심사들')
     s.prot('a diverse range of', 'quantity-kind-of', '범위 표현 a diverse range of가 뒤 명사 subscription options 앞에서 ‘다양한 범위의’로 같은 어순 대응', gloss=q)
@@ -284,7 +283,7 @@ def sentences(T):
            explanation='선행사 valuable content and services를 주격 관계대명사 that이 받아 fit with their individual tastes가 꾸민다. V′ fit with까지 표시하고 대상 their individual tastes는 제외.')
     s.relative_ids = [rel['id']]
     s.review = ('주절 is more popular(주어 표시 This aspect) + as 부사절(문맥상 이유: 젊은 세대가 더 좋아하는 까닭) + 동명사 목적어 expressing·discovering 병렬 + 주격 관계절 that fit with. '
-                'as는 ‘~함에 따라’로도 읽을 수 있으나 앞 절의 이유를 대는 흐름이라 이유로 판정(L 검수 확인 필요). 힌트 2개(as 절, 필수 관계사). 수동 없음.')
+                'as는 ‘~함에 따라’로도 읽을 수 있으나 앞 절의 이유를 대는 흐름이라 이유로 판정. 2단계 L 검수(Lb 특별 확인)에서 이유 유지로 판정: as절 enjoy는 상태동사 단순현재라 변화·비례 뜻이 없고 주절 more popular among younger generations는 세대 비교라 비례가 성립하지 않음. 힌트 2개(as 절, 필수 관계사). 수동 없음.')
     out.append(s)
 
     # ---------------- s26 ----------------
@@ -387,8 +386,8 @@ def sentences(T):
     s.g('their', 'their', '그들의', referent_ko='소비자들')
     s.g('individual', 'individual', '개인의, 개개인의')
     s.g('skin', 'skin', '피부')
-    s.g('conditions', 'conditions', '상태들')
-    s.g('rather|than', 'rather than', '~ 대신에, ~보다는')
+    s.g('conditions', 'conditions', '상태들 (흔한 뜻: 조건들)')
+    s.g('rather|than', 'rather than', '~ 대신에')
     s.g('uniform', 'uniform', '획일적인, 똑같은 (흔한 뜻: 제복)')
     s.g('purchasing', 'purchasing', '구매의, 구매하는')
     s.g('process', 'process', '과정')
@@ -409,7 +408,7 @@ def sentences(T):
     s.cl('main', 'consumers', subj='consumers', verbs=['appreciate'])
     s.g('Furthermore', 'furthermore', '게다가')
     s.g('consumers', 'consumers', '소비자들')
-    s.g('appreciate', 'appreciate', '높이 평가하다, 진가를 알다')
+    s.g('appreciate', 'appreciate', '높이 평가하다, 진가를 알다 (흔한 뜻: 감사하다)')
     s.g('flexibility', 'flexibility', '유연성')
     s.g('convenience', 'convenience', '편리함, 편의성')
     s.review = '단일 주절. 관계사·접속사절·수동 없음 → 힌트 없음.'
@@ -524,7 +523,7 @@ def sentences(T):
            explanation='선행사를 포함한 관계대명사 what: ~하는 것. selecting only의 목적어. S′ they, V′ need(사이 부사 really 보존).')
     s.relative_ids = [rel['id']]
     s.review = ('주절 This means + 접속사 that이 생략된 명사절(they can either enjoy … or save …, can이 두 동사에 걸림) + by + 동명사 + 관계대명사 what절(selecting의 목적어). '
-                '힌트 2개(either A or B 짝 구조, 관계대명사 what). 생략 that 명사절은 힌트 수 한도로 S/V 표시와 각주로 지원. 수동 없음.')
+                '힌트 2개(either A or B 짝 구조, 관계대명사 what). 생략 that 명사절은 S/V 줄의 절 구분으로만 지원(별도 각주 없음). 2단계 L 검수(Lb-04): 생략 that 명사절(우선 검토)과 either A or B 짝 구조가 문장당 2개 한도에서 충돌 — 생략 that 표시는 V′가 either enjoy … or save로 갈라져 최소 연속 범위로 보여 줄 수 없어 현행 유지, 사용자 보고 대상. 수동 없음.')
     out.append(s)
 
     # ---------------- s33 ----------------
@@ -554,7 +553,7 @@ def sentences(T):
     s.brk('by', 'passive-agent-by', '수동 are made의 행위자(무엇에 의해)를 나타내는 by 구')
     s.hint('[enhancing consumers’ convenience]', '[소비자들의 편리함을 높이면서]', span='enhancing consumers’ convenience', label='분사구문',
            links=[(['ing'], ['면서'])], meaning='소비자들의 편리함을 높이면서',
-           explanation='콤마 뒤 enhancing …은 앞 내용(쉽게 이용할 수 있게 됨)과 함께 일어나는 결과를 덧붙이는 분사구. ing ↔ 면서.')
+           explanation='콤마 뒤 enhancing …은 앞 내용(쉽게 이용할 수 있게 됨)과 함께 일어나는 일을 ‘~하면서’로 덧붙이는 분사구. ing ↔ 면서.')
     s.vf_hint(fn=f, lex=md, en='are made', ko='만들어진다', formula='be p.p.', step_form='made', step_ko='만들어진',
               en_mark=['are'], ko_mark=['진다'], span='subscription services are made', meaning='(쉽게 접근할 수 있게) 만들어진다',
               explanation='make A B(A를 B하게 만들다)의 수동 be made B: B하게 만들어지다. 보어 easily accessible과 by 구는 표시에서 제외.')
@@ -661,7 +660,7 @@ def analysis(_):
         'intent_ko': '사람들이 구독 경제를 좋아하는 이유를 소유보다 경험을 중시하는 태도, 다양성과 맞춤화, 유연성과 편리함의 세 가지로 나누어 설명하고, 이유마다 구체적인 예를 드는 글이다.',
         'flow': [
             {'sentence_ids': ['s18', 's19', 's20', 's21', 's22'], 'label': '이유 1: 소유보다 경험',
-             'text_ko': '사람들은 물건을 갖는 것보다 경험을 중시하게 되었고, 구독은 소유하지 않고도 서비스를 쓸 수 있게 해 주어 매력적이다. 음악 스트리밍과 의류 구독이 그 예다.'},
+             'text_ko': '구독 경제는 요즘 사람들이 소비하는 방식, 곧 17번에서 말한 첫째 동인인 소비 추세의 변화와 밀접하게 관련된다. 사람들은 물건을 갖는 것보다 경험을 중시하게 되었고, 구독은 소유하지 않고도 서비스를 쓸 수 있게 해 주어 매력적이다. 음악 스트리밍과 의류 구독이 그 예다.'},
             {'sentence_ids': ['s23', 's24', 's25', 's26', 's27', 's28'], 'label': '이유 2: 다양성과 맞춤화',
              'text_ko': '소비자들은 다양성과 맞춤화를 중시하는데, 구독 경제는 취향에 맞게 경험을 고를 수 있게 해 준다. 특히 젊은 세대가 좋아하며, 피부 상태를 분석해 맞춤 화장품까지 추천하는 화장품 구독 서비스가 대표적인 예다.'},
             {'sentence_ids': ['s29', 's30', 's31', 's32', 's33', 's34', 's35', 's36'], 'label': '이유 3: 유연성과 편리함',
@@ -670,18 +669,18 @@ def analysis(_):
         'easy_explanations': [
             {'sentence_id': 's20', 'explanatory_sentences': [
                 '20번 문장은 19번에서 말한 변화가 왜 구독 경제에 유리한지 설명한다.',
-                '요즘 사람들은 물건을 갖는 것보다 무언가를 경험하는 것을 더 중요하게 여긴다.',
+                '요즘은 물건을 갖는 것보다 무언가를 경험하는 것을 더 중요하게 여기는 사람이 점점 늘고 있다.',
                 '구독을 하면 물건을 사서 가지지 않아도 서비스나 콘텐츠를 쓸 수 있다.',
                 '그래서 경험을 중시하는 사람들에게 구독 경제가 매력적으로 보인다.']},
             {'sentence_id': 's27', 'explanatory_sentences': [
                 '27번 문장은 26번에서 소개한 화장품 구독 서비스가 어떤 점에서 눈에 띄는지 알려 준다.',
                 '이 서비스는 먼저 고객의 지금 피부 상태를 꼼꼼히 살핀다.',
                 '그다음 그 사람에게 맞는 제품을 추천한다.',
-                '필요하면 그 사람의 피부 고민에 딱 맞는 화장품을 따로 만들어 주기도 한다.',
+                '추천에는 그 사람의 피부 고민을 해결하도록 만든 화장품을 제조해 주는 것까지 들어 있다.',
                 '모두에게 같은 제품을 파는 것이 아니라 한 사람 한 사람에게 맞춰 준다는 점이 핵심이다.']},
             {'sentence_id': 's32', 'explanatory_sentences': [
                 '32번 문장은 30번과 31번에서 말한 두 가지 구독 방식을 정리한다.',
-                '첫째 방식은 정해진 돈을 내고 여러 가지 상품을 마음껏 누리는 것이다.',
+                '첫째 방식은 정해진 돈을 내고 여러 가지 상품을 누리는 것이다.',
                 '둘째 방식은 정말 필요한 것만 골라서 돈을 아끼는 것이다.',
                 '소비자는 자기 상황에 맞는 방식을 고를 수 있다.',
                 '이것이 구독의 유연성이다.']},
@@ -699,7 +698,7 @@ def analysis(_):
              'title': 'enable A to V: A가 ~할 수 있게 해 주다', 'formula_key': 'enable A to V',
              'explanation': '공식: enable A to V — A(이/가) ~할 수 있게 해 주다. A = individuals(개인들), to V = to personalize(개인 맞춤화하다), '
                             'personalize의 목적어 = their experiences(그들의 경험). → 개인들이 그들의 경험을 개인 맞춤화할 수 있게 해 주다. '
-                            '콤마 뒤 enabling은 앞 절(다양한 선택지를 제공한다)의 결과를 이어 준다.',
+                            '콤마 뒤 enabling은 앞 절(다양한 선택지를 제공한다)에 이어지는 일을 ‘~하면서’로 덧붙인다.',
              'practice': {'span': 'enabling individuals to personalize their experiences',
                           'formula_support': {'en': 'enable A to V', 'ko': 'A(이/가) ~할 수 있게 해 주다'},
                           'support': [('s24', 'V-ing'), ('s24', 'individuals'), ('s24', 'personalize'), ('s24', 'their'), ('s24', 'experiences')],
