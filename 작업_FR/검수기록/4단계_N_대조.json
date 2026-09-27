@@ -1,0 +1,75 @@
+{
+  "reviewer": "FR-N",
+  "solved_before_answer_key": true,
+  "blind_records": {
+    "v1": "/tmp/claude-0/-home-user-E2NEoh2/eb9a61d6-d6fc-5cd3-942b-b2e9553842db/scratchpad/frN/N_answers.json",
+    "v2": "/tmp/claude-0/-home-user-E2NEoh2/eb9a61d6-d6fc-5cd3-942b-b2e9553842db/scratchpad/frN/N_answers_v2.json"
+  },
+  "answers": {"Q01": 3, "Q02": 5, "Q03": 2, "Q04": 4, "Q05": 3, "Q06": 5, "Q07": 1, "Q08": 2, "Q09": 4},
+  "changed_items_recheck": {
+    "Q02": {"change": "지문을 s06~s17로 줄임(separate 노출 없어짐), 정답 ⑤ 문구를 'Experiences give us more lasting joy because they shape who we are.'로 바꿈", "my_answer": 5, "unchanged": true, "note": "정답 하나만 성립함. learned_relation_uses 5건의 surface와 선지 위치(span)가 실제 선지와 모두 맞음. 다만 지문이 s17 '“You can really like your material stuff.'에서 끝나 인용부호가 닫히지 않고 양보문에서 끊김(FN-01)"},
+    "Q03": {"change": "일치 선지 ③ Cornell 심리학 교수, ④ 세 가지 이유 제시로 교체", "my_answer": 2, "unchanged": true, "note": "③(s01)과 ④(s05)는 모두 본문과 일치함. Q04·Q07 정답을 풀어 주던 단서가 없어짐"},
+    "Q05": {"change": "오답 ①을 'Comparing ourselves with others makes our possessions feel more special.'로 교체", "my_answer": 3, "unchanged": true, "note": "①은 s10~s11(비교가 기쁨을 끝냄)과 반대이므로 오답으로 성립함. Q03 정답 ②와 내용이 겹치던 문제가 없어짐"},
+    "Q08": {"change": "오답 ①③④⑤ 교체", "my_answer": 2, "unchanged": true, "note": "①(쇼핑>여행), ③(최신 제품의 오래가는 기쁨), ⑤(기억은 희미해지고 물건은 남음)는 반대 내용이고, ④는 비교를 멈추는 방법이 없어 부분 정보 오답임. 정답은 하나. 오답 ④(비교 멈추기)가 같은 회차 다른 문항의 답을 드러내지 않음"}
+  },
+  "answer_comparison": {
+    "match": ["Q01", "Q02", "Q03", "Q04", "Q05", "Q06", "Q07", "Q08", "Q09"],
+    "mismatch": []
+  },
+  "verified_ok": [
+    "9개 지문(Q09는 inseparable→separate, 번호를 되돌린 상태)이 모두 FINAL 원문 s01~s20의 연속 부분 문자열과 같음. 원문 PDF 5쪽 왼쪽 단(4단락)과도 대조해 일치함",
+    "밑줄 위치: Q03 '않는', Q04 발문·본문 'raising the bar', Q07 발문·본문 'becomes the norm', Q09 '않은', 장문 ①~⑤(bigger, like, connected, inseparable, part). PROMPT_UNDERLINES Q04 [5,20], Q07 [5,21]이 TARGET과 일치함",
+    "공유 장문 Q08(제목)과 Q09(어휘)는 같은 s01~s20이고 원문 단락 구분을 유지함. 오류 어휘 inseparable이 제목의 정답 근거(s01·s13·s20)를 훼손하지 않음",
+    "Q06~Q09 해설: 정답 근거, 설명, 네 오답 분석, 선지 해석이 원문·FINAL 해석과 맞음(아래 검토제안 제외)",
+    "워크북 u2 오늘의 낱말 8개(deliver, identity, accumulation, stuff, nonetheless, remain, on the other hand, sum total)는 FINAL ★ 각주와 1:1이고 정답 뜻도 일치함",
+    "워크북 u2 유의어·반의어 9개는 FINAL 유반 3세트(lasting/enduring/temporary, material/physical/spiritual, separate/distinct/united)와 일치하고 뜻도 일치함. 관계 표시 없이 섞여 있음",
+    "워크북 u2 구문 결합 5문항은 FINAL 구문으로 해석하기 5항목과 같은 순서로 1:1이고, 정답 5개가 FINAL 결합 해석과 일치함",
+    "워크북 u2 핵심 문장 2개(s13, s15)는 FINAL '핵심 문장: 예' 표시와 일치하고, 정답은 FINAL 자연 해석과 같음",
+    "Q02 실전문제는 u2 유반(physical, enduring, material, separate, lasting)을 영어 선지에 사용함. 정답과 오답 역할을 고정하지 않았음(유의어 enduring이 오답, 반의어 관계 separate도 오답)",
+    "mock1 문항 수 7(일반 5 + 장문 2)이고 정답 분포는 2-4-3-5-1-2-4임. length_review 9건 모두 고2 동유형 표본 범위 안",
+    "같은 회차 안 정답 노출: v2에서 지적한 Q03→Q04·Q07 단서는 없어짐. 다른 문항 때문에 답이 직접 드러나는 경우는 남아 있지 않음"
+  ],
+  "findings": [
+    {
+      "id": "FN-01",
+      "location": "WB02 실전문제 Q02 PASSAGE / SOURCE_RANGE s06~s17",
+      "current": "… “Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff.",
+      "problem": "지문이 인용문 중간 s17에서 끝나 여는 인용부호 “가 닫히지 않음. 또 s17은 뒤 s18의 반박(nonetheless they remain separate)을 위한 양보문이라 논리가 끊긴 채 끝남. 규칙 3항의 '논리 연결이 발췌 범위 안에 남아야 함'에 비춰 어색함. 정답에는 영향 없음. 시작 'First, …'도 s05 'three critical reasons for this' 없이 시작함",
+      "proposed_fix": "SOURCE_RANGE를 s06~s16으로 줄여 s16(인용이 닫힘)에서 끝냄. 약 141단어로 요지 표본 [162,144,130] 범위 안이고, separate도 노출되지 않음. s17 삭제만으로 해결되며 정답·해설·learned_relation_uses는 그대로 유지 가능(해설 ③의 근거 s16 유지)",
+      "severity": "검토제안"
+    },
+    {
+      "id": "FN-02",
+      "location": "WB02 4. 구문 결합해서 해석하기 2번 도움말",
+      "current": "도움말: not A, but B — A가 아니라 B / our — 우리의 / possessions — … (we — 우리는, are not/are — ~이 아니다/~이다 없음)",
+      "problem": "다른 4문항은 FINAL 구문 항목의 '공식' 줄(예: That’s because S′ V′ — 그것은 S′(이/가) V′하기 때문이다)을 그대로 쓰는데, 2번만 항목 제목 'not A, but B: A가 아니라 B'를 씀. FINAL 공식은 'S are not A, but S are B — S는 A가 아니라 B이다'이고, 연습 구절 주어 we의 뜻도 빠져 있어 정답 '우리는 … 아니라, … 축적이다'를 도움말만으로 결합하기 어려움",
+      "proposed_fix": "도움말 첫 항목을 'S are not A, but S are B — S는 A가 아니라 B이다'로 하고 'we — 우리는'을 추가(FINAL s15 각주 we — 우리는과 같은 뜻)",
+      "severity": "검토제안"
+    },
+    {
+      "id": "FN-03",
+      "location": "WB02 4. 구문 결합 3번·5번",
+      "current": "3. think that part of your identity is connected to those things / 5. part of your identity is connected to those things",
+      "problem": "5번 구절이 3번 구절에 그대로 들어 있어 3번 정답에서 '생각하다'만 빼면 5번 정답이 됨. FINAL 구문 항목 3(think that)과 5(be p.p.)가 같은 s18 범위를 인용한 결과이며 워크북은 FINAL을 충실히 따랐음. u2에 다른 수동태 문장은 없음",
+      "proposed_fix": "워크북 단독 수정 대상은 아님. FINAL 보충 항목(be p.p.)을 유지할지를 FINAL 담당에 참고로 전달. 유지할 경우 현 상태 허용",
+      "severity": "검토제안"
+    },
+    {
+      "id": "FN-04",
+      "location": "mock1 Q07 CHOICES ②~⑤ (같은 문제: Q04 ①②⑤)",
+      "current": "Q07 ③ turns into a model for other people to copy / ④ becomes too expensive for most people to buy",
+      "problem": "assessment-content 5항 '본문에 없는 별개의 이야기는 문항당 하나를 넘기지 않는다'에 비춰 보면, Q07에서 본문과 무관한 오답이 ③(남이 따라 함)과 ④(가격) 두 개임. ②는 norm의 사전 뜻을 이용한 함정이라 허용 가능. Q04도 ①(더 비싼 물건을 위해 일함), ②(직업 목표), ⑤(가격) 세 개가 본문 밖 이야기임",
+      "proposed_fix": "Q07 ③ 또는 ④를 본문 관련 오류형으로 교체(예: 'makes us value what we already own more' — 익숙해질수록 더 소중해진다는 반대 인과). Q04도 ①·⑤ 중 하나를 본문 관련 오류형으로 교체(예: 'comparing our new things with our friends’ things' — 셋째 이유와 혼동시키는 부분 정보 오답)",
+      "severity": "검토제안"
+    },
+    {
+      "id": "FN-05",
+      "location": "mock1 Q06 CHOICES ⑤ / CHOICES_KR ⑤, WB Q02 CHOICES_KR ⑤",
+      "current": "Q06 ⑤ Unlike things, experiences bring happiness that lasts because they shape who we are. (우리를 이루는 부분이 되기 때문에) / Q02 ⑤ … because they shape who we are. (우리가 어떤 사람인지를 만들어 가기 때문에)",
+      "problem": "(1) Q06 정답 ⑤만 13단어로 다른 선지(8~10단어)보다 길고 구체적임(5항 '정답만 긴 설명' 주의). (2) 같은 영어 'shape who we are'를 Q02와 Q06에서 서로 다른 한국어로 해석함. (3) 워크북 Q02와 mock1 Q06이 같은 요지 유형이고 지문도 s06~s15가 겹치며 정답 문구가 거의 같음(복제는 아니지만 차별화 여지 있음)",
+      "proposed_fix": "Q06 ⑤를 'Experiences make us happy longer than things because they shape who we are.' 정도로 줄이거나 다른 선지 길이를 맞춤. 두 해설의 'shape who we are' 해석을 '우리가 어떤 사람인지를 형성하기 때문에'로 통일",
+      "severity": "검토제안"
+    }
+  ],
+  "summary": "정답 대조 9/9 일치하고 불일치는 없음. 마지막 수정(Q02·Q03·Q05·Q08)에서 내 답은 바뀌지 않았고, 각 수정은 의도대로 반영됨(같은 회차 안 단서와 separate 노출 해소). 확정오류는 없음. 검토제안 5건: FN-01 Q02 지문이 인용 중간 s17에서 끝남(s06~s16 권장), FN-02 WB02 구문 2번 도움말 공식·we 누락, FN-03 WB02 구문 3·5번 구절 중복(FINAL 쪽 문제), FN-04 Q07(및 Q04)에 본문 밖 오답이 여러 개, FN-05 Q06 정답 선지 길이와 'shape who we are' 해석 통일. Q06~Q09 해설, 워크북 u2(낱말·유반·구문 결합·핵심 문장 정답), 지문 원문 보존, 밑줄, 공유 장문 규칙, mock1 분량과 정답 분포는 모두 적합함."
+}

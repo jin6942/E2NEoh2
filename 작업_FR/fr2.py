@@ -112,7 +112,7 @@ def sentences(T):
     link(f2, l2)
     s.g('places', 'places', '장소들')
     f3 = s.g('we’ve', 'have p.p.', '~한 적이 있다 (we’ve = we have, we = 우리가)', kind='function', combines_with=[], at=i3)
-    l3 = s.g('been', 'be', '가 있다 (been은 be의 p.p.형)', verb_form=pp('perfect-participle', s, 'been', 'be', f3['id']))
+    l3 = s.g('been', 'be', '가다, 다녀오다 (been은 be의 p.p.형)', verb_form=pp('perfect-participle', s, 'been', 'be', f3['id']))
     link(f3, l3)
     s.g('to', 'to', '~에')
     s.hint('everything [(that) we’ve seen]', '[우리[사람들]가 본] 모든 것',
@@ -207,6 +207,7 @@ def sentences(T):
     s.g('separate', 'separate', '분리된, 별개의')
     s.g('from', 'from', '~로부터')
     s.brk('of', 'postnominal-preposition', 'of your identity는 앞 명사 part를 뒤에서 꾸미는 전치사구')
+    s.prot('separate from you', 'adjective-complement', 'remain의 형용사 보어 separate의 뜻을 보충하는 from 구라 끊지 않음')
     s.hint('[that part of your identity is connected]', '[여러분[사람들]의 정체성의 일부가 연결되어 있다고]',
            span='that part of your identity is connected', label='명사절 접속사 that',
            links=[(['that'], ['가', '다고'])], refs=[('your', '여러분', '[사람들]')],
@@ -293,9 +294,9 @@ def analysis(_):
             {'sentence_id': 's18', 'explanatory_sentences': [
                 '17번에서 길로비치는 우리가 물건을 정말 좋아할 수 있다고 먼저 인정한다.',
                 '18번은 한 걸음 더 나아간다.',
-                '우리는 내 정체성의 일부가 어떤 물건과 이어져 있다고 생각할 수도 있다.',
-                '그래도 그 물건은 여전히 나와 떨어져 있는 따로 된 것이다.',
-                '19번 문장은 이와 달리 경험은 정말로 나의 일부라고 말한다.']},
+                '우리는 우리 정체성의 일부가 어떤 물건과 이어져 있다고 생각할 수도 있다.',
+                '그래도 그 물건은 여전히 우리와 떨어져 있는 따로 된 것이다.',
+                '19번 문장은 이와 달리 경험은 정말로 우리의 일부라고 말한다.']},
         ],
         'grammar_points': [
             {'id': 'u2-gp1', 'sentence_id': 's14', 'span': 'That’s because experiences become a part of our identity',
@@ -309,13 +310,13 @@ def analysis(_):
                                       ('s14', 'our'), ('s14', 'identity')],
                           'answer_ko': '그것은 경험들이 우리 정체성의 일부가 되기 때문이다'}},
             {'id': 'u2-gp2', 'sentence_id': 's15', 'span': 'We are not our possessions, but we are the accumulation of everything we’ve seen',
-             'title': 'not A, but B: A가 아니라 B', 'formula_key': 'not A, but B',
+             'title': 'S are not A, but S are B: S는 A가 아니라 B이다', 'formula_key': 'S are not A, but S are B',
              'explanation': '공식: S are not A, but S are B — S는 A가 아니라 B이다. S = we(우리), A = our possessions(우리의 소유물들), '
                             'B = the accumulation of everything we’ve seen(우리가 본 모든 것의 축적). '
                             '→ 우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다. not과 but이 짝을 이루어 A를 부정하고 B를 강조한다. 원문의 B는 뒤의 the things we’ve done(우리가 한 일들), the places we’ve been to(우리가 가 본 장소들)까지 이어진다.',
              'practice': {'span': 'We are not our possessions, but we are the accumulation of everything we’ve seen',
-                          'formula_support': {'en': 'not A, but B', 'ko': 'A가 아니라 B'},
-                          'support': [('s15', 'our'), ('s15', 'possessions'), ('s15', 'accumulation'), ('s15', 'of'),
+                          'formula_support': {'en': 'S are not A, but S are B', 'ko': 'S는 A가 아니라 B이다'},
+                          'support': [('s15', 'we'), ('s15', 'are not'), ('s15', 'our'), ('s15', 'possessions'), ('s15', 'accumulation'), ('s15', 'of'),
                                       ('s15', 'everything'), ('s15', 'have p.p.'), ('s15', 'see')],
                           'answer_ko': '우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다'}},
             {'id': 'u2-gp3', 'sentence_id': 's18', 'span': 'You can even think that part of your identity is connected to those things',

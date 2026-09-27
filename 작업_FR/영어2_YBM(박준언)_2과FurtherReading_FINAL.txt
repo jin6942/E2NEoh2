@@ -194,7 +194,7 @@ Third, possessions stimulate humans to compare themselves with others.
 Third, / possessions stimulate humans / to compare themselves with others.
 [S/V] S: possessions, V: stimulate
 [각주]
-third — 셋째 / ★ possessions — 소유물들, 가진 물건들 / ★ stimulate A to V — A(이/가) ~하도록 자극하다 / humans — 인간들 / compare A with B — A를 B와 비교하다 / themselves — 그들 자신 (인간들) / others — 다른 사람들
+third — 셋째 / ★ possessions — 소유물들, 가진 물건들 / ★ stimulate A to V — A(이/가) ~하도록 자극하다 / humans — 인간들 / compare A with B — A를 B와 비교하다 / themselves — 그들 자신을 (인간들) / others — 다른 사람들
 [구조 힌트] stimulate humans [to compare] → 인간들이 [비교하도록] 자극한다 (stimulate A to V 구문)
 [분석 끊어읽기 영어]
 Third, / possessions stimulate humans / to compare themselves with others.
@@ -296,7 +296,7 @@ We are not our possessions, but we are the accumulation of everything we’ve se
 We are not our possessions, / but we are the accumulation / of everything / we’ve seen, / the things / we’ve done, / and the places / we’ve been to.
 [S/V] S: We, V: are ／ [but] S: we, V: are ／ [(that)] S′: we, V′: ’ve seen ／ [(that)] S′: we, V′: ’ve done ／ [(that)] S′: we, V′: ’ve been
 [각주]
-we — 우리는 (사람들) / are not — ~이 아니다 / our — 우리의 (사람들) / possessions — 소유물들, 가진 물건들 / we — 우리는 (사람들) / are — ~이다 / ★ accumulation — 축적, 쌓인 것 / of — ~의 / everything — 모든 것 / have p.p. — ~했다 (we’ve = we have, we = 우리가) / see — 보다 (seen은 see의 p.p.형) / things — 일들, 것들 / have p.p. — ~했다 (we’ve = we have, we = 우리가) / do — 하다 (done은 do의 p.p.형) / places — 장소들 / have p.p. — ~한 적이 있다 (we’ve = we have, we = 우리가) / be — 가 있다 (been은 be의 p.p.형) / to — ~에
+we — 우리는 (사람들) / are not — ~이 아니다 / our — 우리의 (사람들) / possessions — 소유물들, 가진 물건들 / we — 우리는 (사람들) / are — ~이다 / ★ accumulation — 축적, 쌓인 것 / of — ~의 / everything — 모든 것 / have p.p. — ~했다 (we’ve = we have, we = 우리가) / see — 보다 (seen은 see의 p.p.형) / things — 일들, 것들 / have p.p. — ~했다 (we’ve = we have, we = 우리가) / do — 하다 (done은 do의 p.p.형) / places — 장소들 / have p.p. — ~한 적이 있다 (we’ve = we have, we = 우리가) / be — 가다, 다녀오다 (been은 be의 p.p.형) / to — ~에
 [구조 힌트] everything [(that) we’ve seen] → [우리[사람들]가 본] 모든 것 (목적격 관계대명사 that 생략)
 [구조 힌트] the places [(that) we’ve been to] → [우리[사람들]가 가 본] 장소들 (목적격 관계대명사 that 생략)
 [분석 끊어읽기 영어]
@@ -408,10 +408,10 @@ We are the sum total / of our experiences.”
 [16번 문장] “Our experiences are a bigger part of ourselves than our material goods,” says Gilovich.
 16번 문장부터는 길로비치 교수가 직접 한 말을 옮긴다. 그는 경험이 물질적인 물건보다 우리 자신에서 더 큰 부분을 차지한다고 말한다. 문장 끝의 says Gilovich는 이 말을 한 사람이 길로비치라는 것을 알려 준다.
 [18번 문장] You can even think that part of your identity is connected to those things, but nonetheless they remain separate from you.
-17번에서 길로비치는 우리가 물건을 정말 좋아할 수 있다고 먼저 인정한다. 18번은 한 걸음 더 나아간다. 우리는 내 정체성의 일부가 어떤 물건과 이어져 있다고 생각할 수도 있다. 그래도 그 물건은 여전히 나와 떨어져 있는 따로 된 것이다. 19번 문장은 이와 달리 경험은 정말로 나의 일부라고 말한다.
+17번에서 길로비치는 우리가 물건을 정말 좋아할 수 있다고 먼저 인정한다. 18번은 한 걸음 더 나아간다. 우리는 우리 정체성의 일부가 어떤 물건과 이어져 있다고 생각할 수도 있다. 그래도 그 물건은 여전히 우리와 떨어져 있는 따로 된 것이다. 19번 문장은 이와 달리 경험은 정말로 우리의 일부라고 말한다.
 [구문으로 해석하기]
 That’s because S′ V′: 그것은 S′가 V′하기 때문이다 [14번 문장]: That’s because experiences become a part of our identity — 공식: That’s because S′ V′ — 그것은 S′(이/가) V′하기 때문이다. That = 앞 문장 내용(경험이 물건보다 더 오래 지속되는 행복을 가져다주는 것), S′ = experiences(경험들), V′ = become(~이 되다), 보어 = a part of our identity(우리 정체성의 일부). → 그것은 경험들이 우리 정체성의 일부가 되기 때문이다. That’s because 뒤에는 앞 내용의 이유가 온다.
-not A, but B: A가 아니라 B [15번 문장]: We are not our possessions, but we are the accumulation of everything we’ve seen — 공식: S are not A, but S are B — S는 A가 아니라 B이다. S = we(우리), A = our possessions(우리의 소유물들), B = the accumulation of everything we’ve seen(우리가 본 모든 것의 축적). → 우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다. not과 but이 짝을 이루어 A를 부정하고 B를 강조한다. 원문의 B는 뒤의 the things we’ve done(우리가 한 일들), the places we’ve been to(우리가 가 본 장소들)까지 이어진다.
+S are not A, but S are B: S는 A가 아니라 B이다 [15번 문장]: We are not our possessions, but we are the accumulation of everything we’ve seen — 공식: S are not A, but S are B — S는 A가 아니라 B이다. S = we(우리), A = our possessions(우리의 소유물들), B = the accumulation of everything we’ve seen(우리가 본 모든 것의 축적). → 우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다. not과 but이 짝을 이루어 A를 부정하고 B를 강조한다. 원문의 B는 뒤의 the things we’ve done(우리가 한 일들), the places we’ve been to(우리가 가 본 장소들)까지 이어진다.
 think that S′ V′: S′가 V′라고 생각하다 [18번 문장]: You can even think that part of your identity is connected to those things — 공식: think that S′ V′ — S′(이/가) V′라고 생각하다. can = ~할 수 있다, even = 심지어, that = 명사절 접속사(~라고), S′ = part of your identity(여러분 정체성의 일부), V′ = is connected(연결되어 있다), to those things = 그 물건들에. → 여러분은 심지어 여러분 정체성의 일부가 그 물건들에 연결되어 있다고 생각할 수도 있다.
 have p.p.: ~했다 (have found: 발견했다) [13번 문장]: Gilovich and other researchers have found — 공식: have p.p. — ~했다. p.p. = found(find의 p.p.형, find = 발견하다), 주어 = Gilovich and other researchers(길로비치와 다른 연구자들). → 길로비치와 다른 연구자들은 발견했다. 무엇을 발견했는지는 뒤의 that절이 알려 준다. 15번의 we’ve seen·done·been(’ve = have)도 같은 have p.p.이며, have been to는 ‘~에 가 본 적이 있다’(경험)이다.
 be p.p.: ~되다 (is connected: 연결되어 있다) [18번 문장]: part of your identity is connected to those things — 공식: be p.p. — ~되다. p.p. = connected(연결된, connect의 p.p.형), 주어 = part of your identity(여러분 정체성의 일부), to those things = 그 물건들에. → 여러분 정체성의 일부가 그 물건들에 연결되어 있다. 정체성의 일부는 스스로 연결하는 것이 아니라 ‘연결되는’ 쪽이라 수동을 쓴다.

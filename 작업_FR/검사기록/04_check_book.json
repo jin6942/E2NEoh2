@@ -1037,11 +1037,11 @@
       }
     },
     "Q02": {
-      "original": "First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.\n“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff.",
+      "original": "First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.\n“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich.",
       "source_id": "src",
       "source_span": [
         399,
-        1270
+        1228
       ],
       "source_sentence_ids": [
         "s06",
@@ -1054,12 +1054,11 @@
         "s13",
         "s14",
         "s15",
-        "s16",
-        "s17"
+        "s16"
       ],
-      "word_count": 148,
+      "word_count": 141,
       "type": "요지",
-      "passage": "First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.\n“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff.",
+      "passage": "First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.\n“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich.",
       "annotations": [],
       "source_reconstruction": "PASS",
       "semantic_review": "NOT_PERFORMED",
@@ -1079,10 +1078,10 @@
           144,
           130
         ],
-        "assessment_word_count": 148,
+        "assessment_word_count": 141,
         "shorter_than_all_references": false,
         "independent_review_required": false,
-        "rationale": "요지 고2 표본 [162, 144, 130]단어와 비교해 현재 148단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "rationale": "요지 고2 표본 [162, 144, 130]단어와 비교해 현재 141단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
         "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
       }
     },
@@ -1642,5 +1641,5 @@
   "independent_reviews": "NOT_PERFORMED",
   "docx_presence": "NOT_CHECKED_BY_THIS_TOOL",
   "visual_review": "NOT_PERFORMED",
-  "input_sha256": "04b74f1250b6da8bf77c63ed19dc269e5586f171af6e3f4d924c7f835517076c"
+  "input_sha256": "4f64b5c69c9918565d3ed413eaab92bb45174aa32cdca61cb38f35928572aa12"
 }

@@ -617,9 +617,9 @@
       "explanatory_sentences": [
        "17번에서 길로비치는 우리가 물건을 정말 좋아할 수 있다고 먼저 인정한다.",
        "18번은 한 걸음 더 나아간다.",
-       "우리는 내 정체성의 일부가 어떤 물건과 이어져 있다고 생각할 수도 있다.",
-       "그래도 그 물건은 여전히 나와 떨어져 있는 따로 된 것이다.",
-       "19번 문장은 이와 달리 경험은 정말로 나의 일부라고 말한다."
+       "우리는 우리 정체성의 일부가 어떤 물건과 이어져 있다고 생각할 수도 있다.",
+       "그래도 그 물건은 여전히 우리와 떨어져 있는 따로 된 것이다.",
+       "19번 문장은 이와 달리 경험은 정말로 우리의 일부라고 말한다."
       ]
      }
     ],
@@ -661,8 +661,8 @@
        0,
        80
       ],
-      "title": "not A, but B: A가 아니라 B",
-      "formula_key": "not A, but B",
+      "title": "S are not A, but S are B: S는 A가 아니라 B이다",
+      "formula_key": "S are not A, but S are B",
       "explanation": "공식: S are not A, but S are B — S는 A가 아니라 B이다. S = we(우리), A = our possessions(우리의 소유물들), B = the accumulation of everything we’ve seen(우리가 본 모든 것의 축적). → 우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다. not과 but이 짝을 이루어 A를 부정하고 B를 강조한다. 원문의 B는 뒤의 the things we’ve done(우리가 한 일들), the places we’ve been to(우리가 가 본 장소들)까지 이어진다.",
       "practice": {
        "span": [
@@ -670,11 +670,13 @@
         80
        ],
        "formula_support": {
-        "en": "not A, but B",
-        "ko": "A가 아니라 B"
+        "en": "S are not A, but S are B",
+        "ko": "S는 A가 아니라 B이다"
        },
        "answer_ko": "우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다",
        "support_gloss_ids": [
+        "s15-g01",
+        "s15-g02",
         "s15-g03",
         "s15-g04",
         "s15-g07",
@@ -1482,7 +1484,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "주절 주어 A long-term study(과거분사구 conducted by …와 동격 a psychology professor at Cornell University가 뒤에서 꾸밈) + reached. 콜론 뒤 부정 명령문 Don’t spend A on B는 결론의 내용. 힌트 1개(과거분사 후치수식). spend A on B는 각주로 지원. 관계사·수동 없음.",
+    "review_record": "주절 주어 A long-term study(과거분사구 conducted by …와 동격 a psychology professor at Cornell University가 뒤에서 꾸밈) + reached. 콜론 뒤 부정 명령문 Don’t spend A on B는 결론의 내용. 힌트 1개(과거분사 후치수식). spend A on B는 각주로 지원. by Thomas Gilovich는 과거분사 conducted의 행위자(실제 수동 관계) → passive-agent-by 경계. 유한 수동태·관계사 없음.",
     "required_breaks": [
      {
       "at": 28,
@@ -4016,7 +4018,7 @@
       ]
      ],
      "headword": "themselves",
-     "meaning_ko": "그들 자신",
+     "meaning_ko": "그들 자신을",
      "star": false,
      "referent_ko": "인간들"
     },
@@ -5775,7 +5777,7 @@
       ]
      ],
      "headword": "be",
-     "meaning_ko": "가 있다 (been은 be의 p.p.형)",
+     "meaning_ko": "가다, 다녀오다 (been은 be의 p.p.형)",
      "star": false,
      "verb_form": {
       "usage": "perfect-participle",
@@ -7205,7 +7207,16 @@
       "reason": "of your identity는 앞 명사 part를 뒤에서 꾸미는 전치사구"
      }
     ],
-    "protected_spans": [],
+    "protected_spans": [
+     {
+      "span": [
+       104,
+       121
+      ],
+      "kind": "adjective-complement",
+      "reason": "remain의 형용사 보어 separate의 뜻을 보충하는 from 구라 끊지 않음"
+     }
+    ],
     "function_gloss_ids": [
      "s18-g01",
      "s18-g09"
@@ -7812,7 +7823,7 @@
       "text": "Experiences give us more lasting joy because they shape who we are."
      }
     ],
-    "passage": "First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.\n“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff.",
+    "passage": "First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.\n“Our experiences are a bigger part of ourselves than our material goods,” says Gilovich.",
     "learned_relation_uses": [
      {
       "term_id": "u2-r2s",
@@ -7913,7 +7924,7 @@
      },
      {
       "number": 2,
-      "text": "setting higher goals for our careers"
+      "text": "comparing our things with our friends’ things"
      },
      {
       "number": 3,
@@ -7925,7 +7936,7 @@
      },
      {
       "number": 5,
-      "text": "making the prices of new products higher"
+      "text": "getting used to what we already own"
      }
     ],
     "passage": "A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things. We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this.\nFirst, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity.",
@@ -7996,7 +8007,7 @@
      },
      {
       "number": 5,
-      "text": "Unlike things, experiences bring happiness that lasts because they shape who we are."
+      "text": "Unlike things, experiences bring lasting joy by shaping who we are."
      }
     ],
     "passage": "The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this.\nFirst, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.\nGilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to."
@@ -8024,7 +8035,7 @@
      },
      {
       "number": 4,
-      "text": "becomes too expensive for most people to buy"
+      "text": "becomes something we compare with what others own"
      },
      {
       "number": 5,
@@ -8204,7 +8215,7 @@
      },
      {
       "number": 4,
-      "text": "차는 남과 비교하는 예로 나올 뿐이고 옷과 비교하는 내용은 없다."
+      "text": "옷은 언급되지 않으며, 차 구매와 옷 구매의 차이를 다루지 않는다. 차는 남과 비교하는 예로 나올 뿐이다."
      },
      {
       "number": 5,
@@ -8385,7 +8396,7 @@
      },
      {
       "number": 2,
-      "text": "setting higher goals for our careers"
+      "text": "comparing our things with our friends’ things"
      },
      {
       "number": 3,
@@ -8397,7 +8408,7 @@
      },
      {
       "number": 5,
-      "text": "making the prices of new products higher"
+      "text": "getting used to what we already own"
      }
     ],
     "answer": 4,
@@ -8410,7 +8421,7 @@
      },
      {
       "number": 2,
-      "text": "직업 목표 이야기가 아니라 새로 산 물건에 대한 기대 이야기다."
+      "text": "남과의 비교는 셋째 이유(Third)이며, raising the bar는 둘째 이유인 높아지는 기대를 가리킨다."
      },
      {
       "number": 3,
@@ -8418,7 +8429,7 @@
      },
      {
       "number": 5,
-      "text": "높아지는 기준(bar)은 가격이 아니라 우리가 기대하는 수준이다."
+      "text": "이미 가진 것에 익숙해지는 것은 첫째 이유(First)이며, raising the bar는 그 뒤에 더 좋은 것을 기대하게 되는 것이다."
      }
     ],
     "choices_ko": [
@@ -8428,7 +8439,7 @@
      },
      {
       "number": 2,
-      "text": "직업에 대해 더 높은 목표를 세우는 것"
+      "text": "우리 물건을 친구들의 물건과 비교하는 것"
      },
      {
       "number": 3,
@@ -8440,7 +8451,7 @@
      },
      {
       "number": 5,
-      "text": "새 제품들의 가격을 더 높게 만드는 것"
+      "text": "이미 가진 것에 익숙해지는 것"
      }
     ]
    },
@@ -8537,7 +8548,7 @@
      },
      {
       "number": 5,
-      "text": "Unlike things, experiences bring happiness that lasts because they shape who we are."
+      "text": "Unlike things, experiences bring lasting joy by shaping who we are."
      }
     ],
     "answer": 5,
@@ -8580,7 +8591,7 @@
      },
      {
       "number": 5,
-      "text": "물건과 달리 경험은 우리를 이루는 부분이 되기 때문에 오래가는 행복을 준다."
+      "text": "물건과 달리 경험은 우리가 어떤 사람인지를 만들어 가며 오래가는 기쁨을 준다."
      }
     ]
    },
@@ -8603,7 +8614,7 @@
      },
      {
       "number": 4,
-      "text": "becomes too expensive for most people to buy"
+      "text": "becomes something we compare with what others own"
      },
      {
       "number": 5,
@@ -8624,7 +8635,7 @@
      },
      {
       "number": 4,
-      "text": "가격 이야기는 나오지 않는다."
+      "text": "남과의 비교는 셋째 이유(Third)이고, becomes the norm은 첫째 이유인 익숙해짐을 설명한다."
      },
      {
       "number": 5,
@@ -8646,7 +8657,7 @@
      },
      {
       "number": 4,
-      "text": "대부분의 사람들이 사기에는 너무 비싸지다"
+      "text": "남들이 가진 것과 비교하는 대상이 되다"
      },
      {
       "number": 5,
@@ -8810,7 +8821,7 @@
    "type": "요지",
    "source_id": "src",
    "first_sentence": "s06",
-   "last_sentence": "s17",
+   "last_sentence": "s16",
    "length_review": {
     "profile_id": "kr-hs-english-2026-3-6-9-v1",
     "grade": 2,
@@ -8819,7 +8830,7 @@
      "202606042-Q22",
      "202609022-Q22"
     ],
-    "rationale": "요지 고2 표본 [162, 144, 130]단어와 비교해 현재 148단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+    "rationale": "요지 고2 표본 [162, 144, 130]단어와 비교해 현재 141단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
    }
   },
   {

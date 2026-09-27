@@ -1,0 +1,50 @@
+{
+ "stage": "FR 4단계 M·N 반영 결정",
+ "decisions": [
+  {
+   "id": "blind-v1",
+   "decision": "반영",
+   "note": "M·N v1 의견: 같은 회차 요지 반복·정답 단서 → Q05 요약을 내용 일치로, Q07 주장을 함축(becomes the norm)으로 교체, Q01 정답 문구, Q02 범위, Q04 오답, Q06 정답 위치 조정 → 두 검수자 v2 재풀이 9/9 일치"
+  },
+  {
+   "id": "blind-v2",
+   "decision": "반영",
+   "note": "M·N v2 의견: Q03 일치 선지 ③④가 Q04·Q07 정답 단서 → 교체, Q05 ① 교체, Q02 범위 축소(separate 노출 해소), Q08 오답 선지 강화"
+  },
+  {
+   "id": "FM-01/FN-01",
+   "decision": "반영",
+   "note": "Q02 지문 s06~s16(닫히지 않은 인용·잘린 반전 해소, 141단어)"
+  },
+  {
+   "id": "FM-02",
+   "decision": "반영",
+   "note": "Q01 오답 ④ 해설 문구"
+  },
+  {
+   "id": "FM-03",
+   "decision": "미반영",
+   "note": "연습 구절이 is부터라 A 자리가 없어 워크북 공식은 formula_key ‘is that S′ V′’와 일치(검사기가 formula_support = formula_key를 요구)"
+  },
+  {
+   "id": "FN-02",
+   "decision": "반영",
+   "note": "u2-gp2 공식을 ‘S are not A, but S are B’로(formula_key 동시 변경), 도움말에 we·are not 추가"
+  },
+  {
+   "id": "FN-03",
+   "decision": "미반영",
+   "note": "be p.p. 연결은 같은 공식의 대표 항목이어야 한다는 검사기 조건(Syntax training analysis route needs a same-unit representative)으로 보충 u2-gp5 유지"
+  },
+  {
+   "id": "FN-04",
+   "decision": "반영",
+   "note": "Q04 ②⑤, Q07 ④를 본문 관련 오류형 오답으로 교체(무관 오답은 문항당 1개)"
+  },
+  {
+   "id": "FN-05",
+   "decision": "반영",
+   "note": "Q06 정답 길이 축소, ‘shape who we are’ 번역을 ‘우리가 어떤 사람인지를 만들어 가다’로 통일"
+  }
+ ]
+}

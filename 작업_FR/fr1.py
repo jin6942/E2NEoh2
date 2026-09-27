@@ -78,7 +78,8 @@ def sentences(T):
            meaning='토머스 길로비치에 의해 수행된 장기적인 연구',
            explanation='과거분사구 conducted by Thomas Gilovich가 앞 명사 A long-term study를 뒤에서 꾸민다. conducted ↔ 수행된.')
     s.review = ('주절 주어 A long-term study(과거분사구 conducted by …와 동격 a psychology professor at Cornell University가 뒤에서 꾸밈) + reached. '
-                '콜론 뒤 부정 명령문 Don’t spend A on B는 결론의 내용. 힌트 1개(과거분사 후치수식). spend A on B는 각주로 지원. 관계사·수동 없음.')
+                '콜론 뒤 부정 명령문 Don’t spend A on B는 결론의 내용. 힌트 1개(과거분사 후치수식). spend A on B는 각주로 지원. '
+                'by Thomas Gilovich는 과거분사 conducted의 행위자(실제 수동 관계) → passive-agent-by 경계. 유한 수동태·관계사 없음.')
     out.append(s)
 
     # ---------------- s02 ----------------
@@ -296,7 +297,7 @@ def sentences(T):
                            'review_record': 'stimulate humans to compare: A=humans, to V=to compare.'})
     s.g('humans', 'humans', '인간들')
     s.g('compare|with', 'compare A with B', 'A를 B와 비교하다')
-    s.g('themselves', 'themselves', '그들 자신', referent_ko='인간들')
+    s.g('themselves', 'themselves', '그들 자신을', referent_ko='인간들')
     s.g('others', 'others', '다른 사람들')
     s.hint('stimulate humans [to compare]', '인간들이 [비교하도록] 자극한다', span='stimulate humans to compare',
            label='stimulate A to V 구문', links=[(['stimulate', 'to'], ['이', '도록'])],

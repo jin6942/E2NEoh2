@@ -13,8 +13,8 @@
   },
   {
    "id": "FLa-03",
-   "decision": "미반영",
-   "note": "compare A with B 구문이 A 자리의 ‘를’을 이미 주므로 themselves에 조사를 중복하지 않는 예외(gloss-rules ‘별도 전치사·구문 뜻이 조사 역할을 제공하면 대명사에 같은 조사를 중복하지 않는다’)"
+   "decision": "반영(재검 FLR-01)",
+   "note": "처음엔 조사 중복 예외로 판단했으나 재검에서 예외는 별도 전치사 뜻에 한정되고 구문 틀 A 자리 대명사는 틀의 조사에 맞춘다는 규칙(gloss-rules)을 확인 → themselves — 그들 자신을"
   },
   {
    "id": "FLa-04",
@@ -75,6 +75,21 @@
    "id": "FLb-11",
    "decision": "반영",
    "note": "s16 도치 힌트 강조를 앞으로 나간 동사 says ↔ 말한다로(s49 선례 기준)"
+  },
+  {
+   "id": "FLR-02",
+   "decision": "반영",
+   "note": "s15 be — 가다, 다녀오다 (been은 be의 p.p.형): 결합 ‘~에 간(가 본) 적이 있다’로 청크·힌트와 일치"
+  },
+  {
+   "id": "FLR-03",
+   "decision": "반영",
+   "note": "s18 쉬운 풀이 인칭을 ‘우리’로 통일"
+  },
+  {
+   "id": "FLR-04",
+   "decision": "반영",
+   "note": "s01 review_record에 by 행위자 판정 기록, s18 separate from you adjective-complement 보호 범위 선언"
   }
  ]
 }
