@@ -1,0 +1,352 @@
+{
+ "reviewer": "L-재검",
+ "checked": [
+  {
+   "id": "La-01",
+   "status": "확인",
+   "note": "s01 각주 'log in — 로그인하다 / to — ~에' 분리, ★는 log in(오늘의 낱말 u1-w4 text 'log in'·뜻 '로그인하다')에 연결, u1-gp1 설명 'V-ing = logging in(로그인하다), to = ~에'와 연습 support에 to 추가 확인. preposition-meanings 표 to 대표 뜻 '~에'와 일치. 청크·힌트 '[by logging in] → [로그인함으로써]'·분석 청크 '서비스에 로그인함으로써'와 결합 일치. review_record도 갱신."
+  },
+  {
+   "id": "La-02",
+   "status": "확인",
+   "note": "s05 'stay updated — 계속 최신 정보를 알다 / about — ~에 관해'(about 대표 뜻과 일치), 오늘의 낱말 u1-w6 text·뜻 동기화, protected_spans를 stay updated로 축소·사유 갱신 확인. 워크북 오늘의 낱말은 원고 units[0].today_words에서 생성되어 동기화됨."
+  },
+  {
+   "id": "La-03",
+   "status": "확인",
+   "note": "각주 '계속 최신 정보를 알다' ↔ 힌트 '[…복습하고 계속 최신 정보를 알기 위해]' ↔ 분석 청크 '그리고 최신 지식에 관해 계속 최신 정보를 알기 위해' 표현 통일, 힌트 강조 to↔'기 위해' 위치 정상. 자연 해석 '계속 새로 알기 위해'는 의역으로 허용 범위. 청크에 '최신'이 두 번 나오는 것은 원문(stay updated about the latest knowledge) 직역 결과라 오류 아님."
+  },
+  {
+   "id": "La-04",
+   "status": "확인",
+   "note": "s07 'take part — 참여하다 / in — ~에 / it — 그것 (구독 경제)'로 분리, be V-ing 결합 유지, 청크 '그것에 적극적으로 참여하고 있다'와 결합 일치(gloss-rules 'in — ~안에 / it — 그것' 조사 중복 금지 형식 부합). 청크 경계는 유지."
+  },
+  {
+   "id": "La-05",
+   "status": "확인",
+   "note": "whatever 뜻 'S′(이/가) V′하는 어떤 것이든'이 각주·힌트('[그녀[지윤]가 여기는 어떤 것이든]', 강조 '가'·'는 어떤 것이든' 위치 정상)·u1-gp3 제목·공식·formula_support·answer_ko·힌트 meaning_ko에 모두 반영. in과 결합 시 '어떤 것에서든'으로 분석 청크와 일치. 구 표현 '것은 무엇이든' 잔존 없음(원고 JSON 전수 확인)."
+  },
+  {
+   "id": "La-06",
+   "status": "확인",
+   "note": "u1-gp3 끝 문장 '앞의 in(~에서)과 합치면 ‘그녀가 흥미롭다고 여기는 어떤 것에서든’' — find A B 대입이 결합까지 유지되고 분석 청크와 동일."
+  },
+  {
+   "id": "La-07",
+   "status": "확인",
+   "note": "s11 혼공·분석 영어 'such as new content, more personalization, or access / to updates.'(7낱말) ↔ 한국어 '새로운 콘텐츠, 더 많은 개인 맞춤화, 또는 접근 같은 / 업데이트에 대한.' 5:5 대응, 후치수식 경계(to updates 앞) 유지. 핵심 문장이므로 워크북 ④는 원고 청크에서 생성됨."
+  },
+  {
+   "id": "La-08",
+   "status": "확인",
+   "note": "미반영 타당. analysis-content·gloss-rules의 관형 관계절 시제 보존 규정은 과거('V′했던')만 명시하고 '모든 관계절을…바꾸지 않는다'고 범위를 제한함. 미래는 같은 문장 will V 각주가 보충하는 방식이며 Lc-05(틀에 will을 흡수하지 않음)와 같은 원리라 일관됨."
+  },
+  {
+   "id": "La-09",
+   "status": "확인",
+   "note": "미반영 결론은 타당. 다만 결정 사유가 검사기(participle_focus) 제약만 들고 있는데, 규칙 근거로는 manuscript-data.md 독립 p.p. 항목이 '(행사가) 열린, 개최된'처럼 괄호 안내를 허용하고 '괄호 안내를 제외한 주된 문맥 뜻'을 초점으로 삼는다고 명시하므로 '(~에) 기반한'은 규칙상 허용 표기다(같은 원고 s37 '(~을) 중심으로 한', s43 '(~에) 기초한'과도 일관). 사유 기록을 규칙 근거로 보강 권장."
+  },
+  {
+   "id": "La-10",
+   "status": "확인",
+   "note": "s08 'not — ~지 않다'로 서술형 제공, '새롭 + 지 않다' → 청크 '새롭지 않다'로 대입 가능."
+  },
+  {
+   "id": "La-11",
+   "status": "확인",
+   "note": "s17 'rise — 부상, 성장 (흔한 뜻: 상승)' 명사 흔한 뜻으로 교정."
+  },
+  {
+   "id": "La-12",
+   "status": "확인",
+   "note": "u1 흐름 라벨 '(아침과 일상)', 2번 문장 내용(매일 좋아하는 음악 듣기·새 노래와 아티스트 찾기) 추가, 원문 순서 1~3 포함."
+  },
+  {
+   "id": "La-13",
+   "status": "확인",
+   "note": "s01 쉬운 풀이 '하루를 시작하면서 가장 먼저 이 서비스에 로그인한다'로 원문 밖 시점 삭제."
+  },
+  {
+   "id": "La-14",
+   "status": "확인",
+   "note": "s14 '정해진 돈을 정기적으로 내기 때문에'로 교정(LX-07 병행)."
+  },
+  {
+   "id": "La-15",
+   "status": "확인",
+   "note": "미반영 결론은 수용 가능. 다만 결정 사유로 든 '전치사 판단 순서 4'는 전치사에만 적용되는 규정이라 her·new 같은 일반 낱말의 근거로는 부정확하다. common-errors.md의 '철자가 같다고 다른 위치의 각주까지 삭제하지 않는다'를 근거로 드는 것이 맞다. 같은 절에 '같은 기능·낱말을 반복하지 않는다'도 있어 규칙이 양쪽으로 읽히므로, 사용자 결정 사항으로 남긴 처리는 적절하다."
+  },
+  {
+   "id": "Lb-01",
+   "status": "확인",
+   "note": "s28 'conditions — 상태들 (흔한 뜻: 조건들)', s27과 일치."
+  },
+  {
+   "id": "Lb-02",
+   "status": "확인",
+   "note": "s29 'appreciate — 높이 평가하다, 진가를 알다 (흔한 뜻: 감사하다)'."
+  },
+  {
+   "id": "Lb-03",
+   "status": "확인",
+   "note": "(나)안 반영: u3-gp2 설명 '앞 절…에 이어지는 일을 ‘~하면서’로 덧붙인다', s33 힌트 explanation '함께 일어나는 일을 ‘~하면서’로 덧붙이는 분사구'로 '결과' 제거, 각주·힌트·청크·연습 정답 '~하면서' 유지. 단 s24 내부 review_record에 '(구독 경제가 선택지를 제공한 결과)'가 남아 있음 → LR-03."
+  },
+  {
+   "id": "Lb-04",
+   "status": "확인",
+   "note": "미반영·사용자 보고 처리 타당(생략 that과 either…or 짝 구조가 2개 한도에서 충돌하는 실제 선택 문제). review_record의 '각주로 지원' 허위 문구는 'S/V 줄의 절 구분으로만 지원(별도 각주 없음)'으로 정정됨. 사용자 보고 목록에 반드시 포함할 것."
+  },
+  {
+   "id": "Lb-05",
+   "status": "확인",
+   "note": "s20 쉬운 풀이 '…여기는 사람이 점점 늘고 있다'로 More and more people 반영."
+  },
+  {
+   "id": "Lb-06",
+   "status": "확인",
+   "note": "s27 쉬운 풀이 '추천에는 … 화장품을 제조해 주는 것까지 들어 있다'로 원문 밖 조건 삭제."
+  },
+  {
+   "id": "Lb-07",
+   "status": "확인",
+   "note": "s32 쉬운 풀이 '마음껏' 삭제."
+  },
+  {
+   "id": "Lb-08",
+   "status": "확인",
+   "note": "s28 'rather than — ~ 대신에' 한 뜻, 청크·자연 해석과 일치."
+  },
+  {
+   "id": "Lb-09",
+   "status": "확인",
+   "note": "미반영 수용 가능. 규칙(★ 반복 출현)은 활용형 처리를 명시하지 않으며, s28 personalized는 독립 p.p. 표제어(개인 맞춤형의)로 오늘의 낱말 personalize(동사, 개인 맞춤화하다)와 표제어·품사·뜻이 다르다. 다만 원고가 s28 personalized에 verb_form(past-participle, lemma personalize)을 선언하고 있어 반복 출현으로 볼 여지도 있으므로 사용자 보고 목록에 한 줄 남기는 것을 권장."
+  },
+  {
+   "id": "Lb-10",
+   "status": "확인",
+   "note": "s24 'their own — 그들 자신의 (개인들)' 한 항목(지칭 대상 유지), 청크 '그들 자신의 선호와 관심사에 기초하여'와 일치. u3-gp2 support ('s24','their')는 첫 their(그들의, experiences)로 정상 연결."
+  },
+  {
+   "id": "Lc-01",
+   "status": "확인",
+   "note": "s48 'It … to V — ~하는 것이', 힌트 '[구독하는 것이]'(강조 '는 것이')·청크와 일치."
+  },
+  {
+   "id": "Lc-02",
+   "status": "확인",
+   "note": "s51 동일 교정, 힌트 '[신중하게 고려하는 것이]'·청크와 일치."
+  },
+  {
+   "id": "Lc-03",
+   "status": "확인",
+   "note": "s56 'have p.p. — ~했다 / become — 되다 (become은 become의 p.p.형)' → 결합 '되었다'가 힌트 'become(되다) → have become(되었다)'와 일치. gloss-rules 능동 완료 예시(have p.p. — ~했다 / find — 발견하다)와 같은 형식이며 s13 'have p.p. — ~했다 / expand'와도 일관. 청크 '깊이 자리 잡게 되었다'도 embedded(자리 잡은)+되었다로 대입 가능."
+  },
+  {
+   "id": "Lc-04",
+   "status": "확인",
+   "note": "s57 혼공·분석 영어 'It is expected that new subscription services will be continuously provided / to consumers / in new areas / in the future.' ↔ 한국어 '새로운 구독 서비스들이 지속적으로 제공될 것이라고 예상된다 / 소비자들에게 / 새로운 영역들에서 / 미래에.' 4:4, '~라고' 자리표시 제거. 첫 청크 11낱말은 analysis-content '의미·문법상 경계가 없으면 유지(U49)'에 부합, dummy-it-prefix 보호(0–19) 유지."
+  },
+  {
+   "id": "Lc-05",
+   "status": "확인",
+   "note": "s57 'It is expected that S′ V′ — S′(이/가) V′라고 예상된다' + will V(~할 것이다) + be p.p.(~되다)/provided(제공된) → '제공될 것이라고 예상된다'로 힌트(강조 that↔'이'·'라고' 위치 정상)·청크와 일치, 미래 중복 해소. 자연 해석 '제공될 것으로 예상된다'는 의역 허용."
+  },
+  {
+   "id": "Lc-06",
+   "status": "확인",
+   "note": "u5-gp2 support에 ('s49','of') 원문 순서대로 추가."
+  },
+  {
+   "id": "Lc-07",
+   "status": "확인",
+   "note": "u4-gp4 answer_ko '수많은 일들을 할 수 있어 왔다(= 할 수 있게 되었다)' — 공식(~해 왔다)+be able to V 결합 결과와 s37 청크 '할 수 있어 왔다'에 일치, 자연형 병기. 설명 '→ 할 수 있어 왔다, 곧 할 수 있게 되었다'도 같은 경로. 제목 괄호만 자연형 '~할 수 있게 되었다'로 남아 있음 → LR-06(경미)."
+  },
+  {
+   "id": "Lc-08",
+   "status": "확인",
+   "note": "s38 쉬운 풀이 '보고 싶은 비디오가 있으면 직접 사야 했다'."
+  },
+  {
+   "id": "Lc-09",
+   "status": "확인",
+   "note": "s42 힌트 'having diverse choices and customization, [which in turn enhances] → 다양한 선택과 맞춤화를 가지는 것, [그리고 그것은 결과적으로 높인다]' 반영, 강조 which↔'그리고 그것은' 위치 정상, 관계사 앞 대상 표시 규칙에 부합. 단 연동되는 u4-gp3(학생용 분석지)가 여전히 'which = 앞 절 내용', 인용 span 'customization, which…'로 남아 새 힌트 판정(앞의 동명사구)과 어긋남 → LR-02."
+  },
+  {
+   "id": "Lc-10",
+   "status": "확인",
+   "note": "s43 bring A B 힌트를 'clothing styles [based on customers’ purchase history] → [고객들의 구매 기록에 기초한] 의류 스타일들 (과거분사 후치수식)'로 교체. analysis-content '준동사 수식 등 문법 연결 우선, 동사 구문 후순위'에 부합. participle_focus_gloss_id가 각주 'based on — (~에) 기초한'에 연결되고 강조 based↔'기초한' 전체(위치 13–16) 정상. 표시 범위는 규칙 예시 'the fair [held in 1940]'·s08과 같은 방식. bring A B는 각주로 계속 지원, review_record 갱신."
+  },
+  {
+   "id": "Lc-11",
+   "status": "확인",
+   "note": "s46 자연 해석 '…쉽게 사용할 수 있다'로 양태 보존."
+  },
+  {
+   "id": "Lc-12",
+   "status": "확인",
+   "note": "s46 쉬운 풀이 '별생각 없이' 삭제, '많이 쓰기 쉽다'."
+  },
+  {
+   "id": "Lc-13",
+   "status": "확인",
+   "note": "미반영 사유(도치된 보어의 표지가 과거분사 Related)는 규칙에 명시 금지가 없어 수용 가능, review_record에 기록됨. 다만 검수자 (나)안은 사용자 확인을 요구했고 규칙에 도치 강조 기준이 없으므로 사용자 보고 목록에 포함 권장."
+  },
+  {
+   "id": "Lc-14",
+   "status": "확인",
+   "note": "유지·사용자 보고 타당, s50 review_record에 'be동사 최소 보어 예외 준용' 기록 확인."
+  },
+  {
+   "id": "Lc-15",
+   "status": "확인",
+   "note": "s50 쉬운 풀이 가능성 표현 보존·'정기적으로' 반영. 다만 첫 문장 '크지 않아 보여서 부담이 없어 보일 수 있다'는 '보이다'가 중복되어 어색 → LR-04(문체)."
+  },
+  {
+   "id": "Lc-16",
+   "status": "확인",
+   "note": "u5-gp3 'V-ing = subscribing(subscribe to — ~을 구독하다) → 구독하는 것, 대상 = multiple services(여러 서비스)' 낱말 단위 대입 후 결합."
+  },
+  {
+   "id": "Lc-17",
+   "status": "문제",
+   "note": "힌트 explanation과 review_record는 '바로 앞의 일회용 포장(disposable packaging)을 받음'으로 통일했으나, 같은 힌트 meaning_ko '일회용 포장(의 사용 증가), 그리고 그것은 (환경을) 해친다'와 s54 harms 각주 verb_form 기록 'which(일회용 포장 사용의 증가)'가 그대로 남아 제안된 수정(meaning_ko·review_record)이 일부 누락 → LR-01."
+  },
+  {
+   "id": "Lc-18",
+   "status": "확인",
+   "note": "u4 흐름 '영화를 보고 싶은 사람은 누구나 … 즐길 수 있다'(LX-12 병행)."
+  },
+  {
+   "id": "Lc-19",
+   "status": "확인",
+   "note": "u5 흐름 '가입할 수 있고', 결론 '퍼질 것으로 예상된다'(LX-04 병행)."
+  },
+  {
+   "id": "LX-01",
+   "status": "확인",
+   "note": "s41 'tastes — 취향들 (흔한 뜻: 맛)', s25와 일치."
+  },
+  {
+   "id": "LX-02",
+   "status": "확인",
+   "note": "Lb-01과 동일 반영."
+  },
+  {
+   "id": "LX-03",
+   "status": "확인",
+   "note": "s58 쉬운 풀이 '…계속 나올 것으로 예상된다고 했다'로 s56(현재 정착)·s57(전망) 구분 보존. 단 문항 해설 Q17(mock2)에 같은 단정 '구독이 계속 커질 것이므로'가 남음 → LR-05."
+  },
+  {
+   "id": "LX-04",
+   "status": "확인",
+   "note": "u5 의도/요지 '이미 삶에 깊이 자리 잡았고 앞으로도 커질 것으로 예상되므로', 결론 흐름 '퍼질 것으로 예상된다' 반영."
+  },
+  {
+   "id": "LX-05",
+   "status": "확인",
+   "note": "u3 흐름 이유 1에 s18 내용과 17번 첫째 동인 연결 추가, 원문 18~22 순서 유지."
+  },
+  {
+   "id": "LX-06",
+   "status": "확인",
+   "note": "u4 의도에 '17번 문장에서 예고한 둘째 동인인 온라인 플랫폼의 성장' 연결 추가."
+  },
+  {
+   "id": "LX-07",
+   "status": "확인",
+   "note": "s14·s50 '매달' → '정기적으로' 반영."
+  },
+  {
+   "id": "LX-08",
+   "status": "확인",
+   "note": "s39 'on — ~에서 (흔한 뜻: ~위에)' 최소 수정, 분석 청크 '기기들에서'와 일치."
+  },
+  {
+   "id": "LX-09",
+   "status": "확인",
+   "note": "s43 'personalized — 개인 맞춤형의', 분석 청크 '개인 맞춤형 의류 스타일을 제안하는 것 같은'으로 u2·u3와 통일."
+  },
+  {
+   "id": "LX-10",
+   "status": "확인",
+   "note": "s58 'we — 우리는 (글쓴이와 독자를 포함한 우리 모두)'로 s56 our와 일치."
+  },
+  {
+   "id": "LX-11",
+   "status": "확인",
+   "note": "미반영 타당(선택 제안, 원문 문장 설명 범위 밖이며 규칙상 필수 아님)."
+  },
+  {
+   "id": "LX-12",
+   "status": "확인",
+   "note": "Lc-18과 동일 반영."
+  },
+  {
+   "id": "special_s04",
+   "status": "확인",
+   "note": "유지 타당(절 연결 표시는 S′·V′까지, 최소 보어 예외는 be동사만). review_record 기록됨."
+  },
+  {
+   "id": "special_s25",
+   "status": "확인",
+   "note": "유지 타당(as절 enjoy 상태동사·세대 비교로 비례 불성립 → 이유). review_record 기록됨."
+  },
+  {
+   "id": "special_s38",
+   "status": "확인",
+   "note": "유지·사용자 보고 타당(빈자리가 있는 to watch까지 표시해야 관계가 보임, 규칙 문언 밖이라 보고). review_record 기록됨."
+  }
+ ],
+ "new_findings": [
+  {
+   "id": "LR-01",
+   "sentence_id": "s54",
+   "current": "힌트 meaning_ko: '일회용 포장(의 사용 증가), 그리고 그것은 (환경을) 해친다' / s54 harms 각주 verb_form 기록: 'which(일회용 포장 사용의 증가)' ↔ 같은 힌트 explanation·review_record: '바로 앞의 일회용 포장(disposable packaging)을 받아…'",
+   "problem": "Lc-17을 '반영'으로 결정해 explanation·review_record는 선행사를 disposable packaging으로 통일했지만, 검수자가 함께 고치라고 한 meaning_ko와 harms 각주의 기록(which 대상)은 이전 판정(앞 절 내용: 사용 증가)을 그대로 두어 같은 힌트 안의 내부 판정이 여전히 둘로 갈린다(analysis-content 구조 힌트 검수 4: 내부 문법 판정과 실제 표시 일치). 학생용 출력에는 나오지 않는 내부 필드지만 반영 결정과 실제 데이터가 다르다.",
+   "proposed_fix": "u5.py s54: hint meaning을 '일회용 포장, 그리고 그것은 (환경을) 해친다'로, harms의 v3 주어 기록을 'which(일회용 포장)'으로 고친 뒤 원고 JSON 재생성.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "LR-02",
+   "sentence_id": "s42",
+   "current": "u4-gp3(분석지 구문으로 해석하기) span 'customization, which in turn enhances their satisfaction' / explanation 'which = 앞 절 내용(다양한 선택과 맞춤화를 가지는 것)' ↔ 수정된 s42 힌트 'having diverse choices and customization, [which in turn enhances]', explanation '앞의 동명사구(다양한 선택과 맞춤화를 가지는 것)를 받아'",
+   "problem": "Lc-09 (가)안으로 힌트 표시를 동명사구까지 넓혔는데, 같은 문장의 학생용 분석 항목 u4-gp3는 인용을 여전히 customization부터 시작하고 which의 대상을 '앞 절 내용'이라 부른다. 실제 대상 having diverse choices and customization은 절이 아니라 동명사구이므로 용어가 부정확하고, 힌트 판정(동명사구)과 분석지 판정(절)이 새로 어긋난다(gloss-rules 금지와 검수 6, analysis-content 구조 힌트 검수 4). 내부 기록도 s42 review_record '앞 내용 전체를 받음', enhances 각주 기록 'which(다양한 선택과 맞춤화를 누리는 것)'으로 표현이 제각각이다.",
+   "proposed_fix": "u4-gp3 explanation을 'which = 앞의 동명사구 having diverse choices and customization(다양한 선택과 맞춤화를 가지는 것)'으로 고치고, span을 'having diverse choices and customization, which in turn enhances their satisfaction'으로 넓히는 것을 검토. s42 review_record와 enhances v3 기록도 '동명사구(다양한 선택과 맞춤화를 가지는 것)'로 통일. 연습 span·정답은 그대로 둔다.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "LR-03",
+   "sentence_id": "s24",
+   "current": "s24 reading_checks.review_record: '콤마 뒤 분사구 enabling A to V(구독 경제가 선택지를 제공한 결과)'",
+   "problem": "Lb-03을 (나)안(‘~하면서’ 유지, 설명에서 ‘결과’ 제거)으로 결정해 u3-gp2 설명과 s33 힌트 설명은 고쳤지만, s24 내부 검토 기록은 여전히 ‘결과’ 판정이다. 학생용 출력은 아니지만 같은 문장의 각주(V-ing — ~하면서)·힌트와 내부 판정이 다르다.",
+   "proposed_fix": "s24 review_record를 '콤마 뒤 분사구 enabling A to V(앞 절에 이어지는 일을 ~하면서로 덧붙임, L 검수 Lb-03 (나)안)'으로 고친다.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "LR-04",
+   "sentence_id": "s50",
+   "current": "쉬운 풀이: '구독 하나의 요금은 크지 않아 보여서 부담이 없어 보일 수 있다.'",
+   "problem": "Lc-15 제안 문구를 그대로 반영하면서 한 문장에 '보여서 … 보일 수 있다'가 겹쳐 학생용 풀이가 어색하다. 뜻 오류는 아니며 문체 문제.",
+   "proposed_fix": "'구독 하나하나의 요금은 크지 않아 보여서 부담이 적게 느껴질 수 있다.' 또는 '구독 하나의 요금만 보면 부담이 없어 보일 수 있다.'처럼 가능성은 살리고 '보이다' 중복을 없앤다.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "LR-05",
+   "sentence_id": "Q17(mock2 5번) 해설",
+   "current": "'…한계에도 불구하고 구독이 계속 커질 것이므로 현명한 소비자가 되자고 결론짓는다.'",
+   "problem": "LX-03·LX-04 반영으로 학습 자료(u5 의도/요지·결론 흐름·s58 쉬운 풀이)는 s57의 It is expected that을 살려 '커질 것으로 예상된다'로 고쳤으나, 같은 결론 단락을 설명하는 실전문제 해설은 이전의 단정 표현을 유지해 교재 안에서 표현이 새로 갈린다(L 범위 밖 문항 자료).",
+   "proposed_fix": "assessment_data.py Q17 해설을 '…한계에도 불구하고 구독이 이미 삶에 자리 잡았고 앞으로도 커질 것으로 예상되므로 현명한 소비자가 되자고 결론짓는다.'로 맞춘다(문항 검수 담당 확인).",
+   "severity": "검토제안"
+  },
+  {
+   "id": "LR-06",
+   "sentence_id": "s37",
+   "current": "u4-gp4 title: 'have p.p.: ~해 왔다 (have been able to V: ~할 수 있게 되었다)' ↔ answer_ko '수많은 일들을 할 수 있어 왔다(= 할 수 있게 되었다)'",
+   "problem": "Lc-07 반영으로 정답은 공식 결합형 '할 수 있어 왔다'를 앞세웠으나 제목 괄호는 자연형만 보여 준다. 같은 원고 u3의 have p.p. 제목은 '(has gained attention: 주목을 얻어 왔다)'처럼 공식 결합형을 쓴다. 정답에 자연형이 병기되어 있어 모순은 아니고 경미.",
+   "proposed_fix": "제목 괄호를 '(have been able to V: ~할 수 있어 왔다)'로 바꾸거나 현행 유지(정답 병기로 충분하다고 판단하면 유지).",
+   "severity": "검토제안"
+  }
+ ],
+ "decision_table_scope_check": "2단계_QC대비_FINAL_변경.diff의 모든 변경 hunk는 결정표 항목(La·Lb·Lc·LX·special)에 대응함. 결정표에 없는 변경은 학습 FINAL에는 없음. 원고 JSON에는 L과 무관한 문항 변경(Q13 ⑤ 선지, Q13 해설, Q22 replacement_span)이 함께 들어가 있으나 이는 이전 커밋 e650858(M·N 블라인드 의견 반영, '원고 재생성 전')이 이번 재생성으로 반영된 것이며, 그 밖의 today_words source_gloss_id·lexical_coverage 번호 변화는 각주 분리·통합에 따른 기계적 재번호임.",
+ "summary": "결정표 59개 항목을 FINAL·원고 JSON·u1~u5.py 변경과 대조함. 반영 항목은 모두 FINAL에 실제로 들어가 있고, 요청된 핵심 확인(s01 log in/to, s05 stay updated/about 통일, s07 take part/in, s04 whatever '어떤 것이든' 전면 통일, s11 청크 병합, s24 their own, s42 which 힌트 확대, s43 과거분사 후치수식 교체, s48·s51 '것이', s56 ~했다+되었다, s57 청크 4:4와 '라고 예상된다', u4-gp4 정답)은 각주·힌트 강조 위치·청크·분석부 사이에 새 뜻 불일치가 없음. 문제는 Lc-17 일부 누락 1건(LR-01, 확정오류, 내부 필드)이고, 수정 때문에 새로 생긴 경미한 불일치·문체 5건(LR-02 u4-gp3 which 대상 용어, LR-03 s24 내부 기록 '결과', LR-04 s50 쉬운 풀이 '보이다' 중복, LR-05 Q17 해설 단정, LR-06 u4-gp4 제목)은 검토제안. 미반영·유지 결정은 모두 규칙상 수용 가능하나 La-09·La-15는 결정 사유를 규칙 근거로 고쳐 적을 것, Lb-09·Lc-13은 사용자 보고 목록 포함을 권장함. 자동 검사(04_전체_사전진단) STRUCTURE_PASS·ERROR 0 확인."
+}

@@ -1,0 +1,200 @@
+{
+ "reviewer": "N",
+ "solved_before_answer_key": true,
+ "answers": {
+  "Q01": 4,
+  "Q02": 5,
+  "Q03": 2,
+  "Q04": 3,
+  "Q05": 1,
+  "Q06": 5,
+  "Q07": 2,
+  "Q08": 3,
+  "Q09": 4,
+  "Q10": 1,
+  "Q11": 4,
+  "Q12": 2,
+  "Q13": 3,
+  "Q14": 5,
+  "Q15": 1,
+  "Q16": 1,
+  "Q17": 4,
+  "Q18": 3,
+  "Q19": 5,
+  "Q20": 2,
+  "Q21": 2,
+  "Q22": 4,
+  "Q23": 3,
+  "Q24": 5,
+  "Q25": 1,
+  "Q26": 3
+ },
+ "details": {
+  "Q01": {
+   "answer": 4,
+   "reason": "'these business models have expanded to all industries' - 구독 모델이 일상 전 분야로 확장됨",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q02": {
+   "answer": 5,
+   "reason": "'the rapid growth of online platforms' - 빠른 성장이므로 gradual과 불일치",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q03": {
+   "answer": 2,
+   "reason": "소유보다 경험/접근 선호 + 개인 맞춤(customization) 경험",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q04": {
+   "answer": 3,
+   "reason": "디지털 기기로 소비가 쉬워지고, 플랫폼이 AI·빅데이터로 맞춤 서비스를 제공해 만족을 높임",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q05": {
+   "answer": 1,
+   "reason": "마지막 문장 'become wise consumers who receive the services that are really needed'",
+   "confidence": "높음",
+   "defects": [
+    "정답 선지가 마지막 문장과 거의 그대로 일치해 난도 낮음"
+   ]
+  },
+  "Q06": {
+   "answer": 5,
+   "reason": "'Companies can have a stable revenue and build customer loyalty'",
+   "confidence": "높음",
+   "defects": [
+    "정답 선지가 지문 문장의 단순 바꿔쓰기라 난도 낮음(Q20과 동일 지문)"
+   ]
+  },
+  "Q07": {
+   "answer": 2,
+   "reason": "뒤따르는 'personalize their experiences', 'fit with their individual tastes', customization",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q08": {
+   "answer": 3,
+   "reason": "아침(주어진 글)→방과후·주말(B)→To be sure 구독경제, 처음엔 우유·신문(C)→However 전 산업으로 확장(A)",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q09": {
+   "answer": 4,
+   "reason": "'In the past'가 ④ 뒤 'Today, whoever wants to watch a movie...'와 대조",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q10": {
+   "answer": 1,
+   "reason": "과소비·재정 부담 우려 → 필요한 것만 구독하고 정기적으로 검토/해지",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q11": {
+   "answer": 4,
+   "reason": "과소비·재정부담·환경오염 등 단점 + 현명한 소비자가 되어야 함",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q12": {
+   "answer": 2,
+   "reason": "일회용 포장 사용을 'increase'해야 환경에 해롭다는 흐름; decrease는 부적절",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q13": {
+   "answer": 3,
+   "reason": "'The concept of business models based on subscriptions is not new'",
+   "confidence": "높음",
+   "defects": [
+    "⑤ 'only a few items such as milk'는 원문 'limited to products such as milk and newspapers'와 대체로 일치하나 'a few items' 표현이 약간 해석 여지(치명적이지 않음)"
+   ]
+  },
+  "Q14": {
+   "answer": 5,
+   "reason": "'including entertainment, technology, fashion, education, and much more' 및 However 역접",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q15": {
+   "answer": 1,
+   "reason": "소유 없이 접근(without the requirement of ownership) 맥락 - 옷을 사서 쌓아두지 않고",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q16": {
+   "answer": 1,
+   "reason": "팝콘·음료 판매는 디지털 구독 플랫폼 흐름과 무관",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q17": {
+   "answer": 4,
+   "reason": "주어진 글(가입 쉬움)→(C) This can result in excessive consumption→(A) Related to overconsumption, 재정부담→(B) Additionally 환경오염+결론",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q18": {
+   "answer": 3,
+   "reason": "다양성·맞춤(personal)과 유연성·편리성(flexible)",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q19": {
+   "answer": 5,
+   "reason": "'enhancing consumers’ convenience', 'With just a few clicks' → easily accessible이어야 함; hardly 부적절",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q20": {
+   "answer": 2,
+   "reason": "'prioritize experiences over owning things', 'access ... without the requirement of ownership'",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q21": {
+   "answer": 2,
+   "reason": "주어진 글(개인화)→(B) This aspect(개인화), 화장품 예시→(A) Furthermore 유연성·편리성→(C) Moreover 온라인 플랫폼 접근성·편리성",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q22": {
+   "answer": 4,
+   "reason": "'customization', 'identify consumers’ needs, tastes', 개인 맞춤 추천 예시",
+   "confidence": "높음",
+   "defects": [
+    "정답 선지 'suited to each person' 뒤에 지문의 'to customers'가 이어져 'provide ... suited to each person to customers'로 약간 어색(경미)"
+   ]
+  },
+  "Q23": {
+   "answer": 3,
+   "reason": "② 뒤 '가입이 쉬움'의 결과로 과소비(This) → ③ 뒤 '필요한 것만 구독하라'는 해결책",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q24": {
+   "answer": 5,
+   "reason": "마지막 문장 'We need to have a deeper understanding ... become wise consumers'",
+   "confidence": "높음",
+   "defects": [
+    "정답 선지가 마지막 문장과 거의 그대로 일치해 난도 낮음(Q05와 결론 문장 중복)"
+   ]
+  },
+  "Q25": {
+   "answer": 1,
+   "reason": "지윤의 일상 속 구독 서비스(음악·식품·강의·영화) + 우유·신문에서 전 산업으로 확장",
+   "confidence": "높음",
+   "defects": []
+  },
+  "Q26": {
+   "answer": 3,
+   "reason": "'Jiyun is actively taking part in it', 전 산업으로 확장 → popular여야 함; rare 부적절",
+   "confidence": "높음",
+   "defects": []
+  }
+ }
+}

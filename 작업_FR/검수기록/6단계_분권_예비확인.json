@@ -1,0 +1,45 @@
+{
+ "id": "FR-split-preliminary-2026-09-27",
+ "status": "PRELIMINARY_ONLY",
+ "renderer": "LibreOffice(예비, Word 아님)",
+ "performed_by": "제작 세션(독립 아님)",
+ "user_decision": "2026-09-27 “본문과 동일 (추천)” — Word 렌더·Word 조판 검수·독립 R 제외",
+ "split_verify": "SPLIT_CONTENT_MATCH · EXACT_PARTITION · 통합본 BYTE_IDENTICAL · ZIP SIX_DOCX_EXACT_BYTES",
+ "volumes": [
+  {
+   "file": "../결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_01_해석지.docx",
+   "sha256": "e58bf20365c2e2f6d2d6669f531e56a99a00bea7e2858416df059021c60f58e0",
+   "pages_libreoffice": 6
+  },
+  {
+   "file": "../결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_02_지문분석지.docx",
+   "sha256": "13bc76122ed94d2bb8d5986223a6c83fe9984fd666025c7743ce1bce03fb123f",
+   "pages_libreoffice": 5
+  },
+  {
+   "file": "../결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_03_워크북+변형문제.docx",
+   "sha256": "8afa4769bb057e0b24856f1533fc1a40b821584bf5e273d1f768660cb2147a05",
+   "pages_libreoffice": 4
+  },
+  {
+   "file": "../결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_04_실전모의.docx",
+   "sha256": "a81455887dacd4a79ab692c702815d74086ff25a560bb4fbe5f7d0c723694bd5",
+   "pages_libreoffice": 3
+  },
+  {
+   "file": "../결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_05_정답해설지.docx",
+   "sha256": "ef1fcaa0e33a20ed195a4830369b84f16e9d34ff3b242971f39166136e155151",
+   "pages_libreoffice": 6
+  }
+ ],
+ "zip": {
+  "file": "../결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading.zip",
+  "sha256": "b60f5f1f5c7c287b43986a294207b1d6dd5c58a1d6d24a89c628db9b9cf4005e"
+ },
+ "observations": [
+  "합계 24쪽(통합본과 같음)",
+  "각 권 첫·끝 쪽 정상",
+  "05권 1쪽은 빠른 정답표 쪽(여백 정상)",
+  "새 결함 없음"
+ ]
+}

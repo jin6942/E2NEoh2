@@ -1,0 +1,527 @@
+[교재명] 영어2 YBM(박준언)
+[과목] 영어2
+[출판사·저자] YBM(박준언)
+[UNIT] UNIT02
+[학생용 과 표시] 2과
+[권위 원문] (2022개정)2026년_영어II_YBM(박준언)_2과_본문.pdf · 원본 PDF 5쪽 Further Reading 왼쪽 단 영어 본문 전체(섹션 표시 Further Reading·제목 Happiness Comes From Experiences 제외, 오른쪽 단 한국어 해석·세로 저작권 문구 제외)
+[자료 범위] 워크북 + 미니 모의고사 + 정답해설
+
+[WB01]
+SOURCE:
+src
+LEARNING_UNIT:
+u1
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~12
+[1. 오늘의 낱말]
+우리말 뜻을 쓰세요.
+1. long-term
+2. conclusion
+3. assume
+4. fade
+5. get used to
+6. possession
+7. raise the bar
+8. stimulate A to V
+[2. 유의어·반의어 뜻 쓰기]
+우리말 뜻을 쓰세요.
+1. essential
+2. vague
+3. novel
+4. minor
+5. clear
+6. fresh
+7. critical
+8. familiar
+9. obvious
+[3. 실전문제]
+[Q01]
+SET:
+workbook
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~12
+TYPE:
+주제
+QUESTION:
+다음 글의 주제로 가장 적절한 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_ids": ["202603242-Q23", "202606042-Q23", "202609022-Q23"], "rationale": "주제 고2 표본 [152, 130, 135]단어와 비교해 현재 145단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
+LENGTH_COMPARISON:
+{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_type": "주제", "benchmark_ids": ["202603242-Q23", "202606042-Q23", "202609022-Q23"], "reference_words": [152, 130, 135], "assessment_word_count": 145, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "주제 고2 표본 [152, 130, 135]단어와 비교해 현재 145단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE:
+A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things. We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this. First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.
+CHOICES:
+① the essential role of shopping in making people happy
+② why familiar possessions bring more joy than novel ones
+③ critical reasons why the happiness from things does not last long
+④ minor differences between buying cars and buying clothes
+⑤ the obvious benefits of comparing ourselves with others
+ANSWER:
+3
+EVIDENCE:
+The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this.
+EXPLANATION:
+물건에 돈을 쓰지 말라는 연구 결론을 소개한 뒤, 물건이 주는 행복은 빨리 사라진다고 하고 그 세 가지 결정적인 이유(새 물건에 익숙해짐, 계속 높아지는 기준, 남과의 비교)를 설명한다. 따라서 ③이 주제다.
+WRONG_ANALYSIS:
+① 물건에 돈을 쓰지 말라는 결론이므로 쇼핑이 행복에 필수적이라는 것은 반대 내용이다.
+② 새 물건도 곧 익숙해져 평범해진다고 했을 뿐, 익숙한 물건이 더 큰 기쁨을 준다는 내용은 없다.
+④ 차는 남과 비교하는 예로 나올 뿐이고 옷과 비교하는 내용은 없다.
+⑤ 남과의 비교는 행복을 빨리 사라지게 하는 이유로 제시되었으므로 이점이 아니다.
+CHOICES_KR:
+① 사람들을 행복하게 하는 데 있어 쇼핑의 필수적인 역할
+② 익숙한 소유물이 새로운 것보다 더 큰 기쁨을 주는 이유
+③ 물건에서 얻는 행복이 오래가지 않는 결정적인 이유들
+④ 차를 사는 것과 옷을 사는 것의 사소한 차이
+⑤ 자신을 다른 사람과 비교하는 것의 명백한 이점
+[/Q01]
+
+[4. 구문 결합해서 해석하기]
+1. the happiness we get from buying something → ______________________________
+도움말: N + (that) S′ V′ — S′(이/가) V′하는 N / happiness — 행복 / we — 우리가 / get — 얻다 / from — ~로부터 / V-ing — ~하는 것 / buy — 사다 / something — 무언가
+2. is that the happiness they provide fades quickly → ______________________________
+도움말: is that S′ V′ — S′(이/가) V′한다는 것이다 / happiness — 행복 / they — 그것들이 / provide — 제공하다 / fade — 사라지다, 희미해지다 / quickly — 빨리
+3. stimulate humans to compare themselves with others → ______________________________
+도움말: stimulate A to V — A(이/가) ~하도록 자극하다 / humans — 인간들 / compare A with B — A를 B와 비교하다 / themselves — 그들 자신 / others — 다른 사람들
+
+[5. 핵심 문장 2개 다시 해석하기]
+1. The trouble with things is that the happiness they provide fades quickly.
+2. As soon as we get used to a new possession, we look for an even better one.
+[/WB01]
+[워크북 정답]
+[1. 오늘의 낱말]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 장기적인, 오랜 기간의 | 2 | 결론 | 3 | 가정하다, 생각하다 |
+| 4 | 사라지다, 희미해지다 | 5 | ~에 익숙해지다 | 6 | 소유물, 가진 물건 |
+| 7 | 기준을 높이다 | 8 | A가 ~하도록 자극하다 |  |  |
+[2. 유의어·반의어 뜻 쓰기]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 필수적인, 매우 중요한 | 2 | 모호한, 희미한 | 3 | 새로운, 참신한 |
+| 4 | 사소한, 작은 | 5 | 분명한 | 6 | 새로운, 신선한 |
+| 7 | 결정적인, 매우 중요한 | 8 | 익숙한, 친숙한 | 9 | 명백한 |
+[4. 구문 결합해서 해석하기]
+1. 우리가 무언가를 사는 것으로부터 얻는 행복
+2. 그것들이 제공하는 행복이 빨리 사라진다는 것이다
+3. 인간들이 그들 자신을 다른 사람들과 비교하도록 자극하다
+[5. 핵심 문장 해석]
+1. 물건의 문제는 물건이 주는 행복이 빨리 사라진다는 것이다.
+2. 새로 가진 물건에 익숙해지자마자 우리는 훨씬 더 좋은 것을 찾는다.
+
+[WB02]
+SOURCE:
+src
+LEARNING_UNIT:
+u2
+SOURCE_RANGE:
+Further Reading · 원문 문장 13~20
+[1. 오늘의 낱말]
+우리말 뜻을 쓰세요.
+1. deliver
+2. identity
+3. accumulation
+4. stuff
+5. nonetheless
+6. remain
+7. on the other hand
+8. sum total
+[2. 유의어·반의어 뜻 쓰기]
+우리말 뜻을 쓰세요.
+1. distinct
+2. temporary
+3. material
+4. united
+5. lasting
+6. physical
+7. separate
+8. spiritual
+9. enduring
+[3. 실전문제]
+[Q02]
+SET:
+workbook
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 10~20
+TYPE:
+요지
+QUESTION:
+다음 글의 요지로 가장 적절한 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_ids": ["202603242-Q22", "202606042-Q22", "202609022-Q22"], "rationale": "요지 고2 표본 [162, 144, 130]단어와 비교해 현재 159단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
+LENGTH_COMPARISON:
+{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_type": "요지", "benchmark_ids": ["202603242-Q22", "202606042-Q22", "202609022-Q22"], "reference_words": [162, 144, 130], "assessment_word_count": 159, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "요지 고2 표본 [162, 144, 130]단어와 비교해 현재 159단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE:
+As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one. Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to. “Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff. You can even think that part of your identity is connected to those things, but nonetheless they remain separate from you. On the other hand, your experiences really are part of you. We are the sum total of our experiences.”
+CHOICES:
+① Physical items are the best way to show who we really are.
+② Buying a better car than our friends’ brings us enduring joy.
+③ Material goods and experiences give us the same kind of happiness.
+④ Our experiences remain separate from our sense of self.
+⑤ Experiences give more lasting happiness because they become part of who we are.
+ANSWER:
+5
+EVIDENCE:
+Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity.
+EXPLANATION:
+새 물건에 익숙해지면 더 좋은 것을 찾고 남과 비교하게 되지만, 경험은 물건보다 더 오래 지속되는 행복을 주며 그 이유는 경험이 우리 정체성의 일부가 되기 때문이라고 한다. 따라서 ⑤가 요지다.
+WRONG_ANALYSIS:
+① 물건이 정체성과 연결되어 있다고 생각해도 물건은 여전히 우리와 분리되어 있다고 했다.
+② 친구가 더 좋은 차를 사면 기쁨이 끝나고, 더 좋은 것을 가진 사람은 언제나 있다고 했으므로 반대다.
+③ 경험은 물질적 재화보다 우리 자신의 더 큰 부분이며 더 오래가는 행복을 준다고 했으므로 반대다.
+④ 경험은 정말로 우리의 일부라고 했으므로 반대다.
+CHOICES_KR:
+① 물질적인 물건은 우리가 진짜 누구인지 보여 주는 가장 좋은 방법이다.
+② 친구의 차보다 더 좋은 차를 사는 것은 우리에게 오래가는 기쁨을 준다.
+③ 물질적인 재화와 경험은 우리에게 같은 종류의 행복을 준다.
+④ 우리의 경험은 우리 자신이라는 감각과 분리된 채로 남는다.
+⑤ 경험은 우리를 이루는 일부가 되기 때문에 더 오래가는 행복을 준다.
+[/Q02]
+
+[4. 구문 결합해서 해석하기]
+1. That’s because experiences become a part of our identity → ______________________________
+도움말: That’s because S′ V′ — 그것은 S′(이/가) V′하기 때문이다 / experiences — 경험들 / become — ~이 되다 / part — 일부, 부분 / of — ~의 / our — 우리의 / identity — 정체성, 나다움
+2. We are not our possessions, but we are the accumulation of everything we’ve seen → ______________________________
+도움말: not A, but B — A가 아니라 B / our — 우리의 / possessions — 소유물들, 가진 물건들 / accumulation — 축적, 쌓인 것 / of — ~의 / everything — 모든 것 / have p.p. — ~했다 (we’ve = we have, we = 우리가) / see — 보다 (seen은 see의 p.p.형)
+3. think that part of your identity is connected to those things → ______________________________
+도움말: think that S′ V′ — S′(이/가) V′라고 생각하다 / think — 생각하다 / part — 일부 / of — ~의 / your — 여러분의 / identity — 정체성, 나다움 / be p.p. — ~되다 / connected — 연결된 / to — ~에 / those — 그 / things — 물건들
+4. Gilovich and other researchers have found → ______________________________
+도움말: have p.p. — ~했다 / other — 다른 / researchers — 연구자들 / find — 발견하다 (found는 find의 p.p.형)
+5. part of your identity is connected to those things → ______________________________
+도움말: be p.p. — ~되다 / part — 일부 / of — ~의 / your — 여러분의 / identity — 정체성, 나다움 / connected — 연결된 / to — ~에 / those — 그 / things — 물건들
+
+[5. 핵심 문장 2개 다시 해석하기]
+1. Gilovich and other researchers have found that experiences deliver longer lasting happiness than things.
+2. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.
+[/WB02]
+[워크북 정답]
+[1. 오늘의 낱말]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 가져다주다, 전하다 | 2 | 정체성, 나다움 | 3 | 축적, 쌓인 것 |
+| 4 | 물건, 것 | 5 | 그럼에도 불구하고 | 6 | (여전히) ~인 채로 남아 있다 |
+| 7 | 반면에, 다른 한편으로 | 8 | 총합, 전부 |  |  |
+[2. 유의어·반의어 뜻 쓰기]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 별개의, 뚜렷이 다른 | 2 | 일시적인 | 3 | 물질적인 |
+| 4 | 결합된, 하나가 된 | 5 | 지속되는, 오래가는 | 6 | 물리적인, 물질의 |
+| 7 | 분리된, 별개의 | 8 | 정신적인 | 9 | 오래가는, 지속적인 |
+[4. 구문 결합해서 해석하기]
+1. 그것은 경험들이 우리 정체성의 일부가 되기 때문이다
+2. 우리는 우리의 소유물들이 아니라, 우리가 본 모든 것의 축적이다
+3. 여러분 정체성의 일부가 그 물건들에 연결되어 있다고 생각하다
+4. 길로비치와 다른 연구자들은 발견했다
+5. 여러분 정체성의 일부가 그 물건들에 연결되어 있다
+[5. 핵심 문장 해석]
+1. 길로비치와 다른 연구자들은 경험이 물건보다 더 오래 지속되는 행복을 가져다준다는 것을 발견했다.
+2. 우리는 우리가 가진 물건이 아니라, 우리가 본 모든 것, 우리가 한 일들, 우리가 가 본 장소들이 쌓인 존재이다.
+
+[Q03]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~12
+TYPE:
+내용
+QUESTION:
+다음 글의 내용과 일치하지 않는 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_ids": ["202603242-Q26", "202606042-Q26", "202609022-Q26"], "rationale": "내용 고2 표본 [154, 120, 151]단어와 비교해 현재 145단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
+LENGTH_COMPARISON:
+{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_type": "내용", "benchmark_ids": ["202603242-Q26", "202606042-Q26", "202609022-Q26"], "reference_words": [154, 120, 151], "assessment_word_count": 145, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "내용 고2 표본 [154, 120, 151]단어와 비교해 현재 145단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE:
+A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things. We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this. First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.
+CHOICES:
+① Thomas Gilovich’s study was carried out over a long period.
+② People are usually right to think the joy of buying lasts long.
+③ New things soon stop feeling fresh and thrilling.
+④ Once people are used to what they bought, they look for something better.
+⑤ Owning things leads people to measure themselves against others.
+ANSWER:
+2
+EVIDENCE:
+We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong.
+EXPLANATION:
+우리는 무언가를 사서 얻는 행복이 물건만큼 오래갈 것이라고 생각하지만 그것은 틀렸다고 했다. 따라서 그 생각이 대개 옳다고 한 ②는 글의 내용과 일치하지 않는다.
+WRONG_ANALYSIS:
+① “A long-term study conducted by Thomas Gilovich”와 일치한다.
+③ “What once seemed novel and exciting quickly becomes the norm.”과 일치한다.
+④ “As soon as we get used to a new possession, we look for an even better one.”과 일치한다.
+⑤ “possessions stimulate humans to compare themselves with others”와 일치한다.
+CHOICES_KR:
+① 토머스 길로비치의 연구는 오랜 기간에 걸쳐 수행되었다.
+② 사람들이 물건을 사는 기쁨이 오래간다고 생각하는 것은 대개 옳다.
+③ 새 물건은 곧 새롭고 신나게 느껴지지 않게 된다.
+④ 사람들은 산 물건에 익숙해지면 더 좋은 것을 찾는다.
+⑤ 물건을 소유하는 것은 사람들이 자신을 남과 견주어 보게 만든다.
+[/Q03]
+
+[Q04]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~14
+TYPE:
+함축 의미
+QUESTION:
+밑줄 친 raising the bar가 다음 글에서 의미하는 바로 가장 적절한 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_ids": ["202603242-Q21", "202606042-Q21", "202609022-Q21"], "rationale": "함축 의미 고2 표본 [177, 162, 181]단어와 비교해 현재 168단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
+LENGTH_COMPARISON:
+{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_type": "함축 의미", "benchmark_ids": ["202603242-Q21", "202606042-Q21", "202609022-Q21"], "reference_words": [177, 162, 181], "assessment_word_count": 168, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "함축 의미 고2 표본 [177, 162, 181]단어와 비교해 현재 168단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE:
+A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things. We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this. First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one. Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity.
+TARGET:
+raising the bar
+PROMPT_UNDERLINES:
+[[5, 20]]
+CHOICES:
+① making the prices of new products higher
+② trying to own fewer things than before
+③ spending more time with friends and family
+④ expecting something better from each new purchase
+⑤ setting strict rules for saving money
+ANSWER:
+4
+EVIDENCE:
+Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one.
+EXPLANATION:
+둘째 이유로 새 구매가 새 기대로 이어지고, 새 소유물에 익숙해지자마자 훨씬 더 좋은 것을 찾는다고 했다. 따라서 raising the bar는 새로 살 때마다 더 좋은 것을 기대하게 된다는 뜻이다.
+WRONG_ANALYSIS:
+① 높아지는 기준(bar)은 가격이 아니라 우리가 기대하는 수준이다.
+② 물건을 덜 가지려 한다는 내용은 없다.
+③ 친구·가족과 시간을 보내는 이야기는 나오지 않는다.
+⑤ 돈을 모으는 규칙은 나오지 않는다.
+CHOICES_KR:
+① 새 제품들의 가격을 더 높게 만드는 것
+② 예전보다 더 적은 물건을 소유하려고 하는 것
+③ 친구와 가족과 더 많은 시간을 보내는 것
+④ 새로 살 때마다 더 좋은 것을 기대하는 것
+⑤ 돈을 모으기 위한 엄격한 규칙을 정하는 것
+[/Q04]
+
+[Q05]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 2~15
+TYPE:
+요약
+QUESTION:
+다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_ids": ["202603242-Q40", "202606042-Q40", "202609022-Q40"], "rationale": "요약 고2 표본 [150, 152, 160]단어와 비교해 현재 167단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
+LENGTH_COMPARISON:
+{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_type": "요약", "benchmark_ids": ["202603242-Q40", "202606042-Q40", "202609022-Q40"], "reference_words": [150, 152, 160], "assessment_word_count": 167, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "요약 고2 표본 [150, 152, 160]단어와 비교해 현재 167단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE:
+We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this. First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one. Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.
+[요약문]
+The happiness we get from things tends to be (A) ________, while experiences give us more lasting happiness because they become part of our (B) ________.
+CHOICES:
+① short-lived …… identity
+② long-lasting …… identity
+③ short-lived …… wealth
+④ exciting …… possessions
+⑤ permanent …… memories
+ANSWER:
+1
+EVIDENCE:
+The trouble with things is that the happiness they provide fades quickly. / That’s because experiences become a part of our identity.
+EXPLANATION:
+물건이 주는 행복은 새 물건에 익숙해지고, 기준이 높아지고, 남과 비교하게 되어 빨리 사라진다. 반면 경험은 우리 정체성의 일부가 되기 때문에 더 오래가는 행복을 준다. 따라서 (A)에는 short-lived, (B)에는 identity가 알맞다.
+WRONG_ANALYSIS:
+② 물건이 주는 행복은 빨리 사라진다고 했으므로 (A)의 long-lasting은 반대다.
+③ 경험은 부(wealth)가 아니라 정체성의 일부가 된다고 했다.
+④ 새 물건은 곧 평범해진다고 했고, 경험이 소유물의 일부가 된다는 내용도 없다.
+⑤ 물건이 주는 행복이 영구적이라는 것은 반대 내용이다.
+CHOICES_KR:
+① 오래가지 않는 …… 정체성
+② 오래 지속되는 …… 정체성
+③ 오래가지 않는 …… 부
+④ 신나는 …… 소유물
+⑤ 영구적인 …… 기억
+[/Q05]
+
+[Q06]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 4~15
+TYPE:
+요지
+QUESTION:
+다음 글의 요지로 가장 적절한 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_ids": ["202603242-Q22", "202606042-Q22", "202609022-Q22"], "rationale": "요지 고2 표본 [162, 144, 130]단어와 비교해 현재 146단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
+LENGTH_COMPARISON:
+{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_type": "요지", "benchmark_ids": ["202603242-Q22", "202606042-Q22", "202609022-Q22"], "reference_words": [162, 144, 130], "assessment_word_count": 146, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "요지 고2 표본 [162, 144, 130]단어와 비교해 현재 146단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE:
+The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this. First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one. Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.
+CHOICES:
+① Comparing our possessions with others’ helps us feel satisfied.
+② New purchases always create deeper happiness than old ones.
+③ Unlike things, experiences bring happiness that lasts because they shape who we are.
+④ We should buy better products to keep our expectations high.
+⑤ Researchers still cannot explain why experiences make us happy.
+ANSWER:
+3
+EVIDENCE:
+The trouble with things is that the happiness they provide fades quickly. / Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity.
+EXPLANATION:
+물건이 주는 행복은 세 가지 이유로 빨리 사라지지만, 경험은 우리 정체성의 일부가 되기 때문에 더 오래가는 행복을 준다는 내용이다. 따라서 ③이 요지다.
+WRONG_ANALYSIS:
+① 남과의 비교는 물건의 행복이 사라지는 이유로 제시되었다.
+② 새 구매는 새 기대로 이어질 뿐이고, 익숙해지면 더 좋은 것을 찾게 된다고 했다.
+④ 기대가 계속 높아지는 것은 행복이 사라지는 이유로 제시되었다.
+⑤ 경험이 오래가는 행복을 주는 이유(정체성의 일부가 됨)를 설명했다.
+CHOICES_KR:
+① 우리의 소유물을 다른 사람들의 것과 비교하는 것은 우리가 만족감을 느끼도록 돕는다.
+② 새로 산 물건은 항상 오래된 것보다 더 깊은 행복을 만든다.
+③ 물건과 달리 경험은 우리를 이루는 부분이 되기 때문에 오래가는 행복을 준다.
+④ 우리는 기대를 높게 유지하기 위해 더 좋은 제품을 사야 한다.
+⑤ 연구자들은 경험이 왜 우리를 행복하게 하는지 아직 설명하지 못한다.
+[/Q06]
+
+[Q07]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~15
+TYPE:
+주장
+QUESTION:
+다음 글에서 필자가 주장하는 바로 가장 적절한 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_ids": ["202603242-Q20", "202606042-Q20", "202609022-Q20"], "rationale": "주장 고2 표본 [114, 153, 124]단어와 비교해 현재 192단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
+LENGTH_COMPARISON:
+{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_type": "주장", "benchmark_ids": ["202603242-Q20", "202606042-Q20", "202609022-Q20"], "reference_words": [114, 153, 124], "assessment_word_count": 192, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "주장 고2 표본 [114, 153, 124]단어와 비교해 현재 192단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE:
+A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things. We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this. First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one. Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.
+CHOICES:
+① We should buy new things often to keep ourselves excited.
+② We must stop comparing our cars with our friends’ cars.
+③ We should set higher standards for the products we buy.
+④ We need to save money instead of spending it on anything.
+⑤ We should spend our money on experiences rather than on things.
+ANSWER:
+5
+EVIDENCE:
+A long-term study … reached a powerful and clear conclusion: Don’t spend your money on things. / Gilovich and other researchers have found that experiences deliver longer lasting happiness than things.
+EXPLANATION:
+연구의 결론으로 물건에 돈을 쓰지 말라고 하고, 물건의 행복은 빨리 사라지지만 경험은 더 오래가는 행복을 준다고 했다. 따라서 물건보다 경험에 돈을 쓰라는 ⑤가 필자의 주장이다.
+WRONG_ANALYSIS:
+① 새 물건은 곧 평범해져 즐거움이 오래가지 않는다고 했으므로 반대다.
+② 차 비교는 물건의 행복이 사라지는 셋째 이유의 예일 뿐 필자의 주장이 아니다.
+③ 기준을 계속 높이는 것은 행복이 사라지는 이유로 제시되었다.
+④ 돈을 쓰지 말라는 대상은 물건이며, 경험은 더 오래가는 행복을 준다고 했다.
+CHOICES_KR:
+① 우리는 계속 신나기 위해 새 물건을 자주 사야 한다.
+② 우리는 우리의 차를 친구들의 차와 비교하는 것을 멈춰야 한다.
+③ 우리는 사는 제품에 대해 더 높은 기준을 정해야 한다.
+④ 우리는 무엇에든 돈을 쓰는 대신 돈을 모아야 한다.
+⑤ 우리는 물건보다 경험에 돈을 써야 한다.
+[/Q07]
+
+[PASSAGE_GROUP long-mock1]
+QUESTION_IDS:
+Q08, Q09
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~20
+PASSAGE:
+A long-term study conducted by Thomas Gilovich, a psychology professor at Cornell University, reached a powerful and clear conclusion: Don’t spend your money on things. We assume that the happiness we get from buying something will last as long as the thing itself. But it’s wrong. The trouble with things is that the happiness they provide fades quickly. There are three critical reasons for this.
+First, we get used to new possessions. What once seemed novel and exciting quickly becomes the norm. Second, we keep raising the bar. New purchases lead to new expectations. As soon as we get used to a new possession, we look for an even better one. Third, possessions stimulate humans to compare themselves with others. We buy a new car and are thrilled with it until a friend buys a better one, and there’s always someone with a better one.
+Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. That’s because experiences become a part of our identity. We are not our possessions, but we are the accumulation of everything we’ve seen, the things we’ve done, and the places we’ve been to.
+“Our experiences are a ① bigger part of ourselves than our material goods,” says Gilovich. “You can really ② like your material stuff. You can even think that part of your identity is ③ connected to those things, but nonetheless they remain ④ inseparable from you. On the other hand, your experiences really are ⑤ part of you. We are the sum total of our experiences.”
+ANNOTATIONS_BASIS:
+Transformed passage before generated labels; zero-based Unicode codepoints [start,end). These are not offsets in the displayed PASSAGE; text identifies each marked span.
+ANNOTATIONS:
+[{"kind": "numbered_word", "number": 1, "span": [1163, 1169], "text": "bigger"}, {"kind": "numbered_word", "number": 2, "span": [1245, 1249], "text": "like"}, {"kind": "numbered_word", "number": 3, "span": [1320, 1329], "text": "connected"}, {"kind": "numbered_word", "number": 4, "span": [1375, 1386], "text": "inseparable"}, {"kind": "numbered_word", "number": 5, "span": [1444, 1448], "text": "part"}]
+[/PASSAGE_GROUP long-mock1]
+
+[Q08]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~20
+TYPE:
+제목
+QUESTION:
+윗글의 제목으로 가장 적절한 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_ids": ["202603242-Q41_42", "202606042-Q41_42", "202609022-Q41_42"], "rationale": "공유 장문 41~42 고2 표본 [240, 218, 199]단어와 비교해 현재 253단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
+LENGTH_COMPARISON:
+{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_type": "long41_42", "benchmark_ids": ["202603242-Q41_42", "202606042-Q41_42", "202609022-Q41_42"], "reference_words": [240, 218, 199], "assessment_word_count": 253, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "공유 장문 41~42 고2 표본 [240, 218, 199]단어와 비교해 현재 253단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE_GROUP:
+long-mock1
+CHOICES:
+① How to Choose the Best Car for Your Family
+② Spend on Experiences, Not on Things
+③ Why We Should Always Upgrade Our Possessions
+④ Comparing Yourself with Others: The Key to Joy
+⑤ The Science of Saving Money for the Future
+ANSWER:
+2
+EVIDENCE:
+Don’t spend your money on things. / Gilovich and other researchers have found that experiences deliver longer lasting happiness than things. / We are the sum total of our experiences.
+EXPLANATION:
+길로비치의 연구를 바탕으로 물건이 주는 행복은 빨리 사라지고, 경험은 우리의 일부가 되어 더 오래가는 행복을 준다고 한다. 따라서 ‘물건이 아니라 경험에 돈을 써라’라는 ②가 제목으로 가장 적절하다.
+WRONG_ANALYSIS:
+① 차는 남과 비교하는 예로 나올 뿐이다.
+③ 계속 더 좋은 것을 찾는 것은 물건의 행복이 사라지는 이유로 제시되었다.
+④ 남과의 비교는 행복을 사라지게 하는 이유로 제시되었다.
+⑤ 돈을 모으는 방법은 나오지 않는다.
+CHOICES_KR:
+① 가족을 위한 최고의 차를 고르는 방법
+② 물건이 아니라 경험에 돈을 써라
+③ 우리가 항상 소유물을 업그레이드해야 하는 이유
+④ 자신을 남과 비교하기: 기쁨의 열쇠
+⑤ 미래를 위해 돈을 모으는 과학
+[/Q08]
+
+[Q09]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~20
+TYPE:
+어휘
+QUESTION:
+윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_ids": ["202603242-Q41_42", "202606042-Q41_42", "202609022-Q41_42"], "rationale": "공유 장문 41~42 고2 표본 [240, 218, 199]단어와 비교해 현재 253단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
+LENGTH_COMPARISON:
+{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 2, "benchmark_type": "long41_42", "benchmark_ids": ["202603242-Q41_42", "202606042-Q41_42", "202609022-Q41_42"], "reference_words": [240, 218, 199], "assessment_word_count": 253, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "공유 장문 41~42 고2 표본 [240, 218, 199]단어와 비교해 현재 253단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE_GROUP:
+long-mock1
+ANSWER:
+4
+EVIDENCE:
+You can even think that part of your identity is connected to those things, but nonetheless they remain separate from you. On the other hand, your experiences really are part of you.
+EXPLANATION:
+물건이 정체성과 연결되어 있다고 생각할 수 있지만 그럼에도(nonetheless) 여전히 우리와 분리되어 있고, 반면에 경험은 정말로 우리의 일부라고 대조한다. 따라서 ④의 inseparable(분리할 수 없는)은 문맥에 맞지 않고 separate(분리된)가 되어야 한다.
+WRONG_ANALYSIS:
+① 경험이 물질적 재화보다 우리 자신의 더 큰(bigger) 부분이라는 뜻으로 적절하다.
+② 물건을 정말 좋아할(like) 수는 있다고 인정하는 흐름에 맞다.
+③ 정체성의 일부가 그 물건들과 연결되어(connected) 있다고 생각할 수 있다는 뜻으로 적절하다.
+⑤ 경험은 정말로 우리의 일부(part)라는 뜻으로 적절하다.
+[/Q09]

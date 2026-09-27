@@ -1,0 +1,118 @@
+{
+ "reviewer": "M",
+ "solved_before_answer_key": true,
+ "answers": {
+  "Q01": 4,
+  "Q02": 5,
+  "Q03": 2,
+  "Q04": 3,
+  "Q05": 1,
+  "Q06": 5,
+  "Q07": 2,
+  "Q08": 3,
+  "Q09": 4,
+  "Q10": 1,
+  "Q11": 4,
+  "Q12": 2,
+  "Q13": 3,
+  "Q14": 5,
+  "Q15": 1,
+  "Q16": 1,
+  "Q17": 4,
+  "Q18": 3,
+  "Q19": 5,
+  "Q20": 2,
+  "Q21": 2,
+  "Q22": 4,
+  "Q23": 3,
+  "Q24": 5,
+  "Q25": 1,
+  "Q26": 3
+ },
+ "changed_items_recheck": {
+  "Q13": {
+   "answer_before": 3,
+   "answer_after": 3,
+   "unchanged": true,
+   "note": "바뀐 ⑤ 'In the beginning, subscriptions covered only limited products like milk and newspapers.'는 원문 9번 'Initially it was limited to products such as milk and newspapers.'와 일치하는 선지로, 불일치 정답은 여전히 ③(not new와 반대)뿐. CHOICES_KR ⑤·WRONG_ANALYSIS ⑤도 새 문구와 맞음."
+  },
+  "Q22": {
+   "answer_before": 4,
+   "answer_after": 4,
+   "unchanged": true,
+   "note": "빈칸이 'offer customized products and services to customers' 전체가 되고 빈칸 뒤 to customers가 사라져도 ④ provide goods and services suited to each person이 뒤 문장(AI·빅데이터로 needs·tastes 파악, 개인 맞춤 추천)과 맞는 유일한 선지. ①~⑤ 모두 'make it easy for companies to ___.'에 문법상 들어가며, 의미로만 가려짐."
+  }
+ },
+ "answer_comparison": {
+  "match": [
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06",
+   "Q07",
+   "Q08",
+   "Q09",
+   "Q10",
+   "Q11",
+   "Q12",
+   "Q13",
+   "Q14",
+   "Q15",
+   "Q16",
+   "Q17",
+   "Q18",
+   "Q19",
+   "Q20",
+   "Q21",
+   "Q22",
+   "Q23",
+   "Q24",
+   "Q25",
+   "Q26"
+  ],
+  "mismatch": []
+ },
+ "findings": [
+  {
+   "id": "M-01",
+   "location": "Q09(1회 4번 삽입) 해설 WRONG_ANALYSIS ①②③⑤ (같은 형식: Q23 3회 4번 삽입 ①②④⑤ — N 담당 범위, 참고)",
+   "current": "① ① 앞뒤는 온라인 플랫폼 덕분에 … / ② ② 앞뒤는 … / ③ ③ 앞뒤는 … / ⑤ ⑤ 앞은 이미 Today로 …",
+   "problem": "오답 번호 표시 뒤에 해설 문장이 다시 같은 원숫자로 시작해 '① ①'처럼 번호가 두 번 찍힌다. 다른 문항(Q08 순서 등)의 오답 정리는 번호가 한 번뿐이라 형식이 어긋나고, 조판본에서 오기로 보일 수 있다.",
+   "proposed_fix": "해설 문장 앞부분을 '이 자리 앞뒤는 …' / '앞은 이미 Today로 …'처럼 바꿔 원숫자를 한 번만 표시(Q23도 같은 방식으로 맞춤).",
+   "severity": "검토제안"
+  },
+  {
+   "id": "M-02",
+   "location": "Q03(워크북 3번 제목) EXPLANATION ↔ CHOICES_KR ②",
+   "current": "EXPLANATION: 따라서 ‘소유보다 접근: 개인마다 다양한 경험’이라는 ②가 … / CHOICES_KR ②: 소유보다 접근: 모든 개인을 위한 다양한 경험",
+   "problem": "같은 선지 ②를 해설 본문과 선지 해석에서 서로 다른 우리말로 인용한다(뜻은 같음). 따옴표 인용이라 학생이 두 번역을 비교할 때 혼동될 수 있다.",
+   "proposed_fix": "EXPLANATION의 인용을 CHOICES_KR와 같게 ‘소유보다 접근: 모든 개인을 위한 다양한 경험’으로 통일.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "M-03",
+   "location": "Q06(1회 1번 내용 일치) EXPLANATION ↔ CHOICES_KR ⑤",
+   "current": "EXPLANATION: 이를 ‘믿을 만한 수입을 얻고 고객을 계속 붙잡아 둔다’로 바꾸어 표현한 ⑤ … / CHOICES_KR ⑤: 기업들은 구독을 통해 믿을 만한 수입을 얻고 고객을 충성스럽게 유지할 수 있다.",
+   "problem": "해설 본문의 따옴표 인용과 선지 해석이 다르다(뜻은 같음).",
+   "proposed_fix": "EXPLANATION 인용을 ‘믿을 만한 수입을 얻고 고객을 충성스럽게 유지한다’로 바꿔 CHOICES_KR와 맞춤.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "M-04",
+   "location": "Q05(워크북 5번 주장) 정답 선지 ①",
+   "current": "① It is vital to be a wise consumer who subscribes only to what is really needed.",
+   "problem": "지문 마지막 문장 'become wise consumers who receive the services that are really needed'와 핵심 어구(wise consumer, really needed)가 거의 그대로 겹쳐, 단순 단어 일치로 정답이 드러난다(assessment-content.md 6항 '본문과의 단순 단어 일치' 주의). 정답 유일성에는 문제 없음. 블라인드 풀이 때 같은 의견을 남김.",
+   "proposed_fix": "정답은 그대로 두고 표현만 바꾸는 방안 검토. 예: ① We should understand subscriptions well and keep only the ones we truly need. (CHOICES_KR·해설 인용도 함께 수정)",
+   "severity": "검토제안"
+  }
+ ],
+ "workbook_check": {
+  "u1": "오늘의 낱말 8개(subscription·delivery·utilize·log in·academic·stay updated·field of study·quality time)가 FINAL ★ 각주 8개와 같고 정답 뜻도 같음. 유의어·반의어 9개(receive/obtain/send, expand/broaden/narrow, latest/newest/outdated)와 뜻이 FINAL 3세트와 같음. 실전문제 Q01은 이 유반을 영어 선지에 씀. 구문 3개(by V-ing, N+that V′, whatever S′ V′)가 FINAL 구문으로 해석하기와 순서·공식·결합 해석이 같고, 도움말 낱말 뜻은 FINAL 각주에서 가져옴(대명사 괄호 지칭만 뺌). 핵심 문장 3·5번과 해석이 FINAL 자연 해석과 같음. 참고로 1번 오늘의 낱말 배열만 원문 순서가 아님(u2·u3는 원문 순서, 규칙상 오류는 아님).",
+  "u2": "오늘의 낱말 8개(concept·initially·prioritize·revenue·customer loyalty·perspective·drivers·consumption)와 뜻이 FINAL과 같음. 유반 9개(stable/steady/unstable, flexible/adaptable/rigid, rapid/swift/gradual)가 같음. 구문 4개(N+p.p., instead of V-ing, both A and B, 보충 be p.p. will be sold once)와 정답이 FINAL과 같음. 핵심 문장 11·17번과 해석이 같음.",
+  "u3": "오늘의 낱말 8개(ownership·customization·personalize·uniqueness·stand out·address·accessible·enhance)와 뜻이 FINAL과 같음. 유반 9개(diverse/varied/uniform, limitless/endless/limited, valuable/precious/worthless)가 같음. 구문 4개(how S′ V′, enable A to V, what S′ V′, 보충 have p.p. has gained attention)와 정답이 FINAL과 같음. 핵심 문장 24·27번과 해석이 같음.",
+  "source": "Q01~Q13 지문을 FINAL 원문 문장과 기계 대조했으며, 의도한 변형 문장(Q12 decrease 표적)만 다름. FINAL 원문 1~36번은 원본 PDF 1~2쪽 렌더 이미지와 육안으로 대조함."
+ },
+ "summary": "블라인드 답 26문항이 모두 정답과 같음(불일치 0). 바뀐 Q13·Q22도 답이 그대로임. Q01~Q13 해설의 정답 근거·선지 해석·오답 정리는 원문·정답과 맞고 확정 오류는 없음. 검토제안은 4건: Q09 오답 정리 번호 이중 표기(Q23도 같음), Q03·Q06 해설 인용과 선지 해석의 표현 차이, Q05 정답 선지의 본문 어구 단순 일치. 워크북 u1·u2·u3의 1·2·4·5번과 정답은 학습 FINAL과 모두 일치함."
+}

@@ -1,0 +1,19 @@
+[출고검수] 영어2 YBM(박준언) 2과 Further Reading
+[판정] 출고 완료(2026-09-27, 사용자 결정 “본문과 동일”로 Word 확인 제외) — 표준 판정 verify_release REVIEW_PENDING(오류 0)
+[출고 기록] 작업_FR/출고기록/출고기록.json → 출고검증.json
+[전달 ZIP] 결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading.zip (DOCX 6개)
+
+[검수 역할별 상태]
+| S 원문 | 제작 세션 기계 대조(독립 아님) | PASS — 5쪽 섹션 표시·제목·20문장 1,544자 완전 일치, 단락 4개 일치 |
+| L 학습 | 서브에이전트 FR-L-a(u1)·FR-L-b(u2+연결)·FR-L-재검 | PASS — 결정 19건(반영 18, 미반영 1: 도구 구조) |
+| M·N 문항 | 서브에이전트 2명 블라인드(v1·v2) → 대조 | PASS — v1·v2 모두 9/9 일치, 편성 2회 조정 |
+| J 조판 | 서브에이전트 FR-J, LibreOffice 예비 24쪽 | 결함 1(MASTER 설계로 유지), Word 대기 1 |
+| R 출고 대조 | check_release_text 기계 대조 | machine PASS, 경고 0 |
+| 분권 | split_book verify | SPLIT_CONTENT_MATCH, ZIP 6개 바이트 일치, 예비 쪽 흐름 24쪽 새 결함 없음 |
+
+[제외(사용자 결정)] Word 렌더 기록, Word 기준 J·K(통합본·분권), 독립 R.
+[Word에서 볼 곳] 13쪽 분석 설명부 소폭 넘침 여부, 15쪽 워크북 4번 2번 해석 빈칸 줄바꿈.
+[표지 수정 재출고] 2026-09-27 사용자 요청으로 표지 과 표시를 “2과 (Further Reading)”으로 바꾼 뒤 저장본·R·출고 기록·분권을 다시 검사해 같은 결과(오류 0, SPLIT_CONTENT_MATCH).
+[상세] 작업_FR/검수기록/, 작업_FR/영어2_YBM(박준언)_2과FurtherReading_수정이력.txt
+
+[Word 확인] 2026-09-27 사용자가 Word에서 직접 전체 확인 완료(사용자 보고 “word는 내가 다 확인했어”, 수정 요청 없음). Word 렌더 기록 파일은 저장소에 없어 verify_release 표준 판정은 REVIEW_PENDING 그대로 둠.

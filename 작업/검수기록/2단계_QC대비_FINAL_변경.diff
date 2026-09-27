@@ -1,0 +1,339 @@
+--- "\354\230\201\354\226\2642_YBM(\353\260\225\354\244\200\354\226\270)_UNIT02_QC_HANDOFF.txt"	2026-09-27 10:32:18.425751448 +0000
++++ "\354\230\201\354\226\2642_YBM(\353\260\225\354\244\200\354\226\270)_UNIT02_FINAL.txt"	2026-09-27 11:30:50.038223425 +0000
+@@ -18,7 +18,7 @@
+ Jiyun, / a high school student, / starts her day / by logging in to a music streaming service / on her smartphone.
+ [S/V] S: Jiyun, V: starts
+ [각주]
+-Jiyun — 지윤 (고등학생) / high school student — 고등학생 / start — 시작하다 / her — 그녀의 (지윤) / day — 하루 / by V-ing — ~함으로써 / ★ log in to — ~에 로그인하다 / music — 음악 / streaming — 스트리밍 (인터넷으로 실시간 재생하는 방식) / service — 서비스 / on — ~으로 (흔한 뜻: ~위에) / her — 그녀의 (지윤) / smartphone — 스마트폰
++Jiyun — 지윤 (고등학생) / high school student — 고등학생 / start — 시작하다 / her — 그녀의 (지윤) / day — 하루 / by V-ing — ~함으로써 / ★ log in — 로그인하다 / to — ~에 / music — 음악 / streaming — 스트리밍 (인터넷으로 실시간 재생하는 방식) / service — 서비스 / on — ~으로 (흔한 뜻: ~위에) / her — 그녀의 (지윤) / smartphone — 스마트폰
+ [구조 힌트] [by logging in] → [로그인함으로써] (전치사 by + 동명사)
+ [분석 끊어읽기 영어]
+ Jiyun, / a high school student, / starts her day / by logging in to a music streaming service / on her smartphone.
+@@ -71,9 +71,9 @@
+ After school, / Jiyun utilizes a video lecture service / to expand her knowledge / in whatever she finds interesting.
+ [S/V] S: Jiyun, V: utilizes ／ [whatever] S′: she, V′: finds
+ [각주]
+-after school — 방과 후에 / ★ utilize — 활용하다, 이용하다 / video — 비디오, 동영상 / lecture — 강의 / service — 서비스 / to V — ~하기 위해 / expand — 넓히다, 확장하다 / her — 그녀의 (지윤) / knowledge — 지식 / in — ~에서 / whatever S′ V′ — S′(이/가) V′하는 것은 무엇이든 / she — 그녀가 (지윤) / find A B — A를 B하다고 여기다 / interesting — 흥미로운
++after school — 방과 후에 / ★ utilize — 활용하다, 이용하다 / video — 비디오, 동영상 / lecture — 강의 / service — 서비스 / to V — ~하기 위해 / expand — 넓히다, 확장하다 / her — 그녀의 (지윤) / knowledge — 지식 / in — ~에서 / whatever S′ V′ — S′(이/가) V′하는 어떤 것이든 / she — 그녀가 (지윤) / find A B — A를 B하다고 여기다 / interesting — 흥미로운
+ [구조 힌트] [to expand] → [넓히기 위해] (목적의 to부정사)
+-[구조 힌트] [whatever she finds] → [그녀[지윤]가 여기는 것은 무엇이든] (복합관계대명사 whatever)
++[구조 힌트] [whatever she finds] → [그녀[지윤]가 여기는 어떤 것이든] (복합관계대명사 whatever)
+ [분석 끊어읽기 영어]
+ After school, / Jiyun utilizes a video lecture service / to expand her knowledge / in whatever she finds interesting.
+ [분석 끊어읽기 한국어]
+@@ -90,12 +90,12 @@
+ For example, / she watches various academic lectures / to review her schoolwork / and stay updated about the latest knowledge / in her chosen field of study.
+ [S/V] S: she, V: watches
+ [각주]
+-for example — 예를 들어 / she — 그녀는 (지윤) / watch — 시청하다, 보다 / various — 다양한 / ★ academic — 학술적인, 학문의 / lectures — 강의들 / to V — ~하기 위해 / review — 복습하다 (흔한 뜻: 검토하다) / her — 그녀의 (지윤) / schoolwork — 학교 공부, 학업 / ★ stay updated about — ~에 대해 계속 최신 정보를 알고 있다 / latest — 최신의 / knowledge — 지식 / in — ~에서의 / her — 그녀의 (지윤) / chosen — 선택된 / ★ field of study — 학문 분야, 연구 분야
+-[구조 힌트] [to review her schoolwork and stay updated] → [그녀[지윤]의 학교 공부를 복습하고 계속 새로 알기 위해] (목적의 to부정사)
++for example — 예를 들어 / she — 그녀는 (지윤) / watch — 시청하다, 보다 / various — 다양한 / ★ academic — 학술적인, 학문의 / lectures — 강의들 / to V — ~하기 위해 / review — 복습하다 (흔한 뜻: 검토하다) / her — 그녀의 (지윤) / schoolwork — 학교 공부, 학업 / ★ stay updated — 계속 최신 정보를 알다 / about — ~에 관해 / latest — 최신의 / knowledge — 지식 / in — ~에서의 / her — 그녀의 (지윤) / chosen — 선택된 / ★ field of study — 학문 분야, 연구 분야
++[구조 힌트] [to review her schoolwork and stay updated] → [그녀[지윤]의 학교 공부를 복습하고 계속 최신 정보를 알기 위해] (목적의 to부정사)
+ [분석 끊어읽기 영어]
+ For example, / she watches various academic lectures / to review her schoolwork / and stay updated about the latest knowledge / in her chosen field of study.
+ [분석 끊어읽기 한국어]
+-예를 들어, / 그녀는 다양한 학술 강의들을 시청한다 / 그녀의 학교 공부를 복습하기 위해 / 그리고 최신 지식에 대해 계속 새로 알기 위해 / 그녀가 선택한 학문 분야에서의.
++예를 들어, / 그녀는 다양한 학술 강의들을 시청한다 / 그녀의 학교 공부를 복습하기 위해 / 그리고 최신 지식에 관해 계속 최신 정보를 알기 위해 / 그녀가 선택한 학문 분야에서의.
+ [자연 해석]
+ 예를 들어, 그녀는 학교 공부를 복습하고 자신이 선택한 학문 분야의 최신 지식을 계속 새로 알기 위해 다양한 학술 강의를 시청한다.
+ ----- [/문장 5] -----
+@@ -125,19 +125,19 @@
+ [글의 의도/요지]
+ 고등학생 지윤이의 하루를 따라가며 음악 감상·아침 식사·공부·주말 여가까지 일상의 많은 부분이 구독 서비스로 채워져 있음을 보여 주고, 구독 경제라는 화제를 꺼내는 도입 글이다.
+ [글의 흐름]
+-(아침) 본문 · 원문 문장 1~3 — 지윤이는 스마트폰으로 음악 스트리밍 서비스에 로그인하며 하루를 시작하고, 아침 식사 재료도 구독 서비스로 배송받는다.
++(아침과 일상) 본문 · 원문 문장 1~3 — 지윤이는 스마트폰으로 음악 스트리밍 서비스에 로그인하며 하루를 시작하고, 매일 좋아하는 음악을 듣고 새 노래와 아티스트를 찾아본다. 아침 식사 재료도 구독 서비스로 배송받는다.
+ (방과 후와 주말) 본문 · 원문 문장 4~6 — 방과 후에는 동영상 강의 서비스로 공부를 넓히고, 주말에는 가족과 스트리밍 서비스로 영화나 드라마를 본다. 하루 전체가 구독 서비스와 이어져 있다.
+ [각 문장 쉬운 풀이]
+ [1번 문장] Jiyun, a high school student, starts her day by logging in to a music streaming service on her smartphone.
+-1번 문장은 지윤이라는 고등학생의 하루로 글을 시작한다. 스트리밍 서비스는 음악이나 영상을 내려받지 않고 인터넷으로 바로 틀어 주는 서비스다. 지윤이는 아침에 눈을 뜨자마자 이 서비스에 로그인한다. 글쓴이는 이 평범한 아침 모습으로 구독 서비스가 우리 생활 가까이에 있다는 것을 보여 준다.
++1번 문장은 지윤이라는 고등학생의 하루로 글을 시작한다. 스트리밍 서비스는 음악이나 영상을 내려받지 않고 인터넷으로 바로 틀어 주는 서비스다. 지윤이는 하루를 시작하면서 가장 먼저 이 서비스에 로그인한다. 글쓴이는 이 평범한 아침 모습으로 구독 서비스가 우리 생활 가까이에 있다는 것을 보여 준다.
+ [3번 문장] For a healthy breakfast, Jiyun receives a delivery from a subscription service that provides fresh vegetables and fruits.
+ 3번 문장은 음악에 이어 먹는 일에서도 구독 서비스가 쓰인다는 것을 보여 준다. 구독은 정해진 돈을 정기적으로 내고 물건이나 서비스를 계속 받는 방식이다. 지윤이는 신선한 채소와 과일을 이런 구독 서비스로 배송받는다. 장을 보러 가지 않아도 건강한 아침 식사 재료가 집으로 온다.
+ [5번 문장] For example, she watches various academic lectures to review her schoolwork and stay updated about the latest knowledge in her chosen field of study.
+ 5번 문장은 4번에서 말한 강의 서비스를 지윤이가 어떻게 쓰는지 예를 든다. 지윤이는 학교에서 배운 것을 복습하려고 강의를 본다. 또 자기가 관심 있게 고른 분야에서 새로 나온 지식도 계속 따라잡으려고 강의를 본다. 공부에도 구독 서비스가 쓰인다는 뜻이다.
+ [구문으로 해석하기]
+-by + V-ing: ~함으로써 [1번 문장]: starts her day by logging in to a music streaming service — 공식: by + V-ing — ~함으로써. V-ing = logging in to(~에 로그인하다), 대상 = a music streaming service(음악 스트리밍 서비스). → 음악 스트리밍 서비스에 로그인함으로써. 앞의 starts her day(그녀의 하루를 시작한다)와 합치면 ‘로그인하는 것으로 하루를 시작한다’가 된다.
++by + V-ing: ~함으로써 [1번 문장]: starts her day by logging in to a music streaming service — 공식: by + V-ing — ~함으로써. V-ing = logging in(로그인하다), to = ~에, 대상 = a music streaming service(음악 스트리밍 서비스). → 음악 스트리밍 서비스에 로그인함으로써. 앞의 starts her day(그녀의 하루를 시작한다)와 합치면 ‘로그인하는 것으로 하루를 시작한다’가 된다.
+ 명사 + that V′: V′하는 명사 [3번 문장]: a subscription service that provides fresh vegetables and fruits — 공식: 명사(N) + that V′ — V′하는 N. 선행사 = a subscription service(구독 서비스), that = 주격 관계대명사(그 서비스가), V′ = provides(제공하다), 목적어 = fresh vegetables and fruits(신선한 채소와 과일). → 신선한 채소와 과일을 제공하는 구독 서비스. that 뒤에 주어가 따로 없으므로 that이 주어 역할을 한다.
+-whatever S′ V′: S′가 V′하는 것은 무엇이든 [4번 문장]: whatever she finds interesting — 공식: whatever S′ V′ — S′(이/가) V′하는 것은 무엇이든. S′ = she(지윤), V′ = finds(여기다; find A B = A를 B하다고 여기다), A = whatever(앞으로 나간 목적어), B = interesting(흥미로운). → 그녀가 흥미롭다고 여기는 것은 무엇이든. 앞의 in과 합치면 ‘그녀가 흥미를 느끼는 어떤 것에서든’이다.
++whatever S′ V′: S′가 V′하는 어떤 것이든 [4번 문장]: whatever she finds interesting — 공식: whatever S′ V′ — S′(이/가) V′하는 어떤 것이든. S′ = she(지윤), V′ = finds(여기다; find A B = A를 B하다고 여기다), A = whatever(앞으로 나간 목적어), B = interesting(흥미로운). → 그녀가 흥미롭다고 여기는 어떤 것이든. 앞의 in(~에서)과 합치면 ‘그녀가 흥미롭다고 여기는 어떤 것에서든’이다.
+ [유의어·반의어]
+ 표제어: receive (받다) / 유의어: obtain (얻다, 획득하다) / 반의어: send (보내다)
+ 표제어: expand (넓히다, 확장하다) / 유의어: broaden (넓히다) / 반의어: narrow (좁히다)
+@@ -159,7 +159,7 @@
+ To be sure, / the subscription economy is a popular economic model / nowadays, / and Jiyun is actively taking part in it.
+ [S/V] S: the subscription economy, V: is ／ [and] S: Jiyun, V: is taking
+ [각주]
+-to be sure — 분명히, 확실히 / subscription economy — 구독 경제 (정기적으로 이용료를 내고 상품·서비스를 이용하는 경제 방식) / is — ~이다 / popular — 인기 있는 / economic — 경제의 / model — 모델, 방식 / nowadays — 요즘 / be V-ing — ~하고 있다 / actively — 적극적으로 / take part in — ~에 참여하다 / it — 그것 (구독 경제)
++to be sure — 분명히, 확실히 / subscription economy — 구독 경제 (정기적으로 이용료를 내고 상품·서비스를 이용하는 경제 방식) / is — ~이다 / popular — 인기 있는 / economic — 경제의 / model — 모델, 방식 / nowadays — 요즘 / be V-ing — ~하고 있다 / actively — 적극적으로 / take part — 참여하다 / in — ~에 / it — 그것 (구독 경제)
+ [분석 끊어읽기 영어]
+ To be sure, / the subscription economy is a popular economic model / nowadays, / and Jiyun is actively taking part in it.
+ [분석 끊어읽기 한국어]
+@@ -176,7 +176,7 @@
+ The concept / of business models / based on subscriptions / is not new.
+ [S/V] S: The concept, V: is
+ [각주]
+-★ concept — 개념 / of — ~의 / business models — 비즈니스 모델들, 사업 방식들 / based on — (~에) 기반한 / subscriptions — 구독들 / is — ~이다 / not — ~이 아닌 / new — 새로운
++★ concept — 개념 / of — ~의 / business models — 비즈니스 모델들, 사업 방식들 / based on — (~에) 기반한 / subscriptions — 구독들 / is — ~이다 / not — ~지 않다 / new — 새로운
+ [구조 힌트] business models [based on subscriptions] → [구독에 기반한] 비즈니스 모델들 (과거분사 후치수식)
+ [분석 끊어읽기 영어]
+ The concept / of business models / based on subscriptions / is not new.
+@@ -227,16 +227,16 @@
+ [원문]
+ Instead of creating a hit product that will be sold once, companies now prioritize providing continuing value, such as new content, more personalization, or access to updates.
+ [혼공 끊어읽기]
+-Instead of creating a hit product / that will be sold once, / companies now prioritize providing continuing value, / such as new content, more personalization, / or access / to updates.
++Instead of creating a hit product / that will be sold once, / companies now prioritize providing continuing value, / such as new content, more personalization, or access / to updates.
+ [S/V] S: companies, V: prioritize ／ [that] V′: will be sold
+ [각주]
+ instead of — ~ 대신에 / V-ing — ~하는 것 / create — 만들어 내다 / hit product — 히트 상품 (크게 성공한 상품) / that V′ — V′하는 (관계대명사) / will V — ~할 것이다 / be p.p. — ~되다 / sold — 팔린 / once — 한 번 / companies — 기업들, 회사들 / now — 이제 / ★ prioritize — 우선시하다 / V-ing — ~하는 것 / provide — 제공하다 / continuing — 지속적인, 계속되는 / value — 가치 / such as — ~ 같은 / new — 새로운 / content — 콘텐츠, 내용물 / more — 더 많은 / personalization — 개인 맞춤화 / or — 또는 / access — 접근, 이용 (권한) / to — ~에 대한 / updates — 업데이트들
+ [구조 힌트] a hit product [that will be sold] → [팔릴] 히트 상품 (주격 관계대명사 that)
+ [구조 힌트] [Instead of creating] → [만들어 내는 것 대신에] (전치사 instead of + 동명사)
+ [분석 끊어읽기 영어]
+-Instead of creating a hit product / that will be sold once, / companies now prioritize providing continuing value, / such as new content, more personalization, / or access / to updates.
++Instead of creating a hit product / that will be sold once, / companies now prioritize providing continuing value, / such as new content, more personalization, or access / to updates.
+ [분석 끊어읽기 한국어]
+-히트 상품을 만들어 내는 것 대신에 / 한 번 팔릴, / 기업들은 이제 지속적인 가치를 제공하는 것을 우선시한다, / 새로운 콘텐츠, 더 많은 개인 맞춤화, / 또는 접근 같은 / 업데이트에 대한.
++히트 상품을 만들어 내는 것 대신에 / 한 번 팔릴, / 기업들은 이제 지속적인 가치를 제공하는 것을 우선시한다, / 새로운 콘텐츠, 더 많은 개인 맞춤화, 또는 접근 같은 / 업데이트에 대한.
+ [자연 해석]
+ 한 번 팔리고 끝날 히트 상품을 만드는 대신, 기업들은 이제 새로운 콘텐츠, 더 많은 개인 맞춤화, 업데이트 이용 같은 지속적인 가치를 제공하는 것을 우선시한다.
+ ----- [/문장 11] -----
+@@ -337,7 +337,7 @@
+ The rise / of the subscription economy / is closely connected to two major drivers: / changes / in consumption trends / and the rapid growth / of online platforms.
+ [S/V] S: The rise, V: is connected
+ [각주]
+-rise — 부상, 성장 (흔한 뜻: 오르다) / of — ~의 / subscription economy — 구독 경제 / be p.p. — ~되어 있다 / closely — 밀접하게 / connected — 연결된, 관련된 / to — ~에 / two — 두 / major — 주요한 / ★ drivers — 동인들, 원동력들 (흔한 뜻: 운전자들) / changes — 변화들 / in — ~에서의 / ★ consumption — 소비 / trends — 추세들, 경향들 / rapid — 급속한, 빠른 / growth — 성장 / of — ~의 / online — 온라인의 / platforms — 플랫폼들 (서비스가 이루어지는 온라인 공간)
++rise — 부상, 성장 (흔한 뜻: 상승) / of — ~의 / subscription economy — 구독 경제 / be p.p. — ~되어 있다 / closely — 밀접하게 / connected — 연결된, 관련된 / to — ~에 / two — 두 / major — 주요한 / ★ drivers — 동인들, 원동력들 (흔한 뜻: 운전자들) / changes — 변화들 / in — ~에서의 / ★ consumption — 소비 / trends — 추세들, 경향들 / rapid — 급속한, 빠른 / growth — 성장 / of — ~의 / online — 온라인의 / platforms — 플랫폼들 (서비스가 이루어지는 온라인 공간)
+ [구조 힌트] connected(연결된) → is closely connected(밀접하게 연결되어 있다) (be p.p.)
+ [분석 끊어읽기 영어]
+ The rise / of the subscription economy / is closely connected to two major drivers: / changes / in consumption trends / and the rapid growth / of online platforms.
+@@ -360,7 +360,7 @@
+ [11번 문장] Instead of creating a hit product that will be sold once, companies now prioritize providing continuing value, such as new content, more personalization, or access to updates.
+ 11번 문장은 10번에서 말한 구독 모델이 기업의 판매 방식을 어떻게 바꿨는지 보여 준다. 예전에는 크게 인기를 끄는 상품 하나를 만들어 한 번 팔면 거래가 끝났다. 이제 기업들은 고객이 계속 돈을 낼 만한 가치를 꾸준히 제공하는 데 힘을 쏟는다. 새 콘텐츠, 나에게 맞춘 서비스, 업데이트를 받을 권리 같은 것이 그런 가치다.
+ [14번 문장] Companies can have a stable revenue and build customer loyalty by using the subscription model.
+-14번 문장은 13번에서 말한 이점 중 기업이 얻는 이점을 먼저 설명한다. 구독자는 매달 정해진 돈을 내기 때문에 기업은 수입을 미리 예상할 수 있다. 이것이 안정적인 수입이다. 또 고객이 한 서비스를 오래 쓰면서 그 기업을 계속 찾게 되는데, 이것을 고객 충성도라고 한다.
++14번 문장은 13번에서 말한 이점 중 기업이 얻는 이점을 먼저 설명한다. 구독자는 정해진 돈을 정기적으로 내기 때문에 기업은 수입을 미리 예상할 수 있다. 이것이 안정적인 수입이다. 또 고객이 한 서비스를 오래 쓰면서 그 기업을 계속 찾게 되는데, 이것을 고객 충성도라고 한다.
+ [17번 문장] The rise of the subscription economy is closely connected to two major drivers: changes in consumption trends and the rapid growth of online platforms.
+ 17번 문장은 이 부분을 마무리하면서 구독 경제가 커진 두 가지 이유를 꺼낸다. 동인은 어떤 일이 일어나게 만드는 힘을 말한다. 첫째 동인은 사람들이 물건을 사고 쓰는 방식이 달라진 것이다. 둘째 동인은 온라인 플랫폼이 빠르게 성장한 것이다. 뒤 소제목들에서 이 두 가지를 하나씩 자세히 다룬다.
+ [구문으로 해석하기]
+@@ -498,7 +498,7 @@
+ The subscription economy offers / a diverse range of subscription options, / enabling individuals to personalize their experiences / based on their own preferences and interests.
+ [S/V] S: The subscription economy, V: offers
+ [각주]
+-subscription economy — 구독 경제 / offer — 제공하다 / a diverse range of — 다양한 범위의 / subscription — 구독 / options — 선택지들, 선택 사항들 / V-ing — ~하면서 / enable A to V — A(이/가) ~할 수 있게 해 주다 / individuals — 개인들 / ★ personalize — 개인 맞춤화하다, 개인에게 맞추다 / their — 그들의 (개인들) / experiences — 경험들 / based on — (~에) 기초하여 / their — 그들 (개인들) / own — 자신의 / preferences — 선호들, 취향들 / interests — 관심사들
++subscription economy — 구독 경제 / offer — 제공하다 / a diverse range of — 다양한 범위의 / subscription — 구독 / options — 선택지들, 선택 사항들 / V-ing — ~하면서 / enable A to V — A(이/가) ~할 수 있게 해 주다 / individuals — 개인들 / ★ personalize — 개인 맞춤화하다, 개인에게 맞추다 / their — 그들의 (개인들) / experiences — 경험들 / based on — (~에) 기초하여 / their own — 그들 자신의 (개인들) / preferences — 선호들, 취향들 / interests — 관심사들
+ [구조 힌트] enabling individuals [to personalize] → 개인들이 [개인 맞춤화할 수 있게] 해 주면서 (enable A to V 구문)
+ [분석 끊어읽기 영어]
+ The subscription economy offers / a diverse range of subscription options, / enabling individuals to personalize their experiences / based on their own preferences and interests.
+@@ -572,7 +572,7 @@
+ To come to the point, / consumers receive a personalized experience / that prioritizes their individual skin conditions, / rather than a uniform purchasing process.
+ [S/V] S: consumers, V: receive ／ [that] V′: prioritizes
+ [각주]
+-to come to the point — 요점을 말하자면 / consumers — 소비자들 / receive — 받다, 얻다 / personalized — 개인 맞춤형의 / experience — 경험 / that V′ — V′하는 (관계대명사) / prioritize — 우선시하다 / their — 그들의 (소비자들) / individual — 개인의, 개개인의 / skin — 피부 / conditions — 상태들 / rather than — ~ 대신에, ~보다는 / uniform — 획일적인, 똑같은 (흔한 뜻: 제복) / purchasing — 구매의, 구매하는 / process — 과정
++to come to the point — 요점을 말하자면 / consumers — 소비자들 / receive — 받다, 얻다 / personalized — 개인 맞춤형의 / experience — 경험 / that V′ — V′하는 (관계대명사) / prioritize — 우선시하다 / their — 그들의 (소비자들) / individual — 개인의, 개개인의 / skin — 피부 / conditions — 상태들 (흔한 뜻: 조건들) / rather than — ~ 대신에 / uniform — 획일적인, 똑같은 (흔한 뜻: 제복) / purchasing — 구매의, 구매하는 / process — 과정
+ [구조 힌트] a personalized experience [that prioritizes] → [우선시하는] 개인 맞춤형 경험 (주격 관계대명사 that)
+ [분석 끊어읽기 영어]
+ To come to the point, / consumers receive a personalized experience / that prioritizes their individual skin conditions, / rather than a uniform purchasing process.
+@@ -590,7 +590,7 @@
+ Furthermore, / consumers appreciate flexibility and convenience.
+ [S/V] S: consumers, V: appreciate
+ [각주]
+-furthermore — 게다가 / consumers — 소비자들 / appreciate — 높이 평가하다, 진가를 알다 / flexibility — 유연성 / convenience — 편리함, 편의성
++furthermore — 게다가 / consumers — 소비자들 / appreciate — 높이 평가하다, 진가를 알다 (흔한 뜻: 감사하다) / flexibility — 유연성 / convenience — 편리함, 편의성
+ [분석 끊어읽기 영어]
+ Furthermore, / consumers appreciate flexibility and convenience.
+ [분석 끊어읽기 한국어]
+@@ -731,19 +731,19 @@
+ [글의 의도/요지]
+ 사람들이 구독 경제를 좋아하는 이유를 소유보다 경험을 중시하는 태도, 다양성과 맞춤화, 유연성과 편리함의 세 가지로 나누어 설명하고, 이유마다 구체적인 예를 드는 글이다.
+ [글의 흐름]
+-(이유 1: 소유보다 경험) 본문 · 원문 문장 18~22 — 사람들은 물건을 갖는 것보다 경험을 중시하게 되었고, 구독은 소유하지 않고도 서비스를 쓸 수 있게 해 주어 매력적이다. 음악 스트리밍과 의류 구독이 그 예다.
++(이유 1: 소유보다 경험) 본문 · 원문 문장 18~22 — 구독 경제는 요즘 사람들이 소비하는 방식, 곧 17번에서 말한 첫째 동인인 소비 추세의 변화와 밀접하게 관련된다. 사람들은 물건을 갖는 것보다 경험을 중시하게 되었고, 구독은 소유하지 않고도 서비스를 쓸 수 있게 해 주어 매력적이다. 음악 스트리밍과 의류 구독이 그 예다.
+ (이유 2: 다양성과 맞춤화) 본문 · 원문 문장 23~28 — 소비자들은 다양성과 맞춤화를 중시하는데, 구독 경제는 취향에 맞게 경험을 고를 수 있게 해 준다. 특히 젊은 세대가 좋아하며, 피부 상태를 분석해 맞춤 화장품까지 추천하는 화장품 구독 서비스가 대표적인 예다.
+ (이유 3: 유연성과 편리함) 본문 · 원문 문장 29~36 — 고정 비용으로 다양하게 누리거나 필요한 것만 골라 요금을 줄일 수 있어 유연하다. 또 온라인 플랫폼 덕분에 몇 번의 클릭으로 서비스를 받고 기기도 쉽게 바꾸거나 업그레이드할 수 있어 편리하다.
+ [각 문장 쉬운 풀이]
+ [20번 문장] This makes the subscription economy attractive to them because it offers access to services or content without the requirement of ownership.
+-20번 문장은 19번에서 말한 변화가 왜 구독 경제에 유리한지 설명한다. 요즘 사람들은 물건을 갖는 것보다 무언가를 경험하는 것을 더 중요하게 여긴다. 구독을 하면 물건을 사서 가지지 않아도 서비스나 콘텐츠를 쓸 수 있다. 그래서 경험을 중시하는 사람들에게 구독 경제가 매력적으로 보인다.
++20번 문장은 19번에서 말한 변화가 왜 구독 경제에 유리한지 설명한다. 요즘은 물건을 갖는 것보다 무언가를 경험하는 것을 더 중요하게 여기는 사람이 점점 늘고 있다. 구독을 하면 물건을 사서 가지지 않아도 서비스나 콘텐츠를 쓸 수 있다. 그래서 경험을 중시하는 사람들에게 구독 경제가 매력적으로 보인다.
+ [27번 문장] It stands out by thoroughly analyzing customers’ current skin conditions and providing specialized recommendations, including manufacturing cosmetics created to address each individual’s unique skin concerns.
+-27번 문장은 26번에서 소개한 화장품 구독 서비스가 어떤 점에서 눈에 띄는지 알려 준다. 이 서비스는 먼저 고객의 지금 피부 상태를 꼼꼼히 살핀다. 그다음 그 사람에게 맞는 제품을 추천한다. 필요하면 그 사람의 피부 고민에 딱 맞는 화장품을 따로 만들어 주기도 한다. 모두에게 같은 제품을 파는 것이 아니라 한 사람 한 사람에게 맞춰 준다는 점이 핵심이다.
++27번 문장은 26번에서 소개한 화장품 구독 서비스가 어떤 점에서 눈에 띄는지 알려 준다. 이 서비스는 먼저 고객의 지금 피부 상태를 꼼꼼히 살핀다. 그다음 그 사람에게 맞는 제품을 추천한다. 추천에는 그 사람의 피부 고민을 해결하도록 만든 화장품을 제조해 주는 것까지 들어 있다. 모두에게 같은 제품을 파는 것이 아니라 한 사람 한 사람에게 맞춰 준다는 점이 핵심이다.
+ [32번 문장] This means they can either enjoy a range of offerings for a set price or save money by selecting only what they really need.
+-32번 문장은 30번과 31번에서 말한 두 가지 구독 방식을 정리한다. 첫째 방식은 정해진 돈을 내고 여러 가지 상품을 마음껏 누리는 것이다. 둘째 방식은 정말 필요한 것만 골라서 돈을 아끼는 것이다. 소비자는 자기 상황에 맞는 방식을 고를 수 있다. 이것이 구독의 유연성이다.
++32번 문장은 30번과 31번에서 말한 두 가지 구독 방식을 정리한다. 첫째 방식은 정해진 돈을 내고 여러 가지 상품을 누리는 것이다. 둘째 방식은 정말 필요한 것만 골라서 돈을 아끼는 것이다. 소비자는 자기 상황에 맞는 방식을 고를 수 있다. 이것이 구독의 유연성이다.
+ [구문으로 해석하기]
+ how S′ V′: 어떻게 S′가 V′하는지 (간접의문문) [18번 문장]: how people consume goods and services — 공식: how S′ V′ — 어떻게 S′(이/가) V′하는지. S′ = people(사람들), V′ = consume(소비하다), 목적어 = goods and services(재화와 서비스). → 사람들이 어떻게 재화와 서비스를 소비하는지. 앞의 be relevant to(~와 관련이 있다)의 to 뒤에 명사 대신 이 의문사절이 왔다.
+-enable A to V: A가 ~할 수 있게 해 주다 [24번 문장]: enabling individuals to personalize their experiences — 공식: enable A to V — A(이/가) ~할 수 있게 해 주다. A = individuals(개인들), to V = to personalize(개인 맞춤화하다), personalize의 목적어 = their experiences(그들의 경험). → 개인들이 그들의 경험을 개인 맞춤화할 수 있게 해 주다. 콤마 뒤 enabling은 앞 절(다양한 선택지를 제공한다)의 결과를 이어 준다.
++enable A to V: A가 ~할 수 있게 해 주다 [24번 문장]: enabling individuals to personalize their experiences — 공식: enable A to V — A(이/가) ~할 수 있게 해 주다. A = individuals(개인들), to V = to personalize(개인 맞춤화하다), personalize의 목적어 = their experiences(그들의 경험). → 개인들이 그들의 경험을 개인 맞춤화할 수 있게 해 주다. 콤마 뒤 enabling은 앞 절(다양한 선택지를 제공한다)에 이어지는 일을 ‘~하면서’로 덧붙인다.
+ what S′ V′: S′가 V′하는 것 (관계대명사 what) [32번 문장]: by selecting only what they really need — 공식: what S′ V′ — S′(이/가) V′하는 것. S′ = they(소비자들), V′ = need(필요로 하다), really = 정말로. → 그들이 정말로 필요로 하는 것. what은 ‘~하는 것’이라는 명사 덩어리를 만들어 selecting only(~만을 선택하는 것)의 목적어가 된다.
+ have p.p.: ~해 왔다 (has gained attention: 주목을 얻어 왔다) [26번 문장]: A popular example that has gained attention — 공식: have p.p. — ~해 왔다. p.p. = gained(gain의 p.p.형, 얻다), 목적어 = attention(주목). → 주목을 얻어 왔다. 과거부터 지금까지 관심을 받고 있다는 뜻이다. 관계사 that과 이으면 ‘주목을 얻어 온 인기 있는 사례’가 된다.
+ [유의어·반의어]
+@@ -803,7 +803,7 @@
+ Today, / whoever wants to watch a movie / can access online media subscription platforms / and enjoy a vast selection of movies / on their smartphones or other digital devices.
+ [S/V] S: whoever wants to watch a movie, V: can access and enjoy ／ [whoever] V′: wants
+ [각주]
+-today — 오늘날에는 / whoever V′ — V′하는 사람은 누구든지 / want to V — ~하기를 원하다 / watch — 보다 / movie — 영화 / can V — ~할 수 있다 / ★ access — 접속하다, 이용하다 / online — 온라인의 / media — 미디어 / subscription — 구독 / platforms — 플랫폼들 / enjoy — 즐기다 / a vast selection of — 엄청나게 다양한 / movies — 영화들 / on — ~에서 / their — 그들의 (영화를 보고 싶은 사람들) / smartphones — 스마트폰들 / or — 또는 / other — 다른 / digital — 디지털의 / ★ devices — 기기들
++today — 오늘날에는 / whoever V′ — V′하는 사람은 누구든지 / want to V — ~하기를 원하다 / watch — 보다 / movie — 영화 / can V — ~할 수 있다 / ★ access — 접속하다, 이용하다 / online — 온라인의 / media — 미디어 / subscription — 구독 / platforms — 플랫폼들 / enjoy — 즐기다 / a vast selection of — 엄청나게 다양한 / movies — 영화들 / on — ~에서 (흔한 뜻: ~위에) / their — 그들의 (영화를 보고 싶은 사람들) / smartphones — 스마트폰들 / or — 또는 / other — 다른 / digital — 디지털의 / ★ devices — 기기들
+ [구조 힌트] [whoever wants] → [원하는 사람은 누구든지] (복합관계대명사 whoever)
+ [분석 끊어읽기 영어]
+ Today, / whoever wants to watch a movie / can access online media subscription platforms / and enjoy a vast selection of movies / on their smartphones or other digital devices.
+@@ -839,7 +839,7 @@
+ By applying AI and big data algorithm technology, / companies identify consumers’ needs, tastes, and consumption patterns.
+ [S/V] S: companies, V: identify
+ [각주]
+-by V-ing — ~함으로써 / apply — 적용하다 / AI — 인공지능 / big data — 빅데이터 (아주 많은 양의 정보) / algorithm — 알고리즘 (문제를 푸는 절차) / technology — 기술 / companies — 기업들 / ★ identify — 파악하다, 확인하다 / consumers’ — 소비자들의 / needs — 요구들, 필요들 / tastes — 취향들 / consumption — 소비 / patterns — 패턴들, 양식들
++by V-ing — ~함으로써 / apply — 적용하다 / AI — 인공지능 / big data — 빅데이터 (아주 많은 양의 정보) / algorithm — 알고리즘 (문제를 푸는 절차) / technology — 기술 / companies — 기업들 / ★ identify — 파악하다, 확인하다 / consumers’ — 소비자들의 / needs — 요구들, 필요들 / tastes — 취향들 (흔한 뜻: 맛) / consumption — 소비 / patterns — 패턴들, 양식들
+ [구조 힌트] [By applying] → [적용함으로써] (전치사 by + 동명사)
+ [분석 끊어읽기 영어]
+ By applying AI and big data algorithm technology, / companies identify consumers’ needs, tastes, and consumption patterns.
+@@ -858,7 +858,7 @@
+ [S/V] S: People, V: appreciate ／ [which] V′: enhances
+ [각주]
+ people — 사람들 / appreciate — 높이 평가하다, 좋게 여기다 / V-ing — ~하는 것 / have — 가지다, 누리다 / diverse — 다양한 / choices — 선택(들) / customization — 맞춤화 / , which V′ — 그리고 그것은 V′하다 (계속적 관계대명사) / ★ in turn — 결과적으로 / enhance — 높이다, 향상시키다 / their — 그들의 (사람들) / ★ satisfaction — 만족
+-[구조 힌트] customization, [which in turn enhances] → 맞춤화, [그리고 그것은 결과적으로 높인다] (계속적 관계대명사 which)
++[구조 힌트] having diverse choices and customization, [which in turn enhances] → 다양한 선택과 맞춤화를 가지는 것, [그리고 그것은 결과적으로 높인다] (계속적 관계대명사 which)
+ [분석 끊어읽기 영어]
+ People appreciate having diverse choices and customization, / which in turn enhances their satisfaction.
+ [분석 끊어읽기 한국어]
+@@ -875,13 +875,13 @@
+ Services, / such as suggesting personalized clothing styles / based on customers’ purchase history / or recommending videos / that match their movie and video viewing history, / bring them great satisfaction.
+ [S/V] S: Services, V: bring ／ [that] V′: match
+ [각주]
+-services — 서비스들 / such as — ~ 같은 / V-ing — ~하는 것 / suggest — 제안하다 / personalized — 개인 맞춤화된 / clothing — 의류, 옷 / styles — 스타일들 / based on — (~에) 기초한 / customers’ — 고객들의 / purchase history — 구매 기록 / or — 또는 / recommend — 추천하다 / videos — 비디오들 / that V′ — V′하는 (관계대명사) / match — ~에 맞다, ~와 일치하다 / their — 그들의 (고객들) / movie — 영화 / video — 비디오 / viewing history — 시청 기록 / bring A B — A에게 B를 가져다주다 / them — 그들에게 (고객들) / great — 큰 / ★ satisfaction — 만족
++services — 서비스들 / such as — ~ 같은 / V-ing — ~하는 것 / suggest — 제안하다 / personalized — 개인 맞춤형의 / clothing — 의류, 옷 / styles — 스타일들 / based on — (~에) 기초한 / customers’ — 고객들의 / purchase history — 구매 기록 / or — 또는 / recommend — 추천하다 / videos — 비디오들 / that V′ — V′하는 (관계대명사) / match — ~에 맞다, ~와 일치하다 / their — 그들의 (고객들) / movie — 영화 / video — 비디오 / viewing history — 시청 기록 / bring A B — A에게 B를 가져다주다 / them — 그들에게 (고객들) / great — 큰 / ★ satisfaction — 만족
+ [구조 힌트] videos [that match] → [맞는] 비디오들 (주격 관계대명사 that)
+-[구조 힌트] bring them [great satisfaction] → 그들[고객들]에게 [큰 만족을] 가져다준다 (bring A B 구문)
++[구조 힌트] clothing styles [based on customers’ purchase history] → [고객들의 구매 기록에 기초한] 의류 스타일들 (과거분사 후치수식)
+ [분석 끊어읽기 영어]
+ Services, / such as suggesting personalized clothing styles / based on customers’ purchase history / or recommending videos / that match their movie and video viewing history, / bring them great satisfaction.
+ [분석 끊어읽기 한국어]
+-서비스들은, / 개인 맞춤화된 의류 스타일을 제안하는 것 같은 / 고객들의 구매 기록에 기초한 / 또는 비디오들을 추천하는 것 (같은) / 그들의 영화 및 비디오 시청 기록에 맞는, / 그들에게 큰 만족을 가져다준다.
++서비스들은, / 개인 맞춤형 의류 스타일을 제안하는 것 같은 / 고객들의 구매 기록에 기초한 / 또는 비디오들을 추천하는 것 (같은) / 그들의 영화 및 비디오 시청 기록에 맞는, / 그들에게 큰 만족을 가져다준다.
+ [자연 해석]
+ 고객의 구매 기록에 기초해 개인 맞춤 의류 스타일을 제안하거나, 고객의 영화·비디오 시청 기록에 맞는 비디오를 추천하는 것과 같은 서비스는 그들에게 큰 만족을 가져다준다.
+ ----- [/문장 43] -----
+@@ -890,13 +890,13 @@
+ [SOURCE_RANGE] 본문 · 원문 문장 37~43
+ [주제] How Online Platforms Drive the Subscription Economy (온라인 플랫폼이 구독 경제를 이끄는 방식)
+ [글의 의도/요지]
+-디지털 기기와 온라인 플랫폼의 발전 덕분에 소비자는 원하는 서비스를 쉽게 이용하게 되었고, 기업은 인공지능과 빅데이터로 소비자에게 맞춤형 서비스를 제공해 만족을 높인다는 점을 설명하는 글이다.
++17번 문장에서 예고한 둘째 동인인 온라인 플랫폼의 성장을 다루며, 디지털 기기와 온라인 플랫폼의 발전 덕분에 소비자는 원하는 서비스를 쉽게 이용하게 되었고, 기업은 인공지능과 빅데이터로 소비자에게 맞춤형 서비스를 제공해 만족을 높인다는 점을 설명하는 글이다.
+ [글의 흐름]
+-(소비자의 편리함) 본문 · 원문 문장 37~39 — 스마트폰 등 디지털 기기가 발전하면서 소비자는 많은 일을 쉽게 할 수 있게 되었다. 예전에는 극장에 가거나 비디오를 사야 했지만, 지금은 누구나 구독 플랫폼으로 수많은 영화를 즐긴다.
++(소비자의 편리함) 본문 · 원문 문장 37~39 — 스마트폰 등 디지털 기기가 발전하면서 소비자는 많은 일을 쉽게 할 수 있게 되었다. 예전에는 극장에 가거나 비디오를 사야 했지만, 지금은 영화를 보고 싶은 사람은 누구나 구독 플랫폼으로 수많은 영화를 즐길 수 있다.
+ (기업의 맞춤 서비스와 만족) 본문 · 원문 문장 40~43 — 플랫폼은 기업이 맞춤형 상품을 제공하기 쉽게 해 준다. 기업은 인공지능과 빅데이터로 소비자의 요구와 취향을 파악하고, 사람들은 다양한 선택과 맞춤화 덕분에 더 만족한다. 구매 기록 기반 의류 추천과 시청 기록 기반 영상 추천이 그 예다.
+ [각 문장 쉬운 풀이]
+ [38번 문장] In the past, people had no choice but to go to the theater or purchase the videos they wanted to watch.
+-38번 문장은 37번에서 말한 변화가 얼마나 큰지 보여 주려고 옛날 모습을 꺼낸다. 예전에는 영화를 보려면 극장에 가야 했다. 집에서 보려면 비디오를 직접 사야 했다. 다른 방법이 없었다는 점이 39번의 오늘날 모습과 대비된다.
++38번 문장은 37번에서 말한 변화가 얼마나 큰지 보여 주려고 옛날 모습을 꺼낸다. 예전에는 영화를 보려면 극장에 가야 했다. 보고 싶은 비디오가 있으면 직접 사야 했다. 다른 방법이 없었다는 점이 39번의 오늘날 모습과 대비된다.
+ [40번 문장] At the same time, these platforms make it easy for companies to offer customized products and services to customers.
+ 40번 문장은 앞의 소비자 이야기에서 기업 이야기로 넘어간다. 온라인 플랫폼은 소비자에게만 편리한 것이 아니다. 기업도 플랫폼을 이용하면 고객 한 사람 한 사람에게 맞춘 상품과 서비스를 쉽게 제공할 수 있다.
+ [42번 문장] People appreciate having diverse choices and customization, which in turn enhances their satisfaction.
+@@ -904,8 +904,8 @@
+ [구문으로 해석하기]
+ 명사 + (that) S′ V′: S′가 V′하는 명사 (목적격 관계대명사 생략) [38번 문장]: the videos they wanted to watch — 공식: 명사(N) + (that) S′ V′ — S′(이/가) V′하는 N. 선행사 = the videos(비디오들), 생략된 관계대명사 = that, S′ = they(과거의 사람들), V′ = wanted(원했다; want to V = ~하기를 원하다), to V = to watch(보다). → 그들이 보기를 원했던 비디오들. the videos는 watch의 목적어 자리에서 앞으로 나간 말이다.
+ make it easy for A to V: A가 ~하는 것을 쉽게 만들다 (가목적어 it) [40번 문장]: make it easy for companies to offer customized products and services — 공식: make it easy for A to V — A(이/가) ~하는 것을 쉽게 만들다. it = 뒤의 to V를 대신하는 가목적어, A = companies(기업들), to V = to offer(제공하다), offer의 목적어 = customized products and services(맞춤형 제품과 서비스). → 기업들이 맞춤형 제품과 서비스를 제공하는 것을 쉽게 만들다.
+-, which V′: 그리고 그것은 V′하다 (계속적 관계대명사) [42번 문장]: customization, which in turn enhances their satisfaction — 공식: , which V′ — 그리고 그것은 V′하다. which = 앞 절 내용(다양한 선택과 맞춤화를 가지는 것), in turn = 결과적으로, V′ = enhances(높이다), 목적어 = their satisfaction(그들의 만족). → 그리고 그것은 결과적으로 그들의 만족을 높인다. 콤마 뒤 which는 앞말을 받아 설명을 이어 간다.
+-have p.p.: ~해 왔다 (have been able to V: ~할 수 있게 되었다) [37번 문장]: consumers have been able to do numerous things — 공식: have p.p. — ~해 왔다. p.p. = been(be의 p.p.형), be able to V = ~할 수 있다, V = do(하다), 목적어 = numerous things(수많은 일들). → 수많은 일들을 할 수 있어 왔다, 곧 할 수 있게 되었다. 기기가 발전한 뒤로 지금까지 계속 그렇다는 뜻이다.
++, which V′: 그리고 그것은 V′하다 (계속적 관계대명사) [42번 문장]: having diverse choices and customization, which in turn enhances their satisfaction — 공식: , which V′ — 그리고 그것은 V′하다. which = 앞의 동명사구(다양한 선택과 맞춤화를 가지는 것), in turn = 결과적으로, V′ = enhances(높이다), 목적어 = their satisfaction(그들의 만족). → 그리고 그것은 결과적으로 그들의 만족을 높인다. 콤마 뒤 which는 앞말을 받아 설명을 이어 간다.
++have p.p.: ~해 왔다 (have been able to V: ~할 수 있어 왔다, 곧 ~할 수 있게 되었다) [37번 문장]: consumers have been able to do numerous things — 공식: have p.p. — ~해 왔다. p.p. = been(be의 p.p.형), be able to V = ~할 수 있다, V = do(하다), 목적어 = numerous things(수많은 일들). → 수많은 일들을 할 수 있어 왔다, 곧 할 수 있게 되었다. 기기가 발전한 뒤로 지금까지 계속 그렇다는 뜻이다.
+ [유의어·반의어]
+ 표제어: numerous (수많은) / 유의어: countless (셀 수 없이 많은) / 반의어: few (거의 없는, 소수의)
+ 표제어: vast (방대한, 엄청난) / 유의어: enormous (거대한, 막대한) / 반의어: tiny (아주 작은)
+@@ -970,7 +970,7 @@
+ [분석 끊어읽기 한국어]
+ 편리함과 접근성은 / 구독 모델의 / 소비자들이 가입하는 것을 쉽게 만든다 / 여러 서비스에 / 그리고 많은 콘텐츠나 제품을 사용하는 것을.
+ [자연 해석]
+-구독 모델의 편리함과 접근성 때문에 소비자들은 여러 서비스에 쉽게 가입하고 많은 콘텐츠나 제품을 쉽게 사용하게 된다.
++구독 모델의 편리함과 접근성 때문에 소비자들은 여러 서비스에 쉽게 가입하고 많은 콘텐츠나 제품을 쉽게 사용할 수 있다.
+ ----- [/문장 46] -----
+ 
+ ----- [문장 47] -----
+@@ -999,7 +999,7 @@
+ It is crucial / to subscribe only to services / that are truly necessary / and avoid subscribing to similar services.
+ [S/V] S: It, V: is ／ [that] V′: are
+ [각주]
+-It … to V — ~하는 것은 (It은 뒤의 to V를 대신함) / is — ~이다 / crucial — 매우 중요한, 결정적인 / subscribe to — ~을 구독하다 / only — ~만 / services — 서비스들 / that V′ — V′하는 (관계대명사) / are — ~이다 / truly — 정말로 / necessary — 필요한 / avoid V-ing — V-ing하는 것을 피하다 / subscribe to — ~을 구독하다 / similar — 비슷한 / services — 서비스들
++It … to V — ~하는 것이 (It은 뒤의 to V를 대신함) / is — ~이다 / crucial — 매우 중요한, 결정적인 / subscribe to — ~을 구독하다 / only — ~만 / services — 서비스들 / that V′ — V′하는 (관계대명사) / are — ~이다 / truly — 정말로 / necessary — 필요한 / avoid V-ing — V-ing하는 것을 피하다 / subscribe to — ~을 구독하다 / similar — 비슷한 / services — 서비스들
+ [구조 힌트] It is crucial [to subscribe] → [구독하는 것이] 매우 중요하다 (가주어 It과 진주어 to부정사)
+ [구조 힌트] services [that are truly necessary] → [정말로 필요한] 서비스들 (주격 관계대명사 that)
+ [분석 끊어읽기 영어]
+@@ -1056,7 +1056,7 @@
+ It is important / to carefully consider the costs / of these subscriptions / to avoid financial strain.
+ [S/V] S: It, V: is
+ [각주]
+-It … to V — ~하는 것은 (It은 뒤의 to V를 대신함) / is — ~이다 / important — 중요한 / carefully — 신중하게 / consider — 고려하다, 따져 보다 / costs — 비용들 / of — ~의 / these — 이 / subscriptions — 구독들 / to V — ~하기 위해 / avoid — 피하다 / financial — 재정적인 / strain — 압박, 부담
++It … to V — ~하는 것이 (It은 뒤의 to V를 대신함) / is — ~이다 / important — 중요한 / carefully — 신중하게 / consider — 고려하다, 따져 보다 / costs — 비용들 / of — ~의 / these — 이 / subscriptions — 구독들 / to V — ~하기 위해 / avoid — 피하다 / financial — 재정적인 / strain — 압박, 부담
+ [구조 힌트] It is important [to carefully consider] → [신중하게 고려하는 것이] 중요하다 (가주어 It과 진주어 to부정사)
+ [구조 힌트] [to avoid] → [피하기 위해] (목적의 to부정사)
+ [분석 끊어읽기 영어]
+@@ -1147,7 +1147,7 @@
+ Despite the potential limitations / of subscription services, / they have become deeply embedded in our lives / and more and more businesses are jumping onto / the subscription economy model.
+ [S/V] S: they, V: have become ／ [and] S: more and more businesses, V: are jumping
+ [각주]
+-despite — ~에도 불구하고 / potential — 잠재적인 / ★ limitations — 한계들, 제한점들 / of — ~의 / subscription — 구독 / services — 서비스들 / they — 그것들은 (구독 서비스들) / have p.p. — ~하게 되었다 / become — 되다 (become은 become의 p.p.형) / deeply — 깊이 / embedded — 자리 잡은, 깊이 박힌 / in — ~에 / our — 우리의 (글쓴이와 독자를 포함한 우리 모두) / lives — 삶들 / more and more — 점점 더 많은 / businesses — 기업들, 사업체들 / be V-ing — ~하고 있다 / jump onto — ~에 올라타다, ~에 뛰어들다 / subscription economy — 구독 경제 / model — 모델
++despite — ~에도 불구하고 / potential — 잠재적인 / ★ limitations — 한계들, 제한점들 / of — ~의 / subscription — 구독 / services — 서비스들 / they — 그것들은 (구독 서비스들) / have p.p. — ~했다 / become — 되다 (become은 become의 p.p.형) / deeply — 깊이 / embedded — 자리 잡은, 깊이 박힌 / in — ~에 / our — 우리의 (글쓴이와 독자를 포함한 우리 모두) / lives — 삶들 / more and more — 점점 더 많은 / businesses — 기업들, 사업체들 / be V-ing — ~하고 있다 / jump onto — ~에 올라타다, ~에 뛰어들다 / subscription economy — 구독 경제 / model — 모델
+ [구조 힌트] become(되다) → have become(되었다) (have p.p.)
+ [분석 끊어읽기 영어]
+ Despite the potential limitations / of subscription services, / they have become deeply embedded in our lives / and more and more businesses are jumping onto / the subscription economy model.
+@@ -1162,15 +1162,15 @@
+ [원문]
+ It is expected that new subscription services will be continuously provided to consumers in new areas in the future.
+ [혼공 끊어읽기]
+-It is expected that new subscription services / will be continuously provided / to consumers / in new areas / in the future.
++It is expected that new subscription services will be continuously provided / to consumers / in new areas / in the future.
+ [S/V] S: It, V: is expected ／ [that] S′: new subscription services, V′: will be provided
+ [각주]
+-It is expected that S′ V′ — S′(이/가) V′할 것으로 예상된다 / new — 새로운 / subscription — 구독 / services — 서비스들 / will V — ~할 것이다 / be p.p. — ~되다 / continuously — 지속적으로, 계속 / provided — 제공된 / to — ~에게 / consumers — 소비자들 / in — ~에서 / new — 새로운 / areas — 영역들, 분야들 / in the future — 미래에, 앞으로
++It is expected that S′ V′ — S′(이/가) V′라고 예상된다 / new — 새로운 / subscription — 구독 / services — 서비스들 / will V — ~할 것이다 / be p.p. — ~되다 / continuously — 지속적으로, 계속 / provided — 제공된 / to — ~에게 / consumers — 소비자들 / in — ~에서 / new — 새로운 / areas — 영역들, 분야들 / in the future — 미래에, 앞으로
+ [구조 힌트] It is expected that [new subscription services will be continuously provided] → [새로운 구독 서비스들이 지속적으로 제공될 것이라고] 예상된다 (가주어 It과 진주어 that절)
+ [분석 끊어읽기 영어]
+-It is expected that new subscription services / will be continuously provided / to consumers / in new areas / in the future.
++It is expected that new subscription services will be continuously provided / to consumers / in new areas / in the future.
+ [분석 끊어읽기 한국어]
+-새로운 구독 서비스들이 ~라고 예상된다 / 지속적으로 제공될 것이라고 / 소비자들에게 / 새로운 영역들에서 / 미래에.
++새로운 구독 서비스들이 지속적으로 제공될 것이라고 예상된다 / 소비자들에게 / 새로운 영역들에서 / 미래에.
+ [자연 해석]
+ 앞으로 새로운 영역에서 새로운 구독 서비스가 소비자에게 계속 제공될 것으로 예상된다.
+ ----- [/문장 57] -----
+@@ -1183,7 +1183,7 @@
+ We need to have a deeper understanding / of the subscription economy / and become wise consumers / who receive the services / that are really needed.
+ [S/V] S: We, V: need ／ [who] V′: receive ／ [that] V′: are needed
+ [각주]
+-we — 우리는 (글쓴이와 독자를 포함한 소비자들) / need to V — ~할 필요가 있다 / have — 가지다 / deeper — 더 깊은 (deep의 비교급) / understanding — 이해 / of — ~에 대한 / subscription economy — 구독 경제 / become — ~이 되다 / wise — 현명한 / consumers — 소비자들 / who V′ — V′하는 (관계대명사) / receive — 받다 / services — 서비스들 / that V′ — V′하는 (관계대명사) / be p.p. — ~되다 / really — 정말로 / needed — 필요로 되는, 필요한
++we — 우리는 (글쓴이와 독자를 포함한 우리 모두) / need to V — ~할 필요가 있다 / have — 가지다 / deeper — 더 깊은 (deep의 비교급) / understanding — 이해 / of — ~에 대한 / subscription economy — 구독 경제 / become — ~이 되다 / wise — 현명한 / consumers — 소비자들 / who V′ — V′하는 (관계대명사) / receive — 받다 / services — 서비스들 / that V′ — V′하는 (관계대명사) / be p.p. — ~되다 / really — 정말로 / needed — 필요로 되는, 필요한
+ [구조 힌트] wise consumers [who receive] → [받는] 현명한 소비자들 (주격 관계대명사 who)
+ [구조 힌트] the services [that are really needed] → [정말로 필요한] 서비스들 (주격 관계대명사 that)
+ [분석 끊어읽기 영어]
+@@ -1198,23 +1198,23 @@
+ [SOURCE_RANGE] 본문 · 원문 문장 44~58
+ [주제] The Limitations of the Subscription Economy and Wise Consumers (구독 경제의 한계와 현명한 소비자)
+ [글의 의도/요지]
+-구독 경제의 단점으로 과소비, 재정적 부담, 환경 오염을 들고 각각의 대처법을 제시한 뒤, 구독 경제가 계속 커질 것이므로 필요한 서비스만 받는 현명한 소비자가 되어야 한다고 주장하는 글이다.
++구독 경제의 단점으로 과소비, 재정적 부담, 환경 오염을 들고 각각의 대처법을 제시한 뒤, 구독 경제가 이미 삶에 깊이 자리 잡았고 앞으로도 커질 것으로 예상되므로 필요한 서비스만 받는 현명한 소비자가 되어야 한다고 주장하는 글이다.
+ [글의 흐름]
+-(한계 1: 과소비) 본문 · 원문 문장 44~48 — 장점만 있는 것은 아니다. 구독은 편리해서 여러 서비스에 쉽게 가입하게 되고, 필요보다 많이 쓰는 과소비로 이어질 수 있다. 그래서 정말 필요한 서비스만 구독하고 비슷한 서비스는 피해야 한다.
++(한계 1: 과소비) 본문 · 원문 문장 44~48 — 장점만 있는 것은 아니다. 구독은 편리해서 여러 서비스에 쉽게 가입할 수 있고, 필요보다 많이 쓰는 과소비로 이어질 수 있다. 그래서 정말 필요한 서비스만 구독하고 비슷한 서비스는 피해야 한다.
+ (한계 2: 재정 부담) 본문 · 원문 문장 49~52 — 과소비와 이어지는 문제로 재정적 부담이 있다. 하나하나는 싸 보여도 여러 개를 구독하면 비용이 빠르게 불어나므로, 비용을 신중히 따지고 불필요한 구독을 정기적으로 정리하는 것이 좋다.
+ (한계 3: 환경 오염) 본문 · 원문 문장 53~55 — 정기 배송은 일회용 포장을 늘려 환경을 해칠 수 있다. 친환경 포장재나 재사용 포장을 쓰면 이 문제를 줄일 수 있다.
+-(결론) 본문 · 원문 문장 56~58 — 이런 한계에도 구독은 이미 우리 삶에 깊이 자리 잡았고 앞으로 더 많은 분야로 퍼질 것이다. 그러므로 구독 경제를 깊이 이해하고 필요한 서비스만 받는 현명한 소비자가 되어야 한다.
++(결론) 본문 · 원문 문장 56~58 — 이런 한계에도 구독은 이미 우리 삶에 깊이 자리 잡았고, 앞으로 더 많은 분야로 퍼질 것으로 예상된다. 그러므로 구독 경제를 깊이 이해하고 필요한 서비스만 받는 현명한 소비자가 되어야 한다.
+ [각 문장 쉬운 풀이]
+ [46번 문장] The convenience and accessibility of the subscription model make it easy for consumers to sign up for multiple services and use a lot of content or products.
+-46번 문장은 45번에서 말한 과소비가 왜 생기는지 설명한다. 구독은 클릭 몇 번이면 가입할 수 있을 만큼 편리하다. 그래서 별생각 없이 여러 서비스에 가입하기 쉽다. 가입한 뒤에는 콘텐츠나 제품도 많이 쓰게 된다. 편리함이 오히려 지나치게 쓰는 원인이 될 수 있다는 뜻이다.
++46번 문장은 45번에서 말한 과소비가 왜 생기는지 설명한다. 구독은 클릭 몇 번이면 가입할 수 있을 만큼 편리하다. 그래서 여러 서비스에 가입하기 쉽다. 가입한 뒤에는 콘텐츠나 제품도 많이 쓰기 쉽다. 편리함이 오히려 지나치게 쓰는 원인이 될 수 있다는 뜻이다.
+ [50번 문장] While the cost of individual subscriptions may seem affordable, subscribing to multiple services can add up quickly.
+-50번 문장은 49번에서 말한 재정적 부담이 어떻게 생기는지 보여 준다. 구독 하나의 요금은 크지 않아서 부담이 없어 보인다. 하지만 음악, 영상, 옷처럼 여러 개를 구독하면 매달 나가는 돈이 합쳐져 금방 커진다. add up은 작은 것들이 더해져 점점 불어난다는 뜻이다.
++50번 문장은 49번에서 말한 재정적 부담이 어떻게 생기는지 보여 준다. 구독 하나의 요금은 크지 않아서 부담이 없어 보일 수 있다. 하지만 음악, 영상, 옷처럼 여러 개를 구독하면 정기적으로 나가는 돈이 합쳐져 금방 커질 수 있다. add up은 작은 것들이 더해져 점점 불어난다는 뜻이다.
+ [58번 문장] We need to have a deeper understanding of the subscription economy and become wise consumers who receive the services that are really needed.
+-58번 문장은 글 전체의 결론이다. 56~57번에서 구독 경제는 한계가 있어도 계속 커질 것이라고 했다. 그래서 글쓴이는 무조건 구독을 피하라고 하지 않는다. 구독 경제를 잘 알고, 정말 필요한 서비스만 골라 받는 현명한 소비자가 되자고 말한다.
++58번 문장은 글 전체의 결론이다. 56~57번에서 구독 서비스는 한계가 있어도 이미 우리 삶에 깊이 자리 잡았고, 앞으로도 새로운 분야에서 계속 나올 것으로 예상된다고 했다. 그래서 글쓴이는 무조건 구독을 피하라고 하지 않는다. 구독 경제를 잘 알고, 정말 필요한 서비스만 골라 받는 현명한 소비자가 되자고 말한다.
+ [구문으로 해석하기]
+ although S′ V′: 비록 S′가 V′하지만 [44번 문장]: Although the subscription economy offers many advantages — 공식: although S′ V′ — 비록 S′(이/가) V′하지만. S′ = the subscription economy(구독 경제), V′ = offers(제공하다), 목적어 = many advantages(많은 장점들). → 비록 구독 경제가 많은 장점들을 제공하지만. 뒤 주절(단점도 있다)과 반대되는 내용이다.
+ 보어 도치: Related to A is B — A와 관련된 것은 B이다 [49번 문장]: Related to the concern of overconsumption is the financial burden — 공식: Related to A + is + B — A와 관련된 것은 B이다(B가 A와 관련되어 있다). 보어 = Related to(~와 관련된), A = the concern of overconsumption(과소비의 우려), 동사 = is, 진짜 주어 B = the financial burden(재정적 부담). → 과소비의 우려와 관련된 것은 재정적 부담이다. 원래 순서는 The financial burden is related to the concern of overconsumption이다.
+-동명사 주어: V-ing ~ — ~하는 것은 [50번 문장]: subscribing to multiple services can add up quickly — 공식: V-ing(동명사구) + V — ~하는 것은 V하다. 주어 = subscribing to multiple services(여러 서비스를 구독하는 것), V = can add up(불어날 수 있다), quickly = 빠르게. → 여러 서비스들을 구독하는 것은 빠르게 불어날 수 있다. 곧 여러 개를 구독하면 비용이 빠르게 쌓인다는 뜻이다.
++동명사 주어: V-ing ~ — ~하는 것은 [50번 문장]: subscribing to multiple services can add up quickly — 공식: V-ing(동명사구) + V — ~하는 것은 V하다. V-ing = subscribing(subscribe to — ~을 구독하다) → 구독하는 것, 대상 = multiple services(여러 서비스), V = can add up(불어날 수 있다), quickly = 빠르게. → 여러 서비스들을 구독하는 것은 빠르게 불어날 수 있다. 곧 여러 개를 구독하면 비용이 빠르게 쌓인다는 뜻이다.
+ be p.p.: ~되다 (will be provided: 제공될 것이다) [57번 문장]: new subscription services will be continuously provided to consumers — 공식: be p.p. — ~되다. p.p. = provided(제공된, provide의 p.p.형), 앞의 will = ~할 것이다, continuously = 지속적으로, to consumers = 소비자들에게. → 소비자들에게 지속적으로 제공될 것이다. 서비스는 스스로 제공하는 것이 아니라 ‘제공되는’ 대상이라 수동을 쓴다.
+ [유의어·반의어]
+ 표제어: disposable (일회용의) / 유의어: single-use (한 번 쓰고 버리는) / 반의어: reusable (재사용 가능한)

@@ -1,0 +1,48 @@
+[교재] 영어2 YBM(박준언) 2과 Further Reading (5쪽 “Happiness Comes From Experiences”) — 2과 본문과 별도 교재
+[전달 기본 이름] 혼공독해교재_영어2_YBM(박)_2과FurtherReading
+[작업 폴더] 저장소 jin6942/E2NEoh2 · 브랜치 claude/zealous-cannon-4gemw2 · 작업_FR/
+[권위 원문] (2022개정)2026년_영어II_YBM(박준언)_2과_본문.pdf 5쪽 왼쪽 단 영어(20문장, 단락 4개)
+[공통 단위] u1 = p01~p02(s01~s12) / u2 = p03~p04(s13~s20) — 2026-09-27 사용자 선택 “2단위 (추천)”
+[공통 스킬] 작업/스킬수정본/gyogwaseo-unified(2과 본문과 같은 사본). 2026-09-27 사용자 선택 “스킬 사본 1줄 수정”: split_book.py 이름 검사에 ‘N과FurtherReading’ 허용. 2026-09-27 사용자 요청 “표지에 괄호치고 Further Reading”: book_plan.py에 표지 전용 선택 칸 cover.lesson_suffix 추가(값이 있을 때만 과 표시 뒤 괄호로 출력).
+
+[현재 단계] 최종 출고 완료(2026-09-27) — Word 확인은 사용자 결정(“본문과 동일”)으로 제외
+[편성] 맞춤(custom): 워크북 실전문제 2(단위당 1) + 미니 모의고사 1회 7문항(일반 5 + 공유 장문 2) = 9문항 — 사용자 선택 “워크북+모의 1회 (추천)”
+
+[통합 DOCX] 결과물/혼공독해교재_영어2_YBM(박)_2과FurtherReading_전체통합본.docx (SHA256 12c496f1…, 표지 수정 patch 후 저장본 full 검사 SAVED_CONTENT_MATCH·format PASS)
+[전달 ZIP] 결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading.zip (DOCX 6개, split verify PASS)
+[원고] 작업_FR/영어2_YBM(박)_2과FurtherReading_원고.json (SHA256 fe93b497…, 작성 모듈 fr1.py·fr2.py·assessment_fr.py → make_fr.py full)
+[학습 QC] 작업_FR/영어2_YBM(박준언)_2과FurtherReading_QC_HANDOFF.txt (제작 자체검수본, 보존)
+[문제 QC] 작업_FR/영어2_YBM(박준언)_2과FurtherReading_문제_QC_HANDOFF.txt (제작 자체검수본·교사용 진단 포함, 보존)
+[학습 FINAL] 작업_FR/영어2_YBM(박준언)_2과FurtherReading_FINAL.txt (SHA256 6f92e3e8…)
+[문제 FINAL] 작업_FR/영어2_YBM(박준언)_2과FurtherReading_문제_FINAL.txt (SHA256 900653e7…)
+[출고 기록] 작업_FR/출고기록/출고기록.json → 출고검증.json: REVIEW_PENDING(오류 0, 남은 조건 = Word 렌더 기록·Word 조판 검수·독립 R, 사용자 결정으로 제외)
+[예비 렌더] 작업_FR/예비렌더_LibreOffice/…전체통합본.pdf (24쪽, Word 아님)
+[검수 입력(수정 전·보존)] 작업_FR/검수입력/ — 검수자가 받은 입력(Q_blind는 v2). 최신본 아님.
+[검수·검사 기록] 작업_FR/검수기록/(S·L·M·N·J 기록과 반영 결정표), 작업_FR/검사기록/(04 검수·표지 반영 후·06 저장본·R — 01·03 중간 기록은 사용자 승인으로 삭제, git 기록에 있음)
+
+[부분별 상태]
+| 부분 | 제작 | 독립 검수 | DOCX 반영 |
+| 해석지·분석지(2단위·20문장) | 완료 | 완료(S·L-a·L-b·L-재검, 결정 19건) | 반영(저장본 PASS) |
+| 워크북·문제·해설(9문항) | 완료 | 완료(M·N 블라인드 v1·v2 모두 9/9 일치, 편성 2회 조정) | 반영(저장본 PASS) |
+| 조판 | 완료 | LibreOffice 예비 J(24쪽, 결함 1건은 MASTER 설계로 유지) · Word 제외 | — |
+| 출고(분권·ZIP) | 완료 | 독립 R·Word 제외(사용자 결정) | 결과물/출고_FurtherReading/ |
+
+[사용자 보고(사용자 결정 완료)]
+  ① s15: 목적격 관계대명사 생략 관계절이 3개(everything we’ve seen / the things we’ve done / the places we’ve been to)인데 구조 힌트는 문장당 최대 2개 → 첫째·셋째에 힌트, 둘째는 첫 힌트 설명에서 병렬로 안내(2과 본문 s32 “현행 유지”와 같은 처리). → 2026-09-27 사용자 결정 “그대로”(현행 유지 확정).
+  ② 표지: 사용자 요청으로 과 표시 옆에 괄호 표기 → “YBM(박준언)  ·  2과 (Further Reading)”(2026-09-27 반영). 쪽 머리 출처 표시에도 ‘Further Reading’이 나옴.
+[Word 확인] 2026-09-27 사용자가 Word에서 직접 전체 확인 완료(사용자 보고 “word는 내가 다 확인했어”, 수정 요청 없음). Word 렌더 기록 파일은 저장소에 없어 verify_release 표준 판정은 REVIEW_PENDING 그대로 둠.
+
+[문제 편성표] (정답 분포 ①1 ②2 ③2 ④2 ⑤2)
+| Q | SET | 대상 단위 | SOURCE_RANGE | 단어 수(고2 표본) | TYPE | 정답 |
+| Q01 | 워크북 1번 | u1 | 문장 1~12 | 145 (130~152) | 주제 | ③ |
+| Q02 | 워크북 2번 | u2 | 문장 6~16 | 141 (130~162) | 요지 | ⑤ |
+| Q03 | 1회 1번 | - | 문장 1~12 | 145 (120~154) | 내용 불일치 | ② |
+| Q04 | 1회 2번 | - | 문장 1~14 | 168 (162~181) | 함축 의미(raising the bar) | ④ |
+| Q05 | 1회 3번 | - | 문장 4~15 | 146 (120~154) | 내용 일치 | ③ |
+| Q06 | 1회 4번 | - | 문장 4~15 | 146 (130~162) | 요지 | ⑤ |
+| Q07 | 1회 5번 | - | 문장 2~15 | 167 (162~181) | 함축 의미(becomes the norm) | ① |
+| Q08 | 1회 6번 | - | 문장 1~20 | 253 (199~240) | 제목(장문) | ② |
+| Q09 | 1회 7번 | - | 문장 1~20 | 253 (199~240) | 어휘(장문, separate→inseparable) | ④ |
+[회차 편성 원칙] 공유 장문이 전체 지문이라 같은 회 일반 문항에 빈칸·순서·삽입·무관 유형을 쓰지 않음. 어휘 표적은 일반 문항 지문(모두 s01~s15)에 없는 s16~s19에만. M·N 의견으로 요지류 반복·정답 단서를 줄이도록 내용 2·함축 2·요지 1로 편성.
+
+[상세 이력] 작업_FR/영어2_YBM(박준언)_2과FurtherReading_수정이력.txt

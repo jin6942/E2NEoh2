@@ -1,0 +1,58 @@
+{
+  "reviewer": "FR-L-a",
+  "scope": {
+    "unit_ids": ["u1"],
+    "sentence_ids": ["s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", "s09", "s10", "s11", "s12"]
+  },
+  "rules_read": [
+    "작업/스킬수정본/gyogwaseo-unified/SKILL.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/editorial-core.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/analysis-content.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/gloss-rules.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/grammar-labels.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/preposition-meanings.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/proper-nouns.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/common-errors.md",
+    "작업/스킬수정본/gyogwaseo-unified/references/review-efficiency.md"
+  ],
+  "source_check": "권위 PDF 5쪽 왼쪽 단 영어(pypdfium2 텍스트 추출)와 s01~s12 원문을 대조: 철자·구두점·곡선 아포스트로피(Don’t, it’s, there’s) 모두 일치. 단락 p01(s01~s05)·p02(s06~s12) 경계도 PDF와 일치.",
+  "findings": [
+    {
+      "id": "FLa-01",
+      "sentence_id": "s01",
+      "field": "청크",
+      "current": "혼공·분석 끊어읽기: A long-term study / conducted by Thomas Gilovich, / a psychology professor / … (한국어: 장기적인 연구는 / 토머스 길로비치에 의해 수행된, / …); reading_checks.required_breaks = []",
+      "problem": "conducted by Thomas Gilovich는 앞 명사 study를 꾸미는 과거분사구로 실제 수동 관계(연구가 길로비치에 의해 수행됨)이고 by 구는 행위자다. analysis-content.md 끊어읽기 절·editorial-core.md: ‘수동태에서 누가·무엇에 의해를 나타내는 by 구는 by 앞에서 반드시 끊는다 … 실제 수동 관계를 나타내는 분사구에서도 같은 의미 기준을 적용’, 해당 경계를 required_breaks의 passive-agent-by로 기록해야 한다. 현재 by 앞 경계와 기록이 모두 없다. 또 같은 문장의 명사 후치수식 at Cornell University(professor 뒤) 경계는 청크에는 있으나 required_breaks에 postnominal-preposition으로 기록되지 않았다(s04·s05·s12는 기록됨).",
+      "proposed_fix": "영어: A long-term study / conducted / by Thomas Gilovich, / a psychology professor / at Cornell University, / reached a powerful and clear conclusion: / Don’t spend your money / on things. 한국어: 장기적인 연구는 / 수행된 / 토머스 길로비치에 의해, / 심리학 교수인 / 코넬 대학교의, / 강력하고 분명한 결론에 도달했다: / 여러분의 돈을 쓰지 마라 / 물건들에. (혼공·분석 양쪽, 조각 수 8:8). required_breaks에 {at:28, kind:passive-agent-by}, {at:71, kind:postnominal-preposition} 추가. 구조 힌트·각주·자연 해석은 변경 불필요.",
+      "severity": "확정오류"
+    },
+    {
+      "id": "FLa-02",
+      "sentence_id": "s07",
+      "field": "각주",
+      "current": "what V′ — V′하는 것 (관계대명사)  /  구조 힌트: [What once seemed novel and exciting] → [한때 새롭고 신나 보였던 것]",
+      "problem": "관계절 동사가 과거 seemed(한때 ~해 보였던)다. gloss-rules.md 관계사·접속사 절 및 grammar-labels.md: ‘과거 관형 관계절은 실제 과거 연결을 보존해 who V′ — V′했던 (관계대명사)처럼 제공하고 힌트·연결 분석에도 맞는 관형 연결을 쓴다’. 현재 각주는 현재 관형 ‘V′하는 것’이라 같은 문장의 구조 힌트·한국어 청크(보였던 것)와 시제 연결이 어긋난다(gloss-rules 검수 6: 각주 뜻과 힌트·해석 일치).",
+      "proposed_fix": "what V′ — V′했던 것 (관계대명사)",
+      "severity": "확정오류"
+    },
+    {
+      "id": "FLa-03",
+      "sentence_id": "s11",
+      "field": "각주",
+      "current": "compare A with B — A를 B와 비교하다 / themselves — 그들 자신 (인간들)",
+      "problem": "themselves는 필수 지시 대명사 목록 대상이며 editorial-core.md·gloss-rules.md 대명사 절은 ‘문장 또는 구문 틀의 실제 격’에 맞춰 조사를 붙이도록 한다(allow A to V의 A 자리 us → ‘우리가’ 예). 여기서 themselves는 compare A with B의 A(목적어) 자리이므로 ‘그들 자신을’이 규칙 예와 맞는다. 다만 ‘in — ~안에 / it — 그것’처럼 틀이 조사를 이미 제공하면 중복하지 않는다는 예외와 겹칠 여지가 있어 검토제안으로 둔다(같은 단위 s02 itself·s12 it은 전치사/as 틀이 조사를 제공하므로 현행 유지가 맞음).",
+      "proposed_fix": "themselves — 그들 자신을 (인간들)",
+      "severity": "검토제안"
+    },
+    {
+      "id": "FLa-04",
+      "sentence_id": "s02",
+      "field": "쉬운풀이",
+      "current": "우리는 그 물건을 가지고 있는 동안 이 좋은 기분도 계속될 것이라고 생각한다.",
+      "problem": "원문 will last as long as the thing itself는 ‘그 물건 자체(가 가는 것)만큼 오래’로 물건의 수명과 비교한다(자연 해석·구조 힌트도 ‘그 물건 자체만큼 오래’). ‘가지고 있는 동안’은 소유 기간으로 기준을 바꾼 표현이라 원문 비교 대상과 약간 어긋난다(analysis-content.md 쉬운 풀이 8: 원문에 없는 조건·관계 금지). 의미 차이가 작아 검토제안.",
+      "proposed_fix": "우리는 그 물건이 오래 남아 있는 만큼 이 좋은 기분도 오래갈 것이라고 생각한다.",
+      "severity": "검토제안"
+    }
+  ],
+  "checked_ok_summary": "12문장 전부 확인. [원문] PDF와 완전 일치. [청크] FLa-01 외 영한 조각 수·범위 대응 정상; 명사 후치수식 with things(s04)·for this(s05)·at Cornell University(s01)·with a better one(s12) 앞 경계 있음; s10 첫 청크 9낱말은 get used to+목적어 사이에 적절한 경계가 없어 유지 가능(U49). [S/V] 12문장 모두 정상 — s03·s12의 ’s는 is 축약이라 병기 없음이 맞음, s12 유도부사 there 제외·[and] 독립절·buy and are 병렬 보존, s07 what절 주어 전체 유지+[What] V′만, s02·s04 생략 관계절 [(that)] S′/V′와 절 시작 순서, s01 명령문 V: Don’t spend, s06·s10 get(보어 used 제외), s08 keep 정상. [자연 해석] 시제·부정(Don’t)·주체·지시 대상·비교(as long as, better) 모두 정확, 원문 밖 내용 없음. [각주] 누락 없음(관사·and/but·유도부사 There는 lexical_coverage에 제외 근거); 3인칭 단수 원형 fade·become·buy 정상, stimulate/lead는 복수 주어라 원형 그대로; 복수형 things·possessions·reasons·purchases·expectations·humans 보존; conducted 독립 p.p. 실제형, reached·seemed 정규과거 원형; buying V-ing/buy 분리, keep V-ing이 raising의 기능을 제공하고 raise the bar 원형 표제어; will V/last 분리; 수동·능동 완료 없음(formula_routes 빈 배열 정당). 숙어 판단: get used to(used가 ‘익숙한’이라는 드문 뜻이고 used to V와 혼동 위험 — 묶음 타당), look for(규칙 명시 예), compare A with B(with 대표 뜻 ‘~와 함께’로 읽으면 뜻이 바뀜 — 묶음 타당), be thrilled with(be satisfied with 유형 — 묶음 타당), lead / to 분리(to 대표 뜻 ‘~로’로 이해 — 분리 타당), spend A on B 묶음 타당. 대명사 we(우리는/우리가)·they(그것들이, 물건들)·itself·it·one(소유물/차)·your(독자)·this(내용 지칭) 격·지칭 정확. 고유명사 Thomas Gilovich(토머스 길로비치, 원문 근거 설명)·Cornell University 첫 등장 1회. 다의어 novel(흔한 뜻: 소설) 병기 정상. [구조 힌트] 필수 관계사 s02·s04(생략 that, 빈자리 동사 get/provide까지 — 확정 기준 적용 맞음)·s07(what, seem 최소 보어 포함 — 확정 기준 적용 맞음) 모두 포함; 접속사절 s10 as soon as·s12 until 연결어+S′·V′까지; s01 과거분사 후치수식 conducted↔수행된 전체 대응; s11 stimulate A to V는 ko-only 정책·A 주어 조사 이·도록 강조 정상; s02·s04의 that 명사절은 관계절을 포함하는 관계라 포함 힌트 규칙상 관계사 하나로 정리한 판단 타당, s02 둘째 힌트 as ~ as 대응(as…as↔만큼) 정상; 대명사 참조 우리[사람들]·그것들[물건들] 조사 위치 정상; 문장당 최대 2개 준수; 힌트 없는 s03·s05·s06·s08·s09 모두 필요한 절·구문 연결 없음 확인. [분석] 의도 1문장·흐름 2단계가 s01~s12 전부를 순서대로 포함; 쉬운 풀이 3문장(s02·s07·s12) 원문 순서·앞 문맥 연결·한 문장 한 내용·강한 단정 없음(FLa-04 제외); 구문으로 해석하기 3개(생략 관계사, is that 보어 명사절, stimulate A to V) 모두 한 초점·공식→대입→결합 형식 정확, 워크북 연습 span·답과 일치; 유반 3세트 clear/obvious/vague, critical/essential/minor, novel/fresh/familiar 모두 원문 치환·반대 관계 성립; 오늘의 낱말 8개(상한 준수)와 ★가 s01·s02·s04·s06·s08·s10·s11의 모든 반복 출현에 대응."
+}

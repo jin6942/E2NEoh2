@@ -1,0 +1,21 @@
+{
+ "stage": "FR 6단계 J 반영 결정",
+ "renderer": "LibreOffice(예비, Word 아님)",
+ "decisions": [
+  {
+   "id": "FJ-01",
+   "decision": "유지",
+   "note": "유반 9개일 때 10번째 칸 답안선: 2과 본문 K-04와 같은 MASTER 표 설계(변경은 MASTER 승인 필요)"
+  },
+  {
+   "id": "FJ-02",
+   "decision": "Word 확인 대기",
+   "note": "15쪽 워크북 4번 2번 해석 빈칸 줄바꿈(잘림 없음)"
+  },
+  {
+   "id": "FJ-03",
+   "decision": "유지",
+   "note": "빠른 정답표 음영 띠: 2과 본문 K-06과 같은 MASTER 역할 서식"
+  }
+ ]
+}

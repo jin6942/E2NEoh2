@@ -1,0 +1,146 @@
+{
+ "reviewer": "L-b",
+ "scope": {
+  "unit_ids": [
+   "u3"
+  ],
+  "sentence_ids": [
+   "s18",
+   "s19",
+   "s20",
+   "s21",
+   "s22",
+   "s23",
+   "s24",
+   "s25",
+   "s26",
+   "s27",
+   "s28",
+   "s29",
+   "s30",
+   "s31",
+   "s32",
+   "s33",
+   "s34",
+   "s35",
+   "s36"
+  ]
+ },
+ "rules_read": [
+  "작업/스킬수정본/gyogwaseo-unified/SKILL.md",
+  "references/editorial-core.md",
+  "references/analysis-content.md",
+  "references/gloss-rules.md",
+  "references/grammar-labels.md",
+  "references/preposition-meanings.md",
+  "references/proper-nouns.md",
+  "references/common-errors.md",
+  "references/review-efficiency.md"
+ ],
+ "evidence_read": [
+  "(2022개정)2026년_영어II_YBM(박준언)_2과_본문.pdf 2쪽 왼쪽 단 영어 본문(People love the subscriptions) 및 오른쪽 단 교과서 해석 — pypdf 텍스트 추출로 대조",
+  "작업/영어2_YBM(박준언)_UNIT02_QC_HANDOFF.txt 378~754행(u3), 앞뒤 u2·u4는 문맥만",
+  "작업/검수입력/L_u3.json selected_data 전체(chunks·clauses·glosses·lexical_coverage·hints·emphasis_links·pronoun_refs·reading_checks·today_words·analysis)",
+  "작업/영어2_YBM(박준언)_UNIT02_수정인계.txt 1~40행(L 검수 확인 요청 ①)"
+ ],
+ "special_checks": {
+  "s25_as": {
+   "verdict": "이유 유지",
+   "reason": "비례·추이의 as(~함에 따라)는 as절에 변화·정도의 진행(grow, increase, get older, as time passes 등)이나 비교 표현이 있어 주절의 변화와 함께 움직일 때 성립한다. s25의 as절 they enjoy expressing … and discovering …은 상태동사 enjoy의 단순현재로 변화·정도의 진행이 전혀 없다. 주절의 more popular among younger generations도 시간에 따른 변화가 아니라 세대 간 비교(다른 세대보다 젊은 세대에서 더 인기)다. 따라서 as절은 ‘왜 젊은 세대에서 더 인기인가’를 설명하는 이유절이며, 앞 문장 s24(개인 취향에 맞춘 경험)→s25(그래서 고유함을 표현하고 취향에 맞는 것을 찾는 걸 즐기는 젊은 세대가 더 좋아함)의 논리와도 맞는다. 교과서 해석 ‘~을 즐김에 따라’는 한국어에서 ‘~하므로/~하는 데 맞춰’처럼 느슨하게 쓰인 의역으로 보이며, 영어 구조상 비례 판정의 근거가 되지 않는다. 각주(as S′ V′ — S′(이/가) V′하기 때문에)·힌트([as they enjoy] → [그들[젊은 세대들]이 즐기기 때문에] (이유 접속사 as))·한국어 청크·자연 해석(…더 인기가 있는데, … 즐기기 때문이다)·글의 흐름(특히 젊은 세대가 좋아하며)이 모두 이유로 일치한다.",
+   "proposed_fix": "수정 불필요(각주·청크 해석·자연 해석·구조 힌트·emphasis_links(as↔이, 기 때문에)·흐름 모두 현행 유지). reading_checks.review_record의 ‘(L 검수 확인 필요)’ 문구만 ‘L-b 검수: 상태동사 enjoy·세대 간 비교로 비례 불성립, 이유 확정’으로 갱신하면 된다(내부 기록, 학생용 변화 없음)."
+  }
+ },
+ "findings": [
+  {
+   "id": "Lb-01",
+   "sentence_id": "s28",
+   "field": "각주",
+   "current": "conditions — 상태들",
+   "problem": "같은 단위 s27에서는 같은 뜻의 conditions를 ‘상태들 (흔한 뜻: 조건들)’로 적어 문맥 뜻이 흔한 뜻과 다르다고 판정했는데, s28의 같은 낱말·같은 뜻에서는 흔한 뜻 병기를 뺐다. gloss-rules.md ‘기본 형식과 순서’(문맥 뜻이 흔한 뜻과 다르면 흔한 뜻을 뒤에 함께 제공)와 ‘같은 표현이 다른 문장에 나오면 다시 제공’ 규칙이 문장마다 같이 적용되어야 한다.",
+   "proposed_fix": "s28-g11: conditions — 상태들 (흔한 뜻: 조건들)",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lb-02",
+   "sentence_id": "s29",
+   "field": "각주",
+   "current": "appreciate — 높이 평가하다, 진가를 알다",
+   "problem": "appreciate의 학생에게 흔한 뜻은 ‘감사하다’이고 이 문장의 문맥 뜻(높이 평가하다·소중히 여기다)과 다르다. gloss-rules.md ‘기본 형식과 순서’·editorial-core.md(다의어의 본문 뜻이 흔한 뜻과 다르면 본문 뜻을 먼저, 흔한 뜻을 뒤에 함께 제공)에 따라 흔한 뜻 병기가 필요하다. 같은 단위의 value(흔한 뜻: 가치)·address(흔한 뜻: 주소)·uniform(흔한 뜻: 제복)과도 처리 기준이 어긋난다.",
+   "proposed_fix": "s29-g03: appreciate — 높이 평가하다, 진가를 알다 (흔한 뜻: 감사하다)",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lb-03",
+   "sentence_id": "s24",
+   "field": "구문해석",
+   "current": "각주 s24-g06 ‘V-ing — ~하면서’, 힌트 ‘개인들이 [개인 맞춤화할 수 있게] 해 주면서’, u3-gp2 practice.answer_ko ‘개인들이 그들의 경험을 개인 맞춤화할 수 있게 해 주면서’ ↔ u3-gp2 explanation ‘콤마 뒤 enabling은 앞 절(다양한 선택지를 제공한다)의 결과를 이어 준다.’ (s33도 각주 s33-g11 ‘V-ing — ~하면서’·힌트 ‘높이면서’ ↔ 힌트 explanation ‘함께 일어나는 결과를 덧붙이는 분사구’)",
+   "problem": "gloss-rules.md ‘to부정사·-ing·분사·수동’(콤마 뒤 -ing는 동시동작·이유·결과 등 실제 관계를 확인, 콤마만으로 ‘~하면서’로 판정하지 않음)과 ‘금지와 검수’ 6(각주 뜻과 분석 내용 일치)에 비추어, 분석부는 ‘결과’라고 설명하면서 각주·힌트·연습 정답은 동시동작 ‘~하면서’를 쓴다. 학생이 같은 페이지에서 서로 다른 관계를 읽게 된다. 자연 해석(‘제공하여 … 해 준다’, ‘되어, … 높인다’)은 결과로 옮겨 설명 쪽과 맞다.",
+   "proposed_fix": "둘 중 하나로 통일. (가) 결과로 통일: s24-g06·s33-g11 → ‘V-ing — (그 결과) ~하다’ 또는 ‘V-ing — ~하여’, s24 힌트 한국어 ‘개인들이 [개인 맞춤화할 수 있게] 해 주어’(강조 ‘이’·‘수 있게’ 유지), s24 청크3 ‘개인들이 그들의 경험을 개인 맞춤화할 수 있게 해 주어,’, u3-gp2 answer_ko ‘…할 수 있게 해 주어’, s33 힌트 ‘[소비자들의 편리함을 높여]’(ing↔‘여’)·청크4 ‘소비자들의 편리함을 높여.’. (나) ‘~하면서’를 유지하려면 u3-gp2 explanation 마지막 문장을 ‘콤마 뒤 enabling은 앞 절(다양한 선택지를 제공한다)에 이어지는 일을 ‘~하면서’로 덧붙인다.’로, s33 힌트 explanation을 ‘앞 내용과 함께 일어나는 일을 덧붙이는 분사구’로 고쳐 ‘결과’ 표현을 뺀다. 워크북 4번 정답(u3-gp2)도 같은 쪽으로 맞출 것.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lb-04",
+   "sentence_id": "s32",
+   "field": "구조힌트",
+   "current": "힌트 2개: either enjoy … or save … → 즐기거나 … 절약하거나 … (짝 구조) / [what they really need] → [그들[소비자들]이 정말로 필요로 하는 것] (관계대명사 what). reading_checks: ‘생략 that 명사절은 힌트 수 한도로 S/V 표시와 각주로 지원’",
+   "problem": "analysis-content.md ‘선정과 작성’은 생략된 접속사 that을 우선 검토 대상으로 두고, 포함 관계에서는 더 우선하는 문법 연결 하나를 남기라고 한다. 짝 구조 either … or는 생략 that 명사절 안에 포함되며, 짝 구조의 우선순위 규정은 ‘기능 결합보다 먼저’일 뿐 생략 that보다 앞선다는 근거가 없다. 또 review_record의 ‘각주로 지원’은 사실과 다르다(생략 that에 해당하는 각주 없음). 관계사 what은 필수 힌트이므로, 2개 한도 안에서 필수 관계를 다 담지 못하면 ‘검수’ 4에 따라 충돌을 보고해야 한다.",
+   "proposed_fix": "(추천) 짝 구조 힌트를 생략 접속사 힌트로 교체: display_mode:omitted-conjunction, omitted_conjunction:that, `This means [(that) they can either enjoy] → [그들[소비자들]이 즐기거나 (…) 할 수 있다는 것을] 의미한다`처럼 최소 S′·V′까지 표시하는 안을 제작자가 확정하되, either…or까지 겹쳐 푸는 두 초점 문제가 생기면 사용자에게 ‘생략 that vs 짝 구조’ 선택 충돌로 보고. 어느 쪽이든 reading_checks.review_record의 ‘각주로 지원’ 문구는 ‘S/V의 [(that)] 표시로만 지원’으로 정정.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lb-05",
+   "sentence_id": "s20",
+   "field": "쉬운풀이",
+   "current": "요즘 사람들은 물건을 갖는 것보다 무언가를 경험하는 것을 더 중요하게 여긴다.",
+   "problem": "원문 s19는 More and more people(점점 더 많은 사람들)이다. ‘요즘 사람들은 … 여긴다’는 사람들 일반의 성향으로 단정해 원문보다 강하다(analysis-content.md ‘각 문장 쉬운 풀이’ 8: 원문보다 강한 단정 금지).",
+   "proposed_fix": "‘요즘은 물건을 갖는 것보다 무언가를 경험하는 것을 더 중요하게 여기는 사람이 점점 늘고 있다.’",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lb-06",
+   "sentence_id": "s27",
+   "field": "쉬운풀이",
+   "current": "필요하면 그 사람의 피부 고민에 딱 맞는 화장품을 따로 만들어 주기도 한다.",
+   "problem": "원문은 추천에 ‘각 개인의 고유한 피부 고민을 해결하도록 만든 화장품의 제조’가 포함된다고만 말한다. ‘필요하면’이라는 조건은 원문에 없다(analysis-content.md ‘각 문장 쉬운 풀이’ 7·8: 원문 조건 밖의 내용·추측 금지).",
+   "proposed_fix": "‘추천에는 그 사람의 피부 고민을 해결하도록 만든 화장품을 제조해 주는 것까지 들어 있다.’",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lb-07",
+   "sentence_id": "s32",
+   "field": "쉬운풀이",
+   "current": "첫째 방식은 정해진 돈을 내고 여러 가지 상품을 마음껏 누리는 것이다.",
+   "problem": "원문은 enjoy a range of offerings for a set price(정해진 가격으로 다양한 상품을 누림)이고 s30도 a variety of products or services for a fixed cost다. ‘마음껏’은 제한 없음을 뜻해 원문보다 강하다(쉬운 풀이 8).",
+   "proposed_fix": "‘첫째 방식은 정해진 돈을 내고 여러 가지 상품을 누리는 것이다.’",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lb-08",
+   "sentence_id": "s28",
+   "field": "각주",
+   "current": "rather than — ~ 대신에, ~보다는",
+   "problem": "rather than은 기능 표현이므로 gloss-rules.md ‘기본 형식과 순서’·‘금지와 검수’ 8(기능어는 그 문맥의 한 뜻)에 따라 한 뜻을 고르는 것이 기준에 맞다. 같은 문장의 한국어 청크·자연 해석은 모두 ‘대신(에)’를 사용한다.",
+   "proposed_fix": "rather than — ~ 대신에",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lb-09",
+   "sentence_id": "s28",
+   "field": "오늘의낱말",
+   "current": "personalized — 개인 맞춤형의 (★ 없음). 오늘의 낱말 u3-w3 = personalize(s24)",
+   "problem": "gloss-rules.md ‘각주 ★와 항목 구분’은 같은 단위 다른 문장의 반복 출현에도 ★를 표시하라고 한다. s28 personalized는 today word personalize의 과거분사 형용사형으로 같은 어휘의 반복 출현으로 볼 여지가 있다. 파생·활용형을 반복 출현으로 볼지 기준이 명시돼 있지 않아 판단이 필요하다.",
+   "proposed_fix": "반복 출현으로 보면 s28-g04에 star:true, today_word_id:u3-w3 연결(뜻은 ‘개인 맞춤형의’ 유지). 별개 어휘로 보면 현행 유지하고 판단 근거를 reading_checks에 기록.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lb-10",
+   "sentence_id": "s24",
+   "field": "각주",
+   "current": "their — 그들 (개인들) / own — 자신의",
+   "problem": "gloss-rules.md ‘대명사’는 소유격의 소유 관계를 ‘그들의’처럼 보존하라고 한다. 두 번째 their를 ‘그들’로만 적어 소유격 표시가 사라졌다. own의 ‘자신의’와 합쳐 ‘그들 자신의’를 만들려는 의도는 이해되지만, 항목만 보면 소유격 뜻이 빠진다.",
+   "proposed_fix": "(가) their own을 한 항목으로: ‘their own — 그들 자신의 (개인들)’로 합치고 s24-g13·g14를 통합, 또는 (나) ‘their — 그들의 (개인들) / own — 자신의’로 표기.",
+   "severity": "검토제안"
+  }
+ ],
+ "checked_ok_summary": "원문: u3 19문장(s18~s36)의 영어 원문을 권위 PDF 2쪽 왼쪽 단과 대조해 철자·구두점·곡선 아포스트로피(customers’·individual’s·consumers’) 일치 확인. 청크: 19문장 모두 영어 청크 재결합이 원문과 같고 영한 조각 수 일치, 명사 후치수식 전치사구 필수 경계(s20 to/of, s21 for, s25 of, s27 including)·수동 행위자 by(s33)·수량/종류+of 보호(s22·s30 a variety of, s24 a diverse range of, s32 a range of)·숙어 비분할(be relevant to, prioritize A over B, subscribe to, fill up, stand out, fit with, to come to the point, rather than, when needed) 확인. 8낱말 초과 청크는 s19(9낱말, prioritize A over B 비분할)뿐으로 경계 없음 확인. 자연 해석: 전 문장 시제·부정·양태(can)·비교(more popular, younger)·지시 대상·주체 오류 없음, 원문 밖 내용 추가 없음. S/V: 주절/종속절 순서, ／ 구분, 주격 관계절 V′만(s25·s26·s28·s36 whoever), 생략 that 표시(s32), 병렬 동사 or/and 보존(s32·s36), 명사구 주어 표시 축약(s25·s26)과 명사절 주어 전체 유지(s36), 부사 제외(s31 flexibly) 모두 규칙 부합. 각주: 토큰 전수 대조로 관사·and 외 누락 0건; 3인칭 단수 원형(makes·offers·stands out·prioritizes·means·desires), 복수형 보존, 능동 완료 have p.p./gain(gained는 gain의 p.p.형), 수동 be p.p./made, 독립 p.p.(specialized·created·personalized·fixed·set·based on), -ing 기능/원형 분리, enjoy V-ing·enable A to V·wish to V 구문 결합, 목적 to V 분리(s27 to address), by V-ing·without V-ing, 계속적 where, what 관계대명사, whoever, as·because·if 틀, 필수 대명사 they/their/them 뜻+지시 대상(전 문장) 확인. 구조 힌트: 관계사·접속사·간접의문문 누락 없음, 연결어+S′·V′ 최소 범위, 문장당 2개 이내, 대명사 참조 괄호(pronoun_refs) 4곳, emphasis_links 21쌍의 실제 영한 대응(by+ing↔함으로써, without+ing↔지 않고, created↔만들어진, 동사 결합 ko-only 정책, S′ 이/가 포함) 확인. 분석부: 주제·의도·흐름(3단계가 s18~36을 순서대로 한 번씩 포함), 쉬운 풀이 3문장(s20·s27·s32) 앞 문맥 연결, 구문으로 해석하기 기본 3개+have p.p. 보충 1개(formula_routes: s26 분석, s33 힌트)의 공식→대입→결합과 연습 span·정답, 유반 3세트(diverse/varied/uniform, limitless/endless/limited, valuable/precious/worthless)의 품사·관계 타당, 오늘의 낱말 8개와 각주 ★ 대응 확인. 핵심 문장 s24·s27 양 자료 일치."
+}

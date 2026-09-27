@@ -1,0 +1,47 @@
+{
+ "id": "UNIT02-split-preliminary-2026-09-27",
+ "kind": "split_layout_preliminary",
+ "status": "PRELIMINARY_ONLY",
+ "renderer": "LibreOffice(예비, Word 아님)",
+ "performed_by": "제작 세션(독립 아님)",
+ "user_decision": "2026-09-27 사용자 “Word 제외하고 출고” — Word 렌더·Word 조판 검수·독립 R은 사용자 결정으로 제외",
+ "split_verify": "SPLIT_CONTENT_MATCH · EXACT_PARTITION · 통합본 BYTE_IDENTICAL · ZIP SIX_DOCX_EXACT_BYTES (결과물/출고/분권내보내기.json)",
+ "volumes": [
+  {
+   "file": "../결과물/출고/혼공독해교재_영어2_YBM(박)_2과_01_해석지.docx",
+   "sha256": "2b2545197fec21f7682bc64d26d71ae030b4c09d6851e37f612c5dc71981dd1a",
+   "pages_libreoffice": 21
+  },
+  {
+   "file": "../결과물/출고/혼공독해교재_영어2_YBM(박)_2과_02_지문분석지.docx",
+   "sha256": "3b9122b89e7c8fd1f944b785edcae9422ca603e8717384f0b0f9161091bd3011",
+   "pages_libreoffice": 15
+  },
+  {
+   "file": "../결과물/출고/혼공독해교재_영어2_YBM(박)_2과_03_워크북+변형문제.docx",
+   "sha256": "cd8b38a1ad6bcab5c35eadab7128579d7c6054757a5e2b65e877acde2d0c08cd",
+   "pages_libreoffice": 10
+  },
+  {
+   "file": "../결과물/출고/혼공독해교재_영어2_YBM(박)_2과_04_실전모의.docx",
+   "sha256": "9024013df5592ebc4884edc703409c7941e44a8349c021de68a3f5643a9b423f",
+   "pages_libreoffice": 11
+  },
+  {
+   "file": "../결과물/출고/혼공독해교재_영어2_YBM(박)_2과_05_정답해설지.docx",
+   "sha256": "20b8bd13a0245e66dda155ddea1cca8baabf38c29efc54ca86d10a17690f33be",
+   "pages_libreoffice": 15
+  }
+ ],
+ "zip": {
+  "file": "../결과물/출고/혼공독해교재_영어2_YBM(박)_2과.zip",
+  "sha256": "1e2726d839acd6c6dc4a8b2768cef8036cc40ee898adfee70f41c86be46d50e4"
+ },
+ "method": "각 권을 LibreOffice로 PDF 변환 → 쪽 수 합계 72(통합본과 같음) 확인, 잉크 2% 미만 쪽 자동 탐지, 각 권 첫·끝 쪽과 저잉크 쪽을 축소본으로 눈 확인",
+ "observations": [
+  "각 권 첫 쪽이 해당 영역 제목에서 시작, 끝 쪽이 해당 영역 마지막 내용으로 끝남",
+  "01권 4·13·16쪽: 단위 끝 쪽(정상)",
+  "02권 8·11·15쪽: 분석 설명부 소폭 넘침 — 통합본 25·33·44쪽과 같은 Word 확인 대기 항목",
+  "새 결함 없음"
+ ]
+}

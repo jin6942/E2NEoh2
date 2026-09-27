@@ -1,0 +1,60 @@
+{
+  "reviewer": "FR-M",
+  "solved_before_answer_key": true,
+  "blind_records": {
+    "v1": "/tmp/claude-0/-home-user-E2NEoh2/eb9a61d6-d6fc-5cd3-942b-b2e9553842db/scratchpad/frM/M_answers.json",
+    "v2": "/tmp/claude-0/-home-user-E2NEoh2/eb9a61d6-d6fc-5cd3-942b-b2e9553842db/scratchpad/frM/M_answers_v2.json"
+  },
+  "answers": {"Q01": 3, "Q02": 5, "Q03": 2, "Q04": 4, "Q05": 3, "Q06": 5, "Q07": 1, "Q08": 2, "Q09": 4},
+  "changed_items_recheck": {
+    "Q02": {"change": "지문 s06~s17로 축소, 정답 ⑤ 'Experiences give us more lasting joy because they shape who we are.'", "my_answer_after_change": 5, "unchanged": true, "note": "정답은 유일하게 성립함. 다만 지문이 원문 문장 17 '“You can really like your material stuff.'에서 끝나 닫는 따옴표가 없고, 양보절 뒤 반전(s18 nonetheless ... separate)이 잘림(FM-01)."},
+    "Q03": {"change": "일치 선지 ③ 'Thomas Gilovich teaches psychology at Cornell University.', ④ 'The writer gives three reasons why the joy from things fades.'로 교체", "my_answer_after_change": 2, "unchanged": true, "note": "③·④ 모두 본문 문장 1·5와 일치함. v2에서 지적한 Q04·Q07 정답 풀어쓰기 단서는 해소됨."},
+    "Q05": {"change": "오답 ① 'Comparing ourselves with others makes our possessions feel more special.'", "my_answer_after_change": 3, "unchanged": true, "note": "①은 셋째 이유(비교가 기쁨을 끝냄)와 반대이므로 오답이 확실함. 정답 ③ 하나만 성립함."},
+    "Q08": {"change": "오답 ①③④⑤ 교체(Shopping vs Traveling / Lasting Joy of Latest Products / How to Stop Comparing / Memories Fade, but Things Remain)", "my_answer_after_change": 2, "unchanged": true, "note": "네 오답 모두 본문과 반대이거나 본문에 없는 방법을 다룸. 정답 ② 하나만 성립함. v1보다 오답 매력도가 조금 높아짐."},
+    "same_round_exposure_after_fix": "미니 모의고사 1회(Q03~Q09) 안에서 한 문항의 선지·지문이 다른 문항의 정답을 직접 알려 주는 경우는 더 이상 없음. Q09 원문 'separate'는 회차 안 어느 지문에도 없음. Q06 요지와 Q08 제목이 같은 중심 내용을 묻는 구성상 중복만 남음(동일 발췌 유형 반복 허용 규칙상 오류는 아님)."
+  },
+  "answer_comparison": {
+    "match": ["Q01", "Q02", "Q03", "Q04", "Q05", "Q06", "Q07", "Q08", "Q09"],
+    "mismatch": [],
+    "note": "v2 블라인드 답 9개가 교사용 정답과 모두 일치함. v1의 Q06 답 3은 v2에서 선지 순서가 바뀐 결과이며 내용상 같은 선지(경험이 정체성을 이루어 오래가는 행복)임."
+  },
+  "findings": [
+    {
+      "id": "FM-01",
+      "location": "WB02 실전문제 Q02 · PASSAGE 끝 / SOURCE_RANGE 'Further Reading · 원문 문장 6~17'",
+      "current": "... “Our experiences are a bigger part of ourselves than our material goods,” says Gilovich. “You can really like your material stuff.",
+      "problem": "학생용 지문이 여는 따옴표(“)만 있고 닫는 따옴표 없이 끝남. 원문 문장 17은 인용의 첫 문장이라, 이어지는 반전(s18 'but nonetheless they remain separate from you')이 잘린 채 '물건을 정말 좋아할 수 있다'는 양보만 마지막에 남음. 닫는 따옴표를 덧붙이는 것은 원문 가공이라 허용되지 않고, 요지 문항의 마지막 문장이 논지와 반대 방향으로 읽힐 수 있음. 정답·오답 해설은 s17을 전혀 쓰지 않으므로 s17은 필요 없는 문장임.",
+      "proposed_fix": "지문을 원문 문장 6~16('... says Gilovich.'까지)으로 줄이고 SOURCE_RANGE를 'Further Reading · 원문 문장 6~16'으로 고침. 정답 ⑤, 해설, 오답 ③ 근거(s16 'bigger part of ourselves')는 그대로 성립함. 'separate' 노출도 계속 피할 수 있음. 공유 원고 passage·learned_relation_uses 위치에는 영향 없음.",
+      "severity": "확정오류"
+    },
+    {
+      "id": "FM-02",
+      "location": "WB01 실전문제 Q01 · WRONG_ANALYSIS ④",
+      "current": "④ 차는 남과 비교하는 예로 나올 뿐이고 옷과 비교하는 내용은 없다.",
+      "problem": "선지 ④는 '차 구매와 옷 구매의 결정적인 차이'인데, 해설의 '옷과 비교하는 내용'은 차를 옷과 비교한다는 뜻으로 읽혀 선지와 초점이 조금 어긋남. 본문에는 옷이 아예 나오지 않음.",
+      "proposed_fix": "④ 차는 남과 비교하는 셋째 이유의 예로 나올 뿐이고, 옷은 언급되지 않으며 차 구매와 옷 구매의 차이를 다루지 않는다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "FM-03",
+      "location": "WB01 · 4. 구문 결합해서 해석하기 2번 도움말",
+      "current": "도움말: is that S′ V′ — S′(이/가) V′한다는 것이다 / ...",
+      "problem": "FINAL u1 [구문으로 해석하기]의 확정 공식은 'A is that S′ V′ — A는 S′(이/가) V′한다는 것이다'임. 연습 구절에서 주어(The trouble with things)를 빼면서 공식도 A를 뺀 형태로 바뀜. workbook.md는 '공식과 낱말 뜻은 기존 승인 내용과 일치'를 요구함. 연습 구절·정답('그것들이 제공하는 행복이 빨리 사라진다는 것이다')은 서로 맞고 FINAL 해석과도 모순이 없음. 핵심 문장 1번과 같은 문장이라 주어를 뺀 의도로 보이며, 검토된 support_overrides가 있는지 확인이 필요함.",
+      "proposed_fix": "support_overrides 근거가 기록돼 있으면 유지. 없으면 FINAL 공식 표기('A is that S′ V′ — A는 S′(이/가) V′한다는 것이다')로 맞추거나, 줄인 표기의 근거를 manuscript-data 경로에 기록.",
+      "severity": "검토제안"
+    }
+  ],
+  "detailed_check_passed": {
+    "Q01": "정답 ③ 근거(s4·s5)·해설(세 이유 요약)·CHOICES_KR 5개가 원문(PDF 5쪽)·FINAL과 맞음. 오답 ①②⑤ 해설이 맞음(④는 FM-02). learned_relation_uses 5건(essential·familiar·novel·critical·obvious)의 선지 위치와 표기가 모두 실제 선지와 일치하고, 모두 u1 확정 유반 세트에 속함.",
+    "Q02": "정답 ⑤ 근거(s13·s14)·해설·오답 ①~④ 해설·CHOICES_KR이 맞음. learned_relation_uses 5건의 위치와 표기가 일치함. 지문 경계만 FM-01.",
+    "Q03": "정답 ② 근거(s2·s3)·해설, 오답 ①(s1 long-term)·③(s1 appositive)·④(s5+First/Second/Third)·⑤(s11) 인용이 원문과 글자까지 같음. CHOICES_KR이 맞음.",
+    "Q04": "정답 ④ 근거(s8~s10)·해설·오답 ①②③⑤·CHOICES_KR이 맞음. PROMPT_UNDERLINES [5,20]이 발문의 'raising the bar'와 정확히 일치함. SOURCE_RANGE 1~14가 지문과 일치함.",
+    "Q05": "정답 ③ 근거(s12)·해설, 오답 ①(셋째 이유)·②(s7 quickly becomes the norm)·④(s13 Gilovich and other researchers)·⑤(s13과 반대)·CHOICES_KR이 맞음. SOURCE_RANGE 4~15가 지문과 일치함.",
+    "WB01_today_words": "8개(long-term·conclusion·assume·fade·get used to·possession·raise the bar·stimulate A to V)가 FINAL u1 ★ 각주 8종과 1:1로 대응함. 뜻 정답 8개도 FINAL 각주와 일치함. stimulate A to V의 'A가'는 FINAL 'A(이/가)'와 뜻이 같아 문제없음.",
+    "WB01_synonym_antonym": "9개가 FINAL u1 유반 3세트(clear/obvious/vague, critical/essential/minor, novel/fresh/familiar)와 정확히 대응함. 섞어서 제시했고 관계 라벨은 없음. 정답 뜻 9개가 FINAL과 일치함.",
+    "WB01_syntax_practice": "3문항이 FINAL [구문으로 해석하기] 3항목(s2 N+(that)S′V′, s4 A is that S′V′, s11 stimulate A to V)과 같은 순서로 1:1 대응함. 도움말 낱말 뜻은 FINAL 각주와 일치함. 정답 1·3은 FINAL 결합 해석과 같고, 2는 주어를 뺀 구절에 맞게 일치함(공식 표기만 FM-03).",
+    "WB01_key_sentences": "FINAL u1 핵심 문장 '예' 표시 2개(s4, s10)와 일치함. 정답 해석 2개가 FINAL [자연 해석]과 글자까지 같음.",
+    "source_pdf": "PDF 5쪽 Further Reading 원문 20문장과 Q01~Q09 지문이 철자·구두점·단락 경계까지 일치함(Q09 ④ inseparable은 의도한 어휘 변형)."
+  },
+  "summary": "블라인드 v2 답 9개가 정답과 모두 일치함(불일치 0). 마지막 수정(Q02·Q03·Q05·Q08) 뒤에도 내 답은 바뀌지 않음. 회차 안 정답 노출은 해소됨. 확정오류 1건(FM-01: Q02 지문이 s17 '“You can really like your material stuff.'에서 끝나 닫는 따옴표가 없고 양보만 남음 → s6~s16으로 줄이기 권장). 검토제안 2건(FM-02 Q01 오답 ④ 해설 문구, FM-03 WB01 구문 2번 도움말 공식이 FINAL 표기와 다름). 그 밖의 Q01~Q05 해설, 워크북 u1의 낱말·유반·구문 결합·핵심 문장 정답은 FINAL·원문과 일치함."
+}
