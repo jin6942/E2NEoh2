@@ -1,0 +1,108 @@
+diff -ruN -x __pycache__ /root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/assets/layout-contract.json gyogwaseo-unified/assets/layout-contract.json
+--- /root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/assets/layout-contract.json	2026-09-26 16:37:11.119783497 +0000
++++ gyogwaseo-unified/assets/layout-contract.json	2026-09-26 19:44:50.917969717 +0000
+@@ -1893,7 +1893,7 @@
+   },
+   "guide_text": {
+     "19": "읽는 법  ① / 마다 끊어 읽기   ② 동사(V) 찾기   ③ 주어(S) 찾기   ④ ※ 단어 뜻 보기(★부터)   ⑤ 아래 줄에 내 해석 쓰기   ⑥ 지문 분석지의 끊어읽기 해석과 비교",
+-    "20": "기호  / 끊어 읽는 곳     ★ 꼭 외울 말     S 주어     V 동사     S′·V′ 절 속의 주어·동사        (주격 관계대명사 뒤에는 별도 주어가 없어 V′만 표시)     [ ] 그 절을 이끄는 말(that·if·when 등)        [( )] 생략된 접속사·관계사     ／ 절과 절의 경계     [and]·[;]는 절을 잇는 표시이며, S·V/S′·V′는 실제 절의 범위에 따릅니다.        주어 없이 동사로 시작하면 명령문 — 주어를 적지 않습니다     ~ 다른 말이 들어갈 자리",
++    "20": "기호  / 끊어 읽는 곳     ★ 꼭 외울 말     S 주어     V 동사     S′·V′ 절 속의 주어·동사        (주격 관계대명사 뒤에는 별도 주어가 없어 V′만 표시)     [ ] 그 절을 이끄는 말(that·if·when 등)        [( )] 생략된 접속사·관계사     ／ 절과 절의 경계     [and]·[;]는 절을 잇는 표시이며, S·V/S′·V′는 실제 절의 범위에 따릅니다.        주어 없이 동사로 시작하면 명령문 — 주어를 적지 않습니다     ~ 다른 말이 들어갈 자리     ★핵심 워크북에서 다시 해석할 핵심 문장",
+     "21": "시작하기 전에 꼭",
+     "22": "① 문장 맨 앞이 늘 주어는 아닙니다.   In · At · On · With · For · From · By 같은 전치사로 시작하는 덩어리는 지우고, 그 뒤에서 「누가·무엇이」를 찾으세요.   In flexible-time cultures, it seems …  →  In flexible-time cultures를 지우면 주어는 it   문두의 접속사절 범위를 먼저 확인하고 주절의 주어를 찾으세요. 콤마 유무만으로 구분하지 않습니다.   When we bought the bookshelves, the manager said …  →  주어는 the manager",
+     "23": "② 해석은 S에 「은·는」, S′에 「이·가」를 붙여 시작합니다.   S they → 그들은        S′ the meeting → 그 회의가",
+@@ -1929,7 +1929,7 @@
+       },
+       {
+         "run": 4,
+-        "text": "\n        주어 없이 동사로 시작하면 명령문 — 주어를 적지 않습니다     ~ 다른 말이 들어갈 자리"
++        "text": "\n        주어 없이 동사로 시작하면 명령문 — 주어를 적지 않습니다     ~ 다른 말이 들어갈 자리     ★핵심 워크북에서 다시 해석할 핵심 문장"
+       }
+     ],
+     "21": [
+diff -ruN -x __pycache__ /root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/layout-rules.md gyogwaseo-unified/references/layout-rules.md
+--- /root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/layout-rules.md	2026-09-26 16:37:11.122162845 +0000
++++ gyogwaseo-unified/references/layout-rules.md	2026-09-26 19:45:02.906092273 +0000
+@@ -257,7 +257,7 @@
+ 
+ 정답·해설의 `정답 근거`는 근거 본문과 분리한 제목으로 두고 `선지 해석`·`오답 정리`와 동일한 기존 제목 역할의 글꼴·크기·색·굵기·간격을 사용한다. 제목과 이어지는 근거는 함께 두되 한 문항 전체를 긴 다음 문단 연결 사슬로 묶지 않는다. 근거·해설 내용 자체는 보존한다. 사용자는 별도 제목 줄 때문에 해설이 다음 쪽으로 이어지고 페이지가 늘어나는 것을 허용했다. 이를 줄이려고 제목을 본문과 같은 줄로 되돌리거나 글자·행간·기존 선지/오답 묶음을 축소하지 않는다. 제목 고립·잘림과 불필요한 강제 쪽 나눔은 계속 검사한다.
+ 
+-공유 장문 세트라는 이유만으로 새 페이지를 강제하지 않는다. 앞 문제 뒤의 남은 공간에 공유 지문과 연결된 두 문항·선지 전체가 기존 글자·행간과 문항 사이24.7pt 간격을 유지한 채 들어가면 같은 페이지에 이어 배치한다. 현재 쪽에서 세트가 갈라지고 새 한 쪽에는 전부 들어갈 때는 세트 전체를 다음 쪽으로 옮긴다. 실제 Word 관찰을 `layout_adjustments`의 `passage_group` 이동으로 기록하고 자식 문항만 따로 이동하지 않는다. 새 한 쪽에도 들어가지 않으면 글자·행간·여백을 줄이지 말고 실제 길이와 가능한 배치를 사용자에게 보고해 판단받는다. 약2문항/쪽은 고정 수용량이 아니며, 일반1문항과 장문2문항이 함께 놓여도 된다. 장문 안내 제목은 지문 첫 부분과 연결하고 문제·선지는 자연스러운 묶음을 유지한다. 실제 Word에서 잘림·고립·과밀 또는 큰 불필요한 빈 공간이 확인될 때만 관찰 근거를 남겨 쪽 나눔을 조정한다. 회차 시작·분석지 구분 등 별도로 확정한 새 쪽 규칙은 유지한다.
++(2026-09-26 사용자 지시로 대체: 미니 모의고사 매회 공유 장문 세트는 항상 새 쪽에서 시작한다. 아래 절 참조.) 공유 장문 세트라는 이유만으로 새 페이지를 강제하지 않는다. 앞 문제 뒤의 남은 공간에 공유 지문과 연결된 두 문항·선지 전체가 기존 글자·행간과 문항 사이24.7pt 간격을 유지한 채 들어가면 같은 페이지에 이어 배치한다. 현재 쪽에서 세트가 갈라지고 새 한 쪽에는 전부 들어갈 때는 세트 전체를 다음 쪽으로 옮긴다. 실제 Word 관찰을 `layout_adjustments`의 `passage_group` 이동으로 기록하고 자식 문항만 따로 이동하지 않는다. 새 한 쪽에도 들어가지 않으면 글자·행간·여백을 줄이지 말고 실제 길이와 가능한 배치를 사용자에게 보고해 판단받는다. 약2문항/쪽은 고정 수용량이 아니며, 일반1문항과 장문2문항이 함께 놓여도 된다. 장문 안내 제목은 지문 첫 부분과 연결하고 문제·선지는 자연스러운 묶음을 유지한다. 실제 Word에서 잘림·고립·과밀 또는 큰 불필요한 빈 공간이 확인될 때만 관찰 근거를 남겨 쪽 나눔을 조정한다. 회차 시작·분석지 구분 등 별도로 확정한 새 쪽 규칙은 유지한다.
+ 
+ 
+ ## 2026-09-24 워크북 낱말 크기와 해석 활동 쪽 구분
+@@ -271,3 +271,10 @@
+ 독립 p.p. 낱말 힌트의 최신 좁은 예외는 `held — 개최된`의 held와 개최된 전체를 대응 강조하는 것이다. `participle_focus_gloss_id`와 실제 강조 위치를 연결하며 by/without V-ing나 다른 문법으로 확대하지 않는다. 자세한 기준은 `analysis-content.md`와 `manuscript-data.md`를 따른다.
+ 
+ S/V의 긴 명사구 주어는 검토된 subject_display_spans로 한정사·앞수식어·중심명사만 표시할 수 있으나 7.5pt 및 기존 글꼴·간격은 유지한다. 내부 전체 주어·절 연결은 보존하고 문법 예외와 필드 계약은 analysis-content.md·manuscript-data.md를 따른다.
++
++## 2026-09-26 사용자 지시 반영(영어2 능률(오) 2과 작업 중 결정)
++
++- 미니 모의고사 매회 마지막 공유 장문 세트(`[n~m] 다음 글을 읽고 물음에 답하시오.`)는 앞 문항 뒤 남은 공간과 관계없이 항상 새 쪽에서 시작한다. `book_plan.py`가 장문 안내 문단에 page_break_before를 적용하며, 별도 Word 관찰 layout_adjustments가 필요하지 않다.
++- 워크북 실전문제·미니 모의고사 발문의 부정어 `않는`·`않은`·`없는`에 밑줄을 긋는다(예: 일치하지 <u>않는</u> 것은, 적절하지 <u>않은</u> 것은, 관계 <u>없는</u> 문장은). 발문 역할의 기존 밑줄 허용 서식을 쓰며 함축 의미 발문의 표적 밑줄과 함께 적용한다.
++- 워크북 5번 핵심 문장 다시 해석하기의 `나의 해석` 답안선은 문장마다 2줄이다.
++- 해석지 공통 안내의 `기호` 줄 끝에 `★핵심 워크북에서 다시 해석할 핵심 문장`을 추가한다.
+diff -ruN -x __pycache__ /root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/book_plan.py gyogwaseo-unified/scripts/book_plan.py
+--- /root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/book_plan.py	2026-09-26 16:37:11.124208604 +0000
++++ gyogwaseo-unified/scripts/book_plan.py	2026-09-26 19:46:21.031887755 +0000
+@@ -177,11 +177,26 @@
+     return paragraphs
+ 
+ 
++NEGATIVE_PROMPT_WORDS = ('않는', '않은', '없는')  # 2026-09-26 사용자 지시: 발문의 부정어에 밑줄
++
++
++def negative_runs(text, lead=''):
++    """발문 속 부정어(않는·않은·없는)만 밑줄 런으로 나눈다."""
++    runs, pos = [], 0
++    pattern = re.compile('|'.join(NEGATIVE_PROMPT_WORDS))
++    for m in pattern.finditer(text):
++        runs.append(r(0, (lead if pos == 0 else '') + text[pos:m.start()]))
++        runs.append(r(0, m.group(), underline=True))
++        pos = m.end()
++    runs.append(r(0, (lead if pos == 0 else '') + text[pos:]))
++    return [x for x in runs if x['text']]
++
++
+ def prompt_runs(q):
+     prefix = f'{q["number"]}.  '
+     value = q['question']
+     if q['type'] != '함축 의미':
+-        return [r(0, prefix + value)]
++        return negative_runs(value, prefix)
+     target = q['target']
+     # An explicit span disambiguates repeated target text in a prompt.
+     marks = q.get('prompt_underlines')
+@@ -192,7 +207,7 @@
+             or not 0 <= span[0] < span[1] <= len(value) or value[slice(*span)] != target):
+         raise ValueError('Meaning prompt target span differs from the passage expression')
+     start, end = span
+-    return [r(0, prefix + value[:start]), r(0, value[start:end], underline=True), r(0, value[end:])]
++    return negative_runs(value[:start], prefix) + [r(0, value[start:end], underline=True)] + negative_runs(value[end:])
+ 
+ 
+ def question_elements(q, view, source_label, scope='mock', *, include_passage=True, spaced=False):
+@@ -445,6 +460,10 @@
+         for i,sid in enumerate(wb['key_sentence_ids'],1):
+             workbook += [p('workbook_key_sentence',[r(0,f'{i}.   '),r(1,sentences[(src,sid)]['text'])],anchor='key/'+sid),
+                          p('workbook_key_answer_label','나의 해석  '),
++                         # 2026-09-26 사용자 결정: 두 줄 해석을 쓸 수 있도록 답안선 2줄
++                         # 같은 테두리 문단이 이어지면 한 줄로 합쳐지므로 두 답안선 사이에 테두리 없는 간격 문단을 둔다.
++                         {'role':'workbook_key_answer_space','chain':True},
++                         {'role':'workbook_question_gap','chain':True},
+                          {'role':'workbook_key_answer_space','chain':i<len(wb['key_sentence_ids'])}]
+         block(uid + '/workbook',workbook)
+     if scope=='learning':
+@@ -467,9 +486,10 @@
+             if gid and gid not in printed_groups:
+                 shared = group_records[gid]
+                 child_numbers = [questions[qid]['number'] for qid in shared['question_ids']]
+-                els.append(p('mock_question_prompt_spaced' if index > 0 else 'mock_question_prompt',
++                # 2026-09-26 사용자 지시: 매회 공유 장문(마지막 두 문항) 세트는 항상 새 쪽에서 시작한다.
++                els.append(p('mock_question_prompt',
+                              f'[{child_numbers[0]}~{child_numbers[-1]}] 다음 글을 읽고 물음에 답하시오.',
+-                             page_break_before=False, chain=True, anchor='passage_group/' + gid))
++                             page_break_before=True, chain=True, anchor='passage_group/' + gid))
+                 shared_view = validation['passage_group_views'][gid]
+                 els += passage_elements({**shared_view, 'preserve_paragraphs': True}, 'mock_question_passage')
+                 printed_groups.add(gid)

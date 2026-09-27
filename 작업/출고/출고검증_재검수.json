@@ -1,0 +1,386 @@
+{
+  "status": "FAIL",
+  "scope": "full",
+  "errors": [
+    {
+      "code": "REVIEW_STALE_BINDINGS",
+      "detail": "R-release-rereview"
+    }
+  ],
+  "pending": [
+    {
+      "code": "SPLIT_WORD_RENDERS_MISSING",
+      "detail": "Five ordered {kind,pdf,receipt} references required"
+    },
+    {
+      "code": "MISSING_ARTIFACT",
+      "detail": "report/word_render"
+    },
+    {
+      "code": "MISSING_REVIEW",
+      "detail": "word_layout: need 1, found 0"
+    }
+  ],
+  "checked_artifacts": [
+    "manuscript",
+    "plan",
+    "contract",
+    "docx",
+    "pdf",
+    "learning_final",
+    "assessment_final",
+    "split_manifest",
+    "source/src",
+    "report/structure",
+    "report/saved_docx",
+    "report/release_text",
+    "review/S_source.json",
+    "review/L_bundle_재검수.json",
+    "review/Q_Q3.json",
+    "review/Q_N_재검수.json",
+    "review/R_release_재검수.json"
+  ],
+  "observed_sha256": {
+    "manuscript": "3f7e5391b2ef05450c7a90383e75a727dc3969074449f93c7cd08bcebf0611a3",
+    "plan": "797dabc38ac94b35a2aefa62d6c0a95b9303d1b3e020ab01ca36f1b747d8139b",
+    "contract": "a4028654fa35f7b70df2822900e2da4c8167bc1d8417ef9597ea192a0bb2096e",
+    "docx": "b0bc144c1b99ac0737b32c0efccac7d4cf743cad0bd3b454bbd5f4c923370188",
+    "pdf": "3a0e38907b17d752582b14486c5399c0013ee7096b37147a3d3421c909bcde4f",
+    "learning_final": "9fb62d371dd7d4b2f5e51aa4e712840e798f10c2b3fbd0fd1ee1acec990925d9",
+    "assessment_final": "ee68e1f64a2a5c30cc3de546aad8d608a3a95d5f6a815fee3e6e6e4bcf02fbfd",
+    "split_manifest": "7a438538ac7a92eaed4426122c3f2bfd82160ea960ddba6473e7bb98ef8dbf54",
+    "source/src": "816e8cd0b1e7e9f867a6b88e59179ddc2bad7d3302f57846499b0520d90d5822",
+    "report/structure": "5dda1043000fa441108f524b72ac19d1f6f7e3ec9bb206550dc16650049ac932",
+    "report/saved_docx": "e4ed803e956a3874dd7faebe8a0f99c7519ba6746c0615ccb639e38016a8b612",
+    "report/release_text": "dc7879955e50e7d7a44c04fb50d712e96ffc49a94b8826449eba7d0f20a7de74",
+    "review/S_source.json": "be39829a237e2aabf9606e85810ca578484e4289e4638c2f4a91295385d6ae9e",
+    "review/L_bundle_재검수.json": "a63b737b3b916176004fbcde698fd69756958c0d48c06f91a39a7bb6357c3e61",
+    "review/Q_Q3.json": "65b0675c7f2fb8280fbf029174201a8232eb0a6ae7f78e9e5a0b1637ce6a6ad6",
+    "review/Q_N_재검수.json": "a2b0321afdc995f3a962b37c3899ecc499673f29fc9cbd71d4233284ed2854cb",
+    "review/R_release_재검수.json": "6259e1f2805bf4d3db80e0e14fa8d2408dba36f193f9e51129adff590f45d928"
+  },
+  "package_sha256": "4fcd6a2f2d6542160e46cc4cddd22129d67413f334cd82febdc6661d97b112c4",
+  "bindings": {
+    "manuscript_sha256": "3f7e5391b2ef05450c7a90383e75a727dc3969074449f93c7cd08bcebf0611a3",
+    "plan_sha256": "797dabc38ac94b35a2aefa62d6c0a95b9303d1b3e020ab01ca36f1b747d8139b",
+    "contract_sha256": "a4028654fa35f7b70df2822900e2da4c8167bc1d8417ef9597ea192a0bb2096e",
+    "docx_sha256": "b0bc144c1b99ac0737b32c0efccac7d4cf743cad0bd3b454bbd5f4c923370188",
+    "pdf_sha256": "3a0e38907b17d752582b14486c5399c0013ee7096b37147a3d3421c909bcde4f",
+    "learning_final_sha256": "9fb62d371dd7d4b2f5e51aa4e712840e798f10c2b3fbd0fd1ee1acec990925d9",
+    "assessment_final_sha256": "ee68e1f64a2a5c30cc3de546aad8d608a3a95d5f6a815fee3e6e6e4bcf02fbfd",
+    "split_manifest_sha256": "7a438538ac7a92eaed4426122c3f2bfd82160ea960ddba6473e7bb98ef8dbf54",
+    "package_sha256": "4fcd6a2f2d6542160e46cc4cddd22129d67413f334cd82febdc6661d97b112c4",
+    "source_content_sha256": "9dbddac0478821ad1685aa3d5248996e99d91a42e5fb7a7f919a7eae485acc11",
+    "learning_content_sha256": "bf4f5997b01536f10036329120b633daa8b4f04c16c335a5ad262583b9078b6b",
+    "assessment_content_sha256": "a94a15201a36f73288948499d136cda87c0e3799bbc942994a1049d997e959aa",
+    "delivery_zip_sha256": "1cb1693a783553f354ec415ae16b3a2d2553142e41e6bffb2e7cef9ca337aac9"
+  },
+  "review_scope": {
+    "kind": "full",
+    "source_ids": [
+      "src"
+    ],
+    "unit_ids": [
+      "u1",
+      "u2",
+      "u3",
+      "u4"
+    ],
+    "question_ids": [
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q07",
+      "Q08",
+      "Q09",
+      "Q10",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "Q19",
+      "Q20",
+      "Q21",
+      "Q22",
+      "Q23",
+      "Q24",
+      "Q25"
+    ]
+  },
+  "word_pages": null,
+  "delivery_mode": "integrated_plus_five_docx",
+  "delivery_files": [
+    {
+      "kind": "delivery_zip",
+      "path": "/home/user/E2NEoh2/작업/출고/분권_재검수/혼공독해교재_영어2_능률(오)_2과.zip",
+      "sha256": "1cb1693a783553f354ec415ae16b3a2d2553142e41e6bffb2e7cef9ca337aac9"
+    }
+  ],
+  "docx_files": [
+    {
+      "kind": "integrated",
+      "path": "/home/user/E2NEoh2/작업/출고/분권_재검수/혼공독해교재_영어2_능률(오)_2과_전체통합본.docx",
+      "sha256": "b0bc144c1b99ac0737b32c0efccac7d4cf743cad0bd3b454bbd5f4c923370188"
+    },
+    {
+      "kind": "reading",
+      "path": "/home/user/E2NEoh2/작업/출고/분권_재검수/혼공독해교재_영어2_능률(오)_2과_01_해석지.docx",
+      "sha256": "a0bc8b48e853e8b2639cd23b9fdd1a4244bfe7df367ed91a825ec0e1b46daaae"
+    },
+    {
+      "kind": "analysis",
+      "path": "/home/user/E2NEoh2/작업/출고/분권_재검수/혼공독해교재_영어2_능률(오)_2과_02_지문분석지.docx",
+      "sha256": "fafe71fa8fc8e9ea27df93e963dc12e7a2e0c69ed384b21d9826967f8140eb7c"
+    },
+    {
+      "kind": "workbook",
+      "path": "/home/user/E2NEoh2/작업/출고/분권_재검수/혼공독해교재_영어2_능률(오)_2과_03_워크북+변형문제.docx",
+      "sha256": "87b6ca41afe8d0e9f77c7566537ae0302fa3b60660eae3c53367031ac5e7c9c0"
+    },
+    {
+      "kind": "mock",
+      "path": "/home/user/E2NEoh2/작업/출고/분권_재검수/혼공독해교재_영어2_능률(오)_2과_04_실전모의.docx",
+      "sha256": "0a3fc492c541bbff8b4a28099d868a59c047f5852d6ef3c0e156d9d5f8bf2118"
+    },
+    {
+      "kind": "answers",
+      "path": "/home/user/E2NEoh2/작업/출고/분권_재검수/혼공독해교재_영어2_능률(오)_2과_05_정답해설지.docx",
+      "sha256": "f3bcbff7f2936a04ab1645ef5a307e922bd0b9c6326dde4b4a40e7ec04ec3a6b"
+    }
+  ],
+  "word_page_map": [],
+  "assessment_configuration": {
+    "kind": "full",
+    "label": "표준 편성",
+    "workbook_question_count": 4,
+    "mock_round_count": 3,
+    "mock_rounds": [
+      {
+        "set_id": "mock1",
+        "label": "미니 모의고사 1회",
+        "question_count": 7
+      },
+      {
+        "set_id": "mock2",
+        "label": "미니 모의고사 2회",
+        "question_count": 7
+      },
+      {
+        "set_id": "mock3",
+        "label": "미니 모의고사 3회",
+        "question_count": 7
+      }
+    ],
+    "instruction": null
+  },
+  "review_contributors": [
+    {
+      "id": "L-A-rereview",
+      "kind": "learning",
+      "role": "L",
+      "reviewer_id": "claude-agent-L-A-rereview",
+      "execution_id": "subagent-a628dcf553377abe8",
+      "path": "/home/user/E2NEoh2/작업/검수기록/L_A_재검수.json",
+      "sha256": "5cc7fbca47bb4ebf5580dd56dec0356f816e16ec8a3ba14fd886d78b3d7cace9",
+      "unit_ids": [
+        "u1",
+        "u2"
+      ],
+      "question_ids": [],
+      "pages_reviewed": []
+    },
+    {
+      "id": "L-B-rereview",
+      "kind": "learning",
+      "role": "L",
+      "reviewer_id": "claude-agent-L-B-rereview",
+      "execution_id": "subagent-a107744ef4628a2e6",
+      "path": "/home/user/E2NEoh2/작업/검수기록/L_B_재검수.json",
+      "sha256": "42b33170d22c3792d2443f50b386318261775420bb4f6d5c057a6a06dca2970d",
+      "unit_ids": [
+        "u3",
+        "u4"
+      ],
+      "question_ids": [],
+      "pages_reviewed": []
+    },
+    {
+      "id": "L-continuity-rereview",
+      "kind": "learning_continuity",
+      "role": "L",
+      "reviewer_id": "claude-agent-L-A-rereview",
+      "execution_id": "subagent-a628dcf553377abe8",
+      "path": "/home/user/E2NEoh2/작업/검수기록/L_continuity_재검수.json",
+      "sha256": "4500a1a6fba55c18d3f93f1c3e9e9ba3371dd0b3ec9a18e54f271225071a42e9",
+      "unit_ids": [
+        "u1",
+        "u2",
+        "u3",
+        "u4"
+      ],
+      "question_ids": [],
+      "pages_reviewed": []
+    }
+  ],
+  "user_feedback": {
+    "status": "NOT_RECORDED"
+  },
+  "protected_paths": [
+    "/home/user/E2NEoh2/(2022개정)2026년_영어II_NE능률(오선영)_2과_본문.pdf",
+    "/home/user/E2NEoh2/결과물/혼공독해교재_영어2_능률(오)_2과_전체통합본.docx",
+    "/home/user/E2NEoh2/작업/검사기록/05_재검수_역할계획.json",
+    "/home/user/E2NEoh2/작업/검사기록/07_check_book_final.json",
+    "/home/user/E2NEoh2/작업/검수기록/L_A_재검수.json",
+    "/home/user/E2NEoh2/작업/검수기록/L_B_재검수.json",
+    "/home/user/E2NEoh2/작업/검수기록/L_bundle_재검수.json",
+    "/home/user/E2NEoh2/작업/검수기록/L_continuity_재검수.json",
+    "/home/user/E2NEoh2/작업/검수기록/Q_N_재검수.json",
+    "/home/user/E2NEoh2/작업/검수기록/Q_Q3.json",
+    "/home/user/E2NEoh2/작업/검수기록/R_release_재검수.json",
+    "/home/user/E2NEoh2/작업/검수기록/S_source.json",
+    "/home/user/E2NEoh2/작업/영어2_능률(오)_UNIT02_원고.json",
+    "/home/user/E2NEoh2/작업/영어2_능률(오선영)_UNIT02_FINAL.txt",
+    "/home/user/E2NEoh2/작업/영어2_능률(오선영)_UNIT02_문제_FINAL.txt",
+    "/home/user/E2NEoh2/작업/출고/R준비_재검수.json",
+    "/home/user/E2NEoh2/작업/출고/분권_재검수/분권내보내기.json",
+    "/home/user/E2NEoh2/작업/출고/분권_재검수/혼공독해교재_영어2_능률(오)_2과.zip",
+    "/home/user/E2NEoh2/작업/출고/분권_재검수/혼공독해교재_영어2_능률(오)_2과_01_해석지.docx",
+    "/home/user/E2NEoh2/작업/출고/분권_재검수/혼공독해교재_영어2_능률(오)_2과_02_지문분석지.docx",
+    "/home/user/E2NEoh2/작업/출고/분권_재검수/혼공독해교재_영어2_능률(오)_2과_03_워크북+변형문제.docx",
+    "/home/user/E2NEoh2/작업/출고/분권_재검수/혼공독해교재_영어2_능률(오)_2과_04_실전모의.docx",
+    "/home/user/E2NEoh2/작업/출고/분권_재검수/혼공독해교재_영어2_능률(오)_2과_05_정답해설지.docx",
+    "/home/user/E2NEoh2/작업/출고/분권_재검수/혼공독해교재_영어2_능률(오)_2과_전체통합본.docx",
+    "/home/user/E2NEoh2/작업/출고/예비렌더_재검수/혼공독해교재_영어2_능률(오)_2과_전체통합본.pdf",
+    "/home/user/E2NEoh2/작업/출고/저장본검사_재검수.json",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/SKILL.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/agents/openai.yaml",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/artifact-template.json",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/assets/exam-length-profile.json",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/assets/icon.svg",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/assets/latest-approved-reference.docx",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/assets/layout-contract.json",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/assets/logo-horizontal.png",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/assets/preview.png",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/assets/review-line.xml",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/assets/source-subheading.xml",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/assets/structure-hint-ko.xml",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/analysis-content.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/assessment-content.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/common-errors.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/current-revision.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/editorial-core.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/gloss-rules.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/grammar-labels.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/handoff-format.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/layout-rules.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/manuscript-data.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/preposition-meanings.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/promotion.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/proper-nouns.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/release-record.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/review-efficiency.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/runtime-and-data.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/split-delivery.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/user-feedback.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/verification.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/workbook.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/references/workflow.md",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/requirements-visual.txt",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/requirements.txt",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/analysis_body.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/book_plan.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/build_book.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/build_promotion.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/build_thumbnail.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/check_answer_links.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/check_book.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/check_learning_content.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/check_release_text.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/check_saved_docx.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/compact_layout.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/convert_thumbnail_input.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/export_handoff.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/learning_units.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/master_docx.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/question_source.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/rasterize_pdf.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/render_word.ps1",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/review_coverage.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/review_packets.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/review_preflight.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/saved_format.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/source_contract.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/split_book.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/split_release_support.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/structure_hints.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/sv_line.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/syntax_training.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/user_feedback.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/verify_release.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/scripts/verify_split_release.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/revision_fixtures.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/run_tests.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/template-audit/layout-specimen.docx",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/template-audit/layout-specimen.json",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_analysis_body.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_answer_links.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_assessment_rule_revision.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_book.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_book_plan.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_build_book.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_compact_layout.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_confirmed_layout.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_cover_simplify.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_export_handoff.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_formula_training_display.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_formula_training_gloss.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_gloss_identity.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_handoff_diagnostics.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_header_standardization.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_hint_particles.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_layout_rule_revision.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_learning_content.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_learning_units.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_master_docx.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_preflight_scope.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_promotion.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_quantity_of_passive.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_question_source.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_reading_rule_revision.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_relative_hints.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_release.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_release_text.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_render_markers.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_review_coverage.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_review_packets.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_review_preflight.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_review_release_integration.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_rule_revision_integration.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_saved_docx.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_saved_format.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_special_lesson.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_split_book.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_split_release.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_sv_line.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_syntax_training.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_syntax_training_output.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_thumbnail_input.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_user_feedback.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_user_feedback_release.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_verb_function_hints.py",
+    "/root/.claude/skills/synced/4603dc7d-ce35-4090-8ef2-ac7ae1d1ac10_df5bb904-834c-4816-b34a-988e18ef16ac/gyogwaseo-unified/tests/test_verb_gloss_revision.py"
+  ],
+  "limits": [
+    "Hash/coverage checks do not prove review truth, human/agent independence, translation accuracy or unique answers.",
+    "READY_FOR_RELEASE validates supplied execution evidence and current files; it does not create a FINAL or perform a review.",
+    "Unrecorded user messages cannot be detected; NOT_RECORDED never means user visual approval."
+  ],
+  "record_sha256": "0569c279b5cf8eb82f7723e04fd4b6bf33e9e0c01752122d207ca6e70e88ba2f"
+}

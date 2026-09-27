@@ -1,0 +1,105 @@
+{
+ "id": "Q-N-rereview",
+ "kind": "questions",
+ "role": "N",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "claude-agent-Q-N",
+ "execution_id": "subagent-a9c2dcbfbaac9070c",
+ "performed_at": "2026-09-26T20:00:00Z",
+ "method": "1·2차 블라인드 풀이(정답 대조 전 저장) 이후 재검수 수정분 대조와 최종 해시 재확인",
+ "summary": "정답 25문항 변화 없음, 재검수 수정 반영 정확",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4"
+  ],
+  "question_ids": [
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06",
+   "Q07",
+   "Q08",
+   "Q09",
+   "Q10",
+   "Q11",
+   "Q12",
+   "Q13",
+   "Q14",
+   "Q15",
+   "Q16",
+   "Q17",
+   "Q18",
+   "Q19",
+   "Q20",
+   "Q21",
+   "Q22",
+   "Q23",
+   "Q24",
+   "Q25"
+  ]
+ },
+ "bindings": {
+  "package_sha256": "4fcd6a2f2d6542160e46cc4cddd22129d67413f334cd82febdc6661d97b112c4",
+  "assessment_content_sha256": "a94a15201a36f73288948499d136cda87c0e3799bbc942994a1049d997e959aa",
+  "learning_final_sha256": "9fb62d371dd7d4b2f5e51aa4e712840e798f10c2b3fbd0fd1ee1acec990925d9",
+  "assessment_final_sha256": "ee68e1f64a2a5c30cc3de546aad8d608a3a95d5f6a815fee3e6e6e4bcf02fbfd"
+ },
+ "solved_before_answer_key": true,
+ "answers": {
+  "Q01": 3,
+  "Q02": 5,
+  "Q03": 2,
+  "Q04": 4,
+  "Q05": 1,
+  "Q06": 2,
+  "Q07": 4,
+  "Q08": 4,
+  "Q09": 2,
+  "Q10": 3,
+  "Q11": 2,
+  "Q12": 1,
+  "Q13": 5,
+  "Q14": 5,
+  "Q15": 4,
+  "Q16": 3,
+  "Q17": 5,
+  "Q18": 2,
+  "Q19": 5,
+  "Q20": 3,
+  "Q21": 1,
+  "Q22": 3,
+  "Q23": 2,
+  "Q24": 2,
+  "Q25": 4
+ },
+ "blind_records": [
+  "작업/검수입력/N_blind_answers.json",
+  "작업/검수입력/N_blind_answers_2차.json"
+ ],
+ "findings": [
+  {
+   "id": "N-R1",
+   "description": "재검수 수정(Q04 ③·Q16·Q18·Q09·Q23) 반영 확인 필요",
+   "status": "resolved",
+   "resolution": "반영 확인",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "N-R2",
+   "description": "Q04 ①③ 모두 Only 단정형(선택)",
+   "status": "resolved",
+   "resolution": "현행 유지: 약화하면 오답 근거가 흐려짐",
+   "recheck": "검수자 수용"
+  }
+ ]
+}

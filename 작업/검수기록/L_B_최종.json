@@ -1,0 +1,186 @@
+{
+ "schema_version": 1,
+ "type": "review_shard",
+ "id": "L-B-rereview-final",
+ "kind": "learning",
+ "role": "L",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "claude-agent-L-B-rereview",
+ "execution_id": "subagent-a107744ef4628a2e6",
+ "performed_at": "2026-09-26T21:00:00Z",
+ "method": "새 검수자가 u3·u4 27문장 전수 재검수 후 반영분 재확인, 반영 오류(R-1·R-2) 지적과 재수정 확인",
+ "summary": "지적 LB-1~LB-12와 판단 4건. 반영 후 재확인에서 R-1·R-2 추가 지적 → 수정 후 PASS",
+ "scope": {
+  "kind": "partial",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u3",
+   "u4"
+  ],
+  "sentence_ids": [
+   "s34",
+   "s35",
+   "s36",
+   "s37",
+   "s38",
+   "s39",
+   "s40",
+   "s41",
+   "s42",
+   "s43",
+   "s44",
+   "s45",
+   "s46",
+   "s47",
+   "s48",
+   "s49",
+   "s50",
+   "s51",
+   "s52",
+   "s53",
+   "s54",
+   "s55",
+   "s56",
+   "s57",
+   "s58",
+   "s59",
+   "s60"
+  ]
+ },
+ "bindings": {
+  "package_sha256": "4a1d3b5f95fef740593b3c6755e5b18d7aabac7a57f2cd0380409090a3c4eba3",
+  "learning_content_sha256": "69faa99efacb89cd33add67a4f34cdb4eaf6fc8783ccaab609be3b5cab2e87c7",
+  "learning_final_sha256": "aa36cc8827df8f4a1aa59c6df741b0c48c0dfea93eaaf819dd4c02972913ba87"
+ },
+ "findings": [
+  {
+   "id": "LB-1",
+   "description": "s60 힌트 목적어 누락",
+   "status": "resolved",
+   "resolution": "their time·대명사 참조 포함",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LB-2",
+   "description": "u4-gp3 대입",
+   "status": "resolved",
+   "resolution": "volunteering/목적어 분리",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LB-3",
+   "description": "u3-gp1·gp2 V′ 자리 구 전체",
+   "status": "resolved",
+   "resolution": "사용자 결정 A: 분리",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LB-4",
+   "description": "gp2·gp3·gp4 두 번째 초점",
+   "status": "resolved",
+   "resolution": "삭제·정리",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LB-5",
+   "description": "s46 that V′한",
+   "status": "resolved",
+   "resolution": "V′하는",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LB-6",
+   "description": "s38 seem 보어 포함",
+   "status": "resolved",
+   "resolution": "근거 기록",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LB-7",
+   "description": "A가 슬롯 표기",
+   "status": "resolved",
+   "resolution": "A(이/가)",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LB-8",
+   "description": "흐름 42~49 도입",
+   "status": "resolved",
+   "resolution": "보강",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LB-9",
+   "description": "s52 쉬운 풀이 알린",
+   "status": "resolved",
+   "resolution": "전문가에게 보여 준",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LB-10",
+   "description": "u4 쉬운 풀이 원문 밖 표현",
+   "status": "resolved",
+   "resolution": "수정",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LB-11",
+   "description": "WB04 오늘의 낱말 표기 기준",
+   "status": "resolved",
+   "resolution": "현행 유지(채점 영향 없음)",
+   "recheck": "검수자 수용"
+  },
+  {
+   "id": "LB-12",
+   "description": "s58 청크(선택)",
+   "status": "resolved",
+   "resolution": "현행 유지",
+   "recheck": "검수자 수용"
+  },
+  {
+   "id": "LB-D1",
+   "description": "STEVE 풀이",
+   "status": "resolved",
+   "resolution": "사용자 결정: 교과서 해석 “속도 증가에 따른 강한 열 방출”로 통일",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LB-D3",
+   "description": "s52 힌트 겹침",
+   "status": "resolved",
+   "resolution": "사용자 결정 B: 명사절 힌트 삭제",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "LB-D4",
+   "description": "u3 had p.p. 선정",
+   "status": "resolved",
+   "resolution": "사용자 결정: 유지",
+   "recheck": "해당 없음"
+  },
+  {
+   "id": "R-1",
+   "description": "오늘의 낱말 acknowledged를 원형으로 바꾼 반영 오류(workbook.md 34행 위반)",
+   "status": "resolved",
+   "resolution": "acknowledged / 인정했다로 복원",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "R-2",
+   "description": "s51 각주에 제작 메모 노출",
+   "status": "resolved",
+   "resolution": "메모 삭제",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "FINAL-CONFIRM",
+   "description": "사용자 지시(2026-09-26): s20 be asked to V 묶음, 공통 스킬 조판 수정본(장문 세트 새 쪽·발문 부정어 밑줄·★핵심 안내·답안선 2줄) 적용",
+   "status": "resolved",
+   "resolution": "같은 검수 실행이 변경분(diff·patch)과 최종 해시를 확인",
+   "recheck": "최종 확인 PASS"
+  }
+ ]
+}

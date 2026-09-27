@@ -1,0 +1,386 @@
+{
+  "status": "FAIL",
+  "scope": "full",
+  "errors": [
+    {
+      "code": "REVIEW_STALE_BINDINGS",
+      "detail": "R-release-final"
+    }
+  ],
+  "pending": [
+    {
+      "code": "SPLIT_WORD_RENDERS_MISSING",
+      "detail": "Five ordered {kind,pdf,receipt} references required"
+    },
+    {
+      "code": "MISSING_ARTIFACT",
+      "detail": "report/word_render"
+    },
+    {
+      "code": "MISSING_REVIEW",
+      "detail": "word_layout: need 1, found 0"
+    }
+  ],
+  "checked_artifacts": [
+    "manuscript",
+    "plan",
+    "contract",
+    "docx",
+    "pdf",
+    "learning_final",
+    "assessment_final",
+    "split_manifest",
+    "source/src",
+    "report/structure",
+    "report/saved_docx",
+    "report/release_text",
+    "review/S_source_최종.json",
+    "review/L_bundle_최종.json",
+    "review/Q_Q3_최종.json",
+    "review/Q_N_최종.json",
+    "review/R_release_최종.json"
+  ],
+  "observed_sha256": {
+    "manuscript": "f1349d3fd48ad4a736e231e16ff0ef5c989c4b947eea46fb83f87ce5b44bca89",
+    "plan": "abcd067bcb2d20f69612c8e3895950903012908a21daf5be1285a56ead25e795",
+    "contract": "b7c4db140782f052923ea67cb6e1034725db9fd758c3aa4e93884e83cf37be4e",
+    "docx": "98d24a28199bf3ebd0192af56335c509437c5628710c13f8ef32225e3a89af57",
+    "pdf": "971ff5b2f6d9bc46fca7ad9d9e80c3bcd26b70878e1cd531793fb520ff28da2e",
+    "learning_final": "aa36cc8827df8f4a1aa59c6df741b0c48c0dfea93eaaf819dd4c02972913ba87",
+    "assessment_final": "ee68e1f64a2a5c30cc3de546aad8d608a3a95d5f6a815fee3e6e6e4bcf02fbfd",
+    "split_manifest": "882a5c9aa6d333fe7574981b0668e11d72c14c0c92e470d5e407d37cda1ec630",
+    "source/src": "816e8cd0b1e7e9f867a6b88e59179ddc2bad7d3302f57846499b0520d90d5822",
+    "report/structure": "743cd969e1b827be53f6fecdb77b33b7f62ad21cd57f328167c87730ab171d95",
+    "report/saved_docx": "3bc66f9d0f0ac69dca3146125d2c9d35655a1b9e5ff8a3606732a94617de6d1c",
+    "report/release_text": "26282942c09c6e82f2a9886268f420699654a0b6b57fcaef4195d2d4b419f95d",
+    "review/S_source_최종.json": "b192162287ae9cd4dea7d4639a23f87dc09c11f1e50113f0dba7154aaf949367",
+    "review/L_bundle_최종.json": "6547593da8e61da2ea60c23eb739c39eca723b3287083c358b583ef79e7c781f",
+    "review/Q_Q3_최종.json": "b9a388512d26bb43154d21fa5e8896d17991366023819d028635548f2f48c18d",
+    "review/Q_N_최종.json": "a5d77c2edd3e428b2c1a06879fa1f85ac60f309c661428ff44b199387dbe070d",
+    "review/R_release_최종.json": "a7fd23e0e0b13fe9110bbb9b2c21604267a6248efa6b7acce7615b03ff711b6b"
+  },
+  "package_sha256": "4a1d3b5f95fef740593b3c6755e5b18d7aabac7a57f2cd0380409090a3c4eba3",
+  "bindings": {
+    "manuscript_sha256": "f1349d3fd48ad4a736e231e16ff0ef5c989c4b947eea46fb83f87ce5b44bca89",
+    "plan_sha256": "abcd067bcb2d20f69612c8e3895950903012908a21daf5be1285a56ead25e795",
+    "contract_sha256": "b7c4db140782f052923ea67cb6e1034725db9fd758c3aa4e93884e83cf37be4e",
+    "docx_sha256": "98d24a28199bf3ebd0192af56335c509437c5628710c13f8ef32225e3a89af57",
+    "pdf_sha256": "971ff5b2f6d9bc46fca7ad9d9e80c3bcd26b70878e1cd531793fb520ff28da2e",
+    "learning_final_sha256": "aa36cc8827df8f4a1aa59c6df741b0c48c0dfea93eaaf819dd4c02972913ba87",
+    "assessment_final_sha256": "ee68e1f64a2a5c30cc3de546aad8d608a3a95d5f6a815fee3e6e6e4bcf02fbfd",
+    "split_manifest_sha256": "882a5c9aa6d333fe7574981b0668e11d72c14c0c92e470d5e407d37cda1ec630",
+    "package_sha256": "4a1d3b5f95fef740593b3c6755e5b18d7aabac7a57f2cd0380409090a3c4eba3",
+    "source_content_sha256": "9dbddac0478821ad1685aa3d5248996e99d91a42e5fb7a7f919a7eae485acc11",
+    "learning_content_sha256": "69faa99efacb89cd33add67a4f34cdb4eaf6fc8783ccaab609be3b5cab2e87c7",
+    "assessment_content_sha256": "fe6e02644d4878ed4a13f1853cf87fbb314b7c6b35a49e945321e4b66e16072b",
+    "delivery_zip_sha256": "ac6389430d237b3fbb6135f9def420baf299a77a9bcd238396057c9ab7e283c5"
+  },
+  "review_scope": {
+    "kind": "full",
+    "source_ids": [
+      "src"
+    ],
+    "unit_ids": [
+      "u1",
+      "u2",
+      "u3",
+      "u4"
+    ],
+    "question_ids": [
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q07",
+      "Q08",
+      "Q09",
+      "Q10",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "Q19",
+      "Q20",
+      "Q21",
+      "Q22",
+      "Q23",
+      "Q24",
+      "Q25"
+    ]
+  },
+  "word_pages": null,
+  "delivery_mode": "integrated_plus_five_docx",
+  "delivery_files": [
+    {
+      "kind": "delivery_zip",
+      "path": "/home/user/E2NEoh2/작업/출고/분권_최종/혼공독해교재_영어2_능률(오)_2과.zip",
+      "sha256": "ac6389430d237b3fbb6135f9def420baf299a77a9bcd238396057c9ab7e283c5"
+    }
+  ],
+  "docx_files": [
+    {
+      "kind": "integrated",
+      "path": "/home/user/E2NEoh2/작업/출고/분권_최종/혼공독해교재_영어2_능률(오)_2과_전체통합본.docx",
+      "sha256": "98d24a28199bf3ebd0192af56335c509437c5628710c13f8ef32225e3a89af57"
+    },
+    {
+      "kind": "reading",
+      "path": "/home/user/E2NEoh2/작업/출고/분권_최종/혼공독해교재_영어2_능률(오)_2과_01_해석지.docx",
+      "sha256": "ef43cda65caacc817a80bcfbd72dab28a3eb650a02537c0de7ad2558625cbd48"
+    },
+    {
+      "kind": "analysis",
+      "path": "/home/user/E2NEoh2/작업/출고/분권_최종/혼공독해교재_영어2_능률(오)_2과_02_지문분석지.docx",
+      "sha256": "fafe71fa8fc8e9ea27df93e963dc12e7a2e0c69ed384b21d9826967f8140eb7c"
+    },
+    {
+      "kind": "workbook",
+      "path": "/home/user/E2NEoh2/작업/출고/분권_최종/혼공독해교재_영어2_능률(오)_2과_03_워크북+변형문제.docx",
+      "sha256": "fe6fae1f679053474f863662153eec6ae6d0cedbf27f9e4e1e13234a66adad35"
+    },
+    {
+      "kind": "mock",
+      "path": "/home/user/E2NEoh2/작업/출고/분권_최종/혼공독해교재_영어2_능률(오)_2과_04_실전모의.docx",
+      "sha256": "e10ca40bb211214ce582c785103774564a05567701a43849996ff5cba8254f02"
+    },
+    {
+      "kind": "answers",
+      "path": "/home/user/E2NEoh2/작업/출고/분권_최종/혼공독해교재_영어2_능률(오)_2과_05_정답해설지.docx",
+      "sha256": "f3bcbff7f2936a04ab1645ef5a307e922bd0b9c6326dde4b4a40e7ec04ec3a6b"
+    }
+  ],
+  "word_page_map": [],
+  "assessment_configuration": {
+    "kind": "full",
+    "label": "표준 편성",
+    "workbook_question_count": 4,
+    "mock_round_count": 3,
+    "mock_rounds": [
+      {
+        "set_id": "mock1",
+        "label": "미니 모의고사 1회",
+        "question_count": 7
+      },
+      {
+        "set_id": "mock2",
+        "label": "미니 모의고사 2회",
+        "question_count": 7
+      },
+      {
+        "set_id": "mock3",
+        "label": "미니 모의고사 3회",
+        "question_count": 7
+      }
+    ],
+    "instruction": null
+  },
+  "review_contributors": [
+    {
+      "id": "L-A-rereview-final",
+      "kind": "learning",
+      "role": "L",
+      "reviewer_id": "claude-agent-L-A-rereview",
+      "execution_id": "subagent-a628dcf553377abe8",
+      "path": "/home/user/E2NEoh2/작업/검수기록/L_A_최종.json",
+      "sha256": "a7a36b90597c615d2bf4f7e5dced88651bde0ed9d9a8d98a755afb1416bf1231",
+      "unit_ids": [
+        "u1",
+        "u2"
+      ],
+      "question_ids": [],
+      "pages_reviewed": []
+    },
+    {
+      "id": "L-B-rereview-final",
+      "kind": "learning",
+      "role": "L",
+      "reviewer_id": "claude-agent-L-B-rereview",
+      "execution_id": "subagent-a107744ef4628a2e6",
+      "path": "/home/user/E2NEoh2/작업/검수기록/L_B_최종.json",
+      "sha256": "f56c15ce4fc413c7448a6fead7b4ef512d2fbf369b2ef9dbfe7f65de9b1728bf",
+      "unit_ids": [
+        "u3",
+        "u4"
+      ],
+      "question_ids": [],
+      "pages_reviewed": []
+    },
+    {
+      "id": "L-continuity-rereview-final",
+      "kind": "learning_continuity",
+      "role": "L",
+      "reviewer_id": "claude-agent-L-A-rereview",
+      "execution_id": "subagent-a628dcf553377abe8",
+      "path": "/home/user/E2NEoh2/작업/검수기록/L_continuity_최종.json",
+      "sha256": "b9b566e04756a7ff14dcd2b533a9a1663ec604fcef87c3df80ff018b8ee20d85",
+      "unit_ids": [
+        "u1",
+        "u2",
+        "u3",
+        "u4"
+      ],
+      "question_ids": [],
+      "pages_reviewed": []
+    }
+  ],
+  "user_feedback": {
+    "status": "NOT_RECORDED"
+  },
+  "protected_paths": [
+    "/home/user/E2NEoh2/(2022개정)2026년_영어II_NE능률(오선영)_2과_본문.pdf",
+    "/home/user/E2NEoh2/결과물/혼공독해교재_영어2_능률(오)_2과_전체통합본.docx",
+    "/home/user/E2NEoh2/작업/검사기록/07_스킬수정_역할계획.json",
+    "/home/user/E2NEoh2/작업/검사기록/08_check_book_final.json",
+    "/home/user/E2NEoh2/작업/검수기록/L_A_최종.json",
+    "/home/user/E2NEoh2/작업/검수기록/L_B_최종.json",
+    "/home/user/E2NEoh2/작업/검수기록/L_bundle_최종.json",
+    "/home/user/E2NEoh2/작업/검수기록/L_continuity_최종.json",
+    "/home/user/E2NEoh2/작업/검수기록/Q_N_최종.json",
+    "/home/user/E2NEoh2/작업/검수기록/Q_Q3_최종.json",
+    "/home/user/E2NEoh2/작업/검수기록/R_release_최종.json",
+    "/home/user/E2NEoh2/작업/검수기록/S_source_최종.json",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/SKILL.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/agents/openai.yaml",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/artifact-template.json",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/assets/exam-length-profile.json",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/assets/icon.svg",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/assets/latest-approved-reference.docx",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/assets/layout-contract.json",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/assets/logo-horizontal.png",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/assets/preview.png",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/assets/review-line.xml",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/assets/source-subheading.xml",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/assets/structure-hint-ko.xml",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/analysis-content.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/assessment-content.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/common-errors.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/current-revision.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/editorial-core.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/gloss-rules.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/grammar-labels.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/handoff-format.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/layout-rules.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/manuscript-data.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/preposition-meanings.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/promotion.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/proper-nouns.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/release-record.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/review-efficiency.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/runtime-and-data.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/split-delivery.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/user-feedback.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/verification.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/workbook.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/references/workflow.md",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/requirements-visual.txt",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/requirements.txt",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/analysis_body.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/book_plan.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/build_book.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/build_promotion.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/build_thumbnail.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/check_answer_links.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/check_book.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/check_learning_content.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/check_release_text.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/check_saved_docx.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/compact_layout.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/convert_thumbnail_input.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/export_handoff.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/learning_units.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/master_docx.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/question_source.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/rasterize_pdf.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/render_word.ps1",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/review_coverage.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/review_packets.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/review_preflight.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/saved_format.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/source_contract.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/split_book.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/split_release_support.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/structure_hints.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/sv_line.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/syntax_training.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/user_feedback.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/verify_release.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/scripts/verify_split_release.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/revision_fixtures.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/run_tests.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/template-audit/layout-specimen.docx",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/template-audit/layout-specimen.json",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_analysis_body.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_answer_links.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_assessment_rule_revision.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_book.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_book_plan.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_build_book.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_compact_layout.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_confirmed_layout.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_cover_simplify.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_export_handoff.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_formula_training_display.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_formula_training_gloss.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_gloss_identity.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_handoff_diagnostics.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_header_standardization.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_hint_particles.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_layout_rule_revision.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_learning_content.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_learning_units.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_master_docx.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_preflight_scope.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_promotion.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_quantity_of_passive.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_question_source.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_reading_rule_revision.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_relative_hints.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_release.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_release_text.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_render_markers.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_review_coverage.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_review_packets.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_review_preflight.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_review_release_integration.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_rule_revision_integration.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_saved_docx.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_saved_format.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_special_lesson.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_split_book.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_split_release.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_sv_line.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_syntax_training.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_syntax_training_output.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_thumbnail_input.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_user_feedback.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_user_feedback_release.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_verb_function_hints.py",
+    "/home/user/E2NEoh2/작업/스킬수정본/gyogwaseo-unified/tests/test_verb_gloss_revision.py",
+    "/home/user/E2NEoh2/작업/영어2_능률(오)_UNIT02_원고.json",
+    "/home/user/E2NEoh2/작업/영어2_능률(오선영)_UNIT02_FINAL.txt",
+    "/home/user/E2NEoh2/작업/영어2_능률(오선영)_UNIT02_문제_FINAL.txt",
+    "/home/user/E2NEoh2/작업/출고/R준비_최종.json",
+    "/home/user/E2NEoh2/작업/출고/분권_최종/분권내보내기.json",
+    "/home/user/E2NEoh2/작업/출고/분권_최종/혼공독해교재_영어2_능률(오)_2과.zip",
+    "/home/user/E2NEoh2/작업/출고/분권_최종/혼공독해교재_영어2_능률(오)_2과_01_해석지.docx",
+    "/home/user/E2NEoh2/작업/출고/분권_최종/혼공독해교재_영어2_능률(오)_2과_02_지문분석지.docx",
+    "/home/user/E2NEoh2/작업/출고/분권_최종/혼공독해교재_영어2_능률(오)_2과_03_워크북+변형문제.docx",
+    "/home/user/E2NEoh2/작업/출고/분권_최종/혼공독해교재_영어2_능률(오)_2과_04_실전모의.docx",
+    "/home/user/E2NEoh2/작업/출고/분권_최종/혼공독해교재_영어2_능률(오)_2과_05_정답해설지.docx",
+    "/home/user/E2NEoh2/작업/출고/분권_최종/혼공독해교재_영어2_능률(오)_2과_전체통합본.docx",
+    "/home/user/E2NEoh2/작업/출고/예비렌더_최종/혼공독해교재_영어2_능률(오)_2과_전체통합본.pdf",
+    "/home/user/E2NEoh2/작업/출고/저장본검사_최종.json"
+  ],
+  "limits": [
+    "Hash/coverage checks do not prove review truth, human/agent independence, translation accuracy or unique answers.",
+    "READY_FOR_RELEASE validates supplied execution evidence and current files; it does not create a FINAL or perform a review.",
+    "Unrecorded user messages cannot be detected; NOT_RECORDED never means user visual approval."
+  ],
+  "record_sha256": "db67bbdd7a44ad1b063c0a81276ba0c40b5686e2d8c0963255c079557027c6fc"
+}

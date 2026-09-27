@@ -1,0 +1,139 @@
+{
+ "id": "Q-3-final",
+ "kind": "questions",
+ "role": "M",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "claude-agent-Q3",
+ "execution_id": "subagent-a864b9a9a5cc05e08",
+ "performed_at": "2026-09-26T21:00:00Z",
+ "method": "새 검수자가 3차 블라인드 자료로 25문항을 먼저 풀어 저장(Q3_blind_answers.json) 후 대조 자료·FINAL 대조, 수정분·최종 해시 재확인",
+ "summary": "블라인드 25문항 전부 정답 일치, 회차 내 노출 없음. 권장 수정 4건 반영 후 PASS",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4"
+  ],
+  "question_ids": [
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06",
+   "Q07",
+   "Q08",
+   "Q09",
+   "Q10",
+   "Q11",
+   "Q12",
+   "Q13",
+   "Q14",
+   "Q15",
+   "Q16",
+   "Q17",
+   "Q18",
+   "Q19",
+   "Q20",
+   "Q21",
+   "Q22",
+   "Q23",
+   "Q24",
+   "Q25"
+  ]
+ },
+ "bindings": {
+  "package_sha256": "4a1d3b5f95fef740593b3c6755e5b18d7aabac7a57f2cd0380409090a3c4eba3",
+  "assessment_content_sha256": "fe6e02644d4878ed4a13f1853cf87fbb314b7c6b35a49e945321e4b66e16072b",
+  "learning_final_sha256": "aa36cc8827df8f4a1aa59c6df741b0c48c0dfea93eaaf819dd4c02972913ba87",
+  "assessment_final_sha256": "ee68e1f64a2a5c30cc3de546aad8d608a3a95d5f6a815fee3e6e6e4bcf02fbfd"
+ },
+ "solved_before_answer_key": true,
+ "answers": {
+  "Q01": 3,
+  "Q02": 5,
+  "Q03": 2,
+  "Q04": 4,
+  "Q05": 1,
+  "Q06": 2,
+  "Q07": 4,
+  "Q08": 4,
+  "Q09": 2,
+  "Q10": 3,
+  "Q11": 2,
+  "Q12": 1,
+  "Q13": 5,
+  "Q14": 5,
+  "Q15": 4,
+  "Q16": 3,
+  "Q17": 5,
+  "Q18": 2,
+  "Q19": 5,
+  "Q20": 3,
+  "Q21": 1,
+  "Q22": 3,
+  "Q23": 2,
+  "Q24": 2,
+  "Q25": 4
+ },
+ "blind_records": [
+  "작업/검수입력/Q3_blind_answers.json"
+ ],
+ "findings": [
+  {
+   "id": "Q3-1",
+   "description": "Q04 ③ promote를 홍보 뜻으로 사용",
+   "status": "resolved",
+   "resolution": "배운 뜻(촉진하다)으로 쓰는 오답으로 교체, 해석·근거·유반 기록 수정",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "Q3-2",
+   "description": "Q16 요약문 시간 관계 When",
+   "status": "resolved",
+   "resolution": "After … spotted",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "Q3-3",
+   "description": "Q18 오답 ① 앞두고",
+   "status": "resolved",
+   "resolution": "일 때문에",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "Q3-4",
+   "description": "Q09 오답 ④ 순환 설명",
+   "status": "resolved",
+   "resolution": "them 지시 근거 보강",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "Q3-5",
+   "description": "Q07 분량 경계",
+   "status": "resolved",
+   "resolution": "현행 유지(Q06 노출 방지)",
+   "recheck": "검수자 수용"
+  },
+  {
+   "id": "Q3-6",
+   "description": "acknowledge 원형 변경을 적절하다고 본 판단 오류",
+   "status": "resolved",
+   "resolution": "규칙대로 실제형 복원 확인",
+   "recheck": "재확인 PASS"
+  },
+  {
+   "id": "FINAL-CONFIRM",
+   "description": "사용자 지시(2026-09-26): s20 be asked to V 묶음, 공통 스킬 조판 수정본(장문 세트 새 쪽·발문 부정어 밑줄·★핵심 안내·답안선 2줄) 적용",
+   "status": "resolved",
+   "resolution": "같은 검수 실행이 변경분(diff·patch)과 최종 해시를 확인",
+   "recheck": "최종 확인 PASS"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "renderer": "Microsoft Word",
+  "version": "SYNTHETIC-test-only",
+  "execution_id": "SYNTHETIC-render-no-Word-was-executed",
+  "source_unchanged": true,
+  "source_sha256": "02d4cf12913fe49e4a6941eb42d81ef0fa065021a82bffc6fdfa82decfb25804",
+  "pdf_sha256": "2040dd93ee9ece81ccde98579c56aa99a98c51c0a76d86708bc697a9bfbb3097",
+  "pages": 1
+}

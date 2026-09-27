@@ -1,0 +1,94 @@
+{
+ "id": "R-release-final",
+ "kind": "release",
+ "role": "R",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "claude-agent-R-release",
+ "execution_id": "subagent-a0a73f7822d85a6e6",
+ "performed_at": "2026-09-26T21:05:00Z",
+ "method": "최종 출고 세트(분권_최종): ZIP 재개봉, 통합본·분권↔학습/문제 FINAL 전수, 원문 PDF↔원고, 01~04권 정답 혼입, 빠른 정답, 사용자 지시 5건 반영(텍스트·서식), R준비 경고 화면 확인",
+ "summary": "내용 대응 PASS. 기록 연결 지적 3건(새 패키지·s20 L 재확인·인계 갱신) 반영. Word 렌더·Word 기준 J/K 미실시",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4"
+  ],
+  "question_ids": [
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06",
+   "Q07",
+   "Q08",
+   "Q09",
+   "Q10",
+   "Q11",
+   "Q12",
+   "Q13",
+   "Q14",
+   "Q15",
+   "Q16",
+   "Q17",
+   "Q18",
+   "Q19",
+   "Q20",
+   "Q21",
+   "Q22",
+   "Q23",
+   "Q24",
+   "Q25"
+  ]
+ },
+ "bindings": {
+  "package_sha256": "4a1d3b5f95fef740593b3c6755e5b18d7aabac7a57f2cd0380409090a3c4eba3",
+  "manuscript_sha256": "f1349d3fd48ad4a736e231e16ff0ef5c989c4b947eea46fb83f87ce5b44bca89",
+  "plan_sha256": "abcd067bcb2d20f69612c8e3895950903012908a21daf5be1285a56ead25e795",
+  "contract_sha256": "b7c4db140782f052923ea67cb6e1034725db9fd758c3aa4e93884e83cf37be4e",
+  "docx_sha256": "98d24a28199bf3ebd0192af56335c509437c5628710c13f8ef32225e3a89af57",
+  "pdf_sha256": "971ff5b2f6d9bc46fca7ad9d9e80c3bcd26b70878e1cd531793fb520ff28da2e",
+  "learning_final_sha256": "aa36cc8827df8f4a1aa59c6df741b0c48c0dfea93eaaf819dd4c02972913ba87",
+  "assessment_final_sha256": "ee68e1f64a2a5c30cc3de546aad8d608a3a95d5f6a815fee3e6e6e4bcf02fbfd",
+  "split_manifest_sha256": "882a5c9aa6d333fe7574981b0668e11d72c14c0c92e470d5e407d37cda1ec630",
+  "delivery_zip_sha256": "ac6389430d237b3fbb6135f9def420baf299a77a9bcd238396057c9ab7e283c5"
+ },
+ "findings": [
+  {
+   "id": "RF-1",
+   "description": "새 스킬 패키지(4a1d3b5f)에 연결된 검수 기록 부재",
+   "status": "resolved",
+   "resolution": "S·L·Q·R 최종 기록을 새 패키지·최종 해시에 연결(각 검수 실행의 최종 확인 근거), 스킬수정본·patch를 출고 기록에 연결",
+   "recheck": "verify_split_release 재실행"
+  },
+  {
+   "id": "RF-2",
+   "description": "s20 변경 후 L 재확인 기록 부재",
+   "status": "resolved",
+   "resolution": "L-A(s20 한 줄·연결)·L-B 최종 확인 기록 작성",
+   "recheck": "L_bundle_최종"
+  },
+  {
+   "id": "RF-3",
+   "description": "수정인계가 이전 세트를 가리킴",
+   "status": "resolved",
+   "resolution": "최종 FINAL·분권_최종·ZIP 해시로 갱신",
+   "recheck": "수정인계 현재본"
+  }
+ ],
+ "release_text_dispositions": {
+  "R-0001": {
+   "status": "resolved",
+   "resolution": "28쪽 52번 문장 각주 V-ing 줄 끝 하이픈의 추출 차이(U+0002/U+FFFE). DOCX·FINAL 정상, 인쇄면 V- / ing 확인, 기대·관찰 글자 수 94270 동일",
+   "recheck": "최종 예비 PDF 28쪽 확대 확인"
+  }
+ },
+ "unbound_note": "volume_set·pdf_set·word_renders·word_page_map은 Microsoft Word 분권 렌더가 있어야 계산되므로 미연결(Word 미실시)"
+}

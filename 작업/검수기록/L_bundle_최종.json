@@ -1,0 +1,39 @@
+{
+ "schema_version": 1,
+ "type": "review_bundle",
+ "id": "L-bundle-final",
+ "kind": "learning",
+ "role": "L",
+ "summary": "재검수 L-A(u1·u2)·L-B(u3·u4)와 전체 연결. 사용자 판단 반영 후 최종 FINAL 기준 PASS / 최종: s20 be asked to V 변경과 스킬 조판 수정 후 L-A·L-B 재확인 PASS",
+ "bindings": {
+  "package_sha256": "4a1d3b5f95fef740593b3c6755e5b18d7aabac7a57f2cd0380409090a3c4eba3",
+  "learning_content_sha256": "69faa99efacb89cd33add67a4f34cdb4eaf6fc8783ccaab609be3b5cab2e87c7",
+  "learning_final_sha256": "aa36cc8827df8f4a1aa59c6df741b0c48c0dfea93eaaf819dd4c02972913ba87"
+ },
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4"
+  ]
+ },
+ "children": [
+  {
+   "path": "L_A_최종.json",
+   "sha256": "a7a36b90597c615d2bf4f7e5dced88651bde0ed9d9a8d98a755afb1416bf1231"
+  },
+  {
+   "path": "L_B_최종.json",
+   "sha256": "f56c15ce4fc413c7448a6fead7b4ef512d2fbf369b2ef9dbfe7f65de9b1728bf"
+  }
+ ],
+ "continuity": {
+  "path": "L_continuity_최종.json",
+  "sha256": "b9b566e04756a7ff14dcd2b533a9a1663ec604fcef87c3df80ff018b8ee20d85"
+ }
+}

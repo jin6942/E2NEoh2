@@ -1,0 +1,13 @@
+{
+ "id": "K-preliminary",
+ "kind": "layout_preliminary",
+ "role": "K",
+ "status": "PRELIMINARY_NOT_WORD",
+ "renderer": "LibreOffice (Microsoft Word 없음)",
+ "reviewer_id": "claude-agent-K-layout",
+ "execution_id": "subagent-af5fb0a3c41dba774",
+ "performed_at": "2026-09-26T18:35:00Z",
+ "scope_note": "분권 5권 63쪽",
+ "summary": "01·02·03·05권 예비 PASS, 04권 장문 세트 분리 2건, 01~04권 정답 혼입 0건, 표 17개 보존",
+ "note": "Word 조판 검수(word_layout)를 대신하지 않음. 출고 기록 reviews에 연결하지 않음"
+}
