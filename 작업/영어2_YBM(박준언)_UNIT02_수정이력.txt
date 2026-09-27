@@ -44,3 +44,10 @@
 - 정답 분포: ①5 ②5 ③6 ④5 ⑤5.
 - 재검증: check_book STRUCTURE_PASS(26문항), review_preflight(full) 경고 0건, check_learning_content(full) STRUCTURE_PASS,
   build_book(full, patch) BUILT_NOT_FINAL · 저장본 SAVED_CONTENT_MATCH · format PASS(학습부 10블록 보존), 학습 QC TXT 변경 없음 확인.
+
+2026-09-27 5단계 통합 정리
+- 통합 DOCX: 결과물/혼공독해교재_영어2_YBM(박)_2과_전체통합본.docx (SHA256 dd9f10b1…) 저장본 full 검사 SAVED_CONTENT_MATCH · format PASS 재확인. 원고 JSON(40a28deb…)·학습 QC(4dfeaee5…)·문제 QC(63a60ca0…) 해시 대조.
+- 예비 렌더: LibreOffice로 전체통합본 PDF 72쪽 생성(작업/예비렌더_LibreOffice, 대체 글꼴 · Word 아님). 확인한 것: 표지 5단위·58문장·26문항, 장문 세트 새 쪽 시작, 발문 않은 밑줄, 워크북 5번 답안선 2줄, 빠른 정답표. Word 렌더는 이 환경에 Word가 없어 미실시.
+- 검수 입력 자료 생성: 작업/검수입력/L_u1~L_u5.json(학습 검수 묶음), Q_blind_전체.json(정답·해설 없는 블라인드 문제지).
+- 수정인계 작성: 작업/영어2_YBM(박준언)_UNIT02_수정인계.txt(현재 상태·해시·부분별 상태·L 확인 요청 3건·문제 편성표·다음 조치).
+- 독립 검수 2·4·6단계(S·L·M·N·J·K·R)는 미실시 — 검수팀 프롬프트로 인계.

@@ -1,0 +1,1124 @@
+{
+  "schema_version": 1,
+  "purpose": "REVIEW_INPUT_PACKET_NOT_FINAL",
+  "status": "NOT_FINAL",
+  "certification": "NOT_CERTIFIED",
+  "role": "questions-blind",
+  "input_digest": {
+    "content_sha256": "6e2a0159db89565393b5b8b0aadeadd7fbba7ae26fc68a7f2de1e25271054f77",
+    "canonical_full_json_sha256": "6e2a0159db89565393b5b8b0aadeadd7fbba7ae26fc68a7f2de1e25271054f77",
+    "file_sha256": "40a28deb81219b89e9891a00fa533b6a70b40ee3c0140c702515947e3a89e24f",
+    "file_sha256_status": "EXACT_INPUT_BYTES"
+  },
+  "current_rules": [
+    {
+      "path": "SKILL.md",
+      "sha256": "adc1c4b5d87fa57241835db2d00f74627e96d5c209cd3bfbe76d24fe6ca51cc1"
+    },
+    {
+      "path": "references/editorial-core.md",
+      "sha256": "b942dccbfa90c37236cdd51a9070add4f596cd95993f93242c0b20306b3eca0e"
+    },
+    {
+      "path": "references/workflow.md",
+      "sha256": "2220776def95a7b2c5f50532efcf392921791ef9d75b298d660b6cdd37b73c75"
+    },
+    {
+      "path": "references/layout-rules.md",
+      "sha256": "22e093364b7aaca7e9540de75728cf100521dd0bd2dfc3aeb6376825a774807d"
+    },
+    {
+      "path": "references/runtime-and-data.md",
+      "sha256": "ec73b7a681b089742505b011758daff69de9c6ebff209dec8474909b59f25d9b"
+    },
+    {
+      "path": "references/handoff-format.md",
+      "sha256": "e9b3ed617a7c3c90b079710c97431fac9ab41b1e84bf455f6bb803006e079619"
+    },
+    {
+      "path": "references/common-errors.md",
+      "sha256": "058db2bf1c0fb67cc43927a6a53cf8cd122e55ef54ca2db944ceaddaaf41c2e8"
+    },
+    {
+      "path": "references/current-revision.md",
+      "sha256": "2ced5f11ffdb1285b435d4457ef707bec8ae62d71953942af479cae63e7ac1e5"
+    },
+    {
+      "path": "references/manuscript-data.md",
+      "sha256": "87725de92c7ef8ec82b68dc8bf821252364578d0ae71ac800d5871236c881444"
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "9dd3d9c1d3d1863526481516facdbe9afe462176bc05596ecf1a705ae6bbabff"
+    },
+    {
+      "path": "references/review-efficiency.md",
+      "sha256": "37218e5b5973f1a368fe4bc32622fab0a90c09308bdaaafcab7150203052147d"
+    },
+    {
+      "path": "references/workbook.md",
+      "sha256": "c358dbc10dc4e457d746ea19321a1f22c16c8f098083588157dfe154a329cfc5"
+    },
+    {
+      "path": "references/assessment-content.md",
+      "sha256": "b0491c3804fadee2787d4d0910c33763b5bbe31186e94d4c844e2eeeffe0df2e"
+    }
+  ],
+  "review_contract": {
+    "independent_review": "NOT_PERFORMED",
+    "approval_reuse": "NOT_IMPLEMENTED",
+    "complete_final_required": true,
+    "existing_release_gate_unchanged": true,
+    "required_independent_question_solvers": 2,
+    "context_is_not_assigned_or_reviewed": true,
+    "unresolved_items": "COORDINATOR_MUST_SUPPLY_BLIND_SAFE_ITEMS; NOT_CLEARED_BY_PACKET",
+    "blind_use": "Fresh independent solver only. Store own answers and reasoning before opening comparison, source, learning material, or author feedback. Removing answers does not restore blindness for a solver who already saw them."
+  },
+  "scope": {
+    "assigned": {
+      "question_ids": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "Q19",
+        "Q20",
+        "Q21",
+        "Q22",
+        "Q23",
+        "Q24",
+        "Q25",
+        "Q26"
+      ]
+    },
+    "context_only": {
+      "question_ids": []
+    },
+    "whole_stage_assigned": true
+  },
+  "selected_data": {
+    "questions": [
+      {
+        "id": "Q01",
+        "set_id": "workbook",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 주제로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "Jiyun, a high school student, starts her day by logging in to a music streaming service on her smartphone. She enjoys listening to her favorite music, discovering new songs, and exploring new artists every day. For a healthy breakfast, Jiyun receives a delivery from a subscription service that provides fresh vegetables and fruits. After school, Jiyun utilizes a video lecture service to expand her knowledge in whatever she finds interesting. For example, she watches various academic lectures to review her schoolwork and stay updated about the latest knowledge in her chosen field of study. During weekends, Jiyun and her family spend quality time together watching movies or dramas using a streaming service. To be sure, the subscription economy is a popular economic model nowadays, and Jiyun is actively taking part in it. The concept of business models based on subscriptions is not new. Initially it was limited to products such as milk and newspapers. However, these business models have expanded to all industries, including entertainment, technology, fashion, education, and much more. Instead of creating a hit product that will be sold once, companies now prioritize providing continuing value, such as new content, more personalization, or access to updates. Customers pay for these benefits via a regular subscription.",
+            "underlines": []
+          },
+          {
+            "text": "①  the need to narrow the range of products sold through subscriptions",
+            "underlines": []
+          },
+          {
+            "text": "②  the reasons outdated business models still work better than subscriptions",
+            "underlines": []
+          },
+          {
+            "text": "③  ways for customers to obtain products without paying regularly",
+            "underlines": []
+          },
+          {
+            "text": "④  the broadening of subscription services into many areas of daily life",
+            "underlines": []
+          },
+          {
+            "text": "⑤  the latest technologies used to send fresh food to people’s homes",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q02",
+        "set_id": "workbook",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  다음 글의 내용과 일치하지 않는 것은?",
+            "underlines": [
+              [
+                19,
+                21
+              ]
+            ]
+          },
+          {
+            "text": "To be sure, the subscription economy is a popular economic model nowadays, and Jiyun is actively taking part in it. The concept of business models based on subscriptions is not new. Initially it was limited to products such as milk and newspapers. However, these business models have expanded to all industries, including entertainment, technology, fashion, education, and much more. Instead of creating a hit product that will be sold once, companies now prioritize providing continuing value, such as new content, more personalization, or access to updates. Customers pay for these benefits via a regular subscription. The subscription economy brings advantages for both companies and consumers. Companies can have a stable revenue and build customer loyalty by using the subscription model. From the consumers’ perspective, they can enjoy a wider range of choices and personalized experiences. They can also save money by having flexible subscription contracts. The rise of the subscription economy is closely connected to two major drivers: changes in consumption trends and the rapid growth of online platforms.",
+            "underlines": []
+          },
+          {
+            "text": "①  Companies can earn a steady rather than unstable income through subscriptions.",
+            "underlines": []
+          },
+          {
+            "text": "②  Subscription models were at first limited to products like milk and newspapers.",
+            "underlines": []
+          },
+          {
+            "text": "③  Companies now focus on offering continuing value instead of one-time hits.",
+            "underlines": []
+          },
+          {
+            "text": "④  Consumers can save money by choosing adaptable subscription contracts.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  The growth of online platforms is described as gradual rather than swift.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q03",
+        "set_id": "workbook",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "The subscription economy is highly relevant to how people consume goods and services nowadays. More and more people prioritize experiences over owning things. This makes the subscription economy attractive to them because it offers access to services or content without the requirement of ownership. For example, by subscribing to a music streaming service, consumers can enjoy limitless music without the need for having disc albums. Another example is subscribing to clothing services, where consumers can explore a variety of clothing styles without filling up their drawers. Moreover, consumers value diversity and customization. The subscription economy offers a diverse range of subscription options, enabling individuals to personalize their experiences based on their own preferences and interests. This aspect of the subscription economy is more popular among younger generations, as they enjoy expressing their uniqueness and discovering valuable content and services that fit with their individual tastes. A popular example that has gained attention is the cosmetics subscription service. It stands out by thoroughly analyzing customers’ current skin conditions and providing specialized recommendations, including manufacturing cosmetics created to address each individual’s unique skin concerns. To come to the point, consumers receive a personalized experience that prioritizes their individual skin conditions, rather than a uniform purchasing process.",
+            "underlines": []
+          },
+          {
+            "text": "①  Owning More: The Limited Joy of Collecting Things",
+            "underlines": []
+          },
+          {
+            "text": "②  Access over Ownership: Varied Experiences for Every Individual",
+            "underlines": []
+          },
+          {
+            "text": "③  Uniform Products for Consumers with Uniform Tastes",
+            "underlines": []
+          },
+          {
+            "text": "④  Why Precious Music Albums Are Still Worth Buying",
+            "underlines": []
+          },
+          {
+            "text": "⑤  The Worthless Promise of Personalized Cosmetics",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q04",
+        "set_id": "workbook",
+        "number": 4,
+        "student_blocks": [
+          {
+            "text": "4.  다음 글의 요지로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "With the development of various digital devices centered on smartphones, consumers have been able to do numerous things with great ease. In the past, people had no choice but to go to the theater or purchase the videos they wanted to watch. Today, whoever wants to watch a movie can access online media subscription platforms and enjoy a vast selection of movies on their smartphones or other digital devices. At the same time, these platforms make it easy for companies to offer customized products and services to customers. By applying AI and big data algorithm technology, companies identify consumers’ needs, tastes, and consumption patterns. People appreciate having diverse choices and customization, which in turn enhances their satisfaction. Services, such as suggesting personalized clothing styles based on customers’ purchase history or recommending videos that match their movie and video viewing history, bring them great satisfaction.",
+            "underlines": []
+          },
+          {
+            "text": "①  Online platforms offer only a tiny selection of standardized content.",
+            "underlines": []
+          },
+          {
+            "text": "②  Consumers today still have few choices other than going to the theater.",
+            "underlines": []
+          },
+          {
+            "text": "③  Online platforms make consumption easier and help companies offer tailored services that satisfy people.",
+            "underlines": []
+          },
+          {
+            "text": "④  Companies need countless experts before they can build online platforms.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  An enormous number of choices lowers people’s satisfaction with services.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q05",
+        "set_id": "workbook",
+        "number": 5,
+        "student_blocks": [
+          {
+            "text": "5.  다음 글에서 필자가 주장하는 바로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "Related to the concern of overconsumption is the financial burden that subscriptions can create. While the cost of individual subscriptions may seem affordable, subscribing to multiple services can add up quickly. It is important to carefully consider the costs of these subscriptions to avoid financial strain. Regularly reviewing and canceling unnecessary subscriptions can be beneficial. Additionally, the subscription economy can contribute to environmental pollution. The regular delivery of products in packaging materials can increase the use of disposable packaging, which harms the environment. Using environmentally friendly packaging materials and opting for reusable packaging can help reduce this problem. Despite the potential limitations of subscription services, they have become deeply embedded in our lives and more and more businesses are jumping onto the subscription economy model. It is expected that new subscription services will be continuously provided to consumers in new areas in the future. We need to have a deeper understanding of the subscription economy and become wise consumers who receive the services that are really needed.",
+            "underlines": []
+          },
+          {
+            "text": "①  It is vital to be a wise consumer who subscribes only to what is really needed.",
+            "underlines": []
+          },
+          {
+            "text": "②  Subscription services are so harmful that we should stop using them.",
+            "underlines": []
+          },
+          {
+            "text": "③  Single-use packaging is the most helpful choice for regular deliveries.",
+            "underlines": []
+          },
+          {
+            "text": "④  The cost of each subscription is too trivial to worry about.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Companies should replace reusable packaging with cheaper materials.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q06",
+        "set_id": "mock1",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 내용과 일치하는 것은?",
+            "underlines": []
+          },
+          {
+            "text": "The subscription economy brings advantages for both companies and consumers. Companies can have a stable revenue and build customer loyalty by using the subscription model. From the consumers’ perspective, they can enjoy a wider range of choices and personalized experiences. They can also save money by having flexible subscription contracts. The rise of the subscription economy is closely connected to two major drivers: changes in consumption trends and the rapid growth of online platforms. The subscription economy is highly relevant to how people consume goods and services nowadays. More and more people prioritize experiences over owning things. This makes the subscription economy attractive to them because it offers access to services or content without the requirement of ownership. For example, by subscribing to a music streaming service, consumers can enjoy limitless music without the need for having disc albums. Another example is subscribing to clothing services, where consumers can explore a variety of clothing styles without filling up their drawers.",
+            "underlines": []
+          },
+          {
+            "text": "①  Only consumers, not companies, benefit from the subscription economy.",
+            "underlines": []
+          },
+          {
+            "text": "②  The subscription economy grew mainly because product prices fell.",
+            "underlines": []
+          },
+          {
+            "text": "③  Fewer people today value experiences more than owning things.",
+            "underlines": []
+          },
+          {
+            "text": "④  Music streaming requires consumers to buy disc albums first.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Companies can gain a reliable income and keep customers loyal through subscriptions.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q07",
+        "set_id": "mock1",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "Moreover, consumers value diversity and customization. The subscription economy offers a diverse range of subscription options, enabling individuals to ________________. This aspect of the subscription economy is more popular among younger generations, as they enjoy expressing their uniqueness and discovering valuable content and services that fit with their individual tastes. A popular example that has gained attention is the cosmetics subscription service. It stands out by thoroughly analyzing customers’ current skin conditions and providing specialized recommendations, including manufacturing cosmetics created to address each individual’s unique skin concerns. To come to the point, consumers receive a personalized experience that prioritizes their individual skin conditions, rather than a uniform purchasing process. Furthermore, consumers appreciate flexibility and convenience. In some subscription models, consumers can experience a variety of products or services for a fixed cost. In other models, they can flexibly adjust subscription fees by choosing only the necessary services or products when needed. This means they can either enjoy a range of offerings for a set price or save money by selecting only what they really need.",
+            "underlines": []
+          },
+          {
+            "text": "①  follow the same choices that most other people make",
+            "underlines": []
+          },
+          {
+            "text": "②  tailor what they experience to their own tastes",
+            "underlines": []
+          },
+          {
+            "text": "③  avoid sharing their personal information with companies",
+            "underlines": []
+          },
+          {
+            "text": "④  own more products than they actually use",
+            "underlines": []
+          },
+          {
+            "text": "⑤  stop paying for services they rarely use",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q08",
+        "set_id": "mock1",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 글〉",
+            "underlines": []
+          },
+          {
+            "text": "Jiyun, a high school student, starts her day by logging in to a music streaming service on her smartphone. She enjoys listening to her favorite music, discovering new songs, and exploring new artists every day. For a healthy breakfast, Jiyun receives a delivery from a subscription service that provides fresh vegetables and fruits. ",
+            "underlines": []
+          },
+          {
+            "text": "(A) However, these business models have expanded to all industries, including entertainment, technology, fashion, education, and much more. Instead of creating a hit product that will be sold once, companies now prioritize providing continuing value, such as new content, more personalization, or access to updates. Customers pay for these benefits via a regular subscription.",
+            "underlines": []
+          },
+          {
+            "text": "(B) After school, Jiyun utilizes a video lecture service to expand her knowledge in whatever she finds interesting. For example, she watches various academic lectures to review her schoolwork and stay updated about the latest knowledge in her chosen field of study. During weekends, Jiyun and her family spend quality time together watching movies or dramas using a streaming service. ",
+            "underlines": []
+          },
+          {
+            "text": "(C) To be sure, the subscription economy is a popular economic model nowadays, and Jiyun is actively taking part in it. The concept of business models based on subscriptions is not new. Initially it was limited to products such as milk and newspapers. ",
+            "underlines": []
+          },
+          {
+            "text": "①  A → C → B",
+            "underlines": []
+          },
+          {
+            "text": "②  B → A → C",
+            "underlines": []
+          },
+          {
+            "text": "③  B → C → A",
+            "underlines": []
+          },
+          {
+            "text": "④  C → A → B",
+            "underlines": []
+          },
+          {
+            "text": "⑤  C → B → A",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q09",
+        "set_id": "mock1",
+        "number": 4,
+        "student_blocks": [
+          {
+            "text": "4.  글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 문장〉",
+            "underlines": []
+          },
+          {
+            "text": "In the past, people had no choice but to go to the theater or purchase the videos they wanted to watch.",
+            "underlines": []
+          },
+          {
+            "text": "Moreover, subscription services are made easily accessible by online platforms, enhancing consumers’ convenience. ① With just a few clicks, consumers can receive services or products. ② If they wish to change their device model, they can do so. ③ Whoever desires an upgrade can get it and experience the latest models. With the development of various digital devices centered on smartphones, consumers have been able to do numerous things with great ease. ④ Today, whoever wants to watch a movie can access online media subscription platforms and enjoy a vast selection of movies on their smartphones or other digital devices. ⑤ At the same time, these platforms make it easy for companies to offer customized products and services to customers. By applying AI and big data algorithm technology, companies identify consumers’ needs, tastes, and consumption patterns. People appreciate having diverse choices and customization, which in turn enhances their satisfaction. Services, such as suggesting personalized clothing styles based on customers’ purchase history or recommending videos that match their movie and video viewing history, bring them great satisfaction.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q10",
+        "set_id": "mock1",
+        "number": 5,
+        "student_blocks": [
+          {
+            "text": "5.  다음 글의 요지로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "Although the subscription economy offers many advantages, there are also some disadvantages to consider. One concern is the potential for overconsumption. The convenience and accessibility of the subscription model make it easy for consumers to sign up for multiple services and use a lot of content or products. This can result in excessive consumption and using more subscription services than actually needed. It is crucial to subscribe only to services that are truly necessary and avoid subscribing to similar services. Related to the concern of overconsumption is the financial burden that subscriptions can create. While the cost of individual subscriptions may seem affordable, subscribing to multiple services can add up quickly. It is important to carefully consider the costs of these subscriptions to avoid financial strain. Regularly reviewing and canceling unnecessary subscriptions can be beneficial.",
+            "underlines": []
+          },
+          {
+            "text": "①  Since subscriptions can lead us to use and spend too much, we should manage them carefully.",
+            "underlines": []
+          },
+          {
+            "text": "②  Subscriptions are the cheapest way to enjoy many different services.",
+            "underlines": []
+          },
+          {
+            "text": "③  Signing up for similar services helps consumers compare their prices.",
+            "underlines": []
+          },
+          {
+            "text": "④  The convenience of subscriptions has no effect on how much people consume.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Companies should lower subscription fees to prevent overconsumption.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q11",
+        "set_id": "mock1",
+        "number": 6,
+        "passage_group_id": "long-mock1",
+        "student_blocks": [
+          {
+            "text": "6.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  Subscriptions: Too Risky for Businesses to Adopt",
+            "underlines": []
+          },
+          {
+            "text": "②  Eco-Friendly Packaging: The Secret of Subscription Success",
+            "underlines": []
+          },
+          {
+            "text": "③  How to Earn Money by Offering More Subscriptions",
+            "underlines": []
+          },
+          {
+            "text": "④  The Downsides of Subscriptions and How to Be a Smart Subscriber",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Why Subscription Prices Keep Falling Every Year",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q12",
+        "set_id": "mock1",
+        "number": 7,
+        "passage_group_id": "long-mock1",
+        "student_blocks": [
+          {
+            "text": "7.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": [
+              [
+                36,
+                38
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q13",
+        "set_id": "mock2",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 내용과 일치하지 않는 것은?",
+            "underlines": [
+              [
+                19,
+                21
+              ]
+            ]
+          },
+          {
+            "text": "Jiyun, a high school student, starts her day by logging in to a music streaming service on her smartphone. She enjoys listening to her favorite music, discovering new songs, and exploring new artists every day. For a healthy breakfast, Jiyun receives a delivery from a subscription service that provides fresh vegetables and fruits. After school, Jiyun utilizes a video lecture service to expand her knowledge in whatever she finds interesting. For example, she watches various academic lectures to review her schoolwork and stay updated about the latest knowledge in her chosen field of study. During weekends, Jiyun and her family spend quality time together watching movies or dramas using a streaming service. To be sure, the subscription economy is a popular economic model nowadays, and Jiyun is actively taking part in it. The concept of business models based on subscriptions is not new. Initially it was limited to products such as milk and newspapers.",
+            "underlines": []
+          },
+          {
+            "text": "①  Jiyun uses her smartphone to log in to a music service in the morning.",
+            "underlines": []
+          },
+          {
+            "text": "②  A subscription service delivers fresh vegetables and fruits to Jiyun.",
+            "underlines": []
+          },
+          {
+            "text": "③  Subscription-based business models are a completely new idea.",
+            "underlines": []
+          },
+          {
+            "text": "④  Jiyun watches academic lectures to keep up with new knowledge.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  In the beginning, only a few items such as milk were sold by subscription.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q14",
+        "set_id": "mock2",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "To be sure, the subscription economy is a popular economic model nowadays, and Jiyun is actively taking part in it. The concept of business models based on subscriptions is not new. Initially it was limited to products such as milk and newspapers. However, these business models have ________________, including entertainment, technology, fashion, education, and much more. Instead of creating a hit product that will be sold once, companies now prioritize providing continuing value, such as new content, more personalization, or access to updates. Customers pay for these benefits via a regular subscription. The subscription economy brings advantages for both companies and consumers. Companies can have a stable revenue and build customer loyalty by using the subscription model. From the consumers’ perspective, they can enjoy a wider range of choices and personalized experiences. They can also save money by having flexible subscription contracts. The rise of the subscription economy is closely connected to two major drivers: changes in consumption trends and the rapid growth of online platforms.",
+            "underlines": []
+          },
+          {
+            "text": "①  disappeared from most modern markets",
+            "underlines": []
+          },
+          {
+            "text": "②  stayed limited to milk and newspapers",
+            "underlines": []
+          },
+          {
+            "text": "③  lost the trust of many companies",
+            "underlines": []
+          },
+          {
+            "text": "④  become too expensive for consumers",
+            "underlines": []
+          },
+          {
+            "text": "⑤  spread into almost every kind of business",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q15",
+        "set_id": "mock2",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  밑줄 친 without filling up their drawers가 다음 글에서 의미하는 바로 가장 적절한 것은?",
+            "underlines": [
+              [
+                9,
+                41
+              ]
+            ]
+          },
+          {
+            "text": "Instead of creating a hit product that will be sold once, companies now prioritize providing continuing value, such as new content, more personalization, or access to updates. Customers pay for these benefits via a regular subscription. The subscription economy brings advantages for both companies and consumers. Companies can have a stable revenue and build customer loyalty by using the subscription model. From the consumers’ perspective, they can enjoy a wider range of choices and personalized experiences. They can also save money by having flexible subscription contracts. The rise of the subscription economy is closely connected to two major drivers: changes in consumption trends and the rapid growth of online platforms. The subscription economy is highly relevant to how people consume goods and services nowadays. More and more people prioritize experiences over owning things. This makes the subscription economy attractive to them because it offers access to services or content without the requirement of ownership. For example, by subscribing to a music streaming service, consumers can enjoy limitless music without the need for having disc albums. Another example is subscribing to clothing services, where consumers can explore a variety of clothing styles without filling up their drawers.",
+            "underlines": [
+              [
+                1278,
+                1310
+              ]
+            ]
+          },
+          {
+            "text": "①  without having to buy and keep a lot of clothes",
+            "underlines": []
+          },
+          {
+            "text": "②  without spending any money on clothing services",
+            "underlines": []
+          },
+          {
+            "text": "③  without choosing the styles that they like",
+            "underlines": []
+          },
+          {
+            "text": "④  without sharing their clothes with other people",
+            "underlines": []
+          },
+          {
+            "text": "⑤  without cleaning their rooms on a regular basis",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q16",
+        "set_id": "mock2",
+        "number": 4,
+        "student_blocks": [
+          {
+            "text": "4.  다음 글에서 전체 흐름과 관계 없는 문장은?",
+            "underlines": [
+              [
+                21,
+                23
+              ]
+            ]
+          },
+          {
+            "text": "With the development of various digital devices centered on smartphones, consumers have been able to do numerous things with great ease. In the past, people had no choice but to go to the theater or purchase the videos they wanted to watch. ① Movie theaters also sell popcorn and drinks to increase their profits. ② Today, whoever wants to watch a movie can access online media subscription platforms and enjoy a vast selection of movies on their smartphones or other digital devices. ③ At the same time, these platforms make it easy for companies to offer customized products and services to customers. ④ By applying AI and big data algorithm technology, companies identify consumers’ needs, tastes, and consumption patterns. ⑤ People appreciate having diverse choices and customization, which in turn enhances their satisfaction. Services, such as suggesting personalized clothing styles based on customers’ purchase history or recommending videos that match their movie and video viewing history, bring them great satisfaction.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q17",
+        "set_id": "mock2",
+        "number": 5,
+        "student_blocks": [
+          {
+            "text": "5.  주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 글〉",
+            "underlines": []
+          },
+          {
+            "text": "Although the subscription economy offers many advantages, there are also some disadvantages to consider. One concern is the potential for overconsumption. The convenience and accessibility of the subscription model make it easy for consumers to sign up for multiple services and use a lot of content or products. ",
+            "underlines": []
+          },
+          {
+            "text": "(A) Related to the concern of overconsumption is the financial burden that subscriptions can create. While the cost of individual subscriptions may seem affordable, subscribing to multiple services can add up quickly. It is important to carefully consider the costs of these subscriptions to avoid financial strain. Regularly reviewing and canceling unnecessary subscriptions can be beneficial. ",
+            "underlines": []
+          },
+          {
+            "text": "(B) Additionally, the subscription economy can contribute to environmental pollution. The regular delivery of products in packaging materials can increase the use of disposable packaging, which harms the environment. Using environmentally friendly packaging materials and opting for reusable packaging can help reduce this problem. Despite the potential limitations of subscription services, they have become deeply embedded in our lives and more and more businesses are jumping onto the subscription economy model. It is expected that new subscription services will be continuously provided to consumers in new areas in the future. We need to have a deeper understanding of the subscription economy and become wise consumers who receive the services that are really needed.",
+            "underlines": []
+          },
+          {
+            "text": "(C) This can result in excessive consumption and using more subscription services than actually needed. It is crucial to subscribe only to services that are truly necessary and avoid subscribing to similar services. ",
+            "underlines": []
+          },
+          {
+            "text": "①  A → C → B",
+            "underlines": []
+          },
+          {
+            "text": "②  B → A → C",
+            "underlines": []
+          },
+          {
+            "text": "③  B → C → A",
+            "underlines": []
+          },
+          {
+            "text": "④  C → A → B",
+            "underlines": []
+          },
+          {
+            "text": "⑤  C → B → A",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q18",
+        "set_id": "mock2",
+        "number": 6,
+        "passage_group_id": "long-mock2",
+        "student_blocks": [
+          {
+            "text": "6.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  How Cosmetic Companies Test Their Products on Customers",
+            "underlines": []
+          },
+          {
+            "text": "②  The Hidden Dangers of Online Shopping Platforms",
+            "underlines": []
+          },
+          {
+            "text": "③  Personal and Flexible: What Consumers Love About Subscriptions",
+            "underlines": []
+          },
+          {
+            "text": "④  Why Young People Avoid Subscription Services",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Fixed Prices: The End of Consumer Choice",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q19",
+        "set_id": "mock2",
+        "number": 7,
+        "passage_group_id": "long-mock2",
+        "student_blocks": [
+          {
+            "text": "7.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": [
+              [
+                36,
+                38
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q20",
+        "set_id": "mock3",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "The subscription economy brings advantages for both companies and consumers. Companies can have a stable revenue and build customer loyalty by using the subscription model. From the consumers’ perspective, they can enjoy a wider range of choices and personalized experiences. They can also save money by having flexible subscription contracts. The rise of the subscription economy is closely connected to two major drivers: changes in consumption trends and the rapid growth of online platforms. The subscription economy is highly relevant to how people consume goods and services nowadays. More and more people prioritize experiences over owning things. This makes the subscription economy attractive to them because it offers access to services or content without the requirement of ownership. For example, by subscribing to a music streaming service, consumers can enjoy limitless music without the need for having disc albums. Another example is subscribing to clothing services, where consumers can explore a variety of clothing styles without filling up their drawers.",
+            "underlines": []
+          },
+          {
+            "text": "[요약문] The subscription economy benefits both companies and consumers, and it is especially attractive to people who now value (A) more than (B).",
+            "underlines": []
+          },
+          {
+            "text": "①  possession …… access",
+            "underlines": []
+          },
+          {
+            "text": "②  access …… possession",
+            "underlines": []
+          },
+          {
+            "text": "③  variety …… convenience",
+            "underlines": []
+          },
+          {
+            "text": "④  access …… flexibility",
+            "underlines": []
+          },
+          {
+            "text": "⑤  loyalty …… price",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q21",
+        "set_id": "mock3",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 글〉",
+            "underlines": []
+          },
+          {
+            "text": "Moreover, consumers value diversity and customization. The subscription economy offers a diverse range of subscription options, enabling individuals to personalize their experiences based on their own preferences and interests. ",
+            "underlines": []
+          },
+          {
+            "text": "(A) Furthermore, consumers appreciate flexibility and convenience. In some subscription models, consumers can experience a variety of products or services for a fixed cost. In other models, they can flexibly adjust subscription fees by choosing only the necessary services or products when needed. This means they can either enjoy a range of offerings for a set price or save money by selecting only what they really need. ",
+            "underlines": []
+          },
+          {
+            "text": "(B) This aspect of the subscription economy is more popular among younger generations, as they enjoy expressing their uniqueness and discovering valuable content and services that fit with their individual tastes. A popular example that has gained attention is the cosmetics subscription service. It stands out by thoroughly analyzing customers’ current skin conditions and providing specialized recommendations, including manufacturing cosmetics created to address each individual’s unique skin concerns. To come to the point, consumers receive a personalized experience that prioritizes their individual skin conditions, rather than a uniform purchasing process. ",
+            "underlines": []
+          },
+          {
+            "text": "(C) Moreover, subscription services are made easily accessible by online platforms, enhancing consumers’ convenience. With just a few clicks, consumers can receive services or products. If they wish to change their device model, they can do so. Whoever desires an upgrade can get it and experience the latest models.",
+            "underlines": []
+          },
+          {
+            "text": "①  A → C → B",
+            "underlines": []
+          },
+          {
+            "text": "②  B → A → C",
+            "underlines": []
+          },
+          {
+            "text": "③  B → C → A",
+            "underlines": []
+          },
+          {
+            "text": "④  C → A → B",
+            "underlines": []
+          },
+          {
+            "text": "⑤  C → B → A",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q22",
+        "set_id": "mock3",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "With the development of various digital devices centered on smartphones, consumers have been able to do numerous things with great ease. In the past, people had no choice but to go to the theater or purchase the videos they wanted to watch. Today, whoever wants to watch a movie can access online media subscription platforms and enjoy a vast selection of movies on their smartphones or other digital devices. At the same time, these platforms make it easy for companies to ________________ to customers. By applying AI and big data algorithm technology, companies identify consumers’ needs, tastes, and consumption patterns. People appreciate having diverse choices and customization, which in turn enhances their satisfaction. Services, such as suggesting personalized clothing styles based on customers’ purchase history or recommending videos that match their movie and video viewing history, bring them great satisfaction.",
+            "underlines": []
+          },
+          {
+            "text": "①  sell exactly the same products to everyone",
+            "underlines": []
+          },
+          {
+            "text": "②  hide their consumption patterns from customers",
+            "underlines": []
+          },
+          {
+            "text": "③  reduce the number of choices for consumers",
+            "underlines": []
+          },
+          {
+            "text": "④  provide goods and services suited to each person",
+            "underlines": []
+          },
+          {
+            "text": "⑤  stop collecting information about customers",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q23",
+        "set_id": "mock3",
+        "number": 4,
+        "student_blocks": [
+          {
+            "text": "4.  글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 문장〉",
+            "underlines": []
+          },
+          {
+            "text": "This can result in excessive consumption and using more subscription services than actually needed.",
+            "underlines": []
+          },
+          {
+            "text": "Although the subscription economy offers many advantages, there are also some disadvantages to consider. ① One concern is the potential for overconsumption. ② The convenience and accessibility of the subscription model make it easy for consumers to sign up for multiple services and use a lot of content or products. ③ It is crucial to subscribe only to services that are truly necessary and avoid subscribing to similar services. ④ Related to the concern of overconsumption is the financial burden that subscriptions can create. ⑤ While the cost of individual subscriptions may seem affordable, subscribing to multiple services can add up quickly. It is important to carefully consider the costs of these subscriptions to avoid financial strain. Regularly reviewing and canceling unnecessary subscriptions can be beneficial. Additionally, the subscription economy can contribute to environmental pollution. The regular delivery of products in packaging materials can increase the use of disposable packaging, which harms the environment. Using environmentally friendly packaging materials and opting for reusable packaging can help reduce this problem.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q24",
+        "set_id": "mock3",
+        "number": 5,
+        "student_blocks": [
+          {
+            "text": "5.  다음 글에서 필자가 주장하는 바로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "Regularly reviewing and canceling unnecessary subscriptions can be beneficial. Additionally, the subscription economy can contribute to environmental pollution. The regular delivery of products in packaging materials can increase the use of disposable packaging, which harms the environment. Using environmentally friendly packaging materials and opting for reusable packaging can help reduce this problem. Despite the potential limitations of subscription services, they have become deeply embedded in our lives and more and more businesses are jumping onto the subscription economy model. It is expected that new subscription services will be continuously provided to consumers in new areas in the future. We need to have a deeper understanding of the subscription economy and become wise consumers who receive the services that are really needed.",
+            "underlines": []
+          },
+          {
+            "text": "①  Businesses should stop offering subscription services.",
+            "underlines": []
+          },
+          {
+            "text": "②  Consumers should buy products instead of subscribing to them.",
+            "underlines": []
+          },
+          {
+            "text": "③  Governments must ban all disposable packaging immediately.",
+            "underlines": []
+          },
+          {
+            "text": "④  Companies should deliver products less often to cut costs.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  We should understand the subscription economy well and use only the services we need.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q25",
+        "set_id": "mock3",
+        "number": 6,
+        "passage_group_id": "long-mock3",
+        "student_blocks": [
+          {
+            "text": "6.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  From Milk to Movies: Subscriptions in Everyday Life",
+            "underlines": []
+          },
+          {
+            "text": "②  Jiyun’s Secret Recipe for a Healthy Breakfast",
+            "underlines": []
+          },
+          {
+            "text": "③  Why Online Lectures Are Replacing Schools",
+            "underlines": []
+          },
+          {
+            "text": "④  The Decline of the Subscription Economy",
+            "underlines": []
+          },
+          {
+            "text": "⑤  How to Make a Hit Product That Sells Once",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q26",
+        "set_id": "mock3",
+        "number": 7,
+        "passage_group_id": "long-mock3",
+        "student_blocks": [
+          {
+            "text": "7.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": [
+              [
+                36,
+                38
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "passage_groups": [
+      {
+        "id": "long-mock1",
+        "question_ids": [
+          "Q11",
+          "Q12"
+        ],
+        "student_blocks": [
+          {
+            "text": "Although the subscription economy offers many advantages, there are also some disadvantages to consider. One concern is the potential for overconsumption. The convenience and accessibility of the subscription model make it easy for consumers to sign up for multiple services and use a lot of content or products. This can result in excessive consumption and using more subscription services than actually needed. It is crucial to subscribe only to services that are truly necessary and avoid subscribing to similar services.",
+            "underlines": []
+          },
+          {
+            "text": "Related to the concern of overconsumption is the financial burden that subscriptions can create. While the cost of individual subscriptions may seem affordable, subscribing to multiple services can add up quickly. It is important to carefully consider the costs of these subscriptions to avoid financial strain. Regularly reviewing and canceling unnecessary subscriptions can be beneficial.",
+            "underlines": []
+          },
+          {
+            "text": "Additionally, the subscription economy can ① contribute to environmental pollution. The regular delivery of products in packaging materials can ② decrease the use of disposable packaging, which harms the environment. Using environmentally friendly packaging materials and opting for reusable packaging can help ③ reduce this problem.",
+            "underlines": [
+              [
+                45,
+                55
+              ],
+              [
+                146,
+                154
+              ],
+              [
+                313,
+                319
+              ]
+            ]
+          },
+          {
+            "text": "Despite the potential limitations of subscription services, they have become ④ deeply embedded in our lives and more and more businesses are jumping onto the subscription economy model. It is expected that new subscription services will be continuously provided to consumers in new areas in the future. We need to have a deeper understanding of the subscription economy and become ⑤ wise consumers who receive the services that are really needed.",
+            "underlines": [
+              [
+                79,
+                85
+              ],
+              [
+                383,
+                387
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "long-mock2",
+        "question_ids": [
+          "Q18",
+          "Q19"
+        ],
+        "student_blocks": [
+          {
+            "text": "Moreover, consumers value diversity and customization. The subscription economy offers a ① diverse range of subscription options, enabling individuals to personalize their experiences based on their own preferences and interests. This aspect of the subscription economy is more ② popular among younger generations, as they enjoy expressing their uniqueness and discovering valuable content and services that fit with their individual tastes. A popular example that has gained attention is the cosmetics subscription service. It stands out by thoroughly analyzing customers’ current skin conditions and providing specialized recommendations, including manufacturing cosmetics created to address each individual’s unique skin concerns. To come to the point, consumers receive a personalized experience that prioritizes their individual skin conditions, rather than a ③ uniform purchasing process.",
+            "underlines": [
+              [
+                91,
+                98
+              ],
+              [
+                280,
+                287
+              ],
+              [
+                867,
+                874
+              ]
+            ]
+          },
+          {
+            "text": "Furthermore, consumers appreciate flexibility and convenience. In some subscription models, consumers can experience a variety of products or services for a fixed cost. In other models, they can ④ flexibly adjust subscription fees by choosing only the necessary services or products when needed. This means they can either enjoy a range of offerings for a set price or save money by selecting only what they really need. Moreover, subscription services are made ⑤ hardly accessible by online platforms, enhancing consumers’ convenience. With just a few clicks, consumers can receive services or products. If they wish to change their device model, they can do so. Whoever desires an upgrade can get it and experience the latest models.",
+            "underlines": [
+              [
+                197,
+                205
+              ],
+              [
+                464,
+                470
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "long-mock3",
+        "question_ids": [
+          "Q25",
+          "Q26"
+        ],
+        "student_blocks": [
+          {
+            "text": "Jiyun, a high school student, starts her day by logging in to a music streaming service on her smartphone. She enjoys listening to her favorite music, discovering new songs, and exploring new artists every day. For a ① healthy breakfast, Jiyun receives a delivery from a subscription service that provides fresh vegetables and fruits. After school, Jiyun utilizes a video lecture service to ② expand her knowledge in whatever she finds interesting. For example, she watches various academic lectures to review her schoolwork and stay updated about the latest knowledge in her chosen field of study. During weekends, Jiyun and her family spend quality time together watching movies or dramas using a streaming service.",
+            "underlines": [
+              [
+                219,
+                226
+              ],
+              [
+                393,
+                399
+              ]
+            ]
+          },
+          {
+            "text": "To be sure, the subscription economy is a ③ rare economic model nowadays, and Jiyun is actively taking part in it. The concept of business models based on subscriptions is not new. Initially it was ④ limited to products such as milk and newspapers. However, these business models have expanded to all industries, including entertainment, technology, fashion, education, and much more. Instead of creating a hit product that will be sold once, companies now prioritize providing ⑤ continuing value, such as new content, more personalization, or access to updates. Customers pay for these benefits via a regular subscription.",
+            "underlines": [
+              [
+                44,
+                48
+              ],
+              [
+                200,
+                207
+              ],
+              [
+                480,
+                490
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
