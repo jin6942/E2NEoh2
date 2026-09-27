@@ -68,3 +68,6 @@
 - 6단계: LibreOffice 예비 렌더 72쪽 → J(1~37쪽)·K(37~72쪽) 결함 0. K-05 반영: Q20 요약문 (A)·(B) 뒤 빈칸 밑줄 추가 → 문제 FINAL 재내보내기·DOCX patch(mock3만 변경)·재렌더(55쪽만 변경, 72쪽 유지).
   Word 확인 대기 10건·MASTER 설계 유지 4건(검수기록/6단계_JK_반영결정.json). R 기계 대조 PASS·경고 1(V-ing 줄바꿈, 실제 쪽 확인).
   출고 기록 작성·verify_release: REVIEW_PENDING, 오류 0. 남은 조건 = Word 렌더 기록, Word 조판 검수, 독립 R.
+
+2026-09-27 사용자 결정 — “현행유지”
+- 검수 중 사용자 판단 요청 5건(s32 생략 that vs 짝 구조, s38 생략 관계사 표시 범위, s50 seem 보어 표시, s28 personalized ★ 미연결, s49 도치 힌트 강조)을 모두 현행 유지로 확정. 원고·FINAL·DOCX 변경 없음.

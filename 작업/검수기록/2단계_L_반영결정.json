@@ -95,7 +95,8 @@
   {
    "id": "Lb-04",
    "decision": "미반영·사용자 보고",
-   "note": "생략 that 명사절은 V′가 either enjoy … or save로 갈라져 최소 연속 표시가 불가 → 짝 구조·what 힌트 유지. review_record의 '각주로 지원' 문구를 사실대로 정정"
+   "note": "생략 that 명사절은 V′가 either enjoy … or save로 갈라져 최소 연속 표시가 불가 → 짝 구조·what 힌트 유지. review_record의 '각주로 지원' 문구를 사실대로 정정",
+   "user_decision": "2026-09-27 사용자 “현행유지” — 현행 유지 확정"
   },
   {
    "id": "Lb-05",
@@ -120,7 +121,8 @@
   {
    "id": "Lb-09",
    "decision": "미반영·사용자 보고",
-   "note": "오늘의 낱말 personalize(동사)와 s28 personalized(형용사화 과거분사)는 다른 표제어라 ★ 연결하지 않음"
+   "note": "오늘의 낱말 personalize(동사)와 s28 personalized(형용사화 과거분사)는 다른 표제어라 ★ 연결하지 않음",
+   "user_decision": "2026-09-27 사용자 “현행유지” — 현행 유지 확정"
   },
   {
    "id": "Lb-10",
@@ -190,12 +192,14 @@
   {
    "id": "Lc-13",
    "decision": "미반영·사용자 보고",
-   "note": "도치된 보어의 문법 표지가 과거분사 Related라 현 강조 유지, 근거를 review_record에 기록"
+   "note": "도치된 보어의 문법 표지가 과거분사 Related라 현 강조 유지, 근거를 review_record에 기록",
+   "user_decision": "2026-09-27 사용자 “현행유지” — 현행 유지 확정"
   },
   {
    "id": "Lc-14",
    "decision": "유지·사용자 보고",
-   "note": "seem 최소 보어 affordable 표시 유지, review_record 기록"
+   "note": "seem 최소 보어 affordable 표시 유지, review_record 기록",
+   "user_decision": "2026-09-27 사용자 “현행유지” — 현행 유지 확정"
   },
   {
    "id": "Lc-15",
@@ -295,7 +299,8 @@
   {
    "id": "special_s38",
    "decision": "유지·사용자 보고",
-   "note": "L-c 판정: 빈자리가 있는 to watch까지 표시 유지"
+   "note": "L-c 판정: 빈자리가 있는 to watch까지 표시 유지",
+   "user_decision": "2026-09-27 사용자 “현행유지” — 현행 유지 확정"
   },
   {
    "id": "LR-01",
