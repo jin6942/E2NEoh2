@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "kind": "INTEGRATED_PLUS_FIVE_DOCX",
+  "delivery_mode": "integrated_plus_five_docx",
+  "filename_base": "혼공독해교재_영어2_YBM(박)_2과FurtherReading",
+  "source_docx": {
+    "path": "/home/user/E2NEoh2/결과물/혼공독해교재_영어2_YBM(박)_2과FurtherReading_전체통합본.docx",
+    "sha256": "b171abb80fc4a6e66416963f103e98ba67a1a09c311cdc5ebdb4ec1f20a089df"
+  },
+  "plan": {
+    "path": "/home/user/E2NEoh2/작업_FR/검사기록/04_전체_역할계획.json",
+    "sha256": "4d3d687a99c1573c969640edf16a35592d55fc30f7b462097f5e6c5558f5a6a6"
+  },
+  "integrated_docx": {
+    "path": "/home/user/E2NEoh2/결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_전체통합본.docx",
+    "filename": "혼공독해교재_영어2_YBM(박)_2과FurtherReading_전체통합본.docx",
+    "sha256": "b171abb80fc4a6e66416963f103e98ba67a1a09c311cdc5ebdb4ec1f20a089df"
+  },
+  "source_coverage": [
+    "cover",
+    "u1/reading",
+    "u1/analysis",
+    "u1/workbook",
+    "u2/reading",
+    "u2/analysis",
+    "u2/workbook",
+    "mock1",
+    "answers/quick",
+    "u1/answers",
+    "u2/answers",
+    "answers/mock1"
+  ],
+  "cover_policy": "PRESERVED_ONCE_IN_READING",
+  "volumes": [
+    {
+      "kind": "reading",
+      "filename": "혼공독해교재_영어2_YBM(박)_2과FurtherReading_01_해석지.docx",
+      "path": "/home/user/E2NEoh2/결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_01_해석지.docx",
+      "sha256": "e58bf20365c2e2f6d2d6669f531e56a99a00bea7e2858416df059021c60f58e0",
+      "block_ids": [
+        "cover",
+        "u1/reading",
+        "u2/reading"
+      ],
+      "block_sha256": {
+        "cover": "778842ba6910130de7b43bdf4c3effc7bcfe91c6770c123a960592d55b0afdb9",
+        "u1/reading": "d17340f38d2c91e74895449c38f3919df1cdf26919ea508cef840c1fa678bfa7",
+        "u2/reading": "99f54baf5b5bd72de0c2427e29da18d3f0964e525dbbaf8e36635c97d4baa318"
+      }
+    },
+    {
+      "kind": "analysis",
+      "filename": "혼공독해교재_영어2_YBM(박)_2과FurtherReading_02_지문분석지.docx",
+      "path": "/home/user/E2NEoh2/결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_02_지문분석지.docx",
+      "sha256": "13bc76122ed94d2bb8d5986223a6c83fe9984fd666025c7743ce1bce03fb123f",
+      "block_ids": [
+        "u1/analysis",
+        "u2/analysis"
+      ],
+      "block_sha256": {
+        "u1/analysis": "e8e9825ff2aeecaefa4c7bb71596c57ac7723e29e9b6675e8ee91a570949504f",
+        "u2/analysis": "95f6874ea1ab4d85a775d88cee5bbd8f595662869fa61c429212f50fcb549f95"
+      }
+    },
+    {
+      "kind": "workbook",
+      "filename": "혼공독해교재_영어2_YBM(박)_2과FurtherReading_03_워크북+변형문제.docx",
+      "path": "/home/user/E2NEoh2/결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_03_워크북+변형문제.docx",
+      "sha256": "8afa4769bb057e0b24856f1533fc1a40b821584bf5e273d1f768660cb2147a05",
+      "block_ids": [
+        "u1/workbook",
+        "u2/workbook"
+      ],
+      "block_sha256": {
+        "u1/workbook": "ad9732544c386f51e4ed643cb4bfe7acb9c8f08ad1ee3f353ac0ef898e0cabc2",
+        "u2/workbook": "574feb55a886db435490df0216e0f0fa4f63e0111907b98b8cbadf41db756c25"
+      }
+    },
+    {
+      "kind": "mock",
+      "filename": "혼공독해교재_영어2_YBM(박)_2과FurtherReading_04_실전모의.docx",
+      "path": "/home/user/E2NEoh2/결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_04_실전모의.docx",
+      "sha256": "a81455887dacd4a79ab692c702815d74086ff25a560bb4fbe5f7d0c723694bd5",
+      "block_ids": [
+        "mock1"
+      ],
+      "block_sha256": {
+        "mock1": "509ce17235501618592726ed66edc5ef25f46647e0412fbc0fe28a9b04ee60dd"
+      }
+    },
+    {
+      "kind": "answers",
+      "filename": "혼공독해교재_영어2_YBM(박)_2과FurtherReading_05_정답해설지.docx",
+      "path": "/home/user/E2NEoh2/결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_05_정답해설지.docx",
+      "sha256": "ef1fcaa0e33a20ed195a4830369b84f16e9d34ff3b242971f39166136e155151",
+      "block_ids": [
+        "answers/quick",
+        "u1/answers",
+        "u2/answers",
+        "answers/mock1"
+      ],
+      "block_sha256": {
+        "answers/quick": "5cb3abaf1f19ba7bab852bd5bd1769f62e78882efddac26511b37c2348442b94",
+        "u1/answers": "9ee5440ce82c144b147b340cd4281801b96e31da370ccbe8ac0ff8631b0b279f",
+        "u2/answers": "0d344d20864e5f6ae2783e7f3c60150a94e32f0cc2db40c557b25df5f1c6b652",
+        "answers/mock1": "ad7455bb60cff25168c87c3156b9e53a0c4376fa59b39e7f8cf66ff9e123f66c"
+      }
+    }
+  ],
+  "visual_review": "NOT_PERFORMED",
+  "release_authorization": "NOT_PERFORMED",
+  "delivery_zip": {
+    "path": "/home/user/E2NEoh2/결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading.zip",
+    "filename": "혼공독해교재_영어2_YBM(박)_2과FurtherReading.zip",
+    "sha256": "b60f5f1f5c7c287b43986a294207b1d6dd5c58a1d6d24a89c628db9b9cf4005e",
+    "docx_entry_sha256": {
+      "혼공독해교재_영어2_YBM(박)_2과FurtherReading_전체통합본.docx": "b171abb80fc4a6e66416963f103e98ba67a1a09c311cdc5ebdb4ec1f20a089df",
+      "혼공독해교재_영어2_YBM(박)_2과FurtherReading_01_해석지.docx": "e58bf20365c2e2f6d2d6669f531e56a99a00bea7e2858416df059021c60f58e0",
+      "혼공독해교재_영어2_YBM(박)_2과FurtherReading_02_지문분석지.docx": "13bc76122ed94d2bb8d5986223a6c83fe9984fd666025c7743ce1bce03fb123f",
+      "혼공독해교재_영어2_YBM(박)_2과FurtherReading_03_워크북+변형문제.docx": "8afa4769bb057e0b24856f1533fc1a40b821584bf5e273d1f768660cb2147a05",
+      "혼공독해교재_영어2_YBM(박)_2과FurtherReading_04_실전모의.docx": "a81455887dacd4a79ab692c702815d74086ff25a560bb4fbe5f7d0c723694bd5",
+      "혼공독해교재_영어2_YBM(박)_2과FurtherReading_05_정답해설지.docx": "ef1fcaa0e33a20ed195a4830369b84f16e9d34ff3b242971f39166136e155151"
+    }
+  },
+  "saved_validation": {
+    "status": "SPLIT_CONTENT_MATCH",
+    "errors": [],
+    "protected_paths": [
+      "/home/user/E2NEoh2/결과물/혼공독해교재_영어2_YBM(박)_2과FurtherReading_전체통합본.docx",
+      "/home/user/E2NEoh2/작업_FR/검사기록/04_전체_역할계획.json",
+      "/home/user/E2NEoh2/결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_전체통합본.docx",
+      "/home/user/E2NEoh2/결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_01_해석지.docx",
+      "/home/user/E2NEoh2/결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_02_지문분석지.docx",
+      "/home/user/E2NEoh2/결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_03_워크북+변형문제.docx",
+      "/home/user/E2NEoh2/결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_04_실전모의.docx",
+      "/home/user/E2NEoh2/결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading_05_정답해설지.docx",
+      "/home/user/E2NEoh2/결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading.zip"
+    ],
+    "checked_volumes": [
+      "reading",
+      "analysis",
+      "workbook",
+      "mock",
+      "answers"
+    ],
+    "checked_docx_count": 6,
+    "integrated_copy": "BYTE_IDENTICAL",
+    "source_block_count": 12,
+    "delivery_zip": "SIX_DOCX_EXACT_BYTES",
+    "content_and_format_preservation": "EXACT_PARTITION",
+    "visual_review": "NOT_PERFORMED",
+    "release_authorization": "NOT_PERFORMED"
+  }
+}

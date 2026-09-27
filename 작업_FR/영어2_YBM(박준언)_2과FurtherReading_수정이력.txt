@@ -27,3 +27,12 @@
 2026-09-27 5단계 통합 정리
 - LibreOffice 예비 렌더 24쪽(작업_FR/예비렌더_LibreOffice). 표지: 2개 문단·본문 20문장·전체 9문항, “워크북 실전문제 2문항 + 미니 모의고사 7문항×1회”. 쪽 머리 출처 표시 ‘Further Reading’. 표지에는 과 표시 ‘2과’와 제목만 있고 ‘Further Reading’ 글자는 없음(표지 형식 고정).
 - 검수 입력 자료 생성: 작업_FR/검수입력/L_u1·L_u2.json, Q_blind_전체.json.
+
+2026-09-27 독립 검수 2·4·6단계와 최종 출고
+- 2단계 S: 5쪽 원문 기계 대조 PASS. L-a(u1) 확정 2·제안 2, L-b(u2+연결) 확정 3·제안 8 → 결정표(검수기록/2단계_L_반영결정.json). 주요 반영: s01 conducted / by 경계, s07 what V′했던 것, s13·s18 명사절 힌트에서 바깥 동사 제외, s15 둘째 생략 관계사 힌트(the places we’ve been to), have been to 각주, 인용 속 your 지칭 ‘사람들’, s16 도치 강조 says↔말한다, s18 청크·쉬운 풀이.
+  L-재검: 확정 1(FLR-01 — 처음 미반영한 FLa-03을 규칙 재확인 후 반영: themselves — 그들 자신을), 제안 3(been 뜻 ‘가다, 다녀오다’, s18 인칭 통일, 기록 보완) 모두 반영. 미반영 1(FLb-05: we’ve 토큰 구조상 분리 불가).
+- 4단계 M·N: v1 블라인드 9/9 일치 + 요지류 반복·정답 단서 의견 → Q05 요약→내용 일치, Q07 주장→함축(becomes the norm), Q01·Q02·Q04·Q06 조정 → v2 블라인드 재풀이 9/9 일치 + 의견(Q03 일치 선지 단서, Q02 separate 노출 등) → 반영 → 대조 단계 FM-01/FN-01(Q02 s06~s16)·FM-02·FN-02·FN-04·FN-05 반영, FM-03·FN-03은 검사기 조건으로 미반영(결정표 검수기록/4단계_반영결정.json).
+  ※ v1 블라인드 답 파일은 임시 폴더 정리 중 저장소로 옮기기 전에 삭제됨(채팅 보고로 9/9 일치 확인). v2 최종 블라인드 답은 4단계_M·N_대조.json에 보존.
+- 학습·문제 FINAL 저장, 통합 DOCX patch(저장본 PASS).
+- 6단계: LibreOffice 예비 렌더 24쪽 → J 결함 1(FJ-01 유반 표 빈 칸 답안선 — 2과 본문 K-04와 같은 MASTER 설계로 유지), Word 대기 1, MASTER 서식 유지 1. R 기계 대조 PASS·경고 0. 출고 기록 verify_release REVIEW_PENDING(오류 0, Word 관련 3조건만 남음).
+- 최종 출고: split_book export/verify PASS → 결과물/출고_FurtherReading/(전체통합본+분권 5개+ZIP). 분권 예비 확인 24쪽(6·5·4·3·6), 새 결함 없음.
