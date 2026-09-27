@@ -1,0 +1,115 @@
+{
+ "id": "FR-Q-N-2026-09-27",
+ "kind": "questions",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "subagent-FR-N",
+ "execution_id": "session_01JP1crHgUQtE68wz5D1SjUc/FR-stage4-N",
+ "performed_at": "2026-09-27T15:00:00Z",
+ "method": "블라인드 문제지만 보고 풀이(v1) → 의견 반영 후 수정 문항 블라인드 재풀이(v2) → 대조 자료·교사용 전문·학습 FINAL·원문으로 대조 및 담당 상세 검수",
+ "summary": "v1·v2 블라인드 답 모두 정답과 일치(9/9). 편성 조정 2회 반영. 대조 단계 지적 반영(결정표 참조). v1 답 파일은 임시 폴더 정리 중 삭제되어 채팅 보고로만 남음.",
+ "solved_before_answer_key": true,
+ "answers": {
+  "Q01": 3,
+  "Q02": 5,
+  "Q03": 2,
+  "Q04": 4,
+  "Q05": 3,
+  "Q06": 5,
+  "Q07": 1,
+  "Q08": 2,
+  "Q09": 4
+ },
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2"
+  ],
+  "question_ids": [
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06",
+   "Q07",
+   "Q08",
+   "Q09"
+  ]
+ },
+ "bindings": {
+  "package_sha256": "0c0e61fbd4c297fd360e5d340d57323d831539f8d66cea91d72db3e68c39fcd4",
+  "assessment_content_sha256": "c05f6ff77de252808ddd74e5aab140c9c646a4181a2a3cc128d6252b02824505",
+  "learning_final_sha256": "6f92e3e8795701ab7c60b24d8d41d1bdcd9778ce72f079f8d44b262eff12ae5e",
+  "assessment_final_sha256": "900653e7012d9fa2ffbfd60a822e507781285cfdd692c501229e4ce35ee94a5d"
+ },
+ "findings": [
+  {
+   "id": "blind-v1",
+   "description": "blind-v1",
+   "status": "resolved",
+   "resolution": "반영: M·N v1 의견: 같은 회차 요지 반복·정답 단서 → Q05 요약을 내용 일치로, Q07 주장을 함축(becomes the norm)으로 교체, Q01 정답 문구, Q02 범위, Q04 오답, Q06 정답 위치 조정 → 두 검수자 v2 재풀이 9/9 일치",
+   "recheck": "구조 검사·사전진단 PASS"
+  },
+  {
+   "id": "blind-v2",
+   "description": "blind-v2",
+   "status": "resolved",
+   "resolution": "반영: M·N v2 의견: Q03 일치 선지 ③④가 Q04·Q07 정답 단서 → 교체, Q05 ① 교체, Q02 범위 축소(separate 노출 해소), Q08 오답 선지 강화",
+   "recheck": "구조 검사·사전진단 PASS"
+  },
+  {
+   "id": "FM-01/FN-01",
+   "description": "FM-01/FN-01",
+   "status": "resolved",
+   "resolution": "반영: Q02 지문 s06~s16(닫히지 않은 인용·잘린 반전 해소, 141단어)",
+   "recheck": "구조 검사·사전진단 PASS"
+  },
+  {
+   "id": "FM-02",
+   "description": "FM-02",
+   "status": "resolved",
+   "resolution": "반영: Q01 오답 ④ 해설 문구",
+   "recheck": "구조 검사·사전진단 PASS"
+  },
+  {
+   "id": "FM-03",
+   "description": "FM-03",
+   "status": "resolved",
+   "resolution": "미반영: 연습 구절이 is부터라 A 자리가 없어 워크북 공식은 formula_key ‘is that S′ V′’와 일치(검사기가 formula_support = formula_key를 요구)",
+   "recheck": "구조 검사·사전진단 PASS"
+  },
+  {
+   "id": "FN-02",
+   "description": "FN-02",
+   "status": "resolved",
+   "resolution": "반영: u2-gp2 공식을 ‘S are not A, but S are B’로(formula_key 동시 변경), 도움말에 we·are not 추가",
+   "recheck": "구조 검사·사전진단 PASS"
+  },
+  {
+   "id": "FN-03",
+   "description": "FN-03",
+   "status": "resolved",
+   "resolution": "미반영: be p.p. 연결은 같은 공식의 대표 항목이어야 한다는 검사기 조건(Syntax training analysis route needs a same-unit representative)으로 보충 u2-gp5 유지",
+   "recheck": "구조 검사·사전진단 PASS"
+  },
+  {
+   "id": "FN-04",
+   "description": "FN-04",
+   "status": "resolved",
+   "resolution": "반영: Q04 ②⑤, Q07 ④를 본문 관련 오류형 오답으로 교체(무관 오답은 문항당 1개)",
+   "recheck": "구조 검사·사전진단 PASS"
+  },
+  {
+   "id": "FN-05",
+   "description": "FN-05",
+   "status": "resolved",
+   "resolution": "반영: Q06 정답 길이 축소, ‘shape who we are’ 번역을 ‘우리가 어떤 사람인지를 만들어 가다’로 통일",
+   "recheck": "구조 검사·사전진단 PASS"
+  }
+ ]
+}

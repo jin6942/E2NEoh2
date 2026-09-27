@@ -1,0 +1,154 @@
+{
+ "id": "FR-L-learning-2026-09-27",
+ "kind": "learning",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "subagents-FR-L-a_FR-L-b_FR-L-recheck",
+ "execution_id": "session_01JP1crHgUQtE68wz5D1SjUc/FR-stage2-L",
+ "performed_at": "2026-09-27T15:00:00Z",
+ "method": "FR-L-a(u1)·FR-L-b(u2+단위 연결)가 원문 PDF·스킬 규칙과 대조해 전 문장 검수 → 제작 세션 반영 → FR-L-재검이 수정부·미반영 사유 재검증 → 재검 지적 4건 반영 → check_learning_content(full)·check_book·preflight(full) PASS",
+ "summary": "지적 확정오류 5·검토제안 10 + 재검 4. 결정 18건(미반영 1: FLb-05 토큰 구조). 사용자 보고: FLb-03 s15 생략 관계절 3개 vs 힌트 2개 한도.",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2"
+  ]
+ },
+ "bindings": {
+  "package_sha256": "0c0e61fbd4c297fd360e5d340d57323d831539f8d66cea91d72db3e68c39fcd4",
+  "learning_content_sha256": "fe2394733a22b75ed9bb1a885e8f28114d908e3f77aa708c344ae09e1efa1a80",
+  "learning_final_sha256": "6f92e3e8795701ab7c60b24d8d41d1bdcd9778ce72f079f8d44b262eff12ae5e"
+ },
+ "findings": [
+  {
+   "id": "FLa-01",
+   "description": "FLa-01",
+   "status": "resolved",
+   "resolution": "반영: s01 conducted / by Thomas Gilovich 청크 분리(수동 행위자 by 앞 경계) + required_breaks에 passive-agent-by·at 앞 후치수식 추가",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLa-02",
+   "description": "FLa-02",
+   "status": "resolved",
+   "resolution": "반영: s07 what V′ — V′했던 것 (seemed 과거와 일치)",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLa-03",
+   "description": "FLa-03",
+   "status": "resolved",
+   "resolution": "반영(재검 FLR-01): 처음엔 조사 중복 예외로 판단했으나 재검에서 예외는 별도 전치사 뜻에 한정되고 구문 틀 A 자리 대명사는 틀의 조사에 맞춘다는 규칙(gloss-rules)을 확인 → themselves — 그들 자신을",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLa-04",
+   "description": "FLa-04",
+   "status": "resolved",
+   "resolution": "반영: s02 쉬운 풀이 ‘물건만큼 오래갈 것’으로 원문 비교 기준에 맞춤",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLb-01",
+   "description": "FLb-01",
+   "status": "resolved",
+   "resolution": "반영: s13 명사절 힌트에서 바깥 동사 have found 제외",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLb-02",
+   "description": "FLb-02",
+   "status": "resolved",
+   "resolution": "반영: s18 명사절 힌트에서 바깥 동사 think 제외",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLb-03",
+   "description": "FLb-03",
+   "status": "resolved",
+   "resolution": "반영·사용자 보고: s15 둘째 생략 관계사 힌트(the places [(that) we’ve been to]) 추가. 생략 관계절 3개가 문장당 2개 한도와 충돌 — the things we’ve done은 첫 힌트 설명에서 병렬로 안내",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLb-04",
+   "description": "FLb-04",
+   "status": "resolved",
+   "resolution": "반영: s15 have been to: have p.p. — ~한 적이 있다, be — 가 있다(‘(~에)’ 중복 제거), u2-gp4에 경험 뜻 보충",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLb-05",
+   "description": "FLb-05",
+   "status": "resolved",
+   "resolution": "미반영: we’ve는 낱말 하나(토큰)로 처리되어 각주 하나가 토큰 전체를 덮어야 하므로 we와 ’ve 분리 불가. we의 뜻(우리가)은 각주 괄호에 병기",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLb-06",
+   "description": "FLb-06",
+   "status": "resolved",
+   "resolution": "반영: u2-gp2 설명에 B가 the things …, the places …까지 이어짐을 보충",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLb-07",
+   "description": "FLb-07",
+   "status": "resolved",
+   "resolution": "반영: u2-gp4 보충 근거와 formula_routes 기록에서 ‘짝 구조’ 문구 정정",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLb-08",
+   "description": "FLb-08",
+   "status": "resolved",
+   "resolution": "반영: 인용(s17~s19) 안의 your 지칭을 ‘사람들’로 통일(s18 힌트 포함). s01의 your는 독자에게 하는 명령이라 ‘독자’ 유지",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLb-09",
+   "description": "FLb-09",
+   "status": "resolved",
+   "resolution": "반영: s18 쉬운 풀이를 17번과 연결하고 원문보다 강한 표현 정리",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLb-10",
+   "description": "FLb-10",
+   "status": "resolved",
+   "resolution": "반영: s18 separate from you 청크 병합",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLb-11",
+   "description": "FLb-11",
+   "status": "resolved",
+   "resolution": "반영: s16 도치 힌트 강조를 앞으로 나간 동사 says ↔ 말한다로(s49 선례 기준)",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLR-02",
+   "description": "FLR-02",
+   "status": "resolved",
+   "resolution": "반영: s15 be — 가다, 다녀오다 (been은 be의 p.p.형): 결합 ‘~에 간(가 본) 적이 있다’로 청크·힌트와 일치",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLR-03",
+   "description": "FLR-03",
+   "status": "resolved",
+   "resolution": "반영: s18 쉬운 풀이 인칭을 ‘우리’로 통일",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  },
+  {
+   "id": "FLR-04",
+   "description": "FLR-04",
+   "status": "resolved",
+   "resolution": "반영: s01 review_record에 by 행위자 판정 기록, s18 separate from you adjective-complement 보호 범위 선언",
+   "recheck": "FR-L-재검 + 구조 검사 PASS"
+  }
+ ]
+}

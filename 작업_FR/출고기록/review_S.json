@@ -1,0 +1,23 @@
+{
+ "id": "FR-S-source-2026-09-27",
+ "kind": "source",
+ "status": "PASS",
+ "independent": false,
+ "reviewer_id": "claude-session-01JP1crHgUQtE68wz5D1SjUc-S",
+ "execution_id": "session_01JP1crHgUQtE68wz5D1SjUc/FR-stage2-S",
+ "independence_note": "본문과 같은 배분(사용자 승인 ‘본문과 동일’): S는 제작 세션의 결정적 기계 대조.",
+ "performed_at": "2026-09-27T13:30:00Z",
+ "method": "pypdfium2 텍스트층 5쪽 영어 줄(한글·쪽번호 제외, 공백 정규화)과 원고 섹션 표시·제목·20문장을 이은 문자열을 글자 단위 비교. 단락 4개는 줄 첫 글자 x좌표 들여쓰기(63~64pt)로 확인.",
+ "summary": "섹션 표시·제목·20문장 1544자 완전 일치=True(곡선 아포스트로피·따옴표 포함). 단락 p01~p04 시작 문장 일치.",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ]
+ },
+ "bindings": {
+  "package_sha256": "0c0e61fbd4c297fd360e5d340d57323d831539f8d66cea91d72db3e68c39fcd4",
+  "source_content_sha256": "cc8d7505449e0e135c287190f1174814ac42f552f6c57a90ecb67f9fce7132a3"
+ },
+ "findings": []
+}
