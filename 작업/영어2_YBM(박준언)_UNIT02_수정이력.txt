@@ -1,0 +1,32 @@
+[수정 이력] 영어2 YBM(박준언) 2과 — 누적 기록(삭제하지 않음)
+
+2026-09-27 작업 시작 — 사용자 지시 “영어2 ybm박 2과 작업 시작하자. 1,3,5단계 작업해. 작업끝나면 검수팀에게 줄 프롬프트까지 같이 나에게 주면 돼.”
+- 사용자 결정(2026-09-27 질문 응답):
+  ① 공통 단위 “5단위 (추천)”: u1 도입(p01, 무소제목 6문장 단독) / u2 Subscriptions are everywhere / u3 People love the subscriptions / u4 Online platforms drive the subscription economy / u5 Limitations of the subscription economy(무소제목 결론 단락 p13 포함).
+  ② 5쪽 Further Reading(Happiness Comes From Experiences) “제외 (추천)”.
+  ③ 파일명 약칭 “YBM(박) (추천)”.
+  ④ 앞 교재(능률(오) 2과)에서 승인한 조판 변경 4건 “적용 (추천)”: 장문 세트 새 쪽, 발문 않는·않은·없는 밑줄, 워크북 5번 답안선 2줄, 기호 안내 ★핵심.
+     → 능률 브랜치의 작업/스킬수정본/gyogwaseo-unified를 이 저장소 작업/스킬수정본으로 복사(시험 실행 임시 폴더만 제거). 공통 스킬 원본과의 차이는 book_plan.py·layout-contract.json·layout-rules.md 3개 파일뿐임을 diff로 확인. 공통 스킬 원본은 수정하지 않음.
+- 진행 방식: 사용자가 1·3·5단계를 이어서 요청 → 3단계(워크북·문제)는 2단계 독립 검수 FINAL 없이 학습 QC(자체검수본)를 기준으로 제작. 이후 2단계 검수에서 학습 내용이 바뀌면 워크북·문제의 연결 부분을 다시 대조해야 함(수정인계에 기록).
+
+2026-09-27 1단계 해석·분석 제작
+- 원문 전사: pypdfium2 텍스트 추출 + 1~4쪽 이미지 대조. 제목·소제목 포함 6,865자 문자 단위 일치. 단락 13개(들여쓰기), 58문장. 곡선 아포스트로피(consumers’ 등) 보존.
+- 원고 작성 도구: 작업/author.py(능률 작업에서 가져온 위치 계산 도구), source_text.py, u1~u5.py, make_manuscript.py(스킬수정본 사용).
+- 검사 중 수정(구조 규칙): 구조 이름표의 괄호·영문만 이름표 금지 → 한국어 이름표로 교체, 동사 구문 힌트에 대응 대괄호 추가, 가주어 It~that 각주를 한 범위로, 능동 완료 be able to V에 verb_construction 선언, u1 오늘의 낱말 expand ↔ u1 유반 expand 중복 → 오늘의 낱말 log in to로 교체, u1 유반 첫 세트를 u3 유반(diverse/uniform)과 겹치지 않게 receive/obtain/send로 교체.
+- 자체검수 1회(QC 초안 전체 통독) 수정 11건:
+  1) s04 자연 해석: ‘그 지식을’ → ‘그에 관한 지식을’.
+  2) s06 during 각주 ‘~ 동안에, ~에’(기능어 두 뜻) → ‘~ 동안’, 청크·자연 해석 맞춤.
+  3) s18 숙어 be relevant to가 청크 경계에서 갈라짐 → 한 청크로.
+  4) s19 prioritize A over B가 청크 경계에서 갈라짐 → 한 청크로.
+  5) s20 자연 해석의 This 지시 오류(‘이 점이’) → ‘이러한 경향은’(경험 우선 경향).
+  6) s32 this 지칭 괄호 중첩 정리.
+  7) s40 make it easy for A to V 청크 분리 → 한 청크로.
+  8) s42 in turn 각주 뜻 여러 개 → ‘결과적으로’.
+  9) s46 make it easy for A to V 청크 분리 → 한 청크로.
+  10) s48·s51 가주어 to 진주어 각주 ‘It is ~ to V’(is 중복) → ‘It … to V — ~하는 것은 (It은 뒤의 to V를 대신함)’.
+  11) s48 자연 해석에 원문 밖 ‘중복해서’ 삭제. / u2-gp1 설명 문구 다듬음.
+  + S/V: s47 result in, s56 jumping onto의 V 칸에서 전치사 제외(동사만).
+- 재검증: check_learning_content(learning) STRUCTURE_PASS(5단위·58문장·776각주), review_preflight(learning) 진단 0건,
+  build_book(learning, create) BUILT_NOT_FINAL · 저장본 SAVED_CONTENT_MATCH · format PASS.
+- 예비 렌더: 환경에 LibreOffice Writer가 없어 libreoffice-writer·fonts-nanum을 설치한 뒤 PDF 변환(36쪽, 대체 글꼴 · Word 아님). 겹침·잘림 없음.
+- L 검수 확인 요청(원고 reading_checks에 기록): s25 as의 뜻(이유 판정, ‘~함에 따라’ 가능성), s38 생략 관계사 힌트에 to watch까지 표시(빈자리가 watch에 있음).
