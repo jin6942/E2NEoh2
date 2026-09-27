@@ -77,3 +77,4 @@
 - Word가 필요한 3가지(Word 렌더·Word 기준 조판 검수·독립 R)를 사용자 결정으로 제외.
 - split_book export/verify: 결과물/출고/에 전체통합본(원본과 바이트 동일)+분권 5개+ZIP 생성, SPLIT_CONTENT_MATCH·EXACT_PARTITION·SIX_DOCX_EXACT_BYTES.
 - 분권 LibreOffice 예비 확인(제작 세션): 72쪽(21·15·10·11·15), 새 결함 없음.
+- 출고 후 정리(사용자 “삭제”): 작업/검사기록/01_learning.json·01_학습_사전진단.json·01_학습_역할계획.json·01_학습_제작검사.json·03_check_book.json·03_learning.json·03_전체_사전진단.json·03_전체_역할계획.json·03_전체_제작검사.json, 작업/dbg.py 삭제. 현재 출고·인계에서 참조하지 않음을 확인한 뒤 삭제.
