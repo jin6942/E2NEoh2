@@ -37,7 +37,8 @@ def sentences(T):
     # ---------------- s01 ----------------
     s = S('s01', T['s01'])
     s.ch('A long-term study', '장기적인 연구는')
-    s.ch('conducted by Thomas Gilovich,', '토머스 길로비치에 의해 수행된,')
+    s.ch('conducted', '수행된')
+    s.ch('by Thomas Gilovich,', '토머스 길로비치에 의해,')
     s.ch('a psychology professor', '심리학 교수인')
     s.ch('at Cornell University,', '코넬 대학교의,')
     s.ch('reached a powerful and clear conclusion:', '강력하고 분명한 결론에 도달했다:')
@@ -69,6 +70,8 @@ def sentences(T):
     s.g('your', 'your', '여러분의', referent_ko='독자')
     s.g('money', 'money', '돈')
     s.g('things', 'things', '물건들')
+    s.brk('by', 'passive-agent-by', 'conducted의 행위자(누구에 의해)를 나타내는 by 구 앞에서 끊음')
+    s.brk('at', 'postnominal-preposition', 'at Cornell University는 앞 명사 a psychology professor를 뒤에서 꾸미는 전치사구')
     s.hint('A long-term study [conducted by Thomas Gilovich]', '[토머스 길로비치에 의해 수행된] 장기적인 연구',
            span='A long-term study conducted by Thomas Gilovich', label='과거분사 후치수식',
            links=[(['conducted'], ['수행된'])], participle_focus_gloss_id=cd['id'],
@@ -207,7 +210,7 @@ def sentences(T):
     s.natural('한때 새롭고 신나 보였던 것은 금방 평범한 일상이 된다.')
     s.cl('main', 'What', subj='What once seemed novel and exciting', verbs=['becomes'])
     s.cl('subject_relative', 'What', verbs=['seemed'], marker='What')
-    rel = s.g('What', 'what V′', 'V′하는 것 (관계대명사)')
+    rel = s.g('What', 'what V′', 'V′했던 것 (관계대명사)')
     s.g('once', 'once', '한때')
     s.g('seemed', 'seem', '~해 보이다', verb_form=pp('regular-past', s, 'seemed', 'seem'))
     s.g('novel', 'novel', '새로운, 참신한 (흔한 뜻: 소설)')
@@ -377,7 +380,7 @@ def analysis(_):
             {'sentence_id': 's02', 'explanatory_sentences': [
                 '2번 문장은 1번의 결론을 설명하려고 우리가 흔히 하는 생각을 먼저 꺼낸다.',
                 '물건을 사면 기분이 좋아진다.',
-                '우리는 그 물건을 가지고 있는 동안 이 좋은 기분도 계속될 것이라고 생각한다.',
+                '우리는 이 좋은 기분이 그 물건만큼 오래갈 것이라고 생각한다.',
                 '3번 문장에서 글쓴이는 이 생각이 틀렸다고 말한다.']},
             {'sentence_id': 's07', 'explanatory_sentences': [
                 '7번 문장은 6번에서 말한 첫째 이유를 더 자세히 풀어 준다.',

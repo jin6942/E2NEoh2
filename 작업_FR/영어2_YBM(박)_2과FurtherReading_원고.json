@@ -308,7 +308,7 @@
       "explanatory_sentences": [
        "2번 문장은 1번의 결론을 설명하려고 우리가 흔히 하는 생각을 먼저 꺼낸다.",
        "물건을 사면 기분이 좋아진다.",
-       "우리는 그 물건을 가지고 있는 동안 이 좋은 기분도 계속될 것이라고 생각한다.",
+       "우리는 이 좋은 기분이 그 물건만큼 오래갈 것이라고 생각한다.",
        "3번 문장에서 글쓴이는 이 생각이 틀렸다고 말한다."
       ]
      },
@@ -923,8 +923,13 @@
     },
     {
      "start": 18,
+     "end": 27,
+     "ko": "수행된"
+    },
+    {
+     "start": 28,
      "end": 47,
-     "ko": "토머스 길로비치에 의해 수행된,"
+     "ko": "토머스 길로비치에 의해,"
     },
     {
      "start": 48,
@@ -1477,7 +1482,18 @@
    ],
    "reading_checks": {
     "review_record": "주절 주어 A long-term study(과거분사구 conducted by …와 동격 a psychology professor at Cornell University가 뒤에서 꾸밈) + reached. 콜론 뒤 부정 명령문 Don’t spend A on B는 결론의 내용. 힌트 1개(과거분사 후치수식). spend A on B는 각주로 지원. 관계사·수동 없음.",
-    "required_breaks": [],
+    "required_breaks": [
+     {
+      "at": 28,
+      "kind": "passive-agent-by",
+      "reason": "conducted의 행위자(누구에 의해)를 나타내는 by 구 앞에서 끊음"
+     },
+     {
+      "at": 71,
+      "kind": "postnominal-preposition",
+      "reason": "at Cornell University는 앞 명사 a psychology professor를 뒤에서 꾸미는 전치사구"
+     }
+    ],
     "protected_spans": [],
     "function_gloss_ids": [],
     "relative_gloss_ids": []
@@ -2935,7 +2951,7 @@
       ]
      ],
      "headword": "what V′",
-     "meaning_ko": "V′하는 것 (관계대명사)",
+     "meaning_ko": "V′했던 것 (관계대명사)",
      "star": false
     },
     {
