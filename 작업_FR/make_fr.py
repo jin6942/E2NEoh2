@@ -113,6 +113,7 @@ def main(scope='learning'):
                      'publisher_author': 'YBM(박준언)', 'lesson': '2과', 'lesson_id': 'UNIT02',
                      'syntax_training_version': 1},
         'cover': {'lesson_label': 'LESSON', 'lesson_number': '02',
+                  'lesson_suffix': 'Further Reading',  # 2026-09-27 사용자 요청: 표지 과 표시 옆 괄호
                   'topic_first': 'Happiness Comes From Experiences',
                   'topic_ko': '행복은 경험에서 온다'},
         'sources': [source],

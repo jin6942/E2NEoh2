@@ -3,14 +3,14 @@
 [작업 폴더] 저장소 jin6942/E2NEoh2 · 브랜치 claude/zealous-cannon-4gemw2 · 작업_FR/
 [권위 원문] (2022개정)2026년_영어II_YBM(박준언)_2과_본문.pdf 5쪽 왼쪽 단 영어(20문장, 단락 4개)
 [공통 단위] u1 = p01~p02(s01~s12) / u2 = p03~p04(s13~s20) — 2026-09-27 사용자 선택 “2단위 (추천)”
-[공통 스킬] 작업/스킬수정본/gyogwaseo-unified(2과 본문과 같은 사본). 2026-09-27 사용자 선택 “스킬 사본 1줄 수정”: split_book.py 이름 검사에 ‘N과FurtherReading’ 허용.
+[공통 스킬] 작업/스킬수정본/gyogwaseo-unified(2과 본문과 같은 사본). 2026-09-27 사용자 선택 “스킬 사본 1줄 수정”: split_book.py 이름 검사에 ‘N과FurtherReading’ 허용. 2026-09-27 사용자 요청 “표지에 괄호치고 Further Reading”: book_plan.py에 표지 전용 선택 칸 cover.lesson_suffix 추가(값이 있을 때만 과 표시 뒤 괄호로 출력).
 
 [현재 단계] 최종 출고 완료(2026-09-27) — Word 확인은 사용자 결정(“본문과 동일”)으로 제외
 [편성] 맞춤(custom): 워크북 실전문제 2(단위당 1) + 미니 모의고사 1회 7문항(일반 5 + 공유 장문 2) = 9문항 — 사용자 선택 “워크북+모의 1회 (추천)”
 
-[통합 DOCX] 결과물/혼공독해교재_영어2_YBM(박)_2과FurtherReading_전체통합본.docx (SHA256 b171abb8…, 저장본 full 검사 SAVED_CONTENT_MATCH·format PASS)
+[통합 DOCX] 결과물/혼공독해교재_영어2_YBM(박)_2과FurtherReading_전체통합본.docx (SHA256 12c496f1…, 표지 수정 patch 후 저장본 full 검사 SAVED_CONTENT_MATCH·format PASS)
 [전달 ZIP] 결과물/출고_FurtherReading/혼공독해교재_영어2_YBM(박)_2과FurtherReading.zip (DOCX 6개, split verify PASS)
-[원고] 작업_FR/영어2_YBM(박)_2과FurtherReading_원고.json (SHA256 4f64b5c6…, 작성 모듈 fr1.py·fr2.py·assessment_fr.py → make_fr.py full)
+[원고] 작업_FR/영어2_YBM(박)_2과FurtherReading_원고.json (SHA256 fe93b497…, 작성 모듈 fr1.py·fr2.py·assessment_fr.py → make_fr.py full)
 [학습 QC] 작업_FR/영어2_YBM(박준언)_2과FurtherReading_QC_HANDOFF.txt (제작 자체검수본, 보존)
 [문제 QC] 작업_FR/영어2_YBM(박준언)_2과FurtherReading_문제_QC_HANDOFF.txt (제작 자체검수본·교사용 진단 포함, 보존)
 [학습 FINAL] 작업_FR/영어2_YBM(박준언)_2과FurtherReading_FINAL.txt (SHA256 6f92e3e8…)
@@ -29,7 +29,7 @@
 
 [사용자 보고(현행 유지로 처리, 필요 시 결정)]
   ① s15: 목적격 관계대명사 생략 관계절이 3개(everything we’ve seen / the things we’ve done / the places we’ve been to)인데 구조 힌트는 문장당 최대 2개 → 첫째·셋째에 힌트, 둘째는 첫 힌트 설명에서 병렬로 안내(2과 본문 s32 “현행 유지”와 같은 처리).
-  ② 표지: 스킬 표지 형식상 과 표시는 ‘2과’와 제목(Happiness Comes From Experiences)만 나오고 ‘Further Reading’ 글자는 없음. 쪽 머리 출처 표시에는 ‘Further Reading’이 나옴.
+  ② 표지: 사용자 요청으로 과 표시 옆에 괄호 표기 → “YBM(박준언)  ·  2과 (Further Reading)”(2026-09-27 반영). 쪽 머리 출처 표시에도 ‘Further Reading’이 나옴.
 [Word 확인 대기] 13쪽 분석 설명부 소폭 넘침 여부, 15쪽 워크북 4번 2번 해석 빈칸 줄바꿈, 줄 끝 기호 분리.
 
 [문제 편성표] (정답 분포 ①1 ②2 ③2 ④2 ⑤2)

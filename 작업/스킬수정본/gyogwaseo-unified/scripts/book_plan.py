@@ -273,6 +273,13 @@ def compile_plan(data,scope='full'):
     if any(c in topic_en for c in '\r\n'):
         raise ValueError('Cover English title must be a single line of source text')
     lesson = display_lesson(meta, cover)
+    # Optional cover-only note after the lesson, e.g. "2과 (Further Reading)".
+    cover_lesson = lesson
+    if 'lesson_suffix' in cover:
+        suffix = required(cover['lesson_suffix'], 'cover/lesson_suffix')
+        if not isinstance(suffix, str) or any(c in suffix for c in '\r\n()'):
+            raise ValueError('cover/lesson_suffix must be a single line without parentheses')
+        cover_lesson = f'{lesson} ({suffix.strip()})'
     labels_fixed = bank.contract['fixed_labels']
     def sentence_ref(positions):
         if not positions or positions != list(range(positions[0], positions[-1] + 1)):
@@ -324,7 +331,7 @@ def compile_plan(data,scope='full'):
     course_display = '영어2' if normalize_course(meta['course']) == '영어2' else meta['course']
     block('cover', [{'role': 'cover_logo'}, p('cover_series_title', '혼공교재 독해편'),
         p('cover_course_title', course_display),
-        p('cover_publisher_large', meta['publisher_author'] + '  ·  ' + lesson),
+        p('cover_publisher_large', meta['publisher_author'] + '  ·  ' + cover_lesson),
         {'kind': 'table', 'role': 'cover_topic_box', 'entries': [topic_en, cover['topic_ko']]},
         p('cover_counts', counts), p('cover_assessment_counts', detail),
         p('cover_steps_heading', '이 한 권으로 이어지는 학습'),

@@ -19,11 +19,11 @@
     "answers/mock1"
   ],
   "format_errors": [],
-  "plan_sha256": "f750a0c7f75883a4f58e5a0a18f69b75990c6c5332ad584f7ebfe879dea18b63",
+  "plan_sha256": "ad0950fb154c13a192031c704db7ed562cd13079576eb08332de1056895f5713",
   "contract_sha256": "b7c4db140782f052923ea67cb6e1034725db9fd758c3aa4e93884e83cf37be4e",
   "reference_sha256": "9af8460d2af50152f0b49c92191b98f8b7fcccd8b1a459365bb073ff07c8319b",
   "format_validation_scope": "Stored OOXML properties and effective character formatting; not visual pagination or content semantics",
-  "saved_sha256": "b171abb80fc4a6e66416963f103e98ba67a1a09c311cdc5ebdb4ec1f20a089df",
+  "saved_sha256": "12c496f14a44284003167b9139ce52c136a69e9aaede57494bef40e7a83b816f",
   "checked_blocks": [
     "cover",
     "u1/reading",
@@ -41,7 +41,7 @@
   "errors": [],
   "extracted": {
     "path": "/home/user/E2NEoh2/결과물/혼공독해교재_영어2_YBM(박)_2과FurtherReading_전체통합본.docx",
-    "sha256": "b171abb80fc4a6e66416963f103e98ba67a1a09c311cdc5ebdb4ec1f20a089df",
+    "sha256": "12c496f14a44284003167b9139ce52c136a69e9aaede57494bef40e7a83b816f",
     "blocks": [
       {
         "id": "cover",
@@ -60,7 +60,7 @@
           },
           {
             "kind": "paragraph",
-            "text": "YBM(박준언)  ·  2과"
+            "text": "YBM(박준언)  ·  2과 (Further Reading)"
           },
           {
             "kind": "table",

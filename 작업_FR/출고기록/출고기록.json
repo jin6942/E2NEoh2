@@ -29,7 +29,7 @@
    "references/grammar-labels.md": "3fa79f6f8047d338179f4ed1cc1b6c7cf4fa6bdb756cc005fb8719b84e8bb79e",
    "references/handoff-format.md": "e9b3ed617a7c3c90b079710c97431fac9ab41b1e84bf455f6bb803006e079619",
    "references/layout-rules.md": "22e093364b7aaca7e9540de75728cf100521dd0bd2dfc3aeb6376825a774807d",
-   "references/manuscript-data.md": "87725de92c7ef8ec82b68dc8bf821252364578d0ae71ac800d5871236c881444",
+   "references/manuscript-data.md": "b9407de14dabc5c40e9657c7188aad60b4d801144d28f0670721ad512734bb8d",
    "references/preposition-meanings.md": "2d4925a74820229d6a18fa3d5560f5469d7480cac5e8a211f58635723062a966",
    "references/promotion.md": "ba0b660cd79a776565ffc5c62dcacf65ecd3c1419c8250a30c8c8b0484db4779",
    "references/proper-nouns.md": "0fc99a1aad355e4a3241bb0d758ae15d8bc142ad17150d54577f2646e1b7aebe",
@@ -44,7 +44,7 @@
    "requirements-visual.txt": "f8d2d4f7cd1c7289ea52f919c168b38d91618f29967270f5ba51bd272d572a7a",
    "requirements.txt": "e9ad6b8ad343a83ea8da444b4ec8d089d3ed4c5afcebf87c3f14c4ae5ea5668e",
    "scripts/analysis_body.py": "5703b689a8bcf08210f2ec41c97d8839d7e88ab3b61bc749ec041c7afd24bc46",
-   "scripts/book_plan.py": "01e1ae448803bf0676847a0a65607ec0eca34c2b5674c930ecba2e463822d5db",
+   "scripts/book_plan.py": "038d5cff4ec03e0a091ead2c0463f86d3742ee72db5f8adfcee3572aba06e9b4",
    "scripts/build_book.py": "62bf8027baed7d0fcf5fec06f3439dbbd3ce9328fd5c2915b9a140d7995e96ff",
    "scripts/build_promotion.py": "c9c5ead3a0368eab02d78ead3602887349966cab3611f7b0ed3e64967706ce0f",
    "scripts/build_thumbnail.py": "551582631d84b76e3aaeaa38fb7491c18980be9fe2b66f44660a80c86c735ec0",
@@ -126,7 +126,7 @@
    "tests/test_verb_function_hints.py": "8cdaf7a7b1245d416da0725cce8bfa3773d68acb986d266ece70047543cdd87d",
    "tests/test_verb_gloss_revision.py": "7476b33c8f06bb21155cbd394261c304618a4e349ab163b1adfd413cff0b72c6"
   },
-  "sha256": "0c0e61fbd4c297fd360e5d340d57323d831539f8d66cea91d72db3e68c39fcd4"
+  "sha256": "e927e1472d104c34c9b4d587a967cc6a0a73c9c91d5763cfd2146b228245ec9a"
  },
  "sources": [
   {
@@ -138,11 +138,11 @@
  "artifacts": {
   "manuscript": {
    "path": "../영어2_YBM(박)_2과FurtherReading_원고.json",
-   "sha256": "4f64b5c69c9918565d3ed413eaab92bb45174aa32cdca61cb38f35928572aa12"
+   "sha256": "fe93b497ba8b0a93b9e8d78483fdeaf00ee98cfef90beb22fb97b6042324f641"
   },
   "plan": {
    "path": "../검사기록/04_전체_역할계획.json",
-   "sha256": "4d3d687a99c1573c969640edf16a35592d55fc30f7b462097f5e6c5558f5a6a6"
+   "sha256": "766836b99b11e6900b5397038df1892599ebb1d6b50f92be39022e4583b55aa5"
   },
   "contract": {
    "path": "../../작업/스킬수정본/gyogwaseo-unified/assets/layout-contract.json",
@@ -150,11 +150,11 @@
   },
   "docx": {
    "path": "../../결과물/혼공독해교재_영어2_YBM(박)_2과FurtherReading_전체통합본.docx",
-   "sha256": "b171abb80fc4a6e66416963f103e98ba67a1a09c311cdc5ebdb4ec1f20a089df"
+   "sha256": "12c496f14a44284003167b9139ce52c136a69e9aaede57494bef40e7a83b816f"
   },
   "pdf": {
    "path": "../예비렌더_LibreOffice/혼공독해교재_영어2_YBM(박)_2과FurtherReading_전체통합본.pdf",
-   "sha256": "20048a98de11c5eab98faa9762ffa0e19966e18396fb303245a0116001c3c7bc"
+   "sha256": "84944c3f3107aea3fc403664b527756c7802122adab44f403c6c9f70a7e70914"
   },
   "learning_final": {
    "path": "../영어2_YBM(박준언)_2과FurtherReading_FINAL.txt",
@@ -168,29 +168,29 @@
  "reports": {
   "structure": {
    "path": "../검사기록/04_check_book.json",
-   "sha256": "c4edb06602b5593e2e09a40b0ed456e8111b70febce10aa182d167124e9b023c"
+   "sha256": "b0303ee84775d9cc698cbf5844d001fb090f1e5dd9267d19eb559ac46c5428b2"
   },
   "saved_docx": {
    "path": "../검사기록/06_저장본검사.json",
-   "sha256": "34f5035d1121c18f6596660932f884a7b0b20cfe0d2b948dc21e0da93f930c6d"
+   "sha256": "a2613686ca9c74ce126d638fb855cdd47d2f6d2e3b632741a3e6f854538bd84d"
   }
  },
  "reviews": [
   {
    "path": "review_S.json",
-   "sha256": "e5a11e2d76b0f751f0f19c01054325b2d2e7511cedf749a838fb365ef01e99a5"
+   "sha256": "3bdc30cd61349389cf2821048b34c91fa6b36474b9b315857176a8885734c35e"
   },
   {
    "path": "review_L.json",
-   "sha256": "53dd4e4e1c6997a3db9c517471e78abf10254ad28c0d0beabc63dbd33507febc"
+   "sha256": "d22ab52bc8f8992cc9da2d6dfa369a0bf03fd8fafd6b3d6f74580272a5c3c0c8"
   },
   {
    "path": "review_M.json",
-   "sha256": "dba1f303ba4cc36214319ba809ec20c811aa62e283bf07434e008ad8ef40f096"
+   "sha256": "7ec85efe307002c59b70ea3ed32381246c2da7144a0166394c15f8314e8847db"
   },
   {
    "path": "review_N.json",
-   "sha256": "48f9204d432c612e21af2e4aed692f9052b487b0c1947f1ea715247e0286d7be"
+   "sha256": "db7aa03cd4e76e83d53bff36a7919ef0964e16efacea8d64add0d2a19af448ef"
   }
  ]
 }

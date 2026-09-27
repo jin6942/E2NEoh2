@@ -33,31 +33,31 @@
     "review/review_N.json"
   ],
   "observed_sha256": {
-    "manuscript": "4f64b5c69c9918565d3ed413eaab92bb45174aa32cdca61cb38f35928572aa12",
-    "plan": "4d3d687a99c1573c969640edf16a35592d55fc30f7b462097f5e6c5558f5a6a6",
+    "manuscript": "fe93b497ba8b0a93b9e8d78483fdeaf00ee98cfef90beb22fb97b6042324f641",
+    "plan": "766836b99b11e6900b5397038df1892599ebb1d6b50f92be39022e4583b55aa5",
     "contract": "b7c4db140782f052923ea67cb6e1034725db9fd758c3aa4e93884e83cf37be4e",
-    "docx": "b171abb80fc4a6e66416963f103e98ba67a1a09c311cdc5ebdb4ec1f20a089df",
-    "pdf": "20048a98de11c5eab98faa9762ffa0e19966e18396fb303245a0116001c3c7bc",
+    "docx": "12c496f14a44284003167b9139ce52c136a69e9aaede57494bef40e7a83b816f",
+    "pdf": "84944c3f3107aea3fc403664b527756c7802122adab44f403c6c9f70a7e70914",
     "learning_final": "6f92e3e8795701ab7c60b24d8d41d1bdcd9778ce72f079f8d44b262eff12ae5e",
     "assessment_final": "900653e7012d9fa2ffbfd60a822e507781285cfdd692c501229e4ce35ee94a5d",
     "source/src": "3819ed05f25db9b61fe8cc72f218c4928bc52260f406e73f680fb5454ecc0ae9",
-    "report/structure": "c4edb06602b5593e2e09a40b0ed456e8111b70febce10aa182d167124e9b023c",
-    "report/saved_docx": "34f5035d1121c18f6596660932f884a7b0b20cfe0d2b948dc21e0da93f930c6d",
-    "review/review_S.json": "e5a11e2d76b0f751f0f19c01054325b2d2e7511cedf749a838fb365ef01e99a5",
-    "review/review_L.json": "53dd4e4e1c6997a3db9c517471e78abf10254ad28c0d0beabc63dbd33507febc",
-    "review/review_M.json": "dba1f303ba4cc36214319ba809ec20c811aa62e283bf07434e008ad8ef40f096",
-    "review/review_N.json": "48f9204d432c612e21af2e4aed692f9052b487b0c1947f1ea715247e0286d7be"
+    "report/structure": "b0303ee84775d9cc698cbf5844d001fb090f1e5dd9267d19eb559ac46c5428b2",
+    "report/saved_docx": "a2613686ca9c74ce126d638fb855cdd47d2f6d2e3b632741a3e6f854538bd84d",
+    "review/review_S.json": "3bdc30cd61349389cf2821048b34c91fa6b36474b9b315857176a8885734c35e",
+    "review/review_L.json": "d22ab52bc8f8992cc9da2d6dfa369a0bf03fd8fafd6b3d6f74580272a5c3c0c8",
+    "review/review_M.json": "7ec85efe307002c59b70ea3ed32381246c2da7144a0166394c15f8314e8847db",
+    "review/review_N.json": "db7aa03cd4e76e83d53bff36a7919ef0964e16efacea8d64add0d2a19af448ef"
   },
-  "package_sha256": "0c0e61fbd4c297fd360e5d340d57323d831539f8d66cea91d72db3e68c39fcd4",
+  "package_sha256": "e927e1472d104c34c9b4d587a967cc6a0a73c9c91d5763cfd2146b228245ec9a",
   "bindings": {
-    "manuscript_sha256": "4f64b5c69c9918565d3ed413eaab92bb45174aa32cdca61cb38f35928572aa12",
-    "plan_sha256": "4d3d687a99c1573c969640edf16a35592d55fc30f7b462097f5e6c5558f5a6a6",
+    "manuscript_sha256": "fe93b497ba8b0a93b9e8d78483fdeaf00ee98cfef90beb22fb97b6042324f641",
+    "plan_sha256": "766836b99b11e6900b5397038df1892599ebb1d6b50f92be39022e4583b55aa5",
     "contract_sha256": "b7c4db140782f052923ea67cb6e1034725db9fd758c3aa4e93884e83cf37be4e",
-    "docx_sha256": "b171abb80fc4a6e66416963f103e98ba67a1a09c311cdc5ebdb4ec1f20a089df",
-    "pdf_sha256": "20048a98de11c5eab98faa9762ffa0e19966e18396fb303245a0116001c3c7bc",
+    "docx_sha256": "12c496f14a44284003167b9139ce52c136a69e9aaede57494bef40e7a83b816f",
+    "pdf_sha256": "84944c3f3107aea3fc403664b527756c7802122adab44f403c6c9f70a7e70914",
     "learning_final_sha256": "6f92e3e8795701ab7c60b24d8d41d1bdcd9778ce72f079f8d44b262eff12ae5e",
     "assessment_final_sha256": "900653e7012d9fa2ffbfd60a822e507781285cfdd692c501229e4ce35ee94a5d",
-    "package_sha256": "0c0e61fbd4c297fd360e5d340d57323d831539f8d66cea91d72db3e68c39fcd4",
+    "package_sha256": "e927e1472d104c34c9b4d587a967cc6a0a73c9c91d5763cfd2146b228245ec9a",
     "source_content_sha256": "cc8d7505449e0e135c287190f1174814ac42f552f6c57a90ecb67f9fce7132a3",
     "learning_content_sha256": "fe2394733a22b75ed9bb1a885e8f28114d908e3f77aa708c344ae09e1efa1a80",
     "assessment_content_sha256": "c05f6ff77de252808ddd74e5aab140c9c646a4181a2a3cc128d6252b02824505"
@@ -239,5 +239,5 @@
     "READY_FOR_RELEASE validates supplied execution evidence and current files; it does not create a FINAL or perform a review.",
     "Unrecorded user messages cannot be detected; NOT_RECORDED never means user visual approval."
   ],
-  "record_sha256": "5fc575806f576f93b43121d37bf1bc8a6dc50437a8dabb6139ea3a73db1e7ac0"
+  "record_sha256": "bbb78d2e0fef6e8c4ed6b39b3f0125a4737d1f54ee70be3d4a809984879a6453"
 }

@@ -29,6 +29,8 @@ sources의 sentences는 `{id,start,end}` 배열이며 위치는 독립 본문의
 
 Special Lesson 표지는 `cover.lesson_label: "SPECIAL LESSON"`, `cover.lesson_number: "01"`처럼 실제 원본에 맞춘 값을 사용한다. 알려진 표지 라벨 `LESSON`·`UNIT`·`SPECIAL LESSON`이 metadata의 과 종류와 다르면 실패한다. 표지 라벨이 없는 부분 검사에서도 종류를 추측하거나 원고를 고치지 않으며, 전체 생성에서는 기존 표지 필수 필드 검사를 계속 적용한다. 썸네일 입력 변환기의 원본 제목 형식은 `N과`만 표현하므로 Special Lesson은 그 변환 대상이 아니다. 이 지원을 이유로 보호된 썸네일 코드·로고·MASTER·역할 계약을 수정하지 않는다.
 
+선택 필드 `cover.lesson_suffix`(예: `"Further Reading"`)가 있으면 표지의 `출판사 · 과` 줄만 `2과 (Further Reading)`처럼 과 표시 뒤에 괄호로 덧붙인다. 한 줄 문자열이어야 하며 괄호를 직접 넣지 않는다. 과 식별·쪽 머리·해석지 헤더·파일명에는 쓰지 않는다. (2026-09-27 영어2 YBM(박) 2과 Further Reading 사용자 요청으로 이 스킬 사본에만 추가)
+
 ### 해석지 헤더의 표시 정규화
 
 해석지의 학생용 교재명은 자유 `metadata.book_name`을 그대로 출력하지 않고 정규화한 `metadata.course` + 공백 + `metadata.publisher_author`에서 파생한다. `능률(민병천)`·`NE능률(민병천)`의 알려진 별칭(중간 공백 포함)은 `NE능률(민병천)`로 표시하며 그 밖의 출판사·저자는 보존한다. 원고의 식별값과 전달용 파일명을 다시 쓰는 규칙이 아니다. 과 표시는 위 `lesson_identity`를 계속 사용한다.

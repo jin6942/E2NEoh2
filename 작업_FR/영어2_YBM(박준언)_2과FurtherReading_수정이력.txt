@@ -36,3 +36,11 @@
 - 학습·문제 FINAL 저장, 통합 DOCX patch(저장본 PASS).
 - 6단계: LibreOffice 예비 렌더 24쪽 → J 결함 1(FJ-01 유반 표 빈 칸 답안선 — 2과 본문 K-04와 같은 MASTER 설계로 유지), Word 대기 1, MASTER 서식 유지 1. R 기계 대조 PASS·경고 0. 출고 기록 verify_release REVIEW_PENDING(오류 0, Word 관련 3조건만 남음).
 - 최종 출고: split_book export/verify PASS → 결과물/출고_FurtherReading/(전체통합본+분권 5개+ZIP). 분권 예비 확인 24쪽(6·5·4·3·6), 새 결함 없음.
+
+2026-09-27 표지 과 표시에 (Further Reading) 추가 — 사용자 요청 “표지에 괄호치고 Further Reading 이라고 넣어줘”, 위치 선택 “과 표시 옆 (추천)”
+- 스킬 사본 book_plan.py: 표지 전용 선택 칸 cover.lesson_suffix 추가. 값이 있으면 표지 ‘출판사 · 과’ 줄만 “2과 (Further Reading)”으로 출력. 괄호·줄바꿈이 든 값은 거부. 값이 없는 교재(2과 본문 등)의 출력은 그대로. 과 식별(metadata.lesson)·쪽 머리·파일명은 바꾸지 않음.
+- 원고: make_fr.py cover에 lesson_suffix 'Further Reading' → 원고 재생성(바뀐 곳은 cover 하나). FINAL 두 파일은 표지를 담지 않아 SHA256 그대로(6f92e3e8… / 900653e7…).
+- 재검증: check_book·check_learning_content(full) STRUCTURE_PASS, preflight 오류·경고 0. build_book patch — 바뀐 블록 cover 1개, 저장본 SAVED_CONTENT_MATCH·format PASS. LibreOffice 예비 렌더 24쪽(표지 한 줄 유지) → 예비렌더 PDF 교체. check_saved_docx(06) PASS, check_release_text machine PASS·경고 0.
+- 출고 기록: 스킬 사본이 바뀌어 패키지 지문을 새로 뜨고 S·L·M·N 기록을 새 지문에 다시 연결(검수 내용과 무관한 표지 한 줄 변경이라 검수 결론 유지). verify_release REVIEW_PENDING(오류 0, Word 관련 3조건만 남음).
+- 재출고: 옛 결과물/출고_FurtherReading/을 지우고 split_book export → verify SPLIT_CONTENT_MATCH, 통합본 바이트 일치, ZIP DOCX 6개. 01 해석지 분권 표지도 “2과 (Further Reading)” 확인(6쪽).
+- 참고: 2과 본문의 출고기록은 이전 스킬 사본 지문(4a1d3b5f…)에 묶인 당시 기록이며, 이번 변경은 본문 출력에 영향이 없음.

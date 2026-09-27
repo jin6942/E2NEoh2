@@ -16,7 +16,7 @@
   ]
  },
  "bindings": {
-  "package_sha256": "0c0e61fbd4c297fd360e5d340d57323d831539f8d66cea91d72db3e68c39fcd4",
+  "package_sha256": "e927e1472d104c34c9b4d587a967cc6a0a73c9c91d5763cfd2146b228245ec9a",
   "source_content_sha256": "cc8d7505449e0e135c287190f1174814ac42f552f6c57a90ecb67f9fce7132a3"
  },
  "findings": []

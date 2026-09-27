@@ -21,7 +21,7 @@
     "references/grammar-labels.md": "3fa79f6f8047d338179f4ed1cc1b6c7cf4fa6bdb756cc005fb8719b84e8bb79e",
     "references/handoff-format.md": "e9b3ed617a7c3c90b079710c97431fac9ab41b1e84bf455f6bb803006e079619",
     "references/layout-rules.md": "22e093364b7aaca7e9540de75728cf100521dd0bd2dfc3aeb6376825a774807d",
-    "references/manuscript-data.md": "87725de92c7ef8ec82b68dc8bf821252364578d0ae71ac800d5871236c881444",
+    "references/manuscript-data.md": "b9407de14dabc5c40e9657c7188aad60b4d801144d28f0670721ad512734bb8d",
     "references/preposition-meanings.md": "2d4925a74820229d6a18fa3d5560f5469d7480cac5e8a211f58635723062a966",
     "references/promotion.md": "ba0b660cd79a776565ffc5c62dcacf65ecd3c1419c8250a30c8c8b0484db4779",
     "references/proper-nouns.md": "0fc99a1aad355e4a3241bb0d758ae15d8bc142ad17150d54577f2646e1b7aebe",
@@ -36,7 +36,7 @@
     "requirements-visual.txt": "f8d2d4f7cd1c7289ea52f919c168b38d91618f29967270f5ba51bd272d572a7a",
     "requirements.txt": "e9ad6b8ad343a83ea8da444b4ec8d089d3ed4c5afcebf87c3f14c4ae5ea5668e",
     "scripts/analysis_body.py": "5703b689a8bcf08210f2ec41c97d8839d7e88ab3b61bc749ec041c7afd24bc46",
-    "scripts/book_plan.py": "01e1ae448803bf0676847a0a65607ec0eca34c2b5674c930ecba2e463822d5db",
+    "scripts/book_plan.py": "038d5cff4ec03e0a091ead2c0463f86d3742ee72db5f8adfcee3572aba06e9b4",
     "scripts/build_book.py": "62bf8027baed7d0fcf5fec06f3439dbbd3ce9328fd5c2915b9a140d7995e96ff",
     "scripts/build_promotion.py": "c9c5ead3a0368eab02d78ead3602887349966cab3611f7b0ed3e64967706ce0f",
     "scripts/build_thumbnail.py": "551582631d84b76e3aaeaa38fb7491c18980be9fe2b66f44660a80c86c735ec0",
@@ -118,5 +118,5 @@
     "tests/test_verb_function_hints.py": "8cdaf7a7b1245d416da0725cce8bfa3773d68acb986d266ece70047543cdd87d",
     "tests/test_verb_gloss_revision.py": "7476b33c8f06bb21155cbd394261c304618a4e349ab163b1adfd413cff0b72c6"
   },
-  "sha256": "0c0e61fbd4c297fd360e5d340d57323d831539f8d66cea91d72db3e68c39fcd4"
+  "sha256": "e927e1472d104c34c9b4d587a967cc6a0a73c9c91d5763cfd2146b228245ec9a"
 }
