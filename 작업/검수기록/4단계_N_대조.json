@@ -1,0 +1,108 @@
+{
+ "reviewer": "N",
+ "solved_before_answer_key": true,
+ "answers": {
+  "Q01": 4,
+  "Q02": 5,
+  "Q03": 2,
+  "Q04": 3,
+  "Q05": 1,
+  "Q06": 5,
+  "Q07": 2,
+  "Q08": 3,
+  "Q09": 4,
+  "Q10": 1,
+  "Q11": 4,
+  "Q12": 2,
+  "Q13": 3,
+  "Q14": 5,
+  "Q15": 1,
+  "Q16": 1,
+  "Q17": 4,
+  "Q18": 3,
+  "Q19": 5,
+  "Q20": 2,
+  "Q21": 2,
+  "Q22": 4,
+  "Q23": 3,
+  "Q24": 5,
+  "Q25": 1,
+  "Q26": 3
+ },
+ "changed_items_recheck": {
+  "Q13": {
+   "answer": 3,
+   "unchanged": true,
+   "note": "새 ⑤ 'In the beginning, subscriptions covered only limited products like milk and newspapers.'는 원문 'Initially it was limited to products such as milk and newspapers.'와 일치하므로 오답으로 확정. 정답은 ③(not new) 그대로이며, 블라인드 때 적은 ⑤의 'a few items' 우려는 해소됨."
+  },
+  "Q22": {
+   "answer": 4,
+   "unchanged": true,
+   "note": "빈칸 = 'offer customized products and services to customers'. ④ 'provide goods and services suited to each person'를 넣어도 'to customers'가 겹치지 않아 어색함이 해소됨. 다른 선지 ①②③⑤도 빈칸 자리에 문법상 들어가며 모두 오답. 정답 ④ 유일."
+  }
+ },
+ "answer_comparison": {
+  "match": [
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06",
+   "Q07",
+   "Q08",
+   "Q09",
+   "Q10",
+   "Q11",
+   "Q12",
+   "Q13",
+   "Q14",
+   "Q15",
+   "Q16",
+   "Q17",
+   "Q18",
+   "Q19",
+   "Q20",
+   "Q21",
+   "Q22",
+   "Q23",
+   "Q24",
+   "Q25",
+   "Q26"
+  ],
+  "mismatch": []
+ },
+ "findings": [
+  {
+   "id": "N-01",
+   "location": "Q21 해설 · 오답 정리 ①(3회 2번)",
+   "current": "① (A)가 주어진 글 바로 뒤에 오면 (B)의 This aspect가 가리키는 대상이 유연성이 되어, 고유함 표현·화장품 맞춤 이야기와 맞지 않는다.",
+   "problem": "①은 A→C→B이므로 (B)는 (A)가 아니라 (C) 바로 뒤에 온다. 이 배열에서 This aspect가 가리키는 것은 (C)의 온라인 접근성·기기 업그레이드(편리함)이지 (A)의 유연성이 아니다. 오답 근거가 실제 배열과 맞지 않는다.",
+   "proposed_fix": "① (A)가 주어진 글 바로 뒤에 오면 개인 맞춤 이야기가 끝나기 전에 Furthermore로 새 이유가 나오고, 맨 끝의 (B)에서 This aspect가 (C)의 온라인 접근성·기기 업그레이드를 가리키게 되어 고유함 표현·화장품 맞춤 이야기와 맞지 않는다.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "N-02",
+   "location": "Q14 해설 · 정답 근거(EVIDENCE)(2회 2번)",
+   "current": "Initially it was limited to products such as milk and newspapers. However, these business models have ______, including entertainment, technology, fashion, education, and much more.",
+   "problem": "정답 근거에 원문 대신 빈칸(밑줄 6자)을 옮겨 적어 실제 근거 표현이 보이지 않는다. 또 학생용 빈칸(16자)과 길이가 다르다. Q07·Q22의 근거는 빈칸을 인용하지 않아 형식도 서로 다르다.",
+   "proposed_fix": "원문으로 바꾼다: 'Initially it was limited to products such as milk and newspapers. However, these business models have expanded to all industries, including entertainment, technology, fashion, education, and much more.' 또는 빈칸 뒤 근거만 인용: '… including entertainment, technology, fashion, education, and much more.'",
+   "severity": "검토제안"
+  },
+  {
+   "id": "N-03",
+   "location": "Q18 해설 오답 ② / Q25 정답 근거(공유 장문 2회·3회)",
+   "current": "Q18 ②: '온라인 플랫폼은 서비스를 쉽게 이용하게 해 편리함을 높인다고 했으므로 반대 내용이다.' / Q25 EVIDENCE: 'To be sure, the subscription economy is a popular economic model nowadays …'",
+   "problem": "학생이 보는 공유 장문에서는 같은 자리가 어휘 문항 때문에 바뀐 말(Q19 ⑤ hardly, Q26 ③ rare)로 나온다. 제목 문항 해설이 복원형(easily/popular)을 근거로 드는데, 같은 세트의 어휘 답을 모르면 지면과 대조할 수 없다. 정답 판단 자체는 다른 근거로 충분하므로 오류는 아니다.",
+   "proposed_fix": "Q18 ②는 바뀌지 않은 근거로 설명한다: '… enhancing consumers’ convenience. With just a few clicks, consumers can receive services or products.'(클릭 몇 번으로 서비스를 받는 편리함) Q25 근거는 'Jiyun is actively taking part in it' / 'these business models have expanded to all industries …'로 좁히거나, '③은 7번 어휘 문항의 복원형 기준'이라고 한 줄 덧붙인다.",
+   "severity": "검토제안"
+  }
+ ],
+ "detail_review": {
+  "Q14_Q26_explanations": "13문항 모두 정답 근거·선지 해석·오답 네 개 정리를 원문(PDF 1~4쪽 렌더 대조) 및 지문과 대조함. 정답 번호, 근거 인용, choices_ko 번역은 모두 맞음. 오답 정리의 오류는 Q21 ① 한 곳(N-01)뿐. Q17 오답 ①②③⑤, Q23 오답 ①②④⑤의 지시어·흐름 설명은 실제 배열·위치와 맞음.",
+  "workbook_u4_u5": "u4: 오늘의 낱말 8개(★ 각주와 1:1, 뜻 일치), 유반 9개(numerous/countless/few, vast/enormous/tiny, customized/tailored/standardized), 구문 결합 4문항(문장 38·40·42·37 순으로 FINAL 구문으로 해석하기와 1:1, 도움말 공식·낱말 뜻 일치, 결합 답 비노출), 핵심 문장 40·43과 정답(FINAL 자연 해석과 동일) 모두 일치. u5: 오늘의 낱말 8개(limitations는 소제목에 먼저 나오므로 첫 번째 배열이 타당), 유반 9개(disposable/single-use/reusable, beneficial/helpful/harmful, crucial/vital/trivial), 구문 결합 4문항(44·49·50·57), 핵심 문장 50·58과 정답 모두 FINAL과 일치. 실전문제 Q04·Q05는 해당 단위 유반을 영어 선지에 사용함(Q04: tiny·standardized·few·tailored·countless·enormous, Q05: vital·harmful·single-use·helpful·trivial·reusable). 불일치 없음.",
+  "set_composition": "1회: Q07 빈칸(s24)·Q08 순서(s1~12)·Q09 삽입(s38)·Q12 어휘(s54)의 근거가 같은 회 다른 지문에 원형으로 나오지 않음. Q10(s44~52)이 장문(s44~58)에 통째로 들어 있으나 요지 문항이라 정답 노출은 아님. 2회: Q14 빈칸 s10이 Q13(s1~9)·Q15(s11~22) 사이에서 정확히 빠짐. Q16 무관·Q17 순서·Q19 어휘(s35)도 노출 없음. 3회: Q21 순서(s23~36)·Q22 빈칸(s40)·Q23 삽입(s47, 위치 s45~50)·Q26 어휘(s8)가 노출 없음. Q23(s44~55)과 Q24(s52~58)는 s52~55가 겹치지만 삽입 위치와 결론 근거는 겹치지 않음. 분량: 26문항 모두 고2 동유형 표본 전체보다 짧지 않음(가장 빠듯한 Q24 121단어/[114,153,124], Q22 144/[165,170,122], Q10 135/[162,144,130]). 세 문항 모두 정보량·논리 전개상 판단 근거가 자족적임. 순서 선지 ACB/BAC/BCA/CAB/CBA 고정, 어휘 다섯 표적 밑줄, 함축 본문·발문 밑줄, 각 회 6·7번 제목+어휘 공유 장문(passage_group 1회 출력) 규칙 모두 충족. 정답 분포 전체 ①5 ②5 ③6 ④5 ⑤5. 2회에는 ②가 없으나 규칙상 문제 아님.",
+  "easy_opinion_Q05_Q06_Q24": "코디네이터 판단(5단어 이상 연속 일치 없음, 주장·일치 유형의 정상 바꿔쓰기)에 동의함. 추가 이의 없음."
+ },
+ "summary": "블라인드 답 26/26 정답과 일치(불일치 0). 확정오류 1건(Q21 해설 오답 ①이 A→C→B 배열을 잘못 설명). 검토제안 2건(Q14 근거의 빈칸 인용, Q18·Q25 해설이 공유 장문의 복원형 어휘에 기댐). Q13·Q22 수정 문구로도 답 그대로(③, ④). 워크북 u4·u5는 학습 FINAL과 전부 일치. 3회 편성의 정답 노출·분량·순서 선지·밑줄·공유 장문 규칙 위반 없음."
+}

@@ -1,0 +1,139 @@
+{
+ "id": "UNIT02-Q-questions-2026-09-27",
+ "kind": "questions",
+ "status": "PASS",
+ "independent": true,
+ "reviews": [
+  {
+   "reviewer_id": "subagent:M",
+   "execution_id": "session_01JP1crHgUQtE68wz5D1SjUc/stage4-M",
+   "solved_before_answer_key": true,
+   "blind_record": "4단계_M_블라인드답.json",
+   "compare_record": "4단계_M_대조.json",
+   "detail_scope": "Q01~Q13 해설, 워크북 u1~u3"
+  },
+  {
+   "reviewer_id": "subagent:N",
+   "execution_id": "session_01JP1crHgUQtE68wz5D1SjUc/stage4-N",
+   "solved_before_answer_key": true,
+   "blind_record": "4단계_N_블라인드답.json",
+   "compare_record": "4단계_N_대조.json",
+   "detail_scope": "Q14~Q26 해설, 워크북 u4·u5, 3회 편성"
+  }
+ ],
+ "performed_at": "2026-09-27T13:00:00Z",
+ "method": "M·N 각각 정답·해설이 없는 블라인드 문제지만 보고 26문항 풀이·근거 저장(학습 원고·정답 미열람) → 대조 자료·교사용 전문·학습 FINAL·원문·편성표로 대조 및 담당 상세 검수 → 제작 세션 반영 → check_book·review_preflight(full) PASS, 수정 diff 대조",
+ "summary": "두 검수자 블라인드 답 26/26 모두 정답과 일치(불일치 0). 확정오류 1건(N-01)·검토제안 8건(블라인드 의견 포함) 중 반영 8, 미반영 1(M-04). 분량: 26문항 모두 고2 동유형 표본 이상(independent_length_review_required 없음). 회차 내 정답 노출 없음(N 확인).",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4",
+   "u5"
+  ],
+  "question_ids": [
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06",
+   "Q07",
+   "Q08",
+   "Q09",
+   "Q10",
+   "Q11",
+   "Q12",
+   "Q13",
+   "Q14",
+   "Q15",
+   "Q16",
+   "Q17",
+   "Q18",
+   "Q19",
+   "Q20",
+   "Q21",
+   "Q22",
+   "Q23",
+   "Q24",
+   "Q25",
+   "Q26"
+  ]
+ },
+ "bindings": {
+  "assessment_content_sha256": "606efe5b188abc6af166c2d1093ab20c6533fbd6e2f2c4362be36eb87c5deb6f",
+  "learning_final_sha256": "fc51ae8643d0e2e4b08d040cd427bbd647aaf28e774e449add3d7d9603cb1d6c",
+  "assessment_final_sha256": "31830a73455bd29b7445cec0956e9b514094da581dfe381b21412cf66dd47ef0",
+  "manuscript_file_sha256": "91af88eb03cb4aa852dad24b9f200ac0c59b4d7174c3d9549cd66150cb5c5d37"
+ },
+ "findings": [
+  {
+   "id": "blind-M/N",
+   "description": "blind-M/N",
+   "status": "resolved",
+   "resolution": "반영: M·N 블라인드 의견: Q13 ⑤ 표현을 원문과 맞춤, Q22 빈칸 범위에 to customers 포함(선지 삽입 시 to 중복 해소). 두 검수자가 바뀐 문구로 답 유지 확인",
+   "recheck": "수정 diff 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "M-01",
+   "description": "M-01",
+   "status": "resolved",
+   "resolution": "반영: Q09·Q23 오답 정리의 원숫자 중복 제거",
+   "recheck": "수정 diff 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "M-02",
+   "description": "M-02",
+   "status": "resolved",
+   "resolution": "반영: Q03 해설 인용을 선지 해석과 일치",
+   "recheck": "수정 diff 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "M-03",
+   "description": "M-03",
+   "status": "resolved",
+   "resolution": "반영: Q06 해설 인용을 선지 해석과 일치",
+   "recheck": "수정 diff 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "M-04",
+   "description": "M-04",
+   "status": "resolved",
+   "resolution": "미반영: 주장 유형 정답은 필자 결론의 바꿔 쓰기가 정상이며 5단어 이상 연속 일치 없음(사전진단 경고 0). N도 동의",
+   "recheck": "수정 diff 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "N-01",
+   "description": "N-01",
+   "status": "resolved",
+   "resolution": "반영: Q21 오답 ① 해설: (A)-(C)-(B)에서 This aspect가 (C)를 가리키는 점으로 정정",
+   "recheck": "수정 diff 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "N-02",
+   "description": "N-02",
+   "status": "resolved",
+   "resolution": "반영: Q14 정답 근거에 빈칸 대신 원문 인용",
+   "recheck": "수정 diff 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "N-03",
+   "description": "N-03",
+   "status": "resolved",
+   "resolution": "반영: Q18 오답 ②와 Q25 근거를 어휘 문항으로 바뀌지 않은 원문 근거로 교체",
+   "recheck": "수정 diff 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-05",
+   "description": "LR-05",
+   "status": "resolved",
+   "resolution": "반영: L 재검이 넘긴 Q17 해설 단정 표현 완화(2단계에서 반영)",
+   "recheck": "수정 diff 대조 + 구조 검사 PASS"
+  }
+ ]
+}

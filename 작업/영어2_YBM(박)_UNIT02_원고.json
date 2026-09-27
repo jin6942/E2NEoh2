@@ -28933,7 +28933,7 @@
     ],
     "answer": 2,
     "evidence": "More and more people prioritize experiences over owning things. / … it offers access to services or content without the requirement of ownership. / Moreover, consumers value diversity and customization. / … consumers receive a personalized experience that prioritizes their individual skin conditions …",
-    "explanation": "사람들은 물건을 소유하기보다 경험을 중시하고, 구독은 소유 없이 서비스에 접근하게 해 준다. 또 소비자들은 다양성과 맞춤화를 중시해 자신의 취향에 맞는 경험을 고르며, 화장품 구독 서비스가 그 예다. 따라서 ‘소유보다 접근: 개인마다 다양한 경험’이라는 ②가 제목으로 가장 적절하다.",
+    "explanation": "사람들은 물건을 소유하기보다 경험을 중시하고, 구독은 소유 없이 서비스에 접근하게 해 준다. 또 소비자들은 다양성과 맞춤화를 중시해 자신의 취향에 맞는 경험을 고르며, 화장품 구독 서비스가 그 예다. 따라서 ‘소유보다 접근: 모든 개인을 위한 다양한 경험’이라는 ②가 제목으로 가장 적절하다.",
     "wrong_reasons": [
      {
       "number": 1,
@@ -29143,7 +29143,7 @@
     ],
     "answer": 5,
     "evidence": "Companies can have a stable revenue and build customer loyalty by using the subscription model.",
-    "explanation": "기업들은 구독 모델을 사용해 안정적인 수입을 얻고 고객 충성도를 쌓을 수 있다고 했다. 이를 ‘믿을 만한 수입을 얻고 고객을 계속 붙잡아 둔다’로 바꾸어 표현한 ⑤가 본문과 일치한다.",
+    "explanation": "기업들은 구독 모델을 사용해 안정적인 수입을 얻고 고객 충성도를 쌓을 수 있다고 했다. 이를 ‘믿을 만한 수입을 얻고 고객을 충성스럽게 유지한다’로 바꾸어 표현한 ⑤가 본문과 일치한다.",
     "wrong_reasons": [
      {
       "number": 1,
@@ -29336,19 +29336,19 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "① 앞뒤는 온라인 플랫폼 덕분에 몇 번의 클릭으로 서비스를 받는다는 편리함 이야기로, 과거의 영화 관람 방식이 끼어들 자리가 아니다."
+      "text": "앞뒤는 온라인 플랫폼 덕분에 몇 번의 클릭으로 서비스를 받는다는 편리함 이야기로, 과거의 영화 관람 방식이 끼어들 자리가 아니다."
      },
      {
       "number": 2,
-      "text": "② 앞뒤는 클릭으로 서비스를 받고 기기 모델을 바꿀 수 있다는 내용으로 이어진다."
+      "text": "앞뒤는 클릭으로 서비스를 받고 기기 모델을 바꿀 수 있다는 내용으로 이어진다."
      },
      {
       "number": 3,
-      "text": "③ 앞뒤는 기기 변경과 업그레이드 이야기로 이어지며, 과거와 대비할 Today 문장이 바로 뒤에 오지 않는다."
+      "text": "앞뒤는 기기 변경과 업그레이드 이야기로 이어지며, 과거와 대비할 Today 문장이 바로 뒤에 오지 않는다."
      },
      {
       "number": 5,
-      "text": "⑤ 앞은 이미 Today로 오늘날을 말한 뒤이고, 뒤는 플랫폼이 기업에 주는 이점(At the same time)이라 과거 이야기가 들어갈 수 없다."
+      "text": "앞은 이미 Today로 오늘날을 말한 뒤이고, 뒤는 플랫폼이 기업에 주는 이점(At the same time)이라 과거 이야기가 들어갈 수 없다."
      }
     ],
     "choices_ko": []
@@ -29639,7 +29639,7 @@
      }
     ],
     "answer": 5,
-    "evidence": "Initially it was limited to products such as milk and newspapers. However, these business models have ______, including entertainment, technology, fashion, education, and much more.",
+    "evidence": "Initially it was limited to products such as milk and newspapers. However, these business models have expanded to all industries, including entertainment, technology, fashion, education, and much more.",
     "explanation": "빈칸 앞 문장은 구독 모델이 처음에는 우유와 신문에 한정되었다고 하고, However로 방향을 바꾼 뒤 엔터테인먼트·기술·패션·교육 등을 예로 든다. 따라서 거의 모든 종류의 사업으로 퍼졌다는 ⑤가 알맞다.",
     "wrong_reasons": [
      {
@@ -29886,7 +29886,7 @@
      },
      {
       "number": 2,
-      "text": "온라인 플랫폼은 서비스를 쉽게 이용하게 해 편리함을 높인다고 했으므로 반대 내용이다."
+      "text": "온라인 플랫폼 덕분에 클릭 몇 번으로 서비스나 제품을 받을 수 있다(With just a few clicks, consumers can receive services or products.)고 했으므로 반대 내용이다."
      },
      {
       "number": 4,
@@ -30071,7 +30071,7 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "(A)가 주어진 글 바로 뒤에 오면 (B)의 This aspect가 가리키는 대상이 유연성이 되어, 고유함 표현·화장품 맞춤 이야기와 맞지 않는다."
+      "text": "(A)가 주어진 글 바로 뒤에 오면 개인 맞춤 이야기가 끝나기 전에 Furthermore로 새 이유가 나오고, 맨 끝의 (B)에서 This aspect가 (C)의 온라인 접근성·기기 업그레이드를 가리키게 되어 고유함 표현·화장품 맞춤 이야기와 맞지 않는다."
      },
      {
       "number": 3,
@@ -30190,19 +30190,19 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "① 앞은 단점이 있다는 도입이라 This가 가리킬 구체적 상황이 없고, 뒤 문장에서 비로소 과소비 우려가 제시된다."
+      "text": "앞은 단점이 있다는 도입이라 This가 가리킬 구체적 상황이 없고, 뒤 문장에서 비로소 과소비 우려가 제시된다."
      },
      {
       "number": 2,
-      "text": "② 앞은 ‘과소비 가능성’이 우려라는 말뿐이라, 과소비가 과도한 소비를 초래한다는 동어 반복이 되며 원인 설명(편리함)보다 앞선다."
+      "text": "앞은 ‘과소비 가능성’이 우려라는 말뿐이라, 과소비가 과도한 소비를 초래한다는 동어 반복이 되며 원인 설명(편리함)보다 앞선다."
      },
      {
       "number": 4,
-      "text": "④ 앞은 필요한 서비스만 구독하라는 해결책이고 뒤는 재정적 부담이라는 새 우려로, 과도한 소비를 초래한다는 문장이 끼어들면 흐름이 끊긴다."
+      "text": "앞은 필요한 서비스만 구독하라는 해결책이고 뒤는 재정적 부담이라는 새 우려로, 과도한 소비를 초래한다는 문장이 끼어들면 흐름이 끊긴다."
      },
      {
       "number": 5,
-      "text": "⑤ 앞뒤는 재정적 부담과 개별 비용 이야기로, This가 가리킬 대상이 맞지 않는다."
+      "text": "앞뒤는 재정적 부담과 개별 비용 이야기로, This가 가리킬 대상이 맞지 않는다."
      }
     ],
     "choices_ko": []
@@ -30304,7 +30304,7 @@
      }
     ],
     "answer": 1,
-    "evidence": "To be sure, the subscription economy is a popular economic model nowadays, and Jiyun is actively taking part in it. / Initially it was limited to products such as milk and newspapers. However, these business models have expanded to all industries …",
+    "evidence": "Jiyun is actively taking part in it. / Initially it was limited to products such as milk and newspapers. However, these business models have expanded to all industries …",
     "explanation": "지윤이의 하루(음악, 아침 식사, 강의, 영화)가 구독 서비스로 채워져 있고, 우유·신문에서 시작한 구독 모델이 이제 모든 산업으로 확장되었다는 내용이다. 따라서 ‘우유에서 영화까지: 일상 속 구독’이라는 ①이 제목으로 가장 적절하다.",
     "wrong_reasons": [
      {
