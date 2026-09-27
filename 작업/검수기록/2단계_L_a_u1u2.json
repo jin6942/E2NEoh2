@@ -1,0 +1,169 @@
+{
+  "reviewer": "L-a",
+  "scope": {
+    "unit_ids": ["u1", "u2"],
+    "sentence_ids": ["s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", "s09", "s10", "s11", "s12", "s13", "s14", "s15", "s16", "s17"]
+  },
+  "inputs_checked": [
+    "작업/영어2_YBM(박준언)_UNIT02_QC_HANDOFF.txt 9~376행",
+    "작업/검수입력/L_u1.json, L_u2.json (selected_data 전체: chunks, clauses, glosses, lexical_coverage, hints·display_pairs·emphasis_links·pronoun_refs, reading_checks, units.analysis·today_words·formula_routes·workbook)",
+    "(2022개정)2026년_영어II_YBM(박준언)_2과_본문.pdf 1쪽 왼쪽 단 영어 본문(pypdfium2 추출)과 오른쪽 단 교과서 해석(참고)",
+    "작업/영어2_YBM(박준언)_UNIT02_수정인계.txt (L 확인 요청 ③)"
+  ],
+  "rules_read": [
+    "작업/스킬수정본/gyogwaseo-unified/SKILL.md",
+    "references/editorial-core.md",
+    "references/analysis-content.md",
+    "references/gloss-rules.md",
+    "references/grammar-labels.md",
+    "references/preposition-meanings.md",
+    "references/proper-nouns.md",
+    "references/common-errors.md",
+    "references/review-efficiency.md"
+  ],
+  "special_checks": {
+    "s04_whatever": {
+      "verdict": "유지",
+      "reason": "규칙 판정: analysis-content.md 구조 힌트 ‘절 연결 힌트는 연결어 + 실제 S′·V′까지만 표시한다 … 동사 뒤 목적어·전치사 대상·추가 수식과 그 뜻은 넣지 않는다 … 타동사 뒤라 문장 전체의 뜻이 완성되지 않아도 구조 연결만 보여 주는 표시 … be동사만으로 뜻이 잡히지 않을 때는 최소 명사·형용사 보어만 예외로 남긴다’(editorial-core.md·common-errors.md §15도 동일). finds는 be동사가 아니므로 보어 예외 대상이 아니며, interesting을 넣으면 오히려 이 규칙 위반이다. whatever는 find의 목적어(A)이고 별도 S′ she가 있으므로 gloss-rules.md 복합관계사 기준의 `whatever S′ V′` 틀·S/V `[whatever] S′: she, V′: finds`와도 일치한다. 강조(whatever ↔ 가·는 것은 무엇이든: 공식의 S′(이/가) 포함)와 pronoun_refs(그녀[지윤]가, 조사는 대명사 본형 기준)도 규칙대로다. 학생 이해: 힌트의 역할은 whatever절이 ‘~하는 것(무엇이든)’으로 묶여 in의 대상이 된다는 연결만 보여 주는 것이고, 한국어 ‘여기는’이 find의 ‘발견하다’가 아닌 find A B 뜻임을 이미 알려 준다. 빠진 B(interesting)는 같은 문장 각주 `find A B — A를 B하다고 여기다`·`interesting — 흥미로운`, 분석 한국어 청크 ‘그녀가 흥미롭다고 여기는 어떤 것에서든’, 구문으로 해석하기 u1-gp3(A = whatever, B = interesting 대입)과 워크북 4번 연습으로 모두 복원되므로 오독 위험은 낮다. ‘그녀가 여기는 것’이 한국어로 다소 불완전하게 읽히는 것은 규칙이 허용한 구조 표시의 성격이다.",
+      "proposed_fix": "수정 없음. 단, La-05(whatever 각주 뜻)를 반영해 각주 뜻을 바꾸면 힌트 한국어의 공식 부분도 같은 어미로 맞추고 emphasis_links 위치를 다시 계산할 것(예: `[whatever she finds] → [그녀[지윤]가 여기는 어떤 것이든]`)."
+    }
+  },
+  "findings": [
+    {
+      "id": "La-01",
+      "sentence_id": "s01",
+      "field": "각주",
+      "current": "★ log in to — ~에 로그인하다",
+      "problem": "to를 대표 뜻 ‘~에’로 읽으면 ‘음악 스트리밍 서비스에 로그인하다’가 그대로 성립하는데 동사와 전치사를 한 각주로 묶었다. preposition-meanings.md 판단 순서 2 ‘대표 뜻으로 문맥을 이해할 수 있으면 단어와 전치사를 분리한다’, 확정 경계 사례 `contribute to`·`respond to` 분리, gloss-rules.md ‘사전에 함께 등재되었다는 이유만으로 묶지 않는다’, common-errors.md §9 위반. 같은 원고의 was limited to(s09)·connected to(s17)는 분리해 처리 기준도 불일치한다.",
+      "proposed_fix": "`★ log in — 로그인하다 / to — ~에`로 분리(청크는 그대로). 연동 수정: 오늘의 낱말 u1-w4 text ‘log in’·뜻 ‘로그인하다’, by V-ing의 combines_with 유지, u1-gp1 설명 ‘V-ing = logging in(로그인하다), to = ~에’로 교정, practice.support_gloss_ids에 새 to 각주 ID 추가, 워크북 1번 오늘의 낱말·정답 동기화.",
+      "severity": "확정오류"
+    },
+    {
+      "id": "La-02",
+      "sentence_id": "s05",
+      "field": "각주",
+      "current": "★ stay updated about — ~에 대해 계속 최신 정보를 알고 있다",
+      "problem": "about은 대표 뜻 ‘~에 관해’(뜻풀이의 ‘~에 대해’)로 그대로 해석되는데 stay updated와 한 각주로 묶었다. preposition-meanings.md 판단 순서 2·`contribute to` 분리 사례, gloss-rules.md 숙어·구문과 전치사 절 위반. reading_checks.protected_spans의 ‘stay updated about 숙어’ 판정도 같은 오류에 근거한다.",
+      "proposed_fix": "`★ stay updated — 계속 최신 정보를 알다 / about — ~에 관해`로 분리(청크 경계는 그대로; protected_spans 범위는 stay updated로 축소). 연동: 오늘의 낱말 u1-w6 text ‘stay updated’·뜻 동기화, 워크북 1번·정답 동기화.",
+      "severity": "확정오류"
+    },
+    {
+      "id": "La-03",
+      "sentence_id": "s05",
+      "field": "구조힌트",
+      "current": "[to review her schoolwork and stay updated] → [그녀[지윤]의 학교 공부를 복습하고 계속 새로 알기 위해] (목적의 to부정사) / 각주 stay updated about — ~에 대해 계속 최신 정보를 알고 있다",
+      "problem": "gloss-rules.md 금지와 검수 6 ‘각주의 뜻과 같은 문장의 끊어읽기 해석·구조 힌트·분석 내용이 일치하는지 확인’: 각주는 ‘계속 최신 정보를 알고 있다’, 힌트·한국어 청크는 ‘계속 새로 알다’로 서로 다른 말을 쓴다. 뜻 차이는 작아 검토제안으로 둔다.",
+      "proposed_fix": "La-02 반영 시 각주 뜻과 힌트·청크 표현을 한 가지로 통일. 예: 각주 `stay updated — 계속 최신 정보를 알다`, 힌트 `[그녀[지윤]의 학교 공부를 복습하고 계속 최신 정보를 알기 위해]`, 청크 ‘그리고 최신 지식에 관해 계속 최신 정보를 알기 위해’(또는 각주 뜻을 ‘계속 새로 알다’로 맞추는 쪽 중 하나 선택). emphasis_links(to ↔ 기 위해) 위치 재계산.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "La-04",
+      "sentence_id": "s07",
+      "field": "각주",
+      "current": "take part in — ~에 참여하다 / it — 그것 (구독 경제)",
+      "problem": "La-01과 같은 유형. in을 대표 뜻 ‘~에’로 읽으면 ‘그것에 참여하다’가 그대로 성립하므로 preposition-meanings.md 판단 순서 2에 따라 분리 대상이다(take part 자체가 ‘참여하다’로 완결된 표현). gloss-rules.md ‘in — ~안에 / it — 그것처럼 별도 전치사 뜻이 조사 역할을 제공’ 형식과도 맞는다.",
+      "proposed_fix": "`be V-ing — ~하고 있다 / actively — 적극적으로 / take part — 참여하다 / in — ~에 / it — 그것 (구독 경제)`로 분리. be V-ing의 combines_with는 take part 각주로 유지. 청크·S/V 변경 없음.",
+      "severity": "확정오류"
+    },
+    {
+      "id": "La-05",
+      "sentence_id": "s04",
+      "field": "각주",
+      "current": "whatever S′ V′ — S′(이/가) V′하는 것은 무엇이든",
+      "problem": "gloss-rules.md ‘뜻은 해당 문장에 실제로 대입할 수 있어야 한다’·금지와 검수 2·6. 여기서 whatever절은 전치사 in(— ~에서)의 목적어라 ‘…여기는 것은 무엇이든’에 ‘에서’를 붙일 수 없고(‘것은 무엇이든에서’), 한국어 청크는 ‘그녀가 흥미롭다고 여기는 어떤 것에서든’으로 다른 어형을 쓴다. 주제 조사 ‘은’이 주어·화제 자리처럼 보이게 한다. 표준 뜻풀이로 흔히 쓰는 형태라 검토제안으로 둔다.",
+      "proposed_fix": "`whatever S′ V′ — S′(이/가) V′하는 어떤 것이든`(in과 결합 시 ‘어떤 것에서든’)으로 바꾸고, 같은 문장 구조 힌트·u1-gp3 제목·공식·practice.formula_support·answer_ko를 같은 어미로 맞춤. 유지하기로 하면 현행 그대로.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "La-06",
+      "sentence_id": "s04",
+      "field": "구문해석",
+      "current": "… → 그녀가 흥미롭다고 여기는 것은 무엇이든. 앞의 in과 합치면 ‘그녀가 흥미를 느끼는 어떤 것에서든’이다.",
+      "problem": "대입 결과(‘흥미롭다고 여기는’)와 in 결합 결과(‘흥미를 느끼는’)가 서로 다른 동사 표현으로 바뀌어, analysis-content.md 구문으로 해석하기의 ‘공식 → 대입 → 결합’ 흐름에서 find A B 대입이 결합 단계에서 사라진다. 한국어 청크(‘그녀가 흥미롭다고 여기는 어떤 것에서든’)와도 어긋난다. 뜻 자체는 틀리지 않아 검토제안.",
+      "proposed_fix": "끝 문장을 ‘앞의 in(~에서)과 합치면 ‘그녀가 흥미롭다고 여기는 어떤 것에서든’이다.’로 교정(La-05 반영 여부와 함께 어미 통일).",
+      "severity": "검토제안"
+    },
+    {
+      "id": "La-07",
+      "sentence_id": "s11",
+      "field": "청크",
+      "current": "영어: … / such as new content, more personalization, / or access / to updates. ↔ 한국어: … / 새로운 콘텐츠, 더 많은 개인 맞춤화, / 또는 접근 같은 / 업데이트에 대한.",
+      "problem": "such as의 뜻 ‘같은’이 such as가 없는 영어 조각 ‘or access’의 한국어에 들어가 있고, such as가 있는 조각의 한국어에는 대응 말이 없다. editorial-core.md·analysis-content.md 끊어읽기 ‘영어와 한국어 끊어읽기는 같은 의미 단위를 같은 수의 조각으로 대응’ 위반(조각 대응 오류).",
+      "proposed_fix": "후치수식 필수 경계(to updates 앞, at 164)는 유지하고 앞 두 조각을 합침: 영어 `such as new content, more personalization, or access / to updates.`(7낱말) ↔ 한국어 `새로운 콘텐츠, 더 많은 개인 맞춤화, 또는 접근 같은 / 업데이트에 대한.` (청크 수 6→5, 혼공 끊어읽기·분석 끊어읽기 영어·한국어 모두 동기화)",
+      "severity": "확정오류"
+    },
+    {
+      "id": "La-08",
+      "sentence_id": "s11",
+      "field": "각주",
+      "current": "that V′ — V′하는 (관계대명사)  ↔  힌트 a hit product [that will be sold] → [팔릴] 히트 상품 (that ↔ 릴 강조)",
+      "problem": "gloss-rules.md 금지와 검수 6 ‘같은 구문은 기능 각주의 조사·연결 어미가 구조 힌트의 해당 부분에 그대로 대응하도록 맞춘다’: 각주는 현재 관형 ‘~하는’, 힌트는 미래 관형 ‘~ㄹ’로 that의 대응 어미가 다르다. 과거 관계절의 ‘V′했던’ 보존 규칙(grammar-labels.md·gloss-rules.md)과 같은 취지로 실제 시간 연결을 맞추는 것이 일관적이다. 명문 규정은 과거만 들고 있어 검토제안.",
+      "proposed_fix": "`that V′ — V′할 (관계대명사)`로 바꾸어 힌트 ‘팔릴’과 대응(will V — ~할 것이다 각주는 유지).",
+      "severity": "검토제안"
+    },
+    {
+      "id": "La-09",
+      "sentence_id": "s08",
+      "field": "각주",
+      "current": "based on — (~에) 기반한",
+      "problem": "gloss-rules.md 기본 형식 ‘`from — ~에서 (온)`처럼 고를 뜻을 괄호에 남기지 않고 … 실제 의미를 택한다’: 선택 요소 ‘(~에)’를 괄호로 남겼다. 힌트 ‘[구독에 기반한]’과도 표기가 다르다.",
+      "proposed_fix": "`based on — ~에 기반한`",
+      "severity": "검토제안"
+    },
+    {
+      "id": "La-10",
+      "sentence_id": "s08",
+      "field": "각주",
+      "current": "is — ~이다 / not — ~이 아닌 / new — 새로운",
+      "problem": "gloss-rules.md 금지와 검수 2 ‘각주의 뜻을 문장에 직접 대입하고 … 부정 … 확인’: not의 관형형 ‘~이 아닌’은 서술 자리 is not new에 대입되지 않아(‘새로운 ~이 아닌 ~이다’) 청크 ‘새롭지 않다’로 이어지지 않는다.",
+      "proposed_fix": "`not — ~(하)지 않다`(또는 is와 합쳐 `is not — ~이 아니다, ~하지 않다` 중 문맥 하나: ‘새롭지 않다’)로 서술형 뜻 제공.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "La-11",
+      "sentence_id": "s17",
+      "field": "각주",
+      "current": "rise — 부상, 성장 (흔한 뜻: 오르다)",
+      "problem": "본문의 rise는 명사인데 흔한 뜻으로 동사 뜻 ‘오르다’를 적었다. gloss-rules.md ‘실제로 존재하는 뜻만 사용하며 다른 문맥의 뜻을 목록으로 늘어놓지 않는다’ 취지상 같은 품사의 흔한 뜻이 대입·비교에 맞다.",
+      "proposed_fix": "`rise — 부상, 성장 (흔한 뜻: 상승)`",
+      "severity": "검토제안"
+    },
+    {
+      "id": "La-12",
+      "sentence_id": "s02",
+      "field": "흐름",
+      "current": "(아침) 본문 · 원문 문장 1~3 — 지윤이는 스마트폰으로 음악 스트리밍 서비스에 로그인하며 하루를 시작하고, 아침 식사 재료도 구독 서비스로 배송받는다.",
+      "problem": "analysis-content.md ‘글의 흐름은 해당 분석 단위의 모든 문장을 원문 순서대로 한 번씩 포함’: 범위에는 2번 문장이 들어 있지만 요약에 2번 내용(매일 좋아하는 음악 듣기·새 노래·아티스트 찾기)이 빠졌고, 2번은 ‘every day’라 ‘(아침)’ 이름표와도 맞지 않는다.",
+      "proposed_fix": "예: ‘(아침과 일상) 본문 · 원문 문장 1~3 — 지윤이는 스마트폰으로 음악 스트리밍 서비스에 로그인하며 하루를 시작하고, 매일 좋아하는 음악을 듣고 새 노래와 아티스트를 찾아본다. 아침 식사 재료도 구독 서비스로 배송받는다.’",
+      "severity": "검토제안"
+    },
+    {
+      "id": "La-13",
+      "sentence_id": "s01",
+      "field": "쉬운풀이",
+      "current": "지윤이는 아침에 눈을 뜨자마자 이 서비스에 로그인한다.",
+      "problem": "원문은 ‘로그인하는 것으로 하루를 시작한다’일 뿐 ‘눈을 뜨자마자’라는 시점은 없다. analysis-content.md 쉬운 풀이 8 ‘원문에 없는 사실·인과 추측, 원문보다 강한 단정’을 넣지 않는다. 의미 왜곡은 작아 검토제안.",
+      "proposed_fix": "‘지윤이는 하루를 시작하면서 가장 먼저 이 서비스에 로그인한다.’",
+      "severity": "검토제안"
+    },
+    {
+      "id": "La-14",
+      "sentence_id": "s14",
+      "field": "쉬운풀이",
+      "current": "구독자는 매달 정해진 돈을 내기 때문에 기업은 수입을 미리 예상할 수 있다.",
+      "problem": "원문(s12 regular subscription)은 ‘정기적’일 뿐 ‘매달’이라는 주기를 말하지 않는다. analysis-content.md 쉬운 풀이 7·8(원문 조건 안의 예시, 원문에 없는 사실 금지).",
+      "proposed_fix": "‘구독자는 정기적으로 정해진 돈을 내기 때문에 기업은 수입을 미리 예상할 수 있다.’",
+      "severity": "검토제안"
+    },
+    {
+      "id": "La-15",
+      "sentence_id": "s02",
+      "field": "각주",
+      "current": "s02: new — 새로운 (g08) … new — 새로운 (g11) / s01: her — 그녀의 (지윤) ×2 (g04, g12) / s05: her — 그녀의 (지윤) ×2 (g09, g15)",
+      "problem": "gloss-rules.md 기본 형식 ‘한 문장 안의 중복 제거를 다음 문장의 각주 생략으로 확대하지 않는다’, common-errors.md ‘같은 기능·낱말을 반복하지 않는다’는 같은 문장 안의 동일 일반 낱말 각주를 한 번만 두는 운영을 전제한다. 전치사(s17 of×2 등)는 위치별 제공이 규칙이므로 해당 없음. 명문 기준이 간접적이라 검토제안.",
+      "proposed_fix": "같은 문장의 동일 표제어·동일 뜻 일반 낱말은 한 각주로 합치고 spans에 두 위치를 모두 연결(s01 her, s02 new, s05 her). lexical_coverage의 gloss_id 연결은 유지.",
+      "severity": "검토제안"
+    }
+  ],
+  "checked_ok_summary": "s01~s17 전 문장: 원문(PDF 1쪽 왼쪽 단·context 원문)과 영어 청크 재결합 일치, 영어·한국어 청크 수 일치(s11 조각 대응만 La-07), 명사 후치수식 필수 경계(s05 in, s08 of, s09·s11 such as, s10 including, s11 to updates, s17 of·in·of)와 수량·범위 of(s15 a wider range of) 보호 확인, 8낱말 초과 청크 없음. 자연 해석 17개의 시제(현재·현재진행·과거 수동·현재완료·미래 수동 관계절)·부정(s08 not)·양태(can)·주체·지시 대상(s07·s09 it, s15·s16 they) 정확, 원문 밖 내용 추가 없음. S/V 17개: 절 구분 ／, 주격 관계절 V′만(s03 provides, s11 will be sold), whatever절 S′·V′(s04), 등위 독립절 [and](s07), 병렬 동사 can have and build(s14), 등위 주어 전체 유지(s06), 명사구 주어 표시 축약(s08 The concept, s17 The rise)과 부사 제외(actively, also, closely, now) 모두 규칙대로. 각주: 중1 이상 일반 단어 누락 없음(관사·and 단독·고유명사 반복만 면제, lexical_coverage 전 위치 연결 확인), 3인칭 단수 원형 표제어(start, enjoy V-ing, receive, provide, utilize, find A B, watch, bring), 복수 명사 실제형, 수동 be p.p.+실제 p.p.(s09 limited, s11 sold, s17 connected), 능동 완료 have p.p.+원형·p.p. 관계(s10 expand), 독립 p.p.(chosen, based on, personalized), -ing 기능/원형 분리(s06 using, s11 creating·providing) 및 구문이 V-ing를 제공하는 경우 중복 없음(enjoy V-ing, spend A V-ing, by V-ing), 목적 to V 분리(s04·s05), 필수 대명사 they 지시 대상, she의 격(그녀는/그녀가), 다의어 흔한 뜻 병기(on, review, drivers), 고유명사 Jiyun 첫 등장만 제공, ★와 오늘의 낱말 16개 대응 확인. 구조 힌트: 관계절 필수 힌트 누락 없음(s03, s11), 최소 표시 범위(S′·V′·주격 V′, 목적어·once 제외), 영한 대괄호 대응, 이름표 짧은 한국어, 대명사 [지칭 대상](s04 그녀[지윤]가, s05 그녀[지윤]의), emphasis_links(by+ing↔함으로써/짐으로써, that↔는/릴, to↔기 위해, whatever↔가·는 것은 무엇이든, Instead of+ing↔는 것 대신에, both/and↔과/둘 다, based↔기반한 전체, ing↔하여, spend A V-ing 한국어 전용 강조 면서·을, 기능 결합 was↔되었다·have↔었다·is↔되어 있다) 모두 확인, 문장당 2개 이하, 빈 힌트 문장 s02·s07·s12·s15는 수동태·필수 관계 없음 확인, 빈 힌트 수동 후보 s09·s17과 능동 완료 s10 기능 결합 형식(lexical_step·formula_label) 정상. 분석부: u1·u2 글의 의도·제목/주제 타당, u2 흐름 3단계 전 문장 포함, 쉬운 풀이 각 3문장(원문 순서·앞 문맥 연결·중학생 수준·한 문장 한 내용), 구문으로 해석하기 u1 3개·u2 기본 3개+be p.p. 보충 1개(formula_routes: s09·s10·s17 힌트, s11 분석 u2-gp4)의 공식→대입→결합과 워크북 4번 practice 연결, 유반 6세트(receive/obtain/send, expand/broaden/narrow, latest/newest/outdated, stable/steady/unstable, flexible/adaptable/rigid, rapid/swift/gradual) 품사·관계 타당, 핵심 문장 s03·s05·s11·s17, 오늘의 낱말 u1·u2 각 8개(La-01·La-02의 연동 수정 제외) 확인."
+}
