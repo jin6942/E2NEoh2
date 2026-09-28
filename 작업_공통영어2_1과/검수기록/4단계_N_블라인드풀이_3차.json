@@ -1,0 +1,79 @@
+{
+  "reviewer_id": "N",
+  "role": "N",
+  "round": 3,
+  "solved_before_answer_key": true,
+  "input": "검수입력/문제_블라인드_3차.json",
+  "input_sha256": "c588fe60a7fc72a26475f6846de195461773b4fd7925600f7ff92714a80f0a6a",
+  "answers": {
+    "Q17": 3,
+    "Q18": 1,
+    "Q19": 2
+  },
+  "rationales": {
+    "Q17": "주어진 글의 일반 진술('common ... during states of emergency') 뒤에 'For example'로 암본 지진 뒤 주민들이 대피소에 머문 사례(B)가 온다. 'This was because of fake news stories'로 그 이유를 밝히는 (C)가 이어지고, (C)의 fake news stories를 'One of those messages'로 받는 (A)가 마지막이다. 따라서 B-C-A.",
+    "Q18": "비판하던 Gina가 'Gina herself had accidentally contributed to the spread of fake news'로 유포자가 되고, 이어 'becoming an accidental distributor of fake news like Gina is not unusual'로 누구나 그렇게 될 수 있다고 일반화하므로 ①.",
+    "Q19": "리포터가 가짜 뉴스라고 밝힌 뒤 Gina는 자신이 가짜 뉴스를 퍼뜨렸다는 사실을 알게 되었고, 이는 과거 유포자를 비판했던 태도와 대비된다. 따라서 ② pleased가 아니라 embarrassed가 적절하다. ①③④⑤는 문맥에 맞다."
+  },
+  "confidence": {
+    "Q17": "high",
+    "Q18": "high",
+    "Q19": "high"
+  },
+  "length_reviews": {
+    "Q17": {
+      "status": "PASS",
+      "benchmark_ids": [
+        "202603241-Q36",
+        "202606041-Q36",
+        "202609021-Q36"
+      ],
+      "rationale": "주어진 글과 (A)(B)(C)를 합쳐 112단어로, 고1 36번 벤치마크 134·160·168단어보다 22~56단어 짧다. 그러나 교사 기준(단일 문항 약 100단어 허용, 지문만으로 순서가 하나로 정해질 것)을 충족한다. 순서는 지문 안의 연결 장치만으로 하나로 정해진다. 'For example'(B)은 주어진 일반 진술의 예시이고, 'This was because of'(C)는 B의 대피 상황을 선행사로 요구하며, 'One of those messages'(A)는 C의 'fake news stories'를 선행사로 요구한다. 이 연결로 B-C-A 외의 배열은 성립하지 않는다. 주어진 글이 자기완결적인 일반 진술이라 다른 문항 지문의 도움도 필요 없다. 다만 (C)가 한 문장이어서 전개가 얇고 변별이 연결어에 크게 의존한다는 점은 참고 사항이다(오류는 아님)."
+    },
+    "Q18": {
+      "status": "PASS",
+      "benchmark_ids": [
+        "202603241-Q41_42",
+        "202606041-Q41_42",
+        "202609021-Q41_42"
+      ],
+      "rationale": "long-mock3는 237단어(74+100+63, 3개 문단)이다. 고1 41~42 벤치마크 212·212·216단어보다 21~25단어(약 10~12%) 길지만 과도하지 않다. 2차 판에서 지적한 일반화 층위('Unfortunately, becoming an accidental distributor ... not unusual' 이하의 정의·의도·피해)가 되살아나, 일화에서 일반화로 전개되는 장문 구조가 갖춰졌다. 제목 정답 ①('From Critic to Spreader: How Anyone Can Pass On Fake News')의 두 요소가 지문에 모두 근거를 둔다. 'Critic to Spreader'는 둘째 문단 끝의 반전에, 'Anyone'은 셋째 문단 'not unusual'에 근거한다. 오답 ②~⑤는 지문과 무관하거나 반대여서 정답이 하나로 정해진다."
+    },
+    "Q19": {
+      "status": "PASS",
+      "benchmark_ids": [
+        "202603241-Q41_42",
+        "202606041-Q41_42",
+        "202609021-Q41_42"
+      ],
+      "rationale": "long-mock3는 237단어(74+100+63, 3개 문단)이다. 고1 41~42 벤치마크 212·212·216단어보다 21~25단어(약 10~12%) 길지만 과도하지 않다. 2차 판에서 지적한 일반화 층위('Unfortunately, becoming an accidental distributor ... not unusual' 이하의 정의·의도·피해)가 되살아나, 일화에서 일반화로 전개되는 장문 구조가 갖춰졌다. 밑줄 5개가 문단별로 2·1·2개(immediately, pleased / criticized / deliberate, harm)로 고르게 분포한다. 오답 ②를 판정할 문맥(리포터의 가짜 뉴스 발표, 이후 과거 비판과의 대비)이 충분하고, 나머지 네 밑줄도 각 문장 안에서 적절성이 확인된다."
+    }
+  },
+  "set_review": {
+    "set_id": "mock3",
+    "question_ids": [
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "Q19"
+    ],
+    "question_errors": 0,
+    "in_set_overlap": false,
+    "summary": "3회(Q15–Q19) 세트 점검. 지문 구성은 Q15 가짜 뉴스 판별법, Q16 확산 이유, Q17 비상시 확산과 암본 사례, Q18–Q19 Gina 일화와 가짜 뉴스 일반화이다. 회차 안에서 문장이 중복되는 곳은 없다. long-mock3 끝('individuals involved.')과 Q17 시작('It is very common ...')은 원문상 이어지지만 겹치지 않는다. Q19 정답 근거(당황해야 할 상황)나 Q17 순서 근거를 다른 문항 지문이 노출하지 않는다. 문항 오류는 없다(Q15 ④, Q16 ⑤도 재확인). 외부 단서 후보는 Q15 마지막 문장의 'Anyone'과 Q18 ①의 어휘 겹침 하나뿐이며, 비결정적이라 검토제안으로 기록한다."
+  },
+  "concerns": [
+    {
+      "question_id": "Q18",
+      "issue": "같은 3회 Q15 지문의 마지막 문장 'Anyone can be the next person producing or spreading fake news!'가 Q18 정답 ①의 'How Anyone Can Pass On Fake News'와 어휘상 겹친다. 다만 정답 ①은 Q18 지문 자체('becoming an accidental distributor of fake news like Gina is not unusual')로 충분히 도출되고, 오답 ②~⑤가 지문과 명백히 무관하다. 따라서 이 겹침이 정답 결정에 결정적 단서가 되지는 않는다고 판단한다(비차단).",
+      "severity": "검토제안",
+      "proposal": "외부 단서 가능성을 완전히 없애려면 정답 ①의 후반부를 'How an Ordinary Person Can End Up Spreading Fake News' 등 Q15 지문과 겹치지 않는 표현으로 바꾸는 것을 선택적으로 검토한다."
+    },
+    {
+      "question_id": "Q17",
+      "issue": "(C)가 한 문장(21단어)뿐이라 순서 판정이 'For example / This was because / those messages' 세 연결 장치에 크게 의존한다. 정답은 하나로 정해져 오류는 아니지만 변별력이 다소 낮다.",
+      "severity": "검토제안",
+      "proposal": "현행 유지 가능. 필요하면 (C)에 다음 원문 문장을 옮기는 등 분할 지점을 조정해 단락 길이를 고르게 한다."
+    }
+  ]
+}
