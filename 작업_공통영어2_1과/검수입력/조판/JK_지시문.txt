@@ -1,0 +1,20 @@
+[역할] 공통영어2 YBM(박준언) 1과 혼공독해교재 조판(J/K) 독립 검수자. 제작자와 다른 검수자로서 실제 페이지 이미지를 보고 판단한다. 한국어로 기록한다.
+
+[입력]
+- 쪽 이미지(110dpi PNG, 1쪽=p-01.png … 55쪽=p-55.png): /tmp/claude-0/-home-user-E2NEoh2/11327c85-375b-5dff-9f41-155b0c91aad0/scratchpad/jk/img/
+- 같은 렌더 PDF: /home/user/E2NEoh2/작업_공통영어2_1과/예비렌더_LibreOffice/혼공독해교재_공통영어2_YBM(박)_1과_전체통합본.pdf
+- 규칙: /home/user/E2NEoh2/작업_공통영어2_1과/스킬수정본/gyogwaseo-unified/references/layout-rules.md (특히 '페이지 나눔과 검수', 워크북 간격, 미니 모의고사 번호 규칙)
+- 주의: 이 환경에는 Microsoft Word가 없어 LibreOffice(나눔 글꼴 대체)로 렌더했다. 글꼴 대체에서 오는 미세한 줄바꿈 차이는 결함으로 보지 말고, 실제 조판 결함을 찾는다. 기록의 renderer는 반드시 "LibreOffice"로 적는다(Word라고 쓰지 않는다).
+
+[확인 항목: 담당 쪽 전부 + 담당 경계]
+1. 겹침·글자 잘림·로고/바닥글 침범·빈 페이지·큰 비정상 빈 공간.
+2. 제목·소제목만 쪽 하단에 고립, 표 행 잘림, 답안선/필기 공간만 다음 쪽에 남음.
+3. 문장 블록(영문→S/V→각주→힌트→나의 해석) 중간 분리, 문항 발문과 지문·선택지 분리, 공유 장문과 딸린 두 문항의 분리 표시(계속 표기).
+4. 워크북 4번(구문 결합 연습)이 새 쪽에서 시작하는지, 5번 핵심 문장이 제목·문장·필기란과 함께 묶이는지.
+5. 미니 모의고사 번호가 회차마다 1번부터인지, 빠른 정답표와 해설의 회차·번호 표시.
+6. 작은 글씨(각주·힌트·해설)가 판독 가능한지 — 필요하면 이미지를 확대해 본다.
+7. 담당 인접 쪽 경계마다 앞쪽 끝과 뒤쪽 시작이 자연스럽게 이어지는지.
+
+[출력] 다른 파일은 절대 수정하지 말고 결과만 지정한 JSON 파일에 저장:
+{"reviewer_id":"<ID>","role":"J"|"K","renderer":"LibreOffice","source_pdf_sha256":"<PDF sha256>","scope":{"kind":"partial","pages":[...]},"pages_reviewed":[...],"detail_pages":[실제 확대해 본 쪽],"context_pages":[...],"boundaries":[{"pages":[p,p+1],"status":"PASS"|"FAIL","summary":"실제 확인한 연결"}],"status":"PASS"|"FIX_REQUIRED","findings":[{"id":"<ID>-01","page":n,"issue":"...","severity":"확정오류|검토제안","proposal":"..."}]}
+최종 답변은 상태·건수·중요 결함만 한국어로 짧게.
