@@ -1,0 +1,43 @@
+{
+  "reviewer": "S",
+  "method": "생산자 결과를 참조하지 않고 pypdfium2로 원본 PDF 1~3쪽 왼쪽 단(x<375pt, 머리말·쪽 번호 제외)을 독자 추출하고, 문자 박스의 줄 첫 글자 x좌표(들여쓰기 약 63~64pt vs 일반 줄 약 57pt)로 단락 시작을 판정한 뒤 1~3쪽을 2배율 PNG로 렌더해 육안 대조. 줄바꿈은 공백으로 이어 단락 문자열을 만들고, 종결부호(. ! ?, 뒤따르는 ” ’ 포함)+공백+대문자/여는 따옴표 기준으로 독자 문장 분할 후 source_text.py PARAGRAPHS·SUBHEADINGS와 원고 JSON(sources[0].text, sources[0].sentences 오프셋, sentences[].text, paragraphs, subheadings, grouping_resolutions, units, cover.topic_first, provenance)을 문자 단위(코드포인트)로 비교. 따옴표 코드포인트(U+201C/U+201D/U+2019) 개별 확인. sha256sum으로 PDF 해시 재계산. 스킬 scripts의 learning_units.group_units와 source_contract.check_source_structure를 원고에 실행해 묶음 규칙·소제목 연결·붙은 문장 경계 여부를 교차 확인.",
+  "checked": {
+    "pages": "1~3쪽 왼쪽 단(4쪽 Further Reading 범위 제외)",
+    "title": 1,
+    "subheadings": 3,
+    "paragraphs": 10,
+    "sentences": 47,
+    "paragraph_sentence_counts": {
+      "p01": 4,
+      "p02": 6,
+      "p03": 4,
+      "p04": 5,
+      "p05": 2,
+      "p06": 5,
+      "p07": 4,
+      "p08": 6,
+      "p09": 7,
+      "p10": 4
+    },
+    "source_text_chars": 4690,
+    "sentence_text_mismatches": 0,
+    "sentence_offset_mismatches": 0,
+    "paragraph_boundary_mismatches": 0,
+    "subheading_mismatches": 0,
+    "curly_quote_codepoints_checked": 16,
+    "joined_sentence_boundaries": 0,
+    "units": {
+      "u1": "p01+p02 s01–s10 (10문장, 무소제목 도입, grouping_resolutions 사용자 결정 기록 있음)",
+      "u2": "p03+p04 s11–s19 (9문장, h-impact 전체)",
+      "u3": "p05–p07 s20–s30 (11문장, h-reasons 전체)",
+      "u4": "p08–p10 s31–s47 (17문장, h-ways 전체)"
+    },
+    "group_units_status": "READY, unresolved 0",
+    "check_source_structure_issues": 0,
+    "pdf_sha256": "a84f5471130f0f0420964122864df806b5719309fde01bc6090837c6c6174043",
+    "provenance_sha256_match": true,
+    "subheading_artifact_sha256_match": 3
+  },
+  "status": "PASS",
+  "findings": []
+}
