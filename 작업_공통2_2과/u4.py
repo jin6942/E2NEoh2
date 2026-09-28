@@ -97,7 +97,7 @@ def sentences(T):
     s.g('some', 'some', '약간의, 좀')
     s.g('help', 'help', '도움')
     s.hint('[Looks like you could use]', '[너희[Alyssa와 Garrett]가 필요로 할 것 같다]', span='Looks like you could use',
-           label='주어 It이 생략된 look like', links=[(['like'], ['가', '것 같다'])], refs=[('you', '너희', '[Alyssa와 Garrett]')],
+           label='주어 It이 생략된 look like', links=[(['like'], ['가', '할 것 같다'])], refs=[('you', '너희', '[Alyssa와 Garrett]')],
            meaning='너희가 (도움을 좀) 필요로 할 것 같다',
            explanation='구어에서 It이 생략된 (It) looks like S′ V′: S′가 V′하는 것 같다. like는 접속사로 뒤 절 you could use를 이끈다. could use A = A가 필요하다. 목적어 some help는 제외.')
     s.review = ('주어 It이 생략된 구어 (It) Looks like + 접속사 like절(you could use some help; could use = ~이 필요하다). '

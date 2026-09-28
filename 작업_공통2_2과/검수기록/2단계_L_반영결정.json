@@ -450,5 +450,19 @@
    "sentence_id": "u5-analysis",
    "decision": "반영: 검수자 수정안대로 수정"
   }
- ]
+ ],
+ "rereview": [
+  {
+   "record": "2단계_L_재검.json",
+   "result": "68건 중 67 해결·1 부분(Lc-06 분석 설명 → LR-01로 해결), 새 지적 6건(LR-01~06) 모두 반영"
+  },
+  {
+   "record": "2단계_L_재검2.json",
+   "result": "LR-01~06 6/6 해결, 새 지적 2건(LR2-01 강조 음절 s27·s50 반영, LR2-02 s74 기록 문구 사실대로 수정·사용자 보고)"
+  }
+ ],
+ "learning_final": {
+  "file": "공통영어2_YBM(박준언)_UNIT02_FINAL.txt",
+  "source_manuscript_sha256": "483e3dc980928c8c4a5849f3b88b89134b32ca593dd0ebecbbc8eba080560947"
+ }
 }

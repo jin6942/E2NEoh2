@@ -351,7 +351,7 @@ def sentences(T):
     s.hint('it is possible that [this story can become a reality]', '[이 이야기가 현실이 될 수 있을] 가능성이 있다',
            span='it is possible that this story can become a reality', label='가주어 It과 진주어 that절',
            links=[(['that'], ['가', '을'])], meaning='이 이야기가 현실이 될 수 있을 가능성이 있다',
-           explanation='가주어 it이 뒤의 that절을 대신한다. that절 S′ this story, V′ can become에 연결동사의 최소 보어 a reality까지 표시(연결동사 최소 보어 표시는 2026-09-28 사용자 결정).')
+           explanation='가주어 it이 뒤의 that절을 대신한다. that절 S′ this story, V′ can become에 연결동사의 최소 보어 a reality까지 표시(2026-09-28 사용자 결정 ‘연결동사 보어까지 표시’를 같은 구조에 적용; 질문 당시 예시는 s07·s36).')
     s.review = ('조건 부사절 Provided that the factors contributing to water shortages worldwide are not addressed(현재분사 후치수식, 수동 부정) '
                 '+ the factors의 예시 including climate change, population growth, and using too much water for agriculture(동명사 using 포함) '
                 '+ 주절 가주어 it is possible that this story can become a reality(It~that 끊지 않음). 힌트 2개(provided that절, 가주어–that절). '

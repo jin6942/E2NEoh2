@@ -277,7 +277,7 @@ def sentences(T):
     s.g('woman', 'woman', '여자')
     s.brk('by', 'passive-agent-by', 'by a woman은 pulled away(당겨져 간)의 행위 주체를 나타내는 by 구')
     s.hint('[only to find]', '[그러나 결국 발견할 뿐이다]', span='only to find', label='결과의 to부정사 only to',
-           links=[(['only to'], ['그러나 결국', '뿐이다'])],
+           links=[(['only to'], ['그러나 결국', '할 뿐이다'])],
            meaning='(손을 뻗었지만) 결국 (그것이 당겨져 가는 것을) 발견할 뿐이다',
            explanation='only to V는 앞 동작 뒤에 기대와 다른 결과가 이어짐을 나타낸다(~했지만 결국 …할 뿐이다). 목적어 it pulled away 이하는 표시에서 제외.')
     s.hint('find [it pulled away]', '[그것[생수 한 상자]이 당겨져 가 버린 것을] 발견하다', span='find it pulled away',

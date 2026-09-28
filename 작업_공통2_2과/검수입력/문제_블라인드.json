@@ -1,0 +1,993 @@
+{
+  "schema_version": 1,
+  "purpose": "REVIEW_INPUT_PACKET_NOT_FINAL",
+  "status": "NOT_FINAL",
+  "certification": "NOT_CERTIFIED",
+  "role": "questions-blind",
+  "input_digest": {
+    "content_sha256": "580dda8890fd9d0481ed673f21a60ab6baece6d0f3972f1ce560a11df31a6fb2",
+    "canonical_full_json_sha256": "580dda8890fd9d0481ed673f21a60ab6baece6d0f3972f1ce560a11df31a6fb2",
+    "file_sha256": "67c52b251aa69c82cc15af31097ac2d4c77769826b5fda96c5795fbacca88f4e",
+    "file_sha256_status": "EXACT_INPUT_BYTES"
+  },
+  "current_rules": [
+    {
+      "path": "SKILL.md",
+      "sha256": "f4b6e53dd36c0b3132f608a45156c868d7429b97bb7115b8017d230fe67a3d5f"
+    },
+    {
+      "path": "references/editorial-core.md",
+      "sha256": "620678de7335f75152ffa190d8139d31ffc1e03316825d62b202de32ee385396"
+    },
+    {
+      "path": "references/workflow.md",
+      "sha256": "dc6f355b56fa30110cb99864a1dbd6bb60fc3b27416e4a4b7ad7b4850543f958"
+    },
+    {
+      "path": "references/layout-rules.md",
+      "sha256": "de911e443e52b5df776c2ae7827635315ca248bf717cf29026e8c89b04b75d67"
+    },
+    {
+      "path": "references/runtime-and-data.md",
+      "sha256": "8e2fa22f7ada9cd5cbe5c0f28bc8852a4c230ec6acf36f1d750e966bb1b16b6c"
+    },
+    {
+      "path": "references/handoff-format.md",
+      "sha256": "e9b3ed617a7c3c90b079710c97431fac9ab41b1e84bf455f6bb803006e079619"
+    },
+    {
+      "path": "references/common-errors.md",
+      "sha256": "058db2bf1c0fb67cc43927a6a53cf8cd122e55ef54ca2db944ceaddaaf41c2e8"
+    },
+    {
+      "path": "references/current-revision.md",
+      "sha256": "13eaf6cedead59261a01bfd004034e807b73cecc2f69481cf8fb3ebd5ce74842"
+    },
+    {
+      "path": "references/manuscript-data.md",
+      "sha256": "5be58a9b8ed167dbf6235810964657f69bc571a66991cc0480ee974470898a5b"
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "42b57e1bc8e19542d160fb4c40a32691b3645bc493c7a23d6468f9245cf6e7a1"
+    },
+    {
+      "path": "references/review-efficiency.md",
+      "sha256": "37218e5b5973f1a368fe4bc32622fab0a90c09308bdaaafcab7150203052147d"
+    },
+    {
+      "path": "references/workbook.md",
+      "sha256": "c358dbc10dc4e457d746ea19321a1f22c16c8f098083588157dfe154a329cfc5"
+    },
+    {
+      "path": "references/assessment-content.md",
+      "sha256": "159d9fd4d0df776359abe0ac062976f9a7342089083b09498729bfab251dd394"
+    }
+  ],
+  "review_contract": {
+    "independent_review": "NOT_PERFORMED",
+    "approval_reuse": "NOT_IMPLEMENTED",
+    "complete_final_required": true,
+    "existing_release_gate_unchanged": true,
+    "required_independent_question_solvers": 2,
+    "context_is_not_assigned_or_reviewed": true,
+    "unresolved_items": "COORDINATOR_MUST_SUPPLY_BLIND_SAFE_ITEMS; NOT_CLEARED_BY_PACKET",
+    "blind_use": "Fresh independent solver only. Store own answers and reasoning before opening comparison, source, learning material, or author feedback. Removing answers does not restore blindness for a solver who already saw them."
+  },
+  "scope": {
+    "assigned": {
+      "question_ids": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "Q19",
+        "Q20"
+      ]
+    },
+    "context_only": {
+      "question_ids": []
+    },
+    "whole_stage_assigned": true
+  },
+  "selected_data": {
+    "questions": [
+      {
+        "id": "Q01",
+        "set_id": "workbook",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 주제로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent. “Mom,” I shout out into the living room, “water is not coming out.” “Alyssa, shush!” Mom says. She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap. “To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck. As we pull into the parking lot, we can see the crowd. “You two go in. I’ll meet you inside,” Uncle Basil says. Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+            "underlines": []
+          },
+          {
+            "text": "①  strange sounds that often come from old kitchen taps",
+            "underlines": []
+          },
+          {
+            "text": "②  people rushing to buy necessities as a water crisis worsens",
+            "underlines": []
+          },
+          {
+            "text": "③  shoppers’ strong desire for luxuries on Black Friday",
+            "underlines": []
+          },
+          {
+            "text": "④  the media’s efforts to keep people quiet about the drought",
+            "underlines": []
+          },
+          {
+            "text": "⑤  a normal family trip to a crowded shopping mall",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q02",
+        "set_id": "workbook",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  밑줄 친 Even that politeness is stretched thin이 다음 글에서 의미하는 바로 가장 적절한 것은?",
+            "underlines": [
+              [
+                9,
+                47
+              ]
+            ]
+          },
+          {
+            "text": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin. As I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty. I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity. I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods. “I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”",
+            "underlines": [
+              [
+                129,
+                167
+              ]
+            ]
+          },
+          {
+            "text": "①  People are treating one another with warm and sincere courtesy.",
+            "underlines": []
+          },
+          {
+            "text": "②  People are openly showing their rudeness by fighting in line.",
+            "underlines": []
+          },
+          {
+            "text": "③  People are barely managing to keep up their courtesy.",
+            "underlines": []
+          },
+          {
+            "text": "④  People feel calm because the shelves are still full of water.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  People think bottled water has become worthless.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q03",
+        "set_id": "workbook",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 글의 내용과 일치하지 않는 것은?",
+            "underlines": [
+              [
+                19,
+                21
+              ]
+            ]
+          },
+          {
+            "text": "I look for Garrett, whom I find in the frozen aisle. Then I see something. Just past the frozen vegetables and ice cream, there is a case packed with ice. I open the door and reach for a bag. “What are you doing? We need water, not ice,” he reminds me. “Ice is water. Just help me,” I tell him. Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case. The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+            "underlines": []
+          },
+          {
+            "text": "①  Alyssa discovered her brother in the frozen food aisle.",
+            "underlines": []
+          },
+          {
+            "text": "②  Alyssa saw a case filled with ice near the ice cream.",
+            "underlines": []
+          },
+          {
+            "text": "③  Garrett first reminded Alyssa that they needed water, not ice.",
+            "underlines": []
+          },
+          {
+            "text": "④  Other shoppers disregarded what the two were doing.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  The two filled the cart with ice until it was piled high.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q04",
+        "set_id": "workbook",
+        "number": 4,
+        "student_blocks": [
+          {
+            "text": "4.  다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle. “Thank you for helping us,” I tell him. “Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can ________________. I decide that one favor deserves another. “Why don’t you take a bag of ice for yourself,” I suggest. His smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” For a moment I think he is joking, but then realize he is serious.",
+            "underlines": []
+          },
+          {
+            "text": "①  lead people to show their finest qualities",
+            "underlines": []
+          },
+          {
+            "text": "②  bring out the worst side of people",
+            "underlines": []
+          },
+          {
+            "text": "③  make everyday life easy for everyone",
+            "underlines": []
+          },
+          {
+            "text": "④  make people’s hearts heavy with worry",
+            "underlines": []
+          },
+          {
+            "text": "⑤  make people stop trusting strangers",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q05",
+        "set_id": "workbook",
+        "number": 5,
+        "student_blocks": [
+          {
+            "text": "5.  다음 글의 내용과 일치하지 않는 것은?",
+            "underlines": [
+              [
+                19,
+                21
+              ]
+            ]
+          },
+          {
+            "text": "For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his. “Is there a problem here?” It is Uncle Basil. He has arrived just in time. “Not at all.” The man looks at the ice with a bitter face, then leaves. *The above is a shortened version of the opening of the novel Dry (2018). It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. Her unwanted adventure ends when the water supply resumes and life is back to normal. Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.",
+            "underlines": []
+          },
+          {
+            "text": "①  Alyssa first thought the man was being playful, but he was earnest.",
+            "underlines": []
+          },
+          {
+            "text": "②  The man’s eyes scared Alyssa even though he was smiling.",
+            "underlines": []
+          },
+          {
+            "text": "③  Uncle Basil showed up at just the right moment.",
+            "underlines": []
+          },
+          {
+            "text": "④  In the novel, the girl’s adventure ends when the water supply restarts.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  The writer mentions a decline in population as a cause of water shortages.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q06",
+        "set_id": "mock1",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 글〉",
+            "underlines": []
+          },
+          {
+            "text": "I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity. ",
+            "underlines": []
+          },
+          {
+            "text": "(A) As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.” ",
+            "underlines": []
+          },
+          {
+            "text": "(B) “Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.” She looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+            "underlines": []
+          },
+          {
+            "text": "(C) I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods. “I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. ",
+            "underlines": []
+          },
+          {
+            "text": "①  A → C → B",
+            "underlines": []
+          },
+          {
+            "text": "②  B → A → C",
+            "underlines": []
+          },
+          {
+            "text": "③  B → C → A",
+            "underlines": []
+          },
+          {
+            "text": "④  C → A → B",
+            "underlines": []
+          },
+          {
+            "text": "⑤  C → B → A",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q07",
+        "set_id": "mock1",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 문장〉",
+            "underlines": []
+          },
+          {
+            "text": "Just past the frozen vegetables and ice cream, there is a case packed with ice.",
+            "underlines": []
+          },
+          {
+            "text": "I look for Garrett, whom I find in the frozen aisle. ① Then I see something. ② I open the door and reach for a bag. ③ “What are you doing? We need water, not ice,” he reminds me. ④ “Ice is water. Just help me,” I tell him. ⑤ Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case. The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q08",
+        "set_id": "mock1",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another. “Why don’t you take a bag of ice for yourself,” I suggest. His smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, ________________. “Is there a problem here?” It is Uncle Basil. He has arrived just in time. “Not at all.” The man looks at the ice with a bitter face, then leaves.",
+            "underlines": []
+          },
+          {
+            "text": "①  he will surely let go of the handle soon",
+            "underlines": []
+          },
+          {
+            "text": "②  Uncle Basil will never find us in the crowd",
+            "underlines": []
+          },
+          {
+            "text": "③  we have no way to show that the cart belongs to us",
+            "underlines": []
+          },
+          {
+            "text": "④  the ice in our cart will melt before long",
+            "underlines": []
+          },
+          {
+            "text": "⑤  everyone in the store will help us get the cart back",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q09",
+        "set_id": "mock1",
+        "number": 4,
+        "passage_group_id": "long-mock1",
+        "student_blocks": [
+          {
+            "text": "4.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  The Day the Water Stopped: A Rush for the Essentials",
+            "underlines": []
+          },
+          {
+            "text": "②  A Black Friday Sale on Televisions and Games",
+            "underlines": []
+          },
+          {
+            "text": "③  How Uncle Basil Fixed the Broken Kitchen Tap",
+            "underlines": []
+          },
+          {
+            "text": "④  A Relaxing Weekend Trip to the Shopping Mall",
+            "underlines": []
+          },
+          {
+            "text": "⑤  A New Name for the Drought: The Media’s Choice",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q10",
+        "set_id": "mock1",
+        "number": 5,
+        "passage_group_id": "long-mock1",
+        "student_blocks": [
+          {
+            "text": "5.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": [
+              [
+                36,
+                38
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q11",
+        "set_id": "mock2",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  밑줄 친 Black Friday at its worst가 다음 글에서 의미하는 바로 가장 적절한 것은?",
+            "underlines": [
+              [
+                9,
+                34
+              ]
+            ]
+          },
+          {
+            "text": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent. “Mom,” I shout out into the living room, “water is not coming out.” “Alyssa, shush!” Mom says. She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap. “To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck. As we pull into the parking lot, we can see the crowd. “You two go in. I’ll meet you inside,” Uncle Basil says. Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+            "underlines": [
+              [
+                674,
+                699
+              ]
+            ]
+          },
+          {
+            "text": "①  a day when stores give the biggest discounts of the year",
+            "underlines": []
+          },
+          {
+            "text": "②  a scene of huge crowds rushing wildly to buy things",
+            "underlines": []
+          },
+          {
+            "text": "③  a quiet store where only a few people are shopping",
+            "underlines": []
+          },
+          {
+            "text": "④  a time when TVs and video games sell out quickly",
+            "underlines": []
+          },
+          {
+            "text": "⑤  a sad day when people remember a past disaster",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q12",
+        "set_id": "mock2",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  다음 글에 드러난 ‘I’의 심경 변화로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity. I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods. “I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.” “Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.” She looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+            "underlines": []
+          },
+          {
+            "text": "①  bored → excited",
+            "underlines": []
+          },
+          {
+            "text": "②  nervous → relieved",
+            "underlines": []
+          },
+          {
+            "text": "③  angry → grateful",
+            "underlines": []
+          },
+          {
+            "text": "④  hopeful → disappointed",
+            "underlines": []
+          },
+          {
+            "text": "⑤  jealous → proud",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q13",
+        "set_id": "mock2",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 문장〉",
+            "underlines": []
+          },
+          {
+            "text": "Her unwanted adventure ends when the water supply resumes and life is back to normal.",
+            "underlines": []
+          },
+          {
+            "text": "For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his. “Is there a problem here?” It is Uncle Basil. ① He has arrived just in time. “Not at all.” ② The man looks at the ice with a bitter face, then leaves. ③ *The above is a shortened version of the opening of the novel Dry (2018). ④ It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. ⑤ Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q14",
+        "set_id": "mock2",
+        "number": 4,
+        "passage_group_id": "long-mock2",
+        "student_blocks": [
+          {
+            "text": "4.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  How to Push a Heavy Cart with Ease",
+            "underlines": []
+          },
+          {
+            "text": "②  Uncle Basil’s Clever Business Idea",
+            "underlines": []
+          },
+          {
+            "text": "③  A Helping Hand with a Selfish Plan",
+            "underlines": []
+          },
+          {
+            "text": "④  A Stranger Who Wanted Nothing in Return",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Why Ice Sells Better Than Bottled Water",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q15",
+        "set_id": "mock2",
+        "number": 5,
+        "passage_group_id": "long-mock2",
+        "student_blocks": [
+          {
+            "text": "5.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": [
+              [
+                36,
+                38
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q16",
+        "set_id": "mock3",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 글〉",
+            "underlines": []
+          },
+          {
+            "text": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent. “Mom,” I shout out into the living room, “water is not coming out.” “Alyssa, shush!” Mom says. ",
+            "underlines": []
+          },
+          {
+            "text": "(A) Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+            "underlines": []
+          },
+          {
+            "text": "(B) She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap. ",
+            "underlines": []
+          },
+          {
+            "text": "(C) “To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck. As we pull into the parking lot, we can see the crowd. “You two go in. I’ll meet you inside,” Uncle Basil says. ",
+            "underlines": []
+          },
+          {
+            "text": "①  A → C → B",
+            "underlines": []
+          },
+          {
+            "text": "②  B → A → C",
+            "underlines": []
+          },
+          {
+            "text": "③  B → C → A",
+            "underlines": []
+          },
+          {
+            "text": "④  C → A → B",
+            "underlines": []
+          },
+          {
+            "text": "⑤  C → B → A",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q17",
+        "set_id": "mock3",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  다음 글에서 전체 흐름과 관계 없는 문장은?",
+            "underlines": [
+              [
+                21,
+                23
+              ]
+            ]
+          },
+          {
+            "text": "I look for Garrett, whom I find in the frozen aisle. Then I see something. ① Just past the frozen vegetables and ice cream, there is a case packed with ice. ② I open the door and reach for a bag. “What are you doing? We need water, not ice,” he reminds me. “Ice is water. Just help me,” I tell him. ③ Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. ④ Frozen vegetables keep most of their vitamins because they are frozen soon after they are picked. ⑤ By now other people have taken notice and begin to empty the ice case. The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q18",
+        "set_id": "mock3",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 글에 드러난 ‘I’의 심경 변화로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "“Thank you for helping us,” I tell him. “Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another. “Why don’t you take a bag of ice for yourself,” I suggest. His smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.",
+            "underlines": []
+          },
+          {
+            "text": "①  grateful → frightened",
+            "underlines": []
+          },
+          {
+            "text": "②  jealous → satisfied",
+            "underlines": []
+          },
+          {
+            "text": "③  bored → curious",
+            "underlines": []
+          },
+          {
+            "text": "④  nervous → relieved",
+            "underlines": []
+          },
+          {
+            "text": "⑤  angry → calm",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q19",
+        "set_id": "mock3",
+        "number": 4,
+        "passage_group_id": "long-mock3",
+        "student_blocks": [
+          {
+            "text": "4.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  A Crown Made of Canned Goods",
+            "underlines": []
+          },
+          {
+            "text": "②  When Water Is Precious, Kindness Runs Dry",
+            "underlines": []
+          },
+          {
+            "text": "③  How Soccer Practice Made Two Girls Best Friends",
+            "underlines": []
+          },
+          {
+            "text": "④  Full Shelves and Friendly Shoppers",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Why Stores Put Items on the Wrong Shelves",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q20",
+        "set_id": "mock3",
+        "number": 5,
+        "passage_group_id": "long-mock3",
+        "student_blocks": [
+          {
+            "text": "5.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": [
+              [
+                36,
+                38
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "passage_groups": [
+      {
+        "id": "long-mock1",
+        "question_ids": [
+          "Q09",
+          "Q10"
+        ],
+        "student_blocks": [
+          {
+            "text": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes ① silent.",
+            "underlines": [
+              [
+                80,
+                86
+              ]
+            ]
+          },
+          {
+            "text": "“Mom,” I shout out into the living room, “water is not coming out.”",
+            "underlines": []
+          },
+          {
+            "text": "“Alyssa, shush!” Mom says.",
+            "underlines": []
+          },
+          {
+            "text": "She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got ② tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.",
+            "underlines": [
+              [
+                156,
+                161
+              ]
+            ]
+          },
+          {
+            "text": "“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.",
+            "underlines": []
+          },
+          {
+            "text": "As we pull into the parking lot, we can see the ③ crowd.",
+            "underlines": [
+              [
+                50,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "“You two go in. I’ll meet you inside,” Uncle Basil says.",
+            "underlines": []
+          },
+          {
+            "text": "Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+            "underlines": []
+          },
+          {
+            "text": "There is a look of ④ impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.",
+            "underlines": [
+              [
+                21,
+                31
+              ]
+            ]
+          },
+          {
+            "text": "As I approach the back of the store for water bottles, I realize I am too late. The shelves are already ⑤ full.",
+            "underlines": [
+              [
+                106,
+                110
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "long-mock2",
+        "question_ids": [
+          "Q14",
+          "Q15"
+        ],
+        "student_blocks": [
+          {
+            "text": "Garrett and I put one bag of ice after another into our cart, until it is piled as ① low as it can get. By now other people have taken notice and begin to empty the ice case.",
+            "underlines": [
+              [
+                85,
+                88
+              ]
+            ]
+          },
+          {
+            "text": "The cart is ridiculously ② heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.",
+            "underlines": [
+              [
+                27,
+                32
+              ]
+            ]
+          },
+          {
+            "text": "“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+            "underlines": []
+          },
+          {
+            "text": "“Thank you for helping us,” I tell him.",
+            "underlines": []
+          },
+          {
+            "text": "“Not a problem. We all need to ③ help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the ④ best in people. I decide that one favor deserves another.",
+            "underlines": [
+              [
+                33,
+                37
+              ],
+              [
+                153,
+                157
+              ]
+            ]
+          },
+          {
+            "text": "“Why don’t you take a bag of ice for yourself,” I suggest.",
+            "underlines": []
+          },
+          {
+            "text": "His smile does not fade. “I have a ⑤ better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”",
+            "underlines": [
+              [
+                37,
+                43
+              ]
+            ]
+          },
+          {
+            "text": "For a moment I think he is joking, but then realize he is serious. “Excuse me?”",
+            "underlines": []
+          },
+          {
+            "text": "He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.",
+            "underlines": []
+          },
+          {
+            "text": "“Is there a problem here?”",
+            "underlines": []
+          },
+          {
+            "text": "It is Uncle Basil. He has arrived just in time.",
+            "underlines": []
+          },
+          {
+            "text": "“Not at all.”",
+            "underlines": []
+          },
+          {
+            "text": "The man looks at the ice with a bitter face, then leaves.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "long-mock3",
+        "question_ids": [
+          "Q19",
+          "Q20"
+        ],
+        "student_blocks": [
+          {
+            "text": "There is a look of ① impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched ② thin.",
+            "underlines": [
+              [
+                21,
+                31
+              ],
+              [
+                167,
+                171
+              ]
+            ]
+          },
+          {
+            "text": "As I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.",
+            "underlines": []
+          },
+          {
+            "text": "I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a ③ precious commodity.",
+            "underlines": [
+              [
+                218,
+                226
+              ]
+            ]
+          },
+          {
+            "text": "I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.",
+            "underlines": []
+          },
+          {
+            "text": "“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans ④ closer to me. “I’m sorry about that, Alyssa.”",
+            "underlines": [
+              [
+                183,
+                189
+              ]
+            ]
+          },
+          {
+            "text": "“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and ⑤ hide a few bottles with me.”",
+            "underlines": [
+              [
+                122,
+                126
+              ]
+            ]
+          },
+          {
+            "text": "She looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+            "underlines": []
+          }
+        ]
+      }
+    ]
+  }
+}
