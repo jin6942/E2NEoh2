@@ -1,0 +1,719 @@
+{
+ "reviewer_id": "JK-R2",
+ "role": "J",
+ "renderer": "LibreOffice",
+ "review_date": "2026-09-28",
+ "integrated_pdf_sha256": "8567558a496c59e570c90fa0d627b13517d4853dc1f23b59e31f5ec6797836a9",
+ "volume02_pdf_sha256": "c3e0113e6f41ef8abd6b8b08790f55474580973fefb13561a9011c04afe5a90c",
+ "baseline_for_comparison": "git d547c14의 이전 LibreOffice 렌더(통합본 55쪽, 02분권 13쪽)",
+ "pages_reviewed": {
+  "integrated": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49,
+   50,
+   51,
+   52,
+   53
+  ],
+  "volume02": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ]
+ },
+ "method": [
+  "110dpi 쪽 이미지 육안(22~35 상세, 1~53 썸네일), 200dpi PIL 확대(p24·p33 하단·중단)",
+  "pdftotext 쪽별 텍스트로 구버전 쪽 대응 확인, 60dpi 픽셀 차분으로 비대상 쪽 불변 확인",
+  "pdftotext -bbox-layout 줄 좌표로 글자 높이·행 간격·하단 여유 측정"
+ ],
+ "detail_pages": {
+  "integrated_p24": {
+   "content": "1과·문단3 지문 분석: 헤더→글의 의도→글의 흐름(현상·이유1~3)→각 문장 쉬운 풀이(24·26·28번)→구문으로 해석하기①~③→필수 유의어/반의어 3행",
+   "relation_rows_on_page": 3,
+   "text_equals_old_p24_plus_p25": true,
+   "last_row_bottom_pt": 750.5,
+   "footer_rule_pt_approx": 791.7,
+   "bottom_clearance_pt_approx": 41,
+   "glyph_heights_unchanged": true,
+   "body_line_pitch_pt": {
+    "old": 14.3,
+    "new": 13.5
+   },
+   "header_position_unchanged": true,
+   "clipping": false,
+   "footer_intrusion": false,
+   "readability": "200dpi 확대에서 한글·영문·≈/↔ 기호 모두 선명, 줄 겹침 없음"
+  },
+  "integrated_p33": {
+   "content": "1과·문단4 지문 분석: 헤더→의도→흐름(질문·방법1·2·방법3·4·결론)→쉬운 풀이(35·40·47번)→구문①~③→유반 3행",
+   "relation_rows_on_page": 3,
+   "text_equals_old_p34_plus_p35": true,
+   "last_row_bottom_pt": 737.0,
+   "footer_rule_pt_approx": 791.7,
+   "bottom_clearance_pt_approx": 55,
+   "glyph_heights_unchanged": true,
+   "body_line_pitch_pt": {
+    "old": 14.3,
+    "new": 13.5
+   },
+   "header_position_unchanged": true,
+   "clipping": false,
+   "footer_intrusion": false,
+   "readability": "확대에서 선명, 겹침·잘림 없음"
+  },
+  "scope_check": {
+   "unchanged_pixel_identical": "통합본 p1~23은 구버전과 픽셀 완전 동일(u1·u2 분석 p6~8·p14~15, u3 끊어읽기 p22~23 포함). p25~32·p34~53은 구버전 p26~33·p36~55와 쪽번호 숫자 영역만 차이.",
+   "u3_u4_breakdown_pages": "p22~23(u3), p31~32(u4) 끊어읽기·자연 해석은 크기·간격 변화 없음",
+   "workbook_reading_sheets": "해석지 p18~21·p27~30, 워크북 p25~26·p34~35 변화 없음",
+   "font_size": "p24·p33 모든 줄의 글리프 높이가 구버전과 동일(예: 본문 12.58, 영어 예문 11.57, 유반 11.95) — 글자 크기 불변, 줄 간격·문단 간격만 감소"
+  },
+  "integrated_p1_cover": "표지 쪽번호 참조 없음(목차형 쪽수 기재 없음) — 2쪽 이동으로 틀어질 참조 없음",
+  "volume02_p1": "문단1 분석 헤더와 1번 끊어읽기로 시작, 구버전 p1과 픽셀 동일",
+  "volume02_p8": "문단3 분석 전체+유반 3행, 통합본 p24와 텍스트·줄 좌표 동일(차이는 쪽번호뿐)",
+  "volume02_p11_last": "문단4 분석 전체+유반 3행으로 끝, 통합본 p33과 줄 좌표 동일, 빈 뒷쪽 없음",
+  "page_numbers": "통합본 1~53, 02분권 1~11 연속"
+ },
+ "boundaries": [
+  {
+   "doc": "integrated",
+   "pages": [
+    1,
+    2
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    2,
+    3
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    3,
+    4
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    4,
+    5
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    5,
+    6
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    6,
+    7
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    7,
+    8
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    8,
+    9
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    9,
+    10
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    10,
+    11
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    11,
+    12
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    12,
+    13
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    13,
+    14
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    14,
+    15
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    15,
+    16
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    16,
+    17
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    17,
+    18
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    18,
+    19
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    19,
+    20
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    20,
+    21
+   ],
+   "status": "PASS",
+   "summary": "구버전(55쪽) 같은 쪽과 텍스트·픽셀 완전 동일(쪽번호 포함). 경계 기존대로 유지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    21,
+    22
+   ],
+   "status": "PASS",
+   "summary": "p21 문단3 해석지 끝(29번) → p22 문단3 분석 헤더·끊어읽기 시작. 구버전 p21/p22와 픽셀 동일."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    22,
+    23
+   ],
+   "status": "PASS",
+   "summary": "p22 끊어읽기 29번 자연해석 → p23 30번 1문장(끊어읽기 마지막). 문장 단위로 끊김, 구버전과 픽셀 동일. p23 하단 여백은 '분석은 다음 페이지 시작' 규칙에 따른 기존 배치."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    23,
+    24
+   ],
+   "status": "PASS",
+   "summary": "p23 끊어읽기·자연해석 종료 → p24 파란 분석 헤더부터 의도·흐름·쉬운 풀이·구문·유반 3행까지 한 페이지. 끊어읽기와 의도가 같은 페이지에 섞이지 않음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    24,
+    25
+   ],
+   "status": "PASS",
+   "summary": "p24 유반 3행(significantly/ignore/negative)으로 분석 종료, 마지막 행 하단~꼬리말 선 약 41pt 여유 → p25 문단3 워크북 제목 시작. 구버전의 넘침 쪽(p25) 소멸."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    25,
+    26
+   ],
+   "status": "PASS",
+   "summary": "문단3 워크북 1~3 → '문단 3 워크북 (계속)' 4번. 구버전 p26/p27과 쪽번호 외 동일."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    26,
+    27
+   ],
+   "status": "PASS",
+   "summary": "문단3 워크북 끝 → p27 문단4 혼공해석지 머리글. 구버전 p27/p28과 동일."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    27,
+    28
+   ],
+   "status": "PASS",
+   "summary": "문단4 해석지 34번 → 35번. 문장 단위 경계, 구버전 동일."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    28,
+    29
+   ],
+   "status": "PASS",
+   "summary": "39번 → 40번. 문장 단위 경계, 구버전 동일."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    29,
+    30
+   ],
+   "status": "PASS",
+   "summary": "43번 → 44번. 문장 단위 경계, 구버전 동일."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    30,
+    31
+   ],
+   "status": "PASS",
+   "summary": "문단4 해석지 끝(47번·복습란) → p31 문단4 분석 헤더·끊어읽기. 구버전 동일."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    31,
+    32
+   ],
+   "status": "PASS",
+   "summary": "43번 자연해석 → 44번 끊어읽기. 문장 단위 경계, 구버전 동일."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    32,
+    33
+   ],
+   "status": "PASS",
+   "summary": "p32 47번 자연해석으로 끊어읽기 종료 → p33 파란 분석 헤더부터 유반 3행까지 한 페이지."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    33,
+    34
+   ],
+   "status": "PASS",
+   "summary": "p33 유반 3행(reliable/valid/objectively)으로 분석 종료, 하단 여유 약 55pt → p34 문단4 워크북 제목. 구버전 넘침 쪽(p35) 소멸."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    34,
+    35
+   ],
+   "status": "PASS",
+   "summary": "문단4 워크북 1~3 → (계속) 4번. 구버전 p36/p37과 쪽번호 외 동일."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    35,
+    36
+   ],
+   "status": "PASS",
+   "summary": "문단4 워크북 끝 → p36 미니 모의고사 1회 제목. 구버전 p37/p38과 동일."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    36,
+    37
+   ],
+   "status": "PASS",
+   "summary": "구버전 p38/p39과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    37,
+    38
+   ],
+   "status": "PASS",
+   "summary": "구버전 p39/p40과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    38,
+    39
+   ],
+   "status": "PASS",
+   "summary": "구버전 p40/p41과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    39,
+    40
+   ],
+   "status": "PASS",
+   "summary": "구버전 p41/p42과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    40,
+    41
+   ],
+   "status": "PASS",
+   "summary": "구버전 p42/p43과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    41,
+    42
+   ],
+   "status": "PASS",
+   "summary": "구버전 p43/p44과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    42,
+    43
+   ],
+   "status": "PASS",
+   "summary": "구버전 p44/p45과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    43,
+    44
+   ],
+   "status": "PASS",
+   "summary": "구버전 p45/p46과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    44,
+    45
+   ],
+   "status": "PASS",
+   "summary": "구버전 p46/p47과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    45,
+    46
+   ],
+   "status": "PASS",
+   "summary": "구버전 p47/p48과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    46,
+    47
+   ],
+   "status": "PASS",
+   "summary": "구버전 p48/p49과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    47,
+    48
+   ],
+   "status": "PASS",
+   "summary": "구버전 p49/p50과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    48,
+    49
+   ],
+   "status": "PASS",
+   "summary": "구버전 p50/p51과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    49,
+    50
+   ],
+   "status": "PASS",
+   "summary": "구버전 p51/p52과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    50,
+    51
+   ],
+   "status": "PASS",
+   "summary": "구버전 p52/p53과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    51,
+    52
+   ],
+   "status": "PASS",
+   "summary": "구버전 p53/p54과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "integrated",
+   "pages": [
+    52,
+    53
+   ],
+   "status": "PASS",
+   "summary": "구버전 p54/p55과 텍스트 동일, 픽셀 차이는 쪽번호 숫자뿐. 경계·고립 변화 없음."
+  },
+  {
+   "doc": "volume02",
+   "pages": [
+    1,
+    2
+   ],
+   "status": "PASS",
+   "summary": "문단1 끊어읽기 10번 종료 → 문단1 분석 헤더(의도). 구버전 동일."
+  },
+  {
+   "doc": "volume02",
+   "pages": [
+    2,
+    3
+   ],
+   "status": "PASS",
+   "summary": "문단1 분석 어법 ④ → ⑤·유반(기존 배치, 이번 조정 대상 아님). 구버전 p2/p3과 픽셀 동일."
+  },
+  {
+   "doc": "volume02",
+   "pages": [
+    3,
+    4
+   ],
+   "status": "PASS",
+   "summary": "문단1 분석 종료 → 문단2 분석 헤더·끊어읽기. 구버전 동일."
+  },
+  {
+   "doc": "volume02",
+   "pages": [
+    4,
+    5
+   ],
+   "status": "PASS",
+   "summary": "문단2 끊어읽기 종료 → 문단2 분석 헤더. 구버전 동일."
+  },
+  {
+   "doc": "volume02",
+   "pages": [
+    5,
+    6
+   ],
+   "status": "PASS",
+   "summary": "문단2 유반 3행 종료 → 문단3 분석 헤더·끊어읽기. 구버전 동일."
+  },
+  {
+   "doc": "volume02",
+   "pages": [
+    6,
+    7
+   ],
+   "status": "PASS",
+   "summary": "29번 → 30번 끊어읽기. 문장 단위, 구버전 동일."
+  },
+  {
+   "doc": "volume02",
+   "pages": [
+    7,
+    8
+   ],
+   "status": "PASS",
+   "summary": "30번 자연해석 종료 → 문단3 분석 헤더부터 유반 3행까지 한 페이지(통합본 p24와 줄 좌표 동일)."
+  },
+  {
+   "doc": "volume02",
+   "pages": [
+    8,
+    9
+   ],
+   "status": "PASS",
+   "summary": "문단3 유반 3행으로 종료 → 문단4 분석 헤더·끊어읽기. 구버전 넘침 쪽 소멸."
+  },
+  {
+   "doc": "volume02",
+   "pages": [
+    9,
+    10
+   ],
+   "status": "PASS",
+   "summary": "43번 → 44번 끊어읽기. 문장 단위, 구버전 p10/p11과 쪽번호 외 동일."
+  },
+  {
+   "doc": "volume02",
+   "pages": [
+    10,
+    11
+   ],
+   "status": "PASS",
+   "summary": "47번 자연해석 종료 → 문단4 분석 헤더부터 유반 3행까지 한 페이지(마지막 쪽, 통합본 p33과 줄 좌표 동일)."
+  }
+ ],
+ "status": "PASS",
+ "findings": [
+  {
+   "id": "R2-01",
+   "severity": "info",
+   "summary": "u3(p24)·u4(p33) 분석 설명부가 유반 3행까지 각각 한 페이지에 수용됨. 잘림·꼬리말 침범 없음, 하단 여유 약 41pt/55pt."
+  },
+  {
+   "id": "R2-02",
+   "severity": "info",
+   "summary": "조정 범위는 두 쪽의 분석 설명부에 한정됨. 나머지 쪽은 구버전과 픽셀 동일하거나 쪽번호만 다름. 글자 크기 불변(글리프 높이 동일), 본문 줄 피치 14.3→13.5pt."
+  },
+  {
+   "id": "R2-03",
+   "severity": "info",
+   "summary": "2쪽 이동 뒤 새 고립·빈 쪽·깨진 경계 없음. 통합본 55→53, 02분권 13→11 확인."
+  },
+  {
+   "id": "R2-04",
+   "severity": "info",
+   "summary": "기존 배치 참고(이번 변경과 무관, 구버전과 동일): 통합본 p8/02분권 p3에 u1 분석 어법 ⑤+유반이 이어지고, p5·p23·p32는 '분석은 다음 페이지 시작' 규칙에 따른 짧은 끊어읽기 쪽."
+  },
+  {
+   "id": "R2-05",
+   "severity": "note",
+   "summary": "LibreOffice 렌더 기준 판정. 사용자 관찰 환경인 Microsoft Word에서의 최종 수용 여부는 이 기록으로 대체할 수 없으며 Word 재렌더 확인이 필요함(layout-rules 2026-09-25 절)."
+  }
+ ]
+}
