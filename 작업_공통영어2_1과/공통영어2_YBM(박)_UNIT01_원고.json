@@ -23121,11 +23121,11 @@
       "text": "C → B → A"
      }
     ],
-    "given": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. ",
+    "given": "It is very common for fake news to spread during states of emergency. ",
     "blocks": {
      "A": "One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
-     "B": "It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.\nIt is very common for fake news to spread during states of emergency. ",
-     "C": "For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. "
+     "B": "For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. ",
+     "C": "This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. "
     }
    },
    {
@@ -23139,7 +23139,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "From Critic to Spreader: How Gina Fell for Fake News"
+      "text": "From Critic to Spreader: How Anyone Can Pass On Fake News"
      },
      {
       "number": 2,
@@ -23158,7 +23158,7 @@
       "text": "The Benefits of Sharing News as Quickly as Possible"
      }
     ],
-    "passage": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.",
+    "passage": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.\nUnfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.",
     "passage_group_id": "long-mock3"
    },
    {
@@ -23167,7 +23167,7 @@
     "number": 5,
     "type": "어휘",
     "question": "윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
-    "answer": 3,
+    "answer": 2,
     "choice_mode": "in_passage",
     "choices": [
      {
@@ -23191,7 +23191,7 @@
       "text": "⑤"
      }
     ],
-    "passage": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was pleased by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.",
+    "passage": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was pleased by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.\nUnfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.",
     "passage_group_id": "long-mock3"
    }
   ],
@@ -23308,7 +23308,7 @@
     "id": "Q19",
     "set_id": "mock3",
     "number": 5,
-    "answer": 3
+    "answer": 2
    }
   ],
   "explanations": [
@@ -24354,12 +24354,12 @@
      }
     ],
     "answer": 3,
-    "evidence": "(B) “It is made by certain groups …”의 It이 주어진 글의 Fake news를 받고 “It is very common for fake news to spread during states of emergency.”로 끝남 / (C) “For example, after an earthquake …”가 그 예를 들고 fake news stories를 언급 / (A) “One of those messages said …”의 those messages가 (C)의 fake news stories를 가리킴.",
-    "explanation": "주어진 글은 가짜 뉴스가 사람들을 조종하려는 의도적인 시도라고 정의한다. (B) 그것(It)을 누가 왜 만드는지, 어떤 해를 끼치는지 말하고, 비상사태에 가짜 뉴스가 흔히 퍼진다고 한다. (C) 그 예로 암본 지진 뒤 주민들이 집에 돌아가지 않은 이유가 소셜 미디어의 가짜 뉴스 이야기들 때문이었다고 한다. (A) 그 메시지들(those messages) 중 하나를 소개하고, 정부가 정보가 가짜라고 발표해야 했다고 끝맺는다. 따라서 (B)-(C)-(A)이다.",
+    "evidence": "(B) “For example, after an earthquake … thousands of residents did not return to their homes …” / (C) “This was because of fake news stories on social media …”의 This가 (B)의 주민들이 돌아가지 않은 일을 받음 / (A) “One of those messages said …”의 those messages가 (C)의 fake news stories를 가리킴.",
+    "explanation": "주어진 글은 비상사태 동안 가짜 뉴스가 퍼지는 것이 매우 흔하다고 말한다. (B) 그 예로 암본 지진 뒤 수천 명의 주민이 집에 돌아가지 않고 대피소에 머문 일을 든다. (C) 그 이유(This was because …)가 곧 또 다른 지진과 쓰나미가 온다는 소셜 미디어의 가짜 뉴스 이야기들 때문이었다고 한다. (A) 그 메시지들(those messages) 중 하나를 소개하고, 이재민들이 몹시 불안해해서 정부가 정보가 가짜라고 발표해야 했다고 끝맺는다. 따라서 (B)-(C)-(A)이다.",
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "(A)의 those messages가 가리킬 가짜 뉴스 이야기들이 앞에 나오지 않았다."
+      "text": "(A)의 those messages가 가리킬 (C)의 fake news stories가 아직 나오지 않았다."
      },
      {
       "number": 2,
@@ -24367,11 +24367,11 @@
      },
      {
       "number": 4,
-      "text": "(C)의 For example이 비상사태에 가짜 뉴스가 흔히 퍼진다는 (B)의 내용보다 먼저 나와 무엇의 예인지 알 수 없다."
+      "text": "(C)의 This가 가리킬 일(주민들이 집에 돌아가지 않은 것)이 아직 나오지 않았다."
      },
      {
       "number": 5,
-      "text": "(C)의 예시가 (B)보다 먼저 나오고, (A)의 those messages가 가리킬 대상도 (A)보다 뒤에 나온다."
+      "text": "(C)의 This가 가리킬 (B)의 주민들 이야기보다 (C)가 먼저 나온다."
      }
     ],
     "choices_ko": []
@@ -24383,7 +24383,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "From Critic to Spreader: How Gina Fell for Fake News"
+      "text": "From Critic to Spreader: How Anyone Can Pass On Fake News"
      },
      {
       "number": 2,
@@ -24403,8 +24403,8 @@
      }
     ],
     "answer": 1,
-    "evidence": "At that time, Gina criticized those who had made and spread fake news … This time, however, Gina herself had accidentally contributed to the spread of fake news.",
-    "explanation": "예전에 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했던 지나가, 이번에는 흔들바위가 떨어졌다는 가짜 뉴스를 믿고 친구들에게 공유해 자신도 모르게 가짜 뉴스를 퍼뜨린 경험을 다룬다. 따라서 ①이 제목으로 가장 적절하다.",
+    "evidence": "At that time, Gina criticized those who had made and spread fake news … This time, however, Gina herself had accidentally contributed to the spread of fake news. Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual.",
+    "explanation": "가짜 뉴스를 비판하던 지나가 뜻하지 않게 가짜 뉴스를 퍼뜨린 경험을 소개하고, 이런 일이 드물지 않으며 가짜 뉴스가 사람들과 사회에 큰 해를 끼칠 수 있다고 설명한다. 따라서 ①이 제목으로 가장 적절하다.",
     "wrong_reasons": [
      {
       "number": 2,
@@ -24426,7 +24426,7 @@
     "choices_ko": [
      {
       "number": 1,
-      "text": "비판자에서 유포자로: 지나는 어떻게 가짜 뉴스에 속았나"
+      "text": "비판자에서 유포자로: 누구나 가짜 뉴스를 퍼뜨릴 수 있는 방식"
      },
      {
       "number": 2,
@@ -24472,25 +24472,25 @@
       "text": "⑤"
      }
     ],
-    "answer": 3,
+    "answer": 2,
     "evidence": "Later, during the morning news on TV, a reporter … said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was … by the fact that she had spread the fake news.",
-    "explanation": "지나가 공유한 흔들바위 소식이 가짜로 밝혀졌으므로, 자신이 가짜 뉴스를 퍼뜨렸다는 사실에 당황했다(embarrassed)는 흐름이어야 한다. ③의 pleased(기쁜)는 문맥에 맞지 않는다.",
+    "explanation": "지나가 공유한 흔들바위 소식이 가짜로 밝혀졌으므로, 자신이 가짜 뉴스를 퍼뜨렸다는 사실에 당황했다(embarrassed)는 흐름이어야 한다. ②의 pleased(기쁜)는 문맥에 맞지 않는다.",
     "wrong_reasons": [
      {
       "number": 1,
       "text": "헤드라인을 보고 확인 없이 곧바로(immediately) 공유했다는 흐름에 맞다."
      },
      {
-      "number": 2,
-      "text": "기자가 멀쩡한(undamaged) 흔들바위 옆에서 기사가 가짜라고 알리는 장면으로 적절하다."
-     },
-     {
-      "number": 4,
+      "number": 3,
       "text": "지나가 예전에 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했다(criticized)는 뜻으로 적절하다."
      },
      {
+      "number": 4,
+      "text": "가짜 뉴스는 부정확한 정보를 퍼뜨려 사람들을 조종하려는 의도적인(deliberate) 시도라는 정의로 적절하다."
+     },
+     {
       "number": 5,
-      "text": "이번에는 지나 자신이 의도하지 않게(accidentally) 가짜 뉴스 확산에 한몫했다는 뜻으로 적절하다."
+      "text": "가짜 뉴스가 대중과 관련된 모든 개인들에게 심각한 해를 끼칠(harm) 수 있다는 내용으로 적절하다."
      }
     ],
     "choices_ko": []
@@ -24903,24 +24903,24 @@
    "id": "Q17",
    "type": "순서",
    "source_id": "src",
-   "first_sentence": "s11",
+   "first_sentence": "s15",
    "last_sentence": "s19",
    "block_spans": {
     "given": [
      0,
-     181
+     70
     ],
     "B": [
-     181,
-     492
+     70,
+     256
     ],
     "C": [
-     492,
-     799
+     256,
+     377
     ],
     "A": [
-     799,
-     1060
+     377,
+     638
     ]
    },
    "length_review": {
@@ -24931,7 +24931,8 @@
      "202606041-Q36",
      "202609021-Q36"
     ],
-    "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 175단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+    "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 112단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+    "independent_review_required": true
    }
   },
   {
@@ -24939,7 +24940,7 @@
    "type": "제목",
    "source_id": "src",
    "first_sentence": "s01",
-   "last_sentence": "s10",
+   "last_sentence": "s14",
    "length_review": {
     "profile_id": "kr-hs-english-2026-3-6-9-v1",
     "grade": 1,
@@ -24948,8 +24949,7 @@
      "202606041-Q41_42",
      "202609021-Q41_42"
     ],
-    "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 174단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
-    "independent_review_required": true
+    "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 237단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
    }
   },
   {
@@ -24957,15 +24957,11 @@
    "type": "어휘",
    "source_id": "src",
    "first_sentence": "s01",
-   "last_sentence": "s10",
+   "last_sentence": "s14",
    "vocabulary_marks": [
     [
      165,
      176
-    ],
-    [
-     297,
-     306
     ],
     [
      407,
@@ -24976,8 +24972,12 @@
      850
     ],
     [
-     981,
-     993
+     1138,
+     1148
+    ],
+    [
+     1403,
+     1407
     ]
    ],
    "replacement_span": [
@@ -24993,8 +24993,7 @@
      "202606041-Q41_42",
      "202609021-Q41_42"
     ],
-    "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 174단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
-    "independent_review_required": true
+    "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 237단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
    }
   }
  ],

@@ -8,10 +8,12 @@
 원형으로 드러나지 않도록 원문 구간을 나눈다.
   1회: 요지 s11~s19 / 순서 s01~s10 / 삽입 s31~s43 / 장문(제목·어휘) s20~s30
   2회: 내용 s01~s10 / 빈칸 s20~s30 / 무관 s11~s19 / 장문(제목·어휘) s31~s47
-  3회: 요약 s31~s47 / 함축 s20~s30 / 순서 s11~s19 / 장문(제목·어휘) s01~s10
+  3회: 요약 s31~s47 / 함축 s20~s30 / 순서 s15~s19 / 장문(제목·어휘) s01~s14
 4단계 M/N 블라인드 검토제안 반영: u4의 서수(First~Finally) 목록은 순서·삽입 답을 서수만으로 정하게 하므로
-3회 순서는 s11~s19로 옮기고 1회 삽입의 주어진 문장은 서수 없는 s33으로 바꿈. this phenomenon의 지시 대상을
+3회 순서는 서수 없는 s15~s19로 옮기고 1회 삽입의 주어진 문장은 서수 없는 s33으로 바꿈. this phenomenon의 지시 대상을
 보이도록 빈칸·함축은 s20부터, 워크북 주장은 u4 전체(s31~)로 시작함. 3회 요약과 장문의 지문 중복을 없앰.
+사용자 결정(2단계 분량 판정 뒤): 지문을 모두 쓰지 않아도 되며 단문 문제는 100단어 안팎도 허용.
+단, 문제 오류나 지문 밖 정답 단서는 허용하지 않음. 이에 따라 3회 장문은 s01~s14(237단어), 순서는 s15~s19(113단어).
 """
 import re
 import sys
@@ -336,28 +338,28 @@ q(id='Q16', set_id='mock3', number=2, type='함축 의미', first='s20', last='s
          3: '거짓 이야기를 퍼뜨리다 들킨다는 내용은 본문에 없다.',
          4: '선거철에도 사람들은 후보에 관한 뉴스를 믿는다고 했으므로 정보를 찾지 못한다는 것은 틀리다.'})
 
-q(id='Q17', set_id='mock3', number=3, type='순서', first='s11', last='s19',
-  blocks=('s11', 's12', {'B': ('s13', 's15'), 'C': ('s16', 's17'), 'A': ('s18', 's19')}),
+q(id='Q17', set_id='mock3', number=3, type='순서', first='s15', last='s19',
+  blocks=('s15', 's15', {'B': ('s16', 's16'), 'C': ('s17', 's17'), 'A': ('s18', 's19')}),
   question='주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?',
   answer=3,
-  evidence='(B) “It is made by certain groups …”의 It이 주어진 글의 Fake news를 받고 “It is very common for fake news to spread during states of emergency.”로 끝남 / (C) “For example, after an earthquake …”가 그 예를 들고 fake news stories를 언급 / (A) “One of those messages said …”의 those messages가 (C)의 fake news stories를 가리킴.',
-  explanation='주어진 글은 가짜 뉴스가 사람들을 조종하려는 의도적인 시도라고 정의한다. (B) 그것(It)을 누가 왜 만드는지, 어떤 해를 끼치는지 말하고, 비상사태에 가짜 뉴스가 흔히 퍼진다고 한다. (C) 그 예로 암본 지진 뒤 주민들이 집에 돌아가지 않은 이유가 소셜 미디어의 가짜 뉴스 이야기들 때문이었다고 한다. (A) 그 메시지들(those messages) 중 하나를 소개하고, 정부가 정보가 가짜라고 발표해야 했다고 끝맺는다. 따라서 (B)-(C)-(A)이다.',
-  wrong={1: '(A)의 those messages가 가리킬 가짜 뉴스 이야기들이 앞에 나오지 않았다.',
+  evidence='(B) “For example, after an earthquake … thousands of residents did not return to their homes …” / (C) “This was because of fake news stories on social media …”의 This가 (B)의 주민들이 돌아가지 않은 일을 받음 / (A) “One of those messages said …”의 those messages가 (C)의 fake news stories를 가리킴.',
+  explanation='주어진 글은 비상사태 동안 가짜 뉴스가 퍼지는 것이 매우 흔하다고 말한다. (B) 그 예로 암본 지진 뒤 수천 명의 주민이 집에 돌아가지 않고 대피소에 머문 일을 든다. (C) 그 이유(This was because …)가 곧 또 다른 지진과 쓰나미가 온다는 소셜 미디어의 가짜 뉴스 이야기들 때문이었다고 한다. (A) 그 메시지들(those messages) 중 하나를 소개하고, 이재민들이 몹시 불안해해서 정부가 정보가 가짜라고 발표해야 했다고 끝맺는다. 따라서 (B)-(C)-(A)이다.',
+  wrong={1: '(A)의 those messages가 가리킬 (C)의 fake news stories가 아직 나오지 않았다.',
          2: '(A)의 those messages가 가리킬 (C)의 fake news stories보다 (A)가 먼저 나온다.',
-         4: '(C)의 For example이 비상사태에 가짜 뉴스가 흔히 퍼진다는 (B)의 내용보다 먼저 나와 무엇의 예인지 알 수 없다.',
-         5: '(C)의 예시가 (B)보다 먼저 나오고, (A)의 those messages가 가리킬 대상도 (A)보다 뒤에 나온다.'})
+         4: '(C)의 This가 가리킬 일(주민들이 집에 돌아가지 않은 것)이 아직 나오지 않았다.',
+         5: '(C)의 This가 가리킬 (B)의 주민들 이야기보다 (C)가 먼저 나온다.'})
 
-q(id='Q18', set_id='mock3', number=4, type='제목', first='s01', last='s10', group='G3',
+q(id='Q18', set_id='mock3', number=4, type='제목', first='s01', last='s14', group='G3',
   question='윗글의 제목으로 가장 적절한 것은?',
-  choices=['From Critic to Spreader: How Gina Fell for Fake News',
+  choices=['From Critic to Spreader: How Anyone Can Pass On Fake News',
            'Why Gina Decided to Stop Using Social Media',
            'The Hidden Danger of Famous Rocks in National Parks',
            'How Reporters Make Money from Fake Headlines',
            'The Benefits of Sharing News as Quickly as Possible'],
   answer=1,
-  evidence='At that time, Gina criticized those who had made and spread fake news … This time, however, Gina herself had accidentally contributed to the spread of fake news.',
-  explanation='예전에 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했던 지나가, 이번에는 흔들바위가 떨어졌다는 가짜 뉴스를 믿고 친구들에게 공유해 자신도 모르게 가짜 뉴스를 퍼뜨린 경험을 다룬다. 따라서 ①이 제목으로 가장 적절하다.',
-  choices_ko=['비판자에서 유포자로: 지나는 어떻게 가짜 뉴스에 속았나',
+  evidence='At that time, Gina criticized those who had made and spread fake news … This time, however, Gina herself had accidentally contributed to the spread of fake news. Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual.',
+  explanation='가짜 뉴스를 비판하던 지나가 뜻하지 않게 가짜 뉴스를 퍼뜨린 경험을 소개하고, 이런 일이 드물지 않으며 가짜 뉴스가 사람들과 사회에 큰 해를 끼칠 수 있다고 설명한다. 따라서 ①이 제목으로 가장 적절하다.',
+  choices_ko=['비판자에서 유포자로: 누구나 가짜 뉴스를 퍼뜨릴 수 있는 방식',
               '지나가 소셜 미디어 사용을 그만두기로 한 이유',
               '국립공원에 있는 유명한 바위의 숨겨진 위험',
               '기자들이 가짜 헤드라인으로 돈을 버는 방법',
@@ -367,17 +369,17 @@ q(id='Q18', set_id='mock3', number=4, type='제목', first='s01', last='s10', gr
          4: '돈을 벌려고 가짜 뉴스를 만든 것은 기자가 아니라 콘텐츠 제작자들이다.',
          5: '지나는 확인 없이 곧바로 공유했다가 가짜 뉴스를 퍼뜨렸으므로, 빠른 공유의 이점을 말하는 글이 아니다.'})
 
-q(id='Q19', set_id='mock3', number=5, type='어휘', first='s01', last='s10', group='G3',
-  marks=[('immediately', 's02'), ('undamaged', 's03'), ('embarrassed', 's04'), ('criticized', 's09'), ('accidentally', 's10')],
+q(id='Q19', set_id='mock3', number=5, type='어휘', first='s01', last='s14', group='G3',
+  marks=[('immediately', 's02'), ('embarrassed', 's04'), ('criticized', 's09'), ('deliberate', 's12'), ('harm', 's14')],
   replace=('embarrassed', 'pleased'),
   question='윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?',
-  answer=3,
+  answer=2,
   evidence='Later, during the morning news on TV, a reporter … said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was … by the fact that she had spread the fake news.',
-  explanation='지나가 공유한 흔들바위 소식이 가짜로 밝혀졌으므로, 자신이 가짜 뉴스를 퍼뜨렸다는 사실에 당황했다(embarrassed)는 흐름이어야 한다. ③의 pleased(기쁜)는 문맥에 맞지 않는다.',
+  explanation='지나가 공유한 흔들바위 소식이 가짜로 밝혀졌으므로, 자신이 가짜 뉴스를 퍼뜨렸다는 사실에 당황했다(embarrassed)는 흐름이어야 한다. ②의 pleased(기쁜)는 문맥에 맞지 않는다.',
   wrong={1: '헤드라인을 보고 확인 없이 곧바로(immediately) 공유했다는 흐름에 맞다.',
-         2: '기자가 멀쩡한(undamaged) 흔들바위 옆에서 기사가 가짜라고 알리는 장면으로 적절하다.',
-         4: '지나가 예전에 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했다(criticized)는 뜻으로 적절하다.',
-         5: '이번에는 지나 자신이 의도하지 않게(accidentally) 가짜 뉴스 확산에 한몫했다는 뜻으로 적절하다.'})
+         3: '지나가 예전에 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했다(criticized)는 뜻으로 적절하다.',
+         4: '가짜 뉴스는 부정확한 정보를 퍼뜨려 사람들을 조종하려는 의도적인(deliberate) 시도라는 정의로 적절하다.',
+         5: '가짜 뉴스가 대중과 관련된 모든 개인들에게 심각한 해를 끼칠(harm) 수 있다는 내용으로 적절하다.'})
 
 
 # ================================================================ 조립
