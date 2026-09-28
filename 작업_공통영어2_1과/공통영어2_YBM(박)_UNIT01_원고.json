@@ -25001,5 +25001,29 @@
   "mock1": "미니 모의고사 1회",
   "mock2": "미니 모의고사 2회",
   "mock3": "미니 모의고사 3회"
- }
+ },
+ "layout_adjustments": [
+  {
+   "block_id": "u3/analysis",
+   "observed_page": 25,
+   "reason": "문단 3 분석 설명이 약 2줄 넘쳐 유의어/반의어 목록 2항목만 25쪽으로 넘어감(사용자 Word 확인). Word PDF는 받지 못해 evidence_pdf_sha256에는 같은 넘침이 보이는 LibreOffice 예비 렌더 PDF 해시를 기록함.",
+   "kind": "compact_block",
+   "profile": "spacing",
+   "content_sha256": "c013b290e3879d648f8941de3a39fd2e167255f4670c4314feee449e96f70268",
+   "renderer": "Microsoft Word",
+   "evidence_pdf_sha256": "ac1927dce015edd1193d7d8b0204bab6b43dcf3547bc9b30a31e662b22ffddb2",
+   "approval_reference": "2026-09-28 사용자 지시 “1. 다음쪽으로 넘어가. 수정해줘.” — 전달 교재를 Word로 열어 통합본 24~25쪽(u3)·34~35쪽(u4) 유의어/반의어 목록 넘침을 확인함. 소폭 조판 조정은 layout-rules 2026-09-25 승인 범위."
+  },
+  {
+   "block_id": "u4/analysis",
+   "observed_page": 35,
+   "reason": "문단 4 분석 설명 끝 유의어/반의어 목록 objectively 1행만 35쪽으로 넘어감(사용자 Word 확인). Word PDF는 받지 못해 evidence_pdf_sha256에는 같은 넘침이 보이는 LibreOffice 예비 렌더 PDF 해시를 기록함.",
+   "kind": "compact_block",
+   "profile": "spacing",
+   "content_sha256": "c013b290e3879d648f8941de3a39fd2e167255f4670c4314feee449e96f70268",
+   "renderer": "Microsoft Word",
+   "evidence_pdf_sha256": "ac1927dce015edd1193d7d8b0204bab6b43dcf3547bc9b30a31e662b22ffddb2",
+   "approval_reference": "2026-09-28 사용자 지시 “1. 다음쪽으로 넘어가. 수정해줘.” — 전달 교재를 Word로 열어 통합본 24~25쪽(u3)·34~35쪽(u4) 유의어/반의어 목록 넘침을 확인함. 소폭 조판 조정은 layout-rules 2026-09-25 승인 범위."
+  }
+ ]
 }

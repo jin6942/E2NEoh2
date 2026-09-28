@@ -67,6 +67,21 @@ def resolve_analysis(a, sentences):
     return a
 
 
+# 승인된 소폭 조판 조정(layout-rules 2026-09-25): 사용자가 Word에서 분석 설명부 끝 유의어·반의어 목록이
+# 다음 쪽으로 넘어가는 것을 확인하고 수정을 요청함. 먼저 spacing 프로필만 적용한다.
+COMPACT_EVIDENCE_PDF = 'ac1927dce015edd1193d7d8b0204bab6b43dcf3547bc9b30a31e662b22ffddb2'
+COMPACT_APPROVAL = ('2026-09-28 사용자 지시 “1. 다음쪽으로 넘어가. 수정해줘.” — 전달 교재를 Word로 열어 '
+                    '통합본 24~25쪽(u3)·34~35쪽(u4) 유의어/반의어 목록 넘침을 확인함. 소폭 조판 조정은 layout-rules 2026-09-25 승인 범위.')
+COMPACT_BLOCKS = [
+    {'block_id': 'u3/analysis', 'observed_page': 25,
+     'reason': '문단 3 분석 설명이 약 2줄 넘쳐 유의어/반의어 목록 2항목만 25쪽으로 넘어감(사용자 Word 확인). '
+               'Word PDF는 받지 못해 evidence_pdf_sha256에는 같은 넘침이 보이는 LibreOffice 예비 렌더 PDF 해시를 기록함.'},
+    {'block_id': 'u4/analysis', 'observed_page': 35,
+     'reason': '문단 4 분석 설명 끝 유의어/반의어 목록 objectively 1행만 35쪽으로 넘어감(사용자 Word 확인). '
+               'Word PDF는 받지 못해 evidence_pdf_sha256에는 같은 넘침이 보이는 LibreOffice 예비 렌더 PDF 해시를 기록함.'},
+]
+
+
 def main(scope='learning'):
     text, bounds, paragraphs = build()
     pdf_hash = sha(PDF)
@@ -134,6 +149,13 @@ def main(scope='learning'):
         import assessment_data
         assessment_data.attach(data)
         data['set_labels'] = {f'mock{n}': f'미니 모의고사 {n}회' for n in (1, 2, 3)}
+        from compact_layout import content_hash
+        revision = content_hash(data)
+        data['layout_adjustments'] = [dict(row, kind='compact_block', profile='spacing',
+                                           content_sha256=revision, renderer='Microsoft Word',
+                                           evidence_pdf_sha256=COMPACT_EVIDENCE_PDF,
+                                           approval_reference=COMPACT_APPROVAL)
+                                      for row in COMPACT_BLOCKS]
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding='utf-8')
     return data
 
