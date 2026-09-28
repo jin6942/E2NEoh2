@@ -71,7 +71,7 @@ def sentences(T):
     s.brk('by', 'postnominal-preposition', 'by the Massachusetts Institute of Technology는 앞 명사 A study를 뒤에서 꾸미는 전치사구(연구의 주체)')
     s.brk('in', 'postnominal-preposition', 'in the US는 앞 명사 the Massachusetts Institute of Technology를 뒤에서 꾸미는 전치사구')
     s.hint('[that fake news spreads]', '[가짜 뉴스가 퍼진다는 것]', span='that fake news spreads', label='명사절 접속사 that',
-           links=[(['that'], ['가', '다는 것'])], meaning='가짜 뉴스가 퍼진다는 것',
+           links=[(['that'], [('가', 1), '다는 것'])], meaning='가짜 뉴스가 퍼진다는 것',
            explanation='has shown의 목적어 that 명사절(S′ fake news, V′ spreads). 뒤의 online 6 times faster … 이하와 바깥 동사 has shown은 표시에서 제외.')
     s.vf_hint(fn=f, lex=sh, en='has shown', ko='보여 주었다', formula='have p.p.', step_form='show', step_ko='보여 주다',
               en_mark=['has'], ko_mark=['었다'], span='has shown', meaning='보여 주었다',
@@ -460,7 +460,7 @@ def analysis(_):
             {'sentence_ids': ['s20', 's21'], 'label': '현상',
              'text_ko': '소셜 미디어의 가짜 뉴스는 진짜 이야기보다 훨씬 더 멀리, 빨리 퍼진다. MIT 연구에 따르면 평균 6배 빠르다.'},
             {'sentence_ids': ['s22', 's23', 's24'], 'label': '이유 1',
-             'text_ko': '사람들은 새롭고 자극적인 것을 좋아한다. 놀라운 정보는 남과 나누고 싶고, 먼저 올리면 관심을 받기 때문에 확인되지 않은 정보도 퍼뜨린다.'},
+             'text_ko': '사람들은 새롭고 자극적인 것을 좋아한다. 놀라운 정보는 남과 나누고 싶어 하고, 아직 알려지지 않았지만 거짓일 수도 있는 정보를 가장 먼저 올린 사람은 관심을 얻을 수 있다.'},
             {'sentence_ids': ['s25', 's26'], 'label': '이유 2',
              'text_ko': '사람들은 일상에서 단순하고 쉽게 생각하는 경향이 있어서, 새로운 정보를 비판적으로 검토하지 않고 증거 없이 믿기 쉽다.'},
             {'sentence_ids': ['s27', 's28', 's29', 's30'], 'label': '이유 3',

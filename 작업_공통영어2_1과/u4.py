@@ -38,7 +38,7 @@ def sentences(T):
            links=[(['With'], ['가', '있는 상황에서'])], meaning='인터넷에 그렇게 많은 정보가 있는 상황에서',
            explanation='with + A + 전치사구(A가 ~에 있는 상황에서): A=so much information, 전치사구=on the Internet. 질문의 배경 상황.')
     s.hint('[that fake news does not mislead]', '[가짜 뉴스가 속이지 않는다는 것]', span='that fake news does not mislead',
-           label='명사절 접속사 that', links=[(['that'], ['가', '다는 것'])], meaning='가짜 뉴스가 (당신을) 속이지 않는다는 것',
+           label='명사절 접속사 that', links=[(['that'], [('가', 1), '다는 것'])], meaning='가짜 뉴스가 (당신을) 속이지 않는다는 것',
            explanation='make sure의 목적어 that 명사절(S′ fake news, V′ does not mislead). 부정 does not을 보존하고 목적어 you는 표시에서 제외.')
     s.review = ('직접의문문: 의문사 how + 조동사 can + 주어 you + make sure(확실히 하다) + 목적어 that 명사절 fake news does not mislead you. '
                 '문두 With so much information on the Internet는 with + A + 전치사구(A가 ~에 있는 상황에서). on 앞 경계는 with 구문 안 A와 전치사구 사이. 힌트 2개(with 구문, 명사절 that). 관계사·수동 없음.')
@@ -88,7 +88,7 @@ def sentences(T):
            display_spans=[s.span_of('so stimulating'), s.span_of('that you may click')],
            links=[(['so', 'that'], ['너무', '어서', ('이', 1)])], refs=[('you', '당신', READER)],
            meaning='너무 자극적이어서 당신이 클릭할 수도 있다',
-           explanation='so A that S′ V′(너무 A해서 S′가 V′하다): A=stimulating, 결과 that절 S′ you, V′ may click. 사이의 to get more clicks와 뒤 on them accidentally는 제외.')
+           explanation='so A that S′ V′(너무 A해서 S′(이/가) V′하다): A=stimulating, 결과 that절 S′ you, V′ may click. 사이의 to get more clicks와 뒤 on them accidentally는 제외.')
     s.review = ('주절 They can be so stimulating(They=앞 문장의 자극적인 헤드라인들) + 목적 to get more clicks + 결과 that절 you may click on them accidentally(so A that). '
                 '힌트 1개(so … that 짝 구조; 목적 to get은 짝 구조 표시 범위 안이라 포함 힌트 합치기 원칙으로 별도 힌트 없이 각주로 지원). 관계사·수동 없음.')
     out.append(s)
@@ -408,7 +408,7 @@ def sentences(T):
            links=[(['if'], ['이', '다면'])], refs=[('you', '당신', READER)], meaning='(만약) 당신이 (능력을) 가지고 있다면',
            explanation='if가 이끄는 조건 부사절(S′ you, V′ have). 목적어 the ability to view … 이하는 제외.')
     s.hint('the damage [that fake news can cause]', '[가짜 뉴스가 일으킬 수 있는] 피해', span='the damage that fake news can cause',
-           label='목적격 관계대명사 that', links=[(['that'], ['가', '는'])], meaning='가짜 뉴스가 일으킬 수 있는 피해',
+           label='목적격 관계대명사 that', links=[(['that'], [('가', 1), '는'])], meaning='가짜 뉴스가 일으킬 수 있는 피해',
            explanation='선행사 the damage를 목적격 관계대명사 that이 받는다(cause의 목적어 자리가 비어 있음). S′ fake news, V′ can cause.')
     s.relative_ids = [rel['id']]
     s.review = ('조건 부사절 if you have the ability to view …(the ability to V: ~할 수 있는 능력) + 주절 you will be able to reduce the damage(be able to V: V는 will be) '
@@ -507,7 +507,7 @@ def analysis(_):
         ],
         'grammar_points': [
             {'id': 'u4-gp1', 'sentence_id': 's37', 'span': 'You should question, analyze, and evaluate what you read',
-             'title': 'what S′ V′: S′가 V′하는 것', 'formula_key': 'what S′ V′',
+             'title': 'what S′ V′: S′(이/가) V′하는 것', 'formula_key': 'what S′ V′',
              'explanation': '공식: what S′ V′ — S′(이/가) V′하는 것. what = 선행사를 품은 관계대명사(~하는 것), S′ = you(당신), V′ = read(읽다). '
                             '→ 당신이 읽는 것. 이 what절 전체가 question, analyze, evaluate(의문을 제기하다, 분석하다, 평가하다)의 공통 목적어라 ‘당신이 읽는 것에 의문을 제기하고, 분석하고, 평가해야 한다’가 된다.',
              'practice': {'span': 'question, analyze, and evaluate what you read',
@@ -515,7 +515,7 @@ def analysis(_):
                           'support': [('s37', 'question'), ('s37', 'analyze'), ('s37', 'evaluate'), ('s37', 'read')],
                           'answer_ko': '당신이 읽는 것에 의문을 제기하고, 분석하고, 평가하다'}},
             {'id': 'u4-gp2', 'sentence_id': 's43', 'span': 'check whether the news story is from a reliable media source and the evidence is valid',
-             'title': 'whether S′ V′: S′가 V′하는지', 'formula_key': 'whether S′ V′',
+             'title': 'whether S′ V′: S′(이/가) V′하는지', 'formula_key': 'whether S′ V′',
              'explanation': '공식: whether S′ V′ — S′(이/가) V′하는지. S′ = the news story(그 뉴스 기사), V′ = is(~이다), 보어 = from a reliable media source(믿을 만한 미디어 출처에서 나온). '
                             'and 뒤에도 같은 whether에 걸리는 절 the evidence(증거) is(~이다) valid(타당한)가 이어진다. → 그 뉴스 기사가 믿을 만한 미디어 출처에서 나온 것인지, 그리고 증거가 타당한지. '
                             '앞의 check(확인하다)와 합치면 ‘~인지 확인하다’다.',

@@ -212,7 +212,7 @@ This time, / however, / Gina herself had accidentally contributed / to the sprea
 10번 문장은 9번과 반대되는 지나의 모습을 보여 준다. 예전의 지나는 가짜 뉴스를 퍼뜨린 사람들을 비판하는 쪽이었다. 그런데 이번에는 지나 자신이 흔들바위 가짜 뉴스를 친구들에게 퍼뜨렸다. 일부러 한 일은 아니지만 결과적으로 가짜 뉴스가 퍼지는 데 한몫한 것이다. 가짜 뉴스를 비판하던 사람도 뜻하지 않게 가짜 뉴스를 퍼뜨릴 수 있다는 점이 이 글의 출발점이다.
 [구문으로 해석하기]
 had p.p.: (그 전에) ~했다 [4번 문장]: that she had spread the fake news — 공식: had p.p. — ~했다(과거의 어느 때보다 먼저 일어난 일). had p.p. = had spread(퍼뜨렸다; spread는 spread의 p.p.형), S′ = she(지나), 목적어 = the fake news(가짜 뉴스). → 그녀가 가짜 뉴스를 퍼뜨렸다. 지나가 당황한 것(was embarrassed)은 과거이고, 가짜 뉴스를 퍼뜨린 일은 그보다 먼저라서 had spread를 쓴다.
-명사 + that S′ V′(동격): S′가 V′했다는 명사 [6번 문장]: The news that a famous athlete had died — 공식: 명사(N) + that S′ V′ — S′(이/가) V′했다는 N. N = The news(뉴스), that = 앞 명사의 내용을 알려 주는 접속사, S′ = a famous athlete(한 유명한 운동선수), V′ = had died(죽었다). → 한 유명한 운동선수가 죽었다는 뉴스. that 뒤에 주어와 동사가 모두 있는 완전한 절이 와서 뉴스의 ‘내용’을 설명한다.
+명사 + that S′ V′(동격): S′(이/가) V′했다는 명사 [6번 문장]: The news that a famous athlete had died — 공식: 명사(N) + that S′ V′ — S′(이/가) V′했다는 N. N = The news(뉴스), that = 앞 명사의 내용을 알려 주는 접속사, S′ = a famous athlete(한 유명한 운동선수), V′ = had died(죽었다). → 한 유명한 운동선수가 죽었다는 뉴스. that 뒤에 주어와 동사가 모두 있는 완전한 절이 와서 뉴스의 ‘내용’을 설명한다.
 those who V′: V′한 사람들 [9번 문장]: those who had made and spread fake news — 공식: those who V′ — V′한 사람들. those = 사람들, who = 주격 관계대명사(그 사람들이), V′ = had made and spread(만들고 퍼뜨렸다), 목적어 = fake news(가짜 뉴스). → 가짜 뉴스를 만들고 퍼뜨렸던 사람들. those는 여기서 ‘그것들’이 아니라 뒤의 who절이 꾸미는 ‘사람들’이다.
 have p.p.: ~했다 [1번 문장]: The Heundeulbawi in Seoraksan National Park Has Fallen — 공식: have(has) p.p. — ~했다(지금의 결과까지 이어짐). S = The Heundeulbawi(흔들바위), in Seoraksan National Park = 설악산 국립공원에 있는, p.p. = Fallen(fall의 p.p.형, 떨어지다). → 설악산 국립공원의 흔들바위가 떨어졌다. 떨어져서 지금은 제자리에 없다는 결과를 알리는 헤드라인이라 현재완료를 쓴다.
 being p.p.: ~되는 것 (동명사의 수동) [3번 문장]: stories of the Heundeulbawi being damaged — 공식: being p.p. — ~되는 것. 앞의 of = ~에 관한, 의미상 주어 = the Heundeulbawi(흔들바위), p.p. = damaged(손상된). → 흔들바위가 손상되는 것에 관한 기사들(자연스럽게는 ‘흔들바위가 손상되었다는 기사들’). 흔들바위는 스스로 손상시키는 쪽이 아니라 ‘손상되는’ 대상이라 수동 being damaged를 쓴다.
@@ -294,7 +294,7 @@ It can confuse people, / disturb society, / and even seriously harm the public /
 [각주]
 it — 그것은 (가짜 뉴스) / can V — ~할 수 있다 / confuse — 혼란스럽게 하다 / people — 사람들 / ★ disturb — 어지럽히다 (흔한 뜻: 방해하다) / society — 사회 / even — 심지어 / seriously — 심각하게 / harm — 해를 끼치다 / the public — 대중 / B as well as A — A뿐만 아니라 B도 / all — 모든 / individuals — 개인들 / involved — 관련된
 [구조 힌트] all individuals [involved] → [관련된] 모든 개인들 (과거분사 후치수식)
-[구조 힌트] the public [as well as all individuals] → [모든 개인들뿐만 아니라] 대중도 (B as well as A 상관 구조)
+[구조 힌트] the public [as well as all individuals] → [모든 개인들뿐만 아니라] 대중에게도 (B as well as A 상관 구조)
 [분석 끊어읽기 영어]
 It can confuse people, / disturb society, / and even seriously harm the public / as well as all individuals / involved.
 [분석 끊어읽기 한국어]
@@ -411,7 +411,7 @@ Many displaced people were so anxious / about aftershocks / that the government 
 17번 문장은 16번에서 주민들이 집에 돌아가지 않은 이유를 밝힌다. 소셜 미디어에 또 다른 지진이 곧 온다는 가짜 이야기가 돌았다. 그 지진 뒤에는 쓰나미까지 이어진다고 했다. 쓰나미는 지진 때문에 생기는 아주 큰 바닷물 파도다. 주민들은 이 말을 믿고 무서워서 대피소에 계속 머물렀다.
 [구문으로 해석하기]
 명사 + to V: ~하려는 명사 [12번 문장]: a deliberate attempt to manipulate people — 공식: 명사(N) + to V — ~하려는 N. N = a deliberate attempt(의도적인 시도), to V = to manipulate(조종하다), 목적어 = people(사람들). → 사람들을 조종하려는 의도적인 시도. to manipulate people가 앞 명사 attempt가 어떤 시도인지 뒤에서 설명한다.
-It … for A to V: A(이/가) ~하는 것은 … [15번 문장]: It is very common for fake news to spread — 공식: It is 형용사 for A to V — A가 ~하는 것은 (형용사)하다. It = 가주어(뒤의 for A to V를 대신함), 형용사 = very common(매우 흔한), A = fake news(가짜 뉴스), to V = to spread(퍼지다). → 가짜 뉴스가 퍼지는 것은 매우 흔하다. for 뒤의 A가 to V의 주체다.
+It … for A to V: A(이/가) ~하는 것은 … [15번 문장]: It is very common for fake news to spread — 공식: It is 형용사 for A to V — A(이/가) ~하는 것은 (형용사)하다. It = 가주어(뒤의 for A to V를 대신함), 형용사 = very common(매우 흔한), A = fake news(가짜 뉴스), to V = to spread(퍼지다). → 가짜 뉴스가 퍼지는 것은 매우 흔하다. for 뒤의 A가 to V의 주체다.
 so A that S′ V′: 너무 A해서 S′(이/가) V′하다 [19번 문장]: were so anxious about aftershocks that the government had to announce — 공식: so A that S′ V′ — 너무 A해서 S′(이/가) V′하다. A = anxious(불안해하는), about aftershocks = 여진에 대해, S′ = the government(정부), V′ = had to announce(발표해야 했다). → 여진에 대해 너무 불안해해서 정부가 발표해야 했다. that 앞은 원인(몹시 불안함), that 뒤는 그 결과다.
 [유의어·반의어]
 표제어: deliberate (의도적인, 고의적인) / 유의어: intentional (의도적인, 고의의) / 반의어: accidental (우발적인, 뜻하지 않은)
@@ -638,7 +638,7 @@ During election season, / for example, / people tend to blindly believe any news
 가짜 뉴스가 진짜 뉴스보다 훨씬 빨리 퍼지는 이유를 사람들의 세 가지 특성(새롭고 자극적인 것을 좋아함, 단순하게 생각함, 확증 편향)으로 설명하는 글이다.
 [글의 흐름]
 (현상) 본문 · 원문 문장 20~21 — 소셜 미디어의 가짜 뉴스는 진짜 이야기보다 훨씬 더 멀리, 빨리 퍼진다. MIT 연구에 따르면 평균 6배 빠르다.
-(이유 1) 본문 · 원문 문장 22~24 — 사람들은 새롭고 자극적인 것을 좋아한다. 놀라운 정보는 남과 나누고 싶고, 먼저 올리면 관심을 받기 때문에 확인되지 않은 정보도 퍼뜨린다.
+(이유 1) 본문 · 원문 문장 22~24 — 사람들은 새롭고 자극적인 것을 좋아한다. 놀라운 정보는 남과 나누고 싶어 하고, 아직 알려지지 않았지만 거짓일 수도 있는 정보를 가장 먼저 올린 사람은 관심을 얻을 수 있다.
 (이유 2) 본문 · 원문 문장 25~26 — 사람들은 일상에서 단순하고 쉽게 생각하는 경향이 있어서, 새로운 정보를 비판적으로 검토하지 않고 증거 없이 믿기 쉽다.
 (이유 3) 본문 · 원문 문장 27~30 — 사람들은 자신의 편견이나 경험에 맞는 정보를 믿는 확증 편향에 빠진다. 선거철에 지지 후보에게 유리한 뉴스와 다른 후보에게 불리한 뉴스를 쉽게 믿는 것이 그 예다.
 [각 문장 쉬운 풀이]
@@ -989,8 +989,8 @@ Anyone can be the next person / producing or spreading fake news!
 [47번 문장] Anyone can be the next person producing or spreading fake news!
 47번 문장은 글 전체의 마지막 당부다. 도입부의 지나는 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했었다. 그런데 결국 지나 자신도 실수로 가짜 뉴스를 퍼뜨리게 되었다. 46번의 ‘잊지 마라!’는 바로 이 점을 기억하라는 말이다. 누구든 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있다는 것이다.
 [구문으로 해석하기]
-what S′ V′: S′가 V′하는 것 [37번 문장]: You should question, analyze, and evaluate what you read — 공식: what S′ V′ — S′(이/가) V′하는 것. what = 선행사를 품은 관계대명사(~하는 것), S′ = you(당신), V′ = read(읽다). → 당신이 읽는 것. 이 what절 전체가 question, analyze, evaluate(의문을 제기하다, 분석하다, 평가하다)의 공통 목적어라 ‘당신이 읽는 것에 의문을 제기하고, 분석하고, 평가해야 한다’가 된다.
-whether S′ V′: S′가 V′하는지 [43번 문장]: check whether the news story is from a reliable media source and the evidence is valid — 공식: whether S′ V′ — S′(이/가) V′하는지. S′ = the news story(그 뉴스 기사), V′ = is(~이다), 보어 = from a reliable media source(믿을 만한 미디어 출처에서 나온). and 뒤에도 같은 whether에 걸리는 절 the evidence(증거) is(~이다) valid(타당한)가 이어진다. → 그 뉴스 기사가 믿을 만한 미디어 출처에서 나온 것인지, 그리고 증거가 타당한지. 앞의 check(확인하다)와 합치면 ‘~인지 확인하다’다.
+what S′ V′: S′(이/가) V′하는 것 [37번 문장]: You should question, analyze, and evaluate what you read — 공식: what S′ V′ — S′(이/가) V′하는 것. what = 선행사를 품은 관계대명사(~하는 것), S′ = you(당신), V′ = read(읽다). → 당신이 읽는 것. 이 what절 전체가 question, analyze, evaluate(의문을 제기하다, 분석하다, 평가하다)의 공통 목적어라 ‘당신이 읽는 것에 의문을 제기하고, 분석하고, 평가해야 한다’가 된다.
+whether S′ V′: S′(이/가) V′하는지 [43번 문장]: check whether the news story is from a reliable media source and the evidence is valid — 공식: whether S′ V′ — S′(이/가) V′하는지. S′ = the news story(그 뉴스 기사), V′ = is(~이다), 보어 = from a reliable media source(믿을 만한 미디어 출처에서 나온). and 뒤에도 같은 whether에 걸리는 절 the evidence(증거) is(~이다) valid(타당한)가 이어진다. → 그 뉴스 기사가 믿을 만한 미디어 출처에서 나온 것인지, 그리고 증거가 타당한지. 앞의 check(확인하다)와 합치면 ‘~인지 확인하다’다.
 who V′(간접의문): 누가 V′했는지 [42번 문장]: examine who wrote the news story — 공식: who V′ — 누가 V′했는지. who = 의문사이면서 이 절의 주어(누가), V′ = wrote(썼다), 목적어 = the news story(그 뉴스 기사). → 누가 그 뉴스 기사를 썼는지. 이 절 전체가 앞 동사 examine(살펴보다)의 목적어라 ‘누가 그 뉴스 기사를 썼는지 살펴보다’가 된다. who 뒤에 주어가 따로 없고 바로 동사가 온다.
 [유의어·반의어]
 표제어: reliable (믿을 만한, 신뢰할 수 있는) / 유의어: trustworthy (신뢰할 수 있는) / 반의어: unreliable (믿을 수 없는)

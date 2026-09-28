@@ -448,7 +448,7 @@ def analysis(_):
                           'support': [('s04', 'she'), ('s04', 'spread'), ('s04', 'fake news')],
                           'answer_ko': '그녀가 가짜 뉴스를 퍼뜨렸다'}},
             {'id': 'u1-gp2', 'sentence_id': 's06', 'span': 'The news that a famous athlete had died',
-             'title': '명사 + that S′ V′(동격): S′가 V′했다는 명사', 'formula_key': 'N + that S′ V′',
+             'title': '명사 + that S′ V′(동격): S′(이/가) V′했다는 명사', 'formula_key': 'N + that S′ V′',
              'explanation': '공식: 명사(N) + that S′ V′ — S′(이/가) V′했다는 N. N = The news(뉴스), that = 앞 명사의 내용을 알려 주는 접속사, '
                             'S′ = a famous athlete(한 유명한 운동선수), V′ = had died(죽었다). → 한 유명한 운동선수가 죽었다는 뉴스. '
                             'that 뒤에 주어와 동사가 모두 있는 완전한 절이 와서 뉴스의 ‘내용’을 설명한다.',

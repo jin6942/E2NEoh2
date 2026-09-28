@@ -129,8 +129,8 @@ def sentences(T):
     s.hint('all individuals [involved]', '[관련된] 모든 개인들', span='all individuals involved', label='과거분사 후치수식',
            links=[(['involved'], ['관련된'])], participle_focus_gloss_id=iv['id'], meaning='관련된 모든 개인들',
            explanation='과거분사 involved가 명사 all individuals 뒤에서 꾸민다(관련된 모든 개인들).')
-    s.hint('the public [as well as all individuals]', '[모든 개인들뿐만 아니라] 대중도', span='the public as well as all individuals',
-           label='B as well as A 상관 구조', links=[(['as well as'], ['뿐만 아니라', '도'])], meaning='모든 개인들뿐만 아니라 대중도',
+    s.hint('the public [as well as all individuals]', '[모든 개인들뿐만 아니라] 대중에게도', span='the public as well as all individuals',
+           label='B as well as A 상관 구조', links=[(['as well as'], ['뿐만 아니라', '도'])], meaning='모든 개인들뿐만 아니라 대중에게도',
            explanation='B as well as A(A뿐만 아니라 B도): B=the public, A=all individuals (involved). 영어는 B가 앞, 한국어는 A뿐만 아니라 B도 순서.')
     s.review = ('단일 주절: 조동사 can이 병렬 동사 confuse, disturb, and harm을 모두 이끈다. the public as well as all individuals involved: B as well as A(A뿐만 아니라 B도), '
                 'A=all individuals involved, B=the public. involved는 명사 뒤 과거분사 후치수식 → 앞에서 끊음. 힌트 1개(과거분사 후치수식). 관계사·수동 없음.')
@@ -155,7 +155,7 @@ def sentences(T):
     s.prot('states of emergency', 'fixed-expression', 'state of emergency(비상사태)는 한 덩어리 명사 표현이라 of 앞에서 끊지 않음')
     s.hint('It is very common [for fake news to spread]', '[가짜 뉴스가 퍼지는 것은] 매우 흔하다',
            span='It is very common for fake news to spread', label='가주어 It과 진주어 to부정사',
-           links=[(['for', 'to'], ['가', '는 것은'])], meaning='가짜 뉴스가 퍼지는 것은 매우 흔하다',
+           links=[(['for', 'to'], [('가', 1), '는 것은'])], meaning='가짜 뉴스가 퍼지는 것은 매우 흔하다',
            explanation='It은 뒤의 for fake news to spread를 대신하는 가주어. for 뒤 fake news는 to spread의 의미상 주어(가짜 뉴스가 퍼지는 것). 진주어 앞(for 앞)에서 끊음.')
     s.review = ('가주어 It + 진주어 for A to V(for fake news to spread, A=fake news). 진주어 앞에서 끊음. '
                 'states of emergency는 한 명사 표현. 힌트 1개(가주어–진주어). 관계사·수동 없음.')
@@ -246,7 +246,8 @@ def sentences(T):
            explanation='that절이 앞 명사 fake news stories의 내용을 설명하는 동격절. S′는 another earthquake(과거분사구 followed by a tsunami가 뒤에서 꾸밈), V′는 was(be about to V: 곧 ~할 것이다). followed를 동사로 오인하지 않도록 S′ 전체와 V′ was까지 표시.')
     s.review = ('주절 This was because of fake news stories on social media + 동격 that절(stories의 내용). that절 주어 another earthquake를 과거분사구 followed by a tsunami가 꾸미고 '
                 '동사는 was(be about to strike). followed는 동사가 아니라 후치수식(common-errors 1). on 앞 후치수식, 수동 관계 by 앞에서 끊음. '
-                '힌트 1개(동격 that, 후치수식을 포함한 S′·V′ 표시). 유한 수동태 없음.')
+                '힌트 1개(동격 that, 후치수식을 포함한 S′·V′ 표시). 유한 수동태 없음. '
+                '앞 명사 fake news stories는 표시에서 제외: 명사와 that 사이에 on social media가 끼어 있어 이어진 표시가 지나치게 길어지고, 동격 내용 관계는 각주(앞 명사의 내용을 설명)와 설명에 적음(LX-04 미반영 사유, u1 s04·s06은 명사와 that이 붙어 있어 함께 표시).')
     out.append(s)
 
     # ---------------- s18 ----------------
@@ -324,8 +325,8 @@ def sentences(T):
            span='so anxious about aftershocks that the government had to announce', category='paired-structure',
            display_spans=[s.span_of('so anxious'), s.span_of('that the government had to announce')],
            links=[(['so', 'that'], ['너무', '해서', ('가', 0)])],
-           meaning='너무 불안해해서 정부는 발표해야 했다',
-           explanation='so A that S′ V′(너무 A해서 S′가 V′하다): A=anxious, 결과 that절 S′ the government, V′ had to announce. 사이의 about aftershocks와 뒤 목적어 that절은 표시에서 제외.')
+           meaning='너무 불안해해서 정부가 발표해야 했다',
+           explanation='so A that S′ V′(너무 A해서 S′(이/가) V′하다): A=anxious, 결과 that절 S′ the government, V′ had to announce. 사이의 about aftershocks와 뒤 목적어 that절은 표시에서 제외.')
     s.hint('[that the information was fake]', '[그 정보가 가짜라고]', span='that the information was fake',
            label='명사절 접속사 that', links=[(['that'], ['가', '라고'])], meaning='그 정보가 가짜라고',
            explanation='announce의 목적어인 that 명사절(S′ the information, V′ was + 최소 보어 fake). ~라고.')
@@ -393,7 +394,7 @@ def analysis(_):
                           'answer_ko': '사람들을 조종하려는 의도적인 시도'}},
             {'id': 'u2-gp2', 'sentence_id': 's15', 'span': 'It is very common for fake news to spread',
              'title': 'It … for A to V: A(이/가) ~하는 것은 …', 'formula_key': 'It … for A to V',
-             'explanation': '공식: It is 형용사 for A to V — A가 ~하는 것은 (형용사)하다. It = 가주어(뒤의 for A to V를 대신함), 형용사 = very common(매우 흔한), '
+             'explanation': '공식: It is 형용사 for A to V — A(이/가) ~하는 것은 (형용사)하다. It = 가주어(뒤의 for A to V를 대신함), 형용사 = very common(매우 흔한), '
                             'A = fake news(가짜 뉴스), to V = to spread(퍼지다). → 가짜 뉴스가 퍼지는 것은 매우 흔하다. for 뒤의 A가 to V의 주체다.',
              'practice': {'span': 'It is very common for fake news to spread',
                           'formula_support': {'en': 'It … for A to V', 'ko': 'A(이/가) ~하는 것은'},
