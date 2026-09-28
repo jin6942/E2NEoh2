@@ -1,0 +1,90 @@
+{
+  "reviewer_id": "M",
+  "role": "M",
+  "round": 2,
+  "solved_before_answer_key": true,
+  "input": "검수입력/문제_블라인드_변경분.json",
+  "input_sha256": "d48e19e11e148e0576d44076ac55e9134208b9fe76183dd9b5f764383eb3d6dc",
+  "answers": {
+    "Q04": 2,
+    "Q07": 2,
+    "Q11": 1,
+    "Q15": 4,
+    "Q16": 5,
+    "Q17": 3,
+    "Q18": 1,
+    "Q19": 3
+  },
+  "rationales": {
+    "Q04": "결론부 'if you have the ability to view information critically and objectively, you will be able to reduce the damage'와 'check whether the news story is from a reliable media source and the evidence is valid'에서, 객관적으로 판단하고 출처·증거를 확인하라는 ②가 주장이다. ①은 편견 점검과 반대이고, ④는 'it might be impossible to ... eliminate all false information'과 반대이다.",
+    "Q07": "주어진 문장의 They는 바로 앞의 'the provocative headlines'를 가리키고, ② 뒤의 'So don’t just read the headlines'가 그 결과이므로 ②이다. ①에는 They가 가리킬 대상이 없고, ③~⑤는 Second(critical thinking) 설명 구간이다.",
+    "Q11": "빈칸 뒤 'confirmation bias ... only confirms their beliefs and ignore news that doesn’t support them'에서, 이미 믿는 바와 맞는 정보를 믿는다는 ①이 된다. 이번에는 앞 두 문장이 있어 'this phenomenon'의 지시 대상도 분명하다.",
+    "Q15": "'Exercise critical thinking skills', 'view information critically and objectively'에서 (A) critically, 'check the credibility of the source', 'from a reliable media source'에서 (B) trustworthy가 나오므로 ④이다. popular·famous·quickly·emotionally는 근거가 없다.",
+    "Q16": "'fall into the trap of confirmation bias' 직후 'That is, they selectively accept news ... only confirms their beliefs'에서, 자신도 모르게 판단을 그르치는 사고방식에 빠진다는 ⑤이다. ③은 trap의 표면적 의미(적발)를 이용한 오답이다.",
+    "Q17": "주어진 글(가짜 뉴스는 의도적 조작 시도) 다음 (B) 'It is made by certain groups ...'에서 It이 fake news를 받고 비상시 확산이 흔하다고 말한 뒤, (C) 'For example ... Ambon'이 그 사례를 들고, (A) 'One of those messages'가 (C)의 'fake news stories on social media'를 받는다. B→C→A.",
+    "Q18": "과거에 가짜 뉴스 제작·유포자를 비판하던(criticized) Gina가 이번에는 자신도 모르게(accidentally) 가짜 뉴스를 퍼뜨렸다는 대비가 핵심이므로 ① 'From Critic to Spreader'이다.",
+    "Q19": "자신이 가짜 뉴스를 퍼뜨렸다는 사실에 대한 반응이고, 뒤에서 과거에 가짜 뉴스를 비판했다는 내용과 'This time, however'의 반성적 대비가 이어지므로 pleased가 아니라 embarrassed여야 한다. ③. 나머지(immediately, undamaged, criticized, accidentally)는 문맥에 맞다."
+  },
+  "confidence": {
+    "Q04": "high",
+    "Q07": "high",
+    "Q11": "high",
+    "Q15": "high",
+    "Q16": "high",
+    "Q17": "high",
+    "Q18": "high",
+    "Q19": "high"
+  },
+  "length_reviews": {
+    "Q18": {
+      "status": "PASS",
+      "benchmark_ids": [
+        "202603241-Q41_42",
+        "202606041-Q41_42",
+        "202609021-Q41_42"
+      ],
+      "measured_words": 174,
+      "benchmark_words": [
+        212,
+        212,
+        216
+      ],
+      "rationale": "[수치] 공유 장문(long-mock3)을 원문자 기호를 빼고 공백 기준으로 세면 174단어로, 고1 41~42번 벤치마크 212/212/216단어의 약 80.6~82.1%이다(38~42단어 부족). 같은 프로필의 고1 24번 제목 지문(154/143/179)과 비교하면 9월 24번(179)보다도 짧다. 프로필 limitations에 따라 기준 미달은 독립 검토 대상 플래그이며 자동 승인 대상이 아니므로 정보 전개를 따로 판단했다. [정보 전개] ① 발단(SNS에서 흔들바위 붕괴 헤드라인을 보고 즉시 공유), ② 반전(TV 기자가 멀쩡한 흔들바위 옆에서 가짜라고 보도해 당황함), ③ 회상 삽화(운동선수 사망 가짜 뉴스, 조회수로 돈을 벌려는 content creators, Gina의 비판), ④ 결말 대비(This time, however, ... accidentally contributed)의 네 단계가 두 단락에 완결되어 있다. 원문 서사 단위가 여기서 끝나며, 뒤 단락(Unfortunately ...)은 같은 회차 Q17 지문에 쓰였으므로 덧붙이면 회차 내 지문이 다시 중복된다. [제목 문항] 정답 근거인 '비판자에서 유포자로'라는 대비가 두 삽화(현재 사건과 과거 사건)와 결말 문장으로 충분히 전개되어 ①이 유일하게 확정된다. 오답 ②~⑤는 각각 지문의 세부(소셜 미디어, 흔들바위, 기자, 빠른 공유)를 비틀어 만든 것으로, 지문 전체를 읽어야 배제할 수 있다. 판정: PASS. 다만 벤치마크보다 짧다는 점은 기록으로 남긴다."
+    },
+    "Q19": {
+      "status": "PASS",
+      "benchmark_ids": [
+        "202603241-Q41_42",
+        "202606041-Q41_42",
+        "202609021-Q41_42"
+      ],
+      "measured_words": 174,
+      "benchmark_words": [
+        212,
+        212,
+        216
+      ],
+      "rationale": "[수치] 공유 장문(long-mock3)을 원문자 기호를 빼고 공백 기준으로 세면 174단어로, 고1 41~42번 벤치마크 212/212/216단어의 약 80.6~82.1%이다(38~42단어 부족). 같은 프로필의 고1 24번 제목 지문(154/143/179)과 비교하면 9월 24번(179)보다도 짧다. 프로필 limitations에 따라 기준 미달은 독립 검토 대상 플래그이며 자동 승인 대상이 아니므로 정보 전개를 따로 판단했다. [정보 전개] ① 발단(SNS에서 흔들바위 붕괴 헤드라인을 보고 즉시 공유), ② 반전(TV 기자가 멀쩡한 흔들바위 옆에서 가짜라고 보도해 당황함), ③ 회상 삽화(운동선수 사망 가짜 뉴스, 조회수로 돈을 벌려는 content creators, Gina의 비판), ④ 결말 대비(This time, however, ... accidentally contributed)의 네 단계가 두 단락에 완결되어 있다. 원문 서사 단위가 여기서 끝나며, 뒤 단락(Unfortunately ...)은 같은 회차 Q17 지문에 쓰였으므로 덧붙이면 회차 내 지문이 다시 중복된다. [어휘 문항] 밑줄 5개가 두 단락에 고르게 흩어져 있고(1단락 3개, 2단락 2개), 각 선택지의 적절성을 앞뒤 문맥(undamaged ↔ 'being damaged were fake', criticized ↔ 'because it had hurt the athlete', accidentally ↔ 'Gina herself')으로 판단할 수 있다. 정답 ③ pleased는 반전 상황과 결말의 반성적 대비로 부적절함이 분명해 정답이 하나로 확정된다. 판정: PASS. 길이 미달은 기록만 남긴다."
+    }
+  },
+  "concerns": [
+    {
+      "question_id": "Q18",
+      "issue": "공유 장문이 174단어로 고1 41~42 벤치마크(212/212/216)보다 약 18~19% 짧고, 고1 9월 24번 제목 단일 지문(179)보다도 짧다. 정보 전개와 정답의 유일성은 충분하다고 보아 PASS로 판정했지만, '모의고사 41~42 유형'으로서 실전 체감 분량은 부족하다.",
+      "severity": "검토제안",
+      "proposal": "현행을 유지하되 기록에 '원문 서사 단위 한계로 벤치마크 미달, 독립 검토 PASS'를 남긴다. 분량을 맞춰야 한다면 Q17(Unfortunately 단락)과 겹치지 않는 범위에서만 보충한다. 예를 들어 Q17을 다른 지문으로 바꾸고 장문에 'Unfortunately ... not unusual.' 첫 문장 이하를 붙이는 방안을 검토한다."
+    },
+    {
+      "question_id": "Q19",
+      "issue": "Q18과 같은 길이 문제(174단어, 벤치마크 대비 부족)가 있다. 어휘 판단 문맥은 충분하다.",
+      "severity": "검토제안",
+      "proposal": "Q18과 같이 처리한다."
+    },
+    {
+      "question_id": "Q07",
+      "issue": "주어진 문장 'They can be so stimulating to get more clicks that you may click on them accidentally.'는 교과서 원문 그대로이지만, so ~ that 구문 사이에 목적의 to부정사가 끼어 있어 다소 어색하다. 정답(②)의 유일성에는 영향이 없다.",
+      "severity": "검토제안",
+      "proposal": "원문 보존 원칙상 그대로 두어도 된다. 해설에 구문(so stimulating ... that ~, to get more clicks는 목적)을 짚어 주는 정도로 충분하다."
+    }
+  ]
+}

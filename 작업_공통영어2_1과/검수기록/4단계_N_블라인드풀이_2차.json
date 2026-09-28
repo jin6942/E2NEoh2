@@ -1,0 +1,78 @@
+{
+  "reviewer_id": "N",
+  "role": "N",
+  "round": 2,
+  "solved_before_answer_key": true,
+  "input": "검수입력/문제_블라인드_변경분.json",
+  "input_sha256": "d48e19e11e148e0576d44076ac55e9134208b9fe76183dd9b5f764383eb3d6dc",
+  "answers": {
+    "Q04": 2,
+    "Q07": 2,
+    "Q11": 1,
+    "Q15": 4,
+    "Q16": 5,
+    "Q17": 3,
+    "Q18": 1,
+    "Q19": 3
+  },
+  "rationales": {
+    "Q04": "'check the credibility of the source ... the evidence is valid'와 'view information critically and objectively'가 필자의 핵심 주장이므로 ②. ①은 'look for articles that oppose your opinion'에, ④는 'it might be impossible to ... eliminate all false information'에 어긋난다.",
+    "Q07": "주어진 문장의 'They'는 복수 명사 'the provocative headlines'를 받고, ② 뒤의 'So don’t just read the headlines'는 '실수로 클릭할 만큼 자극적'이라는 이유를 전제로 하므로 ②. ①은 앞에 복수 선행사가 없다.",
+    "Q11": "빈칸 뒤 'confirmation bias ... accept news in a way that only confirms their beliefs'로 보아, 빈칸은 이미 믿는 바와 맞는 정보이므로 ①.",
+    "Q15": "'Exercise critical thinking skills', 'view information critically and objectively' → (A) critically. 'check the credibility of the source', 'a reliable media source' → (B) trustworthy. 따라서 ④.",
+    "Q16": "바로 뒤 'That is, they selectively accept news ... only confirms their beliefs and ignore news that doesn’t support them'으로 보아, 사람들을 잘못 이끄는 사고방식에 쉽게 빠진다는 뜻이므로 ⑤.",
+    "Q17": "(B)의 'It is made by certain groups'는 주어진 글의 Fake news를 받고, (B) 끝 'common ... during states of emergency'를 (C) 'For example ... earthquake ... Ambon'이 예시한다. (C)의 'fake news stories on social media'를 (A) 'One of those messages'가 받으므로 B-C-A.",
+    "Q18": "가짜 뉴스 제작·유포자를 비판하던 Gina가 'This time, however, Gina herself had accidentally contributed to the spread of fake news.'로 스스로 유포자가 되었으므로 ①.",
+    "Q19": "자신이 가짜 뉴스를 퍼뜨렸다는 사실을 알게 된 상황이고, 뒤에서 그녀가 과거에 유포자를 비판했다는 점이 대비되므로 ③ pleased는 embarrassed가 적절하다."
+  },
+  "confidence": {
+    "Q04": "high",
+    "Q07": "high",
+    "Q11": "high",
+    "Q15": "high",
+    "Q16": "high",
+    "Q17": "high",
+    "Q18": "high",
+    "Q19": "high"
+  },
+  "length_reviews": {
+    "Q18": {
+      "status": "FAIL",
+      "benchmark_ids": [
+        "202603241-Q41_42",
+        "202606041-Q41_42",
+        "202609021-Q41_42"
+      ],
+      "rationale": "long-mock3는 174단어(프로파일 계산 방식과 같이 공백 기준으로 알파벳·숫자가 있는 토큰, 번호 표지 제외, 2개 문단 74+100)이다. 고1 41~42 벤치마크는 212·212·216단어(평균 약 213)로 편차가 4단어뿐인 좁은 범위인데, 174단어는 최솟값보다 38단어(약 18%) 짧아 관측 범위 밖이다. 같은 패킷의 다른 장문인 long-mock1(216), long-mock2(213)는 벤치마크에 맞는데 long-mock3만 짧다. 게다가 같은 3회 안의 단일 문항 지문 Q15(213), Q16(216), Q17(178)보다도 짧아 '장문' 슬롯의 성격이 무너진다. 202609021-Q40 요약 지문(182)보다도 짧다. 내용 면에서도 1차 판의 셋째 문단(가짜 뉴스의 정의·의도·피해를 일반화한 부분)이 빠져서 지문이 Gina 일화 하나로만 이루어졌다. 공식 41~42는 보통 일반화나 주장이 전개되는 글이다. [제목] 비판자에서 유포자로 바뀌는 전환(마지막 문장)이 있어 정답 ①은 성립한다. 다만 제목 판단의 근거가 사실상 마지막 한 문장의 반전에 몰려 있고, 일반화 층위가 없다. 그래서 선택지 ①도 'How Gina Fell for Fake News'처럼 인물 일화의 수준으로 좁아져, 장문 제목 문항으로서는 정보 전개가 부족하다. FAIL: 약 40단어 이상 보강을 권한다."
+    },
+    "Q19": {
+      "status": "FAIL",
+      "benchmark_ids": [
+        "202603241-Q41_42",
+        "202606041-Q41_42",
+        "202609021-Q41_42"
+      ],
+      "rationale": "long-mock3는 174단어(프로파일 계산 방식과 같이 공백 기준으로 알파벳·숫자가 있는 토큰, 번호 표지 제외, 2개 문단 74+100)이다. 고1 41~42 벤치마크는 212·212·216단어(평균 약 213)로 편차가 4단어뿐인 좁은 범위인데, 174단어는 최솟값보다 38단어(약 18%) 짧아 관측 범위 밖이다. 같은 패킷의 다른 장문인 long-mock1(216), long-mock2(213)는 벤치마크에 맞는데 long-mock3만 짧다. 게다가 같은 3회 안의 단일 문항 지문 Q15(213), Q16(216), Q17(178)보다도 짧아 '장문' 슬롯의 성격이 무너진다. 202609021-Q40 요약 지문(182)보다도 짧다. 내용 면에서도 1차 판의 셋째 문단(가짜 뉴스의 정의·의도·피해를 일반화한 부분)이 빠져서 지문이 Gina 일화 하나로만 이루어졌다. 공식 41~42는 보통 일반화나 주장이 전개되는 글이다. [어휘] 5개 밑줄(immediately, undamaged, pleased, criticized, accidentally)은 각각 국소 문맥으로 판정할 수 있어 기능상 풀이는 된다. 그러나 174단어에 밑줄 5개를 두어 밑줄 밀도가 높고, 첫 문단(74단어)에 ①②③ 세 개가 몰려 있어 분포가 치우쳐 있다. 공유 지문의 길이 기준을 충족하지 못하므로 제목 문항과 함께 FAIL로 판정한다."
+    }
+  },
+  "concerns": [
+    {
+      "question_id": "Q18",
+      "issue": "공유 장문 long-mock3가 174단어로, 고1 41~42 벤치마크(212/212/216)보다 38단어 이상 짧다. 같은 회차의 단일 문항 지문(Q15 213, Q16 216, Q17 178)보다도 짧고 Gina 일화만 남아 일반화 전개가 없다.",
+      "severity": "검토제안",
+      "proposal": "약 40단어를 보강해 210단어 안팎으로 맞춘다. 예: 원문 뒤 문단 가운데 Q17에 쓰이지 않은 일반화 문장이나, Gina가 얻은 교훈·일반화를 1~2문장 추가(교과서 원문 범위 내). 셋째 문단을 되살린다면 3회 Q17은 다른 지문으로 바꿔 회차 내 중복을 피한다."
+    },
+    {
+      "question_id": "Q19",
+      "issue": "Q18과 같은 공유 지문의 길이 부족(174단어)에 더해, 밑줄 5개 가운데 ①②③이 첫 문단(74단어)에 몰려 있다.",
+      "severity": "검토제안",
+      "proposal": "지문을 보강할 때 밑줄 배치를 문단별로 고르게 조정한다(예: 보강 문단에 1개 배치)."
+    },
+    {
+      "question_id": "Q17",
+      "issue": "3회 3번 Q17의 주어진 글이 'becoming an accidental distributor of fake news like Gina'로 시작하는데, Gina 이야기는 같은 회차에서 그 뒤인 Q18–Q19 장문에 처음 나온다. 그래서 풀이 순서상 선행 맥락이 없다. 또 이 문장이 Gina를 '우연한 유포자'로 요약해, 뒤 Q18 정답 ①의 근거와 Q19 ⑤ accidentally가 적절하다는 판단을 미리 알려 준다(정답 ③을 직접 누설하지는 않음).",
+      "severity": "검토제안",
+      "proposal": "Q17 주어진 글의 'like Gina' 부분을 삭제하거나 일반 표현으로 바꾸는 것(예: 'becoming an accidental distributor of fake news is not unusual')을 검토한다. 또는 회차 내 배치 순서를 조정한다."
+    }
+  ]
+}
