@@ -4,8 +4,8 @@
 """
 from author import S, link
 
-W = {'astonished': 'u1-w1', 'headline': 'u1-w2', 'embarrassed': 'u1-w3', 'incident': 'u1-w4',
-     'turn_out': 'u1-w5', 'provocative': 'u1-w6', 'criticize': 'u1-w7', 'accidentally': 'u1-w8'}
+W = {'astonished': 'u1-w1', 'headline': 'u1-w2', 'undamaged': 'u1-w3', 'embarrassed': 'u1-w4',
+     'incident': 'u1-w5', 'turn_out': 'u1-w6', 'creators': 'u1-w7', 'provocative': 'u1-w8'}
 
 
 def pp(usage, s, word, lemma, fid=None, occ_after=0, review=None):
@@ -102,7 +102,7 @@ def sentences(T):
     s.ch('standing next to the undamaged Heundeulbawi', '손상되지 않은 흔들바위 옆에 서 있는')
     s.ch('said,', '말했다,')
     s.ch('“Today’s Internet stories', '“오늘의 인터넷 기사들은')
-    s.ch('of the Heundeulbawi being damaged', '흔들바위가 손상되었다는')
+    s.ch('of the Heundeulbawi being damaged', '흔들바위가 손상되는 것에 관한')
     s.ch('were fake.”', '가짜였습니다.”')
     s.natural('이후 TV 아침 뉴스에서, 멀쩡한 흔들바위 옆에 서 있던 기자가 “흔들바위가 손상되었다는 오늘 인터넷 기사들은 가짜였습니다.”라고 말했다.')
     s.cl('main', 'a', subj='a reporter standing next to the undamaged Heundeulbawi', verbs=['said'],
@@ -120,11 +120,11 @@ def sentences(T):
     st = s.g('standing', 'stand', '서다', same=True, verb_form=pp('ing', s, 'standing', 'stand'))
     link(fs, st)
     s.g('next|to', 'next to', '~ 옆에')
-    s.g('undamaged', 'undamaged', '손상되지 않은, 멀쩡한')
+    s.g('undamaged', 'undamaged', '손상되지 않은, 멀쩡한', star=W['undamaged'])
     s.g('said', 'said', '말했다 (say의 과거)', verb_form=pp('irregular-past', s, 'said', 'say'))
     s.g('Today’s', 'today’s', '오늘의')
     s.g('Internet', 'Internet', '인터넷')
-    s.g('stories', 'stories', '기사들, 이야기들')
+    s.g('stories', 'stories', '기사들 (흔한 뜻: 이야기들)')
     s.g('of', 'of', '~에 관한 (흔한 뜻: ~의)')
     fb = s.g('being', 'being p.p.', '~되는 것', kind='function', combines_with=[])
     dm = s.g('damaged', 'damaged', '손상된', verb_form=pp('passive-participle', s, 'damaged', 'damage', fb['id']))
@@ -137,9 +137,9 @@ def sentences(T):
            span='a reporter standing next to the undamaged Heundeulbawi', label='현재분사 후치수식',
            links=[(['ing'], ['있는'])], meaning='손상되지 않은 흔들바위 옆에 서 있는 한 기자',
            explanation='현재분사 standing이 이끄는 standing next to the undamaged Heundeulbawi가 앞 명사 a reporter를 뒤에서 꾸민다. ing ↔ 있는(~하고 있는).')
-    s.hint('stories [of the Heundeulbawi being damaged]', '[흔들바위가 손상되었다는] 기사들',
+    s.hint('stories [of the Heundeulbawi being damaged]', '[흔들바위가 손상되는 것에 관한] 기사들',
            span='stories of the Heundeulbawi being damaged', label='전치사 of + 의미상 주어 + 동명사',
-           links=[(['of', 'being'], ['가', '되었다는'])], meaning='흔들바위가 손상되었다는 기사들',
+           links=[(['of'], ['에 관한']), (['being'], ['가', '되는 것'])], meaning='흔들바위가 손상되는 것에 관한 기사들',
            explanation='전치사 of의 목적어는 동명사 being damaged(수동)이고 앞의 the Heundeulbawi가 그 의미상 주어다. 흔들바위가 손상되었다는 내용의 기사.')
     s.review = ('주절 a reporter … said(주어는 현재분사 후치수식 standing … 포함, 표시는 a reporter) + 인용절 Today’s Internet stories … were fake(독립 인용 문장). '
                 'on TV·of the Heundeulbawi … 후치수식 전치사구 앞에서 끊음. 힌트 2개(현재분사 후치수식, of + 의미상 주어 + 동명사 수동). '
@@ -157,7 +157,7 @@ def sentences(T):
     s.g('was', 'was', '~였다')
     s.g('embarrassed', 'embarrassed', '당황한, 창피한', star=W['embarrassed'],
         verb_form=pp('past-participle', s, 'embarrassed', 'embarrass'))
-    s.g('by', 'by', '~ 때문에 (흔한 뜻: ~에 의해)')
+    s.g('by', 'by', '~에 (흔한 뜻: ~에 의해)')
     s.g('fact', 'fact', '사실')
     rel = s.g('that', 'that S′ V′', 'S′(이/가) V′했다는 (앞 명사의 내용을 설명)')
     s.g('she', 'she', '그녀가', referent_ko='지나')
@@ -261,7 +261,7 @@ def sentences(T):
     md = s.g('made', 'made', '만들어진', verb_form=pp('passive-participle', s, 'made', 'make', f['id']))
     link(f, md)
     s.g('by', 'by', '~에 의해')
-    s.g('content|creators', 'content creators', '콘텐츠 제작자들')
+    s.g('content|creators', 'content creators', '콘텐츠 제작자들', star=W['creators'])
     rel = s.g('who', 'who V′', 'V′했던 (관계대명사)')
     s.g('sought', 'sought', '추구했다, 얻으려 했다 (seek의 과거)', verb_form=pp('irregular-past', s, 'sought', 'seek'))
     s.g('people’s', 'people’s', '사람들의')
@@ -328,7 +328,7 @@ def sentences(T):
     s.cl('subject_relative', 'who', verbs=['had', 'made', 'and', 'spread'], marker='who')
     s.cl('subordinate', 'because', subj='it', verbs=['had', 'hurt', 'and', 'confused'], marker='because')
     s.g('At|that|time', 'at that time', '그 당시에')
-    s.g('criticized', 'criticize', '비판하다', star=W['criticize'], verb_form=pp('regular-past', s, 'criticized', 'criticize'))
+    s.g('criticized', 'criticize', '비판하다', verb_form=pp('regular-past', s, 'criticized', 'criticize'))
     s.g('those', 'those', '(~한) 사람들')
     rel = s.g('who', 'who V′', 'V′했던 (관계대명사)')
     f1 = s.g('had', 'had p.p.', '~했다', kind='function', combines_with=[])
@@ -348,8 +348,8 @@ def sentences(T):
     s.hint('those [who had made and spread]', '[만들고 퍼뜨렸던] 사람들', span='those who had made and spread',
            label='주격 관계대명사 who', links=[(['who'], ['던'])], meaning='(가짜 뉴스를) 만들고 퍼뜨렸던 사람들',
            explanation='those(사람들)를 주격 관계대명사 who가 받아 had made and spread fake news가 꾸민다. 병렬 동사 made and spread가 had를 공유. 목적어 fake news는 표시에서 제외.')
-    s.hint('[because it had hurt]', '[그것[가짜 뉴스]이 상처를 주었기 때문에]', span='because it had hurt',
-           label='이유 접속사 because', links=[(['because'], ['이', '기 때문에'])], refs=[('it', '그것', '[가짜 뉴스]')],
+    s.hint('[because it had hurt]', '[그것[그 가짜 뉴스]이 상처를 주었기 때문에]', span='because it had hurt',
+           label='이유 접속사 because', links=[(['because'], ['이', '기 때문에'])], refs=[('it', '그것', '[그 가짜 뉴스]')],
            meaning='그것이 (그 운동선수에게) 상처를 주었기 때문에',
            explanation='because가 이끄는 이유 부사절(S′ it, V′ had hurt … and confused). 병렬 둘째 동사 confused와 목적어는 표시에서 제외.')
     s.relative_ids = [rel['id']]
@@ -370,7 +370,7 @@ def sentences(T):
     s.g('however', 'however', '하지만')
     s.g('herself', 'herself', '(그녀) 자신이, 직접', referent_ko='지나')
     f = s.g('had', 'had p.p.', '~했다', kind='function', combines_with=[])
-    s.g('accidentally', 'accidentally', '뜻하지 않게, 실수로', star=W['accidentally'])
+    s.g('accidentally', 'accidentally', '뜻하지 않게, 실수로')
     ct = s.g('contributed', 'contribute', '기여하다, 한몫하다 (contributed는 contribute의 p.p.형)',
              verb_form=pp('perfect-participle', s, 'contributed', 'contribute', f['id']))
     link(f, ct)
@@ -395,12 +395,12 @@ UNIT = {
     'today_words': [
         {'id': W['astonished'], 'text': 'astonished', 'meaning_ko': '깜짝 놀란'},
         {'id': W['headline'], 'text': 'news headline', 'meaning_ko': '뉴스 헤드라인, 뉴스 제목'},
+        {'id': W['undamaged'], 'text': 'undamaged', 'meaning_ko': '손상되지 않은, 멀쩡한'},
         {'id': W['embarrassed'], 'text': 'embarrassed', 'meaning_ko': '당황한, 창피한'},
         {'id': W['incident'], 'text': 'incident', 'meaning_ko': '사건'},
         {'id': W['turn_out'], 'text': 'turn out to V', 'meaning_ko': '~인 것으로 드러나다, 밝혀지다'},
+        {'id': W['creators'], 'text': 'content creators', 'meaning_ko': '콘텐츠 제작자들'},
         {'id': W['provocative'], 'text': 'provocative', 'meaning_ko': '자극적인, 도발적인'},
-        {'id': W['criticize'], 'text': 'criticize', 'meaning_ko': '비판하다'},
-        {'id': W['accidentally'], 'text': 'accidentally', 'meaning_ko': '뜻하지 않게, 실수로'},
     ],
 }
 
@@ -435,7 +435,7 @@ def analysis(_):
                 '예전의 지나는 가짜 뉴스를 퍼뜨린 사람들을 비판하는 쪽이었다.',
                 '그런데 이번에는 지나 자신이 흔들바위 가짜 뉴스를 친구들에게 퍼뜨렸다.',
                 '일부러 한 일은 아니지만 결과적으로 가짜 뉴스가 퍼지는 데 한몫한 것이다.',
-                '누구나 가짜 뉴스를 퍼뜨리는 사람이 될 수 있다는 것이 이 글의 출발점이다.']},
+                '가짜 뉴스를 비판하던 사람도 뜻하지 않게 가짜 뉴스를 퍼뜨릴 수 있다는 점이 이 글의 출발점이다.']},
         ],
         'grammar_points': [
             {'id': 'u1-gp1', 'sentence_id': 's04', 'span': 'that she had spread the fake news',
@@ -466,7 +466,7 @@ def analysis(_):
                           'support': [('s09', 'had p.p.'), ('s09', 'make'), ('s09', 'spread'), ('s09', 'fake news')],
                           'answer_ko': '가짜 뉴스를 만들고 퍼뜨렸던 사람들'}},
             {'id': 'u1-gp4', 'sentence_id': 's01', 'span': 'The Heundeulbawi in Seoraksan National Park Has Fallen',
-             'title': 'have p.p.: ~했다 (Has Fallen: 떨어졌다)', 'formula_key': 'have p.p.',
+             'title': 'have p.p.: ~했다', 'formula_key': 'have p.p.',
              'explanation': '공식: have(has) p.p. — ~했다(지금의 결과까지 이어짐). S = The Heundeulbawi(흔들바위), in Seoraksan National Park = 설악산 국립공원에 있는, '
                             'p.p. = Fallen(fall의 p.p.형, 떨어지다). → 설악산 국립공원의 흔들바위가 떨어졌다. '
                             '떨어져서 지금은 제자리에 없다는 결과를 알리는 헤드라인이라 현재완료를 쓴다.',
@@ -479,14 +479,14 @@ def analysis(_):
             {'id': 'u1-gp5', 'sentence_id': 's03', 'span': 'stories of the Heundeulbawi being damaged',
              'title': 'being p.p.: ~되는 것 (동명사의 수동)', 'formula_key': 'being p.p.',
              'explanation': '공식: being p.p. — ~되는 것. 앞의 of = ~에 관한, 의미상 주어 = the Heundeulbawi(흔들바위), p.p. = damaged(손상된). '
-                            '→ 흔들바위가 손상되는 것(에 관한) → 흔들바위가 손상되었다는 기사들. '
+                            '→ 흔들바위가 손상되는 것에 관한 기사들(자연스럽게는 ‘흔들바위가 손상되었다는 기사들’). '
                             '흔들바위는 스스로 손상시키는 쪽이 아니라 ‘손상되는’ 대상이라 수동 being damaged를 쓴다.',
              'supplemental': {'function': ('s03', 'being p.p.', 0),
                               'reason': 's03의 동명사 수동 being damaged는 일반형 힌트 2개(현재분사 후치수식, of + 동명사)가 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 being p.p. 설명이 없어 이 단위 대표 사례로 1회 보충'},
              'practice': {'span': 'stories of the Heundeulbawi being damaged',
                           'formula_support': {'en': 'being p.p.', 'ko': '~되는 것'},
                           'support': [('s03', 'stories'), ('s03', 'of'), ('s03', 'damaged')],
-                          'answer_ko': '흔들바위가 손상되었다는 기사들'}},
+                          'answer_ko': '흔들바위가 손상되는 것에 관한 기사들'}},
         ],
         'formula_routes': [
             {'function': ('s01', 'have p.p.', 0), 'route': 'analysis', 'grammar_point_id': 'u1-gp4',

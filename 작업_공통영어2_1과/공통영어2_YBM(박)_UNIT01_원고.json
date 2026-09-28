@@ -452,39 +452,39 @@
     },
     {
      "id": "u1-w3",
+     "text": "undamaged",
+     "meaning_ko": "손상되지 않은, 멀쩡한",
+     "source_gloss_id": "s03-g11"
+    },
+    {
+     "id": "u1-w4",
      "text": "embarrassed",
      "meaning_ko": "당황한, 창피한",
      "source_gloss_id": "s04-g02"
     },
     {
-     "id": "u1-w4",
+     "id": "u1-w5",
      "text": "incident",
      "meaning_ko": "사건",
      "source_gloss_id": "s05-g05"
     },
     {
-     "id": "u1-w5",
+     "id": "u1-w6",
      "text": "turn out to V",
      "meaning_ko": "~인 것으로 드러나다, 밝혀지다",
      "source_gloss_id": "s06-g12"
     },
     {
-     "id": "u1-w6",
-     "text": "provocative",
-     "meaning_ko": "자극적인, 도발적인",
-     "source_gloss_id": "s08-g03"
-    },
-    {
      "id": "u1-w7",
-     "text": "criticize",
-     "meaning_ko": "비판하다",
-     "source_gloss_id": "s09-g02"
+     "text": "content creators",
+     "meaning_ko": "콘텐츠 제작자들",
+     "source_gloss_id": "s07-g05"
     },
     {
      "id": "u1-w8",
-     "text": "accidentally",
-     "meaning_ko": "뜻하지 않게, 실수로",
-     "source_gloss_id": "s10-g05"
+     "text": "provocative",
+     "meaning_ko": "자극적인, 도발적인",
+     "source_gloss_id": "s08-g03"
     }
    ],
    "analysis": {
@@ -548,7 +548,7 @@
        "예전의 지나는 가짜 뉴스를 퍼뜨린 사람들을 비판하는 쪽이었다.",
        "그런데 이번에는 지나 자신이 흔들바위 가짜 뉴스를 친구들에게 퍼뜨렸다.",
        "일부러 한 일은 아니지만 결과적으로 가짜 뉴스가 퍼지는 데 한몫한 것이다.",
-       "누구나 가짜 뉴스를 퍼뜨리는 사람이 될 수 있다는 것이 이 글의 출발점이다."
+       "가짜 뉴스를 비판하던 사람도 뜻하지 않게 가짜 뉴스를 퍼뜨릴 수 있다는 점이 이 글의 출발점이다."
       ]
      }
     ],
@@ -644,7 +644,7 @@
        103,
        157
       ],
-      "title": "have p.p.: ~했다 (Has Fallen: 떨어졌다)",
+      "title": "have p.p.: ~했다",
       "formula_key": "have p.p.",
       "explanation": "공식: have(has) p.p. — ~했다(지금의 결과까지 이어짐). S = The Heundeulbawi(흔들바위), in Seoraksan National Park = 설악산 국립공원에 있는, p.p. = Fallen(fall의 p.p.형, 떨어지다). → 설악산 국립공원의 흔들바위가 떨어졌다. 떨어져서 지금은 제자리에 없다는 결과를 알리는 헤드라인이라 현재완료를 쓴다.",
       "supplemental": {
@@ -678,7 +678,7 @@
       ],
       "title": "being p.p.: ~되는 것 (동명사의 수동)",
       "formula_key": "being p.p.",
-      "explanation": "공식: being p.p. — ~되는 것. 앞의 of = ~에 관한, 의미상 주어 = the Heundeulbawi(흔들바위), p.p. = damaged(손상된). → 흔들바위가 손상되는 것(에 관한) → 흔들바위가 손상되었다는 기사들. 흔들바위는 스스로 손상시키는 쪽이 아니라 ‘손상되는’ 대상이라 수동 being damaged를 쓴다.",
+      "explanation": "공식: being p.p. — ~되는 것. 앞의 of = ~에 관한, 의미상 주어 = the Heundeulbawi(흔들바위), p.p. = damaged(손상된). → 흔들바위가 손상되는 것에 관한 기사들(자연스럽게는 ‘흔들바위가 손상되었다는 기사들’). 흔들바위는 스스로 손상시키는 쪽이 아니라 ‘손상되는’ 대상이라 수동 being damaged를 쓴다.",
       "supplemental": {
        "reason": "s03의 동명사 수동 being damaged는 일반형 힌트 2개(현재분사 후치수식, of + 동명사)가 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 being p.p. 설명이 없어 이 단위 대표 사례로 1회 보충",
        "function_gloss_id": "s03-g17"
@@ -692,7 +692,7 @@
         "en": "being p.p.",
         "ko": "~되는 것"
        },
-       "answer_ko": "흔들바위가 손상되었다는 기사들",
+       "answer_ko": "흔들바위가 손상되는 것에 관한 기사들",
        "support_gloss_ids": [
         "s03-g15",
         "s03-g16",
@@ -2652,7 +2652,7 @@
     {
      "start": 125,
      "end": 158,
-     "ko": "흔들바위가 손상되었다는"
+     "ko": "흔들바위가 손상되는 것에 관한"
     },
     {
      "start": 159,
@@ -2857,7 +2857,8 @@
      ],
      "headword": "undamaged",
      "meaning_ko": "손상되지 않은, 멀쩡한",
-     "star": false
+     "star": true,
+     "today_word_id": "u1-w3"
     },
     {
      "id": "s03-g12",
@@ -2912,7 +2913,7 @@
       ]
      ],
      "headword": "stories",
-     "meaning_ko": "기사들, 이야기들",
+     "meaning_ko": "기사들 (흔한 뜻: 이야기들)",
      "star": false
     },
     {
@@ -3223,19 +3224,29 @@
       117,
       158
      ],
-     "meaning_ko": "흔들바위가 손상되었다는 기사들",
+     "meaning_ko": "흔들바위가 손상되는 것에 관한 기사들",
      "explanation": "전치사 of의 목적어는 동명사 being damaged(수동)이고 앞의 the Heundeulbawi가 그 의미상 주어다. 흔들바위가 손상되었다는 내용의 기사.",
      "display_pairs": [
       {
        "en": "stories [of the Heundeulbawi being damaged]",
-       "ko": "[흔들바위가 손상되었다는] 기사들",
+       "ko": "[흔들바위가 손상되는 것에 관한] 기사들",
        "emphasis_links": [
         {
          "en_spans": [
           [
            9,
            11
-          ],
+          ]
+         ],
+         "ko_spans": [
+          [
+           13,
+           17
+          ]
+         ]
+        },
+        {
+         "en_spans": [
           [
            29,
            34
@@ -3366,7 +3377,7 @@
      "headword": "embarrassed",
      "meaning_ko": "당황한, 창피한",
      "star": true,
-     "today_word_id": "u1-w3",
+     "today_word_id": "u1-w4",
      "verb_form": {
       "usage": "past-participle",
       "source_span": [
@@ -3385,7 +3396,7 @@
       ]
      ],
      "headword": "by",
-     "meaning_ko": "~ 때문에 (흔한 뜻: ~에 의해)",
+     "meaning_ko": "~에 (흔한 뜻: ~에 의해)",
      "star": false
     },
     {
@@ -3789,7 +3800,7 @@
      "headword": "incident",
      "meaning_ko": "사건",
      "star": true,
-     "today_word_id": "u1-w4"
+     "today_word_id": "u1-w5"
     },
     {
      "id": "s05-g06",
@@ -4331,7 +4342,7 @@
      "headword": "turn out to V",
      "meaning_ko": "~인 것으로 드러나다, 밝혀지다",
      "star": true,
-     "today_word_id": "u1-w5",
+     "today_word_id": "u1-w6",
      "kind": "lexical",
      "verb_form": {
       "usage": "regular-past",
@@ -4732,7 +4743,8 @@
      ],
      "headword": "content creators",
      "meaning_ko": "콘텐츠 제작자들",
-     "star": false
+     "star": true,
+     "today_word_id": "u1-w7"
     },
     {
      "id": "s07-g06",
@@ -5063,7 +5075,7 @@
      "headword": "provocative",
      "meaning_ko": "자극적인, 도발적인",
      "star": true,
-     "today_word_id": "u1-w6"
+     "today_word_id": "u1-w8"
     },
     {
      "id": "s08-g04",
@@ -5581,8 +5593,7 @@
      ],
      "headword": "criticize",
      "meaning_ko": "비판하다",
-     "star": true,
-     "today_word_id": "u1-w7",
+     "star": false,
      "verb_form": {
       "usage": "regular-past",
       "source_span": [
@@ -6008,7 +6019,7 @@
      "display_pairs": [
       {
        "en": "[because it had hurt]",
-       "ko": "[그것[가짜 뉴스]이 상처를 주었기 때문에]",
+       "ko": "[그것[그 가짜 뉴스]이 상처를 주었기 때문에]",
        "pronoun_refs": [
         {
          "en_span": [
@@ -6021,7 +6032,7 @@
          ],
          "ko_reference_span": [
           3,
-          10
+          12
          ]
         }
        ],
@@ -6035,12 +6046,12 @@
          ],
          "ko_spans": [
           [
-           10,
-           11
+           12,
+           13
           ],
           [
-           18,
-           23
+           20,
+           25
           ]
          ]
         }
@@ -6186,8 +6197,7 @@
      ],
      "headword": "accidentally",
      "meaning_ko": "뜻하지 않게, 실수로",
-     "star": true,
-     "today_word_id": "u1-w8"
+     "star": false
     },
     {
      "id": "s10-g06",

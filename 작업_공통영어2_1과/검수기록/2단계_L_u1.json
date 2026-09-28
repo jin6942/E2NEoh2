@@ -1,0 +1,49 @@
+{
+  "reviewer": "L-u1",
+  "unit": "u1",
+  "method": "검수 패킷 L_u1.json의 selected_data(10문장 청크·S/V clauses·glosses·lexical_coverage·hints(display_pairs·emphasis_links·pronoun_refs)·reading_checks, 단위 analysis·today_words·formula_routes·grammar_points(practice))를 스크립트로 원문 위치에서 풀어 전수 대조. QC_HANDOFF [지문] u1 출력과 u1.py 작성 기록을 함께 확인. 원문 PDF 1쪽을 pypdfium2로 추출해 왼쪽 단 영어(source_text.py 전사와 일치)와 오른쪽 단 한국어 해석을 자연 해석 의미 확인에 사용. 규칙은 SKILL.md, editorial-core, analysis-content(끊어읽기·S/V·구조 힌트·대명사 참조·강조·직역·지문분석·쉬운 풀이), gloss-rules, grammar-labels, preposition-meanings, proper-nouns, common-errors, manuscript-data(문장 주석·힌트·구문 결합 연습 계약)를 읽고 적용. 문맥 확인용으로 s11(‘not unusual’) 원문만 참조했고 u2는 검수하지 않음.",
+  "sentences_checked": ["s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", "s09", "s10"],
+  "status": "FIX_REQUIRED",
+  "findings": [
+    {
+      "id": "Lu1-01",
+      "sentence_id": "s03",
+      "field": "hint",
+      "current": "stories [of the Heundeulbawi being damaged] → [흔들바위가 손상되었다는] 기사들 (전치사 of + 의미상 주어 + 동명사) / emphasis_links: en [of, being] ↔ ko [가, 되었다는] (한 링크)",
+      "issue": "같은 문장 각주는 of — ~에 관한 (흔한 뜻: ~의), being p.p. — ~되는 것인데, 힌트 한국어는 의역 ‘손상되었다는’을 쓰고 of·being을 ‘되었다는’에 대응 강조해 of의 문맥 뜻 ‘~에 관한’이 힌트 어디에도 대응하지 않는다. analysis-content.md 구조 힌트 ‘영어·한국어의 문법 대응 강조’의 ‘전치사 뜻은 같은 문장의 각주에서 선택한 문맥 뜻 전체에 대응한다’, ‘한국어는 문법과 뜻의 연결이 바로 보이는 직역을 우선한다(의역한 뒤 조사·어미를 of의 뜻인 것처럼 연결하지 않는다)’, 검수 5(공식·각주에 맞는 짝인지 확인), gloss-rules.md 금지와 검수 6(각주 기능 뜻과 힌트의 조사·연결 어미 대응) 위반.",
+      "proposal": "display_pairs ko를 직역 ‘[흔들바위가 손상되는 것에 관한] 기사들’로 바꾸고 emphasis_links를 of ↔ ‘에 관한’, being ↔ ‘되는 것’, 의미상 주어 조사 ‘가’로 다시 맞춘다(영어 표시·structure_label 유지). 힌트 meaning_ko도 같은 문구로 맞춘다. 원문 청크 ‘흔들바위가 손상되었다는’·자연 해석·gp5 설명(‘손상되는 것(에 관한) → 손상되었다는 기사들’)은 그대로 두어도 되나, 각주 대응을 더 맞추려면 한국어 청크를 ‘흔들바위가 손상되는 것에 관한’으로 바꾸는 것도 검토."
+    },
+    {
+      "id": "Lu1-02",
+      "sentence_id": "s04",
+      "field": "gloss",
+      "current": "by — ~ 때문에 (흔한 뜻: ~에 의해)",
+      "issue": "같은 문장의 한국어 청크 ‘사실에’, 자연 해석 ‘사실에 당황했다’, 원문 PDF 해석 ‘사실에 당황했다’는 모두 ‘~에’로 읽는데 각주만 ‘~ 때문에’다. 뜻 자체는 틀리지 않으나 gloss-rules.md 금지와 검수 6(각주 뜻과 같은 문장의 끊어읽기 해석 일치)에 더 맞는 선택지가 있다.",
+      "proposal": "각주를 ‘by — ~에 (흔한 뜻: ~에 의해)’로 바꾸거나, 각주를 유지할 경우 한국어 청크를 ‘그 사실 때문에’로 맞춘다(권장: 각주 수정, 자연 해석은 유지)."
+    },
+    {
+      "id": "Lu1-03",
+      "sentence_id": "s04",
+      "field": "gloss",
+      "current": "s04-g08 spread — 퍼뜨리다 (spread는 spread의 p.p.형) / s09-g07 spread — 퍼뜨리다 (spread는 spread의 p.p.형) / s09-g12 hurt — 상처를 주다 (hurt는 hurt의 p.p.형) / u1-gp1 설명 ‘had spread(퍼뜨렸다; spread는 spread의 p.p.형)’",
+      "issue": "gloss-rules.md 실제 형태와 활용형은 능동 완료 원형 각주에 실제 p.p. 관계를 반드시 알리게 하지만, grammar-labels.md 기능 설명과 활용형 안내·gloss-rules.md 검수 3은 자기참조 변화형 주석을 금지한다. 원형과 p.p.형이 같은 동사에서 ‘spread는 spread의 p.p.형’은 학생에게 자기참조처럼 읽혀 관계 안내 효과가 약하다.",
+      "proposal": "관계 안내는 유지하되 ‘spread — 퍼뜨리다 (p.p.형도 spread로 원형과 같음)’, ‘hurt — 상처를 주다 (p.p.형도 hurt로 원형과 같음)’처럼 동형임을 밝히는 문구로 바꾸고 u1-gp1 설명의 괄호도 같은 문구로 맞춘다. 규칙 문구 해석이 필요한 사항이므로 사용자 확인 후 적용."
+    },
+    {
+      "id": "Lu1-04",
+      "sentence_id": "s03",
+      "field": "gloss",
+      "current": "stories — 기사들, 이야기들",
+      "issue": "본문 문맥 뜻은 ‘기사들’이고 ‘이야기들’은 흔한 뜻이다. gloss-rules.md 기본 형식과 순서·editorial-core.md는 다의어를 ‘문맥 뜻 (흔한 뜻: …)’으로 적게 하며, 같은 단위의 views — 조회 (흔한 뜻: 견해들), close — 친한 (흔한 뜻: 가까운)은 이 형식을 따른다. 쉼표 나열은 두 뜻이 이 문장에 모두 들어가는 것처럼 읽힌다.",
+      "proposal": "stories — 기사들 (흔한 뜻: 이야기들). 같은 각주를 재사용하는 u1-gp5 연습 도움말도 같은 표기로 출력되는지 확인."
+    },
+    {
+      "id": "Lu1-05",
+      "sentence_id": "s10",
+      "field": "analysis",
+      "current": "각 문장 쉬운 풀이 [10번 문장] 마지막 설명문: ‘누구나 가짜 뉴스를 퍼뜨리는 사람이 될 수 있다는 것이 이 글의 출발점이다.’",
+      "issue": "단위 원문(s01~s10)은 지나 한 사람의 경험만 말하고, 뒤 문단 s11도 ‘becoming an accidental distributor of fake news like Gina is not unusual(드문 일이 아니다)’까지만 말한다. ‘누구나 … 될 수 있다’는 원문보다 일반화·강화된 표현이다(analysis-content.md 각 문장 쉬운 풀이 8 ‘원문보다 강한 단정’ 금지, 체크리스트 마지막 항목). 의도/요지의 ‘가짜 뉴스를 비판하던 사람도 … 될 수 있음’은 본문 사례에 근거하므로 문제 삼지 않음.",
+      "proposal": "‘지나처럼 뜻하지 않게 가짜 뉴스를 퍼뜨리게 되는 일은 드물지 않다.’ / ‘이 글은 이 이야기에서 시작한다.’의 두 문장으로 바꾼다."
+    }
+  ]
+}
