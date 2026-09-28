@@ -1,0 +1,483 @@
+diff -ru --label 원본 --label 사본 -x common-test-results.json "\354\233\220\353\263\270" "\354\202\254\353\263\270"
+--- 원본
++++ 사본
+@@ -1902,7 +1902,7 @@
+   },
+   "guide_text": {
+     "19": "읽는 법  ① / 마다 끊어 읽기   ② 동사(V) 찾기   ③ 주어(S) 찾기   ④ ※ 단어 뜻 보기(★부터)   ⑤ 아래 줄에 내 해석 쓰기   ⑥ 지문 분석지의 끊어읽기 해석과 비교",
+-    "20": "기호  / 끊어 읽는 곳     ★ 꼭 외울 말     S 주어     V 동사     S′·V′ 절 속의 주어·동사        (주격 관계대명사 뒤에는 별도 주어가 없어 V′만 표시)     [ ] 그 절을 이끄는 말(that·if·when 등)        [( )] 생략된 접속사·관계사     ／ 절과 절의 경계     [and]·[;]는 절을 잇는 표시이며, S·V/S′·V′는 실제 절의 범위에 따릅니다.        주어 없이 동사로 시작하면 명령문 — 주어를 적지 않습니다     ~ 다른 말이 들어갈 자리",
++    "20": "기호  / 끊어 읽는 곳     ★ 꼭 외울 말     S 주어     V 동사     S′·V′ 절 속의 주어·동사        (주격 관계대명사 뒤에는 별도 주어가 없어 V′만 표시)     [ ] 그 절을 이끄는 말(that·if·when 등)        [( )] 생략된 접속사·관계사     ／ 절과 절의 경계     [and]·[;]는 절을 잇는 표시이며, S·V/S′·V′는 실제 절의 범위에 따릅니다.        주어 없이 동사로 시작하면 명령문 — 주어를 적지 않습니다     ~ 다른 말이 들어갈 자리     ★핵심 워크북에서 다시 해석할 핵심 문장",
+     "21": "시작하기 전에 꼭",
+     "22": "① 문장 맨 앞이 늘 주어는 아닙니다.   In · At · On · With · For · From · By 같은 전치사로 시작하는 덩어리는 지우고, 그 뒤에서 「누가·무엇이」를 찾으세요.   In flexible-time cultures, it seems …  →  In flexible-time cultures를 지우면 주어는 it   문두의 접속사절 범위를 먼저 확인하고 주절의 주어를 찾으세요. 콤마 유무만으로 구분하지 않습니다.   When we bought the bookshelves, the manager said …  →  주어는 the manager",
+     "23": "② 해석은 S에 「은·는」, S′에 「이·가」를 붙여 시작합니다.   S they → 그들은        S′ the meeting → 그 회의가",
+@@ -1938,7 +1938,7 @@
+       },
+       {
+         "run": 4,
+-        "text": "\n        주어 없이 동사로 시작하면 명령문 — 주어를 적지 않습니다     ~ 다른 말이 들어갈 자리"
++        "text": "\n        주어 없이 동사로 시작하면 명령문 — 주어를 적지 않습니다     ~ 다른 말이 들어갈 자리     ★핵심 워크북에서 다시 해석할 핵심 문장"
+       }
+     ],
+     "21": [
+diff -ru --label 원본 --label 사본 -x common-test-results.json "\354\233\220\353\263\270" "\354\202\254\353\263\270"
+--- 원본
++++ 사본
+@@ -67,3 +67,17 @@
+ 기존 동결 패킷을 덮어쓰지 않고 최신 5단위 원고의 새 버전에 위 입력을 추가한다. 별도 예외 근거 파일·사용자 결정·새 패키지 지문·원고 파일 해시를 함께 연결한다. 배포 자료의 실제 대상 입력 예제를 사용하되 다른 교재로 해당 ID·지문·승인을 복사하지 않는다.
+ 
+ `4fcd6a2f…`판은 이 승인 예외와 명사구 계약을 지원하지 않는다. 그 버전의 일반 검사 결과를 현재 계약의 통과로 취급하지 않는다. 새 버전으로 필요한 구조·출력 연결을 확인하고, 실제 교재의 독립 검수와 DOCX 조판·출고는 해당 현재 파일의 증거로 따로 기록한다. 과거 PASS의 패키지 지문만 새 값으로 치환하지 않는다.
++
++## 공통영어2 YBM(박준언) 2과의 동사 없는 짧은 문장 (이 스킬 사본에만 추가)
++
++2026-09-28 사용자 결정 “S/V 줄 빼기 + 스킬 사본 보완”, “50번 V만, 52번 전달절만”. 대상은 이 교재의 원문 s17 `The essentials of life.`, s25 `Lucky!`, s53 `“Not a problem.`, s69 `“Not at all.”`이다.
++
++- 유한동사가 없는 이 네 문장은 위 명사구 답변과 같은 방식으로 S/V 줄과 대체 안내문을 모두 생략한다. `clauses:[]`와 `sv_review`를 두되 `kind:"verbless-fragment"`로 기록하고, 이유에 실제 성격(앞 문장 보충 명사구·감탄·대답)을 적는다. 문맥 연결 필드는 기존 계약대로 바로 앞 같은 본문 문장의 ID·SHA-256을 쓴다. s69처럼 실제 질문이 더 앞(s66)에 있으면 그 사실을 이유에 적는다.
++- `sv_line.py`는 `noun-phrase-answer`와 `verbless-fragment` 두 종류만 받는다. 검토 기록 없는 빈 clauses는 계속 오류다. 다른 교재나 다른 문장으로 이 종류를 자동 확대하지 않는다.
++- 주어가 생략된 구어 s50 `“Looks like you could use some help.”`는 명령문과 같은 표시 방식(주어 칸 없이 V만)으로 `V: Looks ／ [like] S′: you, V′: could use`를 출력한다. 생략된 It을 보충하지 않으며, 절 종류는 표시 장치상 `imperative`로 기록하되 `reading_checks.review_record`에 ‘주어 It 생략 구어, 명령문 아님’을 적는다. s52의 인사 관용 표현 Thank you는 S/V에서 제외하고 전달절 `S: I, V: tell`만 표시한다.
++
++### 같은 교재의 L 독립 검수 뒤 추가 결정 (2026-09-28, 이 스킬 사본에만 추가)
++
++- **then으로 이어진 병렬 동사:** s35 `She looks back …, then turns back …`, s70 `The man looks at …, then leaves.`는 and 없이 부사 then이 한 주어의 두 동사를 잇는다. 이 두 문장에 한해 V 칸에 then을 남겨 `V: looks then turns`, `V: looks then leaves`로 표시한다. then을 빼면 `looks turns`처럼 한 동사구로 보이기 때문이다. 다른 부사나 다른 교재로 확대하지 않는다.
++- **연결동사의 최소 보어:** 절 연결 힌트에서 be동사에만 허용하던 ‘뜻을 잡는 최소 보어’ 예외를 이 교재의 연결동사 get·become에도 적용한다. 대상은 s07 `[ever since people got tired]`, s36 `[before it becomes a deep flush]`, s74 `[this story can become a reality]`이다(사용자 결정은 ‘연결동사의 보어까지 표시’라는 일반 질문에 대한 답이었고 질문 예시가 s07·s36이었다. s74는 L-재검에서 같은 구조로 확인되어 같은 결정을 적용했으며, 사용자에게 적용 사실을 보고함). 보어를 빼면 ‘사람들이 된 이후로’처럼 뜻이 사라진다.
++- **그대로 두기로 한 항목:** 인명 각주는 교과서 해석처럼 영어 이름을 유지한다(`Alyssa — Alyssa (…)`). s72 `who has to make`의 S/V는 s54 need to와 같은 방식으로 `V′: has`를 유지하고, 분석 설명만 이에 맞춘다.
+diff -ru --label 원본 --label 사본 -x common-test-results.json "\354\233\220\353\263\270" "\354\202\254\353\263\270"
+--- 원본
++++ 사본
+@@ -261,7 +261,7 @@
+ 
+ 정답·해설의 `정답 근거`는 근거 본문과 분리한 제목으로 두고 `선지 해석`·`오답 정리`와 동일한 기존 제목 역할의 글꼴·크기·색·굵기·간격을 사용한다. 제목과 이어지는 근거는 함께 두되 한 문항 전체를 긴 다음 문단 연결 사슬로 묶지 않는다. 근거·해설 내용 자체는 보존한다. 사용자는 별도 제목 줄 때문에 해설이 다음 쪽으로 이어지고 페이지가 늘어나는 것을 허용했다. 이를 줄이려고 제목을 본문과 같은 줄로 되돌리거나 글자·행간·기존 선지/오답 묶음을 축소하지 않는다. 제목 고립·잘림과 불필요한 강제 쪽 나눔은 계속 검사한다.
+ 
+-공유 장문 세트라는 이유만으로 새 페이지를 강제하지 않는다. 앞 문제 뒤의 남은 공간에 공유 지문과 연결된 두 문항·선지 전체가 기존 글자·행간과 문항 사이24.7pt 간격을 유지한 채 들어가면 같은 페이지에 이어 배치한다. 현재 쪽에서 세트가 갈라지고 새 한 쪽에는 전부 들어갈 때는 세트 전체를 다음 쪽으로 옮긴다. 실제 Word 관찰을 `layout_adjustments`의 `passage_group` 이동으로 기록하고 자식 문항만 따로 이동하지 않는다. 새 한 쪽에도 들어가지 않으면 글자·행간·여백을 줄이지 말고 실제 길이와 가능한 배치를 사용자에게 보고해 판단받는다. 약2문항/쪽은 고정 수용량이 아니며, 일반1문항과 장문2문항이 함께 놓여도 된다. 장문 안내 제목은 지문 첫 부분과 연결하고 문제·선지는 자연스러운 묶음을 유지한다. 실제 Word에서 잘림·고립·과밀 또는 큰 불필요한 빈 공간이 확인될 때만 관찰 근거를 남겨 쪽 나눔을 조정한다. 회차 시작·분석지 구분 등 별도로 확정한 새 쪽 규칙은 유지한다.
++(2026-09-26 사용자 지시로 대체: 미니 모의고사 매회 공유 장문 세트는 항상 새 쪽에서 시작한다. 아래 절 참조.) 공유 장문 세트라는 이유만으로 새 페이지를 강제하지 않는다. 앞 문제 뒤의 남은 공간에 공유 지문과 연결된 두 문항·선지 전체가 기존 글자·행간과 문항 사이24.7pt 간격을 유지한 채 들어가면 같은 페이지에 이어 배치한다. 현재 쪽에서 세트가 갈라지고 새 한 쪽에는 전부 들어갈 때는 세트 전체를 다음 쪽으로 옮긴다. 실제 Word 관찰을 `layout_adjustments`의 `passage_group` 이동으로 기록하고 자식 문항만 따로 이동하지 않는다. 새 한 쪽에도 들어가지 않으면 글자·행간·여백을 줄이지 말고 실제 길이와 가능한 배치를 사용자에게 보고해 판단받는다. 약2문항/쪽은 고정 수용량이 아니며, 일반1문항과 장문2문항이 함께 놓여도 된다. 장문 안내 제목은 지문 첫 부분과 연결하고 문제·선지는 자연스러운 묶음을 유지한다. 실제 Word에서 잘림·고립·과밀 또는 큰 불필요한 빈 공간이 확인될 때만 관찰 근거를 남겨 쪽 나눔을 조정한다. 회차 시작·분석지 구분 등 별도로 확정한 새 쪽 규칙은 유지한다.
+ 
+ 
+ ## 2026-09-24 워크북 낱말 크기와 해석 활동 쪽 구분
+@@ -275,3 +275,10 @@
+ 독립 p.p. 낱말 힌트의 최신 좁은 예외는 `held — 개최된`의 held와 개최된 전체를 대응 강조하는 것이다. `participle_focus_gloss_id`와 실제 강조 위치를 연결하며 by/without V-ing나 다른 문법으로 확대하지 않는다. 자세한 기준은 `analysis-content.md`와 `manuscript-data.md`를 따른다.
+ 
+ S/V의 긴 명사구 주어는 검토된 subject_display_spans로 한정사·앞수식어·중심명사만 표시할 수 있으나 7.5pt 및 기존 글꼴·간격은 유지한다. 내부 전체 주어·절 연결은 보존하고 문법 예외와 필드 계약은 analysis-content.md·manuscript-data.md를 따른다.
++
++## 2026-09-26 사용자 지시 반영(영어2 능률(오) 2과 작업 중 결정)
++
++- 미니 모의고사 매회 마지막 공유 장문 세트(`[n~m] 다음 글을 읽고 물음에 답하시오.`)는 앞 문항 뒤 남은 공간과 관계없이 항상 새 쪽에서 시작한다. `book_plan.py`가 장문 안내 문단에 page_break_before를 적용하며, 별도 Word 관찰 layout_adjustments가 필요하지 않다.
++- 워크북 실전문제·미니 모의고사 발문의 부정어 `않는`·`않은`·`없는`에 밑줄을 긋는다(예: 일치하지 <u>않는</u> 것은, 적절하지 <u>않은</u> 것은, 관계 <u>없는</u> 문장은). 발문 역할의 기존 밑줄 허용 서식을 쓰며 함축 의미 발문의 표적 밑줄과 함께 적용한다.
++- 워크북 5번 핵심 문장 다시 해석하기의 `나의 해석` 답안선은 문장마다 2줄이다.
++- 해석지 공통 안내의 `기호` 줄 끝에 `★핵심 워크북에서 다시 해석할 핵심 문장`을 추가한다.
+diff -ru --label 원본 --label 사본 -x common-test-results.json "\354\233\220\353\263\270" "\354\202\254\353\263\270"
+--- 원본
++++ 사본
+@@ -177,11 +177,26 @@
+     return paragraphs
+ 
+ 
++NEGATIVE_PROMPT_WORDS = ('않는', '않은', '없는')  # 2026-09-26 사용자 지시: 발문의 부정어에 밑줄
++
++
++def negative_runs(text, lead=''):
++    """발문 속 부정어(않는·않은·없는)만 밑줄 런으로 나눈다."""
++    runs, pos = [], 0
++    pattern = re.compile('|'.join(NEGATIVE_PROMPT_WORDS))
++    for m in pattern.finditer(text):
++        runs.append(r(0, (lead if pos == 0 else '') + text[pos:m.start()]))
++        runs.append(r(0, m.group(), underline=True))
++        pos = m.end()
++    runs.append(r(0, (lead if pos == 0 else '') + text[pos:]))
++    return [x for x in runs if x['text']]
++
++
+ def prompt_runs(q):
+     prefix = f'{q["number"]}.  '
+     value = q['question']
+     if q['type'] != '함축 의미':
+-        return [r(0, prefix + value)]
++        return negative_runs(value, prefix)
+     target = q['target']
+     # An explicit span disambiguates repeated target text in a prompt.
+     marks = q.get('prompt_underlines')
+@@ -192,7 +207,7 @@
+             or not 0 <= span[0] < span[1] <= len(value) or value[slice(*span)] != target):
+         raise ValueError('Meaning prompt target span differs from the passage expression')
+     start, end = span
+-    return [r(0, prefix + value[:start]), r(0, value[start:end], underline=True), r(0, value[end:])]
++    return negative_runs(value[:start], prefix) + [r(0, value[start:end], underline=True)] + negative_runs(value[end:])
+ 
+ 
+ def question_elements(q, view, source_label, scope='mock', *, include_passage=True, spaced=False):
+@@ -454,6 +469,10 @@
+         for i,sid in enumerate(wb['key_sentence_ids'],1):
+             workbook += [p('workbook_key_sentence',[r(0,f'{i}.   '),r(1,sentences[(src,sid)]['text'])],anchor='key/'+sid),
+                          p('workbook_key_answer_label','나의 해석  '),
++                         # 2026-09-26 사용자 결정: 두 줄 해석을 쓸 수 있도록 답안선 2줄
++                         # 같은 테두리 문단이 이어지면 한 줄로 합쳐지므로 두 답안선 사이에 테두리 없는 간격 문단을 둔다.
++                         {'role':'workbook_key_answer_space','chain':True},
++                         {'role':'workbook_question_gap','chain':True},
+                          {'role':'workbook_key_answer_space','chain':i<len(wb['key_sentence_ids'])}]
+         block(uid + '/workbook',workbook)
+     if scope=='learning':
+@@ -476,9 +495,10 @@
+             if gid and gid not in printed_groups:
+                 shared = group_records[gid]
+                 child_numbers = [questions[qid]['number'] for qid in shared['question_ids']]
+-                els.append(p('mock_question_prompt_spaced' if index > 0 else 'mock_question_prompt',
++                # 2026-09-26 사용자 지시: 매회 공유 장문(마지막 두 문항) 세트는 항상 새 쪽에서 시작한다.
++                els.append(p('mock_question_prompt',
+                              f'[{child_numbers[0]}~{child_numbers[-1]}] 다음 글을 읽고 물음에 답하시오.',
+-                             page_break_before=False, chain=True, anchor='passage_group/' + gid))
++                             page_break_before=True, chain=True, anchor='passage_group/' + gid))
+                 shared_view = validation['passage_group_views'][gid]
+                 els += passage_elements({**shared_view, 'preserve_paragraphs': True}, 'mock_question_passage')
+                 printed_groups.add(gid)
+diff -ru --label 원본 --label 사본 -x common-test-results.json "\354\233\220\353\263\270" "\354\202\254\353\263\270"
+--- 원본
++++ 사본
+@@ -12,6 +12,9 @@
+ Only has is appended to the source form for display; the source is unchanged.
+ An optional reviewed noun-phrase-answer record permits an explicitly empty
+ clause list and returns an empty string: consumers omit the whole S/V row.
++The verbless-fragment kind (2026-09-28 user decision, 공통영어2 YBM(박) 2과:
++“S/V 줄 빼기 + 스킬 사본 보완”) uses the same record and context contract for a
++reviewed sentence with no finite verb that is not an answer (e.g. Lucky!).
+ This standalone helper checks the review record and original-text hash only;
+ the manuscript checker binds its context to the preceding source sentence.
+ """
+@@ -120,10 +123,13 @@
+     return ' '.join(parts)
+ 
+ 
++SV_REVIEW_KINDS = ('noun-phrase-answer', 'verbless-fragment')
++
++
+ def validate_sv_review(original, clauses, review):
+     """Validate explicit omission evidence without inferring English grammar."""
+-    if not isinstance(review, dict) or review.get('kind') != 'noun-phrase-answer':
+-        raise ValueError('Unsupported sv_review kind; expected noun-phrase-answer')
++    if not isinstance(review, dict) or review.get('kind') not in SV_REVIEW_KINDS:
++        raise ValueError('Unsupported sv_review kind; expected noun-phrase-answer or verbless-fragment')
+     if review.get('reviewed') is not True:
+         raise ValueError('sv_review requires reviewed: true')
+     for field in ['reason', 'context_sentence_id']:
+@@ -136,7 +142,7 @@
+     if review['source_text_sha256'] != hashlib.sha256(original.encode('utf-8')).hexdigest():
+         raise ValueError('sv_review source_text_sha256 differs from the original sentence')
+     if not isinstance(clauses, list) or clauses != []:
+-        raise ValueError('Reviewed noun-phrase answer requires explicit clauses: []')
++        raise ValueError('Reviewed verbless sentence requires explicit clauses: []')
+ 
+ 
+ def render_sv(original, clauses, sv_review=None):
+diff -ru --label 원본 --label 사본 -x common-test-results.json "\354\233\220\353\263\270" "\354\202\254\353\263\270"
+--- 원본
++++ 사본
+@@ -5,20 +5,20 @@
+ import sys
+ import uuid
+ from copy import deepcopy
+-from pathlib import Path
+-import unittest
+-
+-MODULE = Path(__file__).parent / '../scripts/sv_line.py'
+-spec = importlib.util.spec_from_file_location('sv_line', MODULE)
+-module = importlib.util.module_from_spec(spec)
+-spec.loader.exec_module(module)
+-
+-
+-def span(text, fragment):
+-    start = text.index(fragment)
+-    return [[start, start + len(fragment)]]
+-
+-
++from pathlib import Path
++import unittest
++
++MODULE = Path(__file__).parent / '../scripts/sv_line.py'
++spec = importlib.util.spec_from_file_location('sv_line', MODULE)
++module = importlib.util.module_from_spec(spec)
++spec.loader.exec_module(module)
++
++
++def span(text, fragment):
++    start = text.index(fragment)
++    return [[start, start + len(fragment)]]
++
++
+ class SVLineTests(unittest.TestCase):
+     def noun_phrase_review(self, original):
+         return {'kind': 'noun-phrase-answer', 'reviewed': True,
+@@ -36,6 +36,15 @@
+         self.assertEqual(module.render_sv(original, [], review), '')
+         self.assertEqual(review, before)
+ 
++    def test_reviewed_verbless_fragment_omits_entire_line(self):
++        # 2026-09-28 사용자 결정(공통영어2 YBM(박) 2과): 동사 없는 감탄·조각문도 S/V 줄 전체 생략.
++        original = 'Lucky!'
++        review = dict(self.noun_phrase_review(original), kind='verbless-fragment',
++                      reason='Exclamation with no finite verb after the preceding sentence.')
++        self.assertEqual(module.render_sv(original, [], review), '')
++        with self.assertRaisesRegex(ValueError, 'explicit clauses'):
++            module.render_sv(original, [{'kind': 'main'}], review)
++
+     def test_empty_or_missing_clauses_without_review_remain_errors(self):
+         for clauses in [[], None]:
+             with self.subTest(clauses=clauses), self.assertRaisesRegex(ValueError, 'clause records'):
+@@ -86,100 +95,100 @@
+                 'subject_display_review': 'Reviewed basic noun phrase; trailing postmodifier omitted only in S display.',
+                 'verb_spans': span(text, verb)}
+ 
+-    def contracted(self, text, verb, expanded=None, kind='main'):
+-        apostrophe = '’s' if '’s' in text else "'s"
+-        clause = {'kind': kind, 'start': 0, 'subject_spans': span(text, 'It'),
+-                  'verb_spans': span(text, verb)}
+-        if expanded is not None:
+-            clause['contraction_readings'] = [{'span': span(text, apostrophe)[0], 'expanded': expanded}]
+-        return clause
+-
+-    def test_contracted_is_keeps_original_form(self):
+-        text = "It's clear."
+-        self.assertEqual(module.render_sv(text, [self.contracted(text, "'s", 'is')]), "S: It, V: 's")
+-
+-    def test_contracted_has_is_annotated(self):
+-        text = "It's changed."
+-        self.assertEqual(module.render_sv(text, [self.contracted(text, "'s changed", 'has')]),
+-                         "S: It, V: 's(has) changed")
+-
+-    def test_curly_apostrophe_preserved_in_has(self):
+-        text = 'It’s been repaired.'
+-        self.assertEqual(module.render_sv(text, [self.contracted(text, '’s been repaired', 'has')]),
+-                         'S: It, V: ’s(has) been repaired')
+-
+-    def test_same_surface_can_be_passive_is(self):
+-        text = "It's repaired every year."
+-        self.assertEqual(module.render_sv(text, [self.contracted(text, "'s repaired", 'is')]),
+-                         "S: It, V: 's repaired")
+-
+-    def test_unreviewed_contraction_not_silently_assumed_is(self):
+-        text = "It's changed."
+-        with self.assertRaisesRegex(ValueError, 'reviewed is/has'):
+-            module.render_sv(text, [self.contracted(text, "'s changed")])
+-
+-    def test_annotation_outside_verb_rejected(self):
+-        text = "It's changed."
+-        clause = self.contracted(text, "'s changed", 'has')
+-        clause['contraction_readings'][0]['span'] = [0, 2]
+-        with self.assertRaisesRegex(ValueError, 'actual verb contraction'):
+-            module.render_sv(text, [clause])
+-
+-    def test_subordinate_has_uses_same_annotation(self):
+-        text = "It seems that she’s finished."
+-        clauses = [
+-            {'kind': 'main', 'start': 0, 'subject_spans': span(text, 'It'), 'verb_spans': span(text, 'seems')},
+-            {'kind': 'subordinate', 'start': 9, 'marker': 'that', 'subject_spans': span(text, 'she'),
+-             'verb_spans': span(text, '’s finished'),
+-             'contraction_readings': [{'span': span(text, '’s')[0], 'expanded': 'has'}]},
+-        ]
+-        self.assertEqual(module.render_sv(text, clauses),
+-                         'S: It, V: seems ／ [that] S′: she, V′: ’s(has) finished')
+-
+-    def test_imperative_no_invented_you(self):
+-        text = 'Open the door.'
+-        self.assertEqual(module.render_sv(text, [
+-            {'kind': 'imperative', 'start': 0, 'verb_spans': span(text, 'Open')}
+-        ]), 'V: Open')
+-
+-    def test_subject_relative_has_v_prime_only(self):
+-        text = 'The boy who smiled left.'
+-        result = module.render_sv(text, [
+-            {'kind': 'main', 'start': 0, 'subject_spans': span(text, 'The boy who smiled'),
+-             'verb_spans': span(text, 'left')},
+-            {'kind': 'subject_relative', 'start': 8, 'marker': 'who',
+-             'verb_spans': span(text, 'smiled')},
+-        ])
+-        self.assertEqual(result, 'S: The boy who smiled, V: left ／ [who] V′: smiled')
+-
+-    def test_object_relative_displays_explicit_subject(self):
+-        text = 'The book that Mina read disappeared.'
+-        result = module.render_sv(text, [
+-            {'kind': 'main', 'start': 0, 'subject_spans': span(text, 'The book that Mina read'),
+-             'verb_spans': span(text, 'disappeared')},
+-            {'kind': 'subordinate', 'start': 9, 'marker': 'that',
+-             'subject_spans': span(text, 'Mina'), 'verb_spans': span(text, 'read')},
+-        ])
+-        self.assertIn('[that] S′: Mina, V′: read', result)
+-
+-    def test_initial_subordinate_keeps_source_order(self):
+-        text = 'When Mina arrived, Joon smiled.'
+-        result = module.render_sv(text, [
+-            {'kind': 'main', 'start': 19, 'subject_spans': span(text, 'Joon'),
+-             'verb_spans': span(text, 'smiled')},
+-            {'kind': 'subordinate', 'start': 0, 'marker': 'When',
+-             'subject_spans': span(text, 'Mina'), 'verb_spans': span(text, 'arrived')},
+-        ])
+-        self.assertEqual(result, '[When] S′: Mina, V′: arrived ／ S: Joon, V: smiled')
+-
++    def contracted(self, text, verb, expanded=None, kind='main'):
++        apostrophe = '’s' if '’s' in text else "'s"
++        clause = {'kind': kind, 'start': 0, 'subject_spans': span(text, 'It'),
++                  'verb_spans': span(text, verb)}
++        if expanded is not None:
++            clause['contraction_readings'] = [{'span': span(text, apostrophe)[0], 'expanded': expanded}]
++        return clause
++
++    def test_contracted_is_keeps_original_form(self):
++        text = "It's clear."
++        self.assertEqual(module.render_sv(text, [self.contracted(text, "'s", 'is')]), "S: It, V: 's")
++
++    def test_contracted_has_is_annotated(self):
++        text = "It's changed."
++        self.assertEqual(module.render_sv(text, [self.contracted(text, "'s changed", 'has')]),
++                         "S: It, V: 's(has) changed")
++
++    def test_curly_apostrophe_preserved_in_has(self):
++        text = 'It’s been repaired.'
++        self.assertEqual(module.render_sv(text, [self.contracted(text, '’s been repaired', 'has')]),
++                         'S: It, V: ’s(has) been repaired')
++
++    def test_same_surface_can_be_passive_is(self):
++        text = "It's repaired every year."
++        self.assertEqual(module.render_sv(text, [self.contracted(text, "'s repaired", 'is')]),
++                         "S: It, V: 's repaired")
++
++    def test_unreviewed_contraction_not_silently_assumed_is(self):
++        text = "It's changed."
++        with self.assertRaisesRegex(ValueError, 'reviewed is/has'):
++            module.render_sv(text, [self.contracted(text, "'s changed")])
++
++    def test_annotation_outside_verb_rejected(self):
++        text = "It's changed."
++        clause = self.contracted(text, "'s changed", 'has')
++        clause['contraction_readings'][0]['span'] = [0, 2]
++        with self.assertRaisesRegex(ValueError, 'actual verb contraction'):
++            module.render_sv(text, [clause])
++
++    def test_subordinate_has_uses_same_annotation(self):
++        text = "It seems that she’s finished."
++        clauses = [
++            {'kind': 'main', 'start': 0, 'subject_spans': span(text, 'It'), 'verb_spans': span(text, 'seems')},
++            {'kind': 'subordinate', 'start': 9, 'marker': 'that', 'subject_spans': span(text, 'she'),
++             'verb_spans': span(text, '’s finished'),
++             'contraction_readings': [{'span': span(text, '’s')[0], 'expanded': 'has'}]},
++        ]
++        self.assertEqual(module.render_sv(text, clauses),
++                         'S: It, V: seems ／ [that] S′: she, V′: ’s(has) finished')
++
++    def test_imperative_no_invented_you(self):
++        text = 'Open the door.'
++        self.assertEqual(module.render_sv(text, [
++            {'kind': 'imperative', 'start': 0, 'verb_spans': span(text, 'Open')}
++        ]), 'V: Open')
++
++    def test_subject_relative_has_v_prime_only(self):
++        text = 'The boy who smiled left.'
++        result = module.render_sv(text, [
++            {'kind': 'main', 'start': 0, 'subject_spans': span(text, 'The boy who smiled'),
++             'verb_spans': span(text, 'left')},
++            {'kind': 'subject_relative', 'start': 8, 'marker': 'who',
++             'verb_spans': span(text, 'smiled')},
++        ])
++        self.assertEqual(result, 'S: The boy who smiled, V: left ／ [who] V′: smiled')
++
++    def test_object_relative_displays_explicit_subject(self):
++        text = 'The book that Mina read disappeared.'
++        result = module.render_sv(text, [
++            {'kind': 'main', 'start': 0, 'subject_spans': span(text, 'The book that Mina read'),
++             'verb_spans': span(text, 'disappeared')},
++            {'kind': 'subordinate', 'start': 9, 'marker': 'that',
++             'subject_spans': span(text, 'Mina'), 'verb_spans': span(text, 'read')},
++        ])
++        self.assertIn('[that] S′: Mina, V′: read', result)
++
++    def test_initial_subordinate_keeps_source_order(self):
++        text = 'When Mina arrived, Joon smiled.'
++        result = module.render_sv(text, [
++            {'kind': 'main', 'start': 19, 'subject_spans': span(text, 'Joon'),
++             'verb_spans': span(text, 'smiled')},
++            {'kind': 'subordinate', 'start': 0, 'marker': 'When',
++             'subject_spans': span(text, 'Mina'), 'verb_spans': span(text, 'arrived')},
++        ])
++        self.assertEqual(result, '[When] S′: Mina, V′: arrived ／ S: Joon, V: smiled')
++
+     def test_all_head_exception_with_omitted_relative(self):
+-        text = 'All you need is love.'
+-        result = module.render_sv(text, [
+-            {'kind': 'main', 'start': 0, 'subject_spans': span(text, 'All'),
+-             'verb_spans': span(text, 'is')},
+-            {'kind': 'subordinate', 'start': 4, 'marker': 'that', 'omitted_marker': True,
+-             'subject_spans': span(text, 'you'), 'verb_spans': span(text, 'need')},
+-        ])
++        text = 'All you need is love.'
++        result = module.render_sv(text, [
++            {'kind': 'main', 'start': 0, 'subject_spans': span(text, 'All'),
++             'verb_spans': span(text, 'is')},
++            {'kind': 'subordinate', 'start': 4, 'marker': 'that', 'omitted_marker': True,
++             'subject_spans': span(text, 'you'), 'verb_spans': span(text, 'need')},
++        ])
+         self.assertEqual(result, 'S: All, V: is ／ [(that)] S′: you, V′: need')
+ 
+     def test_reviewed_subject_prefix_retains_full_range_and_omitted_relative(self):
+@@ -295,31 +304,31 @@
+                   'subject_display_review': 'Invalid attempt to create a subject.'}
+         with self.assertRaisesRegex(ValueError, 'one complete source span'):
+             module.render_sv(text, [clause])
+-
+-    def test_relative_subject_duplicate_rejected(self):
+-        text = 'The boy who smiled left.'
+-        with self.assertRaisesRegex(ValueError, 'V′ only'):
+-            module.render_sv(text, [{'kind': 'subject_relative', 'start': 8, 'marker': 'who',
+-                                   'subject_spans': span(text, 'who'),
+-                                   'verb_spans': span(text, 'smiled')}])
+-
+-    def test_bracketed_main_label_rejected(self):
+-        text = 'Mina smiled.'
+-        with self.assertRaisesRegex(ValueError, '주절'):
+-            module.render_sv(text, [{'kind': 'main', 'start': 0, 'marker': '주절',
+-                                   'subject_spans': span(text, 'Mina'),
+-                                   'verb_spans': span(text, 'smiled')}])
+-
++
++    def test_relative_subject_duplicate_rejected(self):
++        text = 'The boy who smiled left.'
++        with self.assertRaisesRegex(ValueError, 'V′ only'):
++            module.render_sv(text, [{'kind': 'subject_relative', 'start': 8, 'marker': 'who',
++                                   'subject_spans': span(text, 'who'),
++                                   'verb_spans': span(text, 'smiled')}])
++
++    def test_bracketed_main_label_rejected(self):
++        text = 'Mina smiled.'
++        with self.assertRaisesRegex(ValueError, '주절'):
++            module.render_sv(text, [{'kind': 'main', 'start': 0, 'marker': '주절',
++                                   'subject_spans': span(text, 'Mina'),
++                                   'verb_spans': span(text, 'smiled')}])
++
+     def test_nested_coordinated_subordinate_can_keep_prime(self):
+-        text = 'I know that Mina left and Joon stayed.'
+-        result = module.render_sv(text, [
+-            {'kind': 'main', 'start': 0, 'subject_spans': span(text, 'I'),
+-             'verb_spans': span(text, 'know')},
+-            {'kind': 'subordinate', 'start': 7, 'marker': 'that',
+-             'subject_spans': span(text, 'Mina'), 'verb_spans': span(text, 'left')},
+-            {'kind': 'subordinate', 'start': 21, 'marker': 'and',
+-             'subject_spans': span(text, 'Joon'), 'verb_spans': span(text, 'stayed')},
+-        ])
++        text = 'I know that Mina left and Joon stayed.'
++        result = module.render_sv(text, [
++            {'kind': 'main', 'start': 0, 'subject_spans': span(text, 'I'),
++             'verb_spans': span(text, 'know')},
++            {'kind': 'subordinate', 'start': 7, 'marker': 'that',
++             'subject_spans': span(text, 'Mina'), 'verb_spans': span(text, 'left')},
++            {'kind': 'subordinate', 'start': 21, 'marker': 'and',
++             'subject_spans': span(text, 'Joon'), 'verb_spans': span(text, 'stayed')},
++        ])
+         self.assertIn('[and] S′: Joon, V′: stayed', result)
+ 
+     def test_reviewed_unit03_parallel_verbs_retain_source_connectors(self):
+@@ -381,7 +390,7 @@
+             with self.subTest(text=text):
+                 self.assertEqual(module.render_sv(text, [clause]),
+                                  f'S: {subject}, V: {" ".join(verbs)}')
+-
+-
+-if __name__ == '__main__':
+-    unittest.main()
++
++
++if __name__ == '__main__':
++    unittest.main()
