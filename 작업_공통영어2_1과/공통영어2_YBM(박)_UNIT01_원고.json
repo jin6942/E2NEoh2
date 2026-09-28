@@ -23139,7 +23139,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "From Critic to Spreader: How Anyone Can Pass On Fake News"
+      "text": "From Critic to Spreader: Even Critics of Fake News Can Spread It"
      },
      {
       "number": 2,
@@ -24383,7 +24383,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "From Critic to Spreader: How Anyone Can Pass On Fake News"
+      "text": "From Critic to Spreader: Even Critics of Fake News Can Spread It"
      },
      {
       "number": 2,
@@ -24404,7 +24404,7 @@
     ],
     "answer": 1,
     "evidence": "At that time, Gina criticized those who had made and spread fake news … This time, however, Gina herself had accidentally contributed to the spread of fake news. Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual.",
-    "explanation": "가짜 뉴스를 비판하던 지나가 뜻하지 않게 가짜 뉴스를 퍼뜨린 경험을 소개하고, 이런 일이 드물지 않으며 가짜 뉴스가 사람들과 사회에 큰 해를 끼칠 수 있다고 설명한다. 따라서 ①이 제목으로 가장 적절하다.",
+    "explanation": "가짜 뉴스를 비판하던 지나가 뜻하지 않게 가짜 뉴스를 퍼뜨린 경험을 소개하고, 지나처럼 뜻하지 않게 가짜 뉴스를 퍼뜨리는 일이 드물지 않으며 가짜 뉴스가 사람들과 사회에 큰 해를 끼칠 수 있다고 설명한다. 따라서 ①이 제목으로 가장 적절하다.",
     "wrong_reasons": [
      {
       "number": 2,
@@ -24426,7 +24426,7 @@
     "choices_ko": [
      {
       "number": 1,
-      "text": "비판자에서 유포자로: 누구나 가짜 뉴스를 퍼뜨릴 수 있는 방식"
+      "text": "비판자에서 유포자로: 가짜 뉴스를 비판하는 사람도 그것을 퍼뜨릴 수 있다"
      },
      {
       "number": 2,
