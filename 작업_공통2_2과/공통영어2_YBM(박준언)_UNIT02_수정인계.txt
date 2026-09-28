@@ -7,7 +7,7 @@
 [공통 스킬] 작업_공통2_2과/스킬수정본/gyogwaseo-unified(최신 스킬 + 9/26 승인 4건, 2026-09-28 사용자 선택). 이 교재용 추가: 동사 없는 문장(verbless-fragment) 지원, 승인 예외 기록(approved-exceptions.md 끝 두 절)
 [진행 방식] 제작·검수 1~6단계를 이 세션이 모두 수행. 독립 검수는 제작 맥락을 공유하지 않는 서브에이전트(L-a~L-d, L-재검, L-재검2, M·N, J·K). S·R은 기계 대조(독립 아님으로 기록).
 
-[현재 단계] 5·6단계(J·K 조판 검수) 진행 중 — 문제 FINAL 확정(2026-09-28)
+[현재 단계] 최종 출고 파일 준비 완료(2026-09-28) — 전달 ZIP 결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과.zip. verify_release REVIEW_PENDING(오류 0, Word 렌더·Word 조판 검수·독립 R 남음)
 [통합 DOCX] 결과물_공통2_2과/혼공독해교재_공통영어2_YBM(박)_2과_전체통합본.docx (SHA256 1071d663…, full patch 후 저장본 검사 SAVED_CONTENT_MATCH·format PASS, 검사기록/05_full_*)
 [원고] 작업_공통2_2과/공통영어2_YBM(박)_UNIT02_원고.json (full, SHA256 86334bd1…; 작성 모듈 u1~u5.py·assessment_data.py → make_manuscript.py full)
 [학습 QC] 공통영어2_YBM(박준언)_UNIT02_QC_HANDOFF.txt (보존)
@@ -20,8 +20,8 @@
 | 부분 | 제작 | 독립 검수 | DOCX 반영 |
 | 해석지·분석지(5단위·74문장) | 완료 | 완료(S·L 68건+재검 6건+재검2 2건 처리) | 반영(저장본 PASS) |
 | 워크북·문제·해설(20문항) | 완료 | 완료(M·N 블라인드 20/20 일치, 지적 처리, 재검증) | 반영(저장본 PASS) |
-| 조판 | 완료 | J·K(LibreOffice 예비) 진행 중 · Word 미실시 | — |
-| 출고 | 미실시 | — | — |
+| 조판 | 완료 | J·K(LibreOffice 예비) 완료(오류 0) · Word 미실시 | — |
+| 출고(분권·ZIP) | 완료(split verify PASS) | R 기계 대조 PASS · 독립 R·Word 미실시 | 결과물_공통2_2과/출고/ |
 
 [사용자 결정(2026-09-28)]
   ① 새 스킬로 새로 제작, 5단위(작품 소개 합침), FR 제외, 조판 기준 최신 스킬+9/26 승인 4건
@@ -58,4 +58,5 @@
 [워크북 유반 사용]
   Q01 necessities·luxuries·quiet·normal / Q02 courtesy×2·rudeness·full·worthless / Q03 discovered·filled×2·disregarded / Q04 finest·worst·easy / Q05 playful·earnest·restarts·decline
 
-[다음 조치] J/K 반영 → R(출고 대조) → 분권 5개·ZIP → 출고검수·verify
+[다음 조치] Word에서 통합본을 열어 출고검수.txt의 [Word 확인 대기 목록] 확인 → 넘침이 있으면 승인된 compact 프로필 적용 검토 → Word 렌더 기록·J/K·독립 R 후 verify_release 재실행
+[출고 관련 기록] 출고검수.txt, 수정이력.txt, 출고기록/, 검사기록/05_*·06_*, 스킬수정_2026-09-28.patch

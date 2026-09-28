@@ -1,0 +1,23 @@
+{
+ "id": "UNIT02-S-source-2026-09-28",
+ "kind": "source",
+ "status": "PASS",
+ "reviewer_id": "claude-session_01E2Ji6oqzJY84iXPZFpFMCt-S",
+ "execution_id": "session_01E2Ji6oqzJY84iXPZFpFMCt/stage2-S",
+ "independent": false,
+ "independence_note": "제작 세션이 기계 대조로 수행(독립 검수자 아님). 판정은 결정적 문자 대조에 근거.",
+ "performed_at": "2026-09-28T13:30:00Z",
+ "method": "pypdfium2 텍스트층에서 1~3쪽 영어 본문 추출·공백 정규화 → 원고 74문장을 단락 순서대로 이은 문자열과 글자 단위 비교, 단락 시작은 문장 첫 글자 x좌표로 32개 단락 대조(검수기록/2단계_S_원문대조.json)",
+ "summary": "74문장 글자 단위 일치(곡선 따옴표·대시·* 포함), 단락 p01~p32 시작 일치. 4쪽 Further Reading은 사용자 결정으로 제외.",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ]
+ },
+ "bindings": {
+  "package_sha256": "c965a7d5ce04c997f8217597dc48e0a5e306d789b146eca4e281b6e913bd4097",
+  "source_content_sha256": "1d5a56f09df28d02a8e8f52badad371371aa5bb0c69cd4bfc461cdda185e1874"
+ },
+ "findings": []
+}

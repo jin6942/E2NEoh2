@@ -1,0 +1,563 @@
+{
+ "id": "UNIT02-L-learning-2026-09-28",
+ "kind": "learning",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "subagents-L-a_L-b_L-c_L-d_L-recheck_L-recheck2",
+ "execution_id": "session_01E2Ji6oqzJY84iXPZFpFMCt/stage2-L",
+ "performed_at": "2026-09-28T15:30:00Z",
+ "method": "단위별 L 4명(u1/u2/u3+u4/u5)이 원문 PDF·스킬 규칙과 대조해 전 문장 검수 → 제작 세션이 규칙 대조·사용자 결정 4건 반영 → L-재검(변경 경로 195개 전수 대조) → 새 지적 6건 반영 → L-재검2 → 2건 반영 → check_learning_content·check_book PASS",
+ "summary": "1차 68건(오류 23·개선 45) 전건 처리(Lc-06 부분 → LR-01로 해결), 재검 6건·재검2 2건 반영. 사용자 결정: 인명 영어 유지, then 예외(s35·s70), s72 V′ has, 연결동사 보어 표시(s07·s36, 같은 구조 s74 적용 보고).",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4",
+   "u5"
+  ]
+ },
+ "findings": [
+  {
+   "id": "La-01",
+   "description": "La-01",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-02",
+   "description": "La-02",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-03",
+   "description": "La-03",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-04",
+   "description": "La-04",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-05",
+   "description": "La-05",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-06",
+   "description": "La-06",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-07",
+   "description": "La-07",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-08",
+   "description": "La-08",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-09",
+   "description": "La-09",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "La-10",
+   "description": "La-10",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-01",
+   "description": "Lb-01",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-02",
+   "description": "Lb-02",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-03",
+   "description": "Lb-03",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-04",
+   "description": "Lb-04",
+   "status": "resolved",
+   "resolution": "사용자 결정(2026-09-28): then 유지, s35·s70만 승인 예외로 기록(approved-exceptions.md 사본)",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-05",
+   "description": "Lb-05",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-06",
+   "description": "Lb-06",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-07",
+   "description": "Lb-07",
+   "status": "resolved",
+   "resolution": "사용자 결정(2026-09-28): 연결동사 get·become에도 최소 보어 표시 허용, 현행 유지(s07·s36)",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-08",
+   "description": "Lb-08",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-09",
+   "description": "Lb-09",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-10",
+   "description": "Lb-10",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-11",
+   "description": "Lb-11",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-12",
+   "description": "Lb-12",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-13",
+   "description": "Lb-13",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-14",
+   "description": "Lb-14",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-15",
+   "description": "Lb-15",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lb-16",
+   "description": "Lb-16",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-01",
+   "description": "Lc-01",
+   "status": "resolved",
+   "resolution": "반영(변형): s37 frozen은 ‘냉동식품(의)’로 고치고 뜻이 달라 ★ 제거, 오늘의 낱말 frozen의 ★는 s39로",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-02",
+   "description": "Lc-02",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-03",
+   "description": "Lc-03",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-04",
+   "description": "Lc-04",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-05",
+   "description": "Lc-05",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-06",
+   "description": "Lc-06",
+   "status": "resolved",
+   "resolution": "부분 반영(B안): 검사기가 능동 완료 원형 각주를 A/B/V 틀 없는 숙어로 합치는 것을 허용하지 않아 take(하다)·notice(주목, 알아챔)로 나누고 대입 가능한 뜻으로 수정. ★는 notice.",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-07",
+   "description": "Lc-07",
+   "status": "resolved",
+   "resolution": "B안 반영: 오늘의 낱말을 notice — 주목, 알아챔으로 변경(★ 각주·유반 표제어와 일치)",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-08",
+   "description": "Lc-08",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-09",
+   "description": "Lc-09",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-10",
+   "description": "Lc-10",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-11",
+   "description": "Lc-11",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-12",
+   "description": "Lc-12",
+   "status": "resolved",
+   "resolution": "반영: 유반 2세트를 find/discover/lose로 교체",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-13",
+   "description": "Lc-13",
+   "status": "resolved",
+   "resolution": "반영: 유의어 attention을 take와 함께 쓸 수 있는 note(주목, 주의)로 교체",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-14",
+   "description": "Lc-14",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-15",
+   "description": "Lc-15",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-16",
+   "description": "Lc-16",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-17",
+   "description": "Lc-17",
+   "status": "resolved",
+   "resolution": "반영: s58·s61 제안 고정 표현 힌트 삭제, review_record에 사유 기록",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-18",
+   "description": "Lc-18",
+   "status": "resolved",
+   "resolution": "해당 없음: Lc-17로 힌트 삭제",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-19",
+   "description": "Lc-19",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-20",
+   "description": "Lc-20",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-21",
+   "description": "Lc-21",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-22",
+   "description": "Lc-22",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-23",
+   "description": "Lc-23",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Lc-24",
+   "description": "Lc-24",
+   "status": "resolved",
+   "resolution": "반영(UR-1 A안, it = 카트 유지): 청크·힌트 ‘가득 쌓일’, 자연 해석 ‘카트가 … 가득 찰 때까지’",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-01",
+   "description": "Ld-01",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-02",
+   "description": "Ld-02",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-03",
+   "description": "Ld-03",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-04",
+   "description": "Ld-04",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-05",
+   "description": "Ld-05",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-06",
+   "description": "Ld-06",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-07",
+   "description": "Ld-07",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-08",
+   "description": "Ld-08",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-09",
+   "description": "Ld-09",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-10",
+   "description": "Ld-10",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-11",
+   "description": "Ld-11",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-12",
+   "description": "Ld-12",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-13",
+   "description": "Ld-13",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-14",
+   "description": "Ld-14",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-15",
+   "description": "Ld-15",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-16",
+   "description": "Ld-16",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-17",
+   "description": "Ld-17",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "Ld-18",
+   "description": "Ld-18",
+   "status": "resolved",
+   "resolution": "반영: 검수자 수정안대로 수정",
+   "recheck": "L-재검·L-재검2 확인 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-01",
+   "description": "LR-01",
+   "status": "resolved",
+   "resolution": "반영",
+   "recheck": "L-재검2 또는 제작 기계 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-02",
+   "description": "LR-02",
+   "status": "resolved",
+   "resolution": "반영",
+   "recheck": "L-재검2 또는 제작 기계 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-03",
+   "description": "LR-03",
+   "status": "resolved",
+   "resolution": "반영",
+   "recheck": "L-재검2 또는 제작 기계 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-04",
+   "description": "LR-04",
+   "status": "resolved",
+   "resolution": "반영",
+   "recheck": "L-재검2 또는 제작 기계 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-05",
+   "description": "LR-05",
+   "status": "resolved",
+   "resolution": "반영",
+   "recheck": "L-재검2 또는 제작 기계 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-06",
+   "description": "LR-06",
+   "status": "resolved",
+   "resolution": "반영",
+   "recheck": "L-재검2 또는 제작 기계 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR2-01",
+   "description": "LR2-01",
+   "status": "resolved",
+   "resolution": "반영",
+   "recheck": "L-재검2 또는 제작 기계 대조 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR2-02",
+   "description": "LR2-02",
+   "status": "resolved",
+   "resolution": "반영",
+   "recheck": "L-재검2 또는 제작 기계 대조 + 구조 검사 PASS"
+  }
+ ],
+ "bindings": {
+  "package_sha256": "c965a7d5ce04c997f8217597dc48e0a5e306d789b146eca4e281b6e913bd4097",
+  "learning_content_sha256": "26b37f9a51bc9b55dc57764c5f8c57ee717f1bf359c1b556094c9e797dde8f07",
+  "learning_final_sha256": "56c79bc165e857e69742d9015495fe4ac67a8d92fa508b7ffe91dddebd2e5636"
+ }
+}

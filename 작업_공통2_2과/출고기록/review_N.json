@@ -1,0 +1,105 @@
+{
+ "id": "UNIT02-Q-N-2026-09-28",
+ "kind": "questions",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "subagent-N",
+ "execution_id": "session_01E2Ji6oqzJY84iXPZFpFMCt/stage4-N",
+ "performed_at": "2026-09-28T16:30:00Z",
+ "method": "정답·해설 없는 블라인드 패킷으로 20문항 풀이·근거 저장 → 대조 패킷·문제 QC·학습 FINAL로 대조 및 담당 상세 검수(M: Q01~Q10·워크북, N: Q11~Q20·정답 분포) → 제작 반영 → 독립 재검증 → check_book PASS",
+ "summary": "블라인드 답 20/20 정답과 일치. M 지적 5건(오류 1)·N 지적 4건 처리, 재검증 새 지적 2건 반영. 20문항 모두 고1 동유형 표본 이상.",
+ "solved_before_answer_key": true,
+ "answers": {
+  "Q01": 2,
+  "Q02": 3,
+  "Q03": 4,
+  "Q04": 1,
+  "Q05": 5,
+  "Q06": 4,
+  "Q07": 2,
+  "Q08": 3,
+  "Q09": 1,
+  "Q10": 5,
+  "Q11": 2,
+  "Q12": 4,
+  "Q13": 5,
+  "Q14": 3,
+  "Q15": 1,
+  "Q16": 3,
+  "Q17": 4,
+  "Q18": 1,
+  "Q19": 2,
+  "Q20": 5
+ },
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4",
+   "u5"
+  ],
+  "question_ids": [
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06",
+   "Q07",
+   "Q08",
+   "Q09",
+   "Q10",
+   "Q11",
+   "Q12",
+   "Q13",
+   "Q14",
+   "Q15",
+   "Q16",
+   "Q17",
+   "Q18",
+   "Q19",
+   "Q20"
+  ]
+ },
+ "findings": [
+  {
+   "id": "N-01",
+   "description": "N-01",
+   "status": "resolved",
+   "resolution": "반영",
+   "recheck": "문제-재검증(4단계_문제_재검증.json) + 구조 검사 PASS"
+  },
+  {
+   "id": "N-02",
+   "description": "N-02",
+   "status": "resolved",
+   "resolution": "반영",
+   "recheck": "문제-재검증(4단계_문제_재검증.json) + 구조 검사 PASS"
+  },
+  {
+   "id": "N-03",
+   "description": "N-03",
+   "status": "resolved",
+   "resolution": "반영",
+   "recheck": "문제-재검증(4단계_문제_재검증.json) + 구조 검사 PASS"
+  },
+  {
+   "id": "N-04",
+   "description": "N-04",
+   "status": "resolved",
+   "resolution": "기록만(수정인계)",
+   "recheck": "문제-재검증(4단계_문제_재검증.json) + 구조 검사 PASS"
+  }
+ ],
+ "bindings": {
+  "package_sha256": "c965a7d5ce04c997f8217597dc48e0a5e306d789b146eca4e281b6e913bd4097",
+  "assessment_content_sha256": "9bb2d97b42dfe2d5289b2ee4c5f15577698be2a3b85bf7279fc09f824ec7243f",
+  "learning_final_sha256": "56c79bc165e857e69742d9015495fe4ac67a8d92fa508b7ffe91dddebd2e5636",
+  "assessment_final_sha256": "0538152f2dd85922729d15e5d4689a31cae526c279f76a75605d85a7e07d7a7b"
+ }
+}
