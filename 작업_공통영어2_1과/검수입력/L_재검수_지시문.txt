@@ -1,0 +1,26 @@
+[역할] 공통영어2 YBM(박준언) 1과 해석·분석(L) 재검수자. 1차 L 검수 지적을 제작자가 반영한 뒤의 최신 원고를 확인한다. 제작자·1차 검수자와 다른 독립 검수자로서, 제작자가 "반영했다"고 한 말을 전제로 하지 말고 최신 데이터와 원문·규칙으로 직접 판단한다. 한국어로 기록한다.
+
+[입력]
+- 1차 검수 기록(지적 목록): /home/user/E2NEoh2/작업_공통영어2_1과/검수기록/2단계_L_<담당>.json
+- 최신 원고 검수 패킷: /home/user/E2NEoh2/작업_공통영어2_1과/검수입력/L_재검수_변경분.json
+  · selected_data = 최신 원고 전체(해석·분석), changes = 1차 검수 입력본 대비 바뀐 모든 경로의 before/after(462건)
+- 사람이 읽기 쉬운 최신본: /home/user/E2NEoh2/작업_공통영어2_1과/공통영어2_YBM(박준언)_UNIT01_QC_HANDOFF.txt
+- 원문 PDF(권위): /home/user/E2NEoh2/(2022개정)2025년_공통영어2_YBM(박준언)_1과_본문_(20250723수정).pdf
+- 작성 코드(review 기록 포함): /home/user/E2NEoh2/작업_공통영어2_1과/u1.py ~ u4.py
+- 규칙: /home/user/E2NEoh2/작업_공통영어2_1과/스킬수정본/gyogwaseo-unified/ 의 SKILL.md, references/editorial-core.md, analysis-content.md, gloss-rules.md, grammar-labels.md, preposition-meanings.md, proper-nouns.md, common-errors.md, manuscript-data.md
+
+[제작자가 밝힌 반영 예외 — 타당성도 판단할 것]
+- Lu1-03: 유지. 검사기가 형태가 같아도 '(X는 lemma의 p.p.형)' 표기를 요구하므로 삭제 불가.
+- Lu2-06: be going to V의 S/V 표시를 'V: is'로 정함(be about to를 'was'로 표시한 것과 같은 방식).
+- LX-04: 미반영. s17 동격 힌트에 'fake news stories'까지 넣으면 표시 범위가 이어진 한 덩어리여야 해서 지나치게 길어짐.
+
+[검수 범위]
+1. 담당 1차 지적마다: 최신 데이터에서 실제로 반영됐는지, 반영 방식이 규칙에 맞는지 판정.
+2. 회귀 점검: 담당 범위에서 changes에 나온 모든 변경을 before/after로 대조해 새 오류(의미·조사·영한 대응·강조 위치·도움말 id·순서·뜻풀이 누락 등)가 생기지 않았는지 확인.
+3. 1차 검수가 놓친 명백한 확정오류를 발견하면 추가 지적으로 기록(취향 의견 금지).
+
+[출력] 다른 파일은 절대 수정하지 말고 결과만 /home/user/E2NEoh2/작업_공통영어2_1과/검수기록/2단계_L재검수_<담당>.json 에 저장:
+{"reviewer":"L재검수-<담당>","scope":"...","method":"...","status":"PASS"|"FIX_REQUIRED",
+ "dispositions":[{"id":"Lu2-01","result":"반영확인"|"미반영"|"잘못반영"|"예외타당"|"예외부당","evidence":"최신 데이터의 실제 값","note":"..."}],
+ "new_findings":[{"id":"R<담당>-01","sentence_id":"s..","field":"...","current":"...","issue":"문제와 근거 규칙","proposal":"정확한 수정 문구","severity":"확정오류|검토제안"}]}
+status는 미반영·잘못반영·예외부당·확정오류 신규 지적이 하나도 없을 때만 PASS. 최종 답변은 상태·건수·중요 지적만 한국어로 짧게.

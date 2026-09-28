@@ -60,7 +60,7 @@ q(id='Q02', set_id='workbook', number=2, unit_id='u2', type='내용', first='s11
   choices=['Spreading fake news by accident, as Gina did, is not rare.',
            'Fake news is an intentional effort to control people with incorrect information.',
            'Some groups make fake news to get attention, money, or political benefits.',
-           'It is usual for fake news to spread when there is an emergency.',
+           'During emergencies, it is usual for false stories to be widely shared.',
            'After the earthquake, the government confirmed that the tsunami messages were accurate.'],
   answer=5,
   uses=[('u2-r3a', 1, 'rare', 'rare(드문)의 뜻을 알아야 not unusual(드물지 않다)과 같은 말임을 판단할 수 있음'),
@@ -73,12 +73,12 @@ q(id='Q02', set_id='workbook', number=2, unit_id='u2', type='내용', first='s11
   choices_ko=['지나처럼 뜻하지 않게 가짜 뉴스를 퍼뜨리는 것은 드물지 않다.',
               '가짜 뉴스는 틀린 정보로 사람들을 통제하려는 의도적인 노력이다.',
               '어떤 집단들은 관심, 돈, 또는 정치적 이득을 얻으려고 가짜 뉴스를 만든다.',
-              '비상사태가 있을 때 가짜 뉴스가 퍼지는 것은 흔한 일이다.',
+              '비상사태 동안에는 거짓 이야기가 널리 공유되는 것이 흔한 일이다.',
               '지진 후에 정부는 쓰나미 메시지가 정확하다고 확인했다.'],
   wrong={1: '“becoming an accidental distributor of fake news like Gina is not unusual”과 일치한다(not unusual = not rare).',
          2: '“Fake news is a deliberate attempt to manipulate people by spreading inaccurate information.”과 일치한다.',
          3: '“with the intention of attracting people’s attention, making profits, or gaining political benefits”와 일치한다.',
-         4: '“It is very common for fake news to spread during states of emergency.”와 일치한다(common = usual).'})
+         4: '“It is very common for fake news to spread during states of emergency.”와 일치한다(very common = usual, fake news = false stories, spread = be widely shared).'})
 
 q(id='Q03', set_id='workbook', number=3, unit_id='u3', type='제목', first='s20', last='s30',
   question='다음 글의 제목으로 가장 적절한 것은?',
