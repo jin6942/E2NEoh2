@@ -87,7 +87,7 @@ q(id='Q03', set_id='workbook', number=3, unit_id='u3', type='내용', first='s37
   answer=4,
   uses=[('u3-r2s', 1, 'discovered', 'discover가 본문의 find(발견하다)와 같은 뜻임을 알아야 냉동식품 통로에서 동생을 찾았다는 본문과 일치함을 판단할 수 있음'),
         ('u3-r1s', 2, 'filled', 'filled가 packed(가득 찬)와 같은 뜻임을 알아야 얼음이 가득 든 진열장이라는 본문과 일치함을 판단할 수 있음'),
-        ('u3-r3a', 4, 'disregarded', 'disregard(무시하다)가 take notice(알아차리다)와 반대임을 알아야 다른 사람들이 알아차렸다는 본문과 어긋남을 판단할 수 있음'),
+        ('u3-r3a', 4, 'disregarded', 'disregard(무시하다)가 notice(주목, 알아챔)와 반대 뜻임을 알아야 다른 사람들이 알아차렸다는 본문과 어긋남을 판단할 수 있음'),
         ('u3-r1s', 5, 'filled', '카트를 얼음으로 채웠다(filled)는 말이 본문의 put one bag of ice after another … until it is piled와 맞는지 판단해야 함')],
   evidence='By now other people have taken notice and begin to empty the ice case.',
   explanation='앨리사와 개릿이 카트에 얼음 봉지를 가득 쌓자, 이제는 다른 사람들도 알아차리고(have taken notice) 얼음 진열장을 비우기 시작한다고 했다. 따라서 다른 쇼핑객들이 두 사람의 행동을 무시했다는 ④는 본문과 일치하지 않는다.',

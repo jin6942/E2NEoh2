@@ -140,7 +140,7 @@ def sentences(T):
     s.g('late', 'late', '늦은')
     s.brk('of', 'postnominal-preposition', 'of the store는 앞 명사 the back을 뒤에서 꾸미는 전치사구')
     s.hint('[As I approach]', '[내[Alyssa]가 다가갈 때]', span='As I approach', label='시간 접속사 as',
-           links=[(['As'], ['가', '때'])], refs=[('I', '내', '[Alyssa]')],
+           links=[(['As'], ['가', '갈 때'])], refs=[('I', '내', '[Alyssa]')],
            meaning='내가 (가게 뒤편에) 다가갈 때',
            explanation='시간의 접속사 as(~할 때). S′ I, V′ approach까지 표시하고 목적어 the back of the store는 제외.')
     s.hint('[(that) I am too late]', '[내[Alyssa]가 너무 늦었다는 것]', span='I am too late',
@@ -388,7 +388,7 @@ def sentences(T):
     aw = s.span_of('away')
     s.hint('[As her mother pulls … away]', '[그녀[Hali]의 엄마가 끌고 갈 때]', span='As her mother pulls their cart away',
            label='시간 접속사 as', display_mode='split-phrasal-verb', display_spans=[ab, aw],
-           links=[(['As'], ['가', '때'])], refs=[('her', '그녀', '[Hali]')],
+           links=[(['As'], ['가', '갈 때'])], refs=[('her', '그녀', '[Hali]')],
            meaning='그녀의 엄마가 (그들의 카트를) 끌고 갈 때',
            explanation='시간의 접속사 as(~할 때). S′ her mother, V′ pulls … away(pull A away: A를 끌고 가다)에서 사이 목적어 their cart만 생략해 표시.')
     s.review = ('문두 부사절 As her mother pulls their cart away(pull A away 분리 구동사) + 주절 Hali leans closer to me. Hali는 s30에서 제공한 고유명사 반복. '

@@ -79,5 +79,5 @@
 ### 같은 교재의 L 독립 검수 뒤 추가 결정 (2026-09-28, 이 스킬 사본에만 추가)
 
 - **then으로 이어진 병렬 동사:** s35 `She looks back …, then turns back …`, s70 `The man looks at …, then leaves.`는 and 없이 부사 then이 한 주어의 두 동사를 잇는다. 이 두 문장에 한해 V 칸에 then을 남겨 `V: looks then turns`, `V: looks then leaves`로 표시한다. then을 빼면 `looks turns`처럼 한 동사구로 보이기 때문이다. 다른 부사나 다른 교재로 확대하지 않는다.
-- **연결동사의 최소 보어:** 절 연결 힌트에서 be동사에만 허용하던 ‘뜻을 잡는 최소 보어’ 예외를 이 교재의 연결동사 get·become에도 적용한다. 대상은 s07 `[ever since people got tired]`, s36 `[before it becomes a deep flush]`이다. 보어를 빼면 ‘사람들이 된 이후로’처럼 뜻이 사라진다.
+- **연결동사의 최소 보어:** 절 연결 힌트에서 be동사에만 허용하던 ‘뜻을 잡는 최소 보어’ 예외를 이 교재의 연결동사 get·become에도 적용한다. 대상은 s07 `[ever since people got tired]`, s36 `[before it becomes a deep flush]`, s74 `[this story can become a reality]`이다(s74는 L-재검에서 같은 결정에 해당함을 확인해 추가). 보어를 빼면 ‘사람들이 된 이후로’처럼 뜻이 사라진다.
 - **그대로 두기로 한 항목:** 인명 각주는 교과서 해석처럼 영어 이름을 유지한다(`Alyssa — Alyssa (…)`). s72 `who has to make`의 S/V는 s54 need to와 같은 방식으로 `V′: has`를 유지하고, 분석 설명만 이에 맞춘다.

@@ -87,7 +87,7 @@ def sentences(T):
     # ---------------- s50 ----------------
     s = S('s50', T['s50'])
     s.ch('“Looks like', '“보아하니')
-    s.ch('you could use some help.”', '너희가 도움이 좀 필요하겠구나.”')
+    s.ch('you could use some help.”', '너희가 도움이 좀 필요한 것 같구나.”')
     s.natural('“도움이 좀 필요한 것 같구나.”')
     s.cl('imperative', 'Looks', verbs=['Looks'])
     s.cl('subordinate', 'you', subj='you', verbs=['could', 'use'], marker='like')

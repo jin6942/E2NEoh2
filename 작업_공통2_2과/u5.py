@@ -107,7 +107,7 @@ def sentences(T):
     s.g('As|long|as', 'as long as S′ V′', 'S′(이/가) V′하는 한')
     s.g('his', 'his', '그의', referent_ko='정장 차림의 남자')
     s.g('hands', 'hands', '손들')
-    f = s.g('are', 'be p.p.', '~되다', kind='function', combines_with=[])
+    f = s.g('are', 'be p.p.', '~되어 있다', kind='function', combines_with=[])
     s.g('firmly', 'firmly', '단단히, 꽉', star=W['firmly'])
     lk = s.g('locked', 'locked', '(꽉) 고정된 (흔한 뜻: 잠긴)', verb_form=pp('passive-participle', s, 'locked', 'lock', f['id']))
     link(f, lk)
@@ -291,7 +291,7 @@ def sentences(T):
     s.g('life', 'life', '생활, 삶')
     s.g('is|back|to|normal', 'be back to normal', '정상으로 돌아오다')
     s.hint('[when the water supply resumes]', '[물 공급이 재개될 때]', span='when the water supply resumes',
-           label='시간 접속사 when', links=[(['when'], ['이', '때'])], meaning='물 공급이 재개될 때',
+           label='시간 접속사 when', links=[(['when'], ['이', '될 때'])], meaning='물 공급이 재개될 때',
            explanation='when S′ V′: S′가 V′할 때. S′ the water supply, V′ resumes. and 뒤 life is back to normal도 같은 when에 걸리는 두 번째 절(생활이 정상으로 돌아올 때).')
     s.review = ('주절 Her unwanted adventure ends + when절 두 개가 and로 병렬(the water supply resumes / life is back to normal — 둘 다 when에 걸림, 뒤 절은 [and] S′·V′로 표시). '
                 'be back to normal은 be 숙어. 힌트 1개(when절). 관계사·수동 없음.')
@@ -351,7 +351,7 @@ def sentences(T):
     s.hint('it is possible that [this story can become a reality]', '[이 이야기가 현실이 될 수 있을] 가능성이 있다',
            span='it is possible that this story can become a reality', label='가주어 It과 진주어 that절',
            links=[(['that'], ['가', '을'])], meaning='이 이야기가 현실이 될 수 있을 가능성이 있다',
-           explanation='가주어 it이 뒤의 that절을 대신한다. that절 S′ this story, V′ can become에 연결동사의 최소 보어 a reality까지 표시.')
+           explanation='가주어 it이 뒤의 that절을 대신한다. that절 S′ this story, V′ can become에 연결동사의 최소 보어 a reality까지 표시(연결동사 최소 보어 표시는 2026-09-28 사용자 결정).')
     s.review = ('조건 부사절 Provided that the factors contributing to water shortages worldwide are not addressed(현재분사 후치수식, 수동 부정) '
                 '+ the factors의 예시 including climate change, population growth, and using too much water for agriculture(동명사 using 포함) '
                 '+ 주절 가주어 it is possible that this story can become a reality(It~that 끊지 않음). 힌트 2개(provided that절, 가주어–that절). '
@@ -438,13 +438,13 @@ def analysis(_):
                                       ('s74', 'worldwide'), ('s74', 'be not p.p.'), ('s74', 'addressed')],
                           'answer_ko': '전 세계적으로 물 부족의 원인이 되는 요인들이 해결되지 않는다면'}},
             {'id': 'u5-gp4', 'sentence_id': 's65', 'span': 'his hands are firmly locked',
-             'title': 'be p.p.: ~되다 (are locked: 고정되어 있다)', 'formula_key': 'be p.p.',
-             'explanation': '공식: be p.p. — ~되다. be = are(현재), p.p. = locked(고정된, lock의 p.p.형), 사이의 firmly = 단단히. '
+             'title': 'be p.p.: ~되어 있다 (are locked: 고정되어 있다)', 'formula_key': 'be p.p.',
+             'explanation': '공식: be p.p. — ~되어 있다. be = are(현재), p.p. = locked(고정된, lock의 p.p.형), 사이의 firmly = 단단히. '
                             '→ are firmly locked = 단단히 고정되어 있다. 주어 his hands가 무엇을 고정하는 것이 아니라 손잡이에 ‘고정된’ 상태이므로 수동(be p.p.)을 쓴다. 주어 his hands와 합치면 ‘그의 손이 단단히 고정되어 있다’.',
              'supplemental': {'function': ('s65', 'be p.p.', 0),
                               'reason': 's65의 수동 are firmly locked는 as long as절·to부정사 후치수식 힌트가 이미 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 be p.p. 설명이 없어 이 단위 대표 사례로 1회 보충'},
              'practice': {'span': 'his hands are firmly locked',
-                          'formula_support': {'en': 'be p.p.', 'ko': '~되다'},
+                          'formula_support': {'en': 'be p.p.', 'ko': '~되어 있다'},
                           'support': [('s65', 'his'), ('s65', 'hands'), ('s65', 'firmly'), ('s65', 'locked')],
                           'answer_ko': '그의 손이 단단히 고정되어 있다'}},
             {'id': 'u5-gp5', 'sentence_id': 's74', 'span': 'the factors contributing to water shortages worldwide are not addressed',

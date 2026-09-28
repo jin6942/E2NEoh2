@@ -1647,7 +1647,7 @@
       ],
       "title": "have p.p.: ~했다 (have taken notice: 알아챘다)",
       "formula_key": "have p.p.",
-      "explanation": "공식: have p.p. — ~했다. have = 현재완료의 조동사, p.p. = taken(take의 p.p.형; take notice = 알아차리다). → have taken notice = 알아챘다(이미 알아차린 상태). 주어 other people(다른 사람들)과 합치면 ‘다른 사람들이 알아챘다’.",
+      "explanation": "공식: have p.p. — ~했다. have = 현재완료의 조동사, p.p. = taken(take의 p.p.형, take = (주목 등을) 하다), notice = 주목(알아챔). → have taken notice = 주목을 했다, 곧 알아챘다(이미 알아차린 상태). 주어 other people(다른 사람들)과 합치면 ‘다른 사람들이 알아챘다’.",
       "supplemental": {
        "reason": "s46의 능동 완료 have taken은 take notice 숙어 속이라 결합 힌트로 선정하지 않았고, 기본 분석 3개에 have p.p. 설명이 없어 이 단위 대표 사례로 1회 보충",
        "function_gloss_id": "s46-g04"
@@ -2285,9 +2285,9 @@
        11,
        38
       ],
-      "title": "be p.p.: ~되다 (are locked: 고정되어 있다)",
+      "title": "be p.p.: ~되어 있다 (are locked: 고정되어 있다)",
       "formula_key": "be p.p.",
-      "explanation": "공식: be p.p. — ~되다. be = are(현재), p.p. = locked(고정된, lock의 p.p.형), 사이의 firmly = 단단히. → are firmly locked = 단단히 고정되어 있다. 주어 his hands가 무엇을 고정하는 것이 아니라 손잡이에 ‘고정된’ 상태이므로 수동(be p.p.)을 쓴다. 주어 his hands와 합치면 ‘그의 손이 단단히 고정되어 있다’.",
+      "explanation": "공식: be p.p. — ~되어 있다. be = are(현재), p.p. = locked(고정된, lock의 p.p.형), 사이의 firmly = 단단히. → are firmly locked = 단단히 고정되어 있다. 주어 his hands가 무엇을 고정하는 것이 아니라 손잡이에 ‘고정된’ 상태이므로 수동(be p.p.)을 쓴다. 주어 his hands와 합치면 ‘그의 손이 단단히 고정되어 있다’.",
       "supplemental": {
        "reason": "s65의 수동 are firmly locked는 as long as절·to부정사 후치수식 힌트가 이미 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 be p.p. 설명이 없어 이 단위 대표 사례로 1회 보충",
        "function_gloss_id": "s65-g04"
@@ -2299,7 +2299,7 @@
        ],
        "formula_support": {
         "en": "be p.p.",
-        "ko": "~되다"
+        "ko": "~되어 있다"
        },
        "answer_ko": "그의 손이 단단히 고정되어 있다",
        "support_gloss_ids": [
@@ -7970,7 +7970,7 @@
            11
           ],
           [
-           16,
+           14,
            17
           ]
          ]
@@ -11057,7 +11057,7 @@
            14
           ],
           [
-           20,
+           18,
            21
           ]
          ]
@@ -15206,7 +15206,7 @@
            8
           ],
           [
-           15,
+           13,
            18
           ]
          ]
@@ -15412,7 +15412,7 @@
       ]
      ],
      "headword": "take",
-     "meaning_ko": "하다 (taken은 take의 p.p.형)",
+     "meaning_ko": "(주목 등을) 하다 (흔한 뜻: 가져가다) (taken은 take의 p.p.형)",
      "star": false,
      "verb_form": {
       "usage": "perfect-participle",
@@ -16292,7 +16292,7 @@
     {
      "start": 12,
      "end": 37,
-     "ko": "너희가 도움이 좀 필요하겠구나.”"
+     "ko": "너희가 도움이 좀 필요한 것 같구나.”"
     }
    ],
    "natural_ko": "“도움이 좀 필요한 것 같구나.”",
@@ -20114,7 +20114,7 @@
       ]
      ],
      "headword": "be p.p.",
-     "meaning_ko": "~되다",
+     "meaning_ko": "~되어 있다",
      "star": false,
      "kind": "function",
      "combines_with": [
@@ -22568,7 +22568,7 @@
            6
           ],
           [
-           11,
+           9,
            12
           ]
          ]
@@ -23349,7 +23349,7 @@
       225
      ],
      "meaning_ko": "이 이야기가 현실이 될 수 있을 가능성이 있다",
-     "explanation": "가주어 it이 뒤의 that절을 대신한다. that절 S′ this story, V′ can become에 연결동사의 최소 보어 a reality까지 표시.",
+     "explanation": "가주어 it이 뒤의 that절을 대신한다. that절 S′ this story, V′ can become에 연결동사의 최소 보어 a reality까지 표시(연결동사 최소 보어 표시는 2026-09-28 사용자 결정).",
      "display_pairs": [
       {
        "en": "it is possible that [this story can become a reality]",

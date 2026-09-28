@@ -199,7 +199,7 @@ def sentences(T):
     link(fc, gt)
     s.prot('bag of', 'quantity-kind-of', '수량 표현 bag of가 뒤 명사 ice 앞에서 ‘봉지의’로 같은 어순 대응(one … after another 안의 A)', gloss=q)
     s.hint('[until it is piled]', '[그것[카트]이 가득 쌓일 때까지]', span='until it is piled', label='시간 접속사 until',
-           links=[(['until'], ['이', '때까지'])], refs=[('it', '그것', '[카트]')],
+           links=[(['until'], ['이', '일 때까지'])], refs=[('it', '그것', '[카트]')],
            meaning='그것(카트)이 (얼음으로) 가득 쌓일 때까지',
            explanation='until S′ V′: S′가 V′할 때까지. S′ it(카트), V′ is piled(가득 쌓이다, 수동)까지 표시하고 as high as 이하는 제외. 수동 is piled는 이 힌트가 있어 분석 보충 u3-gp4로 연결.')
     s.hint('[as high as it can get]', '[그것[카트]이 될 수 있는 만큼 높이]', span='as high as it can get', label='as ~ as 비교 구문',
@@ -222,7 +222,7 @@ def sentences(T):
     s.g('other', 'other', '다른')
     s.g('people', 'people', '사람들')
     f = s.g('have', 'have p.p.', '~했다', kind='function', combines_with=[])
-    tk = s.g('taken', 'take', '하다 (taken은 take의 p.p.형)',
+    tk = s.g('taken', 'take', '(주목 등을) 하다 (흔한 뜻: 가져가다) (taken은 take의 p.p.형)',
              verb_form=pp('perfect-participle', s, 'taken', 'take', f['id']))
     link(f, tk)
     s.g('notice', 'notice', '주목, 알아챔', star=W['notice'])
@@ -322,8 +322,8 @@ def analysis(_):
                           'answer_ko': '그것(카트)이 가득 쌓인다'}},
             {'id': 'u3-gp5', 'sentence_id': 's46', 'span': 'other people have taken notice',
              'title': 'have p.p.: ~했다 (have taken notice: 알아챘다)', 'formula_key': 'have p.p.',
-             'explanation': '공식: have p.p. — ~했다. have = 현재완료의 조동사, p.p. = taken(take의 p.p.형; take notice = 알아차리다). '
-                            '→ have taken notice = 알아챘다(이미 알아차린 상태). 주어 other people(다른 사람들)과 합치면 ‘다른 사람들이 알아챘다’.',
+             'explanation': '공식: have p.p. — ~했다. have = 현재완료의 조동사, p.p. = taken(take의 p.p.형, take = (주목 등을) 하다), notice = 주목(알아챔). '
+                            '→ have taken notice = 주목을 했다, 곧 알아챘다(이미 알아차린 상태). 주어 other people(다른 사람들)과 합치면 ‘다른 사람들이 알아챘다’.',
              'supplemental': {'function': ('s46', 'have p.p.', 0),
                               'reason': 's46의 능동 완료 have taken은 take notice 숙어 속이라 결합 힌트로 선정하지 않았고, 기본 분석 3개에 have p.p. 설명이 없어 이 단위 대표 사례로 1회 보충'},
              'practice': {'span': 'other people have taken notice',
