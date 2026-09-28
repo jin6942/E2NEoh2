@@ -1,0 +1,111 @@
+{
+  "title": "공통영어1 시험 0과",
+  "sections": [
+    {
+      "sentences": [
+        {
+          "chunks": [
+            "They repair useful tools",
+            "to protect local resources."
+          ],
+          "gloss": [
+            [
+              "They",
+              "시험용 뜻 (앞 문맥의 사람들)",
+              false
+            ],
+            [
+              "repair",
+              "시험용 뜻",
+              true
+            ],
+            [
+              "useful",
+              "시험용 뜻",
+              false
+            ],
+            [
+              "tools",
+              "시험용 뜻",
+              false
+            ],
+            [
+              "to",
+              "시험용 뜻",
+              false
+            ],
+            [
+              "protect",
+              "시험용 뜻",
+              false
+            ],
+            [
+              "local",
+              "시험용 뜻",
+              false
+            ],
+            [
+              "resources",
+              "시험용 뜻",
+              false
+            ]
+          ]
+        },
+        {
+          "chunks": [
+            "We save valuable materials."
+          ],
+          "gloss": [
+            [
+              "We",
+              "시험용 뜻",
+              false
+            ],
+            [
+              "save",
+              "시험용 뜻",
+              false
+            ],
+            [
+              "valuable",
+              "시험용 뜻",
+              false
+            ],
+            [
+              "materials",
+              "시험용 뜻",
+              false
+            ]
+          ]
+        },
+        {
+          "chunks": [
+            "I protect local resources."
+          ],
+          "gloss": [
+            [
+              "I",
+              "시험용 뜻",
+              false
+            ],
+            [
+              "protect",
+              "시험용 뜻",
+              false
+            ],
+            [
+              "local",
+              "시험용 뜻",
+              false
+            ],
+            [
+              "resources",
+              "시험용 뜻",
+              false
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4823 @@
+{
+  "schema_version": 1,
+  "rule_revision": "R2026-09-23",
+  "metadata": {
+    "book_name": "시험",
+    "course": "공통영어1",
+    "publisher_author": "시험",
+    "lesson": "UNIT00",
+    "syntax_training_version": 1
+  },
+  "sources": [
+    {
+      "id": "src",
+      "label": "시험용 본문",
+      "text": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+      "sentences": [
+        {
+          "id": "s1",
+          "start": 0,
+          "end": 270
+        },
+        {
+          "id": "s2",
+          "start": 271,
+          "end": 613
+        },
+        {
+          "id": "s3",
+          "start": 614,
+          "end": 850
+        }
+      ],
+      "subheadings": [
+        {
+          "id": "h1",
+          "text": "Synthetic Source Heading",
+          "location": "fixture heading before s1",
+          "before_sentence_id": "s1",
+          "artifact_sha256": "86c89b9557696565d8bc95658b17e45706748b5486726aa82e7d697fcab8d0bb"
+        }
+      ],
+      "provenance": {
+        "filename": "synthetic-source.txt",
+        "location": "test",
+        "sha256": "86c89b9557696565d8bc95658b17e45706748b5486726aa82e7d697fcab8d0bb",
+        "verification_record": "Synthetic fixture, not a real source verification"
+      }
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "source_id": "src",
+      "subheading_id": "h1",
+      "sentence_ids": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "u1",
+      "source_id": "src",
+      "paragraph_ids": [
+        "p1"
+      ],
+      "sentence_ids": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "today_words": [
+        {
+          "id": "w1",
+          "text": "repair",
+          "meaning_ko": "고치다",
+          "source_gloss_id": "g1-1"
+        }
+      ],
+      "analysis": {
+        "heading_kind": "주제",
+        "title_or_topic_en": "Resource Care",
+        "title_or_topic_ko": "자원 관리",
+        "intent_ko": "자원을 아끼자는 내용",
+        "flow": [
+          {
+            "sentence_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "text_ko": "시험용 흐름"
+          }
+        ],
+        "easy_explanations": [
+          {
+            "sentence_id": "s1",
+            "explanatory_sentences": [
+              "설명 하나.",
+              "설명 둘."
+            ]
+          },
+          {
+            "sentence_id": "s2",
+            "explanatory_sentences": [
+              "설명 하나.",
+              "설명 둘."
+            ]
+          },
+          {
+            "sentence_id": "s3",
+            "explanatory_sentences": [
+              "설명 하나.",
+              "설명 둘."
+            ]
+          }
+        ],
+        "grammar_points": [
+          {
+            "sentence_id": "s1",
+            "span": [
+              0,
+              270
+            ],
+            "title": "시험",
+            "explanation": "시험용 설명",
+            "id": "u1-gp1",
+            "formula_key": "formula 1",
+            "practice": {
+              "span": [
+                5,
+                11
+              ],
+              "formula_support": {
+                "en": "Formula 1",
+                "ko": "공식 뜻 1"
+              },
+              "support_gloss_ids": [
+                "g1-1"
+              ],
+              "answer_ko": "시험 전용 결합 해석 1"
+            }
+          },
+          {
+            "sentence_id": "s2",
+            "span": [
+              0,
+              342
+            ],
+            "title": "시험",
+            "explanation": "시험용 설명",
+            "id": "u1-gp2",
+            "formula_key": "formula 2",
+            "practice": {
+              "span": [
+                3,
+                7
+              ],
+              "formula_support": {
+                "en": "Formula 2",
+                "ko": "공식 뜻 2"
+              },
+              "support_gloss_ids": [
+                "g2-1"
+              ],
+              "answer_ko": "시험 전용 결합 해석 2"
+            }
+          },
+          {
+            "sentence_id": "s3",
+            "span": [
+              0,
+              236
+            ],
+            "title": "시험",
+            "explanation": "시험용 설명",
+            "id": "u1-gp3",
+            "formula_key": "formula 3",
+            "practice": {
+              "span": [
+                2,
+                9
+              ],
+              "formula_support": {
+                "en": "Formula 3",
+                "ko": "공식 뜻 3"
+              },
+              "support_gloss_ids": [
+                "g3-1"
+              ],
+              "answer_ko": "시험 전용 결합 해석 3"
+            }
+          }
+        ],
+        "relations": [
+          {
+            "head": {
+              "id": "t0head",
+              "text": "term0head",
+              "meaning_ko": "시험용 뜻"
+            },
+            "synonym": {
+              "id": "t0synonym",
+              "text": "term0synonym",
+              "meaning_ko": "시험용 뜻"
+            },
+            "antonym": {
+              "id": "t0antonym",
+              "text": "term0antonym",
+              "meaning_ko": "시험용 뜻"
+            }
+          },
+          {
+            "head": {
+              "id": "t1head",
+              "text": "term1head",
+              "meaning_ko": "시험용 뜻"
+            },
+            "synonym": {
+              "id": "t1synonym",
+              "text": "term1synonym",
+              "meaning_ko": "시험용 뜻"
+            },
+            "antonym": {
+              "id": "t1antonym",
+              "text": "term1antonym",
+              "meaning_ko": "시험용 뜻"
+            }
+          },
+          {
+            "head": {
+              "id": "t2head",
+              "text": "term2head",
+              "meaning_ko": "시험용 뜻"
+            },
+            "synonym": {
+              "id": "t2synonym",
+              "text": "term2synonym",
+              "meaning_ko": "시험용 뜻"
+            },
+            "antonym": {
+              "id": "t2antonym",
+              "text": "term2antonym",
+              "meaning_ko": "시험용 뜻"
+            }
+          }
+        ],
+        "formula_routes": []
+      },
+      "workbook": {
+        "relation_order": [
+          "t0synonym",
+          "t0antonym",
+          "t1head",
+          "t1synonym",
+          "t1antonym",
+          "t2head",
+          "t2synonym",
+          "t2antonym",
+          "t0head"
+        ],
+        "key_sentence_ids": [
+          "s1",
+          "s2"
+        ],
+        "question_id": "q1",
+        "syntax_point_ids": [
+          "u1-gp1",
+          "u1-gp2",
+          "u1-gp3"
+        ]
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "source_id": "src",
+      "id": "s1",
+      "text": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools.",
+      "key": true,
+      "chunks": [
+        {
+          "start": 0,
+          "end": 270,
+          "ko": "시험용 대응 청크"
+        }
+      ],
+      "natural_ko": "시험용 자연 해석",
+      "glosses": [
+        {
+          "id": "g1-0",
+          "spans": [
+            [
+              0,
+              4
+            ]
+          ],
+          "headword": "They",
+          "meaning_ko": "시험용 뜻",
+          "star": false,
+          "referent_ko": "앞 문맥의 사람들"
+        },
+        {
+          "id": "g1-1",
+          "spans": [
+            [
+              5,
+              11
+            ]
+          ],
+          "headword": "repair",
+          "meaning_ko": "시험용 뜻",
+          "star": true,
+          "today_word_id": "w1"
+        },
+        {
+          "id": "g1-2",
+          "spans": [
+            [
+              12,
+              18
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-3",
+          "spans": [
+            [
+              19,
+              25
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-4",
+          "spans": [
+            [
+              26,
+              32
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-5",
+          "spans": [
+            [
+              33,
+              39
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-6",
+          "spans": [
+            [
+              40,
+              46
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-7",
+          "spans": [
+            [
+              47,
+              53
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-8",
+          "spans": [
+            [
+              54,
+              60
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-9",
+          "spans": [
+            [
+              61,
+              67
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-10",
+          "spans": [
+            [
+              68,
+              74
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-11",
+          "spans": [
+            [
+              75,
+              81
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-12",
+          "spans": [
+            [
+              82,
+              88
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-13",
+          "spans": [
+            [
+              89,
+              95
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-14",
+          "spans": [
+            [
+              96,
+              102
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-15",
+          "spans": [
+            [
+              103,
+              109
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-16",
+          "spans": [
+            [
+              110,
+              116
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-17",
+          "spans": [
+            [
+              117,
+              123
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-18",
+          "spans": [
+            [
+              124,
+              130
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-19",
+          "spans": [
+            [
+              131,
+              137
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-20",
+          "spans": [
+            [
+              138,
+              144
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-21",
+          "spans": [
+            [
+              145,
+              151
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-22",
+          "spans": [
+            [
+              152,
+              158
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-23",
+          "spans": [
+            [
+              159,
+              165
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-24",
+          "spans": [
+            [
+              166,
+              172
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-25",
+          "spans": [
+            [
+              173,
+              179
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-26",
+          "spans": [
+            [
+              180,
+              186
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-27",
+          "spans": [
+            [
+              187,
+              193
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-28",
+          "spans": [
+            [
+              194,
+              200
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-29",
+          "spans": [
+            [
+              201,
+              207
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-30",
+          "spans": [
+            [
+              208,
+              214
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-31",
+          "spans": [
+            [
+              215,
+              221
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-32",
+          "spans": [
+            [
+              222,
+              228
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-33",
+          "spans": [
+            [
+              229,
+              235
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-34",
+          "spans": [
+            [
+              236,
+              242
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-35",
+          "spans": [
+            [
+              243,
+              249
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-36",
+          "spans": [
+            [
+              250,
+              256
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-37",
+          "spans": [
+            [
+              257,
+              263
+            ]
+          ],
+          "headword": "useful",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g1-38",
+          "spans": [
+            [
+              264,
+              269
+            ]
+          ],
+          "headword": "tools",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        }
+      ],
+      "lexical_coverage": [
+        {
+          "span": [
+            0,
+            4
+          ],
+          "gloss_id": "g1-0"
+        },
+        {
+          "span": [
+            5,
+            11
+          ],
+          "gloss_id": "g1-1"
+        },
+        {
+          "span": [
+            12,
+            18
+          ],
+          "gloss_id": "g1-2"
+        },
+        {
+          "span": [
+            19,
+            25
+          ],
+          "gloss_id": "g1-3"
+        },
+        {
+          "span": [
+            26,
+            32
+          ],
+          "gloss_id": "g1-4"
+        },
+        {
+          "span": [
+            33,
+            39
+          ],
+          "gloss_id": "g1-5"
+        },
+        {
+          "span": [
+            40,
+            46
+          ],
+          "gloss_id": "g1-6"
+        },
+        {
+          "span": [
+            47,
+            53
+          ],
+          "gloss_id": "g1-7"
+        },
+        {
+          "span": [
+            54,
+            60
+          ],
+          "gloss_id": "g1-8"
+        },
+        {
+          "span": [
+            61,
+            67
+          ],
+          "gloss_id": "g1-9"
+        },
+        {
+          "span": [
+            68,
+            74
+          ],
+          "gloss_id": "g1-10"
+        },
+        {
+          "span": [
+            75,
+            81
+          ],
+          "gloss_id": "g1-11"
+        },
+        {
+          "span": [
+            82,
+            88
+          ],
+          "gloss_id": "g1-12"
+        },
+        {
+          "span": [
+            89,
+            95
+          ],
+          "gloss_id": "g1-13"
+        },
+        {
+          "span": [
+            96,
+            102
+          ],
+          "gloss_id": "g1-14"
+        },
+        {
+          "span": [
+            103,
+            109
+          ],
+          "gloss_id": "g1-15"
+        },
+        {
+          "span": [
+            110,
+            116
+          ],
+          "gloss_id": "g1-16"
+        },
+        {
+          "span": [
+            117,
+            123
+          ],
+          "gloss_id": "g1-17"
+        },
+        {
+          "span": [
+            124,
+            130
+          ],
+          "gloss_id": "g1-18"
+        },
+        {
+          "span": [
+            131,
+            137
+          ],
+          "gloss_id": "g1-19"
+        },
+        {
+          "span": [
+            138,
+            144
+          ],
+          "gloss_id": "g1-20"
+        },
+        {
+          "span": [
+            145,
+            151
+          ],
+          "gloss_id": "g1-21"
+        },
+        {
+          "span": [
+            152,
+            158
+          ],
+          "gloss_id": "g1-22"
+        },
+        {
+          "span": [
+            159,
+            165
+          ],
+          "gloss_id": "g1-23"
+        },
+        {
+          "span": [
+            166,
+            172
+          ],
+          "gloss_id": "g1-24"
+        },
+        {
+          "span": [
+            173,
+            179
+          ],
+          "gloss_id": "g1-25"
+        },
+        {
+          "span": [
+            180,
+            186
+          ],
+          "gloss_id": "g1-26"
+        },
+        {
+          "span": [
+            187,
+            193
+          ],
+          "gloss_id": "g1-27"
+        },
+        {
+          "span": [
+            194,
+            200
+          ],
+          "gloss_id": "g1-28"
+        },
+        {
+          "span": [
+            201,
+            207
+          ],
+          "gloss_id": "g1-29"
+        },
+        {
+          "span": [
+            208,
+            214
+          ],
+          "gloss_id": "g1-30"
+        },
+        {
+          "span": [
+            215,
+            221
+          ],
+          "gloss_id": "g1-31"
+        },
+        {
+          "span": [
+            222,
+            228
+          ],
+          "gloss_id": "g1-32"
+        },
+        {
+          "span": [
+            229,
+            235
+          ],
+          "gloss_id": "g1-33"
+        },
+        {
+          "span": [
+            236,
+            242
+          ],
+          "gloss_id": "g1-34"
+        },
+        {
+          "span": [
+            243,
+            249
+          ],
+          "gloss_id": "g1-35"
+        },
+        {
+          "span": [
+            250,
+            256
+          ],
+          "gloss_id": "g1-36"
+        },
+        {
+          "span": [
+            257,
+            263
+          ],
+          "gloss_id": "g1-37"
+        },
+        {
+          "span": [
+            264,
+            269
+          ],
+          "gloss_id": "g1-38"
+        }
+      ],
+      "reading_checks": {
+        "required_breaks": [],
+        "protected_spans": [],
+        "function_gloss_ids": [],
+        "review_record": "Synthetic structural test; no language review claimed."
+      },
+      "clauses": [
+        {
+          "kind": "main",
+          "start": 0,
+          "subject_spans": [
+            [
+              0,
+              4
+            ]
+          ],
+          "verb_spans": [
+            [
+              5,
+              11
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "src",
+      "id": "s2",
+      "text": "We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials.",
+      "key": true,
+      "chunks": [
+        {
+          "start": 0,
+          "end": 342,
+          "ko": "시험용 대응 청크"
+        }
+      ],
+      "natural_ko": "시험용 자연 해석",
+      "glosses": [
+        {
+          "id": "g2-0",
+          "spans": [
+            [
+              0,
+              2
+            ]
+          ],
+          "headword": "We",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-1",
+          "spans": [
+            [
+              3,
+              7
+            ]
+          ],
+          "headword": "save",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-2",
+          "spans": [
+            [
+              8,
+              16
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-3",
+          "spans": [
+            [
+              17,
+              25
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-4",
+          "spans": [
+            [
+              26,
+              34
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-5",
+          "spans": [
+            [
+              35,
+              43
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-6",
+          "spans": [
+            [
+              44,
+              52
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-7",
+          "spans": [
+            [
+              53,
+              61
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-8",
+          "spans": [
+            [
+              62,
+              70
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-9",
+          "spans": [
+            [
+              71,
+              79
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-10",
+          "spans": [
+            [
+              80,
+              88
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-11",
+          "spans": [
+            [
+              89,
+              97
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-12",
+          "spans": [
+            [
+              98,
+              106
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-13",
+          "spans": [
+            [
+              107,
+              115
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-14",
+          "spans": [
+            [
+              116,
+              124
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-15",
+          "spans": [
+            [
+              125,
+              133
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-16",
+          "spans": [
+            [
+              134,
+              142
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-17",
+          "spans": [
+            [
+              143,
+              151
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-18",
+          "spans": [
+            [
+              152,
+              160
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-19",
+          "spans": [
+            [
+              161,
+              169
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-20",
+          "spans": [
+            [
+              170,
+              178
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-21",
+          "spans": [
+            [
+              179,
+              187
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-22",
+          "spans": [
+            [
+              188,
+              196
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-23",
+          "spans": [
+            [
+              197,
+              205
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-24",
+          "spans": [
+            [
+              206,
+              214
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-25",
+          "spans": [
+            [
+              215,
+              223
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-26",
+          "spans": [
+            [
+              224,
+              232
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-27",
+          "spans": [
+            [
+              233,
+              241
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-28",
+          "spans": [
+            [
+              242,
+              250
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-29",
+          "spans": [
+            [
+              251,
+              259
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-30",
+          "spans": [
+            [
+              260,
+              268
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-31",
+          "spans": [
+            [
+              269,
+              277
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-32",
+          "spans": [
+            [
+              278,
+              286
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-33",
+          "spans": [
+            [
+              287,
+              295
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-34",
+          "spans": [
+            [
+              296,
+              304
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-35",
+          "spans": [
+            [
+              305,
+              313
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-36",
+          "spans": [
+            [
+              314,
+              322
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-37",
+          "spans": [
+            [
+              323,
+              331
+            ]
+          ],
+          "headword": "valuable",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g2-38",
+          "spans": [
+            [
+              332,
+              341
+            ]
+          ],
+          "headword": "materials",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        }
+      ],
+      "lexical_coverage": [
+        {
+          "span": [
+            0,
+            2
+          ],
+          "gloss_id": "g2-0"
+        },
+        {
+          "span": [
+            3,
+            7
+          ],
+          "gloss_id": "g2-1"
+        },
+        {
+          "span": [
+            8,
+            16
+          ],
+          "gloss_id": "g2-2"
+        },
+        {
+          "span": [
+            17,
+            25
+          ],
+          "gloss_id": "g2-3"
+        },
+        {
+          "span": [
+            26,
+            34
+          ],
+          "gloss_id": "g2-4"
+        },
+        {
+          "span": [
+            35,
+            43
+          ],
+          "gloss_id": "g2-5"
+        },
+        {
+          "span": [
+            44,
+            52
+          ],
+          "gloss_id": "g2-6"
+        },
+        {
+          "span": [
+            53,
+            61
+          ],
+          "gloss_id": "g2-7"
+        },
+        {
+          "span": [
+            62,
+            70
+          ],
+          "gloss_id": "g2-8"
+        },
+        {
+          "span": [
+            71,
+            79
+          ],
+          "gloss_id": "g2-9"
+        },
+        {
+          "span": [
+            80,
+            88
+          ],
+          "gloss_id": "g2-10"
+        },
+        {
+          "span": [
+            89,
+            97
+          ],
+          "gloss_id": "g2-11"
+        },
+        {
+          "span": [
+            98,
+            106
+          ],
+          "gloss_id": "g2-12"
+        },
+        {
+          "span": [
+            107,
+            115
+          ],
+          "gloss_id": "g2-13"
+        },
+        {
+          "span": [
+            116,
+            124
+          ],
+          "gloss_id": "g2-14"
+        },
+        {
+          "span": [
+            125,
+            133
+          ],
+          "gloss_id": "g2-15"
+        },
+        {
+          "span": [
+            134,
+            142
+          ],
+          "gloss_id": "g2-16"
+        },
+        {
+          "span": [
+            143,
+            151
+          ],
+          "gloss_id": "g2-17"
+        },
+        {
+          "span": [
+            152,
+            160
+          ],
+          "gloss_id": "g2-18"
+        },
+        {
+          "span": [
+            161,
+            169
+          ],
+          "gloss_id": "g2-19"
+        },
+        {
+          "span": [
+            170,
+            178
+          ],
+          "gloss_id": "g2-20"
+        },
+        {
+          "span": [
+            179,
+            187
+          ],
+          "gloss_id": "g2-21"
+        },
+        {
+          "span": [
+            188,
+            196
+          ],
+          "gloss_id": "g2-22"
+        },
+        {
+          "span": [
+            197,
+            205
+          ],
+          "gloss_id": "g2-23"
+        },
+        {
+          "span": [
+            206,
+            214
+          ],
+          "gloss_id": "g2-24"
+        },
+        {
+          "span": [
+            215,
+            223
+          ],
+          "gloss_id": "g2-25"
+        },
+        {
+          "span": [
+            224,
+            232
+          ],
+          "gloss_id": "g2-26"
+        },
+        {
+          "span": [
+            233,
+            241
+          ],
+          "gloss_id": "g2-27"
+        },
+        {
+          "span": [
+            242,
+            250
+          ],
+          "gloss_id": "g2-28"
+        },
+        {
+          "span": [
+            251,
+            259
+          ],
+          "gloss_id": "g2-29"
+        },
+        {
+          "span": [
+            260,
+            268
+          ],
+          "gloss_id": "g2-30"
+        },
+        {
+          "span": [
+            269,
+            277
+          ],
+          "gloss_id": "g2-31"
+        },
+        {
+          "span": [
+            278,
+            286
+          ],
+          "gloss_id": "g2-32"
+        },
+        {
+          "span": [
+            287,
+            295
+          ],
+          "gloss_id": "g2-33"
+        },
+        {
+          "span": [
+            296,
+            304
+          ],
+          "gloss_id": "g2-34"
+        },
+        {
+          "span": [
+            305,
+            313
+          ],
+          "gloss_id": "g2-35"
+        },
+        {
+          "span": [
+            314,
+            322
+          ],
+          "gloss_id": "g2-36"
+        },
+        {
+          "span": [
+            323,
+            331
+          ],
+          "gloss_id": "g2-37"
+        },
+        {
+          "span": [
+            332,
+            341
+          ],
+          "gloss_id": "g2-38"
+        }
+      ],
+      "reading_checks": {
+        "required_breaks": [],
+        "protected_spans": [],
+        "function_gloss_ids": [],
+        "review_record": "Synthetic structural test; no language review claimed."
+      },
+      "clauses": [
+        {
+          "kind": "main",
+          "start": 0,
+          "subject_spans": [
+            [
+              0,
+              2
+            ]
+          ],
+          "verb_spans": [
+            [
+              3,
+              7
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "src",
+      "id": "s3",
+      "text": "I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+      "key": false,
+      "chunks": [
+        {
+          "start": 0,
+          "end": 236,
+          "ko": "시험용 대응 청크"
+        }
+      ],
+      "natural_ko": "시험용 자연 해석",
+      "glosses": [
+        {
+          "id": "g3-0",
+          "spans": [
+            [
+              0,
+              1
+            ]
+          ],
+          "headword": "I",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-1",
+          "spans": [
+            [
+              2,
+              9
+            ]
+          ],
+          "headword": "protect",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-2",
+          "spans": [
+            [
+              10,
+              15
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-3",
+          "spans": [
+            [
+              16,
+              21
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-4",
+          "spans": [
+            [
+              22,
+              27
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-5",
+          "spans": [
+            [
+              28,
+              33
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-6",
+          "spans": [
+            [
+              34,
+              39
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-7",
+          "spans": [
+            [
+              40,
+              45
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-8",
+          "spans": [
+            [
+              46,
+              51
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-9",
+          "spans": [
+            [
+              52,
+              57
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-10",
+          "spans": [
+            [
+              58,
+              63
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-11",
+          "spans": [
+            [
+              64,
+              69
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-12",
+          "spans": [
+            [
+              70,
+              75
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-13",
+          "spans": [
+            [
+              76,
+              81
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-14",
+          "spans": [
+            [
+              82,
+              87
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-15",
+          "spans": [
+            [
+              88,
+              93
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-16",
+          "spans": [
+            [
+              94,
+              99
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-17",
+          "spans": [
+            [
+              100,
+              105
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-18",
+          "spans": [
+            [
+              106,
+              111
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-19",
+          "spans": [
+            [
+              112,
+              117
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-20",
+          "spans": [
+            [
+              118,
+              123
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-21",
+          "spans": [
+            [
+              124,
+              129
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-22",
+          "spans": [
+            [
+              130,
+              135
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-23",
+          "spans": [
+            [
+              136,
+              141
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-24",
+          "spans": [
+            [
+              142,
+              147
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-25",
+          "spans": [
+            [
+              148,
+              153
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-26",
+          "spans": [
+            [
+              154,
+              159
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-27",
+          "spans": [
+            [
+              160,
+              165
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-28",
+          "spans": [
+            [
+              166,
+              171
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-29",
+          "spans": [
+            [
+              172,
+              177
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-30",
+          "spans": [
+            [
+              178,
+              183
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-31",
+          "spans": [
+            [
+              184,
+              189
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-32",
+          "spans": [
+            [
+              190,
+              195
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-33",
+          "spans": [
+            [
+              196,
+              201
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-34",
+          "spans": [
+            [
+              202,
+              207
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-35",
+          "spans": [
+            [
+              208,
+              213
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-36",
+          "spans": [
+            [
+              214,
+              219
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-37",
+          "spans": [
+            [
+              220,
+              225
+            ]
+          ],
+          "headword": "local",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        },
+        {
+          "id": "g3-38",
+          "spans": [
+            [
+              226,
+              235
+            ]
+          ],
+          "headword": "resources",
+          "meaning_ko": "시험용 뜻",
+          "star": false
+        }
+      ],
+      "lexical_coverage": [
+        {
+          "span": [
+            0,
+            1
+          ],
+          "gloss_id": "g3-0"
+        },
+        {
+          "span": [
+            2,
+            9
+          ],
+          "gloss_id": "g3-1"
+        },
+        {
+          "span": [
+            10,
+            15
+          ],
+          "gloss_id": "g3-2"
+        },
+        {
+          "span": [
+            16,
+            21
+          ],
+          "gloss_id": "g3-3"
+        },
+        {
+          "span": [
+            22,
+            27
+          ],
+          "gloss_id": "g3-4"
+        },
+        {
+          "span": [
+            28,
+            33
+          ],
+          "gloss_id": "g3-5"
+        },
+        {
+          "span": [
+            34,
+            39
+          ],
+          "gloss_id": "g3-6"
+        },
+        {
+          "span": [
+            40,
+            45
+          ],
+          "gloss_id": "g3-7"
+        },
+        {
+          "span": [
+            46,
+            51
+          ],
+          "gloss_id": "g3-8"
+        },
+        {
+          "span": [
+            52,
+            57
+          ],
+          "gloss_id": "g3-9"
+        },
+        {
+          "span": [
+            58,
+            63
+          ],
+          "gloss_id": "g3-10"
+        },
+        {
+          "span": [
+            64,
+            69
+          ],
+          "gloss_id": "g3-11"
+        },
+        {
+          "span": [
+            70,
+            75
+          ],
+          "gloss_id": "g3-12"
+        },
+        {
+          "span": [
+            76,
+            81
+          ],
+          "gloss_id": "g3-13"
+        },
+        {
+          "span": [
+            82,
+            87
+          ],
+          "gloss_id": "g3-14"
+        },
+        {
+          "span": [
+            88,
+            93
+          ],
+          "gloss_id": "g3-15"
+        },
+        {
+          "span": [
+            94,
+            99
+          ],
+          "gloss_id": "g3-16"
+        },
+        {
+          "span": [
+            100,
+            105
+          ],
+          "gloss_id": "g3-17"
+        },
+        {
+          "span": [
+            106,
+            111
+          ],
+          "gloss_id": "g3-18"
+        },
+        {
+          "span": [
+            112,
+            117
+          ],
+          "gloss_id": "g3-19"
+        },
+        {
+          "span": [
+            118,
+            123
+          ],
+          "gloss_id": "g3-20"
+        },
+        {
+          "span": [
+            124,
+            129
+          ],
+          "gloss_id": "g3-21"
+        },
+        {
+          "span": [
+            130,
+            135
+          ],
+          "gloss_id": "g3-22"
+        },
+        {
+          "span": [
+            136,
+            141
+          ],
+          "gloss_id": "g3-23"
+        },
+        {
+          "span": [
+            142,
+            147
+          ],
+          "gloss_id": "g3-24"
+        },
+        {
+          "span": [
+            148,
+            153
+          ],
+          "gloss_id": "g3-25"
+        },
+        {
+          "span": [
+            154,
+            159
+          ],
+          "gloss_id": "g3-26"
+        },
+        {
+          "span": [
+            160,
+            165
+          ],
+          "gloss_id": "g3-27"
+        },
+        {
+          "span": [
+            166,
+            171
+          ],
+          "gloss_id": "g3-28"
+        },
+        {
+          "span": [
+            172,
+            177
+          ],
+          "gloss_id": "g3-29"
+        },
+        {
+          "span": [
+            178,
+            183
+          ],
+          "gloss_id": "g3-30"
+        },
+        {
+          "span": [
+            184,
+            189
+          ],
+          "gloss_id": "g3-31"
+        },
+        {
+          "span": [
+            190,
+            195
+          ],
+          "gloss_id": "g3-32"
+        },
+        {
+          "span": [
+            196,
+            201
+          ],
+          "gloss_id": "g3-33"
+        },
+        {
+          "span": [
+            202,
+            207
+          ],
+          "gloss_id": "g3-34"
+        },
+        {
+          "span": [
+            208,
+            213
+          ],
+          "gloss_id": "g3-35"
+        },
+        {
+          "span": [
+            214,
+            219
+          ],
+          "gloss_id": "g3-36"
+        },
+        {
+          "span": [
+            220,
+            225
+          ],
+          "gloss_id": "g3-37"
+        },
+        {
+          "span": [
+            226,
+            235
+          ],
+          "gloss_id": "g3-38"
+        }
+      ],
+      "reading_checks": {
+        "required_breaks": [],
+        "protected_spans": [],
+        "function_gloss_ids": [],
+        "review_record": "Synthetic structural test; no language review claimed."
+      },
+      "clauses": [
+        {
+          "kind": "main",
+          "start": 0,
+          "subject_spans": [
+            [
+              0,
+              1
+            ]
+          ],
+          "verb_spans": [
+            [
+              2,
+              9
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "scope": {
+      "kind": "partial",
+      "instruction": "시험용 부분 원고"
+    },
+    "plan": [
+      {
+        "id": "q1",
+        "set_id": "workbook",
+        "number": 1,
+        "unit_id": "u1"
+      },
+      {
+        "id": "mock1-1",
+        "set_id": "mock1",
+        "number": 1
+      },
+      {
+        "id": "mock1-2",
+        "set_id": "mock1",
+        "number": 2
+      },
+      {
+        "id": "mock1-3",
+        "set_id": "mock1",
+        "number": 3
+      },
+      {
+        "id": "mock1-4",
+        "set_id": "mock1",
+        "number": 4
+      },
+      {
+        "id": "mock1-5",
+        "set_id": "mock1",
+        "number": 5
+      },
+      {
+        "id": "mock2-1",
+        "set_id": "mock2",
+        "number": 1
+      },
+      {
+        "id": "mock2-2",
+        "set_id": "mock2",
+        "number": 2
+      },
+      {
+        "id": "mock2-3",
+        "set_id": "mock2",
+        "number": 3
+      },
+      {
+        "id": "mock2-4",
+        "set_id": "mock2",
+        "number": 4
+      },
+      {
+        "id": "mock2-5",
+        "set_id": "mock2",
+        "number": 5
+      },
+      {
+        "id": "mock3-1",
+        "set_id": "mock3",
+        "number": 1
+      },
+      {
+        "id": "mock3-2",
+        "set_id": "mock3",
+        "number": 2
+      },
+      {
+        "id": "mock3-3",
+        "set_id": "mock3",
+        "number": 3
+      },
+      {
+        "id": "mock3-4",
+        "set_id": "mock3",
+        "number": 4
+      },
+      {
+        "id": "mock3-5",
+        "set_id": "mock3",
+        "number": 5
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "set_id": "workbook",
+        "number": 1,
+        "type": "주제",
+        "choice_mode": "text",
+        "question": "q1 시험용 발문",
+        "passage": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for q1 term0head"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for q1"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for q1"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for q1"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for q1"
+          }
+        ],
+        "answer": 1,
+        "learned_relation_uses": [
+          {
+            "term_id": "t0head",
+            "choice_number": 1,
+            "choice_span": [
+              16,
+              25
+            ],
+            "surface": "term0head",
+            "reason_ko": "합성 연결 검사 전용. 실제 의미 평가로 주장하지 않음."
+          }
+        ]
+      },
+      {
+        "id": "mock1-1",
+        "set_id": "mock1",
+        "number": 1,
+        "type": "주제",
+        "choice_mode": "text",
+        "question": "mock1-1 시험용 발문",
+        "passage": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock1-1"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock1-1"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock1-1"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock1-1"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock1-1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "mock1-2",
+        "set_id": "mock1",
+        "number": 2,
+        "type": "주제",
+        "choice_mode": "text",
+        "question": "mock1-2 시험용 발문",
+        "passage": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock1-2"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock1-2"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock1-2"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock1-2"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock1-2"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "mock1-3",
+        "set_id": "mock1",
+        "number": 3,
+        "type": "주제",
+        "choice_mode": "text",
+        "question": "mock1-3 시험용 발문",
+        "passage": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock1-3"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock1-3"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock1-3"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock1-3"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock1-3"
+          }
+        ],
+        "answer": 4
+      },
+      {
+        "id": "mock1-4",
+        "set_id": "mock1",
+        "number": 4,
+        "type": "제목",
+        "choice_mode": "text",
+        "question": "mock1-4 다음 글의 제목으로 가장 적절한 것은?",
+        "passage": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock1-4"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock1-4"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock1-4"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock1-4"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock1-4"
+          }
+        ],
+        "answer": 5,
+        "passage_group_id": "mock1-long"
+      },
+      {
+        "id": "mock1-5",
+        "set_id": "mock1",
+        "number": 5,
+        "type": "어휘",
+        "choice_mode": "in_passage",
+        "question": "mock1-5 다음 글의 ①~⑤ 중 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+        "passage": "Changed repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "answer": 1,
+        "passage_group_id": "mock1-long"
+      },
+      {
+        "id": "mock2-1",
+        "set_id": "mock2",
+        "number": 1,
+        "type": "주제",
+        "choice_mode": "text",
+        "question": "mock2-1 시험용 발문",
+        "passage": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock2-1"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock2-1"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock2-1"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock2-1"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock2-1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "mock2-2",
+        "set_id": "mock2",
+        "number": 2,
+        "type": "주제",
+        "choice_mode": "text",
+        "question": "mock2-2 시험용 발문",
+        "passage": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock2-2"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock2-2"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock2-2"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock2-2"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock2-2"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "mock2-3",
+        "set_id": "mock2",
+        "number": 3,
+        "type": "주제",
+        "choice_mode": "text",
+        "question": "mock2-3 시험용 발문",
+        "passage": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock2-3"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock2-3"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock2-3"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock2-3"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock2-3"
+          }
+        ],
+        "answer": 4
+      },
+      {
+        "id": "mock2-4",
+        "set_id": "mock2",
+        "number": 4,
+        "type": "제목",
+        "choice_mode": "text",
+        "question": "mock2-4 다음 글의 제목으로 가장 적절한 것은?",
+        "passage": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock2-4"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock2-4"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock2-4"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock2-4"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock2-4"
+          }
+        ],
+        "answer": 5,
+        "passage_group_id": "mock2-long"
+      },
+      {
+        "id": "mock2-5",
+        "set_id": "mock2",
+        "number": 5,
+        "type": "어휘",
+        "choice_mode": "in_passage",
+        "question": "mock2-5 다음 글의 ①~⑤ 중 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+        "passage": "Changed repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "answer": 1,
+        "passage_group_id": "mock2-long"
+      },
+      {
+        "id": "mock3-1",
+        "set_id": "mock3",
+        "number": 1,
+        "type": "주제",
+        "choice_mode": "text",
+        "question": "mock3-1 시험용 발문",
+        "passage": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock3-1"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock3-1"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock3-1"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock3-1"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock3-1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "mock3-2",
+        "set_id": "mock3",
+        "number": 2,
+        "type": "주제",
+        "choice_mode": "text",
+        "question": "mock3-2 시험용 발문",
+        "passage": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock3-2"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock3-2"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock3-2"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock3-2"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock3-2"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "mock3-3",
+        "set_id": "mock3",
+        "number": 3,
+        "type": "주제",
+        "choice_mode": "text",
+        "question": "mock3-3 시험용 발문",
+        "passage": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock3-3"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock3-3"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock3-3"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock3-3"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock3-3"
+          }
+        ],
+        "answer": 4
+      },
+      {
+        "id": "mock3-4",
+        "set_id": "mock3",
+        "number": 4,
+        "type": "제목",
+        "choice_mode": "text",
+        "question": "mock3-4 다음 글의 제목으로 가장 적절한 것은?",
+        "passage": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock3-4"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock3-4"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock3-4"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock3-4"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock3-4"
+          }
+        ],
+        "answer": 5,
+        "passage_group_id": "mock3-long"
+      },
+      {
+        "id": "mock3-5",
+        "set_id": "mock3",
+        "number": 5,
+        "type": "어휘",
+        "choice_mode": "in_passage",
+        "question": "mock3-5 다음 글의 ①~⑤ 중 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+        "passage": "Changed repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources.",
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "answer": 1,
+        "passage_group_id": "mock3-long"
+      }
+    ],
+    "quick_key": [
+      {
+        "id": "q1",
+        "set_id": "workbook",
+        "number": 1,
+        "answer": 1
+      },
+      {
+        "id": "mock1-1",
+        "set_id": "mock1",
+        "number": 1,
+        "answer": 2
+      },
+      {
+        "id": "mock1-2",
+        "set_id": "mock1",
+        "number": 2,
+        "answer": 3
+      },
+      {
+        "id": "mock1-3",
+        "set_id": "mock1",
+        "number": 3,
+        "answer": 4
+      },
+      {
+        "id": "mock1-4",
+        "set_id": "mock1",
+        "number": 4,
+        "answer": 5
+      },
+      {
+        "id": "mock1-5",
+        "set_id": "mock1",
+        "number": 5,
+        "answer": 1
+      },
+      {
+        "id": "mock2-1",
+        "set_id": "mock2",
+        "number": 1,
+        "answer": 2
+      },
+      {
+        "id": "mock2-2",
+        "set_id": "mock2",
+        "number": 2,
+        "answer": 3
+      },
+      {
+        "id": "mock2-3",
+        "set_id": "mock2",
+        "number": 3,
+        "answer": 4
+      },
+      {
+        "id": "mock2-4",
+        "set_id": "mock2",
+        "number": 4,
+        "answer": 5
+      },
+      {
+        "id": "mock2-5",
+        "set_id": "mock2",
+        "number": 5,
+        "answer": 1
+      },
+      {
+        "id": "mock3-1",
+        "set_id": "mock3",
+        "number": 1,
+        "answer": 2
+      },
+      {
+        "id": "mock3-2",
+        "set_id": "mock3",
+        "number": 2,
+        "answer": 3
+      },
+      {
+        "id": "mock3-3",
+        "set_id": "mock3",
+        "number": 3,
+        "answer": 4
+      },
+      {
+        "id": "mock3-4",
+        "set_id": "mock3",
+        "number": 4,
+        "answer": 5
+      },
+      {
+        "id": "mock3-5",
+        "set_id": "mock3",
+        "number": 5,
+        "answer": 1
+      }
+    ],
+    "explanations": [
+      {
+        "id": "q1",
+        "set_id": "workbook",
+        "number": 1,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for q1 term0head"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for q1"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for q1"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for q1"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for q1"
+          }
+        ],
+        "answer": 1,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "1 시험용 해석"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 해석"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 해석"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 해석"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 해석"
+          }
+        ],
+        "wrong_reasons": [
+          {
+            "number": 2,
+            "text": "2 시험용 배제 근거"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 배제 근거"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 배제 근거"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock1-1",
+        "set_id": "mock1",
+        "number": 1,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock1-1"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock1-1"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock1-1"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock1-1"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock1-1"
+          }
+        ],
+        "answer": 2,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "1 시험용 해석"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 해석"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 해석"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 해석"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 해석"
+          }
+        ],
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "1 시험용 배제 근거"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 배제 근거"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 배제 근거"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock1-2",
+        "set_id": "mock1",
+        "number": 2,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock1-2"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock1-2"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock1-2"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock1-2"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock1-2"
+          }
+        ],
+        "answer": 3,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "1 시험용 해석"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 해석"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 해석"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 해석"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 해석"
+          }
+        ],
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "1 시험용 배제 근거"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 배제 근거"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 배제 근거"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock1-3",
+        "set_id": "mock1",
+        "number": 3,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock1-3"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock1-3"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock1-3"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock1-3"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock1-3"
+          }
+        ],
+        "answer": 4,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "1 시험용 해석"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 해석"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 해석"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 해석"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 해석"
+          }
+        ],
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "1 시험용 배제 근거"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 배제 근거"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 배제 근거"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock1-4",
+        "set_id": "mock1",
+        "number": 4,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock1-4"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock1-4"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock1-4"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock1-4"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock1-4"
+          }
+        ],
+        "answer": 5,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "1 시험용 해석"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 해석"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 해석"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 해석"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 해석"
+          }
+        ],
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "1 시험용 배제 근거"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 배제 근거"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 배제 근거"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock1-5",
+        "set_id": "mock1",
+        "number": 5,
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "answer": 1,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [],
+        "wrong_reasons": [
+          {
+            "number": 2,
+            "text": "2 시험용 배제 근거"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 배제 근거"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 배제 근거"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock2-1",
+        "set_id": "mock2",
+        "number": 1,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock2-1"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock2-1"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock2-1"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock2-1"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock2-1"
+          }
+        ],
+        "answer": 2,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "1 시험용 해석"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 해석"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 해석"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 해석"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 해석"
+          }
+        ],
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "1 시험용 배제 근거"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 배제 근거"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 배제 근거"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock2-2",
+        "set_id": "mock2",
+        "number": 2,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock2-2"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock2-2"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock2-2"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock2-2"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock2-2"
+          }
+        ],
+        "answer": 3,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "1 시험용 해석"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 해석"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 해석"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 해석"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 해석"
+          }
+        ],
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "1 시험용 배제 근거"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 배제 근거"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 배제 근거"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock2-3",
+        "set_id": "mock2",
+        "number": 3,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock2-3"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock2-3"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock2-3"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock2-3"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock2-3"
+          }
+        ],
+        "answer": 4,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "1 시험용 해석"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 해석"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 해석"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 해석"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 해석"
+          }
+        ],
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "1 시험용 배제 근거"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 배제 근거"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 배제 근거"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock2-4",
+        "set_id": "mock2",
+        "number": 4,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock2-4"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock2-4"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock2-4"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock2-4"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock2-4"
+          }
+        ],
+        "answer": 5,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "1 시험용 해석"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 해석"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 해석"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 해석"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 해석"
+          }
+        ],
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "1 시험용 배제 근거"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 배제 근거"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 배제 근거"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock2-5",
+        "set_id": "mock2",
+        "number": 5,
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "answer": 1,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [],
+        "wrong_reasons": [
+          {
+            "number": 2,
+            "text": "2 시험용 배제 근거"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 배제 근거"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 배제 근거"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock3-1",
+        "set_id": "mock3",
+        "number": 1,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock3-1"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock3-1"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock3-1"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock3-1"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock3-1"
+          }
+        ],
+        "answer": 2,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "1 시험용 해석"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 해석"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 해석"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 해석"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 해석"
+          }
+        ],
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "1 시험용 배제 근거"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 배제 근거"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 배제 근거"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock3-2",
+        "set_id": "mock3",
+        "number": 2,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock3-2"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock3-2"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock3-2"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock3-2"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock3-2"
+          }
+        ],
+        "answer": 3,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "1 시험용 해석"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 해석"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 해석"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 해석"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 해석"
+          }
+        ],
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "1 시험용 배제 근거"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 배제 근거"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 배제 근거"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock3-3",
+        "set_id": "mock3",
+        "number": 3,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock3-3"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock3-3"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock3-3"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock3-3"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock3-3"
+          }
+        ],
+        "answer": 4,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "1 시험용 해석"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 해석"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 해석"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 해석"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 해석"
+          }
+        ],
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "1 시험용 배제 근거"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 배제 근거"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 배제 근거"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock3-4",
+        "set_id": "mock3",
+        "number": 4,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Option 1 for mock3-4"
+          },
+          {
+            "number": 2,
+            "text": "Option 2 for mock3-4"
+          },
+          {
+            "number": 3,
+            "text": "Option 3 for mock3-4"
+          },
+          {
+            "number": 4,
+            "text": "Option 4 for mock3-4"
+          },
+          {
+            "number": 5,
+            "text": "Option 5 for mock3-4"
+          }
+        ],
+        "answer": 5,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "1 시험용 해석"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 해석"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 해석"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 해석"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 해석"
+          }
+        ],
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "1 시험용 배제 근거"
+          },
+          {
+            "number": 2,
+            "text": "2 시험용 배제 근거"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 배제 근거"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "mock3-5",
+        "set_id": "mock3",
+        "number": 5,
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "answer": 1,
+        "evidence": "시험용 근거",
+        "explanation": "시험용 설명",
+        "choices_ko": [],
+        "wrong_reasons": [
+          {
+            "number": 2,
+            "text": "2 시험용 배제 근거"
+          },
+          {
+            "number": 3,
+            "text": "3 시험용 배제 근거"
+          },
+          {
+            "number": 4,
+            "text": "4 시험용 배제 근거"
+          },
+          {
+            "number": 5,
+            "text": "5 시험용 배제 근거"
+          }
+        ]
+      }
+    ],
+    "passage_groups": [
+      {
+        "id": "mock1-long",
+        "kind": "long_reading",
+        "set_id": "mock1",
+        "question_ids": [
+          "mock1-4",
+          "mock1-5"
+        ],
+        "passage_question_id": "mock1-5"
+      },
+      {
+        "id": "mock2-long",
+        "kind": "long_reading",
+        "set_id": "mock2",
+        "question_ids": [
+          "mock2-4",
+          "mock2-5"
+        ],
+        "passage_question_id": "mock2-5"
+      },
+      {
+        "id": "mock3-long",
+        "kind": "long_reading",
+        "set_id": "mock3",
+        "question_ids": [
+          "mock3-4",
+          "mock3-5"
+        ],
+        "passage_question_id": "mock3-5"
+      }
+    ]
+  },
+  "question_sources": [
+    {
+      "id": "q1",
+      "type": "주제",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q23",
+          "202606041-Q23",
+          "202609021-Q23"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      }
+    },
+    {
+      "id": "mock1-1",
+      "type": "주제",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q23",
+          "202606041-Q23",
+          "202609021-Q23"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      }
+    },
+    {
+      "id": "mock1-2",
+      "type": "주제",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q23",
+          "202606041-Q23",
+          "202609021-Q23"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      }
+    },
+    {
+      "id": "mock1-3",
+      "type": "주제",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q23",
+          "202606041-Q23",
+          "202609021-Q23"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      }
+    },
+    {
+      "id": "mock1-4",
+      "type": "제목",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      }
+    },
+    {
+      "id": "mock1-5",
+      "type": "어휘",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      },
+      "replacement_span": [
+        0,
+        4
+      ],
+      "replacement": "Changed",
+      "vocabulary_marks": [
+        [
+          0,
+          4
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          12,
+          18
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          26,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "mock2-1",
+      "type": "주제",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q23",
+          "202606041-Q23",
+          "202609021-Q23"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      }
+    },
+    {
+      "id": "mock2-2",
+      "type": "주제",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q23",
+          "202606041-Q23",
+          "202609021-Q23"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      }
+    },
+    {
+      "id": "mock2-3",
+      "type": "주제",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q23",
+          "202606041-Q23",
+          "202609021-Q23"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      }
+    },
+    {
+      "id": "mock2-4",
+      "type": "제목",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      }
+    },
+    {
+      "id": "mock2-5",
+      "type": "어휘",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      },
+      "replacement_span": [
+        0,
+        4
+      ],
+      "replacement": "Changed",
+      "vocabulary_marks": [
+        [
+          0,
+          4
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          12,
+          18
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          26,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "mock3-1",
+      "type": "주제",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q23",
+          "202606041-Q23",
+          "202609021-Q23"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      }
+    },
+    {
+      "id": "mock3-2",
+      "type": "주제",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q23",
+          "202606041-Q23",
+          "202609021-Q23"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      }
+    },
+    {
+      "id": "mock3-3",
+      "type": "주제",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q23",
+          "202606041-Q23",
+          "202609021-Q23"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      }
+    },
+    {
+      "id": "mock3-4",
+      "type": "제목",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      }
+    },
+    {
+      "id": "mock3-5",
+      "type": "어휘",
+      "source_id": "src",
+      "first_sentence": "s1",
+      "last_sentence": "s3",
+      "length_review": {
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "rationale": "Synthetic mechanical fixture; no educational sufficiency claim.",
+        "independent_review_required": true
+      },
+      "replacement_span": [
+        0,
+        4
+      ],
+      "replacement": "Changed",
+      "vocabulary_marks": [
+        [
+          0,
+          4
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          12,
+          18
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          26,
+          32
+        ]
+      ]
+    }
+  ],
+  "cover": {
+    "lesson_label": "LESSON",
+    "lesson_number": "00",
+    "topic_first": "Shared Layout Test",
+    "topic_second": "Synthetic Data Only",
+    "topic_ko": "자동 연결 시험 · 학습용 자료 아님"
+  },
+  "set_labels": {
+    "mock1": "미니 모의고사 1회",
+    "mock2": "미니 모의고사 2회",
+    "mock3": "미니 모의고사 3회"
+  }
+}

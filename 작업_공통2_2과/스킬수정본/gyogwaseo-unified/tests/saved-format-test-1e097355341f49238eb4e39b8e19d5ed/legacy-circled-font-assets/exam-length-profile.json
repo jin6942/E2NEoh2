@@ -1,0 +1,1039 @@
+{
+  "profile_id": "kr-hs-english-2026-3-6-9-v1",
+  "retrieved_at": "2026-09-23",
+  "authority": "EBSi official publicly provided nationwide high-school mock-exam PDFs",
+  "status": "EMPIRICAL_COMPARISON_PROFILE_NOT_OFFICIAL_MINIMUM",
+  "sample_design": "Same item numbers from 2026 March, June, September; three observations per grade/type. Purpose/emotion and long passages are separate; do not use pooled shortest item as a general minimum.",
+  "counting_method": {
+    "unit": "whitespace-separated tokens containing at least one alphanumeric character",
+    "include": "Displayed English reading body; numbered vocabulary targets; given+A/B/C once for order; given+body once for insertion; shared long passage once; unrelated-sentence item includes its displayed distractor sentence.",
+    "exclude": "Korean prompts, options, question/block/circled labels, English word glosses, summary after the arrow, headers and footers.",
+    "normalization": "PDF line wraps joined; U+00AD lexical hyphens preserved as hyphens; a lexical hyphen across a line break is joined. Numbers and apostrophe/hyphen compounds follow whitespace counting.",
+    "blank": "Q31 blank length restored; every option has equal word length within each measured Q31 (March/September one; June two), so no answer was guessed.",
+    "normalization_script_sha256": "faa24409b24ac5fad802e25e24e8e43d61505ecb906a4b52ea399f0df35ef143"
+  },
+  "limitations": [
+    "One year and three observed exams; not an official rule or complete national distribution.",
+    "Word count does not establish difficulty, source sufficiency, argument development, or uniqueness of an answer.",
+    "Below-reference length is an independent-review flag, never automatically approved by this numeric comparison.",
+    "High2 passages are not uniformly longer than high1; select same-grade same-type records."
+  ],
+  "exams": [
+    {
+      "id": "202603241",
+      "grade": 1,
+      "date": "20260324",
+      "official_url": "https://wdown.ebsi.co.kr/W61001/01exam/20260324/go1/eng_mun_B488YF4A.zip",
+      "official_page": "https://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=202603241&targetCd=D100",
+      "pdf_member": "01.3월_고1_영어_문제지.pdf",
+      "pdf_sha256": "38c0d5e48106f5a111b7ffe0a0dd298a8d5a193b7673f122a1fe0592abda5397"
+    },
+    {
+      "id": "202603242",
+      "grade": 2,
+      "date": "20260324",
+      "official_url": "https://wdown.ebsi.co.kr/W61001/01exam/20260324/go2/eng_mun_4H82B148.zip",
+      "official_page": "https://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=202603242&targetCd=D100",
+      "pdf_member": "01 3월_고2_영어_문제지.pdf",
+      "pdf_sha256": "b3162fec34ed09dc028cb0defc6f31ec631848ed30f61341cd349f8e472b3662"
+    },
+    {
+      "id": "202606041",
+      "grade": 1,
+      "date": "20260604",
+      "official_url": "https://wdown.ebsi.co.kr/W61001/01exam/20260604/go1/eng_mun_HXSO1I3Y.zip",
+      "official_page": "https://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=202606041&targetCd=D100",
+      "pdf_member": "03_2026_6월_고1_영어.pdf",
+      "pdf_sha256": "0ee4701af2d11eff464eb1ccaa4bc04bb741c81c8c451ffac3a25f054e90c588"
+    },
+    {
+      "id": "202606042",
+      "grade": 2,
+      "date": "20260604",
+      "official_url": "https://wdown.ebsi.co.kr/W61001/01exam/20260604/go2/eng_mun_9E8615M1.zip",
+      "official_page": "https://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=202606042&targetCd=D100",
+      "pdf_member": "03_2026_6월_고2_영어.pdf",
+      "pdf_sha256": "6b7c9ce3e30f21e405301cb31d14699850f0ad870a487d1a200f8d1ee4bf69fd"
+    },
+    {
+      "id": "202609021",
+      "grade": 1,
+      "date": "20260902",
+      "official_url": "https://wdown.ebsi.co.kr/W61001/01exam/20260902/go1/eng_mun_TGZ365X7.zip",
+      "official_page": "https://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=202609021&targetCd=D100",
+      "pdf_member": "03_고1_영어_문항지.pdf",
+      "pdf_sha256": "201df73c8bcbe0f5d51a101fd94ea2d3a615eec323123eadf6c848cd66a61ecd"
+    },
+    {
+      "id": "202609022",
+      "grade": 2,
+      "date": "20260902",
+      "official_url": "https://wdown.ebsi.co.kr/W61001/01exam/20260902/go2/eng_mun_SLACM4L6.zip",
+      "official_page": "https://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=202609022&targetCd=D100",
+      "pdf_member": "03_고2_영어_문항지.pdf",
+      "pdf_sha256": "2ee038c2a788ecd7637bd240837822c88658c8a9f9bf85c757143ee499897e96"
+    }
+  ],
+  "passages": [
+    {
+      "id": "202603241-Q18",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "목적",
+      "question": "18",
+      "words": 111,
+      "visible_words": 111,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603241-Q19",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "심경·분위기",
+      "question": "19",
+      "words": 107,
+      "visible_words": 107,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603241-Q20",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "주장",
+      "question": "20",
+      "words": 149,
+      "visible_words": 149,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603241-Q21",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "함축 의미",
+      "question": "21",
+      "words": 154,
+      "visible_words": 154,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603241-Q22",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "요지",
+      "question": "22",
+      "words": 133,
+      "visible_words": 133,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603241-Q23",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "주제",
+      "question": "23",
+      "words": 142,
+      "visible_words": 142,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603241-Q24",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "제목",
+      "question": "24",
+      "words": 154,
+      "visible_words": 154,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603241-Q26",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "내용",
+      "question": "26",
+      "words": 142,
+      "visible_words": 142,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603241-Q30",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "어휘",
+      "question": "30",
+      "words": 125,
+      "visible_words": 125,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603241-Q31",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "빈칸",
+      "question": "31",
+      "words": 137,
+      "visible_words": 136,
+      "blank_restoration_words": 1
+    },
+    {
+      "id": "202603241-Q35",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "무관한 문장",
+      "question": "35",
+      "words": 157,
+      "visible_words": 157,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603241-Q36",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "순서",
+      "question": "36",
+      "words": 134,
+      "visible_words": 134,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603241-Q38",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "삽입",
+      "question": "38",
+      "words": 138,
+      "visible_words": 138,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603241-Q40",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "요약",
+      "question": "40",
+      "words": 136,
+      "visible_words": 136,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603241-Q41_42",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "long41_42",
+      "question": "41~42",
+      "words": 212,
+      "visible_words": 212,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603241-Q43_45",
+      "exam_id": "202603241",
+      "grade": 1,
+      "type": "long43_45",
+      "question": "43~45",
+      "words": 301,
+      "visible_words": 301,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q18",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "목적",
+      "question": "18",
+      "words": 93,
+      "visible_words": 93,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q19",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "심경·분위기",
+      "question": "19",
+      "words": 114,
+      "visible_words": 114,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q20",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "주장",
+      "question": "20",
+      "words": 114,
+      "visible_words": 114,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q21",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "함축 의미",
+      "question": "21",
+      "words": 177,
+      "visible_words": 177,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q22",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "요지",
+      "question": "22",
+      "words": 162,
+      "visible_words": 162,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q23",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "주제",
+      "question": "23",
+      "words": 152,
+      "visible_words": 152,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q24",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "제목",
+      "question": "24",
+      "words": 173,
+      "visible_words": 173,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q26",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "내용",
+      "question": "26",
+      "words": 154,
+      "visible_words": 154,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q30",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "어휘",
+      "question": "30",
+      "words": 162,
+      "visible_words": 162,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q31",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "빈칸",
+      "question": "31",
+      "words": 165,
+      "visible_words": 164,
+      "blank_restoration_words": 1
+    },
+    {
+      "id": "202603242-Q35",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "무관한 문장",
+      "question": "35",
+      "words": 150,
+      "visible_words": 150,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q36",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "순서",
+      "question": "36",
+      "words": 145,
+      "visible_words": 145,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q38",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "삽입",
+      "question": "38",
+      "words": 157,
+      "visible_words": 157,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q40",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "요약",
+      "question": "40",
+      "words": 150,
+      "visible_words": 150,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q41_42",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "long41_42",
+      "question": "41~42",
+      "words": 240,
+      "visible_words": 240,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202603242-Q43_45",
+      "exam_id": "202603242",
+      "grade": 2,
+      "type": "long43_45",
+      "question": "43~45",
+      "words": 337,
+      "visible_words": 337,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q18",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "목적",
+      "question": "18",
+      "words": 92,
+      "visible_words": 92,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q19",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "심경·분위기",
+      "question": "19",
+      "words": 91,
+      "visible_words": 91,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q20",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "주장",
+      "question": "20",
+      "words": 125,
+      "visible_words": 125,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q21",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "함축 의미",
+      "question": "21",
+      "words": 149,
+      "visible_words": 149,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q22",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "요지",
+      "question": "22",
+      "words": 149,
+      "visible_words": 149,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q23",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "주제",
+      "question": "23",
+      "words": 132,
+      "visible_words": 132,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q24",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "제목",
+      "question": "24",
+      "words": 143,
+      "visible_words": 143,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q26",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "내용",
+      "question": "26",
+      "words": 118,
+      "visible_words": 118,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q30",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "어휘",
+      "question": "30",
+      "words": 169,
+      "visible_words": 169,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q31",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "빈칸",
+      "question": "31",
+      "words": 137,
+      "visible_words": 135,
+      "blank_restoration_words": 2
+    },
+    {
+      "id": "202606041-Q35",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "무관한 문장",
+      "question": "35",
+      "words": 130,
+      "visible_words": 130,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q36",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "순서",
+      "question": "36",
+      "words": 160,
+      "visible_words": 160,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q38",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "삽입",
+      "question": "38",
+      "words": 167,
+      "visible_words": 167,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q40",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "요약",
+      "question": "40",
+      "words": 166,
+      "visible_words": 166,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q41_42",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "long41_42",
+      "question": "41~42",
+      "words": 212,
+      "visible_words": 212,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606041-Q43_45",
+      "exam_id": "202606041",
+      "grade": 1,
+      "type": "long43_45",
+      "question": "43~45",
+      "words": 258,
+      "visible_words": 258,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q18",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "목적",
+      "question": "18",
+      "words": 102,
+      "visible_words": 102,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q19",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "심경·분위기",
+      "question": "19",
+      "words": 113,
+      "visible_words": 113,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q20",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "주장",
+      "question": "20",
+      "words": 153,
+      "visible_words": 153,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q21",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "함축 의미",
+      "question": "21",
+      "words": 162,
+      "visible_words": 162,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q22",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "요지",
+      "question": "22",
+      "words": 144,
+      "visible_words": 144,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q23",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "주제",
+      "question": "23",
+      "words": 130,
+      "visible_words": 130,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q24",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "제목",
+      "question": "24",
+      "words": 159,
+      "visible_words": 159,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q26",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "내용",
+      "question": "26",
+      "words": 120,
+      "visible_words": 120,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q30",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "어휘",
+      "question": "30",
+      "words": 177,
+      "visible_words": 177,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q31",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "빈칸",
+      "question": "31",
+      "words": 170,
+      "visible_words": 168,
+      "blank_restoration_words": 2
+    },
+    {
+      "id": "202606042-Q35",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "무관한 문장",
+      "question": "35",
+      "words": 169,
+      "visible_words": 169,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q36",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "순서",
+      "question": "36",
+      "words": 175,
+      "visible_words": 175,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q38",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "삽입",
+      "question": "38",
+      "words": 171,
+      "visible_words": 171,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q40",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "요약",
+      "question": "40",
+      "words": 152,
+      "visible_words": 152,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q41_42",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "long41_42",
+      "question": "41~42",
+      "words": 218,
+      "visible_words": 218,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202606042-Q43_45",
+      "exam_id": "202606042",
+      "grade": 2,
+      "type": "long43_45",
+      "question": "43~45",
+      "words": 329,
+      "visible_words": 329,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q18",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "목적",
+      "question": "18",
+      "words": 111,
+      "visible_words": 111,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q19",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "심경·분위기",
+      "question": "19",
+      "words": 123,
+      "visible_words": 123,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q20",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "주장",
+      "question": "20",
+      "words": 160,
+      "visible_words": 160,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q21",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "함축 의미",
+      "question": "21",
+      "words": 175,
+      "visible_words": 175,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q22",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "요지",
+      "question": "22",
+      "words": 173,
+      "visible_words": 173,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q23",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "주제",
+      "question": "23",
+      "words": 168,
+      "visible_words": 168,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q24",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "제목",
+      "question": "24",
+      "words": 179,
+      "visible_words": 179,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q26",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "내용",
+      "question": "26",
+      "words": 167,
+      "visible_words": 167,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q30",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "어휘",
+      "question": "30",
+      "words": 165,
+      "visible_words": 165,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q31",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "빈칸",
+      "question": "31",
+      "words": 167,
+      "visible_words": 166,
+      "blank_restoration_words": 1
+    },
+    {
+      "id": "202609021-Q35",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "무관한 문장",
+      "question": "35",
+      "words": 165,
+      "visible_words": 165,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q36",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "순서",
+      "question": "36",
+      "words": 168,
+      "visible_words": 168,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q38",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "삽입",
+      "question": "38",
+      "words": 165,
+      "visible_words": 165,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q40",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "요약",
+      "question": "40",
+      "words": 182,
+      "visible_words": 182,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q41_42",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "long41_42",
+      "question": "41~42",
+      "words": 216,
+      "visible_words": 216,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609021-Q43_45",
+      "exam_id": "202609021",
+      "grade": 1,
+      "type": "long43_45",
+      "question": "43~45",
+      "words": 359,
+      "visible_words": 359,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q18",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "목적",
+      "question": "18",
+      "words": 120,
+      "visible_words": 120,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q19",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "심경·분위기",
+      "question": "19",
+      "words": 133,
+      "visible_words": 133,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q20",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "주장",
+      "question": "20",
+      "words": 124,
+      "visible_words": 124,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q21",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "함축 의미",
+      "question": "21",
+      "words": 181,
+      "visible_words": 181,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q22",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "요지",
+      "question": "22",
+      "words": 130,
+      "visible_words": 130,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q23",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "주제",
+      "question": "23",
+      "words": 135,
+      "visible_words": 135,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q24",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "제목",
+      "question": "24",
+      "words": 159,
+      "visible_words": 159,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q26",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "내용",
+      "question": "26",
+      "words": 151,
+      "visible_words": 151,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q30",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "어휘",
+      "question": "30",
+      "words": 175,
+      "visible_words": 175,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q31",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "빈칸",
+      "question": "31",
+      "words": 122,
+      "visible_words": 121,
+      "blank_restoration_words": 1
+    },
+    {
+      "id": "202609022-Q35",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "무관한 문장",
+      "question": "35",
+      "words": 144,
+      "visible_words": 144,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q36",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "순서",
+      "question": "36",
+      "words": 169,
+      "visible_words": 169,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q38",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "삽입",
+      "question": "38",
+      "words": 159,
+      "visible_words": 159,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q40",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "요약",
+      "question": "40",
+      "words": 160,
+      "visible_words": 160,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q41_42",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "long41_42",
+      "question": "41~42",
+      "words": 199,
+      "visible_words": 199,
+      "blank_restoration_words": 0
+    },
+    {
+      "id": "202609022-Q43_45",
+      "exam_id": "202609022",
+      "grade": 2,
+      "type": "long43_45",
+      "question": "43~45",
+      "words": 363,
+      "visible_words": 363,
+      "blank_restoration_words": 0
+    }
+  ]
+}

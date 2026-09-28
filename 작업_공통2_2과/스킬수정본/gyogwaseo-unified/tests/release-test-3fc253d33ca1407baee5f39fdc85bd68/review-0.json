@@ -1,0 +1,37 @@
+{
+  "id": "SYNTHETIC-source-0",
+  "kind": "source",
+  "status": "PASS",
+  "reviewer_id": "SYNTHETIC-agent-0",
+  "execution_id": "SYNTHETIC-session-0",
+  "performed_at": "2026-01-01T00:00:00Z",
+  "independent": true,
+  "method": "Synthetic unit-test evidence only; no real independent review.",
+  "summary": "Fixture for release binding validation, never production evidence.",
+  "scope": {
+    "kind": "full",
+    "source_ids": [
+      "src"
+    ]
+  },
+  "bindings": {
+    "manuscript_sha256": "6354480c248f494825dba28f6c617418eb6127b5c06cc5055b73ce574f1bba70",
+    "plan_sha256": "7cc99c078f2cd71f3c258762c9ce3ade229607588dba64feecd54abc652b199b",
+    "contract_sha256": "a0494734ae7adb8c85086ce2d8a8395670ae94677c0dddb256fb69a1c0ff454c",
+    "docx_sha256": "7a6c84a957bc75d09fa39550c04613c8e9f11398d39281633dc6b0bd6897a37c",
+    "pdf_sha256": "2040dd93ee9ece81ccde98579c56aa99a98c51c0a76d86708bc697a9bfbb3097",
+    "learning_final_sha256": "3a0fa16ce319c5cb7095e518f161cd144427e8a6ba4b7c9430051d68de8c4756",
+    "assessment_final_sha256": "67ddf83a079047ea0ac81a5e3c6ee3705a9c847bc9dff3be1ac709fde6392af4",
+    "split_manifest_sha256": "1afd7586a8318eeef9336e27d9e73129027a4a5e7dffcc7c3165a1ef45a01b7f",
+    "package_sha256": "e0b7b4fa705941684a2cb746b809463bb0adb59a83032f6267306f07f1a0d853",
+    "source_content_sha256": "c67fd3ee0e4224228826955285114011e195d07afb26935347d399178ee7d641",
+    "learning_content_sha256": "2fc5966119084231f9d70ab0085acf064f8359ec232f4c46a81a8c4bd92d9b10",
+    "assessment_content_sha256": "786b94b780bf40373b8093ae1bd4b9d84c82a5d70e1a34044ec2d876fec96701",
+    "delivery_zip_sha256": "ab5be58a14223c5787e0df8ed9069b0bda1cc66b839f105a607bfc0496f84bce",
+    "volume_set_sha256": "cef504c1129cfccdd7eeb18558576001f51a88f03aca6ac3797d54158622b826",
+    "pdf_set_sha256": "149f0c8920276c4c430eeb5226de97fc30a1650d7a424658c8451206ae798f1c",
+    "word_renders_sha256": "6b124d1799c394916e8e1d2fdd2c5ac6bb257d05620b5bda31a062868d0252f5",
+    "word_page_map_sha256": "97c89fc8d888518af3d3a1814e627bdc006f0d1c4c5ad28cc39039596275b546"
+  },
+  "findings": []
+}

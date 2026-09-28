@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "scope": "full",
+  "producer": {
+    "reviewer_id": "SYNTHETIC-producer",
+    "execution_id": "SYNTHETIC-production"
+  },
+  "package": {
+    "root": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified",
+    "files": {
+      "SKILL.md": "f4b6e53dd36c0b3132f608a45156c868d7429b97bb7115b8017d230fe67a3d5f",
+      "agents/openai.yaml": "8e376350e03eca4676fbf9f030c89303866dde01908f9cbd8f62745139348e2a",
+      "artifact-template.json": "e691167a3819896ae7c205ce7c0ec00d32c29d5f91cf83d69316089bd0057ffe",
+      "assets/exam-length-profile.json": "c798ffbca3c1639d70abbde00e1defcc2b9992c224ef827c04a93d65ec11bc1a",
+      "assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "assets/latest-approved-reference.docx": "9af8460d2af50152f0b49c92191b98f8b7fcccd8b1a459365bb073ff07c8319b",
+      "assets/layout-contract.json": "a0494734ae7adb8c85086ce2d8a8395670ae94677c0dddb256fb69a1c0ff454c",
+      "assets/logo-horizontal.png": "3ef55a70160bf49a178b984cb1813a01af4581dd07c72618034d63e303d61360",
+      "assets/preview.png": "74317884392e8b407fb2e2432e4a513a987580d0c2389f4b6e2ebef3a75f65f4",
+      "assets/review-line.xml": "b533e87d6e6094453fb3755a3aa9f5e49665a5984ac3246013d6f9bbae377dd1",
+      "assets/source-subheading.xml": "9491f550c459b7256e5d3b1dfe1ecb95dd96ff7575418be73f1d0b479a50775b",
+      "assets/structure-hint-ko.xml": "855d612659b0ce00c2699c1d76f613f516837d71e24cd9d902c794e4ad2370ef",
+      "references/analysis-content.md": "b540184bc73f36428fbcf73dd77586bf34f5603808113cbedd6cc1ae276e1725",
+      "references/approved-exceptions.md": "26abb9c165635c3d7db5efd8f16ce0967368a0816ff4779a1e220c43af058ec4",
+      "references/assessment-content.md": "159d9fd4d0df776359abe0ac062976f9a7342089083b09498729bfab251dd394",
+      "references/common-errors.md": "058db2bf1c0fb67cc43927a6a53cf8cd122e55ef54ca2db944ceaddaaf41c2e8",
+      "references/current-revision.md": "13eaf6cedead59261a01bfd004034e807b73cecc2f69481cf8fb3ebd5ce74842",
+      "references/editorial-core.md": "620678de7335f75152ffa190d8139d31ffc1e03316825d62b202de32ee385396",
+      "references/gloss-rules.md": "3ee1cfa3708813a9f2f716b8099cf9898d91f672e2c0754939dd3b6a2d4465f7",
+      "references/grammar-labels.md": "955df3a855b8891e1a9a0220bcff36567c2dc1cdaddc355ef3cf947734339ac3",
+      "references/handoff-format.md": "e9b3ed617a7c3c90b079710c97431fac9ab41b1e84bf455f6bb803006e079619",
+      "references/layout-rules.md": "de911e443e52b5df776c2ae7827635315ca248bf717cf29026e8c89b04b75d67",
+      "references/manuscript-data.md": "5be58a9b8ed167dbf6235810964657f69bc571a66991cc0480ee974470898a5b",
+      "references/preposition-meanings.md": "2d4925a74820229d6a18fa3d5560f5469d7480cac5e8a211f58635723062a966",
+      "references/promotion.md": "ba0b660cd79a776565ffc5c62dcacf65ecd3c1419c8250a30c8c8b0484db4779",
+      "references/proper-nouns.md": "0fc99a1aad355e4a3241bb0d758ae15d8bc142ad17150d54577f2646e1b7aebe",
+      "references/release-record.md": "64d0c3a15909b00fdb83dc819dcbfc3606505a78ffb621168dfc1757c4227a4a",
+      "references/review-efficiency.md": "37218e5b5973f1a368fe4bc32622fab0a90c09308bdaaafcab7150203052147d",
+      "references/runtime-and-data.md": "8e2fa22f7ada9cd5cbe5c0f28bc8852a4c230ec6acf36f1d750e966bb1b16b6c",
+      "references/split-delivery.md": "3a26f5c67474636408c681a0ae91e8854411a0b3f8c787bba3a81aca679a23f2",
+      "references/user-feedback.md": "deb5791801c111c1db3aeecba573caa0ebe201e19e8f897243b584f38430f399",
+      "references/verification.md": "42b57e1bc8e19542d160fb4c40a32691b3645bc493c7a23d6468f9245cf6e7a1",
+      "references/workbook.md": "c358dbc10dc4e457d746ea19321a1f22c16c8f098083588157dfe154a329cfc5",
+      "references/workflow.md": "dc6f355b56fa30110cb99864a1dbd6bb60fc3b27416e4a4b7ad7b4850543f958",
+      "requirements-visual.txt": "f8d2d4f7cd1c7289ea52f919c168b38d91618f29967270f5ba51bd272d572a7a",
+      "requirements.txt": "e9ad6b8ad343a83ea8da444b4ec8d089d3ed4c5afcebf87c3f14c4ae5ea5668e",
+      "scripts/analysis_body.py": "5703b689a8bcf08210f2ec41c97d8839d7e88ab3b61bc749ec041c7afd24bc46",
+      "scripts/book_plan.py": "d0160e7cc91c0b8758bb5dae16891a0725deeb4075ab65caa80156c977e2ad39",
+      "scripts/build_book.py": "62bf8027baed7d0fcf5fec06f3439dbbd3ce9328fd5c2915b9a140d7995e96ff",
+      "scripts/build_promotion.py": "c9c5ead3a0368eab02d78ead3602887349966cab3611f7b0ed3e64967706ce0f",
+      "scripts/build_thumbnail.py": "551582631d84b76e3aaeaa38fb7491c18980be9fe2b66f44660a80c86c735ec0",
+      "scripts/check_answer_links.py": "058d5d3ccb8245d703507dd0307218a1af82c32d5b5ecb2a25ac5fd761b1c035",
+      "scripts/check_book.py": "b090c680dc7f39484fe45cfb1bf3073e94f4181ac14b6862e9d1cb3602bd2220",
+      "scripts/check_learning_content.py": "14ff513580f14bb0418f5ad85c796b6d70f63f43c845d241b0ec358aee0173c1",
+      "scripts/check_release_text.py": "9b74fbb5e70cd24e309d770e47d254da97172b28c7a8817a854fb1df20d209d6",
+      "scripts/check_saved_docx.py": "9fa19dc680d763a1d6c53d43a24262604972046ed141ca0832904de11085b103",
+      "scripts/compact_layout.py": "447b3156db919aa570f86c74ecdd4da515c5b0aa07557eaf21115304cbc71449",
+      "scripts/convert_thumbnail_input.py": "5276a9cef0637b63f7adad35a34f8a40bf42c66ae4745e59abc6ed7655d84688",
+      "scripts/export_handoff.py": "a47ab2a49d9ccf5caaec6df38f21a9fe04d4724237d4bd1a74d59fd3fe3c0173",
+      "scripts/learning_units.py": "f4ec54025cca73b993dbbb1049be07dc4715a958e3c3e168baf747cdf93b6ddc",
+      "scripts/master_docx.py": "fa32c6391a77e8386fd527cdc675ad9452400caa331e92956506e3fd6381ec2e",
+      "scripts/question_source.py": "a6a76b4c41ff45a49156dd99f86b1e0b703e7095d03e0e981ab077ac6901b92e",
+      "scripts/rasterize_pdf.py": "fff503641ee7c7d56a80b700f6f42cdff374312093a619df7518ef38b866d014",
+      "scripts/render_word.ps1": "bb21b85cade12a640a6f4727dbdc48473b93729240d3f309411770dff65aebf5",
+      "scripts/review_coverage.py": "f6101920fdef8a2aaff5247f71f8a6907fc01016d206abfb628835c86e5442d0",
+      "scripts/review_packets.py": "16e1f4f027e668d6f4609ff1f43b4394b0c02e3740b4f4b7209f8526b2215088",
+      "scripts/review_preflight.py": "742051d2cffaa6e5330e6f570944187709bfdf7880f0fb634736c4d589f7dc65",
+      "scripts/saved_format.py": "41a045463af7a3489526216ef1ad58f48802af0a7a0b18aba9371af98a7a4561",
+      "scripts/source_contract.py": "c38ec0216500bd85f183f4b97357d9035474c1c839aacfd45926af4742814cc0",
+      "scripts/split_book.py": "3ffcba332e36467cf1536fbd9d4150a9dddfda4a51197ea636817f3f0cb548b6",
+      "scripts/split_release_support.py": "ed088568429edc58c7a0c851198a7e556bb0bc9ff3d11ec088e3babb33215bd1",
+      "scripts/structure_hints.py": "308c01973d16795f85f0a0430b2a033cb499ba87ee95dc590300e20a23bf5900",
+      "scripts/sv_line.py": "1206b881a52142fca40ca4bc97b90f5680848eda94b72f2234f60b5a7f294aae",
+      "scripts/syntax_training.py": "9529bbe32adaa447b4f7e90b6b3a2bd5ec6feb9782c47b1c03c586d98a0a0732",
+      "scripts/user_feedback.py": "85a7b9c272d30ebf54817f694fb26204cc0355ab36d096a2d46393b822cfdfb6",
+      "scripts/verify_release.py": "87c2c49ce0efbbbdaf631396117e66bf6f37d64d57e2a500c730b1613fe2bfcd",
+      "scripts/verify_split_release.py": "5434b68d49abf29489aa5562485bdf32130eb8949518bef53d0ec0e98a604950",
+      "tests/revision_fixtures.py": "1387b1fdd877cfbba893aa85a4fc3f2f3998db2c0332c14e9fcf62b33f52a929",
+      "tests/run_tests.py": "148d0f1e176fe02540b000f5e3dfc19f24de2445cab37b121d5af24bf9fdb54f",
+      "tests/template-audit/layout-specimen.docx": "a4e3ac469c1f893cfe6e7bb1fd89d155ef32380d50adee82d6c06e560962a1fb",
+      "tests/template-audit/layout-specimen.json": "c53c192c6730b3aa45493bb37a566b7b5e6f2f13860b9062c5855fa839ecf9d3",
+      "tests/test_analysis_body.py": "1fbe5dcd663e703686902e346cfa081504b2facd8649920eae70f13a458f81f0",
+      "tests/test_answer_links.py": "bb4727f2916b859be58b0b44d49cd0e0b70487cbeaa2bd3f90d95ae56a0bbd95",
+      "tests/test_assessment_rule_revision.py": "85286330ab95ebf32fb1b02d94101a470b535e2f0a45090e00f862ca0f3ce906",
+      "tests/test_book.py": "f29c1921fcf4fcc951a44b32ba9c5c1b62d44ae39306c7568b4961b82bd974e5",
+      "tests/test_book_plan.py": "5e9e44b6b56b8c5dec444f0d008a307d1374594bdf2c142cf1b9ac95fd0e5bf7",
+      "tests/test_build_book.py": "c9c40210c28d3f0a532c7eb91876c4953a38ebd9bdbaa3a311d3ed30b0b8f095",
+      "tests/test_compact_layout.py": "0fe36794cf6d053c685489bf8b85c00335bfa5bf41efcd47dd5c253429da4a73",
+      "tests/test_confirmed_layout.py": "22edb7c104a2433159726e9bdf4b2d41163a30c75ba12e7874dc0e3f38845b71",
+      "tests/test_cover_simplify.py": "545727e81d8b6b8fc76239f77f5b9ec0fbdc69b7675b771aebc8d0add99da0c8",
+      "tests/test_export_handoff.py": "106e74f8aded977f56590720d9b2ae235acbd8478664f51e6e0cb9fbc5b623dd",
+      "tests/test_formula_training_display.py": "15e1404f133638578c1b3d156e2e2f1b4f0fbe37dccc8f6d37580c68e3ed2d3d",
+      "tests/test_formula_training_gloss.py": "d98ed0a3036b3ad0e4dc47c3697cd87528703deb20cf1b30d860614f0fda335a",
+      "tests/test_gloss_identity.py": "fcf84cba0ac3048bc60c573bbf77f210793e90e9ae658241687ccf44dcff263f",
+      "tests/test_handoff_diagnostics.py": "fb36221a24025bab3902f8cbb486b7de25b2b58550c93facecea2ebdcdebdfb4",
+      "tests/test_header_standardization.py": "e55f0e99d9d7d79d3ae63b2e00c57e0ad8dbedc539a4e192677eae4f140a66f7",
+      "tests/test_hint_particles.py": "520189b3857b69f3627130c7dfb2fc57b999a7b34e6fba21d20735d230fce9f1",
+      "tests/test_layout_rule_revision.py": "e09fd1e883391687cff47be18f89b556f0a543568f38fad3bc7dad03a282d5e8",
+      "tests/test_learning_content.py": "80f7272351ca86017eea61113a079a6121ed7f8b5d3074135eb2c8c8539e9dd6",
+      "tests/test_learning_units.py": "05bafda226592cb610f4b49ec185678cff1fb4904418e647382d9fc2d6eef391",
+      "tests/test_master_docx.py": "be80f050cc8d3ceda2ad7306215f846d1e2fc58f6543fca241608c859d4b9735",
+      "tests/test_preflight_scope.py": "5a370886836bf75e69f3de0408dc2386b62dd26b30c295b792e5b85208c216ac",
+      "tests/test_promotion.py": "344def33df8f1db4dcf22b6150142563beab729146b9d34489efcf68b42b26c0",
+      "tests/test_quantity_of_passive.py": "3c934026c569fb2ee3781fc82ac80bee0587817574112e0f238f84cec9f83494",
+      "tests/test_question_source.py": "cc60fa2edcf3c983c2f4f8edfce0dbc6d68e5b67aee3ea7eb91bb29da50fb8ce",
+      "tests/test_reading_rule_revision.py": "3fd8c0b4054c430c707f65608b725b66be94489cc68e054e2f31422e549f4de8",
+      "tests/test_relative_hints.py": "9b17eb2ec127351de87abe9949c00d5a6076944aa9bc06cdd538776e0b97027b",
+      "tests/test_release.py": "98b299fc80659f48585738bb485ea00eaf8d8ada763b46dc38952092ae213845",
+      "tests/test_release_text.py": "d73c69164ce354805d5a6f96bb69b660bfbd685b75f318a757cce40297cbfe6d",
+      "tests/test_render_markers.py": "de7e67f601cd45e6daef50b1ff1b46a10dba469793a7c97623b4cf3d38606764",
+      "tests/test_review_coverage.py": "d05b912e697ae385b169f75d1c47daf8b25ccd5372d7f00c68d92ae394268866",
+      "tests/test_review_packets.py": "ee4a861cbe1614183887e64094af713f41bad222019140b763268058c13b7786",
+      "tests/test_review_preflight.py": "7e4b312ff79bbd672fbb57f96c174b423a797a68ef0fda4187c7db814f5d7dbd",
+      "tests/test_review_release_integration.py": "50867fde1e322c9ee964435c0a573b78c45dc2a5bf2834a9757115f1f7502c40",
+      "tests/test_rule_revision_integration.py": "43cce0e494f7c1f7e79602da328b33f3b5a70be866e9ab2e552a859507477c09",
+      "tests/test_saved_docx.py": "408c64418a08b107a655e4a5620cdac048d273c18631ee8240bbf25c9ac0819a",
+      "tests/test_saved_format.py": "651afbad0a50ba9b1d9d86d416a8f49d5296b6b78003f704dc6ca37e973acc86",
+      "tests/test_special_lesson.py": "9d48ee3b48d20c5a3b632055af92b3f13384986bf84f754d42076caa89e19ced",
+      "tests/test_split_book.py": "828ed50d8421791b0149860a31ba69689bf97c362006245fd88b1ab42a433425",
+      "tests/test_split_release.py": "80ac32e914214883d98b85193f8d6ac0e6ccb337a7ccf20272853488c2bbf132",
+      "tests/test_sv_line.py": "a563a9c388411b513679a1533651fbe21f5426cbc89d2f182a4c2106ae813cc8",
+      "tests/test_syntax_training.py": "b32957b5bd6fd9dfd4c9fc52b92504722297103a022fee933168c811c1beffdd",
+      "tests/test_syntax_training_output.py": "e7f24ee3b734eaadd520ac573b4c5ad696ddd961d2d1280fcce291c9a89b4172",
+      "tests/test_thumbnail_input.py": "69505c2e6b605de79d008d47cf0480c5608fe740b93ce350261d08ad36bb4ad6",
+      "tests/test_user_feedback.py": "0e909817cc292e88b39b1e2201ee5083ae505767bf5870121f089e2d284c37dc",
+      "tests/test_user_feedback_release.py": "a65b09eb2489d7bf7ba7038bcbf11f09c807815e3fd5523a9b99990c6d9be30c",
+      "tests/test_verb_function_hints.py": "8cdaf7a7b1245d416da0725cce8bfa3773d68acb986d266ece70047543cdd87d",
+      "tests/test_verb_gloss_revision.py": "7476b33c8f06bb21155cbd394261c304618a4e349ab163b1adfd413cff0b72c6"
+    },
+    "sha256": "e0b7b4fa705941684a2cb746b809463bb0adb59a83032f6267306f07f1a0d853"
+  },
+  "sources": [
+    {
+      "id": "src",
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/synthetic-source.txt",
+      "sha256": "86c89b9557696565d8bc95658b17e45706748b5486726aa82e7d697fcab8d0bb"
+    }
+  ],
+  "artifacts": {
+    "manuscript": {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/manuscript.json",
+      "sha256": "6354480c248f494825dba28f6c617418eb6127b5c06cc5055b73ce574f1bba70"
+    },
+    "plan": {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/plan.json",
+      "sha256": "7cc99c078f2cd71f3c258762c9ce3ade229607588dba64feecd54abc652b199b"
+    },
+    "contract": {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/assets/layout-contract.json",
+      "sha256": "a0494734ae7adb8c85086ce2d8a8395670ae94677c0dddb256fb69a1c0ff454c"
+    },
+    "docx": {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/synthetic.docx",
+      "sha256": "7a6c84a957bc75d09fa39550c04613c8e9f11398d39281633dc6b0bd6897a37c"
+    },
+    "pdf": {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/synthetic.pdf",
+      "sha256": "2040dd93ee9ece81ccde98579c56aa99a98c51c0a76d86708bc697a9bfbb3097"
+    },
+    "learning_final": {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/learning_FINAL.txt",
+      "sha256": "3a0fa16ce319c5cb7095e518f161cd144427e8a6ba4b7c9430051d68de8c4756"
+    },
+    "assessment_final": {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/assessment_FINAL.txt",
+      "sha256": "67ddf83a079047ea0ac81a5e3c6ee3705a9c847bc9dff3be1ac709fde6392af4"
+    }
+  },
+  "reports": {
+    "structure": {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/structure.json",
+      "sha256": "794ba23d0650c99ab9c1dea0bb9608483c5f41cac9a2bc7aa3d4af40b56f2be0"
+    },
+    "saved_docx": {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/saved.json",
+      "sha256": "6092e1d0ed8d296367c6215252ac938cebcb6f96ed82daf68d4e9eadaef8f6bf"
+    },
+    "word_render": {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/word.json",
+      "sha256": "4cc6df3df0f261615e65b685e004123c2760b11777f3e52ac7dba6169fa9fb90"
+    }
+  },
+  "reviews": [
+    {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/review-0.json",
+      "sha256": "97aa8f6637c26c8b4379dcf9df0f2d8a5942e53a015e7e65fd31048546c9a920"
+    },
+    {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/review-1.json",
+      "sha256": "857a2f69026a193910502a957fb31e28cfd268e0e26c30b0f0a7c9c4cf209c45"
+    },
+    {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/review-2.json",
+      "sha256": "789cfc54f534fc3da4130803788ee319ddf6d4b9e6c26e1be7b44f0d3beaee6e"
+    },
+    {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/review-3.json",
+      "sha256": "7f5c516fab77b34de11fda8c20699b46cf650c401ad4736394e4b89128846e52"
+    },
+    {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/review-4.json",
+      "sha256": "542d3ed5fc55c22337f130a7de366c105368fbf0203859a431e3788c2dd89bca"
+    },
+    {
+      "path": "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/release-test-3279e85cf3ae4d76b76bae265fd3b92c/review-5.json",
+      "sha256": "13f9e1b8db9abc040d932002bf936f962eb22bb9b68f0a11cd4a3ea330fb84c1"
+    }
+  ]
+}
