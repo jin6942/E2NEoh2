@@ -1,0 +1,1000 @@
+[교재명] 공통영어2 YBM(박준언)
+[과목] 공통영어2
+[출판사·저자] YBM(박준언)
+[UNIT] UNIT01
+[학생용 과 표시] 1과
+[권위 원문] (2022개정)2025년_공통영어2_YBM(박준언)_1과_본문_(20250723수정).pdf · 원본 PDF 1~3쪽 왼쪽 단 영어 본문 전체(오른쪽 단 한국어 해석·세로 저작권 문구·4쪽 Further Reading 제외)
+[자료 범위] 혼공해석지 + 지문분석지
+
+===== [지문] u1 =====
+[SOURCE] src
+[학습 단위] u1
+[원문 범위] 본문 · 원문 문장 1~10
+----- [문장 1] -----
+[핵심 문장] 아니오
+[원문]
+While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.”
+[혼공 끊어읽기]
+While scrolling through her social media / one day, / Gina was astonished / when she saw the news headline, / “The Heundeulbawi / in Seoraksan National Park / Has Fallen.”
+[S/V] S: Gina, V: was ／ [when] S′: she, V′: saw ／ S: The Heundeulbawi, V: Has Fallen
+[각주]
+while V-ing — ~하던 중에 / scroll through — ~을 스크롤하며 훑어보다 / her — 그녀의 (지나) / social media — 소셜 미디어 (SNS) / one day — 어느 날 / Gina — 지나 (사람 이름) / was — ~였다 / ★ astonished — 깜짝 놀란 / when S′ V′ — S′(이/가) V′했을 때 / she — 그녀가 (지나) / saw — 보았다 (see의 과거) / ★ news headline — 뉴스 헤드라인, 뉴스 제목 / Heundeulbawi — 흔들바위 (설악산 국립공원의 큰 바위) / in — ~에 있는 / Seoraksan National Park — 설악산 국립공원 / have p.p. — ~했다 / fall — 떨어지다, 무너지다 (Fallen은 fall의 p.p.형)
+[구조 힌트] [While scrolling] → [스크롤하던 중에] (접속사 while + V-ing)
+[구조 힌트] [when she saw] → [그녀[지나]가 보았을 때] (시간 접속사 when)
+[분석 끊어읽기 영어]
+While scrolling through her social media / one day, / Gina was astonished / when she saw the news headline, / “The Heundeulbawi / in Seoraksan National Park / Has Fallen.”
+[분석 끊어읽기 한국어]
+그녀의 소셜 미디어를 스크롤하던 중에 / 어느 날, / 지나는 깜짝 놀랐다 / 그녀가 뉴스 헤드라인을 보았을 때, / “흔들바위가 / 설악산 국립공원에 있는 / 떨어졌다.”
+[자연 해석]
+어느 날 소셜 미디어를 스크롤하던 중, 지나는 “설악산 국립공원의 흔들바위가 떨어졌다”라는 뉴스 헤드라인을 보고 깜짝 놀랐다.
+----- [/문장 1] -----
+
+----- [문장 2] -----
+[핵심 문장] 아니오
+[원문]
+Gina immediately shared the shocking story with her close friends.
+[혼공 끊어읽기]
+Gina immediately shared the shocking story / with her close friends.
+[S/V] S: Gina, V: shared
+[각주]
+immediately — 즉시, 곧바로 / share — 공유하다, 함께 나누다 / shocking — 충격적인 / story — 이야기, 소식 / with — ~와 / her — 그녀의 (지나) / close — 친한 (흔한 뜻: 가까운) / friends — 친구들
+[분석 끊어읽기 영어]
+Gina immediately shared the shocking story / with her close friends.
+[분석 끊어읽기 한국어]
+지나는 즉시 그 충격적인 이야기를 공유했다 / 그녀의 친한 친구들과.
+[자연 해석]
+지나는 곧바로 그 충격적인 소식을 친한 친구들에게 공유했다.
+----- [/문장 2] -----
+
+----- [문장 3] -----
+[핵심 문장] 아니오
+[원문]
+Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.”
+[혼공 끊어읽기]
+Later, / during the morning news / on TV, / a reporter / standing next to the undamaged Heundeulbawi / said, / “Today’s Internet stories / of the Heundeulbawi being damaged / were fake.”
+[S/V] S: a reporter, V: said ／ S: Today’s Internet stories, V: were
+[각주]
+later — 이후에, 나중에 / during — ~ 동안 / morning — 아침 / news — 뉴스 / on — ~에서 (흔한 뜻: ~위에) / TV — TV, 텔레비전 / reporter — 기자 / V-ing — ~하고 있는 / stand — 서다 / next to — ~ 옆에 / ★ undamaged — 손상되지 않은, 멀쩡한 / said — 말했다 (say의 과거) / today’s — 오늘의 / Internet — 인터넷 / stories — 기사들 (흔한 뜻: 이야기들) / of — ~에 관한 (흔한 뜻: ~의) / being p.p. — ~되는 것 / damaged — 손상된 / were — ~였다 / fake — 가짜의
+[구조 힌트] a reporter [standing next to the undamaged Heundeulbawi] → [손상되지 않은 흔들바위 옆에 서 있는] 한 기자 (현재분사 후치수식)
+[구조 힌트] stories [of the Heundeulbawi being damaged] → [흔들바위가 손상되는 것에 관한] 기사들 (전치사 of + 의미상 주어 + 동명사)
+[분석 끊어읽기 영어]
+Later, / during the morning news / on TV, / a reporter / standing next to the undamaged Heundeulbawi / said, / “Today’s Internet stories / of the Heundeulbawi being damaged / were fake.”
+[분석 끊어읽기 한국어]
+이후에, / 아침 뉴스 동안 / TV에서 하는, / 한 기자가 / 손상되지 않은 흔들바위 옆에 서 있는 / 말했다, / “오늘의 인터넷 기사들은 / 흔들바위가 손상되는 것에 관한 / 가짜였습니다.”
+[자연 해석]
+이후 TV 아침 뉴스에서, 멀쩡한 흔들바위 옆에 서 있던 기자가 “흔들바위가 손상되었다는 오늘 인터넷 기사들은 가짜였습니다.”라고 말했다.
+----- [/문장 3] -----
+
+----- [문장 4] -----
+[핵심 문장] 예
+[원문]
+Gina was embarrassed by the fact that she had spread the fake news.
+[혼공 끊어읽기]
+Gina was embarrassed / by the fact / that she had spread the fake news.
+[S/V] S: Gina, V: was ／ [that] S′: she, V′: had spread
+[각주]
+was — ~였다 / ★ embarrassed — 당황한, 창피한 / by — ~에 (흔한 뜻: ~에 의해) / fact — 사실 / that S′ V′ — S′(이/가) V′했다는 (앞 명사의 내용을 설명) / she — 그녀가 (지나) / had p.p. — ~했다 / spread — 퍼뜨리다 (spread는 spread의 p.p.형) / fake news — 가짜 뉴스
+[구조 힌트] the fact [that she had spread] → [그녀[지나]가 퍼뜨렸다는] 사실 (동격 접속사 that)
+[분석 끊어읽기 영어]
+Gina was embarrassed / by the fact / that she had spread the fake news.
+[분석 끊어읽기 한국어]
+지나는 당황했다 / 사실에 / 그녀가 가짜 뉴스를 퍼뜨렸다는.
+[자연 해석]
+지나는 자신이 가짜 뉴스를 퍼뜨렸다는 사실에 당황했다.
+----- [/문장 4] -----
+
+----- [문장 5] -----
+[핵심 문장] 아니오
+[원문]
+It reminded her of another incident of fake news that had happened a while ago.
+[혼공 끊어읽기]
+It reminded her of another incident / of fake news / that had happened a while ago.
+[S/V] S: It, V: reminded ／ [that] V′: had happened
+[각주]
+it — 그것은 (지나가 흔들바위 가짜 뉴스를 퍼뜨린 일) / remind A of B — A에게 B를 떠올리게 하다 / her — 그녀에게 (지나) / another — 또 다른 / ★ incident — 사건 / of — ~의 / fake news — 가짜 뉴스 / that V′ — V′했던 (관계대명사) / had p.p. — ~했다 / happen — 일어나다 (happened는 happen의 p.p.형) / a while ago — 얼마 전에
+[구조 힌트] another incident of fake news [that had happened] → [일어났던] 또 다른 가짜 뉴스 사건 (주격 관계대명사 that)
+[분석 끊어읽기 영어]
+It reminded her of another incident / of fake news / that had happened a while ago.
+[분석 끊어읽기 한국어]
+그것은 그녀에게 또 다른 사건을 떠올리게 했다 / 가짜 뉴스의 / 얼마 전에 일어났던.
+[자연 해석]
+이 일은 지나에게 얼마 전에 있었던 또 다른 가짜 뉴스 사건을 떠올리게 했다.
+----- [/문장 5] -----
+
+----- [문장 6] -----
+[핵심 문장] 아니오
+[원문]
+The news that a famous athlete had died became the number one issue online, but it turned out to be fake.
+[혼공 끊어읽기]
+The news / that a famous athlete had died / became the number one issue online, / but it turned out to be fake.
+[S/V] S: The news, V: became ／ [that] S′: a famous athlete, V′: had died ／ [but] S: it, V: turned out
+[각주]
+news — 뉴스 / that S′ V′ — S′(이/가) V′했다는 (앞 명사의 내용을 설명) / famous — 유명한 / athlete — 운동선수 / had p.p. — ~했다 / die — 죽다, 사망하다 (died는 die의 p.p.형) / became — ~이 되었다 (become의 과거) / number one — 1위의, 가장 큰 / issue — 이슈, 화제 / online — 온라인에서 / it — 그것은 (유명한 운동선수가 사망했다는 뉴스) / ★ turn out to V — ~인 것으로 드러나다, 밝혀지다 / be — ~이다 / fake — 가짜의
+[구조 힌트] The news [that a famous athlete had died] → [한 유명한 운동선수가 죽었다는] 뉴스 (동격 접속사 that)
+[분석 끊어읽기 영어]
+The news / that a famous athlete had died / became the number one issue online, / but it turned out to be fake.
+[분석 끊어읽기 한국어]
+뉴스가 / 한 유명한 운동선수가 죽었다는 / 온라인에서 가장 큰 이슈가 되었다, / 하지만 그것은 가짜인 것으로 드러났다.
+[자연 해석]
+한 유명한 운동선수가 사망했다는 뉴스가 온라인에서 가장 큰 이슈가 되었지만, 그것은 가짜로 밝혀졌다.
+----- [/문장 6] -----
+
+----- [문장 7] -----
+[핵심 문장] 아니오
+[원문]
+It had been made by content creators who sought people’s attention.
+[혼공 끊어읽기]
+It had been made / by content creators / who sought people’s attention.
+[S/V] S: It, V: had been made ／ [who] V′: sought
+[각주]
+it — 그것은 (유명한 운동선수가 사망했다는 가짜 뉴스) / had been p.p. — ~되었다 / made — 만들어진 / by — ~에 의해 / ★ content creators — 콘텐츠 제작자들 / who V′ — V′했던 (관계대명사) / sought — 추구했다, 얻으려 했다 (seek의 과거) / people’s — 사람들의 / attention — 관심, 주목
+[구조 힌트] content creators [who sought] → [추구했던] 콘텐츠 제작자들 (주격 관계대명사 who)
+[구조 힌트] made(만들어진) → had been made(만들어졌다) (had been p.p.)
+[분석 끊어읽기 영어]
+It had been made / by content creators / who sought people’s attention.
+[분석 끊어읽기 한국어]
+그것은 만들어졌다 / 콘텐츠 제작자들에 의해 / 사람들의 관심을 추구했던.
+[자연 해석]
+그 뉴스는 사람들의 관심을 끌려던 콘텐츠 제작자들이 만든 것이었다.
+----- [/문장 7] -----
+
+----- [문장 8] -----
+[핵심 문장] 아니오
+[원문]
+They produced provocative false stories to make money by raising the number of views of their posts.
+[혼공 끊어읽기]
+They produced provocative false stories / to make money / by raising the number / of views / of their posts.
+[S/V] S: They, V: produced
+[각주]
+they — 그들은 (콘텐츠 제작자들) / produce — 만들어 내다, 생산하다 / ★ provocative — 자극적인, 도발적인 / false — 거짓의, 사실이 아닌 / stories — 이야기들 / to V — ~하기 위해 / make money — 돈을 벌다 / by V-ing — ~함으로써 / raise — 높이다, 올리다 / number — 수 / of — ~의 / views — 조회 (흔한 뜻: 견해들) / of — ~의 / their — 그들의 (콘텐츠 제작자들) / posts — 게시물들
+[구조 힌트] [to make money] → [돈을 벌기 위해] (목적의 to부정사)
+[구조 힌트] [by raising] → [높임으로써] (전치사 by + 동명사)
+[분석 끊어읽기 영어]
+They produced provocative false stories / to make money / by raising the number / of views / of their posts.
+[분석 끊어읽기 한국어]
+그들은 자극적인 거짓 이야기들을 만들어 냈다 / 돈을 벌기 위해 / 수를 높임으로써 / 조회의 / 그들의 게시물들의.
+[자연 해석]
+그들은 자신들의 게시물 조회수를 높여 돈을 벌기 위해 자극적인 거짓 이야기를 만들어 냈다.
+----- [/문장 8] -----
+
+----- [문장 9] -----
+[핵심 문장] 예
+[원문]
+At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people.
+[혼공 끊어읽기]
+At that time, / Gina criticized those / who had made and spread fake news / because it had hurt the athlete / and confused people.
+[S/V] S: Gina, V: criticized ／ [who] V′: had made and spread ／ [because] S′: it, V′: had hurt and confused
+[각주]
+at that time — 그 당시에 / criticize — 비판하다 / those — (~한) 사람들 / who V′ — V′했던 (관계대명사) / had p.p. — ~했다 / make — 만들다 (made는 make의 p.p.형) / spread — 퍼뜨리다 (spread는 spread의 p.p.형) / fake news — 가짜 뉴스 / because S′ V′ — S′(이/가) V′했기 때문에 / it — 그것이 (그 가짜 뉴스) / had p.p. — ~했다 / hurt — 상처를 주다 (hurt는 hurt의 p.p.형) / athlete — 운동선수 / confuse — 혼란스럽게 하다 (confused는 confuse의 p.p.형) / people — 사람들
+[구조 힌트] those [who had made and spread] → [만들고 퍼뜨렸던] 사람들 (주격 관계대명사 who)
+[구조 힌트] [because it had hurt] → [그것[그 가짜 뉴스]이 상처를 주었기 때문에] (이유 접속사 because)
+[분석 끊어읽기 영어]
+At that time, / Gina criticized those / who had made and spread fake news / because it had hurt the athlete / and confused people.
+[분석 끊어읽기 한국어]
+그 당시에, / 지나는 사람들을 비판했다 / 가짜 뉴스를 만들고 퍼뜨렸던 / 그것이 그 운동선수에게 상처를 주었고 / 사람들을 혼란스럽게 했기 때문에.
+[자연 해석]
+그 당시 지나는 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했는데, 그 뉴스가 그 운동선수에게 상처를 주고 사람들을 혼란스럽게 했기 때문이었다.
+----- [/문장 9] -----
+
+----- [문장 10] -----
+[핵심 문장] 아니오
+[원문]
+This time, however, Gina herself had accidentally contributed to the spread of fake news.
+[혼공 끊어읽기]
+This time, / however, / Gina herself had accidentally contributed / to the spread / of fake news.
+[S/V] S: Gina herself, V: had contributed
+[각주]
+this time — 이번에는 / however — 하지만 / herself — (그녀) 자신이, 직접 (지나) / had p.p. — ~했다 / accidentally — 뜻하지 않게, 실수로 / contribute — 기여하다, 한몫하다 (contributed는 contribute의 p.p.형) / to — ~에 / spread — 확산, 퍼짐 / of — ~의 / fake news — 가짜 뉴스
+[구조 힌트] contribute(기여하다) → had accidentally contributed(뜻하지 않게 기여했다) (had p.p.)
+[분석 끊어읽기 영어]
+This time, / however, / Gina herself had accidentally contributed / to the spread / of fake news.
+[분석 끊어읽기 한국어]
+이번에는, / 하지만, / 지나 자신이 뜻하지 않게 기여했다 / 확산에 / 가짜 뉴스의.
+[자연 해석]
+하지만 이번에는 지나 자신이 뜻하지 않게 가짜 뉴스의 확산에 한몫한 것이었다.
+----- [/문장 10] -----
+
+----- [분석 단위] u1 -----
+[SOURCE_RANGE] 본문 · 원문 문장 1~10
+[제목] Gina Spreads Fake News by Mistake (실수로 가짜 뉴스를 퍼뜨린 지나)
+[글의 의도/요지]
+지나가 흔들바위 가짜 뉴스를 믿고 친구들에게 퍼뜨린 경험을 통해, 가짜 뉴스를 비판하던 사람도 뜻하지 않게 가짜 뉴스를 퍼뜨리는 사람이 될 수 있음을 보여 주며 글을 시작한다.
+[글의 흐름]
+(사건) 본문 · 원문 문장 1~4 — 지나는 소셜 미디어에서 흔들바위가 떨어졌다는 헤드라인을 보고 놀라 친구들에게 곧바로 공유했다. 그런데 아침 뉴스에서 그 기사가 가짜였다고 밝혀졌고, 지나는 자신이 가짜 뉴스를 퍼뜨렸다는 사실에 당황했다.
+(떠오른 과거) 본문 · 원문 문장 5~9 — 이 일로 지나는 예전의 유명 운동선수 사망 가짜 뉴스를 떠올린다. 그 뉴스는 조회수로 돈을 벌려는 콘텐츠 제작자들이 만든 것이었고, 지나는 그때 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했다.
+(깨달음) 본문 · 원문 문장 10~10 — 하지만 이번에는 지나 자신이 뜻하지 않게 가짜 뉴스를 퍼뜨리는 데 한몫했다.
+[각 문장 쉬운 풀이]
+[3번 문장] Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.”
+3번 문장은 1~2번에서 지나가 믿고 퍼뜨린 소식이 사실인지 밝혀지는 장면이다. 기자는 흔들바위 바로 옆에서 방송을 하고 있었다. 흔들바위는 떨어지지 않고 멀쩡하게 제자리에 있었다. 그래서 기자는 흔들바위가 망가졌다는 인터넷 기사들이 가짜라고 알린다.
+[7번 문장] It had been made by content creators who sought people’s attention.
+7번 문장은 6번의 운동선수 사망 뉴스를 누가 만들었는지 알려 준다. 콘텐츠 제작자는 인터넷에 글이나 영상을 만들어 올리는 사람이다. 이 사람들은 많은 사람의 관심을 끌고 싶어서 그 가짜 뉴스를 만들었다. 8번 문장에서 그 관심이 곧 돈벌이와 이어진다는 것이 드러난다.
+[10번 문장] This time, however, Gina herself had accidentally contributed to the spread of fake news.
+10번 문장은 9번과 반대되는 지나의 모습을 보여 준다. 예전의 지나는 가짜 뉴스를 퍼뜨린 사람들을 비판하는 쪽이었다. 그런데 이번에는 지나 자신이 흔들바위 가짜 뉴스를 친구들에게 퍼뜨렸다. 일부러 한 일은 아니지만 결과적으로 가짜 뉴스가 퍼지는 데 한몫한 것이다. 가짜 뉴스를 비판하던 사람도 뜻하지 않게 가짜 뉴스를 퍼뜨릴 수 있다는 점이 이 글의 출발점이다.
+[구문으로 해석하기]
+had p.p.: (그 전에) ~했다 [4번 문장]: that she had spread the fake news — 공식: had p.p. — ~했다(과거의 어느 때보다 먼저 일어난 일). had p.p. = had spread(퍼뜨렸다; spread는 spread의 p.p.형), S′ = she(지나), 목적어 = the fake news(가짜 뉴스). → 그녀가 가짜 뉴스를 퍼뜨렸다. 지나가 당황한 것(was embarrassed)은 과거이고, 가짜 뉴스를 퍼뜨린 일은 그보다 먼저라서 had spread를 쓴다.
+명사 + that S′ V′(동격): S′(이/가) V′했다는 명사 [6번 문장]: The news that a famous athlete had died — 공식: 명사(N) + that S′ V′ — S′(이/가) V′했다는 N. N = The news(뉴스), that = 앞 명사의 내용을 알려 주는 접속사, S′ = a famous athlete(한 유명한 운동선수), V′ = had died(죽었다). → 한 유명한 운동선수가 죽었다는 뉴스. that 뒤에 주어와 동사가 모두 있는 완전한 절이 와서 뉴스의 ‘내용’을 설명한다.
+those who V′: V′한 사람들 [9번 문장]: those who had made and spread fake news — 공식: those who V′ — V′한 사람들. those = 사람들, who = 주격 관계대명사(그 사람들이), V′ = had made and spread(만들고 퍼뜨렸다), 목적어 = fake news(가짜 뉴스). → 가짜 뉴스를 만들고 퍼뜨렸던 사람들. those는 여기서 ‘그것들’이 아니라 뒤의 who절이 꾸미는 ‘사람들’이다.
+have p.p.: ~했다 [1번 문장]: The Heundeulbawi in Seoraksan National Park Has Fallen — 공식: have(has) p.p. — ~했다(지금의 결과까지 이어짐). S = The Heundeulbawi(흔들바위), in Seoraksan National Park = 설악산 국립공원에 있는, p.p. = Fallen(fall의 p.p.형, 떨어지다). → 설악산 국립공원의 흔들바위가 떨어졌다. 떨어져서 지금은 제자리에 없다는 결과를 알리는 헤드라인이라 현재완료를 쓴다.
+being p.p.: ~되는 것 (동명사의 수동) [3번 문장]: stories of the Heundeulbawi being damaged — 공식: being p.p. — ~되는 것. 앞의 of = ~에 관한, 의미상 주어 = the Heundeulbawi(흔들바위), p.p. = damaged(손상된). → 흔들바위가 손상되는 것에 관한 기사들(자연스럽게는 ‘흔들바위가 손상되었다는 기사들’). 흔들바위는 스스로 손상시키는 쪽이 아니라 ‘손상되는’ 대상이라 수동 being damaged를 쓴다.
+[유의어·반의어]
+표제어: famous (유명한) / 유의어: well-known (잘 알려진, 유명한) / 반의어: unknown (알려지지 않은, 무명의)
+표제어: criticize (비판하다) / 유의어: condemn (비난하다) / 반의어: praise (칭찬하다)
+표제어: accidentally (뜻하지 않게, 실수로) / 유의어: unintentionally (의도하지 않게, 무심코) / 반의어: intentionally (의도적으로, 일부러)
+----- [/분석 단위] -----
+===== [/지문] =====
+
+===== [지문] u2 =====
+[SOURCE] src
+[학습 단위] u2
+[원문 범위] 본문 · 원문 문장 11~19
+[원문 소제목] The Impact of Fake News on Society
+[소제목 출처] h-impact · 원본 PDF 1쪽 왼쪽 단 아래(‘Unfortunately, becoming’ 단락 위) · 앞 문장 s11 · SHA256 a84f5471130f0f0420964122864df806b5719309fde01bc6090837c6c6174043
+----- [문장 11] -----
+[핵심 문장] 아니오
+[원문]
+Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual.
+[혼공 끊어읽기]
+Unfortunately, / becoming an accidental distributor / of fake news / like Gina / is not unusual.
+[S/V] S: becoming an accidental distributor of fake news like Gina, V: is
+[각주]
+unfortunately — 안타깝게도, 불행하게도 / V-ing — ~하는 것 / become — ~이 되다 / accidental — 우발적인, 뜻하지 않은 / ★ distributor — 유포자, 퍼뜨리는 사람 (흔한 뜻: 유통업자) / of — ~의 / fake news — 가짜 뉴스 / like — ~처럼 / is — ~이다 / not — ~지 않다 / unusual — 드문, 흔치 않은
+[구조 힌트] [becoming an accidental distributor] → [우발적인 유포자가 되는 것은] (동명사 주어)
+[분석 끊어읽기 영어]
+Unfortunately, / becoming an accidental distributor / of fake news / like Gina / is not unusual.
+[분석 끊어읽기 한국어]
+안타깝게도, / 우발적인 유포자가 되는 것은 / 가짜 뉴스의 / 지나처럼 / 드물지 않다.
+[자연 해석]
+안타깝게도 지나처럼 뜻하지 않게 가짜 뉴스를 퍼뜨리는 사람이 되는 것은 드문 일이 아니다.
+----- [/문장 11] -----
+
+----- [문장 12] -----
+[핵심 문장] 예
+[원문]
+Fake news is a deliberate attempt to manipulate people by spreading inaccurate information.
+[혼공 끊어읽기]
+Fake news is a deliberate attempt / to manipulate people / by spreading inaccurate information.
+[S/V] S: Fake news, V: is
+[각주]
+fake news — 가짜 뉴스 / is — ~이다 / deliberate — 의도적인, 고의적인 / attempt to V — ~하려는 시도 / ★ manipulate — 조종하다 (흔한 뜻: 조작하다) / people — 사람들 / by V-ing — ~함으로써 / spread — 퍼뜨리다 / inaccurate — 부정확한 / information — 정보
+[구조 힌트] a deliberate attempt [to manipulate] → [조종하려는] 의도적인 시도 (to부정사 후치수식)
+[구조 힌트] [by spreading] → [퍼뜨림으로써] (전치사 by + 동명사)
+[분석 끊어읽기 영어]
+Fake news is a deliberate attempt / to manipulate people / by spreading inaccurate information.
+[분석 끊어읽기 한국어]
+가짜 뉴스는 의도적인 시도이다 / 사람들을 조종하려는 / 부정확한 정보를 퍼뜨림으로써.
+[자연 해석]
+가짜 뉴스는 부정확한 정보를 퍼뜨려 사람들을 조종하려는 의도적인 시도이다.
+----- [/문장 12] -----
+
+----- [문장 13] -----
+[핵심 문장] 아니오
+[원문]
+It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits.
+[혼공 끊어읽기]
+It is made / by certain groups / with the intention of attracting people’s attention, / making profits, / or gaining political benefits.
+[S/V] S: It, V: is made
+[각주]
+it — 그것은 (가짜 뉴스) / be p.p. — ~되다 / made — 만들어진 / by — ~에 의해 / certain — 특정한 (흔한 뜻: 확실한) / groups — 집단들 / ★ with the intention of V-ing — ~하려는 의도를 가지고 / attract — 끌다, 끌어들이다 / people’s — 사람들의 / attention — 관심, 주목 / make profits — 이익을 얻다, 수익을 내다 / or — 또는 / gain — 얻다 / political — 정치적인 / benefits — 이득들, 혜택들
+[구조 힌트] made(만들어진) → is made(만들어진다) (be p.p.)
+[분석 끊어읽기 영어]
+It is made / by certain groups / with the intention of attracting people’s attention, / making profits, / or gaining political benefits.
+[분석 끊어읽기 한국어]
+그것은 만들어진다 / 특정 집단들에 의해 / 사람들의 관심을 끌려는 의도를 가지고, / 이익을 얻으려는, / 또는 정치적 이득을 얻으려는.
+[자연 해석]
+가짜 뉴스는 사람들의 관심을 끌거나, 이익을 얻거나, 정치적 이득을 얻으려는 의도를 가진 특정 집단들에 의해 만들어진다.
+----- [/문장 13] -----
+
+----- [문장 14] -----
+[핵심 문장] 아니오
+[원문]
+It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.
+[혼공 끊어읽기]
+It can confuse people, / disturb society, / and even seriously harm the public / as well as all individuals / involved.
+[S/V] S: It, V: can confuse disturb and harm
+[각주]
+it — 그것은 (가짜 뉴스) / can V — ~할 수 있다 / confuse — 혼란스럽게 하다 / people — 사람들 / ★ disturb — 어지럽히다 (흔한 뜻: 방해하다) / society — 사회 / even — 심지어 / seriously — 심각하게 / harm — 해를 끼치다 / the public — 대중 / B as well as A — A뿐만 아니라 B도 / all — 모든 / individuals — 개인들 / involved — 관련된
+[구조 힌트] all individuals [involved] → [관련된] 모든 개인들 (과거분사 후치수식)
+[구조 힌트] the public [as well as all individuals] → [모든 개인들뿐만 아니라] 대중에게도 (B as well as A 상관 구조)
+[분석 끊어읽기 영어]
+It can confuse people, / disturb society, / and even seriously harm the public / as well as all individuals / involved.
+[분석 끊어읽기 한국어]
+그것은 사람들을 혼란스럽게 할 수 있다, / 사회를 어지럽힐 수 있다, / 그리고 심지어 대중에게 심각하게 해를 끼칠 수 있다 / 모든 개인들뿐만 아니라 / 관련된.
+[자연 해석]
+가짜 뉴스는 사람들을 혼란스럽게 하고, 사회를 어지럽히며, 심지어 관련된 모든 개인뿐만 아니라 대중에게도 심각한 해를 끼칠 수 있다.
+----- [/문장 14] -----
+
+----- [문장 15] -----
+[핵심 문장] 아니오
+[원문]
+It is very common for fake news to spread during states of emergency.
+[혼공 끊어읽기]
+It is very common / for fake news to spread / during states of emergency.
+[S/V] S: It, V: is
+[각주]
+It … for A to V — A(이/가) ~하는 것은 (It은 뒤의 for A to V를 대신함) / is — ~이다 / very — 매우 / common — 흔한 / fake news — 가짜 뉴스 / spread — 퍼지다 / during — ~ 동안 / ★ states of emergency — 비상사태들
+[구조 힌트] It is very common [for fake news to spread] → [가짜 뉴스가 퍼지는 것은] 매우 흔하다 (가주어 It과 진주어 to부정사)
+[분석 끊어읽기 영어]
+It is very common / for fake news to spread / during states of emergency.
+[분석 끊어읽기 한국어]
+매우 흔하다 / 가짜 뉴스가 퍼지는 것은 / 비상사태 동안.
+[자연 해석]
+비상사태 때 가짜 뉴스가 퍼지는 것은 매우 흔한 일이다.
+----- [/문장 15] -----
+
+----- [문장 16] -----
+[핵심 문장] 아니오
+[원문]
+For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks.
+[혼공 끊어읽기]
+For example, / after an earthquake measuring 6.5 / struck Ambon, Indonesia, / in September 2019, / thousands of residents did not return / to their homes / and were still in shelters / for two weeks.
+[S/V] [after] S′: an earthquake, V′: struck ／ S: thousands of residents, V: did not return and were
+[각주]
+for example — 예를 들어 / after S′ V′ — S′(이/가) V′한 후에 / earthquake — 지진 / V-ing — ~인 / measure — (크기·규모가) ~이다 (흔한 뜻: 측정하다) / struck — 강타했다 (strike의 과거) / Ambon — 암본 (인도네시아의 도시) / Indonesia — 인도네시아 / in — ~에 / September — 9월 / thousands of — 수천 명의 / residents — 주민들 / did not V — ~하지 않았다 / return — 돌아가다 / to — ~로 / their — 그들의 (암본 주민들) / homes — 집들 / were — (~에) 있었다 / still — 여전히 / in — ~에 / ★ shelters — 대피소들 / for — ~ 동안 / two — 두, 2 / weeks — 주들
+[구조 힌트] [after an earthquake measuring 6.5 struck] → [규모가 6.5인 지진이 강타한 후에] (시간 접속사 after)
+[분석 끊어읽기 영어]
+For example, / after an earthquake measuring 6.5 / struck Ambon, Indonesia, / in September 2019, / thousands of residents did not return / to their homes / and were still in shelters / for two weeks.
+[분석 끊어읽기 한국어]
+예를 들어, / 규모가 6.5인 지진이 / 인도네시아 암본을 강타한 후에, / 2019년 9월에, / 수천 명의 주민들이 돌아가지 않았다 / 그들의 집으로 / 그리고 여전히 대피소에 있었다 / 2주 동안.
+[자연 해석]
+예를 들어, 2019년 9월 인도네시아 암본에 규모 6.5의 지진이 발생한 후 수천 명의 주민들이 집으로 돌아가지 않고 2주 동안 대피소에 머물렀다.
+----- [/문장 16] -----
+
+----- [문장 17] -----
+[핵심 문장] 아니오
+[원문]
+This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike.
+[혼공 끊어읽기]
+This was because of fake news stories / on social media / that another earthquake / followed / by a tsunami / was about to strike.
+[S/V] S: This, V: was ／ [that] S′: another earthquake, V′: was
+[각주]
+this — 이것은 (주민들이 집에 돌아가지 않고 2주 동안 대피소에 있었던 일) / was — ~였다 / because of — ~ 때문에 / fake news — 가짜 뉴스 / stories — 이야기들 / on — ~에 올라온 (흔한 뜻: ~위에) / social media — 소셜 미디어 / that S′ V′ — S′(이/가) V′라는 (앞 명사의 내용을 설명) / another — 또 다른 / earthquake — 지진 / followed — 이어지는 / by — ~로 / tsunami — 쓰나미, 지진 해일 / be about to V — 막 ~하려 하다, 곧 ~할 것이다 / strike — (재난이) 닥치다, 발생하다
+[구조 힌트] [that another earthquake followed by a tsunami was about to strike] → [쓰나미로 이어지는 또 다른 지진이 곧 닥칠 것이라는] (동격 접속사 that)
+[분석 끊어읽기 영어]
+This was because of fake news stories / on social media / that another earthquake / followed / by a tsunami / was about to strike.
+[분석 끊어읽기 한국어]
+이것은 가짜 뉴스 이야기들 때문이었다 / 소셜 미디어에 올라온 / 또 다른 지진이 / 이어지는 / 쓰나미로 / 곧 닥칠 것이라는.
+[자연 해석]
+이는 쓰나미를 동반한 또 다른 지진이 곧 닥칠 것이라는 소셜 미디어상의 가짜 뉴스 때문이었다.
+----- [/문장 17] -----
+
+----- [문장 18] -----
+[핵심 문장] 아니오
+[원문]
+One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.”
+[혼공 끊어읽기]
+One of those messages said, / “It’s up to you / if you want to believe me or not, / but apparently Ambon is going to sink / in the next few days.”
+[S/V] S: One of those messages, V: said ／ S: It, V: ’s ／ [if] S′: you, V′: want ／ [but] S: Ambon, V: is
+[각주]
+one of — ~ 중 하나 / those — 그 / messages — 메시지들 / said — 말했다 (say의 과거) / it’s — ~이다 (It은 뒤의 if절을 대신함, It is의 줄임) / up to A — A에게 달려 있는 / if S′ V′ or not — S′(이/가) V′하는지 아닌지 / want to V — ~하고 싶다 / believe — 믿다 / me — 나를 / apparently — 듣자 하니, 보아하니 / be going to V — ~할 것이다 / sink — 가라앉다 / in the next few days — 앞으로 며칠 안에
+[구조 힌트] It’s up to you [if you want to believe] → [당신[메시지를 읽는 사람]이 믿고 싶은지는] 당신[메시지를 읽는 사람]에게 달려 있다 (가주어 It과 진주어 if절)
+[분석 끊어읽기 영어]
+One of those messages said, / “It’s up to you / if you want to believe me or not, / but apparently Ambon is going to sink / in the next few days.”
+[분석 끊어읽기 한국어]
+그 메시지들 중 하나는 말했다, / “당신에게 달려 있다 / 당신이 나를 믿고 싶은지 아닌지는, / 하지만 듣자 하니 암본은 가라앉을 것이다 / 앞으로 며칠 안에.”
+[자연 해석]
+그 메시지 중 하나는 “나를 믿든 말든 당신 마음이지만, 듣자 하니 앞으로 며칠 안에 암본이 가라앉을 거래요.”라고 했다.
+----- [/문장 18] -----
+
+----- [문장 19] -----
+[핵심 문장] 예
+[원문]
+Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.
+[혼공 끊어읽기]
+Many displaced people were so anxious / about aftershocks / that the government had to announce / that the information was fake.
+[S/V] S: Many displaced people, V: were ／ [that] S′: the government, V′: had to announce ／ [that] S′: the information, V′: was
+[각주]
+many — 많은 / ★ displaced — 살던 곳을 잃은, 이재민이 된 / people — 사람들 / were — ~였다 / so A that S′ V′ — 너무 A해서 S′(이/가) V′하다 / ★ anxious — 불안해하는, 걱정하는 / about — ~에 대해 / aftershocks — 여진들 (큰 지진 뒤에 이어지는 작은 지진) / government — 정부 / had to V — ~해야 했다 / announce — 발표하다, 알리다 / that S′ V′ — S′(이/가) V′라고 (접속사) / information — 정보 / was — ~였다 / fake — 가짜의
+[구조 힌트] so anxious … that the government had to announce → 너무 불안해해서 … 정부가 발표해야 했다
+[구조 힌트] [that the information was fake] → [그 정보가 가짜라고] (명사절 접속사 that)
+[분석 끊어읽기 영어]
+Many displaced people were so anxious / about aftershocks / that the government had to announce / that the information was fake.
+[분석 끊어읽기 한국어]
+많은 이재민들이 너무 불안해했다 / 여진에 대해 / 그래서 정부는 발표해야 했다 / 그 정보가 가짜라고.
+[자연 해석]
+많은 이재민들이 여진을 너무 불안해해서 정부는 그 정보가 가짜라고 발표해야 했다.
+----- [/문장 19] -----
+
+----- [분석 단위] u2 -----
+[SOURCE_RANGE] 본문 · 원문 문장 11~19
+[주제] What Fake News Is and the Harm It Does to Society (가짜 뉴스의 정체와 사회에 끼치는 해)
+[글의 의도/요지]
+가짜 뉴스는 사람들을 조종하려고 부정확한 정보를 퍼뜨리는 의도적인 시도이며, 특히 비상사태 때 잘 퍼져 사회에 혼란과 해를 끼칠 수 있다는 점을 인도네시아 암본의 사례로 보여 주는 글이다.
+[글의 흐름]
+(정의와 해악) 본문 · 원문 문장 11~14 — 지나처럼 뜻하지 않게 가짜 뉴스를 퍼뜨리는 일은 흔하다. 가짜 뉴스는 관심·이익·정치적 이득을 노리는 집단이 사람들을 조종하려고 만든 의도적인 시도이며, 사람들과 사회에 심각한 해를 끼칠 수 있다.
+(비상사태 사례) 본문 · 원문 문장 15~19 — 가짜 뉴스는 비상사태 때 특히 잘 퍼진다. 2019년 암본 지진 뒤 또 다른 지진과 쓰나미가 온다는 가짜 뉴스 때문에 주민들은 2주 동안 집에 돌아가지 않고 대피소에 머물렀고, 결국 정부가 그 정보가 가짜라고 발표해야 했다.
+[각 문장 쉬운 풀이]
+[11번 문장] Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual.
+11번 문장은 앞 도입부의 지나 이야기를 이 부분의 주제와 이어 준다. 지나는 일부러 가짜 뉴스를 퍼뜨린 것이 아니다. 글쓴이는 이런 일이 지나에게만 일어나는 드문 일이 아니라고 말한다. 많은 사람이 지나처럼 모르는 사이에 가짜 뉴스를 퍼뜨린다는 뜻이다.
+[13번 문장] It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits.
+13번 문장은 12번에서 정의한 가짜 뉴스를 누가, 왜 만드는지 설명한다. 가짜 뉴스를 만드는 쪽은 특정한 목적을 가진 집단이다. 목적은 세 가지다. 사람들의 관심 끌기, 돈 벌기, 정치적으로 유리해지기다. 7~8번에서 조회수로 돈을 벌려던 콘텐츠 제작자들이 그 예다.
+[17번 문장] This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike.
+17번 문장은 16번에서 주민들이 집에 돌아가지 않은 이유를 밝힌다. 소셜 미디어에 또 다른 지진이 곧 온다는 가짜 이야기가 돌았다. 그 지진 뒤에는 쓰나미까지 이어진다고 했다. 쓰나미는 지진 때문에 생기는 아주 큰 바닷물 파도다. 주민들은 이 말을 믿고 무서워서 대피소에 계속 머물렀다.
+[구문으로 해석하기]
+명사 + to V: ~하려는 명사 [12번 문장]: a deliberate attempt to manipulate people — 공식: 명사(N) + to V — ~하려는 N. N = a deliberate attempt(의도적인 시도), to V = to manipulate(조종하다), 목적어 = people(사람들). → 사람들을 조종하려는 의도적인 시도. to manipulate people가 앞 명사 attempt가 어떤 시도인지 뒤에서 설명한다.
+It … for A to V: A(이/가) ~하는 것은 … [15번 문장]: It is very common for fake news to spread — 공식: It is 형용사 for A to V — A(이/가) ~하는 것은 (형용사)하다. It = 가주어(뒤의 for A to V를 대신함), 형용사 = very common(매우 흔한), A = fake news(가짜 뉴스), to V = to spread(퍼지다). → 가짜 뉴스가 퍼지는 것은 매우 흔하다. for 뒤의 A가 to V의 주체다.
+so A that S′ V′: 너무 A해서 S′(이/가) V′하다 [19번 문장]: were so anxious about aftershocks that the government had to announce — 공식: so A that S′ V′ — 너무 A해서 S′(이/가) V′하다. A = anxious(불안해하는), about aftershocks = 여진에 대해, S′ = the government(정부), V′ = had to announce(발표해야 했다). → 여진에 대해 너무 불안해해서 정부가 발표해야 했다. that 앞은 원인(몹시 불안함), that 뒤는 그 결과다.
+[유의어·반의어]
+표제어: deliberate (의도적인, 고의적인) / 유의어: intentional (의도적인, 고의의) / 반의어: accidental (우발적인, 뜻하지 않은)
+표제어: inaccurate (부정확한) / 유의어: incorrect (틀린, 부정확한) / 반의어: accurate (정확한)
+표제어: common (흔한) / 유의어: usual (흔히 있는, 보통의) / 반의어: rare (드문)
+----- [/분석 단위] -----
+===== [/지문] =====
+
+===== [지문] u3 =====
+[SOURCE] src
+[학습 단위] u3
+[원문 범위] 본문 · 원문 문장 20~30
+[원문 소제목] The Reasons for the Viral Spread of Fake News
+[소제목 출처] h-reasons · 원본 PDF 2쪽 왼쪽 단 중간(‘Fake news on social media’ 단락 위) · 앞 문장 s20 · SHA256 a84f5471130f0f0420964122864df806b5719309fde01bc6090837c6c6174043
+----- [문장 20] -----
+[핵심 문장] 아니오
+[원문]
+Fake news on social media spreads significantly farther and faster than true stories.
+[혼공 끊어읽기]
+Fake news / on social media / spreads significantly farther and faster / than true stories.
+[S/V] S: Fake news, V: spreads
+[각주]
+fake news — 가짜 뉴스 / on — ~상의 (흔한 뜻: ~위에) / social media — 소셜 미디어 / spread — 퍼지다 / significantly — 훨씬, 상당히 / farther — 더 멀리 (far의 비교급) / faster — 더 빠르게 (fast의 비교급) / than — ~보다 / true — 진짜의, 사실인 / stories — 이야기들
+[구조 힌트] farther and faster [than true stories] → [진짜 이야기들보다] 더 멀리 그리고 더 빠르게 (비교급 + than)
+[분석 끊어읽기 영어]
+Fake news / on social media / spreads significantly farther and faster / than true stories.
+[분석 끊어읽기 한국어]
+가짜 뉴스는 / 소셜 미디어상의 / 훨씬 더 멀리 그리고 더 빠르게 퍼진다 / 진짜 이야기들보다.
+[자연 해석]
+소셜 미디어상의 가짜 뉴스는 진짜 이야기보다 훨씬 더 멀리, 더 빠르게 퍼진다.
+----- [/문장 20] -----
+
+----- [문장 21] -----
+[핵심 문장] 아니오
+[원문]
+A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average.
+[혼공 끊어읽기]
+A study / by the Massachusetts Institute of Technology / in the US / has shown / that fake news spreads online / 6 times faster / than real news / on average.
+[S/V] S: A study, V: has shown ／ [that] S′: fake news, V′: spreads
+[각주]
+study — 연구 / by — ~에 의한 / Massachusetts Institute of Technology — 매사추세츠 공과대학 (MIT, 미국의 대학) / in — ~에 있는 / the US — 미국 / have p.p. — ~했다 / show — 보여 주다 (shown은 show의 p.p.형) / that S′ V′ — S′(이/가) V′한다는 것을 (접속사) / fake news — 가짜 뉴스 / spread — 퍼지다 / online — 온라인에서 / times — ~배 / faster — 더 빠르게 (fast의 비교급) / than — ~보다 / real — 진짜의 / news — 뉴스 / on average — 평균적으로
+[구조 힌트] [that fake news spreads] → [가짜 뉴스가 퍼진다는 것] (명사절 접속사 that)
+[구조 힌트] show(보여 주다) → has shown(보여 주었다) (have p.p.)
+[분석 끊어읽기 영어]
+A study / by the Massachusetts Institute of Technology / in the US / has shown / that fake news spreads online / 6 times faster / than real news / on average.
+[분석 끊어읽기 한국어]
+한 연구는 / 매사추세츠 공과대학에 의한 / 미국에 있는 / 보여 주었다 / 가짜 뉴스가 온라인에서 퍼진다는 것을 / 6배 더 빠르게 / 진짜 뉴스보다 / 평균적으로.
+[자연 해석]
+미국 매사추세츠 공과대학의 한 연구는 가짜 뉴스가 평균적으로 진짜 뉴스보다 6배 더 빠르게 온라인에서 퍼진다는 것을 보여 주었다.
+----- [/문장 21] -----
+
+----- [문장 22] -----
+[핵심 문장] 아니오
+[원문]
+One explanation for this phenomenon is that people like new and provocative things.
+[혼공 끊어읽기]
+One explanation / for this phenomenon / is that people like new and provocative things.
+[S/V] S: One explanation, V: is ／ [that] S′: people, V′: like
+[각주]
+one — 한 가지 / explanation — 설명 / for — ~에 대한 / this — 이 / ★ phenomenon — 현상 / is — ~이다 / that S′ V′ — S′(이/가) V′한다는 것 (접속사) / people — 사람들 / like — 좋아하다 / new — 새로운 / provocative — 자극적인 / things — 것들
+[구조 힌트] [that people like] → [사람들이 좋아한다는 것] (명사절 접속사 that)
+[분석 끊어읽기 영어]
+One explanation / for this phenomenon / is that people like new and provocative things.
+[분석 끊어읽기 한국어]
+한 가지 설명은 / 이 현상에 대한 / 사람들이 새롭고 자극적인 것들을 좋아한다는 것이다.
+[자연 해석]
+이 현상에 대한 한 가지 설명은 사람들이 새롭고 자극적인 것을 좋아한다는 것이다.
+----- [/문장 22] -----
+
+----- [문장 23] -----
+[핵심 문장] 예
+[원문]
+When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others.
+[혼공 끊어읽기]
+When information is astonishing, / people not only feel / that it is surprising, / but they also want to share the stimulating news / with others.
+[S/V] [When] S′: information, V′: is ／ S: people, V: feel ／ [that] S′: it, V′: is ／ [but] S: they, V: want
+[각주]
+when S′ V′ — S′(이/가) V′할 때 / information — 정보 / is — ~이다 / astonishing — 깜짝 놀라게 하는, 놀라운 / people — 사람들 / not only A but also B — A뿐만 아니라 B도 / feel — 느끼다 / that S′ V′ — S′(이/가) V′하다고 (접속사) / it — 그것이 (그 정보) / is — ~이다 / surprising — 놀라운 / they — 그들은 (사람들) / want to V — ~하고 싶다 / share — 공유하다 / stimulating — 자극적인, 흥미를 돋우는 / news — 뉴스 / with — ~와 / others — 다른 사람들
+[구조 힌트] [When information is astonishing] → [정보가 놀라울 때] (시간 접속사 when)
+[구조 힌트] not only feel … but … also want to share → 느낄 뿐만 아니라 … 또한 공유하고 싶어 한다
+[분석 끊어읽기 영어]
+When information is astonishing, / people not only feel / that it is surprising, / but they also want to share the stimulating news / with others.
+[분석 끊어읽기 한국어]
+정보가 놀라울 때, / 사람들은 느낄 뿐만 아니라 / 그것이 놀랍다고, / 그들은 또한 그 자극적인 뉴스를 공유하고 싶어 한다 / 다른 사람들과.
+[자연 해석]
+정보가 놀라우면 사람들은 그것이 놀랍다고 느낄 뿐만 아니라 그 자극적인 뉴스를 다른 사람들과 공유하고 싶어 한다.
+----- [/문장 23] -----
+
+----- [문장 24] -----
+[핵심 문장] 아니오
+[원문]
+By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information.
+[혼공 끊어읽기]
+By passing it to others / on social media, / they can gain attention / because they are the first / to post previously unknown, but possibly false, information.
+[S/V] S: they, V: can gain ／ [because] S′: they, V′: are
+[각주]
+by V-ing — ~함으로써 / pass — 전달하다 / it — 그것을 (그 자극적인 뉴스) / to — ~에게 / others — 다른 사람들 / on — ~에서 (흔한 뜻: ~위에) / social media — 소셜 미디어 / they — 그들은 (자극적인 뉴스를 공유하는 사람들) / can V — ~할 수 있다 / gain — 얻다 / attention — 관심, 주목 / because S′ V′ — S′(이/가) V′이기 때문에 / they — 그들이 (자극적인 뉴스를 공유하는 사람들) / are — ~이다 / the first to V — 처음으로 ~하는 사람 / post — 게시하다, 올리다 / previously — 이전에 / unknown — 알려지지 않은 / possibly — 어쩌면, 아마 / false — 거짓의 / information — 정보
+[구조 힌트] [By passing] → [전달함으로써] (전치사 by + 동명사)
+[구조 힌트] the first [to post] → [게시하는] 첫 번째 사람 (to부정사 후치수식)
+[분석 끊어읽기 영어]
+By passing it to others / on social media, / they can gain attention / because they are the first / to post previously unknown, but possibly false, information.
+[분석 끊어읽기 한국어]
+그것을 다른 사람들에게 전달함으로써 / 소셜 미디어에서, / 그들은 관심을 얻을 수 있다 / 그들이 첫 번째 사람이기 때문에 / 이전에 알려지지 않았지만 어쩌면 거짓일 수도 있는 정보를 게시하는.
+[자연 해석]
+소셜 미디어에서 그것을 다른 사람들에게 전달하면, 그들은 이전에 알려지지 않았지만 어쩌면 거짓일 수도 있는 정보를 처음으로 게시한 사람이 되기 때문에 관심을 얻을 수 있다.
+----- [/문장 24] -----
+
+----- [문장 25] -----
+[핵심 문장] 아니오
+[원문]
+Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly.
+[혼공 끊어읽기]
+Also, / fake news goes viral / because people / in their daily lives / tend to think simply and effortlessly.
+[S/V] S: fake news, V: goes ／ [because] S′: people, V′: tend
+[각주]
+also — 또한 / fake news — 가짜 뉴스 / ★ go viral — (인터넷에서) 급속히 퍼지다 / because S′ V′ — S′(이/가) V′하기 때문에 / people — 사람들 / in — ~에서 / their — 그들의 (사람들) / daily — 일상의, 매일의 / lives — 생활, 삶들 (life의 복수) / tend to V — ~하는 경향이 있다 / think — 생각하다 / simply — 단순하게 / ★ effortlessly — 힘들이지 않고, 쉽게
+[구조 힌트] [because people in their daily lives tend to think] → [사람들이 그들[사람들]의 일상생활에서 생각하는 경향이 있기 때문에] (이유 접속사 because)
+[분석 끊어읽기 영어]
+Also, / fake news goes viral / because people / in their daily lives / tend to think simply and effortlessly.
+[분석 끊어읽기 한국어]
+또한, / 가짜 뉴스는 빠르게 퍼진다 / 사람들이 / 그들의 일상생활에서 / 단순하고 쉽게 생각하는 경향이 있기 때문에.
+[자연 해석]
+또한 사람들은 일상생활에서 단순하고 쉽게 생각하는 경향이 있기 때문에 가짜 뉴스는 빠르게 퍼진다.
+----- [/문장 25] -----
+
+----- [문장 26] -----
+[핵심 문장] 아니오
+[원문]
+It is more likely for them to believe new information without any proof, instead of critically examining it.
+[혼공 끊어읽기]
+It is more likely / for them to believe new information / without any proof, / instead of critically examining it.
+[S/V] S: It, V: is
+[각주]
+It is likely for A to V — A(이/가) ~할 가능성이 높다 (It은 뒤의 for A to V를 대신함) / more — 더 / them — 그들이 (일상생활에서 단순하게 생각하는 사람들) / believe — 믿다 / new — 새로운 / information — 정보 / without — ~ 없이 / any — 어떤 ~도 / ★ proof — 증거 / instead of V-ing — ~하는 대신에 / critically — 비판적으로 / examine — 검토하다, 조사하다 / it — 그것을 (새로운 정보)
+[구조 힌트] It is more likely [for them to believe] → [그들[사람들]이 믿을] 가능성이 더 높다 (가주어 It과 진주어 to부정사)
+[구조 힌트] [instead of critically examining] → [비판적으로 검토하는 대신에] (전치사 instead of + 동명사)
+[분석 끊어읽기 영어]
+It is more likely / for them to believe new information / without any proof, / instead of critically examining it.
+[분석 끊어읽기 한국어]
+가능성이 더 높다 / 그들이 새로운 정보를 믿을 / 어떤 증거도 없이, / 그것을 비판적으로 검토하는 대신에.
+[자연 해석]
+사람들은 새로운 정보를 비판적으로 검토하는 대신 아무 증거 없이 믿을 가능성이 더 크다.
+----- [/문장 26] -----
+
+----- [문장 27] -----
+[핵심 문장] 아니오
+[원문]
+Moreover, people are inclined to believe information that fits their prejudices or experiences even when not true.
+[혼공 끊어읽기]
+Moreover, / people are inclined to believe information / that fits their prejudices or experiences / even when not true.
+[S/V] S: people, V: are ／ [that] V′: fits
+[각주]
+moreover — 게다가 / people — 사람들 / ★ be inclined to V — ~하는 경향이 있다 / believe — 믿다 / information — 정보 / that V′ — V′하는 (관계대명사) / fit — ~에 맞다 / their — 그들의 (사람들) / ★ prejudices — 편견들 / or — 또는 / experiences — 경험들 / even — ~조차 / when — ~일 때 (뒤에 it is가 생략됨) / not — ~이 아닌 / true — 사실인
+[구조 힌트] information [that fits] → [맞는] 정보 (주격 관계대명사 that)
+[구조 힌트] [even when not true] → [사실이 아닐 때조차] (축약된 when 부사절)
+[분석 끊어읽기 영어]
+Moreover, / people are inclined to believe information / that fits their prejudices or experiences / even when not true.
+[분석 끊어읽기 한국어]
+게다가, / 사람들은 정보를 믿는 경향이 있다 / 그들의 편견이나 경험에 맞는 / 사실이 아닐 때조차.
+[자연 해석]
+게다가 사람들은 사실이 아닐 때조차 자신의 편견이나 경험에 맞는 정보를 믿는 경향이 있다.
+----- [/문장 27] -----
+
+----- [문장 28] -----
+[핵심 문장] 아니오
+[원문]
+In this process, people easily fall into the trap of “confirmation bias.”
+[혼공 끊어읽기]
+In this process, / people easily fall into the trap / of “confirmation bias.”
+[S/V] S: people, V: fall
+[각주]
+in — ~에서 / this — 이 / process — 과정 / people — 사람들 / easily — 쉽게 / fall into — ~에 빠지다 / trap — 함정 / of — ~이라는 (흔한 뜻: ~의) / ★ confirmation bias — 확증 편향 (자기 생각에 맞는 정보만 받아들이는 경향)
+[구조 힌트] the trap [of “confirmation bias.”] → [‘확증 편향’이라는] 함정 (동격의 of)
+[분석 끊어읽기 영어]
+In this process, / people easily fall into the trap / of “confirmation bias.”
+[분석 끊어읽기 한국어]
+이 과정에서, / 사람들은 쉽게 함정에 빠진다 / ‘확증 편향’이라는.
+[자연 해석]
+이 과정에서 사람들은 ‘확증 편향’이라는 함정에 쉽게 빠진다.
+----- [/문장 28] -----
+
+----- [문장 29] -----
+[핵심 문장] 예
+[원문]
+That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them.
+[혼공 끊어읽기]
+That is, / they selectively accept news / in a way / that only confirms their beliefs / and ignore news / that doesn’t support them.
+[S/V] S: they, V: accept and ignore ／ [that] V′: confirms ／ [that] V′: doesn’t support
+[각주]
+that is — 즉, 다시 말해 / they — 그들은 (사람들) / ★ selectively — 선택적으로, 골라서 / accept — 받아들이다 / news — 뉴스 / in — ~으로 / way — 방식 / that V′ — V′하는 (관계대명사) / only — 오직, ~만 / confirm — 확인해 주다, 사실임을 보여 주다 / their — 그들의 (사람들) / beliefs — 믿음들, 신념들 / ignore — 무시하다 / news — 뉴스 / that V′ — V′하는 (관계대명사) / does not V — ~하지 않다 / support — 뒷받침하다, 지지하다 / them — 그것들을 (그들의 믿음들)
+[구조 힌트] a way [that only confirms] → [오직 확인해 주는] 방식 (주격 관계대명사 that)
+[구조 힌트] news [that doesn’t support] → [뒷받침하지 않는] 뉴스 (주격 관계대명사 that)
+[분석 끊어읽기 영어]
+That is, / they selectively accept news / in a way / that only confirms their beliefs / and ignore news / that doesn’t support them.
+[분석 끊어읽기 한국어]
+즉, / 그들은 선택적으로 뉴스를 받아들인다 / 방식으로 / 오직 그들의 믿음을 확인해 주는 / 그리고 뉴스는 무시한다 / 그것들을 뒷받침하지 않는.
+[자연 해석]
+즉, 그들은 자신의 믿음을 확인해 주는 뉴스만 골라서 받아들이고, 믿음을 뒷받침하지 않는 뉴스는 무시한다.
+----- [/문장 29] -----
+
+----- [문장 30] -----
+[핵심 문장] 아니오
+[원문]
+During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.
+[혼공 끊어읽기]
+During election season, / for example, / people tend to blindly believe any news / describing their favored candidates / in a positive way, / while unconsciously believing news / that reports something negative / about other candidates.
+[S/V] S: people, V: tend ／ [that] V′: reports
+[각주]
+during — ~ 동안 / election season — 선거철 / for example — 예를 들어 / people — 사람들 / tend to V — ~하는 경향이 있다 / blindly — 맹목적으로 / believe — 믿다 / any — 어떤 ~든 / news — 뉴스 / V-ing — ~하는 / describe — 묘사하다 / their — 그들의 (사람들) / favored — 선호하는, 지지하는 / candidates — 후보들 / in — ~으로 / positive — 긍정적인 / way — 방식 / while V-ing — ~하면서 / unconsciously — 무의식적으로 / believe — 믿다 / news — 뉴스 / that V′ — V′하는 (관계대명사) / report — 보도하다 / something — 무언가 / negative — 부정적인 / about — ~에 대해 / other — 다른 / candidates — 후보들
+[구조 힌트] any news [describing their favored candidates] → [그들[사람들]이 선호하는 후보들을 묘사하는] 어떤 뉴스든 (현재분사 후치수식)
+[구조 힌트] news [that reports] → [보도하는] 뉴스 (주격 관계대명사 that)
+[분석 끊어읽기 영어]
+During election season, / for example, / people tend to blindly believe any news / describing their favored candidates / in a positive way, / while unconsciously believing news / that reports something negative / about other candidates.
+[분석 끊어읽기 한국어]
+선거철 동안, / 예를 들어, / 사람들은 어떤 뉴스든 맹목적으로 믿는 경향이 있다 / 그들이 선호하는 후보들을 묘사하는 / 긍정적인 방식으로, / 그러면서 무의식적으로 뉴스를 믿는다 / 부정적인 무언가를 보도하는 / 다른 후보들에 대해.
+[자연 해석]
+예를 들어 선거철에 사람들은 자신이 지지하는 후보를 긍정적으로 묘사하는 뉴스라면 무엇이든 맹목적으로 믿는 경향이 있고, 동시에 다른 후보에 대해 부정적인 내용을 보도하는 뉴스도 무의식적으로 믿는다.
+----- [/문장 30] -----
+
+----- [분석 단위] u3 -----
+[SOURCE_RANGE] 본문 · 원문 문장 20~30
+[주제] Why Fake News Spreads So Fast (가짜 뉴스가 빠르게 퍼지는 이유)
+[글의 의도/요지]
+가짜 뉴스가 진짜 뉴스보다 훨씬 빨리 퍼지는 이유를 사람들의 세 가지 특성(새롭고 자극적인 것을 좋아함, 단순하게 생각함, 확증 편향)으로 설명하는 글이다.
+[글의 흐름]
+(현상) 본문 · 원문 문장 20~21 — 소셜 미디어의 가짜 뉴스는 진짜 이야기보다 훨씬 더 멀리, 빨리 퍼진다. MIT 연구에 따르면 평균 6배 빠르다.
+(이유 1) 본문 · 원문 문장 22~24 — 사람들은 새롭고 자극적인 것을 좋아한다. 놀라운 정보는 남과 나누고 싶어 하고, 아직 알려지지 않았지만 거짓일 수도 있는 정보를 가장 먼저 올린 사람은 관심을 얻을 수 있다.
+(이유 2) 본문 · 원문 문장 25~26 — 사람들은 일상에서 단순하고 쉽게 생각하는 경향이 있어서, 새로운 정보를 비판적으로 검토하지 않고 증거 없이 믿기 쉽다.
+(이유 3) 본문 · 원문 문장 27~30 — 사람들은 자신의 편견이나 경험에 맞는 정보를 믿는 확증 편향에 빠진다. 선거철에 지지 후보에게 유리한 뉴스와 다른 후보에게 불리한 뉴스를 쉽게 믿는 것이 그 예다.
+[각 문장 쉬운 풀이]
+[24번 문장] By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information.
+24번 문장은 23번에서 말한 ‘나누고 싶은 마음’에 이어, 소식을 나누면 무엇을 얻는지 설명한다. 아직 아무도 모르는 소식을 소셜 미디어에 가장 먼저 올린 사람은 다른 사람들의 관심을 받을 수 있다. 그런데 이렇게 먼저 올린 소식은 새롭기는 하지만 거짓일 수도 있다.
+[26번 문장] It is more likely for them to believe new information without any proof, instead of critically examining it.
+26번 문장은 25번에서 말한 ‘단순하고 쉽게 생각하는 습관’이 어떤 결과를 낳는지 보여 준다. 비판적으로 검토한다는 것은 정보를 그대로 믿지 않고 사실인지 따져 보는 것이다. 따져 보려면 시간과 노력이 든다. 그래서 사람들은 증거가 없어도 새로운 정보를 그냥 믿어 버리기 쉽다.
+[28번 문장] In this process, people easily fall into the trap of “confirmation bias.”
+28번 문장은 27번에서 말한 습관에 ‘확증 편향’이라는 이름을 붙인다. 확증 편향은 내 생각이 맞다고 확인해 주는 정보만 믿고 싶어 하는 마음의 경향이다. 글쓴이는 이것을 사람들이 쉽게 빠지는 함정이라고 부른다. 29~30번 문장에서 이 함정의 뜻과 예가 이어진다.
+[구문으로 해석하기]
+N times + 비교급 + than A: A보다 N배 더 …하게 [21번 문장]: fake news spreads online 6 times faster than real news — 공식: N times + 비교급 + than A — A보다 N배 더 …하게. N times = 6 times(6배), 비교급 = faster(더 빠르게), A = real news(진짜 뉴스), 앞의 fake news spreads online = 가짜 뉴스가 온라인에서 퍼진다. → 가짜 뉴스는 온라인에서 진짜 뉴스보다 6배 더 빠르게 퍼진다.
+not only A but also B: A뿐만 아니라 B도 [23번 문장]: people not only feel that it is surprising, but they also want to share the stimulating news — 공식: not only A but also B — A뿐만 아니라 B도. A = feel that it is surprising(그것이 놀랍다고 느끼다), B = (they) want to share the stimulating news(그 자극적인 뉴스를 공유하고 싶어 하다). → 사람들은 그것이 놀랍다고 느낄 뿐만 아니라 그 자극적인 뉴스를 공유하고 싶어 하기도 한다. but 뒤에 주어 they가 다시 나와 also가 동사 want 앞에 놓였다.
+the first to V: 처음으로 ~하는 사람 [24번 문장]: they are the first to post previously unknown, but possibly false, information — 공식: the first to V — 처음으로 ~하는 사람(첫 번째 사람). to V = to post(게시하다), 목적어 = previously unknown, but possibly false, information(이전에 알려지지 않았지만 어쩌면 거짓일 수도 있는 정보). → 이전에 알려지지 않았지만 어쩌면 거짓일 수도 있는 정보를 처음으로 게시하는 사람. to post 이하가 앞의 the first를 뒤에서 꾸민다.
+[유의어·반의어]
+표제어: significantly (훨씬, 상당히) / 유의어: considerably (상당히, 많이) / 반의어: slightly (약간, 조금)
+표제어: ignore (무시하다) / 유의어: disregard (무시하다, 묵살하다) / 반의어: accept (받아들이다)
+표제어: negative (부정적인) / 유의어: unfavorable (호의적이지 않은, 불리한) / 반의어: positive (긍정적인)
+----- [/분석 단위] -----
+===== [/지문] =====
+
+===== [지문] u4 =====
+[SOURCE] src
+[학습 단위] u4
+[원문 범위] 본문 · 원문 문장 31~47
+[원문 소제목] Ways to Spot and Avoid Fake News
+[소제목 출처] h-ways · 원본 PDF 3쪽 왼쪽 단 맨 위(‘With so much information’ 단락 위) · 앞 문장 s31 · SHA256 a84f5471130f0f0420964122864df806b5719309fde01bc6090837c6c6174043
+----- [문장 31] -----
+[핵심 문장] 아니오
+[원문]
+With so much information on the Internet, how can you make sure that fake news does not mislead you?
+[혼공 끊어읽기]
+With so much information / on the Internet, / how can you make sure / that fake news does not mislead you?
+[S/V] S: you, V: can make ／ [that] S′: fake news, V′: does not mislead
+[각주]
+with — ~이 있는 상황에서 (흔한 뜻: ~와 함께) / so much — 그렇게 많은 / information — 정보 / on — ~에 / Internet — 인터넷 / how — 어떻게 / can V — ~할 수 있다 / make sure — 확실히 하다 / that S′ V′ — S′(이/가) V′한다는 것을 (접속사) / fake news — 가짜 뉴스 / does not V — ~하지 않다 / ★ mislead — 속이다, 오도하다
+[구조 힌트] [With so much information on the Internet] → [인터넷에 그렇게 많은 정보가 있는 상황에서] (with 구문)
+[구조 힌트] [that fake news does not mislead] → [가짜 뉴스가 속이지 않는다는 것] (명사절 접속사 that)
+[분석 끊어읽기 영어]
+With so much information / on the Internet, / how can you make sure / that fake news does not mislead you?
+[분석 끊어읽기 한국어]
+그렇게 많은 정보가 있는 상황에서 / 인터넷에, / 어떻게 당신은 확실히 할 수 있을까 / 가짜 뉴스가 당신을 속이지 않는다는 것을?
+[자연 해석]
+인터넷에 그렇게 많은 정보가 있는데, 어떻게 가짜 뉴스에 속지 않을 수 있을까?
+----- [/문장 31] -----
+
+----- [문장 32] -----
+[핵심 문장] 아니오
+[원문]
+First, read beyond the provocative headlines.
+[혼공 끊어읽기]
+First, / read beyond the provocative headlines.
+[S/V] V: read
+[각주]
+first — 첫째 / read — 읽다 / beyond — ~을 넘어서 / provocative — 자극적인 / headlines — 헤드라인들, 제목들
+[분석 끊어읽기 영어]
+First, / read beyond the provocative headlines.
+[분석 끊어읽기 한국어]
+첫째, / 자극적인 헤드라인들을 넘어서 읽어라.
+[자연 해석]
+첫째, 자극적인 헤드라인에서 멈추지 말고 그 너머까지 읽어라.
+----- [/문장 32] -----
+
+----- [문장 33] -----
+[핵심 문장] 예
+[원문]
+They can be so stimulating to get more clicks that you may click on them accidentally.
+[혼공 끊어읽기]
+They can be so stimulating / to get more clicks / that you may click on them accidentally.
+[S/V] S: They, V: can be ／ [that] S′: you, V′: may click
+[각주]
+they — 그것들은 (자극적인 헤드라인들) / can V — ~할 수 있다 / be — ~이다 / so A that S′ V′ — 너무 A해서 S′(이/가) V′하다 / stimulating — 자극적인 / to V — ~하기 위해 / get — 얻다 / more — 더 많은 / clicks — 클릭 수, 클릭들 / may V — ~할 수도 있다 / click on — ~을 클릭하다 / them — 그것들을 (자극적인 헤드라인들) / accidentally — 뜻하지 않게, 무심코
+[구조 힌트] so stimulating … that you may click → 너무 자극적이어서 … 당신[독자]이 클릭할 수도 있다
+[분석 끊어읽기 영어]
+They can be so stimulating / to get more clicks / that you may click on them accidentally.
+[분석 끊어읽기 한국어]
+그것들은 너무 자극적일 수 있다 / 더 많은 클릭 수를 얻기 위해 / 그래서 당신은 뜻하지 않게 그것들을 클릭할 수도 있다.
+[자연 해석]
+헤드라인은 클릭 수를 늘리려고 너무 자극적으로 만들어져서 당신이 무심코 클릭하게 될 수도 있다.
+----- [/문장 33] -----
+
+----- [문장 34] -----
+[핵심 문장] 아니오
+[원문]
+So don’t just read the headlines, but read the text carefully.
+[혼공 끊어읽기]
+So don’t just read the headlines, / but read the text carefully.
+[S/V] V: don’t read ／ [but] V: read
+[각주]
+so — 그러므로 / don’t just A but B — 그저 A하지 말고 B하라 / read — 읽다 / headlines — 헤드라인들, 제목들 / read — 읽다 / text — 본문 (흔한 뜻: 글, 문자) / carefully — 주의 깊게
+[구조 힌트] don’t just read … but read → 그저 읽지 말고 … 읽어라
+[분석 끊어읽기 영어]
+So don’t just read the headlines, / but read the text carefully.
+[분석 끊어읽기 한국어]
+그러므로 그저 헤드라인만 읽지 말고, / 본문을 주의 깊게 읽어라.
+[자연 해석]
+그러므로 헤드라인만 읽지 말고 본문을 주의 깊게 읽어라.
+----- [/문장 34] -----
+
+----- [문장 35] -----
+[핵심 문장] 아니오
+[원문]
+Second, don’t read the news at face value.
+[혼공 끊어읽기]
+Second, / don’t read the news at face value.
+[S/V] V: don’t read
+[각주]
+second — 둘째 / do not V — ~하지 마라 / read — 읽다 / news — 뉴스 / ★ at face value — 액면 그대로, 곧이곧대로
+[분석 끊어읽기 영어]
+Second, / don’t read the news at face value.
+[분석 끊어읽기 한국어]
+둘째, / 뉴스를 액면 그대로 읽지 마라.
+[자연 해석]
+둘째, 뉴스를 곧이곧대로 받아들이지 마라.
+----- [/문장 35] -----
+
+----- [문장 36] -----
+[핵심 문장] 아니오
+[원문]
+Exercise critical thinking skills to judge the news.
+[혼공 끊어읽기]
+Exercise critical thinking skills / to judge the news.
+[S/V] V: Exercise
+[각주]
+exercise — 발휘하다, 활용하다 (흔한 뜻: 운동하다) / ★ critical thinking — 비판적 사고 / skills — 기술들, 능력들 / to V — ~하기 위해 / judge — 판단하다 / news — 뉴스
+[구조 힌트] [to judge] → [판단하기 위해] (목적의 to부정사)
+[분석 끊어읽기 영어]
+Exercise critical thinking skills / to judge the news.
+[분석 끊어읽기 한국어]
+비판적 사고 기술을 발휘하라 / 뉴스를 판단하기 위해.
+[자연 해석]
+뉴스를 판단하기 위해 비판적 사고 능력을 발휘하라.
+----- [/문장 36] -----
+
+----- [문장 37] -----
+[핵심 문장] 아니오
+[원문]
+You should question, analyze, and evaluate what you read.
+[혼공 끊어읽기]
+You should question, analyze, and evaluate / what you read.
+[S/V] S: You, V: should question analyze and evaluate ／ [what] S′: you, V′: read
+[각주]
+should V — ~해야 한다 / question — 의문을 제기하다 (흔한 뜻: 질문) / analyze — 분석하다 / ★ evaluate — 평가하다 / what S′ V′ — S′(이/가) V′하는 것 (관계대명사) / read — 읽다
+[구조 힌트] [what you read] → [당신[독자]이 읽는 것] (관계대명사 what)
+[분석 끊어읽기 영어]
+You should question, analyze, and evaluate / what you read.
+[분석 끊어읽기 한국어]
+당신은 의문을 제기하고, 분석하고, 평가해야 한다 / 당신이 읽는 것을.
+[자연 해석]
+당신은 자신이 읽는 것에 대해 질문하고, 분석하고, 평가해야 한다.
+----- [/문장 37] -----
+
+----- [문장 38] -----
+[핵심 문장] 아니오
+[원문]
+Third, examine your biases.
+[혼공 끊어읽기]
+Third, / examine your biases.
+[S/V] V: examine
+[각주]
+third — 셋째 / examine — 점검하다, 살펴보다 / your — 당신의 / ★ biases — 편견들
+[분석 끊어읽기 영어]
+Third, / examine your biases.
+[분석 끊어읽기 한국어]
+셋째, / 당신의 편견들을 점검하라.
+[자연 해석]
+셋째, 자신의 편견을 점검하라.
+----- [/문장 38] -----
+
+----- [문장 39] -----
+[핵심 문장] 아니오
+[원문]
+Consider if your own beliefs could affect your judgment.
+[혼공 끊어읽기]
+Consider / if your own beliefs could affect your judgment.
+[S/V] V: Consider ／ [if] S′: your own beliefs, V′: could affect
+[각주]
+consider — 고려하다, 생각해 보다 / if S′ V′ — S′(이/가) V′하는지 (접속사) / your — 당신의 / own — 자신의 / beliefs — 믿음들, 신념들 / could V — ~할 수 있다 / affect — ~에 영향을 미치다 / your — 당신의 / judgment — 판단
+[구조 힌트] [if your own beliefs could affect] → [당신[독자] 자신의 믿음이 영향을 미칠 수 있는지] (명사절 접속사 if)
+[분석 끊어읽기 영어]
+Consider / if your own beliefs could affect your judgment.
+[분석 끊어읽기 한국어]
+고려하라 / 당신 자신의 믿음이 당신의 판단에 영향을 미칠 수 있는지.
+[자연 해석]
+자신의 믿음이 판단에 영향을 줄 수 있는지 생각해 보라.
+----- [/문장 39] -----
+
+----- [문장 40] -----
+[핵심 문장] 아니오
+[원문]
+Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well.
+[혼공 끊어읽기]
+Ask yourself / if you are only reading articles / that suit your opinion, / and look for articles / that oppose your opinion / as well.
+[S/V] V: Ask ／ [if] S′: you, V′: are reading ／ [that] V′: suit ／ [and] V: look ／ [that] V′: oppose
+[각주]
+ask — 묻다 / yourself — 당신 자신에게 / if S′ V′ — S′(이/가) V′하는지 (접속사) / be V-ing — ~하고 있다 / only — 오직, ~만 / read — 읽다 / articles — 기사들 / that V′ — V′하는 (관계대명사) / suit — ~에 맞다, 어울리다 / your — 당신의 / opinion — 의견 / look for — ~을 찾다 / articles — 기사들 / that V′ — V′하는 (관계대명사) / oppose — ~에 반대되다, 반대하다 / your — 당신의 / opinion — 의견 / as well — 또한, ~도
+[구조 힌트] articles [that suit] → [맞는] 기사들 (주격 관계대명사 that)
+[구조 힌트] articles [that oppose] → [반대되는] 기사들 (주격 관계대명사 that)
+[분석 끊어읽기 영어]
+Ask yourself / if you are only reading articles / that suit your opinion, / and look for articles / that oppose your opinion / as well.
+[분석 끊어읽기 한국어]
+당신 자신에게 물어보라 / 당신이 오직 기사들만 읽고 있는지 / 당신의 의견에 맞는, / 그리고 기사들을 찾아라 / 당신의 의견에 반대되는 / 또한.
+[자연 해석]
+자신의 의견에 맞는 기사만 읽고 있는 것은 아닌지 스스로에게 물어보고, 자신의 의견에 반대되는 기사도 찾아보라.
+----- [/문장 40] -----
+
+----- [문장 41] -----
+[핵심 문장] 아니오
+[원문]
+Finally, check the credibility of the source.
+[혼공 끊어읽기]
+Finally, / check the credibility / of the source.
+[S/V] V: check
+[각주]
+finally — 마지막으로 / check — 확인하다 / ★ credibility — 신뢰성 / of — ~의 / source — 출처 (흔한 뜻: 원천)
+[분석 끊어읽기 영어]
+Finally, / check the credibility / of the source.
+[분석 끊어읽기 한국어]
+마지막으로, / 신뢰성을 확인하라 / 출처의.
+[자연 해석]
+마지막으로, 출처가 믿을 만한지 확인하라.
+----- [/문장 41] -----
+
+----- [문장 42] -----
+[핵심 문장] 아니오
+[원문]
+You should examine who wrote the news story and what the intent was behind writing the news story.
+[혼공 끊어읽기]
+You should examine / who wrote the news story / and what the intent was / behind writing the news story.
+[S/V] S: You, V: should examine ／ [who] V′: wrote ／ [what] S′: the intent, V′: was
+[각주]
+should V — ~해야 한다 / examine — 살펴보다, 조사하다 / who V′ — 누가 V′했는지 / wrote — 썼다 (write의 과거) / news story — 뉴스 기사 / what S′ V′ — S′(이/가) 무엇이었는지 / ★ intent — 의도 / was — ~였다 / behind — ~ 뒤에 있는 / V-ing — ~하는 것 / write — 쓰다 / news story — 뉴스 기사
+[구조 힌트] [who wrote] → [누가 썼는지] (간접의문문 who)
+[구조 힌트] [what the intent was] → [의도가 무엇이었는지] (간접의문문 what)
+[분석 끊어읽기 영어]
+You should examine / who wrote the news story / and what the intent was / behind writing the news story.
+[분석 끊어읽기 한국어]
+당신은 살펴보아야 한다 / 누가 그 뉴스 기사를 썼는지 / 그리고 의도가 무엇이었는지 / 그 뉴스 기사를 쓴 것 뒤에 있는.
+[자연 해석]
+당신은 누가 그 뉴스 기사를 썼는지, 그리고 그 기사를 쓴 이면의 의도가 무엇이었는지 살펴보아야 한다.
+----- [/문장 42] -----
+
+----- [문장 43] -----
+[핵심 문장] 아니오
+[원문]
+You also need to check whether the news story is from a reliable media source and the evidence is valid.
+[혼공 끊어읽기]
+You also need to check / whether the news story is from a reliable media source / and the evidence is valid.
+[S/V] S: You, V: need ／ [whether] S′: the news story, V′: is ／ [and] S′: the evidence, V′: is
+[각주]
+also — 또한 / need to V — ~할 필요가 있다 / check — 확인하다 / whether S′ V′ — S′(이/가) V′하는지 / news story — 뉴스 기사 / is — ~이다 / from — ~에서 나온 / reliable — 믿을 만한, 신뢰할 수 있는 / media — 미디어, 언론 / source — 출처 (흔한 뜻: 원천) / evidence — 증거 / is — ~이다 / valid — 타당한, 근거가 확실한
+[구조 힌트] [whether the news story is from a reliable media source] → [그 뉴스 기사가 믿을 만한 미디어 출처에서 나온 것인지] (명사절 접속사 whether)
+[분석 끊어읽기 영어]
+You also need to check / whether the news story is from a reliable media source / and the evidence is valid.
+[분석 끊어읽기 한국어]
+당신은 또한 확인할 필요가 있다 / 그 뉴스 기사가 믿을 만한 미디어 출처에서 나온 것인지 / 그리고 증거가 타당한지.
+[자연 해석]
+또한 그 뉴스 기사가 믿을 만한 언론 출처에서 나온 것인지, 그리고 증거가 타당한지 확인해야 한다.
+----- [/문장 43] -----
+
+----- [문장 44] -----
+[핵심 문장] 아니오
+[원문]
+In the digital age, it might be impossible to avoid or eliminate all false information that spreads online.
+[혼공 끊어읽기]
+In the digital age, / it might be impossible / to avoid or eliminate all false information / that spreads online.
+[S/V] S: it, V: might be ／ [that] V′: spreads
+[각주]
+in — ~에 / digital — 디지털의 / age — 시대 (흔한 뜻: 나이) / It … to V — ~하는 것은 (It은 뒤의 to V를 대신함) / might V — ~할지도 모른다 / be — ~이다 / impossible — 불가능한 / avoid — 피하다 / or — 또는 / ★ eliminate — 없애다, 제거하다 / all — 모든 / false — 거짓의 / information — 정보 / that V′ — V′하는 (관계대명사) / spread — 퍼지다 / online — 온라인에서
+[구조 힌트] it might be impossible [to avoid or eliminate] → [피하거나 없애는 것은] 불가능할지도 모른다 (가주어 It과 진주어 to부정사)
+[구조 힌트] all false information [that spreads] → [퍼지는] 모든 거짓 정보 (주격 관계대명사 that)
+[분석 끊어읽기 영어]
+In the digital age, / it might be impossible / to avoid or eliminate all false information / that spreads online.
+[분석 끊어읽기 한국어]
+디지털 시대에는, / 불가능할지도 모른다 / 모든 거짓 정보를 피하거나 없애는 것은 / 온라인에서 퍼지는.
+[자연 해석]
+디지털 시대에는 온라인에서 퍼지는 모든 거짓 정보를 피하거나 없애는 것이 불가능할지도 모른다.
+----- [/문장 44] -----
+
+----- [문장 45] -----
+[핵심 문장] 예
+[원문]
+However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause.
+[혼공 끊어읽기]
+However, / if you have the ability / to view information critically and objectively, / you will be able to reduce the damage / that fake news can cause.
+[S/V] [if] S′: you, V′: have ／ S: you, V: will be ／ [that] S′: fake news, V′: can cause
+[각주]
+however — 하지만 / if S′ V′ — S′(이/가) V′한다면 / have — 가지고 있다 / ability to V — ~할 수 있는 능력 / view — 보다, 바라보다 / information — 정보 / critically — 비판적으로 / objectively — 객관적으로 / will V — ~할 것이다 / be able to V — ~할 수 있다 / reduce — 줄이다 / damage — 피해 / that S′ V′ — S′(이/가) V′하는 (관계대명사) / fake news — 가짜 뉴스 / can V — ~할 수 있다 / cause — 일으키다, 야기하다
+[구조 힌트] [if you have] → [당신[독자]이 가지고 있다면] (조건 접속사 if)
+[구조 힌트] the damage [that fake news can cause] → [가짜 뉴스가 일으킬 수 있는] 피해 (목적격 관계대명사 that)
+[분석 끊어읽기 영어]
+However, / if you have the ability / to view information critically and objectively, / you will be able to reduce the damage / that fake news can cause.
+[분석 끊어읽기 한국어]
+하지만, / 만약 당신이 능력을 가지고 있다면 / 정보를 비판적이고 객관적으로 볼 수 있는, / 당신은 피해를 줄일 수 있을 것이다 / 가짜 뉴스가 일으킬 수 있는.
+[자연 해석]
+하지만 정보를 비판적이고 객관적으로 볼 수 있는 능력이 있다면, 가짜 뉴스가 일으킬 수 있는 피해를 줄일 수 있을 것이다.
+----- [/문장 45] -----
+
+----- [문장 46] -----
+[핵심 문장] 아니오
+[원문]
+Don’t forget!
+[혼공 끊어읽기]
+Don’t forget!
+[S/V] V: Don’t forget
+[각주]
+do not V — ~하지 마라 / forget — 잊다
+[분석 끊어읽기 영어]
+Don’t forget!
+[분석 끊어읽기 한국어]
+잊지 마라!
+[자연 해석]
+잊지 마라!
+----- [/문장 46] -----
+
+----- [문장 47] -----
+[핵심 문장] 아니오
+[원문]
+Anyone can be the next person producing or spreading fake news!
+[혼공 끊어읽기]
+Anyone can be the next person / producing or spreading fake news!
+[S/V] S: Anyone, V: can be
+[각주]
+anyone — 누구든지 / can V — ~할 수 있다 / be — ~이 되다 (흔한 뜻: ~이다) / next — 다음의 / person — 사람 / V-ing — ~하는 / produce — 만들어 내다 / or — 또는 / V-ing — ~하는 / spread — 퍼뜨리다 / fake news — 가짜 뉴스
+[구조 힌트] the next person [producing or spreading fake news] → [가짜 뉴스를 만들어 내거나 퍼뜨리는] 다음 사람 (현재분사 후치수식)
+[분석 끊어읽기 영어]
+Anyone can be the next person / producing or spreading fake news!
+[분석 끊어읽기 한국어]
+누구든지 다음 사람이 될 수 있다 / 가짜 뉴스를 만들어 내거나 퍼뜨리는!
+[자연 해석]
+누구든지 가짜 뉴스를 만들어 내거나 퍼뜨리는 다음 사람이 될 수 있다!
+----- [/문장 47] -----
+
+----- [분석 단위] u4 -----
+[SOURCE_RANGE] 본문 · 원문 문장 31~47
+[주제] Four Ways to Spot and Avoid Fake News (가짜 뉴스를 가려내고 피하는 네 가지 방법)
+[글의 의도/요지]
+가짜 뉴스에 속지 않으려면 헤드라인 너머까지 읽고, 뉴스를 비판적으로 판단하고, 자신의 편견을 점검하고, 출처의 신뢰성을 확인해야 하며, 이런 비판적·객관적인 태도가 가짜 뉴스의 피해를 줄일 수 있다는 점을 강조하는 글이다.
+[글의 흐름]
+(질문) 본문 · 원문 문장 31~31 — 정보가 넘쳐나는 인터넷에서 어떻게 가짜 뉴스에 속지 않을 수 있을지 묻는다.
+(방법 1·2) 본문 · 원문 문장 32~37 — 첫째, 클릭을 노린 자극적인 헤드라인만 읽지 말고 본문을 주의 깊게 읽는다. 둘째, 뉴스를 곧이곧대로 믿지 말고 비판적 사고로 질문하고 분석하고 평가한다.
+(방법 3·4) 본문 · 원문 문장 38~43 — 셋째, 자신의 편견이 판단에 영향을 주는지 살피고 반대 의견의 기사도 찾아 읽는다. 넷째, 누가 어떤 의도로 썼는지, 믿을 만한 출처인지, 증거가 타당한지 확인한다.
+(결론) 본문 · 원문 문장 44~47 — 온라인에 퍼지는 거짓 정보를 모두 피하거나 없애기는 불가능할지도 모르지만, 정보를 비판적이고 객관적으로 보는 능력이 있으면 가짜 뉴스의 피해를 줄일 수 있다. 누구나 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있음을 잊지 말자.
+[각 문장 쉬운 풀이]
+[35번 문장] Second, don’t read the news at face value.
+35번 문장은 가짜 뉴스를 피하는 두 번째 방법이다. 액면 그대로 읽는다는 것은 뉴스에 쓰인 말을 따져 보지 않고 그대로 믿는 것이다. 글쓴이는 그렇게 하지 말라고 한다. 36~37번에서 그 대신 비판적으로 생각하며 질문하고 분석하라고 이어서 설명한다.
+[40번 문장] Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well.
+40번 문장은 38번의 ‘편견 점검하기’를 실제로 어떻게 하는지 알려 준다. 먼저 내 생각과 같은 기사만 골라 읽고 있지는 않은지 스스로 물어본다. 이것은 27~29번에서 말한 확증 편향에 빠지지 않기 위한 방법이다. 그다음 내 생각과 반대되는 기사도 일부러 찾아 읽는다.
+[47번 문장] Anyone can be the next person producing or spreading fake news!
+47번 문장은 글 전체의 마지막 당부다. 도입부의 지나는 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했었다. 그런데 결국 지나 자신도 실수로 가짜 뉴스를 퍼뜨리게 되었다. 46번의 ‘잊지 마라!’는 바로 이 점을 기억하라는 말이다. 누구든 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있다는 것이다.
+[구문으로 해석하기]
+what S′ V′: S′(이/가) V′하는 것 [37번 문장]: You should question, analyze, and evaluate what you read — 공식: what S′ V′ — S′(이/가) V′하는 것. what = 선행사를 품은 관계대명사(~하는 것), S′ = you(당신), V′ = read(읽다). → 당신이 읽는 것. 이 what절 전체가 question, analyze, evaluate(의문을 제기하다, 분석하다, 평가하다)의 공통 목적어라 ‘당신이 읽는 것에 의문을 제기하고, 분석하고, 평가해야 한다’가 된다.
+whether S′ V′: S′(이/가) V′하는지 [43번 문장]: check whether the news story is from a reliable media source and the evidence is valid — 공식: whether S′ V′ — S′(이/가) V′하는지. S′ = the news story(그 뉴스 기사), V′ = is(~이다), 보어 = from a reliable media source(믿을 만한 미디어 출처에서 나온). and 뒤에도 같은 whether에 걸리는 절 the evidence(증거) is(~이다) valid(타당한)가 이어진다. → 그 뉴스 기사가 믿을 만한 미디어 출처에서 나온 것인지, 그리고 증거가 타당한지. 앞의 check(확인하다)와 합치면 ‘~인지 확인하다’다.
+who V′(간접의문): 누가 V′했는지 [42번 문장]: examine who wrote the news story — 공식: who V′ — 누가 V′했는지. who = 의문사이면서 이 절의 주어(누가), V′ = wrote(썼다), 목적어 = the news story(그 뉴스 기사). → 누가 그 뉴스 기사를 썼는지. 이 절 전체가 앞 동사 examine(살펴보다)의 목적어라 ‘누가 그 뉴스 기사를 썼는지 살펴보다’가 된다. who 뒤에 주어가 따로 없고 바로 동사가 온다.
+[유의어·반의어]
+표제어: reliable (믿을 만한, 신뢰할 수 있는) / 유의어: trustworthy (신뢰할 수 있는) / 반의어: unreliable (믿을 수 없는)
+표제어: valid (타당한, 근거가 확실한) / 유의어: sound (타당한, 믿을 만한) / 반의어: invalid (근거 없는, 타당하지 않은)
+표제어: objectively (객관적으로) / 유의어: impartially (공정하게, 치우치지 않게) / 반의어: subjectively (주관적으로)
+----- [/분석 단위] -----
+===== [/지문] =====
