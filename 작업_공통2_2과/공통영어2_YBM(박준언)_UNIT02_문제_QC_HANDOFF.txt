@@ -67,7 +67,7 @@ EXPLANATION:
 WRONG_ANALYSIS:
 ① 수도꼭지의 이상한 소리는 물이 끊겼음을 알리는 첫 장면일 뿐 글 전체의 중심 내용이 아니다.
 ③ 오늘 사람들이 원하는 것은 텔레비전과 비디오 게임이 아니라고 했으므로 사치품을 사려는 욕구는 본문과 반대다.
-④ 언론은 사람들이 ‘가뭄’이라는 말을 듣는 데 지치자 그것을 ‘흐름 위기’라고 불렀을 뿐, 사람들을 조용하게 만들려 했다는 내용은 없다.
+④ 언론은 사람들이 ‘가뭄’이라는 말을 듣는 데 지치자 그것을 ‘물 공급 위기’라고 불렀을 뿐, 사람들을 조용하게 만들려 했다는 내용은 없다.
 ⑤ 물이 끊겨 생수를 사러 가는 위기 상황이므로 평범한 가족 나들이가 아니다.
 CHOICES_KR:
 ① 오래된 부엌 수도꼭지에서 흔히 나는 이상한 소리
@@ -267,7 +267,7 @@ I look for Garrett, whom I find in the frozen aisle. Then I see something. Just 
 CHOICES:
 ① Alyssa discovered her brother in the frozen food aisle.
 ② Alyssa saw a case filled with ice near the ice cream.
-③ Garrett first reminded Alyssa that they needed water, not ice.
+③ Garrett reminded Alyssa that they needed water, not ice.
 ④ Other shoppers disregarded what the two were doing.
 ⑤ The two filled the cart with ice until it was piled high.
 ANSWER:
@@ -284,7 +284,7 @@ WRONG_ANALYSIS:
 CHOICES_KR:
 ① 앨리사는 냉동식품 통로에서 남동생을 발견했다.
 ② 앨리사는 아이스크림 근처에서 얼음이 가득 든 진열장을 보았다.
-③ 개릿은 처음에 자신들에게 필요한 것은 얼음이 아니라 물이라고 앨리사에게 상기시켰다.
+③ 개릿은 자신들에게 필요한 것은 얼음이 아니라 물이라고 앨리사에게 상기시켰다.
 ④ 다른 쇼핑객들은 두 사람이 하는 일을 무시했다.
 ⑤ 두 사람은 카트가 높이 쌓일 때까지 얼음으로 채웠다.
 [/Q03]
@@ -609,10 +609,10 @@ Then I see something. ( ② ) I open the door and reach for a bag.
 EXPLANATION:
 주어진 문장은 냉동 채소와 아이스크림 바로 뒤에 얼음이 가득 든 케이스가 있다는 내용이다. ② 앞의 “Then I see something.”에서 앨리사가 무언가를 발견하고, 주어진 문장이 그 ‘무언가’가 얼음 케이스임을 밝힌다. ② 뒤의 “I open the door and reach for a bag.”의 the door와 a bag은 그 케이스의 문과 얼음 봉지이므로 ②에 들어가야 한다.
 WRONG_ANALYSIS:
-① ①에 넣으면 얼음 케이스를 이미 설명한 뒤에 “Then I see something.”이 와서, 앨리사가 본 ‘무언가’가 무엇인지 끝내 밝혀지지 않는다.
-③ ③ 앞의 “I open the door and reach for a bag.”에서 the door와 a bag이 무엇의 문과 봉지인지 알 수 없게 되므로, 케이스는 그보다 앞에서 소개되어야 한다.
-④ ④는 개릿과 앨리사가 얼음을 두고 주고받는 대화 사이로, 얼음 케이스를 처음 소개하는 문장이 들어가면 대화가 끊긴다.
-⑤ ⑤에 넣어도 앞의 the door와 a bag이 가리킬 대상이 여전히 없고, 이미 얼음을 두고 대화한 뒤에 케이스를 처음 소개하게 되어 어색하다.
+① 이 위치에 넣으면 얼음 케이스를 이미 설명한 뒤에 “Then I see something.”이 와서, 앨리사가 본 ‘무언가’가 무엇인지 끝내 밝혀지지 않는다.
+③ 이 위치에 넣으면 앨리사가 문을 열고 봉지에 손을 뻗은 뒤에야 진열장이 처음 소개되어, 발견(Then I see something) → 진열장 소개 → 문을 열고 봉지를 집는 행동의 순서가 거꾸로 된다.
+④ 이 위치는 개릿과 앨리사가 얼음을 두고 주고받는 대화 사이로, 얼음 케이스를 처음 소개하는 문장이 들어가면 대화가 끊긴다.
+⑤ 이 위치는 이미 문을 열고 얼음을 두고 대화까지 나눈 뒤라, 진열장을 처음 소개하는 문장이 오면 발견 → 소개 → 행동의 시간 순서가 뒤집힌다.
 [/Q07]
 
 [Q08]
@@ -707,14 +707,14 @@ CHOICES:
 ANSWER:
 1
 EVIDENCE:
-We have no running water out of the tap. / What I see in the carts in the checkout line are mostly water bottles. The essentials of life. / The shelves are already empty.
+We have no running water out of the tap. / What I see in the carts in the checkout line are mostly water bottles. The essentials of life. / As I approach the back of the store for water bottles, I realize I am too late.
 EXPLANATION:
-가뭄 위기로 수도꼭지의 물이 끊긴 날, 앨리사 가족은 쇼핑몰로 가고, 사람들은 삶의 필수품인 생수를 사려고 몰려들어 매장 선반은 이미 비어 있다. 따라서 ‘물이 멈춘 날: 필수품을 향한 쇄도’라는 ①이 제목으로 가장 적절하다.
+가뭄 위기로 수도꼭지의 물이 끊긴 날, 앨리사 가족은 쇼핑몰로 가고, 사람들은 삶의 필수품인 생수를 사려고 몰려들어 앨리사가 생수를 사러 갔을 때는 이미 너무 늦었다. 따라서 ‘물이 멈춘 날: 필수품을 향한 쇄도’라는 ①이 제목으로 가장 적절하다.
 WRONG_ANALYSIS:
 ② 오늘 사람들이 사려는 것은 텔레비전과 비디오 게임이 아니라고 했다.
 ③ 바질 삼촌은 아이들을 쇼핑몰에 데려갈 뿐 수도꼭지를 고치지 않는다.
 ④ 조급함과 적대감이 감도는 위기 속 외출이므로 편안한 주말 여행이 아니다.
-⑤ 언론이 가뭄을 ‘흐름 위기’라고 부른다는 것은 한 문장의 세부 내용일 뿐 글 전체를 포괄하지 못한다.
+⑤ 언론이 가뭄을 ‘물 공급 위기’라고 부른다는 것은 한 문장의 세부 내용일 뿐 글 전체를 포괄하지 못한다.
 CHOICES_KR:
 ① 물이 멈춘 날: 필수품을 향한 쇄도
 ② 텔레비전과 게임의 블랙 프라이데이 할인
@@ -867,10 +867,10 @@ It tells the story of a girl who has to make tough choices for her family during
 EXPLANATION:
 주어진 문장은 ‘그녀의 원치 않은 모험은 물 공급이 재개되고 삶이 정상으로 돌아오면서 끝난다’는 내용이다. Her가 가리킬 대상은 ⑤ 앞 문장의 a girl(가뭄 속에서 가족을 위해 힘든 선택을 해야 하는 소녀)이며, 소설 줄거리 소개가 시작에서 끝으로 이어진 뒤 ⑤ 뒤에서 물 부족의 원인과 경고로 넘어간다. 따라서 ⑤에 들어가야 한다.
 WRONG_ANALYSIS:
-① ① 앞은 바질 삼촌이 나타난 장면으로, Her가 가리킬 여성 인물이 없고 모험이 끝난다는 내용이 장면 한가운데 끼어든다.
-② ② 앞은 남자가 “Not at all.”이라고 답하는 장면으로, Her가 가리킬 대상이 없고 이야기가 아직 진행 중이다.
-③ ③에 넣으면 이야기가 끝난 것처럼 보이지만, 곧이어 ‘위 글은 소설 도입부를 줄인 것’이라는 설명이 나와 모순되고, 소녀(a girl)도 그 뒤에야 소개된다.
-④ ④는 소설을 처음 언급한 문장 바로 뒤로, 소녀가 소개되기 전에 Her가 나오고 “It tells the story of a girl …”보다 결말이 먼저 오게 된다.
+① 이 위치 앞은 바질 삼촌이 나타난 1인칭 현재 장면으로, 서술자 자신을 3인칭 Her로 가리키며 물 공급이 재개되는 결말을 요약하는 문장이 장면 한가운데 끼어들 수 없다.
+② 이 위치 앞은 남자가 “Not at all.”이라고 답하는 장면으로, 이야기가 아직 진행 중인 1인칭 서술 속에 3인칭 결말 요약이 들어갈 수 없다.
+③ 이 위치에 넣으면 이야기가 끝난 것처럼 보이지만, 곧이어 ‘위 글은 소설 도입부를 줄인 것’이라는 설명이 나와 모순되고, 소녀(a girl)도 그 뒤에야 소개된다.
+④ 이 위치는 소설을 처음 언급한 문장 바로 뒤로, 소녀가 소개되기 전에 Her가 나오고 “It tells the story of a girl …”보다 결말이 먼저 오게 된다.
 [/Q13]
 
 [PASSAGE_GROUP long-mock2]
@@ -1007,7 +1007,7 @@ ANSWER:
 EVIDENCE:
 (B) “She is watching the TV …”의 She가 주어진 글의 Mom이며, 엄마가 “쉿!”이라고 한 이유(뉴스 시청)를 설명함 / (C) “To the mall!”이 (B)의 ‘수돗물이 나오지 않는다’에 대한 대응 / (A) “Inside …”가 (C)의 “You two go in. I’ll meet you inside”에 이어짐
 EXPLANATION:
-주어진 글에서 수도꼭지의 물이 끊기자 앨리사가 엄마를 부르지만 엄마는 “쉿!”이라고 한다. (B) 엄마는 ‘흐름 위기’에 관한 뉴스를 보고 있었고, 위기가 새 단계에 들어서 수돗물이 나오지 않는다. (C) 그러자 바질 삼촌이 “쇼핑몰로!”라고 외치고, 주차장에서 인파를 본 뒤 아이들에게 먼저 들어가라고 한다. (A) 안은 최악일 때의 블랙 프라이데이 같고, 카트에는 대부분 생수가 담겨 있다. 따라서 (B)-(C)-(A)이다.
+주어진 글에서 수도꼭지의 물이 끊기자 앨리사가 엄마를 부르지만 엄마는 “쉿!”이라고 한다. (B) 엄마는 ‘물 공급 위기’에 관한 뉴스를 보고 있었고, 위기가 새 단계에 들어서 수돗물이 나오지 않는다. (C) 그러자 바질 삼촌이 “쇼핑몰로!”라고 외치고, 주차장에서 인파를 본 뒤 아이들에게 먼저 들어가라고 한다. (A) 안은 최악일 때의 블랙 프라이데이 같고, 카트에는 대부분 생수가 담겨 있다. 따라서 (B)-(C)-(A)이다.
 WRONG_ANALYSIS:
 ① (A)가 주어진 글 바로 뒤에 오면 Inside가 어디의 안인지 알 수 없다.
 ② (B) 다음 (A)가 오면 쇼핑몰에 가기도 전에 매장 안의 장면이 나오고, 그 뒤 (C)에서 다시 쇼핑몰로 출발하게 된다.
@@ -1073,7 +1073,7 @@ ANSWER:
 EVIDENCE:
 “Thank you for helping us,” I tell him. / It is good to know that difficult times can bring out the best in people. / He is still smiling, but his eyes scare me.
 EXPLANATION:
-처음에 앨리사는 카트를 밀어 준 남자에게 고마워하며 미소로 답하고, 호의에 보답하려고 얼음 한 봉지를 권한다. 그러나 남자가 나머지 얼음을 자기가 갖겠다고 진지하게 말하고, 웃는 얼굴과 달리 그의 눈이 무섭게 느껴진다. 따라서 ‘고마워하는 → 겁먹은’의 ①이 알맞다.
+처음에 앨리사는 자신들을 도와준 남자(him)에게 고마워하며(Thank you for helping us) 미소로 답하고, 호의에 보답하려고 얼음 한 봉지를 권한다. 그러나 남자가 나머지 얼음을 자기가 갖겠다고 진지하게 말하고, 웃는 얼굴과 달리 그의 눈이 무섭게 느껴진다. 따라서 ‘고마워하는 → 겁먹은’의 ①이 알맞다.
 WRONG_ANALYSIS:
 ② 질투하거나 만족하는 모습은 없고, 마지막에는 겁을 먹는다.
 ③ 지루함은 드러나지 않으며, 남자의 속셈을 알게 된 뒤의 감정은 호기심이 아니라 두려움이다.

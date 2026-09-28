@@ -1,0 +1,4856 @@
+{
+  "schema_version": 1,
+  "purpose": "REVIEW_INPUT_PACKET_NOT_FINAL",
+  "status": "NOT_FINAL",
+  "certification": "NOT_CERTIFIED",
+  "role": "questions-compare",
+  "input_digest": {
+    "content_sha256": "535f77363bdc56ebee1085d686cf179668f8b250a5703555a7d0c229c4725bfd",
+    "canonical_full_json_sha256": "535f77363bdc56ebee1085d686cf179668f8b250a5703555a7d0c229c4725bfd",
+    "file_sha256": "4370a09d3cff757d2f72dc7b3432f363984c6db5a6e766da958756d522f18c27",
+    "file_sha256_status": "EXACT_INPUT_BYTES"
+  },
+  "current_rules": [
+    {
+      "path": "SKILL.md",
+      "sha256": "f4b6e53dd36c0b3132f608a45156c868d7429b97bb7115b8017d230fe67a3d5f"
+    },
+    {
+      "path": "references/editorial-core.md",
+      "sha256": "620678de7335f75152ffa190d8139d31ffc1e03316825d62b202de32ee385396"
+    },
+    {
+      "path": "references/workflow.md",
+      "sha256": "dc6f355b56fa30110cb99864a1dbd6bb60fc3b27416e4a4b7ad7b4850543f958"
+    },
+    {
+      "path": "references/layout-rules.md",
+      "sha256": "de911e443e52b5df776c2ae7827635315ca248bf717cf29026e8c89b04b75d67"
+    },
+    {
+      "path": "references/runtime-and-data.md",
+      "sha256": "8e2fa22f7ada9cd5cbe5c0f28bc8852a4c230ec6acf36f1d750e966bb1b16b6c"
+    },
+    {
+      "path": "references/handoff-format.md",
+      "sha256": "e9b3ed617a7c3c90b079710c97431fac9ab41b1e84bf455f6bb803006e079619"
+    },
+    {
+      "path": "references/common-errors.md",
+      "sha256": "058db2bf1c0fb67cc43927a6a53cf8cd122e55ef54ca2db944ceaddaaf41c2e8"
+    },
+    {
+      "path": "references/current-revision.md",
+      "sha256": "13eaf6cedead59261a01bfd004034e807b73cecc2f69481cf8fb3ebd5ce74842"
+    },
+    {
+      "path": "references/manuscript-data.md",
+      "sha256": "5be58a9b8ed167dbf6235810964657f69bc571a66991cc0480ee974470898a5b"
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "42b57e1bc8e19542d160fb4c40a32691b3645bc493c7a23d6468f9245cf6e7a1"
+    },
+    {
+      "path": "references/review-efficiency.md",
+      "sha256": "37218e5b5973f1a368fe4bc32622fab0a90c09308bdaaafcab7150203052147d"
+    },
+    {
+      "path": "references/workbook.md",
+      "sha256": "c358dbc10dc4e457d746ea19321a1f22c16c8f098083588157dfe154a329cfc5"
+    },
+    {
+      "path": "references/assessment-content.md",
+      "sha256": "159d9fd4d0df776359abe0ac062976f9a7342089083b09498729bfab251dd394"
+    }
+  ],
+  "review_contract": {
+    "independent_review": "NOT_PERFORMED",
+    "approval_reuse": "NOT_IMPLEMENTED",
+    "complete_final_required": true,
+    "existing_release_gate_unchanged": true,
+    "required_independent_question_solvers": 2,
+    "context_is_not_assigned_or_reviewed": true,
+    "unresolved_items": "CONSULT_CURRENT_HANDOFF_SEPARATELY; NOT_CLEARED_BY_PACKET",
+    "comparison_use": "OPEN_ONLY_AFTER_INDEPENDENT_ANSWERS_ARE_SAVED"
+  },
+  "scope": {
+    "assigned": {
+      "question_ids": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "Q19",
+        "Q20"
+      ]
+    },
+    "context_only": {
+      "question_ids": []
+    },
+    "whole_stage_assigned": true
+  },
+  "selected_data": {
+    "questions": [
+      {
+        "id": "Q01",
+        "set_id": "workbook",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 주제로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent. “Mom,” I shout out into the living room, “water is not coming out.” “Alyssa, shush!” Mom says. She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap. “To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck. As we pull into the parking lot, we can see the crowd. “You two go in. I’ll meet you inside,” Uncle Basil says. Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+            "underlines": []
+          },
+          {
+            "text": "①  strange sounds that often come from old kitchen taps",
+            "underlines": []
+          },
+          {
+            "text": "②  people rushing to buy necessities as a water crisis worsens",
+            "underlines": []
+          },
+          {
+            "text": "③  shoppers’ strong desire for luxuries on Black Friday",
+            "underlines": []
+          },
+          {
+            "text": "④  the media’s efforts to keep people quiet about the drought",
+            "underlines": []
+          },
+          {
+            "text": "⑤  a normal family trip to a crowded shopping mall",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q02",
+        "set_id": "workbook",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  밑줄 친 Even that politeness is stretched thin이 다음 글에서 의미하는 바로 가장 적절한 것은?",
+            "underlines": [
+              [
+                9,
+                47
+              ]
+            ]
+          },
+          {
+            "text": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin. As I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty. I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity. I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods. “I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”",
+            "underlines": [
+              [
+                129,
+                167
+              ]
+            ]
+          },
+          {
+            "text": "①  People are treating one another with warm and sincere courtesy.",
+            "underlines": []
+          },
+          {
+            "text": "②  People are openly showing their rudeness by fighting in line.",
+            "underlines": []
+          },
+          {
+            "text": "③  People are barely managing to keep up their courtesy.",
+            "underlines": []
+          },
+          {
+            "text": "④  People feel calm because the shelves are still full of water.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  People think bottled water has become worthless.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q03",
+        "set_id": "workbook",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 글의 내용과 일치하지 않는 것은?",
+            "underlines": [
+              [
+                19,
+                21
+              ]
+            ]
+          },
+          {
+            "text": "I look for Garrett, whom I find in the frozen aisle. Then I see something. Just past the frozen vegetables and ice cream, there is a case packed with ice. I open the door and reach for a bag. “What are you doing? We need water, not ice,” he reminds me. “Ice is water. Just help me,” I tell him. Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case. The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+            "underlines": []
+          },
+          {
+            "text": "①  Alyssa discovered her brother in the frozen food aisle.",
+            "underlines": []
+          },
+          {
+            "text": "②  Alyssa saw a case filled with ice near the ice cream.",
+            "underlines": []
+          },
+          {
+            "text": "③  Garrett reminded Alyssa that they needed water, not ice.",
+            "underlines": []
+          },
+          {
+            "text": "④  Other shoppers disregarded what the two were doing.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  The two filled the cart with ice until it was piled high.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q04",
+        "set_id": "workbook",
+        "number": 4,
+        "student_blocks": [
+          {
+            "text": "4.  다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle. “Thank you for helping us,” I tell him. “Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can ________________. I decide that one favor deserves another. “Why don’t you take a bag of ice for yourself,” I suggest. His smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” For a moment I think he is joking, but then realize he is serious.",
+            "underlines": []
+          },
+          {
+            "text": "①  lead people to show their finest qualities",
+            "underlines": []
+          },
+          {
+            "text": "②  bring out the worst side of people",
+            "underlines": []
+          },
+          {
+            "text": "③  make everyday life easy for everyone",
+            "underlines": []
+          },
+          {
+            "text": "④  make people’s hearts heavy with worry",
+            "underlines": []
+          },
+          {
+            "text": "⑤  make people stop trusting strangers",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q05",
+        "set_id": "workbook",
+        "number": 5,
+        "student_blocks": [
+          {
+            "text": "5.  다음 글의 내용과 일치하지 않는 것은?",
+            "underlines": [
+              [
+                19,
+                21
+              ]
+            ]
+          },
+          {
+            "text": "For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his. “Is there a problem here?” It is Uncle Basil. He has arrived just in time. “Not at all.” The man looks at the ice with a bitter face, then leaves. *The above is a shortened version of the opening of the novel Dry (2018). It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. Her unwanted adventure ends when the water supply resumes and life is back to normal. Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.",
+            "underlines": []
+          },
+          {
+            "text": "①  Alyssa first thought the man was being playful, but he was earnest.",
+            "underlines": []
+          },
+          {
+            "text": "②  The man’s eyes scared Alyssa even though he was smiling.",
+            "underlines": []
+          },
+          {
+            "text": "③  Uncle Basil showed up at just the right moment.",
+            "underlines": []
+          },
+          {
+            "text": "④  In the novel, the girl’s adventure ends when the water supply restarts.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  The writer mentions a decline in population as a cause of water shortages.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q06",
+        "set_id": "mock1",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 글〉",
+            "underlines": []
+          },
+          {
+            "text": "I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity. ",
+            "underlines": []
+          },
+          {
+            "text": "(A) As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.” ",
+            "underlines": []
+          },
+          {
+            "text": "(B) “Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.” She looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+            "underlines": []
+          },
+          {
+            "text": "(C) I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods. “I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. ",
+            "underlines": []
+          },
+          {
+            "text": "①  A → C → B",
+            "underlines": []
+          },
+          {
+            "text": "②  B → A → C",
+            "underlines": []
+          },
+          {
+            "text": "③  B → C → A",
+            "underlines": []
+          },
+          {
+            "text": "④  C → A → B",
+            "underlines": []
+          },
+          {
+            "text": "⑤  C → B → A",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q07",
+        "set_id": "mock1",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 문장〉",
+            "underlines": []
+          },
+          {
+            "text": "Just past the frozen vegetables and ice cream, there is a case packed with ice.",
+            "underlines": []
+          },
+          {
+            "text": "I look for Garrett, whom I find in the frozen aisle. ① Then I see something. ② I open the door and reach for a bag. ③ “What are you doing? We need water, not ice,” he reminds me. ④ “Ice is water. Just help me,” I tell him. ⑤ Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case. The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q08",
+        "set_id": "mock1",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another. “Why don’t you take a bag of ice for yourself,” I suggest. His smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, ________________. “Is there a problem here?” It is Uncle Basil. He has arrived just in time. “Not at all.” The man looks at the ice with a bitter face, then leaves.",
+            "underlines": []
+          },
+          {
+            "text": "①  he will surely let go of the handle soon",
+            "underlines": []
+          },
+          {
+            "text": "②  Uncle Basil will never find us in the crowd",
+            "underlines": []
+          },
+          {
+            "text": "③  we have no way to show that the cart belongs to us",
+            "underlines": []
+          },
+          {
+            "text": "④  the ice in our cart will melt before long",
+            "underlines": []
+          },
+          {
+            "text": "⑤  everyone in the store will help us get the cart back",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q09",
+        "set_id": "mock1",
+        "number": 4,
+        "passage_group_id": "long-mock1",
+        "student_blocks": [
+          {
+            "text": "4.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  The Day the Water Stopped: A Rush for the Essentials",
+            "underlines": []
+          },
+          {
+            "text": "②  A Black Friday Sale on Televisions and Games",
+            "underlines": []
+          },
+          {
+            "text": "③  How Uncle Basil Fixed the Broken Kitchen Tap",
+            "underlines": []
+          },
+          {
+            "text": "④  A Relaxing Weekend Trip to the Shopping Mall",
+            "underlines": []
+          },
+          {
+            "text": "⑤  A New Name for the Drought: The Media’s Choice",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q10",
+        "set_id": "mock1",
+        "number": 5,
+        "passage_group_id": "long-mock1",
+        "student_blocks": [
+          {
+            "text": "5.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": [
+              [
+                36,
+                38
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q11",
+        "set_id": "mock2",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  밑줄 친 Black Friday at its worst가 다음 글에서 의미하는 바로 가장 적절한 것은?",
+            "underlines": [
+              [
+                9,
+                34
+              ]
+            ]
+          },
+          {
+            "text": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent. “Mom,” I shout out into the living room, “water is not coming out.” “Alyssa, shush!” Mom says. She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap. “To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck. As we pull into the parking lot, we can see the crowd. “You two go in. I’ll meet you inside,” Uncle Basil says. Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+            "underlines": [
+              [
+                674,
+                699
+              ]
+            ]
+          },
+          {
+            "text": "①  a day when stores give the biggest discounts of the year",
+            "underlines": []
+          },
+          {
+            "text": "②  a scene of huge crowds rushing wildly to buy things",
+            "underlines": []
+          },
+          {
+            "text": "③  a quiet store where only a few people are shopping",
+            "underlines": []
+          },
+          {
+            "text": "④  a time when TVs and video games sell out quickly",
+            "underlines": []
+          },
+          {
+            "text": "⑤  a sad day when people remember a past disaster",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q12",
+        "set_id": "mock2",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  다음 글에 드러난 ‘I’의 심경 변화로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity. I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods. “I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.” “Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.” She looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+            "underlines": []
+          },
+          {
+            "text": "①  bored → excited",
+            "underlines": []
+          },
+          {
+            "text": "②  nervous → relieved",
+            "underlines": []
+          },
+          {
+            "text": "③  angry → grateful",
+            "underlines": []
+          },
+          {
+            "text": "④  hopeful → disappointed",
+            "underlines": []
+          },
+          {
+            "text": "⑤  jealous → proud",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q13",
+        "set_id": "mock2",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 문장〉",
+            "underlines": []
+          },
+          {
+            "text": "Her unwanted adventure ends when the water supply resumes and life is back to normal.",
+            "underlines": []
+          },
+          {
+            "text": "For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his. “Is there a problem here?” It is Uncle Basil. ① He has arrived just in time. “Not at all.” ② The man looks at the ice with a bitter face, then leaves. ③ *The above is a shortened version of the opening of the novel Dry (2018). ④ It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. ⑤ Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q14",
+        "set_id": "mock2",
+        "number": 4,
+        "passage_group_id": "long-mock2",
+        "student_blocks": [
+          {
+            "text": "4.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  How to Push a Heavy Cart with Ease",
+            "underlines": []
+          },
+          {
+            "text": "②  Uncle Basil’s Clever Business Idea",
+            "underlines": []
+          },
+          {
+            "text": "③  A Helping Hand with a Selfish Plan",
+            "underlines": []
+          },
+          {
+            "text": "④  A Stranger Who Wanted Nothing in Return",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Why Ice Sells Better Than Bottled Water",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q15",
+        "set_id": "mock2",
+        "number": 5,
+        "passage_group_id": "long-mock2",
+        "student_blocks": [
+          {
+            "text": "5.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": [
+              [
+                36,
+                38
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q16",
+        "set_id": "mock3",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 글〉",
+            "underlines": []
+          },
+          {
+            "text": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent. “Mom,” I shout out into the living room, “water is not coming out.” “Alyssa, shush!” Mom says. ",
+            "underlines": []
+          },
+          {
+            "text": "(A) Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+            "underlines": []
+          },
+          {
+            "text": "(B) She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap. ",
+            "underlines": []
+          },
+          {
+            "text": "(C) “To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck. As we pull into the parking lot, we can see the crowd. “You two go in. I’ll meet you inside,” Uncle Basil says. ",
+            "underlines": []
+          },
+          {
+            "text": "①  A → C → B",
+            "underlines": []
+          },
+          {
+            "text": "②  B → A → C",
+            "underlines": []
+          },
+          {
+            "text": "③  B → C → A",
+            "underlines": []
+          },
+          {
+            "text": "④  C → A → B",
+            "underlines": []
+          },
+          {
+            "text": "⑤  C → B → A",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q17",
+        "set_id": "mock3",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  다음 글에서 전체 흐름과 관계 없는 문장은?",
+            "underlines": [
+              [
+                21,
+                23
+              ]
+            ]
+          },
+          {
+            "text": "I look for Garrett, whom I find in the frozen aisle. Then I see something. ① Just past the frozen vegetables and ice cream, there is a case packed with ice. ② I open the door and reach for a bag. “What are you doing? We need water, not ice,” he reminds me. “Ice is water. Just help me,” I tell him. ③ Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. ④ Frozen vegetables keep most of their vitamins because they are frozen soon after they are picked. ⑤ By now other people have taken notice and begin to empty the ice case. The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q18",
+        "set_id": "mock3",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 글에 드러난 ‘I’의 심경 변화로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "“Thank you for helping us,” I tell him. “Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another. “Why don’t you take a bag of ice for yourself,” I suggest. His smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.",
+            "underlines": []
+          },
+          {
+            "text": "①  grateful → frightened",
+            "underlines": []
+          },
+          {
+            "text": "②  jealous → satisfied",
+            "underlines": []
+          },
+          {
+            "text": "③  bored → curious",
+            "underlines": []
+          },
+          {
+            "text": "④  nervous → relieved",
+            "underlines": []
+          },
+          {
+            "text": "⑤  angry → calm",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q19",
+        "set_id": "mock3",
+        "number": 4,
+        "passage_group_id": "long-mock3",
+        "student_blocks": [
+          {
+            "text": "4.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  A Crown Made of Canned Goods",
+            "underlines": []
+          },
+          {
+            "text": "②  When Water Is Precious, Kindness Runs Dry",
+            "underlines": []
+          },
+          {
+            "text": "③  How Soccer Practice Made Two Girls Best Friends",
+            "underlines": []
+          },
+          {
+            "text": "④  Full Shelves and Friendly Shoppers",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Why Stores Put Items on the Wrong Shelves",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q20",
+        "set_id": "mock3",
+        "number": 5,
+        "passage_group_id": "long-mock3",
+        "student_blocks": [
+          {
+            "text": "5.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": [
+              [
+                36,
+                38
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "passage_groups": [
+      {
+        "id": "long-mock1",
+        "question_ids": [
+          "Q09",
+          "Q10"
+        ],
+        "student_blocks": [
+          {
+            "text": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes ① silent.",
+            "underlines": [
+              [
+                80,
+                86
+              ]
+            ]
+          },
+          {
+            "text": "“Mom,” I shout out into the living room, “water is not coming out.”",
+            "underlines": []
+          },
+          {
+            "text": "“Alyssa, shush!” Mom says.",
+            "underlines": []
+          },
+          {
+            "text": "She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got ② tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.",
+            "underlines": [
+              [
+                156,
+                161
+              ]
+            ]
+          },
+          {
+            "text": "“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.",
+            "underlines": []
+          },
+          {
+            "text": "As we pull into the parking lot, we can see the ③ crowd.",
+            "underlines": [
+              [
+                50,
+                55
+              ]
+            ]
+          },
+          {
+            "text": "“You two go in. I’ll meet you inside,” Uncle Basil says.",
+            "underlines": []
+          },
+          {
+            "text": "Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+            "underlines": []
+          },
+          {
+            "text": "There is a look of ④ impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.",
+            "underlines": [
+              [
+                21,
+                31
+              ]
+            ]
+          },
+          {
+            "text": "As I approach the back of the store for water bottles, I realize I am too late. The shelves are already ⑤ full.",
+            "underlines": [
+              [
+                106,
+                110
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "long-mock2",
+        "question_ids": [
+          "Q14",
+          "Q15"
+        ],
+        "student_blocks": [
+          {
+            "text": "Garrett and I put one bag of ice after another into our cart, until it is piled as ① low as it can get. By now other people have taken notice and begin to empty the ice case.",
+            "underlines": [
+              [
+                85,
+                88
+              ]
+            ]
+          },
+          {
+            "text": "The cart is ridiculously ② heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.",
+            "underlines": [
+              [
+                27,
+                32
+              ]
+            ]
+          },
+          {
+            "text": "“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+            "underlines": []
+          },
+          {
+            "text": "“Thank you for helping us,” I tell him.",
+            "underlines": []
+          },
+          {
+            "text": "“Not a problem. We all need to ③ help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the ④ best in people. I decide that one favor deserves another.",
+            "underlines": [
+              [
+                33,
+                37
+              ],
+              [
+                153,
+                157
+              ]
+            ]
+          },
+          {
+            "text": "“Why don’t you take a bag of ice for yourself,” I suggest.",
+            "underlines": []
+          },
+          {
+            "text": "His smile does not fade. “I have a ⑤ better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”",
+            "underlines": [
+              [
+                37,
+                43
+              ]
+            ]
+          },
+          {
+            "text": "For a moment I think he is joking, but then realize he is serious. “Excuse me?”",
+            "underlines": []
+          },
+          {
+            "text": "He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.",
+            "underlines": []
+          },
+          {
+            "text": "“Is there a problem here?”",
+            "underlines": []
+          },
+          {
+            "text": "It is Uncle Basil. He has arrived just in time.",
+            "underlines": []
+          },
+          {
+            "text": "“Not at all.”",
+            "underlines": []
+          },
+          {
+            "text": "The man looks at the ice with a bitter face, then leaves.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "long-mock3",
+        "question_ids": [
+          "Q19",
+          "Q20"
+        ],
+        "student_blocks": [
+          {
+            "text": "There is a look of ① impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched ② thin.",
+            "underlines": [
+              [
+                21,
+                31
+              ],
+              [
+                167,
+                171
+              ]
+            ]
+          },
+          {
+            "text": "As I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.",
+            "underlines": []
+          },
+          {
+            "text": "I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a ③ precious commodity.",
+            "underlines": [
+              [
+                218,
+                226
+              ]
+            ]
+          },
+          {
+            "text": "I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.",
+            "underlines": []
+          },
+          {
+            "text": "“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans ④ closer to me. “I’m sorry about that, Alyssa.”",
+            "underlines": [
+              [
+                183,
+                189
+              ]
+            ]
+          },
+          {
+            "text": "“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and ⑤ hide a few bottles with me.”",
+            "underlines": [
+              [
+                122,
+                126
+              ]
+            ]
+          },
+          {
+            "text": "She looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+            "underlines": []
+          }
+        ]
+      }
+    ]
+  },
+  "comparison": {
+    "questions": [
+      {
+        "id": "Q01",
+        "set_id": "workbook",
+        "number": 1,
+        "type": "주제",
+        "question": "다음 글의 주제로 가장 적절한 것은?",
+        "answer": 2,
+        "choice_mode": "text",
+        "choices": [
+          {
+            "number": 1,
+            "text": "strange sounds that often come from old kitchen taps"
+          },
+          {
+            "number": 2,
+            "text": "people rushing to buy necessities as a water crisis worsens"
+          },
+          {
+            "number": 3,
+            "text": "shoppers’ strong desire for luxuries on Black Friday"
+          },
+          {
+            "number": 4,
+            "text": "the media’s efforts to keep people quiet about the drought"
+          },
+          {
+            "number": 5,
+            "text": "a normal family trip to a crowded shopping mall"
+          }
+        ],
+        "passage": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+        "learned_relation_uses": [
+          {
+            "term_id": "u1-r3s",
+            "choice_number": 2,
+            "choice_span": [
+              22,
+              33
+            ],
+            "surface": "necessities",
+            "reason_ko": "necessities가 본문의 essentials(필수품)와 같은 뜻임을 알아야 정답을 고를 수 있음"
+          },
+          {
+            "term_id": "u1-r3a",
+            "choice_number": 3,
+            "choice_span": [
+              28,
+              36
+            ],
+            "surface": "luxuries",
+            "reason_ko": "luxuries(사치품)가 필수품과 반대되는 말임을 알아야 텔레비전·비디오 게임이 아니라는 본문과 어긋남을 판단할 수 있음"
+          },
+          {
+            "term_id": "u1-r2s",
+            "choice_number": 4,
+            "choice_span": [
+              35,
+              40
+            ],
+            "surface": "quiet",
+            "reason_ko": "사람들을 조용하게(quiet) 만든다는 내용이 본문에 없음을 판단해야 함"
+          },
+          {
+            "term_id": "u1-r1a",
+            "choice_number": 5,
+            "choice_span": [
+              2,
+              8
+            ],
+            "surface": "normal",
+            "reason_ko": "평범한(normal) 나들이가 아니라 물이 끊긴 위기 속 외출임을 판단해야 함"
+          }
+        ]
+      },
+      {
+        "id": "Q02",
+        "set_id": "workbook",
+        "number": 2,
+        "type": "함축 의미",
+        "question": "밑줄 친 Even that politeness is stretched thin이 다음 글에서 의미하는 바로 가장 적절한 것은?",
+        "answer": 3,
+        "choice_mode": "text",
+        "choices": [
+          {
+            "number": 1,
+            "text": "People are treating one another with warm and sincere courtesy."
+          },
+          {
+            "number": 2,
+            "text": "People are openly showing their rudeness by fighting in line."
+          },
+          {
+            "number": 3,
+            "text": "People are barely managing to keep up their courtesy."
+          },
+          {
+            "number": 4,
+            "text": "People feel calm because the shelves are still full of water."
+          },
+          {
+            "number": 5,
+            "text": "People think bottled water has become worthless."
+          }
+        ],
+        "passage": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.\nI manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”",
+        "target": "Even that politeness is stretched thin",
+        "prompt_underlines": [
+          [
+            5,
+            43
+          ]
+        ],
+        "learned_relation_uses": [
+          {
+            "term_id": "u2-r3s",
+            "choice_number": 1,
+            "choice_span": [
+              54,
+              62
+            ],
+            "surface": "courtesy",
+            "reason_ko": "따뜻하고 진심 어린 예의(courtesy)가 ‘얇게 늘어난’ 예의와 반대임을 판단해야 함"
+          },
+          {
+            "term_id": "u2-r3a",
+            "choice_number": 2,
+            "choice_span": [
+              32,
+              40
+            ],
+            "surface": "rudeness",
+            "reason_ko": "무례함(rudeness)을 드러내 놓고 싸운다는 말이 적대감이 예의 아래 숨겨져 있다는 본문과 어긋남을 판단해야 함"
+          },
+          {
+            "term_id": "u2-r3s",
+            "choice_number": 3,
+            "choice_span": [
+              44,
+              52
+            ],
+            "surface": "courtesy",
+            "reason_ko": "courtesy가 politeness(예의)와 같은 뜻임을 알아야 예의가 겨우 유지되는 상태라는 정답을 판단할 수 있음"
+          },
+          {
+            "term_id": "u2-r1a",
+            "choice_number": 4,
+            "choice_span": [
+              47,
+              51
+            ],
+            "surface": "full",
+            "reason_ko": "선반이 가득 찬(full) 상태가 아니라 이미 비어 있었음을 판단해야 함"
+          },
+          {
+            "term_id": "u2-r2a",
+            "choice_number": 5,
+            "choice_span": [
+              38,
+              47
+            ],
+            "surface": "worthless",
+            "reason_ko": "worthless(가치 없는)가 precious(귀중한)와 반대임을 알아야 본문과 어긋남을 판단할 수 있음"
+          }
+        ]
+      },
+      {
+        "id": "Q03",
+        "set_id": "workbook",
+        "number": 3,
+        "type": "내용",
+        "question": "다음 글의 내용과 일치하지 않는 것은?",
+        "answer": 4,
+        "choice_mode": "text",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Alyssa discovered her brother in the frozen food aisle."
+          },
+          {
+            "number": 2,
+            "text": "Alyssa saw a case filled with ice near the ice cream."
+          },
+          {
+            "number": 3,
+            "text": "Garrett reminded Alyssa that they needed water, not ice."
+          },
+          {
+            "number": 4,
+            "text": "Other shoppers disregarded what the two were doing."
+          },
+          {
+            "number": 5,
+            "text": "The two filled the cart with ice until it was piled high."
+          }
+        ],
+        "passage": "I look for Garrett, whom I find in the frozen aisle. Then I see something. Just past the frozen vegetables and ice cream, there is a case packed with ice. I open the door and reach for a bag.\n“What are you doing? We need water, not ice,” he reminds me.\n“Ice is water. Just help me,” I tell him.\nGarrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+        "learned_relation_uses": [
+          {
+            "term_id": "u3-r2s",
+            "choice_number": 1,
+            "choice_span": [
+              7,
+              17
+            ],
+            "surface": "discovered",
+            "reason_ko": "discover가 본문의 find(발견하다)와 같은 뜻임을 알아야 냉동식품 통로에서 동생을 찾았다는 본문과 일치함을 판단할 수 있음"
+          },
+          {
+            "term_id": "u3-r1s",
+            "choice_number": 2,
+            "choice_span": [
+              18,
+              24
+            ],
+            "surface": "filled",
+            "reason_ko": "filled가 packed(가득 찬)와 같은 뜻임을 알아야 얼음이 가득 든 진열장이라는 본문과 일치함을 판단할 수 있음"
+          },
+          {
+            "term_id": "u3-r3a",
+            "choice_number": 4,
+            "choice_span": [
+              15,
+              26
+            ],
+            "surface": "disregarded",
+            "reason_ko": "disregard(무시하다)가 notice(주목, 알아챔)와 반대 뜻임을 알아야 다른 사람들이 알아차렸다는 본문과 어긋남을 판단할 수 있음"
+          },
+          {
+            "term_id": "u3-r1s",
+            "choice_number": 5,
+            "choice_span": [
+              8,
+              14
+            ],
+            "surface": "filled",
+            "reason_ko": "카트를 얼음으로 채웠다(filled)는 말이 본문의 put one bag of ice after another … until it is piled와 맞는지 판단해야 함"
+          }
+        ]
+      },
+      {
+        "id": "Q04",
+        "set_id": "workbook",
+        "number": 4,
+        "type": "빈칸",
+        "question": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+        "answer": 1,
+        "choice_mode": "text",
+        "choices": [
+          {
+            "number": 1,
+            "text": "lead people to show their finest qualities"
+          },
+          {
+            "number": 2,
+            "text": "bring out the worst side of people"
+          },
+          {
+            "number": 3,
+            "text": "make everyday life easy for everyone"
+          },
+          {
+            "number": 4,
+            "text": "make people’s hearts heavy with worry"
+          },
+          {
+            "number": 5,
+            "text": "make people stop trusting strangers"
+          }
+        ],
+        "passage": "The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.\n“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can ________________. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious.",
+        "learned_relation_uses": [
+          {
+            "term_id": "u4-r3s",
+            "choice_number": 1,
+            "choice_span": [
+              26,
+              32
+            ],
+            "surface": "finest",
+            "reason_ko": "finest가 best(가장 좋은)와 같은 뜻임을 알아야 사람들의 가장 좋은 면을 끌어낸다는 원래 뜻과 맞는 정답을 고를 수 있음"
+          },
+          {
+            "term_id": "u4-r3a",
+            "choice_number": 2,
+            "choice_span": [
+              14,
+              19
+            ],
+            "surface": "worst",
+            "reason_ko": "worst(가장 나쁜)가 best와 반대임을 알아야 ‘알게 되어 좋다’는 앞말과 맞지 않음을 판단할 수 있음"
+          },
+          {
+            "term_id": "u4-r2a",
+            "choice_number": 3,
+            "choice_span": [
+              19,
+              23
+            ],
+            "surface": "easy",
+            "reason_ko": "easy(쉬운)가 difficult(어려운)의 반대임을 알고, 어려운 시기가 삶을 쉽게 만든다는 말이 문맥과 맞지 않음을 판단해야 함"
+          }
+        ]
+      },
+      {
+        "id": "Q05",
+        "set_id": "workbook",
+        "number": 5,
+        "type": "내용",
+        "question": "다음 글의 내용과 일치하지 않는 것은?",
+        "answer": 5,
+        "choice_mode": "text",
+        "choices": [
+          {
+            "number": 1,
+            "text": "Alyssa first thought the man was being playful, but he was earnest."
+          },
+          {
+            "number": 2,
+            "text": "The man’s eyes scared Alyssa even though he was smiling."
+          },
+          {
+            "number": 3,
+            "text": "Uncle Basil showed up at just the right moment."
+          },
+          {
+            "number": 4,
+            "text": "In the novel, the girl’s adventure ends when the water supply restarts."
+          },
+          {
+            "number": 5,
+            "text": "The writer mentions a decline in population as a cause of water shortages."
+          }
+        ],
+        "passage": "For a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.\n*The above is a shortened version of the opening of the novel Dry (2018). It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. Her unwanted adventure ends when the water supply resumes and life is back to normal. Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.",
+        "learned_relation_uses": [
+          {
+            "term_id": "u5-r1a",
+            "choice_number": 1,
+            "choice_span": [
+              39,
+              46
+            ],
+            "surface": "playful",
+            "reason_ko": "playful(장난스러운)이 본문의 joking과 통하고 serious의 반대임을 알아야 판단할 수 있음"
+          },
+          {
+            "term_id": "u5-r1s",
+            "choice_number": 1,
+            "choice_span": [
+              59,
+              66
+            ],
+            "surface": "earnest",
+            "reason_ko": "earnest가 serious(진지한)와 같은 뜻임을 알아야 판단할 수 있음"
+          },
+          {
+            "term_id": "u5-r2s",
+            "choice_number": 4,
+            "choice_span": [
+              62,
+              70
+            ],
+            "surface": "restarts",
+            "reason_ko": "restart가 resume(재개되다)와 같은 뜻임을 알아야 일치 여부를 판단할 수 있음"
+          },
+          {
+            "term_id": "u5-r3a",
+            "choice_number": 5,
+            "choice_span": [
+              22,
+              29
+            ],
+            "surface": "decline",
+            "reason_ko": "decline(감소)이 본문의 population growth(인구 증가)와 반대임을 알아야 일치하지 않음을 판단할 수 있음"
+          }
+        ]
+      },
+      {
+        "id": "Q06",
+        "set_id": "mock1",
+        "number": 1,
+        "type": "순서",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "answer": 4,
+        "choice_mode": "order",
+        "permutations": [
+          [
+            "A",
+            "C",
+            "B"
+          ],
+          [
+            "B",
+            "A",
+            "C"
+          ],
+          [
+            "B",
+            "C",
+            "A"
+          ],
+          [
+            "C",
+            "A",
+            "B"
+          ],
+          [
+            "C",
+            "B",
+            "A"
+          ]
+        ],
+        "choices": [
+          {
+            "number": 1,
+            "text": "A → C → B"
+          },
+          {
+            "number": 2,
+            "text": "B → A → C"
+          },
+          {
+            "number": 3,
+            "text": "B → C → A"
+          },
+          {
+            "number": 4,
+            "text": "C → A → B"
+          },
+          {
+            "number": 5,
+            "text": "C → B → A"
+          }
+        ],
+        "given": "I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\n",
+        "blocks": {
+          "A": "As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n",
+          "B": "“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+          "C": "I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. "
+        }
+      },
+      {
+        "id": "Q07",
+        "set_id": "mock1",
+        "number": 2,
+        "type": "삽입",
+        "question": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+        "answer": 2,
+        "choice_mode": "in_passage",
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "passage": "I look for Garrett, whom I find in the frozen aisle. Then I see something.  I open the door and reach for a bag.\n“What are you doing? We need water, not ice,” he reminds me.\n“Ice is water. Just help me,” I tell him.\nGarrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+        "given": "Just past the frozen vegetables and ice cream, there is a case packed with ice."
+      },
+      {
+        "id": "Q08",
+        "set_id": "mock1",
+        "number": 3,
+        "type": "빈칸",
+        "question": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+        "answer": 3,
+        "choice_mode": "text",
+        "choices": [
+          {
+            "number": 1,
+            "text": "he will surely let go of the handle soon"
+          },
+          {
+            "number": 2,
+            "text": "Uncle Basil will never find us in the crowd"
+          },
+          {
+            "number": 3,
+            "text": "we have no way to show that the cart belongs to us"
+          },
+          {
+            "number": 4,
+            "text": "the ice in our cart will melt before long"
+          },
+          {
+            "number": 5,
+            "text": "everyone in the store will help us get the cart back"
+          }
+        ],
+        "passage": "He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, ________________.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves."
+      },
+      {
+        "id": "Q09",
+        "set_id": "mock1",
+        "number": 4,
+        "type": "제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "answer": 1,
+        "choice_mode": "text",
+        "choices": [
+          {
+            "number": 1,
+            "text": "The Day the Water Stopped: A Rush for the Essentials"
+          },
+          {
+            "number": 2,
+            "text": "A Black Friday Sale on Televisions and Games"
+          },
+          {
+            "number": 3,
+            "text": "How Uncle Basil Fixed the Broken Kitchen Tap"
+          },
+          {
+            "number": 4,
+            "text": "A Relaxing Weekend Trip to the Shopping Mall"
+          },
+          {
+            "number": 5,
+            "text": "A New Name for the Drought: The Media’s Choice"
+          }
+        ],
+        "passage": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.\nThere is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.",
+        "passage_group_id": "long-mock1"
+      },
+      {
+        "id": "Q10",
+        "set_id": "mock1",
+        "number": 5,
+        "type": "어휘",
+        "question": "윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+        "answer": 5,
+        "choice_mode": "in_passage",
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "passage": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.\nThere is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already full.",
+        "passage_group_id": "long-mock1"
+      },
+      {
+        "id": "Q11",
+        "set_id": "mock2",
+        "number": 1,
+        "type": "함축 의미",
+        "question": "밑줄 친 Black Friday at its worst가 다음 글에서 의미하는 바로 가장 적절한 것은?",
+        "answer": 2,
+        "choice_mode": "text",
+        "choices": [
+          {
+            "number": 1,
+            "text": "a day when stores give the biggest discounts of the year"
+          },
+          {
+            "number": 2,
+            "text": "a scene of huge crowds rushing wildly to buy things"
+          },
+          {
+            "number": 3,
+            "text": "a quiet store where only a few people are shopping"
+          },
+          {
+            "number": 4,
+            "text": "a time when TVs and video games sell out quickly"
+          },
+          {
+            "number": 5,
+            "text": "a sad day when people remember a past disaster"
+          }
+        ],
+        "passage": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+        "target": "Black Friday at its worst",
+        "prompt_underlines": [
+          [
+            5,
+            30
+          ]
+        ]
+      },
+      {
+        "id": "Q12",
+        "set_id": "mock2",
+        "number": 2,
+        "type": "심경·분위기",
+        "question": "다음 글에 드러난 ‘I’의 심경 변화로 가장 적절한 것은?",
+        "answer": 4,
+        "choice_mode": "text",
+        "choices": [
+          {
+            "number": 1,
+            "text": "bored → excited"
+          },
+          {
+            "number": 2,
+            "text": "nervous → relieved"
+          },
+          {
+            "number": 3,
+            "text": "angry → grateful"
+          },
+          {
+            "number": 4,
+            "text": "hopeful → disappointed"
+          },
+          {
+            "number": 5,
+            "text": "jealous → proud"
+          }
+        ],
+        "passage": "I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush."
+      },
+      {
+        "id": "Q13",
+        "set_id": "mock2",
+        "number": 3,
+        "type": "삽입",
+        "question": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+        "answer": 5,
+        "choice_mode": "in_passage",
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "passage": "For a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.\n*The above is a shortened version of the opening of the novel Dry (2018). It tells the story of a girl who has to make tough choices for her family during a disastrous California drought.  Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.",
+        "given": "Her unwanted adventure ends when the water supply resumes and life is back to normal."
+      },
+      {
+        "id": "Q14",
+        "set_id": "mock2",
+        "number": 4,
+        "type": "제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "answer": 3,
+        "choice_mode": "text",
+        "choices": [
+          {
+            "number": 1,
+            "text": "How to Push a Heavy Cart with Ease"
+          },
+          {
+            "number": 2,
+            "text": "Uncle Basil’s Clever Business Idea"
+          },
+          {
+            "number": 3,
+            "text": "A Helping Hand with a Selfish Plan"
+          },
+          {
+            "number": 4,
+            "text": "A Stranger Who Wanted Nothing in Return"
+          },
+          {
+            "number": 5,
+            "text": "Why Ice Sells Better Than Bottled Water"
+          }
+        ],
+        "passage": "Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.\n“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.",
+        "passage_group_id": "long-mock2"
+      },
+      {
+        "id": "Q15",
+        "set_id": "mock2",
+        "number": 5,
+        "type": "어휘",
+        "question": "윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+        "answer": 1,
+        "choice_mode": "in_passage",
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "passage": "Garrett and I put one bag of ice after another into our cart, until it is piled as low as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.\n“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.",
+        "passage_group_id": "long-mock2"
+      },
+      {
+        "id": "Q16",
+        "set_id": "mock3",
+        "number": 1,
+        "type": "순서",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "answer": 3,
+        "choice_mode": "order",
+        "permutations": [
+          [
+            "A",
+            "C",
+            "B"
+          ],
+          [
+            "B",
+            "A",
+            "C"
+          ],
+          [
+            "B",
+            "C",
+            "A"
+          ],
+          [
+            "C",
+            "A",
+            "B"
+          ],
+          [
+            "C",
+            "B",
+            "A"
+          ]
+        ],
+        "choices": [
+          {
+            "number": 1,
+            "text": "A → C → B"
+          },
+          {
+            "number": 2,
+            "text": "B → A → C"
+          },
+          {
+            "number": 3,
+            "text": "B → C → A"
+          },
+          {
+            "number": 4,
+            "text": "C → A → B"
+          },
+          {
+            "number": 5,
+            "text": "C → B → A"
+          }
+        ],
+        "given": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\n",
+        "blocks": {
+          "A": "Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+          "B": "She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n",
+          "C": "“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\n"
+        }
+      },
+      {
+        "id": "Q17",
+        "set_id": "mock3",
+        "number": 2,
+        "type": "무관한 문장",
+        "question": "다음 글에서 전체 흐름과 관계 없는 문장은?",
+        "answer": 4,
+        "choice_mode": "in_passage",
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "passage": "I look for Garrett, whom I find in the frozen aisle. Then I see something. Just past the frozen vegetables and ice cream, there is a case packed with ice. I open the door and reach for a bag.\n“What are you doing? We need water, not ice,” he reminds me.\n“Ice is water. Just help me,” I tell him.\nGarrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. Frozen vegetables keep most of their vitamins because they are frozen soon after they are picked. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle."
+      },
+      {
+        "id": "Q18",
+        "set_id": "mock3",
+        "number": 3,
+        "type": "심경·분위기",
+        "question": "다음 글에 드러난 ‘I’의 심경 변화로 가장 적절한 것은?",
+        "answer": 1,
+        "choice_mode": "text",
+        "choices": [
+          {
+            "number": 1,
+            "text": "grateful → frightened"
+          },
+          {
+            "number": 2,
+            "text": "jealous → satisfied"
+          },
+          {
+            "number": 3,
+            "text": "bored → curious"
+          },
+          {
+            "number": 4,
+            "text": "nervous → relieved"
+          },
+          {
+            "number": 5,
+            "text": "angry → calm"
+          }
+        ],
+        "passage": "“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his."
+      },
+      {
+        "id": "Q19",
+        "set_id": "mock3",
+        "number": 4,
+        "type": "제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "answer": 2,
+        "choice_mode": "text",
+        "choices": [
+          {
+            "number": 1,
+            "text": "A Crown Made of Canned Goods"
+          },
+          {
+            "number": 2,
+            "text": "When Water Is Precious, Kindness Runs Dry"
+          },
+          {
+            "number": 3,
+            "text": "How Soccer Practice Made Two Girls Best Friends"
+          },
+          {
+            "number": 4,
+            "text": "Full Shelves and Friendly Shoppers"
+          },
+          {
+            "number": 5,
+            "text": "Why Stores Put Items on the Wrong Shelves"
+          }
+        ],
+        "passage": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.\nI manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+        "passage_group_id": "long-mock3"
+      },
+      {
+        "id": "Q20",
+        "set_id": "mock3",
+        "number": 5,
+        "type": "어휘",
+        "question": "윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+        "answer": 5,
+        "choice_mode": "in_passage",
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "passage": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.\nI manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and hide a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+        "passage_group_id": "long-mock3"
+      }
+    ],
+    "quick_key": [
+      {
+        "id": "Q01",
+        "set_id": "workbook",
+        "number": 1,
+        "answer": 2
+      },
+      {
+        "id": "Q02",
+        "set_id": "workbook",
+        "number": 2,
+        "answer": 3
+      },
+      {
+        "id": "Q03",
+        "set_id": "workbook",
+        "number": 3,
+        "answer": 4
+      },
+      {
+        "id": "Q04",
+        "set_id": "workbook",
+        "number": 4,
+        "answer": 1
+      },
+      {
+        "id": "Q05",
+        "set_id": "workbook",
+        "number": 5,
+        "answer": 5
+      },
+      {
+        "id": "Q06",
+        "set_id": "mock1",
+        "number": 1,
+        "answer": 4
+      },
+      {
+        "id": "Q07",
+        "set_id": "mock1",
+        "number": 2,
+        "answer": 2
+      },
+      {
+        "id": "Q08",
+        "set_id": "mock1",
+        "number": 3,
+        "answer": 3
+      },
+      {
+        "id": "Q09",
+        "set_id": "mock1",
+        "number": 4,
+        "answer": 1
+      },
+      {
+        "id": "Q10",
+        "set_id": "mock1",
+        "number": 5,
+        "answer": 5
+      },
+      {
+        "id": "Q11",
+        "set_id": "mock2",
+        "number": 1,
+        "answer": 2
+      },
+      {
+        "id": "Q12",
+        "set_id": "mock2",
+        "number": 2,
+        "answer": 4
+      },
+      {
+        "id": "Q13",
+        "set_id": "mock2",
+        "number": 3,
+        "answer": 5
+      },
+      {
+        "id": "Q14",
+        "set_id": "mock2",
+        "number": 4,
+        "answer": 3
+      },
+      {
+        "id": "Q15",
+        "set_id": "mock2",
+        "number": 5,
+        "answer": 1
+      },
+      {
+        "id": "Q16",
+        "set_id": "mock3",
+        "number": 1,
+        "answer": 3
+      },
+      {
+        "id": "Q17",
+        "set_id": "mock3",
+        "number": 2,
+        "answer": 4
+      },
+      {
+        "id": "Q18",
+        "set_id": "mock3",
+        "number": 3,
+        "answer": 1
+      },
+      {
+        "id": "Q19",
+        "set_id": "mock3",
+        "number": 4,
+        "answer": 2
+      },
+      {
+        "id": "Q20",
+        "set_id": "mock3",
+        "number": 5,
+        "answer": 5
+      }
+    ],
+    "explanations": [
+      {
+        "id": "Q01",
+        "set_id": "workbook",
+        "number": 1,
+        "choices": [
+          {
+            "number": 1,
+            "text": "strange sounds that often come from old kitchen taps"
+          },
+          {
+            "number": 2,
+            "text": "people rushing to buy necessities as a water crisis worsens"
+          },
+          {
+            "number": 3,
+            "text": "shoppers’ strong desire for luxuries on Black Friday"
+          },
+          {
+            "number": 4,
+            "text": "the media’s efforts to keep people quiet about the drought"
+          },
+          {
+            "number": 5,
+            "text": "a normal family trip to a crowded shopping mall"
+          }
+        ],
+        "answer": 2,
+        "evidence": "We have no running water out of the tap. / Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+        "explanation": "가뭄 위기로 수도꼭지의 물이 끊기자 앨리사 가족은 쇼핑몰로 가고, 그곳에서 사람들이 텔레비전이나 비디오 게임이 아니라 삶의 필수품인 생수를 사려고 몰려든 모습이 그려진다. 따라서 물 위기가 심해지면서 사람들이 필수품을 사려고 몰려드는 모습이라는 ②가 주제로 가장 적절하다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "수도꼭지의 이상한 소리는 물이 끊겼음을 알리는 첫 장면일 뿐 글 전체의 중심 내용이 아니다."
+          },
+          {
+            "number": 3,
+            "text": "오늘 사람들이 원하는 것은 텔레비전과 비디오 게임이 아니라고 했으므로 사치품을 사려는 욕구는 본문과 반대다."
+          },
+          {
+            "number": 4,
+            "text": "언론은 사람들이 ‘가뭄’이라는 말을 듣는 데 지치자 그것을 ‘물 공급 위기’라고 불렀을 뿐, 사람들을 조용하게 만들려 했다는 내용은 없다."
+          },
+          {
+            "number": 5,
+            "text": "물이 끊겨 생수를 사러 가는 위기 상황이므로 평범한 가족 나들이가 아니다."
+          }
+        ],
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "오래된 부엌 수도꼭지에서 흔히 나는 이상한 소리"
+          },
+          {
+            "number": 2,
+            "text": "물 위기가 심해지면서 필수품을 사려고 몰려드는 사람들"
+          },
+          {
+            "number": 3,
+            "text": "블랙 프라이데이에 사치품을 사려는 쇼핑객들의 강한 욕구"
+          },
+          {
+            "number": 4,
+            "text": "가뭄에 대해 사람들을 조용하게 만들려는 언론의 노력"
+          },
+          {
+            "number": 5,
+            "text": "붐비는 쇼핑몰로 가는 평범한 가족 나들이"
+          }
+        ]
+      },
+      {
+        "id": "Q02",
+        "set_id": "workbook",
+        "number": 2,
+        "choices": [
+          {
+            "number": 1,
+            "text": "People are treating one another with warm and sincere courtesy."
+          },
+          {
+            "number": 2,
+            "text": "People are openly showing their rudeness by fighting in line."
+          },
+          {
+            "number": 3,
+            "text": "People are barely managing to keep up their courtesy."
+          },
+          {
+            "number": 4,
+            "text": "People feel calm because the shelves are still full of water."
+          },
+          {
+            "number": 5,
+            "text": "People think bottled water has become worthless."
+          }
+        ],
+        "answer": 3,
+        "evidence": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.",
+        "explanation": "줄 선 사람들의 얼굴에는 조급함이 있고, 얇은 예의 층 아래 적대감까지 숨어 있다고 했다. 밑줄 친 부분은 ‘그 예의마저 얇게 늘어나 있다’는 뜻으로, 겉으로 지키던 예의조차 곧 무너질 만큼 겨우 유지되고 있음을 나타낸다. 실제로 뒤에서 한 여자가 앨리사가 잡으려던 생수 상자를 마지막 순간에 가로챈다. 따라서 ③이 알맞다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "예의가 ‘얇게 늘어나’ 있다는 것은 겨우 유지되는 상태이므로 따뜻하고 진심 어린 예의와는 반대다."
+          },
+          {
+            "number": 2,
+            "text": "적대감은 얇은 예의 층에 ‘숨겨져’ 있다고 했으므로, 사람들이 줄에서 드러내 놓고 싸운다는 것은 지나친 해석이다."
+          },
+          {
+            "number": 4,
+            "text": "선반은 이미 비어 있었고 사람들의 얼굴에는 조급함이 있었으므로 맞지 않는다."
+          },
+          {
+            "number": 5,
+            "text": "어제만 해도 생수가 그렇게 귀하지 않았다는 말은 지금은 귀중한 상품이 되었다는 뜻이므로, 가치가 없어졌다는 것은 반대다."
+          }
+        ],
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "사람들은 따뜻하고 진심 어린 예의로 서로를 대하고 있다."
+          },
+          {
+            "number": 2,
+            "text": "사람들은 줄에서 싸우며 드러내 놓고 무례함을 보이고 있다."
+          },
+          {
+            "number": 3,
+            "text": "사람들은 예의를 겨우 유지하고 있다."
+          },
+          {
+            "number": 4,
+            "text": "선반이 아직 물로 가득 차 있어서 사람들은 차분하다."
+          },
+          {
+            "number": 5,
+            "text": "사람들은 생수가 가치 없어졌다고 생각한다."
+          }
+        ]
+      },
+      {
+        "id": "Q03",
+        "set_id": "workbook",
+        "number": 3,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Alyssa discovered her brother in the frozen food aisle."
+          },
+          {
+            "number": 2,
+            "text": "Alyssa saw a case filled with ice near the ice cream."
+          },
+          {
+            "number": 3,
+            "text": "Garrett reminded Alyssa that they needed water, not ice."
+          },
+          {
+            "number": 4,
+            "text": "Other shoppers disregarded what the two were doing."
+          },
+          {
+            "number": 5,
+            "text": "The two filled the cart with ice until it was piled high."
+          }
+        ],
+        "answer": 4,
+        "evidence": "By now other people have taken notice and begin to empty the ice case.",
+        "explanation": "앨리사와 개릿이 카트에 얼음 봉지를 가득 쌓자, 이제는 다른 사람들도 알아차리고(have taken notice) 얼음 진열장을 비우기 시작한다고 했다. 따라서 다른 쇼핑객들이 두 사람의 행동을 무시했다는 ④는 본문과 일치하지 않는다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "“I look for Garrett, whom I find in the frozen aisle.”와 일치한다(find = discover)."
+          },
+          {
+            "number": 2,
+            "text": "“Just past the frozen vegetables and ice cream, there is a case packed with ice.”와 일치한다(packed = filled)."
+          },
+          {
+            "number": 3,
+            "text": "“We need water, not ice,” he reminds me.와 일치한다."
+          },
+          {
+            "number": 5,
+            "text": "“Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get.”과 일치한다."
+          }
+        ],
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "앨리사는 냉동식품 통로에서 남동생을 발견했다."
+          },
+          {
+            "number": 2,
+            "text": "앨리사는 아이스크림 근처에서 얼음이 가득 든 진열장을 보았다."
+          },
+          {
+            "number": 3,
+            "text": "개릿은 자신들에게 필요한 것은 얼음이 아니라 물이라고 앨리사에게 상기시켰다."
+          },
+          {
+            "number": 4,
+            "text": "다른 쇼핑객들은 두 사람이 하는 일을 무시했다."
+          },
+          {
+            "number": 5,
+            "text": "두 사람은 카트가 높이 쌓일 때까지 얼음으로 채웠다."
+          }
+        ]
+      },
+      {
+        "id": "Q04",
+        "set_id": "workbook",
+        "number": 4,
+        "choices": [
+          {
+            "number": 1,
+            "text": "lead people to show their finest qualities"
+          },
+          {
+            "number": 2,
+            "text": "bring out the worst side of people"
+          },
+          {
+            "number": 3,
+            "text": "make everyday life easy for everyone"
+          },
+          {
+            "number": 4,
+            "text": "make people’s hearts heavy with worry"
+          },
+          {
+            "number": 5,
+            "text": "make people stop trusting strangers"
+          }
+        ],
+        "answer": 1,
+        "evidence": "“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can ________. I decide that one favor deserves another.",
+        "explanation": "정장 차림의 남자가 무거운 카트를 밀어 주며 “우리는 모두 서로 도와야 해요.”라고 말하고, 앨리사는 미소로 답한 뒤 호의에는 호의로 보답하기로 한다. 빈칸 문장은 ‘어려운 시기가 ~할 수 있다는 것을 알게 되어 좋다’이므로, 어려운 시기가 사람들의 가장 좋은 면을 끌어낸다는 긍정적인 내용이 와야 한다. 따라서 ①이 알맞다.",
+        "wrong_reasons": [
+          {
+            "number": 2,
+            "text": "앨리사는 남자의 도움에 미소로 답하고 ‘알게 되어 좋다’고 했으므로 사람들의 가장 나쁜 면이 드러난다는 말은 문맥과 반대다. 뒤에서 남자의 속셈이 드러나지만, 빈칸 문장은 그 전에 앨리사가 한 생각이다."
+          },
+          {
+            "number": 3,
+            "text": "어려운 시기가 모든 사람의 일상을 쉽게 만든다는 것은 물 부족과 무거운 카트라는 본문 상황과 맞지 않는다."
+          },
+          {
+            "number": 4,
+            "text": "걱정으로 마음이 무거워지는 것은 ‘알게 되어 좋다’와 어울리지 않고, 이 장면은 도움을 받은 고마움을 말한다."
+          },
+          {
+            "number": 5,
+            "text": "낯선 남자의 도움을 받고 호의에 보답하려는 장면이므로 낯선 사람을 믿지 않게 된다는 것은 반대다."
+          }
+        ],
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "사람들이 자신의 가장 훌륭한 자질을 보여 주게 하다"
+          },
+          {
+            "number": 2,
+            "text": "사람들의 가장 나쁜 면을 끌어내다"
+          },
+          {
+            "number": 3,
+            "text": "모든 사람의 일상을 쉽게 만들다"
+          },
+          {
+            "number": 4,
+            "text": "사람들의 마음을 걱정으로 무겁게 하다"
+          },
+          {
+            "number": 5,
+            "text": "사람들이 낯선 사람을 믿지 않게 만들다"
+          }
+        ]
+      },
+      {
+        "id": "Q05",
+        "set_id": "workbook",
+        "number": 5,
+        "choices": [
+          {
+            "number": 1,
+            "text": "Alyssa first thought the man was being playful, but he was earnest."
+          },
+          {
+            "number": 2,
+            "text": "The man’s eyes scared Alyssa even though he was smiling."
+          },
+          {
+            "number": 3,
+            "text": "Uncle Basil showed up at just the right moment."
+          },
+          {
+            "number": 4,
+            "text": "In the novel, the girl’s adventure ends when the water supply restarts."
+          },
+          {
+            "number": 5,
+            "text": "The writer mentions a decline in population as a cause of water shortages."
+          }
+        ],
+        "answer": 5,
+        "evidence": "Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, …",
+        "explanation": "필자는 전 세계 물 부족의 요인으로 기후 변화, 인구 증가(population growth), 농업에 물을 너무 많이 쓰는 것을 든다. 따라서 인구 감소를 원인으로 언급한다는 ⑤는 본문과 일치하지 않는다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "“For a moment I think he is joking, but then realize he is serious.”와 일치한다(joking ≈ playful, serious = earnest)."
+          },
+          {
+            "number": 2,
+            "text": "“He is still smiling, but his eyes scare me.”와 일치한다."
+          },
+          {
+            "number": 3,
+            "text": "“He has arrived just in time.”과 일치한다."
+          },
+          {
+            "number": 4,
+            "text": "“Her unwanted adventure ends when the water supply resumes …”와 일치한다(resume = restart)."
+          }
+        ],
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "앨리사는 처음에 남자가 장난친다고 생각했지만 그는 진지했다."
+          },
+          {
+            "number": 2,
+            "text": "남자는 웃고 있었지만 그의 눈은 앨리사를 겁먹게 했다."
+          },
+          {
+            "number": 3,
+            "text": "바질 삼촌은 딱 알맞은 때에 나타났다."
+          },
+          {
+            "number": 4,
+            "text": "소설에서 소녀의 모험은 물 공급이 다시 시작되면서 끝난다."
+          },
+          {
+            "number": 5,
+            "text": "필자는 인구 감소를 물 부족의 원인으로 언급한다."
+          }
+        ]
+      },
+      {
+        "id": "Q06",
+        "set_id": "mock1",
+        "number": 1,
+        "choices": [
+          {
+            "number": 1,
+            "text": "A → C → B"
+          },
+          {
+            "number": 2,
+            "text": "B → A → C"
+          },
+          {
+            "number": 3,
+            "text": "B → C → A"
+          },
+          {
+            "number": 4,
+            "text": "C → A → B"
+          },
+          {
+            "number": 5,
+            "text": "C → B → A"
+          }
+        ],
+        "answer": 4,
+        "evidence": "(C) “I reach for it …”의 it이 주어진 글의 a single case of water를 가리킴 / (A) “As her mother pulls their cart away, Hali leans closer to me.”가 (C)에서 소개된 딸 Hali와 그 엄마를 이어받음 / (B) “Maybe you could return the favor …”가 (A)의 사과에 대한 응답이고, 마지막에 Hali가 떠나려고 돌아섬",
+        "explanation": "주어진 글에서 앨리사는 옆 통로에서 생수 한 상자를 발견한다. (C) 그것을 잡으려는 순간 한 여자가 가로채고, 그 딸 할리가 앞으로 나선다. (A) 엄마가 카트를 끌고 가는 사이 할리가 다가와 사과한다. (B) 앨리사는 지난주 연습 때 물을 나눠 준 일을 말하며 보답을 부탁하지만, 할리는 고개를 저으며 얼굴을 붉히고 떠나려 한다. 따라서 (C)-(A)-(B)이다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "(A)가 주어진 글 바로 뒤에 오면 her mother, their cart, Hali가 누구인지 알 수 없고, 할리가 무엇에 대해 사과하는지도 알 수 없다."
+          },
+          {
+            "number": 2,
+            "text": "(B)가 주어진 글 바로 뒤에 오면 앨리사가 말을 거는 her가 누구인지 알 수 없고, 아직 생수를 빼앗기지도 않았는데 물을 나눠 달라고 부탁하게 된다."
+          },
+          {
+            "number": 3,
+            "text": "(B)–(C)–(A)도 (B)의 her와 물 부탁이 생수를 빼앗기기 전에 나와 맞지 않는다."
+          },
+          {
+            "number": 5,
+            "text": "(C)–(B)–(A)가 가장 헷갈리는 배열이다. 그러나 (B)의 ‘보답해 달라’는 부탁은 (A)의 사과에 대한 응답이고, (B)에서 이미 통로를 따라 가고 있는 엄마는 (A)에서 엄마가 카트를 끌고 가기 시작한 뒤의 모습이다. 또 (B) 끝에서 할리가 떠나려고 돌아선 뒤 (A)에서 다시 다가와 사과하는 것은 어색하다."
+          }
+        ],
+        "choices_ko": []
+      },
+      {
+        "id": "Q07",
+        "set_id": "mock1",
+        "number": 2,
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "answer": 2,
+        "evidence": "Then I see something. ( ② ) I open the door and reach for a bag.",
+        "explanation": "주어진 문장은 냉동 채소와 아이스크림 바로 뒤에 얼음이 가득 든 케이스가 있다는 내용이다. ② 앞의 “Then I see something.”에서 앨리사가 무언가를 발견하고, 주어진 문장이 그 ‘무언가’가 얼음 케이스임을 밝힌다. ② 뒤의 “I open the door and reach for a bag.”의 the door와 a bag은 그 케이스의 문과 얼음 봉지이므로 ②에 들어가야 한다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "이 위치에 넣으면 얼음 케이스를 이미 설명한 뒤에 “Then I see something.”이 와서, 앨리사가 본 ‘무언가’가 무엇인지 끝내 밝혀지지 않는다."
+          },
+          {
+            "number": 3,
+            "text": "이 위치에 넣으면 앨리사가 문을 열고 봉지에 손을 뻗은 뒤에야 진열장이 처음 소개되어, 발견(Then I see something) → 진열장 소개 → 문을 열고 봉지를 집는 행동의 순서가 거꾸로 된다."
+          },
+          {
+            "number": 4,
+            "text": "이 위치는 개릿과 앨리사가 얼음을 두고 주고받는 대화 사이로, 얼음 케이스를 처음 소개하는 문장이 들어가면 대화가 끊긴다."
+          },
+          {
+            "number": 5,
+            "text": "이 위치는 이미 문을 열고 얼음을 두고 대화까지 나눈 뒤라, 진열장을 처음 소개하는 문장이 오면 발견 → 소개 → 행동의 시간 순서가 뒤집힌다."
+          }
+        ],
+        "choices_ko": []
+      },
+      {
+        "id": "Q08",
+        "set_id": "mock1",
+        "number": 3,
+        "choices": [
+          {
+            "number": 1,
+            "text": "he will surely let go of the handle soon"
+          },
+          {
+            "number": 2,
+            "text": "Uncle Basil will never find us in the crowd"
+          },
+          {
+            "number": 3,
+            "text": "we have no way to show that the cart belongs to us"
+          },
+          {
+            "number": 4,
+            "text": "the ice in our cart will melt before long"
+          },
+          {
+            "number": 5,
+            "text": "everyone in the store will help us get the cart back"
+          }
+        ],
+        "answer": 3,
+        "evidence": "“Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” … He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, ________.",
+        "explanation": "남자는 앨리사 남매에게 얼음 한 봉지만 가져가고 나머지는 자기가 갖겠다고 진지하게 말하며, 웃고 있지만 눈빛이 무섭다. 그의 손이 카트 손잡이를 단단히 붙잡고 있는 한, 카트가 앨리사 남매의 것이라는 걸 보여 줄 방법이 없다는 내용이 와야 한다. 따라서 ③이 알맞다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "남자가 손잡이를 ‘단단히’ 잡고 있고 나머지 얼음을 갖겠다고 진지하게 말했으므로, 곧 손을 놓을 것이라는 말은 흐름과 반대다."
+          },
+          {
+            "number": 2,
+            "text": "바질 삼촌은 바로 뒤에서 “Is there a problem here?”라고 말하며 제때 나타나므로 맞지 않는다."
+          },
+          {
+            "number": 4,
+            "text": "얼음이 녹는다는 것은 남자가 손잡이를 붙잡고 있는 한(As long as …)이라는 조건과 연결되지 않는다."
+          },
+          {
+            "number": 5,
+            "text": "가게 사람들이 도와준다는 내용은 없고, 앨리사는 남자의 눈빛에 겁을 먹은 상태다."
+          }
+        ],
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "그가 곧 틀림없이 손잡이를 놓을 것이다"
+          },
+          {
+            "number": 2,
+            "text": "바질 삼촌은 붐비는 사람들 속에서 결코 우리를 찾지 못할 것이다"
+          },
+          {
+            "number": 3,
+            "text": "우리는 카트가 우리 것임을 보여 줄 방법이 없다"
+          },
+          {
+            "number": 4,
+            "text": "우리 카트의 얼음이 곧 녹을 것이다"
+          },
+          {
+            "number": 5,
+            "text": "가게의 모든 사람이 우리가 카트를 되찾도록 도와줄 것이다"
+          }
+        ]
+      },
+      {
+        "id": "Q09",
+        "set_id": "mock1",
+        "number": 4,
+        "choices": [
+          {
+            "number": 1,
+            "text": "The Day the Water Stopped: A Rush for the Essentials"
+          },
+          {
+            "number": 2,
+            "text": "A Black Friday Sale on Televisions and Games"
+          },
+          {
+            "number": 3,
+            "text": "How Uncle Basil Fixed the Broken Kitchen Tap"
+          },
+          {
+            "number": 4,
+            "text": "A Relaxing Weekend Trip to the Shopping Mall"
+          },
+          {
+            "number": 5,
+            "text": "A New Name for the Drought: The Media’s Choice"
+          }
+        ],
+        "answer": 1,
+        "evidence": "We have no running water out of the tap. / What I see in the carts in the checkout line are mostly water bottles. The essentials of life. / As I approach the back of the store for water bottles, I realize I am too late.",
+        "explanation": "가뭄 위기로 수도꼭지의 물이 끊긴 날, 앨리사 가족은 쇼핑몰로 가고, 사람들은 삶의 필수품인 생수를 사려고 몰려들어 앨리사가 생수를 사러 갔을 때는 이미 너무 늦었다. 따라서 ‘물이 멈춘 날: 필수품을 향한 쇄도’라는 ①이 제목으로 가장 적절하다.",
+        "wrong_reasons": [
+          {
+            "number": 2,
+            "text": "오늘 사람들이 사려는 것은 텔레비전과 비디오 게임이 아니라고 했다."
+          },
+          {
+            "number": 3,
+            "text": "바질 삼촌은 아이들을 쇼핑몰에 데려갈 뿐 수도꼭지를 고치지 않는다."
+          },
+          {
+            "number": 4,
+            "text": "조급함과 적대감이 감도는 위기 속 외출이므로 편안한 주말 여행이 아니다."
+          },
+          {
+            "number": 5,
+            "text": "언론이 가뭄을 ‘물 공급 위기’라고 부른다는 것은 한 문장의 세부 내용일 뿐 글 전체를 포괄하지 못한다."
+          }
+        ],
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "물이 멈춘 날: 필수품을 향한 쇄도"
+          },
+          {
+            "number": 2,
+            "text": "텔레비전과 게임의 블랙 프라이데이 할인"
+          },
+          {
+            "number": 3,
+            "text": "바질 삼촌이 고장 난 부엌 수도꼭지를 고친 방법"
+          },
+          {
+            "number": 4,
+            "text": "쇼핑몰로 가는 편안한 주말 여행"
+          },
+          {
+            "number": 5,
+            "text": "가뭄의 새 이름: 언론의 선택"
+          }
+        ]
+      },
+      {
+        "id": "Q10",
+        "set_id": "mock1",
+        "number": 5,
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "answer": 5,
+        "evidence": "As I approach the back of the store for water bottles, I realize I am too late.",
+        "explanation": "앨리사는 생수를 사러 매장 뒤쪽으로 가면서 자신이 너무 늦었다는 것을 깨닫는다. 너무 늦었다는 것은 이미 물이 다 팔렸다는 뜻이므로, 선반이 이미 ‘가득 차(full)’ 있다는 ⑤는 문맥에 맞지 않고 empty(비어 있는)가 되어야 한다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "물이 한 번 튀어나온 뒤 수도꼭지가 조용해졌다(silent)는 것은 물이 끊긴 상황과 맞다."
+          },
+          {
+            "number": 2,
+            "text": "사람들이 ‘가뭄’이라는 말을 듣는 데 지쳐서(tired) 언론이 다른 이름을 쓰게 되었다는 흐름에 맞다."
+          },
+          {
+            "number": 3,
+            "text": "주차장에 들어서며 사람들의 무리(crowd)를 보았다는 것은 뒤의 블랙 프라이데이 같은 혼잡과 이어진다."
+          },
+          {
+            "number": 4,
+            "text": "줄 선 사람들의 얼굴에 조급함(impatience)이 있다는 것은 뒤의 적대감·얇은 예의와 이어진다."
+          }
+        ],
+        "choices_ko": []
+      },
+      {
+        "id": "Q11",
+        "set_id": "mock2",
+        "number": 1,
+        "choices": [
+          {
+            "number": 1,
+            "text": "a day when stores give the biggest discounts of the year"
+          },
+          {
+            "number": 2,
+            "text": "a scene of huge crowds rushing wildly to buy things"
+          },
+          {
+            "number": 3,
+            "text": "a quiet store where only a few people are shopping"
+          },
+          {
+            "number": 4,
+            "text": "a time when TVs and video games sell out quickly"
+          },
+          {
+            "number": 5,
+            "text": "a sad day when people remember a past disaster"
+          }
+        ],
+        "answer": 2,
+        "evidence": "As we pull into the parking lot, we can see the crowd. / … but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles.",
+        "explanation": "주차장에 들어서자마자 사람들의 무리가 보이고, 매장 안은 ‘최악일 때의 블랙 프라이데이’ 같다고 했다. 블랙 프라이데이는 사람들이 물건을 사려고 몰려드는 날이며, at its worst는 그 혼잡이 가장 심한 상태라는 뜻이다. 오늘은 텔레비전이 아니라 생수를 사려고 몰려든 것이므로, 엄청난 인파가 물건을 사려고 정신없이 몰려드는 장면이라는 ②가 알맞다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "할인은 본문에 나오지 않으며, 이 표현은 할인 자체가 아니라 몰려든 사람들의 혼잡을 나타낸다."
+          },
+          {
+            "number": 3,
+            "text": "주차장에서부터 인파가 보였으므로 사람이 적은 조용한 상점은 반대다."
+          },
+          {
+            "number": 4,
+            "text": "오늘 사람들이 원하는 것은 텔레비전과 비디오 게임이 아니라고 했다."
+          },
+          {
+            "number": 5,
+            "text": "슬픈 기념일이라는 내용은 본문에 없다."
+          }
+        ],
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "상점들이 연중 가장 큰 할인을 하는 날"
+          },
+          {
+            "number": 2,
+            "text": "엄청난 인파가 물건을 사려고 정신없이 몰려드는 장면"
+          },
+          {
+            "number": 3,
+            "text": "몇 사람만 쇼핑하고 있는 조용한 상점"
+          },
+          {
+            "number": 4,
+            "text": "텔레비전과 비디오 게임이 빨리 매진되는 때"
+          },
+          {
+            "number": 5,
+            "text": "사람들이 과거의 재난을 기억하는 슬픈 날"
+          }
+        ]
+      },
+      {
+        "id": "Q12",
+        "set_id": "mock2",
+        "number": 2,
+        "choices": [
+          {
+            "number": 1,
+            "text": "bored → excited"
+          },
+          {
+            "number": 2,
+            "text": "nervous → relieved"
+          },
+          {
+            "number": 3,
+            "text": "angry → grateful"
+          },
+          {
+            "number": 4,
+            "text": "hopeful → disappointed"
+          },
+          {
+            "number": 5,
+            "text": "jealous → proud"
+          }
+        ],
+        "answer": 4,
+        "evidence": "I manage my way to the side aisle, trying my luck. … Lucky! I find a single case of water … / I reach for it, only to find it pulled away at the last second by a woman. / … then turns back to me shaking her head.",
+        "explanation": "앨리사는 운을 시험해 보려고 옆 통로로 가서 버려진 생수 한 상자를 발견하고 “Lucky!”라고 외칠 만큼 기대에 찬다. 그러나 손을 뻗는 순간 한 여자가 그것을 가로채 가고, 물을 나눠 달라는 부탁도 할리가 고개를 저어 거절한다. 따라서 ‘희망에 찬 → 실망한’의 ④가 알맞다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "처음에 운을 시험하며 물을 찾는 모습은 지루함이 아니고, 뒤는 신이 난 것이 아니라 실망한 것이다."
+          },
+          {
+            "number": 2,
+            "text": "처음에는 긴장보다 기대가 드러나고, 물을 빼앗기고 부탁을 거절당한 뒤 안도할 일은 없다."
+          },
+          {
+            "number": 3,
+            "text": "물을 빼앗기고 부탁을 거절당했으므로 고마워할 일이 없다."
+          },
+          {
+            "number": 5,
+            "text": "질투나 자랑스러움이 드러나는 장면이 없다."
+          }
+        ],
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "지루한 → 신이 난"
+          },
+          {
+            "number": 2,
+            "text": "긴장한 → 안도한"
+          },
+          {
+            "number": 3,
+            "text": "화난 → 고마워하는"
+          },
+          {
+            "number": 4,
+            "text": "희망에 찬 → 실망한"
+          },
+          {
+            "number": 5,
+            "text": "질투하는 → 자랑스러운"
+          }
+        ]
+      },
+      {
+        "id": "Q13",
+        "set_id": "mock2",
+        "number": 3,
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "answer": 5,
+        "evidence": "It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. ( ⑤ ) Provided that the factors …",
+        "explanation": "주어진 문장은 ‘그녀의 원치 않은 모험은 물 공급이 재개되고 삶이 정상으로 돌아오면서 끝난다’는 내용이다. Her가 가리킬 대상은 ⑤ 앞 문장의 a girl(가뭄 속에서 가족을 위해 힘든 선택을 해야 하는 소녀)이며, 소설 줄거리 소개가 시작에서 끝으로 이어진 뒤 ⑤ 뒤에서 물 부족의 원인과 경고로 넘어간다. 따라서 ⑤에 들어가야 한다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "이 위치 앞은 바질 삼촌이 나타난 1인칭 현재 장면으로, 서술자 자신을 3인칭 Her로 가리키며 물 공급이 재개되는 결말을 요약하는 문장이 장면 한가운데 끼어들 수 없다."
+          },
+          {
+            "number": 2,
+            "text": "이 위치 앞은 남자가 “Not at all.”이라고 답하는 장면으로, 이야기가 아직 진행 중인 1인칭 서술 속에 3인칭 결말 요약이 들어갈 수 없다."
+          },
+          {
+            "number": 3,
+            "text": "이 위치에 넣으면 이야기가 끝난 것처럼 보이지만, 곧이어 ‘위 글은 소설 도입부를 줄인 것’이라는 설명이 나와 모순되고, 소녀(a girl)도 그 뒤에야 소개된다."
+          },
+          {
+            "number": 4,
+            "text": "이 위치는 소설을 처음 언급한 문장 바로 뒤로, 소녀가 소개되기 전에 Her가 나오고 “It tells the story of a girl …”보다 결말이 먼저 오게 된다."
+          }
+        ],
+        "choices_ko": []
+      },
+      {
+        "id": "Q14",
+        "set_id": "mock2",
+        "number": 4,
+        "choices": [
+          {
+            "number": 1,
+            "text": "How to Push a Heavy Cart with Ease"
+          },
+          {
+            "number": 2,
+            "text": "Uncle Basil’s Clever Business Idea"
+          },
+          {
+            "number": 3,
+            "text": "A Helping Hand with a Selfish Plan"
+          },
+          {
+            "number": 4,
+            "text": "A Stranger Who Wanted Nothing in Return"
+          },
+          {
+            "number": 5,
+            "text": "Why Ice Sells Better Than Bottled Water"
+          }
+        ],
+        "answer": 3,
+        "evidence": "“Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” / For a moment I think he is joking, but then realize he is serious.",
+        "explanation": "정장 차림의 남자가 무거운 카트를 밀어 주며 서로 도와야 한다고 말하지만, 곧 얼음 한 봉지만 가져가고 나머지는 자기가 갖겠다고 진지하게 말한다. 바질 삼촌이 나타나자 그는 씁쓸한 얼굴로 떠난다. 따라서 ‘이기적인 속셈이 있는 도움의 손길’이라는 ③이 제목으로 가장 적절하다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "카트가 무거워 밀기 힘들다는 것은 장면의 출발점일 뿐, 카트를 쉽게 미는 방법은 나오지 않는다."
+          },
+          {
+            "number": 2,
+            "text": "바질 삼촌은 마지막에 나타나 남자를 떠나게 할 뿐이며, 사업 아이디어를 낸다는 내용은 없다."
+          },
+          {
+            "number": 4,
+            "text": "남자는 나머지 얼음을 모두 가지려 했으므로 대가를 바라지 않았다는 것은 반대다."
+          },
+          {
+            "number": 5,
+            "text": "얼음과 생수의 판매 비교는 나오지 않는다."
+          }
+        ],
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "무거운 카트를 쉽게 미는 방법"
+          },
+          {
+            "number": 2,
+            "text": "바질 삼촌의 기발한 사업 아이디어"
+          },
+          {
+            "number": 3,
+            "text": "이기적인 속셈이 있는 도움의 손길"
+          },
+          {
+            "number": 4,
+            "text": "대가를 전혀 바라지 않은 낯선 사람"
+          },
+          {
+            "number": 5,
+            "text": "얼음이 생수보다 더 잘 팔리는 이유"
+          }
+        ]
+      },
+      {
+        "id": "Q15",
+        "set_id": "mock2",
+        "number": 5,
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "answer": 1,
+        "evidence": "Garrett and I put one bag of ice after another into our cart … / The cart is ridiculously heavy now, and almost impossible to push.",
+        "explanation": "앨리사와 개릿은 얼음 봉지를 하나씩 계속 카트에 넣었고, 그 결과 카트는 터무니없이 무거워져 밀기 거의 불가능해졌다. 따라서 얼음이 ‘가능한 한 낮게(low)’ 쌓였다는 ①은 문맥에 맞지 않고 high(높이)가 되어야 한다.",
+        "wrong_reasons": [
+          {
+            "number": 2,
+            "text": "얼음을 가득 실어 카트가 무거워(heavy) 밀기 거의 불가능하다는 흐름에 맞다."
+          },
+          {
+            "number": 3,
+            "text": "남자가 “우리는 모두 서로 도와야(help) 해요.”라고 말하며 도움을 당연하게 여기는 말로 적절하다."
+          },
+          {
+            "number": 4,
+            "text": "남자의 도움을 받은 앨리사가 어려운 시기가 사람들의 가장 좋은(best) 면을 끌어낸다고 생각하는 흐름에 맞다."
+          },
+          {
+            "number": 5,
+            "text": "앨리사의 제안(얼음 한 봉지)보다 ‘더 나은(better)’ 생각이 있다며 자기 몫을 늘리려는 남자의 속셈을 보여 준다."
+          }
+        ],
+        "choices_ko": []
+      },
+      {
+        "id": "Q16",
+        "set_id": "mock3",
+        "number": 1,
+        "choices": [
+          {
+            "number": 1,
+            "text": "A → C → B"
+          },
+          {
+            "number": 2,
+            "text": "B → A → C"
+          },
+          {
+            "number": 3,
+            "text": "B → C → A"
+          },
+          {
+            "number": 4,
+            "text": "C → A → B"
+          },
+          {
+            "number": 5,
+            "text": "C → B → A"
+          }
+        ],
+        "answer": 3,
+        "evidence": "(B) “She is watching the TV …”의 She가 주어진 글의 Mom이며, 엄마가 “쉿!”이라고 한 이유(뉴스 시청)를 설명함 / (C) “To the mall!”이 (B)의 ‘수돗물이 나오지 않는다’에 대한 대응 / (A) “Inside …”가 (C)의 “You two go in. I’ll meet you inside”에 이어짐",
+        "explanation": "주어진 글에서 수도꼭지의 물이 끊기자 앨리사가 엄마를 부르지만 엄마는 “쉿!”이라고 한다. (B) 엄마는 ‘물 공급 위기’에 관한 뉴스를 보고 있었고, 위기가 새 단계에 들어서 수돗물이 나오지 않는다. (C) 그러자 바질 삼촌이 “쇼핑몰로!”라고 외치고, 주차장에서 인파를 본 뒤 아이들에게 먼저 들어가라고 한다. (A) 안은 최악일 때의 블랙 프라이데이 같고, 카트에는 대부분 생수가 담겨 있다. 따라서 (B)-(C)-(A)이다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "(A)가 주어진 글 바로 뒤에 오면 Inside가 어디의 안인지 알 수 없다."
+          },
+          {
+            "number": 2,
+            "text": "(B) 다음 (A)가 오면 쇼핑몰에 가기도 전에 매장 안의 장면이 나오고, 그 뒤 (C)에서 다시 쇼핑몰로 출발하게 된다."
+          },
+          {
+            "number": 4,
+            "text": "(C)가 주어진 글 바로 뒤에 오면 엄마가 “쉿!”이라고 한 이유가 설명되지 않은 채 쇼핑몰로 떠나고, 매장 안 장면 (A) 뒤에 다시 집에서 TV를 보는 (B)가 이어진다."
+          },
+          {
+            "number": 5,
+            "text": "(C)–(B)–(A)가 가장 헷갈리는 배열이다. 그러나 (B)의 She is watching the TV는 주어진 글에서 “쉿!”이라고 한 엄마의 모습을 바로 이어 설명하는 것이며, 트럭을 타고 쇼핑몰 주차장에 들어간 (C) 뒤에 집 안의 뉴스 장면이 오면 시간과 장소가 거꾸로 된다."
+          }
+        ],
+        "choices_ko": []
+      },
+      {
+        "id": "Q17",
+        "set_id": "mock3",
+        "number": 2,
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "answer": 4,
+        "evidence": "Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.",
+        "explanation": "글은 물이 떨어진 매장에서 앨리사가 얼음 케이스를 발견하고, 동생과 함께 카트에 얼음을 가득 쌓자 다른 사람들도 따라 하며, 무거운 카트에 한 남자가 다가오는 흐름이다. ④는 냉동 채소가 수확 직후 얼려져 비타민이 대부분 유지된다는 일반 정보로, 얼음을 쌓는 장면과 다른 사람들이 알아차리는 장면 사이를 끊는다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "앨리사가 본 ‘무언가’가 얼음이 가득 든 케이스임을 밝혀 이야기의 전환점이 된다."
+          },
+          {
+            "number": 2,
+            "text": "케이스 문을 열고 얼음 봉지에 손을 뻗는 행동으로, 앞 문장의 발견에 이어진다."
+          },
+          {
+            "number": 3,
+            "text": "개릿과 함께 카트에 얼음을 가득 쌓는 장면으로, 앞의 “Just help me”에 이어진다."
+          },
+          {
+            "number": 5,
+            "text": "두 사람이 얼음을 쌓자 다른 사람들도 알아차리고 얼음 케이스를 비우기 시작한다는 내용으로 ③에 이어진다."
+          }
+        ],
+        "choices_ko": []
+      },
+      {
+        "id": "Q18",
+        "set_id": "mock3",
+        "number": 3,
+        "choices": [
+          {
+            "number": 1,
+            "text": "grateful → frightened"
+          },
+          {
+            "number": 2,
+            "text": "jealous → satisfied"
+          },
+          {
+            "number": 3,
+            "text": "bored → curious"
+          },
+          {
+            "number": 4,
+            "text": "nervous → relieved"
+          },
+          {
+            "number": 5,
+            "text": "angry → calm"
+          }
+        ],
+        "answer": 1,
+        "evidence": "“Thank you for helping us,” I tell him. / It is good to know that difficult times can bring out the best in people. / He is still smiling, but his eyes scare me.",
+        "explanation": "처음에 앨리사는 자신들을 도와준 남자(him)에게 고마워하며(Thank you for helping us) 미소로 답하고, 호의에 보답하려고 얼음 한 봉지를 권한다. 그러나 남자가 나머지 얼음을 자기가 갖겠다고 진지하게 말하고, 웃는 얼굴과 달리 그의 눈이 무섭게 느껴진다. 따라서 ‘고마워하는 → 겁먹은’의 ①이 알맞다.",
+        "wrong_reasons": [
+          {
+            "number": 2,
+            "text": "질투하거나 만족하는 모습은 없고, 마지막에는 겁을 먹는다."
+          },
+          {
+            "number": 3,
+            "text": "지루함은 드러나지 않으며, 남자의 속셈을 알게 된 뒤의 감정은 호기심이 아니라 두려움이다."
+          },
+          {
+            "number": 4,
+            "text": "처음에는 긴장이 아니라 고마움을 느끼고, 뒤로 갈수록 안도가 아니라 두려움이 커진다."
+          },
+          {
+            "number": 5,
+            "text": "처음부터 화를 내지 않았고, 마지막에도 차분하기보다 겁을 먹는다."
+          }
+        ],
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "고마워하는 → 겁먹은"
+          },
+          {
+            "number": 2,
+            "text": "질투하는 → 만족한"
+          },
+          {
+            "number": 3,
+            "text": "지루한 → 호기심 있는"
+          },
+          {
+            "number": 4,
+            "text": "긴장한 → 안도한"
+          },
+          {
+            "number": 5,
+            "text": "화난 → 차분한"
+          }
+        ]
+      },
+      {
+        "id": "Q19",
+        "set_id": "mock3",
+        "number": 4,
+        "choices": [
+          {
+            "number": 1,
+            "text": "A Crown Made of Canned Goods"
+          },
+          {
+            "number": 2,
+            "text": "When Water Is Precious, Kindness Runs Dry"
+          },
+          {
+            "number": 3,
+            "text": "How Soccer Practice Made Two Girls Best Friends"
+          },
+          {
+            "number": 4,
+            "text": "Full Shelves and Friendly Shoppers"
+          },
+          {
+            "number": 5,
+            "text": "Why Stores Put Items on the Wrong Shelves"
+          }
+        ],
+        "answer": 2,
+        "evidence": "There is even hostility, hidden by a thin layer of politeness. / I reach for it, only to find it pulled away at the last second by a woman. / … then turns back to me shaking her head.",
+        "explanation": "물이 귀해진 상황에서 줄 선 사람들은 얇은 예의 아래 적대감을 숨기고 있고, 앨리사가 겨우 찾은 생수 한 상자는 한 여자에게 빼앗기며, 예전에 물을 나눠 준 할리에게 보답을 부탁하지만 거절당한다. 따라서 ‘물이 귀해지면 친절이 바닥난다’는 ②가 제목으로 가장 적절하다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "여자가 생수 상자를 통조림 위에 왕관처럼 올려놓는다는 한 장면의 비유일 뿐 글 전체를 포괄하지 못한다."
+          },
+          {
+            "number": 3,
+            "text": "앨리사가 축구 연습 때 할리에게 물을 나눠 준 적은 있지만, 할리는 보답을 거절하므로 두 사람이 가장 친한 친구가 되었다는 것은 맞지 않는다."
+          },
+          {
+            "number": 4,
+            "text": "선반은 이미 비어 있었고 사람들에게는 조급함과 적대감이 있었으므로 반대다."
+          },
+          {
+            "number": 5,
+            "text": "사람들이 원치 않는 물건을 엉뚱한 선반에 두기도 한다는 것은 앨리사가 옆 통로를 찾아본 이유일 뿐이며, 가게가 그렇게 한다는 내용도 아니다."
+          }
+        ],
+        "choices_ko": [
+          {
+            "number": 1,
+            "text": "통조림으로 만든 왕관"
+          },
+          {
+            "number": 2,
+            "text": "물이 귀해지면 친절이 바닥난다"
+          },
+          {
+            "number": 3,
+            "text": "축구 연습이 두 소녀를 가장 친한 친구로 만든 방법"
+          },
+          {
+            "number": 4,
+            "text": "가득 찬 선반과 친절한 쇼핑객들"
+          },
+          {
+            "number": 5,
+            "text": "가게가 물건을 엉뚱한 선반에 두는 이유"
+          }
+        ]
+      },
+      {
+        "id": "Q20",
+        "set_id": "mock3",
+        "number": 5,
+        "choices": [
+          {
+            "number": 1,
+            "text": "①"
+          },
+          {
+            "number": 2,
+            "text": "②"
+          },
+          {
+            "number": 3,
+            "text": "③"
+          },
+          {
+            "number": 4,
+            "text": "④"
+          },
+          {
+            "number": 5,
+            "text": "⑤"
+          }
+        ],
+        "answer": 5,
+        "evidence": "“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor …”",
+        "explanation": "앨리사는 지난주 연습 때 할리에게 자기 물을 나눠 주었던 일을 말하며 그 호의에 보답해 달라고 부탁한다. 보답(return the favor)은 물을 ‘나눠 주는(share)’ 것이어야 하므로, 몇 병을 함께 ‘숨기자(hide)’는 ⑤는 문맥에 맞지 않고 share가 되어야 한다.",
+        "wrong_reasons": [
+          {
+            "number": 1,
+            "text": "줄 선 사람들의 얼굴에 조급함(impatience)이 보인다는 것은 뒤의 적대감과 이어진다."
+          },
+          {
+            "number": 2,
+            "text": "적대감을 숨긴 예의마저 ‘얇게(thin)’ 늘어나 있다는 것은 사람들의 긴장이 커지는 흐름에 맞다."
+          },
+          {
+            "number": 3,
+            "text": "어제만 해도 생수가 그렇게 귀한(precious) 상품이 아니었다는 것은 물이 부족해진 지금과 대비된다."
+          },
+          {
+            "number": 4,
+            "text": "엄마가 카트를 끌고 가는 사이 할리가 앨리사에게 더 가까이(closer) 다가와 사과한다는 흐름에 맞다."
+          }
+        ],
+        "choices_ko": []
+      }
+    ],
+    "source_excerpts": [
+      {
+        "question_id": "Q01",
+        "original": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s04",
+          "s05",
+          "s06",
+          "s07",
+          "s08",
+          "s09",
+          "s10",
+          "s11",
+          "s12",
+          "s13",
+          "s14",
+          "s15",
+          "s16",
+          "s17"
+        ]
+      },
+      {
+        "question_id": "Q02",
+        "original": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.\nI manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s18",
+          "s19",
+          "s20",
+          "s21",
+          "s22",
+          "s23",
+          "s24",
+          "s25",
+          "s26",
+          "s27",
+          "s28",
+          "s29",
+          "s30",
+          "s31",
+          "s32"
+        ]
+      },
+      {
+        "question_id": "Q03",
+        "original": "I look for Garrett, whom I find in the frozen aisle. Then I see something. Just past the frozen vegetables and ice cream, there is a case packed with ice. I open the door and reach for a bag.\n“What are you doing? We need water, not ice,” he reminds me.\n“Ice is water. Just help me,” I tell him.\nGarrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s37",
+          "s38",
+          "s39",
+          "s40",
+          "s41",
+          "s42",
+          "s43",
+          "s44",
+          "s45",
+          "s46",
+          "s47",
+          "s48",
+          "s49",
+          "s50",
+          "s51"
+        ]
+      },
+      {
+        "question_id": "Q04",
+        "original": "The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.\n“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s47",
+          "s48",
+          "s49",
+          "s50",
+          "s51",
+          "s52",
+          "s53",
+          "s54",
+          "s55",
+          "s56",
+          "s57",
+          "s58",
+          "s59",
+          "s60",
+          "s61",
+          "s62"
+        ]
+      },
+      {
+        "question_id": "Q05",
+        "original": "For a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.\n*The above is a shortened version of the opening of the novel Dry (2018). It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. Her unwanted adventure ends when the water supply resumes and life is back to normal. Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s62",
+          "s63",
+          "s64",
+          "s65",
+          "s66",
+          "s67",
+          "s68",
+          "s69",
+          "s70",
+          "s71",
+          "s72",
+          "s73",
+          "s74"
+        ]
+      },
+      {
+        "question_id": "Q06",
+        "original": "I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s23",
+          "s24",
+          "s25",
+          "s26",
+          "s27",
+          "s28",
+          "s29",
+          "s30",
+          "s31",
+          "s32",
+          "s33",
+          "s34",
+          "s35",
+          "s36"
+        ]
+      },
+      {
+        "question_id": "Q07",
+        "original": "I look for Garrett, whom I find in the frozen aisle. Then I see something. Just past the frozen vegetables and ice cream, there is a case packed with ice. I open the door and reach for a bag.\n“What are you doing? We need water, not ice,” he reminds me.\n“Ice is water. Just help me,” I tell him.\nGarrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s37",
+          "s38",
+          "s39",
+          "s40",
+          "s41",
+          "s42",
+          "s43",
+          "s44",
+          "s45",
+          "s46",
+          "s47",
+          "s48",
+          "s49",
+          "s50",
+          "s51"
+        ]
+      },
+      {
+        "question_id": "Q08",
+        "original": "He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s55",
+          "s56",
+          "s57",
+          "s58",
+          "s59",
+          "s60",
+          "s61",
+          "s62",
+          "s63",
+          "s64",
+          "s65",
+          "s66",
+          "s67",
+          "s68",
+          "s69",
+          "s70"
+        ]
+      },
+      {
+        "question_id": "Q09",
+        "original": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.\nThere is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s04",
+          "s05",
+          "s06",
+          "s07",
+          "s08",
+          "s09",
+          "s10",
+          "s11",
+          "s12",
+          "s13",
+          "s14",
+          "s15",
+          "s16",
+          "s17",
+          "s18",
+          "s19",
+          "s20",
+          "s21",
+          "s22"
+        ]
+      },
+      {
+        "question_id": "Q10",
+        "original": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.\nThere is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s04",
+          "s05",
+          "s06",
+          "s07",
+          "s08",
+          "s09",
+          "s10",
+          "s11",
+          "s12",
+          "s13",
+          "s14",
+          "s15",
+          "s16",
+          "s17",
+          "s18",
+          "s19",
+          "s20",
+          "s21",
+          "s22"
+        ]
+      },
+      {
+        "question_id": "Q11",
+        "original": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s04",
+          "s05",
+          "s06",
+          "s07",
+          "s08",
+          "s09",
+          "s10",
+          "s11",
+          "s12",
+          "s13",
+          "s14",
+          "s15",
+          "s16",
+          "s17"
+        ]
+      },
+      {
+        "question_id": "Q12",
+        "original": "I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s23",
+          "s24",
+          "s25",
+          "s26",
+          "s27",
+          "s28",
+          "s29",
+          "s30",
+          "s31",
+          "s32",
+          "s33",
+          "s34",
+          "s35",
+          "s36"
+        ]
+      },
+      {
+        "question_id": "Q13",
+        "original": "For a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.\n*The above is a shortened version of the opening of the novel Dry (2018). It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. Her unwanted adventure ends when the water supply resumes and life is back to normal. Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s62",
+          "s63",
+          "s64",
+          "s65",
+          "s66",
+          "s67",
+          "s68",
+          "s69",
+          "s70",
+          "s71",
+          "s72",
+          "s73",
+          "s74"
+        ]
+      },
+      {
+        "question_id": "Q14",
+        "original": "Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.\n“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s45",
+          "s46",
+          "s47",
+          "s48",
+          "s49",
+          "s50",
+          "s51",
+          "s52",
+          "s53",
+          "s54",
+          "s55",
+          "s56",
+          "s57",
+          "s58",
+          "s59",
+          "s60",
+          "s61",
+          "s62",
+          "s63",
+          "s64",
+          "s65",
+          "s66",
+          "s67",
+          "s68",
+          "s69",
+          "s70"
+        ]
+      },
+      {
+        "question_id": "Q15",
+        "original": "Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.\n“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s45",
+          "s46",
+          "s47",
+          "s48",
+          "s49",
+          "s50",
+          "s51",
+          "s52",
+          "s53",
+          "s54",
+          "s55",
+          "s56",
+          "s57",
+          "s58",
+          "s59",
+          "s60",
+          "s61",
+          "s62",
+          "s63",
+          "s64",
+          "s65",
+          "s66",
+          "s67",
+          "s68",
+          "s69",
+          "s70"
+        ]
+      },
+      {
+        "question_id": "Q16",
+        "original": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s04",
+          "s05",
+          "s06",
+          "s07",
+          "s08",
+          "s09",
+          "s10",
+          "s11",
+          "s12",
+          "s13",
+          "s14",
+          "s15",
+          "s16",
+          "s17"
+        ]
+      },
+      {
+        "question_id": "Q17",
+        "original": "I look for Garrett, whom I find in the frozen aisle. Then I see something. Just past the frozen vegetables and ice cream, there is a case packed with ice. I open the door and reach for a bag.\n“What are you doing? We need water, not ice,” he reminds me.\n“Ice is water. Just help me,” I tell him.\nGarrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s37",
+          "s38",
+          "s39",
+          "s40",
+          "s41",
+          "s42",
+          "s43",
+          "s44",
+          "s45",
+          "s46",
+          "s47",
+          "s48",
+          "s49",
+          "s50",
+          "s51"
+        ]
+      },
+      {
+        "question_id": "Q18",
+        "original": "“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s52",
+          "s53",
+          "s54",
+          "s55",
+          "s56",
+          "s57",
+          "s58",
+          "s59",
+          "s60",
+          "s61",
+          "s62",
+          "s63",
+          "s64",
+          "s65"
+        ]
+      },
+      {
+        "question_id": "Q19",
+        "original": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.\nI manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s18",
+          "s19",
+          "s20",
+          "s21",
+          "s22",
+          "s23",
+          "s24",
+          "s25",
+          "s26",
+          "s27",
+          "s28",
+          "s29",
+          "s30",
+          "s31",
+          "s32",
+          "s33",
+          "s34",
+          "s35",
+          "s36"
+        ]
+      },
+      {
+        "question_id": "Q20",
+        "original": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.\nI manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+        "source_id": "src",
+        "source_sentence_ids": [
+          "s18",
+          "s19",
+          "s20",
+          "s21",
+          "s22",
+          "s23",
+          "s24",
+          "s25",
+          "s26",
+          "s27",
+          "s28",
+          "s29",
+          "s30",
+          "s31",
+          "s32",
+          "s33",
+          "s34",
+          "s35",
+          "s36"
+        ]
+      }
+    ],
+    "length_reviews": [
+      {
+        "question_id": "Q01",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q23",
+            "202606041-Q23",
+            "202609021-Q23"
+          ],
+          "rationale": "주제 고1 표본 [142, 132, 168]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "주제",
+          "benchmark_ids": [
+            "202603241-Q23",
+            "202606041-Q23",
+            "202609021-Q23"
+          ],
+          "reference_words": [
+            142,
+            132,
+            168
+          ],
+          "assessment_word_count": 161,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "주제 고1 표본 [142, 132, 168]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q02",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q21",
+            "202606041-Q21",
+            "202609021-Q21"
+          ],
+          "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 168단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "함축 의미",
+          "benchmark_ids": [
+            "202603241-Q21",
+            "202606041-Q21",
+            "202609021-Q21"
+          ],
+          "reference_words": [
+            154,
+            149,
+            175
+          ],
+          "assessment_word_count": 168,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 168단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q03",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q26",
+            "202606041-Q26",
+            "202609021-Q26"
+          ],
+          "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 140단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "내용",
+          "benchmark_ids": [
+            "202603241-Q26",
+            "202606041-Q26",
+            "202609021-Q26"
+          ],
+          "reference_words": [
+            142,
+            118,
+            167
+          ],
+          "assessment_word_count": 140,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 140단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q04",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q31",
+            "202606041-Q31",
+            "202609021-Q31"
+          ],
+          "rationale": "빈칸 고1 표본 [137, 137, 167]단어와 비교해 현재 144단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "빈칸",
+          "benchmark_ids": [
+            "202603241-Q31",
+            "202606041-Q31",
+            "202609021-Q31"
+          ],
+          "reference_words": [
+            137,
+            137,
+            167
+          ],
+          "assessment_word_count": 144,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "빈칸 고1 표본 [137, 137, 167]단어와 비교해 현재 144단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q05",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q26",
+            "202606041-Q26",
+            "202609021-Q26"
+          ],
+          "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 164단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "내용",
+          "benchmark_ids": [
+            "202603241-Q26",
+            "202606041-Q26",
+            "202609021-Q26"
+          ],
+          "reference_words": [
+            142,
+            118,
+            167
+          ],
+          "assessment_word_count": 164,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 164단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q06",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q36",
+            "202606041-Q36",
+            "202609021-Q36"
+          ],
+          "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 186단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "순서",
+          "benchmark_ids": [
+            "202603241-Q36",
+            "202606041-Q36",
+            "202609021-Q36"
+          ],
+          "reference_words": [
+            134,
+            160,
+            168
+          ],
+          "assessment_word_count": 186,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 186단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q07",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q38",
+            "202606041-Q38",
+            "202609021-Q38"
+          ],
+          "rationale": "삽입 고1 표본 [138, 167, 165]단어와 비교해 현재 140단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "삽입",
+          "benchmark_ids": [
+            "202603241-Q38",
+            "202606041-Q38",
+            "202609021-Q38"
+          ],
+          "reference_words": [
+            138,
+            167,
+            165
+          ],
+          "assessment_word_count": 140,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "삽입 고1 표본 [138, 167, 165]단어와 비교해 현재 140단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q08",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q31",
+            "202606041-Q31",
+            "202609021-Q31"
+          ],
+          "rationale": "빈칸 고1 표본 [137, 137, 167]단어와 비교해 현재 149단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "빈칸",
+          "benchmark_ids": [
+            "202603241-Q31",
+            "202606041-Q31",
+            "202609021-Q31"
+          ],
+          "reference_words": [
+            137,
+            137,
+            167
+          ],
+          "assessment_word_count": 149,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "빈칸 고1 표본 [137, 137, 167]단어와 비교해 현재 149단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q09",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q41_42",
+            "202606041-Q41_42",
+            "202609021-Q41_42"
+          ],
+          "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 214단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "long41_42",
+          "benchmark_ids": [
+            "202603241-Q41_42",
+            "202606041-Q41_42",
+            "202609021-Q41_42"
+          ],
+          "reference_words": [
+            212,
+            212,
+            216
+          ],
+          "assessment_word_count": 214,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 214단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q10",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q41_42",
+            "202606041-Q41_42",
+            "202609021-Q41_42"
+          ],
+          "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 214단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "long41_42",
+          "benchmark_ids": [
+            "202603241-Q41_42",
+            "202606041-Q41_42",
+            "202609021-Q41_42"
+          ],
+          "reference_words": [
+            212,
+            212,
+            216
+          ],
+          "assessment_word_count": 214,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 214단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q11",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q21",
+            "202606041-Q21",
+            "202609021-Q21"
+          ],
+          "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "함축 의미",
+          "benchmark_ids": [
+            "202603241-Q21",
+            "202606041-Q21",
+            "202609021-Q21"
+          ],
+          "reference_words": [
+            154,
+            149,
+            175
+          ],
+          "assessment_word_count": 161,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q12",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q19",
+            "202606041-Q19",
+            "202609021-Q19"
+          ],
+          "rationale": "심경·분위기 고1 표본 [107, 91, 123]단어와 비교해 현재 186단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "심경·분위기",
+          "benchmark_ids": [
+            "202603241-Q19",
+            "202606041-Q19",
+            "202609021-Q19"
+          ],
+          "reference_words": [
+            107,
+            91,
+            123
+          ],
+          "assessment_word_count": 186,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "심경·분위기 고1 표본 [107, 91, 123]단어와 비교해 현재 186단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q13",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q38",
+            "202606041-Q38",
+            "202609021-Q38"
+          ],
+          "rationale": "삽입 고1 표본 [138, 167, 165]단어와 비교해 현재 164단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "삽입",
+          "benchmark_ids": [
+            "202603241-Q38",
+            "202606041-Q38",
+            "202609021-Q38"
+          ],
+          "reference_words": [
+            138,
+            167,
+            165
+          ],
+          "assessment_word_count": 164,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "삽입 고1 표본 [138, 167, 165]단어와 비교해 현재 164단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q14",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q41_42",
+            "202606041-Q41_42",
+            "202609021-Q41_42"
+          ],
+          "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 247단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "long41_42",
+          "benchmark_ids": [
+            "202603241-Q41_42",
+            "202606041-Q41_42",
+            "202609021-Q41_42"
+          ],
+          "reference_words": [
+            212,
+            212,
+            216
+          ],
+          "assessment_word_count": 247,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 247단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q15",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q41_42",
+            "202606041-Q41_42",
+            "202609021-Q41_42"
+          ],
+          "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 247단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "long41_42",
+          "benchmark_ids": [
+            "202603241-Q41_42",
+            "202606041-Q41_42",
+            "202609021-Q41_42"
+          ],
+          "reference_words": [
+            212,
+            212,
+            216
+          ],
+          "assessment_word_count": 247,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 247단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q16",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q36",
+            "202606041-Q36",
+            "202609021-Q36"
+          ],
+          "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "순서",
+          "benchmark_ids": [
+            "202603241-Q36",
+            "202606041-Q36",
+            "202609021-Q36"
+          ],
+          "reference_words": [
+            134,
+            160,
+            168
+          ],
+          "assessment_word_count": 161,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q17",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q35",
+            "202606041-Q35",
+            "202609021-Q35"
+          ],
+          "rationale": "무관한 문장 고1 표본 [157, 130, 165]단어와 비교해 현재 156단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "무관한 문장",
+          "benchmark_ids": [
+            "202603241-Q35",
+            "202606041-Q35",
+            "202609021-Q35"
+          ],
+          "reference_words": [
+            157,
+            130,
+            165
+          ],
+          "assessment_word_count": 156,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "무관한 문장 고1 표본 [157, 130, 165]단어와 비교해 현재 156단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q18",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q19",
+            "202606041-Q19",
+            "202609021-Q19"
+          ],
+          "rationale": "심경·분위기 고1 표본 [107, 91, 123]단어와 비교해 현재 137단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "심경·분위기",
+          "benchmark_ids": [
+            "202603241-Q19",
+            "202606041-Q19",
+            "202609021-Q19"
+          ],
+          "reference_words": [
+            107,
+            91,
+            123
+          ],
+          "assessment_word_count": 137,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "심경·분위기 고1 표본 [107, 91, 123]단어와 비교해 현재 137단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q19",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q41_42",
+            "202606041-Q41_42",
+            "202609021-Q41_42"
+          ],
+          "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 239단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "long41_42",
+          "benchmark_ids": [
+            "202603241-Q41_42",
+            "202606041-Q41_42",
+            "202609021-Q41_42"
+          ],
+          "reference_words": [
+            212,
+            212,
+            216
+          ],
+          "assessment_word_count": 239,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 239단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      },
+      {
+        "question_id": "Q20",
+        "length_review": {
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_ids": [
+            "202603241-Q41_42",
+            "202606041-Q41_42",
+            "202609021-Q41_42"
+          ],
+          "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 239단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."
+        },
+        "length_comparison": {
+          "status": "RECORDED",
+          "profile_id": "kr-hs-english-2026-3-6-9-v1",
+          "grade": 1,
+          "benchmark_type": "long41_42",
+          "benchmark_ids": [
+            "202603241-Q41_42",
+            "202606041-Q41_42",
+            "202609021-Q41_42"
+          ],
+          "reference_words": [
+            212,
+            212,
+            216
+          ],
+          "assessment_word_count": 239,
+          "shorter_than_all_references": false,
+          "independent_review_required": false,
+          "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 239단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+          "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+        }
+      }
+    ]
+  },
+  "baseline_digest": {
+    "content_sha256": "580dda8890fd9d0481ed673f21a60ab6baece6d0f3972f1ce560a11df31a6fb2",
+    "canonical_full_json_sha256": "580dda8890fd9d0481ed673f21a60ab6baece6d0f3972f1ce560a11df31a6fb2",
+    "file_sha256": "67c52b251aa69c82cc15af31097ac2d4c77769826b5fda96c5795fbacca88f4e",
+    "file_sha256_status": "EXACT_INPUT_BYTES"
+  },
+  "change_scope": {
+    "full_learning_fallback": false,
+    "full_questions_fallback": true,
+    "reasons": [
+      "Question membership or unclassified field changed"
+    ],
+    "method": "COMPLETE_RECURSIVE_JSON_COMPARISON",
+    "changed_only": true,
+    "affected_unit_ids": [],
+    "affected_question_ids": [
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q07",
+      "Q08",
+      "Q09",
+      "Q10",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "Q19",
+      "Q20"
+    ]
+  },
+  "changes": [
+    {
+      "path": "/assessment/explanations/0/wrong_reasons/2/text",
+      "operation": "replace",
+      "before_canonical_sha256": "f4f58efbcb7e60c198dd5931f6becaf635bfded0d8bf427cd8dca477587e1042",
+      "before": "언론은 사람들이 ‘가뭄’이라는 말을 듣는 데 지치자 그것을 ‘흐름 위기’라고 불렀을 뿐, 사람들을 조용하게 만들려 했다는 내용은 없다.",
+      "after_canonical_sha256": "a13f33d82e80ca78d060798244c83e94d571cc72fa31d0ba0bd3af06dc5c667a",
+      "after": "언론은 사람들이 ‘가뭄’이라는 말을 듣는 데 지치자 그것을 ‘물 공급 위기’라고 불렀을 뿐, 사람들을 조용하게 만들려 했다는 내용은 없다."
+    },
+    {
+      "path": "/assessment/explanations/2/choices/2/text",
+      "operation": "replace",
+      "before_canonical_sha256": "25bfa4b23a02aa0c5389fb7a5223fc5966e1098e306f635ff9d147dd26795605",
+      "before": "Garrett first reminded Alyssa that they needed water, not ice.",
+      "after_canonical_sha256": "1b7cba8f28ef0345b18327af26d762bbe53ed498997565e9d6ce1ce9ea6e263e",
+      "after": "Garrett reminded Alyssa that they needed water, not ice."
+    },
+    {
+      "path": "/assessment/explanations/2/choices_ko/2/text",
+      "operation": "replace",
+      "before_canonical_sha256": "eb85cf34940f1886bbabf625f334c0436167655158fe2242ebf63ee9599aef71",
+      "before": "개릿은 처음에 자신들에게 필요한 것은 얼음이 아니라 물이라고 앨리사에게 상기시켰다.",
+      "after_canonical_sha256": "a883cbba5e08678cf2549e720bf475f6df61612835cadee9234c9a43009584dd",
+      "after": "개릿은 자신들에게 필요한 것은 얼음이 아니라 물이라고 앨리사에게 상기시켰다."
+    },
+    {
+      "path": "/assessment/explanations/6/wrong_reasons/0/text",
+      "operation": "replace",
+      "before_canonical_sha256": "c8b92b80f4ac49a67628593753bb89cbd9523157c4419024b05a3fc04f9c0874",
+      "before": "①에 넣으면 얼음 케이스를 이미 설명한 뒤에 “Then I see something.”이 와서, 앨리사가 본 ‘무언가’가 무엇인지 끝내 밝혀지지 않는다.",
+      "after_canonical_sha256": "1675976ec118b90f1424d4e999ee624e455a59357e1c6250a7c1225a7dcaf4f5",
+      "after": "이 위치에 넣으면 얼음 케이스를 이미 설명한 뒤에 “Then I see something.”이 와서, 앨리사가 본 ‘무언가’가 무엇인지 끝내 밝혀지지 않는다."
+    },
+    {
+      "path": "/assessment/explanations/6/wrong_reasons/1/text",
+      "operation": "replace",
+      "before_canonical_sha256": "7ba63b33b58b1377b0baeefcb899da95ffba167497ff4604a4192888239901e2",
+      "before": "③ 앞의 “I open the door and reach for a bag.”에서 the door와 a bag이 무엇의 문과 봉지인지 알 수 없게 되므로, 케이스는 그보다 앞에서 소개되어야 한다.",
+      "after_canonical_sha256": "80fb590101b2353971e62790d7643e9da8e274e01fe61af35727035225c0d19f",
+      "after": "이 위치에 넣으면 앨리사가 문을 열고 봉지에 손을 뻗은 뒤에야 진열장이 처음 소개되어, 발견(Then I see something) → 진열장 소개 → 문을 열고 봉지를 집는 행동의 순서가 거꾸로 된다."
+    },
+    {
+      "path": "/assessment/explanations/6/wrong_reasons/2/text",
+      "operation": "replace",
+      "before_canonical_sha256": "0a45cbb6d768a77b3c7af1e57898181ebb4f7eb0565da14cb03a77fc158a73e7",
+      "before": "④는 개릿과 앨리사가 얼음을 두고 주고받는 대화 사이로, 얼음 케이스를 처음 소개하는 문장이 들어가면 대화가 끊긴다.",
+      "after_canonical_sha256": "eb37695f74b748b9fb096aed7a19b502d187d4f3699d471a8908904a1d807e0a",
+      "after": "이 위치는 개릿과 앨리사가 얼음을 두고 주고받는 대화 사이로, 얼음 케이스를 처음 소개하는 문장이 들어가면 대화가 끊긴다."
+    },
+    {
+      "path": "/assessment/explanations/6/wrong_reasons/3/text",
+      "operation": "replace",
+      "before_canonical_sha256": "15db072c7752621b8bd9a76bb1692560dd21ec55d348d8e71cf0cb4d775eb919",
+      "before": "⑤에 넣어도 앞의 the door와 a bag이 가리킬 대상이 여전히 없고, 이미 얼음을 두고 대화한 뒤에 케이스를 처음 소개하게 되어 어색하다.",
+      "after_canonical_sha256": "557ecef81dc006921266cd05cfc3484fed592e53e50cb4c61cc4c8f7380bf76a",
+      "after": "이 위치는 이미 문을 열고 얼음을 두고 대화까지 나눈 뒤라, 진열장을 처음 소개하는 문장이 오면 발견 → 소개 → 행동의 시간 순서가 뒤집힌다."
+    },
+    {
+      "path": "/assessment/explanations/8/evidence",
+      "operation": "replace",
+      "before_canonical_sha256": "40fb83e3bc51450e41ccd326ef3956a5539cece7d5e2282d325800720a2ea9b5",
+      "before": "We have no running water out of the tap. / What I see in the carts in the checkout line are mostly water bottles. The essentials of life. / The shelves are already empty.",
+      "after_canonical_sha256": "f62696272376045cb7ce063c93e5c5db7bcc29b63af765199394c15d74c087b4",
+      "after": "We have no running water out of the tap. / What I see in the carts in the checkout line are mostly water bottles. The essentials of life. / As I approach the back of the store for water bottles, I realize I am too late."
+    },
+    {
+      "path": "/assessment/explanations/8/explanation",
+      "operation": "replace",
+      "before_canonical_sha256": "1267d16a0887e2396e4db8c86a7965292cbaa171727b1bb6d5988c80733339f2",
+      "before": "가뭄 위기로 수도꼭지의 물이 끊긴 날, 앨리사 가족은 쇼핑몰로 가고, 사람들은 삶의 필수품인 생수를 사려고 몰려들어 매장 선반은 이미 비어 있다. 따라서 ‘물이 멈춘 날: 필수품을 향한 쇄도’라는 ①이 제목으로 가장 적절하다.",
+      "after_canonical_sha256": "68b1c1895776db557885397e93a15dec369132f033f433952ef72408167af55f",
+      "after": "가뭄 위기로 수도꼭지의 물이 끊긴 날, 앨리사 가족은 쇼핑몰로 가고, 사람들은 삶의 필수품인 생수를 사려고 몰려들어 앨리사가 생수를 사러 갔을 때는 이미 너무 늦었다. 따라서 ‘물이 멈춘 날: 필수품을 향한 쇄도’라는 ①이 제목으로 가장 적절하다."
+    },
+    {
+      "path": "/assessment/explanations/8/wrong_reasons/3/text",
+      "operation": "replace",
+      "before_canonical_sha256": "f3a6ded3552fd845ac3bd7e8b397616beba323ee8d17fbf5a64b20b7fedd068a",
+      "before": "언론이 가뭄을 ‘흐름 위기’라고 부른다는 것은 한 문장의 세부 내용일 뿐 글 전체를 포괄하지 못한다.",
+      "after_canonical_sha256": "28260fe1b2b5dec2b87f21ed2d2653acb97003f9b38848ab877efccae5669ecd",
+      "after": "언론이 가뭄을 ‘물 공급 위기’라고 부른다는 것은 한 문장의 세부 내용일 뿐 글 전체를 포괄하지 못한다."
+    },
+    {
+      "path": "/assessment/explanations/12/wrong_reasons/0/text",
+      "operation": "replace",
+      "before_canonical_sha256": "187062c9d28dbca3ef39f3461a8de79ccf706c6b2c4f1dcd7a16240e4260c583",
+      "before": "① 앞은 바질 삼촌이 나타난 장면으로, Her가 가리킬 여성 인물이 없고 모험이 끝난다는 내용이 장면 한가운데 끼어든다.",
+      "after_canonical_sha256": "5bc926edc7e9f269cb5b1f450f80a47797b9cbaf5b0ce6fc25f5fe8df2b0be5e",
+      "after": "이 위치 앞은 바질 삼촌이 나타난 1인칭 현재 장면으로, 서술자 자신을 3인칭 Her로 가리키며 물 공급이 재개되는 결말을 요약하는 문장이 장면 한가운데 끼어들 수 없다."
+    },
+    {
+      "path": "/assessment/explanations/12/wrong_reasons/1/text",
+      "operation": "replace",
+      "before_canonical_sha256": "a285f2e5094240eee945bc262f7da82e12b0db14b6f284626a8cff1037bf2025",
+      "before": "② 앞은 남자가 “Not at all.”이라고 답하는 장면으로, Her가 가리킬 대상이 없고 이야기가 아직 진행 중이다.",
+      "after_canonical_sha256": "2ab0dd2cec954d4dd729122ec15cdf8c35543d50e47a1cf40a1cd6db017ed895",
+      "after": "이 위치 앞은 남자가 “Not at all.”이라고 답하는 장면으로, 이야기가 아직 진행 중인 1인칭 서술 속에 3인칭 결말 요약이 들어갈 수 없다."
+    },
+    {
+      "path": "/assessment/explanations/12/wrong_reasons/2/text",
+      "operation": "replace",
+      "before_canonical_sha256": "5427a36c94828316a3f9c54351f7aefb0aeb759a76984710e1259a1f47817f9b",
+      "before": "③에 넣으면 이야기가 끝난 것처럼 보이지만, 곧이어 ‘위 글은 소설 도입부를 줄인 것’이라는 설명이 나와 모순되고, 소녀(a girl)도 그 뒤에야 소개된다.",
+      "after_canonical_sha256": "57570c3876f5b73424b9eb7f18ff42f66b7374627e22e07e078adb21597a104d",
+      "after": "이 위치에 넣으면 이야기가 끝난 것처럼 보이지만, 곧이어 ‘위 글은 소설 도입부를 줄인 것’이라는 설명이 나와 모순되고, 소녀(a girl)도 그 뒤에야 소개된다."
+    },
+    {
+      "path": "/assessment/explanations/12/wrong_reasons/3/text",
+      "operation": "replace",
+      "before_canonical_sha256": "20d8bb26eb9e280ec44a6851b94152ddbd9d2a3408b9df515a898bedc25d4f5e",
+      "before": "④는 소설을 처음 언급한 문장 바로 뒤로, 소녀가 소개되기 전에 Her가 나오고 “It tells the story of a girl …”보다 결말이 먼저 오게 된다.",
+      "after_canonical_sha256": "d30ef91ac3e691e8fbc875b4c9114b96e272f93379e1747967a2c02b43b0b366",
+      "after": "이 위치는 소설을 처음 언급한 문장 바로 뒤로, 소녀가 소개되기 전에 Her가 나오고 “It tells the story of a girl …”보다 결말이 먼저 오게 된다."
+    },
+    {
+      "path": "/assessment/explanations/15/explanation",
+      "operation": "replace",
+      "before_canonical_sha256": "458a545d11e57dee415b9f9f6e715b66bb04fecc4f9bec81c4e9828a884b7adf",
+      "before": "주어진 글에서 수도꼭지의 물이 끊기자 앨리사가 엄마를 부르지만 엄마는 “쉿!”이라고 한다. (B) 엄마는 ‘흐름 위기’에 관한 뉴스를 보고 있었고, 위기가 새 단계에 들어서 수돗물이 나오지 않는다. (C) 그러자 바질 삼촌이 “쇼핑몰로!”라고 외치고, 주차장에서 인파를 본 뒤 아이들에게 먼저 들어가라고 한다. (A) 안은 최악일 때의 블랙 프라이데이 같고, 카트에는 대부분 생수가 담겨 있다. 따라서 (B)-(C)-(A)이다.",
+      "after_canonical_sha256": "75fc8be21fe67a89d97615aaeb051530fa1df75611d6c5fb8433f30a3dd9394c",
+      "after": "주어진 글에서 수도꼭지의 물이 끊기자 앨리사가 엄마를 부르지만 엄마는 “쉿!”이라고 한다. (B) 엄마는 ‘물 공급 위기’에 관한 뉴스를 보고 있었고, 위기가 새 단계에 들어서 수돗물이 나오지 않는다. (C) 그러자 바질 삼촌이 “쇼핑몰로!”라고 외치고, 주차장에서 인파를 본 뒤 아이들에게 먼저 들어가라고 한다. (A) 안은 최악일 때의 블랙 프라이데이 같고, 카트에는 대부분 생수가 담겨 있다. 따라서 (B)-(C)-(A)이다."
+    },
+    {
+      "path": "/assessment/explanations/17/explanation",
+      "operation": "replace",
+      "before_canonical_sha256": "6192d69940d5cf9a39a0616fe36e3826ca96b2d85cb08638005f842ef66c2a12",
+      "before": "처음에 앨리사는 카트를 밀어 준 남자에게 고마워하며 미소로 답하고, 호의에 보답하려고 얼음 한 봉지를 권한다. 그러나 남자가 나머지 얼음을 자기가 갖겠다고 진지하게 말하고, 웃는 얼굴과 달리 그의 눈이 무섭게 느껴진다. 따라서 ‘고마워하는 → 겁먹은’의 ①이 알맞다.",
+      "after_canonical_sha256": "92a2bebcc90fdd935ae9ca3c8ed05e18679c962b834f3a55818d343f941bf8ca",
+      "after": "처음에 앨리사는 자신들을 도와준 남자(him)에게 고마워하며(Thank you for helping us) 미소로 답하고, 호의에 보답하려고 얼음 한 봉지를 권한다. 그러나 남자가 나머지 얼음을 자기가 갖겠다고 진지하게 말하고, 웃는 얼굴과 달리 그의 눈이 무섭게 느껴진다. 따라서 ‘고마워하는 → 겁먹은’의 ①이 알맞다."
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/0/choice_number",
+      "operation": "replace",
+      "before_canonical_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "before": 1,
+      "after_canonical_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "after": 2
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/0/choice_span/0",
+      "operation": "replace",
+      "before_canonical_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "before": 0,
+      "after_canonical_sha256": "785f3ec7eb32f30b90cd0fcf3657d388b5ff4297f2f9716ff66e9b69c05ddd09",
+      "after": 22
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/0/choice_span/1",
+      "operation": "replace",
+      "before_canonical_sha256": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+      "before": 7,
+      "after_canonical_sha256": "c6f3ac57944a531490cd39902d0f777715fd005efac9a30622d5f5205e7f6894",
+      "after": 33
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/0/reason_ko",
+      "operation": "replace",
+      "before_canonical_sha256": "431684362ecbe674c29f8cb6dd4cd007d869885c317cdf0aeace751a920cd913",
+      "before": "이상한(strange) 소리는 첫 장면의 세부 내용일 뿐 글 전체의 주제가 아님을 판단해야 함",
+      "after_canonical_sha256": "fa31dbf041aad2c601bb2f02d87d65482f636e3880a32e7e4c63903ea92d0aec",
+      "after": "necessities가 본문의 essentials(필수품)와 같은 뜻임을 알아야 정답을 고를 수 있음"
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/0/surface",
+      "operation": "replace",
+      "before_canonical_sha256": "83fffa8a3800c59b9eac4078d6139ed70ae3c9853f3e658b8f158792a8742b77",
+      "before": "strange",
+      "after_canonical_sha256": "75306eb37015b5bc1c228709f2d62985d7d74a065e1d66b5881b3c44fc9ee66c",
+      "after": "necessities"
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/0/term_id",
+      "operation": "replace",
+      "before_canonical_sha256": "39708c04b6ff3b8aa540adab78e4ebfd7351935ea4f17e63ffd16eeca0bbe555",
+      "before": "u1-r1h",
+      "after_canonical_sha256": "5ba331bfbfdf709b92b1e35a8a74f5b0d8ac1425d9470429f1e441f6e9aae7be",
+      "after": "u1-r3s"
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/1/choice_number",
+      "operation": "replace",
+      "before_canonical_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "before": 2,
+      "after_canonical_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "after": 3
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/1/choice_span/0",
+      "operation": "replace",
+      "before_canonical_sha256": "785f3ec7eb32f30b90cd0fcf3657d388b5ff4297f2f9716ff66e9b69c05ddd09",
+      "before": 22,
+      "after_canonical_sha256": "59e19706d51d39f66711c2653cd7eb1291c94d9b55eb14bda74ce4dc636d015a",
+      "after": 28
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/1/choice_span/1",
+      "operation": "replace",
+      "before_canonical_sha256": "c6f3ac57944a531490cd39902d0f777715fd005efac9a30622d5f5205e7f6894",
+      "before": 33,
+      "after_canonical_sha256": "76a50887d8f1c2e9301755428990ad81479ee21c25b43215cf524541e0503269",
+      "after": 36
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/1/reason_ko",
+      "operation": "replace",
+      "before_canonical_sha256": "fa31dbf041aad2c601bb2f02d87d65482f636e3880a32e7e4c63903ea92d0aec",
+      "before": "necessities가 본문의 essentials(필수품)와 같은 뜻임을 알아야 정답을 고를 수 있음",
+      "after_canonical_sha256": "356ef113914f6cfea00f68d1b7337f474f1c7b4e86e482e5e6ea4e9da967a688",
+      "after": "luxuries(사치품)가 필수품과 반대되는 말임을 알아야 텔레비전·비디오 게임이 아니라는 본문과 어긋남을 판단할 수 있음"
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/1/surface",
+      "operation": "replace",
+      "before_canonical_sha256": "75306eb37015b5bc1c228709f2d62985d7d74a065e1d66b5881b3c44fc9ee66c",
+      "before": "necessities",
+      "after_canonical_sha256": "da4b886f5f094bbfca46f4f429353dc30d154195f513c6990b8ffda9e7de0658",
+      "after": "luxuries"
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/1/term_id",
+      "operation": "replace",
+      "before_canonical_sha256": "5ba331bfbfdf709b92b1e35a8a74f5b0d8ac1425d9470429f1e441f6e9aae7be",
+      "before": "u1-r3s",
+      "after_canonical_sha256": "5a186c15641a7d2a72874c7a5d8b05d053968d27af366550533d4618b91488f3",
+      "after": "u1-r3a"
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/2/choice_number",
+      "operation": "replace",
+      "before_canonical_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "before": 3,
+      "after_canonical_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+      "after": 4
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/2/choice_span/0",
+      "operation": "replace",
+      "before_canonical_sha256": "59e19706d51d39f66711c2653cd7eb1291c94d9b55eb14bda74ce4dc636d015a",
+      "before": 28,
+      "after_canonical_sha256": "9f14025af0065b30e47e23ebb3b491d39ae8ed17d33739e5ff3827ffb3634953",
+      "after": 35
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/2/choice_span/1",
+      "operation": "replace",
+      "before_canonical_sha256": "76a50887d8f1c2e9301755428990ad81479ee21c25b43215cf524541e0503269",
+      "before": 36,
+      "after_canonical_sha256": "d59eced1ded07f84c145592f65bdf854358e009c5cd705f5215bf18697fed103",
+      "after": 40
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/2/reason_ko",
+      "operation": "replace",
+      "before_canonical_sha256": "356ef113914f6cfea00f68d1b7337f474f1c7b4e86e482e5e6ea4e9da967a688",
+      "before": "luxuries(사치품)가 필수품과 반대되는 말임을 알아야 텔레비전·비디오 게임이 아니라는 본문과 어긋남을 판단할 수 있음",
+      "after_canonical_sha256": "8f0e1b69a00276adae3d131ea508891ce77c1ff8434659f3de919fdb46ff65bf",
+      "after": "사람들을 조용하게(quiet) 만든다는 내용이 본문에 없음을 판단해야 함"
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/2/surface",
+      "operation": "replace",
+      "before_canonical_sha256": "da4b886f5f094bbfca46f4f429353dc30d154195f513c6990b8ffda9e7de0658",
+      "before": "luxuries",
+      "after_canonical_sha256": "7024344971a6e8bb9eb9f63cf5748433b37425045796372ad2e7be683241a907",
+      "after": "quiet"
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/2/term_id",
+      "operation": "replace",
+      "before_canonical_sha256": "5a186c15641a7d2a72874c7a5d8b05d053968d27af366550533d4618b91488f3",
+      "before": "u1-r3a",
+      "after_canonical_sha256": "b7108ded06835499f21715cf75abeeb78f31fa557fbe0b6746819faa64c70a53",
+      "after": "u1-r2s"
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/3/choice_number",
+      "operation": "replace",
+      "before_canonical_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+      "before": 4,
+      "after_canonical_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "after": 5
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/3/choice_span/0",
+      "operation": "replace",
+      "before_canonical_sha256": "9f14025af0065b30e47e23ebb3b491d39ae8ed17d33739e5ff3827ffb3634953",
+      "before": 35,
+      "after_canonical_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "after": 2
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/3/choice_span/1",
+      "operation": "replace",
+      "before_canonical_sha256": "d59eced1ded07f84c145592f65bdf854358e009c5cd705f5215bf18697fed103",
+      "before": 40,
+      "after_canonical_sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+      "after": 8
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/3/reason_ko",
+      "operation": "replace",
+      "before_canonical_sha256": "8f0e1b69a00276adae3d131ea508891ce77c1ff8434659f3de919fdb46ff65bf",
+      "before": "사람들을 조용하게(quiet) 만든다는 내용이 본문에 없음을 판단해야 함",
+      "after_canonical_sha256": "c5f3bd9c6007b2d26582767160d8293af5ee42ddb03ae34e90289fa56832baeb",
+      "after": "평범한(normal) 나들이가 아니라 물이 끊긴 위기 속 외출임을 판단해야 함"
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/3/surface",
+      "operation": "replace",
+      "before_canonical_sha256": "7024344971a6e8bb9eb9f63cf5748433b37425045796372ad2e7be683241a907",
+      "before": "quiet",
+      "after_canonical_sha256": "82fbb169e798324839513347c048ecc9c91a6574588e1760f13d6b9650c328bf",
+      "after": "normal"
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/3/term_id",
+      "operation": "replace",
+      "before_canonical_sha256": "b7108ded06835499f21715cf75abeeb78f31fa557fbe0b6746819faa64c70a53",
+      "before": "u1-r2s",
+      "after_canonical_sha256": "c99c7d21a718f58b27f3cc4d0c14c179b27a6bb1ff2b4549459a64149eececa0",
+      "after": "u1-r1a"
+    },
+    {
+      "path": "/assessment/questions/0/learned_relation_uses/4",
+      "operation": "remove",
+      "before_canonical_sha256": "ad59147ad4e5f647e347337569f1f062710ff73ace1a1a41deca22f6fbf62323",
+      "before": {
+        "term_id": "u1-r1a",
+        "choice_number": 5,
+        "choice_span": [
+          2,
+          8
+        ],
+        "surface": "normal",
+        "reason_ko": "평범한(normal) 나들이가 아니라 물이 끊긴 위기 속 외출임을 판단해야 함"
+      }
+    },
+    {
+      "path": "/assessment/questions/2/choices/2/text",
+      "operation": "replace",
+      "before_canonical_sha256": "25bfa4b23a02aa0c5389fb7a5223fc5966e1098e306f635ff9d147dd26795605",
+      "before": "Garrett first reminded Alyssa that they needed water, not ice.",
+      "after_canonical_sha256": "1b7cba8f28ef0345b18327af26d762bbe53ed498997565e9d6ce1ce9ea6e263e",
+      "after": "Garrett reminded Alyssa that they needed water, not ice."
+    },
+    {
+      "path": "/assessment/questions/3/learned_relation_uses/3",
+      "operation": "remove",
+      "before_canonical_sha256": "9444ae69f59e115ce0193a993acac046ea9aff8e02fa96eb417fe058a74f6712",
+      "before": {
+        "term_id": "u4-r1h",
+        "choice_number": 4,
+        "choice_span": [
+          21,
+          26
+        ],
+        "surface": "heavy",
+        "reason_ko": "마음을 무겁게(heavy) 한다는 부정적인 내용이 ‘알게 되어 좋다’는 문맥과 맞지 않음을 판단해야 함"
+      }
+    }
+  ]
+}
