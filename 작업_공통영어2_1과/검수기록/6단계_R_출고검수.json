@@ -1,0 +1,224 @@
+{
+ "reviewer_id": "R",
+ "role": "R",
+ "kind": "release",
+ "independent": true,
+ "execution_id": "session_01RFnquUW4CDHQDXK8RH17Jp/R-release",
+ "performed_at": "2026-09-28",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1",
+   "u2",
+   "u3",
+   "u4"
+  ],
+  "question_ids": [
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06",
+   "Q07",
+   "Q08",
+   "Q09",
+   "Q10",
+   "Q11",
+   "Q12",
+   "Q13",
+   "Q14",
+   "Q15",
+   "Q16",
+   "Q17",
+   "Q18",
+   "Q19"
+  ]
+ },
+ "inputs": {
+  "docx_sha256": "6b25353601061dc5b547ba65432c567737174494201b02b9c6d86da91a68b645",
+  "pdf_sha256": "ac1927dce015edd1193d7d8b0204bab6b43dcf3547bc9b30a31e662b22ffddb2",
+  "learning_final_sha256": "9516ff5e6e0127f95baf0fb6437ea68b687cf40dee17f4d255827fee55014bb7",
+  "assessment_final_sha256": "445bf969ac040c1fb0eae6ecbd6576e3ee01fbd4f1fdb770a949b7546ef92c21",
+  "manuscript_sha256": "02a6348ede54737fa0edf3d95848de278e7e5e7e25060c264f5cc1f2f6418eea",
+  "plan_sha256": "a8c43fa0c8ede24e7c0d41db1b11c1a2cbde49634fa8d3853ca45fdd7ddfb9cf",
+  "source_pdf_sha256": "a84f5471130f0f0420964122864df806b5719309fde01bc6090837c6c6174043",
+  "split_manifest_path": "/home/user/E2NEoh2/결과물/출고_20260928/분권내보내기.json",
+  "delivery_zip_sha256": "d8d8674532831ae9abfa4bf47e986d73a69da9012e2b44deb4a42d60f227cd01",
+  "r_prep_report": "/home/user/E2NEoh2/작업_공통영어2_1과/검사기록/07_R준비_출고텍스트대조.json"
+ },
+ "method": "통합 DOCX를 unzip으로 풀어 document.xml·footer1.xml·core.xml 문단 텍스트를 직접 추출(1,167문단). 두 FINAL TXT의 모든 값 줄·표 셀(학습 464개, 문제 625개)을 공백·기호 정규화 후 DOCX 텍스트에 대조. 문장 번호·자연 해석·워크북 5개 활동·모의고사 문항 수를 따로 셈. 문제 FINAL의 ANSWER 19개를 빠른 정답표와 해설 정답 번호에 각각 대조. 원고 learning 부분(metadata·sentences·units에서 workbook 제외)을 L재검수2 입력 패킷 selected_data와 JSON 단위로 비교. 검수기록 S/L/M/N/J/K의 상태·해시 연결을 확인. 분권 6개 DOCX·ZIP은 해시를 재계산하고 문단을 합쳐 통합본과 대조. LibreOffice PDF 55쪽 전체 축소본을 보고, 1·9·25·35·50·51·53쪽은 원본 크기로 확인. 19문항은 정답 유일성과 자기 지문 밖 정답 단서 여부를 직접 다시 읽어 확인.",
+ "release_text_dispositions": {
+  "R-0001": {
+   "status": "resolved",
+   "resolution": "내용 결함이 아닌 조판상 줄바꿈으로 판정하여 비차단으로 수용하고 텍스트는 고치지 않음. 위치는 53쪽 미니 모의고사 2회 5번(Q14) 해설 둘째 문단 '…찾아 읽어야 한다. ④ / 의 support(지지하다)는 …'. DOCX에서 이 부분은 '④' run(원문자 역할, 맑은 고딕)과 '의 support…' run이 공백 없이 붙어 있고 정규화 본문은 FINAL과 같음(07 보고서 normalized_text_equal=true). 이 PDF는 맑은 고딕이 없어 WenQuanYi/DejaVu로 대체 렌더된 LibreOffice 미리보기라 줄 폭이 Word와 다름. 같은 '원문자+조사' 형태 17곳 가운데 이곳만 갈렸고 읽는 데 오해 소지가 없음. 교사용 05권(정답해설지)에만 해당하며 학생 문항에는 영향 없음.",
+   "recheck": "Word 렌더(미실시)에서 Q14 해설의 이 위치를 확인한다. Word에서도 '④'와 '의'가 갈리면 원고 explanations의 Q14 문구 '④의'에 줄바꿈 금지 결합(U+2060 WORD JOINER)을 넣는다. 같은 형태인 Q09 '④의 trust', Q19 '②의 pleased'도 함께 처리한 뒤 재빌드하고 정규화 대조와 해당 쪽 확대 확인을 다시 한다. J2-02(28쪽 '★핵/심' 분리)와 같은 유형이므로 한 번에 확인한다."
+  },
+  "R-0002": {
+   "status": "resolved",
+   "resolution": "자리표시자가 아니라고 판정함(오탐). 해당 텍스트는 미니 모의고사 1회 5번(Q09, 어휘) 오답 ⑤ negative의 실제 배제 이유이며 문제 FINAL 596행과 글자 그대로 같음. 근거 원문은 문장 30 '…while unconsciously believing news that reports something negative about other candidates.'로, negative는 원문 그대로의 낱말이고 이유 설명도 내용과 맞음. 51쪽 원본 크기 확인 결과 '오답 정리' ①②③⑤ 네 줄이 모두 완결 문장으로 찍혀 있음. 괄호 빈칸, XX/TODO, 미완성 문장 없음. 정답 ④(trust→ignore)와 빠른 정답 1회 5번 ④도 일치함.",
+   "recheck": "수정할 것 없음. 이후 Q09 문구가 바뀔 때만 FINAL·DOCX 대조를 다시 한다."
+  }
+ },
+ "checks": [
+  {
+   "item": "1. 교재 식별(표지·머리말·꼬리말·잔존 문구)",
+   "status": "PASS",
+   "evidence": "1쪽 표지 표시: 혼공교재 독해편 / 공통영어2 / YBM(박준언) · 1과 / Warning: Fake News Alert! / 경고: 가짜 뉴스 주의! / 4개 문단·본문 47문장·전체 19문항 / 워크북 실전문제 4문항 + 미니 모의고사 5문항×3회. 원문 PDF 1쪽 제목('2022 개정│YBM(박준언)', '공통영어2', 'Warning: Fake News Alert!')과 일치. DOCX에는 header 파트가 없고 footer1.xml은 '- PAGE -'와 'ⓒ TOM’S EDU · blog.naver.com/jin6942'뿐. 본문 구획 제목도 모두 같음('공통영어2 YBM(박준언) · 1과 혼공해석지' 4회, '1과 · 문단 N | 지문 분석', '1과 미니 모의고사 N회 / Warning: Fake News Alert! · 5문항', '1과 정답과 해설'). 전체 텍스트 검색 결과 '(공통 없는) 영어2' 0건, '2~9과' 0건, Lesson/UNIT/LESSON 0건, Further Reading 0건, 다른 출판사명 0건(‘비상’은 모두 ‘비상사태’), 자리표시자(XX/TODO/{ }) 0건. 분권 5개의 꼬리말도 같음. 파일명 6개와 ZIP 이름이 규칙(혼공독해교재_공통영어2_YBM(박)_1과…)을 따름."
+  },
+  {
+   "item": "2a. 47문장 해석지·분석지 완결성",
+   "status": "PASS",
+   "evidence": "혼공해석지의 '주어·동사' 블록 번호가 1~47로 연속(47개)이고, 지문 분석 끊어읽기도 1~47로 연속(47개). '↳ 자연 해석' 47개가 FINAL [자연 해석] 47개와 순서·글자 모두 일치. FINAL의 원문·혼공 끊어읽기·S/V·각주 47개와 구조 힌트 61개는 전부 DOCX에 있음. 분석 끊어읽기 한국어는 DOCX에서 청크 번호가 붙은 형태로 출력되며, 번호를 지우고 대조하면 일치."
+  },
+  {
+   "item": "2b. 4개 단위 분석부",
+   "status": "PASS",
+   "evidence": "단위마다 글의 의도/요지·글의 흐름·각 문장 쉬운 풀이·구문으로 해석하기·유의어·반의어가 있음(각 4개). 흐름 항목 12줄은 DOCX에서 '[a~b번 문장]' 형태로 바뀌어 출력되고 본문은 전부 일치. 원문 소제목 3개(Impact/Reasons/Ways)가 원문 PDF의 소제목과 같음. u1 제목과 u2~u4 주제는 FINAL과 같음."
+  },
+  {
+   "item": "2c. 워크북(WB01~WB04)",
+   "status": "PASS",
+   "evidence": "단위마다 1. 오늘의 낱말(8) / 2. 유의어·반의어 뜻 쓰기(9) / 3. 실전문제 / 4. 구문 결합해서 해석하기 / 5. 핵심 문장 2개 다시 해석하기가 있음(4단위 × 5활동). 도움말·빈칸·핵심 문장 텍스트가 문제 FINAL과 일치. 학생용 영역(정답과 해설 앞 797문단)에 정답·오답·해설 문구가 새어 나온 곳 없음. 분권 01~04권에도 정답형 문구 0건."
+  },
+  {
+   "item": "2d. 19문항과 공유 장문",
+   "status": "PASS",
+   "evidence": "워크북 실전문제 1~4(Q01~Q04). 미니 모의고사 1·2·3회는 각 5문항(Q05~09, Q10~14, Q15~19)이고 [4~5] 공유 장문 3개가 FINAL PASSAGE_GROUP과 같음. 발문·지문·선지·주어진 글·요약문 모두 FINAL과 일치. 어휘 문항의 밑줄(provocative/share/simply/trust/negative, beyond/accidentally/critical/support/reduce, immediately/pleased/criticized/deliberate/harm)과 Q16 'fall into the trap' 밑줄(발문·지문)이 w:u 서식으로 들어 있음. 중복·누락 없음."
+  },
+  {
+   "item": "2e. 빠른 정답과 해설의 일치",
+   "status": "PASS",
+   "evidence": "빠른 정답: 워크북 ②⑤①② / 1회 ③④②⑤④ / 2회 ④①③②④ / 3회 ④⑤③①②. 문제 FINAL ANSWER(Q01~Q19 = 2,5,1,2,3,4,2,5,4,4,1,3,2,4,4,5,3,1,2)와 일치하고, 해설 본문의 정답 번호 19개와도 모두 일치. 문항마다 정답 근거·해설·선지 해석(해당 유형)·정답 외 네 선지의 오답 정리가 있음(어휘 문항은 선지 해석 없이 오답 정리 4개). M/N 대조확인의 답 19개와도 일치."
+  },
+  {
+   "item": "2f. 문항 타당성(교사 기준: 문항 오류 없음, 자기 지문 밖 정답 단서 없음)",
+   "status": "PASS",
+   "evidence": "R이 19문항을 다시 읽어 정답이 하나로 정해짐을 확인함. 회차 안 지문 중복·단서 누출도 점검함. 1회 Q09의 원래 낱말 ignore는 Q05·Q06·Q07 지문에 없음. 2회 Q14의 원래 낱말 oppose는 Q10·Q11·Q12 지문에 없음. 3회 Q19의 원래 낱말 embarrassed는 Q15·Q16·Q17 지문에 없음. Q11 빈칸의 원문 'fits their prejudices'는 같은 회차 다른 지문에 없음. Q02 ①의 'as Gina did'와 Q05 해설의 '지나처럼'은 각 지문 안의 'like Gina'가 근거. Q17(원문 15~19, 약 100단어)은 사용자가 허용한 단일 지문 분량. Q12 삽입 문장(인도네시아 관광)은 명백한 무관 문장. Q18 ①은 3차 블라인드 뒤 문구가 바뀌었으나 M/N이 대조 단계에서 다시 풀었고(①, high), R 확인에서도 비판자→유포자 대비와 'not unusual' 일반화로 정답이 하나뿐임."
+  },
+  {
+   "item": "2g. 분권 5개와 ZIP",
+   "status": "PASS",
+   "evidence": "ZIP(d8d86745…)의 testzip 결과 오류 없음. 엔트리는 DOCX 6개뿐이고 각 해시가 분권내보내기.json과 일치하며 통합본 사본은 6b253536…로 바이트 동일. 01~05권 문단 합계 1,167 = 통합본 1,167이고 문단 다중집합 차이 0. 01~04권에 정답형 문구 0건, 05권에 정답·해설 전부 포함. (분권 시각 검수는 아래 미완료 항목 참조)"
+  },
+  {
+   "item": "3a. 53쪽 시각 확인(R-0001)",
+   "status": "PASS",
+   "evidence": "원본 크기(910×1287) p-53 확인. 2회 4번 ②·5번 ④ 해설이 잘림·겹침·바닥글 침범 없이 완결. 문제는 5번 해설 둘째 줄 끝 '④'와 다음 줄 첫머리 '의'가 갈린 것 하나뿐 → release_text_dispositions.R-0001."
+  },
+  {
+   "item": "3b. 미니 모의고사 1회 정답 쪽 시각 확인(R-0002)",
+   "status": "PASS",
+   "evidence": "p-50(1회 1~3번), p-51(3번 오답 정리~5번) 원본 크기 확인. 5번 ④ 해설과 오답 정리 ①②③⑤가 완결되어 있고 ⑤ 줄은 정상 문장임 → release_text_dispositions.R-0002. 50→51쪽 경계는 3번 '오답 정리' 소제목 단위로 나뉘며 고립된 요소 없음."
+  },
+  {
+   "item": "4a. S(원문) 검수의 현재성",
+   "status": "PASS",
+   "evidence": "2단계_S_원문대조.json status PASS이고 findings는 빈 배열. 원문 PDF sha a84f5471…가 현재 원문 파일 해시와 같음. 원고 sources·sentences는 이후 바뀌지 않음(L 패킷과 현재 원고의 sentences가 JSON 단위로 동일)."
+  },
+  {
+   "item": "4b. L(해석·분석) 검수의 현재성: learning FINAL 9516ff5e…",
+   "status": "PASS",
+   "evidence": "최종 판정 기록은 2단계_L재검수2_확인.json(PASS, 20:06). L재검수_u3u4의 FIX_REQUIRED 4건과 u1u2·연결 지적은 모두 '반영확인'. 이 기록의 입력 패킷(검수입력/L_재검수2_변경분.json)의 selected_data metadata·sentences·units(workbook 제외)가 현재 원고와 완전히 같음(R이 JSON diff 실행, 차이는 units[*].workbook 추가뿐). 기록이 인용한 QC_HANDOFF 행 번호(215·297·315·414·641)도 현재 learning FINAL의 같은 행 내용과 맞음. 현재 learning QC_HANDOFF(21:23 재출력)도 FINAL과 같은 해시 9516ff5e…. 따라서 이 PASS는 현재 학습 내용을 다룬다. 다만 기록 자체에 learning_final_sha256·reviewer_id·execution_id 연결 필드가 없음(아래 R-F04)."
+  },
+  {
+   "item": "4c. M/N(문제) 검수의 현재성: assessment FINAL 445bf969…",
+   "status": "PASS",
+   "evidence": "4단계_M_대조확인.json·4단계_N_대조확인.json 모두 PASS, new_findings는 빈 배열이고 solved_before_answer_key=true. input_sha256은 문제_QC_HANDOFF 445bf969…(= 문제 FINAL)와 원고 02a6348e…(= 현재 원고). 대조검수 단계의 M-01~04, N-01~04는 모두 반영확인. 블라인드 1~3차 뒤 바뀐 문항(Q04·Q07·Q11·Q15·Q16·Q17·Q18·Q19)은 재풀이로 확인됨. 대조 단계의 answers 19개가 FINAL과 일치."
+  },
+  {
+   "item": "4d. 기계 검사(제작검사·R준비)의 현재성",
+   "status": "PASS",
+   "evidence": "06_전체_제작검사.json: input 02a6348e…(현재 원고), saved 6b253536…(현재 DOCX), saved_docx_validation=SAVED_CONTENT_MATCH·full·format PASS(24블록). 07_R준비: machine_status PASS, 모든 bindings(원고·계획·DOCX·PDF·두 FINAL)가 현재 해시와 같음, 정규화 문자 수 76,410/76,410 일치."
+  },
+  {
+   "item": "4e. J/K(조판) 검수의 현재성",
+   "status": "PASS",
+   "evidence": "J1·J2·K1·K2 모두 status PASS이며 source_pdf_sha256은 ac1927dc…(현재 PDF, 07 보고서가 현재 DOCX 6b253536…에 연결). 네 기록을 합치면 1~55쪽 전체와 모든 인접 경계를 다룸. 옛 버전을 가리키는 PASS는 없음. 다만 renderer=LibreOffice이고 7개 검토제안에 처리 상태가 없음(아래 R-F03)."
+  },
+  {
+   "item": "5. 교사 관점 출고 차단 결함",
+   "status": "PASS",
+   "evidence": "내용 차단 결함 없음: 교재 식별 오류, 누락·중복, 정답 불일치, 문항 오류, 외부 정답 단서, 학생용 정답 노출 모두 0건. 남은 것은 모두 조판 미관 문제로, LibreOffice 글꼴 대체에 따른 거의 빈 25·35쪽(J2-01·K1-01), 홀수 9항목 표의 빈 답안선(J1-01·J2-03·K1-02), 줄 끝 표시 분리(R-0001·J2-02), 빠른 정답 음영(K2-01)이다. 교사가 출고를 막을 수준은 아님."
+  }
+ ],
+ "word_render": "NOT_PERFORMED (Microsoft Word unavailable; LibreOffice preview only)",
+ "status": "PASS",
+ "status_scope": "R 독립 출고 검수 범위(교재 식별·내용 완결성·정답/해설 대응·문항 타당성·검수 기록의 현재 버전 연결·R-0001/R-0002 처리) 기준 PASS이며, 내용 수정은 필요 없음. 표준 전체 출고 게이트는 아래 release_gate_pending 때문에 REVIEW_PENDING이고, 이 R PASS를 최종 출고 통과(READY_FOR_RELEASE)로 표시하지 않는다.",
+ "release_gate": "REVIEW_PENDING",
+ "release_gate_pending": [
+  {
+   "id": "R-F01",
+   "description": "Microsoft Word 렌더와 Word 기준 J/K 시각 검수가 없다. 규칙(workflow 출고 4항, release-record word_render)상 최종 쪽 경계는 Word PDF로 확인해야 한다. 현재 PDF는 맑은 고딕 대신 WenQuanYi/DejaVu/Liberation으로 대체된 LibreOffice 렌더이다.",
+   "owner": "제작/J·K",
+   "status": "open",
+   "next": "Word가 있는 환경에서 통합본과 분권 5개를 렌더(receipt 포함)한다. R-0001, J2-01(25쪽), K1-01(35쪽), J2-02(28쪽), K2-01(45쪽)은 Word 결과로 재확인한다."
+  },
+  {
+   "id": "R-F02",
+   "description": "분권 5개의 J/K 시각 검수 기록이 없다. 예비렌더_LibreOffice/분권/*.pdf와 검수입력/조판/분권_JK_지시문.txt(21:31)는 있으나 검수기록에 결과 JSON이 없다. 분권내보내기.json의 visual_review도 NOT_PERFORMED이다.",
+   "owner": "J/K",
+   "status": "open",
+   "next": "분권 J/K 검수를 완료·기록한 뒤 verify_split_release.py를 실행한다."
+  },
+  {
+   "id": "R-F03",
+   "description": "J/K 검토제안 7건(J1-01, J2-01, J2-02, J2-03, K1-01, K1-02, K2-01)에 status/resolution/recheck가 없다. release-record 규칙상 출고 전 발견 사항은 resolved와 근거가 필요하다. R 평가로는 7건 모두 비차단 미관 문제다. 이 가운데 J2-01·K1-01·J2-02·K2-01은 글꼴 대체에 따른 것일 수 있어 Word에서 재현될 때만 조치하면 된다. J1-01·J2-03·K1-02(9항목 표 마지막 행의 빈 답안선)는 렌더러와 무관하게 되풀이되는 형태라, 빈 칸의 답안선을 없애거나 MASTER 디자인으로 수용하는 결정을 기록해야 한다.",
+   "owner": "제작/J·K",
+   "status": "open",
+   "next": "각 항목에 수용/수정 결정과 재확인 근거를 기록한다."
+  },
+  {
+   "id": "R-F04",
+   "description": "S/L 기록 형식이 release-record 스키마를 따르지 않는다. reviewer_id·execution_id·performed_at·scope ID 목록·bindings(package/learning_content/learning_final sha)가 없다. J/K 기록에도 docx·plan·contract 연결이 없다. 내용상 현재성은 R이 따로 확인했지만(4a·4b), verify_release.py 게이트는 이 형식을 거부할 수 있다.",
+   "owner": "제작",
+   "status": "open",
+   "next": "실제 검수 결과를 바꾸지 않고, 현재 해시와 실제 실행 식별자를 연결한 출고 기록을 작성한다(허위 ID 금지)."
+  },
+  {
+   "id": "R-F05",
+   "description": "이 과의 수정인계·수정이력·출고검수 TXT([교재명]_UNIT01_수정인계.txt 등)가 작업_공통영어2_1과 폴더에 없다. workflow가 요구하는 현재 상태 인계 문서가 없는 것이다.",
+   "owner": "제작",
+   "status": "open",
+   "next": "현재 상태·미해결 항목·다음 조치를 적은 수정인계를 만든다."
+  }
+ ],
+ "findings": [
+  {
+   "id": "R-0001",
+   "description": "53쪽 Q14 해설에서 '④'가 줄 끝에, '의'가 다음 줄 첫머리에 놓임(LibreOffice 미리보기).",
+   "status": "resolved",
+   "resolution": "비차단 조판 현상으로 수용하고 텍스트는 그대로 둠. 상세 내용은 release_text_dispositions.R-0001.",
+   "recheck": "Word 렌더에서 재확인(R-F01). 재현되면 U+2060으로 결합하고 재빌드."
+  },
+  {
+   "id": "R-0002",
+   "description": "answers/mock1 Q09 오답 ⑤ 문구가 자리표시자 후보로 표시됨.",
+   "status": "resolved",
+   "resolution": "오탐. 문제 FINAL 596행·원문 문장 30과 일치하는 정상 해설이며 51쪽에서 완결 출력됨.",
+   "recheck": "수정할 것 없음."
+  },
+  {
+   "id": "R-F06",
+   "description": "Q18 정답 선지 ①의 문구가 3차 블라인드 풀이 뒤에 바뀌어('…How Anyone Can Pass On Fake News' → 'From Critic to Spreader: Even Critics of Fake News Can Spread It') 새 문구는 블라인드 조건이 아닌 대조 단계에서 M/N이 다시 풀었다.",
+   "status": "resolved",
+   "resolution": "M/N 모두 대조 단계에서 ①을 high 확신으로 답함. R이 다시 읽어 비판자→유포자 대비(At that time… / This time, however…)와 'not unusual' 일반화로 ①이 유일한 정답이고 ②~⑤는 지문과 명백히 어긋남을 확인함. Q15 마지막 문장 'Anyone…'와의 어휘 겹침도 없어짐.",
+   "recheck": "없음."
+  },
+  {
+   "id": "R-F07",
+   "description": "원고 내부 필드 s14 reading_checks.review_record에 '힌트 1개'가 남아 있음. 실제 힌트는 2개이며 L재검수2 참고 R2C-참고-01로 지적된 항목임.",
+   "status": "resolved",
+   "resolution": "학생용·교사용 출력에 나오지 않는 내부 기록이라 출고에 영향 없음(비차단 참고)으로 수용함. 다음 원고 수정 때 함께 고치도록 인계.",
+   "recheck": "없음."
+  }
+ ],
+ "limits": [
+  "Word 렌더·Word 쪽 흐름은 확인하지 못함(환경에 Word 없음).",
+  "분권 5권의 쪽별 시각 검수는 R 범위가 아니며 수행하지 않음(내용 분할만 확인).",
+  "스킬 패키지 전체 해시와 verify_release.py/verify_split_release.py는 실행하지 않음."
+ ]
+}
