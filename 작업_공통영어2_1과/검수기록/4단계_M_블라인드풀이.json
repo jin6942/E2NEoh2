@@ -1,0 +1,108 @@
+{
+  "reviewer_id": "M",
+  "role": "M",
+  "solved_before_answer_key": true,
+  "input": "검수입력/문제_블라인드.json",
+  "input_sha256": "83cbb45bbca551e3bbb41a3a008cae60325df6b83a83e281600227bb4b74e9e7",
+  "answers": {
+    "Q01": 2,
+    "Q02": 5,
+    "Q03": 1,
+    "Q04": 2,
+    "Q05": 3,
+    "Q06": 4,
+    "Q07": 4,
+    "Q08": 5,
+    "Q09": 4,
+    "Q10": 4,
+    "Q11": 1,
+    "Q12": 3,
+    "Q13": 2,
+    "Q14": 4,
+    "Q15": 2,
+    "Q16": 5,
+    "Q17": 2,
+    "Q18": 1,
+    "Q19": 3
+  },
+  "rationales": {
+    "Q01": "Gina는 과거 가짜 뉴스 제작·유포자를 비판했으나(At that time, Gina criticized ...) 이번에는 자신이 실수로 가짜 뉴스 확산에 기여했다(This time, however, Gina herself had accidentally contributed ...)는 대비가 주제이다.",
+    "Q02": "마지막 문장에서 정부는 그 정보가 가짜라고 발표해야 했다(the government had to announce that the information was fake)고 하므로 '정확하다고 확인했다'는 ⑤가 불일치한다. ①~④는 각각 첫 네 문장·다섯째 문장과 일치한다.",
+    "Q03": "첫 문장 'Fake news ... spreads significantly farther and faster than true stories'와 6배 빠르다는 MIT 연구 후, 그 이유(새롭고 자극적인 것 선호, 단순한 사고, 확증 편향)를 설명하므로 ①이 제목이다.",
+    "Q04": "'if you have the ability to view information critically and objectively, you will be able to reduce the damage'와 출처의 신뢰성·증거의 타당성 확인(check whether the news story is from a reliable media source and the evidence is valid)이 필자의 주장이므로 ②.",
+    "Q05": "가짜 뉴스는 사람들을 조작하려는 의도적 시도(deliberate attempt to manipulate)이며 사회를 혼란시키고 심각한 해를 끼칠 수 있고, 특히 비상 상황에서 흔히 퍼진다(Ambon 사례)는 것이 요지이므로 ③.",
+    "Q06": "주어진 글(공유) 뒤 (C) 'Later' TV 뉴스로 가짜임을 알고 당황 → (A) 'It reminded her of another incident'(그 일이 과거 운동선수 사망 가짜 뉴스를 떠올리게 함, content creators 등장) → (B) 'They produced ...'(content creators를 They로 받음)와 'This time, however' 결론.",
+    "Q07": "④ 뒤 'Consider if your own beliefs could affect your judgment'가 편견 점검의 구체 내용이며, 앞은 Second(critical thinking)의 설명, 뒤는 Finally이므로 Third 문장은 ④에 들어간다.",
+    "Q08": "가짜 뉴스가 진짜 뉴스보다 6배 빠르게 퍼진다는 현상과 그 원인(자극적인 것 선호, 단순한 사고, 확증 편향)을 설명하므로 ⑤ 'What Makes Fake News Spread So Fast?'",
+    "Q09": "확증 편향은 신념을 확인하는 뉴스만 선택적으로 받아들이는 것이므로, 신념을 지지하지 않는 뉴스는 '무시(ignore)'해야 문맥에 맞다. ④ trust는 부적절.",
+    "Q10": "'It had been made by content creators who sought people’s attention.'이므로 ④ 일치. ①은 SNS에서 처음 봄, ②는 확인 없이 즉시 공유, ③은 기자가 가짜라고 함, ⑤는 비판함(criticized)이므로 불일치.",
+    "Q11": "빈칸 뒤 'confirmation bias', 'only confirms their beliefs and ignore news that doesn’t support them'에서 사람들은 이미 믿는 바와 일치하는 정보를 믿는 경향이 있으므로 ①.",
+    "Q12": "비상 시 가짜 뉴스 확산(Ambon 지진 후 쓰나미 가짜 뉴스)에 관한 글에서 ③ 인도네시아의 아름다운 섬과 관광객 이야기는 무관하며, ④ 'This was because of ...'는 ②의 대피 상황을 직접 받는다.",
+    "Q13": "가짜 뉴스에 속지 않기 위한 방법(헤드라인 너머 읽기, 액면 그대로 받아들이지 않기, 편견 점검, 출처 신뢰성 확인)을 제시하므로 ② 'Read Smart: How Not to Be Fooled by Fake News'.",
+    "Q14": "편견을 점검하라는 맥락에서 자기 의견에 맞는 기사만 읽는지 자문하고 'as well' 반대 의견 기사도 찾아보라는 것이므로 ④ support는 oppose가 되어야 한다.",
+    "Q15": "가짜 뉴스는 의도적 시도(deliberate attempt)로 조작 목적 → (A) intentionally, 주민들이 여진을 매우 불안해함(so anxious about aftershocks) → (B) fearful. ②.",
+    "Q16": "'fall into the trap of confirmation bias' 다음 'That is, they selectively accept news ... only confirms their beliefs'에서 자신도 모르게 판단을 그르치게 하는 사고방식에 빠진다는 의미이므로 ⑤.",
+    "Q17": "주어진 글의 First 다음 (B) Second(액면 그대로 읽지 말 것) → (A) Third(편견 점검) → (C) Finally(출처 신뢰성) 순서.",
+    "Q18": "가짜 뉴스를 비판하던 Gina가 실수로 가짜 뉴스 유포자가 되었고, 이런 일이 드물지 않다(not unusual)는 내용이므로 ① 'From Critic to Spreader'.",
+    "Q19": "자신이 가짜 뉴스를 퍼뜨렸다는 사실에 대한 반응이며 뒤에서 과거에 가짜 뉴스를 비판했다는 내용이 이어지므로 '기뻐했다(pleased)'가 아니라 '당황했다(embarrassed)'가 적절. ③."
+  },
+  "confidence": {
+    "Q01": "high",
+    "Q02": "high",
+    "Q03": "high",
+    "Q04": "high",
+    "Q05": "high",
+    "Q06": "high",
+    "Q07": "high",
+    "Q08": "high",
+    "Q09": "high",
+    "Q10": "high",
+    "Q11": "high",
+    "Q12": "high",
+    "Q13": "high",
+    "Q14": "high",
+    "Q15": "high",
+    "Q16": "high",
+    "Q17": "high",
+    "Q18": "high",
+    "Q19": "high"
+  },
+  "concerns": [
+    {
+      "question_id": "Q04",
+      "issue": "지문이 'You should question, analyze, and evaluate what you read. Third, examine your biases.'로 시작해 First/Second 없이 Third부터 나오는 등 열거 중간에서 잘려 도입부가 어색하다. 주장 파악에는 지장이 없으나 학생 입장에서 맥락 단절이 느껴진다.",
+      "severity": "검토제안",
+      "proposal": "지문을 'With so much information on the Internet, ...' 또는 최소한 'Second, don’t read the news at face value.'부터 시작하도록 앞부분을 보충하거나, 'Third,' 등 서수 표지를 정리한다."
+    },
+    {
+      "question_id": "Q11",
+      "issue": "지문 첫 문장 'One explanation for this phenomenon'의 'this phenomenon'이 가리키는 대상(가짜 뉴스가 더 빨리 퍼진다는 현상)이 지문에 없다. Q16도 같은 도입부다.",
+      "severity": "검토제안",
+      "proposal": "앞의 두 문장(Fake news on social media spreads significantly farther and faster ... 6 times faster ...)을 포함하거나 'this phenomenon'을 'the fast spread of fake news' 등으로 풀어 쓴다(Q16 동일 적용)."
+    },
+    {
+      "question_id": "Q16",
+      "issue": "Q11과 같이 'One explanation for this phenomenon'으로 시작해 지시 대상이 지문 안에 없다.",
+      "severity": "검토제안",
+      "proposal": "Q11과 동일하게 앞 문장을 보충하거나 표현을 풀어 쓴다."
+    },
+    {
+      "question_id": "Q17",
+      "issue": "(A) Third, (B) Second, (C) Finally 서수 표지만으로 내용을 읽지 않아도 B→A→C를 기계적으로 고를 수 있어 순서 배열 문항으로서 변별력이 거의 없다.",
+      "severity": "검토제안",
+      "proposal": "각 단락 첫머리의 서수 표지(Second/Third/Finally)를 지우거나 다른 연결어로 바꾸고, 대명사·내용 연결로 순서를 판단하게 한다. 또는 다른 단락 구간(예: Gina 이야기, Ambon 사례)으로 교체한다."
+    },
+    {
+      "question_id": "Q07",
+      "issue": "주어진 문장이 'Third,'로 시작하고 지문에 'Second'와 'Finally'가 있어 서수 표지만으로 ③/④로 좁혀진다. 정답은 ④ 하나로 확정되지만 난도가 낮다.",
+      "severity": "검토제안",
+      "proposal": "그대로 두어도 무방하나 변별력을 높이려면 지문의 서수 표지 일부를 다른 연결 방식으로 바꾸는 것을 고려한다."
+    },
+    {
+      "question_id": "Q19",
+      "issue": "같은 미니 모의고사 3회의 Q15 지문이 Q18·Q19 장문의 셋째 단락(Unfortunately ... deliberate attempt ... all individuals involved.)과 동일한 문장을 그대로 싣고 있다. 같은 회차에 동일 텍스트가 중복되며, Q15에 'deliberate attempt'가 그대로 인쇄되어 Q19 선택지 ⑤(deliberate)가 적절함을 확인시켜 준다.",
+      "severity": "검토제안",
+      "proposal": "Q18·Q19 장문을 Gina 이야기 두 단락으로 한정하거나, Q15 지문을 다른 단락으로 교체해 같은 회차 안의 지문 중복을 없앤다."
+    }
+  ]
+}

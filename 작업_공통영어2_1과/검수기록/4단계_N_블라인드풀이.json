@@ -1,0 +1,96 @@
+{
+  "reviewer_id": "N",
+  "role": "N",
+  "solved_before_answer_key": true,
+  "input": "검수입력/문제_블라인드.json",
+  "input_sha256": "83cbb45bbca551e3bbb41a3a008cae60325df6b83a83e281600227bb4b74e9e7",
+  "answers": {
+    "Q01": 2,
+    "Q02": 5,
+    "Q03": 1,
+    "Q04": 2,
+    "Q05": 3,
+    "Q06": 4,
+    "Q07": 4,
+    "Q08": 5,
+    "Q09": 4,
+    "Q10": 4,
+    "Q11": 1,
+    "Q12": 3,
+    "Q13": 2,
+    "Q14": 4,
+    "Q15": 2,
+    "Q16": 5,
+    "Q17": 2,
+    "Q18": 1,
+    "Q19": 3
+  },
+  "rationales": {
+    "Q01": "가짜 뉴스 유포자를 비판했던 Gina가 'This time, however, Gina herself had accidentally contributed to the spread of fake news.'라는 결말로, 비판하던 사람도 의도치 않게 가짜 뉴스를 퍼뜨릴 수 있다는 것이 주제다.",
+    "Q02": "마지막 문장 'the government had to announce that the information was fake'에서 정부는 쓰나미 메시지가 가짜라고 발표했으므로 ⑤ 'confirmed ... accurate'는 불일치.",
+    "Q03": "첫 문장 'Fake news ... spreads significantly farther and faster than true stories'와 이어지는 이유(새롭고 자극적인 것 선호, 단순한 사고, 확증 편향) 설명이므로 ①.",
+    "Q04": "'check the credibility of the source ... the evidence is valid'와 'view information critically and objectively'가 핵심 주장이므로 ②.",
+    "Q05": "'Fake news is a deliberate attempt to manipulate people'과 'It is very common for fake news to spread during states of emergency' + 암본 사례로 의도적 가짜 뉴스가 특히 비상시 심각한 피해를 준다는 ③.",
+    "Q06": "주어진 글(공유) 뒤 'Later'로 시작하는 TV 뉴스 확인(C), 'It reminded her of another incident'로 과거 운동선수 사건(A), A 끝 'content creators'를 받는 'They produced'(B) 순서: C-A-B.",
+    "Q07": "④ 뒤 'Consider if your own beliefs could affect your judgment'가 편견 점검의 구체적 내용이고, Second(②뒤)와 Finally(⑤뒤) 사이 위치이므로 ④.",
+    "Q08": "가짜 뉴스가 진짜 뉴스보다 6배 빨리 퍼지는 현상의 원인(자극 선호, 단순 사고, 확증 편향)을 설명하므로 ⑤.",
+    "Q09": "확증 편향은 신념을 확인하는 뉴스만 선택적으로 받아들이고 지지하지 않는 뉴스는 '무시'하는 것이므로 ④ trust는 ignore가 되어야 한다.",
+    "Q10": "'It had been made by content creators who sought people’s attention.'과 일치하는 ④. ①(SNS에서 봄), ②(바로 공유), ③(기자는 가짜라고 함), ⑤(비판함)는 불일치.",
+    "Q11": "뒤 문장 'accept news in a way that only confirms their beliefs'(확증 편향)로 보아 빈칸은 이미 믿는 바와 맞는 정보 → ①.",
+    "Q12": "암본 지진 후 주민이 대피소에 머문 이유(④ This was because of fake news)를 설명하는 흐름에서 ③ 인도네시아 관광 명소 문장은 무관.",
+    "Q13": "헤드라인 너머 읽기, 비판적 사고, 편견 점검, 출처 신뢰성 확인 등 가짜 뉴스에 속지 않는 읽기 방법 제시 → ②.",
+    "Q14": "'only reading articles that suit your opinion'인지 자문하고 '반대하는' 기사도 찾아보라는 맥락이므로 ④ support는 oppose가 되어야 한다.",
+    "Q15": "(A) 'deliberate attempt' → intentionally, (B) 'so anxious about aftershocks' → fearful. ②.",
+    "Q16": "'fall into the trap of confirmation bias'는 바로 뒤 'That is, they selectively accept news ... only confirms their beliefs'처럼 잘못된 사고방식에 쉽게 빠진다는 뜻 → ⑤.",
+    "Q17": "First(주어진 글) → Second(B) → Third(A) → Finally(C)의 서수 표지로 B-A-C.",
+    "Q18": "가짜 뉴스 유포자를 비판하던 Gina가 스스로 유포자가 되었고, 누구나 우연히 유포자가 될 수 있다('not unusual')는 내용 → ①.",
+    "Q19": "Gina는 자신이 가짜 뉴스를 퍼뜨린 사실을 알게 된 상황이므로 ③ pleased가 아니라 embarrassed(당황한)가 적절하다."
+  },
+  "confidence": {
+    "Q01": "high",
+    "Q02": "high",
+    "Q03": "high",
+    "Q04": "high",
+    "Q05": "high",
+    "Q06": "high",
+    "Q07": "high",
+    "Q08": "high",
+    "Q09": "high",
+    "Q10": "high",
+    "Q11": "high",
+    "Q12": "high",
+    "Q13": "high",
+    "Q14": "high",
+    "Q15": "high",
+    "Q16": "high",
+    "Q17": "high",
+    "Q18": "high",
+    "Q19": "high"
+  },
+  "concerns": [
+    {
+      "question_id": "Q17",
+      "issue": "(A)(B)(C)가 각각 'Third', 'Second', 'Finally'로 시작해 서수 표지만으로 내용 이해 없이 정답(B-A-C)이 바로 결정된다. 순서 배열 문항의 변별력이 거의 없다.",
+      "severity": "검토제안",
+      "proposal": "서수 표지 없이 연결되는 구간으로 분할 지점을 바꾸거나(예: 각 단락 경계를 'Exercise critical thinking...'/'Consider if your own beliefs...' 등 내용 연결이 필요한 곳으로), 다른 지문으로 순서 문항을 구성."
+    },
+    {
+      "question_id": "Q07",
+      "issue": "주어진 문장 'Third, examine your biases.'가 지문의 'First'·'Second'·'Finally' 표지 사이 빈자리로 기계적으로 들어가 내용 이해 없이 정답(④) 추론이 가능하다. 복수 정답 문제는 없음.",
+      "severity": "검토제안",
+      "proposal": "서수 표지가 없는 내용 문장(예: 'Consider if your own beliefs could affect your judgment.' 또는 'They can be so stimulating ...')을 주어진 문장으로 바꾸는 것을 검토."
+    },
+    {
+      "question_id": "Q04",
+      "issue": "지문이 'You should question, analyze, and evaluate what you read. Third, examine your biases.'로 시작해 앞의 First/Second 없이 목록 중간에서 잘려 있어, 'Third'가 문맥 없이 등장하고 첫 문장의 지시 대상이 불분명하다. 정답 도출에는 지장 없음.",
+      "severity": "검토제안",
+      "proposal": "지문을 'Second, don’t read the news at face value.' 또는 첫 문단부터 시작하도록 앞부분을 포함하거나, 'Third,' 표지를 조정."
+    },
+    {
+      "question_id": "Q15",
+      "issue": "미니 모의고사 3회 안에서 Q15 지문('Unfortunately, becoming an accidental distributor ... 정부 발표')의 첫 문단이 Q18–Q19 장문(long-mock3) 셋째 문단과 그대로 겹친다. 정답을 직접 누설하지는 않지만(Q19 ⑤ 'deliberate'가 Q15 (A)의 근거와 동일 문장) 같은 회차에서 동일 문장이 두 번 출제된다.",
+      "severity": "검토제안",
+      "proposal": "같은 회차 내 지문 중복을 피하도록 long-mock3에서 셋째 문단을 빼거나 Q15 지문을 다른 부분으로 교체 검토."
+    }
+  ]
+}
