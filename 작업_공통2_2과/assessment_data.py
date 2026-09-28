@@ -169,10 +169,10 @@ q(id='Q07', set_id='mock1', number=2, type='삽입', first='s37', last='s51', gi
   answer=2,
   evidence='Then I see something. ( ② ) I open the door and reach for a bag.',
   explanation='주어진 문장은 냉동 채소와 아이스크림 바로 뒤에 얼음이 가득 든 케이스가 있다는 내용이다. ② 앞의 “Then I see something.”에서 앨리사가 무언가를 발견하고, 주어진 문장이 그 ‘무언가’가 얼음 케이스임을 밝힌다. ② 뒤의 “I open the door and reach for a bag.”의 the door와 a bag은 그 케이스의 문과 얼음 봉지이므로 ②에 들어가야 한다.',
-  wrong={1: '①에 넣으면 얼음 케이스를 이미 설명한 뒤에 “Then I see something.”이 와서, 앨리사가 본 ‘무언가’가 무엇인지 끝내 밝혀지지 않는다.',
-         3: '③ 앞의 “I open the door and reach for a bag.”에서 the door와 a bag이 무엇의 문과 봉지인지 알 수 없게 되므로, 케이스는 그보다 앞에서 소개되어야 한다.',
-         4: '④는 개릿과 앨리사가 얼음을 두고 주고받는 대화 사이로, 얼음 케이스를 처음 소개하는 문장이 들어가면 대화가 끊긴다.',
-         5: '⑤에 넣어도 앞의 the door와 a bag이 가리킬 대상이 여전히 없고, 이미 얼음을 두고 대화한 뒤에 케이스를 처음 소개하게 되어 어색하다.'})
+  wrong={1: '이 위치에 넣으면 얼음 케이스를 이미 설명한 뒤에 “Then I see something.”이 와서, 앨리사가 본 ‘무언가’가 무엇인지 끝내 밝혀지지 않는다.',
+         3: '이 위치 앞의 “I open the door and reach for a bag.”에서 the door와 a bag이 무엇의 문과 봉지인지 알 수 없게 되므로, 케이스는 그보다 앞에서 소개되어야 한다.',
+         4: '이 위치는 개릿과 앨리사가 얼음을 두고 주고받는 대화 사이로, 얼음 케이스를 처음 소개하는 문장이 들어가면 대화가 끊긴다.',
+         5: '이 위치에 넣어도 앞의 the door와 a bag이 가리킬 대상이 여전히 없고, 이미 얼음을 두고 대화한 뒤에 케이스를 처음 소개하게 되어 어색하다.'})
 
 q(id='Q08', set_id='mock1', number=3, type='빈칸', first='s55', last='s70',
   blank='there is nothing to prove that it’s ours and not his',
@@ -272,10 +272,10 @@ q(id='Q13', set_id='mock2', number=3, type='삽입', first='s62', last='s74', gi
   answer=5,
   evidence='It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. ( ⑤ ) Provided that the factors …',
   explanation='주어진 문장은 ‘그녀의 원치 않은 모험은 물 공급이 재개되고 삶이 정상으로 돌아오면서 끝난다’는 내용이다. Her가 가리킬 대상은 ⑤ 앞 문장의 a girl(가뭄 속에서 가족을 위해 힘든 선택을 해야 하는 소녀)이며, 소설 줄거리 소개가 시작에서 끝으로 이어진 뒤 ⑤ 뒤에서 물 부족의 원인과 경고로 넘어간다. 따라서 ⑤에 들어가야 한다.',
-  wrong={1: '① 앞은 바질 삼촌이 나타난 장면으로, Her가 가리킬 여성 인물이 없고 모험이 끝난다는 내용이 장면 한가운데 끼어든다.',
-         2: '② 앞은 남자가 “Not at all.”이라고 답하는 장면으로, Her가 가리킬 대상이 없고 이야기가 아직 진행 중이다.',
-         3: '③에 넣으면 이야기가 끝난 것처럼 보이지만, 곧이어 ‘위 글은 소설 도입부를 줄인 것’이라는 설명이 나와 모순되고, 소녀(a girl)도 그 뒤에야 소개된다.',
-         4: '④는 소설을 처음 언급한 문장 바로 뒤로, 소녀가 소개되기 전에 Her가 나오고 “It tells the story of a girl …”보다 결말이 먼저 오게 된다.'})
+  wrong={1: '이 위치 앞은 바질 삼촌이 나타난 1인칭 현재 장면으로, 서술자 자신을 3인칭 Her로 가리키며 물 공급이 재개되는 결말을 요약하는 문장이 장면 한가운데 끼어들 수 없다.',
+         2: '이 위치 앞은 남자가 “Not at all.”이라고 답하는 장면으로, 이야기가 아직 진행 중인 1인칭 서술 속에 3인칭 결말 요약이 들어갈 수 없다.',
+         3: '이 위치에 넣으면 이야기가 끝난 것처럼 보이지만, 곧이어 ‘위 글은 소설 도입부를 줄인 것’이라는 설명이 나와 모순되고, 소녀(a girl)도 그 뒤에야 소개된다.',
+         4: '이 위치는 소설을 처음 언급한 문장 바로 뒤로, 소녀가 소개되기 전에 Her가 나오고 “It tells the story of a girl …”보다 결말이 먼저 오게 된다.'})
 
 q(id='Q14', set_id='mock2', number=4, type='제목', first='s45', last='s70', group='G2',
   question='윗글의 제목으로 가장 적절한 것은?',
@@ -343,7 +343,7 @@ q(id='Q18', set_id='mock3', number=3, type='심경·분위기', first='s52', las
            'angry → calm'],
   answer=1,
   evidence='“Thank you for helping us,” I tell him. / It is good to know that difficult times can bring out the best in people. / He is still smiling, but his eyes scare me.',
-  explanation='처음에 앨리사는 카트를 밀어 준 남자에게 고마워하며 미소로 답하고, 호의에 보답하려고 얼음 한 봉지를 권한다. 그러나 남자가 나머지 얼음을 자기가 갖겠다고 진지하게 말하고, 웃는 얼굴과 달리 그의 눈이 무섭게 느껴진다. 따라서 ‘고마워하는 → 겁먹은’의 ①이 알맞다.',
+  explanation='처음에 앨리사는 자신들을 도와준 남자(him)에게 고마워하며(Thank you for helping us) 미소로 답하고, 호의에 보답하려고 얼음 한 봉지를 권한다. 그러나 남자가 나머지 얼음을 자기가 갖겠다고 진지하게 말하고, 웃는 얼굴과 달리 그의 눈이 무섭게 느껴진다. 따라서 ‘고마워하는 → 겁먹은’의 ①이 알맞다.',
   choices_ko=['고마워하는 → 겁먹은', '질투하는 → 만족한', '지루한 → 호기심 있는', '긴장한 → 안도한', '화난 → 차분한'],
   wrong={2: '질투하거나 만족하는 모습은 없고, 마지막에는 겁을 먹는다.',
          3: '지루함은 드러나지 않으며, 남자의 속셈을 알게 된 뒤의 감정은 호기심이 아니라 두려움이다.',

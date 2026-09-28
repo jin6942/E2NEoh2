@@ -1,0 +1,112 @@
+{
+  "reviewer": "M",
+  "solved_before_answer_key": true,
+  "answers": {
+    "Q01": 2, "Q02": 3, "Q03": 4, "Q04": 1, "Q05": 5,
+    "Q06": 4, "Q07": 2, "Q08": 3, "Q09": 1, "Q10": 5,
+    "Q11": 2, "Q12": 4, "Q13": 5, "Q14": 3, "Q15": 1,
+    "Q16": 3, "Q17": 4, "Q18": 1, "Q19": 2, "Q20": 5
+  },
+  "notes": {
+    "Q01": {
+      "evidence": "We have no running water out of the tap. / What I see in the carts in the checkout line are mostly water bottles. The essentials of life. — 수돗물이 끊긴 위기 속 생필품(물) 구매 행렬이 글의 중심.",
+      "closest_distractor": "③ shoppers’ strong desire for luxuries on Black Friday — Black Friday는 비유일 뿐이고 but today it’s not televisions and video games people are after로 사치품을 명시적으로 부정하므로 배제. ④는 media가 이름을 바꿔 불렀다는 세부만 비틀었고 사람들을 조용히 시키려 했다는 내용 없음.",
+      "doubt": null
+    },
+    "Q02": {
+      "evidence": "There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin. — 얇은 예의로 적대감을 가리고 있는데 그 예의마저 팽팽히 늘어나 끊어지기 직전 → 겨우 예의를 유지하는 상태.",
+      "closest_distractor": "② People are openly showing their rudeness by fighting in line. — 적대감이 '숨겨져(hidden)' 있고 예의가 아직 유지되는 상태이므로 '공공연히 싸운다'는 과장. ①은 정반대.",
+      "doubt": null
+    },
+    "Q03": {
+      "evidence": "By now other people have taken notice and begin to empty the ice case. — 다른 사람들은 알아차리고 얼음 칸을 비우기 시작함 → ④ disregarded(무시했다)는 불일치.",
+      "closest_distractor": "③ Garrett first reminded Alyssa that they needed water, not ice. — 원문 “We need water, not ice,” he reminds me.와 일치. 다만 first(먼저/처음에)가 어떤 순서를 가리키는지 약간 모호해 잠시 멈춤.",
+      "doubt": "③의 first는 판단에 불필요한 부사라 학생이 '누구보다 먼저?'로 오독할 여지가 약간 있음(정답 판정에는 영향 없음)."
+    },
+    "Q04": {
+      "evidence": "“We all need to help one another.” He smiles again, and I return the smile. It is good to know that ... — 남자의 친절에 호의적으로 반응(It is good to know)하며 뒤이어 one favor deserves another로 보답 → 어려운 시기가 사람들의 가장 좋은 면을 끌어낸다(원문 bring out the best in people).",
+      "closest_distractor": "② bring out the worst side of people — 뒤에서 남자가 이기적으로 돌변하므로 역설적으로 끌리지만, 빈칸 시점의 화자는 미소로 답하고 'good to know'라 하므로 부정적 일반화는 불가.",
+      "doubt": null
+    },
+    "Q05": {
+      "evidence": "including climate change, population growth, and using too much water for agriculture — 원인은 인구 '증가'이지 '감소'가 아님 → ⑤ 불일치.",
+      "closest_distractor": "① Alyssa first thought the man was being playful, but he was earnest. — For a moment I think he is joking, but then realize he is serious.와 일치(joking=playful, serious=earnest).",
+      "doubt": null
+    },
+    "Q06": {
+      "evidence": "주어진 글(버려진 물 한 상자 발견) → (C) I reach for it(it=그 상자), 여자가 가져감, 딸 Hali 등장 → (A) As her mother pulls their cart away, Hali ... “I’m sorry” → (B) “Didn’t I share my water with you ...?” 에 Hali가 고개를 젓고 떠남. ④ C-A-B.",
+      "closest_distractor": "⑤ C → B → A — (B) 끝에서 Hali가 이미 turns to leave 했는데 (A)에서 다시 leans closer to me하며 사과하는 것은 모순이고, (B)의 She looks back to her mother, who’s already moving down the aisle가 (A)의 mother pulls their cart away 뒤여야 함. ①②③은 (A)의 her mother/(B)의 you·her가 선행사 없이 시작하므로 불가. 다섯 배열 모두 이어 읽어 확인.",
+      "doubt": null
+    },
+    "Q07": {
+      "evidence": "Then I see something. ② [Just past ..., there is a case packed with ice.] I open the door — something의 정체를 밝히고, the door가 case의 문을 가리키게 됨.",
+      "closest_distractor": "① — 주어진 문장을 ①에 넣으면 case를 먼저 제시한 뒤 Then I see something이 와서 발견 순서가 뒤집히고 something이 붕 뜸. ③ 이후는 이미 문을 열고 봉지를 집은 뒤라 case 소개가 늦음. ④⑤는 대화/적재 흐름 중간이라 불가. 다섯 자리 모두 넣어 읽어 확인.",
+      "doubt": null
+    },
+    "Q08": {
+      "evidence": "As long as his hands are firmly locked on the handle of our cart, ___ — 손잡이를 꽉 쥐고 있는 한 카트가 우리 것임을 증명할 길이 없음(원문 there is nothing to prove that it’s ours and not his). 뒤이어 삼촌이 제때 와서 해결.",
+      "closest_distractor": "① he will surely let go of the handle soon — as long as(~하는 한) 조건 및 his eyes scare me의 위협적 분위기와 어긋남. ②는 삼촌이 바로 나타나므로 배제.",
+      "doubt": null
+    },
+    "Q09": {
+      "evidence": "수돗물이 끊긴 날(We have no running water out of the tap) 쇼핑몰로 몰려가 물(The essentials of life)을 사려는 혼잡, 초조함, 텅 빈 선반까지 → ① The Day the Water Stopped: A Rush for the Essentials.",
+      "closest_distractor": "⑤ A New Name for the Drought: The Media’s Choice — flow crisis 명칭은 도입부 세부에 불과. ②는 televisions and video games를 부정한 내용과 반대.",
+      "doubt": null
+    },
+    "Q10": {
+      "evidence": "I realize I am too late. The shelves are already ⑤ full. — 너무 늦었다고 깨달았다면 선반은 이미 비어 있어야(empty) 함 → ⑤ 부적절.",
+      "closest_distractor": "② tired — people got tired of hearing the word “drought”로 새 명칭(flow crisis)을 쓰게 된 이유이므로 적절. ④ impatience도 줄 선 사람들의 얼굴 표정으로 적절.",
+      "doubt": null
+    },
+    "Q11": {
+      "evidence": "As we pull into the parking lot, we can see the crowd. ... Inside it’s like Black Friday at its worst — 최악의 블랙프라이데이 = 인파가 몰려 정신없이 물건을 사는 광경.",
+      "closest_distractor": "④ a time when TVs and video games sell out quickly — 바로 뒤 but today it’s not televisions and video games people are after로 부정됨. ①은 할인이라는 사전적 의미일 뿐 at its worst(혼잡의 극치)를 반영하지 못함.",
+      "doubt": null
+    },
+    "Q12": {
+      "evidence": "Lucky! I find a single case of water ... (기대) → 여자가 빼앗아 가고, 도움을 청한 Hali도 고개를 젓고 떠남 (실망).",
+      "closest_distractor": "③ angry → grateful — 빼앗긴 순간 불쾌감은 있을 수 있으나 끝에서 감사할 일이 없음. ②는 초조→안도로 결말과 반대.",
+      "doubt": null
+    },
+    "Q13": {
+      "evidence": "It tells the story of a girl who has to make tough choices ... drought. ⑤ [Her unwanted adventure ends when ...] — Her가 a girl을 받고, 소설 줄거리 소개가 이어진 뒤 Provided that ... 현실 경고로 넘어감.",
+      "closest_distractor": "④ — *The above is a shortened version ... 다음에 넣으면 Her의 선행사(a girl)가 아직 없음. ③은 본문 장면 직후라 Her가 화자를 가리키는 듯 보이나 시점(1인칭)과 맞지 않고 소설 소개문 앞이라 부적절. ①②는 대화 중간. 다섯 자리 모두 넣어 확인.",
+      "doubt": null
+    },
+    "Q14": {
+      "evidence": "Looks like you could use some help ... “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” — 도와주는 척하며 얼음을 차지하려는 속셈.",
+      "closest_distractor": "④ A Stranger Who Wanted Nothing in Return — 대가를 바라지 않은 것이 아니라 나머지 얼음 전부를 원했으므로 정반대.",
+      "doubt": null
+    },
+    "Q15": {
+      "evidence": "until it is piled as ① low as it can get — 봉지를 계속 넣었고 뒤에서 cart is ridiculously heavy이므로 high가 맞음 → ① 부적절.",
+      "closest_distractor": "⑤ better — 남자의 이기적 제안을 스스로 '더 나은' 생각이라 부르는 것은 인물의 말이므로 적절. ② heavy도 almost impossible to push와 호응.",
+      "doubt": null
+    },
+    "Q16": {
+      "evidence": "Mom says. → (B) She is watching the TV ... no running water → (C) “To the mall!” ... we can see the crowd. ... go in → (A) Inside it’s like Black Friday ... ③ B-C-A.",
+      "closest_distractor": "⑤ C → B → A — 물이 안 나온다는 외침 직후 바로 “To the mall!”로 갈 수는 있으나, (C) 끝에서 이미 쇼핑몰 주차장에 있는데 (B)에서 집 TV를 보는 엄마로 돌아가 모순. (B)의 She는 Mom을 받아 주어진 글 바로 뒤가 자연스러움. 다섯 배열 모두 확인.",
+      "doubt": null
+    },
+    "Q17": {
+      "evidence": "④ Frozen vegetables keep most of their vitamins ... — 얼음을 카트에 담는 장면 중간에 냉동 채소 영양 정보가 끼어듦. frozen vegetables 어휘만 공유한 무관한 문장.",
+      "closest_distractor": "① Just past the frozen vegetables and ice cream, there is a case packed with ice. — Then I see something의 something을 밝히는 문장이라 흐름상 필요.",
+      "doubt": null
+    },
+    "Q18": {
+      "evidence": "“Thank you for helping us” / return the smile (감사) → He is still smiling, but his eyes scare me. ... nothing to prove that it’s ours (두려움).",
+      "closest_distractor": "④ nervous → relieved — 안도는 삼촌 등장 이후(본 지문 밖). 본 지문은 두려움에서 끝남.",
+      "doubt": null
+    },
+    "Q19": {
+      "evidence": "impatience, hostility, 얇아진 예의, 빼앗긴 물, 나눠 달라는 부탁을 거절하는 친구 — 물이 귀해지자 친절이 말라 간다 → ②.",
+      "closest_distractor": "① A Crown Made of Canned Goods — 비유적 세부 묘사에 불과. ④는 empty shelves·hostility와 반대.",
+      "doubt": null
+    },
+    "Q20": {
+      "evidence": "“Didn’t I share my water with you at the practice last week?” ... “Maybe you could return the favor and ⑤ hide a few bottles with me.” — 호의를 되갚아 몇 병 나눠 달라는(share) 부탁이어야 함 → ⑤ 부적절.",
+      "closest_distractor": "③ precious — 어제는 그렇게 귀하지 않았을 때 버려졌다는 뜻으로 적절. ④ closer도 사과하려 다가오는 동작으로 적절.",
+      "doubt": null
+    }
+  }
+}
