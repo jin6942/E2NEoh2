@@ -155,8 +155,8 @@ class S:
                 kp = [ka[0], ka[0] + len(ko_p if isinstance(ko_p, str) else ko_p[0])]
                 pr.append({'en_span': ea, 'ko_pronoun_span': kp, 'ko_reference_span': [kp[1], ka[1]]})
             pair['pronoun_refs'] = pr
-        pair['emphasis_links'] = [{'en_spans': [find_in(en, x) for x in e],
-                                   'ko_spans': [find_in(ko, x) for x in k]} for e, k in links]
+        pair['emphasis_links'] = [{'en_spans': sorted(find_in(en, x) for x in e),
+                                   'ko_spans': sorted(find_in(ko, x) for x in k)} for e, k in links]
         if 'emphasis_note' in extra:
             pair['emphasis_note'] = extra.pop('emphasis_note')
         row = {'span': [a, b], 'meaning_ko': meaning, 'explanation': explanation, 'display_pairs': [pair]}
@@ -170,8 +170,8 @@ class S:
         """수동·능동 완료 기능 결합 한 줄 힌트."""
         a, b = find_word(self.text, span, 0)
         da, db = find_word(self.text, en, 0)
-        pair = {'en': en, 'ko': ko, 'emphasis_links': [{'en_spans': [find_in(en, x) for x in en_mark],
-                                                         'ko_spans': [find_in(ko, x) for x in ko_mark]}]}
+        pair = {'en': en, 'ko': ko, 'emphasis_links': [{'en_spans': sorted(find_in(en, x) for x in en_mark),
+                                                         'ko_spans': sorted(find_in(ko, x) for x in ko_mark)}]}
         row = {'category': 'function-combination', 'span': [a, b], 'gloss_ids': [fn['id'], lex['id']],
                'meaning_ko': meaning, 'explanation': explanation, 'display_mode': 'verb-function',
                'display_span': [da, db], 'formula_label': formula,

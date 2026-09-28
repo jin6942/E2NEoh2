@@ -19,7 +19,7 @@
   {
    "id": "src",
    "label": "교과서 본문",
-   "text": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.",
+   "text": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.\nUnfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.\nIt is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.\nFake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average.\nOne explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.\nMoreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
    "sentences": [
     {
      "id": "s01",
@@ -70,9 +70,124 @@
      "id": "s10",
      "start": 944,
      "end": 1033
+    },
+    {
+     "id": "s11",
+     "start": 1034,
+     "end": 1122
+    },
+    {
+     "id": "s12",
+     "start": 1123,
+     "end": 1214
+    },
+    {
+     "id": "s13",
+     "start": 1215,
+     "end": 1343
+    },
+    {
+     "id": "s14",
+     "start": 1344,
+     "end": 1455
+    },
+    {
+     "id": "s15",
+     "start": 1456,
+     "end": 1525
+    },
+    {
+     "id": "s16",
+     "start": 1526,
+     "end": 1711
+    },
+    {
+     "id": "s17",
+     "start": 1712,
+     "end": 1832
+    },
+    {
+     "id": "s18",
+     "start": 1833,
+     "end": 1971
+    },
+    {
+     "id": "s19",
+     "start": 1972,
+     "end": 2094
+    },
+    {
+     "id": "s20",
+     "start": 2095,
+     "end": 2180
+    },
+    {
+     "id": "s21",
+     "start": 2181,
+     "end": 2325
+    },
+    {
+     "id": "s22",
+     "start": 2326,
+     "end": 2409
+    },
+    {
+     "id": "s23",
+     "start": 2410,
+     "end": 2548
+    },
+    {
+     "id": "s24",
+     "start": 2549,
+     "end": 2701
+    },
+    {
+     "id": "s25",
+     "start": 2702,
+     "end": 2803
+    },
+    {
+     "id": "s26",
+     "start": 2804,
+     "end": 2912
+    },
+    {
+     "id": "s27",
+     "start": 2913,
+     "end": 3027
+    },
+    {
+     "id": "s28",
+     "start": 3028,
+     "end": 3101
+    },
+    {
+     "id": "s29",
+     "start": 3102,
+     "end": 3224
+    },
+    {
+     "id": "s30",
+     "start": 3225,
+     "end": 3447
     }
    ],
-   "subheadings": [],
+   "subheadings": [
+    {
+     "id": "h-impact",
+     "text": "The Impact of Fake News on Society",
+     "location": "원본 PDF 1쪽 왼쪽 단 아래(‘Unfortunately, becoming’ 단락 위)",
+     "before_sentence_id": "s11",
+     "artifact_sha256": "a84f5471130f0f0420964122864df806b5719309fde01bc6090837c6c6174043"
+    },
+    {
+     "id": "h-reasons",
+     "text": "The Reasons for the Viral Spread of Fake News",
+     "location": "원본 PDF 2쪽 왼쪽 단 중간(‘Fake news on social media’ 단락 위)",
+     "before_sentence_id": "s20",
+     "artifact_sha256": "a84f5471130f0f0420964122864df806b5719309fde01bc6090837c6c6174043"
+    }
+   ],
    "provenance": {
     "filename": "(2022개정)2025년_공통영어2_YBM(박준언)_1과_본문_(20250723수정).pdf",
     "sha256": "a84f5471130f0f0420964122864df806b5719309fde01bc6090837c6c6174043",
@@ -104,6 +219,61 @@
     "s08",
     "s09",
     "s10"
+   ]
+  },
+  {
+   "id": "p03",
+   "source_id": "src",
+   "subheading_id": "h-impact",
+   "sentence_ids": [
+    "s11",
+    "s12",
+    "s13",
+    "s14"
+   ]
+  },
+  {
+   "id": "p04",
+   "source_id": "src",
+   "subheading_id": "h-impact",
+   "sentence_ids": [
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19"
+   ]
+  },
+  {
+   "id": "p05",
+   "source_id": "src",
+   "subheading_id": "h-reasons",
+   "sentence_ids": [
+    "s20",
+    "s21"
+   ]
+  },
+  {
+   "id": "p06",
+   "source_id": "src",
+   "subheading_id": "h-reasons",
+   "sentence_ids": [
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26"
+   ]
+  },
+  {
+   "id": "p07",
+   "source_id": "src",
+   "subheading_id": "h-reasons",
+   "sentence_ids": [
+    "s27",
+    "s28",
+    "s29",
+    "s30"
    ]
   }
  ],
@@ -525,6 +695,585 @@
        "id": "u1-r3a",
        "text": "intentionally",
        "meaning_ko": "의도적으로, 일부러"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "u2",
+   "source_id": "src",
+   "paragraph_ids": [
+    "p03",
+    "p04"
+   ],
+   "sentence_ids": [
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19"
+   ],
+   "today_words": [
+    {
+     "id": "u2-w1",
+     "text": "distributor",
+     "meaning_ko": "유포자, 퍼뜨리는 사람",
+     "source_gloss_id": "s11-g05"
+    },
+    {
+     "id": "u2-w2",
+     "text": "deliberate",
+     "meaning_ko": "의도적인, 고의적인",
+     "source_gloss_id": "s12-g03"
+    },
+    {
+     "id": "u2-w3",
+     "text": "manipulate",
+     "meaning_ko": "조종하다, 조작하다",
+     "source_gloss_id": "s12-g05"
+    },
+    {
+     "id": "u2-w4",
+     "text": "with the intention of V-ing",
+     "meaning_ko": "~하려는 의도를 가지고",
+     "source_gloss_id": "s13-g07"
+    },
+    {
+     "id": "u2-w5",
+     "text": "disturb",
+     "meaning_ko": "어지럽히다, 방해하다",
+     "source_gloss_id": "s14-g05"
+    },
+    {
+     "id": "u2-w6",
+     "text": "shelters",
+     "meaning_ko": "대피소들",
+     "source_gloss_id": "s16-g21"
+    },
+    {
+     "id": "u2-w7",
+     "text": "displaced",
+     "meaning_ko": "살던 곳을 잃은, 이재민이 된",
+     "source_gloss_id": "s19-g02"
+    },
+    {
+     "id": "u2-w8",
+     "text": "anxious",
+     "meaning_ko": "불안해하는, 걱정하는",
+     "source_gloss_id": "s19-g06"
+    }
+   ],
+   "analysis": {
+    "heading_kind": "주제",
+    "title_or_topic_en": "What Fake News Is and How It Harms Society",
+    "title_or_topic_ko": "가짜 뉴스의 정체와 사회에 끼치는 해",
+    "intent_ko": "가짜 뉴스는 사람들을 조종하려고 부정확한 정보를 퍼뜨리는 의도적인 시도이며, 특히 비상사태 때 퍼져 사회에 큰 혼란과 해를 끼친다는 점을 인도네시아 암본의 사례로 보여 주는 글이다.",
+    "flow": [
+     {
+      "sentence_ids": [
+       "s11",
+       "s12",
+       "s13",
+       "s14"
+      ],
+      "label": "정의와 해악",
+      "text_ko": "지나처럼 뜻하지 않게 가짜 뉴스를 퍼뜨리는 일은 흔하다. 가짜 뉴스는 관심·이익·정치적 이득을 노리는 집단이 사람들을 조종하려고 만든 의도적인 시도이며, 사람들과 사회에 심각한 해를 끼칠 수 있다."
+     },
+     {
+      "sentence_ids": [
+       "s15",
+       "s16",
+       "s17",
+       "s18",
+       "s19"
+      ],
+      "label": "비상사태 사례",
+      "text_ko": "가짜 뉴스는 비상사태 때 특히 잘 퍼진다. 2019년 암본 지진 뒤 또 다른 지진과 쓰나미가 온다는 가짜 뉴스 때문에 주민들은 2주 동안 집에 돌아가지 못했고, 결국 정부가 그 정보가 가짜라고 발표해야 했다."
+     }
+    ],
+    "easy_explanations": [
+     {
+      "sentence_id": "s11",
+      "explanatory_sentences": [
+       "11번 문장은 앞 도입부의 지나 이야기를 이 부분의 주제와 이어 준다.",
+       "지나는 일부러 가짜 뉴스를 퍼뜨린 것이 아니다.",
+       "글쓴이는 이런 일이 지나에게만 일어나는 드문 일이 아니라고 말한다.",
+       "누구든 지나처럼 모르는 사이에 가짜 뉴스를 퍼뜨릴 수 있다는 뜻이다."
+      ]
+     },
+     {
+      "sentence_id": "s13",
+      "explanatory_sentences": [
+       "13번 문장은 12번에서 정의한 가짜 뉴스를 누가, 왜 만드는지 설명한다.",
+       "가짜 뉴스를 만드는 쪽은 특정한 목적을 가진 집단이다.",
+       "목적은 세 가지다.",
+       "사람들의 관심 끌기, 돈 벌기, 정치적으로 유리해지기다.",
+       "7~8번에서 조회수로 돈을 벌려던 콘텐츠 제작자들이 그 예다."
+      ]
+     },
+     {
+      "sentence_id": "s17",
+      "explanatory_sentences": [
+       "17번 문장은 16번에서 주민들이 집에 돌아가지 않은 이유를 밝힌다.",
+       "소셜 미디어에 또 다른 지진이 곧 온다는 가짜 이야기가 돌았다.",
+       "그 지진 뒤에는 쓰나미까지 이어진다고 했다.",
+       "쓰나미는 지진 때문에 생기는 아주 큰 바닷물 파도다.",
+       "주민들은 이 말을 믿고 무서워서 대피소에 계속 머물렀다."
+      ]
+     }
+    ],
+    "grammar_points": [
+     {
+      "id": "u2-gp1",
+      "sentence_id": "s12",
+      "span": [
+       13,
+       54
+      ],
+      "title": "명사 + to V: ~하려는 명사",
+      "formula_key": "N + to V",
+      "explanation": "공식: 명사(N) + to V — ~하려는 N. N = a deliberate attempt(의도적인 시도), to V = to manipulate(조종하다), 목적어 = people(사람들). → 사람들을 조종하려는 의도적인 시도. to manipulate people가 앞 명사 attempt가 어떤 시도인지 뒤에서 설명한다.",
+      "practice": {
+       "span": [
+        13,
+        54
+       ],
+       "formula_support": {
+        "en": "N + to V",
+        "ko": "~하려는 N"
+       },
+       "answer_ko": "사람들을 조종하려는 의도적인 시도",
+       "support_gloss_ids": [
+        "s12-g03",
+        "s12-g05",
+        "s12-g06"
+       ]
+      }
+     },
+     {
+      "id": "u2-gp2",
+      "sentence_id": "s15",
+      "span": [
+       0,
+       41
+      ],
+      "title": "It … for A to V: A가 ~하는 것은 …",
+      "formula_key": "It … for A to V",
+      "explanation": "공식: It is 형용사 for A to V — A가 ~하는 것은 (형용사)하다. It = 가주어(뒤의 for A to V를 대신함), 형용사 = very common(매우 흔한), A = fake news(가짜 뉴스), to V = to spread(퍼지다). → 가짜 뉴스가 퍼지는 것은 매우 흔하다. for 뒤의 A가 to V의 주체다.",
+      "practice": {
+       "span": [
+        0,
+        41
+       ],
+       "formula_support": {
+        "en": "It … for A to V",
+        "ko": "A가 ~하는 것은"
+       },
+       "answer_ko": "가짜 뉴스가 퍼지는 것은 매우 흔하다",
+       "support_gloss_ids": [
+        "s15-g03",
+        "s15-g04",
+        "s15-g05",
+        "s15-g06"
+       ]
+      }
+     },
+     {
+      "id": "u2-gp3",
+      "sentence_id": "s19",
+      "span": [
+       22,
+       91
+      ],
+      "title": "so A that S′ V′: 너무 A해서 S′가 V′하다",
+      "formula_key": "so A that S′ V′",
+      "explanation": "공식: so A that S′ V′ — 너무 A해서 S′(이/가) V′하다. A = anxious(불안해하는), about aftershocks = 여진에 대해, S′ = the government(정부), V′ = had to announce(발표해야 했다). → 여진에 대해 너무 불안해해서 정부가 발표해야 했다. that 앞은 원인(몹시 불안함), that 뒤는 그 결과다.",
+      "practice": {
+       "span": [
+        27,
+        91
+       ],
+       "formula_support": {
+        "en": "so A that S′ V′",
+        "ko": "너무 A해서 S′(이/가) V′하다"
+       },
+       "answer_ko": "여진에 대해 너무 불안해해서 정부가 발표해야 했다",
+       "support_gloss_ids": [
+        "s19-g06",
+        "s19-g07",
+        "s19-g08",
+        "s19-g09",
+        "s19-g10",
+        "s19-g11"
+       ]
+      }
+     }
+    ],
+    "formula_routes": [
+     {
+      "sentence_id": "s13",
+      "function_gloss_id": "s13-g02",
+      "formula_key": "be p.p.",
+      "route": "hint",
+      "hint_index": 0,
+      "review_record": "is made: 빈 힌트 문장의 수동태 기능 결합 힌트"
+     }
+    ],
+    "relations": [
+     {
+      "head": {
+       "id": "u2-r1h",
+       "text": "deliberate",
+       "meaning_ko": "의도적인, 고의적인"
+      },
+      "synonym": {
+       "id": "u2-r1s",
+       "text": "intentional",
+       "meaning_ko": "의도적인, 고의의"
+      },
+      "antonym": {
+       "id": "u2-r1a",
+       "text": "accidental",
+       "meaning_ko": "우연한, 뜻하지 않은"
+      }
+     },
+     {
+      "head": {
+       "id": "u2-r2h",
+       "text": "inaccurate",
+       "meaning_ko": "부정확한"
+      },
+      "synonym": {
+       "id": "u2-r2s",
+       "text": "incorrect",
+       "meaning_ko": "틀린, 부정확한"
+      },
+      "antonym": {
+       "id": "u2-r2a",
+       "text": "accurate",
+       "meaning_ko": "정확한"
+      }
+     },
+     {
+      "head": {
+       "id": "u2-r3h",
+       "text": "common",
+       "meaning_ko": "흔한"
+      },
+      "synonym": {
+       "id": "u2-r3s",
+       "text": "usual",
+       "meaning_ko": "흔히 있는, 보통의"
+      },
+      "antonym": {
+       "id": "u2-r3a",
+       "text": "rare",
+       "meaning_ko": "드문"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "u3",
+   "source_id": "src",
+   "paragraph_ids": [
+    "p05",
+    "p06",
+    "p07"
+   ],
+   "sentence_ids": [
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s30"
+   ],
+   "today_words": [
+    {
+     "id": "u3-w1",
+     "text": "go viral",
+     "meaning_ko": "(인터넷에서) 급속히 퍼지다",
+     "source_gloss_id": "s25-g03"
+    },
+    {
+     "id": "u3-w2",
+     "text": "phenomenon",
+     "meaning_ko": "현상",
+     "source_gloss_id": "s22-g05"
+    },
+    {
+     "id": "u3-w3",
+     "text": "effortlessly",
+     "meaning_ko": "힘들이지 않고, 쉽게",
+     "source_gloss_id": "s25-g13"
+    },
+    {
+     "id": "u3-w4",
+     "text": "proof",
+     "meaning_ko": "증거",
+     "source_gloss_id": "s26-g11"
+    },
+    {
+     "id": "u3-w5",
+     "text": "be inclined to V",
+     "meaning_ko": "~하는 경향이 있다",
+     "source_gloss_id": "s27-g03"
+    },
+    {
+     "id": "u3-w6",
+     "text": "prejudices",
+     "meaning_ko": "편견들",
+     "source_gloss_id": "s27-g09"
+    },
+    {
+     "id": "u3-w7",
+     "text": "confirmation bias",
+     "meaning_ko": "확증 편향",
+     "source_gloss_id": "s28-g09"
+    },
+    {
+     "id": "u3-w8",
+     "text": "selectively",
+     "meaning_ko": "선택적으로, 골라서",
+     "source_gloss_id": "s29-g03"
+    }
+   ],
+   "analysis": {
+    "heading_kind": "주제",
+    "title_or_topic_en": "Why Fake News Spreads So Fast",
+    "title_or_topic_ko": "가짜 뉴스가 빠르게 퍼지는 이유",
+    "intent_ko": "가짜 뉴스가 진짜 뉴스보다 훨씬 빨리 퍼지는 이유를 사람들의 세 가지 특성(새롭고 자극적인 것을 좋아함, 단순하게 생각함, 확증 편향)으로 설명하는 글이다.",
+    "flow": [
+     {
+      "sentence_ids": [
+       "s20",
+       "s21"
+      ],
+      "label": "현상",
+      "text_ko": "소셜 미디어의 가짜 뉴스는 진짜 이야기보다 훨씬 더 멀리, 빨리 퍼진다. MIT 연구에 따르면 평균 6배 빠르다."
+     },
+     {
+      "sentence_ids": [
+       "s22",
+       "s23",
+       "s24"
+      ],
+      "label": "이유 1",
+      "text_ko": "사람들은 새롭고 자극적인 것을 좋아한다. 놀라운 정보는 남과 나누고 싶고, 먼저 올리면 관심을 받기 때문에 확인되지 않은 정보도 퍼뜨린다."
+     },
+     {
+      "sentence_ids": [
+       "s25",
+       "s26"
+      ],
+      "label": "이유 2",
+      "text_ko": "사람들은 일상에서 단순하고 쉽게 생각하는 경향이 있어서, 새로운 정보를 비판적으로 검토하지 않고 증거 없이 믿기 쉽다."
+     },
+     {
+      "sentence_ids": [
+       "s27",
+       "s28",
+       "s29",
+       "s30"
+      ],
+      "label": "이유 3",
+      "text_ko": "사람들은 자신의 편견이나 경험에 맞는 정보를 믿는 확증 편향에 빠진다. 선거철에 지지 후보에게 유리한 뉴스와 다른 후보에게 불리한 뉴스를 쉽게 믿는 것이 그 예다."
+     }
+    ],
+    "easy_explanations": [
+     {
+      "sentence_id": "s24",
+      "explanatory_sentences": [
+       "24번 문장은 23번에서 말한 ‘나누고 싶은 마음’이 왜 생기는지 설명한다.",
+       "아직 아무도 모르는 소식을 가장 먼저 올리면 사람들의 관심이 그 사람에게 몰린다.",
+       "그 관심을 받고 싶어서 사람들은 소식이 사실인지 확인하지 않고 먼저 올린다.",
+       "그 소식은 새롭지만 거짓일 수도 있다."
+      ]
+     },
+     {
+      "sentence_id": "s26",
+      "explanatory_sentences": [
+       "26번 문장은 25번에서 말한 ‘단순하고 쉽게 생각하는 습관’이 어떤 결과를 낳는지 보여 준다.",
+       "비판적으로 검토한다는 것은 정보를 그대로 믿지 않고 사실인지 따져 보는 것이다.",
+       "따져 보려면 시간과 노력이 든다.",
+       "그래서 사람들은 증거가 없어도 새로운 정보를 그냥 믿어 버리기 쉽다."
+      ]
+     },
+     {
+      "sentence_id": "s28",
+      "explanatory_sentences": [
+       "28번 문장은 27번에서 말한 습관에 ‘확증 편향’이라는 이름을 붙인다.",
+       "확증 편향은 내 생각이 맞다고 확인해 주는 정보만 믿고 싶어 하는 마음의 경향이다.",
+       "글쓴이는 이것을 사람들이 쉽게 빠지는 함정이라고 부른다.",
+       "29~30번 문장에서 이 함정의 뜻과 예가 이어진다."
+      ]
+     }
+    ],
+    "grammar_points": [
+     {
+      "id": "u3-gp1",
+      "sentence_id": "s21",
+      "span": [
+       78,
+       132
+      ],
+      "title": "배수 + 비교급 + than: ~보다 몇 배 더 …하게",
+      "formula_key": "N times 비교급 than",
+      "explanation": "공식: 숫자 times + 비교급 + than A — A보다 (숫자)배 더 …하게. 숫자 times = 6 times(6배), 비교급 = faster(더 빠르게), A = real news(진짜 뉴스), 앞의 fake news spreads online = 가짜 뉴스가 온라인에서 퍼진다. → 가짜 뉴스는 온라인에서 진짜 뉴스보다 6배 더 빠르게 퍼진다.",
+      "practice": {
+       "span": [
+        78,
+        132
+       ],
+       "formula_support": {
+        "en": "N times 비교급 than",
+        "ko": "~보다 N배 더 …하게"
+       },
+       "answer_ko": "가짜 뉴스는 온라인에서 진짜 뉴스보다 6배 더 빠르게 퍼진다",
+       "support_gloss_ids": [
+        "s21-g09",
+        "s21-g10",
+        "s21-g11",
+        "s21-g12",
+        "s21-g13",
+        "s21-g14",
+        "s21-g15"
+       ]
+      }
+     },
+     {
+      "id": "u3-gp2",
+      "sentence_id": "s23",
+      "span": [
+       33,
+       125
+      ],
+      "title": "not only A but also B: A뿐만 아니라 B도",
+      "formula_key": "not only A but also B",
+      "explanation": "공식: not only A but also B — A뿐만 아니라 B도. A = feel that it is surprising(그것이 놀랍다고 느끼다), B = (they) want to share the stimulating news(그 자극적인 뉴스를 공유하고 싶어 하다). → 사람들은 그것이 놀랍다고 느낄 뿐만 아니라 그 자극적인 뉴스를 공유하고 싶어 하기도 한다. but 뒤에 주어 they가 다시 나와 also가 동사 want 앞에 놓였다.",
+      "practice": {
+       "span": [
+        40,
+        125
+       ],
+       "formula_support": {
+        "en": "not only A but also B",
+        "ko": "A뿐만 아니라 B도"
+       },
+       "answer_ko": "그것이 놀랍다고 느낄 뿐만 아니라 그 자극적인 뉴스를 공유하고 싶어 하기도 한다",
+       "support_gloss_ids": [
+        "s23-g07",
+        "s23-g08",
+        "s23-g11",
+        "s23-g13",
+        "s23-g14",
+        "s23-g15"
+       ]
+      }
+     },
+     {
+      "id": "u3-gp3",
+      "sentence_id": "s24",
+      "span": [
+       73,
+       151
+      ],
+      "title": "the first to V: 처음으로 ~하는 사람",
+      "formula_key": "the first to V",
+      "explanation": "공식: the first to V — 처음으로 ~하는 사람(첫 번째 사람). to V = to post(게시하다), 목적어 = previously unknown, but possibly false, information(이전에 알려지지 않았지만 어쩌면 거짓일 수도 있는 정보). → 이전에 알려지지 않았지만 어쩌면 거짓일 수도 있는 정보를 처음으로 게시하는 사람. to post 이하가 앞의 the first를 뒤에서 꾸민다.",
+      "practice": {
+       "span": [
+        82,
+        151
+       ],
+       "formula_support": {
+        "en": "the first to V",
+        "ko": "처음으로 ~하는 사람"
+       },
+       "answer_ko": "이전에 알려지지 않았지만 어쩌면 거짓일 수도 있는 정보를 처음으로 게시하는 사람",
+       "support_gloss_ids": [
+        "s24-g15",
+        "s24-g16",
+        "s24-g17",
+        "s24-g18",
+        "s24-g19",
+        "s24-g20"
+       ]
+      }
+     }
+    ],
+    "formula_routes": [
+     {
+      "sentence_id": "s21",
+      "function_gloss_id": "s21-g06",
+      "formula_key": "have p.p.",
+      "route": "hint",
+      "hint_index": 1,
+      "review_record": "has shown: 명사절 that 힌트 뒤 두 번째 힌트로 능동 완료 기능 결합 제공"
+     }
+    ],
+    "relations": [
+     {
+      "head": {
+       "id": "u3-r1h",
+       "text": "significantly",
+       "meaning_ko": "훨씬, 상당히"
+      },
+      "synonym": {
+       "id": "u3-r1s",
+       "text": "considerably",
+       "meaning_ko": "상당히, 많이"
+      },
+      "antonym": {
+       "id": "u3-r1a",
+       "text": "slightly",
+       "meaning_ko": "약간, 조금"
+      }
+     },
+     {
+      "head": {
+       "id": "u3-r2h",
+       "text": "ignore",
+       "meaning_ko": "무시하다"
+      },
+      "synonym": {
+       "id": "u3-r2s",
+       "text": "disregard",
+       "meaning_ko": "무시하다, 묵살하다"
+      },
+      "antonym": {
+       "id": "u3-r2a",
+       "text": "accept",
+       "meaning_ko": "받아들이다"
+      }
+     },
+     {
+      "head": {
+       "id": "u3-r3h",
+       "text": "negative",
+       "meaning_ko": "부정적인"
+      },
+      "synonym": {
+       "id": "u3-r3s",
+       "text": "unfavorable",
+       "meaning_ko": "호의적이지 않은, 불리한"
+      },
+      "antonym": {
+       "id": "u3-r3a",
+       "text": "positive",
+       "meaning_ko": "긍정적인"
       }
      }
     ]
@@ -5250,6 +5999,9949 @@
      "s10-g04"
     ],
     "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s11",
+   "text": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual.",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 14,
+     "ko": "안타깝게도,"
+    },
+    {
+     "start": 15,
+     "end": 49,
+     "ko": "우발적인 유포자가 되는 것은"
+    },
+    {
+     "start": 50,
+     "end": 62,
+     "ko": "가짜 뉴스의"
+    },
+    {
+     "start": 63,
+     "end": 72,
+     "ko": "지나처럼"
+    },
+    {
+     "start": 73,
+     "end": 88,
+     "ko": "드물지 않다."
+    }
+   ],
+   "natural_ko": "안타깝게도 지나처럼 뜻하지 않게 가짜 뉴스를 퍼뜨리는 사람이 되는 것은 드문 일이 아니다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 15,
+     "subject_spans": [
+      [
+       15,
+       72
+      ]
+     ],
+     "verb_spans": [
+      [
+       73,
+       75
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s11-g01",
+     "spans": [
+      [
+       0,
+       13
+      ]
+     ],
+     "headword": "unfortunately",
+     "meaning_ko": "안타깝게도, 불행하게도",
+     "star": false
+    },
+    {
+     "id": "s11-g02",
+     "spans": [
+      [
+       15,
+       23
+      ]
+     ],
+     "headword": "V-ing",
+     "meaning_ko": "~하는 것",
+     "star": false,
+     "kind": "function",
+     "combines_with": [
+      "s11-g03"
+     ]
+    },
+    {
+     "id": "s11-g03",
+     "spans": [
+      [
+       15,
+       23
+      ]
+     ],
+     "headword": "become",
+     "meaning_ko": "~이 되다",
+     "star": false,
+     "verb_form": {
+      "usage": "ing",
+      "source_span": [
+       15,
+       23
+      ],
+      "lemma": "become"
+     },
+     "kind": "lexical"
+    },
+    {
+     "id": "s11-g04",
+     "spans": [
+      [
+       27,
+       37
+      ]
+     ],
+     "headword": "accidental",
+     "meaning_ko": "우발적인, 뜻하지 않은",
+     "star": false
+    },
+    {
+     "id": "s11-g05",
+     "spans": [
+      [
+       38,
+       49
+      ]
+     ],
+     "headword": "distributor",
+     "meaning_ko": "유포자, 퍼뜨리는 사람 (흔한 뜻: 유통업자)",
+     "star": true,
+     "today_word_id": "u2-w1"
+    },
+    {
+     "id": "s11-g06",
+     "spans": [
+      [
+       50,
+       52
+      ]
+     ],
+     "headword": "of",
+     "meaning_ko": "~의",
+     "star": false
+    },
+    {
+     "id": "s11-g07",
+     "spans": [
+      [
+       53,
+       57
+      ],
+      [
+       58,
+       62
+      ]
+     ],
+     "headword": "fake news",
+     "meaning_ko": "가짜 뉴스",
+     "star": false
+    },
+    {
+     "id": "s11-g08",
+     "spans": [
+      [
+       63,
+       67
+      ]
+     ],
+     "headword": "like",
+     "meaning_ko": "~처럼",
+     "star": false
+    },
+    {
+     "id": "s11-g09",
+     "spans": [
+      [
+       73,
+       75
+      ]
+     ],
+     "headword": "is",
+     "meaning_ko": "~이다",
+     "star": false
+    },
+    {
+     "id": "s11-g10",
+     "spans": [
+      [
+       76,
+       79
+      ]
+     ],
+     "headword": "not",
+     "meaning_ko": "~지 않다",
+     "star": false
+    },
+    {
+     "id": "s11-g11",
+     "spans": [
+      [
+       80,
+       87
+      ]
+     ],
+     "headword": "unusual",
+     "meaning_ko": "드문, 흔치 않은",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      13
+     ],
+     "gloss_id": "s11-g01"
+    },
+    {
+     "span": [
+      15,
+      23
+     ],
+     "gloss_id": "s11-g03"
+    },
+    {
+     "span": [
+      24,
+      26
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      27,
+      37
+     ],
+     "gloss_id": "s11-g04"
+    },
+    {
+     "span": [
+      38,
+      49
+     ],
+     "gloss_id": "s11-g05"
+    },
+    {
+     "span": [
+      50,
+      52
+     ],
+     "gloss_id": "s11-g06"
+    },
+    {
+     "span": [
+      53,
+      57
+     ],
+     "gloss_id": "s11-g07"
+    },
+    {
+     "span": [
+      58,
+      62
+     ],
+     "gloss_id": "s11-g07"
+    },
+    {
+     "span": [
+      63,
+      67
+     ],
+     "gloss_id": "s11-g08"
+    },
+    {
+     "span": [
+      68,
+      72
+     ],
+     "exemption": "proper-name-repeat",
+     "first_gloss_id": "s01-g06",
+     "reason": "같은 지문에서 먼저 제공한 고유명사 반복"
+    },
+    {
+     "span": [
+      73,
+      75
+     ],
+     "gloss_id": "s11-g09"
+    },
+    {
+     "span": [
+      76,
+      79
+     ],
+     "gloss_id": "s11-g10"
+    },
+    {
+     "span": [
+      80,
+      87
+     ],
+     "gloss_id": "s11-g11"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      15,
+      49
+     ],
+     "meaning_ko": "우발적인 유포자가 되는 것은",
+     "explanation": "동명사 becoming이 이끄는 becoming an accidental distributor of fake news like Gina 전체가 문장의 주어이고 동사는 is. 보어 an accidental distributor까지 표시하고 뒤수식은 제외.",
+     "display_pairs": [
+      {
+       "en": "[becoming an accidental distributor]",
+       "ko": "[우발적인 유포자가 되는 것은]",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           6,
+           9
+          ]
+         ],
+         "ko_spans": [
+          [
+           12,
+           16
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "동명사 주어"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "동명사구 주어 becoming … like Gina(전체 유지) + is not unusual(이중 부정: 드물지 않다 = 흔하다). of·like 앞 후치수식 경계. 힌트 1개(동명사 주어). 관계사·접속사절·수동 없음.",
+    "required_breaks": [
+     {
+      "at": 50,
+      "kind": "postnominal-preposition",
+      "reason": "of fake news는 앞 명사 an accidental distributor를 뒤에서 꾸미는 전치사구"
+     },
+     {
+      "at": 63,
+      "kind": "postnominal-preposition",
+      "reason": "like Gina는 앞 명사구 an accidental distributor of fake news를 뒤에서 꾸미는 전치사구"
+     }
+    ],
+    "protected_spans": [],
+    "function_gloss_ids": [
+     "s11-g02"
+    ],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s12",
+   "text": "Fake news is a deliberate attempt to manipulate people by spreading inaccurate information.",
+   "key": true,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 33,
+     "ko": "가짜 뉴스는 의도적인 시도이다"
+    },
+    {
+     "start": 34,
+     "end": 54,
+     "ko": "사람들을 조종하려는"
+    },
+    {
+     "start": 55,
+     "end": 91,
+     "ko": "부정확한 정보를 퍼뜨림으로써."
+    }
+   ],
+   "natural_ko": "가짜 뉴스는 부정확한 정보를 퍼뜨려 사람들을 조종하려는 의도적인 시도이다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 0,
+     "subject_spans": [
+      [
+       0,
+       9
+      ]
+     ],
+     "verb_spans": [
+      [
+       10,
+       12
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s12-g01",
+     "spans": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       9
+      ]
+     ],
+     "headword": "fake news",
+     "meaning_ko": "가짜 뉴스",
+     "star": false
+    },
+    {
+     "id": "s12-g02",
+     "spans": [
+      [
+       10,
+       12
+      ]
+     ],
+     "headword": "is",
+     "meaning_ko": "~이다",
+     "star": false
+    },
+    {
+     "id": "s12-g03",
+     "spans": [
+      [
+       15,
+       25
+      ]
+     ],
+     "headword": "deliberate",
+     "meaning_ko": "의도적인, 고의적인",
+     "star": true,
+     "today_word_id": "u2-w2"
+    },
+    {
+     "id": "s12-g04",
+     "spans": [
+      [
+       26,
+       33
+      ],
+      [
+       34,
+       36
+      ]
+     ],
+     "headword": "attempt to V",
+     "meaning_ko": "~하려는 시도",
+     "star": false
+    },
+    {
+     "id": "s12-g05",
+     "spans": [
+      [
+       37,
+       47
+      ]
+     ],
+     "headword": "manipulate",
+     "meaning_ko": "조종하다, 조작하다",
+     "star": true,
+     "today_word_id": "u2-w3"
+    },
+    {
+     "id": "s12-g06",
+     "spans": [
+      [
+       48,
+       54
+      ]
+     ],
+     "headword": "people",
+     "meaning_ko": "사람들",
+     "star": false
+    },
+    {
+     "id": "s12-g07",
+     "spans": [
+      [
+       55,
+       57
+      ]
+     ],
+     "headword": "by V-ing",
+     "meaning_ko": "~함으로써",
+     "star": false,
+     "kind": "function",
+     "combines_with": [
+      "s12-g08"
+     ]
+    },
+    {
+     "id": "s12-g08",
+     "spans": [
+      [
+       58,
+       67
+      ]
+     ],
+     "headword": "spread",
+     "meaning_ko": "퍼뜨리다",
+     "star": false,
+     "verb_form": {
+      "usage": "ing",
+      "source_span": [
+       58,
+       67
+      ],
+      "lemma": "spread"
+     },
+     "kind": "lexical"
+    },
+    {
+     "id": "s12-g09",
+     "spans": [
+      [
+       68,
+       78
+      ]
+     ],
+     "headword": "inaccurate",
+     "meaning_ko": "부정확한",
+     "star": false
+    },
+    {
+     "id": "s12-g10",
+     "spans": [
+      [
+       79,
+       90
+      ]
+     ],
+     "headword": "information",
+     "meaning_ko": "정보",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      4
+     ],
+     "gloss_id": "s12-g01"
+    },
+    {
+     "span": [
+      5,
+      9
+     ],
+     "gloss_id": "s12-g01"
+    },
+    {
+     "span": [
+      10,
+      12
+     ],
+     "gloss_id": "s12-g02"
+    },
+    {
+     "span": [
+      13,
+      14
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      15,
+      25
+     ],
+     "gloss_id": "s12-g03"
+    },
+    {
+     "span": [
+      26,
+      33
+     ],
+     "gloss_id": "s12-g04"
+    },
+    {
+     "span": [
+      34,
+      36
+     ],
+     "gloss_id": "s12-g04"
+    },
+    {
+     "span": [
+      37,
+      47
+     ],
+     "gloss_id": "s12-g05"
+    },
+    {
+     "span": [
+      48,
+      54
+     ],
+     "gloss_id": "s12-g06"
+    },
+    {
+     "span": [
+      55,
+      57
+     ],
+     "gloss_id": "s12-g07"
+    },
+    {
+     "span": [
+      58,
+      67
+     ],
+     "gloss_id": "s12-g08"
+    },
+    {
+     "span": [
+      68,
+      78
+     ],
+     "gloss_id": "s12-g09"
+    },
+    {
+     "span": [
+      79,
+      90
+     ],
+     "gloss_id": "s12-g10"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      13,
+      47
+     ],
+     "meaning_ko": "(사람들을) 조종하려는 의도적인 시도",
+     "explanation": "to manipulate people가 앞 명사 a deliberate attempt의 내용을 꾸민다(~하려는 시도). 목적어 people은 표시에서 제외.",
+     "display_pairs": [
+      {
+       "en": "a deliberate attempt [to manipulate]",
+       "ko": "[조종하려는] 의도적인 시도",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           22,
+           24
+          ]
+         ],
+         "ko_spans": [
+          [
+           4,
+           6
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "to부정사 후치수식"
+    },
+    {
+     "span": [
+      55,
+      67
+     ],
+     "meaning_ko": "(부정확한 정보를) 퍼뜨림으로써",
+     "explanation": "전치사 by + 동명사 spreading: ~함으로써(수단). 사람들을 조종하는 방법. 목적어 inaccurate information은 표시에서 제외.",
+     "display_pairs": [
+      {
+       "en": "[by spreading]",
+       "ko": "[퍼뜨림으로써]",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           1,
+           3
+          ],
+          [
+           10,
+           13
+          ]
+         ],
+         "ko_spans": [
+          [
+           3,
+           7
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "전치사 by + 동명사"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "단일 주절 Fake news is a deliberate attempt + to부정사 후치수식 to manipulate people(attempt to V: ~하려는 시도) + 수단 by spreading …. 힌트 2개(to부정사 후치수식, by + 동명사). 관계사·수동 없음.",
+    "required_breaks": [],
+    "protected_spans": [],
+    "function_gloss_ids": [
+     "s12-g07"
+    ],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s13",
+   "text": "It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits.",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 10,
+     "ko": "그것은 만들어진다"
+    },
+    {
+     "start": 11,
+     "end": 28,
+     "ko": "특정 집단들에 의해"
+    },
+    {
+     "start": 29,
+     "end": 81,
+     "ko": "사람들의 관심을 끌려는 의도를 가지고,"
+    },
+    {
+     "start": 82,
+     "end": 97,
+     "ko": "이익을 얻으려는,"
+    },
+    {
+     "start": 98,
+     "end": 128,
+     "ko": "또는 정치적 이득을 얻으려는."
+    }
+   ],
+   "natural_ko": "가짜 뉴스는 사람들의 관심을 끌거나, 이익을 얻거나, 정치적 이득을 얻으려는 의도를 가진 특정 집단들에 의해 만들어진다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 0,
+     "subject_spans": [
+      [
+       0,
+       2
+      ]
+     ],
+     "verb_spans": [
+      [
+       3,
+       5
+      ],
+      [
+       6,
+       10
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s13-g01",
+     "spans": [
+      [
+       0,
+       2
+      ]
+     ],
+     "headword": "it",
+     "meaning_ko": "그것은",
+     "star": false,
+     "referent_ko": "가짜 뉴스"
+    },
+    {
+     "id": "s13-g02",
+     "spans": [
+      [
+       3,
+       5
+      ]
+     ],
+     "headword": "be p.p.",
+     "meaning_ko": "~되다",
+     "star": false,
+     "kind": "function",
+     "combines_with": [
+      "s13-g03"
+     ]
+    },
+    {
+     "id": "s13-g03",
+     "spans": [
+      [
+       6,
+       10
+      ]
+     ],
+     "headword": "made",
+     "meaning_ko": "만들어진",
+     "star": false,
+     "verb_form": {
+      "usage": "passive-participle",
+      "source_span": [
+       6,
+       10
+      ],
+      "lemma": "make",
+      "function_gloss_id": "s13-g02"
+     },
+     "kind": "lexical"
+    },
+    {
+     "id": "s13-g04",
+     "spans": [
+      [
+       11,
+       13
+      ]
+     ],
+     "headword": "by",
+     "meaning_ko": "~에 의해",
+     "star": false
+    },
+    {
+     "id": "s13-g05",
+     "spans": [
+      [
+       14,
+       21
+      ]
+     ],
+     "headword": "certain",
+     "meaning_ko": "특정한 (흔한 뜻: 확실한)",
+     "star": false
+    },
+    {
+     "id": "s13-g06",
+     "spans": [
+      [
+       22,
+       28
+      ]
+     ],
+     "headword": "groups",
+     "meaning_ko": "집단들",
+     "star": false
+    },
+    {
+     "id": "s13-g07",
+     "spans": [
+      [
+       29,
+       33
+      ],
+      [
+       34,
+       37
+      ],
+      [
+       38,
+       47
+      ],
+      [
+       48,
+       50
+      ]
+     ],
+     "headword": "with the intention of V-ing",
+     "meaning_ko": "~하려는 의도를 가지고",
+     "star": true,
+     "today_word_id": "u2-w4"
+    },
+    {
+     "id": "s13-g08",
+     "spans": [
+      [
+       51,
+       61
+      ]
+     ],
+     "headword": "attract",
+     "meaning_ko": "끌다, 끌어들이다",
+     "star": false,
+     "verb_form": {
+      "usage": "ing",
+      "source_span": [
+       51,
+       61
+      ],
+      "lemma": "attract"
+     }
+    },
+    {
+     "id": "s13-g09",
+     "spans": [
+      [
+       62,
+       70
+      ]
+     ],
+     "headword": "people’s",
+     "meaning_ko": "사람들의",
+     "star": false
+    },
+    {
+     "id": "s13-g10",
+     "spans": [
+      [
+       71,
+       80
+      ]
+     ],
+     "headword": "attention",
+     "meaning_ko": "관심, 주목",
+     "star": false
+    },
+    {
+     "id": "s13-g11",
+     "spans": [
+      [
+       82,
+       88
+      ],
+      [
+       89,
+       96
+      ]
+     ],
+     "headword": "make profits",
+     "meaning_ko": "이익을 얻다, 수익을 내다",
+     "star": false,
+     "verb_form": {
+      "usage": "ing",
+      "source_span": [
+       82,
+       88
+      ],
+      "lemma": "make"
+     }
+    },
+    {
+     "id": "s13-g12",
+     "spans": [
+      [
+       98,
+       100
+      ]
+     ],
+     "headword": "or",
+     "meaning_ko": "또는",
+     "star": false
+    },
+    {
+     "id": "s13-g13",
+     "spans": [
+      [
+       101,
+       108
+      ]
+     ],
+     "headword": "gain",
+     "meaning_ko": "얻다",
+     "star": false,
+     "verb_form": {
+      "usage": "ing",
+      "source_span": [
+       101,
+       108
+      ],
+      "lemma": "gain"
+     }
+    },
+    {
+     "id": "s13-g14",
+     "spans": [
+      [
+       109,
+       118
+      ]
+     ],
+     "headword": "political",
+     "meaning_ko": "정치적인",
+     "star": false
+    },
+    {
+     "id": "s13-g15",
+     "spans": [
+      [
+       119,
+       127
+      ]
+     ],
+     "headword": "benefits",
+     "meaning_ko": "이득들, 혜택들",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      2
+     ],
+     "gloss_id": "s13-g01"
+    },
+    {
+     "span": [
+      3,
+      5
+     ],
+     "gloss_id": "s13-g02"
+    },
+    {
+     "span": [
+      6,
+      10
+     ],
+     "gloss_id": "s13-g03"
+    },
+    {
+     "span": [
+      11,
+      13
+     ],
+     "gloss_id": "s13-g04"
+    },
+    {
+     "span": [
+      14,
+      21
+     ],
+     "gloss_id": "s13-g05"
+    },
+    {
+     "span": [
+      22,
+      28
+     ],
+     "gloss_id": "s13-g06"
+    },
+    {
+     "span": [
+      29,
+      33
+     ],
+     "gloss_id": "s13-g07"
+    },
+    {
+     "span": [
+      34,
+      37
+     ],
+     "gloss_id": "s13-g07"
+    },
+    {
+     "span": [
+      38,
+      47
+     ],
+     "gloss_id": "s13-g07"
+    },
+    {
+     "span": [
+      48,
+      50
+     ],
+     "gloss_id": "s13-g07"
+    },
+    {
+     "span": [
+      51,
+      61
+     ],
+     "gloss_id": "s13-g08"
+    },
+    {
+     "span": [
+      62,
+      70
+     ],
+     "gloss_id": "s13-g09"
+    },
+    {
+     "span": [
+      71,
+      80
+     ],
+     "gloss_id": "s13-g10"
+    },
+    {
+     "span": [
+      82,
+      88
+     ],
+     "gloss_id": "s13-g11"
+    },
+    {
+     "span": [
+      89,
+      96
+     ],
+     "gloss_id": "s13-g11"
+    },
+    {
+     "span": [
+      98,
+      100
+     ],
+     "gloss_id": "s13-g12"
+    },
+    {
+     "span": [
+      101,
+      108
+     ],
+     "gloss_id": "s13-g13"
+    },
+    {
+     "span": [
+      109,
+      118
+     ],
+     "gloss_id": "s13-g14"
+    },
+    {
+     "span": [
+      119,
+      127
+     ],
+     "gloss_id": "s13-g15"
+    }
+   ],
+   "hints": [
+    {
+     "category": "function-combination",
+     "span": [
+      0,
+      10
+     ],
+     "gloss_ids": [
+      "s13-g02",
+      "s13-g03"
+     ],
+     "meaning_ko": "만들어진다",
+     "explanation": "빈 힌트 문장의 수동태 후보: is made(현재 수동). 주어 It과 by 구 이하는 표시에서 제외.",
+     "display_mode": "verb-function",
+     "display_span": [
+      3,
+      10
+     ],
+     "formula_label": "be p.p.",
+     "lexical_step": {
+      "gloss_id": "s13-g03",
+      "form": "made",
+      "meaning_ko": "만들어진"
+     },
+     "display_pairs": [
+      {
+       "en": "is made",
+       "ko": "만들어진다",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           0,
+           2
+          ]
+         ],
+         "ko_spans": [
+          [
+           2,
+           5
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "reading_checks": {
+    "review_record": "단일 주절 수동 is made + 행위자 by certain groups(by 앞에서 끊음) + with the intention of + 병렬 동명사 3개(attracting …, making …, or gaining …). with the intention of V-ing는 숙어 각주로 제공(힌트 후보 아님), V-ing 연결 뜻을 숙어가 제공해 별도 기능 각주 없음. 관계사·접속사절 없음 → 수동태 기능 결합 힌트.",
+    "required_breaks": [
+     {
+      "at": 11,
+      "kind": "passive-agent-by",
+      "reason": "수동 is made의 행위자(누구에 의해)를 나타내는 by 구"
+     }
+    ],
+    "protected_spans": [
+     {
+      "span": [
+       29,
+       50
+      ],
+      "kind": "fixed-expression",
+      "reason": "with the intention of V-ing(~하려는 의도를 가지고)를 가르지 않음",
+      "gloss_id": "s13-g07"
+     }
+    ],
+    "function_gloss_ids": [
+     "s13-g02"
+    ],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s14",
+   "text": "It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 22,
+     "ko": "그것은 사람들을 혼란스럽게 할 수 있다,"
+    },
+    {
+     "start": 23,
+     "end": 39,
+     "ko": "사회를 어지럽힐 수 있다,"
+    },
+    {
+     "start": 40,
+     "end": 74,
+     "ko": "그리고 심지어 대중에게 심각하게 해를 끼칠 수 있다"
+    },
+    {
+     "start": 75,
+     "end": 101,
+     "ko": "모든 개인들뿐만 아니라"
+    },
+    {
+     "start": 102,
+     "end": 111,
+     "ko": "관련된."
+    }
+   ],
+   "natural_ko": "가짜 뉴스는 사람들을 혼란스럽게 하고, 사회를 어지럽히며, 심지어 관련된 모든 개인뿐만 아니라 대중에게도 심각한 해를 끼칠 수 있다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 0,
+     "subject_spans": [
+      [
+       0,
+       2
+      ]
+     ],
+     "verb_spans": [
+      [
+       3,
+       6
+      ],
+      [
+       7,
+       14
+      ],
+      [
+       23,
+       30
+      ],
+      [
+       40,
+       43
+      ],
+      [
+       59,
+       63
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s14-g01",
+     "spans": [
+      [
+       0,
+       2
+      ]
+     ],
+     "headword": "it",
+     "meaning_ko": "그것은",
+     "star": false,
+     "referent_ko": "가짜 뉴스"
+    },
+    {
+     "id": "s14-g02",
+     "spans": [
+      [
+       3,
+       6
+      ]
+     ],
+     "headword": "can V",
+     "meaning_ko": "~할 수 있다",
+     "star": false,
+     "kind": "function",
+     "combines_with": [
+      "s14-g03",
+      "s14-g05",
+      "s14-g09"
+     ]
+    },
+    {
+     "id": "s14-g03",
+     "spans": [
+      [
+       7,
+       14
+      ]
+     ],
+     "headword": "confuse",
+     "meaning_ko": "혼란스럽게 하다",
+     "star": false,
+     "kind": "lexical"
+    },
+    {
+     "id": "s14-g04",
+     "spans": [
+      [
+       15,
+       21
+      ]
+     ],
+     "headword": "people",
+     "meaning_ko": "사람들",
+     "star": false
+    },
+    {
+     "id": "s14-g05",
+     "spans": [
+      [
+       23,
+       30
+      ]
+     ],
+     "headword": "disturb",
+     "meaning_ko": "어지럽히다, 방해하다",
+     "star": true,
+     "today_word_id": "u2-w5",
+     "kind": "lexical"
+    },
+    {
+     "id": "s14-g06",
+     "spans": [
+      [
+       31,
+       38
+      ]
+     ],
+     "headword": "society",
+     "meaning_ko": "사회",
+     "star": false
+    },
+    {
+     "id": "s14-g07",
+     "spans": [
+      [
+       44,
+       48
+      ]
+     ],
+     "headword": "even",
+     "meaning_ko": "심지어",
+     "star": false
+    },
+    {
+     "id": "s14-g08",
+     "spans": [
+      [
+       49,
+       58
+      ]
+     ],
+     "headword": "seriously",
+     "meaning_ko": "심각하게",
+     "star": false
+    },
+    {
+     "id": "s14-g09",
+     "spans": [
+      [
+       59,
+       63
+      ]
+     ],
+     "headword": "harm",
+     "meaning_ko": "해를 끼치다",
+     "star": false,
+     "kind": "lexical"
+    },
+    {
+     "id": "s14-g10",
+     "spans": [
+      [
+       68,
+       74
+      ]
+     ],
+     "headword": "the public",
+     "meaning_ko": "대중",
+     "star": false
+    },
+    {
+     "id": "s14-g11",
+     "spans": [
+      [
+       75,
+       77
+      ],
+      [
+       78,
+       82
+      ],
+      [
+       83,
+       85
+      ]
+     ],
+     "headword": "B as well as A",
+     "meaning_ko": "A뿐만 아니라 B도",
+     "star": false
+    },
+    {
+     "id": "s14-g12",
+     "spans": [
+      [
+       86,
+       89
+      ]
+     ],
+     "headword": "all",
+     "meaning_ko": "모든",
+     "star": false
+    },
+    {
+     "id": "s14-g13",
+     "spans": [
+      [
+       90,
+       101
+      ]
+     ],
+     "headword": "individuals",
+     "meaning_ko": "개인들",
+     "star": false
+    },
+    {
+     "id": "s14-g14",
+     "spans": [
+      [
+       102,
+       110
+      ]
+     ],
+     "headword": "involved",
+     "meaning_ko": "관련된",
+     "star": false,
+     "verb_form": {
+      "usage": "past-participle",
+      "source_span": [
+       102,
+       110
+      ],
+      "lemma": "involve"
+     }
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      2
+     ],
+     "gloss_id": "s14-g01"
+    },
+    {
+     "span": [
+      3,
+      6
+     ],
+     "gloss_id": "s14-g02"
+    },
+    {
+     "span": [
+      7,
+      14
+     ],
+     "gloss_id": "s14-g03"
+    },
+    {
+     "span": [
+      15,
+      21
+     ],
+     "gloss_id": "s14-g04"
+    },
+    {
+     "span": [
+      23,
+      30
+     ],
+     "gloss_id": "s14-g05"
+    },
+    {
+     "span": [
+      31,
+      38
+     ],
+     "gloss_id": "s14-g06"
+    },
+    {
+     "span": [
+      40,
+      43
+     ],
+     "exemption": "standalone-and-but",
+     "reason": "일반 연결 and/but 단독 각주 제외"
+    },
+    {
+     "span": [
+      44,
+      48
+     ],
+     "gloss_id": "s14-g07"
+    },
+    {
+     "span": [
+      49,
+      58
+     ],
+     "gloss_id": "s14-g08"
+    },
+    {
+     "span": [
+      59,
+      63
+     ],
+     "gloss_id": "s14-g09"
+    },
+    {
+     "span": [
+      64,
+      67
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      68,
+      74
+     ],
+     "gloss_id": "s14-g10"
+    },
+    {
+     "span": [
+      75,
+      77
+     ],
+     "gloss_id": "s14-g11"
+    },
+    {
+     "span": [
+      78,
+      82
+     ],
+     "gloss_id": "s14-g11"
+    },
+    {
+     "span": [
+      83,
+      85
+     ],
+     "gloss_id": "s14-g11"
+    },
+    {
+     "span": [
+      86,
+      89
+     ],
+     "gloss_id": "s14-g12"
+    },
+    {
+     "span": [
+      90,
+      101
+     ],
+     "gloss_id": "s14-g13"
+    },
+    {
+     "span": [
+      102,
+      110
+     ],
+     "gloss_id": "s14-g14"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      86,
+      110
+     ],
+     "meaning_ko": "관련된 모든 개인들",
+     "explanation": "과거분사 involved가 명사 all individuals 뒤에서 꾸민다(관련된 모든 개인들).",
+     "display_pairs": [
+      {
+       "en": "all individuals [involved]",
+       "ko": "[관련된] 모든 개인들",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           17,
+           25
+          ]
+         ],
+         "ko_spans": [
+          [
+           1,
+           4
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "과거분사 후치수식",
+     "participle_focus_gloss_id": "s14-g14"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "단일 주절: 조동사 can이 병렬 동사 confuse, disturb, and harm을 모두 이끈다. the public as well as all individuals involved: B as well as A(A뿐만 아니라 B도), A=all individuals involved, B=the public. involved는 명사 뒤 과거분사 후치수식 → 앞에서 끊음. 힌트 1개(과거분사 후치수식). 관계사·수동 없음.",
+    "required_breaks": [
+     {
+      "at": 102,
+      "kind": "postpositive-adjective",
+      "reason": "involved는 앞 명사 all individuals를 뒤에서 꾸미는 과거분사"
+     }
+    ],
+    "protected_spans": [],
+    "function_gloss_ids": [
+     "s14-g02"
+    ],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s15",
+   "text": "It is very common for fake news to spread during states of emergency.",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 17,
+     "ko": "매우 흔하다"
+    },
+    {
+     "start": 18,
+     "end": 41,
+     "ko": "가짜 뉴스가 퍼지는 것은"
+    },
+    {
+     "start": 42,
+     "end": 69,
+     "ko": "비상사태 동안."
+    }
+   ],
+   "natural_ko": "비상사태 때 가짜 뉴스가 퍼지는 것은 매우 흔한 일이다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 0,
+     "subject_spans": [
+      [
+       0,
+       2
+      ]
+     ],
+     "verb_spans": [
+      [
+       3,
+       5
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s15-g01",
+     "spans": [
+      [
+       0,
+       2
+      ],
+      [
+       18,
+       21
+      ],
+      [
+       32,
+       34
+      ]
+     ],
+     "headword": "It … for A to V",
+     "meaning_ko": "A가 ~하는 것은 (It은 뒤의 for A to V를 대신함)",
+     "star": false
+    },
+    {
+     "id": "s15-g02",
+     "spans": [
+      [
+       3,
+       5
+      ]
+     ],
+     "headword": "is",
+     "meaning_ko": "~이다",
+     "star": false
+    },
+    {
+     "id": "s15-g03",
+     "spans": [
+      [
+       6,
+       10
+      ]
+     ],
+     "headword": "very",
+     "meaning_ko": "매우",
+     "star": false
+    },
+    {
+     "id": "s15-g04",
+     "spans": [
+      [
+       11,
+       17
+      ]
+     ],
+     "headword": "common",
+     "meaning_ko": "흔한",
+     "star": false
+    },
+    {
+     "id": "s15-g05",
+     "spans": [
+      [
+       22,
+       26
+      ],
+      [
+       27,
+       31
+      ]
+     ],
+     "headword": "fake news",
+     "meaning_ko": "가짜 뉴스",
+     "star": false
+    },
+    {
+     "id": "s15-g06",
+     "spans": [
+      [
+       35,
+       41
+      ]
+     ],
+     "headword": "spread",
+     "meaning_ko": "퍼지다",
+     "star": false
+    },
+    {
+     "id": "s15-g07",
+     "spans": [
+      [
+       42,
+       48
+      ]
+     ],
+     "headword": "during",
+     "meaning_ko": "~ 동안",
+     "star": false
+    },
+    {
+     "id": "s15-g08",
+     "spans": [
+      [
+       49,
+       55
+      ],
+      [
+       56,
+       58
+      ],
+      [
+       59,
+       68
+      ]
+     ],
+     "headword": "states of emergency",
+     "meaning_ko": "비상사태들",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      2
+     ],
+     "gloss_id": "s15-g01"
+    },
+    {
+     "span": [
+      3,
+      5
+     ],
+     "gloss_id": "s15-g02"
+    },
+    {
+     "span": [
+      6,
+      10
+     ],
+     "gloss_id": "s15-g03"
+    },
+    {
+     "span": [
+      11,
+      17
+     ],
+     "gloss_id": "s15-g04"
+    },
+    {
+     "span": [
+      18,
+      21
+     ],
+     "gloss_id": "s15-g01"
+    },
+    {
+     "span": [
+      22,
+      26
+     ],
+     "gloss_id": "s15-g05"
+    },
+    {
+     "span": [
+      27,
+      31
+     ],
+     "gloss_id": "s15-g05"
+    },
+    {
+     "span": [
+      32,
+      34
+     ],
+     "gloss_id": "s15-g01"
+    },
+    {
+     "span": [
+      35,
+      41
+     ],
+     "gloss_id": "s15-g06"
+    },
+    {
+     "span": [
+      42,
+      48
+     ],
+     "gloss_id": "s15-g07"
+    },
+    {
+     "span": [
+      49,
+      55
+     ],
+     "gloss_id": "s15-g08"
+    },
+    {
+     "span": [
+      56,
+      58
+     ],
+     "gloss_id": "s15-g08"
+    },
+    {
+     "span": [
+      59,
+      68
+     ],
+     "gloss_id": "s15-g08"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      0,
+      41
+     ],
+     "meaning_ko": "가짜 뉴스가 퍼지는 것은 매우 흔하다",
+     "explanation": "It은 뒤의 for fake news to spread를 대신하는 가주어. for 뒤 fake news는 to spread의 의미상 주어(가짜 뉴스가 퍼지는 것). 진주어 앞(for 앞)에서 끊음.",
+     "display_pairs": [
+      {
+       "en": "It is very common [for fake news to spread]",
+       "ko": "[가짜 뉴스가 퍼지는 것은] 매우 흔하다",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           19,
+           22
+          ],
+          [
+           33,
+           35
+          ]
+         ],
+         "ko_spans": [
+          [
+           1,
+           2
+          ],
+          [
+           10,
+           14
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "가주어 It과 진주어 to부정사"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "가주어 It + 진주어 for A to V(for fake news to spread, A=fake news). 진주어 앞에서 끊음. states of emergency는 한 명사 표현. 힌트 1개(가주어–진주어). 관계사·수동 없음.",
+    "required_breaks": [],
+    "protected_spans": [
+     {
+      "span": [
+       49,
+       68
+      ],
+      "kind": "fixed-expression",
+      "reason": "state of emergency(비상사태)는 한 덩어리 명사 표현이라 of 앞에서 끊지 않음"
+     }
+    ],
+    "function_gloss_ids": [],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s16",
+   "text": "For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks.",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 12,
+     "ko": "예를 들어,"
+    },
+    {
+     "start": 13,
+     "end": 46,
+     "ko": "규모 6.5의 지진이"
+    },
+    {
+     "start": 47,
+     "end": 71,
+     "ko": "인도네시아 암본을 강타한 후에,"
+    },
+    {
+     "start": 72,
+     "end": 90,
+     "ko": "2019년 9월에,"
+    },
+    {
+     "start": 91,
+     "end": 128,
+     "ko": "수천 명의 주민들이 돌아가지 않았다"
+    },
+    {
+     "start": 129,
+     "end": 143,
+     "ko": "그들의 집으로"
+    },
+    {
+     "start": 144,
+     "end": 170,
+     "ko": "그리고 여전히 대피소에 있었다"
+    },
+    {
+     "start": 171,
+     "end": 185,
+     "ko": "2주 동안."
+    }
+   ],
+   "natural_ko": "예를 들어, 2019년 9월 인도네시아 암본에 규모 6.5의 지진이 발생한 후 수천 명의 주민들이 집으로 돌아가지 않고 2주 동안 대피소에 머물렀다.",
+   "clauses": [
+    {
+     "kind": "subordinate",
+     "start": 13,
+     "marker": "after",
+     "subject_spans": [
+      [
+       19,
+       46
+      ]
+     ],
+     "subject_display_spans": [
+      [
+       19,
+       32
+      ]
+     ],
+     "subject_display_review": "중심명사 earthquake까지 표시하고 뒤수식 현재분사구 measuring 6.5는 제외",
+     "verb_spans": [
+      [
+       47,
+       53
+      ]
+     ]
+    },
+    {
+     "kind": "main",
+     "start": 91,
+     "subject_spans": [
+      [
+       91,
+       113
+      ]
+     ],
+     "verb_spans": [
+      [
+       114,
+       117
+      ],
+      [
+       118,
+       121
+      ],
+      [
+       122,
+       128
+      ],
+      [
+       144,
+       147
+      ],
+      [
+       148,
+       152
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s16-g01",
+     "spans": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       11
+      ]
+     ],
+     "headword": "for example",
+     "meaning_ko": "예를 들어",
+     "star": false
+    },
+    {
+     "id": "s16-g02",
+     "spans": [
+      [
+       13,
+       18
+      ]
+     ],
+     "headword": "after S′ V′",
+     "meaning_ko": "S′(이/가) V′한 후에",
+     "star": false
+    },
+    {
+     "id": "s16-g03",
+     "spans": [
+      [
+       22,
+       32
+      ]
+     ],
+     "headword": "earthquake",
+     "meaning_ko": "지진",
+     "star": false
+    },
+    {
+     "id": "s16-g04",
+     "spans": [
+      [
+       33,
+       42
+      ]
+     ],
+     "headword": "V-ing",
+     "meaning_ko": "~인",
+     "star": false,
+     "kind": "function",
+     "combines_with": [
+      "s16-g05"
+     ]
+    },
+    {
+     "id": "s16-g05",
+     "spans": [
+      [
+       33,
+       42
+      ]
+     ],
+     "headword": "measure",
+     "meaning_ko": "(크기·규모가) ~이다 (흔한 뜻: 측정하다)",
+     "star": false,
+     "verb_form": {
+      "usage": "ing",
+      "source_span": [
+       33,
+       42
+      ],
+      "lemma": "measure"
+     },
+     "kind": "lexical"
+    },
+    {
+     "id": "s16-g06",
+     "spans": [
+      [
+       47,
+       53
+      ]
+     ],
+     "headword": "struck",
+     "meaning_ko": "강타했다 (strike의 과거)",
+     "star": false,
+     "verb_form": {
+      "usage": "irregular-past",
+      "source_span": [
+       47,
+       53
+      ],
+      "lemma": "strike"
+     }
+    },
+    {
+     "id": "s16-g07",
+     "spans": [
+      [
+       54,
+       59
+      ]
+     ],
+     "headword": "Ambon",
+     "meaning_ko": "암본 (인도네시아의 도시)",
+     "star": false
+    },
+    {
+     "id": "s16-g08",
+     "spans": [
+      [
+       61,
+       70
+      ]
+     ],
+     "headword": "Indonesia",
+     "meaning_ko": "인도네시아",
+     "star": false
+    },
+    {
+     "id": "s16-g09",
+     "spans": [
+      [
+       72,
+       74
+      ]
+     ],
+     "headword": "in",
+     "meaning_ko": "~에",
+     "star": false
+    },
+    {
+     "id": "s16-g10",
+     "spans": [
+      [
+       75,
+       84
+      ]
+     ],
+     "headword": "September",
+     "meaning_ko": "9월",
+     "star": false
+    },
+    {
+     "id": "s16-g11",
+     "spans": [
+      [
+       91,
+       103
+      ]
+     ],
+     "headword": "thousands of",
+     "meaning_ko": "수천 (명)의",
+     "star": false
+    },
+    {
+     "id": "s16-g12",
+     "spans": [
+      [
+       104,
+       113
+      ]
+     ],
+     "headword": "residents",
+     "meaning_ko": "주민들",
+     "star": false
+    },
+    {
+     "id": "s16-g13",
+     "spans": [
+      [
+       114,
+       117
+      ],
+      [
+       118,
+       121
+      ]
+     ],
+     "headword": "did not V",
+     "meaning_ko": "~하지 않았다",
+     "star": false,
+     "kind": "function",
+     "combines_with": [
+      "s16-g14"
+     ]
+    },
+    {
+     "id": "s16-g14",
+     "spans": [
+      [
+       122,
+       128
+      ]
+     ],
+     "headword": "return",
+     "meaning_ko": "돌아가다",
+     "star": false,
+     "kind": "lexical"
+    },
+    {
+     "id": "s16-g15",
+     "spans": [
+      [
+       129,
+       131
+      ]
+     ],
+     "headword": "to",
+     "meaning_ko": "~로",
+     "star": false
+    },
+    {
+     "id": "s16-g16",
+     "spans": [
+      [
+       132,
+       137
+      ]
+     ],
+     "headword": "their",
+     "meaning_ko": "그들의",
+     "star": false,
+     "referent_ko": "암본 주민들"
+    },
+    {
+     "id": "s16-g17",
+     "spans": [
+      [
+       138,
+       143
+      ]
+     ],
+     "headword": "homes",
+     "meaning_ko": "집들",
+     "star": false
+    },
+    {
+     "id": "s16-g18",
+     "spans": [
+      [
+       148,
+       152
+      ]
+     ],
+     "headword": "were",
+     "meaning_ko": "(~에) 있었다",
+     "star": false
+    },
+    {
+     "id": "s16-g19",
+     "spans": [
+      [
+       153,
+       158
+      ]
+     ],
+     "headword": "still",
+     "meaning_ko": "여전히",
+     "star": false
+    },
+    {
+     "id": "s16-g20",
+     "spans": [
+      [
+       159,
+       161
+      ]
+     ],
+     "headword": "in",
+     "meaning_ko": "~에",
+     "star": false
+    },
+    {
+     "id": "s16-g21",
+     "spans": [
+      [
+       162,
+       170
+      ]
+     ],
+     "headword": "shelters",
+     "meaning_ko": "대피소들",
+     "star": true,
+     "today_word_id": "u2-w6"
+    },
+    {
+     "id": "s16-g22",
+     "spans": [
+      [
+       171,
+       174
+      ]
+     ],
+     "headword": "for",
+     "meaning_ko": "~ 동안",
+     "star": false
+    },
+    {
+     "id": "s16-g23",
+     "spans": [
+      [
+       175,
+       178
+      ]
+     ],
+     "headword": "two",
+     "meaning_ko": "두, 2",
+     "star": false
+    },
+    {
+     "id": "s16-g24",
+     "spans": [
+      [
+       179,
+       184
+      ]
+     ],
+     "headword": "weeks",
+     "meaning_ko": "주들",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      3
+     ],
+     "gloss_id": "s16-g01"
+    },
+    {
+     "span": [
+      4,
+      11
+     ],
+     "gloss_id": "s16-g01"
+    },
+    {
+     "span": [
+      13,
+      18
+     ],
+     "gloss_id": "s16-g02"
+    },
+    {
+     "span": [
+      19,
+      21
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      22,
+      32
+     ],
+     "gloss_id": "s16-g03"
+    },
+    {
+     "span": [
+      33,
+      42
+     ],
+     "gloss_id": "s16-g05"
+    },
+    {
+     "span": [
+      47,
+      53
+     ],
+     "gloss_id": "s16-g06"
+    },
+    {
+     "span": [
+      54,
+      59
+     ],
+     "gloss_id": "s16-g07"
+    },
+    {
+     "span": [
+      61,
+      70
+     ],
+     "gloss_id": "s16-g08"
+    },
+    {
+     "span": [
+      72,
+      74
+     ],
+     "gloss_id": "s16-g09"
+    },
+    {
+     "span": [
+      75,
+      84
+     ],
+     "gloss_id": "s16-g10"
+    },
+    {
+     "span": [
+      91,
+      100
+     ],
+     "gloss_id": "s16-g11"
+    },
+    {
+     "span": [
+      101,
+      103
+     ],
+     "gloss_id": "s16-g11"
+    },
+    {
+     "span": [
+      104,
+      113
+     ],
+     "gloss_id": "s16-g12"
+    },
+    {
+     "span": [
+      114,
+      117
+     ],
+     "gloss_id": "s16-g13"
+    },
+    {
+     "span": [
+      118,
+      121
+     ],
+     "gloss_id": "s16-g13"
+    },
+    {
+     "span": [
+      122,
+      128
+     ],
+     "gloss_id": "s16-g14"
+    },
+    {
+     "span": [
+      129,
+      131
+     ],
+     "gloss_id": "s16-g15"
+    },
+    {
+     "span": [
+      132,
+      137
+     ],
+     "gloss_id": "s16-g16"
+    },
+    {
+     "span": [
+      138,
+      143
+     ],
+     "gloss_id": "s16-g17"
+    },
+    {
+     "span": [
+      144,
+      147
+     ],
+     "exemption": "standalone-and-but",
+     "reason": "일반 연결 and/but 단독 각주 제외"
+    },
+    {
+     "span": [
+      148,
+      152
+     ],
+     "gloss_id": "s16-g18"
+    },
+    {
+     "span": [
+      153,
+      158
+     ],
+     "gloss_id": "s16-g19"
+    },
+    {
+     "span": [
+      159,
+      161
+     ],
+     "gloss_id": "s16-g20"
+    },
+    {
+     "span": [
+      162,
+      170
+     ],
+     "gloss_id": "s16-g21"
+    },
+    {
+     "span": [
+      171,
+      174
+     ],
+     "gloss_id": "s16-g22"
+    },
+    {
+     "span": [
+      175,
+      178
+     ],
+     "gloss_id": "s16-g23"
+    },
+    {
+     "span": [
+      179,
+      184
+     ],
+     "gloss_id": "s16-g24"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      13,
+      53
+     ],
+     "meaning_ko": "규모 6.5의 지진이 (암본을) 강타한 후에",
+     "explanation": "after가 이끄는 시간 부사절(S′ an earthquake measuring 6.5, V′ struck). 주어 뒤 현재분사 measuring 6.5가 earthquake를 꾸며 S′에 포함. 목적어 Ambon, Indonesia 이하는 제외.",
+     "display_pairs": [
+      {
+       "en": "[after an earthquake measuring 6.5 struck]",
+       "ko": "[규모 6.5의 지진이 강타한 후에]",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           1,
+           6
+          ]
+         ],
+         "ko_spans": [
+          [
+           11,
+           12
+          ],
+          [
+           15,
+           19
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "시간 접속사 after"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "문두 시간 부사절 after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019 + 주절 thousands of residents did not return … and were still in shelters(병렬 동사, 부정은 did not return에만 걸림). measuring 6.5는 현재분사 후치수식(규모가 6.5인). thousands of는 수량+of 같은 어순 예외. 힌트 1개(접속사 after). 관계사·수동 없음.",
+    "required_breaks": [],
+    "protected_spans": [
+     {
+      "span": [
+       91,
+       103
+      ],
+      "kind": "quantity-kind-of",
+      "reason": "수량 표현 thousands of가 뒤 명사 residents 앞에서 ‘수천 명의’로 같은 어순 대응",
+      "gloss_id": "s16-g11"
+     }
+    ],
+    "function_gloss_ids": [
+     "s16-g04",
+     "s16-g13"
+    ],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s17",
+   "text": "This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike.",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 37,
+     "ko": "이것은 가짜 뉴스 이야기들 때문이었다"
+    },
+    {
+     "start": 38,
+     "end": 53,
+     "ko": "소셜 미디어에 올라온"
+    },
+    {
+     "start": 54,
+     "end": 77,
+     "ko": "또 다른 지진이"
+    },
+    {
+     "start": 78,
+     "end": 86,
+     "ko": "(뒤에) 이어지는"
+    },
+    {
+     "start": 87,
+     "end": 99,
+     "ko": "쓰나미로"
+    },
+    {
+     "start": 100,
+     "end": 120,
+     "ko": "곧 닥칠 것이라는."
+    }
+   ],
+   "natural_ko": "이는 쓰나미를 동반한 또 다른 지진이 곧 닥칠 것이라는 소셜 미디어상의 가짜 뉴스 때문이었다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 0,
+     "subject_spans": [
+      [
+       0,
+       4
+      ]
+     ],
+     "verb_spans": [
+      [
+       5,
+       8
+      ]
+     ]
+    },
+    {
+     "kind": "subordinate",
+     "start": 54,
+     "marker": "that",
+     "subject_spans": [
+      [
+       59,
+       99
+      ]
+     ],
+     "subject_display_spans": [
+      [
+       59,
+       77
+      ]
+     ],
+     "subject_display_review": "중심명사 earthquake까지 표시하고 뒤수식 과거분사구 followed by a tsunami는 제외(common-errors 1의 후치수식 주어 오인 방지)",
+     "verb_spans": [
+      [
+       100,
+       103
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s17-g01",
+     "spans": [
+      [
+       0,
+       4
+      ]
+     ],
+     "headword": "this",
+     "meaning_ko": "이것은",
+     "star": false,
+     "referent_ko": "주민들이 집에 돌아가지 않고 2주 동안 대피소에 있었던 일"
+    },
+    {
+     "id": "s17-g02",
+     "spans": [
+      [
+       5,
+       8
+      ]
+     ],
+     "headword": "was",
+     "meaning_ko": "~였다",
+     "star": false
+    },
+    {
+     "id": "s17-g03",
+     "spans": [
+      [
+       9,
+       16
+      ],
+      [
+       17,
+       19
+      ]
+     ],
+     "headword": "because of",
+     "meaning_ko": "~ 때문에",
+     "star": false
+    },
+    {
+     "id": "s17-g04",
+     "spans": [
+      [
+       20,
+       24
+      ],
+      [
+       25,
+       29
+      ]
+     ],
+     "headword": "fake news",
+     "meaning_ko": "가짜 뉴스",
+     "star": false
+    },
+    {
+     "id": "s17-g05",
+     "spans": [
+      [
+       30,
+       37
+      ]
+     ],
+     "headword": "stories",
+     "meaning_ko": "이야기들",
+     "star": false
+    },
+    {
+     "id": "s17-g06",
+     "spans": [
+      [
+       38,
+       40
+      ]
+     ],
+     "headword": "on",
+     "meaning_ko": "~에 올라온 (흔한 뜻: ~위에)",
+     "star": false
+    },
+    {
+     "id": "s17-g07",
+     "spans": [
+      [
+       41,
+       47
+      ],
+      [
+       48,
+       53
+      ]
+     ],
+     "headword": "social media",
+     "meaning_ko": "소셜 미디어",
+     "star": false
+    },
+    {
+     "id": "s17-g08",
+     "spans": [
+      [
+       54,
+       58
+      ]
+     ],
+     "headword": "that S′ V′",
+     "meaning_ko": "S′(이/가) V′라는 (앞 명사의 내용을 설명)",
+     "star": false
+    },
+    {
+     "id": "s17-g09",
+     "spans": [
+      [
+       59,
+       66
+      ]
+     ],
+     "headword": "another",
+     "meaning_ko": "또 다른",
+     "star": false
+    },
+    {
+     "id": "s17-g10",
+     "spans": [
+      [
+       67,
+       77
+      ]
+     ],
+     "headword": "earthquake",
+     "meaning_ko": "지진",
+     "star": false
+    },
+    {
+     "id": "s17-g11",
+     "spans": [
+      [
+       78,
+       86
+      ]
+     ],
+     "headword": "followed",
+     "meaning_ko": "(뒤에) 이어지는, 뒤따라진",
+     "star": false,
+     "verb_form": {
+      "usage": "past-participle",
+      "source_span": [
+       78,
+       86
+      ],
+      "lemma": "follow"
+     }
+    },
+    {
+     "id": "s17-g12",
+     "spans": [
+      [
+       87,
+       89
+      ]
+     ],
+     "headword": "by",
+     "meaning_ko": "~로, ~에 의해",
+     "star": false
+    },
+    {
+     "id": "s17-g13",
+     "spans": [
+      [
+       92,
+       99
+      ]
+     ],
+     "headword": "tsunami",
+     "meaning_ko": "쓰나미, 지진 해일",
+     "star": false
+    },
+    {
+     "id": "s17-g14",
+     "spans": [
+      [
+       100,
+       103
+      ],
+      [
+       104,
+       109
+      ],
+      [
+       110,
+       112
+      ]
+     ],
+     "headword": "be about to V",
+     "meaning_ko": "막 ~하려 하다, 곧 ~할 것이다",
+     "star": false
+    },
+    {
+     "id": "s17-g15",
+     "spans": [
+      [
+       113,
+       119
+      ]
+     ],
+     "headword": "strike",
+     "meaning_ko": "(재난이) 닥치다, 발생하다",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      4
+     ],
+     "gloss_id": "s17-g01"
+    },
+    {
+     "span": [
+      5,
+      8
+     ],
+     "gloss_id": "s17-g02"
+    },
+    {
+     "span": [
+      9,
+      16
+     ],
+     "gloss_id": "s17-g03"
+    },
+    {
+     "span": [
+      17,
+      19
+     ],
+     "gloss_id": "s17-g03"
+    },
+    {
+     "span": [
+      20,
+      24
+     ],
+     "gloss_id": "s17-g04"
+    },
+    {
+     "span": [
+      25,
+      29
+     ],
+     "gloss_id": "s17-g04"
+    },
+    {
+     "span": [
+      30,
+      37
+     ],
+     "gloss_id": "s17-g05"
+    },
+    {
+     "span": [
+      38,
+      40
+     ],
+     "gloss_id": "s17-g06"
+    },
+    {
+     "span": [
+      41,
+      47
+     ],
+     "gloss_id": "s17-g07"
+    },
+    {
+     "span": [
+      48,
+      53
+     ],
+     "gloss_id": "s17-g07"
+    },
+    {
+     "span": [
+      54,
+      58
+     ],
+     "gloss_id": "s17-g08"
+    },
+    {
+     "span": [
+      59,
+      66
+     ],
+     "gloss_id": "s17-g09"
+    },
+    {
+     "span": [
+      67,
+      77
+     ],
+     "gloss_id": "s17-g10"
+    },
+    {
+     "span": [
+      78,
+      86
+     ],
+     "gloss_id": "s17-g11"
+    },
+    {
+     "span": [
+      87,
+      89
+     ],
+     "gloss_id": "s17-g12"
+    },
+    {
+     "span": [
+      90,
+      91
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      92,
+      99
+     ],
+     "gloss_id": "s17-g13"
+    },
+    {
+     "span": [
+      100,
+      103
+     ],
+     "gloss_id": "s17-g14"
+    },
+    {
+     "span": [
+      104,
+      109
+     ],
+     "gloss_id": "s17-g14"
+    },
+    {
+     "span": [
+      110,
+      112
+     ],
+     "gloss_id": "s17-g14"
+    },
+    {
+     "span": [
+      113,
+      119
+     ],
+     "gloss_id": "s17-g15"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      54,
+      119
+     ],
+     "meaning_ko": "쓰나미로 이어지는 또 다른 지진이 곧 닥칠 것이라는",
+     "explanation": "that절이 앞 명사 fake news stories의 내용을 설명하는 동격절. S′는 another earthquake(과거분사구 followed by a tsunami가 뒤에서 꾸밈), V′는 was(be about to V: 곧 ~할 것이다). followed를 동사로 오인하지 않도록 S′ 전체와 V′ was까지 표시.",
+     "display_pairs": [
+      {
+       "en": "[that another earthquake followed by a tsunami was about to strike]",
+       "ko": "[쓰나미로 이어지는 또 다른 지진이 곧 닥칠 것이라는]",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           1,
+           5
+          ]
+         ],
+         "ko_spans": [
+          [
+           18,
+           19
+          ],
+          [
+           27,
+           29
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "동격 접속사 that"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "주절 This was because of fake news stories on social media + 동격 that절(stories의 내용). that절 주어 another earthquake를 과거분사구 followed by a tsunami가 꾸미고 동사는 was(be about to strike). followed는 동사가 아니라 후치수식(common-errors 1). on 앞 후치수식, 수동 관계 by 앞에서 끊음. 힌트 1개(동격 that, 후치수식을 포함한 S′·V′ 표시). 유한 수동태 없음.",
+    "required_breaks": [
+     {
+      "at": 38,
+      "kind": "postnominal-preposition",
+      "reason": "on social media는 앞 명사 fake news stories를 뒤에서 꾸미는 전치사구"
+     },
+     {
+      "at": 87,
+      "kind": "passive-agent-by",
+      "reason": "과거분사 followed의 수동 관계에서 행위자(무엇에 의해)를 나타내는 by 구"
+     }
+    ],
+    "protected_spans": [],
+    "function_gloss_ids": [],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s18",
+   "text": "One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.”",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 27,
+     "ko": "그 메시지들 중 하나는 말했다,"
+    },
+    {
+     "start": 28,
+     "end": 43,
+     "ko": "“당신에게 달려 있다"
+    },
+    {
+     "start": 44,
+     "end": 77,
+     "ko": "당신이 나를 믿고 싶은지 아닌지는,"
+    },
+    {
+     "start": 78,
+     "end": 115,
+     "ko": "하지만 듣자 하니 암본은 가라앉을 것이다"
+    },
+    {
+     "start": 116,
+     "end": 138,
+     "ko": "앞으로 며칠 안에.”"
+    }
+   ],
+   "natural_ko": "그 메시지 중 하나는 “나를 믿든 말든 당신 마음이지만, 듣자 하니 앞으로 며칠 안에 암본이 가라앉을 거래요.”라고 했다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 0,
+     "subject_spans": [
+      [
+       0,
+       21
+      ]
+     ],
+     "verb_spans": [
+      [
+       22,
+       26
+      ]
+     ]
+    },
+    {
+     "kind": "main",
+     "start": 29,
+     "subject_spans": [
+      [
+       29,
+       31
+      ]
+     ],
+     "verb_spans": [
+      [
+       31,
+       33
+      ]
+     ],
+     "contraction_readings": [
+      {
+       "span": [
+        31,
+        33
+       ],
+       "expanded": "is"
+      }
+     ]
+    },
+    {
+     "kind": "subordinate",
+     "start": 44,
+     "marker": "if",
+     "subject_spans": [
+      [
+       47,
+       50
+      ]
+     ],
+     "verb_spans": [
+      [
+       51,
+       55
+      ]
+     ]
+    },
+    {
+     "kind": "main",
+     "start": 93,
+     "marker": "but",
+     "subject_spans": [
+      [
+       93,
+       98
+      ]
+     ],
+     "verb_spans": [
+      [
+       99,
+       101
+      ],
+      [
+       102,
+       107
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s18-g01",
+     "spans": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       6
+      ]
+     ],
+     "headword": "one of",
+     "meaning_ko": "~ 중 하나",
+     "star": false
+    },
+    {
+     "id": "s18-g02",
+     "spans": [
+      [
+       7,
+       12
+      ]
+     ],
+     "headword": "those",
+     "meaning_ko": "그",
+     "star": false
+    },
+    {
+     "id": "s18-g03",
+     "spans": [
+      [
+       13,
+       21
+      ]
+     ],
+     "headword": "messages",
+     "meaning_ko": "메시지들",
+     "star": false
+    },
+    {
+     "id": "s18-g04",
+     "spans": [
+      [
+       22,
+       26
+      ]
+     ],
+     "headword": "said",
+     "meaning_ko": "말했다 (say의 과거)",
+     "star": false,
+     "verb_form": {
+      "usage": "irregular-past",
+      "source_span": [
+       22,
+       26
+      ],
+      "lemma": "say"
+     }
+    },
+    {
+     "id": "s18-g05",
+     "spans": [
+      [
+       29,
+       33
+      ]
+     ],
+     "headword": "it’s",
+     "meaning_ko": "(뒤의 if절을 대신하는) 그것은 ~이다 (It is의 줄임)",
+     "star": false
+    },
+    {
+     "id": "s18-g06",
+     "spans": [
+      [
+       34,
+       36
+      ],
+      [
+       37,
+       39
+      ]
+     ],
+     "headword": "up to A",
+     "meaning_ko": "A에게 달려 있는",
+     "star": false
+    },
+    {
+     "id": "s18-g07",
+     "spans": [
+      [
+       44,
+       46
+      ],
+      [
+       70,
+       72
+      ],
+      [
+       73,
+       76
+      ]
+     ],
+     "headword": "if S′ V′ or not",
+     "meaning_ko": "S′(이/가) V′하는지 아닌지",
+     "star": false
+    },
+    {
+     "id": "s18-g08",
+     "spans": [
+      [
+       51,
+       55
+      ],
+      [
+       56,
+       58
+      ]
+     ],
+     "headword": "want to V",
+     "meaning_ko": "~하고 싶다",
+     "star": false,
+     "kind": "lexical",
+     "verb_construction": {
+      "kind": "to-complement",
+      "verb_span": [
+       51,
+       55
+      ],
+      "lemma": "want",
+      "link_spans": [
+       [
+        56,
+        58
+       ]
+      ],
+      "review_record": "you want to believe me: want to V, V=believe."
+     }
+    },
+    {
+     "id": "s18-g09",
+     "spans": [
+      [
+       59,
+       66
+      ]
+     ],
+     "headword": "believe",
+     "meaning_ko": "믿다",
+     "star": false
+    },
+    {
+     "id": "s18-g10",
+     "spans": [
+      [
+       67,
+       69
+      ]
+     ],
+     "headword": "me",
+     "meaning_ko": "나를",
+     "star": false
+    },
+    {
+     "id": "s18-g11",
+     "spans": [
+      [
+       82,
+       92
+      ]
+     ],
+     "headword": "apparently",
+     "meaning_ko": "듣자 하니, 보아하니",
+     "star": false
+    },
+    {
+     "id": "s18-g12",
+     "spans": [
+      [
+       99,
+       101
+      ],
+      [
+       102,
+       107
+      ],
+      [
+       108,
+       110
+      ]
+     ],
+     "headword": "be going to V",
+     "meaning_ko": "~할 것이다",
+     "star": false
+    },
+    {
+     "id": "s18-g13",
+     "spans": [
+      [
+       111,
+       115
+      ]
+     ],
+     "headword": "sink",
+     "meaning_ko": "가라앉다",
+     "star": false
+    },
+    {
+     "id": "s18-g14",
+     "spans": [
+      [
+       116,
+       118
+      ],
+      [
+       119,
+       122
+      ],
+      [
+       123,
+       127
+      ],
+      [
+       128,
+       131
+      ],
+      [
+       132,
+       136
+      ]
+     ],
+     "headword": "in the next few days",
+     "meaning_ko": "앞으로 며칠 안에",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      3
+     ],
+     "gloss_id": "s18-g01"
+    },
+    {
+     "span": [
+      4,
+      6
+     ],
+     "gloss_id": "s18-g01"
+    },
+    {
+     "span": [
+      7,
+      12
+     ],
+     "gloss_id": "s18-g02"
+    },
+    {
+     "span": [
+      13,
+      21
+     ],
+     "gloss_id": "s18-g03"
+    },
+    {
+     "span": [
+      22,
+      26
+     ],
+     "gloss_id": "s18-g04"
+    },
+    {
+     "span": [
+      29,
+      33
+     ],
+     "gloss_id": "s18-g05"
+    },
+    {
+     "span": [
+      34,
+      36
+     ],
+     "gloss_id": "s18-g06"
+    },
+    {
+     "span": [
+      37,
+      39
+     ],
+     "gloss_id": "s18-g06"
+    },
+    {
+     "span": [
+      40,
+      43
+     ],
+     "exemption": "standalone-you",
+     "reason": "단독 you 각주 제외(사용자 지정)"
+    },
+    {
+     "span": [
+      44,
+      46
+     ],
+     "gloss_id": "s18-g07"
+    },
+    {
+     "span": [
+      47,
+      50
+     ],
+     "exemption": "standalone-you",
+     "reason": "단독 you 각주 제외(사용자 지정)"
+    },
+    {
+     "span": [
+      51,
+      55
+     ],
+     "gloss_id": "s18-g08"
+    },
+    {
+     "span": [
+      56,
+      58
+     ],
+     "gloss_id": "s18-g08"
+    },
+    {
+     "span": [
+      59,
+      66
+     ],
+     "gloss_id": "s18-g09"
+    },
+    {
+     "span": [
+      67,
+      69
+     ],
+     "gloss_id": "s18-g10"
+    },
+    {
+     "span": [
+      70,
+      72
+     ],
+     "gloss_id": "s18-g07"
+    },
+    {
+     "span": [
+      73,
+      76
+     ],
+     "gloss_id": "s18-g07"
+    },
+    {
+     "span": [
+      78,
+      81
+     ],
+     "exemption": "standalone-and-but",
+     "reason": "일반 연결 and/but 단독 각주 제외"
+    },
+    {
+     "span": [
+      82,
+      92
+     ],
+     "gloss_id": "s18-g11"
+    },
+    {
+     "span": [
+      93,
+      98
+     ],
+     "exemption": "proper-name-repeat",
+     "first_gloss_id": "s16-g07",
+     "reason": "같은 지문에서 먼저 제공한 고유명사 반복"
+    },
+    {
+     "span": [
+      99,
+      101
+     ],
+     "gloss_id": "s18-g12"
+    },
+    {
+     "span": [
+      102,
+      107
+     ],
+     "gloss_id": "s18-g12"
+    },
+    {
+     "span": [
+      108,
+      110
+     ],
+     "gloss_id": "s18-g12"
+    },
+    {
+     "span": [
+      111,
+      115
+     ],
+     "gloss_id": "s18-g13"
+    },
+    {
+     "span": [
+      116,
+      118
+     ],
+     "gloss_id": "s18-g14"
+    },
+    {
+     "span": [
+      119,
+      122
+     ],
+     "gloss_id": "s18-g14"
+    },
+    {
+     "span": [
+      123,
+      127
+     ],
+     "gloss_id": "s18-g14"
+    },
+    {
+     "span": [
+      128,
+      131
+     ],
+     "gloss_id": "s18-g14"
+    },
+    {
+     "span": [
+      132,
+      136
+     ],
+     "gloss_id": "s18-g14"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      29,
+      66
+     ],
+     "meaning_ko": "당신이 (나를) 믿고 싶은지는 당신에게 달려 있다",
+     "explanation": "It은 뒤의 if절(if you want to believe me or not: 믿고 싶은지 아닌지)을 대신하는 가주어. if는 ‘~인지’. 목적어 me와 or not은 표시에서 제외.",
+     "display_pairs": [
+      {
+       "en": "It’s up to you [if you want to believe]",
+       "ko": "[당신[메시지를 읽는 사람]이 믿고 싶은지는] 당신[메시지를 읽는 사람]에게 달려 있다",
+       "pronoun_refs": [
+        {
+         "en_span": [
+          11,
+          14
+         ],
+         "ko_pronoun_span": [
+          26,
+          28
+         ],
+         "ko_reference_span": [
+          28,
+          40
+         ]
+        },
+        {
+         "en_span": [
+          19,
+          22
+         ],
+         "ko_pronoun_span": [
+          1,
+          3
+         ],
+         "ko_reference_span": [
+          3,
+          15
+         ]
+        }
+       ],
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           16,
+           18
+          ]
+         ],
+         "ko_spans": [
+          [
+           15,
+           16
+          ],
+          [
+           21,
+           24
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "가주어 It과 진주어 if절"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "주절 One of those messages said(One of 부분 표현 주어 전체 유지) + 직접 인용: 가주어 It(’s = is) + 진주어 if절(if you want to believe me or not: ~인지 아닌지) + [but] 등위절 apparently Ambon is going to sink …(be going to V). 인용 속 you는 메시지를 읽는 사람들. 힌트 1개(가주어–if절). 관계사·수동 없음.",
+    "required_breaks": [],
+    "protected_spans": [],
+    "function_gloss_ids": [],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s19",
+   "text": "Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
+   "key": true,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 37,
+     "ko": "많은 이재민들이 너무 불안해했다"
+    },
+    {
+     "start": 38,
+     "end": 55,
+     "ko": "여진에 대해"
+    },
+    {
+     "start": 56,
+     "end": 91,
+     "ko": "그래서 정부는 발표해야 했다"
+    },
+    {
+     "start": 92,
+     "end": 122,
+     "ko": "그 정보가 가짜라고."
+    }
+   ],
+   "natural_ko": "많은 이재민들이 여진을 너무 불안해해서 정부는 그 정보가 가짜라고 발표해야 했다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 0,
+     "subject_spans": [
+      [
+       0,
+       21
+      ]
+     ],
+     "verb_spans": [
+      [
+       22,
+       26
+      ]
+     ]
+    },
+    {
+     "kind": "subordinate",
+     "start": 56,
+     "marker": "that",
+     "subject_spans": [
+      [
+       61,
+       75
+      ]
+     ],
+     "verb_spans": [
+      [
+       76,
+       79
+      ],
+      [
+       80,
+       82
+      ],
+      [
+       83,
+       91
+      ]
+     ]
+    },
+    {
+     "kind": "subordinate",
+     "start": 92,
+     "marker": "that",
+     "subject_spans": [
+      [
+       97,
+       112
+      ]
+     ],
+     "verb_spans": [
+      [
+       113,
+       116
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s19-g01",
+     "spans": [
+      [
+       0,
+       4
+      ]
+     ],
+     "headword": "many",
+     "meaning_ko": "많은",
+     "star": false
+    },
+    {
+     "id": "s19-g02",
+     "spans": [
+      [
+       5,
+       14
+      ]
+     ],
+     "headword": "displaced",
+     "meaning_ko": "살던 곳을 잃은, 이재민이 된",
+     "star": true,
+     "today_word_id": "u2-w7",
+     "verb_form": {
+      "usage": "past-participle",
+      "source_span": [
+       5,
+       14
+      ],
+      "lemma": "displace"
+     }
+    },
+    {
+     "id": "s19-g03",
+     "spans": [
+      [
+       15,
+       21
+      ]
+     ],
+     "headword": "people",
+     "meaning_ko": "사람들",
+     "star": false
+    },
+    {
+     "id": "s19-g04",
+     "spans": [
+      [
+       22,
+       26
+      ]
+     ],
+     "headword": "were",
+     "meaning_ko": "~였다",
+     "star": false
+    },
+    {
+     "id": "s19-g05",
+     "spans": [
+      [
+       27,
+       29
+      ],
+      [
+       56,
+       60
+      ]
+     ],
+     "headword": "so A that S′ V′",
+     "meaning_ko": "너무 A해서 S′(이/가) V′하다",
+     "star": false
+    },
+    {
+     "id": "s19-g06",
+     "spans": [
+      [
+       30,
+       37
+      ]
+     ],
+     "headword": "anxious",
+     "meaning_ko": "불안해하는, 걱정하는",
+     "star": true,
+     "today_word_id": "u2-w8"
+    },
+    {
+     "id": "s19-g07",
+     "spans": [
+      [
+       38,
+       43
+      ]
+     ],
+     "headword": "about",
+     "meaning_ko": "~에 대해",
+     "star": false
+    },
+    {
+     "id": "s19-g08",
+     "spans": [
+      [
+       44,
+       55
+      ]
+     ],
+     "headword": "aftershocks",
+     "meaning_ko": "여진들 (큰 지진 뒤에 이어지는 작은 지진)",
+     "star": false
+    },
+    {
+     "id": "s19-g09",
+     "spans": [
+      [
+       65,
+       75
+      ]
+     ],
+     "headword": "government",
+     "meaning_ko": "정부",
+     "star": false
+    },
+    {
+     "id": "s19-g10",
+     "spans": [
+      [
+       76,
+       79
+      ],
+      [
+       80,
+       82
+      ]
+     ],
+     "headword": "had to V",
+     "meaning_ko": "~해야 했다",
+     "star": false,
+     "kind": "function",
+     "combines_with": [
+      "s19-g11"
+     ]
+    },
+    {
+     "id": "s19-g11",
+     "spans": [
+      [
+       83,
+       91
+      ]
+     ],
+     "headword": "announce",
+     "meaning_ko": "발표하다, 알리다",
+     "star": false,
+     "kind": "lexical"
+    },
+    {
+     "id": "s19-g12",
+     "spans": [
+      [
+       92,
+       96
+      ]
+     ],
+     "headword": "that S′ V′",
+     "meaning_ko": "S′(이/가) V′라고 (접속사)",
+     "star": false
+    },
+    {
+     "id": "s19-g13",
+     "spans": [
+      [
+       101,
+       112
+      ]
+     ],
+     "headword": "information",
+     "meaning_ko": "정보",
+     "star": false
+    },
+    {
+     "id": "s19-g14",
+     "spans": [
+      [
+       113,
+       116
+      ]
+     ],
+     "headword": "was",
+     "meaning_ko": "~였다",
+     "star": false
+    },
+    {
+     "id": "s19-g15",
+     "spans": [
+      [
+       117,
+       121
+      ]
+     ],
+     "headword": "fake",
+     "meaning_ko": "가짜의",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      4
+     ],
+     "gloss_id": "s19-g01"
+    },
+    {
+     "span": [
+      5,
+      14
+     ],
+     "gloss_id": "s19-g02"
+    },
+    {
+     "span": [
+      15,
+      21
+     ],
+     "gloss_id": "s19-g03"
+    },
+    {
+     "span": [
+      22,
+      26
+     ],
+     "gloss_id": "s19-g04"
+    },
+    {
+     "span": [
+      27,
+      29
+     ],
+     "gloss_id": "s19-g05"
+    },
+    {
+     "span": [
+      30,
+      37
+     ],
+     "gloss_id": "s19-g06"
+    },
+    {
+     "span": [
+      38,
+      43
+     ],
+     "gloss_id": "s19-g07"
+    },
+    {
+     "span": [
+      44,
+      55
+     ],
+     "gloss_id": "s19-g08"
+    },
+    {
+     "span": [
+      56,
+      60
+     ],
+     "gloss_id": "s19-g05"
+    },
+    {
+     "span": [
+      61,
+      64
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      65,
+      75
+     ],
+     "gloss_id": "s19-g09"
+    },
+    {
+     "span": [
+      76,
+      79
+     ],
+     "gloss_id": "s19-g10"
+    },
+    {
+     "span": [
+      80,
+      82
+     ],
+     "gloss_id": "s19-g10"
+    },
+    {
+     "span": [
+      83,
+      91
+     ],
+     "gloss_id": "s19-g11"
+    },
+    {
+     "span": [
+      92,
+      96
+     ],
+     "gloss_id": "s19-g12"
+    },
+    {
+     "span": [
+      97,
+      100
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      101,
+      112
+     ],
+     "gloss_id": "s19-g13"
+    },
+    {
+     "span": [
+      113,
+      116
+     ],
+     "gloss_id": "s19-g14"
+    },
+    {
+     "span": [
+      117,
+      121
+     ],
+     "gloss_id": "s19-g15"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      27,
+      91
+     ],
+     "meaning_ko": "너무 불안해해서 정부는 발표해야 했다",
+     "explanation": "so A that S′ V′(너무 A해서 S′가 V′하다): A=anxious, 결과 that절 S′ the government, V′ had to announce. 사이의 about aftershocks와 뒤 목적어 that절은 표시에서 제외.",
+     "display_pairs": [
+      {
+       "en": "so anxious … that the government had to announce",
+       "ko": "너무 불안해해서 … 정부는 발표해야 했다",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           0,
+           2
+          ],
+          [
+           13,
+           17
+          ]
+         ],
+         "ko_spans": [
+          [
+           0,
+           2
+          ],
+          [
+           6,
+           8
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "category": "paired-structure",
+     "display_spans": [
+      [
+       27,
+       37
+      ],
+      [
+       56,
+       91
+      ]
+     ]
+    },
+    {
+     "span": [
+      92,
+      121
+     ],
+     "meaning_ko": "그 정보가 가짜라고",
+     "explanation": "announce의 목적어인 that 명사절(S′ the information, V′ was + 최소 보어 fake). ~라고.",
+     "display_pairs": [
+      {
+       "en": "[that the information was fake]",
+       "ko": "[그 정보가 가짜라고]",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           1,
+           5
+          ]
+         ],
+         "ko_spans": [
+          [
+           5,
+           6
+          ],
+          [
+           9,
+           11
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "명사절 접속사 that"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "주절 Many displaced people were so anxious about aftershocks + 결과의 that절(so A that: the government had to announce) + announce의 목적어 명사절 that the information was fake. 앞 that은 so와 짝을 이루는 결과 접속사, 뒤 that은 명사절 접속사. displaced는 명사 앞 독립 과거분사. 힌트 2개(so … that 짝 구조, 명사절 that). 관계사·수동 없음.",
+    "required_breaks": [],
+    "protected_spans": [],
+    "function_gloss_ids": [
+     "s19-g10"
+    ],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s20",
+   "text": "Fake news on social media spreads significantly farther and faster than true stories.",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 9,
+     "ko": "가짜 뉴스는"
+    },
+    {
+     "start": 10,
+     "end": 25,
+     "ko": "소셜 미디어상의"
+    },
+    {
+     "start": 26,
+     "end": 66,
+     "ko": "훨씬 더 멀리 그리고 더 빠르게 퍼진다"
+    },
+    {
+     "start": 67,
+     "end": 85,
+     "ko": "진짜 이야기들보다."
+    }
+   ],
+   "natural_ko": "소셜 미디어상의 가짜 뉴스는 진짜 이야기보다 훨씬 더 멀리, 더 빠르게 퍼진다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 0,
+     "subject_spans": [
+      [
+       0,
+       25
+      ]
+     ],
+     "subject_display_spans": [
+      [
+       0,
+       9
+      ]
+     ],
+     "subject_display_review": "중심명사 news까지 표시하고 뒤수식 on social media는 제외",
+     "verb_spans": [
+      [
+       26,
+       33
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s20-g01",
+     "spans": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       9
+      ]
+     ],
+     "headword": "fake news",
+     "meaning_ko": "가짜 뉴스",
+     "star": false
+    },
+    {
+     "id": "s20-g02",
+     "spans": [
+      [
+       10,
+       12
+      ]
+     ],
+     "headword": "on",
+     "meaning_ko": "~상의 (흔한 뜻: ~위에)",
+     "star": false
+    },
+    {
+     "id": "s20-g03",
+     "spans": [
+      [
+       13,
+       19
+      ],
+      [
+       20,
+       25
+      ]
+     ],
+     "headword": "social media",
+     "meaning_ko": "소셜 미디어",
+     "star": false
+    },
+    {
+     "id": "s20-g04",
+     "spans": [
+      [
+       26,
+       33
+      ]
+     ],
+     "headword": "spread",
+     "meaning_ko": "퍼지다",
+     "star": false,
+     "verb_form": {
+      "usage": "third-person-singular",
+      "source_span": [
+       26,
+       33
+      ],
+      "lemma": "spread",
+      "review_record": "주어 Fake news(3인칭 단수)의 일반동사 spreads → 원형 spread."
+     }
+    },
+    {
+     "id": "s20-g05",
+     "spans": [
+      [
+       34,
+       47
+      ]
+     ],
+     "headword": "significantly",
+     "meaning_ko": "훨씬, 상당히",
+     "star": false
+    },
+    {
+     "id": "s20-g06",
+     "spans": [
+      [
+       48,
+       55
+      ]
+     ],
+     "headword": "farther",
+     "meaning_ko": "더 멀리 (far의 비교급)",
+     "star": false
+    },
+    {
+     "id": "s20-g07",
+     "spans": [
+      [
+       60,
+       66
+      ]
+     ],
+     "headword": "faster",
+     "meaning_ko": "더 빠르게 (fast의 비교급)",
+     "star": false
+    },
+    {
+     "id": "s20-g08",
+     "spans": [
+      [
+       67,
+       71
+      ]
+     ],
+     "headword": "than",
+     "meaning_ko": "~보다",
+     "star": false
+    },
+    {
+     "id": "s20-g09",
+     "spans": [
+      [
+       72,
+       76
+      ]
+     ],
+     "headword": "true",
+     "meaning_ko": "진짜의, 사실인",
+     "star": false
+    },
+    {
+     "id": "s20-g10",
+     "spans": [
+      [
+       77,
+       84
+      ]
+     ],
+     "headword": "stories",
+     "meaning_ko": "이야기들",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      4
+     ],
+     "gloss_id": "s20-g01"
+    },
+    {
+     "span": [
+      5,
+      9
+     ],
+     "gloss_id": "s20-g01"
+    },
+    {
+     "span": [
+      10,
+      12
+     ],
+     "gloss_id": "s20-g02"
+    },
+    {
+     "span": [
+      13,
+      19
+     ],
+     "gloss_id": "s20-g03"
+    },
+    {
+     "span": [
+      20,
+      25
+     ],
+     "gloss_id": "s20-g03"
+    },
+    {
+     "span": [
+      26,
+      33
+     ],
+     "gloss_id": "s20-g04"
+    },
+    {
+     "span": [
+      34,
+      47
+     ],
+     "gloss_id": "s20-g05"
+    },
+    {
+     "span": [
+      48,
+      55
+     ],
+     "gloss_id": "s20-g06"
+    },
+    {
+     "span": [
+      56,
+      59
+     ],
+     "exemption": "standalone-and-but",
+     "reason": "일반 연결 and/but 단독 각주 제외"
+    },
+    {
+     "span": [
+      60,
+      66
+     ],
+     "gloss_id": "s20-g07"
+    },
+    {
+     "span": [
+      67,
+      71
+     ],
+     "gloss_id": "s20-g08"
+    },
+    {
+     "span": [
+      72,
+      76
+     ],
+     "gloss_id": "s20-g09"
+    },
+    {
+     "span": [
+      77,
+      84
+     ],
+     "gloss_id": "s20-g10"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      48,
+      84
+     ],
+     "meaning_ko": "진짜 이야기들보다 더 멀리 그리고 더 빠르게",
+     "explanation": "비교급 farther·faster가 than과 짝을 이뤄 가짜 뉴스와 진짜 이야기를 비교한다(~보다 더 …하게). significantly는 비교급을 강조(훨씬).",
+     "display_pairs": [
+      {
+       "en": "farther and faster [than true stories]",
+       "ko": "[진짜 이야기들보다] 더 멀리 그리고 더 빠르게",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           5,
+           7
+          ],
+          [
+           16,
+           18
+          ],
+          [
+           20,
+           24
+          ]
+         ],
+         "ko_spans": [
+          [
+           8,
+           10
+          ],
+          [
+           12,
+           13
+          ],
+          [
+           21,
+           22
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "비교급 + than"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "단일 주절 spreads(주어 Fake news on social media) + 비교급 farther and faster than …. on 앞 후치수식 경계. 힌트 1개(비교급 than). 관계사·접속사절·수동 없음.",
+    "required_breaks": [
+     {
+      "at": 10,
+      "kind": "postnominal-preposition",
+      "reason": "on social media는 앞 명사 Fake news를 뒤에서 꾸미는 전치사구"
+     }
+    ],
+    "protected_spans": [],
+    "function_gloss_ids": [],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s21",
+   "text": "A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average.",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 7,
+     "ko": "한 연구는"
+    },
+    {
+     "start": 8,
+     "end": 52,
+     "ko": "매사추세츠 공과대학의"
+    },
+    {
+     "start": 53,
+     "end": 62,
+     "ko": "미국에 있는"
+    },
+    {
+     "start": 63,
+     "end": 72,
+     "ko": "보여 주었다"
+    },
+    {
+     "start": 73,
+     "end": 102,
+     "ko": "가짜 뉴스가 온라인에서 퍼진다는 것을"
+    },
+    {
+     "start": 103,
+     "end": 117,
+     "ko": "6배 더 빠르게"
+    },
+    {
+     "start": 118,
+     "end": 132,
+     "ko": "진짜 뉴스보다"
+    },
+    {
+     "start": 133,
+     "end": 144,
+     "ko": "평균적으로."
+    }
+   ],
+   "natural_ko": "미국 매사추세츠 공과대학의 한 연구는 가짜 뉴스가 평균적으로 진짜 뉴스보다 6배 더 빠르게 온라인에서 퍼진다는 것을 보여 주었다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 0,
+     "subject_spans": [
+      [
+       0,
+       62
+      ]
+     ],
+     "subject_display_spans": [
+      [
+       0,
+       7
+      ]
+     ],
+     "subject_display_review": "중심명사 study까지 표시하고 뒤수식 by the Massachusetts Institute of Technology in the US는 제외",
+     "verb_spans": [
+      [
+       63,
+       66
+      ],
+      [
+       67,
+       72
+      ]
+     ]
+    },
+    {
+     "kind": "subordinate",
+     "start": 73,
+     "marker": "that",
+     "subject_spans": [
+      [
+       78,
+       87
+      ]
+     ],
+     "verb_spans": [
+      [
+       88,
+       95
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s21-g01",
+     "spans": [
+      [
+       2,
+       7
+      ]
+     ],
+     "headword": "study",
+     "meaning_ko": "연구",
+     "star": false
+    },
+    {
+     "id": "s21-g02",
+     "spans": [
+      [
+       8,
+       10
+      ]
+     ],
+     "headword": "by",
+     "meaning_ko": "~에 의한, ~의",
+     "star": false
+    },
+    {
+     "id": "s21-g03",
+     "spans": [
+      [
+       15,
+       28
+      ],
+      [
+       29,
+       38
+      ],
+      [
+       39,
+       41
+      ],
+      [
+       42,
+       52
+      ]
+     ],
+     "headword": "Massachusetts Institute of Technology",
+     "meaning_ko": "매사추세츠 공과대학 (MIT, 미국의 대학)",
+     "star": false
+    },
+    {
+     "id": "s21-g04",
+     "spans": [
+      [
+       53,
+       55
+      ]
+     ],
+     "headword": "in",
+     "meaning_ko": "~에 있는",
+     "star": false
+    },
+    {
+     "id": "s21-g05",
+     "spans": [
+      [
+       60,
+       62
+      ]
+     ],
+     "headword": "the US",
+     "meaning_ko": "미국",
+     "star": false
+    },
+    {
+     "id": "s21-g06",
+     "spans": [
+      [
+       63,
+       66
+      ]
+     ],
+     "headword": "have p.p.",
+     "meaning_ko": "~했다",
+     "star": false,
+     "kind": "function",
+     "combines_with": [
+      "s21-g07"
+     ]
+    },
+    {
+     "id": "s21-g07",
+     "spans": [
+      [
+       67,
+       72
+      ]
+     ],
+     "headword": "show",
+     "meaning_ko": "보여 주다 (shown은 show의 p.p.형)",
+     "star": false,
+     "verb_form": {
+      "usage": "perfect-participle",
+      "source_span": [
+       67,
+       72
+      ],
+      "lemma": "show",
+      "function_gloss_id": "s21-g06"
+     },
+     "kind": "lexical"
+    },
+    {
+     "id": "s21-g08",
+     "spans": [
+      [
+       73,
+       77
+      ]
+     ],
+     "headword": "that S′ V′",
+     "meaning_ko": "S′(이/가) V′한다는 것을 (접속사)",
+     "star": false
+    },
+    {
+     "id": "s21-g09",
+     "spans": [
+      [
+       78,
+       82
+      ],
+      [
+       83,
+       87
+      ]
+     ],
+     "headword": "fake news",
+     "meaning_ko": "가짜 뉴스",
+     "star": false
+    },
+    {
+     "id": "s21-g10",
+     "spans": [
+      [
+       88,
+       95
+      ]
+     ],
+     "headword": "spread",
+     "meaning_ko": "퍼지다",
+     "star": false,
+     "verb_form": {
+      "usage": "third-person-singular",
+      "source_span": [
+       88,
+       95
+      ],
+      "lemma": "spread",
+      "review_record": "주어 fake news(3인칭 단수)의 일반동사 spreads → 원형 spread."
+     }
+    },
+    {
+     "id": "s21-g11",
+     "spans": [
+      [
+       96,
+       102
+      ]
+     ],
+     "headword": "online",
+     "meaning_ko": "온라인에서",
+     "star": false
+    },
+    {
+     "id": "s21-g12",
+     "spans": [
+      [
+       105,
+       110
+      ]
+     ],
+     "headword": "times",
+     "meaning_ko": "~배",
+     "star": false
+    },
+    {
+     "id": "s21-g13",
+     "spans": [
+      [
+       111,
+       117
+      ]
+     ],
+     "headword": "faster",
+     "meaning_ko": "더 빠르게 (fast의 비교급)",
+     "star": false
+    },
+    {
+     "id": "s21-g14",
+     "spans": [
+      [
+       118,
+       122
+      ]
+     ],
+     "headword": "than",
+     "meaning_ko": "~보다",
+     "star": false
+    },
+    {
+     "id": "s21-g15",
+     "spans": [
+      [
+       123,
+       127
+      ]
+     ],
+     "headword": "real",
+     "meaning_ko": "진짜의",
+     "star": false
+    },
+    {
+     "id": "s21-g16",
+     "spans": [
+      [
+       128,
+       132
+      ]
+     ],
+     "headword": "news",
+     "meaning_ko": "뉴스",
+     "star": false
+    },
+    {
+     "id": "s21-g17",
+     "spans": [
+      [
+       133,
+       135
+      ],
+      [
+       136,
+       143
+      ]
+     ],
+     "headword": "on average",
+     "meaning_ko": "평균적으로",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      1
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      2,
+      7
+     ],
+     "gloss_id": "s21-g01"
+    },
+    {
+     "span": [
+      8,
+      10
+     ],
+     "gloss_id": "s21-g02"
+    },
+    {
+     "span": [
+      11,
+      14
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      15,
+      28
+     ],
+     "gloss_id": "s21-g03"
+    },
+    {
+     "span": [
+      29,
+      38
+     ],
+     "gloss_id": "s21-g03"
+    },
+    {
+     "span": [
+      39,
+      41
+     ],
+     "gloss_id": "s21-g03"
+    },
+    {
+     "span": [
+      42,
+      52
+     ],
+     "gloss_id": "s21-g03"
+    },
+    {
+     "span": [
+      53,
+      55
+     ],
+     "gloss_id": "s21-g04"
+    },
+    {
+     "span": [
+      56,
+      59
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      60,
+      62
+     ],
+     "gloss_id": "s21-g05"
+    },
+    {
+     "span": [
+      63,
+      66
+     ],
+     "gloss_id": "s21-g06"
+    },
+    {
+     "span": [
+      67,
+      72
+     ],
+     "gloss_id": "s21-g07"
+    },
+    {
+     "span": [
+      73,
+      77
+     ],
+     "gloss_id": "s21-g08"
+    },
+    {
+     "span": [
+      78,
+      82
+     ],
+     "gloss_id": "s21-g09"
+    },
+    {
+     "span": [
+      83,
+      87
+     ],
+     "gloss_id": "s21-g09"
+    },
+    {
+     "span": [
+      88,
+      95
+     ],
+     "gloss_id": "s21-g10"
+    },
+    {
+     "span": [
+      96,
+      102
+     ],
+     "gloss_id": "s21-g11"
+    },
+    {
+     "span": [
+      105,
+      110
+     ],
+     "gloss_id": "s21-g12"
+    },
+    {
+     "span": [
+      111,
+      117
+     ],
+     "gloss_id": "s21-g13"
+    },
+    {
+     "span": [
+      118,
+      122
+     ],
+     "gloss_id": "s21-g14"
+    },
+    {
+     "span": [
+      123,
+      127
+     ],
+     "gloss_id": "s21-g15"
+    },
+    {
+     "span": [
+      128,
+      132
+     ],
+     "gloss_id": "s21-g16"
+    },
+    {
+     "span": [
+      133,
+      135
+     ],
+     "gloss_id": "s21-g17"
+    },
+    {
+     "span": [
+      136,
+      143
+     ],
+     "gloss_id": "s21-g17"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      73,
+      95
+     ],
+     "meaning_ko": "가짜 뉴스가 퍼진다는 것",
+     "explanation": "has shown의 목적어 that 명사절(S′ fake news, V′ spreads). 뒤의 online 6 times faster … 이하와 바깥 동사 has shown은 표시에서 제외.",
+     "display_pairs": [
+      {
+       "en": "[that fake news spreads]",
+       "ko": "[가짜 뉴스가 퍼진다는 것]",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           1,
+           5
+          ]
+         ],
+         "ko_spans": [
+          [
+           1,
+           2
+          ],
+          [
+           10,
+           14
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "명사절 접속사 that"
+    },
+    {
+     "category": "function-combination",
+     "span": [
+      63,
+      72
+     ],
+     "gloss_ids": [
+      "s21-g06",
+      "s21-g07"
+     ],
+     "meaning_ko": "보여 주었다",
+     "explanation": "현재완료 has shown: 연구 결과가 지금까지 보여 준 사실. 주어와 목적어 that절은 표시에서 제외.",
+     "display_mode": "verb-function",
+     "display_span": [
+      63,
+      72
+     ],
+     "formula_label": "have p.p.",
+     "lexical_step": {
+      "gloss_id": "s21-g07",
+      "form": "show",
+      "meaning_ko": "보여 주다"
+     },
+     "display_pairs": [
+      {
+       "en": "has shown",
+       "ko": "보여 주었다",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           0,
+           3
+          ]
+         ],
+         "ko_spans": [
+          [
+           4,
+           6
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "reading_checks": {
+    "review_record": "주절 A study … has shown(주어 뒤수식 by …·in the US 앞에서 끊음; by는 연구의 주체를 나타내는 후치수식, 수동태 행위자 아님) + 목적어 that 명사절 fake news spreads … 6 times faster than real news(배수 비교). 힌트 2개(명사절 that, have p.p. 기능 결합). 관계사·수동 없음.",
+    "required_breaks": [
+     {
+      "at": 8,
+      "kind": "postnominal-preposition",
+      "reason": "by the Massachusetts Institute of Technology는 앞 명사 A study를 뒤에서 꾸미는 전치사구(연구의 주체)"
+     },
+     {
+      "at": 53,
+      "kind": "postnominal-preposition",
+      "reason": "in the US는 앞 명사 the Massachusetts Institute of Technology를 뒤에서 꾸미는 전치사구"
+     }
+    ],
+    "protected_spans": [],
+    "function_gloss_ids": [
+     "s21-g06"
+    ],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s22",
+   "text": "One explanation for this phenomenon is that people like new and provocative things.",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 15,
+     "ko": "한 가지 설명은"
+    },
+    {
+     "start": 16,
+     "end": 35,
+     "ko": "이 현상에 대한"
+    },
+    {
+     "start": 36,
+     "end": 83,
+     "ko": "사람들이 새롭고 자극적인 것들을 좋아한다는 것이다."
+    }
+   ],
+   "natural_ko": "이 현상에 대한 한 가지 설명은 사람들이 새롭고 자극적인 것을 좋아한다는 것이다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 0,
+     "subject_spans": [
+      [
+       0,
+       35
+      ]
+     ],
+     "subject_display_spans": [
+      [
+       0,
+       15
+      ]
+     ],
+     "subject_display_review": "중심명사 explanation까지 표시하고 뒤수식 for this phenomenon은 제외",
+     "verb_spans": [
+      [
+       36,
+       38
+      ]
+     ]
+    },
+    {
+     "kind": "subordinate",
+     "start": 39,
+     "marker": "that",
+     "subject_spans": [
+      [
+       44,
+       50
+      ]
+     ],
+     "verb_spans": [
+      [
+       51,
+       55
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s22-g01",
+     "spans": [
+      [
+       0,
+       3
+      ]
+     ],
+     "headword": "one",
+     "meaning_ko": "한 (가지)",
+     "star": false
+    },
+    {
+     "id": "s22-g02",
+     "spans": [
+      [
+       4,
+       15
+      ]
+     ],
+     "headword": "explanation",
+     "meaning_ko": "설명",
+     "star": false
+    },
+    {
+     "id": "s22-g03",
+     "spans": [
+      [
+       16,
+       19
+      ]
+     ],
+     "headword": "for",
+     "meaning_ko": "~에 대한",
+     "star": false
+    },
+    {
+     "id": "s22-g04",
+     "spans": [
+      [
+       20,
+       24
+      ]
+     ],
+     "headword": "this",
+     "meaning_ko": "이",
+     "star": false
+    },
+    {
+     "id": "s22-g05",
+     "spans": [
+      [
+       25,
+       35
+      ]
+     ],
+     "headword": "phenomenon",
+     "meaning_ko": "현상",
+     "star": true,
+     "today_word_id": "u3-w2"
+    },
+    {
+     "id": "s22-g06",
+     "spans": [
+      [
+       36,
+       38
+      ]
+     ],
+     "headword": "is",
+     "meaning_ko": "~이다",
+     "star": false
+    },
+    {
+     "id": "s22-g07",
+     "spans": [
+      [
+       39,
+       43
+      ]
+     ],
+     "headword": "that S′ V′",
+     "meaning_ko": "S′(이/가) V′한다는 것 (접속사)",
+     "star": false
+    },
+    {
+     "id": "s22-g08",
+     "spans": [
+      [
+       44,
+       50
+      ]
+     ],
+     "headword": "people",
+     "meaning_ko": "사람들",
+     "star": false
+    },
+    {
+     "id": "s22-g09",
+     "spans": [
+      [
+       51,
+       55
+      ]
+     ],
+     "headword": "like",
+     "meaning_ko": "좋아하다",
+     "star": false
+    },
+    {
+     "id": "s22-g10",
+     "spans": [
+      [
+       56,
+       59
+      ]
+     ],
+     "headword": "new",
+     "meaning_ko": "새로운",
+     "star": false
+    },
+    {
+     "id": "s22-g11",
+     "spans": [
+      [
+       64,
+       75
+      ]
+     ],
+     "headword": "provocative",
+     "meaning_ko": "자극적인",
+     "star": false
+    },
+    {
+     "id": "s22-g12",
+     "spans": [
+      [
+       76,
+       82
+      ]
+     ],
+     "headword": "things",
+     "meaning_ko": "것들",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      3
+     ],
+     "gloss_id": "s22-g01"
+    },
+    {
+     "span": [
+      4,
+      15
+     ],
+     "gloss_id": "s22-g02"
+    },
+    {
+     "span": [
+      16,
+      19
+     ],
+     "gloss_id": "s22-g03"
+    },
+    {
+     "span": [
+      20,
+      24
+     ],
+     "gloss_id": "s22-g04"
+    },
+    {
+     "span": [
+      25,
+      35
+     ],
+     "gloss_id": "s22-g05"
+    },
+    {
+     "span": [
+      36,
+      38
+     ],
+     "gloss_id": "s22-g06"
+    },
+    {
+     "span": [
+      39,
+      43
+     ],
+     "gloss_id": "s22-g07"
+    },
+    {
+     "span": [
+      44,
+      50
+     ],
+     "gloss_id": "s22-g08"
+    },
+    {
+     "span": [
+      51,
+      55
+     ],
+     "gloss_id": "s22-g09"
+    },
+    {
+     "span": [
+      56,
+      59
+     ],
+     "gloss_id": "s22-g10"
+    },
+    {
+     "span": [
+      60,
+      63
+     ],
+     "exemption": "standalone-and-but",
+     "reason": "일반 연결 and/but 단독 각주 제외"
+    },
+    {
+     "span": [
+      64,
+      75
+     ],
+     "gloss_id": "s22-g11"
+    },
+    {
+     "span": [
+      76,
+      82
+     ],
+     "gloss_id": "s22-g12"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      39,
+      55
+     ],
+     "meaning_ko": "사람들이 (새롭고 자극적인 것들을) 좋아한다는 것",
+     "explanation": "is의 보어인 that 명사절(S′ people, V′ like). 목적어 new and provocative things와 바깥 동사 is는 표시에서 제외.",
+     "display_pairs": [
+      {
+       "en": "[that people like]",
+       "ko": "[사람들이 좋아한다는 것]",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           1,
+           5
+          ]
+         ],
+         "ko_spans": [
+          [
+           4,
+           5
+          ],
+          [
+           9,
+           13
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "명사절 접속사 that"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "주절 One explanation … is + 보어 that 명사절 people like new and provocative things. this phenomenon은 앞 문장의 가짜 뉴스가 더 빨리 퍼지는 현상. for 앞 후치수식 경계. 힌트 1개(명사절 that). 관계사·수동 없음.",
+    "required_breaks": [
+     {
+      "at": 16,
+      "kind": "postnominal-preposition",
+      "reason": "for this phenomenon은 앞 명사 One explanation을 뒤에서 꾸미는 전치사구"
+     }
+    ],
+    "protected_spans": [],
+    "function_gloss_ids": [],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s23",
+   "text": "When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others.",
+   "key": true,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 32,
+     "ko": "정보가 놀라울 때,"
+    },
+    {
+     "start": 33,
+     "end": 53,
+     "ko": "사람들은 느낄 뿐만 아니라"
+    },
+    {
+     "start": 54,
+     "end": 76,
+     "ko": "그것이 놀랍다고,"
+    },
+    {
+     "start": 77,
+     "end": 125,
+     "ko": "그들은 또한 그 자극적인 뉴스를 공유하고 싶어 한다"
+    },
+    {
+     "start": 126,
+     "end": 138,
+     "ko": "다른 사람들과."
+    }
+   ],
+   "natural_ko": "정보가 놀라우면 사람들은 그것이 놀랍다고 느낄 뿐만 아니라 그 자극적인 뉴스를 다른 사람들과 공유하고 싶어 한다.",
+   "clauses": [
+    {
+     "kind": "subordinate",
+     "start": 0,
+     "marker": "When",
+     "subject_spans": [
+      [
+       5,
+       16
+      ]
+     ],
+     "verb_spans": [
+      [
+       17,
+       19
+      ]
+     ]
+    },
+    {
+     "kind": "main",
+     "start": 33,
+     "subject_spans": [
+      [
+       33,
+       39
+      ]
+     ],
+     "verb_spans": [
+      [
+       49,
+       53
+      ]
+     ]
+    },
+    {
+     "kind": "subordinate",
+     "start": 54,
+     "marker": "that",
+     "subject_spans": [
+      [
+       59,
+       61
+      ]
+     ],
+     "verb_spans": [
+      [
+       62,
+       64
+      ]
+     ]
+    },
+    {
+     "kind": "main",
+     "start": 81,
+     "marker": "but",
+     "subject_spans": [
+      [
+       81,
+       85
+      ]
+     ],
+     "verb_spans": [
+      [
+       91,
+       95
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s23-g01",
+     "spans": [
+      [
+       0,
+       4
+      ]
+     ],
+     "headword": "when S′ V′",
+     "meaning_ko": "S′(이/가) V′할 때",
+     "star": false
+    },
+    {
+     "id": "s23-g02",
+     "spans": [
+      [
+       5,
+       16
+      ]
+     ],
+     "headword": "information",
+     "meaning_ko": "정보",
+     "star": false
+    },
+    {
+     "id": "s23-g03",
+     "spans": [
+      [
+       17,
+       19
+      ]
+     ],
+     "headword": "is",
+     "meaning_ko": "~이다",
+     "star": false
+    },
+    {
+     "id": "s23-g04",
+     "spans": [
+      [
+       20,
+       31
+      ]
+     ],
+     "headword": "astonishing",
+     "meaning_ko": "깜짝 놀라게 하는, 놀라운",
+     "star": false
+    },
+    {
+     "id": "s23-g05",
+     "spans": [
+      [
+       33,
+       39
+      ]
+     ],
+     "headword": "people",
+     "meaning_ko": "사람들",
+     "star": false
+    },
+    {
+     "id": "s23-g06",
+     "spans": [
+      [
+       40,
+       43
+      ],
+      [
+       44,
+       48
+      ],
+      [
+       77,
+       80
+      ],
+      [
+       86,
+       90
+      ]
+     ],
+     "headword": "not only A but also B",
+     "meaning_ko": "A뿐만 아니라 B도",
+     "star": false
+    },
+    {
+     "id": "s23-g07",
+     "spans": [
+      [
+       49,
+       53
+      ]
+     ],
+     "headword": "feel",
+     "meaning_ko": "느끼다",
+     "star": false
+    },
+    {
+     "id": "s23-g08",
+     "spans": [
+      [
+       54,
+       58
+      ]
+     ],
+     "headword": "that S′ V′",
+     "meaning_ko": "S′(이/가) V′하다고 (접속사)",
+     "star": false
+    },
+    {
+     "id": "s23-g09",
+     "spans": [
+      [
+       59,
+       61
+      ]
+     ],
+     "headword": "it",
+     "meaning_ko": "그것이",
+     "star": false,
+     "referent_ko": "그 정보"
+    },
+    {
+     "id": "s23-g10",
+     "spans": [
+      [
+       62,
+       64
+      ]
+     ],
+     "headword": "is",
+     "meaning_ko": "~이다",
+     "star": false
+    },
+    {
+     "id": "s23-g11",
+     "spans": [
+      [
+       65,
+       75
+      ]
+     ],
+     "headword": "surprising",
+     "meaning_ko": "놀라운",
+     "star": false
+    },
+    {
+     "id": "s23-g12",
+     "spans": [
+      [
+       81,
+       85
+      ]
+     ],
+     "headword": "they",
+     "meaning_ko": "그들은",
+     "star": false,
+     "referent_ko": "사람들"
+    },
+    {
+     "id": "s23-g13",
+     "spans": [
+      [
+       91,
+       95
+      ],
+      [
+       96,
+       98
+      ]
+     ],
+     "headword": "want to V",
+     "meaning_ko": "~하고 싶다",
+     "star": false,
+     "kind": "lexical",
+     "verb_construction": {
+      "kind": "to-complement",
+      "verb_span": [
+       91,
+       95
+      ],
+      "lemma": "want",
+      "link_spans": [
+       [
+        96,
+        98
+       ]
+      ],
+      "review_record": "they also want to share …: want to V, V=share."
+     }
+    },
+    {
+     "id": "s23-g14",
+     "spans": [
+      [
+       99,
+       104
+      ]
+     ],
+     "headword": "share",
+     "meaning_ko": "공유하다",
+     "star": false
+    },
+    {
+     "id": "s23-g15",
+     "spans": [
+      [
+       109,
+       120
+      ]
+     ],
+     "headword": "stimulating",
+     "meaning_ko": "자극적인, 흥미를 돋우는",
+     "star": false
+    },
+    {
+     "id": "s23-g16",
+     "spans": [
+      [
+       121,
+       125
+      ]
+     ],
+     "headword": "news",
+     "meaning_ko": "뉴스",
+     "star": false
+    },
+    {
+     "id": "s23-g17",
+     "spans": [
+      [
+       126,
+       130
+      ]
+     ],
+     "headword": "with",
+     "meaning_ko": "~와",
+     "star": false
+    },
+    {
+     "id": "s23-g18",
+     "spans": [
+      [
+       131,
+       137
+      ]
+     ],
+     "headword": "others",
+     "meaning_ko": "다른 사람들",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      4
+     ],
+     "gloss_id": "s23-g01"
+    },
+    {
+     "span": [
+      5,
+      16
+     ],
+     "gloss_id": "s23-g02"
+    },
+    {
+     "span": [
+      17,
+      19
+     ],
+     "gloss_id": "s23-g03"
+    },
+    {
+     "span": [
+      20,
+      31
+     ],
+     "gloss_id": "s23-g04"
+    },
+    {
+     "span": [
+      33,
+      39
+     ],
+     "gloss_id": "s23-g05"
+    },
+    {
+     "span": [
+      40,
+      43
+     ],
+     "gloss_id": "s23-g06"
+    },
+    {
+     "span": [
+      44,
+      48
+     ],
+     "gloss_id": "s23-g06"
+    },
+    {
+     "span": [
+      49,
+      53
+     ],
+     "gloss_id": "s23-g07"
+    },
+    {
+     "span": [
+      54,
+      58
+     ],
+     "gloss_id": "s23-g08"
+    },
+    {
+     "span": [
+      59,
+      61
+     ],
+     "gloss_id": "s23-g09"
+    },
+    {
+     "span": [
+      62,
+      64
+     ],
+     "gloss_id": "s23-g10"
+    },
+    {
+     "span": [
+      65,
+      75
+     ],
+     "gloss_id": "s23-g11"
+    },
+    {
+     "span": [
+      77,
+      80
+     ],
+     "gloss_id": "s23-g06"
+    },
+    {
+     "span": [
+      81,
+      85
+     ],
+     "gloss_id": "s23-g12"
+    },
+    {
+     "span": [
+      86,
+      90
+     ],
+     "gloss_id": "s23-g06"
+    },
+    {
+     "span": [
+      91,
+      95
+     ],
+     "gloss_id": "s23-g13"
+    },
+    {
+     "span": [
+      96,
+      98
+     ],
+     "gloss_id": "s23-g13"
+    },
+    {
+     "span": [
+      99,
+      104
+     ],
+     "gloss_id": "s23-g14"
+    },
+    {
+     "span": [
+      105,
+      108
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      109,
+      120
+     ],
+     "gloss_id": "s23-g15"
+    },
+    {
+     "span": [
+      121,
+      125
+     ],
+     "gloss_id": "s23-g16"
+    },
+    {
+     "span": [
+      126,
+      130
+     ],
+     "gloss_id": "s23-g17"
+    },
+    {
+     "span": [
+      131,
+      137
+     ],
+     "gloss_id": "s23-g18"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      0,
+      31
+     ],
+     "meaning_ko": "정보가 놀라울 때",
+     "explanation": "when이 이끄는 부사절(S′ information, V′ is + 최소 보어 astonishing). ~할 때(조건에 가까운 때).",
+     "display_pairs": [
+      {
+       "en": "[When information is astonishing]",
+       "ko": "[정보가 놀라울 때]",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           1,
+           5
+          ]
+         ],
+         "ko_spans": [
+          [
+           3,
+           4
+          ],
+          [
+           7,
+           10
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "시간 접속사 when"
+    },
+    {
+     "span": [
+      40,
+      104
+     ],
+     "meaning_ko": "느낄 뿐만 아니라 또한 공유하고 싶어 한다",
+     "explanation": "not only A but (they) also B(A뿐만 아니라 B도): A=feel that it is surprising, B=want to share …. but 뒤에 주어 they가 다시 나와 두 번째 절이 된다.",
+     "display_pairs": [
+      {
+       "en": "not only feel … but … also want to share",
+       "ko": "느낄 뿐만 아니라 … 또한 공유하고 싶어 한다",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           0,
+           8
+          ],
+          [
+           16,
+           19
+          ],
+          [
+           22,
+           26
+          ]
+         ],
+         "ko_spans": [
+          [
+           3,
+           9
+          ],
+          [
+           12,
+           14
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "category": "paired-structure",
+     "display_spans": [
+      [
+       40,
+       53
+      ],
+      [
+       77,
+       80
+      ],
+      [
+       86,
+       104
+      ]
+     ]
+    }
+   ],
+   "reading_checks": {
+    "review_record": "시간 부사절 When information is astonishing + 주절 people not only feel that it is surprising(목적어 that 명사절) + [but] they also want to share …: not only A but also B가 두 절을 잇는다(but 뒤 주어 they 반복). 힌트 2개(접속사 when, not only … but also 짝 구조). that절은 각주로 지원. 관계사·수동 없음.",
+    "required_breaks": [],
+    "protected_spans": [],
+    "function_gloss_ids": [],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s24",
+   "text": "By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information.",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 23,
+     "ko": "그것을 다른 사람들에게 전달함으로써"
+    },
+    {
+     "start": 24,
+     "end": 40,
+     "ko": "소셜 미디어에서,"
+    },
+    {
+     "start": 41,
+     "end": 64,
+     "ko": "그들은 관심을 얻을 수 있다"
+    },
+    {
+     "start": 65,
+     "end": 91,
+     "ko": "그들이 첫 번째 사람이기 때문에"
+    },
+    {
+     "start": 92,
+     "end": 152,
+     "ko": "이전에 알려지지 않았지만 어쩌면 거짓일 수도 있는 정보를 게시하는."
+    }
+   ],
+   "natural_ko": "소셜 미디어에서 그것을 다른 사람들에게 전달하면, 그들은 이전에 알려지지 않았지만 어쩌면 거짓일 수도 있는 정보를 처음으로 게시한 사람이 되기 때문에 관심을 얻을 수 있다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 41,
+     "subject_spans": [
+      [
+       41,
+       45
+      ]
+     ],
+     "verb_spans": [
+      [
+       46,
+       49
+      ],
+      [
+       50,
+       54
+      ]
+     ]
+    },
+    {
+     "kind": "subordinate",
+     "start": 65,
+     "marker": "because",
+     "subject_spans": [
+      [
+       73,
+       77
+      ]
+     ],
+     "verb_spans": [
+      [
+       78,
+       81
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s24-g01",
+     "spans": [
+      [
+       0,
+       2
+      ]
+     ],
+     "headword": "by V-ing",
+     "meaning_ko": "~함으로써",
+     "star": false,
+     "kind": "function",
+     "combines_with": [
+      "s24-g02"
+     ]
+    },
+    {
+     "id": "s24-g02",
+     "spans": [
+      [
+       3,
+       10
+      ],
+      [
+       14,
+       16
+      ]
+     ],
+     "headword": "pass A to B",
+     "meaning_ko": "A를 B에게 전달하다",
+     "star": false,
+     "kind": "lexical",
+     "verb_form": {
+      "usage": "ing",
+      "source_span": [
+       3,
+       10
+      ],
+      "lemma": "pass"
+     },
+     "verb_construction": {
+      "kind": "verb-frame",
+      "verb_span": [
+       3,
+       10
+      ],
+      "lemma": "pass",
+      "link_spans": [
+       [
+        14,
+        16
+       ]
+      ],
+      "review_record": "passing it to others: pass A to B, A=it(자극적인 뉴스), B=others."
+     }
+    },
+    {
+     "id": "s24-g03",
+     "spans": [
+      [
+       11,
+       13
+      ]
+     ],
+     "headword": "it",
+     "meaning_ko": "그것을",
+     "star": false,
+     "referent_ko": "그 자극적인 뉴스"
+    },
+    {
+     "id": "s24-g04",
+     "spans": [
+      [
+       17,
+       23
+      ]
+     ],
+     "headword": "others",
+     "meaning_ko": "다른 사람들",
+     "star": false
+    },
+    {
+     "id": "s24-g05",
+     "spans": [
+      [
+       24,
+       26
+      ]
+     ],
+     "headword": "on",
+     "meaning_ko": "~에서 (흔한 뜻: ~위에)",
+     "star": false
+    },
+    {
+     "id": "s24-g06",
+     "spans": [
+      [
+       27,
+       33
+      ],
+      [
+       34,
+       39
+      ]
+     ],
+     "headword": "social media",
+     "meaning_ko": "소셜 미디어",
+     "star": false
+    },
+    {
+     "id": "s24-g07",
+     "spans": [
+      [
+       41,
+       45
+      ]
+     ],
+     "headword": "they",
+     "meaning_ko": "그들은",
+     "star": false,
+     "referent_ko": "자극적인 뉴스를 공유하는 사람들"
+    },
+    {
+     "id": "s24-g08",
+     "spans": [
+      [
+       46,
+       49
+      ]
+     ],
+     "headword": "can V",
+     "meaning_ko": "~할 수 있다",
+     "star": false,
+     "kind": "function",
+     "combines_with": [
+      "s24-g09"
+     ]
+    },
+    {
+     "id": "s24-g09",
+     "spans": [
+      [
+       50,
+       54
+      ]
+     ],
+     "headword": "gain",
+     "meaning_ko": "얻다",
+     "star": false,
+     "kind": "lexical"
+    },
+    {
+     "id": "s24-g10",
+     "spans": [
+      [
+       55,
+       64
+      ]
+     ],
+     "headword": "attention",
+     "meaning_ko": "관심, 주목",
+     "star": false
+    },
+    {
+     "id": "s24-g11",
+     "spans": [
+      [
+       65,
+       72
+      ]
+     ],
+     "headword": "because S′ V′",
+     "meaning_ko": "S′(이/가) V′이기 때문에",
+     "star": false
+    },
+    {
+     "id": "s24-g12",
+     "spans": [
+      [
+       73,
+       77
+      ]
+     ],
+     "headword": "they",
+     "meaning_ko": "그들이",
+     "star": false,
+     "referent_ko": "자극적인 뉴스를 공유하는 사람들"
+    },
+    {
+     "id": "s24-g13",
+     "spans": [
+      [
+       78,
+       81
+      ]
+     ],
+     "headword": "are",
+     "meaning_ko": "~이다",
+     "star": false
+    },
+    {
+     "id": "s24-g14",
+     "spans": [
+      [
+       86,
+       91
+      ],
+      [
+       92,
+       94
+      ]
+     ],
+     "headword": "the first to V",
+     "meaning_ko": "처음으로 ~하는 사람",
+     "star": false
+    },
+    {
+     "id": "s24-g15",
+     "spans": [
+      [
+       95,
+       99
+      ]
+     ],
+     "headword": "post",
+     "meaning_ko": "게시하다, 올리다",
+     "star": false
+    },
+    {
+     "id": "s24-g16",
+     "spans": [
+      [
+       100,
+       110
+      ]
+     ],
+     "headword": "previously",
+     "meaning_ko": "이전에",
+     "star": false
+    },
+    {
+     "id": "s24-g17",
+     "spans": [
+      [
+       111,
+       118
+      ]
+     ],
+     "headword": "unknown",
+     "meaning_ko": "알려지지 않은",
+     "star": false
+    },
+    {
+     "id": "s24-g18",
+     "spans": [
+      [
+       124,
+       132
+      ]
+     ],
+     "headword": "possibly",
+     "meaning_ko": "어쩌면, 아마",
+     "star": false
+    },
+    {
+     "id": "s24-g19",
+     "spans": [
+      [
+       133,
+       138
+      ]
+     ],
+     "headword": "false",
+     "meaning_ko": "거짓의",
+     "star": false
+    },
+    {
+     "id": "s24-g20",
+     "spans": [
+      [
+       140,
+       151
+      ]
+     ],
+     "headword": "information",
+     "meaning_ko": "정보",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      2
+     ],
+     "gloss_id": "s24-g01"
+    },
+    {
+     "span": [
+      3,
+      10
+     ],
+     "gloss_id": "s24-g02"
+    },
+    {
+     "span": [
+      11,
+      13
+     ],
+     "gloss_id": "s24-g03"
+    },
+    {
+     "span": [
+      14,
+      16
+     ],
+     "gloss_id": "s24-g02"
+    },
+    {
+     "span": [
+      17,
+      23
+     ],
+     "gloss_id": "s24-g04"
+    },
+    {
+     "span": [
+      24,
+      26
+     ],
+     "gloss_id": "s24-g05"
+    },
+    {
+     "span": [
+      27,
+      33
+     ],
+     "gloss_id": "s24-g06"
+    },
+    {
+     "span": [
+      34,
+      39
+     ],
+     "gloss_id": "s24-g06"
+    },
+    {
+     "span": [
+      41,
+      45
+     ],
+     "gloss_id": "s24-g07"
+    },
+    {
+     "span": [
+      46,
+      49
+     ],
+     "gloss_id": "s24-g08"
+    },
+    {
+     "span": [
+      50,
+      54
+     ],
+     "gloss_id": "s24-g09"
+    },
+    {
+     "span": [
+      55,
+      64
+     ],
+     "gloss_id": "s24-g10"
+    },
+    {
+     "span": [
+      65,
+      72
+     ],
+     "gloss_id": "s24-g11"
+    },
+    {
+     "span": [
+      73,
+      77
+     ],
+     "gloss_id": "s24-g12"
+    },
+    {
+     "span": [
+      78,
+      81
+     ],
+     "gloss_id": "s24-g13"
+    },
+    {
+     "span": [
+      82,
+      85
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      86,
+      91
+     ],
+     "gloss_id": "s24-g14"
+    },
+    {
+     "span": [
+      92,
+      94
+     ],
+     "gloss_id": "s24-g14"
+    },
+    {
+     "span": [
+      95,
+      99
+     ],
+     "gloss_id": "s24-g15"
+    },
+    {
+     "span": [
+      100,
+      110
+     ],
+     "gloss_id": "s24-g16"
+    },
+    {
+     "span": [
+      111,
+      118
+     ],
+     "gloss_id": "s24-g17"
+    },
+    {
+     "span": [
+      120,
+      123
+     ],
+     "exemption": "standalone-and-but",
+     "reason": "일반 연결 and/but 단독 각주 제외"
+    },
+    {
+     "span": [
+      124,
+      132
+     ],
+     "gloss_id": "s24-g18"
+    },
+    {
+     "span": [
+      133,
+      138
+     ],
+     "gloss_id": "s24-g19"
+    },
+    {
+     "span": [
+      140,
+      151
+     ],
+     "gloss_id": "s24-g20"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      0,
+      10
+     ],
+     "meaning_ko": "(그것을 다른 사람들에게) 전달함으로써",
+     "explanation": "전치사 by + 동명사 passing: ~함으로써(수단). 관심을 얻는 방법. pass A to B의 A·B(it, others)는 표시에서 제외.",
+     "display_pairs": [
+      {
+       "en": "[By passing]",
+       "ko": "[전달함으로써]",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           1,
+           3
+          ],
+          [
+           8,
+           11
+          ]
+         ],
+         "ko_spans": [
+          [
+           3,
+           7
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "전치사 by + 동명사"
+    },
+    {
+     "span": [
+      82,
+      99
+     ],
+     "meaning_ko": "(정보를) 게시하는 첫 번째 사람",
+     "explanation": "to post …가 앞의 the first(첫 번째 사람)를 뒤에서 꾸민다(처음으로 게시하는 사람). 목적어 previously unknown … information은 표시에서 제외.",
+     "display_pairs": [
+      {
+       "en": "the first [to post]",
+       "ko": "[게시하는] 첫 번째 사람",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           11,
+           13
+          ]
+         ],
+         "ko_spans": [
+          [
+           4,
+           5
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "to부정사 후치수식"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "문두 수단 By passing it to others on social media(pass A to B) + 주절 they can gain attention + 이유 부사절 because they are the first to post …(the first to V: 처음으로 ~하는 사람). 목적어 information 앞에 삽입된 previously unknown, but possibly false(두 형용사구가 but으로 이어져 information을 꾸밈). 힌트 2개(by + 동명사, to부정사 후치수식). 관계사·수동 없음.",
+    "required_breaks": [],
+    "protected_spans": [],
+    "function_gloss_ids": [
+     "s24-g01",
+     "s24-g08"
+    ],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s25",
+   "text": "Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly.",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 5,
+     "ko": "또한,"
+    },
+    {
+     "start": 6,
+     "end": 26,
+     "ko": "가짜 뉴스는 빠르게 퍼진다"
+    },
+    {
+     "start": 27,
+     "end": 41,
+     "ko": "사람들이"
+    },
+    {
+     "start": 42,
+     "end": 62,
+     "ko": "그들의 일상생활에서"
+    },
+    {
+     "start": 63,
+     "end": 101,
+     "ko": "단순하고 쉽게 생각하는 경향이 있기 때문에."
+    }
+   ],
+   "natural_ko": "또한 사람들은 일상생활에서 단순하고 쉽게 생각하는 경향이 있기 때문에 가짜 뉴스는 빠르게 퍼진다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 6,
+     "subject_spans": [
+      [
+       6,
+       15
+      ]
+     ],
+     "verb_spans": [
+      [
+       16,
+       20
+      ]
+     ]
+    },
+    {
+     "kind": "subordinate",
+     "start": 27,
+     "marker": "because",
+     "subject_spans": [
+      [
+       35,
+       41
+      ]
+     ],
+     "verb_spans": [
+      [
+       63,
+       67
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s25-g01",
+     "spans": [
+      [
+       0,
+       4
+      ]
+     ],
+     "headword": "also",
+     "meaning_ko": "또한",
+     "star": false
+    },
+    {
+     "id": "s25-g02",
+     "spans": [
+      [
+       6,
+       10
+      ],
+      [
+       11,
+       15
+      ]
+     ],
+     "headword": "fake news",
+     "meaning_ko": "가짜 뉴스",
+     "star": false
+    },
+    {
+     "id": "s25-g03",
+     "spans": [
+      [
+       16,
+       20
+      ],
+      [
+       21,
+       26
+      ]
+     ],
+     "headword": "go viral",
+     "meaning_ko": "(인터넷에서) 급속히 퍼지다",
+     "star": true,
+     "today_word_id": "u3-w1",
+     "verb_form": {
+      "usage": "third-person-singular",
+      "source_span": [
+       16,
+       20
+      ],
+      "lemma": "go",
+      "review_record": "주어 fake news(3인칭 단수)의 일반동사 goes → 원형 go."
+     }
+    },
+    {
+     "id": "s25-g04",
+     "spans": [
+      [
+       27,
+       34
+      ]
+     ],
+     "headword": "because S′ V′",
+     "meaning_ko": "S′(이/가) V′하기 때문에",
+     "star": false
+    },
+    {
+     "id": "s25-g05",
+     "spans": [
+      [
+       35,
+       41
+      ]
+     ],
+     "headword": "people",
+     "meaning_ko": "사람들",
+     "star": false
+    },
+    {
+     "id": "s25-g06",
+     "spans": [
+      [
+       42,
+       44
+      ]
+     ],
+     "headword": "in",
+     "meaning_ko": "~에서",
+     "star": false
+    },
+    {
+     "id": "s25-g07",
+     "spans": [
+      [
+       45,
+       50
+      ]
+     ],
+     "headword": "their",
+     "meaning_ko": "그들의",
+     "star": false,
+     "referent_ko": "사람들"
+    },
+    {
+     "id": "s25-g08",
+     "spans": [
+      [
+       51,
+       56
+      ]
+     ],
+     "headword": "daily",
+     "meaning_ko": "일상의, 매일의",
+     "star": false
+    },
+    {
+     "id": "s25-g09",
+     "spans": [
+      [
+       57,
+       62
+      ]
+     ],
+     "headword": "lives",
+     "meaning_ko": "생활, 삶들 (life의 복수)",
+     "star": false
+    },
+    {
+     "id": "s25-g10",
+     "spans": [
+      [
+       63,
+       67
+      ],
+      [
+       68,
+       70
+      ]
+     ],
+     "headword": "tend to V",
+     "meaning_ko": "~하는 경향이 있다",
+     "star": false,
+     "kind": "lexical",
+     "verb_construction": {
+      "kind": "to-complement",
+      "verb_span": [
+       63,
+       67
+      ],
+      "lemma": "tend",
+      "link_spans": [
+       [
+        68,
+        70
+       ]
+      ],
+      "review_record": "people … tend to think: tend to V, V=think."
+     }
+    },
+    {
+     "id": "s25-g11",
+     "spans": [
+      [
+       71,
+       76
+      ]
+     ],
+     "headword": "think",
+     "meaning_ko": "생각하다",
+     "star": false
+    },
+    {
+     "id": "s25-g12",
+     "spans": [
+      [
+       77,
+       83
+      ]
+     ],
+     "headword": "simply",
+     "meaning_ko": "단순하게",
+     "star": false
+    },
+    {
+     "id": "s25-g13",
+     "spans": [
+      [
+       88,
+       100
+      ]
+     ],
+     "headword": "effortlessly",
+     "meaning_ko": "힘들이지 않고, 쉽게",
+     "star": true,
+     "today_word_id": "u3-w3"
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      4
+     ],
+     "gloss_id": "s25-g01"
+    },
+    {
+     "span": [
+      6,
+      10
+     ],
+     "gloss_id": "s25-g02"
+    },
+    {
+     "span": [
+      11,
+      15
+     ],
+     "gloss_id": "s25-g02"
+    },
+    {
+     "span": [
+      16,
+      20
+     ],
+     "gloss_id": "s25-g03"
+    },
+    {
+     "span": [
+      21,
+      26
+     ],
+     "gloss_id": "s25-g03"
+    },
+    {
+     "span": [
+      27,
+      34
+     ],
+     "gloss_id": "s25-g04"
+    },
+    {
+     "span": [
+      35,
+      41
+     ],
+     "gloss_id": "s25-g05"
+    },
+    {
+     "span": [
+      42,
+      44
+     ],
+     "gloss_id": "s25-g06"
+    },
+    {
+     "span": [
+      45,
+      50
+     ],
+     "gloss_id": "s25-g07"
+    },
+    {
+     "span": [
+      51,
+      56
+     ],
+     "gloss_id": "s25-g08"
+    },
+    {
+     "span": [
+      57,
+      62
+     ],
+     "gloss_id": "s25-g09"
+    },
+    {
+     "span": [
+      63,
+      67
+     ],
+     "gloss_id": "s25-g10"
+    },
+    {
+     "span": [
+      68,
+      70
+     ],
+     "gloss_id": "s25-g10"
+    },
+    {
+     "span": [
+      71,
+      76
+     ],
+     "gloss_id": "s25-g11"
+    },
+    {
+     "span": [
+      77,
+      83
+     ],
+     "gloss_id": "s25-g12"
+    },
+    {
+     "span": [
+      84,
+      87
+     ],
+     "exemption": "standalone-and-but",
+     "reason": "일반 연결 and/but 단독 각주 제외"
+    },
+    {
+     "span": [
+      88,
+      100
+     ],
+     "gloss_id": "s25-g13"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      27,
+      76
+     ],
+     "meaning_ko": "사람들이 일상생활에서 (단순하고 쉽게) 생각하는 경향이 있기 때문에",
+     "explanation": "because가 이끄는 이유 부사절(S′ people, V′ tend). tend to V는 뜻을 이루는 동사 구문이라 to think까지 표시하고 부사 simply and effortlessly는 제외. in their daily lives는 절 안의 부사구.",
+     "display_pairs": [
+      {
+       "en": "[because people in their daily lives tend to think]",
+       "ko": "[사람들이 그들[사람들]의 일상생활에서 생각하는 경향이 있기 때문에]",
+       "pronoun_refs": [
+        {
+         "en_span": [
+          19,
+          24
+         ],
+         "ko_pronoun_span": [
+          6,
+          8
+         ],
+         "ko_reference_span": [
+          8,
+          13
+         ]
+        }
+       ],
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           1,
+           8
+          ]
+         ],
+         "ko_spans": [
+          [
+           4,
+           5
+          ],
+          [
+           32,
+           37
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "이유 접속사 because"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "주절 fake news goes viral(go viral) + 이유 부사절 because people in their daily lives tend to think simply and effortlessly(tend to V). in their daily lives는 tend를 꾸미는 절 안 부사구로 보아 S′는 people. 힌트 1개(because). 관계사·수동 없음.",
+    "required_breaks": [],
+    "protected_spans": [],
+    "function_gloss_ids": [],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s26",
+   "text": "It is more likely for them to believe new information without any proof, instead of critically examining it.",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 17,
+     "ko": "가능성이 더 높다"
+    },
+    {
+     "start": 18,
+     "end": 53,
+     "ko": "그들이 새로운 정보를 믿을"
+    },
+    {
+     "start": 54,
+     "end": 72,
+     "ko": "어떤 증거도 없이,"
+    },
+    {
+     "start": 73,
+     "end": 108,
+     "ko": "그것을 비판적으로 검토하는 대신에."
+    }
+   ],
+   "natural_ko": "사람들은 새로운 정보를 비판적으로 검토하는 대신 아무 증거 없이 믿을 가능성이 더 크다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 0,
+     "subject_spans": [
+      [
+       0,
+       2
+      ]
+     ],
+     "verb_spans": [
+      [
+       3,
+       5
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s26-g01",
+     "spans": [
+      [
+       0,
+       2
+      ],
+      [
+       18,
+       21
+      ],
+      [
+       27,
+       29
+      ]
+     ],
+     "headword": "It … for A to V",
+     "meaning_ko": "A가 ~할 가능성이 (It은 뒤의 for A to V를 대신함)",
+     "star": false
+    },
+    {
+     "id": "s26-g02",
+     "spans": [
+      [
+       3,
+       5
+      ]
+     ],
+     "headword": "is",
+     "meaning_ko": "~이다",
+     "star": false
+    },
+    {
+     "id": "s26-g03",
+     "spans": [
+      [
+       6,
+       10
+      ]
+     ],
+     "headword": "more",
+     "meaning_ko": "더",
+     "star": false
+    },
+    {
+     "id": "s26-g04",
+     "spans": [
+      [
+       11,
+       17
+      ]
+     ],
+     "headword": "likely",
+     "meaning_ko": "가능성이 높은, ~할 것 같은",
+     "star": false
+    },
+    {
+     "id": "s26-g05",
+     "spans": [
+      [
+       22,
+       26
+      ]
+     ],
+     "headword": "them",
+     "meaning_ko": "그들이",
+     "star": false,
+     "referent_ko": "일상생활에서 단순하게 생각하는 사람들"
+    },
+    {
+     "id": "s26-g06",
+     "spans": [
+      [
+       30,
+       37
+      ]
+     ],
+     "headword": "believe",
+     "meaning_ko": "믿다",
+     "star": false
+    },
+    {
+     "id": "s26-g07",
+     "spans": [
+      [
+       38,
+       41
+      ]
+     ],
+     "headword": "new",
+     "meaning_ko": "새로운",
+     "star": false
+    },
+    {
+     "id": "s26-g08",
+     "spans": [
+      [
+       42,
+       53
+      ]
+     ],
+     "headword": "information",
+     "meaning_ko": "정보",
+     "star": false
+    },
+    {
+     "id": "s26-g09",
+     "spans": [
+      [
+       54,
+       61
+      ]
+     ],
+     "headword": "without",
+     "meaning_ko": "~ 없이",
+     "star": false
+    },
+    {
+     "id": "s26-g10",
+     "spans": [
+      [
+       62,
+       65
+      ]
+     ],
+     "headword": "any",
+     "meaning_ko": "어떤 ~도",
+     "star": false
+    },
+    {
+     "id": "s26-g11",
+     "spans": [
+      [
+       66,
+       71
+      ]
+     ],
+     "headword": "proof",
+     "meaning_ko": "증거",
+     "star": true,
+     "today_word_id": "u3-w4"
+    },
+    {
+     "id": "s26-g12",
+     "spans": [
+      [
+       73,
+       80
+      ],
+      [
+       81,
+       83
+      ]
+     ],
+     "headword": "instead of V-ing",
+     "meaning_ko": "~하는 대신에",
+     "star": false
+    },
+    {
+     "id": "s26-g13",
+     "spans": [
+      [
+       84,
+       94
+      ]
+     ],
+     "headword": "critically",
+     "meaning_ko": "비판적으로",
+     "star": false
+    },
+    {
+     "id": "s26-g14",
+     "spans": [
+      [
+       95,
+       104
+      ]
+     ],
+     "headword": "examine",
+     "meaning_ko": "검토하다, 조사하다",
+     "star": false,
+     "verb_form": {
+      "usage": "ing",
+      "source_span": [
+       95,
+       104
+      ],
+      "lemma": "examine"
+     }
+    },
+    {
+     "id": "s26-g15",
+     "spans": [
+      [
+       105,
+       107
+      ]
+     ],
+     "headword": "it",
+     "meaning_ko": "그것을",
+     "star": false,
+     "referent_ko": "새로운 정보"
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      2
+     ],
+     "gloss_id": "s26-g01"
+    },
+    {
+     "span": [
+      3,
+      5
+     ],
+     "gloss_id": "s26-g02"
+    },
+    {
+     "span": [
+      6,
+      10
+     ],
+     "gloss_id": "s26-g03"
+    },
+    {
+     "span": [
+      11,
+      17
+     ],
+     "gloss_id": "s26-g04"
+    },
+    {
+     "span": [
+      18,
+      21
+     ],
+     "gloss_id": "s26-g01"
+    },
+    {
+     "span": [
+      22,
+      26
+     ],
+     "gloss_id": "s26-g05"
+    },
+    {
+     "span": [
+      27,
+      29
+     ],
+     "gloss_id": "s26-g01"
+    },
+    {
+     "span": [
+      30,
+      37
+     ],
+     "gloss_id": "s26-g06"
+    },
+    {
+     "span": [
+      38,
+      41
+     ],
+     "gloss_id": "s26-g07"
+    },
+    {
+     "span": [
+      42,
+      53
+     ],
+     "gloss_id": "s26-g08"
+    },
+    {
+     "span": [
+      54,
+      61
+     ],
+     "gloss_id": "s26-g09"
+    },
+    {
+     "span": [
+      62,
+      65
+     ],
+     "gloss_id": "s26-g10"
+    },
+    {
+     "span": [
+      66,
+      71
+     ],
+     "gloss_id": "s26-g11"
+    },
+    {
+     "span": [
+      73,
+      80
+     ],
+     "gloss_id": "s26-g12"
+    },
+    {
+     "span": [
+      81,
+      83
+     ],
+     "gloss_id": "s26-g12"
+    },
+    {
+     "span": [
+      84,
+      94
+     ],
+     "gloss_id": "s26-g13"
+    },
+    {
+     "span": [
+      95,
+      104
+     ],
+     "gloss_id": "s26-g14"
+    },
+    {
+     "span": [
+      105,
+      107
+     ],
+     "gloss_id": "s26-g15"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      0,
+      37
+     ],
+     "meaning_ko": "그들이 (새로운 정보를) 믿을 가능성이 더 높다",
+     "explanation": "It은 뒤의 for them to believe …를 대신하는 가주어. for 뒤 them은 to believe의 의미상 주어. 목적어 new information 이하는 제외.",
+     "display_pairs": [
+      {
+       "en": "It is more likely [for them to believe]",
+       "ko": "[그들[사람들]이 믿을] 가능성이 더 높다",
+       "pronoun_refs": [
+        {
+         "en_span": [
+          23,
+          27
+         ],
+         "ko_pronoun_span": [
+          1,
+          3
+         ],
+         "ko_reference_span": [
+          3,
+          8
+         ]
+        }
+       ],
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           19,
+           22
+          ],
+          [
+           28,
+           30
+          ]
+         ],
+         "ko_spans": [
+          [
+           8,
+           9
+          ],
+          [
+           11,
+           12
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "가주어 It과 진주어 to부정사"
+    },
+    {
+     "span": [
+      73,
+      104
+     ],
+     "meaning_ko": "(그것을) 비판적으로 검토하는 대신에",
+     "explanation": "전치사구 instead of 뒤에 동명사 examining(부사 critically가 앞에서 꾸밈)이 와서 ‘~하는 대신에’. 목적어 it은 표시에서 제외.",
+     "display_pairs": [
+      {
+       "en": "[instead of critically examining]",
+       "ko": "[비판적으로 검토하는 대신에]",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           1,
+           11
+          ],
+          [
+           29,
+           32
+          ]
+         ],
+         "ko_spans": [
+          [
+           10,
+           15
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "전치사 instead of + 동명사"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "가주어 It + 진주어 for them to believe new information(A=them) + without any proof + instead of critically examining it(동명사). them은 앞 문장의 people. 진주어 앞(for 앞)에서 끊음. 힌트 2개(가주어–진주어, instead of + 동명사). 관계사·수동 없음.",
+    "required_breaks": [],
+    "protected_spans": [],
+    "function_gloss_ids": [],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s27",
+   "text": "Moreover, people are inclined to believe information that fits their prejudices or experiences even when not true.",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 9,
+     "ko": "게다가,"
+    },
+    {
+     "start": 10,
+     "end": 52,
+     "ko": "사람들은 정보를 믿는 경향이 있다"
+    },
+    {
+     "start": 53,
+     "end": 94,
+     "ko": "그들의 편견이나 경험에 맞는"
+    },
+    {
+     "start": 95,
+     "end": 114,
+     "ko": "사실이 아닐 때조차."
+    }
+   ],
+   "natural_ko": "게다가 사람들은 사실이 아닐 때조차 자신의 편견이나 경험에 맞는 정보를 믿는 경향이 있다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 10,
+     "subject_spans": [
+      [
+       10,
+       16
+      ]
+     ],
+     "verb_spans": [
+      [
+       17,
+       20
+      ]
+     ]
+    },
+    {
+     "kind": "subject_relative",
+     "start": 53,
+     "marker": "that",
+     "subject_spans": [],
+     "verb_spans": [
+      [
+       58,
+       62
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s27-g01",
+     "spans": [
+      [
+       0,
+       8
+      ]
+     ],
+     "headword": "moreover",
+     "meaning_ko": "게다가",
+     "star": false
+    },
+    {
+     "id": "s27-g02",
+     "spans": [
+      [
+       10,
+       16
+      ]
+     ],
+     "headword": "people",
+     "meaning_ko": "사람들",
+     "star": false
+    },
+    {
+     "id": "s27-g03",
+     "spans": [
+      [
+       17,
+       20
+      ],
+      [
+       21,
+       29
+      ],
+      [
+       30,
+       32
+      ]
+     ],
+     "headword": "be inclined to V",
+     "meaning_ko": "~하는 경향이 있다",
+     "star": true,
+     "today_word_id": "u3-w5"
+    },
+    {
+     "id": "s27-g04",
+     "spans": [
+      [
+       33,
+       40
+      ]
+     ],
+     "headword": "believe",
+     "meaning_ko": "믿다",
+     "star": false
+    },
+    {
+     "id": "s27-g05",
+     "spans": [
+      [
+       41,
+       52
+      ]
+     ],
+     "headword": "information",
+     "meaning_ko": "정보",
+     "star": false
+    },
+    {
+     "id": "s27-g06",
+     "spans": [
+      [
+       53,
+       57
+      ]
+     ],
+     "headword": "that V′",
+     "meaning_ko": "V′하는 (관계대명사)",
+     "star": false
+    },
+    {
+     "id": "s27-g07",
+     "spans": [
+      [
+       58,
+       62
+      ]
+     ],
+     "headword": "fit",
+     "meaning_ko": "~에 맞다",
+     "star": false,
+     "verb_form": {
+      "usage": "third-person-singular",
+      "source_span": [
+       58,
+       62
+      ],
+      "lemma": "fit",
+      "review_record": "주어 관계절 선행사 information(3인칭 단수)의 일반동사 fits → 원형 fit."
+     }
+    },
+    {
+     "id": "s27-g08",
+     "spans": [
+      [
+       63,
+       68
+      ]
+     ],
+     "headword": "their",
+     "meaning_ko": "그들의",
+     "star": false,
+     "referent_ko": "사람들"
+    },
+    {
+     "id": "s27-g09",
+     "spans": [
+      [
+       69,
+       79
+      ]
+     ],
+     "headword": "prejudices",
+     "meaning_ko": "편견들",
+     "star": true,
+     "today_word_id": "u3-w6"
+    },
+    {
+     "id": "s27-g10",
+     "spans": [
+      [
+       80,
+       82
+      ]
+     ],
+     "headword": "or",
+     "meaning_ko": "또는",
+     "star": false
+    },
+    {
+     "id": "s27-g11",
+     "spans": [
+      [
+       83,
+       94
+      ]
+     ],
+     "headword": "experiences",
+     "meaning_ko": "경험들",
+     "star": false
+    },
+    {
+     "id": "s27-g12",
+     "spans": [
+      [
+       95,
+       99
+      ]
+     ],
+     "headword": "even",
+     "meaning_ko": "~조차, 심지어",
+     "star": false
+    },
+    {
+     "id": "s27-g13",
+     "spans": [
+      [
+       100,
+       104
+      ]
+     ],
+     "headword": "when",
+     "meaning_ko": "~일 때 (뒤에 it is가 생략됨)",
+     "star": false
+    },
+    {
+     "id": "s27-g14",
+     "spans": [
+      [
+       105,
+       108
+      ]
+     ],
+     "headword": "not",
+     "meaning_ko": "~이 아닌",
+     "star": false
+    },
+    {
+     "id": "s27-g15",
+     "spans": [
+      [
+       109,
+       113
+      ]
+     ],
+     "headword": "true",
+     "meaning_ko": "사실인",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      8
+     ],
+     "gloss_id": "s27-g01"
+    },
+    {
+     "span": [
+      10,
+      16
+     ],
+     "gloss_id": "s27-g02"
+    },
+    {
+     "span": [
+      17,
+      20
+     ],
+     "gloss_id": "s27-g03"
+    },
+    {
+     "span": [
+      21,
+      29
+     ],
+     "gloss_id": "s27-g03"
+    },
+    {
+     "span": [
+      30,
+      32
+     ],
+     "gloss_id": "s27-g03"
+    },
+    {
+     "span": [
+      33,
+      40
+     ],
+     "gloss_id": "s27-g04"
+    },
+    {
+     "span": [
+      41,
+      52
+     ],
+     "gloss_id": "s27-g05"
+    },
+    {
+     "span": [
+      53,
+      57
+     ],
+     "gloss_id": "s27-g06"
+    },
+    {
+     "span": [
+      58,
+      62
+     ],
+     "gloss_id": "s27-g07"
+    },
+    {
+     "span": [
+      63,
+      68
+     ],
+     "gloss_id": "s27-g08"
+    },
+    {
+     "span": [
+      69,
+      79
+     ],
+     "gloss_id": "s27-g09"
+    },
+    {
+     "span": [
+      80,
+      82
+     ],
+     "gloss_id": "s27-g10"
+    },
+    {
+     "span": [
+      83,
+      94
+     ],
+     "gloss_id": "s27-g11"
+    },
+    {
+     "span": [
+      95,
+      99
+     ],
+     "gloss_id": "s27-g12"
+    },
+    {
+     "span": [
+      100,
+      104
+     ],
+     "gloss_id": "s27-g13"
+    },
+    {
+     "span": [
+      105,
+      108
+     ],
+     "gloss_id": "s27-g14"
+    },
+    {
+     "span": [
+      109,
+      113
+     ],
+     "gloss_id": "s27-g15"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      41,
+      62
+     ],
+     "meaning_ko": "(그들의 편견이나 경험에) 맞는 정보",
+     "explanation": "선행사 information을 주격 관계대명사 that이 받아 fits their prejudices or experiences가 꾸민다. V′ fits까지만 표시.",
+     "display_pairs": [
+      {
+       "en": "information [that fits]",
+       "ko": "[맞는] 정보",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           13,
+           17
+          ]
+         ],
+         "ko_spans": [
+          [
+           2,
+           3
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "주격 관계대명사 that"
+    },
+    {
+     "span": [
+      95,
+      113
+     ],
+     "meaning_ko": "사실이 아닐 때조차",
+     "explanation": "even when (it is) not true: when 뒤에 주어 it(그 정보)과 be동사 is가 생략되었다. 생략된 말은 표시에 보충하지 않음.",
+     "display_pairs": [
+      {
+       "en": "[even when not true]",
+       "ko": "[사실이 아닐 때조차]",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           1,
+           10
+          ]
+         ],
+         "ko_spans": [
+          [
+           8,
+           11
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "축약된 when 부사절"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "주절 people are inclined to believe information(be inclined to V, 숙어 각주) + 주격 관계절 that fits …(선행사 information) + 생략 부사절 even when (it is) not true. 힌트 2개(필수 관계사, 생략된 when절). 수동 기능 공식 없음(be inclined to V는 숙어로 제공).",
+    "required_breaks": [],
+    "protected_spans": [],
+    "function_gloss_ids": [],
+    "relative_gloss_ids": [
+     "s27-g06"
+    ]
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s28",
+   "text": "In this process, people easily fall into the trap of “confirmation bias.”",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 16,
+     "ko": "이 과정에서,"
+    },
+    {
+     "start": 17,
+     "end": 49,
+     "ko": "사람들은 쉽게 함정에 빠진다"
+    },
+    {
+     "start": 50,
+     "end": 73,
+     "ko": "‘확증 편향’이라는."
+    }
+   ],
+   "natural_ko": "이 과정에서 사람들은 ‘확증 편향’이라는 함정에 쉽게 빠진다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 17,
+     "subject_spans": [
+      [
+       17,
+       23
+      ]
+     ],
+     "verb_spans": [
+      [
+       31,
+       35
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s28-g01",
+     "spans": [
+      [
+       0,
+       2
+      ]
+     ],
+     "headword": "in",
+     "meaning_ko": "~에서",
+     "star": false
+    },
+    {
+     "id": "s28-g02",
+     "spans": [
+      [
+       3,
+       7
+      ]
+     ],
+     "headword": "this",
+     "meaning_ko": "이",
+     "star": false
+    },
+    {
+     "id": "s28-g03",
+     "spans": [
+      [
+       8,
+       15
+      ]
+     ],
+     "headword": "process",
+     "meaning_ko": "과정",
+     "star": false
+    },
+    {
+     "id": "s28-g04",
+     "spans": [
+      [
+       17,
+       23
+      ]
+     ],
+     "headword": "people",
+     "meaning_ko": "사람들",
+     "star": false
+    },
+    {
+     "id": "s28-g05",
+     "spans": [
+      [
+       24,
+       30
+      ]
+     ],
+     "headword": "easily",
+     "meaning_ko": "쉽게",
+     "star": false
+    },
+    {
+     "id": "s28-g06",
+     "spans": [
+      [
+       31,
+       35
+      ],
+      [
+       36,
+       40
+      ]
+     ],
+     "headword": "fall into",
+     "meaning_ko": "~에 빠지다",
+     "star": false
+    },
+    {
+     "id": "s28-g07",
+     "spans": [
+      [
+       45,
+       49
+      ]
+     ],
+     "headword": "trap",
+     "meaning_ko": "함정",
+     "star": false
+    },
+    {
+     "id": "s28-g08",
+     "spans": [
+      [
+       50,
+       52
+      ]
+     ],
+     "headword": "of",
+     "meaning_ko": "~이라는 (흔한 뜻: ~의)",
+     "star": false
+    },
+    {
+     "id": "s28-g09",
+     "spans": [
+      [
+       54,
+       66
+      ],
+      [
+       67,
+       71
+      ]
+     ],
+     "headword": "confirmation bias",
+     "meaning_ko": "확증 편향 (자기 생각에 맞는 정보만 받아들이는 경향)",
+     "star": true,
+     "today_word_id": "u3-w7"
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      2
+     ],
+     "gloss_id": "s28-g01"
+    },
+    {
+     "span": [
+      3,
+      7
+     ],
+     "gloss_id": "s28-g02"
+    },
+    {
+     "span": [
+      8,
+      15
+     ],
+     "gloss_id": "s28-g03"
+    },
+    {
+     "span": [
+      17,
+      23
+     ],
+     "gloss_id": "s28-g04"
+    },
+    {
+     "span": [
+      24,
+      30
+     ],
+     "gloss_id": "s28-g05"
+    },
+    {
+     "span": [
+      31,
+      35
+     ],
+     "gloss_id": "s28-g06"
+    },
+    {
+     "span": [
+      36,
+      40
+     ],
+     "gloss_id": "s28-g06"
+    },
+    {
+     "span": [
+      41,
+      44
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      45,
+      49
+     ],
+     "gloss_id": "s28-g07"
+    },
+    {
+     "span": [
+      50,
+      52
+     ],
+     "gloss_id": "s28-g08"
+    },
+    {
+     "span": [
+      54,
+      66
+     ],
+     "gloss_id": "s28-g09"
+    },
+    {
+     "span": [
+      67,
+      71
+     ],
+     "gloss_id": "s28-g09"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      41,
+      71
+     ],
+     "meaning_ko": "‘확증 편향’이라는 함정",
+     "explanation": "of “confirmation bias”가 앞 명사 the trap이 무엇인지 설명한다(A라는 B). 원문 인용 부호와 마침표를 그대로 보존.",
+     "display_pairs": [
+      {
+       "en": "the trap [of “confirmation bias.”]",
+       "ko": "[‘확증 편향’이라는] 함정",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           10,
+           12
+          ]
+         ],
+         "ko_spans": [
+          [
+           8,
+           11
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "동격의 of"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "단일 주절 fall into the trap + 동격의 of(‘확증 편향’이라는 함정). of 앞 후치수식 경계. 힌트 1개(동격 of). 관계사·수동 없음.",
+    "required_breaks": [
+     {
+      "at": 50,
+      "kind": "postnominal-preposition",
+      "reason": "of “confirmation bias”는 앞 명사 the trap의 내용을 나타내는 전치사구"
+     }
+    ],
+    "protected_spans": [],
+    "function_gloss_ids": [],
+    "relative_gloss_ids": []
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s29",
+   "text": "That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them.",
+   "key": true,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 8,
+     "ko": "즉,"
+    },
+    {
+     "start": 9,
+     "end": 37,
+     "ko": "그들은 선택적으로 뉴스를 받아들인다"
+    },
+    {
+     "start": 38,
+     "end": 46,
+     "ko": "방식으로"
+    },
+    {
+     "start": 47,
+     "end": 79,
+     "ko": "오직 그들의 믿음을 확인해 주는"
+    },
+    {
+     "start": 80,
+     "end": 95,
+     "ko": "그리고 뉴스는 무시한다"
+    },
+    {
+     "start": 96,
+     "end": 122,
+     "ko": "그것들을 뒷받침하지 않는."
+    }
+   ],
+   "natural_ko": "즉, 그들은 자신의 믿음을 확인해 주는 뉴스만 골라서 받아들이고, 믿음을 뒷받침하지 않는 뉴스는 무시한다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 9,
+     "subject_spans": [
+      [
+       9,
+       13
+      ]
+     ],
+     "verb_spans": [
+      [
+       26,
+       32
+      ],
+      [
+       80,
+       83
+      ],
+      [
+       84,
+       90
+      ]
+     ]
+    },
+    {
+     "kind": "subject_relative",
+     "start": 47,
+     "marker": "that",
+     "subject_spans": [],
+     "verb_spans": [
+      [
+       57,
+       65
+      ]
+     ]
+    },
+    {
+     "kind": "subject_relative",
+     "start": 96,
+     "marker": "that",
+     "subject_spans": [],
+     "verb_spans": [
+      [
+       101,
+       108
+      ],
+      [
+       109,
+       116
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s29-g01",
+     "spans": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       7
+      ]
+     ],
+     "headword": "that is",
+     "meaning_ko": "즉, 다시 말해",
+     "star": false
+    },
+    {
+     "id": "s29-g02",
+     "spans": [
+      [
+       9,
+       13
+      ]
+     ],
+     "headword": "they",
+     "meaning_ko": "그들은",
+     "star": false,
+     "referent_ko": "사람들"
+    },
+    {
+     "id": "s29-g03",
+     "spans": [
+      [
+       14,
+       25
+      ]
+     ],
+     "headword": "selectively",
+     "meaning_ko": "선택적으로, 골라서",
+     "star": true,
+     "today_word_id": "u3-w8"
+    },
+    {
+     "id": "s29-g04",
+     "spans": [
+      [
+       26,
+       32
+      ]
+     ],
+     "headword": "accept",
+     "meaning_ko": "받아들이다",
+     "star": false
+    },
+    {
+     "id": "s29-g05",
+     "spans": [
+      [
+       33,
+       37
+      ]
+     ],
+     "headword": "news",
+     "meaning_ko": "뉴스",
+     "star": false
+    },
+    {
+     "id": "s29-g06",
+     "spans": [
+      [
+       38,
+       40
+      ]
+     ],
+     "headword": "in",
+     "meaning_ko": "~으로",
+     "star": false
+    },
+    {
+     "id": "s29-g07",
+     "spans": [
+      [
+       43,
+       46
+      ]
+     ],
+     "headword": "way",
+     "meaning_ko": "방식",
+     "star": false
+    },
+    {
+     "id": "s29-g08",
+     "spans": [
+      [
+       47,
+       51
+      ]
+     ],
+     "headword": "that V′",
+     "meaning_ko": "V′하는 (관계대명사)",
+     "star": false
+    },
+    {
+     "id": "s29-g09",
+     "spans": [
+      [
+       52,
+       56
+      ]
+     ],
+     "headword": "only",
+     "meaning_ko": "오직, ~만",
+     "star": false
+    },
+    {
+     "id": "s29-g10",
+     "spans": [
+      [
+       57,
+       65
+      ]
+     ],
+     "headword": "confirm",
+     "meaning_ko": "확인해 주다, 사실임을 보여 주다",
+     "star": false,
+     "verb_form": {
+      "usage": "third-person-singular",
+      "source_span": [
+       57,
+       65
+      ],
+      "lemma": "confirm",
+      "review_record": "주어 관계절 선행사 a way(3인칭 단수)의 일반동사 confirms → 원형 confirm."
+     }
+    },
+    {
+     "id": "s29-g11",
+     "spans": [
+      [
+       66,
+       71
+      ]
+     ],
+     "headword": "their",
+     "meaning_ko": "그들의",
+     "star": false,
+     "referent_ko": "사람들"
+    },
+    {
+     "id": "s29-g12",
+     "spans": [
+      [
+       72,
+       79
+      ]
+     ],
+     "headword": "beliefs",
+     "meaning_ko": "믿음들, 신념들",
+     "star": false
+    },
+    {
+     "id": "s29-g13",
+     "spans": [
+      [
+       84,
+       90
+      ]
+     ],
+     "headword": "ignore",
+     "meaning_ko": "무시하다",
+     "star": false
+    },
+    {
+     "id": "s29-g14",
+     "spans": [
+      [
+       91,
+       95
+      ]
+     ],
+     "headword": "news",
+     "meaning_ko": "뉴스",
+     "star": false
+    },
+    {
+     "id": "s29-g15",
+     "spans": [
+      [
+       96,
+       100
+      ]
+     ],
+     "headword": "that V′",
+     "meaning_ko": "V′하는 (관계대명사)",
+     "star": false
+    },
+    {
+     "id": "s29-g16",
+     "spans": [
+      [
+       101,
+       108
+      ]
+     ],
+     "headword": "does not V",
+     "meaning_ko": "~하지 않다",
+     "star": false,
+     "kind": "function",
+     "combines_with": [
+      "s29-g17"
+     ]
+    },
+    {
+     "id": "s29-g17",
+     "spans": [
+      [
+       109,
+       116
+      ]
+     ],
+     "headword": "support",
+     "meaning_ko": "뒷받침하다, 지지하다",
+     "star": false,
+     "kind": "lexical"
+    },
+    {
+     "id": "s29-g18",
+     "spans": [
+      [
+       117,
+       121
+      ]
+     ],
+     "headword": "them",
+     "meaning_ko": "그것들을",
+     "star": false,
+     "referent_ko": "그들의 믿음들"
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      4
+     ],
+     "gloss_id": "s29-g01"
+    },
+    {
+     "span": [
+      5,
+      7
+     ],
+     "gloss_id": "s29-g01"
+    },
+    {
+     "span": [
+      9,
+      13
+     ],
+     "gloss_id": "s29-g02"
+    },
+    {
+     "span": [
+      14,
+      25
+     ],
+     "gloss_id": "s29-g03"
+    },
+    {
+     "span": [
+      26,
+      32
+     ],
+     "gloss_id": "s29-g04"
+    },
+    {
+     "span": [
+      33,
+      37
+     ],
+     "gloss_id": "s29-g05"
+    },
+    {
+     "span": [
+      38,
+      40
+     ],
+     "gloss_id": "s29-g06"
+    },
+    {
+     "span": [
+      41,
+      42
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      43,
+      46
+     ],
+     "gloss_id": "s29-g07"
+    },
+    {
+     "span": [
+      47,
+      51
+     ],
+     "gloss_id": "s29-g08"
+    },
+    {
+     "span": [
+      52,
+      56
+     ],
+     "gloss_id": "s29-g09"
+    },
+    {
+     "span": [
+      57,
+      65
+     ],
+     "gloss_id": "s29-g10"
+    },
+    {
+     "span": [
+      66,
+      71
+     ],
+     "gloss_id": "s29-g11"
+    },
+    {
+     "span": [
+      72,
+      79
+     ],
+     "gloss_id": "s29-g12"
+    },
+    {
+     "span": [
+      80,
+      83
+     ],
+     "exemption": "standalone-and-but",
+     "reason": "일반 연결 and/but 단독 각주 제외"
+    },
+    {
+     "span": [
+      84,
+      90
+     ],
+     "gloss_id": "s29-g13"
+    },
+    {
+     "span": [
+      91,
+      95
+     ],
+     "gloss_id": "s29-g14"
+    },
+    {
+     "span": [
+      96,
+      100
+     ],
+     "gloss_id": "s29-g15"
+    },
+    {
+     "span": [
+      101,
+      108
+     ],
+     "gloss_id": "s29-g16"
+    },
+    {
+     "span": [
+      109,
+      116
+     ],
+     "gloss_id": "s29-g17"
+    },
+    {
+     "span": [
+      117,
+      121
+     ],
+     "gloss_id": "s29-g18"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      41,
+      65
+     ],
+     "meaning_ko": "오직 (그들의 믿음을) 확인해 주는 방식",
+     "explanation": "선행사 a way를 주격 관계대명사 that이 받아 only confirms their beliefs가 꾸민다. 사이 부사 only는 보존하고 목적어는 제외.",
+     "display_pairs": [
+      {
+       "en": "a way [that only confirms]",
+       "ko": "[오직 확인해 주는] 방식",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           7,
+           11
+          ]
+         ],
+         "ko_spans": [
+          [
+           9,
+           10
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "주격 관계대명사 that"
+    },
+    {
+     "span": [
+      91,
+      116
+     ],
+     "meaning_ko": "(그것들을) 뒷받침하지 않는 뉴스",
+     "explanation": "선행사 news를 주격 관계대명사 that이 받아 doesn’t support them이 꾸민다. 부정 doesn’t를 보존하고 목적어 them은 제외.",
+     "display_pairs": [
+      {
+       "en": "news [that doesn’t support]",
+       "ko": "[뒷받침하지 않는] 뉴스",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           6,
+           10
+          ]
+         ],
+         "ko_spans": [
+          [
+           8,
+           9
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "주격 관계대명사 that"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "주절 they accept … and ignore …(병렬 동사) + 주격 관계절 두 개: that only confirms their beliefs(선행사 a way), that doesn’t support them(선행사 news, them=그들의 믿음들). 힌트 2개(필수 관계사 둘). 수동 없음.",
+    "required_breaks": [],
+    "protected_spans": [],
+    "function_gloss_ids": [
+     "s29-g16"
+    ],
+    "relative_gloss_ids": [
+     "s29-g08",
+     "s29-g15"
+    ]
+   }
+  },
+  {
+   "source_id": "src",
+   "id": "s30",
+   "text": "During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+   "key": false,
+   "chunks": [
+    {
+     "start": 0,
+     "end": 23,
+     "ko": "선거철 동안,"
+    },
+    {
+     "start": 24,
+     "end": 36,
+     "ko": "예를 들어,"
+    },
+    {
+     "start": 37,
+     "end": 76,
+     "ko": "사람들은 어떤 뉴스든 맹목적으로 믿는 경향이 있다"
+    },
+    {
+     "start": 77,
+     "end": 112,
+     "ko": "그들이 선호하는 후보들을 묘사하는"
+    },
+    {
+     "start": 113,
+     "end": 131,
+     "ko": "긍정적인 방식으로,"
+    },
+    {
+     "start": 132,
+     "end": 166,
+     "ko": "그러면서 무의식적으로 뉴스를 믿는다"
+    },
+    {
+     "start": 167,
+     "end": 198,
+     "ko": "부정적인 무언가를 보도하는"
+    },
+    {
+     "start": 199,
+     "end": 222,
+     "ko": "다른 후보들에 대해."
+    }
+   ],
+   "natural_ko": "예를 들어 선거철에 사람들은 자신이 지지하는 후보를 긍정적으로 묘사하는 뉴스라면 무엇이든 맹목적으로 믿는 경향이 있고, 동시에 다른 후보에 대해 부정적인 내용을 보도하는 뉴스도 무의식적으로 믿는다.",
+   "clauses": [
+    {
+     "kind": "main",
+     "start": 37,
+     "subject_spans": [
+      [
+       37,
+       43
+      ]
+     ],
+     "verb_spans": [
+      [
+       44,
+       48
+      ]
+     ]
+    },
+    {
+     "kind": "subject_relative",
+     "start": 167,
+     "marker": "that",
+     "subject_spans": [],
+     "verb_spans": [
+      [
+       172,
+       179
+      ]
+     ]
+    }
+   ],
+   "glosses": [
+    {
+     "id": "s30-g01",
+     "spans": [
+      [
+       0,
+       6
+      ]
+     ],
+     "headword": "during",
+     "meaning_ko": "~ 동안",
+     "star": false
+    },
+    {
+     "id": "s30-g02",
+     "spans": [
+      [
+       7,
+       15
+      ],
+      [
+       16,
+       22
+      ]
+     ],
+     "headword": "election season",
+     "meaning_ko": "선거철",
+     "star": false
+    },
+    {
+     "id": "s30-g03",
+     "spans": [
+      [
+       24,
+       27
+      ],
+      [
+       28,
+       35
+      ]
+     ],
+     "headword": "for example",
+     "meaning_ko": "예를 들어",
+     "star": false
+    },
+    {
+     "id": "s30-g04",
+     "spans": [
+      [
+       37,
+       43
+      ]
+     ],
+     "headword": "people",
+     "meaning_ko": "사람들",
+     "star": false
+    },
+    {
+     "id": "s30-g05",
+     "spans": [
+      [
+       44,
+       48
+      ],
+      [
+       49,
+       51
+      ]
+     ],
+     "headword": "tend to V",
+     "meaning_ko": "~하는 경향이 있다",
+     "star": false,
+     "kind": "lexical",
+     "verb_construction": {
+      "kind": "to-complement",
+      "verb_span": [
+       44,
+       48
+      ],
+      "lemma": "tend",
+      "link_spans": [
+       [
+        49,
+        51
+       ]
+      ],
+      "review_record": "people tend to blindly believe …: tend to V, V=believe(사이 부사 blindly)."
+     }
+    },
+    {
+     "id": "s30-g06",
+     "spans": [
+      [
+       52,
+       59
+      ]
+     ],
+     "headword": "blindly",
+     "meaning_ko": "맹목적으로",
+     "star": false
+    },
+    {
+     "id": "s30-g07",
+     "spans": [
+      [
+       60,
+       67
+      ]
+     ],
+     "headword": "believe",
+     "meaning_ko": "믿다",
+     "star": false
+    },
+    {
+     "id": "s30-g08",
+     "spans": [
+      [
+       68,
+       71
+      ]
+     ],
+     "headword": "any",
+     "meaning_ko": "어떤 ~든",
+     "star": false
+    },
+    {
+     "id": "s30-g09",
+     "spans": [
+      [
+       72,
+       76
+      ]
+     ],
+     "headword": "news",
+     "meaning_ko": "뉴스",
+     "star": false
+    },
+    {
+     "id": "s30-g10",
+     "spans": [
+      [
+       77,
+       87
+      ]
+     ],
+     "headword": "V-ing",
+     "meaning_ko": "~하는",
+     "star": false,
+     "kind": "function",
+     "combines_with": [
+      "s30-g11"
+     ]
+    },
+    {
+     "id": "s30-g11",
+     "spans": [
+      [
+       77,
+       87
+      ]
+     ],
+     "headword": "describe",
+     "meaning_ko": "묘사하다",
+     "star": false,
+     "verb_form": {
+      "usage": "ing",
+      "source_span": [
+       77,
+       87
+      ],
+      "lemma": "describe"
+     },
+     "kind": "lexical"
+    },
+    {
+     "id": "s30-g12",
+     "spans": [
+      [
+       88,
+       93
+      ]
+     ],
+     "headword": "their",
+     "meaning_ko": "그들의",
+     "star": false,
+     "referent_ko": "사람들"
+    },
+    {
+     "id": "s30-g13",
+     "spans": [
+      [
+       94,
+       101
+      ]
+     ],
+     "headword": "favored",
+     "meaning_ko": "선호하는, 지지하는",
+     "star": false,
+     "verb_form": {
+      "usage": "past-participle",
+      "source_span": [
+       94,
+       101
+      ],
+      "lemma": "favor"
+     }
+    },
+    {
+     "id": "s30-g14",
+     "spans": [
+      [
+       102,
+       112
+      ]
+     ],
+     "headword": "candidates",
+     "meaning_ko": "후보들",
+     "star": false
+    },
+    {
+     "id": "s30-g15",
+     "spans": [
+      [
+       113,
+       115
+      ]
+     ],
+     "headword": "in",
+     "meaning_ko": "~으로",
+     "star": false
+    },
+    {
+     "id": "s30-g16",
+     "spans": [
+      [
+       118,
+       126
+      ]
+     ],
+     "headword": "positive",
+     "meaning_ko": "긍정적인",
+     "star": false
+    },
+    {
+     "id": "s30-g17",
+     "spans": [
+      [
+       127,
+       130
+      ]
+     ],
+     "headword": "way",
+     "meaning_ko": "방식",
+     "star": false
+    },
+    {
+     "id": "s30-g18",
+     "spans": [
+      [
+       132,
+       137
+      ]
+     ],
+     "headword": "while V-ing",
+     "meaning_ko": "~하면서 (동시에)",
+     "star": false,
+     "kind": "function",
+     "combines_with": [
+      "s30-g20"
+     ]
+    },
+    {
+     "id": "s30-g19",
+     "spans": [
+      [
+       138,
+       151
+      ]
+     ],
+     "headword": "unconsciously",
+     "meaning_ko": "무의식적으로",
+     "star": false
+    },
+    {
+     "id": "s30-g20",
+     "spans": [
+      [
+       152,
+       161
+      ]
+     ],
+     "headword": "believe",
+     "meaning_ko": "믿다",
+     "star": false,
+     "verb_form": {
+      "usage": "ing",
+      "source_span": [
+       152,
+       161
+      ],
+      "lemma": "believe"
+     },
+     "kind": "lexical"
+    },
+    {
+     "id": "s30-g21",
+     "spans": [
+      [
+       162,
+       166
+      ]
+     ],
+     "headword": "news",
+     "meaning_ko": "뉴스",
+     "star": false
+    },
+    {
+     "id": "s30-g22",
+     "spans": [
+      [
+       167,
+       171
+      ]
+     ],
+     "headword": "that V′",
+     "meaning_ko": "V′하는 (관계대명사)",
+     "star": false
+    },
+    {
+     "id": "s30-g23",
+     "spans": [
+      [
+       172,
+       179
+      ]
+     ],
+     "headword": "report",
+     "meaning_ko": "보도하다",
+     "star": false,
+     "verb_form": {
+      "usage": "third-person-singular",
+      "source_span": [
+       172,
+       179
+      ],
+      "lemma": "report",
+      "review_record": "주어 관계절 선행사 news(3인칭 단수)의 일반동사 reports → 원형 report."
+     }
+    },
+    {
+     "id": "s30-g24",
+     "spans": [
+      [
+       180,
+       189
+      ]
+     ],
+     "headword": "something",
+     "meaning_ko": "무언가",
+     "star": false
+    },
+    {
+     "id": "s30-g25",
+     "spans": [
+      [
+       190,
+       198
+      ]
+     ],
+     "headword": "negative",
+     "meaning_ko": "부정적인",
+     "star": false
+    },
+    {
+     "id": "s30-g26",
+     "spans": [
+      [
+       199,
+       204
+      ]
+     ],
+     "headword": "about",
+     "meaning_ko": "~에 대해",
+     "star": false
+    },
+    {
+     "id": "s30-g27",
+     "spans": [
+      [
+       205,
+       210
+      ]
+     ],
+     "headword": "other",
+     "meaning_ko": "다른",
+     "star": false
+    },
+    {
+     "id": "s30-g28",
+     "spans": [
+      [
+       211,
+       221
+      ]
+     ],
+     "headword": "candidates",
+     "meaning_ko": "후보들",
+     "star": false
+    }
+   ],
+   "lexical_coverage": [
+    {
+     "span": [
+      0,
+      6
+     ],
+     "gloss_id": "s30-g01"
+    },
+    {
+     "span": [
+      7,
+      15
+     ],
+     "gloss_id": "s30-g02"
+    },
+    {
+     "span": [
+      16,
+      22
+     ],
+     "gloss_id": "s30-g02"
+    },
+    {
+     "span": [
+      24,
+      27
+     ],
+     "gloss_id": "s30-g03"
+    },
+    {
+     "span": [
+      28,
+      35
+     ],
+     "gloss_id": "s30-g03"
+    },
+    {
+     "span": [
+      37,
+      43
+     ],
+     "gloss_id": "s30-g04"
+    },
+    {
+     "span": [
+      44,
+      48
+     ],
+     "gloss_id": "s30-g05"
+    },
+    {
+     "span": [
+      49,
+      51
+     ],
+     "gloss_id": "s30-g05"
+    },
+    {
+     "span": [
+      52,
+      59
+     ],
+     "gloss_id": "s30-g06"
+    },
+    {
+     "span": [
+      60,
+      67
+     ],
+     "gloss_id": "s30-g07"
+    },
+    {
+     "span": [
+      68,
+      71
+     ],
+     "gloss_id": "s30-g08"
+    },
+    {
+     "span": [
+      72,
+      76
+     ],
+     "gloss_id": "s30-g09"
+    },
+    {
+     "span": [
+      77,
+      87
+     ],
+     "gloss_id": "s30-g11"
+    },
+    {
+     "span": [
+      88,
+      93
+     ],
+     "gloss_id": "s30-g12"
+    },
+    {
+     "span": [
+      94,
+      101
+     ],
+     "gloss_id": "s30-g13"
+    },
+    {
+     "span": [
+      102,
+      112
+     ],
+     "gloss_id": "s30-g14"
+    },
+    {
+     "span": [
+      113,
+      115
+     ],
+     "gloss_id": "s30-g15"
+    },
+    {
+     "span": [
+      116,
+      117
+     ],
+     "exemption": "below-middle1-unneeded",
+     "level": "below-middle1",
+     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+    },
+    {
+     "span": [
+      118,
+      126
+     ],
+     "gloss_id": "s30-g16"
+    },
+    {
+     "span": [
+      127,
+      130
+     ],
+     "gloss_id": "s30-g17"
+    },
+    {
+     "span": [
+      132,
+      137
+     ],
+     "gloss_id": "s30-g18"
+    },
+    {
+     "span": [
+      138,
+      151
+     ],
+     "gloss_id": "s30-g19"
+    },
+    {
+     "span": [
+      152,
+      161
+     ],
+     "gloss_id": "s30-g20"
+    },
+    {
+     "span": [
+      162,
+      166
+     ],
+     "gloss_id": "s30-g21"
+    },
+    {
+     "span": [
+      167,
+      171
+     ],
+     "gloss_id": "s30-g22"
+    },
+    {
+     "span": [
+      172,
+      179
+     ],
+     "gloss_id": "s30-g23"
+    },
+    {
+     "span": [
+      180,
+      189
+     ],
+     "gloss_id": "s30-g24"
+    },
+    {
+     "span": [
+      190,
+      198
+     ],
+     "gloss_id": "s30-g25"
+    },
+    {
+     "span": [
+      199,
+      204
+     ],
+     "gloss_id": "s30-g26"
+    },
+    {
+     "span": [
+      205,
+      210
+     ],
+     "gloss_id": "s30-g27"
+    },
+    {
+     "span": [
+      211,
+      221
+     ],
+     "gloss_id": "s30-g28"
+    }
+   ],
+   "hints": [
+    {
+     "span": [
+      68,
+      112
+     ],
+     "meaning_ko": "그들이 선호하는 후보들을 묘사하는 어떤 뉴스든",
+     "explanation": "현재분사 describing이 이끄는 describing their favored candidates (in a positive way)가 앞 명사 any news를 뒤에서 꾸민다.",
+     "display_pairs": [
+      {
+       "en": "any news [describing their favored candidates]",
+       "ko": "[그들[사람들]의 선호 후보들을 묘사하는] 어떤 뉴스든",
+       "pronoun_refs": [
+        {
+         "en_span": [
+          21,
+          26
+         ],
+         "ko_pronoun_span": [
+          1,
+          3
+         ],
+         "ko_reference_span": [
+          3,
+          8
+         ]
+        }
+       ],
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           17,
+           20
+          ]
+         ],
+         "ko_spans": [
+          [
+           21,
+           22
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "현재분사 후치수식"
+    },
+    {
+     "span": [
+      162,
+      179
+     ],
+     "meaning_ko": "(다른 후보들에 대해 부정적인 무언가를) 보도하는 뉴스",
+     "explanation": "선행사 news를 주격 관계대명사 that이 받아 reports something negative about other candidates가 꾸민다. V′ reports까지만 표시.",
+     "display_pairs": [
+      {
+       "en": "news [that reports]",
+       "ko": "[보도하는] 뉴스",
+       "emphasis_links": [
+        {
+         "en_spans": [
+          [
+           6,
+           10
+          ]
+         ],
+         "ko_spans": [
+          [
+           4,
+           5
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "structure_label": "주격 관계대명사 that"
+    }
+   ],
+   "reading_checks": {
+    "review_record": "주절 people tend to blindly believe any news + 현재분사 후치수식 describing their favored candidates in a positive way(any news를 꾸밈) + while unconsciously believing news(while + V-ing: 동시에 ~하면서, 주어 people 공유) + 주격 관계절 that reports something negative about other candidates. something negative는 -thing 대명사 뒤 형용사가 붙은 한 덩어리 명사구라 끊지 않음(L 검수 확인 요청). 힌트 2개(현재분사 후치수식, 필수 관계사). 수동 없음.",
+    "required_breaks": [],
+    "protected_spans": [],
+    "function_gloss_ids": [
+     "s30-g10",
+     "s30-g18"
+    ],
+    "relative_gloss_ids": [
+     "s30-g22"
+    ]
    }
   }
  ]
