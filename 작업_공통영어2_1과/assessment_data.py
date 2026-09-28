@@ -43,10 +43,10 @@ q(id='Q01', set_id='workbook', number=1, unit_id='u1', type='주제', first='s01
            'the reasons reporters intentionally hide news about natural disasters'],
   answer=2,
   uses=[('u1-r2a', 1, 'praising', 'praise(칭찬하다)는 criticize의 반대로, 글이 누군가를 칭찬하는 내용이 아님을 판단해야 함'),
-        ('u1-r3a', 1, 'intentionally', 'intentionally(일부러)의 뜻을 알아야 지나가 뉴스를 일부러 확인했다는 말이 본문과 어긋남을 판단할 수 있음'),
+        ('u1-r3a', 1, 'intentionally', 'intentionally(일부러)의 뜻을 알아야, 공유 전에 일부러 뉴스를 확인하는 사람들을 칭찬한다는 말이 확인 없이 곧바로 공유한 지나의 이야기와 어긋남을 판단할 수 있음'),
         ('u1-r2s', 2, 'condemns', 'condemn(비난하다)이 criticize와 같은 뜻임을 알아야 가짜 뉴스를 비판하던 지나를 가리킨다는 것을 판단할 수 있음'),
         ('u1-r3s', 2, 'unintentionally', 'unintentionally(의도하지 않게)가 accidentally와 같은 뜻임을 알아야 주제를 판단할 수 있음'),
-        ('u1-r1a', 3, 'unknown', 'unknown(알려지지 않은) 제작자가 참된 이야기를 좋아한다는 말은 본문에 없음을 판단해야 함'),
+        ('u1-r1a', 3, 'unknown', 'unknown(알려지지 않은)의 뜻을 알아도, 콘텐츠 제작자들이 참된 이야기를 선호한다는 말은 관심과 돈을 위해 자극적인 거짓 이야기를 만들었다는 본문과 반대임을 판단해야 함'),
         ('u1-r1s', 4, 'well-known', 'well-known(유명한)이 famous와 같은 뜻임을 알아도 운동선수 사건은 한 예일 뿐 주제가 아님을 판단해야 함')],
   evidence='At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.',
   explanation='지나는 흔들바위가 떨어졌다는 가짜 뉴스를 믿고 친구들에게 공유했다가 가짜라는 사실을 알고 당황한다. 예전에 운동선수 사망 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했던 지나가 이번에는 자신도 모르게 가짜 뉴스를 퍼뜨린 것이다. 따라서 가짜 뉴스를 비난하는 사람조차 의도하지 않게 그것을 퍼뜨릴 수 있다는 ②가 주제다.',
@@ -103,7 +103,7 @@ q(id='Q03', set_id='workbook', number=3, unit_id='u3', type='제목', first='s20
   explanation='글은 가짜 뉴스가 진짜 이야기보다 훨씬 더 멀리, 빨리 퍼진다는 사실을 제시한 뒤, 그 이유로 사람들이 새롭고 자극적인 것을 좋아하고, 단순하게 생각하며, 확증 편향에 빠진다는 점을 설명한다. 따라서 ①이 제목으로 가장 적절하다.',
   choices_ko=['왜 가짜 뉴스는 진실보다 상당히 더 빨리 퍼지는가',
               '진짜 이야기는 가짜 뉴스보다 약간만 더 느리게 퍼진다',
-              '사람들이 자극적인 정보를 무시하는 법을 배우는 방법',
+              '사람들은 어떻게 자극적인 정보를 무시하게 되는가',
               '불리한 뉴스를 받아들이기: 대부분 유권자의 습관',
               '선거철이 언론에 미치는 긍정적인 영향'],
   wrong={2: '가짜 뉴스가 평균 6배 더 빠르게 퍼진다고 했으므로 ‘약간’은 본문과 어긋난다.',
@@ -167,8 +167,8 @@ q(id='Q06', set_id='mock1', number=2, type='순서', first='s01', last='s10',
   evidence='(C) “Today’s Internet stories of the Heundeulbawi being damaged were fake.”로 공유한 소식이 가짜임이 밝혀짐 / (A) “It reminded her of another incident of fake news …”의 It과 another가 (C)의 사건을 받음 / (B) “They produced …”의 They가 (A)의 content creators를 가리키고, “This time, however, …”으로 마무리됨.',
   explanation='주어진 글은 지나가 흔들바위가 떨어졌다는 헤드라인을 보고 친구들에게 공유한 장면이다. (C) 기자가 그 기사가 가짜라고 밝히고 지나는 당황한다. (A) 이 일이 떠올리게 한 또 다른 가짜 뉴스(운동선수 사망 뉴스)와 그것을 만든 콘텐츠 제작자들이 나온다. (B) 그들(They)이 돈을 벌려고 자극적인 거짓 이야기를 만들었고, 지나는 그때 그들을 비판했지만 이번에는 자신이 가짜 뉴스를 퍼뜨렸다. 따라서 (C)-(A)-(B)이다.',
   wrong={1: '(A)의 another incident of fake news는 앞에서 흔들바위 뉴스가 가짜라고 밝혀진 뒤에야 쓸 수 있어 주어진 글 바로 뒤에 올 수 없다.',
-         2: '(B)의 They가 가리킬 대상(content creators)이 앞에 없고, (B)의 This time, however는 이미 흔들바위 뉴스가 가짜로 밝혀진 뒤라야 이어질 수 있다.',
-         3: '(B)를 주어진 글 바로 뒤에 두면 They가 가리킬 대상이 없다.',
+         2: '(B)의 They를 주어진 글의 her close friends로 볼 수는 없다(친구들이 돈을 벌려고 자극적인 거짓 이야기를 만든 것이 아니다). They가 가리킬 content creators는 (A)에 나오고, This time, however는 흔들바위 뉴스가 가짜로 밝혀진 뒤라야 이어질 수 있다.',
+         3: '(B)를 주어진 글 바로 뒤에 두면 They를 her close friends로 읽게 되는데, 친구들이 돈을 벌려고 거짓 이야기를 만들었다는 것은 글의 흐름과 맞지 않는다. They가 가리킬 content creators는 (A)에 처음 나온다.',
          5: '(C) 뒤에 (B)가 오면 They가 가리킬 콘텐츠 제작자와 운동선수 사건이 아직 나오지 않았다.'})
 
 q(id='Q07', set_id='mock1', number=3, type='삽입', first='s31', last='s43', given='s33',
@@ -177,10 +177,10 @@ q(id='Q07', set_id='mock1', number=3, type='삽입', first='s31', last='s43', gi
   answer=2,
   evidence='First, read beyond the provocative headlines. ( ② ) So don’t just read the headlines, but read the text carefully.',
   explanation='주어진 문장의 They는 앞 문장의 the provocative headlines를 가리키며, 헤드라인이 클릭을 더 얻으려고 너무 자극적이어서 무심코 클릭할 수 있다는 이유를 말한다. ② 뒤의 So don’t just read the headlines, but read the text carefully.는 이 이유에 따른 결론이므로 주어진 문장은 ②에 들어가야 한다.',
-  wrong={1: '① 앞에는 가짜 뉴스에 속지 않는 방법을 묻는 질문만 있어 They가 가리킬 헤드라인이 아직 나오지 않았다.',
-         3: '③ 앞에서 이미 So로 결론(헤드라인만 읽지 말고 본문을 읽어라)을 내렸으므로 그 이유가 결론 뒤에 오게 되고, ③ 뒤는 둘째 방법(Second)으로 넘어간다.',
-         4: '④는 둘째 방법(뉴스를 곧이곧대로 읽지 말 것)과 그 설명(비판적 사고 기술을 발휘할 것) 사이라, 헤드라인을 가리키는 They가 들어갈 자리가 아니다.',
-         5: '⑤ 앞뒤는 비판적 사고로 뉴스를 판단하고 읽은 것을 분석·평가하라는 내용이라 클릭을 끄는 헤드라인 이야기가 이어질 수 없다.'})
+  wrong={1: '이 위치 앞에는 가짜 뉴스에 속지 않는 방법을 묻는 질문만 있어 They가 가리킬 헤드라인이 아직 나오지 않았다.',
+         3: '이 위치 앞에서 이미 So로 결론(헤드라인만 읽지 말고 본문을 읽어라)을 내렸으므로 그 이유가 결론 뒤에 오게 되고, 뒤는 둘째 방법(Second)으로 넘어간다.',
+         4: '이 위치는 둘째 방법(뉴스를 곧이곧대로 읽지 말 것)과 그 설명(비판적 사고 기술을 발휘할 것) 사이라, 헤드라인을 가리키는 They가 들어갈 자리가 아니다.',
+         5: '이 위치 앞뒤는 비판적 사고로 뉴스를 판단하고 읽은 것을 분석·평가하라는 내용이라 클릭을 끄는 헤드라인 이야기가 이어질 수 없다.'})
 
 q(id='Q08', set_id='mock1', number=4, type='제목', first='s20', last='s30', group='G1',
   question='윗글의 제목으로 가장 적절한 것은?',
@@ -343,7 +343,7 @@ q(id='Q17', set_id='mock3', number=3, type='순서', first='s15', last='s19',
   question='주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?',
   answer=3,
   evidence='(B) “For example, after an earthquake … thousands of residents did not return to their homes …” / (C) “This was because of fake news stories on social media …”의 This가 (B)의 주민들이 돌아가지 않은 일을 받음 / (A) “One of those messages said …”의 those messages가 (C)의 fake news stories를 가리킴.',
-  explanation='주어진 글은 비상사태 동안 가짜 뉴스가 퍼지는 것이 매우 흔하다고 말한다. (B) 그 예로 암본 지진 뒤 수천 명의 주민이 집에 돌아가지 않고 대피소에 머문 일을 든다. (C) 그 이유(This was because …)가 곧 또 다른 지진과 쓰나미가 온다는 소셜 미디어의 가짜 뉴스 이야기들 때문이었다고 한다. (A) 그 메시지들(those messages) 중 하나를 소개하고, 이재민들이 몹시 불안해해서 정부가 정보가 가짜라고 발표해야 했다고 끝맺는다. 따라서 (B)-(C)-(A)이다.',
+  explanation='주어진 글은 비상사태 동안 가짜 뉴스가 퍼지는 것이 매우 흔하다고 말한다. (B) 그 예로 암본 지진 뒤 수천 명의 주민이 집에 돌아가지 않고 대피소에 머문 일을 든다. (C) 그렇게 된 이유(This was because …)는 또 다른 지진(another earthquake)과 쓰나미가 곧 닥친다는 소셜 미디어의 가짜 뉴스 이야기들이었다고 밝힌다. (A) 그 메시지들(those messages) 중 하나를 소개하고, 이재민들이 몹시 불안해해서 정부가 정보가 가짜라고 발표해야 했다고 끝맺는다. 따라서 (B)-(C)-(A)이다.',
   wrong={1: '(A)의 those messages가 가리킬 (C)의 fake news stories가 아직 나오지 않았다.',
          2: '(A)의 those messages가 가리킬 (C)의 fake news stories보다 (A)가 먼저 나온다.',
          4: '(C)의 This가 가리킬 일(주민들이 집에 돌아가지 않은 것)이 아직 나오지 않았다.',
@@ -379,7 +379,7 @@ q(id='Q19', set_id='mock3', number=5, type='어휘', first='s01', last='s14', gr
   wrong={1: '헤드라인을 보고 확인 없이 곧바로(immediately) 공유했다는 흐름에 맞다.',
          3: '지나가 예전에 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했다(criticized)는 뜻으로 적절하다.',
          4: '가짜 뉴스는 부정확한 정보를 퍼뜨려 사람들을 조종하려는 의도적인(deliberate) 시도라는 정의로 적절하다.',
-         5: '가짜 뉴스가 대중과 관련된 모든 개인들에게 심각한 해를 끼칠(harm) 수 있다는 내용으로 적절하다.'})
+         5: '가짜 뉴스가 관련된 모든 개인뿐만 아니라 대중에게도 심각한 해를 끼칠(harm) 수 있다는 내용으로 적절하다.'})
 
 
 # ================================================================ 조립

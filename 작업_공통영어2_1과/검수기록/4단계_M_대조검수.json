@@ -1,0 +1,133 @@
+{
+  "reviewer_id": "M",
+  "role": "M",
+  "kind": "questions",
+  "independent": true,
+  "solved_before_answer_key": true,
+  "input": "검수입력/문제_대조.json",
+  "input_sha256": "3e1fced476a34b933900e76bb172015480aef97ed2a18eccc44e5103a143e3bf",
+  "blind_records": [
+    "검수기록/4단계_M_블라인드풀이.json",
+    "검수기록/4단계_M_블라인드풀이_2차.json",
+    "검수기록/4단계_M_블라인드풀이_3차.json"
+  ],
+  "answers": {
+    "Q01": 2,
+    "Q02": 5,
+    "Q03": 1,
+    "Q04": 2,
+    "Q05": 3,
+    "Q06": 4,
+    "Q07": 2,
+    "Q08": 5,
+    "Q09": 4,
+    "Q10": 4,
+    "Q11": 1,
+    "Q12": 3,
+    "Q13": 2,
+    "Q14": 4,
+    "Q15": 4,
+    "Q16": 5,
+    "Q17": 3,
+    "Q18": 1,
+    "Q19": 2
+  },
+  "answer_basis": {
+    "Q01": "1차",
+    "Q02": "1차",
+    "Q03": "1차",
+    "Q04": "2차",
+    "Q05": "1차",
+    "Q06": "1차",
+    "Q07": "2차",
+    "Q08": "1차",
+    "Q09": "1차",
+    "Q10": "1차",
+    "Q11": "2차",
+    "Q12": "1차",
+    "Q13": "1차",
+    "Q14": "1차",
+    "Q15": "2차",
+    "Q16": "2차",
+    "Q17": "3차",
+    "Q18": "3차(선지 문구 변경 후 대조 단계 재풀이)",
+    "Q19": "3차"
+  },
+  "blind_vs_key": {
+    "matches": 19,
+    "mismatches": [],
+    "note": "문항별로 가장 최근 블라인드 회차의 답을 제작 정답(questions.answer), explanations.answer, quick_key와 대조했고 19문항 모두 일치했다. Q04·Q07·Q11·Q15·Q16은 2차, Q17·Q18·Q19는 3차 풀이 기준이다. 3차 이후 바뀐 Q18 정답 선지 ①('From Critic to Spreader: Even Critics of Fake News Can Spread It')도 다시 풀어 ①로 확정했다. 근거는 'At that time, Gina criticized ...'와 'This time, however, Gina herself had accidentally contributed ...'의 비판자→유포자 대비, 그리고 'becoming an accidental distributor of fake news like Gina is not unusual'이다. 오답 ②~⑤를 배제하는 근거는 이전과 같다. 새 문구는 mock3의 다른 지문(Q15·Q16·Q17)에 같은 표현이 없어 회차 안 단서 노출이 없다. Q15 지문의 'Anyone'과 겹치던 문제도 해소되었다."
+  },
+  "q18_resolve": {
+    "answer": 1,
+    "confidence": "high",
+    "wording": "From Critic to Spreader: Even Critics of Fake News Can Spread It",
+    "leakage_check": "mock3 학생용 전체에서 'Anyone'은 Q15 지문에만 1회 나오고 Q18 선지에는 없다. 'Critic(s)'는 Q18 선지에만 나온다. Q15·Q16의 critical/critically는 다른 낱말이어서 단서가 되지 않는다. 같은 공유 지문의 Q19 ③ criticized가 적절하다는 점을 ①이 뒷받침하지만, 이는 41~42 장문 세트에 원래 있는 연계이고 오답 하나를 확인해 주는 정도이다. Q19의 정답(② pleased)을 알려 주지 않으므로 교사 기준의 '외부 정답 단서'에는 해당하지 않는다."
+  },
+  "length_reviews": {
+    "Q17": {
+      "status": "PASS",
+      "benchmark_ids": [
+        "202603241-Q36",
+        "202606041-Q36",
+        "202609021-Q36"
+      ],
+      "measured_words": 112,
+      "benchmark_words": [
+        134,
+        160,
+        168
+      ],
+      "rationale": "GIVEN과 A/B/C를 한 번씩 세면 112단어로 고1 36번 표본(134/160/168)보다 짧아 NEEDS_INDEPENDENT_REVIEW 대상이다. 교사 기준(약 100단어 단일 지문 허용, 문항 오류와 지문 밖 정답 단서는 불가)에 따라 판정했다. ① 순서 가공 규칙대로 원문 15~19 연속 범위의 첫 문장이 GIVEN이고 나머지가 빠짐없이 A/B/C로 나뉘어 있으며, 정답 배열 B→C→A가 원문을 복원한다. ② 다섯 배열을 모두 읽어 보면 유일성은 지문 안의 세 연결만으로 확정된다. (B) 'For example'은 GIVEN의 일반 진술을 받는다. (C) 'This was because ...'는 (B)의 대피 상황을 받는다. (A) 'One of those messages'는 (C)의 'fake news stories on social media'를 받는다. 가장 유력한 경쟁 배열 ⑤ C→B→A는 This가 가리킬 대피 사건이 아직 없어 배제된다. ①·②는 those messages의 선행사가 앞에 없어 배제된다. ③ 같은 회차 Q18·Q19 장문(원문 1~14)과 문장 범위가 겹치지 않고, 다른 문항에서 오는 순서 단서도 없다. ④ 분량은 짧지만 사례 제시→원인→구체 메시지와 결과의 3단 전개가 완결된다. 판정: PASS."
+    }
+  },
+  "status": "FIX_REQUIRED",
+  "findings": [
+    {
+      "id": "M-01",
+      "question_id": "Q19",
+      "field": "explanations.wrong_reasons[⑤]",
+      "current": "가짜 뉴스가 대중과 관련된 모든 개인들에게 심각한 해를 끼칠(harm) 수 있다는 내용으로 적절하다.",
+      "issue": "'the public as well as all individuals involved'(B as well as A)를 '대중과 관련된 모든 개인들'로 옮겨, 한국어로는 '대중에 관련된 개인들'로 읽힌다. 구조를 잘못 전달하며, 학습 FINAL 문장 14의 자연 해석('관련된 모든 개인뿐만 아니라 대중에게도')과 구조 힌트('B as well as A — A뿐만 아니라 B도')와도 어긋난다.",
+      "proposal": "가짜 뉴스가 관련된 모든 개인뿐만 아니라 대중에게도 심각한 해를 끼칠(harm) 수 있다는 내용으로 적절하다.",
+      "severity": "확정오류"
+    },
+    {
+      "id": "M-02",
+      "question_id": "Q07",
+      "field": "explanations.wrong_reasons[①③④⑤]",
+      "current": "① ① 앞에는 가짜 뉴스에 속지 않는 방법을 묻는 질문만 있어 …  / ③ ③ 앞에서 이미 So로 결론(…)을 내렸으므로 … / ④ ④는 둘째 방법(…)과 그 설명(…) 사이라 … / ⑤ ⑤ 앞뒤는 비판적 사고로 …",
+      "issue": "오답 이유 본문이 위치 번호로 시작해, QC_HANDOFF WRONG_ANALYSIS와 해설 출력에서 '① ① 앞에는'처럼 번호가 두 번 찍힌다. 같은 본문 번호형인 Q12·Q09·Q14·Q19의 오답 이유는 번호 없이 시작한다. 내용 오류는 아니다.",
+      "proposal": "본문 첫머리의 번호를 '이 위치'로 바꾼다: ① '이 위치 앞에는 가짜 뉴스에 속지 않는 방법을 묻는 질문만 있어 They가 가리킬 헤드라인이 아직 나오지 않았다.' ③ '이 위치 앞에서 이미 So로 결론(헤드라인만 읽지 말고 본문을 읽어라)을 내렸으므로 그 이유가 결론 뒤에 오게 되고, 뒤는 둘째 방법(Second)으로 넘어간다.' ④ '이 위치는 둘째 방법(뉴스를 곧이곧대로 읽지 말 것)과 그 설명(비판적 사고 기술을 발휘할 것) 사이라, 헤드라인을 가리키는 They가 들어갈 자리가 아니다.' ⑤ '이 위치 앞뒤는 비판적 사고로 뉴스를 판단하고 읽은 것을 분석·평가하라는 내용이라 클릭을 끄는 헤드라인 이야기가 이어질 수 없다.'",
+      "severity": "검토제안"
+    },
+    {
+      "id": "M-03",
+      "question_id": "Q01",
+      "field": "questions.learned_relation_uses[u1-r3a, u1-r1a].reason_ko",
+      "current": "u1-r3a: 'intentionally(일부러)의 뜻을 알아야 지나가 뉴스를 일부러 확인했다는 말이 본문과 어긋남을 판단할 수 있음' / u1-r1a: 'unknown(알려지지 않은) 제작자가 참된 이야기를 좋아한다는 말은 본문에 없음을 판단해야 함'",
+      "issue": "u1-r3a는 선지 ①을 '지나가 일부러 확인했다'로 설명하지만, 실제 선지는 '공유 전에 일부러 뉴스를 확인하는 사람들을 칭찬하는 것'이다. u1-r1a는 '본문에 없음'이라고 하지만 해설 오답 이유 ③은 '반대 내용이다'라고 해서 두 설명이 다르다(본문은 제작자들이 자극적인 거짓 이야기를 만들었다고 함). 학생용이 아닌 검수 메타데이터지만 학습 어휘 대응 검수의 근거로 쓰인다.",
+      "proposal": "u1-r3a: 'intentionally(일부러)의 뜻을 알아야, 공유 전에 일부러 뉴스를 확인하는 사람들을 칭찬한다는 말이 확인 없이 곧바로 공유한 지나의 이야기와 어긋남을 판단할 수 있음' / u1-r1a: 'unknown(알려지지 않은)의 뜻을 알아도, 콘텐츠 제작자들이 참된 이야기를 선호한다는 말은 관심과 돈을 위해 자극적인 거짓 이야기를 만들었다는 본문과 반대임을 판단해야 함'",
+      "severity": "검토제안"
+    },
+    {
+      "id": "M-04",
+      "question_id": "Q03",
+      "field": "explanations.choices_ko[③]",
+      "current": "사람들이 자극적인 정보를 무시하는 법을 배우는 방법",
+      "issue": "'How People Learn to Disregard Stimulating Information'을 '…하는 법을 배우는 방법'으로 옮겨 '법/방법'이 겹쳐 어색하다. ①의 해석('왜 가짜 뉴스는 … 퍼지는가')과 형식도 맞지 않는다. 의미 오류는 아니다.",
+      "proposal": "사람들은 어떻게 자극적인 정보를 무시하게 되는가",
+      "severity": "검토제안"
+    }
+  ],
+  "checked_without_error": [
+    "정답: questions.answer, explanations.answer, quick_key, QC_HANDOFF ANSWER가 19문항 모두 일치한다.",
+    "선지: 비교 패킷의 questions.choices와 explanations.choices, 학생용 블록, QC_HANDOFF CHOICES가 일치한다. Q18 새 문구 ①과 CHOICES_KR ①도 맞다.",
+    "정답 근거: 모든 EVIDENCE 조각('/'와 '…'로 나뉜 인용)이 원문 발췌에 그대로 있다. 원문 발췌 47문장은 교과서 PDF 본문과 단어 단위로 일치한다(Ambon 문장은 PDF 2단 배열 때문에 줄이 나뉘었을 뿐 내용이 같음).",
+    "가공 복원: Q07 삽입, Q09·Q14·Q19 어휘 교체 1곳(trust/support/pleased), Q11 빈칸, Q12 추가 문장, Q06·Q17 정답 배열 모두 원문이 복원된다.",
+    "오답 이유: 5지선다 전 문항에 정답을 뺀 네 선지의 배제 근거가 있다. 순서·삽입(Q06·Q07·Q17)은 다섯 배열·위치를 모두 대입해 해설의 배제 근거가 타당함을 확인했다.",
+    "learned_relation_uses: Q01~Q04의 term_id가 FINAL 유의어·반의어 세트와 맞고(u1 famous/criticize/accidentally, u2 deliberate/inaccurate/common, u3 significantly/ignore/negative, u4 reliable/valid/objectively), choice_span이 가리키는 문자열이 모두 surface와 같다.",
+    "워크북 WB01~WB04: 오늘의 낱말 8개는 FINAL ★ 각주와 같고 정답 뜻도 맞다. 유의어·반의어 9개는 확정 3세트와 같다. 구문 결합 연습 수(5/3/3/3)가 FINAL '구문으로 해석하기' 항목과 1:1로 대응하고 답안도 일치한다. 핵심 문장 2개와 해석은 FINAL 핵심 문장·자연 해석과 같다. 학생용 1·2·3·5번에 금지 힌트가 없다.",
+    "회차 구성: 3회 모두 마지막 두 문항이 공유 장문(제목+어휘)이다. 같은 회차 안에서 지문 문장이 겹치거나 다른 문항에서 정답 단서가 나오는 경우는 없다(mock3: Q15 31~47, Q16 20~30, Q17 15~19, Q18·Q19 1~14)."
+  ]
+}
