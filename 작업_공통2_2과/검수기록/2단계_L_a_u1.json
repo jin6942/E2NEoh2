@@ -1,0 +1,139 @@
+{
+  "reviewer": "L-a",
+  "scope": {
+    "unit_ids": ["u1"],
+    "sentence_ids": ["s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", "s09", "s10", "s11", "s12", "s13", "s14", "s15", "s16", "s17"]
+  },
+  "inputs_checked": [
+    "공통영어2_YBM(박준언)_UNIT02_QC_HANDOFF.txt 1~8행(머리), 9~335행(u1 문장 1~17 전체와 분석 단위 u1 전체)",
+    "검수입력/L_u1.json selected_data 전체: metadata, units[u1](paragraph_ids p01~p08, sentence_ids, today_words 8개, analysis의 제목·의도·흐름·쉬운 풀이·grammar_points 3개와 practice·formula_routes·relations), sentences s01~s17(chunks, natural_ko, clauses, sv_review, glosses, lexical_coverage, hints의 display_pairs·emphasis_links·pronoun_refs, reading_checks). context.sources의 원문 문자열은 문장 위치 대조에만 사용",
+    "hints의 emphasis_links·pronoun_refs 위치는 display 문자열 기준 [start,end)로 직접 계산해 실제 강조 글자를 확인함(s06·s07×2·s09·s10·s12·s15·s16)",
+    "권위 원문 PDF (2022개정)2025년_공통영어2_YBM(박준언)_2과_본문_(20251205수정).pdf 1~3쪽 텍스트를 pypdfium2로 추출: 1쪽 왼쪽 단의 s01~s17 영어 17문장이 원고 text와 글자 단위로 일치함을 확인, 오른쪽 단 한국어 해석은 뜻 확인 참고로만 사용",
+    "s17 sv_review의 source_text_sha256·context_text_sha256(s16)을 실제 원문 UTF-8 SHA-256으로 재계산해 일치 확인"
+  ],
+  "rules_read": [
+    "스킬수정본/gyogwaseo-unified/SKILL.md",
+    "references/editorial-core.md",
+    "references/analysis-content.md (끊어읽기, S/V, 구조 힌트, 대명사 참조, 문법 대응 강조, 직역·자연 해석, 공통 학습 단위별 지문분석, 각 문장 쉬운 풀이와 체크리스트)",
+    "references/gloss-rules.md",
+    "references/grammar-labels.md",
+    "references/preposition-meanings.md",
+    "references/proper-nouns.md",
+    "references/common-errors.md",
+    "references/approved-exceptions.md (맨 끝 ‘공통영어2 YBM(박준언) 2과의 동사 없는 짧은 문장’ 절 포함)",
+    "references/manuscript-data.md ‘문장 주석’, ‘구조 힌트의 대명사 참조’, ‘공통 단위’, ‘분석·워크북 구문 결합 연습 계약’ 절"
+  ],
+  "findings": [
+    {
+      "id": "La-01",
+      "sentence_id": "s07",
+      "field": "끊어읽기",
+      "current": "영어 청크 3·4: ever since people got tired / of hearing the word “drought.” ↔ 사람들이 싫증이 난 이후로 줄곧 / ‘가뭄’이라는 단어를 듣는 것에. 같은 문장의 각주 s07-g09는 got·tired·of를 한 숙어 ‘get tired of — ~에 싫증이 나다’로 묶음(reading_checks.protected_spans는 빈 배열).",
+      "problem": "각주에서 한 덩어리로 가르친 숙어 get tired of를 청크 경계(tired와 of 사이, 위치 80)에서 가름. analysis-content.md ‘끊어읽기’(숙어·구동사·고정 표현은 가르지 않는다), gloss-rules.md ‘숙어·구문과 전치사’(묶은 숙어는 끊어읽기에서도 가르지 않는다), common-errors.md 9번 위반. of의 대표 뜻(~의)으로는 ‘~에 싫증이 나다’가 나오지 않으므로 각주를 get tired / of로 쪼개는 방식으로는 해결할 수 없음.",
+      "proposed_fix": "청크 3·4를 합쳐 영어 3청크로 만든다: This is / what the media has been calling the drought / ever since people got tired of hearing the word “drought.” ↔ 이것은 / 언론이 가뭄을 계속 불러 온 것이다(La-03 반영 시 그 문구) / 사람들이 ‘가뭄’이라는 단어를 듣는 것에 싫증이 난 이후로 줄곧. 합친 청크는 10낱말이지만 숙어·동명사 목적어 사이에 적절한 경계가 없으므로 U49에 따라 유지 가능. reading_checks.protected_spans에 {span:[70,82], kind:\"fixed-expression\", gloss_id:\"s07-g09\", reason:\"get tired of 숙어\"}를 기록. 구조 힌트 [ever since people got tired]의 표시 범위와 자연 해석은 그대로 둬도 됨.",
+      "severity": "error"
+    },
+    {
+      "id": "La-02",
+      "sentence_id": "s16",
+      "field": "각주",
+      "current": "s16-g06: in — ~에 (서 있는)",
+      "problem": "기능어 뜻의 선택 가능한 부분을 괄호에 남긴 표기. gloss-rules.md ‘기본 형식과 순서’(전치사·접속사 등 기능어 뜻은 그 문맥의 한 뜻으로 정하며 `from — ~에서 (온)`처럼 고를 뜻을 괄호에 남기지 않는다)와 같은 파일 ‘금지와 검수’ 8번 위반. 청크는 이미 ‘계산대 줄에 서 있는’으로 뜻을 정했음.",
+      "proposed_fix": "in — ~에 서 있는 (청크 ‘계산대 줄에 서 있는’과 일치). 괄호 없이 한 뜻으로 적는다.",
+      "severity": "error"
+    },
+    {
+      "id": "La-03",
+      "sentence_id": "s07",
+      "field": "한국어 청크·구문으로 해석하기(practice 답)",
+      "current": "청크 2: what the media has been calling the drought ↔ 언론이 가뭄을 계속 불러 온 것이다 / u1-gp2 practice.answer_ko: 언론이 가뭄을 계속 불러 온 것",
+      "problem": "call A B(A를 B라고 부르다)에서 what이 B 자리인데 ‘가뭄을 계속 불러 온 것’에는 ‘B라고/이름’ 관계가 드러나지 않아, 학생이 ‘가뭄을 불러오다(초래하다)’로 잘못 읽을 수 있다. 각주 s07-g05(A를 B라고 (계속) 불러 오고 있다)와 분석 설명(‘것(이름)’)은 명명 관계를 밝히는데 청크와 연습 정답만 이를 흐림. analysis-content.md ‘직역과 자연 해석’(직역은 서술 관계·지시 대상 보존) 기준에서 더 정확한 직역이 가능함. 자연 해석(…불러 온 이름이다)과 구조 힌트([언론이 계속 불러 온 것], A 제외)는 문제없음.",
+      "proposed_fix": "청크 2 → ‘언론이 가뭄을 가리켜 계속 불러 온 것이다’ 또는 ‘언론이 가뭄을 계속 불러 온 이름이다’. practice.answer_ko → ‘언론이 가뭄을 가리켜 계속 불러 온 것(이름)’처럼 같은 방식으로 맞춘다. 영어 청크·각주·힌트는 그대로.",
+      "severity": "improve"
+    },
+    {
+      "id": "La-04",
+      "sentence_id": "s07, s12",
+      "field": "구조 힌트(emphasis_links)",
+      "current": "s07 힌트2 [사람들이 싫증이 난 이후로 줄곧]: ever since ↔ ‘이’[4,5] + ‘이후로 줄곧’[12,18] (‘난’ 제외). s12 [우리[Alyssa 일행]가 들어설 때]: As ↔ ‘가’[14,15] + ‘때’[20,21] (‘설’ 제외). 반면 같은 단위 s07 힌트1은 what ↔ ‘온 것’[11,14]처럼 관형 어미가 든 음절 ‘온’을 포함.",
+      "problem": "공식 뜻 ‘S′(이/가) V′한 이후로 줄곧’, ‘S′(이/가) V′할 때’의 연결 어미 -ㄴ/-ㄹ이 어간과 한 음절(난·설)로 결합해 있는데 그 음절을 빼고 뒤 명사만 강조함. analysis-content.md ‘영어·한국어의 문법 대응 강조’(고정어와 자리 어미를 모두 표시, 어간과 어미가 한 음절에 결합하면 필요한 최소 음절을 고른다)에 비추어 불완전하고, 같은 단위의 ‘온 것’ 처리와도 어긋남.",
+      "proposed_fix": "s07 힌트2 ko_spans → [[4,5],[10,18]] (‘이’ + ‘난 이후로 줄곧’). s12 ko_spans → [[14,15],[18,21]] (‘가’ + ‘설 때’). 영어 쪽과 문구는 그대로.",
+      "severity": "improve"
+    },
+    {
+      "id": "La-05",
+      "sentence_id": "s06",
+      "field": "각주",
+      "current": "s06-g07: anchor — (뉴스) 앵커, 진행자",
+      "problem": "anchor의 흔한 뜻은 ‘닻’으로, 본문 뜻(뉴스 앵커)과 다르다. editorial-core.md·gloss-rules.md의 다의어 규칙(본문 뜻을 먼저, 흔한 뜻을 뒤에 `(흔한 뜻: …)`으로 함께 제공)을 적용하면 흔한 뜻 병기가 필요함. 같은 단위의 tap·make·stage에는 이미 적용됨.",
+      "proposed_fix": "anchor — (뉴스) 앵커, 진행자 (흔한 뜻: 닻)",
+      "severity": "improve"
+    },
+    {
+      "id": "La-06",
+      "sentence_id": "s06",
+      "field": "각주 ★·오늘의 낱말",
+      "current": "s06-g11: flow crisis — 물 공급 위기 (★ 없음). 오늘의 낱말 u1-w2 crisis(위기)는 s08-g02에만 ★.",
+      "problem": "같은 단위의 s06에 오늘의 낱말 crisis가 같은 뜻(위기)으로 먼저 나오는데 대응 각주에 ★가 없다. editorial-core.md·gloss-rules.md ‘각주 ★’(같은 단위의 반복 출현에도 대응 항목에 ★ 표시), manuscript-data.md(★ 반복 표시는 의미가 같은 오늘의 낱말의 모든 등장과 대조)에 비추어 누락으로 볼 수 있음. 다만 합성 표현 각주 안에 든 경우라 규칙이 직접 정하지 않은 면이 있음.",
+      "proposed_fix": "s06-g11에 star:true, today_word_id:\"u1-w2\"를 연결한다(각주 뜻·범위는 그대로). 합성 표현에는 ★를 붙이지 않는 것으로 정한다면 그 이유를 s06 reading_checks.review_record에 남긴다.",
+      "severity": "improve"
+    },
+    {
+      "id": "La-07",
+      "sentence_id": "s17",
+      "field": "자연 해석",
+      "current": "삶에 꼭 필요한 필수품들이다.",
+      "problem": "‘꼭 필요한’과 ‘필수품’이 같은 뜻을 되풀이하는 중복 표현이라 자연 해석으로 어색함(교과서 해석: ‘생명의 필수품.’). 뜻의 오류는 아님.",
+      "proposed_fix": "‘삶에 꼭 필요한 것들이다.’ 또는 ‘삶의 필수품들이다.’",
+      "severity": "improve"
+    },
+    {
+      "id": "La-08",
+      "sentence_id": "u1-analysis",
+      "field": "글의 의도",
+      "current": "오랜 가뭄으로 마침내 수돗물까지 끊기자 Alyssa 가족이 물을 구하러 쇼핑몰로 가는 장면이다. 사람들이 물건 대신 생수만 찾는 모습으로 물이 생명의 필수품이 된 위기 상황을 보여 준다.",
+      "problem": "① ‘생수만 찾는’은 원문 s16 ‘mostly water bottles(대부분 생수병)’보다 강한 단정이다(글의 흐름은 ‘대부분 생수’로 바르게 씀). ② 쇼핑몰에 가는 사람은 Basil 삼촌·Alyssa·Garrett(s10~s12)이고 엄마는 가지 않으므로 ‘Alyssa 가족이’는 범위가 부정확함. analysis-content.md ‘공통 학습 단위별 지문분석’(의도/요지)과 흐름·원문 일치 기준.",
+      "proposed_fix": "‘오랜 가뭄으로 마침내 수돗물까지 끊기자 Alyssa와 남동생이 삼촌과 함께 물을 구하러 쇼핑몰로 가는 장면이다. 사람들이 전자 제품 대신 주로 생수를 찾는 모습으로 물이 생명의 필수품이 된 위기 상황을 보여 준다.’",
+      "severity": "improve"
+    },
+    {
+      "id": "La-09",
+      "sentence_id": "u1-analysis",
+      "field": "쉬운 풀이(7번 문장)",
+      "current": "가뭄이 너무 오래 이어져서 사람들은 ‘가뭄’이라는 말을 듣는 데 지쳐 버렸다.",
+      "problem": "원문은 사람들이 ‘가뭄’이라는 말을 듣는 데 싫증이 났다는 것만 말하고 그 원인(가뭄이 너무 오래 이어짐)은 밝히지 않는다. analysis-content.md ‘쉬운 풀이 검수 체크리스트’(원문에 없는 내용·인과가 없는가)에 걸림. 원문에 더 가까운 표현으로 같은 이해를 줄 수 있음.",
+      "proposed_fix": "‘사람들은 ‘가뭄’이라는 말을 너무 자주 들어서 이제 그 말을 듣는 것에 지쳐 버렸다.’ 등 원문의 ‘듣는 것에 싫증’에 기대는 표현으로 바꾼다(다음 문장 ‘그래서 언론은 …’은 그대로 연결 가능).",
+      "severity": "improve"
+    },
+    {
+      "id": "La-10",
+      "sentence_id": "u1-analysis",
+      "field": "쉬운 풀이(15번 문장)",
+      "current": "오늘 매장은 그날처럼 붐비지만 사람들이 찾는 것은 텔레비전이나 게임기가 아니다.",
+      "problem": "원문 video games는 ‘비디오 게임’이고 ‘게임기’(게임 기기)는 다른 대상이다. 같은 문장의 각주(video games — 비디오 게임들)·청크·자연 해석(텔레비전이나 비디오 게임)과도 어긋남. analysis-content.md 체크리스트(원문과 다른 내용 금지)·editorial-core.md(모든 자료에서 지시 대상 일치).",
+      "proposed_fix": "‘오늘 매장은 그날처럼 붐비지만 사람들이 찾는 것은 텔레비전이나 비디오 게임이 아니다.’",
+      "severity": "improve"
+    }
+  ],
+  "user_report_items": [
+    {
+      "topic": "고유명사 각주의 한국어 표기(s05 Alyssa, s11 Garrett, s10 Uncle Basil — 과 전체 인명에 영향)",
+      "detail": "현재 ‘Alyssa — Alyssa (이 이야기를 들려주는 소녀)’, ‘Garrett — Garrett (Alyssa의 남동생)’처럼 뜻 칸에 영어 이름을 되풀이한다. proper-nouns.md는 ‘한국어 음차·번역명 또는 짧은 설명’을 허용하면서 표기 예시는 모두 한국어 음차(몬트리올 등)이고 ‘확인되지 않는 부연은 넣지 않고 음차만 제공’을 기본으로 둔다. 한편 교과서 해석(PDF 오른쪽 단)과 원고의 한국어 청크·자연 해석은 인명을 영어 그대로(Alyssa, Basil 삼촌) 쓴다. 현행은 ‘짧은 설명’ 조건은 충족하지만 발음 지원이 없다.",
+      "options": "A) 현행 유지(교과서 한국어 표기와 일치). B) 각주 뜻에만 음차를 넣음: ‘Alyssa — 앨리사 (이 이야기를 들려주는 소녀)’, ‘Garrett — 개럿 (Alyssa의 남동생)’, ‘Uncle Basil — 바질 삼촌’. 청크·해석은 영어 이름 그대로 둠.",
+      "recommendation": "B(학생의 발음 지원). 단, 청크 표기와 달라지는 점을 받아들일지는 사용자 결정."
+    },
+    {
+      "topic": "s10 인용 뒤 도치 힌트의 대응 강조 대상",
+      "detail": "[says Uncle Basil] → [Basil 삼촌이 말한다] (인용 뒤 동사·주어 도치)에서 says ↔ 말한다(동사 낱말 뜻 전체)를 강조한다. 규칙은 도치 힌트의 대응 강조 대상을 따로 정하지 않았고, analysis-content.md는 ‘명사·내용어 전체를 자동 강조하지 않는다’고 한다. 제작 설명은 ‘영어2 YBM 2과 FR s16 선례’를 근거로 드는데, 이 검수 범위에서는 그 선례를 확인할 수 없다. S/V 줄이 이미 S: Uncle Basil, V: says를 보여 주므로 힌트의 필요성도 판단 대상이다.",
+      "options": "A) 선례대로 says ↔ 말한다 유지. B) 도치 힌트를 빼고 S/V로 충분하다고 기록. C) 도치 힌트 강조 기준을 따로 정함.",
+      "recommendation": "선례가 승인된 기준이면 A 유지. 확정된 선례가 아니면 사용자 확인을 권함."
+    },
+    {
+      "topic": "s15 강조구문의 생략 that을 omitted-relative로 표시",
+      "detail": "it’s not televisions and video games [(that) people are after] → [사람들이 찾는] 것은 텔레비전과 비디오 게임이 아니다 (강조구문의 관계사 that 생략). 규칙에는 강조구문 전용 생략 모드가 없어 omitted-relative를 썼고, 이 모드는 이름표에 ‘관계’와 ‘생략’이 들어가야 하므로 ‘강조구문의 관계사 that’이라는 이름표가 되었다. 영어 문법에서 it-cleft의 that절을 관계절로 보는 설명(Cambridge)이 있어 문법적으로는 방어 가능하다. 다만 학교 문법에서는 흔히 ‘강조구문의 that’이라고만 부른다.",
+      "options": "A) 현행 유지. B) 전용 모드나 이름표 기준을 새로 정함.",
+      "recommendation": "A 유지(강조 위치 that ↔ 사람들‘이’·찾‘는’도 규칙상 적합). 기록 차원의 보고."
+    }
+  ],
+  "checked_ok_summary": "원문: s01~s17 영어 17문장이 PDF 1쪽 왼쪽 단과 철자·곡선 따옴표·아포스트로피·대시·구두점까지 일치한다. 문장 경계(s13/s14를 인용 속 마침표에서 나눔)와 단락 p01~p08 구성도 원문과 맞는다. 모든 문장에서 청크를 다시 붙이면 원문이 되고, 영어·한국어 청크 수가 같다. 끊어읽기: 후치수식 경계 s09(out of), s15(at its worst), s16(in the checkout line), s17(of life)가 required_breaks로 기록되어 지켜진다. 숙어는 s07 got tired of(La-01)를 빼고 청크 안에서 갈라지지 않는다(shout out, come out, go silent, jump in, pull into, go in, be after, it’s like, at its worst, has been calling, ever since, running water 등). 수동 by·가주어는 해당 문장이 없고, s15 강조구문은 가주어로 오인하지 않았다. S/V: 모든 절을 빠짐없이 원문 시작 순서대로 적었다. 확인한 표기는 V: spits and goes(병렬 and 포함), s04의 is coming(not 제외), s07의 [what] S′/V′·[ever since], s12 문두 부사절 먼저, s13 명시 주어 명령문 S: You two, s14 ’ll meet, s15의 ’s(is, has 병기 없음)·[but]·[(that)] S′: people, V′: are, s16 명사절 주어 전체 유지와 주절 먼저다. s17은 verbless-fragment로 S/V·안내문이 생략되었고 해시·문맥 연결(s16)도 일치한다(사용자 결정대로). 각주: 관사 외 중1 이상 낱말을 모두 제공했고 lexical_coverage 예외(관사, and/but, 단독 you, Uncle Basil 반복)가 타당하다. 3인칭 단수 원형 표제어(make, cough, spit, go silent, say×3)가 맞다. 진행 be V-ing·can V·V-ing는 기능/원형으로 분리했고, 완료진행 has been calling A B는 한 각주로 유지했다. 필수 대명사 our·its에 지시 대상이 있고 it/she/we/I/this의 지시 대상도 문맥과 맞는다. 다의어 tap·make·stage에 흔한 뜻을 병기했다. 전치사 into·about·to·of·in(~ 안에서)·out of(~에서 나오는)의 문맥 뜻이 맞다. 고유명사(Alyssa, Uncle Basil, Garrett, Black Friday)는 첫 등장에 제공했고 금지 문법 라벨은 없다. 각주 뜻을 문장에 대입해도 성립한다(La-02·La-05 제외). 구조 힌트: 필수 관계사 힌트(s06 where, s07 what, s15 생략 that, s16 What)와 접속사 힌트(s07 ever since, s12 as)가 모두 있다. 표시 범위는 연결어+S′·V′에서 끝나고 목적어·전치사 대상은 제외했으며, 선행사 the TV와 강조 틀을 유지했다. 문장당 2개 이하·한 초점이다. 영한 대괄호 대응과 직역, 이름표 1회, pronoun_refs(s12 우리[Alyssa 일행], s16 내[Alyssa]) 위치·조사, 강조 위치(where↔그리고 거기에서+가, what↔이+온 것/가+는 것, out of↔에서 나오는, 생략 that↔이+는)를 실제 글자로 확인했다. 힌트 없는 문장(s01~s05, s08, s11, s13, s14, s17)에도 추가가 필요한 어려운 연결은 없다. 해석: 한국어 청크와 자연 해석의 주체·시제·부정(s04, s09, s15)·양태(s12 can, s14 will)·수·지시 대상이 원문과 교과서 해석에 맞는다(La-03·La-07 제외). 분석: 제목(The Day the Tap Went Silent)이 적절하다. 흐름 4단계는 s01~s17을 순서대로 한 번씩 포함한다. 쉬운 풀이는 원문 3문장(s02, s07, s15)을 원문 순서로 골랐고, 앞 문맥·역할 연결, 한 문장 한 내용, 대명사 명확성, 중학생 문체를 지켰다(La-09·La-10 제외). 구문으로 해석하기 3개는 각각 한 초점이고 공식→자리별 원문·뜻 대입→결합 해석 순서를 따른다. practice의 범위·formula_support·support_gloss_ids(주초점 각주 중복 없음)·정답이 맞다(La-03 문구 제외). 수동·능동 완료 기능 각주가 없으므로 formula_routes [] 이 맞다. 유반 3세트(strange/odd/normal, silent/quiet/noisy, essentials/necessities/luxuries)는 품사·문맥 치환·관계가 타당하다. 오늘의 낱말 8개와 ★ 연결(tap 2회, drought 2회 포함)이 맞다(La-06 제외). 핵심 문장 2개(s07, s15)의 선정이 적절하다."
+}

@@ -102,7 +102,7 @@ def sentences(T):
     s.g('Even', 'even', '~조차, 심지어')
     s.g('that', 'that', '그')
     s.g('politeness', 'politeness', '공손함, 예의 바름', star=W['politeness'])
-    f = s.g('is', 'be p.p.', '~되다', kind='function', combines_with=[])
+    f = s.g('is', 'be p.p.', '~되어 있다', kind='function', combines_with=[])
     st = s.g('stretched', 'stretched', '늘어난, 팽팽하게 당겨진', verb_form=pp('passive-participle', s, 'stretched', 'stretch', f['id']))
     link(f, st)
     s.g('thin', 'thin', '얇게')
@@ -316,8 +316,8 @@ def sentences(T):
 
     # ---------------- s29 ----------------
     s = S('s29', T['s29'])
-    s.ch('“I’m sorry,', '“미안하지만,')
-    s.ch('but we were here first,”', '우리가 여기에 먼저 있었어요,”')
+    s.ch('“I’m sorry,', '“미안해요,')
+    s.ch('but we were here first,”', '하지만 우리가 여기에 먼저 있었어요,”')
     s.ch('she says.', '그녀가 말한다.')
     s.natural('“미안하지만 우리가 먼저 왔어요.” 그 여자가 말한다.')
     im = s.at('I’m')
@@ -354,7 +354,7 @@ def sentences(T):
     s.g('I', 'I', '내가', referent_ko='Alyssa')
     s.g('recognize', 'recognize', '(누구인지) 알아보다')
     s.g('from', 'from', '~에서')
-    s.g('soccer', 'soccer', '축구 (여기서는 축구부)')
+    s.g('soccer', 'soccer', '축구부 (흔한 뜻: 축구)')
     s.g('Hali|Hartling', 'Hali Hartling', 'Hali Hartling (그 여자의 딸, Alyssa와 같은 축구부)', proper=True)
     s.hint('a girl [(that) I recognize]', '[내[Alyssa]가 알아보는] 한 소녀', span='a girl I recognize',
            label='목적격 관계대명사 that 생략', display_mode='omitted-relative', omitted_relative='that',
@@ -368,7 +368,7 @@ def sentences(T):
     # ---------------- s31 ----------------
     s = S('s31', T['s31'])
     s.ch('As her mother pulls their cart away,', '그녀의 엄마가 그들의 카트를 끌고 갈 때,')
-    s.ch('Hali leans closer to me.', 'Hali는 나에게 더 가까이 몸을 기울인다.')
+    s.ch('Hali leans closer to me.', 'Hali는 나 쪽으로 더 가까이 몸을 기울인다.')
     s.natural('엄마가 카트를 끌고 가자 Hali가 내 쪽으로 몸을 기울인다.')
     s.cl('subordinate', 'As', subj='her mother', verbs=['pulls'], marker='As')
     s.cl('main', 'Hali', subj='Hali', verbs=['leans'])
@@ -398,7 +398,7 @@ def sentences(T):
     # ---------------- s32 ----------------
     s = S('s32', T['s32'])
     s.ch('“I’m sorry about that, Alyssa.”', '“그 일에 대해 미안해, Alyssa.”')
-    s.natural('“미안해, Alyssa.”')
+    s.natural('“그 일은 미안해, Alyssa.”')
     im = s.at('I’m')
     s.cl_spans('main', im[0], subj=[im[0], im[0] + 1], verbs=[[im[0] + 1, im[1]]])
     s.g('I’m', 'I’m', '나는 ~이다 (= I am)', referent_ko='Hali')
@@ -425,7 +425,7 @@ def sentences(T):
                            'link_spans': [s.span_of('with')], 'review_record': 'share my water with you: A = my water, B = you.'})
     s.g('my', 'my', '나의', referent_ko='Alyssa')
     s.g('water', 'water', '물')
-    s.g('at', 'at', '~에, ~ 때')
+    s.g('at', 'at', '~ 때')
     s.g('practice', 'practice', '(축구) 연습')
     s.g('last|week', 'last week', '지난주')
     s.g('I', 'I', '나는', referent_ko='Alyssa', at=s.text.index('I point'))
@@ -439,7 +439,7 @@ def sentences(T):
     # ---------------- s34 ----------------
     s = S('s34', T['s34'])
     s.ch('“Maybe you could return the favor', '“아마 너는 그 호의를 갚을 수 있을 거야')
-    s.ch('and share a few bottles with me.”', '그리고 나와 몇 병을 나눌 (수 있을 거야).”')
+    s.ch('and share a few bottles with me.”', '그리고 나와 몇 병을 나눌 수 있을 거야.”')
     s.natural('“너도 그 호의를 갚는 셈 치고 나랑 물 몇 병 나눠 주면 좋겠어.”')
     s.cl('main', 'you', subj='you', verbs=['could', 'return', 'and', 'share'])
     s.g('Maybe', 'maybe', '아마, 어쩌면')
@@ -499,7 +499,7 @@ def sentences(T):
            meaning='그녀의 고개를 저으면서',
            explanation='shaking her head는 turns back과 동시에 일어나는 동작을 덧붙이는 분사구문. ing ↔ 면서.')
     s.relative_ids = [rel['id']]
-    s.review = ('주절 She looks back to her mother …, then turns back to me(한 주어 She의 두 동사 looks·turns를 then이 이어 줌 — then은 부사지만 두 동사를 잇는 연결 자리라 V 표시에 보존) '
+    s.review = ('주절 She looks back to her mother …, then turns back to me(한 주어 She의 두 동사 looks·turns를 then이 이어 줌 — then은 부사지만 and 없이 두 동사를 잇는 연결 자리라 V 표시에 보존 — 2026-09-28 사용자 승인 예외, approved-exceptions.md 기록) '
                 '+ 콤마 뒤 계속적 관계대명사 who절(who’s = who is, V′ ’s moving) + 분사구문 shaking her head. 힌트 2개(필수 관계사, 분사구문). 수동 없음.')
     out.append(s)
 
@@ -516,23 +516,23 @@ def sentences(T):
     s.g('she', 'she', '그녀는', referent_ko='Hali')
     s.g('gets', 'get', '(~한 상태가) 되다, ~해지다', verb_form=v3(s, 'gets', 'get', 'she'))
     s.g('a|little|bit', 'a little bit', '조금, 약간')
-    s.g('red|in|face', 'red in the face', '얼굴이 빨개진')
+    s.g('red|in|the|face', 'red in the face', '얼굴이 빨개진')
     s.g('turns', 'turn', '돌아서다', verb_form=v3(s, 'turns', 'turn', 'she'))
     f = s.g('to', 'to V', '~하기 위해', kind='function', combines_with=[])
     lv = s.g('leave', 'leave', '떠나다')
     link(f, lv)
     s.g('before', 'before S′ V′', 'S′(이/가) V′하기 전에')
-    s.g('it', 'it', '그것이', referent_ko='얼굴이 붉어진 것')
+    s.g('it', 'it', '그것이', referent_ko='얼굴의 붉은 기')
     s.g('becomes', 'become', '~이 되다', verb_form=v3(s, 'becomes', 'become', 'it'))
     s.g('deep', 'deep', '짙은, 깊은')
     s.g('flush', 'flush', '(얼굴의) 홍조, 붉어짐', star=W['flush'])
     s.hint('[to leave]', '[떠나기 위해]', span='to leave', label='목적의 to부정사',
            links=[(['to'], ['기 위해'])], meaning='떠나기 위해(자리를 뜨려고)',
            explanation='turns to leave에서 to leave는 돌아서는 목적(떠나려고).')
-    s.hint('[before it becomes a deep flush]', '[그것[붉어진 얼굴]이 짙은 홍조가 되기 전에]', span='before it becomes a deep flush',
-           label='시간 접속사 before', links=[(['before'], ['이', '기 전에'])], refs=[('it', '그것', '[붉어진 얼굴]')],
-           meaning='그것(붉어진 얼굴)이 짙은 홍조가 되기 전에',
-           explanation='before S′ V′: S′가 V′하기 전에. S′ it(얼굴이 붉어진 것), V′ becomes에 뜻을 잡는 최소 보어 a deep flush까지 표시(연결동사 become).')
+    s.hint('[before it becomes a deep flush]', '[그것[얼굴의 붉은 기]이 짙은 홍조가 되기 전에]', span='before it becomes a deep flush',
+           label='시간 접속사 before', links=[(['before'], ['이', '기 전에'])], refs=[('it', '그것', '[얼굴의 붉은 기]')],
+           meaning='그것(얼굴의 붉은 기)이 짙은 홍조가 되기 전에',
+           explanation='before S′ V′: S′가 V′하기 전에. S′ it(얼굴의 붉은 기), V′ becomes에 뜻을 잡는 최소 보어 a deep flush까지 표시(연결동사 become; 연결동사 최소 보어 표시는 2026-09-28 사용자 결정).')
     s.review = ('주절 she gets a little bit red in the face, and turns to leave(한 주어의 병렬 동사 gets·turns) + before절(it becomes a deep flush). '
                 'to leave는 목적. 힌트 2개(목적 to V, before절). 문두 And는 단독 각주 제외. 관계사·수동 없음.')
     out.append(s)
@@ -560,7 +560,7 @@ def analysis(_):
         'heading_kind': '제목',
         'title_or_topic_en': 'The Last Case of Water',
         'title_or_topic_ko': '마지막 생수 한 상자',
-        'intent_ko': '물이 귀해지자 겉으로는 공손하던 사람들 사이에 적대감이 드러나고, 먼저 생수를 가져간 사람도, 도움을 받았던 친구 Hali도 물을 나누지 않는 모습을 보여 준다.',
+        'intent_ko': '물이 귀해지자 사람들은 겉으로는 예의를 지키지만 속으로는 적대감을 품고, Alyssa가 찾은 생수를 마지막 순간에 가로챈 여자도, 도움을 받았던 친구 Hali도 물을 나누지 않는 모습을 보여 준다.',
         'flow': [
             {'sentence_ids': ['s18', 's19', 's20'], 'label': '매장 분위기',
              'text_ko': '줄을 선 사람들의 얼굴에는 조급함이 가득하고, 얇은 예의 뒤에 적대감이 숨어 있다. 그 예의조차 곧 무너질 듯하다.'},
@@ -581,12 +581,15 @@ def analysis(_):
                 '28번 문장은 27번에서 생수 상자를 가져간 여자가 그 상자를 어떻게 다루는지 보여 준다.',
                 '여자는 생수 상자를 카트 속 통조림 맨 위에 올려놓는다.',
                 '글쓴이는 이 모습을 왕관을 머리에 올린 것에 빗댔다.',
-                '물이 가장 귀한 보물이 되었고, 여자가 그것을 자랑스럽게 차지했다는 느낌을 준다.']},
+                '왕관은 가장 귀한 보물을 떠올리게 한다.',
+                '물이 그만큼 귀한 것이 되었다는 뜻이다.',
+                '여자는 그 보물을 손에 넣은 사람처럼 보인다.']},
             {'sentence_id': 's36', 'explanatory_sentences': [
                 '36번 문장은 35번에서 고개를 저은 Hali의 반응을 이어서 보여 준다.',
-                'Hali의 얼굴이 살짝 붉어진다.',
-                '예전에 물을 나눠 받았는데 이번에는 갚지 못해서 미안하고 부끄럽기 때문이다.',
-                'Hali는 얼굴이 새빨개지기 전에 서둘러 자리를 떠난다.']},
+                'Hali는 지난주에 Alyssa에게 물을 나눠 받았다.',
+                '그런데 이번에는 그 호의를 갚지 못하고 거절했다.',
+                '그래서 Hali는 미안하고 부끄러웠을 것이다.',
+                '얼굴이 새빨개지기 전에 Hali는 자리를 뜨려고 돌아선다.']},
         ],
         'grammar_points': [
             {'id': 'u2-gp1', 'sentence_id': 's21', 'span': 'I realize I am too late',
@@ -610,7 +613,7 @@ def analysis(_):
             {'id': 'u2-gp3', 'sentence_id': 's27', 'span': 'I reach for it, only to find it pulled away',
              'title': 'only to V: (그러나) 결국 ~할 뿐이다', 'formula_key': 'only to V',
              'explanation': '공식: 앞 동작, only to V — ~했지만 결국 V할 뿐이다. 앞 동작 = I reach for it(나는 그것을 향해 손을 뻗는다), V = find(발견하다), '
-                            'find A p.p. = A가 ~된 것을 발견하다, A = it(생수 한 상자), p.p. = pulled away(당겨져 간). '
+                            'find 뒤 내용 = it pulled away(그것이 당겨져 가 버린 것: it = 생수 한 상자, pulled away = 당겨져 가 버린). '
                             '→ 손을 뻗지만 결국 그것이 당겨져 가 버린 것을 발견할 뿐이다. 기대와 다른 결과가 이어짐을 보여 준다.',
              'practice': {'span': 'only to find it pulled away',
                           'formula_support': {'en': 'only to V', 'ko': '(그러나) 결국 ~할 뿐이다'},
@@ -623,7 +626,7 @@ def analysis(_):
         ],
         'relations': [
             {'head': {'id': 'u2-r1h', 'text': 'empty', 'meaning_ko': '비어 있는'},
-             'synonym': {'id': 'u2-r1s', 'text': 'vacant', 'meaning_ko': '비어 있는, 빈'},
+             'synonym': {'id': 'u2-r1s', 'text': 'bare', 'meaning_ko': '텅 빈, 아무것도 없는'},
              'antonym': {'id': 'u2-r1a', 'text': 'full', 'meaning_ko': '가득 찬'}},
             {'head': {'id': 'u2-r2h', 'text': 'precious', 'meaning_ko': '귀한, 귀중한'},
              'synonym': {'id': 'u2-r2s', 'text': 'valuable', 'meaning_ko': '귀중한, 값비싼'},

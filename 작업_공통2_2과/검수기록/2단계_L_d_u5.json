@@ -1,0 +1,213 @@
+{
+ "reviewer": "L-d",
+ "scope": {
+  "unit_ids": [
+   "u5"
+  ],
+  "sentence_ids": [
+   "s62",
+   "s63",
+   "s64",
+   "s65",
+   "s66",
+   "s67",
+   "s68",
+   "s69",
+   "s70",
+   "s71",
+   "s72",
+   "s73",
+   "s74"
+  ]
+ },
+ "inputs_checked": [
+  "공통영어2_YBM(박준언)_UNIT02_QC_HANDOFF.txt 1~8행(머리), 1212~1473행(u5 전체), 917~1210행(u4, 문맥 참고만)",
+  "검수입력/L_u5.json selected_data 전체(metadata, units[u5].analysis·today_words·formula_routes·relations, sentences s62~s74의 chunks·natural_ko·clauses·glosses·lexical_coverage·hints(display_pairs·emphasis_links·pronoun_refs)·reading_checks·sv_review) 및 context(sources 원문 offset, paragraphs p26~p32, grouping_resolutions)",
+  "권위 원문 PDF (2022개정)2025년_공통영어2_YBM(박준언)_2과_본문_(20251205수정).pdf 1~3쪽 pypdfium2 텍스트 추출 + 3쪽 이미지 렌더(단락 들여쓰기 확인), 오른쪽 단 교과서 해석 대조",
+  "공통영어2_YBM(박)_UNIT02_원고.json(읽기 전용): s10-g04 Uncle Basil 첫 각주 존재, 교재 전체의 then 연결 V 표시(s35·s70)와 오늘의 낱말 표기 관례 확인용",
+  "기계 대조(스크래치 스크립트): s62~s74 원문 = 원본 offset·PDF 공백정규화 문자열 완전 일치, 청크 재결합 = 원문, lexical_coverage = 낱말 등장 위치 전수, emphasis_links·pronoun_refs 실제 글자 계산, s69 sv_review SHA-256 두 값 재계산 일치"
+ ],
+ "rules_read": [
+  "SKILL.md",
+  "references/editorial-core.md",
+  "references/analysis-content.md(전체: 끊어읽기·S/V·구조 힌트·대명사 참조·문법 대응 강조·직역과 자연 해석·지문분석·각 문장 쉬운 풀이)",
+  "references/gloss-rules.md",
+  "references/grammar-labels.md",
+  "references/preposition-meanings.md",
+  "references/proper-nouns.md",
+  "references/common-errors.md",
+  "references/approved-exceptions.md(맨 끝 ‘공통영어2 YBM(박준언) 2과의 동사 없는 짧은 문장’ 절 포함)",
+  "references/manuscript-data.md ‘문장 주석’·‘구조 힌트의 대명사 참조’·‘공통 단위’·‘분석·워크북 구문 결합 연습 계약’ 절",
+  "references/workbook.md ‘1. 오늘의 낱말’·‘2. 유의어·반의어 뜻 쓰기’ 절(오늘의 낱말 표기 확인용)"
+ ],
+ "findings": [
+  {
+   "id": "Ld-01",
+   "sentence_id": "s74",
+   "field": "구조 힌트(강조 위치)",
+   "current": "[Provided that the factors contributing to water shortages worldwide are not addressed] → [전 세계적으로 물 부족의 원인이 되는 요인들이 해결되지 않는다면] / emphasis_links ko_spans [[17,18],[33,36]] → 실제 강조 글자 ‘원인이’의 ‘이’ + ‘는다면’",
+   "problem": "ko [17,18]은 참여구 수식어 안 ‘원인이 되는’의 보격 조사 ‘이’이며, 공식 provided that S′ V′의 S′(the factors)에 대응하는 주어 조사가 아니다. 실제 S′ ‘요인들이’의 ‘이’는 [25,26]이다. 무관한 조사를 강조하고 S′ 조사를 빠뜨려 영한 문법 대응이 틀렸다(analysis-content.md ‘영어·한국어의 문법 대응 강조’: 선정 공식 S′(이/가) 자리의 실제 주어 조사만 강조, 무관한 조사 자동 강조 금지; manuscript-data.md emphasis_links).",
+   "proposed_fix": "ko_spans를 [[25,26],[33,36]]로 교정(‘요인들이’의 ‘이’ + ‘는다면’). en_spans [[1,14]] ‘Provided that’은 유지.",
+   "severity": "error"
+  },
+  {
+   "id": "Ld-02",
+   "sentence_id": "s74",
+   "field": "각주",
+   "current": "★ addressed — (문제가) 해결된, 다뤄진",
+   "problem": "address는 학생에게 ‘주소’(명사)·‘연설하다’가 흔한 뜻인 대표적 다의어 함정인데 흔한 뜻 병기가 없다. 본문 뜻이 흔한 뜻과 다르면 본문 뜻 뒤에 흔한 뜻을 함께 제공해야 한다(editorial-core.md·gloss-rules.md ‘다의어’; 이 교재의 place — 놓다, 두다 (흔한 뜻: 장소)처럼 품사가 달라도 병기한 관례).",
+   "proposed_fix": "addressed — (문제가) 해결된, 다뤄진 (흔한 뜻: 주소)",
+   "severity": "error"
+  },
+  {
+   "id": "Ld-03",
+   "sentence_id": "u5-analysis",
+   "field": "오늘의 낱말",
+   "current": "u5-w8 text: address / meaning_ko: (문제를) 해결하다, 다루다 (source_gloss_id s74-g09 = 수동 p.p. addressed — (문제가) 해결된, 다뤄진)",
+   "problem": "본문은 수동 are not addressed이고 연결 각주도 실제 p.p. addressed이다. workbook.md ‘1. 오늘의 낱말’은 ‘수동·완료에서 선정된 p.p.와 독립 p.p.는 실제 형태·문맥 뜻을 유지한다(had struggled → struggled — 애썼다, struggle로 바꾸지 않음)’고 정한다. 원형·능동 뜻으로 바꾼 것은 규칙 위반이며 각주 ★ 뜻과도 어긋난다. (참고, 범위 밖: u3 pile ← piled — 쌓인도 같은 형태이므로 교재 전체 일관 처리가 필요)",
+   "proposed_fix": "u5-w8 text를 addressed, meaning_ko를 ‘(문제가) 해결된, 다뤄진’으로 변경(source_gloss_id s74-g09 유지). Ld-02 반영 시 오늘의 낱말 표기에는 흔한 뜻 괄호를 넣지 않음.",
+   "severity": "error"
+  },
+  {
+   "id": "Ld-04",
+   "sentence_id": "s74",
+   "field": "한국어 청크(직역 대응)",
+   "current": "영어 4·5조각 ‘including climate change, population growth, / and using too much water for agriculture,’ ↔ 한국어 ‘기후 변화, 인구 증가, / 그리고 농업을 위해 너무 많은 물을 사용하는 것을 포함하여,’",
+   "problem": "including의 뜻 ‘~을 포함하여’가 영어 4조각에 있는데 한국어 4조각에는 없고 5조각으로 넘어가 있다. 영어·한국어 끊어읽기는 같은 의미 단위를 같은 조각에 대응시켜야 한다(editorial-core.md ‘해석·S/V·각주·구조 힌트’, analysis-content.md ‘끊어읽기’). 같은 단위 s73이 ‘생활이 정상으로 돌아올 (때)’처럼 괄호 반복으로 대응을 지킨 방식과도 다르다.",
+   "proposed_fix": "한국어 4조각: ‘기후 변화, 인구 증가를 포함하여,’ / 5조각: ‘그리고 농업을 위해 너무 많은 물을 사용하는 것(을 포함하여),’ (영어 조각·자연 해석은 유지)",
+   "severity": "error"
+  },
+  {
+   "id": "Ld-05",
+   "sentence_id": "s65",
+   "field": "각주",
+   "current": "locked — 고정된, 꽉 붙잡힌",
+   "problem": "① ‘꽉 붙잡힌’은 손이 ‘붙잡히는’ 피동 뜻이라 문장에 대입하면 ‘그의 손이 손잡이에 꽉 붙잡혀 있다’가 되어 행위 관계가 뒤집힌다(손이 손잡이를 쥐고 있는 것이지 붙잡힌 것이 아님; 자연 해석도 ‘붙잡고 있는’). 뜻은 문장에 실제로 대입되어야 한다(gloss-rules.md ‘기본 형식과 순서’, common-errors.md 4·5). ② lock의 흔한 뜻 ‘잠그다(잠긴)’와 문맥 뜻 ‘고정된’이 다른데 흔한 뜻 병기가 없다(다의어 규칙).",
+   "proposed_fix": "locked — (꽉) 고정된 (흔한 뜻: 잠긴)  ※ gp4의 ‘locked(고정된, lock의 p.p.형)’과 연습 답은 그대로 맞음",
+   "severity": "error"
+  },
+  {
+   "id": "Ld-06",
+   "sentence_id": "s65",
+   "field": "각주",
+   "current": "it’s — 그것은 ~이다 (it’s = it is) (카트)",
+   "problem": "that S′ V′ — S′(이/가) V′라는 것 틀 안의 S′이므로 조사가 ‘이/가’여야 문장·청크(‘그것이 … 우리의 것이라는 것을’)에 그대로 대입된다(editorial-core.md·gloss-rules.md 대명사 격 일치; 같은 단위 s62 he — 그가와 불일치). 축약 병기 형식도 이 교재의 I’ll — … (= I will)과 다르다.",
+   "proposed_fix": "it’s — 그것이 ~이다 (= it is) (카트)",
+   "severity": "improve"
+  },
+  {
+   "id": "Ld-07",
+   "sentence_id": "s65",
+   "field": "각주",
+   "current": "… ours — 우리의 것 (Alyssa와 Garrett) / [and: standalone-and-but 제외] / not — ~이 아니라 / his — 그의 것 (정장 차림의 남자)",
+   "problem": "‘ours and not his’는 A and not B(B가 아니라 A)의 구문 틀인데 and를 일반 연결 and로 제외하고 not만 따로 풀었다. standalone-and-but 제외는 ‘상관어구를 누락하는 데 쓰지 않음’이 조건이며, 떨어진 상관어구는 A·B를 포함한 한 틀로 제공한다(manuscript-data.md 제외표, editorial-core.md·gloss-rules.md 상관어구). reading_checks에도 ‘A and not B’로 기록되어 있다.",
+   "proposed_fix": "not — ~이 아니라 대신 ‘A and not B — B가 아니라 A’ 한 각주로 and·not 위치를 함께 연결(lexical_coverage의 and도 이 각주 ID로 변경), ours·his 각주는 유지.",
+   "severity": "improve"
+  },
+  {
+   "id": "Ld-08",
+   "sentence_id": "s62",
+   "field": "자연 해석",
+   "current": "잠시 나는 그가 농담하는 줄 알았지만, 곧 그가 진지하다는 것을 깨닫는다.",
+   "problem": "원문은 역사적 현재(I think … but then realize)인데 앞 동사만 과거 ‘알았지만’으로 바뀌었다. 현재를 과거로 바꾸지 않는다(common-errors.md 5). 교과서 해석도 ‘생각하지만 … 깨닫는다’로 현재를 유지한다.",
+   "proposed_fix": "잠시 나는 그가 농담하는 거라고 생각하지만, 곧 그가 진지하다는 것을 깨닫는다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Ld-09",
+   "sentence_id": "s62",
+   "field": "각주(원문 위치 연결)",
+   "current": "for a moment — 잠시 동안 (spans: For, moment) / lexical_coverage의 a[4,5]는 below-middle1-unneeded ‘관사’ 제외",
+   "problem": "a는 숙어 for a moment의 구성 낱말인데 숙어 각주 범위에서 빠지고 단독 관사 제외로 처리됐다. 숙어 안 낱말은 그 숙어 각주가 덮는 위치에 연결한다(manuscript-data.md ‘제공한 낱말은 {span,gloss_id}로 연결 … 숙어 안 낱말도 그 숙어 각주가 실제로 덮는 위치에 연결’). 학생용 출력은 같지만 데이터 판정이 틀렸다.",
+   "proposed_fix": "s62-g01 spans를 [[0,3],[4,5],[6,12]]로, lexical_coverage a[4,5]를 gloss_id s62-g01로 변경.",
+   "severity": "improve"
+  },
+  {
+   "id": "Ld-10",
+   "sentence_id": "s70",
+   "field": "각주",
+   "current": "with — ~한 (얼굴)로",
+   "problem": "‘~한’은 bitter의 관형 어미이고 ‘(얼굴)’은 face의 뜻이라 with의 뜻에 다른 낱말 뜻이 섞였다. 대입하면 ‘씁쓸한 + 얼굴 + ~한 (얼굴)로’로 중복된다. 기능어 뜻은 그 문맥의 한 뜻으로 정한다(gloss-rules.md ‘기본 형식과 순서’, preposition-meanings.md 판단 순서 3).",
+   "proposed_fix": "with — ~로 (어떤 표정을 하고)  또는 간단히 with — ~로",
+   "severity": "improve"
+  },
+  {
+   "id": "Ld-11",
+   "sentence_id": "s70",
+   "field": "각주",
+   "current": "bitter — 씁쓸한, 억울해하는",
+   "problem": "bitter의 흔한 뜻은 ‘(맛이) 쓴’이고 이 문장 뜻은 ‘씁쓸한·억울해하는(표정)’으로 다르다. 다의어 규칙상 흔한 뜻 병기를 권장(이 교재 look — 표정, 얼굴빛 (흔한 뜻: 보다)과 같은 방식). ‘씁쓸한’이 일부 연결하므로 개선 사항.",
+   "proposed_fix": "bitter — 씁쓸한, 억울해하는 (흔한 뜻: (맛이) 쓴)",
+   "severity": "improve"
+  },
+  {
+   "id": "Ld-12",
+   "sentence_id": "s71",
+   "field": "각주(원문 위치 연결)",
+   "current": "the above — 위의 글, 위의 것 (spans: above만) / lexical_coverage의 The[1,4]는 ‘관사’ 제외",
+   "problem": "표제어가 the above인데 The 위치가 각주 범위 밖에서 관사 단독 제외로 처리됐다(Ld-09와 같은 숙어 위치 연결 문제).",
+   "proposed_fix": "s71-g01 spans를 [[1,4],[5,10]]로, lexical_coverage The[1,4]를 gloss_id s71-g01로 변경.",
+   "severity": "improve"
+  },
+  {
+   "id": "Ld-13",
+   "sentence_id": "s71",
+   "field": "reading_checks.review_record",
+   "current": "“… of 후치수식 두 곳 앞에서 끊음. shortened는 명사 앞 독립 p.p. 힌트 1개. …”",
+   "problem": "실제 힌트는 a shortened version [of the opening] → [도입부의] 줄인 판 (전치사구 후치수식)이며 shortened 독립 p.p. 힌트는 없다. 검토 기록이 실제 선정과 어긋난다(analysis-content.md ‘선정과 작성’: 선정·미선정 이유를 review_record·explanation에 정확히 남김). 학생용 출력 영향 없음.",
+   "proposed_fix": "“힌트 1개(of the opening 전치사구 후치수식, of ↔ 의). shortened는 독립 p.p. 각주(줄인, 축약된)로 지원.”으로 교정.",
+   "severity": "improve"
+  },
+  {
+   "id": "Ld-14",
+   "sentence_id": "u5-analysis",
+   "field": "각 문장 쉬운 풀이(65번)",
+   "current": "… 남자는 카트 손잡이를 꽉 붙잡고 있다. / 카트에는 이름표 같은 것이 없다. / 그래서 남자가 손을 떼지 않는 한 카트가 아이들 것이라고 증명할 방법이 없다. / 아이들이 힘으로도 말로도 얼음을 지키기 어려운 상황이다.",
+   "problem": "‘이름표 같은 것이 없다’, ‘힘으로도’는 원문에 없는 사실·추측이다(analysis-content.md 쉬운 풀이 7·8, 체크리스트 ‘원문에 없는 내용·인과’). 3번째 문장은 번역 반복에 가깝고, 이 문장의 핵심 논리(손잡이를 쥔 사람이 주인처럼 보인다)는 풀어 주지 않는다(쉬운 풀이 2).",
+   "proposed_fix": "예: “65번 문장은 64번에서 무서워진 Alyssa가 왜 겁이 나는지 보여 준다. / 남자는 카트 손잡이를 꽉 붙잡고 있다. / 카트를 붙잡고 있는 사람이 주인처럼 보이기 쉽다. / 카트가 아이들 것이라는 증거는 따로 없다. / 그래서 남자가 손잡이를 놓지 않는 한 아이들은 얼음이 담긴 카트를 지키기 어렵다.”",
+   "severity": "improve"
+  },
+  {
+   "id": "Ld-15",
+   "sentence_id": "u5-analysis",
+   "field": "제목",
+   "current": "Help Arrives, and a Warning (때맞춘 도움, 그리고 경고)",
+   "problem": "영어는 절(Help Arrives)+명사구가 섞여 있고, 한국어 ‘때맞춘 도움’은 영어에 없는 ‘때맞춘’을 더하고 ‘도착하다’를 뺐다. 제목은 같은 의미의 영어·한국어 한 쌍이어야 한다(analysis-content.md ‘공통 학습 단위별 지문분석’).",
+   "proposed_fix": "Timely Help and a Warning (때맞춘 도움, 그리고 경고)",
+   "severity": "improve"
+  },
+  {
+   "id": "Ld-16",
+   "sentence_id": "u5-analysis",
+   "field": "글의 의도",
+   "current": "Basil 삼촌이 제때 나타나 남자의 위협을 막아 내는 장면으로 이야기를 마무리한다. …",
+   "problem": "71번은 본문이 소설 ‘도입부’를 줄인 것이라고 밝히고, 73번은 소설 속 모험이 나중에 물 공급 재개로 끝난다고 한다. ‘이야기를 마무리한다’는 소설 이야기가 여기서 끝나는 것으로 오해하게 한다(원문보다 강한/다른 단정 방지).",
+   "proposed_fix": "“Basil 삼촌이 제때 나타나 남자가 얼음을 가져가지 못하고 떠나는 장면으로 소설 도입부 발췌가 끝난다. 이어서 작품 소개를 통해 물 부족의 원인이 해결되지 않으면 이 소설 속 가뭄이 현실이 될 수 있다고 경고한다.”",
+   "severity": "improve"
+  },
+  {
+   "id": "Ld-17",
+   "sentence_id": "u5-analysis",
+   "field": "구문으로 해석하기(u5-gp4)",
+   "current": "“… 손은 스스로 잠그는 것이 아니라 손잡이에 ‘고정된’ 상태라 수동을 쓴다. …”",
+   "problem": "각주·설명의 뜻은 ‘고정된’인데 설명에만 lock의 흔한 뜻 ‘잠그다’를 끌어와 대응이 흐려진다(‘잠그다’가 무엇을 잠근다는 것인지 불분명). 공식·낱말 뜻은 기존 승인 각주와 일치시킨다(analysis-content.md ‘배운 구문을 바로 연습’).",
+   "proposed_fix": "“… 주어 his hands가 무엇을 고정하는 것이 아니라 손잡이에 ‘고정된’ 상태이므로 수동(be p.p.)을 쓴다. …”",
+   "severity": "improve"
+  },
+  {
+   "id": "Ld-18",
+   "sentence_id": "u5-analysis",
+   "field": "유의어·반의어",
+   "current": "반의어: playful (장난스러운, 농담하는)",
+   "problem": "playful의 사전 뜻은 ‘장난스러운, 장난기 있는’이며 ‘농담하는’(joking)은 playful의 뜻으로 부정확하다. 이 뜻이 워크북 2번 정답으로 그대로 쓰인다(analysis-content.md 유반: 실제 품사·뜻 확인). 관계(serious ↔ playful) 자체는 타당.",
+   "proposed_fix": "playful (장난스러운, 장난기 있는)",
+   "severity": "improve"
+  }
+ ],
+ "user_report_items": [
+  "[s72 S/V의 have to] 현재 ‘[who] V′: has’(to make 제외, s54 need to → V: need와 같은 방식, U57 be able to 유추)이다. 규칙 문서에는 have to를 동사 칸에서 어떻게 처리할지 명시가 없고, 같은 단위 분석 gp2는 ‘V′ = has to make’, 구조 힌트는 ‘who has to make’로 표시한다. 검수자 추천: 현행 ‘V′: has’ 유지(교재 전체 need to와 일관). 반(半)조동사로 보아 ‘V′: has to make’로 바꾸려면 교재 전체 적용 여부를 결정해 주세요.",
+  "[s70 S/V의 then] ‘V: looks then leaves’는 부사 then을 병렬 동사 연결어로 동사 칸에 넣었다(범위 밖 s35도 같은 방식). manuscript-data.md·analysis-content.md는 연결어로 and·or·but만 명시하고 부사는 동사 칸에 넣지 않으며, 사용자 결정으로 not도 제외한다. then을 빼면 ‘looks leaves’로 공백 결합되어 오히려 읽기 어렵다. 검수자 추천: 접속사 없이 then이 두 동사를 잇는 경우에 한해 현행 유지(승인 예외로 기록). 결정해 주세요.",
+  "[s63 “Excuse me?”의 S/V] 현재 명령문 규칙으로 ‘V: Excuse’를 표시한다. s52에서는 인사 관용 표현 Thank you를 S/V에서 빼기로 결정했으나, s63은 문장 전체가 관용 표현이라 빼면 S/V 줄이 비고 승인된 verbless-fragment 목록(s17·s25·s53·s69) 밖의 새 예외가 필요하다. 검수자 추천: 현행 ‘V: Excuse’ 유지. 다른 뜻이 있으면 알려 주세요."
+ ],
+ "checked_ok_summary": "① 원문: s62~s74 13문장이 권위 PDF 3쪽 왼쪽 단·원본 offset과 문자 단위 일치(곡선 따옴표·’s·p32 첫 글자 *·『Dry』 뒤 (2018) 보존), 단락 p26(s62·s63)·p27(s64·s65)·p28·p29(s67·s68)·p30·p31·p32(s71~s74)를 페이지 이미지 들여쓰기로 확인, u5 = p26~p32 13문장이 사용자 결정과 일치. ② 끊어읽기: 모든 청크 재결합 = 원문, 영·한 조각 수 일치; 명사 후치 전치사구 앞 끊기(s65 of our cart, s71 of the opening·of the novel, s72 of a girl) 준수; 수동 by 없음; 숙어(for a moment, look at, just in time, be back to normal, as long as, too much, have to) 미분할; s74 가주어 it is possible that 미분할(8낱말 초과 청크지만 경계 없음, 허용); for agriculture는 use A for B 부사 용법으로 후치수식 아님 확인. ③ 직역·자연 해석: Ld-04·Ld-08 외 주체·시제·부정·양태·지시 대상·수 정확(s65 as long as 조건, s72 has to 의무, s73 when절 병렬, s74 possible+can 가능성 ‘될 수도 있다’ 보존, s67 It = 질문한 사람, s69 대답 화자 = 남자, 존댓말 일관). ④ S/V: 절 누락 없음, 원문 시작 순서 준수; s62 [(that)] 두 절·‘think but realize’(then 제외), s64 [but] 독립절, s65 there 비주어·S 표시 nothing 축약 기록·’s = is 병기 없음, s66 S: a problem, s72 주격 who V′만, s73 when절 안 [and] S′·V′, s74 V′: are addressed(not 제외, 사용자 규칙)·S′ 표시 the factors 축약 기록·가주어 S: it; s69 S/V·안내문 생략과 sv_review(kind verbless-fragment, 문맥 필드 s68, 이유에 실제 질문 s66, SHA-256 재계산 일치) 사용자 결정대로 적용. ⑤ 각주: 중1 이상 낱말 전수 제공(coverage 위치 전수 일치), 3인칭 단수 원형 표제어(look at·leave·tell·have to V·end·resume), 수동(be p.p. / locked, be not p.p. / addressed 실제 p.p.형), 능동 완료(have p.p. / arrive (arrived는 arrive의 p.p.형)), 독립 p.p.(shortened — 줄인, 축약된), -ing 기능/원형 분리(joking·smiling·contributing·using), to V — ~할(nothing to prove), 가주어 It is possible that 한 각주, contribute/to 분리, 필수 대명사 his(3곳)·our 뜻+지시 대상, I·me·he·it·her 지시 대상, 다의어 make·opening 흔한 뜻 병기, 고유명사 Dry·California 첫 등장 제공과 Uncle Basil 반복 제외(s10-g04 연결 확인), 금지 라벨 없음. ⑥ 구조 힌트: 관계사절(s72 who) 필수 힌트 있음, 문장당 2개 이하, 선정 우선순위(생략 that·조건절·가주어 우선, s68만 빈 힌트 문장의 have p.p. 기능 결합), 표시 범위(연결어+S′·V′, 주격 관계사 V′만, be/become 최소 보어), 이름표 한 번, 강조 위치 계산 결과 s62(that↔가·다고/다는 것), s65(As long as↔이·는 한; to↔할), s68(has↔했다), s71(of↔의), s72(who↔는), s73(when↔이·때), s74 두 번째(that↔가·을) 모두 정확(s74 첫 번째만 Ld-01), 대명사 참조 s62 그[정장 차림의 남자]·s65 그[정장 차림의 남자]의 정확, this story의 지시 한정사 제외 정확. ⑦ 분석: 글의 흐름이 13문장을 순서대로 1회씩 포함, 쉬운 풀이 3문장(s65·s70·s74) 원문 순서·앞 문맥 연결 적절(s70·s74 내용 정확, s65만 Ld-14), 구문으로 해석하기 기본 3개(as long as·who·provided that) 모두 공식→자리별 원문·뜻 대입→결합 해석·한 초점·practice 답/도움말 ID 정확, 보충 gp4(be p.p.)·gp5(be not p.p.)는 기본 3개가 해당 공식을 설명하지 않고 s65·s74에 힌트 여유가 없어 규칙대로 단위당 1회씩 보충(서로 다른 공식), formula_routes 3건(s65-g04→gp4, s68-g02→hint 0, s74-g08→gp5) 누락·중복 없음; 유반 serious/earnest/playful, resume/restart/halt(자동사 대입 가능), growth/increase/decline 품사·문맥·관계 타당(뜻 표기만 Ld-18); 오늘의 낱말 8개 이하·★ 8곳 대응 정확(address 표기만 Ld-03); 핵심 문장 s65·s74 선정 타당."
+}

@@ -31,11 +31,11 @@ def sentences(T):
     s.ch('I think he is joking,', '나는 그가 농담하고 있다고 생각한다,')
     s.ch('but then realize', '하지만 곧 깨닫는다')
     s.ch('he is serious.', '그가 진지하다는 것을.')
-    s.natural('잠시 나는 그가 농담하는 줄 알았지만, 곧 그가 진지하다는 것을 깨닫는다.')
+    s.natural('잠시 나는 그가 농담하는 거라고 생각하지만, 곧 그가 진지하다는 것을 깨닫는다.')
     s.cl('main', 'I', subj='I', verbs=['think', 'but', 'realize'])
     s.cl('subordinate', 'he', subj='he', verbs=['is', 'joking'], marker='that', omitted=True)
     s.cl('subordinate', 'he', subj='he', verbs=['is'], marker='that', omitted=True, occ=1)
-    s.g('For|moment', 'for a moment', '잠시 동안')
+    s.g('For|a|moment', 'for a moment', '잠시 동안')
     s.g('I', 'I', '나는', referent_ko='Alyssa')
     s.g('think', 'think', '생각하다')
     s.g('he', 'he', '그가', referent_ko='정장 차림의 남자')
@@ -109,7 +109,7 @@ def sentences(T):
     s.g('hands', 'hands', '손들')
     f = s.g('are', 'be p.p.', '~되다', kind='function', combines_with=[])
     s.g('firmly', 'firmly', '단단히, 꽉', star=W['firmly'])
-    lk = s.g('locked', 'locked', '고정된, 꽉 붙잡힌', verb_form=pp('passive-participle', s, 'locked', 'lock', f['id']))
+    lk = s.g('locked', 'locked', '(꽉) 고정된 (흔한 뜻: 잠긴)', verb_form=pp('passive-participle', s, 'locked', 'lock', f['id']))
     link(f, lk)
     s.g('on', 'on', '~에')
     s.g('handle', 'handle', '손잡이')
@@ -122,9 +122,9 @@ def sentences(T):
     pr = s.g('prove', 'prove', '증명하다', star=W['prove'])
     link(ft, pr)
     s.g('that', 'that S′ V′', 'S′(이/가) V′라는 것 (접속사)')
-    s.g('it’s', 'it’s', '그것은 ~이다 (it’s = it is)', referent_ko='카트')
+    s.g('it’s', 'it’s', '그것이 ~이다 (= it is)', referent_ko='카트')
     s.g('ours', 'ours', '우리의 것', referent_ko='Alyssa와 Garrett')
-    s.g('not', 'not', '~이 아니라')
+    s.g('and|not', 'A and not B', 'B가 아니라 A')
     s.g('his', 'his', '그의 것', referent_ko='정장 차림의 남자', at=s.text.index('his.'))
     s.extra_cov[tuple(s.span_of('there'))] = {
         'exemption': 'below-middle1-unneeded', 'level': 'below-middle1',
@@ -201,12 +201,12 @@ def sentences(T):
     s.g('man', 'man', '남자')
     s.g('looks|at', 'look at', '~을 바라보다', verb_form=v3(s, 'looks', 'look', 'The man'))
     s.g('ice', 'ice', '얼음')
-    s.g('with', 'with', '~한 (얼굴)로')
-    s.g('bitter', 'bitter', '씁쓸한, 억울해하는')
+    s.g('with', 'with', '~로')
+    s.g('bitter', 'bitter', '씁쓸한, 억울해하는 (흔한 뜻: (맛이) 쓴)')
     s.g('face', 'face', '얼굴, 표정')
     s.g('then', 'then', '그러고 나서')
     s.g('leaves', 'leave', '떠나다', verb_form=v3(s, 'leaves', 'leave', 'The man'))
-    s.review = ('한 주어 The man의 두 동사 looks와 leaves를 then이 이어 줌(s35와 같은 기준으로 V 표시에 then 보존). '
+    s.review = ('한 주어 The man의 두 동사 looks와 leaves를 then이 이어 줌(s35와 같은 기준으로 V 표시에 then 보존 — 2026-09-28 사용자 승인 예외, approved-exceptions.md 기록). '
                 '관계사·접속사절·수동 없음 → 힌트 없음.')
     out.append(s)
 
@@ -217,7 +217,7 @@ def sentences(T):
     s.ch('of the novel Dry (2018).', '소설 『Dry』(2018)의.')
     s.natural('*위 글은 소설 『Dry』(2018)의 도입부를 줄인 것이다.')
     s.cl('main', 'The', subj='The above', verbs=['is'])
-    s.g('above', 'the above', '위의 글, 위의 것')
+    s.g('The|above', 'the above', '위의 글, 위의 것')
     s.g('is', 'is', '~이다')
     s.g('shortened', 'shortened', '줄인, 축약된', verb_form=pp('past-participle', s, 'shortened', 'shorten'))
     s.g('version', 'version', '판, 형태')
@@ -233,7 +233,7 @@ def sentences(T):
            label='전치사구 후치수식', links=[(['of'], ['의'])], meaning='도입부의 줄인 판',
            explanation='of the opening이 앞 명사 a shortened version을 뒤에서 꾸민다. of ↔ 의. 뒤의 of the novel Dry도 같은 방식으로 the opening을 꾸민다.')
     s.review = ('작품 소개 단락 첫 문장(원문의 * 표시 보존). 주어 The above + is + 보어 a shortened version of the opening of the novel Dry (2018). '
-                'of 후치수식 두 곳 앞에서 끊음. shortened는 명사 앞 독립 p.p. 힌트 1개. 관계사·수동 없음.')
+                'of 후치수식 두 곳 앞에서 끊음. 힌트 1개(of the opening 전치사구 후치수식, of ↔ 의). shortened는 독립 p.p. 각주(줄인, 축약된)로 지원. 관계사·수동 없음.')
     out.append(s)
 
     # ---------------- s72 ----------------
@@ -302,8 +302,8 @@ def sentences(T):
     s.ch('Provided that the factors', '만약 요인들이')
     s.ch('contributing to water shortages worldwide', '전 세계적으로 물 부족의 원인이 되는')
     s.ch('are not addressed,', '해결되지 않는다면,')
-    s.ch('including climate change, population growth,', '기후 변화, 인구 증가,')
-    s.ch('and using too much water for agriculture,', '그리고 농업을 위해 너무 많은 물을 사용하는 것을 포함하여,')
+    s.ch('including climate change, population growth,', '기후 변화, 인구 증가를 포함하여,')
+    s.ch('and using too much water for agriculture,', '그리고 농업을 위해 너무 많은 물을 사용하는 것(을 포함하여),')
     s.ch('it is possible that this story can become a reality.', '이 이야기가 현실이 될 수 있을 가능성이 있다.')
     s.natural('기후 변화, 인구 증가, 농업용수 과다 사용처럼 전 세계적으로 물 부족을 일으키는 요인들이 해결되지 않는다면, 이 이야기는 현실이 될 수도 있다.')
     s.cl('subordinate', 'Provided', subj='the factors contributing to water shortages worldwide', verbs=['are', 'addressed'],
@@ -320,7 +320,7 @@ def sentences(T):
     s.g('water|shortages', 'water shortages', '물 부족', star=W['shortage'])
     s.g('worldwide', 'worldwide', '전 세계적으로')
     fn = s.g('are|not', 'be not p.p.', '~되지 않다', kind='function', combines_with=[])
-    ad = s.g('addressed', 'addressed', '(문제가) 해결된, 다뤄진', star=W['address'],
+    ad = s.g('addressed', 'addressed', '(문제가) 해결된, 다뤄진 (흔한 뜻: 주소)', star=W['address'],
              verb_form=pp('passive-participle', s, 'addressed', 'address', fn['id']))
     link(fn, ad)
     s.g('including', 'including', '~을 포함하여')
@@ -345,7 +345,7 @@ def sentences(T):
     s.hint('[Provided that the factors contributing to water shortages worldwide are not addressed]',
            '[전 세계적으로 물 부족의 원인이 되는 요인들이 해결되지 않는다면]',
            span='Provided that the factors contributing to water shortages worldwide are not addressed', label='조건 접속사 provided that',
-           links=[(['Provided that'], ['이', '는다면'])],
+           links=[(['Provided that'], [('이', 1), '는다면'])],
            meaning='전 세계적으로 물 부족의 원인이 되는 요인들이 해결되지 않는다면',
            explanation='provided that S′ V′ = if S′ V′(~한다면). S′ the factors(현재분사구 contributing … worldwide가 꾸밈), V′ are not addressed(수동 부정). including 이하는 the factors의 예시로 표시에서 제외. 수동 are not addressed는 분석 보충 u5-gp5로 연결.')
     s.hint('it is possible that [this story can become a reality]', '[이 이야기가 현실이 될 수 있을] 가능성이 있다',
@@ -371,7 +371,7 @@ UNIT = {
         {'id': W['resume'], 'text': 'resume', 'meaning_ko': '재개되다, 다시 시작되다'},
         {'id': W['factor'], 'text': 'factor', 'meaning_ko': '요인'},
         {'id': W['shortage'], 'text': 'water shortage', 'meaning_ko': '물 부족'},
-        {'id': W['address'], 'text': 'address', 'meaning_ko': '(문제를) 해결하다, 다루다'},
+        {'id': W['address'], 'text': 'addressed', 'meaning_ko': '(문제가) 해결된, 다뤄진'},
     ],
 }
 
@@ -379,12 +379,12 @@ UNIT = {
 def analysis(_):
     return {
         'heading_kind': '제목',
-        'title_or_topic_en': 'Help Arrives, and a Warning',
+        'title_or_topic_en': 'Timely Help and a Warning',
         'title_or_topic_ko': '때맞춘 도움, 그리고 경고',
-        'intent_ko': 'Basil 삼촌이 제때 나타나 남자의 위협을 막아 내는 장면으로 이야기를 마무리한다. 이어서 작품 소개를 통해 물 부족의 원인이 해결되지 않으면 이 소설 속 가뭄이 현실이 될 수 있다고 경고한다.',
+        'intent_ko': 'Basil 삼촌이 제때 나타나 남자가 얼음을 가져가지 못하고 떠나는 장면으로 소설 도입부 발췌가 끝난다. 이어서 작품 소개를 통해 물 부족의 원인이 해결되지 않으면 이 소설 속 가뭄이 현실이 될 수 있다고 경고한다.',
         'flow': [
             {'sentence_ids': ['s62', 's63', 's64', 's65'], 'label': '위협',
-             'text_ko': 'Alyssa는 남자가 농담하는 줄 알았다가 진지하다는 것을 깨닫는다. 남자는 웃고 있지만 눈빛이 무섭고, 그가 카트 손잡이를 쥐고 있는 한 카트가 아이들 것임을 증명할 방법이 없다.'},
+             'text_ko': 'Alyssa는 처음에 남자가 농담한다고 생각하지만 곧 진지하다는 것을 깨닫는다. 남자는 웃고 있지만 눈빛이 무섭고, 그가 카트 손잡이를 쥐고 있는 한 카트가 아이들 것임을 증명할 방법이 없다.'},
             {'sentence_ids': ['s66', 's67', 's68', 's69', 's70'], 'label': '해결',
              'text_ko': '그때 Basil 삼촌이 나타나 무슨 문제가 있느냐고 묻는다. 남자는 전혀 아니라고 하고는 씁쓸한 얼굴로 얼음을 바라보다 떠난다.'},
             {'sentence_ids': ['s71', 's72', 's73', 's74'], 'label': '작품 소개',
@@ -394,9 +394,9 @@ def analysis(_):
             {'sentence_id': 's65', 'explanatory_sentences': [
                 '65번 문장은 64번에서 무서워진 Alyssa가 왜 겁이 나는지 보여 준다.',
                 '남자는 카트 손잡이를 꽉 붙잡고 있다.',
-                '카트에는 이름표 같은 것이 없다.',
-                '그래서 남자가 손을 떼지 않는 한 카트가 아이들 것이라고 증명할 방법이 없다.',
-                '아이들이 힘으로도 말로도 얼음을 지키기 어려운 상황이다.']},
+                '카트를 붙잡고 있는 사람이 주인처럼 보이기 쉽다.',
+                '카트가 아이들 것이라는 증거는 따로 없다.',
+                '그래서 남자가 손잡이를 놓지 않는 한 아이들은 얼음이 담긴 카트를 지키기 어렵다.']},
             {'sentence_id': 's70', 'explanatory_sentences': [
                 '70번 문장은 삼촌이 나타난 뒤 남자의 반응이다.',
                 '69번에서 남자는 문제가 전혀 없다고 대답했다.',
@@ -421,7 +421,7 @@ def analysis(_):
                           'answer_ko': '그의 손이 우리 카트의 손잡이에 단단히 고정되어 있는 한'}},
             {'id': 'u5-gp2', 'sentence_id': 's72', 'span': 'a girl who has to make tough choices for her family',
              'title': '명사 + who V′: V′하는 명사', 'formula_key': 'N + who V′',
-             'explanation': '공식: 명사(N) + who V′ — V′하는 N. N = a girl(한 소녀), who = 주격 관계대명사(그 소녀가), V′ = has to make(해야 하다; have to V = ~해야 한다, make = 하다), '
+             'explanation': '공식: 명사(N) + who V′ — V′하는 N. N = a girl(한 소녀), who = 주격 관계대명사(그 소녀가), V′ = has(S/V 표시; has to make = 해야 하다, have to V = ~해야 한다, make = 하다), '
                             'tough choices = 힘든 선택들, for her family = 그녀의 가족을 위해. → 그녀의 가족을 위해 힘든 선택들을 해야 하는 한 소녀.',
              'practice': {'span': 'a girl who has to make tough choices for her family',
                           'formula_support': {'en': 'N + who V′', 'ko': 'V′하는 N'},
@@ -440,7 +440,7 @@ def analysis(_):
             {'id': 'u5-gp4', 'sentence_id': 's65', 'span': 'his hands are firmly locked',
              'title': 'be p.p.: ~되다 (are locked: 고정되어 있다)', 'formula_key': 'be p.p.',
              'explanation': '공식: be p.p. — ~되다. be = are(현재), p.p. = locked(고정된, lock의 p.p.형), 사이의 firmly = 단단히. '
-                            '→ are firmly locked = 단단히 고정되어 있다. 손은 스스로 잠그는 것이 아니라 손잡이에 ‘고정된’ 상태라 수동을 쓴다. 주어 his hands와 합치면 ‘그의 손이 단단히 고정되어 있다’.',
+                            '→ are firmly locked = 단단히 고정되어 있다. 주어 his hands가 무엇을 고정하는 것이 아니라 손잡이에 ‘고정된’ 상태이므로 수동(be p.p.)을 쓴다. 주어 his hands와 합치면 ‘그의 손이 단단히 고정되어 있다’.',
              'supplemental': {'function': ('s65', 'be p.p.', 0),
                               'reason': 's65의 수동 are firmly locked는 as long as절·to부정사 후치수식 힌트가 이미 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 be p.p. 설명이 없어 이 단위 대표 사례로 1회 보충'},
              'practice': {'span': 'his hands are firmly locked',
@@ -470,7 +470,7 @@ def analysis(_):
         'relations': [
             {'head': {'id': 'u5-r1h', 'text': 'serious', 'meaning_ko': '진지한'},
              'synonym': {'id': 'u5-r1s', 'text': 'earnest', 'meaning_ko': '진지한, 진심 어린'},
-             'antonym': {'id': 'u5-r1a', 'text': 'playful', 'meaning_ko': '장난스러운, 농담하는'}},
+             'antonym': {'id': 'u5-r1a', 'text': 'playful', 'meaning_ko': '장난스러운, 장난기 있는'}},
             {'head': {'id': 'u5-r2h', 'text': 'resume', 'meaning_ko': '재개되다, 다시 시작되다'},
              'synonym': {'id': 'u5-r2s', 'text': 'restart', 'meaning_ko': '다시 시작되다'},
              'antonym': {'id': 'u5-r2a', 'text': 'halt', 'meaning_ko': '멈추다, 중단되다'}},

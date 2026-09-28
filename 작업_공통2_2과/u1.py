@@ -116,12 +116,12 @@ def sentences(T):
     s.g('TV', 'TV', '텔레비전')
     rel = s.g('where', 'where S′ V′', '그리고 거기에서 S′(이/가) V′하다 (관계부사)')
     s.g('news', 'news', '뉴스')
-    s.g('anchor', 'anchor', '(뉴스) 앵커, 진행자')
+    s.g('anchor', 'anchor', '(뉴스) 앵커, 진행자 (흔한 뜻: 닻)')
     f = s.g('is', 'be V-ing', '~하고 있다', kind='function', combines_with=[])
     t = s.g('talking', 'talk', '이야기하다', verb_form=pp('ing', s, 'talking', 'talk'))
     link(f, t)
     s.g('about', 'about', '~에 관해')
-    s.g('flow|crisis', 'flow crisis', '물 공급 위기')
+    s.g('flow|crisis', 'flow crisis', '물 공급 위기', star=W['crisis'])
     s.hint('the TV, [where a news anchor is talking]', 'TV, [그리고 거기에서 뉴스 앵커가 이야기하고 있다]',
            span='the TV, where a news anchor is talking', label='계속적 관계부사 where',
            links=[(['where'], ['그리고 거기에서', '가'])],
@@ -135,9 +135,8 @@ def sentences(T):
     # ---------------- s07 ----------------
     s = S('s07', T['s07'], key=True)
     s.ch('This is', '이것은')
-    s.ch('what the media has been calling the drought', '언론이 가뭄을 계속 불러 온 것이다')
-    s.ch('ever since people got tired', '사람들이 싫증이 난 이후로 줄곧')
-    s.ch('of hearing the word “drought.”', '‘가뭄’이라는 단어를 듣는 것에.')
+    s.ch('what the media has been calling the drought', '언론이 가뭄을 가리켜 계속 불러 온 것이다')
+    s.ch('ever since people got tired of hearing the word “drought.”', '사람들이 ‘가뭄’이라는 단어를 듣는 것에 싫증이 난 이후로 줄곧.')
     s.natural('이것은 사람들이 ‘가뭄’이라는 단어를 듣는 데 싫증이 난 이후로 언론이 가뭄을 줄곧 불러 온 이름이다.')
     s.cl('main', 'This', subj='This', verbs=['is'])
     s.cl('subordinate', 'what', subj='the media', verbs=['has', 'been', 'calling'], marker='what')
@@ -153,7 +152,8 @@ def sentences(T):
     s.g('drought', 'drought', '가뭄', star=W['drought'])
     s.g('ever|since', 'ever since S′ V′', 'S′(이/가) V′한 이후로 줄곧')
     s.g('people', 'people', '사람들')
-    s.g('got|tired|of', 'get tired of', '~에 싫증이 나다 (got은 get의 과거)')
+    gt = s.g('got|tired|of', 'get tired of', '~에 싫증이 나다 (got은 get의 과거)')
+    s.prot('got tired of', 'fixed-expression', 'get tired of 숙어: 각주에서 한 항목으로 가르쳐 청크에서도 가르지 않음(L-a La-01)', gloss=gt)
     f = s.g('hearing', 'V-ing', '~하는 것', kind='function', combines_with=[])
     h = s.g('hearing', 'hear', '듣다', same=True, verb_form=pp('ing', s, 'hearing', 'hear'))
     link(f, h)
@@ -164,9 +164,9 @@ def sentences(T):
            meaning='언론이 (가뭄을) 계속 불러 온 것(이름)',
            explanation='선행사를 포함한 관계대명사 what이 이끄는 절이 is의 보어다. what은 call A B(A를 B라고 부르다)의 B 자리(부르는 이름). S′ the media, V′ has been calling까지 표시하고 A(the drought)는 제외.')
     s.hint('[ever since people got tired]', '[사람들이 싫증이 난 이후로 줄곧]', span='ever since people got tired',
-           label='접속사 ever since', links=[(['ever since'], ['이', '이후로 줄곧'])],
+           label='접속사 ever since', links=[(['ever since'], ['이', '난 이후로 줄곧'])],
            meaning='사람들이 (‘가뭄’이라는 말을 듣는 데) 싫증이 난 이후로 줄곧',
-           explanation='ever since S′ V′: S′가 V′한 이후로 줄곧. S′ people, V′ got에 뜻을 잡는 최소 보어 tired까지 표시(연결동사 get + 형용사). of hearing 이하 제외.')
+           explanation='ever since S′ V′: S′가 V′한 이후로 줄곧. S′ people, V′ got에 뜻을 잡는 최소 보어 tired까지 표시(연결동사 get + 형용사; 연결동사 최소 보어 표시는 2026-09-28 사용자 결정). of hearing 이하 제외.')
     s.relative_ids = [rel['id']]
     s.review = ('주절 This is + 보어 자리 관계대명사 what절(the media has been calling the drought: call A B, A=the drought, B=what; 완료진행) '
                 '+ 접속사 ever since절(people got tired of hearing …). 힌트 2개(필수 관계사 what, 접속사 ever since). '
@@ -261,7 +261,7 @@ def sentences(T):
     link(f, se)
     s.g('crowd', 'crowd', '(모여 있는) 사람들, 군중', star=W['crowd'])
     s.hint('[As we pull]', '[우리[Alyssa 일행]가 들어설 때]', span='As we pull', label='시간 접속사 as',
-           links=[(['As'], ['가', '때'])], refs=[('we', '우리', '[Alyssa 일행]')],
+           links=[(['As'], ['가', '설 때'])], refs=[('we', '우리', '[Alyssa 일행]')],
            meaning='우리가 (주차장에) 들어설 때',
            explanation='시간의 접속사 as(~할 때). S′ we, V′ pull까지 표시하고 into the parking lot은 제외. pull into는 차를 몰고 어떤 곳에 들어서는 것.')
     s.review = ('문두 부사절 As we pull into the parking lot(시간) + 주절 we can see the crowd. 접속사절 힌트 1개. '
@@ -348,7 +348,7 @@ def sentences(T):
     s.g('see', 'see', '보다')
     s.g('in', 'in', '~ 안에서')
     s.g('carts', 'carts', '카트들')
-    s.g('in', 'in', '~에 (서 있는)', at=s.text.index('in the checkout'))
+    s.g('in', 'in', '~에 서 있는', at=s.text.index('in the checkout'))
     s.g('checkout|line', 'checkout line', '계산대 줄', star=W['checkout'])
     s.g('are', 'are', '~이다')
     s.g('mostly', 'mostly', '대부분')
@@ -368,7 +368,7 @@ def sentences(T):
     s = S('s17', T['s17'])
     s.ch('The essentials', '그 필수품들')
     s.ch('of life.', '삶의.')
-    s.natural('삶에 꼭 필요한 필수품들이다.')
+    s.natural('삶에 꼭 필요한 것들이다.')
     verbless(s, 's16', T['s16'], '앞 16번 문장의 water bottles를 다시 풀어 말하는 명사구 조각(동격). 유한동사가 없어 S/V 줄을 생략한다.')
     s.g('essentials', 'essentials', '필수품들, 꼭 필요한 것들', star=W['essentials'])
     s.g('of', 'of', '~의')
@@ -401,7 +401,7 @@ def analysis(_):
         'heading_kind': '제목',
         'title_or_topic_en': 'The Day the Tap Went Silent',
         'title_or_topic_ko': '수도꼭지가 조용해진 날',
-        'intent_ko': '오랜 가뭄으로 마침내 수돗물까지 끊기자 Alyssa 가족이 물을 구하러 쇼핑몰로 가는 장면이다. 사람들이 물건 대신 생수만 찾는 모습으로 물이 생명의 필수품이 된 위기 상황을 보여 준다.',
+        'intent_ko': '오랜 가뭄으로 마침내 수돗물까지 끊기자 Alyssa와 남동생이 삼촌과 함께 물을 구하러 쇼핑몰로 가는 장면이다. 사람들이 전자 제품 대신 주로 생수를 찾는 모습으로 물이 생명의 필수품이 된 위기 상황을 보여 준다.',
         'flow': [
             {'sentence_ids': ['s01', 's02', 's03', 's04', 's05'], 'label': '발단',
              'text_ko': '주방 수도꼭지가 이상한 소리를 내더니 물이 끊긴다. Alyssa가 엄마를 부르지만 엄마는 조용히 하라고 한다.'},
@@ -420,14 +420,14 @@ def analysis(_):
                 '물이 곧 끊길 것이라는 신호를 생생하게 보여 주는 문장이다.']},
             {'sentence_id': 's07', 'explanatory_sentences': [
                 '7번 문장은 6번 뉴스에 나온 ‘물 공급 위기’라는 말이 어디서 나왔는지 알려 준다.',
-                '가뭄이 너무 오래 이어져서 사람들은 ‘가뭄’이라는 말을 듣는 데 지쳐 버렸다.',
+                '사람들은 ‘가뭄’이라는 말을 너무 자주 들어서 이제 그 말을 듣는 것에 지쳐 버렸다.',
                 '그래서 언론은 같은 가뭄을 ‘물 공급 위기’라는 새 이름으로 부르기 시작했다.',
                 '이름만 바뀌었을 뿐 가뭄은 계속되고 있다는 뜻이다.']},
             {'sentence_id': 's15', 'explanatory_sentences': [
                 '15번 문장은 쇼핑몰 안의 모습을 보여 준다.',
                 '블랙 프라이데이는 미국에서 큰 할인 행사가 열리는 날이다.',
                 '이날 매장은 싼 물건을 사려는 사람들로 몹시 붐빈다.',
-                '오늘 매장은 그날처럼 붐비지만 사람들이 찾는 것은 텔레비전이나 게임기가 아니다.',
+                '오늘 매장은 그날처럼 붐비지만 사람들이 찾는 것은 텔레비전이나 비디오 게임이 아니다.',
                 '다음 16번 문장에서 사람들이 찾는 것이 물이라는 것이 드러난다.']},
         ],
         'grammar_points': [
@@ -444,12 +444,12 @@ def analysis(_):
             {'id': 'u1-gp2', 'sentence_id': 's07', 'span': 'This is what the media has been calling the drought',
              'title': 'what S′ V′: S′가 V′하는 것', 'formula_key': 'what S′ V′',
              'explanation': '공식: what S′ V′ — S′(이/가) V′하는 것. S′ = the media(언론), V′ = has been calling(계속 불러 오고 있다; call A B = A를 B라고 부르다), '
-                            'A = the drought(가뭄), B = what(부르는 것, 곧 이름). → 언론이 가뭄을 계속 불러 온 것(이름). '
-                            '앞의 This is(이것은 ~이다)와 합치면 ‘이것은 언론이 가뭄을 계속 불러 온 이름이다’가 된다.',
+                            'A = the drought(가뭄), B = what(부르는 것, 곧 이름). → 언론이 가뭄을 가리켜 계속 불러 온 것(이름). '
+                            '앞의 This is(이것은 ~이다)와 합치면 ‘이것은 언론이 가뭄을 가리켜 계속 불러 온 이름이다’가 된다.',
              'practice': {'span': 'what the media has been calling the drought',
                           'formula_support': {'en': 'what S′ V′', 'ko': 'S′(이/가) V′하는 것'},
                           'support': [('s07', 'media'), ('s07', 'has been calling A B'), ('s07', 'drought')],
-                          'answer_ko': '언론이 가뭄을 계속 불러 온 것'}},
+                          'answer_ko': '언론이 가뭄을 가리켜 계속 불러 온 것'}},
             {'id': 'u1-gp3', 'sentence_id': 's15', 'span': 'today it’s not televisions and video games people are after',
              'title': 'It is not A that S′ V′: S′가 V′하는 것은 A가 아니다', 'formula_key': 'it is not A that S′ V′',
              'explanation': '공식: It is not A (that) S′ V′ — S′(이/가) V′하는 것은 A가 아니다. A = televisions and video games(텔레비전과 비디오 게임), '

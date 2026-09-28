@@ -39,7 +39,7 @@ def sentences(T):
     s.g('I', 'I', '내가', referent_ko='Alyssa', at=s.text.index('I find'))
     s.g('find', 'find', '발견하다')
     s.g('in', 'in', '~에서')
-    s.g('frozen', 'frozen', '냉동된, 얼린', star=W['frozen'], verb_form=pp('past-participle', s, 'frozen', 'freeze'))
+    s.g('frozen', 'frozen', '냉동식품(의)', verb_form=pp('past-participle', s, 'frozen', 'freeze'))
     s.g('aisle', 'aisle', '통로')
     s.hint('Garrett, [whom I find]', 'Garrett, [그리고 그를 내[Alyssa]가 발견한다]', span='Garrett, whom I find',
            label='계속적 관계대명사 whom', links=[(['whom'], ['그리고 그를', '가'])], refs=[('I', '내', '[Alyssa]')],
@@ -47,7 +47,7 @@ def sentences(T):
            explanation='콤마 뒤 목적격 관계대명사 whom이 선행사 Garrett을 받아 ‘그리고 그를’로 이어 준다(find의 목적어). S′ I, V′ find까지 표시하고 in the frozen aisle은 제외.')
     s.relative_ids = [rel['id']]
     s.review = ('주절 I look for Garrett + 콤마 뒤 계속적 목적격 관계대명사 whom절(I find in the frozen aisle). Garrett은 s11에서 제공한 고유명사 반복. '
-                'frozen은 명사 앞 독립 p.p. 필수 관계사 힌트 1개. 수동 없음.')
+                'frozen은 명사 앞 독립 p.p.로 the frozen aisle에서는 ‘냉동식품(의)’ 뜻이라 오늘의 낱말 frozen(냉동된, 얼린)과 뜻이 달라 ★ 없음(★는 s39 frozen vegetables, L-c Lc-01). 필수 관계사 힌트 1개. 수동 없음.')
     out.append(s)
 
     # ---------------- s38 ----------------
@@ -76,7 +76,7 @@ def sentences(T):
     s.g('vegetables', 'vegetables', '채소들')
     s.g('ice|cream', 'ice cream', '아이스크림')
     s.g('is', 'is', '있다')
-    s.g('case', 'case', '(유리문이 달린) 진열장 (흔한 뜻: 경우)', star=W['case'])
+    s.g('case', 'case', '(냉동) 진열장 (흔한 뜻: 경우)', star=W['case'])
     pk = s.g('packed', 'packed', '가득 찬, 꽉 채워진', star=W['packed'], verb_form=pp('past-participle', s, 'packed', 'pack'))
     s.g('with', 'with', '~으로')
     s.g('ice', 'ice', '얼음', at=s.text.index('ice.'))
@@ -169,11 +169,11 @@ def sentences(T):
 
     # ---------------- s45 ----------------
     s = S('s45', T['s45'], key=True)
-    s.ch('Garrett and I put one bag of ice after another', 'Garrett과 나는 얼음 한 봉지를 하나씩 차례로 넣는다')
+    s.ch('Garrett and I put one bag of ice after another', 'Garrett과 나는 얼음 봉지를 하나씩 차례로 넣는다')
     s.ch('into our cart,', '우리의 카트 안으로,')
-    s.ch('until it is piled', '그것이 쌓일 때까지')
+    s.ch('until it is piled', '그것이 가득 쌓일 때까지')
     s.ch('as high as it can get.', '그것이 될 수 있는 만큼 높이.')
-    s.natural('Garrett과 나는 카트가 더 이상 쌓을 수 없을 만큼 높아질 때까지 얼음 봉지를 하나씩 카트에 담는다.')
+    s.natural('Garrett과 나는 카트가 더는 쌓을 수 없을 만큼 높이 가득 찰 때까지 얼음 봉지를 하나씩 카트에 담는다.')
     s.cl('main', 'Garrett', subj='Garrett and I', verbs=['put'])
     s.cl('subordinate', 'until', subj='it', verbs=['is', 'piled'], marker='until')
     a2 = s.at('as it can get')
@@ -190,7 +190,7 @@ def sentences(T):
     s.g('until', 'until S′ V′', 'S′(이/가) V′할 때까지')
     s.g('it', 'it', '그것이', referent_ko='카트')
     f = s.g('is', 'be p.p.', '~되다', kind='function', combines_with=[])
-    pl = s.g('piled', 'piled', '쌓인', star=W['pile'], verb_form=pp('passive-participle', s, 'piled', 'pile', f['id']))
+    pl = s.g('piled', 'piled', '(짐이) 가득 쌓인', star=W['pile'], verb_form=pp('passive-participle', s, 'piled', 'pile', f['id']))
     link(f, pl)
     s.g('as|high|as', 'as high as S′ V′', 'S′(이/가) V′하는 만큼 높이')
     s.g('it', 'it', '그것이', referent_ko='카트', at=a2[0] + 3)
@@ -198,12 +198,12 @@ def sentences(T):
     gt = s.g('get', 'get', '(어떤 상태가) 되다')
     link(fc, gt)
     s.prot('bag of', 'quantity-kind-of', '수량 표현 bag of가 뒤 명사 ice 앞에서 ‘봉지의’로 같은 어순 대응(one … after another 안의 A)', gloss=q)
-    s.hint('[until it is piled]', '[그것[카트]이 쌓일 때까지]', span='until it is piled', label='시간 접속사 until',
+    s.hint('[until it is piled]', '[그것[카트]이 가득 쌓일 때까지]', span='until it is piled', label='시간 접속사 until',
            links=[(['until'], ['이', '때까지'])], refs=[('it', '그것', '[카트]')],
-           meaning='그것(카트)이 쌓일 때까지',
-           explanation='until S′ V′: S′가 V′할 때까지. S′ it(카트), V′ is piled(쌓이다, 수동)까지 표시하고 as high as 이하는 제외. 수동 is piled는 이 힌트가 있어 분석 보충 u3-gp4로 연결.')
+           meaning='그것(카트)이 (얼음으로) 가득 쌓일 때까지',
+           explanation='until S′ V′: S′가 V′할 때까지. S′ it(카트), V′ is piled(가득 쌓이다, 수동)까지 표시하고 as high as 이하는 제외. 수동 is piled는 이 힌트가 있어 분석 보충 u3-gp4로 연결.')
     s.hint('[as high as it can get]', '[그것[카트]이 될 수 있는 만큼 높이]', span='as high as it can get', label='as ~ as 비교 구문',
-           links=[(['as', ('as', 1)], ['만큼'])], refs=[('it', '그것', '[카트]')],
+           links=[(['as', ('as', 1)], ['이', '만큼'])], refs=[('it', '그것', '[카트]')],
            meaning='그것(카트)이 될 수 있는 만큼 높이(최대한 높이)',
            explanation='as + 부사 + as S′ V′: S′가 V′하는 만큼 ~하게. 뒤 as절의 S′ it, V′ can get(될 수 있다). 카트에 더 쌓을 수 없을 만큼 최대한 높이.')
     s.review = ('주절 Garrett and I put one bag of ice after another into our cart(one A after another, A = bag of ice) + until절(it is piled, 수동) '
@@ -222,16 +222,16 @@ def sentences(T):
     s.g('other', 'other', '다른')
     s.g('people', 'people', '사람들')
     f = s.g('have', 'have p.p.', '~했다', kind='function', combines_with=[])
-    tk = s.g('taken', 'take', '(행동을) 하다, 취하다 (taken은 take의 p.p.형)',
+    tk = s.g('taken', 'take', '하다 (taken은 take의 p.p.형)',
              verb_form=pp('perfect-participle', s, 'taken', 'take', f['id']))
     link(f, tk)
-    s.g('notice', 'notice', '알아챔, 주목 (take notice: 알아차리다)', star=W['notice'])
+    s.g('notice', 'notice', '주목, 알아챔', star=W['notice'])
     s.g('begin|to', 'begin to V', '~하기 시작하다',
         verb_construction={'kind': 'to-complement', 'verb_span': s.span_of('begin'), 'lemma': 'begin',
                            'link_spans': [s.span_of('to')], 'review_record': 'begin to empty: begin의 목적어 to V.'})
     s.g('empty', 'empty', '비우다', star=W['empty'])
-    s.g('ice|case', 'ice case', '얼음 진열장')
-    s.review = ('단일 주절: 주어 other people의 병렬 동사 have taken(현재완료) and begin(begin to V). take notice는 ‘알아차리다’. '
+    s.g('ice|case', 'ice case', '얼음 진열장', star=W['case'])
+    s.review = ('단일 주절: 주어 other people의 병렬 동사 have taken(현재완료) and begin(begin to V). take notice는 능동 완료 원형 각주 구조상 take(하다)·notice(주목) 두 각주로 두고 ‘주목을 했다 → 알아챘다’로 대입되게 함(L-c Lc-06 B안). ice case의 case는 오늘의 낱말 case와 같은 뜻이라 ★. '
                 '상위 문법 연결·수동 없음. 능동 완료 have taken은 take notice 숙어 속이라 결합 힌트(take → have taken)가 오히려 뜻을 흐려 힌트로 선정하지 않고 분석 보충 u3-gp5로 연결. begin to V는 각주로 충분 → 힌트 없음.')
     out.append(s)
     return out
@@ -242,12 +242,12 @@ UNIT = {
     'sentence_ids': [f's{n:02d}' for n in range(37, 47)],
     'today_words': [
         {'id': W['frozen'], 'text': 'frozen', 'meaning_ko': '냉동된, 얼린'},
-        {'id': W['case'], 'text': 'case', 'meaning_ko': '(유리문이 달린) 진열장'},
+        {'id': W['case'], 'text': 'case', 'meaning_ko': '(냉동) 진열장'},
         {'id': W['packed'], 'text': 'packed', 'meaning_ko': '가득 찬, 꽉 채워진'},
         {'id': W['remind'], 'text': 'remind', 'meaning_ko': '(잊지 않도록) 일깨우다, 상기시키다'},
-        {'id': W['pile'], 'text': 'pile', 'meaning_ko': '쌓다'},
+        {'id': W['pile'], 'text': 'piled', 'meaning_ko': '(짐이) 가득 쌓인'},
         {'id': W['one_after'], 'text': 'one after another', 'meaning_ko': '하나씩 차례로'},
-        {'id': W['notice'], 'text': 'take notice', 'meaning_ko': '알아차리다'},
+        {'id': W['notice'], 'text': 'notice', 'meaning_ko': '주목, 알아챔'},
         {'id': W['empty'], 'text': 'empty', 'meaning_ko': '비우다'},
     ],
 }
@@ -265,7 +265,7 @@ def analysis(_):
             {'sentence_ids': ['s41', 's42', 's43', 's44'], 'label': '대화',
              'text_ko': 'Garrett은 필요한 것은 얼음이 아니라 물이라고 말한다. Alyssa는 얼음도 물이라며 도와 달라고 한다.'},
             {'sentence_ids': ['s45', 's46'], 'label': '행동과 반응',
-             'text_ko': '두 사람은 카트가 더 쌓을 수 없을 만큼 높아질 때까지 얼음 봉지를 담는다. 이를 본 다른 사람들도 얼음 진열장을 비우기 시작한다.'},
+             'text_ko': '두 사람은 카트가 더는 쌓을 수 없을 만큼 가득 찰 때까지 얼음 봉지를 담는다. 이를 본 다른 사람들도 얼음 진열장을 비우기 시작한다.'},
         ],
         'easy_explanations': [
             {'sentence_id': 's43', 'explanatory_sentences': [
@@ -275,14 +275,14 @@ def analysis(_):
                 'Alyssa는 생수가 없으면 얼음을 대신 가져가면 된다는 것을 떠올렸다.']},
             {'sentence_id': 's45', 'explanatory_sentences': [
                 '45번 문장은 Alyssa의 생각을 곧바로 행동으로 옮기는 장면이다.',
-                'Garrett과 Alyssa는 얼음 봉지를 하나씩 카트에 담는다.',
-                '카트에 더 이상 쌓을 수 없을 만큼 높이 쌓일 때까지 멈추지 않는다.',
+                '두 사람은 카트에 더 쌓을 자리가 없을 때까지 얼음 봉지를 담는다.',
+                '얼음을 많이 모을수록 나중에 쓸 물도 많아진다.',
                 '물을 조금이라도 더 확보하려는 두 사람의 절박함이 드러난다.']},
             {'sentence_id': 's46', 'explanatory_sentences': [
                 '46번 문장은 두 사람의 행동을 본 다른 사람들의 반응이다.',
                 '다른 사람들도 얼음이 물을 대신할 수 있다는 것을 눈치챈다.',
                 '그래서 그들도 얼음 진열장을 비우기 시작한다.',
-                '물이 부족한 상황에서 사람들이 쓸 만한 것은 무엇이든 서둘러 차지하려 한다는 것을 보여 준다.']},
+                '물이 부족하자 사람들이 얼음까지 서둘러 차지하려 한다는 것을 보여 준다.']},
         ],
         'grammar_points': [
             {'id': 'u3-gp1', 'sentence_id': 's37', 'span': 'I look for Garrett, whom I find in the frozen aisle',
@@ -311,15 +311,15 @@ def analysis(_):
                           'support': [('s45', 'it', 1), ('s45', 'can V'), ('s45', 'get')],
                           'answer_ko': '그것(카트)이 될 수 있는 만큼 높이'}},
             {'id': 'u3-gp4', 'sentence_id': 's45', 'span': 'until it is piled',
-             'title': 'be p.p.: ~되다 (is piled: 쌓이다)', 'formula_key': 'be p.p.',
-             'explanation': '공식: be p.p. — ~되다. be = is(현재), p.p. = piled(쌓인, pile의 p.p.형). → is piled = 쌓이다. '
-                            '카트(it)가 스스로 쌓는 것이 아니라 얼음이 ‘쌓이는’ 쪽이라 수동을 쓴다. 앞의 until it과 이으면 ‘그것(카트)이 쌓일 때까지’.',
+             'title': 'be p.p.: ~되다 (is piled: 가득 쌓이다)', 'formula_key': 'be p.p.',
+             'explanation': '공식: be p.p. — ~되다. be = is(현재), p.p. = piled((짐이) 가득 쌓인, pile의 p.p.형). → is piled = 가득 쌓이다. '
+                            '카트(it)가 무언가를 쌓는 것이 아니라, 두 사람이 얼음을 쌓아서 카트가 (얼음으로) 가득 쌓이는 쪽이라 수동 is piled를 쓴다. 앞의 until it과 이으면 ‘그것(카트)이 가득 쌓일 때까지’.',
              'supplemental': {'function': ('s45', 'be p.p.', 0),
                               'reason': 's45의 수동 is piled는 until절·as ~ as 힌트가 이미 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 be p.p. 설명이 없어 이 단위 대표 사례로 1회 보충'},
              'practice': {'span': 'it is piled',
                           'formula_support': {'en': 'be p.p.', 'ko': '~되다'},
                           'support': [('s45', 'it', 0), ('s45', 'piled')],
-                          'answer_ko': '그것(카트)이 쌓인다'}},
+                          'answer_ko': '그것(카트)이 가득 쌓인다'}},
             {'id': 'u3-gp5', 'sentence_id': 's46', 'span': 'other people have taken notice',
              'title': 'have p.p.: ~했다 (have taken notice: 알아챘다)', 'formula_key': 'have p.p.',
              'explanation': '공식: have p.p. — ~했다. have = 현재완료의 조동사, p.p. = taken(take의 p.p.형; take notice = 알아차리다). '
@@ -341,11 +341,11 @@ def analysis(_):
             {'head': {'id': 'u3-r1h', 'text': 'packed', 'meaning_ko': '가득 찬'},
              'synonym': {'id': 'u3-r1s', 'text': 'filled', 'meaning_ko': '가득 찬, 채워진'},
              'antonym': {'id': 'u3-r1a', 'text': 'empty', 'meaning_ko': '비어 있는'}},
-            {'head': {'id': 'u3-r2h', 'text': 'high', 'meaning_ko': '높이, 높은'},
-             'synonym': {'id': 'u3-r2s', 'text': 'tall', 'meaning_ko': '높은, 키가 큰'},
-             'antonym': {'id': 'u3-r2a', 'text': 'low', 'meaning_ko': '낮은, 낮게'}},
-            {'head': {'id': 'u3-r3h', 'text': 'notice', 'meaning_ko': '알아챔, 주목'},
-             'synonym': {'id': 'u3-r3s', 'text': 'attention', 'meaning_ko': '주의, 주목'},
+            {'head': {'id': 'u3-r2h', 'text': 'find', 'meaning_ko': '발견하다, 찾아내다'},
+             'synonym': {'id': 'u3-r2s', 'text': 'discover', 'meaning_ko': '발견하다'},
+             'antonym': {'id': 'u3-r2a', 'text': 'lose', 'meaning_ko': '잃어버리다'}},
+            {'head': {'id': 'u3-r3h', 'text': 'notice', 'meaning_ko': '주목, 알아챔'},
+             'synonym': {'id': 'u3-r3s', 'text': 'note', 'meaning_ko': '주목, 주의'},
              'antonym': {'id': 'u3-r3a', 'text': 'disregard', 'meaning_ko': '무시, 묵살'}},
         ],
     }

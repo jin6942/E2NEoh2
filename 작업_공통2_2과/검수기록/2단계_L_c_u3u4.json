@@ -1,0 +1,298 @@
+{
+ "reviewer": "L-c",
+ "scope": {
+  "unit_ids": [
+   "u3",
+   "u4"
+  ],
+  "sentence_ids": [
+   "s37",
+   "s38",
+   "s39",
+   "s40",
+   "s41",
+   "s42",
+   "s43",
+   "s44",
+   "s45",
+   "s46",
+   "s47",
+   "s48",
+   "s49",
+   "s50",
+   "s51",
+   "s52",
+   "s53",
+   "s54",
+   "s55",
+   "s56",
+   "s57",
+   "s58",
+   "s59",
+   "s60",
+   "s61"
+  ]
+ },
+ "inputs_checked": [
+  "공통영어2_YBM(박준언)_UNIT02_QC_HANDOFF.txt 1~8행(머리), 709~1210행(u3·u4 전체)",
+  "검수입력/L_u3.json selected_data(sentences s37~s46: chunks·natural_ko·clauses·glosses·lexical_coverage·hints(display_pairs·emphasis_links·pronoun_refs)·reading_checks; units[u3].today_words·analysis(flow·easy_explanations·grammar_points·practice·supplemental·formula_routes·relations))",
+  "검수입력/L_u4.json selected_data(sentences s47~s61 및 units[u4] 같은 항목, s53 sv_review 포함)",
+  "(2022개정)2025년_공통영어2_YBM(박준언)_2과_본문_(20251205수정).pdf 1~3쪽 pypdfium2 텍스트 추출: 영어 본문(25문장 전부 원문 부분 문자열 일치 확인) 및 오른쪽 단 교과서 한국어 해석",
+  "L_u3/L_u4.json context.sources(앞 문맥 지시 대상 확인용, 참고만)"
+ ],
+ "rules_read": [
+  "스킬수정본/gyogwaseo-unified/SKILL.md",
+  "references/editorial-core.md",
+  "references/analysis-content.md(끊어읽기·S/V·구조 힌트·대명사 참조·문법 대응 강조·직역과 자연 해석·지문분석·각 문장 쉬운 풀이)",
+  "references/gloss-rules.md",
+  "references/grammar-labels.md",
+  "references/preposition-meanings.md",
+  "references/proper-nouns.md",
+  "references/common-errors.md",
+  "references/approved-exceptions.md(맨 끝 ‘공통영어2 YBM(박준언) 2과의 동사 없는 짧은 문장’ 포함)",
+  "references/manuscript-data.md(문장 주석, 구조 힌트의 대명사 참조, 공통 단위, 분석·워크북 구문 결합 연습 계약)",
+  "references/workbook.md ‘1. 오늘의 낱말’(오늘의 낱말 실제형 규칙 확인용)"
+ ],
+ "findings": [
+  {
+   "id": "Lc-01",
+   "sentence_id": "s37",
+   "field": "각주",
+   "current": "frozen — 냉동된, 얼린 ★ (s37-g07, 원문 the frozen aisle) / aisle — 통로; 청크·자연 해석·u3-gp1 답은 ‘냉동식품 통로에서’",
+   "problem": "the frozen aisle의 frozen은 ‘냉동식품(을 파는)’ 뜻인데 각주 뜻 ‘냉동된, 얼린’을 대입하면 ‘냉동된(얼린) 통로’가 되어 문장에 대입되지 않는다. 같은 각주 ID를 쓰는 u3-gp1 연습 도움말(s37-g07·g08)로는 정답 ‘냉동식품 통로에서’를 만들 수 없다. 근거: gloss-rules.md ‘기본 형식과 순서’(뜻은 해당 문장에 실제로 대입할 수 있어야 한다)·‘금지와 검수’ 2·6항, manuscript-data.md ‘분석·워크북 구문 결합 연습 계약’(support는 실제 구절 해석에 필요한 뜻).",
+   "proposed_fix": "s37-g07 뜻을 문맥 뜻 ‘냉동(식품)의’로 바꾼다(★·today_word_id u3-w1 유지). 오늘의 낱말 u3-w1의 뜻 ‘냉동된, 얼린’은 유지하되 source_gloss_id를 같은 뜻인 s39-g03으로 옮긴다. 또는 s37에서 ‘frozen aisle — 냉동식품 통로’로 묶고 ★를 붙이는 방법도 있다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lc-02",
+   "sentence_id": "s39",
+   "field": "각주·오늘의 낱말",
+   "current": "case — (유리문이 달린) 진열장 (흔한 뜻: 경우) ★ / u3-w2 case — (유리문이 달린) 진열장",
+   "problem": "원문에는 s40의 ‘I open the door’만 있고 문이 유리라는 정보는 없다. ‘유리문’은 원문에 없는 사실을 각주 뜻에 넣은 추측이다(PDF 교과서 해석도 ‘상자’). 근거: gloss-rules.md ‘기본 형식과 순서’(실제로 존재하는 뜻만, 문맥 뜻), editorial-core.md ‘원문과 공통 학습 단위’(원문 보존).",
+   "proposed_fix": "s39-g07과 u3-w2의 뜻을 ‘(문이 달린 냉동) 진열장 (흔한 뜻: 경우)’ 또는 ‘(냉동) 진열장’으로 바꾼다. 오늘의 낱말은 ‘(냉동) 진열장’으로 바꾼다. s46 ice case의 ‘얼음 진열장’은 그대로 둔다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lc-03",
+   "sentence_id": "s45",
+   "field": "끊어읽기(한국어 청크)",
+   "current": "Garrett and I put one bag of ice after another → ‘Garrett과 나는 얼음 한 봉지를 하나씩 차례로 넣는다’",
+   "problem": "one A after another의 one은 ‘하나씩’에 이미 들어 있다. ‘한 봉지를 하나씩’은 one을 두 번 옮긴 셈이다. 각주 s45-g03(A를 하나씩 차례로)의 A는 bag of ice이며, 쉬운 풀이도 ‘얼음 봉지를 하나씩’으로 썼다. 근거: gloss-rules.md 검수 6항(각주 뜻과 끊어읽기 해석의 일치), analysis-content.md ‘직역과 자연 해석’(수치 보존).",
+   "proposed_fix": "첫 한국어 청크를 ‘Garrett과 나는 얼음 봉지를 하나씩 차례로 넣는다’로 고친다(청크 수 4=4 유지).",
+   "severity": "improve"
+  },
+  {
+   "id": "Lc-04",
+   "sentence_id": "s45",
+   "field": "구조 힌트(강조 위치)",
+   "current": "[as high as it can get] → [그것[카트]이 될 수 있는 만큼 높이]; emphasis_links = en [[1,3],[9,11]](as, as) ↔ ko [[16,18]](만큼)만",
+   "problem": "이 힌트가 연결된 각주 s45-g13은 ‘as high as S′ V′ — S′(이/가) V′하는 만큼 높이’로 S′(이/가) 자리를 명시한다. 따라서 S′ it에 붙은 주어 조사 ‘이’(ko [7,8])도 같은 링크로 강조해야 한다. 같은 문장 until 힌트는 ‘이’를 넣었으므로 두 힌트의 처리도 서로 다르다. 근거: analysis-content.md ‘영어·한국어의 문법 대응 강조’ 7번째 항목(선정 공식의 S′(이/가) 자리가 명시되어 있으면 이/가도 함께 강조), SKILL.md 51행, manuscript-data.md 118행.",
+   "proposed_fix": "emphasis_links를 [{\"en_spans\":[[1,3],[9,11]],\"ko_spans\":[[7,8],[16,18]]}]로 고친다. 공식의 연결 어미까지 맞추려면 ‘는 만큼’([14,15]+[16,18])을 고르는 것도 검토한다. 문구를 바꾸면 위치를 다시 계산한다.",
+   "severity": "error"
+  },
+  {
+   "id": "Lc-05",
+   "sentence_id": "u3-analysis",
+   "field": "구문으로 해석하기(u3-gp4 설명)",
+   "current": "be p.p. … → is piled = 쌓이다. ‘카트(it)가 스스로 쌓는 것이 아니라 얼음이 ‘쌓이는’ 쪽이라 수동을 쓴다.’",
+   "problem": "이 항목은 S′를 it(카트)로 대입했고 연습 답도 ‘그것(카트)이 쌓인다’이다. 그런데 수동을 쓰는 이유에서는 주어를 ‘얼음’으로 바꿔 설명한다. 수동태 주어(동작을 받는 대상)와 설명의 주체가 어긋나서, 학생이 ‘수동태 주어와 다른 무언가가 동작을 받는다’로 잘못 배울 수 있다. 근거: analysis-content.md ‘공통 학습 단위별 지문분석’ 구문으로 해석하기 검수(결합 해석의 주체·수동이 맞는지), editorial-core.md 27행(주체 일치). it의 지칭 대상 자체는 user_report_items 1번을 참고한다.",
+   "proposed_fix": "지칭 대상을 카트로 유지할 경우 ‘카트(it)가 무언가를 쌓는 것이 아니라, 두 사람이 얼음을 쌓아서 카트가 ‘(얼음으로) 쌓임을 당하는’ 쪽이라 수동 is piled를 쓴다’로 고친다. 얼음 더미로 바꿀 경우에는 S′·답·힌트·각주 referent를 모두 얼음으로 맞춘다.",
+   "severity": "error"
+  },
+  {
+   "id": "Lc-06",
+   "sentence_id": "s46",
+   "field": "각주(숙어 분리·★ 위치)",
+   "current": "take — (행동을) 하다, 취하다 (taken은 take의 p.p.형) [s46-g05] / notice — 알아챔, 주목 (take notice: 알아차리다) ★ [s46-g06, today_word u3-w7 ‘take notice’]",
+   "problem": "① 숙어 take notice(알아차리다)를 두 각주로 나눴다. 숙어 뜻은 notice 각주 안의 비승인 괄호 ‘(take notice: 알아차리다)’에만 들어 있다. 각 뜻을 대입하면 ‘알아챔을 취했다’가 되어 문장에 대입되지 않는다. ② 오늘의 낱말은 구 ‘take notice’인데 ★를 둘째 구성 항목(notice)에 붙였다. 근거: gloss-rules.md ‘숙어·구문과 전치사’(대표 뜻으로 해석되지 않는 결합은 묶어 제공), ‘기본 형식과 순서’(대입 가능), ‘각주 ★와 항목 구분’(구가 여러 항목에 나뉘면 첫 구성 항목에 표시), grammar-labels.md 허용 병기 목록(이런 괄호는 목록에 없음), gloss-rules.md 능동 완료 예 ‘had struggled to enter → struggle to V … (struggled는 struggle의 p.p.형)’.",
+   "proposed_fix": "s46-g05·g06을 하나로 합친다: ‘take notice — 알아차리다 (taken은 take의 p.p.형)’. spans [[25,30],[31,37]], kind lexical, verb_form {usage: perfect-participle, source_span: [25,30], lemma: take, function_gloss_id: s46-g04}, ★·today_word_id u3-w7을 둔다. s46-g04 combines_with, lexical_coverage(taken·notice), u3-gp5 support_gloss_ids(g05·g06 → 통합 ID), reading_checks.review_record도 함께 고친다.",
+   "severity": "error"
+  },
+  {
+   "id": "Lc-07",
+   "sentence_id": "u3-today_words",
+   "field": "오늘의 낱말(u3-w7)",
+   "current": "u3-w7: text ‘take notice’, meaning ‘알아차리다’, source_gloss_id s46-g06(notice — 알아챔, 주목)",
+   "problem": "원문은 능동 완료 have taken notice다. workbook.md ‘1. 오늘의 낱말’은 ‘수동·완료에서 선정된 p.p.와 독립 p.p.는 실제 형태·문맥 뜻을 유지(had struggled → struggled — 애썼다)’라고 정한다. 그런데 원형 ‘take notice — 알아차리다’로 적었다. 연결 각주(notice — 알아챔, 주목)와도 표제어·뜻이 다르다.",
+   "proposed_fix": "Lc-06대로 각주를 통합했다면 ‘taken notice — 알아챘다’로 고친다(규칙대로 실제형 유지). 선정 자체를 바꾸려면 ‘notice — 알아챔, 주목’(s46-g06 유지, 유반 표제어와 일치)으로 바꾼다. 둘 중 무엇을 고를지는 user_report_items 2번에 올린다.",
+   "severity": "error"
+  },
+  {
+   "id": "Lc-08",
+   "sentence_id": "u3-today_words",
+   "field": "오늘의 낱말(u3-w5)",
+   "current": "u3-w5: text ‘pile’, meaning ‘쌓다’, source_gloss_id s45-g12(piled — 쌓인, passive-participle)",
+   "problem": "수동 is piled의 p.p.를 오늘의 낱말로 골랐으므로 workbook.md ‘1. 오늘의 낱말’ 규칙상 실제 형태·문맥 뜻(piled — 쌓인)을 유지해야 한다. 원형·능동 뜻 ‘pile — 쌓다’로 바꿔 규칙을 어겼고, ★가 붙은 각주(piled — 쌓인)와도 다르다.",
+   "proposed_fix": "u3-w5를 text ‘piled’, meaning ‘쌓인’으로 고친다(source_gloss_id s45-g12 유지). user_report 1번 결정에 따라 각주 뜻을 바꾸면 같은 뜻으로 맞춘다.",
+   "severity": "error"
+  },
+  {
+   "id": "Lc-09",
+   "sentence_id": "s46",
+   "field": "각주(★ 반복 표시)",
+   "current": "ice case — 얼음 진열장 (s46-g09, star:false)",
+   "problem": "u3 오늘의 낱말 u3-w2 case(진열장)가 s46 ice case 안에서 같은 뜻으로 다시 나오는데 ★가 없다. 근거: editorial-core.md 67행(확정 목록 각주에 ★, 같은 단위 반복 출현에도 표시), gloss-rules.md ‘각주 ★와 항목 구분’, manuscript-data.md 150행(★ 반복 표시는 의미가 같은 모든 등장과 대조).",
+   "proposed_fix": "s46-g09에 star:true, today_word_id:u3-w2를 준다. 또는 ‘ice — 얼음 / case — 진열장 ★’로 나눈다(나누면 lexical_coverage도 함께 고친다).",
+   "severity": "error"
+  },
+  {
+   "id": "Lc-10",
+   "sentence_id": "s45",
+   "field": "쉬운 풀이",
+   "current": "‘Garrett과 Alyssa는 얼음 봉지를 하나씩 카트에 담는다.’ / ‘카트에 더 이상 쌓을 수 없을 만큼 높이 쌓일 때까지 멈추지 않는다.’",
+   "problem": "둘째·셋째 문장은 원문 번역을 되풀이한다. 셋째 문장은 주제어(누가 멈추지 않는지)가 빠졌다. 근거: analysis-content.md ‘각 문장 쉬운 풀이’ 2(직역만으로 이해되는 내용은 번역을 반복하지 않고 연결·역할만 짚음)·4(주제어는 ~은/는).",
+   "proposed_fix": "예: ‘45번 문장은 Alyssa의 생각을 곧바로 행동으로 옮기는 장면이다. / 두 사람은 카트에 더 쌓을 자리가 없을 때까지 얼음 봉지를 담는다. / 얼음을 많이 모을수록 나중에 쓸 물도 많아진다. / 물을 조금이라도 더 확보하려는 두 사람의 절박함이 드러난다.’",
+   "severity": "improve"
+  },
+  {
+   "id": "Lc-11",
+   "sentence_id": "s46",
+   "field": "쉬운 풀이",
+   "current": "‘물이 부족한 상황에서 사람들이 쓸 만한 것은 무엇이든 서둘러 차지하려 한다는 것을 보여 준다.’",
+   "problem": "원문은 다른 사람들이 얼음 진열장을 비우기 시작한다는 것뿐이다. ‘쓸 만한 것은 무엇이든’은 원문보다 넓게 일반화한 단정이다. 근거: analysis-content.md ‘쉬운 풀이 검수 체크리스트’(원문보다 강한 단정, 원문에 없는 내용이 없는가), 8항.",
+   "proposed_fix": "‘물이 부족하자 사람들이 얼음까지 서둘러 차지하려 한다는 것을 보여 준다.’로 고친다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lc-12",
+   "sentence_id": "u3-analysis",
+   "field": "유의어·반의어(2세트)",
+   "current": "표제어: high (높이, 높은) / 유의어: tall (높은, 키가 큰) / 반의어: low (낮은, 낮게)",
+   "problem": "원문 ‘piled as high as it can get’의 high는 부사다(u3-gp3가 ‘부사 = high(높이)’로 설명). tall은 이 자리에 넣을 수 없고(*piled as tall as it can get) 대개 형용사(키가 큰)로 쓴다. 표제어 뜻도 부사·형용사를 섞어 적었다. 근거: analysis-content.md ‘공통 학습 단위별 지문분석’ 유반 항목(원문 구문에 대입해 품사·문맥·치환 가능성 확인).",
+   "proposed_fix": "원문 핵심어로 다시 고른다. 추천: ‘find (발견하다) / discover (발견하다) / lose (잃어버리다)’(s37 whom I find → whom I discover 대입 가능). 이 경우 워크북 2번·실전문제 재료도 함께 바꾼다.",
+   "severity": "error"
+  },
+  {
+   "id": "Lc-13",
+   "sentence_id": "u3-analysis",
+   "field": "유의어·반의어(3세트)",
+   "current": "표제어: notice (알아챔, 주목) / 유의어: attention (주의, 주목) / 반의어: disregard (무시, 묵살)",
+   "problem": "원문은 take notice다. attention을 넣으면 ‘*have taken attention’이 되어 연어가 성립하지 않는다(pay attention이어야 함). 근거: analysis-content.md 유반 항목(단어·구의 구조 차이를 무시하지 않고 치환 가능성 확인).",
+   "proposed_fix": "유의어를 take와 함께 쓸 수 있는 ‘heed (주의, 조심)’로 바꾸거나(take heed), 세트를 다른 원문 핵심어로 바꾼다. 반의어 disregard는 유지할 수 있다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lc-14",
+   "sentence_id": "s50",
+   "field": "끊어읽기(한국어 청크)",
+   "current": "“Looks like / you could use some help.” → ‘“~인 것 같구나 / 너희가 도움을 좀 필요로 할.”’",
+   "problem": "직역 청크에 공식용 자리표 ‘~’가 그대로 들어갔다. 둘째 청크는 관형형 ‘할.’에서 끊겨 한국어 문장으로 읽히지 않는다. 한국어 청크는 직역 역할을 하는 해석이다. 근거: editorial-core.md 27행, analysis-content.md ‘직역과 자연 해석’.",
+   "proposed_fix": "‘“보아하니 / 너희가 도움이 좀 필요하겠구나.”’처럼 자리표 없이 두 조각 모두 읽히게 고친다(청크 수 2=2 유지, 자연 해석은 그대로).",
+   "severity": "improve"
+  },
+  {
+   "id": "Lc-15",
+   "sentence_id": "s52",
+   "field": "끊어읽기",
+   "current": "“Thank you / for helping us,” / I tell him. (각주 s52-g01 ‘thank you for V-ing — ~해 줘서 고마워요’가 Thank·you·for를 한 항목으로 묶음)",
+   "problem": "각주에서 한 덩어리로 가르친 구문 thank you for V-ing를 끊어읽기 청크가 Thank you와 for 사이에서 나눈다. 근거: common-errors.md 9항(각주에서 한 덩어리로 가르친 숙어를 끊어읽기에서 가르지 않는다), analysis-content.md ‘끊어읽기’(숙어·고정 표현은 가르지 않는다), gloss-rules.md ‘숙어·구문과 전치사’(끊어읽기에서도 숙어를 가르지 않는다).",
+   "proposed_fix": "청크를 ‘“Thank you for helping us,” / I tell him.’ ↔ ‘“우리를 도와줘서 고마워요,” / 나는 그에게 말한다.’로 합친다. S/V(S: I, V: tell)와 각주는 그대로다. 반대로 청크를 유지하려면 각주를 thank you / for / V-ing / help로 나눠야 하는데, 사용자가 확정한 ‘인사 관용 표현’ 처리와 맞지 않아 추천하지 않는다.",
+   "severity": "error"
+  },
+  {
+   "id": "Lc-16",
+   "sentence_id": "s53·s55·s56·s61",
+   "field": "각주(원문 위치 연결)",
+   "current": "not a problem [spans Not, problem] / return the smile [return, smile] / the best [best] / the rest [rest]. 각 관사 a·the는 lexical_coverage에서 below-middle1-unneeded 제외",
+   "problem": "표제어에 관사가 들어 있는데 spans·coverage는 그 관사를 숙어 각주에 연결하지 않고 기초어 제외로 처리했다. 같은 단위 s58·s61의 ‘a bag of’는 a를 spans에 넣어 처리가 서로 다르다. 근거: manuscript-data.md 139행(숙어 안 낱말도 그 숙어 각주가 실제로 덮는 위치에 연결).",
+   "proposed_fix": "각 각주 spans에 해당 관사 위치를 넣고(s53 a [5,6], s55 the, s56 the, s61 the), lexical_coverage의 그 행을 gloss_id 연결로 바꾼다. 학생용 출력은 바뀌지 않는다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lc-17",
+   "sentence_id": "s58·s61",
+   "field": "구조 힌트(선정)",
+   "current": "[Why don’t you take] → [당신[정장 차림의 남자]이 가져가는 게 어때요] (제안 표현 Why don’t you V) / s61 같은 형식",
+   "problem": "Why don’t you V?는 그 자체의 뜻(제안)을 익히는 고정 표현이며, 뜻은 각주 s58-g01·s61-g01이 이미 준다. explanation도 ‘이유를 묻는 말이 아니라 제안’이라는 뜻 풀이다. 규칙은 이런 표현을 ‘그것만으로 구조 힌트 후보가 되지 않는다’고 하고, 대상·동사·준동사를 연결해 해석하는 동사 구문만 후순위 후보로 둔다. 근거: analysis-content.md ‘구조 힌트’ 선정 첫 항목, SKILL.md 50행, gloss-rules.md 121행.",
+   "proposed_fix": "두 힌트를 빼고(빈 힌트 허용) reading_checks.review_record에 ‘제안 고정 표현은 각주로 충분, u4-gp3에서 분석’이라고 적는다. 유지를 원하면 user_report_items 3번에 따라 사용자 확인을 받는다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lc-18",
+   "sentence_id": "s58·s61",
+   "field": "구조 힌트(강조 위치)",
+   "current": "s58: en [[1,14]](Why don’t you) ↔ ko [[14,15]](이), [[19,26]](는 게 어때요) / s61: en [[1,14]] ↔ ko [[20,21]](가), [[25,31]]",
+   "problem": "① 영어 강조 범위가 pronoun_refs로 선언한 대명사 you([11,14])를 포함한다. 대명사·참조어는 보통 글씨가 원칙이다. ② 공식 ‘Why don’t you V? — ~하는 게 어때(요)?’에는 S′/A(이/가) 자리가 없는데 대명사 뒤 주어 조사 이/가를 강조했다. 근거: analysis-content.md ‘대명사와 지칭 대상’ 4번째 항목(대명사·참조 괄호는 보통 글씨), ‘문법 대응 강조’ 7번째 항목(다른 구문의 주어 조사나 무관한 조사는 자동 강조하지 않음).",
+   "proposed_fix": "힌트를 유지한다면 두 문장 모두 en_spans를 [[1,10]](Why don’t)로, ko_spans를 연결 어미 ‘는 게 어때요’/‘는 게 어때’만으로 줄인다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lc-19",
+   "sentence_id": "s61",
+   "field": "자연 해석",
+   "current": "“너희가 얼음 한 봉지를 가져가고, 나머지는 내가 가지는 게 어떠니.”",
+   "problem": "원문은 제안(Why don’t you take …)과 평서문 선언(and I’ll keep the rest)을 이은 문장이다. 자연 해석이 ‘나머지는 내가 가지는 게 어떠니’로 뒤 절까지 제안 의문문에 넣어, will의 단정적 의지(가질게)를 권유로 약하게 바꿨다. 이 문장은 남자의 속셈이 드러나는 핵심 문장이라 양태가 바뀌면 반전의 뉘앙스가 약해진다(교과서 해석도 ‘나머지는 내가 가질게’). 근거: editorial-core.md 27행(주체·시제·부정·양태 일치), analysis-content.md ‘직역과 자연 해석’.",
+   "proposed_fix": "‘“너희가 얼음 한 봉지를 가져가는 게 어떠니, 나머지는 내가 가질게.”’ 또는 ‘“너희는 얼음 한 봉지만 가져가렴. 나머지는 내가 가질게.”’로 고친다.",
+   "severity": "error"
+  },
+  {
+   "id": "Lc-20",
+   "sentence_id": "u4-analysis",
+   "field": "구문으로 해석하기(u4-gp1 연습 도움말)",
+   "current": "u4-gp1 formula_support ‘형용사 + to V — V하기에 (형용사)한’, support_gloss_ids [s47-g06, s47-g07, s47-g08, s47-g09] (s47-g08 = to V — ~하기에)",
+   "problem": "주초점 공식 ‘형용사 + to V — V하기에’의 기능 부분과 같은 기능 각주 to V — ~하기에(s47-g08)가 도움말에 한 번 더 나온다. 같은 교재 u3-gp4·gp5는 초점 기능 각주(be p.p., have p.p.)를 support에서 뺐으므로 처리도 서로 다르다. 근거: manuscript-data.md ‘분석·워크북 구문 결합 연습 계약’ 3번째 항목(주초점 공식과 같은 항목은 중복하지 않으며).",
+   "proposed_fix": "support_gloss_ids를 [s47-g06, s47-g07, s47-g09]로 고친다.",
+   "severity": "error"
+  },
+  {
+   "id": "Lc-21",
+   "sentence_id": "u4-analysis",
+   "field": "구문으로 해석하기(u4-gp2 연습 도움말)",
+   "current": "u4-gp2 formula_support ‘It is 형용사 to V — V하는 것은 (형용사)하다’, support_gloss_ids [s56-g02(is — ~이다), s56-g03, s56-g04]",
+   "problem": "공식에 is가 이미 들어 있고 뜻 ‘(형용사)하다’로 결합되는데, is — ~이다를 따로 또 준다. 학생이 ‘좋은 것이다’처럼 겹쳐 쓸 수 있다. 근거: manuscript-data.md ‘분석·워크북 구문 결합 연습 계약’ 3번째 항목(주초점 공식과 같은 항목 중복 금지).",
+   "proposed_fix": "support_gloss_ids를 [s56-g03, s56-g04]로 줄이는 것을 검토한다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lc-22",
+   "sentence_id": "u4-analysis",
+   "field": "글의 흐름",
+   "current": "(감사와 믿음) … ‘Alyssa는 어려운 시기가 사람들의 좋은 면을 끌어낸다고 느끼며 호의에 보답하기로 한다.’",
+   "problem": "s56 원문은 can bring out(끌어낼 수 있다)인데 흐름 요약에서 가능성 can을 빼고 단정했다(같은 단위 쉬운 풀이는 ‘보일 수 있다’로 바르게 적음). 근거: editorial-core.md 27행(양태 일치), analysis-content.md 쉬운 풀이 8항(can을 강하게 바꾸지 않음) 취지.",
+   "proposed_fix": "‘… 좋은 면을 끌어낼 수 있다고 느끼며 …’로 고친다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lc-23",
+   "sentence_id": "s56",
+   "field": "쉬운 풀이",
+   "current": "‘앞 장면에서 생수를 빼앗기고 Hali에게도 거절당한 Alyssa는 이 남자 덕분에 다시 사람을 믿게 된다.’",
+   "problem": "한 문장에 세 가지 내용(생수를 빼앗김, Hali의 거절, 다시 믿게 됨)을 이어 붙였다. 근거: analysis-content.md ‘각 문장 쉬운 풀이’ 3(한 문장에 한 내용), 체크리스트 2번째 항목.",
+   "proposed_fix": "‘앞 장면에서 Alyssa는 한 여자에게 생수를 빼앗겼다. / Hali도 물을 나눠 달라는 부탁을 거절했다. / 그런 Alyssa에게 이 남자의 친절은 다시 사람을 믿게 해 준다.’처럼 나눈다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lc-24",
+   "sentence_id": "s45",
+   "field": "자연 해석·청크(it 지칭)",
+   "current": "자연 해석 ‘카트가 더 이상 쌓을 수 없을 만큼 높아질 때까지’, 청크·힌트 ‘그것[카트]이 쌓일 때까지 / 그것[카트]이 될 수 있는 만큼 높이’",
+   "problem": "한국어 ‘카트가 쌓이다·카트가 높아지다’는 카트 여러 대를 쌓거나 카트 자체가 높아지는 뜻으로 읽힌다. 원문(the cart is piled high = 카트에 짐이 높이 쌓이다)의 뜻이 잘 전달되지 않는다. u3-gp4 설명이 ‘얼음이 쌓인다’고 쓴 것도 이 모호성에서 나왔다. 근거: analysis-content.md ‘직역과 자연 해석’(주체 보존), editorial-core.md 27행. 지칭 대상 선택은 user_report_items 1번에 올린다.",
+   "proposed_fix": "지칭 대상을 카트로 유지할 경우 자연 해석을 ‘Garrett과 나는 카트에 더는 쌓을 수 없을 만큼 높이 쌓일 때까지 얼음 봉지를 하나씩 카트에 담는다’로 고친다. 청크·힌트 직역은 결정에 따라 piled 뜻을 ‘(짐이) 가득 쌓인’으로 조정한다.",
+   "severity": "improve"
+  }
+ ],
+ "user_report_items": [
+  {
+   "id": "UR-1",
+   "sentence_id": "s45",
+   "issue": "until it is piled as high as it can get의 it 지칭 대상과 한국어 표현",
+   "detail": "원고는 두 it를 모두 ‘카트’로 보고 ‘그것[카트]이 쌓일 때까지 / 그것[카트]이 될 수 있는 만큼 높이’로 옮겼다. 영어에서 ‘the cart is piled high’(카트에 짐이 높이 쌓이다)는 자연스러워 카트 해석도 문법적으로 성립한다. 다만 한국어 ‘카트가 쌓이다’는 오해를 부르고, u3-gp4 설명은 ‘얼음이 쌓인다’고 써서 같은 원고 안에서 서로 다르다. 교과서 해석은 주어 없이 ‘최대한 높이 쌓일 때까지’로 처리했다.",
+   "options": "(A, 추천) 카트 유지: 가장 가까운 선행사라 문법상 무리가 적다. piled 뜻을 ‘(짐이) 가득 쌓인’ 등으로 다듬고 gp4 설명(Lc-05)과 자연 해석(Lc-24)을 고친다. (B) 얼음(더미)로 변경: 한국어가 자연스럽고 교과서 해석과도 가깝다. s45 각주 referent 2곳, 힌트 pronoun_refs 2곳, 청크, gp3·gp4 대입·답을 모두 ‘얼음’으로 바꿔야 한다."
+  },
+  {
+   "id": "UR-2",
+   "sentence_id": "s46 / u3-w7",
+   "issue": "오늘의 낱말 take notice의 형태",
+   "detail": "workbook.md 규칙상 완료에서 선정한 p.p.는 실제형을 유지하므로 ‘take notice — 알아차리다’는 규칙 위반이다(Lc-07).",
+   "options": "(A) 각주를 ‘take notice — 알아차리다 (taken은 take의 p.p.형)’로 통합하고(Lc-06), 오늘의 낱말을 ‘taken notice — 알아챘다’로 적는다. (B, 간단) 오늘의 낱말을 ‘notice — 알아챔, 주목’으로 바꾼다(★ 연결 각주·유반 표제어와 일치). 이 경우에도 Lc-06의 각주 통합은 따로 검토한다."
+  },
+  {
+   "id": "UR-3",
+   "sentence_id": "s58·s61",
+   "issue": "제안 고정 표현 Why don’t you V의 구조 힌트 유지 여부",
+   "detail": "규칙상 그 자체 뜻을 익히는 고정 표현은 구조 힌트 후보가 아니다(Lc-17). s61은 핵심 문장이고 u4-gp3에서 같은 구문을 분석하므로, 힌트를 빼도 학습 연결은 남는다.",
+   "options": "(A, 추천) 두 힌트를 빼고 review_record에 사유를 적는다. (B) 유지한다면 강조 범위를 Lc-18대로 줄인다."
+  }
+ ],
+ "checked_ok_summary": "원문: s37~s61 25문장이 PDF 1~2쪽 영어 본문과 철자·따옴표·곡선 아포스트로피·구두점까지 일치한다. 인용문 안의 ?/. 에서 나눈 문장 경계(s41/42, s43/44, s53/54)도 다른 단위와 같은 기준이다. 단락 p16~p19·p20~p25와 단위 범위(10·15문장)는 사용자 확정과 일치한다. 끊어읽기: 모든 청크를 다시 붙이면 원문과 같고, 영어·한국어 청크 수가 같다(s52·s50·s45 청크 문구는 별도 지적). 후치수식 경계(s39 packed with ice, s48 in a business suit, s56 in people)와 가주어 It is good / to know 경계가 맞다. 수동 by 구는 없다. 수량 of 결합(s45 bag of, s58·s61 a bag of)은 protected_spans와 연결돼 있다. 8낱말 초과 청크는 s45 1개(one … after another 숙어라 적정)뿐이다. S/V: 전 문장의 절 수·순서·범위가 맞다. s37 목적격 whom의 S′·V′, s39 there 제외와 a case 표시 축약, s40·s46 병렬 동사 and 보존, s45 until·as 비교절, s55 [and] 등위절, s56 that절 can bring 등을 확인했다. 사용자 결정 적용: s53 S/V·안내문 생략(sv_review verbless-fragment), s50 ‘V: Looks ／ [like] S′: you, V′: could use’, s52 전달절만 표시, s59 not 제외(does fade), s51·s58·s61 축약형 doesn’t/don’t 유지. 각주: 중1 이상 낱말 누락이 없다. 3인칭 단수 원형 표제어(reminds·comes up·smiles·Looks·deserves·says)와 복수형 유지(vegetables·people·times)가 맞다. 수동 be p.p./piled, 능동 완료 have p.p./take(p.p.형 안내), 독립 p.p.(frozen·packed), -ing 분리(doing·grabbing·helping), 동사 보충 to V(begin to V·need to V·wait for A to V), 가주어 It … to V, 관계사·접속사 틀(whom·until·that·as high as)이 규칙에 맞다. 대명사 필수 목록(our·us·his)의 뜻·지시 대상과 조사(us — 우리가/우리를/우리, behind 뒤 조사 중복 없음), 금지 라벨 부재, 단독 you 제외, Garrett 반복 고유명사 연결, 다의어 병기(case·times)를 확인했다. 구조 힌트: 관계사 필수 힌트(s37)가 있다. 선정 우선순위(s51 before V-ing > wait for A to V), 문장당 2개 이하, 절 연결 표시가 연결어+S′·V′에서 끝나는 점, ko-only-verb-construction 적용(s51 wait for A to V만), 독립 p.p. 전체 대응(s39 packed↔가득 찬), 대명사 참조 [지칭 대상] 7곳의 위치·단복수·조사가 맞다. 강조 위치는 표시 문자열 기준으로 계산해 s37·s39·s42·s45(1)·s47·s48·s50·s51·s56·s57이 올바른 문법 대응임을 확인했다. 자연 해석: s61을 뺀 24문장의 주체·시제·부정·양태·지시 대상이 교과서 해석과 뜻이 맞다. 분석: 제목·의도, 흐름(u3 10문장·u4 15문장 모두 순서대로 1회), 쉬운 풀이 선정(각 3문장, 원문 순서, 앞 문맥 연결)을 확인했다. 구문으로 해석하기 기본 3개씩과 보충 2개(u3-gp4 be p.p., u3-gp5 have p.p.)는 supplemental 사유와 formula_routes(u3 2건, u4 빈 목록)가 규칙에 맞다. practice span·formula_support·answer_ko가 원문 위치와 맞는다(지적 항목 제외). 핵심 문장 u3 s39·s45, u4 s56·s61 각 2개. u4 유반 3세트(heavy/weighty/light, difficult/hard/easy, best/finest/worst)는 품사·관계가 타당하다. 오늘의 낱말 u3·u4 각 8개와 ★ 연결을 확인했다(지적 항목 제외)."
+}

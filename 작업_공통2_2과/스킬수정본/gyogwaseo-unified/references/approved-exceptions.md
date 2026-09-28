@@ -75,3 +75,9 @@
 - 유한동사가 없는 이 네 문장은 위 명사구 답변과 같은 방식으로 S/V 줄과 대체 안내문을 모두 생략한다. `clauses:[]`와 `sv_review`를 두되 `kind:"verbless-fragment"`로 기록하고, 이유에 실제 성격(앞 문장 보충 명사구·감탄·대답)을 적는다. 문맥 연결 필드는 기존 계약대로 바로 앞 같은 본문 문장의 ID·SHA-256을 쓴다. s69처럼 실제 질문이 더 앞(s66)에 있으면 그 사실을 이유에 적는다.
 - `sv_line.py`는 `noun-phrase-answer`와 `verbless-fragment` 두 종류만 받는다. 검토 기록 없는 빈 clauses는 계속 오류다. 다른 교재나 다른 문장으로 이 종류를 자동 확대하지 않는다.
 - 주어가 생략된 구어 s50 `“Looks like you could use some help.”`는 명령문과 같은 표시 방식(주어 칸 없이 V만)으로 `V: Looks ／ [like] S′: you, V′: could use`를 출력한다. 생략된 It을 보충하지 않으며, 절 종류는 표시 장치상 `imperative`로 기록하되 `reading_checks.review_record`에 ‘주어 It 생략 구어, 명령문 아님’을 적는다. s52의 인사 관용 표현 Thank you는 S/V에서 제외하고 전달절 `S: I, V: tell`만 표시한다.
+
+### 같은 교재의 L 독립 검수 뒤 추가 결정 (2026-09-28, 이 스킬 사본에만 추가)
+
+- **then으로 이어진 병렬 동사:** s35 `She looks back …, then turns back …`, s70 `The man looks at …, then leaves.`는 and 없이 부사 then이 한 주어의 두 동사를 잇는다. 이 두 문장에 한해 V 칸에 then을 남겨 `V: looks then turns`, `V: looks then leaves`로 표시한다. then을 빼면 `looks turns`처럼 한 동사구로 보이기 때문이다. 다른 부사나 다른 교재로 확대하지 않는다.
+- **연결동사의 최소 보어:** 절 연결 힌트에서 be동사에만 허용하던 ‘뜻을 잡는 최소 보어’ 예외를 이 교재의 연결동사 get·become에도 적용한다. 대상은 s07 `[ever since people got tired]`, s36 `[before it becomes a deep flush]`이다. 보어를 빼면 ‘사람들이 된 이후로’처럼 뜻이 사라진다.
+- **그대로 두기로 한 항목:** 인명 각주는 교과서 해석처럼 영어 이름을 유지한다(`Alyssa — Alyssa (…)`). s72 `who has to make`의 S/V는 s54 need to와 같은 방식으로 `V′: has`를 유지하고, 분석 설명만 이에 맞춘다.

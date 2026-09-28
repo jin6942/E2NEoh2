@@ -103,7 +103,7 @@ She is watching the TV, where a news anchor is talking about the “flow crisis.
 She is watching the TV, / where a news anchor is talking / about the “flow crisis.”
 [S/V] S: She, V: is watching ／ [where] S′: a news anchor, V′: is talking
 [각주]
-she — 그녀는 (엄마) / be V-ing — ~하고 있다 / watch — 보다 / TV — 텔레비전 / where S′ V′ — 그리고 거기에서 S′(이/가) V′하다 (관계부사) / news — 뉴스 / anchor — (뉴스) 앵커, 진행자 / be V-ing — ~하고 있다 / talk — 이야기하다 / about — ~에 관해 / flow crisis — 물 공급 위기
+she — 그녀는 (엄마) / be V-ing — ~하고 있다 / watch — 보다 / TV — 텔레비전 / where S′ V′ — 그리고 거기에서 S′(이/가) V′하다 (관계부사) / news — 뉴스 / anchor — (뉴스) 앵커, 진행자 (흔한 뜻: 닻) / be V-ing — ~하고 있다 / talk — 이야기하다 / about — ~에 관해 / ★ flow crisis — 물 공급 위기
 [구조 힌트] the TV, [where a news anchor is talking] → TV, [그리고 거기에서 뉴스 앵커가 이야기하고 있다] (계속적 관계부사 where)
 [분석 끊어읽기 영어]
 She is watching the TV, / where a news anchor is talking / about the “flow crisis.”
@@ -118,16 +118,16 @@ She is watching the TV, / where a news anchor is talking / about the “flow cri
 [원문]
 This is what the media has been calling the drought ever since people got tired of hearing the word “drought.”
 [혼공 끊어읽기]
-This is / what the media has been calling the drought / ever since people got tired / of hearing the word “drought.”
+This is / what the media has been calling the drought / ever since people got tired of hearing the word “drought.”
 [S/V] S: This, V: is ／ [what] S′: the media, V′: has been calling ／ [ever since] S′: people, V′: got
 [각주]
 this — 이것은 (‘물 공급 위기’라는 말) / is — ~이다 / what S′ V′ — S′(이/가) V′하는 것 (관계대명사) / media — 언론, 대중 매체 / has been calling A B — A를 B라고 (계속) 불러 오고 있다 / ★ drought — 가뭄 / ever since S′ V′ — S′(이/가) V′한 이후로 줄곧 / people — 사람들 / get tired of — ~에 싫증이 나다 (got은 get의 과거) / V-ing — ~하는 것 / hear — 듣다 / word — 단어 / ★ drought — 가뭄
 [구조 힌트] [what the media has been calling] → [언론이 계속 불러 온 것] (관계대명사 what)
 [구조 힌트] [ever since people got tired] → [사람들이 싫증이 난 이후로 줄곧] (접속사 ever since)
 [분석 끊어읽기 영어]
-This is / what the media has been calling the drought / ever since people got tired / of hearing the word “drought.”
+This is / what the media has been calling the drought / ever since people got tired of hearing the word “drought.”
 [분석 끊어읽기 한국어]
-이것은 / 언론이 가뭄을 계속 불러 온 것이다 / 사람들이 싫증이 난 이후로 줄곧 / ‘가뭄’이라는 단어를 듣는 것에.
+이것은 / 언론이 가뭄을 가리켜 계속 불러 온 것이다 / 사람들이 ‘가뭄’이라는 단어를 듣는 것에 싫증이 난 이후로 줄곧.
 [자연 해석]
 이것은 사람들이 ‘가뭄’이라는 단어를 듣는 데 싫증이 난 이후로 언론이 가뭄을 줄곧 불러 온 이름이다.
 ----- [/문장 7] -----
@@ -280,7 +280,7 @@ What I see in the carts in the checkout line are mostly water bottles.
 What I see / in the carts / in the checkout line / are mostly water bottles.
 [S/V] S: What I see in the carts in the checkout line, V: are ／ [What] S′: I, V′: see
 [각주]
-what S′ V′ — S′(이/가) V′하는 것 (관계대명사) / I — 내가 (Alyssa) / see — 보다 / in — ~ 안에서 / carts — 카트들 / in — ~에 (서 있는) / ★ checkout line — 계산대 줄 / are — ~이다 / mostly — 대부분 / water bottles — 생수병들, 물병들
+what S′ V′ — S′(이/가) V′하는 것 (관계대명사) / I — 내가 (Alyssa) / see — 보다 / in — ~ 안에서 / carts — 카트들 / in — ~에 서 있는 / ★ checkout line — 계산대 줄 / are — ~이다 / mostly — 대부분 / water bottles — 생수병들, 물병들
 [구조 힌트] [What I see] → [내[Alyssa]가 보는 것] (관계대명사 what)
 [분석 끊어읽기 영어]
 What I see / in the carts / in the checkout line / are mostly water bottles.
@@ -303,14 +303,14 @@ The essentials / of life.
 [분석 끊어읽기 한국어]
 그 필수품들 / 삶의.
 [자연 해석]
-삶에 꼭 필요한 필수품들이다.
+삶에 꼭 필요한 것들이다.
 ----- [/문장 17] -----
 
 ----- [분석 단위] u1 -----
 [SOURCE_RANGE] 본문 · 원문 문장 1~17
 [제목] The Day the Tap Went Silent (수도꼭지가 조용해진 날)
 [글의 의도/요지]
-오랜 가뭄으로 마침내 수돗물까지 끊기자 Alyssa 가족이 물을 구하러 쇼핑몰로 가는 장면이다. 사람들이 물건 대신 생수만 찾는 모습으로 물이 생명의 필수품이 된 위기 상황을 보여 준다.
+오랜 가뭄으로 마침내 수돗물까지 끊기자 Alyssa와 남동생이 삼촌과 함께 물을 구하러 쇼핑몰로 가는 장면이다. 사람들이 전자 제품 대신 주로 생수를 찾는 모습으로 물이 생명의 필수품이 된 위기 상황을 보여 준다.
 [글의 흐름]
 (발단) 본문 · 원문 문장 1~5 — 주방 수도꼭지가 이상한 소리를 내더니 물이 끊긴다. Alyssa가 엄마를 부르지만 엄마는 조용히 하라고 한다.
 (상황 설명) 본문 · 원문 문장 6~9 — TV 뉴스는 가뭄을 ‘물 공급 위기’라고 부르며 전하고 있다. 위기가 새 단계에 접어들어 이제 수돗물이 나오지 않는다.
@@ -320,12 +320,12 @@ The essentials / of life.
 [2번 문장] It coughs.
 2번 문장은 1번에서 이상한 소리를 낸 수도꼭지를 사람처럼 표현한다. 물이 거의 나오지 않는 수도꼭지는 공기와 물이 섞여 콜록거리는 소리를 낸다. 글쓴이는 이 소리를 사람이 기침하는 모습에 빗댔다. 물이 곧 끊길 것이라는 신호를 생생하게 보여 주는 문장이다.
 [7번 문장] This is what the media has been calling the drought ever since people got tired of hearing the word “drought.”
-7번 문장은 6번 뉴스에 나온 ‘물 공급 위기’라는 말이 어디서 나왔는지 알려 준다. 가뭄이 너무 오래 이어져서 사람들은 ‘가뭄’이라는 말을 듣는 데 지쳐 버렸다. 그래서 언론은 같은 가뭄을 ‘물 공급 위기’라는 새 이름으로 부르기 시작했다. 이름만 바뀌었을 뿐 가뭄은 계속되고 있다는 뜻이다.
+7번 문장은 6번 뉴스에 나온 ‘물 공급 위기’라는 말이 어디서 나왔는지 알려 준다. 사람들은 ‘가뭄’이라는 말을 너무 자주 들어서 이제 그 말을 듣는 것에 지쳐 버렸다. 그래서 언론은 같은 가뭄을 ‘물 공급 위기’라는 새 이름으로 부르기 시작했다. 이름만 바뀌었을 뿐 가뭄은 계속되고 있다는 뜻이다.
 [15번 문장] Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after.
-15번 문장은 쇼핑몰 안의 모습을 보여 준다. 블랙 프라이데이는 미국에서 큰 할인 행사가 열리는 날이다. 이날 매장은 싼 물건을 사려는 사람들로 몹시 붐빈다. 오늘 매장은 그날처럼 붐비지만 사람들이 찾는 것은 텔레비전이나 게임기가 아니다. 다음 16번 문장에서 사람들이 찾는 것이 물이라는 것이 드러난다.
+15번 문장은 쇼핑몰 안의 모습을 보여 준다. 블랙 프라이데이는 미국에서 큰 할인 행사가 열리는 날이다. 이날 매장은 싼 물건을 사려는 사람들로 몹시 붐빈다. 오늘 매장은 그날처럼 붐비지만 사람들이 찾는 것은 텔레비전이나 비디오 게임이 아니다. 다음 16번 문장에서 사람들이 찾는 것이 물이라는 것이 드러난다.
 [구문으로 해석하기]
 콤마 + where S′ V′: 그리고 거기에서 S′가 V′하다 [6번 문장]: the TV, where a news anchor is talking about the “flow crisis.” — 공식: 명사, where S′ V′ — 명사, 그리고 거기에서 S′(이/가) V′하다. 앞 명사 = the TV(TV), where = 그리고 거기에서(TV에서), S′ = a news anchor(뉴스 앵커), V′ = is talking(이야기하고 있다), about the “flow crisis” = ‘물 공급 위기’에 관해. → TV, 그리고 거기에서 뉴스 앵커가 ‘물 공급 위기’에 관해 이야기하고 있다. 콤마 뒤 where는 앞 명사를 받아 설명을 이어 준다.
-what S′ V′: S′가 V′하는 것 [7번 문장]: This is what the media has been calling the drought — 공식: what S′ V′ — S′(이/가) V′하는 것. S′ = the media(언론), V′ = has been calling(계속 불러 오고 있다; call A B = A를 B라고 부르다), A = the drought(가뭄), B = what(부르는 것, 곧 이름). → 언론이 가뭄을 계속 불러 온 것(이름). 앞의 This is(이것은 ~이다)와 합치면 ‘이것은 언론이 가뭄을 계속 불러 온 이름이다’가 된다.
+what S′ V′: S′가 V′하는 것 [7번 문장]: This is what the media has been calling the drought — 공식: what S′ V′ — S′(이/가) V′하는 것. S′ = the media(언론), V′ = has been calling(계속 불러 오고 있다; call A B = A를 B라고 부르다), A = the drought(가뭄), B = what(부르는 것, 곧 이름). → 언론이 가뭄을 가리켜 계속 불러 온 것(이름). 앞의 This is(이것은 ~이다)와 합치면 ‘이것은 언론이 가뭄을 가리켜 계속 불러 온 이름이다’가 된다.
 It is not A that S′ V′: S′가 V′하는 것은 A가 아니다 [15번 문장]: today it’s not televisions and video games people are after — 공식: It is not A (that) S′ V′ — S′(이/가) V′하는 것은 A가 아니다. A = televisions and video games(텔레비전과 비디오 게임), that = 생략됨, S′ = people(사람들), V′ = are after(찾고 있다; be after = ~을 찾다). → 사람들이 찾는 것은 텔레비전과 비디오 게임이 아니다. 앞의 today(오늘)와 합치면 ‘오늘 사람들이 찾는 것은 텔레비전과 비디오 게임이 아니다’.
 [유의어·반의어]
 표제어: strange (이상한) / 유의어: odd (이상한, 특이한) / 반의어: normal (평범한, 정상적인)
@@ -383,7 +383,7 @@ Even that politeness is stretched thin.
 Even that politeness / is stretched thin.
 [S/V] S: that politeness, V: is stretched
 [각주]
-even — ~조차, 심지어 / that — 그 / ★ politeness — 공손함, 예의 바름 / be p.p. — ~되다 / stretched — 늘어난, 팽팽하게 당겨진 / thin — 얇게
+even — ~조차, 심지어 / that — 그 / ★ politeness — 공손함, 예의 바름 / be p.p. — ~되어 있다 / stretched — 늘어난, 팽팽하게 당겨진 / thin — 얇게
 [구조 힌트] stretched(늘어난) → is stretched(늘어나 있다) (be p.p.)
 [분석 끊어읽기 영어]
 Even that politeness / is stretched thin.
@@ -547,7 +547,7 @@ I’m — 나는 ~이다 (= I am) (그 여자) / sorry — 미안한 / we — �
 [분석 끊어읽기 영어]
 “I’m sorry, / but we were here first,” / she says.
 [분석 끊어읽기 한국어]
-“미안하지만, / 우리가 여기에 먼저 있었어요,” / 그녀가 말한다.
+“미안해요, / 하지만 우리가 여기에 먼저 있었어요,” / 그녀가 말한다.
 [자연 해석]
 “미안하지만 우리가 먼저 왔어요.” 그 여자가 말한다.
 ----- [/문장 29] -----
@@ -560,7 +560,7 @@ And then her daughter steps forward — a girl I recognize from soccer — Hali 
 And then / her daughter steps forward / — a girl / I recognize from soccer / — Hali Hartling.
 [S/V] S: her daughter, V: steps ／ [(that)] S′: I, V′: recognize
 [각주]
-then — 그러고 나서, 그러자 / her — 그녀의 (그 여자) / daughter — 딸 / step forward — 앞으로 나오다 / girl — 소녀 / I — 내가 (Alyssa) / recognize — (누구인지) 알아보다 / from — ~에서 / soccer — 축구 (여기서는 축구부) / Hali Hartling — Hali Hartling (그 여자의 딸, Alyssa와 같은 축구부)
+then — 그러고 나서, 그러자 / her — 그녀의 (그 여자) / daughter — 딸 / step forward — 앞으로 나오다 / girl — 소녀 / I — 내가 (Alyssa) / recognize — (누구인지) 알아보다 / from — ~에서 / soccer — 축구부 (흔한 뜻: 축구) / Hali Hartling — Hali Hartling (그 여자의 딸, Alyssa와 같은 축구부)
 [구조 힌트] a girl [(that) I recognize] → [내[Alyssa]가 알아보는] 한 소녀 (목적격 관계대명사 that 생략)
 [분석 끊어읽기 영어]
 And then / her daughter steps forward / — a girl / I recognize from soccer / — Hali Hartling.
@@ -583,7 +583,7 @@ as S′ V′ — S′(이/가) V′할 때 / her — 그녀의 (Hali) / mother �
 [분석 끊어읽기 영어]
 As her mother pulls their cart away, / Hali leans closer to me.
 [분석 끊어읽기 한국어]
-그녀의 엄마가 그들의 카트를 끌고 갈 때, / Hali는 나에게 더 가까이 몸을 기울인다.
+그녀의 엄마가 그들의 카트를 끌고 갈 때, / Hali는 나 쪽으로 더 가까이 몸을 기울인다.
 [자연 해석]
 엄마가 카트를 끌고 가자 Hali가 내 쪽으로 몸을 기울인다.
 ----- [/문장 31] -----
@@ -602,7 +602,7 @@ I’m — 나는 ~이다 (= I am) (Hali) / sorry — 미안한 / about — ~에 
 [분석 끊어읽기 한국어]
 “그 일에 대해 미안해, Alyssa.”
 [자연 해석]
-“미안해, Alyssa.”
+“그 일은 미안해, Alyssa.”
 ----- [/문장 32] -----
 
 ----- [문장 33] -----
@@ -613,7 +613,7 @@ I’m — 나는 ~이다 (= I am) (Hali) / sorry — 미안한 / about — ~에 
 “Didn’t I share my water with you / at the practice / last week?” / I point out to her.
 [S/V] S: I, V: Didn’t share ／ S: I, V: point
 [각주]
-didn’t V — ~하지 않았니? (= did not) / I — 내가 (Alyssa) / share A with B — A를 B와 나누다 / my — 나의 (Alyssa) / water — 물 / at — ~에, ~ 때 / practice — (축구) 연습 / last week — 지난주 / I — 나는 (Alyssa) / point out — (사실을) 짚어 말하다, 지적하다 / to — ~에게 / her — 그녀 (Hali)
+didn’t V — ~하지 않았니? (= did not) / I — 내가 (Alyssa) / share A with B — A를 B와 나누다 / my — 나의 (Alyssa) / water — 물 / at — ~ 때 / practice — (축구) 연습 / last week — 지난주 / I — 나는 (Alyssa) / point out — (사실을) 짚어 말하다, 지적하다 / to — ~에게 / her — 그녀 (Hali)
 [분석 끊어읽기 영어]
 “Didn’t I share my water with you / at the practice / last week?” / I point out to her.
 [분석 끊어읽기 한국어]
@@ -635,7 +635,7 @@ maybe — 아마, 어쩌면 / could V — ~할 수 있을 것이다 / ★ return
 [분석 끊어읽기 영어]
 “Maybe you could return the favor / and share a few bottles with me.”
 [분석 끊어읽기 한국어]
-“아마 너는 그 호의를 갚을 수 있을 거야 / 그리고 나와 몇 병을 나눌 (수 있을 거야).”
+“아마 너는 그 호의를 갚을 수 있을 거야 / 그리고 나와 몇 병을 나눌 수 있을 거야.”
 [자연 해석]
 “너도 그 호의를 갚는 셈 치고 나랑 물 몇 병 나눠 주면 좋겠어.”
 ----- [/문장 34] -----
@@ -667,9 +667,9 @@ And then she gets a little bit red in the face, and turns to leave before it bec
 And then / she gets a little bit red in the face, / and turns to leave / before it becomes a deep flush.
 [S/V] S: she, V: gets and turns ／ [before] S′: it, V′: becomes
 [각주]
-then — 그러고 나서 / she — 그녀는 (Hali) / get — (~한 상태가) 되다, ~해지다 / a little bit — 조금, 약간 / red in the face — 얼굴이 빨개진 / turn — 돌아서다 / to V — ~하기 위해 / leave — 떠나다 / before S′ V′ — S′(이/가) V′하기 전에 / it — 그것이 (얼굴이 붉어진 것) / become — ~이 되다 / deep — 짙은, 깊은 / ★ flush — (얼굴의) 홍조, 붉어짐
+then — 그러고 나서 / she — 그녀는 (Hali) / get — (~한 상태가) 되다, ~해지다 / a little bit — 조금, 약간 / red in the face — 얼굴이 빨개진 / turn — 돌아서다 / to V — ~하기 위해 / leave — 떠나다 / before S′ V′ — S′(이/가) V′하기 전에 / it — 그것이 (얼굴의 붉은 기) / become — ~이 되다 / deep — 짙은, 깊은 / ★ flush — (얼굴의) 홍조, 붉어짐
 [구조 힌트] [to leave] → [떠나기 위해] (목적의 to부정사)
-[구조 힌트] [before it becomes a deep flush] → [그것[붉어진 얼굴]이 짙은 홍조가 되기 전에] (시간 접속사 before)
+[구조 힌트] [before it becomes a deep flush] → [그것[얼굴의 붉은 기]이 짙은 홍조가 되기 전에] (시간 접속사 before)
 [분석 끊어읽기 영어]
 And then / she gets a little bit red in the face, / and turns to leave / before it becomes a deep flush.
 [분석 끊어읽기 한국어]
@@ -682,7 +682,7 @@ And then / she gets a little bit red in the face, / and turns to leave / before 
 [SOURCE_RANGE] 본문 · 원문 문장 18~36
 [제목] The Last Case of Water (마지막 생수 한 상자)
 [글의 의도/요지]
-물이 귀해지자 겉으로는 공손하던 사람들 사이에 적대감이 드러나고, 먼저 생수를 가져간 사람도, 도움을 받았던 친구 Hali도 물을 나누지 않는 모습을 보여 준다.
+물이 귀해지자 사람들은 겉으로는 예의를 지키지만 속으로는 적대감을 품고, Alyssa가 찾은 생수를 마지막 순간에 가로챈 여자도, 도움을 받았던 친구 Hali도 물을 나누지 않는 모습을 보여 준다.
 [글의 흐름]
 (매장 분위기) 본문 · 원문 문장 18~20 — 줄을 선 사람들의 얼굴에는 조급함이 가득하고, 얇은 예의 뒤에 적대감이 숨어 있다. 그 예의조차 곧 무너질 듯하다.
 (생수 쟁탈) 본문 · 원문 문장 21~28 — 진열대는 이미 비었지만 Alyssa는 옆 통로에서 누군가 두고 간 생수 한 상자를 찾아낸다. 그러나 손을 뻗는 순간 한 여자가 그것을 가져가 자기 카트 맨 위에 올려놓는다.
@@ -692,15 +692,15 @@ And then / she gets a little bit red in the face, / and turns to leave / before 
 [20번 문장] Even that politeness is stretched thin.
 20번 문장은 19번에서 말한 ‘얇은 공손함’을 한 번 더 짚는다. 사람들은 겉으로는 예의를 지키고 있다. 하지만 그 예의는 고무줄처럼 팽팽하게 늘어나 있어서 조금만 더 당기면 끊어질 것 같다. 물 때문에 사람들 사이의 다툼이 곧 터질 수 있다는 뜻이다.
 [28번 문장] She stacks it on top of her cart like a crown on top of her canned goods.
-28번 문장은 27번에서 생수 상자를 가져간 여자가 그 상자를 어떻게 다루는지 보여 준다. 여자는 생수 상자를 카트 속 통조림 맨 위에 올려놓는다. 글쓴이는 이 모습을 왕관을 머리에 올린 것에 빗댔다. 물이 가장 귀한 보물이 되었고, 여자가 그것을 자랑스럽게 차지했다는 느낌을 준다.
+28번 문장은 27번에서 생수 상자를 가져간 여자가 그 상자를 어떻게 다루는지 보여 준다. 여자는 생수 상자를 카트 속 통조림 맨 위에 올려놓는다. 글쓴이는 이 모습을 왕관을 머리에 올린 것에 빗댔다. 왕관은 가장 귀한 보물을 떠올리게 한다. 물이 그만큼 귀한 것이 되었다는 뜻이다. 여자는 그 보물을 손에 넣은 사람처럼 보인다.
 [36번 문장] And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.
-36번 문장은 35번에서 고개를 저은 Hali의 반응을 이어서 보여 준다. Hali의 얼굴이 살짝 붉어진다. 예전에 물을 나눠 받았는데 이번에는 갚지 못해서 미안하고 부끄럽기 때문이다. Hali는 얼굴이 새빨개지기 전에 서둘러 자리를 떠난다.
+36번 문장은 35번에서 고개를 저은 Hali의 반응을 이어서 보여 준다. Hali는 지난주에 Alyssa에게 물을 나눠 받았다. 그런데 이번에는 그 호의를 갚지 못하고 거절했다. 그래서 Hali는 미안하고 부끄러웠을 것이다. 얼굴이 새빨개지기 전에 Hali는 자리를 뜨려고 돌아선다.
 [구문으로 해석하기]
 (that) S′ V′: S′가 V′라는 것 [21번 문장]: I realize I am too late — 공식: realize (that) S′ V′ — S′(이/가) V′라는 것을 깨닫다. that = 생략된 명사절 접속사, S′ = I(내가), V′ = am(~이다), too late = 너무 늦은. → 내가 너무 늦었다는 것(을 깨닫는다). realize 바로 뒤에 주어+동사가 오면 사이에 that이 빠진 것으로 보고 ‘~라는 것을’로 이어 읽는다.
 명사 + that S′ V′: S′가 V′했던 명사 [26번 문장]: a single case of water that someone abandoned there maybe yesterday — 공식: 명사(N) + that S′ V′ — S′(이/가) V′했던 N. N = a single case of water(생수 한 상자), that = 목적격 관계대명사(그 상자를), S′ = someone(누군가), V′ = abandoned(버려두었다), there = 그곳에, maybe yesterday = 아마 어제. → 누군가가 아마 어제 그곳에 버려두었던 생수 한 상자. that 뒤에 abandon의 목적어가 비어 있어 that이 목적어 역할을 한다.
-only to V: (그러나) 결국 ~할 뿐이다 [27번 문장]: I reach for it, only to find it pulled away — 공식: 앞 동작, only to V — ~했지만 결국 V할 뿐이다. 앞 동작 = I reach for it(나는 그것을 향해 손을 뻗는다), V = find(발견하다), find A p.p. = A가 ~된 것을 발견하다, A = it(생수 한 상자), p.p. = pulled away(당겨져 간). → 손을 뻗지만 결국 그것이 당겨져 가 버린 것을 발견할 뿐이다. 기대와 다른 결과가 이어짐을 보여 준다.
+only to V: (그러나) 결국 ~할 뿐이다 [27번 문장]: I reach for it, only to find it pulled away — 공식: 앞 동작, only to V — ~했지만 결국 V할 뿐이다. 앞 동작 = I reach for it(나는 그것을 향해 손을 뻗는다), V = find(발견하다), find 뒤 내용 = it pulled away(그것이 당겨져 가 버린 것: it = 생수 한 상자, pulled away = 당겨져 가 버린). → 손을 뻗지만 결국 그것이 당겨져 가 버린 것을 발견할 뿐이다. 기대와 다른 결과가 이어짐을 보여 준다.
 [유의어·반의어]
-표제어: empty (비어 있는) / 유의어: vacant (비어 있는, 빈) / 반의어: full (가득 찬)
+표제어: empty (비어 있는) / 유의어: bare (텅 빈, 아무것도 없는) / 반의어: full (가득 찬)
 표제어: precious (귀한, 귀중한) / 유의어: valuable (귀중한, 값비싼) / 반의어: worthless (가치 없는, 쓸모없는)
 표제어: politeness (공손함, 예의 바름) / 유의어: courtesy (공손함, 예의) / 반의어: rudeness (무례함)
 ----- [/분석 단위] -----
@@ -718,7 +718,7 @@ I look for Garrett, whom I find in the frozen aisle.
 I look for Garrett, / whom I find / in the frozen aisle.
 [S/V] S: I, V: look ／ [whom] S′: I, V′: find
 [각주]
-I — 나는 (Alyssa) / look for — ~을 찾다 / whom S′ V′ — 그리고 그를 S′(이/가) V′하다 (관계대명사) / I — 내가 (Alyssa) / find — 발견하다 / in — ~에서 / ★ frozen — 냉동된, 얼린 / aisle — 통로
+I — 나는 (Alyssa) / look for — ~을 찾다 / whom S′ V′ — 그리고 그를 S′(이/가) V′하다 (관계대명사) / I — 내가 (Alyssa) / find — 발견하다 / in — ~에서 / frozen — 냉동식품(의) / aisle — 통로
 [구조 힌트] Garrett, [whom I find] → Garrett, [그리고 그를 내[Alyssa]가 발견한다] (계속적 관계대명사 whom)
 [분석 끊어읽기 영어]
 I look for Garrett, / whom I find / in the frozen aisle.
@@ -753,7 +753,7 @@ Just past the frozen vegetables and ice cream, there is a case packed with ice.
 Just past the frozen vegetables and ice cream, / there is a case / packed with ice.
 [S/V] S: a case, V: is
 [각주]
-just — 바로 / past — ~을 지나서 / ★ frozen — 냉동된, 얼린 / vegetables — 채소들 / ice cream — 아이스크림 / is — 있다 / ★ case — (유리문이 달린) 진열장 (흔한 뜻: 경우) / ★ packed — 가득 찬, 꽉 채워진 / with — ~으로 / ice — 얼음
+just — 바로 / past — ~을 지나서 / ★ frozen — 냉동된, 얼린 / vegetables — 채소들 / ice cream — 아이스크림 / is — 있다 / ★ case — (냉동) 진열장 (흔한 뜻: 경우) / ★ packed — 가득 찬, 꽉 채워진 / with — ~으로 / ice — 얼음
 [구조 힌트] a case [packed with ice] → [얼음으로 가득 찬] 진열장 (과거분사 후치수식)
 [분석 끊어읽기 영어]
 Just past the frozen vegetables and ice cream, / there is a case / packed with ice.
@@ -857,15 +857,15 @@ Garrett and I put one bag of ice after another into our cart, until it is piled 
 Garrett and I put one bag of ice after another / into our cart, / until it is piled / as high as it can get.
 [S/V] S: Garrett and I, V: put ／ [until] S′: it, V′: is piled ／ [as] S′: it, V′: can get
 [각주]
-I — 나는 (Alyssa) / put — 넣다, 놓다 / ★ one A after another — A를 하나씩 차례로 / bag of — 봉지의 / ice — 얼음 / into — ~ 안으로 / our — 우리의 (Alyssa와 Garrett) / cart — 카트 / until S′ V′ — S′(이/가) V′할 때까지 / it — 그것이 (카트) / be p.p. — ~되다 / ★ piled — 쌓인 / as high as S′ V′ — S′(이/가) V′하는 만큼 높이 / it — 그것이 (카트) / can V — ~할 수 있다 / get — (어떤 상태가) 되다
-[구조 힌트] [until it is piled] → [그것[카트]이 쌓일 때까지] (시간 접속사 until)
+I — 나는 (Alyssa) / put — 넣다, 놓다 / ★ one A after another — A를 하나씩 차례로 / bag of — 봉지의 / ice — 얼음 / into — ~ 안으로 / our — 우리의 (Alyssa와 Garrett) / cart — 카트 / until S′ V′ — S′(이/가) V′할 때까지 / it — 그것이 (카트) / be p.p. — ~되다 / ★ piled — (짐이) 가득 쌓인 / as high as S′ V′ — S′(이/가) V′하는 만큼 높이 / it — 그것이 (카트) / can V — ~할 수 있다 / get — (어떤 상태가) 되다
+[구조 힌트] [until it is piled] → [그것[카트]이 가득 쌓일 때까지] (시간 접속사 until)
 [구조 힌트] [as high as it can get] → [그것[카트]이 될 수 있는 만큼 높이] (as ~ as 비교 구문)
 [분석 끊어읽기 영어]
 Garrett and I put one bag of ice after another / into our cart, / until it is piled / as high as it can get.
 [분석 끊어읽기 한국어]
-Garrett과 나는 얼음 한 봉지를 하나씩 차례로 넣는다 / 우리의 카트 안으로, / 그것이 쌓일 때까지 / 그것이 될 수 있는 만큼 높이.
+Garrett과 나는 얼음 봉지를 하나씩 차례로 넣는다 / 우리의 카트 안으로, / 그것이 가득 쌓일 때까지 / 그것이 될 수 있는 만큼 높이.
 [자연 해석]
-Garrett과 나는 카트가 더 이상 쌓을 수 없을 만큼 높아질 때까지 얼음 봉지를 하나씩 카트에 담는다.
+Garrett과 나는 카트가 더는 쌓을 수 없을 만큼 높이 가득 찰 때까지 얼음 봉지를 하나씩 카트에 담는다.
 ----- [/문장 45] -----
 
 ----- [문장 46] -----
@@ -876,7 +876,7 @@ By now other people have taken notice and begin to empty the ice case.
 By now / other people have taken notice / and begin to empty the ice case.
 [S/V] S: other people, V: have taken and begin
 [각주]
-by now — 이제쯤은, 이쯤 되자 / other — 다른 / people — 사람들 / have p.p. — ~했다 / take — (행동을) 하다, 취하다 (taken은 take의 p.p.형) / ★ notice — 알아챔, 주목 (take notice: 알아차리다) / begin to V — ~하기 시작하다 / ★ empty — 비우다 / ice case — 얼음 진열장
+by now — 이제쯤은, 이쯤 되자 / other — 다른 / people — 사람들 / have p.p. — ~했다 / take — 하다 (taken은 take의 p.p.형) / ★ notice — 주목, 알아챔 / begin to V — ~하기 시작하다 / ★ empty — 비우다 / ★ ice case — 얼음 진열장
 [분석 끊어읽기 영어]
 By now / other people have taken notice / and begin to empty the ice case.
 [분석 끊어읽기 한국어]
@@ -893,24 +893,24 @@ By now / other people have taken notice / and begin to empty the ice case.
 [글의 흐름]
 (발견) 본문 · 원문 문장 37~40 — Alyssa는 냉동식품 통로에서 Garrett을 찾고, 그 옆에 얼음이 가득 든 진열장을 발견한다. 문을 열고 얼음 봉지를 집으려 한다.
 (대화) 본문 · 원문 문장 41~44 — Garrett은 필요한 것은 얼음이 아니라 물이라고 말한다. Alyssa는 얼음도 물이라며 도와 달라고 한다.
-(행동과 반응) 본문 · 원문 문장 45~46 — 두 사람은 카트가 더 쌓을 수 없을 만큼 높아질 때까지 얼음 봉지를 담는다. 이를 본 다른 사람들도 얼음 진열장을 비우기 시작한다.
+(행동과 반응) 본문 · 원문 문장 45~46 — 두 사람은 카트가 더는 쌓을 수 없을 만큼 가득 찰 때까지 얼음 봉지를 담는다. 이를 본 다른 사람들도 얼음 진열장을 비우기 시작한다.
 [각 문장 쉬운 풀이]
 [43번 문장] “Ice is water.
 43번 문장은 42번에서 물이 필요하다는 Garrett의 말에 대한 Alyssa의 대답이다. 얼음은 물이 얼어서 굳은 것이다. 녹이면 다시 마실 수 있는 물이 된다. Alyssa는 생수가 없으면 얼음을 대신 가져가면 된다는 것을 떠올렸다.
 [45번 문장] Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get.
-45번 문장은 Alyssa의 생각을 곧바로 행동으로 옮기는 장면이다. Garrett과 Alyssa는 얼음 봉지를 하나씩 카트에 담는다. 카트에 더 이상 쌓을 수 없을 만큼 높이 쌓일 때까지 멈추지 않는다. 물을 조금이라도 더 확보하려는 두 사람의 절박함이 드러난다.
+45번 문장은 Alyssa의 생각을 곧바로 행동으로 옮기는 장면이다. 두 사람은 카트에 더 쌓을 자리가 없을 때까지 얼음 봉지를 담는다. 얼음을 많이 모을수록 나중에 쓸 물도 많아진다. 물을 조금이라도 더 확보하려는 두 사람의 절박함이 드러난다.
 [46번 문장] By now other people have taken notice and begin to empty the ice case.
-46번 문장은 두 사람의 행동을 본 다른 사람들의 반응이다. 다른 사람들도 얼음이 물을 대신할 수 있다는 것을 눈치챈다. 그래서 그들도 얼음 진열장을 비우기 시작한다. 물이 부족한 상황에서 사람들이 쓸 만한 것은 무엇이든 서둘러 차지하려 한다는 것을 보여 준다.
+46번 문장은 두 사람의 행동을 본 다른 사람들의 반응이다. 다른 사람들도 얼음이 물을 대신할 수 있다는 것을 눈치챈다. 그래서 그들도 얼음 진열장을 비우기 시작한다. 물이 부족하자 사람들이 얼음까지 서둘러 차지하려 한다는 것을 보여 준다.
 [구문으로 해석하기]
 콤마 + whom S′ V′: 그리고 그를 S′가 V′하다 [37번 문장]: I look for Garrett, whom I find in the frozen aisle — 공식: 명사, whom S′ V′ — 명사, 그리고 그를 S′(이/가) V′하다. 앞 명사 = Garrett, whom = 그리고 그를(Garrett을), S′ = I(내가), V′ = find(발견하다), in the frozen aisle = 냉동식품 통로에서. → Garrett, 그리고 그를 나는 냉동식품 통로에서 발견한다. whom은 find의 목적어 자리를 대신하며, 콤마 뒤라 앞 명사에 설명을 이어 준다.
 명사 + p.p.: ~된(한) 명사 [39번 문장]: there is a case packed with ice — 공식: 명사(N) + p.p. — p.p.된(한) N. N = a case(진열장), p.p. = packed(가득 찬, 채워진), with ice = 얼음으로. → 얼음으로 가득 찬 진열장. 진열장이 얼음을 채우는 것이 아니라 얼음으로 ‘채워진’ 쪽이라 과거분사 packed가 뒤에서 꾸민다. there is와 합치면 ‘얼음으로 가득 찬 진열장이 있다’.
 as + 부사 + as S′ V′: S′가 V′하는 만큼 ~하게 [45번 문장]: as high as it can get — 공식: as + 부사 + as S′ V′ — S′(이/가) V′하는 만큼 ~하게. 부사 = high(높이), S′ = it(카트), V′ = can get(될 수 있다; can = ~할 수 있다, get = 되다). → 카트가 될 수 있는 만큼 높이, 곧 더는 쌓을 수 없을 만큼 최대한 높이.
-be p.p.: ~되다 (is piled: 쌓이다) [45번 문장]: until it is piled — 공식: be p.p. — ~되다. be = is(현재), p.p. = piled(쌓인, pile의 p.p.형). → is piled = 쌓이다. 카트(it)가 스스로 쌓는 것이 아니라 얼음이 ‘쌓이는’ 쪽이라 수동을 쓴다. 앞의 until it과 이으면 ‘그것(카트)이 쌓일 때까지’.
+be p.p.: ~되다 (is piled: 가득 쌓이다) [45번 문장]: until it is piled — 공식: be p.p. — ~되다. be = is(현재), p.p. = piled((짐이) 가득 쌓인, pile의 p.p.형). → is piled = 가득 쌓이다. 카트(it)가 무언가를 쌓는 것이 아니라, 두 사람이 얼음을 쌓아서 카트가 (얼음으로) 가득 쌓이는 쪽이라 수동 is piled를 쓴다. 앞의 until it과 이으면 ‘그것(카트)이 가득 쌓일 때까지’.
 have p.p.: ~했다 (have taken notice: 알아챘다) [46번 문장]: other people have taken notice — 공식: have p.p. — ~했다. have = 현재완료의 조동사, p.p. = taken(take의 p.p.형; take notice = 알아차리다). → have taken notice = 알아챘다(이미 알아차린 상태). 주어 other people(다른 사람들)과 합치면 ‘다른 사람들이 알아챘다’.
 [유의어·반의어]
 표제어: packed (가득 찬) / 유의어: filled (가득 찬, 채워진) / 반의어: empty (비어 있는)
-표제어: high (높이, 높은) / 유의어: tall (높은, 키가 큰) / 반의어: low (낮은, 낮게)
-표제어: notice (알아챔, 주목) / 유의어: attention (주의, 주목) / 반의어: disregard (무시, 묵살)
+표제어: find (발견하다, 찾아내다) / 유의어: discover (발견하다) / 반의어: lose (잃어버리다)
+표제어: notice (주목, 알아챔) / 유의어: note (주목, 주의) / 반의어: disregard (무시, 묵살)
 ----- [/분석 단위] -----
 ===== [/지문] =====
 
@@ -984,7 +984,7 @@ look like S′ V′ — S′(이/가) V′하는 것 같다 / could use — ~이
 [분석 끊어읽기 영어]
 “Looks like / you could use some help.”
 [분석 끊어읽기 한국어]
-“~인 것 같구나 / 너희가 도움을 좀 필요로 할.”
+“보아하니 / 너희가 도움이 좀 필요하겠구나.”
 [자연 해석]
 “도움이 좀 필요한 것 같구나.”
 ----- [/문장 50] -----
@@ -1013,14 +1013,14 @@ He doesn’t wait / for us to answer / before grabbing the cart’s handle.
 [원문]
 “Thank you for helping us,” I tell him.
 [혼공 끊어읽기]
-“Thank you / for helping us,” / I tell him.
+“Thank you for helping us,” / I tell him.
 [S/V] S: I, V: tell
 [각주]
 thank you for V-ing — ~해 줘서 고마워요 / help — 돕다 / us — 우리를 (Alyssa와 Garrett) / I — 나는 (Alyssa) / tell — 말하다 / him — 그에게 (정장 차림의 남자)
 [분석 끊어읽기 영어]
-“Thank you / for helping us,” / I tell him.
+“Thank you for helping us,” / I tell him.
 [분석 끊어읽기 한국어]
-“고마워요 / 우리를 도와준 것에 대해,” / 나는 그에게 말한다.
+“우리를 도와줘서 고마워요,” / 나는 그에게 말한다.
 [자연 해석]
 “도와주셔서 감사합니다.” 내가 그에게 말한다.
 ----- [/문장 52] -----
@@ -1121,7 +1121,6 @@ I decide / that one favor deserves another.
 [S/V] S: you, V: don’t take ／ S: I, V: suggest
 [각주]
 Why don’t you V? — ~하는 게 어때요? (제안) / take — 가져가다 / a bag of — 한 봉지의 / ice — 얼음 / for — ~을 위해 / yourself — 당신 자신 (정장 차림의 남자) / I — 나는 (Alyssa) / suggest — 제안하다
-[구조 힌트] [Why don’t you take] → [당신[정장 차림의 남자]이 가져가는 게 어때요] (제안 표현 Why don’t you V)
 [분석 끊어읽기 영어]
 “Why don’t you take a bag of ice / for yourself,” / I suggest.
 [분석 끊어읽기 한국어]
@@ -1173,13 +1172,12 @@ I — 나는 (정장 차림의 남자) / have — 가지고 있다 / better — 
 [S/V] S: you, V: don’t take ／ [and] S: I, V: ’ll keep
 [각주]
 Why don’t you V? — ~하는 게 어때? (제안) / take — 가져가다 / a bag of — 한 봉지의 / ice — 얼음 / for — ~을 위해 / yourselves — 너희 자신 (Alyssa와 Garrett) / I’ll — 나는 ~할 것이다 (= I will) (정장 차림의 남자) / keep — 가지다, 차지하다 / ★ the rest — 나머지
-[구조 힌트] [Why don’t you take] → [너희[Alyssa와 Garrett]가 가져가는 게 어때] (제안 표현 Why don’t you V)
 [분석 끊어읽기 영어]
 “Why don’t you take a bag of ice / for yourselves, / and I’ll keep the rest.”
 [분석 끊어읽기 한국어]
 “너희가 얼음 한 봉지를 가져가는 게 어때 / 너희 자신을 위해, / 그리고 내가 나머지를 가질게.”
 [자연 해석]
-“너희가 얼음 한 봉지를 가져가고, 나머지는 내가 가지는 게 어떠니.”
+“너희가 얼음 한 봉지를 가져가는 게 어떠니, 나머지는 내가 가질게.”
 ----- [/문장 61] -----
 
 ----- [분석 단위] u4 -----
@@ -1189,13 +1187,13 @@ Why don’t you V? — ~하는 게 어때? (제안) / take — 가져가다 / a 
 친절하게 도와주던 남자가 사실은 얼음을 차지하려는 속셈이었다는 반전을 통해, 어려운 시기의 호의가 늘 순수하지만은 않다는 것을 보여 준다.
 [글의 흐름]
 (낯선 남자의 등장) 본문 · 원문 문장 47~51 — 카트가 너무 무거워 밀기 어려울 때 정장 차림의 남자가 다가와 웃으며 도와주겠다고 한다. 그는 대답도 듣기 전에 카트 손잡이를 잡는다.
-(감사와 믿음) 본문 · 원문 문장 52~57 — Alyssa가 고맙다고 하자 남자는 서로 도와야 한다고 말한다. Alyssa는 어려운 시기가 사람들의 좋은 면을 끌어낸다고 느끼며 호의에 보답하기로 한다.
+(감사와 믿음) 본문 · 원문 문장 52~57 — Alyssa가 고맙다고 하자 남자는 서로 도와야 한다고 말한다. Alyssa는 어려운 시기가 사람들의 좋은 면을 끌어낼 수 있다고 느끼며 호의에 보답하기로 한다.
 (반전) 본문 · 원문 문장 58~61 — Alyssa가 얼음 한 봉지를 가져가라고 권하자, 남자는 여전히 웃으며 오히려 아이들이 한 봉지만 가져가고 나머지는 자기가 갖겠다고 한다.
 [각 문장 쉬운 풀이]
 [50번 문장] “Looks like you could use some help.”
 50번 문장은 49번에서 미소 지은 남자가 처음 건네는 말이다. 남자는 아이들이 무거운 카트 때문에 힘들어 보인다고 말한다. 겉으로는 친절하게 도움을 제안하는 말이다. 하지만 뒤에서 이 도움에 다른 속셈이 있었다는 것이 드러난다.
 [56번 문장] It is good to know that difficult times can bring out the best in people.
-56번 문장은 남자의 말을 들은 Alyssa의 생각이다. 힘든 일이 생기면 사람들이 서로 돕는 좋은 모습을 보일 수 있다는 뜻이다. 앞 장면에서 생수를 빼앗기고 Hali에게도 거절당한 Alyssa는 이 남자 덕분에 다시 사람을 믿게 된다. 그래서 뒤에 나올 남자의 속셈이 더 큰 반전이 된다.
+56번 문장은 남자의 말을 들은 Alyssa의 생각이다. 힘든 일이 생기면 사람들이 서로 돕는 좋은 모습을 보일 수 있다는 뜻이다. 앞 장면에서 Alyssa는 한 여자에게 생수를 빼앗겼다. Hali도 물을 나눠 달라는 부탁을 거절했다. 그런 Alyssa에게 이 남자의 친절은 다시 사람을 믿게 해 준다. 그래서 뒤에 나올 남자의 속셈이 더 큰 반전이 된다.
 [61번 문장] “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”
 61번 문장은 이 장면의 반전이다. 58번에서 Alyssa는 남자에게 얼음 한 봉지를 가져가라고 했다. 남자는 그 말을 뒤집어 아이들이 한 봉지만 가져가라고 한다. 그리고 카트에 가득한 나머지 얼음은 자기가 갖겠다고 한다. 남자가 카트를 잡아 준 것은 친절이 아니라 얼음을 차지하려는 속셈이었다.
 [구문으로 해석하기]
@@ -1229,7 +1227,7 @@ For a moment / I think he is joking, / but then realize / he is serious.
 [분석 끊어읽기 한국어]
 잠시 동안 / 나는 그가 농담하고 있다고 생각한다, / 하지만 곧 깨닫는다 / 그가 진지하다는 것을.
 [자연 해석]
-잠시 나는 그가 농담하는 줄 알았지만, 곧 그가 진지하다는 것을 깨닫는다.
+잠시 나는 그가 농담하는 거라고 생각하지만, 곧 그가 진지하다는 것을 깨닫는다.
 ----- [/문장 62] -----
 
 ----- [문장 63] -----
@@ -1274,7 +1272,7 @@ As long as his hands are firmly locked on the handle of our cart, there is nothi
 As long as his hands are firmly locked / on the handle / of our cart, / there is nothing / to prove / that it’s ours and not his.
 [S/V] [As long as] S′: his hands, V′: are locked ／ S: nothing, V: is ／ [that] S′: it, V′: ’s
 [각주]
-as long as S′ V′ — S′(이/가) V′하는 한 / his — 그의 (정장 차림의 남자) / hands — 손들 / be p.p. — ~되다 / ★ firmly — 단단히, 꽉 / locked — 고정된, 꽉 붙잡힌 / on — ~에 / handle — 손잡이 / of — ~의 / our — 우리의 (Alyssa와 Garrett) / cart — 카트 / is — 있다 / nothing — 아무것도 ~ 않다(없다) / to V — ~할 / ★ prove — 증명하다 / that S′ V′ — S′(이/가) V′라는 것 (접속사) / it’s — 그것은 ~이다 (it’s = it is) (카트) / ours — 우리의 것 (Alyssa와 Garrett) / not — ~이 아니라 / his — 그의 것 (정장 차림의 남자)
+as long as S′ V′ — S′(이/가) V′하는 한 / his — 그의 (정장 차림의 남자) / hands — 손들 / be p.p. — ~되다 / ★ firmly — 단단히, 꽉 / locked — (꽉) 고정된 (흔한 뜻: 잠긴) / on — ~에 / handle — 손잡이 / of — ~의 / our — 우리의 (Alyssa와 Garrett) / cart — 카트 / is — 있다 / nothing — 아무것도 ~ 않다(없다) / to V — ~할 / ★ prove — 증명하다 / that S′ V′ — S′(이/가) V′라는 것 (접속사) / it’s — 그것이 ~이다 (= it is) (카트) / ours — 우리의 것 (Alyssa와 Garrett) / A and not B — B가 아니라 A / his — 그의 것 (정장 차림의 남자)
 [구조 힌트] [As long as his hands are firmly locked] → [그[정장 차림의 남자]의 손이 단단히 고정되어 있는 한] (조건 접속사 as long as)
 [구조 힌트] nothing [to prove] → [증명할] 아무것도 (to부정사 후치수식)
 [분석 끊어읽기 영어]
@@ -1361,7 +1359,7 @@ The man looks at the ice with a bitter face, then leaves.
 The man looks at the ice / with a bitter face, / then leaves.
 [S/V] S: The man, V: looks then leaves
 [각주]
-man — 남자 / look at — ~을 바라보다 / ice — 얼음 / with — ~한 (얼굴)로 / bitter — 씁쓸한, 억울해하는 / face — 얼굴, 표정 / then — 그러고 나서 / leave — 떠나다
+man — 남자 / look at — ~을 바라보다 / ice — 얼음 / with — ~로 / bitter — 씁쓸한, 억울해하는 (흔한 뜻: (맛이) 쓴) / face — 얼굴, 표정 / then — 그러고 나서 / leave — 떠나다
 [분석 끊어읽기 영어]
 The man looks at the ice / with a bitter face, / then leaves.
 [분석 끊어읽기 한국어]
@@ -1432,41 +1430,41 @@ Provided that the factors contributing to water shortages worldwide are not addr
 Provided that the factors / contributing to water shortages worldwide / are not addressed, / including climate change, population growth, / and using too much water for agriculture, / it is possible that this story can become a reality.
 [S/V] [Provided that] S′: the factors, V′: are addressed ／ S: it, V: is ／ [that] S′: this story, V′: can become
 [각주]
-provided that S′ V′ — S′(이/가) V′한다면 (= if) / ★ factors — 요인들 / V-ing — ~하는 / contribute — (원인이 되어) 기여하다 / to — ~에 / ★ water shortages — 물 부족 / worldwide — 전 세계적으로 / be not p.p. — ~되지 않다 / ★ addressed — (문제가) 해결된, 다뤄진 / including — ~을 포함하여 / climate change — 기후 변화 / population — 인구 / growth — 증가, 성장 / V-ing — ~하는 것 / use — 사용하다 / too much — 너무 많은 / water — 물 / for — ~을 위해 / agriculture — 농업 / It is possible that S′ V′ — S′(이/가) V′할 가능성이 있다 (It은 뒤의 that절을 대신함) / this — 이 / story — 이야기 / can V — ~할 수 있다 / become — ~이 되다 / reality — 현실
+provided that S′ V′ — S′(이/가) V′한다면 (= if) / ★ factors — 요인들 / V-ing — ~하는 / contribute — (원인이 되어) 기여하다 / to — ~에 / ★ water shortages — 물 부족 / worldwide — 전 세계적으로 / be not p.p. — ~되지 않다 / ★ addressed — (문제가) 해결된, 다뤄진 (흔한 뜻: 주소) / including — ~을 포함하여 / climate change — 기후 변화 / population — 인구 / growth — 증가, 성장 / V-ing — ~하는 것 / use — 사용하다 / too much — 너무 많은 / water — 물 / for — ~을 위해 / agriculture — 농업 / It is possible that S′ V′ — S′(이/가) V′할 가능성이 있다 (It은 뒤의 that절을 대신함) / this — 이 / story — 이야기 / can V — ~할 수 있다 / become — ~이 되다 / reality — 현실
 [구조 힌트] [Provided that the factors contributing to water shortages worldwide are not addressed] → [전 세계적으로 물 부족의 원인이 되는 요인들이 해결되지 않는다면] (조건 접속사 provided that)
 [구조 힌트] it is possible that [this story can become a reality] → [이 이야기가 현실이 될 수 있을] 가능성이 있다 (가주어 It과 진주어 that절)
 [분석 끊어읽기 영어]
 Provided that the factors / contributing to water shortages worldwide / are not addressed, / including climate change, population growth, / and using too much water for agriculture, / it is possible that this story can become a reality.
 [분석 끊어읽기 한국어]
-만약 요인들이 / 전 세계적으로 물 부족의 원인이 되는 / 해결되지 않는다면, / 기후 변화, 인구 증가, / 그리고 농업을 위해 너무 많은 물을 사용하는 것을 포함하여, / 이 이야기가 현실이 될 수 있을 가능성이 있다.
+만약 요인들이 / 전 세계적으로 물 부족의 원인이 되는 / 해결되지 않는다면, / 기후 변화, 인구 증가를 포함하여, / 그리고 농업을 위해 너무 많은 물을 사용하는 것(을 포함하여), / 이 이야기가 현실이 될 수 있을 가능성이 있다.
 [자연 해석]
 기후 변화, 인구 증가, 농업용수 과다 사용처럼 전 세계적으로 물 부족을 일으키는 요인들이 해결되지 않는다면, 이 이야기는 현실이 될 수도 있다.
 ----- [/문장 74] -----
 
 ----- [분석 단위] u5 -----
 [SOURCE_RANGE] 본문 · 원문 문장 62~74
-[제목] Help Arrives, and a Warning (때맞춘 도움, 그리고 경고)
+[제목] Timely Help and a Warning (때맞춘 도움, 그리고 경고)
 [글의 의도/요지]
-Basil 삼촌이 제때 나타나 남자의 위협을 막아 내는 장면으로 이야기를 마무리한다. 이어서 작품 소개를 통해 물 부족의 원인이 해결되지 않으면 이 소설 속 가뭄이 현실이 될 수 있다고 경고한다.
+Basil 삼촌이 제때 나타나 남자가 얼음을 가져가지 못하고 떠나는 장면으로 소설 도입부 발췌가 끝난다. 이어서 작품 소개를 통해 물 부족의 원인이 해결되지 않으면 이 소설 속 가뭄이 현실이 될 수 있다고 경고한다.
 [글의 흐름]
-(위협) 본문 · 원문 문장 62~65 — Alyssa는 남자가 농담하는 줄 알았다가 진지하다는 것을 깨닫는다. 남자는 웃고 있지만 눈빛이 무섭고, 그가 카트 손잡이를 쥐고 있는 한 카트가 아이들 것임을 증명할 방법이 없다.
+(위협) 본문 · 원문 문장 62~65 — Alyssa는 처음에 남자가 농담한다고 생각하지만 곧 진지하다는 것을 깨닫는다. 남자는 웃고 있지만 눈빛이 무섭고, 그가 카트 손잡이를 쥐고 있는 한 카트가 아이들 것임을 증명할 방법이 없다.
 (해결) 본문 · 원문 문장 66~70 — 그때 Basil 삼촌이 나타나 무슨 문제가 있느냐고 묻는다. 남자는 전혀 아니라고 하고는 씁쓸한 얼굴로 얼음을 바라보다 떠난다.
 (작품 소개) 본문 · 원문 문장 71~74 — 이 글은 소설 『Dry』의 도입부를 줄인 것으로, 가뭄 속에서 가족을 위해 힘든 선택을 해야 하는 소녀의 이야기다. 물 공급이 다시 시작되며 모험은 끝나지만, 물 부족의 원인이 해결되지 않으면 이 이야기는 현실이 될 수 있다.
 [각 문장 쉬운 풀이]
 [65번 문장] As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.
-65번 문장은 64번에서 무서워진 Alyssa가 왜 겁이 나는지 보여 준다. 남자는 카트 손잡이를 꽉 붙잡고 있다. 카트에는 이름표 같은 것이 없다. 그래서 남자가 손을 떼지 않는 한 카트가 아이들 것이라고 증명할 방법이 없다. 아이들이 힘으로도 말로도 얼음을 지키기 어려운 상황이다.
+65번 문장은 64번에서 무서워진 Alyssa가 왜 겁이 나는지 보여 준다. 남자는 카트 손잡이를 꽉 붙잡고 있다. 카트를 붙잡고 있는 사람이 주인처럼 보이기 쉽다. 카트가 아이들 것이라는 증거는 따로 없다. 그래서 남자가 손잡이를 놓지 않는 한 아이들은 얼음이 담긴 카트를 지키기 어렵다.
 [70번 문장] The man looks at the ice with a bitter face, then leaves.
 70번 문장은 삼촌이 나타난 뒤 남자의 반응이다. 69번에서 남자는 문제가 전혀 없다고 대답했다. 하지만 남자는 얼음을 놓치게 되어 억울하고 아쉬운 얼굴로 얼음을 바라본다. 어른인 삼촌 앞에서는 아이들의 얼음을 가져갈 수 없어서 결국 떠난다.
 [74번 문장] Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.
 74번 문장은 작품 소개의 마지막 문장으로, 글 전체가 전하려는 경고다. 실제 세계에서도 물이 부족해지는 원인들이 있다. 기후 변화, 늘어나는 인구, 농사에 물을 너무 많이 쓰는 일이 그 예다. 이런 원인을 해결하지 않으면 소설 속 가뭄 이야기가 우리 현실이 될 수도 있다.
 [구문으로 해석하기]
 as long as S′ V′: S′가 V′하는 한 [65번 문장]: As long as his hands are firmly locked on the handle of our cart — 공식: as long as S′ V′ — S′(이/가) V′하는 한. S′ = his hands(그의 손), V′ = are firmly locked(단단히 고정되어 있다), on the handle of our cart = 우리 카트의 손잡이에. → 그의 손이 우리 카트의 손잡이에 단단히 고정되어 있는 한. ‘~하는 동안에는 계속’이라는 조건을 나타내며, 뒤 주절(증명할 방법이 없다)이 그 조건 아래에서 성립한다.
-명사 + who V′: V′하는 명사 [72번 문장]: a girl who has to make tough choices for her family — 공식: 명사(N) + who V′ — V′하는 N. N = a girl(한 소녀), who = 주격 관계대명사(그 소녀가), V′ = has to make(해야 하다; have to V = ~해야 한다, make = 하다), tough choices = 힘든 선택들, for her family = 그녀의 가족을 위해. → 그녀의 가족을 위해 힘든 선택들을 해야 하는 한 소녀.
+명사 + who V′: V′하는 명사 [72번 문장]: a girl who has to make tough choices for her family — 공식: 명사(N) + who V′ — V′하는 N. N = a girl(한 소녀), who = 주격 관계대명사(그 소녀가), V′ = has(S/V 표시; has to make = 해야 하다, have to V = ~해야 한다, make = 하다), tough choices = 힘든 선택들, for her family = 그녀의 가족을 위해. → 그녀의 가족을 위해 힘든 선택들을 해야 하는 한 소녀.
 provided that S′ V′: S′가 V′한다면 [74번 문장]: Provided that the factors contributing to water shortages worldwide are not addressed — 공식: provided that S′ V′ — S′(이/가) V′한다면(= if). S′ = the factors(요인들), 이를 꾸미는 contributing to water shortages worldwide = 전 세계적으로 물 부족의 원인이 되는, V′ = are not addressed(해결되지 않다). → 전 세계적으로 물 부족의 원인이 되는 요인들이 해결되지 않는다면.
-be p.p.: ~되다 (are locked: 고정되어 있다) [65번 문장]: his hands are firmly locked — 공식: be p.p. — ~되다. be = are(현재), p.p. = locked(고정된, lock의 p.p.형), 사이의 firmly = 단단히. → are firmly locked = 단단히 고정되어 있다. 손은 스스로 잠그는 것이 아니라 손잡이에 ‘고정된’ 상태라 수동을 쓴다. 주어 his hands와 합치면 ‘그의 손이 단단히 고정되어 있다’.
+be p.p.: ~되다 (are locked: 고정되어 있다) [65번 문장]: his hands are firmly locked — 공식: be p.p. — ~되다. be = are(현재), p.p. = locked(고정된, lock의 p.p.형), 사이의 firmly = 단단히. → are firmly locked = 단단히 고정되어 있다. 주어 his hands가 무엇을 고정하는 것이 아니라 손잡이에 ‘고정된’ 상태이므로 수동(be p.p.)을 쓴다. 주어 his hands와 합치면 ‘그의 손이 단단히 고정되어 있다’.
 be not p.p.: ~되지 않다 (are not addressed: 해결되지 않다) [74번 문장]: the factors contributing to water shortages worldwide are not addressed — 공식: be not p.p. — ~되지 않다. be = are(현재), not = 부정, p.p. = addressed(해결된, address의 p.p.형). → are not addressed = 해결되지 않다. 요인들은 사람들이 ‘해결해야 하는’ 대상이라 수동을 쓴다. 주어 the factors와 합치면 ‘요인들이 해결되지 않는다’.
 [유의어·반의어]
-표제어: serious (진지한) / 유의어: earnest (진지한, 진심 어린) / 반의어: playful (장난스러운, 농담하는)
+표제어: serious (진지한) / 유의어: earnest (진지한, 진심 어린) / 반의어: playful (장난스러운, 장난기 있는)
 표제어: resume (재개되다, 다시 시작되다) / 유의어: restart (다시 시작되다) / 반의어: halt (멈추다, 중단되다)
 표제어: growth (증가, 성장) / 유의어: increase (증가) / 반의어: decline (감소, 하락)
 ----- [/분석 단위] -----

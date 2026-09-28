@@ -86,8 +86,8 @@ def sentences(T):
 
     # ---------------- s50 ----------------
     s = S('s50', T['s50'])
-    s.ch('“Looks like', '“~인 것 같구나')
-    s.ch('you could use some help.”', '너희가 도움을 좀 필요로 할.”')
+    s.ch('“Looks like', '“보아하니')
+    s.ch('you could use some help.”', '너희가 도움이 좀 필요하겠구나.”')
     s.natural('“도움이 좀 필요한 것 같구나.”')
     s.cl('imperative', 'Looks', verbs=['Looks'])
     s.cl('subordinate', 'you', subj='you', verbs=['could', 'use'], marker='like')
@@ -140,8 +140,7 @@ def sentences(T):
 
     # ---------------- s52 ----------------
     s = S('s52', T['s52'])
-    s.ch('“Thank you', '“고마워요')
-    s.ch('for helping us,”', '우리를 도와준 것에 대해,”')
+    s.ch('“Thank you for helping us,”', '“우리를 도와줘서 고마워요,”')
     s.ch('I tell him.', '나는 그에게 말한다.')
     s.natural('“도와주셔서 감사합니다.” 내가 그에게 말한다.')
     s.cl('main', 'I', subj='I', verbs=['tell'])
@@ -160,7 +159,7 @@ def sentences(T):
     s.ch('“Not a problem.', '“문제없어.')
     s.natural('“별거 아니야.')
     verbless(s, 's52', T['s52'], '고맙다는 인사(s52)에 대한 짧은 대답 명사구 Not a problem. 유한동사가 없어 S/V 줄을 생략한다.')
-    s.g('Not|problem', 'not a problem', '별거 아니야, 괜찮아')
+    s.g('Not|a|problem', 'not a problem', '별거 아니야, 괜찮아')
     s.review = ('유한동사가 없는 대답 표현(Not a problem). 2026-09-28 사용자 결정으로 S/V 줄과 안내문 생략(verbless-fragment). '
                 '인용문 안의 마침표에서 문장을 나눔(s54로 인용 계속). 힌트 없음.')
     out.append(s)
@@ -191,7 +190,7 @@ def sentences(T):
     s.g('smiles', 'smile', '미소 짓다', verb_form=v3(s, 'smiles', 'smile', 'He'))
     s.g('again', 'again', '다시')
     s.g('I', 'I', '나는', referent_ko='Alyssa')
-    s.g('return|smile', 'return the smile', '(상대의) 미소에 미소로 답하다')
+    s.g('return|the|smile', 'return the smile', '(상대의) 미소에 미소로 답하다')
     s.review = '두 주절이 and로 연결(He smiles again / I return the smile). 관계사·수동 없음 → 힌트 없음.'
     out.append(s)
 
@@ -214,7 +213,7 @@ def sentences(T):
     fc = s.g('can', 'can V', '~할 수 있다', kind='function', combines_with=[])
     bo = s.g('bring|out', 'bring out', '(좋은 점을) 끌어내다, 드러나게 하다', star=W['bring_out'])
     link(fc, bo)
-    s.g('best', 'the best', '가장 좋은 면, 최선')
+    s.g('the|best', 'the best', '가장 좋은 면, 최선')
     s.g('in', 'in', '~ 안에 있는')
     s.g('people', 'people', '사람들')
     s.brk('in', 'postnominal-preposition', 'in people은 앞 명사 the best를 뒤에서 꾸미는 전치사구')
@@ -266,12 +265,8 @@ def sentences(T):
     s.g('I', 'I', '나는', referent_ko='Alyssa')
     s.g('suggest', 'suggest', '제안하다')
     s.prot('a bag of', 'quantity-kind-of', '수량 표현 a bag of가 뒤 명사 ice 앞에서 ‘한 봉지의’로 같은 어순 대응', gloss=q)
-    s.hint('[Why don’t you take]', '[당신[정장 차림의 남자]이 가져가는 게 어때요]', span='Why don’t you take', label='제안 표현 Why don’t you V',
-           links=[(['Why don’t you'], ['이', '는 게 어때요'])], refs=[('you', '당신', '[정장 차림의 남자]')],
-           meaning='당신이 (얼음 한 봉지를) 가져가는 게 어때요',
-           explanation='Why don’t you V?는 이유를 묻는 말이 아니라 ‘~하는 게 어때?’라는 제안. 목적어 a bag of ice for yourself는 제외. 원문은 물음표 대신 콤마로 인용을 닫음.')
     s.review = ('인용된 제안 Why don’t you take a bag of ice for yourself(S: you, V: don’t take; 원문은 물음표 없이 콤마) + 전달절 I suggest. '
-                '수량 표현 a bag of. 힌트 1개(제안 표현). 관계사·수동 없음.')
+                '수량 표현 a bag of. 제안 고정 표현 Why don’t you V?는 그 자체 뜻을 익히는 표현이라 각주로 충분하고 u4-gp3에서 분석 → 힌트 없음(L-c Lc-17). 관계사·수동 없음.')
     out.append(s)
 
     # ---------------- s59 ----------------
@@ -308,7 +303,7 @@ def sentences(T):
     s.ch('“Why don’t you take a bag of ice', '“너희가 얼음 한 봉지를 가져가는 게 어때')
     s.ch('for yourselves,', '너희 자신을 위해,')
     s.ch('and I’ll keep the rest.”', '그리고 내가 나머지를 가질게.”')
-    s.natural('“너희가 얼음 한 봉지를 가져가고, 나머지는 내가 가지는 게 어떠니.”')
+    s.natural('“너희가 얼음 한 봉지를 가져가는 게 어떠니, 나머지는 내가 가질게.”')
     s.cl_spans('main', s.at('Why')[0], subj=s.at('you'), verbs=[s.at('don’t'), s.at('take')])
     il = s.at('I’ll')
     s.cl_spans('main', s.at('and')[0], subj=[il[0], il[0] + 1], verbs=[[il[0] + 1, il[1]], s.at('keep')], marker='and')
@@ -320,14 +315,10 @@ def sentences(T):
     s.g('yourselves', 'yourselves', '너희 자신', referent_ko='Alyssa와 Garrett')
     s.g('I’ll', 'I’ll', '나는 ~할 것이다 (= I will)', referent_ko='정장 차림의 남자')
     s.g('keep', 'keep', '가지다, 차지하다')
-    s.g('rest', 'the rest', '나머지', star=W['rest'])
+    s.g('the|rest', 'the rest', '나머지', star=W['rest'])
     s.prot('a bag of', 'quantity-kind-of', '수량 표현 a bag of가 뒤 명사 ice 앞에서 ‘한 봉지의’로 같은 어순 대응', gloss=q)
-    s.hint('[Why don’t you take]', '[너희[Alyssa와 Garrett]가 가져가는 게 어때]', span='Why don’t you take', label='제안 표현 Why don’t you V',
-           links=[(['Why don’t you'], ['가', '는 게 어때'])], refs=[('you', '너희', '[Alyssa와 Garrett]')],
-           meaning='너희가 (얼음 한 봉지를) 가져가는 게 어때',
-           explanation='s58과 같은 제안 표현 Why don’t you V?. 남자는 Alyssa의 말을 그대로 되받아 you가 가져갈 몫을 한 봉지로 줄이고, and 뒤에서 나머지를 자기가 갖겠다고 한다.')
     s.review = ('인용된 두 절: 제안 Why don’t you take a bag of ice for yourselves(S: you, V: don’t take) + and I’ll keep the rest(’ll = will). '
-                's58 Alyssa의 제안을 뒤집은 남자의 속셈. 힌트 1개(제안 표현). 관계사·수동 없음.')
+                's58 Alyssa의 제안을 뒤집은 남자의 속셈. 제안 고정 표현은 각주로 충분하고 u4-gp3에서 분석 → 힌트 없음(L-c Lc-17). 관계사·수동 없음.')
     out.append(s)
     return out
 
@@ -358,7 +349,7 @@ def analysis(_):
             {'sentence_ids': ['s47', 's48', 's49', 's50', 's51'], 'label': '낯선 남자의 등장',
              'text_ko': '카트가 너무 무거워 밀기 어려울 때 정장 차림의 남자가 다가와 웃으며 도와주겠다고 한다. 그는 대답도 듣기 전에 카트 손잡이를 잡는다.'},
             {'sentence_ids': ['s52', 's53', 's54', 's55', 's56', 's57'], 'label': '감사와 믿음',
-             'text_ko': 'Alyssa가 고맙다고 하자 남자는 서로 도와야 한다고 말한다. Alyssa는 어려운 시기가 사람들의 좋은 면을 끌어낸다고 느끼며 호의에 보답하기로 한다.'},
+             'text_ko': 'Alyssa가 고맙다고 하자 남자는 서로 도와야 한다고 말한다. Alyssa는 어려운 시기가 사람들의 좋은 면을 끌어낼 수 있다고 느끼며 호의에 보답하기로 한다.'},
             {'sentence_ids': ['s58', 's59', 's60', 's61'], 'label': '반전',
              'text_ko': 'Alyssa가 얼음 한 봉지를 가져가라고 권하자, 남자는 여전히 웃으며 오히려 아이들이 한 봉지만 가져가고 나머지는 자기가 갖겠다고 한다.'},
         ],
@@ -371,7 +362,9 @@ def analysis(_):
             {'sentence_id': 's56', 'explanatory_sentences': [
                 '56번 문장은 남자의 말을 들은 Alyssa의 생각이다.',
                 '힘든 일이 생기면 사람들이 서로 돕는 좋은 모습을 보일 수 있다는 뜻이다.',
-                '앞 장면에서 생수를 빼앗기고 Hali에게도 거절당한 Alyssa는 이 남자 덕분에 다시 사람을 믿게 된다.',
+                '앞 장면에서 Alyssa는 한 여자에게 생수를 빼앗겼다.',
+                'Hali도 물을 나눠 달라는 부탁을 거절했다.',
+                '그런 Alyssa에게 이 남자의 친절은 다시 사람을 믿게 해 준다.',
                 '그래서 뒤에 나올 남자의 속셈이 더 큰 반전이 된다.']},
             {'sentence_id': 's61', 'explanatory_sentences': [
                 '61번 문장은 이 장면의 반전이다.',
@@ -387,7 +380,7 @@ def analysis(_):
                             '→ 밀기에 거의 불가능한. 앞의 The cart is(카트는 ~이다)와 합치면 ‘카트는 밀기가 거의 불가능하다’.',
              'practice': {'span': 'almost impossible to push',
                           'formula_support': {'en': '형용사 + to V', 'ko': 'V하기에 (형용사)한'},
-                          'support': [('s47', 'almost'), ('s47', 'impossible'), ('s47', 'to V'), ('s47', 'push')],
+                          'support': [('s47', 'almost'), ('s47', 'impossible'), ('s47', 'push')],
                           'answer_ko': '밀기에 거의 불가능한'}},
             {'id': 'u4-gp2', 'sentence_id': 's56', 'span': 'It is good to know that difficult times can bring out the best in people',
              'title': 'It is 형용사 to V: V하는 것은 (형용사)하다', 'formula_key': 'It is 형용사 to V',
@@ -396,7 +389,7 @@ def analysis(_):
                             '→ 어려운 시기가 사람들의 가장 좋은 면을 끌어낼 수 있다는 것을 아는 것은 좋다.',
              'practice': {'span': 'It is good to know',
                           'formula_support': {'en': 'It is 형용사 to V', 'ko': 'V하는 것은 (형용사)하다'},
-                          'support': [('s56', 'is'), ('s56', 'good'), ('s56', 'know')],
+                          'support': [('s56', 'good'), ('s56', 'know')],
                           'answer_ko': '아는 것은 좋다'}},
             {'id': 'u4-gp3', 'sentence_id': 's61', 'span': 'Why don’t you take a bag of ice for yourselves',
              'title': 'Why don’t you V?: ~하는 게 어때?', 'formula_key': 'Why don’t you V?',

@@ -1,0 +1,217 @@
+{
+ "reviewer": "L-b",
+ "scope": {
+  "unit_ids": [
+   "u2"
+  ],
+  "sentence_ids": [
+   "s18",
+   "s19",
+   "s20",
+   "s21",
+   "s22",
+   "s23",
+   "s24",
+   "s25",
+   "s26",
+   "s27",
+   "s28",
+   "s29",
+   "s30",
+   "s31",
+   "s32",
+   "s33",
+   "s34",
+   "s35",
+   "s36"
+  ]
+ },
+ "inputs_checked": [
+  "작업_공통2_2과/공통영어2_YBM(박준언)_UNIT02_QC_HANDOFF.txt 1~8행(머리), 337~707행(u2 전체: 문장 18~36, 분석 단위 u2), 300~336행(u1 분석부 문맥 참고)",
+  "작업_공통2_2과/검수입력/L_u2.json selected_data: sentences s18~s36의 text·chunks·natural_ko·clauses(sv_review 포함)·glosses(verb_form·verb_construction·kind 포함)·lexical_coverage·hints(display_pairs·emphasis_links·pronoun_refs, display_mode·display_spans·lexical_step 등)·reading_checks, units[u2]의 today_words·analysis(제목·의도·흐름·쉬운 풀이·grammar_points·practice·formula_routes·relations)",
+  "emphasis_links·pronoun_refs 위치를 display 문자열 기준 [start,end)로 스크립트 계산해 실제 강조 글자 전수 확인",
+  "권위 원문 PDF (2022개정)2025년_공통영어2_YBM(박준언)_2과_본문_(20251205수정).pdf 1~3쪽(pypdfium2 추출): s18~s36 원문 문자열 19개 모두 공백 정규화 후 PDF 본문과 일치 확인, 오른쪽 단 교과서 해석과 뜻 대조",
+  "청크 재결합(청크 사이 비공백 누락 없음)·lexical_coverage 전 낱말 위치 포함 여부 스크립트 확인"
+ ],
+ "rules_read": [
+  "스킬수정본/gyogwaseo-unified/SKILL.md",
+  "references/editorial-core.md",
+  "references/analysis-content.md (끊어읽기, S/V 표기, 구조 힌트·대명사 참조·대응 강조, 직역과 자연 해석, 공통 학습 단위별 지문분석, 각 문장 쉬운 풀이·체크리스트)",
+  "references/gloss-rules.md",
+  "references/grammar-labels.md",
+  "references/preposition-meanings.md",
+  "references/proper-nouns.md",
+  "references/common-errors.md",
+  "references/approved-exceptions.md (맨 끝 ‘공통영어2 YBM(박준언) 2과의 동사 없는 짧은 문장’ 절 포함)",
+  "references/manuscript-data.md ‘문장 주석’·‘구조 힌트의 대명사 참조’·‘공통 단위’·‘분석·워크북 구문 결합 연습 계약’ 절"
+ ],
+ "findings": [
+  {
+   "id": "Lb-01",
+   "sentence_id": "s20",
+   "field": "각주",
+   "current": "각주 `be p.p. — ~되다 / stretched — 늘어난, 팽팽하게 당겨진`; 구조 힌트 `stretched(늘어난) → is stretched(늘어나 있다) (be p.p.)`(강조 is↔있다); 한국어 청크 `얇게 늘어나 있다.`",
+   "problem": "같은 문장의 기능 각주 뜻 ‘~되다’(동작 수동)와 구조 힌트·청크의 상태 수동 ‘~아 있다’가 어긋나고, 힌트의 대응 강조 is↔있다가 각주 기능 뜻에 근거가 없다. 학생이 각주대로 결합하면 ‘늘어나게 된다’가 되어 청크 ‘늘어나 있다’와 다르다. 근거: gloss-rules.md ‘금지와 검수’ 6(같은 구문은 기능 각주의 조사·연결 어미가 구조 힌트의 해당 부분에 그대로 대응), gloss-rules.md 기능 공식 표 아래 ‘표의 뜻은 예시이며 문맥에 맞는 한 뜻을 고른다’, manuscript-data.md 승인 사례 `be p.p. — ~해 있다`.",
+   "proposed_fix": "s20-g04 meaning_ko를 `~되어 있다`(또는 승인 선례와 같은 `~해 있다`)로 고친다. 힌트 `stretched(늘어난) → is stretched(늘어나 있다) (be p.p.)`와 강조 is↔있다, formula_routes는 그대로 둔다. (참고: 교재 전체가 상태 수동에도 `be p.p. — ~되다`를 쓰는 관행이면 다른 단위 담당 검수에서 같은 기준으로 확인 필요)",
+   "severity": "error"
+  },
+  {
+   "id": "Lb-02",
+   "sentence_id": "s29",
+   "field": "끊어읽기",
+   "current": "영어 `“I’m sorry, / but we were here first,” / she says.` ↔ 한국어 `“미안하지만, / 우리가 여기에 먼저 있었어요,” / 그녀가 말한다.`",
+   "problem": "but(대조)의 뜻 ‘-지만’이 영어 but이 없는 첫 청크에 들어가 있고, but이 있는 둘째 청크의 한국어에는 대응 뜻이 없다. 조각 수는 같지만 같은 의미 단위끼리 대응하지 않는다. 근거: editorial-core.md ‘해석·S/V·각주·구조 힌트’ 첫 단락(영어·한국어 끊어읽기는 같은 조각 수로 대응), analysis-content.md ‘끊어읽기’(같은 의미 단위를 같은 수의 조각으로 대응).",
+   "proposed_fix": "한국어 청크를 `“미안해요,` / `하지만 우리가 여기에 먼저 있었어요,”` / `그녀가 말한다.`로 고친다. 자연 해석은 그대로 둔다.",
+   "severity": "error"
+  },
+  {
+   "id": "Lb-03",
+   "sentence_id": "s33",
+   "field": "각주",
+   "current": "`at — ~에, ~ 때` (한국어 청크 `연습 때`)",
+   "problem": "전치사(기능어)에 두 뜻을 함께 적었다. 근거: gloss-rules.md ‘기본 형식과 순서’(기능어 뜻은 문맥의 한 뜻으로 정하고 괄호·쉼표로 대안을 남기지 않음), gloss-rules.md ‘금지와 검수’ 8(By — ~무렵에는에 선택하지 않은 뜻을 쉼표로 남기지 않는다).",
+   "proposed_fix": "`at — ~ 때`로 한 뜻만 남긴다(청크 ‘연습 때’, 자연 해석 ‘지난주 연습 때’와 일치).",
+   "severity": "error"
+  },
+  {
+   "id": "Lb-04",
+   "sentence_id": "s35",
+   "field": "S/V",
+   "current": "`S: She, V: looks then turns ／ [who] V′: ’s moving` (main clause verb_spans에 부사 then 포함; review_record ‘then은 부사지만 두 동사를 잇는 연결 자리라 V 표시에 보존’)",
+   "problem": "동사 칸에는 실제 동사구만 넣고 부사는 넣지 않으며, 병렬 동사 사이에 보존하는 연결어는 원문의 and·or·but뿐이다. then은 부사이고 이 교재에 승인된 예외도 아니다(사용자 확정 ‘동사 칸에서 부사 not 제외’와도 같은 원칙). 근거: editorial-core.md S/V 단락(‘동사 칸에는 실제 동사구만 넣고 목적어·보어·부사는 넣지 않는다’), analysis-content.md ‘S/V 표기’(병렬 동사를 잇는 것으로 검토한 and·or·but 보존), manuscript-data.md ‘문장 주석’(같은 절의 병렬 동사를 잇는 실제 and·or·but를 verb_spans에 포함). 다만 then을 빼면 현재 표시 장치는 공백 결합으로 `looks turns`를 출력해 한 동사구처럼 보이므로 표시 방식 결정이 필요하다.",
+   "proposed_fix": "사용자 결정 후 둘 중 하나: (a) 이 문장에 한해 then을 병렬 동사 연결 표시로 두는 승인 예외로 기록(approved-exceptions.md 2과 절에 추가, 현행 출력 유지) — 추천(원문의 실제 연결어이고 오해 없는 표시); (b) verb_spans에서 then을 빼고 쉼표 구분 `V: looks, turns` 같은 무접속 병렬 표시 방식을 새로 정해 반영.",
+   "severity": "error"
+  },
+  {
+   "id": "Lb-05",
+   "sentence_id": "s36",
+   "field": "구조 힌트",
+   "current": "각주 `it — 그것이 (얼굴이 붉어진 것)` ↔ 구조 힌트 `[before it becomes a deep flush] → [그것[붉어진 얼굴]이 짙은 홍조가 되기 전에]`",
+   "problem": "같은 it의 지칭 대상이 각주(얼굴이 붉어진 것)와 힌트(붉어진 얼굴)에서 다르다. 또 힌트대로 읽으면 ‘얼굴 자체가 홍조가 된다’는 뜻이 되어 부정확하다. it은 얼굴에 오른 붉은 기(살짝 빨개진 것)가 짙은 홍조로 번지는 것을 가리킨다. 근거: editorial-core.md ‘해석·S/V·각주·구조 힌트’(지시 대상은 모든 자료에서 일치), analysis-content.md ‘대명사와 지칭 대상’(지칭 대상은 같은 문장의 각주와 문맥에서 확인).",
+   "proposed_fix": "두 곳을 `얼굴의 붉은 기`로 통일한다: 각주 `it — 그것이 (얼굴의 붉은 기)`, 힌트 한국어 `[그것[얼굴의 붉은 기]이 짙은 홍조가 되기 전에]`로 고치고 pronoun_refs의 ko_reference_span과 emphasis_links의 `이`·`기 전에` 위치를 다시 계산한다. (대안: 힌트 참조어를 각주와 같은 `얼굴이 붉어진 것`으로 맞춤)",
+   "severity": "error"
+  },
+  {
+   "id": "Lb-06",
+   "sentence_id": "s36",
+   "field": "쉬운 풀이",
+   "current": "‘Hali의 얼굴이 살짝 붉어진다.’ / ‘예전에 물을 나눠 받았는데 이번에는 갚지 못해서 미안하고 부끄럽기 때문이다.’ / ‘Hali는 얼굴이 새빨개지기 전에 서둘러 자리를 떠난다.’",
+   "problem": "원문은 얼굴이 붉어진 이유를 말하지 않는데 ‘~때문이다’로 원인을 단정했고, ‘-는데 … -해서 … 때문이다’를 한 문장에 연쇄했다. 원문 turns to leave(떠나려고 돌아선다)를 ‘서둘러 자리를 떠난다’로 강화했다. 둘째 문장은 번역을 되풀이할 뿐이다. 근거: analysis-content.md ‘각 문장 쉬운 풀이’ 2(번역 반복 대신 연결·역할), 3(한 문장 한 내용, 연쇄 금지), 8(원문에 없는 인과 추측·원문보다 강한 단정 금지), 쉬운 풀이 검수 체크리스트.",
+   "proposed_fix": "예: ‘36번 문장은 35번에서 고개를 저은 Hali의 반응을 이어서 보여 준다.’ / ‘Hali는 지난주에 Alyssa에게 물을 나눠 받았다.’ / ‘그런데 이번에는 그 호의를 갚지 못하고 거절했다.’ / ‘그래서 Hali는 미안하고 부끄러웠을 것이다.’ / ‘얼굴이 새빨개지기 전에 Hali는 자리를 뜨려고 돌아선다.’",
+   "severity": "error"
+  },
+  {
+   "id": "Lb-07",
+   "sentence_id": "s36",
+   "field": "구조 힌트",
+   "current": "`[before it becomes a deep flush] → [그것[붉어진 얼굴]이 짙은 홍조가 되기 전에] (시간 접속사 before)` — explanation ‘뜻을 잡는 최소 보어 a deep flush까지 표시(연결동사 become)’",
+   "problem": "절 연결 힌트는 연결어+실제 S′·V′까지 표시하고, 보어를 남기는 예외는 규칙 문언상 be동사에 한정된다. become 보어까지 표시한 것은 be 예외를 연결동사로 넓힌 판단이다. 다만 보어를 빼면 ‘그것이 되기 전에’만 남아 뜻이 없어지므로 규칙 적용 범위를 사용자에게 확인할 필요가 있다. 근거: analysis-content.md ‘구조 힌트’ 선정과 작성(‘be동사만으로 뜻이 잡히지 않을 때는 최소 명사·형용사 보어만 예외’), editorial-core.md 구조 힌트 단락.",
+   "proposed_fix": "(a) 연결동사 become에도 be와 같은 최소 보어 예외를 적용하도록 사용자 확인 후 현행 표시 유지(추천, Lb-05의 참조어 수정은 별도로 반영); (b) 규칙 문언대로 `[before it becomes] → [그것[…]이 되기 전에]`로 줄임.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lb-08",
+   "sentence_id": "u2-analysis",
+   "field": "구문으로 해석하기",
+   "current": "u2-gp3(only to V) explanation: ‘… V = find(발견하다), find A p.p. = A가 ~된 것을 발견하다, A = it(생수 한 상자), p.p. = pulled away(당겨져 간). → …’",
+   "problem": "제목·공식은 only to V 하나인데 설명 안에 별개의 구문 공식 find A p.p.를 두 번째 공식으로 소개했다. find A p.p.는 s27에서 별도 구조 힌트(2번)로 다루는 독립 초점이다. 근거: analysis-content.md ‘공통 학습 단위별 지문분석’(항목당 학습 초점 하나, 독립적으로 배울 내용을 한 항목에 합치지 않음), editorial-core.md ‘원문과 공통 학습 단위’(어법은 항목마다 학습 초점 하나).",
+   "proposed_fix": "공식 표기 없이 V 자리 내용으로만 대입한다. 예: ‘공식: 앞 동작, only to V — ~했지만 결국 V할 뿐이다. 앞 동작 = I reach for it(나는 그것을 향해 손을 뻗는다), V = find(발견하다), find 뒤 내용 = it pulled away(그것이 당겨져 가 버린 것: it = 생수 한 상자, pulled away = 당겨져 가 버린). → 손을 뻗지만 결국 그것이 당겨져 가 버린 것을 발견할 뿐이다. 기대와 다른 결과가 이어짐을 보여 준다.’ practice·정답은 그대로 둔다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lb-09",
+   "sentence_id": "s34",
+   "field": "끊어읽기",
+   "current": "한국어 청크 2 `그리고 나와 몇 병을 나눌 (수 있을 거야).”`",
+   "problem": "직역 청크에 괄호 보충을 넣어 could의 뜻이 선택적으로 읽힌다. could는 return과 share 둘 다에 걸리므로(같은 문장 구조 힌트·S/V `could return and share`) 둘째 청크에서도 온전히 번역하는 편이 대응이 분명하다. 근거: editorial-core.md·analysis-content.md ‘직역과 자연 해석’(한국어 청크는 직역 역할, 양태 보존).",
+   "proposed_fix": "`그리고 나와 몇 병을 나눌 수 있을 거야.”`로 괄호를 없앤다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lb-10",
+   "sentence_id": "s30",
+   "field": "각주",
+   "current": "`soccer — 축구 (여기서는 축구부)` (청크 `내가 축구부에서 알아보는`)",
+   "problem": "문맥 뜻(축구부)과 흔한 뜻(축구)이 다르면 문맥 뜻을 먼저, 흔한 뜻을 `(흔한 뜻: …)`로 뒤에 둔다. 현재는 순서와 형식이 반대이고 규칙에 없는 ‘(여기서는 …)’ 형식이다. 근거: gloss-rules.md ‘기본 형식과 순서’, editorial-core.md 다의어 단락.",
+   "proposed_fix": "`soccer — 축구부 (흔한 뜻: 축구)`로 고친다(청크 ‘축구부에서’와 대입 일치).",
+   "severity": "improve"
+  },
+  {
+   "id": "Lb-11",
+   "sentence_id": "s31",
+   "field": "각주",
+   "current": "각주 `to — ~쪽으로 / me — 나 (Alyssa)` ↔ 한국어 청크 `Hali는 나에게 더 가까이 몸을 기울인다.`",
+   "problem": "각주 뜻을 대입하면 ‘나 쪽으로’인데 직역 청크는 ‘나에게’라 서로 맞지 않는다(자연 해석은 ‘내 쪽으로’). 근거: analysis-content.md ‘혼공해석지 각주’(문맥 뜻은 같은 문장의 직역·분석 내용과 일치), gloss-rules.md ‘금지와 검수’ 6.",
+   "proposed_fix": "청크를 `Hali는 나 쪽으로 더 가까이 몸을 기울인다.`로 고친다(각주 유지).",
+   "severity": "improve"
+  },
+  {
+   "id": "Lb-12",
+   "sentence_id": "s32",
+   "field": "자연 해석",
+   "current": "`“미안해, Alyssa.”` (청크 `“그 일에 대해 미안해, Alyssa.”`)",
+   "problem": "about that(엄마가 생수 상자를 가져간 그 일)이 자연 해석에서 빠졌다. 무엇이 미안한지가 사라져 지시 내용이 전달되지 않는다. 근거: editorial-core.md ‘해석·S/V·각주·구조 힌트’(지시 대상 일치), common-errors.md 10.",
+   "proposed_fix": "`“그 일은 미안해, Alyssa.”`",
+   "severity": "improve"
+  },
+  {
+   "id": "Lb-13",
+   "sentence_id": "s28",
+   "field": "쉬운 풀이",
+   "current": "넷째 설명문 ‘물이 가장 귀한 보물이 되었고, 여자가 그것을 자랑스럽게 차지했다는 느낌을 준다.’",
+   "problem": "한 문장에 두 내용을 ‘-되었고’로 이었고, ‘자랑스럽게’는 원문에 없는 감정이다. 근거: analysis-content.md ‘각 문장 쉬운 풀이’ 3(한 문장 한 내용), 8(원문에 없는 내용·강한 단정 금지), 검수 체크리스트.",
+   "proposed_fix": "‘왕관은 가장 귀한 보물을 떠올리게 한다.’ / ‘물이 그만큼 귀한 것이 되었다는 뜻이다.’ / ‘여자는 그 보물을 손에 넣은 사람처럼 보인다.’처럼 나누고 ‘자랑스럽게’를 뺀다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lb-14",
+   "sentence_id": "u2-analysis",
+   "field": "유반",
+   "current": "표제어 empty (비어 있는) / 유의어 vacant (비어 있는, 빈) / 반의어 full (가득 찬)",
+   "problem": "원문 구문 The shelves are already empty에 유의어를 대입하면 ‘The shelves are already vacant’가 어색하다. vacant는 주로 방·좌석·건물·자리·직위가 비어(차지되지 않아) 있음을 뜻한다. 선반이 텅 빈 상태에는 bare(bare shelves)가 자연스럽다. 근거: analysis-content.md ‘공통 학습 단위별 지문분석’ 유의어·반의어(원문 구문에 대입해 품사·문맥·치환 가능성 확인).",
+   "proposed_fix": "유의어를 `bare (텅 빈, 아무것도 없는)`로 바꾼다(full 반의어 유지). vacant를 유지하려면 치환 가능성 근거를 기록한다.",
+   "severity": "improve"
+  },
+  {
+   "id": "Lb-15",
+   "sentence_id": "u2-analysis",
+   "field": "글의 의도",
+   "current": "‘물이 귀해지자 겉으로는 공손하던 사람들 사이에 적대감이 드러나고, 먼저 생수를 가져간 사람도, 도움을 받았던 친구 Hali도 물을 나누지 않는 모습을 보여 준다.’",
+   "problem": "원문 s19는 적대감이 얇은 공손함에 ‘숨겨져’ 있다고 하고, 단위 안의 인물들도 ‘I’m sorry’처럼 겉으로는 예의를 지킨다. 그래서 ‘적대감이 드러나고’는 원문보다 강하다. ‘먼저 생수를 가져간 사람’은 여자의 주장 we were here first를 사실처럼 읽히게 한다. 실제로는 Alyssa가 손을 뻗은 마지막 순간에 여자가 가로챘다(s27). 근거: analysis-content.md ‘공통 학습 단위별 지문분석’(의도/요지), editorial-core.md(주체·지시 대상 일치).",
+   "proposed_fix": "‘물이 귀해지자 사람들은 겉으로는 예의를 지키지만 속으로는 적대감을 품고, Alyssa가 찾은 생수를 마지막 순간에 가로챈 여자도, 도움을 받았던 친구 Hali도 물을 나누지 않는 모습을 보여 준다.’",
+   "severity": "improve"
+  },
+  {
+   "id": "Lb-16",
+   "sentence_id": "s36",
+   "field": "각주",
+   "current": "s36-g05 표제어 `red in the face`, spans는 red·in·face만 연결하고 그 사이 the는 lexical_coverage에서 ‘관사 below-middle1-unneeded’로 제외",
+   "problem": "숙어 표제어에 the가 들어 있는데 the 위치를 숙어 각주에 연결하지 않았다. 같은 단위의 `at the last second`(s27)·`return the favor`(s34)는 the를 spans에 포함해 처리 방식도 일관되지 않다. 근거: manuscript-data.md ‘문장 주석’(숙어 안 낱말도 그 숙어 각주가 실제로 덮는 위치에 연결).",
+   "proposed_fix": "s36-g05 spans에 the(\"in the face\"의 the) 위치를 추가하고, lexical_coverage의 해당 행을 exemption 대신 gloss_id s36-g05로 연결한다. 학생용 표시는 바뀌지 않는다.",
+   "severity": "improve"
+  }
+ ],
+ "user_report_items": [
+  {
+   "id": "UR-Lb-1",
+   "related_finding": "Lb-04",
+   "sentence_id": "s35",
+   "question": "She looks back to her mother, … then turns back to me shaking her head.에서 한 주어의 두 동사를 부사 then이 잇는다. 현재 S/V는 `V: looks then turns`로 부사 then을 동사 칸에 넣었다. 규칙은 병렬 연결어로 and·or·but만 보존하고 부사는 빼게 되어 있다.",
+   "options": [
+    "(a) 이 문장에 한해 then 표시를 승인 예외로 기록하고 현행 유지 — 추천",
+    "(b) then을 빼고 무접속 병렬 동사 표시 방식(예: `V: looks, turns`)을 새로 정함 — 공백 결합 `looks turns`는 오해 소지가 있어 그대로는 부적합"
+   ]
+  },
+  {
+   "id": "UR-Lb-2",
+   "related_finding": "Lb-07",
+   "sentence_id": "s36",
+   "question": "절 연결 힌트의 ‘최소 보어 예외’는 규칙 문언상 be동사 한정이다. s36 before절 힌트는 연결동사 become의 보어 a deep flush까지 표시했다. become·get·seem 같은 연결동사에도 같은 예외를 허용할지 결정이 필요하다.",
+   "options": [
+    "(a) 연결동사에도 최소 보어 예외 허용 — 현행 유지, 추천(보어가 없으면 ‘그것이 되기 전에’로 뜻이 사라짐)",
+    "(b) 규칙 문언대로 `[before it becomes] → [그것[…]이 되기 전에]`로 축소"
+   ]
+  }
+ ],
+ "checked_ok_summary": "원문: s18~s36의 19문장 문자열이 권위 PDF 1~2쪽 본문과 모두 일치한다. 7단락(p09~p15) 경계, 단위 u2(19문장, 사용자 확정)도 맞다. 청크를 다시 붙이면 원문과 같고 영·한 청크 수도 모두 같다. 필수 경계도 지켰다: 명사 후치 전치사구(s18 of/of/in line, s19 of politeness, s21 of the store, s28 on top of her canned goods), 수동 행위자 by(s19, s27), 관계절 앞. 숙어(in line, manage one’s way, try one’s luck, reach for, at the last second, red in the face, return the favor, point out)는 갈라지지 않았고, 수량 표현 a single case of는 보호 처리가 적절하다. 8낱말 초과 청크는 s36 ‘she gets a little bit red in the face,’뿐이며 숙어 때문에 유지가 타당하다. S/V: 절 누락·순서 문제가 없다. 유도부사 There를 제외하고 s18 표시를 a look으로 축약한 것, [(that)] 생략 표시(s21 접속사·s30 관계사), 주격 계속적 who의 V′만 표시하고 ’s(is)는 병기하지 않은 것(s35), 병렬 동사 and(s34 could return and share, s36 gets and turns), 축약 Didn’t·’m 원형 유지, s25 verbless-fragment 생략(사용자 결정)을 확인했다. 각주: 3인칭 단수 일반동사 원형 표제어 10건(stack, say, step forward, pull A away, lean, look back to, turn back, get, turn, become)과 복수 명사 실제형을 확인했다. 독립 p.p. hidden·pulled away의 실제형, 수동 is stretched의 기능/낱말 분리, 일반 과거 abandoned의 원형 abandon, 분사구문 V-ing — ~하면서/원형 분리(s23, s35), 목적 to V 분리(s36), 관계사 that S′ V′ — ~했던(과거 관형)·계속적 when/who의 ‘그리고 그때/그리고 그 사람은’(금지 라벨 ‘계속적’ 미사용)도 확인했다. 필수 대명사 their(Hali와 엄마)는 지시 대상을 갖췄고 그 밖의 I/my/me/her/it/we/she의 뜻·격·지시 대상도 문맥과 맞다. 단독 you·and·but 제외, 고유명사 Hali Hartling 첫 등장 제공과 Hali·Alyssa proper-name-repeat 연결, ★ 8개 전수 대응(politeness s19·s20, aisle s23·s35 반복 포함)을 확인했다. 구조 힌트: 필수 관계사 힌트(s26 that·when, s30 생략 that, s35 who)가 빠짐없고, 문장당 2개 이하, 연결어+S′·V′ 범위(be 최소 보어 s21·s26), 한국어 직역 대응을 확인했다. emphasis_links 전수 계산 결과 of↔의, hidden↔숨겨진(participle_focus), As↔가·때, (that)↔가·다는 것, that↔가·던, when↔그리고 그때·이, only to↔그러나 결국·뿐이다, ing↔면서, to↔기 위해, before↔이·기 전에, who↔그리고 그 사람은으로 모두 문법 대응이 맞다. ko-only(s27 find A p.p.)·omitted-conjunction(s21)·omitted-relative(s30)·split-phrasal-verb(s31, 사이 목적어 their cart만 생략) 모드 적용도 타당하다. pronoun_refs(내[Alyssa], 그것[생수]/[생수 한 상자], 그녀[Hali])의 위치·조사도 맞다(s36은 Lb-05 제외). 힌트 없는 문장(s22, s24, s25, s28, s29, s32, s33)은 누락이 아니다. 자연 해석: Lb-12를 빼면 주체·시제·부정·양태·지시가 교과서 해석과 맞다. 분석: 제목, 흐름 4단계(s18~s36 각 1회, 순서 유지), 쉬운 풀이 대상 3문장(s20·s28·s36, 원문 순서)의 선정이 타당하다. s20 풀이는 체크리스트를 충족한다. 구문으로 해석하기 gp1·gp2는 공식→자리별 대입→결합 해석을 갖췄고 practice 범위·답·도움말 각주 연결도 맞다. formula_routes는 s20 be p.p.→hint 0 한 건으로 이 단위 대상(수동·능동 완료 기능 각주) 전부를 담았다. 유반 precious/valuable/worthless, politeness/courtesy/rudeness는 타당하다. 핵심 문장 s26·s27 선정도 적절하다."
+}

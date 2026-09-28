@@ -809,7 +809,7 @@
      "id": "u1-w2",
      "text": "crisis",
      "meaning_ko": "위기",
-     "source_gloss_id": "s08-g02"
+     "source_gloss_id": "s06-g11"
     },
     {
      "id": "u1-w3",
@@ -852,7 +852,7 @@
     "heading_kind": "제목",
     "title_or_topic_en": "The Day the Tap Went Silent",
     "title_or_topic_ko": "수도꼭지가 조용해진 날",
-    "intent_ko": "오랜 가뭄으로 마침내 수돗물까지 끊기자 Alyssa 가족이 물을 구하러 쇼핑몰로 가는 장면이다. 사람들이 물건 대신 생수만 찾는 모습으로 물이 생명의 필수품이 된 위기 상황을 보여 준다.",
+    "intent_ko": "오랜 가뭄으로 마침내 수돗물까지 끊기자 Alyssa와 남동생이 삼촌과 함께 물을 구하러 쇼핑몰로 가는 장면이다. 사람들이 전자 제품 대신 주로 생수를 찾는 모습으로 물이 생명의 필수품이 된 위기 상황을 보여 준다.",
     "flow": [
      {
       "sentence_ids": [
@@ -910,7 +910,7 @@
       "sentence_id": "s07",
       "explanatory_sentences": [
        "7번 문장은 6번 뉴스에 나온 ‘물 공급 위기’라는 말이 어디서 나왔는지 알려 준다.",
-       "가뭄이 너무 오래 이어져서 사람들은 ‘가뭄’이라는 말을 듣는 데 지쳐 버렸다.",
+       "사람들은 ‘가뭄’이라는 말을 너무 자주 들어서 이제 그 말을 듣는 것에 지쳐 버렸다.",
        "그래서 언론은 같은 가뭄을 ‘물 공급 위기’라는 새 이름으로 부르기 시작했다.",
        "이름만 바뀌었을 뿐 가뭄은 계속되고 있다는 뜻이다."
       ]
@@ -921,7 +921,7 @@
        "15번 문장은 쇼핑몰 안의 모습을 보여 준다.",
        "블랙 프라이데이는 미국에서 큰 할인 행사가 열리는 날이다.",
        "이날 매장은 싼 물건을 사려는 사람들로 몹시 붐빈다.",
-       "오늘 매장은 그날처럼 붐비지만 사람들이 찾는 것은 텔레비전이나 게임기가 아니다.",
+       "오늘 매장은 그날처럼 붐비지만 사람들이 찾는 것은 텔레비전이나 비디오 게임이 아니다.",
        "다음 16번 문장에서 사람들이 찾는 것이 물이라는 것이 드러난다."
       ]
      }
@@ -967,7 +967,7 @@
       ],
       "title": "what S′ V′: S′가 V′하는 것",
       "formula_key": "what S′ V′",
-      "explanation": "공식: what S′ V′ — S′(이/가) V′하는 것. S′ = the media(언론), V′ = has been calling(계속 불러 오고 있다; call A B = A를 B라고 부르다), A = the drought(가뭄), B = what(부르는 것, 곧 이름). → 언론이 가뭄을 계속 불러 온 것(이름). 앞의 This is(이것은 ~이다)와 합치면 ‘이것은 언론이 가뭄을 계속 불러 온 이름이다’가 된다.",
+      "explanation": "공식: what S′ V′ — S′(이/가) V′하는 것. S′ = the media(언론), V′ = has been calling(계속 불러 오고 있다; call A B = A를 B라고 부르다), A = the drought(가뭄), B = what(부르는 것, 곧 이름). → 언론이 가뭄을 가리켜 계속 불러 온 것(이름). 앞의 This is(이것은 ~이다)와 합치면 ‘이것은 언론이 가뭄을 가리켜 계속 불러 온 이름이다’가 된다.",
       "practice": {
        "span": [
         8,
@@ -977,7 +977,7 @@
         "en": "what S′ V′",
         "ko": "S′(이/가) V′하는 것"
        },
-       "answer_ko": "언론이 가뭄을 계속 불러 온 것",
+       "answer_ko": "언론이 가뭄을 가리켜 계속 불러 온 것",
        "support_gloss_ids": [
         "s07-g04",
         "s07-g05",
@@ -1157,7 +1157,7 @@
     "heading_kind": "제목",
     "title_or_topic_en": "The Last Case of Water",
     "title_or_topic_ko": "마지막 생수 한 상자",
-    "intent_ko": "물이 귀해지자 겉으로는 공손하던 사람들 사이에 적대감이 드러나고, 먼저 생수를 가져간 사람도, 도움을 받았던 친구 Hali도 물을 나누지 않는 모습을 보여 준다.",
+    "intent_ko": "물이 귀해지자 사람들은 겉으로는 예의를 지키지만 속으로는 적대감을 품고, Alyssa가 찾은 생수를 마지막 순간에 가로챈 여자도, 도움을 받았던 친구 Hali도 물을 나누지 않는 모습을 보여 준다.",
     "flow": [
      {
       "sentence_ids": [
@@ -1219,16 +1219,19 @@
        "28번 문장은 27번에서 생수 상자를 가져간 여자가 그 상자를 어떻게 다루는지 보여 준다.",
        "여자는 생수 상자를 카트 속 통조림 맨 위에 올려놓는다.",
        "글쓴이는 이 모습을 왕관을 머리에 올린 것에 빗댔다.",
-       "물이 가장 귀한 보물이 되었고, 여자가 그것을 자랑스럽게 차지했다는 느낌을 준다."
+       "왕관은 가장 귀한 보물을 떠올리게 한다.",
+       "물이 그만큼 귀한 것이 되었다는 뜻이다.",
+       "여자는 그 보물을 손에 넣은 사람처럼 보인다."
       ]
      },
      {
       "sentence_id": "s36",
       "explanatory_sentences": [
        "36번 문장은 35번에서 고개를 저은 Hali의 반응을 이어서 보여 준다.",
-       "Hali의 얼굴이 살짝 붉어진다.",
-       "예전에 물을 나눠 받았는데 이번에는 갚지 못해서 미안하고 부끄럽기 때문이다.",
-       "Hali는 얼굴이 새빨개지기 전에 서둘러 자리를 떠난다."
+       "Hali는 지난주에 Alyssa에게 물을 나눠 받았다.",
+       "그런데 이번에는 그 호의를 갚지 못하고 거절했다.",
+       "그래서 Hali는 미안하고 부끄러웠을 것이다.",
+       "얼굴이 새빨개지기 전에 Hali는 자리를 뜨려고 돌아선다."
       ]
      }
     ],
@@ -1301,7 +1304,7 @@
       ],
       "title": "only to V: (그러나) 결국 ~할 뿐이다",
       "formula_key": "only to V",
-      "explanation": "공식: 앞 동작, only to V — ~했지만 결국 V할 뿐이다. 앞 동작 = I reach for it(나는 그것을 향해 손을 뻗는다), V = find(발견하다), find A p.p. = A가 ~된 것을 발견하다, A = it(생수 한 상자), p.p. = pulled away(당겨져 간). → 손을 뻗지만 결국 그것이 당겨져 가 버린 것을 발견할 뿐이다. 기대와 다른 결과가 이어짐을 보여 준다.",
+      "explanation": "공식: 앞 동작, only to V — ~했지만 결국 V할 뿐이다. 앞 동작 = I reach for it(나는 그것을 향해 손을 뻗는다), V = find(발견하다), find 뒤 내용 = it pulled away(그것이 당겨져 가 버린 것: it = 생수 한 상자, pulled away = 당겨져 가 버린). → 손을 뻗지만 결국 그것이 당겨져 가 버린 것을 발견할 뿐이다. 기대와 다른 결과가 이어짐을 보여 준다.",
       "practice": {
        "span": [
         16,
@@ -1339,8 +1342,8 @@
       },
       "synonym": {
        "id": "u2-r1s",
-       "text": "vacant",
-       "meaning_ko": "비어 있는, 빈"
+       "text": "bare",
+       "meaning_ko": "텅 빈, 아무것도 없는"
       },
       "antonym": {
        "id": "u2-r1a",
@@ -1411,12 +1414,12 @@
      "id": "u3-w1",
      "text": "frozen",
      "meaning_ko": "냉동된, 얼린",
-     "source_gloss_id": "s37-g07"
+     "source_gloss_id": "s39-g03"
     },
     {
      "id": "u3-w2",
      "text": "case",
-     "meaning_ko": "(유리문이 달린) 진열장",
+     "meaning_ko": "(냉동) 진열장",
      "source_gloss_id": "s39-g07"
     },
     {
@@ -1433,8 +1436,8 @@
     },
     {
      "id": "u3-w5",
-     "text": "pile",
-     "meaning_ko": "쌓다",
+     "text": "piled",
+     "meaning_ko": "(짐이) 가득 쌓인",
      "source_gloss_id": "s45-g12"
     },
     {
@@ -1445,8 +1448,8 @@
     },
     {
      "id": "u3-w7",
-     "text": "take notice",
-     "meaning_ko": "알아차리다",
+     "text": "notice",
+     "meaning_ko": "주목, 알아챔",
      "source_gloss_id": "s46-g06"
     },
     {
@@ -1488,7 +1491,7 @@
        "s46"
       ],
       "label": "행동과 반응",
-      "text_ko": "두 사람은 카트가 더 쌓을 수 없을 만큼 높아질 때까지 얼음 봉지를 담는다. 이를 본 다른 사람들도 얼음 진열장을 비우기 시작한다."
+      "text_ko": "두 사람은 카트가 더는 쌓을 수 없을 만큼 가득 찰 때까지 얼음 봉지를 담는다. 이를 본 다른 사람들도 얼음 진열장을 비우기 시작한다."
      }
     ],
     "easy_explanations": [
@@ -1505,8 +1508,8 @@
       "sentence_id": "s45",
       "explanatory_sentences": [
        "45번 문장은 Alyssa의 생각을 곧바로 행동으로 옮기는 장면이다.",
-       "Garrett과 Alyssa는 얼음 봉지를 하나씩 카트에 담는다.",
-       "카트에 더 이상 쌓을 수 없을 만큼 높이 쌓일 때까지 멈추지 않는다.",
+       "두 사람은 카트에 더 쌓을 자리가 없을 때까지 얼음 봉지를 담는다.",
+       "얼음을 많이 모을수록 나중에 쓸 물도 많아진다.",
        "물을 조금이라도 더 확보하려는 두 사람의 절박함이 드러난다."
       ]
      },
@@ -1516,7 +1519,7 @@
        "46번 문장은 두 사람의 행동을 본 다른 사람들의 반응이다.",
        "다른 사람들도 얼음이 물을 대신할 수 있다는 것을 눈치챈다.",
        "그래서 그들도 얼음 진열장을 비우기 시작한다.",
-       "물이 부족한 상황에서 사람들이 쓸 만한 것은 무엇이든 서둘러 차지하려 한다는 것을 보여 준다."
+       "물이 부족하자 사람들이 얼음까지 서둘러 차지하려 한다는 것을 보여 준다."
       ]
      }
     ],
@@ -1612,9 +1615,9 @@
        62,
        79
       ],
-      "title": "be p.p.: ~되다 (is piled: 쌓이다)",
+      "title": "be p.p.: ~되다 (is piled: 가득 쌓이다)",
       "formula_key": "be p.p.",
-      "explanation": "공식: be p.p. — ~되다. be = is(현재), p.p. = piled(쌓인, pile의 p.p.형). → is piled = 쌓이다. 카트(it)가 스스로 쌓는 것이 아니라 얼음이 ‘쌓이는’ 쪽이라 수동을 쓴다. 앞의 until it과 이으면 ‘그것(카트)이 쌓일 때까지’.",
+      "explanation": "공식: be p.p. — ~되다. be = is(현재), p.p. = piled((짐이) 가득 쌓인, pile의 p.p.형). → is piled = 가득 쌓이다. 카트(it)가 무언가를 쌓는 것이 아니라, 두 사람이 얼음을 쌓아서 카트가 (얼음으로) 가득 쌓이는 쪽이라 수동 is piled를 쓴다. 앞의 until it과 이으면 ‘그것(카트)이 가득 쌓일 때까지’.",
       "supplemental": {
        "reason": "s45의 수동 is piled는 until절·as ~ as 힌트가 이미 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 be p.p. 설명이 없어 이 단위 대표 사례로 1회 보충",
        "function_gloss_id": "s45-g11"
@@ -1628,7 +1631,7 @@
         "en": "be p.p.",
         "ko": "~되다"
        },
-       "answer_ko": "그것(카트)이 쌓인다",
+       "answer_ko": "그것(카트)이 가득 쌓인다",
        "support_gloss_ids": [
         "s45-g10",
         "s45-g12"
@@ -1707,30 +1710,30 @@
      {
       "head": {
        "id": "u3-r2h",
-       "text": "high",
-       "meaning_ko": "높이, 높은"
+       "text": "find",
+       "meaning_ko": "발견하다, 찾아내다"
       },
       "synonym": {
        "id": "u3-r2s",
-       "text": "tall",
-       "meaning_ko": "높은, 키가 큰"
+       "text": "discover",
+       "meaning_ko": "발견하다"
       },
       "antonym": {
        "id": "u3-r2a",
-       "text": "low",
-       "meaning_ko": "낮은, 낮게"
+       "text": "lose",
+       "meaning_ko": "잃어버리다"
       }
      },
      {
       "head": {
        "id": "u3-r3h",
        "text": "notice",
-       "meaning_ko": "알아챔, 주목"
+       "meaning_ko": "주목, 알아챔"
       },
       "synonym": {
        "id": "u3-r3s",
-       "text": "attention",
-       "meaning_ko": "주의, 주목"
+       "text": "note",
+       "meaning_ko": "주목, 주의"
       },
       "antonym": {
        "id": "u3-r3a",
@@ -1846,7 +1849,7 @@
        "s57"
       ],
       "label": "감사와 믿음",
-      "text_ko": "Alyssa가 고맙다고 하자 남자는 서로 도와야 한다고 말한다. Alyssa는 어려운 시기가 사람들의 좋은 면을 끌어낸다고 느끼며 호의에 보답하기로 한다."
+      "text_ko": "Alyssa가 고맙다고 하자 남자는 서로 도와야 한다고 말한다. Alyssa는 어려운 시기가 사람들의 좋은 면을 끌어낼 수 있다고 느끼며 호의에 보답하기로 한다."
      },
      {
       "sentence_ids": [
@@ -1874,7 +1877,9 @@
       "explanatory_sentences": [
        "56번 문장은 남자의 말을 들은 Alyssa의 생각이다.",
        "힘든 일이 생기면 사람들이 서로 돕는 좋은 모습을 보일 수 있다는 뜻이다.",
-       "앞 장면에서 생수를 빼앗기고 Hali에게도 거절당한 Alyssa는 이 남자 덕분에 다시 사람을 믿게 된다.",
+       "앞 장면에서 Alyssa는 한 여자에게 생수를 빼앗겼다.",
+       "Hali도 물을 나눠 달라는 부탁을 거절했다.",
+       "그런 Alyssa에게 이 남자의 친절은 다시 사람을 믿게 해 준다.",
        "그래서 뒤에 나올 남자의 속셈이 더 큰 반전이 된다."
       ]
      },
@@ -1913,7 +1918,6 @@
        "support_gloss_ids": [
         "s47-g06",
         "s47-g07",
-        "s47-g08",
         "s47-g09"
        ]
       }
@@ -1939,7 +1943,6 @@
        },
        "answer_ko": "아는 것은 좋다",
        "support_gloss_ids": [
-        "s56-g02",
         "s56-g03",
         "s56-g04"
        ]
@@ -2103,16 +2106,16 @@
     },
     {
      "id": "u5-w8",
-     "text": "address",
-     "meaning_ko": "(문제를) 해결하다, 다루다",
+     "text": "addressed",
+     "meaning_ko": "(문제가) 해결된, 다뤄진",
      "source_gloss_id": "s74-g09"
     }
    ],
    "analysis": {
     "heading_kind": "제목",
-    "title_or_topic_en": "Help Arrives, and a Warning",
+    "title_or_topic_en": "Timely Help and a Warning",
     "title_or_topic_ko": "때맞춘 도움, 그리고 경고",
-    "intent_ko": "Basil 삼촌이 제때 나타나 남자의 위협을 막아 내는 장면으로 이야기를 마무리한다. 이어서 작품 소개를 통해 물 부족의 원인이 해결되지 않으면 이 소설 속 가뭄이 현실이 될 수 있다고 경고한다.",
+    "intent_ko": "Basil 삼촌이 제때 나타나 남자가 얼음을 가져가지 못하고 떠나는 장면으로 소설 도입부 발췌가 끝난다. 이어서 작품 소개를 통해 물 부족의 원인이 해결되지 않으면 이 소설 속 가뭄이 현실이 될 수 있다고 경고한다.",
     "flow": [
      {
       "sentence_ids": [
@@ -2122,7 +2125,7 @@
        "s65"
       ],
       "label": "위협",
-      "text_ko": "Alyssa는 남자가 농담하는 줄 알았다가 진지하다는 것을 깨닫는다. 남자는 웃고 있지만 눈빛이 무섭고, 그가 카트 손잡이를 쥐고 있는 한 카트가 아이들 것임을 증명할 방법이 없다."
+      "text_ko": "Alyssa는 처음에 남자가 농담한다고 생각하지만 곧 진지하다는 것을 깨닫는다. 남자는 웃고 있지만 눈빛이 무섭고, 그가 카트 손잡이를 쥐고 있는 한 카트가 아이들 것임을 증명할 방법이 없다."
      },
      {
       "sentence_ids": [
@@ -2152,9 +2155,9 @@
       "explanatory_sentences": [
        "65번 문장은 64번에서 무서워진 Alyssa가 왜 겁이 나는지 보여 준다.",
        "남자는 카트 손잡이를 꽉 붙잡고 있다.",
-       "카트에는 이름표 같은 것이 없다.",
-       "그래서 남자가 손을 떼지 않는 한 카트가 아이들 것이라고 증명할 방법이 없다.",
-       "아이들이 힘으로도 말로도 얼음을 지키기 어려운 상황이다."
+       "카트를 붙잡고 있는 사람이 주인처럼 보이기 쉽다.",
+       "카트가 아이들 것이라는 증거는 따로 없다.",
+       "그래서 남자가 손잡이를 놓지 않는 한 아이들은 얼음이 담긴 카트를 지키기 어렵다."
       ]
      },
      {
@@ -2220,7 +2223,7 @@
       ],
       "title": "명사 + who V′: V′하는 명사",
       "formula_key": "N + who V′",
-      "explanation": "공식: 명사(N) + who V′ — V′하는 N. N = a girl(한 소녀), who = 주격 관계대명사(그 소녀가), V′ = has to make(해야 하다; have to V = ~해야 한다, make = 하다), tough choices = 힘든 선택들, for her family = 그녀의 가족을 위해. → 그녀의 가족을 위해 힘든 선택들을 해야 하는 한 소녀.",
+      "explanation": "공식: 명사(N) + who V′ — V′하는 N. N = a girl(한 소녀), who = 주격 관계대명사(그 소녀가), V′ = has(S/V 표시; has to make = 해야 하다, have to V = ~해야 한다, make = 하다), tough choices = 힘든 선택들, for her family = 그녀의 가족을 위해. → 그녀의 가족을 위해 힘든 선택들을 해야 하는 한 소녀.",
       "practice": {
        "span": [
         22,
@@ -2284,7 +2287,7 @@
       ],
       "title": "be p.p.: ~되다 (are locked: 고정되어 있다)",
       "formula_key": "be p.p.",
-      "explanation": "공식: be p.p. — ~되다. be = are(현재), p.p. = locked(고정된, lock의 p.p.형), 사이의 firmly = 단단히. → are firmly locked = 단단히 고정되어 있다. 손은 스스로 잠그는 것이 아니라 손잡이에 ‘고정된’ 상태라 수동을 쓴다. 주어 his hands와 합치면 ‘그의 손이 단단히 고정되어 있다’.",
+      "explanation": "공식: be p.p. — ~되다. be = are(현재), p.p. = locked(고정된, lock의 p.p.형), 사이의 firmly = 단단히. → are firmly locked = 단단히 고정되어 있다. 주어 his hands가 무엇을 고정하는 것이 아니라 손잡이에 ‘고정된’ 상태이므로 수동(be p.p.)을 쓴다. 주어 his hands와 합치면 ‘그의 손이 단단히 고정되어 있다’.",
       "supplemental": {
        "reason": "s65의 수동 are firmly locked는 as long as절·to부정사 후치수식 힌트가 이미 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 be p.p. 설명이 없어 이 단위 대표 사례로 1회 보충",
        "function_gloss_id": "s65-g04"
@@ -2384,7 +2387,7 @@
       "antonym": {
        "id": "u5-r1a",
        "text": "playful",
-       "meaning_ko": "장난스러운, 농담하는"
+       "meaning_ko": "장난스러운, 장난기 있는"
       }
      },
      {
@@ -3467,7 +3470,7 @@
       ]
      ],
      "headword": "anchor",
-     "meaning_ko": "(뉴스) 앵커, 진행자",
+     "meaning_ko": "(뉴스) 앵커, 진행자 (흔한 뜻: 닻)",
      "star": false
     },
     {
@@ -3533,7 +3536,8 @@
      ],
      "headword": "flow crisis",
      "meaning_ko": "물 공급 위기",
-     "star": false
+     "star": true,
+     "today_word_id": "u1-w2"
     }
    ],
    "lexical_coverage": [
@@ -3713,17 +3717,12 @@
     {
      "start": 8,
      "end": 51,
-     "ko": "언론이 가뭄을 계속 불러 온 것이다"
+     "ko": "언론이 가뭄을 가리켜 계속 불러 온 것이다"
     },
     {
      "start": 52,
-     "end": 79,
-     "ko": "사람들이 싫증이 난 이후로 줄곧"
-    },
-    {
-     "start": 80,
      "end": 110,
-     "ko": "‘가뭄’이라는 단어를 듣는 것에."
+     "ko": "사람들이 ‘가뭄’이라는 단어를 듣는 것에 싫증이 난 이후로 줄곧."
     }
    ],
    "natural_ko": "이것은 사람들이 ‘가뭄’이라는 단어를 듣는 데 싫증이 난 이후로 언론이 가뭄을 줄곧 불러 온 이름이다.",
@@ -4193,7 +4192,7 @@
       79
      ],
      "meaning_ko": "사람들이 (‘가뭄’이라는 말을 듣는 데) 싫증이 난 이후로 줄곧",
-     "explanation": "ever since S′ V′: S′가 V′한 이후로 줄곧. S′ people, V′ got에 뜻을 잡는 최소 보어 tired까지 표시(연결동사 get + 형용사). of hearing 이하 제외.",
+     "explanation": "ever since S′ V′: S′가 V′한 이후로 줄곧. S′ people, V′ got에 뜻을 잡는 최소 보어 tired까지 표시(연결동사 get + 형용사; 연결동사 최소 보어 표시는 2026-09-28 사용자 결정). of hearing 이하 제외.",
      "display_pairs": [
       {
        "en": "[ever since people got tired]",
@@ -4212,7 +4211,7 @@
            5
           ],
           [
-           12,
+           10,
            18
           ]
          ]
@@ -4226,7 +4225,17 @@
    "reading_checks": {
     "review_record": "주절 This is + 보어 자리 관계대명사 what절(the media has been calling the drought: call A B, A=the drought, B=what; 완료진행) + 접속사 ever since절(people got tired of hearing …). 힌트 2개(필수 관계사 what, 접속사 ever since). has been calling은 완료진행이라 기존 결합 각주(verb_phrase have been V-ing) 유지. This는 앞 문장의 “flow crisis”라는 말을 가리킴. 수동 없음.",
     "required_breaks": [],
-    "protected_spans": [],
+    "protected_spans": [
+     {
+      "span": [
+       70,
+       82
+      ],
+      "kind": "fixed-expression",
+      "reason": "get tired of 숙어: 각주에서 한 항목으로 가르쳐 청크에서도 가르지 않음(L-a La-01)",
+      "gloss_id": "s07-g09"
+     }
+    ],
     "function_gloss_ids": [
      "s07-g10"
     ],
@@ -5395,7 +5404,7 @@
            15
           ],
           [
-           20,
+           18,
            21
           ]
          ]
@@ -6282,7 +6291,7 @@
       ]
      ],
      "headword": "in",
-     "meaning_ko": "~에 (서 있는)",
+     "meaning_ko": "~에 서 있는",
      "star": false
     },
     {
@@ -6533,7 +6542,7 @@
      "ko": "삶의."
     }
    ],
-   "natural_ko": "삶에 꼭 필요한 필수품들이다.",
+   "natural_ko": "삶에 꼭 필요한 것들이다.",
    "clauses": [],
    "glosses": [
     {
@@ -7387,7 +7396,7 @@
       ]
      ],
      "headword": "be p.p.",
-     "meaning_ko": "~되다",
+     "meaning_ko": "~되어 있다",
      "star": false,
      "kind": "function",
      "combines_with": [
@@ -10076,12 +10085,12 @@
     {
      "start": 0,
      "end": 11,
-     "ko": "“미안하지만,"
+     "ko": "“미안해요,"
     },
     {
      "start": 12,
      "end": 36,
-     "ko": "우리가 여기에 먼저 있었어요,”"
+     "ko": "하지만 우리가 여기에 먼저 있었어요,”"
     },
     {
      "start": 37,
@@ -10516,7 +10525,7 @@
       ]
      ],
      "headword": "soccer",
-     "meaning_ko": "축구 (여기서는 축구부)",
+     "meaning_ko": "축구부 (흔한 뜻: 축구)",
      "star": false
     },
     {
@@ -10716,7 +10725,7 @@
     {
      "start": 37,
      "end": 61,
-     "ko": "Hali는 나에게 더 가까이 몸을 기울인다."
+     "ko": "Hali는 나 쪽으로 더 가까이 몸을 기울인다."
     }
    ],
    "natural_ko": "엄마가 카트를 끌고 가자 Hali가 내 쪽으로 몸을 기울인다.",
@@ -11090,7 +11099,7 @@
      "ko": "“그 일에 대해 미안해, Alyssa.”"
     }
    ],
-   "natural_ko": "“미안해, Alyssa.”",
+   "natural_ko": "“그 일은 미안해, Alyssa.”",
    "clauses": [
     {
      "kind": "main",
@@ -11367,7 +11376,7 @@
       ]
      ],
      "headword": "at",
-     "meaning_ko": "~에, ~ 때",
+     "meaning_ko": "~ 때",
      "star": false
     },
     {
@@ -11600,7 +11609,7 @@
     {
      "start": 34,
      "end": 67,
-     "ko": "그리고 나와 몇 병을 나눌 (수 있을 거야).”"
+     "ko": "그리고 나와 몇 병을 나눌 수 있을 거야.”"
     }
    ],
    "natural_ko": "“너도 그 호의를 갚는 셈 치고 나랑 물 몇 병 나눠 주면 좋겠어.”",
@@ -12480,7 +12489,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "주절 She looks back to her mother …, then turns back to me(한 주어 She의 두 동사 looks·turns를 then이 이어 줌 — then은 부사지만 두 동사를 잇는 연결 자리라 V 표시에 보존) + 콤마 뒤 계속적 관계대명사 who절(who’s = who is, V′ ’s moving) + 분사구문 shaking her head. 힌트 2개(필수 관계사, 분사구문). 수동 없음.",
+    "review_record": "주절 She looks back to her mother …, then turns back to me(한 주어 She의 두 동사 looks·turns를 then이 이어 줌 — then은 부사지만 and 없이 두 동사를 잇는 연결 자리라 V 표시에 보존 — 2026-09-28 사용자 승인 예외, approved-exceptions.md 기록) + 콤마 뒤 계속적 관계대명사 who절(who’s = who is, V′ ’s moving) + 분사구문 shaking her head. 힌트 2개(필수 관계사, 분사구문). 수동 없음.",
     "required_breaks": [],
     "protected_spans": [],
     "function_gloss_ids": [
@@ -12641,6 +12650,10 @@
        37
       ],
       [
+       38,
+       41
+      ],
+      [
        42,
        46
       ]
@@ -12722,7 +12735,7 @@
      "headword": "it",
      "meaning_ko": "그것이",
      "star": false,
-     "referent_ko": "얼굴이 붉어진 것"
+     "referent_ko": "얼굴의 붉은 기"
     },
     {
      "id": "s36-g11",
@@ -12841,9 +12854,7 @@
       38,
       41
      ],
-     "exemption": "below-middle1-unneeded",
-     "level": "below-middle1",
-     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+     "gloss_id": "s36-g05"
     },
     {
      "span": [
@@ -12963,12 +12974,12 @@
       67,
       97
      ],
-     "meaning_ko": "그것(붉어진 얼굴)이 짙은 홍조가 되기 전에",
-     "explanation": "before S′ V′: S′가 V′하기 전에. S′ it(얼굴이 붉어진 것), V′ becomes에 뜻을 잡는 최소 보어 a deep flush까지 표시(연결동사 become).",
+     "meaning_ko": "그것(얼굴의 붉은 기)이 짙은 홍조가 되기 전에",
+     "explanation": "before S′ V′: S′가 V′하기 전에. S′ it(얼굴의 붉은 기), V′ becomes에 뜻을 잡는 최소 보어 a deep flush까지 표시(연결동사 become; 연결동사 최소 보어 표시는 2026-09-28 사용자 결정).",
      "display_pairs": [
       {
        "en": "[before it becomes a deep flush]",
-       "ko": "[그것[붉어진 얼굴]이 짙은 홍조가 되기 전에]",
+       "ko": "[그것[얼굴의 붉은 기]이 짙은 홍조가 되기 전에]",
        "pronoun_refs": [
         {
          "en_span": [
@@ -12981,7 +12992,7 @@
          ],
          "ko_reference_span": [
           3,
-          11
+          13
          ]
         }
        ],
@@ -12995,12 +13006,12 @@
          ],
          "ko_spans": [
           [
-           11,
-           12
+           13,
+           14
           ],
           [
-           21,
-           25
+           23,
+           27
           ]
          ]
         }
@@ -13166,9 +13177,8 @@
       ]
      ],
      "headword": "frozen",
-     "meaning_ko": "냉동된, 얼린",
-     "star": true,
-     "today_word_id": "u3-w1",
+     "meaning_ko": "냉동식품(의)",
+     "star": false,
      "verb_form": {
       "usage": "past-participle",
       "source_span": [
@@ -13328,7 +13338,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "주절 I look for Garrett + 콤마 뒤 계속적 목적격 관계대명사 whom절(I find in the frozen aisle). Garrett은 s11에서 제공한 고유명사 반복. frozen은 명사 앞 독립 p.p. 필수 관계사 힌트 1개. 수동 없음.",
+    "review_record": "주절 I look for Garrett + 콤마 뒤 계속적 목적격 관계대명사 whom절(I find in the frozen aisle). Garrett은 s11에서 제공한 고유명사 반복. frozen은 명사 앞 독립 p.p.로 the frozen aisle에서는 ‘냉동식품(의)’ 뜻이라 오늘의 낱말 frozen(냉동된, 얼린)과 뜻이 달라 ★ 없음(★는 s39 frozen vegetables, L-c Lc-01). 필수 관계사 힌트 1개. 수동 없음.",
     "required_breaks": [],
     "protected_spans": [],
     "function_gloss_ids": [],
@@ -13601,7 +13611,7 @@
       ]
      ],
      "headword": "case",
-     "meaning_ko": "(유리문이 달린) 진열장 (흔한 뜻: 경우)",
+     "meaning_ko": "(냉동) 진열장 (흔한 뜻: 경우)",
      "star": true,
      "today_word_id": "u3-w2"
     },
@@ -14674,7 +14684,7 @@
     {
      "start": 0,
      "end": 46,
-     "ko": "Garrett과 나는 얼음 한 봉지를 하나씩 차례로 넣는다"
+     "ko": "Garrett과 나는 얼음 봉지를 하나씩 차례로 넣는다"
     },
     {
      "start": 47,
@@ -14684,7 +14694,7 @@
     {
      "start": 62,
      "end": 79,
-     "ko": "그것이 쌓일 때까지"
+     "ko": "그것이 가득 쌓일 때까지"
     },
     {
      "start": 80,
@@ -14692,7 +14702,7 @@
      "ko": "그것이 될 수 있는 만큼 높이."
     }
    ],
-   "natural_ko": "Garrett과 나는 카트가 더 이상 쌓을 수 없을 만큼 높아질 때까지 얼음 봉지를 하나씩 카트에 담는다.",
+   "natural_ko": "Garrett과 나는 카트가 더는 쌓을 수 없을 만큼 높이 가득 찰 때까지 얼음 봉지를 하나씩 카트에 담는다.",
    "clauses": [
     {
      "kind": "main",
@@ -14911,7 +14921,7 @@
       ]
      ],
      "headword": "piled",
-     "meaning_ko": "쌓인",
+     "meaning_ko": "(짐이) 가득 쌓인",
      "star": true,
      "today_word_id": "u3-w5",
      "verb_form": {
@@ -15160,12 +15170,12 @@
       62,
       79
      ],
-     "meaning_ko": "그것(카트)이 쌓일 때까지",
-     "explanation": "until S′ V′: S′가 V′할 때까지. S′ it(카트), V′ is piled(쌓이다, 수동)까지 표시하고 as high as 이하는 제외. 수동 is piled는 이 힌트가 있어 분석 보충 u3-gp4로 연결.",
+     "meaning_ko": "그것(카트)이 (얼음으로) 가득 쌓일 때까지",
+     "explanation": "until S′ V′: S′가 V′할 때까지. S′ it(카트), V′ is piled(가득 쌓이다, 수동)까지 표시하고 as high as 이하는 제외. 수동 is piled는 이 힌트가 있어 분석 보충 u3-gp4로 연결.",
      "display_pairs": [
       {
        "en": "[until it is piled]",
-       "ko": "[그것[카트]이 쌓일 때까지]",
+       "ko": "[그것[카트]이 가득 쌓일 때까지]",
        "pronoun_refs": [
         {
          "en_span": [
@@ -15196,8 +15206,8 @@
            8
           ],
           [
-           12,
-           15
+           15,
+           18
           ]
          ]
         }
@@ -15246,6 +15256,10 @@
           ]
          ],
          "ko_spans": [
+          [
+           7,
+           8
+          ],
           [
            16,
            18
@@ -15398,7 +15412,7 @@
       ]
      ],
      "headword": "take",
-     "meaning_ko": "(행동을) 하다, 취하다 (taken은 take의 p.p.형)",
+     "meaning_ko": "하다 (taken은 take의 p.p.형)",
      "star": false,
      "verb_form": {
       "usage": "perfect-participle",
@@ -15420,7 +15434,7 @@
       ]
      ],
      "headword": "notice",
-     "meaning_ko": "알아챔, 주목 (take notice: 알아차리다)",
+     "meaning_ko": "주목, 알아챔",
      "star": true,
      "today_word_id": "u3-w7"
     },
@@ -15483,7 +15497,8 @@
      ],
      "headword": "ice case",
      "meaning_ko": "얼음 진열장",
-     "star": false
+     "star": true,
+     "today_word_id": "u3-w2"
     }
    ],
    "lexical_coverage": [
@@ -15591,7 +15606,7 @@
    ],
    "hints": [],
    "reading_checks": {
-    "review_record": "단일 주절: 주어 other people의 병렬 동사 have taken(현재완료) and begin(begin to V). take notice는 ‘알아차리다’. 상위 문법 연결·수동 없음. 능동 완료 have taken은 take notice 숙어 속이라 결합 힌트(take → have taken)가 오히려 뜻을 흐려 힌트로 선정하지 않고 분석 보충 u3-gp5로 연결. begin to V는 각주로 충분 → 힌트 없음.",
+    "review_record": "단일 주절: 주어 other people의 병렬 동사 have taken(현재완료) and begin(begin to V). take notice는 능동 완료 원형 각주 구조상 take(하다)·notice(주목) 두 각주로 두고 ‘주목을 했다 → 알아챘다’로 대입되게 함(L-c Lc-06 B안). ice case의 case는 오늘의 낱말 case와 같은 뜻이라 ★. 상위 문법 연결·수동 없음. 능동 완료 have taken은 take notice 숙어 속이라 결합 힌트(take → have taken)가 오히려 뜻을 흐려 힌트로 선정하지 않고 분석 보충 u3-gp5로 연결. begin to V는 각주로 충분 → 힌트 없음.",
     "required_breaks": [],
     "protected_spans": [],
     "function_gloss_ids": [
@@ -16272,12 +16287,12 @@
     {
      "start": 0,
      "end": 11,
-     "ko": "“~인 것 같구나"
+     "ko": "“보아하니"
     },
     {
      "start": 12,
      "end": 37,
-     "ko": "너희가 도움을 좀 필요로 할.”"
+     "ko": "너희가 도움이 좀 필요하겠구나.”"
     }
    ],
    "natural_ko": "“도움이 좀 필요한 것 같구나.”",
@@ -16897,13 +16912,8 @@
    "chunks": [
     {
      "start": 0,
-     "end": 10,
-     "ko": "“고마워요"
-    },
-    {
-     "start": 11,
      "end": 27,
-     "ko": "우리를 도와준 것에 대해,”"
+     "ko": "“우리를 도와줘서 고마워요,”"
     },
     {
      "start": 28,
@@ -17113,6 +17123,10 @@
        4
       ],
       [
+       5,
+       6
+      ],
+      [
        7,
        14
       ]
@@ -17135,9 +17149,7 @@
       5,
       6
      ],
-     "exemption": "below-middle1-unneeded",
-     "level": "below-middle1",
-     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+     "gloss_id": "s53-g01"
     },
     {
      "span": [
@@ -17463,6 +17475,10 @@
        29
       ],
       [
+       30,
+       33
+      ],
+      [
        34,
        39
       ]
@@ -17521,9 +17537,7 @@
       30,
       33
      ],
-     "exemption": "below-middle1-unneeded",
-     "level": "below-middle1",
-     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+     "gloss_id": "s55-g05"
     },
     {
      "span": [
@@ -17736,6 +17750,10 @@
      "id": "s56-g10",
      "spans": [
       [
+       54,
+       57
+      ],
+      [
        58,
        62
       ]
@@ -17852,9 +17870,7 @@
       54,
       57
      ],
-     "exemption": "below-middle1-unneeded",
-     "level": "below-middle1",
-     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+     "gloss_id": "s56-g10"
     },
     {
      "span": [
@@ -18464,61 +18480,9 @@
      "gloss_id": "s58-g08"
     }
    ],
-   "hints": [
-    {
-     "span": [
-      1,
-      19
-     ],
-     "meaning_ko": "당신이 (얼음 한 봉지를) 가져가는 게 어때요",
-     "explanation": "Why don’t you V?는 이유를 묻는 말이 아니라 ‘~하는 게 어때?’라는 제안. 목적어 a bag of ice for yourself는 제외. 원문은 물음표 대신 콤마로 인용을 닫음.",
-     "display_pairs": [
-      {
-       "en": "[Why don’t you take]",
-       "ko": "[당신[정장 차림의 남자]이 가져가는 게 어때요]",
-       "pronoun_refs": [
-        {
-         "en_span": [
-          11,
-          14
-         ],
-         "ko_pronoun_span": [
-          1,
-          3
-         ],
-         "ko_reference_span": [
-          3,
-          14
-         ]
-        }
-       ],
-       "emphasis_links": [
-        {
-         "en_spans": [
-          [
-           1,
-           14
-          ]
-         ],
-         "ko_spans": [
-          [
-           14,
-           15
-          ],
-          [
-           19,
-           26
-          ]
-         ]
-        }
-       ]
-      }
-     ],
-     "structure_label": "제안 표현 Why don’t you V"
-    }
-   ],
+   "hints": [],
    "reading_checks": {
-    "review_record": "인용된 제안 Why don’t you take a bag of ice for yourself(S: you, V: don’t take; 원문은 물음표 없이 콤마) + 전달절 I suggest. 수량 표현 a bag of. 힌트 1개(제안 표현). 관계사·수동 없음.",
+    "review_record": "인용된 제안 Why don’t you take a bag of ice for yourself(S: you, V: don’t take; 원문은 물음표 없이 콤마) + 전달절 I suggest. 수량 표현 a bag of. 제안 고정 표현 Why don’t you V?는 그 자체 뜻을 익히는 표현이라 각주로 충분하고 u4-gp3에서 분석 → 힌트 없음(L-c Lc-17). 관계사·수동 없음.",
     "required_breaks": [],
     "protected_spans": [
      {
@@ -18900,7 +18864,7 @@
      "ko": "그리고 내가 나머지를 가질게.”"
     }
    ],
-   "natural_ko": "“너희가 얼음 한 봉지를 가져가고, 나머지는 내가 가지는 게 어떠니.”",
+   "natural_ko": "“너희가 얼음 한 봉지를 가져가는 게 어떠니, 나머지는 내가 가질게.”",
    "clauses": [
     {
      "kind": "main",
@@ -19055,6 +19019,10 @@
      "id": "s61-g09",
      "spans": [
       [
+       63,
+       66
+      ],
+      [
        67,
        71
       ]
@@ -19163,9 +19131,7 @@
       63,
       66
      ],
-     "exemption": "below-middle1-unneeded",
-     "level": "below-middle1",
-     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+     "gloss_id": "s61-g09"
     },
     {
      "span": [
@@ -19175,61 +19141,9 @@
      "gloss_id": "s61-g09"
     }
    ],
-   "hints": [
-    {
-     "span": [
-      1,
-      19
-     ],
-     "meaning_ko": "너희가 (얼음 한 봉지를) 가져가는 게 어때",
-     "explanation": "s58과 같은 제안 표현 Why don’t you V?. 남자는 Alyssa의 말을 그대로 되받아 you가 가져갈 몫을 한 봉지로 줄이고, and 뒤에서 나머지를 자기가 갖겠다고 한다.",
-     "display_pairs": [
-      {
-       "en": "[Why don’t you take]",
-       "ko": "[너희[Alyssa와 Garrett]가 가져가는 게 어때]",
-       "pronoun_refs": [
-        {
-         "en_span": [
-          11,
-          14
-         ],
-         "ko_pronoun_span": [
-          1,
-          3
-         ],
-         "ko_reference_span": [
-          3,
-          20
-         ]
-        }
-       ],
-       "emphasis_links": [
-        {
-         "en_spans": [
-          [
-           1,
-           14
-          ]
-         ],
-         "ko_spans": [
-          [
-           20,
-           21
-          ],
-          [
-           25,
-           31
-          ]
-         ]
-        }
-       ]
-      }
-     ],
-     "structure_label": "제안 표현 Why don’t you V"
-    }
-   ],
+   "hints": [],
    "reading_checks": {
-    "review_record": "인용된 두 절: 제안 Why don’t you take a bag of ice for yourselves(S: you, V: don’t take) + and I’ll keep the rest(’ll = will). s58 Alyssa의 제안을 뒤집은 남자의 속셈. 힌트 1개(제안 표현). 관계사·수동 없음.",
+    "review_record": "인용된 두 절: 제안 Why don’t you take a bag of ice for yourselves(S: you, V: don’t take) + and I’ll keep the rest(’ll = will). s58 Alyssa의 제안을 뒤집은 남자의 속셈. 제안 고정 표현은 각주로 충분하고 u4-gp3에서 분석 → 힌트 없음(L-c Lc-17). 관계사·수동 없음.",
     "required_breaks": [],
     "protected_spans": [
      {
@@ -19273,7 +19187,7 @@
      "ko": "그가 진지하다는 것을."
     }
    ],
-   "natural_ko": "잠시 나는 그가 농담하는 줄 알았지만, 곧 그가 진지하다는 것을 깨닫는다.",
+   "natural_ko": "잠시 나는 그가 농담하는 거라고 생각하지만, 곧 그가 진지하다는 것을 깨닫는다.",
    "clauses": [
     {
      "kind": "main",
@@ -19347,6 +19261,10 @@
       [
        0,
        3
+      ],
+      [
+       4,
+       5
       ],
       [
        6,
@@ -19508,9 +19426,7 @@
       4,
       5
      ],
-     "exemption": "below-middle1-unneeded",
-     "level": "below-middle1",
-     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+     "gloss_id": "s62-g01"
     },
     {
      "span": [
@@ -20227,7 +20143,7 @@
       ]
      ],
      "headword": "locked",
-     "meaning_ko": "고정된, 꽉 붙잡힌",
+     "meaning_ko": "(꽉) 고정된 (흔한 뜻: 잠긴)",
      "star": false,
      "verb_form": {
       "usage": "passive-participle",
@@ -20376,7 +20292,7 @@
       ]
      ],
      "headword": "it’s",
-     "meaning_ko": "그것은 ~이다 (it’s = it is)",
+     "meaning_ko": "그것이 ~이다 (= it is)",
      "star": false,
      "referent_ko": "카트"
     },
@@ -20397,12 +20313,16 @@
      "id": "s65-g19",
      "spans": [
       [
+       107,
+       110
+      ],
+      [
        111,
        114
       ]
      ],
-     "headword": "not",
-     "meaning_ko": "~이 아니라",
+     "headword": "A and not B",
+     "meaning_ko": "B가 아니라 A",
      "star": false
     },
     {
@@ -20583,8 +20503,7 @@
       107,
       110
      ],
-     "exemption": "standalone-and-but",
-     "reason": "일반 연결 and/but 단독 각주 제외"
+     "gloss_id": "s65-g19"
     },
     {
      "span": [
@@ -21318,7 +21237,7 @@
       ]
      ],
      "headword": "with",
-     "meaning_ko": "~한 (얼굴)로",
+     "meaning_ko": "~로",
      "star": false
     },
     {
@@ -21330,7 +21249,7 @@
       ]
      ],
      "headword": "bitter",
-     "meaning_ko": "씁쓸한, 억울해하는",
+     "meaning_ko": "씁쓸한, 억울해하는 (흔한 뜻: (맛이) 쓴)",
      "star": false
     },
     {
@@ -21473,7 +21392,7 @@
    ],
    "hints": [],
    "reading_checks": {
-    "review_record": "한 주어 The man의 두 동사 looks와 leaves를 then이 이어 줌(s35와 같은 기준으로 V 표시에 then 보존). 관계사·접속사절·수동 없음 → 힌트 없음.",
+    "review_record": "한 주어 The man의 두 동사 looks와 leaves를 then이 이어 줌(s35와 같은 기준으로 V 표시에 then 보존 — 2026-09-28 사용자 승인 예외, approved-exceptions.md 기록). 관계사·접속사절·수동 없음 → 힌트 없음.",
     "required_breaks": [],
     "protected_spans": [],
     "function_gloss_ids": [],
@@ -21525,6 +21444,10 @@
     {
      "id": "s71-g01",
      "spans": [
+      [
+       1,
+       4
+      ],
       [
        5,
        10
@@ -21645,9 +21568,7 @@
       1,
       4
      ],
-     "exemption": "below-middle1-unneeded",
-     "level": "below-middle1",
-     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+     "gloss_id": "s71-g01"
     },
     {
      "span": [
@@ -21774,7 +21695,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "작품 소개 단락 첫 문장(원문의 * 표시 보존). 주어 The above + is + 보어 a shortened version of the opening of the novel Dry (2018). of 후치수식 두 곳 앞에서 끊음. shortened는 명사 앞 독립 p.p. 힌트 1개. 관계사·수동 없음.",
+    "review_record": "작품 소개 단락 첫 문장(원문의 * 표시 보존). 주어 The above + is + 보어 a shortened version of the opening of the novel Dry (2018). of 후치수식 두 곳 앞에서 끊음. 힌트 1개(of the opening 전치사구 후치수식, of ↔ 의). shortened는 독립 p.p. 각주(줄인, 축약된)로 지원. 관계사·수동 없음.",
     "required_breaks": [
      {
       "at": 34,
@@ -22690,12 +22611,12 @@
     {
      "start": 87,
      "end": 131,
-     "ko": "기후 변화, 인구 증가,"
+     "ko": "기후 변화, 인구 증가를 포함하여,"
     },
     {
      "start": 132,
      "end": 173,
-     "ko": "그리고 농업을 위해 너무 많은 물을 사용하는 것을 포함하여,"
+     "ko": "그리고 농업을 위해 너무 많은 물을 사용하는 것(을 포함하여),"
     },
     {
      "start": 174,
@@ -22908,7 +22829,7 @@
       ]
      ],
      "headword": "addressed",
-     "meaning_ko": "(문제가) 해결된, 다뤄진",
+     "meaning_ko": "(문제가) 해결된, 다뤄진 (흔한 뜻: 주소)",
      "star": true,
      "today_word_id": "u5-w8",
      "verb_form": {
@@ -23408,8 +23329,8 @@
          ],
          "ko_spans": [
           [
-           17,
-           18
+           25,
+           26
           ],
           [
            33,
