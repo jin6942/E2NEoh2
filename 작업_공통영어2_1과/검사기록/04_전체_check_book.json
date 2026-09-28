@@ -1,0 +1,3937 @@
+{
+  "status": "STRUCTURE_PASS",
+  "learning": {
+    "status": "STRUCTURE_PASS",
+    "scope": "full",
+    "lesson_identity": {
+      "number": 1,
+      "kind": "lesson",
+      "internal_id": "UNIT01",
+      "display": "1과"
+    },
+    "source_checks": [
+      {
+        "issues": [],
+        "subheading_count": 3,
+        "reviewed_boundary_count": 0,
+        "review_evidence": "REVIEWER_SUPPLIED_EXTERNAL_SOURCE_BYTES_NOT_CHECKED"
+      }
+    ],
+    "source_count": 1,
+    "unit_count": 4,
+    "sentence_count": 47,
+    "gloss_count": 588,
+    "shortages": [],
+    "sv_lines": {
+      "src/s01": "S: Gina, V: was ／ [when] S′: she, V′: saw ／ S: The Heundeulbawi, V: Has Fallen",
+      "src/s02": "S: Gina, V: shared",
+      "src/s03": "S: a reporter, V: said ／ S: Today’s Internet stories, V: were",
+      "src/s04": "S: Gina, V: was ／ [that] S′: she, V′: had spread",
+      "src/s05": "S: It, V: reminded ／ [that] V′: had happened",
+      "src/s06": "S: The news, V: became ／ [that] S′: a famous athlete, V′: had died ／ [but] S: it, V: turned out",
+      "src/s07": "S: It, V: had been made ／ [who] V′: sought",
+      "src/s08": "S: They, V: produced",
+      "src/s09": "S: Gina, V: criticized ／ [who] V′: had made and spread ／ [because] S′: it, V′: had hurt and confused",
+      "src/s10": "S: Gina herself, V: had contributed",
+      "src/s11": "S: becoming an accidental distributor of fake news like Gina, V: is",
+      "src/s12": "S: Fake news, V: is",
+      "src/s13": "S: It, V: is made",
+      "src/s14": "S: It, V: can confuse disturb and harm",
+      "src/s15": "S: It, V: is",
+      "src/s16": "[after] S′: an earthquake, V′: struck ／ S: thousands of residents, V: did not return and were",
+      "src/s17": "S: This, V: was ／ [that] S′: another earthquake, V′: was",
+      "src/s18": "S: One of those messages, V: said ／ S: It, V: ’s ／ [if] S′: you, V′: want ／ [but] S: Ambon, V: is",
+      "src/s19": "S: Many displaced people, V: were ／ [that] S′: the government, V′: had to announce ／ [that] S′: the information, V′: was",
+      "src/s20": "S: Fake news, V: spreads",
+      "src/s21": "S: A study, V: has shown ／ [that] S′: fake news, V′: spreads",
+      "src/s22": "S: One explanation, V: is ／ [that] S′: people, V′: like",
+      "src/s23": "[When] S′: information, V′: is ／ S: people, V: feel ／ [that] S′: it, V′: is ／ [but] S: they, V: want",
+      "src/s24": "S: they, V: can gain ／ [because] S′: they, V′: are",
+      "src/s25": "S: fake news, V: goes ／ [because] S′: people, V′: tend",
+      "src/s26": "S: It, V: is",
+      "src/s27": "S: people, V: are ／ [that] V′: fits",
+      "src/s28": "S: people, V: fall",
+      "src/s29": "S: they, V: accept and ignore ／ [that] V′: confirms ／ [that] V′: doesn’t support",
+      "src/s30": "S: people, V: tend ／ [that] V′: reports",
+      "src/s31": "S: you, V: can make ／ [that] S′: fake news, V′: does not mislead",
+      "src/s32": "V: read",
+      "src/s33": "S: They, V: can be ／ [that] S′: you, V′: may click",
+      "src/s34": "V: don’t read ／ [but] V: read",
+      "src/s35": "V: don’t read",
+      "src/s36": "V: Exercise",
+      "src/s37": "S: You, V: should question analyze and evaluate ／ [what] S′: you, V′: read",
+      "src/s38": "V: examine",
+      "src/s39": "V: Consider ／ [if] S′: your own beliefs, V′: could affect",
+      "src/s40": "V: Ask ／ [if] S′: you, V′: are reading ／ [that] V′: suit ／ [and] V: look ／ [that] V′: oppose",
+      "src/s41": "V: check",
+      "src/s42": "S: You, V: should examine ／ [who] V′: wrote ／ [what] S′: the intent, V′: was",
+      "src/s43": "S: You, V: need ／ [whether] S′: the news story, V′: is ／ [and] S′: the evidence, V′: is",
+      "src/s44": "S: it, V: might be ／ [that] V′: spreads",
+      "src/s45": "[if] S′: you, V′: have ／ S: you, V: will be ／ [that] S′: fake news, V′: can cause",
+      "src/s46": "V: Don’t forget",
+      "src/s47": "S: Anyone, V: can be"
+    },
+    "analysis_bodies": {
+      "status": "STRUCTURE_VALIDATED",
+      "semantic_review": "NOT_PERFORMED",
+      "standalone_model_translation_section": false,
+      "units": [
+        {
+          "unit_number": 1,
+          "source_id": "src",
+          "role": "analysis_reading_body",
+          "sentences": [
+            {
+              "source_id": "src",
+              "sentence_id": "s01",
+              "original": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 40
+                },
+                {
+                  "start": 41,
+                  "end": 49
+                },
+                {
+                  "start": 50,
+                  "end": 69
+                },
+                {
+                  "start": 70,
+                  "end": 101
+                },
+                {
+                  "start": 102,
+                  "end": 119
+                },
+                {
+                  "start": 120,
+                  "end": 146
+                },
+                {
+                  "start": 147,
+                  "end": 159
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "While scrolling through her social media",
+                    "one day,",
+                    "Gina was astonished",
+                    "when she saw the news headline,",
+                    "“The Heundeulbawi",
+                    "in Seoraksan National Park",
+                    "Has Fallen.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그녀의 소셜 미디어를 스크롤하던 중에",
+                    "어느 날,",
+                    "지나는 깜짝 놀랐다",
+                    "그녀가 뉴스 헤드라인을 보았을 때,",
+                    "“흔들바위가",
+                    "설악산 국립공원에 있는",
+                    "떨어졌다.”"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "어느 날 소셜 미디어를 스크롤하던 중, 지나는 “설악산 국립공원의 흔들바위가 떨어졌다”라는 뉴스 헤드라인을 보고 깜짝 놀랐다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s02",
+              "original": "Gina immediately shared the shocking story with her close friends.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 42
+                },
+                {
+                  "start": 43,
+                  "end": 66
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Gina immediately shared the shocking story",
+                    "with her close friends."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "지나는 즉시 그 충격적인 이야기를 공유했다",
+                    "그녀의 친한 친구들과."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "지나는 곧바로 그 충격적인 소식을 친한 친구들에게 공유했다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s03",
+              "original": "Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 6
+                },
+                {
+                  "start": 7,
+                  "end": 30
+                },
+                {
+                  "start": 31,
+                  "end": 37
+                },
+                {
+                  "start": 38,
+                  "end": 48
+                },
+                {
+                  "start": 49,
+                  "end": 92
+                },
+                {
+                  "start": 93,
+                  "end": 98
+                },
+                {
+                  "start": 99,
+                  "end": 124
+                },
+                {
+                  "start": 125,
+                  "end": 158
+                },
+                {
+                  "start": 159,
+                  "end": 170
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Later,",
+                    "during the morning news",
+                    "on TV,",
+                    "a reporter",
+                    "standing next to the undamaged Heundeulbawi",
+                    "said,",
+                    "“Today’s Internet stories",
+                    "of the Heundeulbawi being damaged",
+                    "were fake.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "이후에,",
+                    "아침 뉴스 동안",
+                    "TV에서 하는,",
+                    "한 기자가",
+                    "손상되지 않은 흔들바위 옆에 서 있는",
+                    "말했다,",
+                    "“오늘의 인터넷 기사들은",
+                    "흔들바위가 손상되는 것에 관한",
+                    "가짜였습니다.”"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "이후 TV 아침 뉴스에서, 멀쩡한 흔들바위 옆에 서 있던 기자가 “흔들바위가 손상되었다는 오늘 인터넷 기사들은 가짜였습니다.”라고 말했다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s04",
+              "original": "Gina was embarrassed by the fact that she had spread the fake news.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 20
+                },
+                {
+                  "start": 21,
+                  "end": 32
+                },
+                {
+                  "start": 33,
+                  "end": 67
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Gina was embarrassed",
+                    "by the fact",
+                    "that she had spread the fake news."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "지나는 당황했다",
+                    "사실에",
+                    "그녀가 가짜 뉴스를 퍼뜨렸다는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "지나는 자신이 가짜 뉴스를 퍼뜨렸다는 사실에 당황했다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s05",
+              "original": "It reminded her of another incident of fake news that had happened a while ago.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 35
+                },
+                {
+                  "start": 36,
+                  "end": 48
+                },
+                {
+                  "start": 49,
+                  "end": 79
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "It reminded her of another incident",
+                    "of fake news",
+                    "that had happened a while ago."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그것은 그녀에게 또 다른 사건을 떠올리게 했다",
+                    "가짜 뉴스의",
+                    "얼마 전에 일어났던."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "이 일은 지나에게 얼마 전에 있었던 또 다른 가짜 뉴스 사건을 떠올리게 했다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s06",
+              "original": "The news that a famous athlete had died became the number one issue online, but it turned out to be fake.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 8
+                },
+                {
+                  "start": 9,
+                  "end": 39
+                },
+                {
+                  "start": 40,
+                  "end": 75
+                },
+                {
+                  "start": 76,
+                  "end": 105
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "The news",
+                    "that a famous athlete had died",
+                    "became the number one issue online,",
+                    "but it turned out to be fake."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "뉴스가",
+                    "한 유명한 운동선수가 죽었다는",
+                    "온라인에서 가장 큰 이슈가 되었다,",
+                    "하지만 그것은 가짜인 것으로 드러났다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "한 유명한 운동선수가 사망했다는 뉴스가 온라인에서 가장 큰 이슈가 되었지만, 그것은 가짜로 밝혀졌다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s07",
+              "original": "It had been made by content creators who sought people’s attention.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 16
+                },
+                {
+                  "start": 17,
+                  "end": 36
+                },
+                {
+                  "start": 37,
+                  "end": 67
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "It had been made",
+                    "by content creators",
+                    "who sought people’s attention."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그것은 만들어졌다",
+                    "콘텐츠 제작자들에 의해",
+                    "사람들의 관심을 추구했던."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그 뉴스는 사람들의 관심을 끌려던 콘텐츠 제작자들이 만든 것이었다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s08",
+              "original": "They produced provocative false stories to make money by raising the number of views of their posts.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 39
+                },
+                {
+                  "start": 40,
+                  "end": 53
+                },
+                {
+                  "start": 54,
+                  "end": 75
+                },
+                {
+                  "start": 76,
+                  "end": 84
+                },
+                {
+                  "start": 85,
+                  "end": 100
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "They produced provocative false stories",
+                    "to make money",
+                    "by raising the number",
+                    "of views",
+                    "of their posts."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그들은 자극적인 거짓 이야기들을 만들어 냈다",
+                    "돈을 벌기 위해",
+                    "수를 높임으로써",
+                    "조회의",
+                    "그들의 게시물들의."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그들은 자신들의 게시물 조회수를 높여 돈을 벌기 위해 자극적인 거짓 이야기를 만들어 냈다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s09",
+              "original": "At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 13
+                },
+                {
+                  "start": 14,
+                  "end": 35
+                },
+                {
+                  "start": 36,
+                  "end": 69
+                },
+                {
+                  "start": 70,
+                  "end": 101
+                },
+                {
+                  "start": 102,
+                  "end": 122
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "At that time,",
+                    "Gina criticized those",
+                    "who had made and spread fake news",
+                    "because it had hurt the athlete",
+                    "and confused people."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그 당시에,",
+                    "지나는 사람들을 비판했다",
+                    "가짜 뉴스를 만들고 퍼뜨렸던",
+                    "그것이 그 운동선수에게 상처를 주었고",
+                    "사람들을 혼란스럽게 했기 때문에."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그 당시 지나는 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했는데, 그 뉴스가 그 운동선수에게 상처를 주고 사람들을 혼란스럽게 했기 때문이었다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s10",
+              "original": "This time, however, Gina herself had accidentally contributed to the spread of fake news.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 10
+                },
+                {
+                  "start": 11,
+                  "end": 19
+                },
+                {
+                  "start": 20,
+                  "end": 61
+                },
+                {
+                  "start": 62,
+                  "end": 75
+                },
+                {
+                  "start": 76,
+                  "end": 89
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "This time,",
+                    "however,",
+                    "Gina herself had accidentally contributed",
+                    "to the spread",
+                    "of fake news."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "이번에는,",
+                    "하지만,",
+                    "지나 자신이 뜻하지 않게 기여했다",
+                    "확산에",
+                    "가짜 뉴스의."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "하지만 이번에는 지나 자신이 뜻하지 않게 가짜 뉴스의 확산에 한몫한 것이었다."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "unit_number": 2,
+          "source_id": "src",
+          "role": "analysis_reading_body",
+          "sentences": [
+            {
+              "source_id": "src",
+              "sentence_id": "s11",
+              "original": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 14
+                },
+                {
+                  "start": 15,
+                  "end": 49
+                },
+                {
+                  "start": 50,
+                  "end": 62
+                },
+                {
+                  "start": 63,
+                  "end": 72
+                },
+                {
+                  "start": 73,
+                  "end": 88
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Unfortunately,",
+                    "becoming an accidental distributor",
+                    "of fake news",
+                    "like Gina",
+                    "is not unusual."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "안타깝게도,",
+                    "우발적인 유포자가 되는 것은",
+                    "가짜 뉴스의",
+                    "지나처럼",
+                    "드물지 않다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "안타깝게도 지나처럼 뜻하지 않게 가짜 뉴스를 퍼뜨리는 사람이 되는 것은 드문 일이 아니다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s12",
+              "original": "Fake news is a deliberate attempt to manipulate people by spreading inaccurate information.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 33
+                },
+                {
+                  "start": 34,
+                  "end": 54
+                },
+                {
+                  "start": 55,
+                  "end": 91
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Fake news is a deliberate attempt",
+                    "to manipulate people",
+                    "by spreading inaccurate information."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "가짜 뉴스는 의도적인 시도이다",
+                    "사람들을 조종하려는",
+                    "부정확한 정보를 퍼뜨림으로써."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "가짜 뉴스는 부정확한 정보를 퍼뜨려 사람들을 조종하려는 의도적인 시도이다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s13",
+              "original": "It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 10
+                },
+                {
+                  "start": 11,
+                  "end": 28
+                },
+                {
+                  "start": 29,
+                  "end": 81
+                },
+                {
+                  "start": 82,
+                  "end": 97
+                },
+                {
+                  "start": 98,
+                  "end": 128
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "It is made",
+                    "by certain groups",
+                    "with the intention of attracting people’s attention,",
+                    "making profits,",
+                    "or gaining political benefits."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그것은 만들어진다",
+                    "특정 집단들에 의해",
+                    "사람들의 관심을 끌려는 의도를 가지고,",
+                    "이익을 얻으려는,",
+                    "또는 정치적 이득을 얻으려는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "가짜 뉴스는 사람들의 관심을 끌거나, 이익을 얻거나, 정치적 이득을 얻으려는 의도를 가진 특정 집단들에 의해 만들어진다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s14",
+              "original": "It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 22
+                },
+                {
+                  "start": 23,
+                  "end": 39
+                },
+                {
+                  "start": 40,
+                  "end": 74
+                },
+                {
+                  "start": 75,
+                  "end": 101
+                },
+                {
+                  "start": 102,
+                  "end": 111
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "It can confuse people,",
+                    "disturb society,",
+                    "and even seriously harm the public",
+                    "as well as all individuals",
+                    "involved."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그것은 사람들을 혼란스럽게 할 수 있다,",
+                    "사회를 어지럽힐 수 있다,",
+                    "그리고 심지어 대중에게 심각하게 해를 끼칠 수 있다",
+                    "모든 개인들뿐만 아니라",
+                    "관련된."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "가짜 뉴스는 사람들을 혼란스럽게 하고, 사회를 어지럽히며, 심지어 관련된 모든 개인뿐만 아니라 대중에게도 심각한 해를 끼칠 수 있다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s15",
+              "original": "It is very common for fake news to spread during states of emergency.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 17
+                },
+                {
+                  "start": 18,
+                  "end": 41
+                },
+                {
+                  "start": 42,
+                  "end": 69
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "It is very common",
+                    "for fake news to spread",
+                    "during states of emergency."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "매우 흔하다",
+                    "가짜 뉴스가 퍼지는 것은",
+                    "비상사태 동안."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "비상사태 때 가짜 뉴스가 퍼지는 것은 매우 흔한 일이다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s16",
+              "original": "For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 12
+                },
+                {
+                  "start": 13,
+                  "end": 46
+                },
+                {
+                  "start": 47,
+                  "end": 71
+                },
+                {
+                  "start": 72,
+                  "end": 90
+                },
+                {
+                  "start": 91,
+                  "end": 128
+                },
+                {
+                  "start": 129,
+                  "end": 143
+                },
+                {
+                  "start": 144,
+                  "end": 170
+                },
+                {
+                  "start": 171,
+                  "end": 185
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "For example,",
+                    "after an earthquake measuring 6.5",
+                    "struck Ambon, Indonesia,",
+                    "in September 2019,",
+                    "thousands of residents did not return",
+                    "to their homes",
+                    "and were still in shelters",
+                    "for two weeks."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "예를 들어,",
+                    "규모가 6.5인 지진이",
+                    "인도네시아 암본을 강타한 후에,",
+                    "2019년 9월에,",
+                    "수천 명의 주민들이 돌아가지 않았다",
+                    "그들의 집으로",
+                    "그리고 여전히 대피소에 있었다",
+                    "2주 동안."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "예를 들어, 2019년 9월 인도네시아 암본에 규모 6.5의 지진이 발생한 후 수천 명의 주민들이 집으로 돌아가지 않고 2주 동안 대피소에 머물렀다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s17",
+              "original": "This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 37
+                },
+                {
+                  "start": 38,
+                  "end": 53
+                },
+                {
+                  "start": 54,
+                  "end": 77
+                },
+                {
+                  "start": 78,
+                  "end": 86
+                },
+                {
+                  "start": 87,
+                  "end": 99
+                },
+                {
+                  "start": 100,
+                  "end": 120
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "This was because of fake news stories",
+                    "on social media",
+                    "that another earthquake",
+                    "followed",
+                    "by a tsunami",
+                    "was about to strike."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "이것은 가짜 뉴스 이야기들 때문이었다",
+                    "소셜 미디어에 올라온",
+                    "또 다른 지진이",
+                    "이어지는",
+                    "쓰나미로",
+                    "곧 닥칠 것이라는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "이는 쓰나미를 동반한 또 다른 지진이 곧 닥칠 것이라는 소셜 미디어상의 가짜 뉴스 때문이었다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s18",
+              "original": "One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 27
+                },
+                {
+                  "start": 28,
+                  "end": 43
+                },
+                {
+                  "start": 44,
+                  "end": 77
+                },
+                {
+                  "start": 78,
+                  "end": 115
+                },
+                {
+                  "start": 116,
+                  "end": 138
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "One of those messages said,",
+                    "“It’s up to you",
+                    "if you want to believe me or not,",
+                    "but apparently Ambon is going to sink",
+                    "in the next few days.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그 메시지들 중 하나는 말했다,",
+                    "“당신에게 달려 있다",
+                    "당신이 나를 믿고 싶은지 아닌지는,",
+                    "하지만 듣자 하니 암본은 가라앉을 것이다",
+                    "앞으로 며칠 안에.”"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그 메시지 중 하나는 “나를 믿든 말든 당신 마음이지만, 듣자 하니 앞으로 며칠 안에 암본이 가라앉을 거래요.”라고 했다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s19",
+              "original": "Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 37
+                },
+                {
+                  "start": 38,
+                  "end": 55
+                },
+                {
+                  "start": 56,
+                  "end": 91
+                },
+                {
+                  "start": 92,
+                  "end": 122
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Many displaced people were so anxious",
+                    "about aftershocks",
+                    "that the government had to announce",
+                    "that the information was fake."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "많은 이재민들이 너무 불안해했다",
+                    "여진에 대해",
+                    "그래서 정부는 발표해야 했다",
+                    "그 정보가 가짜라고."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "많은 이재민들이 여진을 너무 불안해해서 정부는 그 정보가 가짜라고 발표해야 했다."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "unit_number": 3,
+          "source_id": "src",
+          "role": "analysis_reading_body",
+          "sentences": [
+            {
+              "source_id": "src",
+              "sentence_id": "s20",
+              "original": "Fake news on social media spreads significantly farther and faster than true stories.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 9
+                },
+                {
+                  "start": 10,
+                  "end": 25
+                },
+                {
+                  "start": 26,
+                  "end": 66
+                },
+                {
+                  "start": 67,
+                  "end": 85
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Fake news",
+                    "on social media",
+                    "spreads significantly farther and faster",
+                    "than true stories."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "가짜 뉴스는",
+                    "소셜 미디어상의",
+                    "훨씬 더 멀리 그리고 더 빠르게 퍼진다",
+                    "진짜 이야기들보다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "소셜 미디어상의 가짜 뉴스는 진짜 이야기보다 훨씬 더 멀리, 더 빠르게 퍼진다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s21",
+              "original": "A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 7
+                },
+                {
+                  "start": 8,
+                  "end": 52
+                },
+                {
+                  "start": 53,
+                  "end": 62
+                },
+                {
+                  "start": 63,
+                  "end": 72
+                },
+                {
+                  "start": 73,
+                  "end": 102
+                },
+                {
+                  "start": 103,
+                  "end": 117
+                },
+                {
+                  "start": 118,
+                  "end": 132
+                },
+                {
+                  "start": 133,
+                  "end": 144
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "A study",
+                    "by the Massachusetts Institute of Technology",
+                    "in the US",
+                    "has shown",
+                    "that fake news spreads online",
+                    "6 times faster",
+                    "than real news",
+                    "on average."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "한 연구는",
+                    "매사추세츠 공과대학에 의한",
+                    "미국에 있는",
+                    "보여 주었다",
+                    "가짜 뉴스가 온라인에서 퍼진다는 것을",
+                    "6배 더 빠르게",
+                    "진짜 뉴스보다",
+                    "평균적으로."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "미국 매사추세츠 공과대학의 한 연구는 가짜 뉴스가 평균적으로 진짜 뉴스보다 6배 더 빠르게 온라인에서 퍼진다는 것을 보여 주었다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s22",
+              "original": "One explanation for this phenomenon is that people like new and provocative things.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 15
+                },
+                {
+                  "start": 16,
+                  "end": 35
+                },
+                {
+                  "start": 36,
+                  "end": 83
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "One explanation",
+                    "for this phenomenon",
+                    "is that people like new and provocative things."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "한 가지 설명은",
+                    "이 현상에 대한",
+                    "사람들이 새롭고 자극적인 것들을 좋아한다는 것이다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "이 현상에 대한 한 가지 설명은 사람들이 새롭고 자극적인 것을 좋아한다는 것이다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s23",
+              "original": "When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 32
+                },
+                {
+                  "start": 33,
+                  "end": 53
+                },
+                {
+                  "start": 54,
+                  "end": 76
+                },
+                {
+                  "start": 77,
+                  "end": 125
+                },
+                {
+                  "start": 126,
+                  "end": 138
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "When information is astonishing,",
+                    "people not only feel",
+                    "that it is surprising,",
+                    "but they also want to share the stimulating news",
+                    "with others."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "정보가 놀라울 때,",
+                    "사람들은 느낄 뿐만 아니라",
+                    "그것이 놀랍다고,",
+                    "그들은 또한 그 자극적인 뉴스를 공유하고 싶어 한다",
+                    "다른 사람들과."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "정보가 놀라우면 사람들은 그것이 놀랍다고 느낄 뿐만 아니라 그 자극적인 뉴스를 다른 사람들과 공유하고 싶어 한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s24",
+              "original": "By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 23
+                },
+                {
+                  "start": 24,
+                  "end": 40
+                },
+                {
+                  "start": 41,
+                  "end": 64
+                },
+                {
+                  "start": 65,
+                  "end": 91
+                },
+                {
+                  "start": 92,
+                  "end": 152
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "By passing it to others",
+                    "on social media,",
+                    "they can gain attention",
+                    "because they are the first",
+                    "to post previously unknown, but possibly false, information."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그것을 다른 사람들에게 전달함으로써",
+                    "소셜 미디어에서,",
+                    "그들은 관심을 얻을 수 있다",
+                    "그들이 첫 번째 사람이기 때문에",
+                    "이전에 알려지지 않았지만 어쩌면 거짓일 수도 있는 정보를 게시하는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "소셜 미디어에서 그것을 다른 사람들에게 전달하면, 그들은 이전에 알려지지 않았지만 어쩌면 거짓일 수도 있는 정보를 처음으로 게시한 사람이 되기 때문에 관심을 얻을 수 있다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s25",
+              "original": "Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 5
+                },
+                {
+                  "start": 6,
+                  "end": 26
+                },
+                {
+                  "start": 27,
+                  "end": 41
+                },
+                {
+                  "start": 42,
+                  "end": 62
+                },
+                {
+                  "start": 63,
+                  "end": 101
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Also,",
+                    "fake news goes viral",
+                    "because people",
+                    "in their daily lives",
+                    "tend to think simply and effortlessly."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "또한,",
+                    "가짜 뉴스는 빠르게 퍼진다",
+                    "사람들이",
+                    "그들의 일상생활에서",
+                    "단순하고 쉽게 생각하는 경향이 있기 때문에."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "또한 사람들은 일상생활에서 단순하고 쉽게 생각하는 경향이 있기 때문에 가짜 뉴스는 빠르게 퍼진다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s26",
+              "original": "It is more likely for them to believe new information without any proof, instead of critically examining it.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 17
+                },
+                {
+                  "start": 18,
+                  "end": 53
+                },
+                {
+                  "start": 54,
+                  "end": 72
+                },
+                {
+                  "start": 73,
+                  "end": 108
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "It is more likely",
+                    "for them to believe new information",
+                    "without any proof,",
+                    "instead of critically examining it."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "가능성이 더 높다",
+                    "그들이 새로운 정보를 믿을",
+                    "어떤 증거도 없이,",
+                    "그것을 비판적으로 검토하는 대신에."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "사람들은 새로운 정보를 비판적으로 검토하는 대신 아무 증거 없이 믿을 가능성이 더 크다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s27",
+              "original": "Moreover, people are inclined to believe information that fits their prejudices or experiences even when not true.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 9
+                },
+                {
+                  "start": 10,
+                  "end": 52
+                },
+                {
+                  "start": 53,
+                  "end": 94
+                },
+                {
+                  "start": 95,
+                  "end": 114
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Moreover,",
+                    "people are inclined to believe information",
+                    "that fits their prejudices or experiences",
+                    "even when not true."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "게다가,",
+                    "사람들은 정보를 믿는 경향이 있다",
+                    "그들의 편견이나 경험에 맞는",
+                    "사실이 아닐 때조차."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "게다가 사람들은 사실이 아닐 때조차 자신의 편견이나 경험에 맞는 정보를 믿는 경향이 있다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s28",
+              "original": "In this process, people easily fall into the trap of “confirmation bias.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 16
+                },
+                {
+                  "start": 17,
+                  "end": 49
+                },
+                {
+                  "start": 50,
+                  "end": 73
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "In this process,",
+                    "people easily fall into the trap",
+                    "of “confirmation bias.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "이 과정에서,",
+                    "사람들은 쉽게 함정에 빠진다",
+                    "‘확증 편향’이라는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "이 과정에서 사람들은 ‘확증 편향’이라는 함정에 쉽게 빠진다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s29",
+              "original": "That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 8
+                },
+                {
+                  "start": 9,
+                  "end": 37
+                },
+                {
+                  "start": 38,
+                  "end": 46
+                },
+                {
+                  "start": 47,
+                  "end": 79
+                },
+                {
+                  "start": 80,
+                  "end": 95
+                },
+                {
+                  "start": 96,
+                  "end": 122
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "That is,",
+                    "they selectively accept news",
+                    "in a way",
+                    "that only confirms their beliefs",
+                    "and ignore news",
+                    "that doesn’t support them."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "즉,",
+                    "그들은 선택적으로 뉴스를 받아들인다",
+                    "방식으로",
+                    "오직 그들의 믿음을 확인해 주는",
+                    "그리고 뉴스는 무시한다",
+                    "그것들을 뒷받침하지 않는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "즉, 그들은 자신의 믿음을 확인해 주는 뉴스만 골라서 받아들이고, 믿음을 뒷받침하지 않는 뉴스는 무시한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s30",
+              "original": "During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 23
+                },
+                {
+                  "start": 24,
+                  "end": 36
+                },
+                {
+                  "start": 37,
+                  "end": 76
+                },
+                {
+                  "start": 77,
+                  "end": 112
+                },
+                {
+                  "start": 113,
+                  "end": 131
+                },
+                {
+                  "start": 132,
+                  "end": 166
+                },
+                {
+                  "start": 167,
+                  "end": 198
+                },
+                {
+                  "start": 199,
+                  "end": 222
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "During election season,",
+                    "for example,",
+                    "people tend to blindly believe any news",
+                    "describing their favored candidates",
+                    "in a positive way,",
+                    "while unconsciously believing news",
+                    "that reports something negative",
+                    "about other candidates."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "선거철 동안,",
+                    "예를 들어,",
+                    "사람들은 어떤 뉴스든 맹목적으로 믿는 경향이 있다",
+                    "그들이 선호하는 후보들을 묘사하는",
+                    "긍정적인 방식으로,",
+                    "그러면서 무의식적으로 뉴스를 믿는다",
+                    "부정적인 무언가를 보도하는",
+                    "다른 후보들에 대해."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "예를 들어 선거철에 사람들은 자신이 지지하는 후보를 긍정적으로 묘사하는 뉴스라면 무엇이든 맹목적으로 믿는 경향이 있고, 동시에 다른 후보에 대해 부정적인 내용을 보도하는 뉴스도 무의식적으로 믿는다."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "unit_number": 4,
+          "source_id": "src",
+          "role": "analysis_reading_body",
+          "sentences": [
+            {
+              "source_id": "src",
+              "sentence_id": "s31",
+              "original": "With so much information on the Internet, how can you make sure that fake news does not mislead you?",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 24
+                },
+                {
+                  "start": 25,
+                  "end": 41
+                },
+                {
+                  "start": 42,
+                  "end": 63
+                },
+                {
+                  "start": 64,
+                  "end": 100
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "With so much information",
+                    "on the Internet,",
+                    "how can you make sure",
+                    "that fake news does not mislead you?"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그렇게 많은 정보가 있는 상황에서",
+                    "인터넷에,",
+                    "어떻게 당신은 확실히 할 수 있을까",
+                    "가짜 뉴스가 당신을 속이지 않는다는 것을?"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "인터넷에 그렇게 많은 정보가 있는데, 어떻게 가짜 뉴스에 속지 않을 수 있을까?"
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s32",
+              "original": "First, read beyond the provocative headlines.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 6
+                },
+                {
+                  "start": 7,
+                  "end": 45
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "First,",
+                    "read beyond the provocative headlines."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "첫째,",
+                    "자극적인 헤드라인들을 넘어서 읽어라."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "첫째, 자극적인 헤드라인에서 멈추지 말고 그 너머까지 읽어라."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s33",
+              "original": "They can be so stimulating to get more clicks that you may click on them accidentally.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 26
+                },
+                {
+                  "start": 27,
+                  "end": 45
+                },
+                {
+                  "start": 46,
+                  "end": 86
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "They can be so stimulating",
+                    "to get more clicks",
+                    "that you may click on them accidentally."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그것들은 너무 자극적일 수 있다",
+                    "더 많은 클릭 수를 얻기 위해",
+                    "그래서 당신은 뜻하지 않게 그것들을 클릭할 수도 있다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "헤드라인은 클릭 수를 늘리려고 너무 자극적으로 만들어져서 당신이 무심코 클릭하게 될 수도 있다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s34",
+              "original": "So don’t just read the headlines, but read the text carefully.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 33
+                },
+                {
+                  "start": 34,
+                  "end": 62
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "So don’t just read the headlines,",
+                    "but read the text carefully."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그러므로 그저 헤드라인만 읽지 말고,",
+                    "본문을 주의 깊게 읽어라."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그러므로 헤드라인만 읽지 말고 본문을 주의 깊게 읽어라."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s35",
+              "original": "Second, don’t read the news at face value.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 7
+                },
+                {
+                  "start": 8,
+                  "end": 42
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Second,",
+                    "don’t read the news at face value."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "둘째,",
+                    "뉴스를 액면 그대로 읽지 마라."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "둘째, 뉴스를 곧이곧대로 받아들이지 마라."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s36",
+              "original": "Exercise critical thinking skills to judge the news.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 33
+                },
+                {
+                  "start": 34,
+                  "end": 52
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Exercise critical thinking skills",
+                    "to judge the news."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "비판적 사고 기술을 발휘하라",
+                    "뉴스를 판단하기 위해."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "뉴스를 판단하기 위해 비판적 사고 능력을 발휘하라."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s37",
+              "original": "You should question, analyze, and evaluate what you read.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 42
+                },
+                {
+                  "start": 43,
+                  "end": 57
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "You should question, analyze, and evaluate",
+                    "what you read."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "당신은 의문을 제기하고, 분석하고, 평가해야 한다",
+                    "당신이 읽는 것을."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "당신은 자신이 읽는 것에 대해 질문하고, 분석하고, 평가해야 한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s38",
+              "original": "Third, examine your biases.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 6
+                },
+                {
+                  "start": 7,
+                  "end": 27
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Third,",
+                    "examine your biases."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "셋째,",
+                    "당신의 편견들을 점검하라."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "셋째, 자신의 편견을 점검하라."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s39",
+              "original": "Consider if your own beliefs could affect your judgment.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 8
+                },
+                {
+                  "start": 9,
+                  "end": 56
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Consider",
+                    "if your own beliefs could affect your judgment."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "고려하라",
+                    "당신 자신의 믿음이 당신의 판단에 영향을 미칠 수 있는지."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "자신의 믿음이 판단에 영향을 줄 수 있는지 생각해 보라."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s40",
+              "original": "Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 12
+                },
+                {
+                  "start": 13,
+                  "end": 45
+                },
+                {
+                  "start": 46,
+                  "end": 69
+                },
+                {
+                  "start": 70,
+                  "end": 91
+                },
+                {
+                  "start": 92,
+                  "end": 116
+                },
+                {
+                  "start": 117,
+                  "end": 125
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Ask yourself",
+                    "if you are only reading articles",
+                    "that suit your opinion,",
+                    "and look for articles",
+                    "that oppose your opinion",
+                    "as well."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "당신 자신에게 물어보라",
+                    "당신이 오직 기사들만 읽고 있는지",
+                    "당신의 의견에 맞는,",
+                    "그리고 기사들을 찾아라",
+                    "당신의 의견에 반대되는",
+                    "또한."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "자신의 의견에 맞는 기사만 읽고 있는 것은 아닌지 스스로에게 물어보고, 자신의 의견에 반대되는 기사도 찾아보라."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s41",
+              "original": "Finally, check the credibility of the source.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 8
+                },
+                {
+                  "start": 9,
+                  "end": 30
+                },
+                {
+                  "start": 31,
+                  "end": 45
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Finally,",
+                    "check the credibility",
+                    "of the source."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "마지막으로,",
+                    "신뢰성을 확인하라",
+                    "출처의."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "마지막으로, 출처가 믿을 만한지 확인하라."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s42",
+              "original": "You should examine who wrote the news story and what the intent was behind writing the news story.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 18
+                },
+                {
+                  "start": 19,
+                  "end": 43
+                },
+                {
+                  "start": 44,
+                  "end": 67
+                },
+                {
+                  "start": 68,
+                  "end": 98
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "You should examine",
+                    "who wrote the news story",
+                    "and what the intent was",
+                    "behind writing the news story."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "당신은 살펴보아야 한다",
+                    "누가 그 뉴스 기사를 썼는지",
+                    "그리고 의도가 무엇이었는지",
+                    "그 뉴스 기사를 쓴 것 뒤에 있는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "당신은 누가 그 뉴스 기사를 썼는지, 그리고 그 기사를 쓴 이면의 의도가 무엇이었는지 살펴보아야 한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s43",
+              "original": "You also need to check whether the news story is from a reliable media source and the evidence is valid.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 22
+                },
+                {
+                  "start": 23,
+                  "end": 77
+                },
+                {
+                  "start": 78,
+                  "end": 104
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "You also need to check",
+                    "whether the news story is from a reliable media source",
+                    "and the evidence is valid."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "당신은 또한 확인할 필요가 있다",
+                    "그 뉴스 기사가 믿을 만한 미디어 출처에서 나온 것인지",
+                    "그리고 증거가 타당한지."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "또한 그 뉴스 기사가 믿을 만한 언론 출처에서 나온 것인지, 그리고 증거가 타당한지 확인해야 한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s44",
+              "original": "In the digital age, it might be impossible to avoid or eliminate all false information that spreads online.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 19
+                },
+                {
+                  "start": 20,
+                  "end": 42
+                },
+                {
+                  "start": 43,
+                  "end": 86
+                },
+                {
+                  "start": 87,
+                  "end": 107
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "In the digital age,",
+                    "it might be impossible",
+                    "to avoid or eliminate all false information",
+                    "that spreads online."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "디지털 시대에는,",
+                    "불가능할지도 모른다",
+                    "모든 거짓 정보를 피하거나 없애는 것은",
+                    "온라인에서 퍼지는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "디지털 시대에는 온라인에서 퍼지는 모든 거짓 정보를 피하거나 없애는 것이 불가능할지도 모른다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s45",
+              "original": "However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 8
+                },
+                {
+                  "start": 9,
+                  "end": 32
+                },
+                {
+                  "start": 33,
+                  "end": 80
+                },
+                {
+                  "start": 81,
+                  "end": 118
+                },
+                {
+                  "start": 119,
+                  "end": 144
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "However,",
+                    "if you have the ability",
+                    "to view information critically and objectively,",
+                    "you will be able to reduce the damage",
+                    "that fake news can cause."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "하지만,",
+                    "만약 당신이 능력을 가지고 있다면",
+                    "정보를 비판적이고 객관적으로 볼 수 있는,",
+                    "당신은 피해를 줄일 수 있을 것이다",
+                    "가짜 뉴스가 일으킬 수 있는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "하지만 정보를 비판적이고 객관적으로 볼 수 있는 능력이 있다면, 가짜 뉴스가 일으킬 수 있는 피해를 줄일 수 있을 것이다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s46",
+              "original": "Don’t forget!",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 13
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Don’t forget!"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "잊지 마라!"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "잊지 마라!"
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s47",
+              "original": "Anyone can be the next person producing or spreading fake news!",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 29
+                },
+                {
+                  "start": 30,
+                  "end": 63
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Anyone can be the next person",
+                    "producing or spreading fake news!"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "누구든지 다음 사람이 될 수 있다",
+                    "가짜 뉴스를 만들어 내거나 퍼뜨리는!"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "누구든지 가짜 뉴스를 만들어 내거나 퍼뜨리는 다음 사람이 될 수 있다!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "source_artifact_bytes": "NOT_CHECKED_BY_THIS_TOOL",
+    "lexical_level_and_exemptions": "REVIEWER_SUPPLIED_NOT_AUTOMATICALLY_VERIFIED",
+    "all_repeated_today_word_occurrences": "REQUIRES_SEMANTIC_REVIEW",
+    "verb_form_declarations": {
+      "form_count": 55,
+      "phrase_count": 0,
+      "status": "DECLARED_LOCATIONS_CHECKED",
+      "scope": "REVIEWER_DECLARED_LOCATIONS_ONLY_NOT_GRAMMAR_OR_MEANING_INFERENCE"
+    },
+    "reading_rule_declarations": "SUPPLIED_CONSTRAINTS_ONLY_NOT_GRAMMAR_INFERENCE",
+    "reading_revision_audit": "DECLARATIONS_REQUIRED",
+    "relative_hint_declarations": {
+      "status": "DECLARED_LOCATIONS_CHECKED",
+      "declared_sentence_count": 47,
+      "undeclared_sentences": [],
+      "scope": "REVIEWER_DECLARED_LOCATIONS_ONLY_NOT_GRAMMAR_INFERENCE"
+    },
+    "syntax_training": {
+      "version": 1,
+      "status": "DECLARED_LINKS_CHECKED",
+      "units": [
+        {
+          "unit_id": "u1",
+          "status": "DECLARED_LINKS_CHECKED",
+          "base_grammar_point_count": 3,
+          "supplemental_count": 2,
+          "formula_occurrence_count": 9,
+          "practice_count": 5,
+          "workbook_links": "CHECKED",
+          "semantic_review": "NOT_PERFORMED"
+        },
+        {
+          "unit_id": "u2",
+          "status": "DECLARED_LINKS_CHECKED",
+          "base_grammar_point_count": 3,
+          "supplemental_count": 0,
+          "formula_occurrence_count": 1,
+          "practice_count": 3,
+          "workbook_links": "CHECKED",
+          "semantic_review": "NOT_PERFORMED"
+        },
+        {
+          "unit_id": "u3",
+          "status": "DECLARED_LINKS_CHECKED",
+          "base_grammar_point_count": 3,
+          "supplemental_count": 0,
+          "formula_occurrence_count": 1,
+          "practice_count": 3,
+          "workbook_links": "CHECKED",
+          "semantic_review": "NOT_PERFORMED"
+        },
+        {
+          "unit_id": "u4",
+          "status": "DECLARED_LINKS_CHECKED",
+          "base_grammar_point_count": 3,
+          "supplemental_count": 0,
+          "formula_occurrence_count": 0,
+          "practice_count": 3,
+          "workbook_links": "CHECKED",
+          "semantic_review": "NOT_PERFORMED"
+        }
+      ],
+      "semantic_review": "NOT_PERFORMED"
+    },
+    "semantic_review": "NOT_PERFORMED",
+    "visual_review": "NOT_PERFORMED"
+  },
+  "assessment": {
+    "status": "PASS",
+    "errors": [],
+    "checked_question_count": 19,
+    "scope": "record correspondence and required fields only",
+    "source_reconstruction": "NOT_CHECKED_BY_THIS_TOOL",
+    "semantic_review": "NOT_PERFORMED",
+    "independent_reviews": "NOT_PERFORMED",
+    "docx_presence": "NOT_CHECKED_BY_THIS_TOOL",
+    "visual_review": "NOT_PERFORMED"
+  },
+  "question_views": {
+    "Q01": {
+      "original": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        1033
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09",
+        "s10"
+      ],
+      "word_count": 174,
+      "type": "주제",
+      "passage": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "주제",
+        "benchmark_ids": [
+          "202603241-Q23",
+          "202606041-Q23",
+          "202609021-Q23"
+        ],
+        "reference_words": [
+          142,
+          132,
+          168
+        ],
+        "assessment_word_count": 174,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "주제 고1 표본 [142, 132, 168]단어와 비교해 현재 174단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q02": {
+      "original": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.\nIt is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
+      "source_id": "src",
+      "source_span": [
+        1034,
+        2094
+      ],
+      "source_sentence_ids": [
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17",
+        "s18",
+        "s19"
+      ],
+      "word_count": 175,
+      "type": "내용",
+      "passage": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.\nIt is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "내용",
+        "benchmark_ids": [
+          "202603241-Q26",
+          "202606041-Q26",
+          "202609021-Q26"
+        ],
+        "reference_words": [
+          142,
+          118,
+          167
+        ],
+        "assessment_word_count": 175,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 175단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q03": {
+      "original": "Fake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average.\nOne explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.\nMoreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+      "source_id": "src",
+      "source_span": [
+        2095,
+        3447
+      ],
+      "source_sentence_ids": [
+        "s20",
+        "s21",
+        "s22",
+        "s23",
+        "s24",
+        "s25",
+        "s26",
+        "s27",
+        "s28",
+        "s29",
+        "s30"
+      ],
+      "word_count": 216,
+      "type": "제목",
+      "passage": "Fake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average.\nOne explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.\nMoreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "제목",
+        "benchmark_ids": [
+          "202603241-Q24",
+          "202606041-Q24",
+          "202609021-Q24"
+        ],
+        "reference_words": [
+          154,
+          143,
+          179
+        ],
+        "assessment_word_count": 216,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "제목 고1 표본 [154, 143, 179]단어와 비교해 현재 216단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q04": {
+      "original": "You should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.\nIn the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!",
+      "source_id": "src",
+      "source_span": [
+        3841,
+        4690
+      ],
+      "source_sentence_ids": [
+        "s37",
+        "s38",
+        "s39",
+        "s40",
+        "s41",
+        "s42",
+        "s43",
+        "s44",
+        "s45",
+        "s46",
+        "s47"
+      ],
+      "word_count": 145,
+      "type": "주장",
+      "passage": "You should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.\nIn the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "주장",
+        "benchmark_ids": [
+          "202603241-Q20",
+          "202606041-Q20",
+          "202609021-Q20"
+        ],
+        "reference_words": [
+          149,
+          125,
+          160
+        ],
+        "assessment_word_count": 145,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "주장 고1 표본 [149, 125, 160]단어와 비교해 현재 145단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q05": {
+      "original": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.\nIt is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
+      "source_id": "src",
+      "source_span": [
+        1034,
+        2094
+      ],
+      "source_sentence_ids": [
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17",
+        "s18",
+        "s19"
+      ],
+      "word_count": 175,
+      "type": "요지",
+      "passage": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.\nIt is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "요지",
+        "benchmark_ids": [
+          "202603241-Q22",
+          "202606041-Q22",
+          "202609021-Q22"
+        ],
+        "reference_words": [
+          133,
+          149,
+          173
+        ],
+        "assessment_word_count": 175,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "요지 고1 표본 [133, 149, 173]단어와 비교해 현재 175단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q06": {
+      "original": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        1033
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09",
+        "s10"
+      ],
+      "word_count": 174,
+      "type": "순서",
+      "passage": null,
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "given": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. ",
+      "blocks": {
+        "A": "It reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. ",
+        "B": "They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.",
+        "C": "Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news.\n"
+      },
+      "correct_order": [
+        "C",
+        "A",
+        "B"
+      ],
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "순서",
+        "benchmark_ids": [
+          "202603241-Q36",
+          "202606041-Q36",
+          "202609021-Q36"
+        ],
+        "reference_words": [
+          134,
+          160,
+          168
+        ],
+        "assessment_word_count": 174,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 174단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q07": {
+      "original": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise critical thinking skills to judge the news.\nYou should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.",
+      "source_id": "src",
+      "source_span": [
+        3448,
+        4359
+      ],
+      "source_sentence_ids": [
+        "s31",
+        "s32",
+        "s33",
+        "s34",
+        "s35",
+        "s36",
+        "s37",
+        "s38",
+        "s39",
+        "s40",
+        "s41",
+        "s42",
+        "s43"
+      ],
+      "word_count": 157,
+      "type": "삽입",
+      "passage": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise critical thinking skills to judge the news.\nYou should question, analyze, and evaluate what you read.  Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.",
+      "annotations": [
+        {
+          "kind": "insertion_slot",
+          "number": 1,
+          "offset": 147
+        },
+        {
+          "kind": "insertion_slot",
+          "number": 2,
+          "offset": 297
+        },
+        {
+          "kind": "insertion_slot",
+          "number": 3,
+          "offset": 340
+        },
+        {
+          "kind": "insertion_slot",
+          "number": 4,
+          "offset": 451
+        },
+        {
+          "kind": "insertion_slot",
+          "number": 5,
+          "offset": 635
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "given": "Third, examine your biases.",
+      "answer": 4,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "삽입",
+        "benchmark_ids": [
+          "202603241-Q38",
+          "202606041-Q38",
+          "202609021-Q38"
+        ],
+        "reference_words": [
+          138,
+          167,
+          165
+        ],
+        "assessment_word_count": 157,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "삽입 고1 표본 [138, 167, 165]단어와 비교해 현재 157단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q08": {
+      "original": "Fake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average.\nOne explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.\nMoreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+      "source_id": "src",
+      "source_span": [
+        2095,
+        3447
+      ],
+      "source_sentence_ids": [
+        "s20",
+        "s21",
+        "s22",
+        "s23",
+        "s24",
+        "s25",
+        "s26",
+        "s27",
+        "s28",
+        "s29",
+        "s30"
+      ],
+      "word_count": 216,
+      "type": "제목",
+      "passage": "Fake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average.\nOne explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.\nMoreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 216,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 216단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q09": {
+      "original": "Fake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average.\nOne explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.\nMoreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+      "source_id": "src",
+      "source_span": [
+        2095,
+        3447
+      ],
+      "source_sentence_ids": [
+        "s20",
+        "s21",
+        "s22",
+        "s23",
+        "s24",
+        "s25",
+        "s26",
+        "s27",
+        "s28",
+        "s29",
+        "s30"
+      ],
+      "word_count": 216,
+      "type": "어휘",
+      "passage": "Fake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average.\nOne explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.\nMoreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and trust news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+      "annotations": [
+        {
+          "kind": "numbered_word",
+          "number": 1,
+          "span": [
+            295,
+            306
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 2,
+          "span": [
+            414,
+            419
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 3,
+          "span": [
+            684,
+            690
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 4,
+          "span": [
+            1091,
+            1096
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 5,
+          "span": [
+            1319,
+            1327
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "replacement": {
+        "start": 1091,
+        "end": 1096,
+        "original": "ignore",
+        "text": "trust"
+      },
+      "answer": 4,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 216,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 216단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q10": {
+      "original": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        1033
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09",
+        "s10"
+      ],
+      "word_count": 174,
+      "type": "내용",
+      "passage": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "내용",
+        "benchmark_ids": [
+          "202603241-Q26",
+          "202606041-Q26",
+          "202609021-Q26"
+        ],
+        "reference_words": [
+          142,
+          118,
+          167
+        ],
+        "assessment_word_count": 174,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 174단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q11": {
+      "original": "One explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.\nMoreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+      "source_id": "src",
+      "source_span": [
+        2326,
+        3447
+      ],
+      "source_sentence_ids": [
+        "s22",
+        "s23",
+        "s24",
+        "s25",
+        "s26",
+        "s27",
+        "s28",
+        "s29",
+        "s30"
+      ],
+      "word_count": 177,
+      "type": "빈칸",
+      "passage": "One explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.\nMoreover, people are inclined to believe information that ________________ even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "replacement": {
+        "start": 645,
+        "end": 661,
+        "original": "fits their prejudices or experiences",
+        "text": "________________"
+      },
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "빈칸",
+        "benchmark_ids": [
+          "202603241-Q31",
+          "202606041-Q31",
+          "202609021-Q31"
+        ],
+        "reference_words": [
+          137,
+          137,
+          167
+        ],
+        "assessment_word_count": 177,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "빈칸 고1 표본 [137, 137, 167]단어와 비교해 현재 177단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q12": {
+      "original": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.\nIt is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
+      "source_id": "src",
+      "source_span": [
+        1034,
+        2094
+      ],
+      "source_sentence_ids": [
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17",
+        "s18",
+        "s19"
+      ],
+      "word_count": 175,
+      "type": "무관한 문장",
+      "passage": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.\nIt is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. Indonesia is famous for its beautiful islands, which attract many tourists every year. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
+      "annotations": [
+        {
+          "kind": "sentence_number",
+          "number": 1,
+          "offset": 422
+        },
+        {
+          "kind": "sentence_number",
+          "number": 2,
+          "offset": 492
+        },
+        {
+          "kind": "sentence_number",
+          "number": 3,
+          "offset": 678
+        },
+        {
+          "kind": "sentence_number",
+          "number": 4,
+          "offset": 765
+        },
+        {
+          "kind": "sentence_number",
+          "number": 5,
+          "offset": 886
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "answer": 3,
+      "addition": {
+        "start": 678,
+        "end": 765,
+        "text": "Indonesia is famous for its beautiful islands, which attract many tourists every year. "
+      },
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "무관한 문장",
+        "benchmark_ids": [
+          "202603241-Q35",
+          "202606041-Q35",
+          "202609021-Q35"
+        ],
+        "reference_words": [
+          157,
+          130,
+          165
+        ],
+        "assessment_word_count": 188,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "무관한 문장 고1 표본 [157, 130, 165]단어와 비교해 현재 188단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q13": {
+      "original": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise critical thinking skills to judge the news.\nYou should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.\nIn the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!",
+      "source_id": "src",
+      "source_span": [
+        3448,
+        4690
+      ],
+      "source_sentence_ids": [
+        "s31",
+        "s32",
+        "s33",
+        "s34",
+        "s35",
+        "s36",
+        "s37",
+        "s38",
+        "s39",
+        "s40",
+        "s41",
+        "s42",
+        "s43",
+        "s44",
+        "s45",
+        "s46",
+        "s47"
+      ],
+      "word_count": 213,
+      "type": "제목",
+      "passage": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise critical thinking skills to judge the news.\nYou should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.\nIn the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 213,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 213단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q14": {
+      "original": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise critical thinking skills to judge the news.\nYou should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.\nIn the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!",
+      "source_id": "src",
+      "source_span": [
+        3448,
+        4690
+      ],
+      "source_sentence_ids": [
+        "s31",
+        "s32",
+        "s33",
+        "s34",
+        "s35",
+        "s36",
+        "s37",
+        "s38",
+        "s39",
+        "s40",
+        "s41",
+        "s42",
+        "s43",
+        "s44",
+        "s45",
+        "s46",
+        "s47"
+      ],
+      "word_count": 213,
+      "type": "어휘",
+      "passage": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise critical thinking skills to judge the news.\nYou should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that support your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.\nIn the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!",
+      "annotations": [
+        {
+          "kind": "numbered_word",
+          "number": 1,
+          "span": [
+            113,
+            119
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 2,
+          "span": [
+            220,
+            232
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 3,
+          "span": [
+            349,
+            357
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 4,
+          "span": [
+            633,
+            640
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 5,
+          "span": [
+            1122,
+            1128
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "replacement": {
+        "start": 633,
+        "end": 640,
+        "original": "oppose",
+        "text": "support"
+      },
+      "answer": 4,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 213,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 213단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q15": {
+      "original": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.\nIt is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
+      "source_id": "src",
+      "source_span": [
+        1034,
+        2094
+      ],
+      "source_sentence_ids": [
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17",
+        "s18",
+        "s19"
+      ],
+      "word_count": 175,
+      "type": "요약",
+      "passage": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.\nIt is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "요약",
+        "benchmark_ids": [
+          "202603241-Q40",
+          "202606041-Q40",
+          "202609021-Q40"
+        ],
+        "reference_words": [
+          136,
+          166,
+          182
+        ],
+        "assessment_word_count": 175,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "요약 고1 표본 [136, 166, 182]단어와 비교해 현재 175단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q16": {
+      "original": "One explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.\nMoreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+      "source_id": "src",
+      "source_span": [
+        2326,
+        3447
+      ],
+      "source_sentence_ids": [
+        "s22",
+        "s23",
+        "s24",
+        "s25",
+        "s26",
+        "s27",
+        "s28",
+        "s29",
+        "s30"
+      ],
+      "word_count": 177,
+      "type": "함축 의미",
+      "passage": "One explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.\nMoreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+      "annotations": [
+        {
+          "kind": "underline",
+          "span": [
+            733,
+            751
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "target": "fall into the trap",
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "함축 의미",
+        "benchmark_ids": [
+          "202603241-Q21",
+          "202606041-Q21",
+          "202609021-Q21"
+        ],
+        "reference_words": [
+          154,
+          149,
+          175
+        ],
+        "assessment_word_count": 177,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 177단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q17": {
+      "original": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise critical thinking skills to judge the news.\nYou should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.",
+      "source_id": "src",
+      "source_span": [
+        3448,
+        4359
+      ],
+      "source_sentence_ids": [
+        "s31",
+        "s32",
+        "s33",
+        "s34",
+        "s35",
+        "s36",
+        "s37",
+        "s38",
+        "s39",
+        "s40",
+        "s41",
+        "s42",
+        "s43"
+      ],
+      "word_count": 157,
+      "type": "순서",
+      "passage": null,
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "given": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. ",
+      "blocks": {
+        "A": "Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. ",
+        "B": "Second, don’t read the news at face value. Exercise critical thinking skills to judge the news.\nYou should question, analyze, and evaluate what you read. ",
+        "C": "Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid."
+      },
+      "correct_order": [
+        "B",
+        "A",
+        "C"
+      ],
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "순서",
+        "benchmark_ids": [
+          "202603241-Q36",
+          "202606041-Q36",
+          "202609021-Q36"
+        ],
+        "reference_words": [
+          134,
+          160,
+          168
+        ],
+        "assessment_word_count": 157,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 157단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q18": {
+      "original": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.\nUnfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        1455
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14"
+      ],
+      "word_count": 237,
+      "type": "제목",
+      "passage": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.\nUnfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 237,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 237단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q19": {
+      "original": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.\nUnfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        1455
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14"
+      ],
+      "word_count": 237,
+      "type": "어휘",
+      "passage": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was pleased by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.\nUnfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.",
+      "annotations": [
+        {
+          "kind": "numbered_word",
+          "number": 1,
+          "span": [
+            165,
+            176
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 2,
+          "span": [
+            297,
+            306
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 3,
+          "span": [
+            407,
+            414
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 4,
+          "span": [
+            836,
+            846
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 5,
+          "span": [
+            1134,
+            1144
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "replacement": {
+        "start": 407,
+        "end": 414,
+        "original": "embarrassed",
+        "text": "pleased"
+      },
+      "answer": 3,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 237,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 237단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    }
+  },
+  "checked_question_count": 19,
+  "passage_group_views": {
+    "long-mock1": {
+      "original": "Fake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average.\nOne explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.\nMoreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+      "source_id": "src",
+      "source_span": [
+        2095,
+        3447
+      ],
+      "source_sentence_ids": [
+        "s20",
+        "s21",
+        "s22",
+        "s23",
+        "s24",
+        "s25",
+        "s26",
+        "s27",
+        "s28",
+        "s29",
+        "s30"
+      ],
+      "word_count": 216,
+      "type": "어휘",
+      "passage": "Fake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average.\nOne explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.\nMoreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and trust news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+      "annotations": [
+        {
+          "kind": "numbered_word",
+          "number": 1,
+          "span": [
+            295,
+            306
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 2,
+          "span": [
+            414,
+            419
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 3,
+          "span": [
+            684,
+            690
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 4,
+          "span": [
+            1091,
+            1096
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 5,
+          "span": [
+            1319,
+            1327
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": true,
+      "replacement": {
+        "start": 1091,
+        "end": 1096,
+        "original": "ignore",
+        "text": "trust"
+      },
+      "answer": 4,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 216,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 216단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      },
+      "question_ids": [
+        "Q08",
+        "Q09"
+      ],
+      "group_id": "long-mock1"
+    },
+    "long-mock2": {
+      "original": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise critical thinking skills to judge the news.\nYou should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.\nIn the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!",
+      "source_id": "src",
+      "source_span": [
+        3448,
+        4690
+      ],
+      "source_sentence_ids": [
+        "s31",
+        "s32",
+        "s33",
+        "s34",
+        "s35",
+        "s36",
+        "s37",
+        "s38",
+        "s39",
+        "s40",
+        "s41",
+        "s42",
+        "s43",
+        "s44",
+        "s45",
+        "s46",
+        "s47"
+      ],
+      "word_count": 213,
+      "type": "어휘",
+      "passage": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise critical thinking skills to judge the news.\nYou should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that support your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.\nIn the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!",
+      "annotations": [
+        {
+          "kind": "numbered_word",
+          "number": 1,
+          "span": [
+            113,
+            119
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 2,
+          "span": [
+            220,
+            232
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 3,
+          "span": [
+            349,
+            357
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 4,
+          "span": [
+            633,
+            640
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 5,
+          "span": [
+            1122,
+            1128
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": true,
+      "replacement": {
+        "start": 633,
+        "end": 640,
+        "original": "oppose",
+        "text": "support"
+      },
+      "answer": 4,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 213,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 213단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      },
+      "question_ids": [
+        "Q13",
+        "Q14"
+      ],
+      "group_id": "long-mock2"
+    },
+    "long-mock3": {
+      "original": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.\nUnfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        1455
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14"
+      ],
+      "word_count": 237,
+      "type": "어휘",
+      "passage": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was pleased by the fact that she had spread the fake news.\nIt reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.\nUnfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.",
+      "annotations": [
+        {
+          "kind": "numbered_word",
+          "number": 1,
+          "span": [
+            165,
+            176
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 2,
+          "span": [
+            297,
+            306
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 3,
+          "span": [
+            407,
+            414
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 4,
+          "span": [
+            836,
+            846
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 5,
+          "span": [
+            1134,
+            1144
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": true,
+      "replacement": {
+        "start": 407,
+        "end": 414,
+        "original": "embarrassed",
+        "text": "pleased"
+      },
+      "answer": 3,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 237,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 237단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      },
+      "question_ids": [
+        "Q18",
+        "Q19"
+      ],
+      "group_id": "long-mock3"
+    }
+  },
+  "independent_length_review_required": [],
+  "semantic_review": "NOT_PERFORMED",
+  "independent_reviews": "NOT_PERFORMED",
+  "docx_presence": "NOT_CHECKED_BY_THIS_TOOL",
+  "visual_review": "NOT_PERFORMED",
+  "input_sha256": "3d336c8fdacb61bd3a0f24e4ad87a5c79cc74be8923f017de094387ec6d47a16"
+}

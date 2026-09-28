@@ -1,0 +1,978 @@
+[교재명] 공통영어2 YBM(박준언)
+[과목] 공통영어2
+[출판사·저자] YBM(박준언)
+[UNIT] UNIT01
+[학생용 과 표시] 1과
+[권위 원문] (2022개정)2025년_공통영어2_YBM(박준언)_1과_본문_(20250723수정).pdf · 원본 PDF 1~3쪽 왼쪽 단 영어 본문 전체(오른쪽 단 한국어 해석·세로 저작권 문구·4쪽 Further Reading 제외)
+[자료 범위] 워크북 + 미니 모의고사 + 정답해설
+
+[WB01]
+SOURCE:
+src
+LEARNING_UNIT:
+u1
+SOURCE_RANGE:
+본문 · 원문 문장 1~10
+[1. 오늘의 낱말]
+우리말 뜻을 쓰세요.
+1. astonished
+2. news headline
+3. undamaged
+4. embarrassed
+5. incident
+6. turn out to V
+7. content creators
+8. provocative
+[2. 유의어·반의어 뜻 쓰기]
+우리말 뜻을 쓰세요.
+1. condemn
+2. intentionally
+3. famous
+4. praise
+5. unintentionally
+6. well-known
+7. criticize
+8. unknown
+9. accidentally
+[3. 실전문제]
+[Q01]
+SET:
+workbook
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 1~10
+TYPE:
+주제
+QUESTION:
+다음 글의 주제로 가장 적절한 것은?
+PASSAGE:
+While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news. It reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.
+CHOICES:
+① praising people who intentionally check the news before sharing it
+② how even someone who condemns fake news can unintentionally spread it
+③ why unknown content creators prefer to write true stories
+④ the harm that well-known athletes suffer from online rumors
+⑤ the reasons reporters intentionally hide news about natural disasters
+ANSWER:
+2
+EVIDENCE:
+At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.
+EXPLANATION:
+지나는 흔들바위가 떨어졌다는 가짜 뉴스를 믿고 친구들에게 공유했다가 가짜라는 사실을 알고 당황한다. 예전에 운동선수 사망 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했던 지나가 이번에는 자신도 모르게 가짜 뉴스를 퍼뜨린 것이다. 따라서 가짜 뉴스를 비난하는 사람조차 의도하지 않게 그것을 퍼뜨릴 수 있다는 ②가 주제다.
+WRONG_ANALYSIS:
+① 지나는 뉴스를 확인하지 않고 곧바로 공유했으며, 글은 누군가를 칭찬하는 내용이 아니다.
+③ 콘텐츠 제작자들은 관심과 돈을 위해 자극적인 거짓 이야기를 만들었다고 했으므로 반대 내용이다.
+④ 운동선수 사망 가짜 뉴스는 지나가 떠올린 한 예일 뿐 글 전체의 중심이 아니다.
+⑤ 기자는 오히려 흔들바위 기사가 가짜라고 알렸으며, 뉴스를 숨긴다는 내용은 없다.
+CHOICES_KR:
+① 공유하기 전에 일부러 뉴스를 확인하는 사람들을 칭찬하는 것
+② 가짜 뉴스를 비난하는 사람조차 어떻게 의도하지 않게 그것을 퍼뜨릴 수 있는지
+③ 알려지지 않은 콘텐츠 제작자들이 진짜 이야기를 쓰는 것을 선호하는 이유
+④ 유명한 운동선수들이 온라인 소문으로 겪는 피해
+⑤ 기자들이 자연재해에 관한 뉴스를 일부러 숨기는 이유
+[/Q01]
+
+[4. 구문 결합해서 해석하기]
+1. she had spread the fake news → ______________________________
+도움말: had p.p. — ~했다 / she — 그녀가 / spread — 퍼뜨리다 (spread는 spread의 p.p.형) / fake news — 가짜 뉴스
+2. The news that a famous athlete had died → ______________________________
+도움말: N + that S′ V′ — S′(이/가) V′했다는 N / news — 뉴스 / famous — 유명한 / athlete — 운동선수 / had p.p. — ~했다 / die — 죽다, 사망하다 (died는 die의 p.p.형)
+3. those who had made and spread fake news → ______________________________
+도움말: those who V′ — V′한 사람들 / had p.p. — ~했다 / make — 만들다 (made는 make의 p.p.형) / spread — 퍼뜨리다 (spread는 spread의 p.p.형) / fake news — 가짜 뉴스
+4. The Heundeulbawi in Seoraksan National Park Has Fallen → ______________________________
+도움말: have p.p. — ~했다 / Heundeulbawi — 흔들바위 (설악산 국립공원의 큰 바위) / in — ~에 있는 / Seoraksan National Park — 설악산 국립공원 / fall — 떨어지다, 무너지다 (Fallen은 fall의 p.p.형)
+5. stories of the Heundeulbawi being damaged → ______________________________
+도움말: being p.p. — ~되는 것 / stories — 기사들 (흔한 뜻: 이야기들) / of — ~에 관한 (흔한 뜻: ~의) / damaged — 손상된
+
+[5. 핵심 문장 2개 다시 해석하기]
+1. Gina was embarrassed by the fact that she had spread the fake news.
+2. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people.
+[/WB01]
+[워크북 정답]
+[1. 오늘의 낱말]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 깜짝 놀란 | 2 | 뉴스 헤드라인, 뉴스 제목 | 3 | 손상되지 않은, 멀쩡한 |
+| 4 | 당황한, 창피한 | 5 | 사건 | 6 | ~인 것으로 드러나다, 밝혀지다 |
+| 7 | 콘텐츠 제작자들 | 8 | 자극적인, 도발적인 |  |  |
+[2. 유의어·반의어 뜻 쓰기]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 비난하다 | 2 | 의도적으로, 일부러 | 3 | 유명한 |
+| 4 | 칭찬하다 | 5 | 의도하지 않게, 무심코 | 6 | 잘 알려진, 유명한 |
+| 7 | 비판하다 | 8 | 알려지지 않은, 무명의 | 9 | 뜻하지 않게, 실수로 |
+[4. 구문 결합해서 해석하기]
+1. 그녀가 가짜 뉴스를 퍼뜨렸다
+2. 한 유명한 운동선수가 죽었다는 뉴스
+3. 가짜 뉴스를 만들고 퍼뜨렸던 사람들
+4. 설악산 국립공원에 있는 흔들바위가 떨어졌다
+5. 흔들바위가 손상되는 것에 관한 기사들
+[5. 핵심 문장 해석]
+1. 지나는 자신이 가짜 뉴스를 퍼뜨렸다는 사실에 당황했다.
+2. 그 당시 지나는 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했는데, 그 뉴스가 그 운동선수에게 상처를 주고 사람들을 혼란스럽게 했기 때문이었다.
+
+[WB02]
+SOURCE:
+src
+LEARNING_UNIT:
+u2
+SOURCE_RANGE:
+본문 · 원문 문장 11~19
+[1. 오늘의 낱말]
+우리말 뜻을 쓰세요.
+1. distributor
+2. manipulate
+3. with the intention of V-ing
+4. disturb
+5. states of emergency
+6. shelters
+7. displaced
+8. anxious
+[2. 유의어·반의어 뜻 쓰기]
+우리말 뜻을 쓰세요.
+1. usual
+2. accidental
+3. inaccurate
+4. rare
+5. intentional
+6. accurate
+7. common
+8. deliberate
+9. incorrect
+[3. 실전문제]
+[Q02]
+SET:
+workbook
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 11~19
+TYPE:
+내용
+QUESTION:
+다음 글의 내용과 일치하지 않는 것은?
+PASSAGE:
+Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved. It is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.
+CHOICES:
+① Spreading fake news by accident, as Gina did, is not rare.
+② Fake news is an intentional effort to control people with incorrect information.
+③ Some groups make fake news to get attention, money, or political benefits.
+④ During emergencies, it is usual for false stories to be widely shared.
+⑤ After the earthquake, the government confirmed that the tsunami messages were accurate.
+ANSWER:
+5
+EVIDENCE:
+Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.
+EXPLANATION:
+정부는 또 다른 지진과 쓰나미가 온다는 정보가 가짜라고 발표해야 했다. 따라서 정부가 쓰나미 메시지가 정확하다고 확인했다는 ⑤는 본문과 일치하지 않는다.
+WRONG_ANALYSIS:
+① “becoming an accidental distributor of fake news like Gina is not unusual”과 일치한다(not unusual = not rare).
+② “Fake news is a deliberate attempt to manipulate people by spreading inaccurate information.”과 일치한다.
+③ “with the intention of attracting people’s attention, making profits, or gaining political benefits”와 일치한다.
+④ “It is very common for fake news to spread during states of emergency.”와 일치한다(very common = usual, fake news = false stories, spread = be widely shared).
+CHOICES_KR:
+① 지나처럼 뜻하지 않게 가짜 뉴스를 퍼뜨리는 것은 드물지 않다.
+② 가짜 뉴스는 틀린 정보로 사람들을 통제하려는 의도적인 노력이다.
+③ 어떤 집단들은 관심, 돈, 또는 정치적 이득을 얻으려고 가짜 뉴스를 만든다.
+④ 비상사태 동안에는 거짓 이야기가 널리 공유되는 것이 흔한 일이다.
+⑤ 지진 후에 정부는 쓰나미 메시지가 정확하다고 확인했다.
+[/Q02]
+
+[4. 구문 결합해서 해석하기]
+1. a deliberate attempt to manipulate people → ______________________________
+도움말: N + to V — ~하려는 N / deliberate — 의도적인, 고의적인 / attempt to V — ~하려는 시도 / manipulate — 조종하다 (흔한 뜻: 조작하다) / people — 사람들
+2. It is very common for fake news to spread → ______________________________
+도움말: It … for A to V — A(이/가) ~하는 것은 / very — 매우 / common — 흔한 / fake news — 가짜 뉴스 / spread — 퍼지다
+3. so anxious about aftershocks that the government had to announce → ______________________________
+도움말: so A that S′ V′ — 너무 A해서 S′(이/가) V′하다 / anxious — 불안해하는, 걱정하는 / about — ~에 대해 / aftershocks — 여진들 (큰 지진 뒤에 이어지는 작은 지진) / government — 정부 / had to V — ~해야 했다 / announce — 발표하다, 알리다
+
+[5. 핵심 문장 2개 다시 해석하기]
+1. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information.
+2. Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.
+[/WB02]
+[워크북 정답]
+[1. 오늘의 낱말]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 유포자, 퍼뜨리는 사람 | 2 | 조종하다 | 3 | ~하려는 의도를 가지고 |
+| 4 | 어지럽히다 | 5 | 비상사태들 | 6 | 대피소들 |
+| 7 | 살던 곳을 잃은, 이재민이 된 | 8 | 불안해하는, 걱정하는 |  |  |
+[2. 유의어·반의어 뜻 쓰기]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 흔히 있는, 보통의 | 2 | 우발적인, 뜻하지 않은 | 3 | 부정확한 |
+| 4 | 드문 | 5 | 의도적인, 고의의 | 6 | 정확한 |
+| 7 | 흔한 | 8 | 의도적인, 고의적인 | 9 | 틀린, 부정확한 |
+[4. 구문 결합해서 해석하기]
+1. 사람들을 조종하려는 의도적인 시도
+2. 가짜 뉴스가 퍼지는 것은 매우 흔하다
+3. 여진에 대해 너무 불안해해서 정부가 발표해야 했다
+[5. 핵심 문장 해석]
+1. 가짜 뉴스는 부정확한 정보를 퍼뜨려 사람들을 조종하려는 의도적인 시도이다.
+2. 많은 이재민들이 여진을 너무 불안해해서 정부는 그 정보가 가짜라고 발표해야 했다.
+
+[WB03]
+SOURCE:
+src
+LEARNING_UNIT:
+u3
+SOURCE_RANGE:
+본문 · 원문 문장 20~30
+[1. 오늘의 낱말]
+우리말 뜻을 쓰세요.
+1. phenomenon
+2. go viral
+3. effortlessly
+4. proof
+5. be inclined to V
+6. prejudices
+7. confirmation bias
+8. selectively
+[2. 유의어·반의어 뜻 쓰기]
+우리말 뜻을 쓰세요.
+1. disregard
+2. positive
+3. significantly
+4. accept
+5. unfavorable
+6. considerably
+7. ignore
+8. slightly
+9. negative
+[3. 실전문제]
+[Q03]
+SET:
+workbook
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 20~30
+TYPE:
+제목
+QUESTION:
+다음 글의 제목으로 가장 적절한 것은?
+PASSAGE:
+Fake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average. One explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it. Moreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.
+CHOICES:
+① Why Fake News Travels Considerably Faster Than the Truth
+② True Stories Spread Only Slightly Slower Than Fake News
+③ How People Learn to Disregard Stimulating Information
+④ Accepting Unfavorable News: A Habit of Most Voters
+⑤ The Positive Effects of Election Season on the Media
+ANSWER:
+1
+EVIDENCE:
+Fake news on social media spreads significantly farther and faster than true stories. / One explanation for this phenomenon is that people like new and provocative things. / Also, fake news goes viral because people … tend to think simply and effortlessly. / … people easily fall into the trap of “confirmation bias.”
+EXPLANATION:
+글은 가짜 뉴스가 진짜 이야기보다 훨씬 더 멀리, 빨리 퍼진다는 사실을 제시한 뒤, 그 이유로 사람들이 새롭고 자극적인 것을 좋아하고, 단순하게 생각하며, 확증 편향에 빠진다는 점을 설명한다. 따라서 ①이 제목으로 가장 적절하다.
+WRONG_ANALYSIS:
+② 가짜 뉴스가 평균 6배 더 빠르게 퍼진다고 했으므로 ‘약간’은 본문과 어긋난다.
+③ 사람들은 놀라운 정보를 다른 사람들과 공유하고 싶어 한다고 했으므로 반대 내용이다.
+④ 사람들은 자신의 믿음을 뒷받침하지 않는 뉴스는 무시한다고 했으므로 반대 내용이다.
+⑤ 선거철은 확증 편향의 예로 나올 뿐, 선거가 언론에 주는 좋은 영향은 다루지 않는다.
+CHOICES_KR:
+① 왜 가짜 뉴스는 진실보다 상당히 더 빨리 퍼지는가
+② 진짜 이야기는 가짜 뉴스보다 약간만 더 느리게 퍼진다
+③ 사람들이 자극적인 정보를 무시하는 법을 배우는 방법
+④ 불리한 뉴스를 받아들이기: 대부분 유권자의 습관
+⑤ 선거철이 언론에 미치는 긍정적인 영향
+[/Q03]
+
+[4. 구문 결합해서 해석하기]
+1. fake news spreads online 6 times faster than real news → ______________________________
+도움말: N times + 비교급 + than A — A보다 N배 더 …하게 / fake news — 가짜 뉴스 / spread — 퍼지다 / online — 온라인에서 / times — ~배 / faster — 더 빠르게 (fast의 비교급) / than — ~보다 / real — 진짜의
+2. not only feel that it is surprising, but they also want to share the stimulating news → ______________________________
+도움말: not only A but also B — A뿐만 아니라 B도 / feel — 느끼다 / that S′ V′ — S′(이/가) V′하다고 (접속사) / surprising — 놀라운 / want to V — ~하고 싶다 / share — 공유하다 / stimulating — 자극적인, 흥미를 돋우는
+3. the first to post previously unknown, but possibly false, information → ______________________________
+도움말: the first to V — 처음으로 ~하는 사람 / post — 게시하다, 올리다 / previously — 이전에 / unknown — 알려지지 않은 / possibly — 어쩌면, 아마 / false — 거짓의 / information — 정보
+
+[5. 핵심 문장 2개 다시 해석하기]
+1. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others.
+2. That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them.
+[/WB03]
+[워크북 정답]
+[1. 오늘의 낱말]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 현상 | 2 | (인터넷에서) 급속히 퍼지다 | 3 | 힘들이지 않고, 쉽게 |
+| 4 | 증거 | 5 | ~하는 경향이 있다 | 6 | 편견들 |
+| 7 | 확증 편향 | 8 | 선택적으로, 골라서 |  |  |
+[2. 유의어·반의어 뜻 쓰기]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 무시하다, 묵살하다 | 2 | 긍정적인 | 3 | 훨씬, 상당히 |
+| 4 | 받아들이다 | 5 | 호의적이지 않은, 불리한 | 6 | 상당히, 많이 |
+| 7 | 무시하다 | 8 | 약간, 조금 | 9 | 부정적인 |
+[4. 구문 결합해서 해석하기]
+1. 가짜 뉴스는 온라인에서 진짜 뉴스보다 6배 더 빠르게 퍼진다
+2. 그것이 놀랍다고 느낄 뿐만 아니라 그 자극적인 뉴스를 공유하고 싶어 하기도 한다
+3. 이전에 알려지지 않았지만 어쩌면 거짓일 수도 있는 정보를 처음으로 게시하는 사람
+[5. 핵심 문장 해석]
+1. 정보가 놀라우면 사람들은 그것이 놀랍다고 느낄 뿐만 아니라 그 자극적인 뉴스를 다른 사람들과 공유하고 싶어 한다.
+2. 즉, 그들은 자신의 믿음을 확인해 주는 뉴스만 골라서 받아들이고, 믿음을 뒷받침하지 않는 뉴스는 무시한다.
+
+[WB04]
+SOURCE:
+src
+LEARNING_UNIT:
+u4
+SOURCE_RANGE:
+본문 · 원문 문장 31~47
+[1. 오늘의 낱말]
+우리말 뜻을 쓰세요.
+1. mislead
+2. at face value
+3. critical thinking
+4. evaluate
+5. biases
+6. credibility
+7. intent
+8. eliminate
+[2. 유의어·반의어 뜻 쓰기]
+우리말 뜻을 쓰세요.
+1. sound
+2. subjectively
+3. reliable
+4. invalid
+5. impartially
+6. trustworthy
+7. valid
+8. unreliable
+9. objectively
+[3. 실전문제]
+[Q04]
+SET:
+workbook
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 37~47
+TYPE:
+주장
+QUESTION:
+다음 글에서 필자가 주장하는 바로 가장 적절한 것은?
+PASSAGE:
+You should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid. In the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!
+CHOICES:
+① Read only reliable news sources that agree with your beliefs.
+② Judge news impartially by checking whether its source is trustworthy and its evidence is sound.
+③ Judge a news story subjectively, since your first feelings about it are usually right.
+④ Ignore all invalid news, because false information can be completely removed online.
+⑤ Let social media companies remove every piece of unreliable information for you.
+ANSWER:
+2
+EVIDENCE:
+Finally, check the credibility of the source. / You also need to check whether the news story is from a reliable media source and the evidence is valid. / However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause.
+EXPLANATION:
+필자는 읽은 것에 의문을 갖고 평가하며, 자신의 편견을 점검하고, 출처의 신뢰성과 증거의 타당성을 확인하라고 한다. 또 정보를 비판적이고 객관적으로 보는 능력이 있으면 가짜 뉴스의 피해를 줄일 수 있다고 한다. 따라서 출처가 믿을 만하고 증거가 타당한지 확인하며 뉴스를 공정하게 판단하라는 ②가 주장이다.
+WRONG_ANALYSIS:
+① 자신의 의견에 반대되는 기사도 찾아 읽으라고 했으므로 믿음과 같은 뉴스만 읽으라는 것은 반대 내용이다.
+③ 자신의 믿음이 판단에 영향을 줄 수 있는지 살피고 객관적으로 보라고 했으므로 반대 내용이다.
+④ 디지털 시대에 모든 거짓 정보를 피하거나 없애는 것은 불가능할지도 모른다고 했으므로 틀리다.
+⑤ 필자는 독자 스스로 정보를 비판적으로 판단하라고 하며, 판단을 남에게 맡기라는 내용은 없다.
+CHOICES_KR:
+① 자신의 믿음과 일치하는 믿을 만한 뉴스 출처만 읽어라.
+② 출처가 신뢰할 수 있고 증거가 타당한지 확인하여 뉴스를 공정하게 판단하라.
+③ 뉴스에 대한 첫 느낌이 대개 옳으므로 뉴스 기사를 주관적으로 판단하라.
+④ 거짓 정보는 온라인에서 완전히 없앨 수 있으므로 타당하지 않은 뉴스는 모두 무시하라.
+⑤ 소셜 미디어 회사가 당신을 위해 믿을 수 없는 정보를 모두 없애게 하라.
+[/Q04]
+
+[4. 구문 결합해서 해석하기]
+1. question, analyze, and evaluate what you read → ______________________________
+도움말: what S′ V′ — S′(이/가) V′하는 것 / question — 의문을 제기하다 (흔한 뜻: 질문) / analyze — 분석하다 / evaluate — 평가하다 / read — 읽다
+2. whether the news story is from a reliable media source and the evidence is valid → ______________________________
+도움말: whether S′ V′ — S′(이/가) V′하는지 / news story — 뉴스 기사 / from — ~에서 나온 / reliable — 믿을 만한, 신뢰할 수 있는 / media — 미디어, 언론 / source — 출처 (흔한 뜻: 원천) / evidence — 증거 / valid — 타당한, 근거가 확실한
+3. who wrote the news story → ______________________________
+도움말: who V′ — 누가 V′했는지 / wrote — 썼다 (write의 과거) / news story — 뉴스 기사
+
+[5. 핵심 문장 2개 다시 해석하기]
+1. They can be so stimulating to get more clicks that you may click on them accidentally.
+2. However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause.
+[/WB04]
+[워크북 정답]
+[1. 오늘의 낱말]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 속이다, 오도하다 | 2 | 액면 그대로, 곧이곧대로 | 3 | 비판적 사고 |
+| 4 | 평가하다 | 5 | 편견들 | 6 | 신뢰성 |
+| 7 | 의도 | 8 | 없애다, 제거하다 |  |  |
+[2. 유의어·반의어 뜻 쓰기]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 타당한, 믿을 만한 | 2 | 주관적으로 | 3 | 믿을 만한, 신뢰할 수 있는 |
+| 4 | 근거 없는, 타당하지 않은 | 5 | 공정하게, 치우치지 않게 | 6 | 신뢰할 수 있는 |
+| 7 | 타당한, 근거가 확실한 | 8 | 믿을 수 없는 | 9 | 객관적으로 |
+[4. 구문 결합해서 해석하기]
+1. 당신이 읽는 것에 의문을 제기하고, 분석하고, 평가하다
+2. 그 뉴스 기사가 믿을 만한 미디어 출처에서 나온 것인지, 그리고 증거가 타당한지
+3. 누가 그 뉴스 기사를 썼는지
+[5. 핵심 문장 해석]
+1. 헤드라인은 클릭 수를 늘리려고 너무 자극적으로 만들어져서 당신이 무심코 클릭하게 될 수도 있다.
+2. 하지만 정보를 비판적이고 객관적으로 볼 수 있는 능력이 있다면, 가짜 뉴스가 일으킬 수 있는 피해를 줄일 수 있을 것이다.
+
+[Q05]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 11~19
+TYPE:
+요지
+QUESTION:
+다음 글의 요지로 가장 적절한 것은?
+PASSAGE:
+Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved. It is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.
+CHOICES:
+① Most fake news is created by ordinary people who share stories by mistake.
+② Governments are the main cause of false information during natural disasters.
+③ Fake news, made on purpose to mislead people, can cause serious harm, especially in emergencies.
+④ Earthquakes cause far more confusion than any kind of false information.
+⑤ Social media helps people get accurate safety information quickly in emergencies.
+ANSWER:
+3
+EVIDENCE:
+Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. / It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved. / It is very common for fake news to spread during states of emergency.
+EXPLANATION:
+가짜 뉴스는 사람들을 조종하려는 의도적인 시도로, 사람들을 혼란스럽게 하고 사회에 심각한 해를 끼칠 수 있으며, 특히 비상사태 때 흔히 퍼진다. 암본 지진 사례는 이를 보여 준다. 따라서 ③이 요지다.
+WRONG_ANALYSIS:
+① 가짜 뉴스는 특정 집단이 의도를 가지고 만든다고 했다. 지나처럼 실수로 퍼뜨리는 사람이 있다는 것과 만드는 사람은 구별된다.
+② 정부는 오히려 정보가 가짜라고 발표해 바로잡았다.
+④ 지진과 가짜 뉴스의 혼란을 비교하는 내용은 없으며, 주민들이 대피소에 남은 것은 가짜 뉴스 때문이었다.
+⑤ 소셜 미디어에서 퍼진 가짜 뉴스 때문에 주민들이 집에 돌아가지 못했으므로 반대 내용이다.
+CHOICES_KR:
+① 대부분의 가짜 뉴스는 실수로 이야기를 공유하는 평범한 사람들이 만든다.
+② 정부가 자연재해 동안 거짓 정보의 주된 원인이다.
+③ 사람들을 속이려고 일부러 만든 가짜 뉴스는 특히 비상사태에 심각한 해를 끼칠 수 있다.
+④ 지진은 어떤 거짓 정보보다 훨씬 더 큰 혼란을 일으킨다.
+⑤ 소셜 미디어는 비상사태에 사람들이 정확한 안전 정보를 빨리 얻도록 돕는다.
+[/Q05]
+
+[Q06]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 1~10
+TYPE:
+순서
+QUESTION:
+주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?
+GIVEN:
+While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. 
+BLOCKS:
+(A) It reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. 
+(B) They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.
+(C) Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news. 
+CHOICES:
+① A → C → B
+② B → A → C
+③ B → C → A
+④ C → A → B
+⑤ C → B → A
+ANSWER:
+4
+EVIDENCE:
+(C) “Today’s Internet stories of the Heundeulbawi being damaged were fake.”로 공유한 소식이 가짜임이 밝혀짐 / (A) “It reminded her of another incident of fake news …”의 It과 another가 (C)의 사건을 받음 / (B) “They produced …”의 They가 (A)의 content creators를 가리키고, “This time, however, …”으로 마무리됨.
+EXPLANATION:
+주어진 글은 지나가 흔들바위가 떨어졌다는 헤드라인을 보고 친구들에게 공유한 장면이다. (C) 기자가 그 기사가 가짜라고 밝히고 지나는 당황한다. (A) 이 일이 떠올리게 한 또 다른 가짜 뉴스(운동선수 사망 뉴스)와 그것을 만든 콘텐츠 제작자들이 나온다. (B) 그들(They)이 돈을 벌려고 자극적인 거짓 이야기를 만들었고, 지나는 그때 그들을 비판했지만 이번에는 자신이 가짜 뉴스를 퍼뜨렸다. 따라서 (C)-(A)-(B)이다.
+WRONG_ANALYSIS:
+① (A)의 another incident of fake news는 앞에서 흔들바위 뉴스가 가짜라고 밝혀진 뒤에야 쓸 수 있어 주어진 글 바로 뒤에 올 수 없다.
+② (B)의 They가 가리킬 대상(content creators)이 앞에 없고, (B)의 This time, however는 이미 흔들바위 뉴스가 가짜로 밝혀진 뒤라야 이어질 수 있다.
+③ (B)를 주어진 글 바로 뒤에 두면 They가 가리킬 대상이 없다.
+⑤ (C) 뒤에 (B)가 오면 They가 가리킬 콘텐츠 제작자와 운동선수 사건이 아직 나오지 않았다.
+[/Q06]
+
+[Q07]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 31~43
+TYPE:
+삽입
+QUESTION:
+글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?
+GIVEN:
+Third, examine your biases.
+PASSAGE:
+With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. ① They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. ② Second, don’t read the news at face value. ③ Exercise critical thinking skills to judge the news. You should question, analyze, and evaluate what you read. ④ Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. ⑤ Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.
+ANSWER:
+4
+EVIDENCE:
+You should question, analyze, and evaluate what you read. ( ④ ) Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion …
+EXPLANATION:
+주어진 문장은 가짜 뉴스를 피하는 세 번째 방법으로 자신의 편견을 점검하라는 내용이다. ④ 뒤의 문장들은 자신의 믿음이 판단에 영향을 줄 수 있는지 생각하고 자기 의견에 맞는 기사만 읽는지 스스로 물어보라며 편견 점검을 구체적으로 설명한다. 또 Second 다음, Finally 앞이라는 순서에도 맞으므로 ④가 알맞다.
+WRONG_ANALYSIS:
+① First 방법(헤드라인 너머 읽기)과 그 이유를 설명하는 They can be so stimulating … 사이이므로 Third가 들어갈 수 없다.
+② Second보다 앞이라 First–Third–Second의 순서가 된다.
+③ Second, don’t read the news at face value.와 그것을 설명하는 Exercise critical thinking skills … 사이를 끊는다.
+⑤ 편견을 점검하는 구체적 방법(자기 믿음·의견 살피기)이 Third보다 먼저 나와 버리고, 바로 뒤가 Finally라 흐름이 어색하다.
+[/Q07]
+
+[PASSAGE_GROUP long-mock1]
+QUESTION_IDS:
+Q08, Q09
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 20~30
+PASSAGE:
+Fake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average.
+One explanation for this phenomenon is that people like new and ① provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to ② share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think ③ simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.
+Moreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ④ trust news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something ⑤ negative about other candidates.
+ANNOTATIONS_BASIS:
+Transformed passage before generated labels; zero-based Unicode codepoints [start,end). These are not offsets in the displayed PASSAGE; text identifies each marked span.
+ANNOTATIONS:
+[{"kind": "numbered_word", "number": 1, "span": [295, 306], "text": "provocative"}, {"kind": "numbered_word", "number": 2, "span": [414, 419], "text": "share"}, {"kind": "numbered_word", "number": 3, "span": [684, 690], "text": "simply"}, {"kind": "numbered_word", "number": 4, "span": [1091, 1096], "text": "trust"}, {"kind": "numbered_word", "number": 5, "span": [1319, 1327], "text": "negative"}]
+[/PASSAGE_GROUP long-mock1]
+
+[Q08]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 20~30
+TYPE:
+제목
+QUESTION:
+윗글의 제목으로 가장 적절한 것은?
+PASSAGE_GROUP:
+long-mock1
+CHOICES:
+① How Social Media Helps Us Check the Facts
+② Election News: Always Fair and Balanced
+③ Scientific Methods for Measuring the Speed of News
+④ Critical Thinking: The Main Reason Fake News Spreads
+⑤ What Makes Fake News Spread So Fast?
+ANSWER:
+5
+EVIDENCE:
+Fake news on social media spreads significantly farther and faster than true stories. / One explanation for this phenomenon … / Also, fake news goes viral because … / Moreover, people are inclined to believe information that fits their prejudices …
+EXPLANATION:
+가짜 뉴스가 진짜 이야기보다 훨씬 빨리 퍼진다는 사실을 제시하고, 그 이유 세 가지(새롭고 자극적인 것을 좋아함, 단순하게 생각함, 확증 편향)를 설명한다. 따라서 ⑤가 제목으로 가장 적절하다.
+WRONG_ANALYSIS:
+① 소셜 미디어의 가짜 뉴스가 더 빨리 퍼진다고 했을 뿐, 사실 확인을 돕는다는 내용은 없다.
+② 선거철에 사람들은 지지 후보에게 유리한 뉴스를 맹목적으로 믿는다고 했으므로 반대 내용이다.
+③ MIT 연구 결과는 가짜 뉴스가 빠르다는 근거로 쓰였을 뿐, 측정 방법은 다루지 않는다.
+④ 사람들이 비판적으로 검토하지 않고 믿기 때문에 퍼진다고 했으므로 비판적 사고가 원인이라는 것은 반대다.
+CHOICES_KR:
+① 소셜 미디어는 우리가 사실을 확인하도록 어떻게 돕는가
+② 선거 뉴스: 언제나 공정하고 균형 잡힌
+③ 뉴스의 속도를 측정하는 과학적 방법
+④ 비판적 사고: 가짜 뉴스가 퍼지는 주된 이유
+⑤ 무엇이 가짜 뉴스를 그렇게 빨리 퍼지게 하는가?
+[/Q08]
+
+[Q09]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 20~30
+TYPE:
+어휘
+QUESTION:
+윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?
+PASSAGE_GROUP:
+long-mock1
+ANSWER:
+4
+EVIDENCE:
+In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and … news that doesn’t support them.
+EXPLANATION:
+확증 편향은 자신의 믿음을 확인해 주는 뉴스만 골라 받아들이는 것이다. 따라서 믿음을 뒷받침하지 않는 뉴스는 무시한다(ignore)가 되어야 하며, ④의 trust(믿다)는 문맥에 맞지 않는다.
+WRONG_ANALYSIS:
+① 사람들이 새롭고 자극적인(provocative) 것을 좋아한다는 설명으로 적절하다.
+② 놀라운 정보를 다른 사람들과 공유하고(share) 싶어 한다는 흐름에 맞다.
+③ 일상생활에서 단순하고(simply) 쉽게 생각하는 경향이 있다는 뜻으로 적절하다.
+⑤ 다른 후보에 대해 부정적인(negative) 내용을 보도하는 뉴스를 믿는다는 선거철 예시로 적절하다.
+[/Q09]
+
+[Q10]
+SET:
+미니 모의고사 2회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 1~10
+TYPE:
+내용
+QUESTION:
+다음 글의 내용과 일치하는 것은?
+PASSAGE:
+While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news. It reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.
+CHOICES:
+① Gina first saw the news about the Heundeulbawi on TV.
+② Gina checked whether the story was true before sharing it.
+③ A reporter said that the Heundeulbawi had been damaged.
+④ The fake news about the athlete was made to attract people’s attention.
+⑤ Gina supported the people who spread the news about the athlete.
+ANSWER:
+4
+EVIDENCE:
+It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts.
+EXPLANATION:
+운동선수 사망 가짜 뉴스는 사람들의 관심을 끌려던 콘텐츠 제작자들이 만든 것이었다. 따라서 ④가 본문과 일치한다.
+WRONG_ANALYSIS:
+① 지나는 소셜 미디어를 스크롤하다가 헤드라인을 처음 보았다.
+② 지나는 헤드라인을 보고 곧바로(immediately) 친구들에게 공유했다.
+③ 기자는 흔들바위가 손상되었다는 인터넷 기사가 가짜라고 말했다.
+⑤ 지나는 그 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했다.
+CHOICES_KR:
+① 지나는 흔들바위에 관한 뉴스를 TV에서 처음 보았다.
+② 지나는 이야기를 공유하기 전에 그것이 사실인지 확인했다.
+③ 한 기자는 흔들바위가 손상되었다고 말했다.
+④ 운동선수에 관한 가짜 뉴스는 사람들의 관심을 끌려고 만들어졌다.
+⑤ 지나는 운동선수에 관한 뉴스를 퍼뜨린 사람들을 지지했다.
+[/Q10]
+
+[Q11]
+SET:
+미니 모의고사 2회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 22~30
+TYPE:
+빈칸
+QUESTION:
+다음 빈칸에 들어갈 말로 가장 적절한 것은?
+PASSAGE:
+One explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it. Moreover, people are inclined to believe information that ________________ even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.
+CHOICES:
+① matches what they already believe
+② comes from experts they have never trusted
+③ challenges their usual way of thinking
+④ has been checked by many other people
+⑤ is shared by those who disagree with them
+ANSWER:
+1
+EVIDENCE:
+In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them.
+EXPLANATION:
+빈칸 뒤에서 이 과정이 확증 편향이며, 사람들은 자신의 믿음을 확인해 주는 뉴스만 받아들이고 그렇지 않은 뉴스는 무시한다고 설명한다. 따라서 사람들이 사실이 아니어도 이미 믿는 것과 맞는 정보를 믿는다는 ①이 알맞다.
+WRONG_ANALYSIS:
+② 전문가나 신뢰 여부는 본문의 근거와 관계없다.
+③ 사람들은 자신의 믿음을 확인해 주는 뉴스만 받아들인다고 했으므로 반대 내용이다.
+④ 사람들은 증거 없이 믿는 경향이 있다고 했으며, 여러 사람이 확인했다는 조건은 나오지 않는다.
+⑤ 사람들은 자기 믿음을 뒷받침하지 않는 뉴스는 무시한다고 했으므로 맞지 않는다.
+CHOICES_KR:
+① 그들이 이미 믿는 것과 일치하다
+② 그들이 한 번도 믿지 않았던 전문가에게서 나오다
+③ 그들의 평소 사고방식에 이의를 제기하다
+④ 많은 다른 사람들에 의해 확인되었다
+⑤ 그들과 의견이 다른 사람들에 의해 공유되다
+[/Q11]
+
+[Q12]
+SET:
+미니 모의고사 2회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 11~19
+TYPE:
+무관한 문장
+QUESTION:
+다음 글에서 전체 흐름과 관계 없는 문장은?
+PASSAGE:
+Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved. ① It is very common for fake news to spread during states of emergency. ② For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. ③ Indonesia is famous for its beautiful islands, which attract many tourists every year. ④ This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. ⑤ One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.
+ANSWER:
+3
+EVIDENCE:
+For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes … This was because of fake news stories on social media …
+EXPLANATION:
+글은 가짜 뉴스가 사회에 끼치는 해와, 비상사태에 가짜 뉴스가 퍼진 암본 지진 사례를 다룬다. ③은 인도네시아의 아름다운 섬과 관광객 이야기로, 주민들이 집에 돌아가지 않은 일과 그 이유(This was because of fake news …)를 잇는 흐름을 끊는다.
+WRONG_ANALYSIS:
+① 비상사태 동안 가짜 뉴스가 퍼지는 것이 흔하다는 이 부분의 주제문이다.
+② 암본 지진 뒤 주민들이 집에 돌아가지 않았다는 사례를 제시한다.
+④ 주민들이 돌아가지 않은 이유가 소셜 미디어의 가짜 뉴스였다고 설명한다.
+⑤ 가짜 메시지의 실제 예를 보여 준다.
+[/Q12]
+
+[PASSAGE_GROUP long-mock2]
+QUESTION_IDS:
+Q13, Q14
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 31~47
+PASSAGE:
+With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read ① beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them ② accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise ③ critical thinking skills to judge the news.
+You should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that ④ support your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.
+In the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to ⑤ reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!
+ANNOTATIONS_BASIS:
+Transformed passage before generated labels; zero-based Unicode codepoints [start,end). These are not offsets in the displayed PASSAGE; text identifies each marked span.
+ANNOTATIONS:
+[{"kind": "numbered_word", "number": 1, "span": [113, 119], "text": "beyond"}, {"kind": "numbered_word", "number": 2, "span": [220, 232], "text": "accidentally"}, {"kind": "numbered_word", "number": 3, "span": [349, 357], "text": "critical"}, {"kind": "numbered_word", "number": 4, "span": [633, 640], "text": "support"}, {"kind": "numbered_word", "number": 5, "span": [1122, 1128], "text": "reduce"}]
+[/PASSAGE_GROUP long-mock2]
+
+[Q13]
+SET:
+미니 모의고사 2회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 31~47
+TYPE:
+제목
+QUESTION:
+윗글의 제목으로 가장 적절한 것은?
+PASSAGE_GROUP:
+long-mock2
+CHOICES:
+① Headlines Tell You Everything You Need to Know
+② Read Smart: How Not to Be Fooled by Fake News
+③ Why Biased News Is Better Than No News
+④ The Digital Age Has Finally Ended Fake News
+⑤ How to Write News That Gets More Clicks
+ANSWER:
+2
+EVIDENCE:
+With so much information on the Internet, how can you make sure that fake news does not mislead you? First, … Second, … Third, … Finally, … / … if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause.
+EXPLANATION:
+가짜 뉴스에 속지 않는 네 가지 방법(헤드라인 너머 읽기, 곧이곧대로 읽지 않기, 편견 점검, 출처 신뢰성 확인)을 제시하고, 비판적·객관적 태도로 피해를 줄일 수 있다고 강조한다. 따라서 ②가 제목으로 가장 적절하다.
+WRONG_ANALYSIS:
+① 헤드라인만 읽지 말고 본문을 주의 깊게 읽으라고 했으므로 반대 내용이다.
+③ 편견을 점검하고 반대 의견의 기사도 찾으라고 했을 뿐, 편향된 뉴스가 낫다는 내용은 없다.
+④ 디지털 시대에 모든 거짓 정보를 없애는 것은 불가능할지도 모른다고 했으므로 반대 내용이다.
+⑤ 클릭을 노린 자극적인 헤드라인을 조심하라는 글이지, 클릭을 얻는 뉴스 작성법을 다루지 않는다.
+CHOICES_KR:
+① 헤드라인이 당신이 알아야 할 모든 것을 알려 준다
+② 똑똑하게 읽기: 가짜 뉴스에 속지 않는 방법
+③ 왜 편향된 뉴스가 뉴스가 없는 것보다 나은가
+④ 디지털 시대가 마침내 가짜 뉴스를 끝냈다
+⑤ 더 많은 클릭을 얻는 뉴스를 쓰는 방법
+[/Q13]
+
+[Q14]
+SET:
+미니 모의고사 2회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 31~47
+TYPE:
+어휘
+QUESTION:
+윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?
+PASSAGE_GROUP:
+long-mock2
+ANSWER:
+4
+EVIDENCE:
+Third, examine your biases. … Ask yourself if you are only reading articles that suit your opinion, and look for articles that … your opinion as well.
+EXPLANATION:
+편견을 점검하려면 자기 의견에 맞는 기사만 읽고 있는지 돌아보고, 자기 의견에 반대되는(oppose) 기사도 찾아 읽어야 한다. ④의 support(지지하다)는 자기 의견에 맞는 기사만 읽는 태도를 되풀이하게 되므로 문맥에 맞지 않는다.
+WRONG_ANALYSIS:
+① 자극적인 헤드라인에서 멈추지 말고 그 너머(beyond)까지 읽으라는 뜻으로 적절하다.
+② 헤드라인이 너무 자극적이어서 무심코(accidentally) 클릭할 수 있다는 흐름에 맞다.
+③ 뉴스를 판단하려면 비판적(critical) 사고 기술을 발휘하라는 뜻으로 적절하다.
+⑤ 비판적·객관적으로 볼 수 있으면 가짜 뉴스의 피해를 줄일(reduce) 수 있다는 결론에 맞다.
+[/Q14]
+
+[Q15]
+SET:
+미니 모의고사 3회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 11~19
+TYPE:
+요약
+QUESTION:
+다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?
+PASSAGE:
+Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved. It is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.
+[요약문]
+Fake news, which is (A) ________ created to manipulate people, can cause serious harm, especially when people are (B) ________ during emergencies.
+CHOICES:
+① accidentally …… calm
+② intentionally …… fearful
+③ intentionally …… careless
+④ rarely …… fearful
+⑤ accidentally …… informed
+ANSWER:
+2
+EVIDENCE:
+Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. / Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.
+EXPLANATION:
+가짜 뉴스는 사람들을 조종하려는 의도적인(deliberate) 시도이며, 암본 지진 때 이재민들이 여진을 몹시 불안해한(anxious) 상황에서 퍼져 큰 피해를 주었다. 따라서 (A) intentionally(의도적으로), (B) fearful(두려워하는)인 ②가 알맞다.
+WRONG_ANALYSIS:
+① 가짜 뉴스는 의도적으로 만들어지며, 이재민들은 침착한 것이 아니라 불안해했다.
+③ (A)는 맞지만, 이재민들은 부주의한 것이 아니라 여진을 불안해했다.
+④ (B)는 맞지만, 가짜 뉴스가 드물게 만들어진다는 내용은 없고 의도적으로 만들어진다고 했다.
+⑤ 가짜 뉴스는 우연히가 아니라 의도적으로 만들어지며, 이재민들은 정보를 잘 아는 상태가 아니었다.
+CHOICES_KR:
+① 우연히 …… 침착한
+② 의도적으로 …… 두려워하는
+③ 의도적으로 …… 부주의한
+④ 드물게 …… 두려워하는
+⑤ 우연히 …… 정보를 잘 아는
+[/Q15]
+
+[Q16]
+SET:
+미니 모의고사 3회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 22~30
+TYPE:
+함축 의미
+QUESTION:
+밑줄 친 fall into the trap이 다음 글에서 의미하는 바로 가장 적절한 것은?
+PASSAGE:
+One explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it. Moreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.
+TARGET:
+fall into the trap
+PROMPT_UNDERLINES:
+[[5, 23]]
+CHOICES:
+① deliberately set up traps to fool other people
+② lose all interest in reading the news
+③ get caught while spreading false stories online
+④ fail to find any information about the candidates
+⑤ are easily led into a way of thinking that misleads them
+ANSWER:
+5
+EVIDENCE:
+Moreover, people are inclined to believe information that fits their prejudices or experiences even when not true. … That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them.
+EXPLANATION:
+사람들은 사실이 아니어도 자신의 편견이나 경험에 맞는 정보를 믿는 경향이 있고, 자신의 믿음을 확인해 주는 뉴스만 골라 받아들인다. 이렇게 자기도 모르게 잘못된 판단으로 이끄는 사고방식에 빠진다는 뜻이므로 ⑤가 알맞다.
+WRONG_ANALYSIS:
+① 함정은 다른 사람을 속이려고 만든 것이 아니라 스스로 빠지는 사고방식을 비유한 말이다.
+② 사람들은 오히려 자신의 믿음에 맞는 뉴스를 적극적으로 받아들인다.
+③ 거짓 이야기를 퍼뜨리다 들킨다는 내용은 본문에 없다.
+④ 선거철에도 사람들은 후보에 관한 뉴스를 믿는다고 했으므로 정보를 찾지 못한다는 것은 틀리다.
+CHOICES_KR:
+① 다른 사람들을 속이려고 일부러 함정을 설치하다
+② 뉴스를 읽는 데 모든 흥미를 잃다
+③ 온라인에서 거짓 이야기를 퍼뜨리다가 들키다
+④ 후보들에 관한 어떤 정보도 찾지 못하다
+⑤ 자신을 잘못 이끄는 사고방식에 쉽게 빠져들다
+[/Q16]
+
+[Q17]
+SET:
+미니 모의고사 3회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 31~43
+TYPE:
+순서
+QUESTION:
+주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?
+GIVEN:
+With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. 
+BLOCKS:
+(A) Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. 
+(B) Second, don’t read the news at face value. Exercise critical thinking skills to judge the news. You should question, analyze, and evaluate what you read. 
+(C) Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.
+CHOICES:
+① A → C → B
+② B → A → C
+③ B → C → A
+④ C → A → B
+⑤ C → B → A
+ANSWER:
+2
+EVIDENCE:
+(B) “Second, don’t read the news at face value.” / (A) “Third, examine your biases.” / (C) “Finally, check the credibility of the source.”
+EXPLANATION:
+주어진 글은 가짜 뉴스에 속지 않는 방법을 묻고 첫째 방법(헤드라인 너머 읽기)을 제시한다. 이어서 (B) 둘째, 뉴스를 곧이곧대로 읽지 말고 비판적으로 판단하기, (A) 셋째, 자신의 편견 점검하기, (C) 마지막으로 출처의 신뢰성 확인하기가 차례로 온다. 따라서 (B)-(A)-(C)이다.
+WRONG_ANALYSIS:
+① (A)의 Third가 (B)의 Second보다 먼저 나오게 된다.
+③ (C)의 Finally가 (A)의 Third보다 먼저 나와 마지막 방법 뒤에 또 방법이 이어진다.
+④ (C)의 Finally가 가장 먼저 오고 Third가 Second보다 앞선다.
+⑤ (C)의 Finally가 맨 앞에 오고, Third–Second 순서가 뒤바뀐다.
+[/Q17]
+
+[PASSAGE_GROUP long-mock3]
+QUESTION_IDS:
+Q18, Q19
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 1~14
+PASSAGE:
+While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina ① immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the ② undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was ③ pleased by the fact that she had spread the fake news.
+It reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina ④ criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.
+Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a ⑤ deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved.
+ANNOTATIONS_BASIS:
+Transformed passage before generated labels; zero-based Unicode codepoints [start,end). These are not offsets in the displayed PASSAGE; text identifies each marked span.
+ANNOTATIONS:
+[{"kind": "numbered_word", "number": 1, "span": [165, 176], "text": "immediately"}, {"kind": "numbered_word", "number": 2, "span": [297, 306], "text": "undamaged"}, {"kind": "numbered_word", "number": 3, "span": [407, 414], "text": "pleased"}, {"kind": "numbered_word", "number": 4, "span": [836, 846], "text": "criticized"}, {"kind": "numbered_word", "number": 5, "span": [1134, 1144], "text": "deliberate"}]
+[/PASSAGE_GROUP long-mock3]
+
+[Q18]
+SET:
+미니 모의고사 3회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 1~14
+TYPE:
+제목
+QUESTION:
+윗글의 제목으로 가장 적절한 것은?
+PASSAGE_GROUP:
+long-mock3
+CHOICES:
+① From Critic to Spreader: How Anyone Can Pass On Fake News
+② Why Gina Decided to Stop Using Social Media
+③ The Hidden Danger of Famous Rocks in National Parks
+④ How Reporters Make Money from Fake Headlines
+⑤ The Benefits of Sharing News as Quickly as Possible
+ANSWER:
+1
+EVIDENCE:
+At that time, Gina criticized those who had made and spread fake news … This time, however, Gina herself had accidentally contributed to the spread of fake news. Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual.
+EXPLANATION:
+가짜 뉴스를 비판하던 지나가 뜻하지 않게 가짜 뉴스를 퍼뜨린 경험을 소개하고, 이런 일이 드물지 않으며 가짜 뉴스가 사람들과 사회에 큰 해를 끼칠 수 있다고 설명한다. 따라서 ①이 제목으로 가장 적절하다.
+WRONG_ANALYSIS:
+② 지나가 소셜 미디어를 그만두었다는 내용은 없다.
+③ 흔들바위는 멀쩡했으며, 바위의 위험은 글의 내용이 아니다.
+④ 돈을 벌려고 가짜 뉴스를 만든 것은 기자가 아니라 콘텐츠 제작자들이다.
+⑤ 지나는 확인 없이 곧바로 공유했다가 가짜 뉴스를 퍼뜨렸으므로, 빠른 공유의 이점을 말하는 글이 아니다.
+CHOICES_KR:
+① 비판자에서 유포자로: 누구나 가짜 뉴스를 퍼뜨릴 수 있는 방식
+② 지나가 소셜 미디어 사용을 그만두기로 한 이유
+③ 국립공원에 있는 유명한 바위의 숨겨진 위험
+④ 기자들이 가짜 헤드라인으로 돈을 버는 방법
+⑤ 뉴스를 가능한 한 빨리 공유하는 것의 이점
+[/Q18]
+
+[Q19]
+SET:
+미니 모의고사 3회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 1~14
+TYPE:
+어휘
+QUESTION:
+윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?
+PASSAGE_GROUP:
+long-mock3
+ANSWER:
+3
+EVIDENCE:
+Later, during the morning news on TV, a reporter … said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was … by the fact that she had spread the fake news.
+EXPLANATION:
+지나가 공유한 흔들바위 소식이 가짜로 밝혀졌으므로, 자신이 가짜 뉴스를 퍼뜨렸다는 사실에 당황했다(embarrassed)는 흐름이어야 한다. ③의 pleased(기쁜)는 문맥에 맞지 않는다.
+WRONG_ANALYSIS:
+① 헤드라인을 보고 확인 없이 곧바로(immediately) 공유했다는 흐름에 맞다.
+② 기자가 멀쩡한(undamaged) 흔들바위 옆에서 기사가 가짜라고 알리는 장면으로 적절하다.
+④ 지나가 예전에 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했다(criticized)는 뜻으로 적절하다.
+⑤ 가짜 뉴스는 사람들을 조종하려는 의도적인(deliberate) 시도라는 정의로 적절하다.
+[/Q19]
