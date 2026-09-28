@@ -1,0 +1,172 @@
+{
+ "reviewer": "L-u2",
+ "unit": "u2",
+ "method": "독립 검수: 검수 패킷 L_u2.json selected_data(s11~s19 전 문장·청크·S/V 절·각주·lexical_coverage·힌트 display_pairs/emphasis_links/pronoun_refs·reading_checks, u2 analysis·today_words·grammar_points·formula_routes·relations)를 스크립트로 문자열 위치까지 풀어 전수 대조. 원문 PDF(pypdf 텍스트 추출, 1~2쪽 왼쪽 단 영어·오른쪽 단 한국어 해석)와 문장 원문·의미 대조, 청크 재결합 원문 일치(9문장 모두 일치)·영어 낱말 lexical_coverage 전수 확인(누락 0). 규칙은 SKILL.md, editorial-core.md, analysis-content.md(전체), gloss-rules.md(전체), grammar-labels.md, preposition-meanings.md, proper-nouns.md, common-errors.md, manuscript-data.md(문장 주석·대명사 참조·공통 단위·구문 결합 연습 계약)를 읽고 적용. u2.py review 기록과 QC_HANDOFF [지문] u2, 같은 원고의 다른 단위 힌트 강조·S/V 처리(문맥 참고)를 확인. 기계 검사·DOCX 조판·문항 풀이는 범위 밖(미실시).",
+ "sentences_checked": [
+  "s11",
+  "s12",
+  "s13",
+  "s14",
+  "s15",
+  "s16",
+  "s17",
+  "s18",
+  "s19"
+ ],
+ "status": "FIX_REQUIRED",
+ "findings": [
+  {
+   "id": "Lu2-01",
+   "sentence_id": "s12",
+   "field": "analysis",
+   "current": "u2-gp1 practice.support_gloss_ids: [\"s12-g03\", \"s12-g05\", \"s12-g06\"] (연습 범위 a deliberate attempt to manipulate people, answer_ko: 사람들을 조종하려는 의도적인 시도)",
+   "issue": "연습 범위 안의 중심 명사 attempt의 뜻(시도)을 지원하는 각주 s12-g04(attempt to V — ~하려는 시도)가 도움말에서 빠져 있다. 공식 도움말(N + to V: ~하려는 N)만으로는 N 자리의 낱말 뜻 '시도'를 알 수 없어 학생이 정답의 '의도적인 시도'를 추측해야 한다. manuscript-data.md ‘분석·워크북 구문 결합 연습 계약’(실제 구절의 해석에 필요한 낱말 뜻을 빠뜨려 학생이 추측하게 만들지 않는다, 낱말 뜻 지원), analysis-content.md ‘배운 구문을 바로 연습’ 위반.",
+   "proposal": "support_gloss_ids를 [\"s12-g03\", \"s12-g04\", \"s12-g05\", \"s12-g06\"]으로 수정(원문 등장 순서). s12-g04는 기존 승인 각주 attempt to V — ~하려는 시도를 그대로 사용.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu2-02",
+   "sentence_id": "s17",
+   "field": "gloss",
+   "current": "s17-g12: by — ~로, ~에 의해",
+   "issue": "전치사(기능어)에 서로 다른 두 뜻을 쉼표로 나열했다. 이 문맥에서 실제로 쓰인 뜻은 청크(쓰나미로)·구조 힌트([쓰나미로 이어지는 …])와 같은 ‘~로’ 하나다. gloss-rules.md ‘기본 형식과 순서’(기능어 뜻은 그 문맥의 한 뜻으로 정한다)와 ‘금지와 검수’ 8(선택하지 않은 뜻을 쉼표로 남기지 않는다) 위반.",
+   "proposal": "by — ~로",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu2-03",
+   "sentence_id": "s19",
+   "field": "hint",
+   "current": "hint[0] (paired-structure) ko: 너무 불안해해서 … 정부는 발표해야 했다 / emphasis_links: en [so, that] ↔ ko [너무, 해서] (ko_spans [[0,2],[6,8]])",
+   "issue": "선정 공식의 각주는 so A that S′ V′ — 너무 A해서 S′(이/가) V′하다이고 분석 u2-gp3 설명·연습 정답도 ‘정부가 발표해야 했다’인데, 힌트만 S′ 자리를 ‘정부는’으로 옮겨 각주·분석·워크북 정답과 조사가 어긋난다. S′(이/가) 자리에 실제로 들어가는 주어 조사도 강조 대응에서 빠졌다. gloss-rules.md ‘금지와 검수’ 6(같은 구문은 기능 각주의 조사·연결 어미가 힌트에 그대로 대응), analysis-content.md ‘영어·한국어의 문법 대응 강조’(공식에 S′(이/가) 자리가 명시되면 실제 주어 조사 이/가도 함께 강조) 위반.",
+   "proposal": "ko: 너무 불안해해서 … 정부가 발표해야 했다 / emphasis_links: [{\"en_spans\": [[0,2],[13,17]], \"ko_spans\": [[0,2],[6,8],[13,14]]}] (so·that ↔ 너무·해서·가). 청크·자연 해석의 ‘정부는’은 그대로 둔다.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu2-04",
+   "sentence_id": "s16",
+   "field": "analysis",
+   "current": "analysis.flow[1].text_ko: … 가짜 뉴스 때문에 주민들은 2주 동안 집에 돌아가지 못했고, 결국 정부가 그 정보가 가짜라고 발표해야 했다.",
+   "issue": "원문 s16은 did not return(돌아가지 않았다)으로 주민들이 스스로 돌아가지 않은 것이다. ‘돌아가지 못했고’는 부정의 성격을 ‘능력·불가능’으로 바꾸어 청크(돌아가지 않았다)·자연 해석(돌아가지 않고)과 어긋난다. editorial-core.md ‘해석·S/V·각주·구조 힌트’(주체·시제·부정·양태는 모든 자료에서 일치시킨다) 위반.",
+   "proposal": "… 가짜 뉴스 때문에 주민들은 2주 동안 집에 돌아가지 않고 대피소에 머물렀고, 결국 정부가 그 정보가 가짜라고 발표해야 했다.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu2-05",
+   "sentence_id": "s17",
+   "field": "gloss|chunks",
+   "current": "s17-g11: followed — (뒤에) 이어지는, 뒤따라진 / 한국어 청크 4: (뒤에) 이어지는",
+   "issue": "‘뒤따라진’은 표준 한국어 활용이 아니며, 괄호 ‘(뒤에)’는 선택용 보충어를 괄호로 남긴 형태다. 특히 청크 ‘또 다른 지진이 / (뒤에) 이어지는’은 지진 자체가 뒤에 온다(후속 지진)로 읽힐 여지가 있어 followed by a tsunami(지진 뒤에 쓰나미가 따름)의 관계가 흐려진다(common-errors.md 1이 바로 이 문장을 예로 든다). 청크·힌트·s17-g12의 ‘~로’와 결합하면 ‘쓰나미로 이어지는’ 한 뜻으로 충분하다. gloss-rules.md ‘기본 형식과 순서’(고를 뜻을 괄호에 남기지 않음, 문장에 실제로 대입할 수 있는 뜻).",
+   "proposal": "s17-g11: followed — 이어지는 / 한국어 청크 4: 이어지는 (구조 힌트 [쓰나미로 이어지는 또 다른 지진이 …]는 그대로)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu2-06",
+   "sentence_id": "s18",
+   "field": "sv",
+   "current": "S/V: … ／ [but] S: Ambon, V: is going",
+   "issue": "be going to V는 각주(be going to V — ~할 것이다)대로 미래를 나타내는 조동사 상당어구인데 V를 is going까지만 적으면 ‘가고 있다’(진행)로 오독될 수 있고 본동사 sink가 빠진다. 같은 단위 s19는 조동사 상당어구 had to V를 V′: had to announce로 본동사까지 표시해 처리가 어긋난다. U57(be able to)은 형용사 보어 able을 빼는 규칙이라 going(동사 활용형)에는 직접 적용되지 않는다(analysis-content.md ‘S/V 표기’: 조동사·완료·진행·수동을 이루는 실제 동사구를 적는다). 규칙에 명시가 없으므로 사용자 확인 권장.",
+   "proposal": "[but] S: Ambon, V: is going to sink (verb_spans에 to·sink 추가). 또는 be about to처럼 be만 남기는 방식으로 정하려면 사용자 결정 후 과 전체에 통일.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu2-07",
+   "sentence_id": "s18",
+   "field": "gloss",
+   "current": "s18-g05: it’s — (뒤의 if절을 대신하는) 그것은 ~이다 (It is의 줄임)",
+   "issue": "가주어 It에 ‘그것은’이라는 번역 뜻을 주어 학생이 ‘그것은 당신에게 달려 있다’로 대입하게 된다. 같은 문장의 한국어 청크(“당신에게 달려 있다)와 구조 힌트는 가주어를 옮기지 않으며, 같은 단위 s15의 가주어 각주(It … for A to V — A가 ~하는 것은 (It은 뒤의 for A to V를 대신함))도 It을 따로 번역하지 않는다. gloss-rules.md ‘가주어 It의 연결 안내’(다른 가주어는 실제 진주어 연결을 짧게 안내), ‘금지와 검수’ 6(각주 뜻과 끊어읽기 해석·힌트 일치).",
+   "proposal": "it’s — ~이다 (It은 뒤의 if절을 대신함, It is의 줄임)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu2-08",
+   "sentence_id": "s15",
+   "field": "gloss|analysis",
+   "current": "s15-g01: It … for A to V — A가 ~하는 것은 (It은 뒤의 for A to V를 대신함) / u2-gp2 title: It … for A to V: A가 ~하는 것은 … / practice.formula_support.ko: A가 ~하는 것은",
+   "issue": "공식 슬롯의 주어 조사는 ‘A(이/가)’로 표기하는 것이 규칙이며(gloss-rules.md ‘기본 형식과 순서’의 S′/A 공식 조사 자리 (이/가), ‘공식 슬롯 표기’), 같은 단위의 다른 공식(after S′ V′ — S′(이/가) V′한 후에, so A that S′ V′ — … S′(이/가) V′하다, formula_support ‘너무 A해서 S′(이/가) V′하다’)과도 표기가 다르다.",
+   "proposal": "s15-g01: It … for A to V — A(이/가) ~하는 것은 (It은 뒤의 for A to V를 대신함) / u2-gp2 title: It … for A to V: A(이/가) ~하는 것은 … / formula_support.ko: A(이/가) ~하는 것은 (필요하면 u2-gp3 title의 ‘S′가’도 ‘S′(이/가)’로 통일)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu2-09",
+   "sentence_id": "s12",
+   "field": "gloss",
+   "current": "s12-g05: ★ manipulate — 조종하다, 조작하다 (today_words u2-w3 meaning_ko도 동일)",
+   "issue": "manipulate people의 문맥 뜻은 ‘조종하다’이고 ‘조작하다’(기계·수치·정보를 조작하다)는 이 문장에 대입되지 않는 다른 문맥의 뜻이다. 두 뜻을 문맥 뜻처럼 나란히 적었다. gloss-rules.md ‘기본 형식과 순서’(문맥 뜻이 흔한 뜻과 다르면 문맥 뜻 먼저+(흔한 뜻: …), 다른 문맥의 뜻을 목록으로 늘어놓지 않는다).",
+   "proposal": "manipulate — 조종하다 (흔한 뜻: 조작하다). 오늘의 낱말 u2-w3 meaning_ko도 ‘조종하다’로 맞춤(워크북 정답 연동 확인).",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu2-10",
+   "sentence_id": "s14",
+   "field": "gloss",
+   "current": "s14-g05: ★ disturb — 어지럽히다, 방해하다 (today_words u2-w5 meaning_ko도 동일)",
+   "issue": "disturb society의 문맥 뜻은 ‘어지럽히다’이며 ‘방해하다’는 이 문장에 대입하면 어색한 흔한 뜻(disturb someone)이다. gloss-rules.md ‘기본 형식과 순서’(문맥 뜻 먼저+(흔한 뜻: …), 다른 문맥의 뜻을 목록으로 늘어놓지 않는다).",
+   "proposal": "disturb — 어지럽히다 (흔한 뜻: 방해하다). 오늘의 낱말 u2-w5 meaning_ko도 ‘어지럽히다’로 맞춤(워크북 정답 연동 확인).",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu2-11",
+   "sentence_id": "s14",
+   "field": "gloss",
+   "current": "s14-g10: headword the public, spans [[68,74]] (public만) / lexical_coverage [64,67] the: exemption below-middle1-unneeded(관사: 별도 뜻 지원 불필요)",
+   "issue": "표제어는 the public(대중)으로 the를 포함하는데 spans는 public만 덮고, 같은 the는 ‘별도 뜻 지원 불필요한 관사’로 면제되어 표제어·원문 위치 연결이 서로 어긋난다. 같은 단위의 with the intention of·in the next few days는 the를 spans와 coverage에 포함한다. manuscript-data.md ‘문장 주석’(숙어 안 낱말도 그 숙어 각주가 실제로 덮는 위치에 연결).",
+   "proposal": "s14-g10 spans: [[64,67],[68,74]] / lexical_coverage [64,67] → {\"span\":[64,67],\"gloss_id\":\"s14-g10\"} (표제어·뜻 the public — 대중은 유지)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu2-12",
+   "sentence_id": "s14",
+   "field": "hint",
+   "current": "hint 1개: all individuals [involved] → [관련된] 모든 개인들 (과거분사 후치수식)",
+   "issue": "harm the public as well as all individuals involved는 B as well as A가 한국어에서 ‘A뿐만 아니라 B도’로 어순이 뒤집혀 B·A를 바꿔 읽기 쉬운 연결인데 힌트가 없다(현재 힌트는 한 낱말 involved뿐, 문장당 2개 여유 있음). analysis-content.md ‘구조 힌트-선정과 작성’(힌트 없는 부분도 해석 연결이 어려운 구문이면 짧은 힌트 제공, 미제공 시 review_record에 이유 기록) — 현재 review_record에 미선정 이유가 없다.",
+   "proposal": "힌트 추가(기존 힌트 뒤): the public [as well as all individuals] → [모든 개인들뿐만 아니라] 대중 (B as well as A), emphasis_links: en [[12,22]] ↔ ko [[7,13]] (as well as ↔ 뿐만 아니라). 추가하지 않으면 reading_checks.review_record에 미선정 이유를 남김.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu2-13",
+   "sentence_id": "s16",
+   "field": "gloss",
+   "current": "s16-g11: thousands of — 수천 (명)의",
+   "issue": "‘(명)’은 선택 보충어를 괄호로 남긴 형태라 그대로 대입하면 ‘수천 (명)의 주민들’이 된다. 이 문장의 실제 뜻은 청크와 같은 ‘수천 명의’ 하나다. gloss-rules.md ‘기본 형식과 순서’(뜻은 문장에 실제로 대입할 수 있어야 하며 고를 뜻을 괄호에 남기지 않는다), 수량·종류+of 예외의 같은 어순 ‘~의’ 대응.",
+   "proposal": "thousands of — 수천 명의",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu2-14",
+   "sentence_id": "s16",
+   "field": "chunks|hint",
+   "current": "한국어 청크 2: 규모 6.5의 지진이 / hint ko: [규모 6.5의 지진이 강타한 후에] (각주 s16-g04 V-ing — ~인, s16-g05 measure — (크기·규모가) ~이다)",
+   "issue": "각주는 measuring을 ‘~인’+‘(규모가) ~이다’로 풀어 ‘규모가 6.5인’으로 대입되는데, 직역 역할의 청크와 힌트는 ‘규모 6.5의’로 옮겨 각주 뜻과 연결이 보이지 않는다. gloss-rules.md ‘금지와 검수’ 6(각주 뜻과 끊어읽기 해석·구조 힌트 일치), analysis-content.md ‘직역과 자연 해석’(한국어 청크는 직역). 자연 해석의 ‘규모 6.5의 지진’은 유지 가능.",
+   "proposal": "청크 2: 규모가 6.5인 지진이 / hint ko: [규모가 6.5인 지진이 강타한 후에], emphasis_links ko_spans [[12,13],[16,20]] (이·한 후에; after 대응 유지)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu2-15",
+   "sentence_id": "s11",
+   "field": "analysis",
+   "current": "easy_explanations s11 마지막 문장: 누구든 지나처럼 모르는 사이에 가짜 뉴스를 퍼뜨릴 수 있다는 뜻이다.",
+   "issue": "원문은 not unusual(드문 일이 아니다=흔하다)로 빈도를 말할 뿐, ‘누구든’ 그럴 수 있다는 일반화는 원문보다 넓은 단정이다. analysis-content.md ‘각 문장 쉬운 풀이’ 8(원문보다 강한 단정 금지).",
+   "proposal": "많은 사람이 지나처럼 모르는 사이에 가짜 뉴스를 퍼뜨린다는 뜻이다.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu2-16",
+   "sentence_id": "s14",
+   "field": "analysis",
+   "current": "intent_ko: … 특히 비상사태 때 퍼져 사회에 큰 혼란과 해를 끼친다는 점을 …",
+   "issue": "원문 s14는 can confuse … harm(~할 수 있다)의 가능성이며 ‘큰’도 원문에 없다. 요지에서 양태가 단정으로 바뀌었다(editorial-core.md: 양태는 모든 자료에서 일치; 같은 단위 flow는 ‘끼칠 수 있다’로 올바르게 씀).",
+   "proposal": "가짜 뉴스는 사람들을 조종하려고 부정확한 정보를 퍼뜨리는 의도적인 시도이며, 특히 비상사태 때 잘 퍼져 사회에 혼란과 해를 끼칠 수 있다는 점을 인도네시아 암본의 사례로 보여 주는 글이다.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu2-17",
+   "sentence_id": "s11",
+   "field": "analysis",
+   "current": "title_or_topic: What Fake News Is and How It Harms Society (가짜 뉴스의 정체와 사회에 끼치는 해)",
+   "issue": "영어 How It Harms Society(어떻게 해를 끼치는가)와 한국어 ‘사회에 끼치는 해’가 정확히 같은 의미가 아니다(방식 vs 해 자체). analysis-content.md ‘공통 학습 단위별 지문분석’(종류와 같은 의미의 영어·한국어를 함께 보존).",
+   "proposal": "한국어를 ‘가짜 뉴스의 정체와 사회에 해를 끼치는 방식’으로 하거나, 영어를 What Fake News Is and the Harm It Does to Society로 맞춤.",
+   "severity": "검토제안"
+  }
+ ]
+}

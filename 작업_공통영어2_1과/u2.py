@@ -2,8 +2,8 @@
 from author import S, link, find_word
 from u1 import pp
 
-W = {'distributor': 'u2-w1', 'deliberate': 'u2-w2', 'manipulate': 'u2-w3', 'intention': 'u2-w4',
-     'disturb': 'u2-w5', 'shelters': 'u2-w6', 'displaced': 'u2-w7', 'anxious': 'u2-w8'}
+W = {'distributor': 'u2-w1', 'manipulate': 'u2-w2', 'intention': 'u2-w3', 'disturb': 'u2-w4',
+     'emergency': 'u2-w5', 'shelters': 'u2-w6', 'displaced': 'u2-w7', 'anxious': 'u2-w8'}
 
 
 def sentences(T):
@@ -48,9 +48,9 @@ def sentences(T):
     s.cl('main', 'Fake', subj='Fake news', verbs=['is'])
     s.g('Fake|news', 'fake news', '가짜 뉴스')
     s.g('is', 'is', '~이다')
-    s.g('deliberate', 'deliberate', '의도적인, 고의적인', star=W['deliberate'])
+    s.g('deliberate', 'deliberate', '의도적인, 고의적인')
     ft = s.g('attempt|to', 'attempt to V', '~하려는 시도')
-    mn = s.g('manipulate', 'manipulate', '조종하다, 조작하다', star=W['manipulate'])
+    mn = s.g('manipulate', 'manipulate', '조종하다 (흔한 뜻: 조작하다)', star=W['manipulate'])
     s.g('people', 'people', '사람들')
     fb = s.g('by', 'by V-ing', '~함으로써', kind='function', combines_with=[])
     sp = s.g('spreading', 'spread', '퍼뜨리다', verb_form=pp('ing', s, 'spreading', 'spread'))
@@ -114,13 +114,13 @@ def sentences(T):
     f = s.g('can', 'can V', '~할 수 있다', kind='function', combines_with=[])
     c1 = s.g('confuse', 'confuse', '혼란스럽게 하다')
     s.g('people', 'people', '사람들')
-    c2 = s.g('disturb', 'disturb', '어지럽히다, 방해하다', star=W['disturb'])
+    c2 = s.g('disturb', 'disturb', '어지럽히다 (흔한 뜻: 방해하다)', star=W['disturb'])
     s.g('society', 'society', '사회')
     s.g('even', 'even', '심지어')
     s.g('seriously', 'seriously', '심각하게')
     c3 = s.g('harm', 'harm', '해를 끼치다')
     link(f, c1, c2, c3)
-    s.g('public', 'the public', '대중')
+    s.g('the|public', 'the public', '대중')
     s.g('as|well|as', 'B as well as A', 'A뿐만 아니라 B도')
     s.g('all', 'all', '모든')
     s.g('individuals', 'individuals', '개인들')
@@ -129,6 +129,9 @@ def sentences(T):
     s.hint('all individuals [involved]', '[관련된] 모든 개인들', span='all individuals involved', label='과거분사 후치수식',
            links=[(['involved'], ['관련된'])], participle_focus_gloss_id=iv['id'], meaning='관련된 모든 개인들',
            explanation='과거분사 involved가 명사 all individuals 뒤에서 꾸민다(관련된 모든 개인들).')
+    s.hint('the public [as well as all individuals]', '[모든 개인들뿐만 아니라] 대중도', span='the public as well as all individuals',
+           label='B as well as A 상관 구조', links=[(['as well as'], ['뿐만 아니라', '도'])], meaning='모든 개인들뿐만 아니라 대중도',
+           explanation='B as well as A(A뿐만 아니라 B도): B=the public, A=all individuals (involved). 영어는 B가 앞, 한국어는 A뿐만 아니라 B도 순서.')
     s.review = ('단일 주절: 조동사 can이 병렬 동사 confuse, disturb, and harm을 모두 이끈다. the public as well as all individuals involved: B as well as A(A뿐만 아니라 B도), '
                 'A=all individuals involved, B=the public. involved는 명사 뒤 과거분사 후치수식 → 앞에서 끊음. 힌트 1개(과거분사 후치수식). 관계사·수동 없음.')
     out.append(s)
@@ -140,7 +143,7 @@ def sentences(T):
     s.ch('during states of emergency.', '비상사태 동안.')
     s.natural('비상사태 때 가짜 뉴스가 퍼지는 것은 매우 흔한 일이다.')
     s.cl('main', 'It', subj='It', verbs=['is'])
-    s.g('It|for|to', 'It … for A to V', 'A가 ~하는 것은 (It은 뒤의 for A to V를 대신함)')
+    s.g('It|for|to', 'It … for A to V', 'A(이/가) ~하는 것은 (It은 뒤의 for A to V를 대신함)')
     s.g('is', 'is', '~이다')
     s.glosses.sort(key=lambda g: g['spans'][0][0])
     s.g('very', 'very', '매우', at=s.text.index('very'))
@@ -148,7 +151,7 @@ def sentences(T):
     s.g('fake|news', 'fake news', '가짜 뉴스')
     s.g('spread', 'spread', '퍼지다', at=s.text.index('spread'))
     s.g('during', 'during', '~ 동안')
-    s.g('states|of|emergency', 'states of emergency', '비상사태들')
+    s.g('states|of|emergency', 'states of emergency', '비상사태들', star=W['emergency'])
     s.prot('states of emergency', 'fixed-expression', 'state of emergency(비상사태)는 한 덩어리 명사 표현이라 of 앞에서 끊지 않음')
     s.hint('It is very common [for fake news to spread]', '[가짜 뉴스가 퍼지는 것은] 매우 흔하다',
            span='It is very common for fake news to spread', label='가주어 It과 진주어 to부정사',
@@ -161,7 +164,7 @@ def sentences(T):
     # ---------------- s16 ----------------
     s = S('s16', T['s16'])
     s.ch('For example,', '예를 들어,')
-    s.ch('after an earthquake measuring 6.5', '규모 6.5의 지진이')
+    s.ch('after an earthquake measuring 6.5', '규모가 6.5인 지진이')
     s.ch('struck Ambon, Indonesia,', '인도네시아 암본을 강타한 후에,')
     s.ch('in September 2019,', '2019년 9월에,')
     s.ch('thousands of residents did not return', '수천 명의 주민들이 돌아가지 않았다')
@@ -183,7 +186,7 @@ def sentences(T):
     s.g('Indonesia', 'Indonesia', '인도네시아', proper=True)
     s.g('in', 'in', '~에')
     s.g('September', 'September', '9월')
-    q = s.g('thousands of', 'thousands of', '수천 (명)의')
+    q = s.g('thousands of', 'thousands of', '수천 명의')
     s.g('residents', 'residents', '주민들')
     fd = s.g('did|not', 'did not V', '~하지 않았다', kind='function', combines_with=[])
     rt = s.g('return', 'return', '돌아가다')
@@ -199,8 +202,8 @@ def sentences(T):
     s.g('two', 'two', '두, 2')
     s.g('weeks', 'weeks', '주들')
     s.prot('thousands of', 'quantity-kind-of', '수량 표현 thousands of가 뒤 명사 residents 앞에서 ‘수천 명의’로 같은 어순 대응', gloss=q)
-    s.hint('[after an earthquake measuring 6.5 struck]', '[규모 6.5의 지진이 강타한 후에]', span='after an earthquake measuring 6.5 struck',
-           label='시간 접속사 after', links=[(['after'], ['이', '한 후에'])], meaning='규모 6.5의 지진이 (암본을) 강타한 후에',
+    s.hint('[after an earthquake measuring 6.5 struck]', '[규모가 6.5인 지진이 강타한 후에]', span='after an earthquake measuring 6.5 struck',
+           label='시간 접속사 after', links=[(['after'], [('이', 0), '한 후에'])], meaning='규모가 6.5인 지진이 (암본을) 강타한 후에',
            explanation='after가 이끄는 시간 부사절(S′ an earthquake measuring 6.5, V′ struck). 주어 뒤 현재분사 measuring 6.5가 earthquake를 꾸며 S′에 포함. 목적어 Ambon, Indonesia 이하는 제외.')
     s.review = ('문두 시간 부사절 after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019 + 주절 thousands of residents did not return … and were still in shelters(병렬 동사, 부정은 did not return에만 걸림). '
                 'measuring 6.5는 현재분사 후치수식(규모가 6.5인). thousands of는 수량+of 같은 어순 예외. 힌트 1개(접속사 after). 관계사·수동 없음.')
@@ -211,7 +214,7 @@ def sentences(T):
     s.ch('This was because of fake news stories', '이것은 가짜 뉴스 이야기들 때문이었다')
     s.ch('on social media', '소셜 미디어에 올라온')
     s.ch('that another earthquake', '또 다른 지진이')
-    s.ch('followed', '(뒤에) 이어지는')
+    s.ch('followed', '이어지는')
     s.ch('by a tsunami', '쓰나미로')
     s.ch('was about to strike.', '곧 닥칠 것이라는.')
     s.natural('이는 쓰나미를 동반한 또 다른 지진이 곧 닥칠 것이라는 소셜 미디어상의 가짜 뉴스 때문이었다.')
@@ -228,8 +231,8 @@ def sentences(T):
     s.g('that', 'that S′ V′', 'S′(이/가) V′라는 (앞 명사의 내용을 설명)')
     s.g('another', 'another', '또 다른')
     s.g('earthquake', 'earthquake', '지진')
-    fl = s.g('followed', 'followed', '(뒤에) 이어지는, 뒤따라진', verb_form=pp('past-participle', s, 'followed', 'follow'))
-    s.g('by', 'by', '~로, ~에 의해')
+    fl = s.g('followed', 'followed', '이어지는', verb_form=pp('past-participle', s, 'followed', 'follow'))
+    s.g('by', 'by', '~로')
     s.g('tsunami', 'tsunami', '쓰나미, 지진 해일')
     s.g('was|about|to', 'be about to V', '막 ~하려 하다, 곧 ~할 것이다')
     s.g('strike', 'strike', '(재난이) 닥치다, 발생하다')
@@ -259,12 +262,12 @@ def sentences(T):
     s.clauses.append({'kind': 'main', 'start': a, 'subject_spans': [[a, a + 2]], 'verb_spans': [[a + 2, a + 4]],
                       'contraction_readings': [{'span': [a + 2, a + 4], 'expanded': 'is'}]})
     s.cl('subordinate', 'if', subj='you', verbs=['want'], marker='if', occ=0)
-    s.cl('main', 'Ambon', subj='Ambon', verbs=['is', 'going'], marker='but')
+    s.cl('main', 'Ambon', subj='Ambon', verbs=['is'], marker='but')
     s.g('One|of', 'one of', '~ 중 하나')
     s.g('those', 'those', '그')
     s.g('messages', 'messages', '메시지들')
     s.g('said', 'said', '말했다 (say의 과거)', verb_form=pp('irregular-past', s, 'said', 'say'))
-    s.g('It’s', 'it’s', '(뒤의 if절을 대신하는) 그것은 ~이다 (It is의 줄임)')
+    s.g('It’s', 'it’s', '~이다 (It은 뒤의 if절을 대신함, It is의 줄임)')
     s.g('up|to', 'up to A', 'A에게 달려 있는')
     s.g('if|or|not', 'if S′ V′ or not', 'S′(이/가) V′하는지 아닌지')
     s.g('want|to', 'want to V', '~하고 싶다',
@@ -317,10 +320,10 @@ def sentences(T):
     s.g('information', 'information', '정보')
     s.g('was', 'was', '~였다', at=s.text.index('was fake'))
     s.g('fake', 'fake', '가짜의')
-    s.hint('so anxious … that the government had to announce', '너무 불안해해서 … 정부는 발표해야 했다',
+    s.hint('so anxious … that the government had to announce', '너무 불안해해서 … 정부가 발표해야 했다',
            span='so anxious about aftershocks that the government had to announce', category='paired-structure',
            display_spans=[s.span_of('so anxious'), s.span_of('that the government had to announce')],
-           links=[(['so', 'that'], ['너무', '해서'])],
+           links=[(['so', 'that'], ['너무', '해서', ('가', 0)])],
            meaning='너무 불안해해서 정부는 발표해야 했다',
            explanation='so A that S′ V′(너무 A해서 S′가 V′하다): A=anxious, 결과 that절 S′ the government, V′ had to announce. 사이의 about aftershocks와 뒤 목적어 that절은 표시에서 제외.')
     s.hint('[that the information was fake]', '[그 정보가 가짜라고]', span='that the information was fake',
@@ -337,10 +340,10 @@ UNIT = {
     'sentence_ids': [f's{n:02d}' for n in range(11, 20)],
     'today_words': [
         {'id': W['distributor'], 'text': 'distributor', 'meaning_ko': '유포자, 퍼뜨리는 사람'},
-        {'id': W['deliberate'], 'text': 'deliberate', 'meaning_ko': '의도적인, 고의적인'},
-        {'id': W['manipulate'], 'text': 'manipulate', 'meaning_ko': '조종하다, 조작하다'},
+        {'id': W['manipulate'], 'text': 'manipulate', 'meaning_ko': '조종하다'},
         {'id': W['intention'], 'text': 'with the intention of V-ing', 'meaning_ko': '~하려는 의도를 가지고'},
-        {'id': W['disturb'], 'text': 'disturb', 'meaning_ko': '어지럽히다, 방해하다'},
+        {'id': W['disturb'], 'text': 'disturb', 'meaning_ko': '어지럽히다'},
+        {'id': W['emergency'], 'text': 'states of emergency', 'meaning_ko': '비상사태들'},
         {'id': W['shelters'], 'text': 'shelters', 'meaning_ko': '대피소들'},
         {'id': W['displaced'], 'text': 'displaced', 'meaning_ko': '살던 곳을 잃은, 이재민이 된'},
         {'id': W['anxious'], 'text': 'anxious', 'meaning_ko': '불안해하는, 걱정하는'},
@@ -351,21 +354,21 @@ UNIT = {
 def analysis(_):
     return {
         'heading_kind': '주제',
-        'title_or_topic_en': 'What Fake News Is and How It Harms Society',
+        'title_or_topic_en': 'What Fake News Is and the Harm It Does to Society',
         'title_or_topic_ko': '가짜 뉴스의 정체와 사회에 끼치는 해',
-        'intent_ko': '가짜 뉴스는 사람들을 조종하려고 부정확한 정보를 퍼뜨리는 의도적인 시도이며, 특히 비상사태 때 퍼져 사회에 큰 혼란과 해를 끼친다는 점을 인도네시아 암본의 사례로 보여 주는 글이다.',
+        'intent_ko': '가짜 뉴스는 사람들을 조종하려고 부정확한 정보를 퍼뜨리는 의도적인 시도이며, 특히 비상사태 때 잘 퍼져 사회에 혼란과 해를 끼칠 수 있다는 점을 인도네시아 암본의 사례로 보여 주는 글이다.',
         'flow': [
             {'sentence_ids': ['s11', 's12', 's13', 's14'], 'label': '정의와 해악',
              'text_ko': '지나처럼 뜻하지 않게 가짜 뉴스를 퍼뜨리는 일은 흔하다. 가짜 뉴스는 관심·이익·정치적 이득을 노리는 집단이 사람들을 조종하려고 만든 의도적인 시도이며, 사람들과 사회에 심각한 해를 끼칠 수 있다.'},
             {'sentence_ids': ['s15', 's16', 's17', 's18', 's19'], 'label': '비상사태 사례',
-             'text_ko': '가짜 뉴스는 비상사태 때 특히 잘 퍼진다. 2019년 암본 지진 뒤 또 다른 지진과 쓰나미가 온다는 가짜 뉴스 때문에 주민들은 2주 동안 집에 돌아가지 못했고, 결국 정부가 그 정보가 가짜라고 발표해야 했다.'},
+             'text_ko': '가짜 뉴스는 비상사태 때 특히 잘 퍼진다. 2019년 암본 지진 뒤 또 다른 지진과 쓰나미가 온다는 가짜 뉴스 때문에 주민들은 2주 동안 집에 돌아가지 않고 대피소에 머물렀고, 결국 정부가 그 정보가 가짜라고 발표해야 했다.'},
         ],
         'easy_explanations': [
             {'sentence_id': 's11', 'explanatory_sentences': [
                 '11번 문장은 앞 도입부의 지나 이야기를 이 부분의 주제와 이어 준다.',
                 '지나는 일부러 가짜 뉴스를 퍼뜨린 것이 아니다.',
                 '글쓴이는 이런 일이 지나에게만 일어나는 드문 일이 아니라고 말한다.',
-                '누구든 지나처럼 모르는 사이에 가짜 뉴스를 퍼뜨릴 수 있다는 뜻이다.']},
+                '많은 사람이 지나처럼 모르는 사이에 가짜 뉴스를 퍼뜨린다는 뜻이다.']},
             {'sentence_id': 's13', 'explanatory_sentences': [
                 '13번 문장은 12번에서 정의한 가짜 뉴스를 누가, 왜 만드는지 설명한다.',
                 '가짜 뉴스를 만드는 쪽은 특정한 목적을 가진 집단이다.',
@@ -386,18 +389,18 @@ def analysis(_):
                             '→ 사람들을 조종하려는 의도적인 시도. to manipulate people가 앞 명사 attempt가 어떤 시도인지 뒤에서 설명한다.',
              'practice': {'span': 'a deliberate attempt to manipulate people',
                           'formula_support': {'en': 'N + to V', 'ko': '~하려는 N'},
-                          'support': [('s12', 'deliberate'), ('s12', 'manipulate'), ('s12', 'people')],
+                          'support': [('s12', 'deliberate'), ('s12', 'attempt to V'), ('s12', 'manipulate'), ('s12', 'people')],
                           'answer_ko': '사람들을 조종하려는 의도적인 시도'}},
             {'id': 'u2-gp2', 'sentence_id': 's15', 'span': 'It is very common for fake news to spread',
-             'title': 'It … for A to V: A가 ~하는 것은 …', 'formula_key': 'It … for A to V',
+             'title': 'It … for A to V: A(이/가) ~하는 것은 …', 'formula_key': 'It … for A to V',
              'explanation': '공식: It is 형용사 for A to V — A가 ~하는 것은 (형용사)하다. It = 가주어(뒤의 for A to V를 대신함), 형용사 = very common(매우 흔한), '
                             'A = fake news(가짜 뉴스), to V = to spread(퍼지다). → 가짜 뉴스가 퍼지는 것은 매우 흔하다. for 뒤의 A가 to V의 주체다.',
              'practice': {'span': 'It is very common for fake news to spread',
-                          'formula_support': {'en': 'It … for A to V', 'ko': 'A가 ~하는 것은'},
+                          'formula_support': {'en': 'It … for A to V', 'ko': 'A(이/가) ~하는 것은'},
                           'support': [('s15', 'very'), ('s15', 'common'), ('s15', 'fake news'), ('s15', 'spread')],
                           'answer_ko': '가짜 뉴스가 퍼지는 것은 매우 흔하다'}},
             {'id': 'u2-gp3', 'sentence_id': 's19', 'span': 'were so anxious about aftershocks that the government had to announce',
-             'title': 'so A that S′ V′: 너무 A해서 S′가 V′하다', 'formula_key': 'so A that S′ V′',
+             'title': 'so A that S′ V′: 너무 A해서 S′(이/가) V′하다', 'formula_key': 'so A that S′ V′',
              'explanation': '공식: so A that S′ V′ — 너무 A해서 S′(이/가) V′하다. A = anxious(불안해하는), about aftershocks = 여진에 대해, '
                             'S′ = the government(정부), V′ = had to announce(발표해야 했다). → 여진에 대해 너무 불안해해서 정부가 발표해야 했다. '
                             'that 앞은 원인(몹시 불안함), that 뒤는 그 결과다.',
@@ -414,7 +417,7 @@ def analysis(_):
         'relations': [
             {'head': {'id': 'u2-r1h', 'text': 'deliberate', 'meaning_ko': '의도적인, 고의적인'},
              'synonym': {'id': 'u2-r1s', 'text': 'intentional', 'meaning_ko': '의도적인, 고의의'},
-             'antonym': {'id': 'u2-r1a', 'text': 'accidental', 'meaning_ko': '우연한, 뜻하지 않은'}},
+             'antonym': {'id': 'u2-r1a', 'text': 'accidental', 'meaning_ko': '우발적인, 뜻하지 않은'}},
             {'head': {'id': 'u2-r2h', 'text': 'inaccurate', 'meaning_ko': '부정확한'},
              'synonym': {'id': 'u2-r2s', 'text': 'incorrect', 'meaning_ko': '틀린, 부정확한'},
              'antonym': {'id': 'u2-r2a', 'text': 'accurate', 'meaning_ko': '정확한'}},

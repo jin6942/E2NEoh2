@@ -39,7 +39,7 @@ def sentences(T):
     # ---------------- s21 ----------------
     s = S('s21', T['s21'])
     s.ch('A study', '한 연구는')
-    s.ch('by the Massachusetts Institute of Technology', '매사추세츠 공과대학의')
+    s.ch('by the Massachusetts Institute of Technology', '매사추세츠 공과대학에 의한')
     s.ch('in the US', '미국에 있는')
     s.ch('has shown', '보여 주었다')
     s.ch('that fake news spreads online', '가짜 뉴스가 온라인에서 퍼진다는 것을')
@@ -51,7 +51,7 @@ def sentences(T):
          disp_review='중심명사 study까지 표시하고 뒤수식 by the Massachusetts Institute of Technology in the US는 제외')
     s.cl('subordinate', 'that', subj='fake news', verbs=['spreads'], marker='that')
     s.g('study', 'study', '연구')
-    s.g('by', 'by', '~에 의한, ~의')
+    s.g('by', 'by', '~에 의한')
     s.g('Massachusetts|Institute|of|Technology', 'Massachusetts Institute of Technology', '매사추세츠 공과대학 (MIT, 미국의 대학)', proper=True)
     s.g('in', 'in', '~에 있는')
     s.g('US', 'the US', '미국', proper=True)
@@ -89,7 +89,7 @@ def sentences(T):
     s.cl('main', 'One', subj='One explanation for this phenomenon', verbs=['is'], disp='One explanation',
          disp_review='중심명사 explanation까지 표시하고 뒤수식 for this phenomenon은 제외')
     s.cl('subordinate', 'that', subj='people', verbs=['like'], marker='that')
-    s.g('One', 'one', '한 (가지)')
+    s.g('One', 'one', '한 가지')
     s.g('explanation', 'explanation', '설명')
     s.g('for', 'for', '~에 대한')
     s.g('this', 'this', '이')
@@ -168,14 +168,11 @@ def sentences(T):
     s.cl('main', 'they', subj='they', verbs=['can', 'gain'])
     s.cl('subordinate', 'because', subj='they', verbs=['are'], marker='because')
     fb = s.g('By', 'by V-ing', '~함으로써', kind='function', combines_with=[])
-    ps = s.g('passing|to', 'pass A to B', 'A를 B에게 전달하다', verb_form=pp('ing', s, 'passing', 'pass'),
-             verb_construction={'kind': 'verb-frame', 'verb_span': s.span_of('passing'), 'lemma': 'pass',
-                                'link_spans': [s.span_of('to')],
-                                'review_record': 'passing it to others: pass A to B, A=it(자극적인 뉴스), B=others.'})
+    ps = s.g('passing', 'pass', '전달하다', verb_form=pp('ing', s, 'passing', 'pass'))
     link(fb, ps)
     s.g('it', 'it', '그것을', referent_ko='그 자극적인 뉴스')
-    s.glosses.sort(key=lambda g: g['spans'][0][0])
-    s.g('others', 'others', '다른 사람들', at=s.text.index('others'))
+    s.g('to', 'to', '~에게')
+    s.g('others', 'others', '다른 사람들')
     s.g('on', 'on', '~에서 (흔한 뜻: ~위에)')
     s.g('social|media', 'social media', '소셜 미디어')
     s.g('they', 'they', '그들은', referent_ko='자극적인 뉴스를 공유하는 사람들')
@@ -195,11 +192,11 @@ def sentences(T):
     s.g('information', 'information', '정보')
     s.hint('[By passing]', '[전달함으로써]', span='By passing', label='전치사 by + 동명사',
            links=[(['By', 'ing'], ['함으로써'])], meaning='(그것을 다른 사람들에게) 전달함으로써',
-           explanation='전치사 by + 동명사 passing: ~함으로써(수단). 관심을 얻는 방법. pass A to B의 A·B(it, others)는 표시에서 제외.')
+           explanation='전치사 by + 동명사 passing: ~함으로써(수단). 관심을 얻는 방법. 목적어 it과 to others는 표시에서 제외.')
     s.hint('the first [to post]', '[게시하는] 첫 번째 사람', span='the first to post', label='to부정사 후치수식',
            links=[(['to'], ['는'])], meaning='(정보를) 게시하는 첫 번째 사람',
            explanation='to post …가 앞의 the first(첫 번째 사람)를 뒤에서 꾸민다(처음으로 게시하는 사람). 목적어 previously unknown … information은 표시에서 제외.')
-    s.review = ('문두 수단 By passing it to others on social media(pass A to B) + 주절 they can gain attention + 이유 부사절 because they are the first to post …(the first to V: 처음으로 ~하는 사람). '
+    s.review = ('문두 수단 By passing it to others on social media(pass와 to는 대표 뜻 ~에게로 분리, L 검수 Lu3-02) + 주절 they can gain attention + 이유 부사절 because they are the first to post …(the first to V: 처음으로 ~하는 사람). '
                 '목적어 information 앞에 삽입된 previously unknown, but possibly false(두 형용사구가 but으로 이어져 information을 꾸밈). 힌트 2개(by + 동명사, to부정사 후치수식). 관계사·수동 없음.')
     out.append(s)
 
@@ -246,21 +243,20 @@ def sentences(T):
     s.ch('instead of critically examining it.', '그것을 비판적으로 검토하는 대신에.')
     s.natural('사람들은 새로운 정보를 비판적으로 검토하는 대신 아무 증거 없이 믿을 가능성이 더 크다.')
     s.cl('main', 'It', subj='It', verbs=['is'])
-    s.g('It|for|to', 'It … for A to V', 'A가 ~할 가능성이 (It은 뒤의 for A to V를 대신함)')
-    s.g('is', 'is', '~이다')
-    s.glosses.sort(key=lambda g: g['spans'][0][0])
+    s.g('It|is|likely|for|to', 'It is likely for A to V', 'A(이/가) ~할 가능성이 높다 (It은 뒤의 for A to V를 대신함)')
     s.g('more', 'more', '더', at=s.text.index('more'))
-    s.g('likely', 'likely', '가능성이 높은, ~할 것 같은')
-    s.g('them', 'them', '그들이', referent_ko='일상생활에서 단순하게 생각하는 사람들')
+    s.glosses.sort(key=lambda g: g['spans'][0][0])
+    s.g('them', 'them', '그들이', referent_ko='일상생활에서 단순하게 생각하는 사람들', at=s.text.index('them'))
     s.g('believe', 'believe', '믿다', at=s.text.index('believe'))
     s.g('new', 'new', '새로운')
     s.g('information', 'information', '정보')
     s.g('without', 'without', '~ 없이')
     s.g('any', 'any', '어떤 ~도')
     s.g('proof', 'proof', '증거', star=W['proof'])
-    s.g('instead|of', 'instead of V-ing', '~하는 대신에')
+    fi = s.g('instead|of', 'instead of V-ing', '~하는 대신에', kind='function', combines_with=[])
     s.g('critically', 'critically', '비판적으로')
-    s.g('examining', 'examine', '검토하다, 조사하다', verb_form=pp('ing', s, 'examining', 'examine'))
+    ex = s.g('examining', 'examine', '검토하다, 조사하다', verb_form=pp('ing', s, 'examining', 'examine'))
+    link(fi, ex)
     s.g('it', 'it', '그것을', referent_ko='새로운 정보')
     s.hint('It is more likely [for them to believe]', '[그들[사람들]이 믿을] 가능성이 더 높다',
            span='It is more likely for them to believe', label='가주어 It과 진주어 to부정사',
@@ -295,7 +291,7 @@ def sentences(T):
     s.g('prejudices', 'prejudices', '편견들', star=W['prejudices'])
     s.g('or', 'or', '또는')
     s.g('experiences', 'experiences', '경험들')
-    s.g('even', 'even', '~조차, 심지어')
+    s.g('even', 'even', '~조차')
     s.g('when', 'when', '~일 때 (뒤에 it is가 생략됨)')
     s.g('not', 'not', '~이 아닌')
     s.g('true', 'true', '사실인')
@@ -409,7 +405,7 @@ def sentences(T):
     s.g('in', 'in', '~으로')
     s.g('positive', 'positive', '긍정적인')
     s.g('way', 'way', '방식')
-    fw = s.g('while', 'while V-ing', '~하면서 (동시에)', kind='function', combines_with=[])
+    fw = s.g('while', 'while V-ing', '~하면서', kind='function', combines_with=[])
     s.g('unconsciously', 'unconsciously', '무의식적으로')
     bl = s.g('believing', 'believe', '믿다', verb_form=pp('ing', s, 'believing', 'believe'))
     link(fw, bl)
@@ -421,18 +417,19 @@ def sentences(T):
     s.g('about', 'about', '~에 대해')
     s.g('other', 'other', '다른')
     s.g('candidates', 'candidates', '후보들', at=s.text.index('candidates.'))
-    s.hint('any news [describing their favored candidates]', '[그들[사람들]의 선호 후보들을 묘사하는] 어떤 뉴스든',
+    s.hint('any news [describing their favored candidates]', '[그들[사람들]이 선호하는 후보들을 묘사하는] 어떤 뉴스든',
            span='any news describing their favored candidates', label='현재분사 후치수식',
-           links=[(['ing'], ['는'])], refs=[('their', '그들', '[사람들]')],
+           links=[(['ing'], [('는', 1)])], refs=[('their', '그들', '[사람들]')],
            meaning='그들이 선호하는 후보들을 묘사하는 어떤 뉴스든',
            explanation='현재분사 describing이 이끄는 describing their favored candidates (in a positive way)가 앞 명사 any news를 뒤에서 꾸민다.')
     s.hint('news [that reports]', '[보도하는] 뉴스', span='news that reports', label='주격 관계대명사 that',
            links=[(['that'], ['는'])], meaning='(다른 후보들에 대해 부정적인 무언가를) 보도하는 뉴스',
            explanation='선행사 news를 주격 관계대명사 that이 받아 reports something negative about other candidates가 꾸민다. V′ reports까지만 표시.')
+    s.brk('about', 'postnominal-preposition', 'about other candidates는 앞 명사구 something negative를 뒤에서 꾸미는 전치사구')
     s.relative_ids = [rel['id']]
     s.review = ('주절 people tend to blindly believe any news + 현재분사 후치수식 describing their favored candidates in a positive way(any news를 꾸밈) '
                 '+ while unconsciously believing news(while + V-ing: 동시에 ~하면서, 주어 people 공유) + 주격 관계절 that reports something negative about other candidates. '
-                'something negative는 -thing 대명사 뒤 형용사가 붙은 한 덩어리 명사구라 끊지 않음(L 검수 확인 요청). 힌트 2개(현재분사 후치수식, 필수 관계사). 수동 없음.')
+                'something negative는 -thing+단일 형용사의 최소 명사구로 비분할(L 검수 확인). about other candidates는 앞 명사구를 꾸미는 후치수식 전치사구. 힌트 2개(현재분사 후치수식, 필수 관계사). 수동 없음.')
     out.append(s)
     return out
 
@@ -441,8 +438,8 @@ UNIT = {
     'id': 'u3', 'source_id': 'src', 'paragraph_ids': ['p05', 'p06', 'p07'],
     'sentence_ids': [f's{n:02d}' for n in range(20, 31)],
     'today_words': [
-        {'id': W['viral'], 'text': 'go viral', 'meaning_ko': '(인터넷에서) 급속히 퍼지다'},
         {'id': W['phenomenon'], 'text': 'phenomenon', 'meaning_ko': '현상'},
+        {'id': W['viral'], 'text': 'go viral', 'meaning_ko': '(인터넷에서) 급속히 퍼지다'},
         {'id': W['effortlessly'], 'text': 'effortlessly', 'meaning_ko': '힘들이지 않고, 쉽게'},
         {'id': W['proof'], 'text': 'proof', 'meaning_ko': '증거'},
         {'id': W['inclined'], 'text': 'be inclined to V', 'meaning_ko': '~하는 경향이 있다'},
@@ -471,10 +468,9 @@ def analysis(_):
         ],
         'easy_explanations': [
             {'sentence_id': 's24', 'explanatory_sentences': [
-                '24번 문장은 23번에서 말한 ‘나누고 싶은 마음’이 왜 생기는지 설명한다.',
-                '아직 아무도 모르는 소식을 가장 먼저 올리면 사람들의 관심이 그 사람에게 몰린다.',
-                '그 관심을 받고 싶어서 사람들은 소식이 사실인지 확인하지 않고 먼저 올린다.',
-                '그 소식은 새롭지만 거짓일 수도 있다.']},
+                '24번 문장은 23번에서 말한 ‘나누고 싶은 마음’에 이어, 소식을 나누면 무엇을 얻는지 설명한다.',
+                '아직 아무도 모르는 소식을 소셜 미디어에 가장 먼저 올린 사람은 다른 사람들의 관심을 받을 수 있다.',
+                '그런데 이렇게 먼저 올린 소식은 새롭기는 하지만 거짓일 수도 있다.']},
             {'sentence_id': 's26', 'explanatory_sentences': [
                 '26번 문장은 25번에서 말한 ‘단순하고 쉽게 생각하는 습관’이 어떤 결과를 낳는지 보여 준다.',
                 '비판적으로 검토한다는 것은 정보를 그대로 믿지 않고 사실인지 따져 보는 것이다.',
@@ -488,11 +484,11 @@ def analysis(_):
         ],
         'grammar_points': [
             {'id': 'u3-gp1', 'sentence_id': 's21', 'span': 'fake news spreads online 6 times faster than real news',
-             'title': '배수 + 비교급 + than: ~보다 몇 배 더 …하게', 'formula_key': 'N times 비교급 than',
-             'explanation': '공식: 숫자 times + 비교급 + than A — A보다 (숫자)배 더 …하게. 숫자 times = 6 times(6배), 비교급 = faster(더 빠르게), '
+             'title': 'N times + 비교급 + than A: A보다 N배 더 …하게', 'formula_key': 'N times + 비교급 + than A',
+             'explanation': '공식: N times + 비교급 + than A — A보다 N배 더 …하게. N times = 6 times(6배), 비교급 = faster(더 빠르게), '
                             'A = real news(진짜 뉴스), 앞의 fake news spreads online = 가짜 뉴스가 온라인에서 퍼진다. → 가짜 뉴스는 온라인에서 진짜 뉴스보다 6배 더 빠르게 퍼진다.',
              'practice': {'span': 'fake news spreads online 6 times faster than real news',
-                          'formula_support': {'en': 'N times 비교급 than', 'ko': '~보다 N배 더 …하게'},
+                          'formula_support': {'en': 'N times + 비교급 + than A', 'ko': 'A보다 N배 더 …하게'},
                           'support': [('s21', 'fake news'), ('s21', 'spread'), ('s21', 'online'), ('s21', 'times'),
                                       ('s21', 'faster'), ('s21', 'than'), ('s21', 'real')],
                           'answer_ko': '가짜 뉴스는 온라인에서 진짜 뉴스보다 6배 더 빠르게 퍼진다'}},

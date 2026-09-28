@@ -2,8 +2,8 @@
 from author import S, link
 from u1 import pp, v3
 
-W = {'mislead': 'u4-w1', 'face_value': 'u4-w2', 'evaluate': 'u4-w3', 'credibility': 'u4-w4',
-     'reliable': 'u4-w5', 'valid': 'u4-w6', 'eliminate': 'u4-w7', 'objectively': 'u4-w8'}
+W = {'mislead': 'u4-w1', 'face_value': 'u4-w2', 'critical': 'u4-w3', 'evaluate': 'u4-w4',
+     'biases': 'u4-w5', 'credibility': 'u4-w6', 'intent': 'u4-w7', 'eliminate': 'u4-w8'}
 READER = '[독자]'
 
 
@@ -33,12 +33,15 @@ def sentences(T):
     fd = s.g('does|not', 'does not V', '~하지 않다', kind='function', combines_with=[])
     ml = s.g('mislead', 'mislead', '속이다, 오도하다', star=W['mislead'])
     link(fd, ml)
-    s.brk('on', 'postnominal-preposition', 'on the Internet은 앞 명사 so much information을 뒤에서 꾸미는 전치사구')
+    s.hint('[With so much information on the Internet]', '[인터넷에 그렇게 많은 정보가 있는 상황에서]',
+           span='With so much information on the Internet', label='with 구문',
+           links=[(['With'], ['가', '있는 상황에서'])], meaning='인터넷에 그렇게 많은 정보가 있는 상황에서',
+           explanation='with + A + 전치사구(A가 ~에 있는 상황에서): A=so much information, 전치사구=on the Internet. 질문의 배경 상황.')
     s.hint('[that fake news does not mislead]', '[가짜 뉴스가 속이지 않는다는 것]', span='that fake news does not mislead',
            label='명사절 접속사 that', links=[(['that'], ['가', '다는 것'])], meaning='가짜 뉴스가 (당신을) 속이지 않는다는 것',
            explanation='make sure의 목적어 that 명사절(S′ fake news, V′ does not mislead). 부정 does not을 보존하고 목적어 you는 표시에서 제외.')
     s.review = ('직접의문문: 의문사 how + 조동사 can + 주어 you + make sure(확실히 하다) + 목적어 that 명사절 fake news does not mislead you. '
-                '문두 With so much information on the Internet는 상황을 나타내는 전치사구(on 앞 후치수식 경계). 힌트 1개(명사절 that). 관계사·수동 없음.')
+                '문두 With so much information on the Internet는 with + A + 전치사구(A가 ~에 있는 상황에서). on 앞 경계는 with 구문 안 A와 전치사구 사이. 힌트 2개(with 구문, 명사절 that). 관계사·수동 없음.')
     out.append(s)
 
     # ---------------- s32 ----------------
@@ -83,7 +86,7 @@ def sentences(T):
     s.hint('so stimulating … that you may click', '너무 자극적이어서 … 당신[독자]이 클릭할 수도 있다',
            span='so stimulating to get more clicks that you may click', category='paired-structure',
            display_spans=[s.span_of('so stimulating'), s.span_of('that you may click')],
-           links=[(['so', 'that'], ['너무', '어서'])], refs=[('you', '당신', READER)],
+           links=[(['so', 'that'], ['너무', '어서', ('이', 1)])], refs=[('you', '당신', READER)],
            meaning='너무 자극적이어서 당신이 클릭할 수도 있다',
            explanation='so A that S′ V′(너무 A해서 S′가 V′하다): A=stimulating, 결과 that절 S′ you, V′ may click. 사이의 to get more clicks와 뒤 on them accidentally는 제외.')
     s.review = ('주절 They can be so stimulating(They=앞 문장의 자극적인 헤드라인들) + 목적 to get more clicks + 결과 that절 you may click on them accidentally(so A that). '
@@ -98,11 +101,10 @@ def sentences(T):
     s.cl('imperative', 'don’t', verbs=['don’t', 'read'])
     s.cl('imperative', 'read', verbs=['read'], marker='but', occ=1)
     s.g('So', 'so', '그러므로')
-    fd = s.g('don’t', 'do not V', '~하지 마라', kind='function', combines_with=[])
-    s.g('just', 'just', '그저, 단지')
-    rd = s.g('read', 'read', '읽다')
-    link(fd, rd)
+    s.g('don’t|just|but', 'don’t just A but B', '그저 A하지 말고 B하라')
+    s.g('read', 'read', '읽다')
     s.g('headlines', 'headlines', '헤드라인들, 제목들')
+    s.glosses.sort(key=lambda g: g['spans'][0][0])
     s.g('read', 'read', '읽다', at=s.text.index('read the text'))
     s.g('text', 'text', '본문 (흔한 뜻: 글, 문자)')
     s.g('carefully', 'carefully', '주의 깊게')
@@ -133,10 +135,10 @@ def sentences(T):
     s = S('s36', T['s36'])
     s.ch('Exercise critical thinking skills', '비판적 사고 기술을 발휘하라')
     s.ch('to judge the news.', '뉴스를 판단하기 위해.')
-    s.natural('뉴스를 판단할 때 비판적 사고 능력을 발휘하라.')
+    s.natural('뉴스를 판단하기 위해 비판적 사고 능력을 발휘하라.')
     s.cl('imperative', 'Exercise', verbs=['Exercise'])
     s.g('Exercise', 'exercise', '발휘하다, 활용하다 (흔한 뜻: 운동하다)')
-    s.g('critical|thinking', 'critical thinking', '비판적 사고')
+    s.g('critical|thinking', 'critical thinking', '비판적 사고', star=W['critical'])
     s.g('skills', 'skills', '기술들, 능력들')
     ft = s.g('to', 'to V', '~하기 위해', kind='function', combines_with=[])
     jd = s.g('judge', 'judge', '판단하다')
@@ -178,7 +180,7 @@ def sentences(T):
     s.g('Third', 'third', '셋째')
     s.g('examine', 'examine', '점검하다, 살펴보다')
     s.g('your', 'your', '당신의')
-    s.g('biases', 'biases', '편견들')
+    s.g('biases', 'biases', '편견들', star=W['biases'])
     s.review = '주어 없는 명령문 examine your biases. 관계사·접속사절·수동 없음 → 힌트 없음.'
     out.append(s)
 
@@ -280,13 +282,13 @@ def sentences(T):
     fs = s.g('should', 'should V', '~해야 한다', kind='function', combines_with=[])
     ex = s.g('examine', 'examine', '살펴보다, 조사하다')
     link(fs, ex)
-    s.g('who', 'who V′', '누가 V′했는지 (간접의문)')
+    s.g('who', 'who V′', '누가 V′했는지')
     s.g('wrote', 'wrote', '썼다 (write의 과거)', verb_form=pp('irregular-past', s, 'wrote', 'write'))
     s.g('news|story', 'news story', '뉴스 기사')
-    s.g('what', 'what S′ V′', 'S′(이/가) 무엇이었는지 (간접의문)')
-    s.g('intent', 'intent', '의도')
+    s.g('what', 'what S′ V′', 'S′(이/가) 무엇이었는지')
+    s.g('intent', 'intent', '의도', star=W['intent'])
     s.g('was', 'was', '~였다')
-    s.g('behind', 'behind', '~ 뒤에 (숨은)')
+    s.g('behind', 'behind', '~ 뒤에 있는')
     fw = s.g('writing', 'V-ing', '~하는 것', kind='function', combines_with=[])
     wr = s.g('writing', 'write', '쓰다', same=True, verb_form=pp('ing', s, 'writing', 'write'))
     link(fw, wr)
@@ -295,7 +297,7 @@ def sentences(T):
            links=[(['who'], ['누가', '는지'])], meaning='누가 (그 뉴스 기사를) 썼는지',
            explanation='examine의 첫째 목적어인 간접의문문. 의문사 who 자체가 주어이고 V′는 wrote. 목적어 the news story는 제외.')
     s.hint('[what the intent was]', '[의도가 무엇이었는지]', span='what the intent was', label='간접의문문 what',
-           links=[(['what'], ['가', '무엇이었는지'])], meaning='(그 기사를 쓴 이면의) 의도가 무엇이었는지',
+           links=[(['what'], ['가', '무엇', '는지'])], meaning='(그 기사를 쓴 이면의) 의도가 무엇이었는지',
            explanation='examine의 둘째 목적어인 간접의문문(S′ the intent, V′ was, what은 보어). 뒤의 behind writing the news story는 intent를 꾸미는 말로 표시에서 제외.')
     s.review = ('주절 You should examine + 목적어 간접의문문 둘(and로 병렬): who wrote the news story(who가 주어라 S/V는 V′만 표시, 관계절 아님), '
                 'what the intent was behind writing the news story(what은 보어, behind + 동명사 writing). 힌트 2개(간접의문문 who·what). 관계사·수동 없음.')
@@ -316,16 +318,16 @@ def sentences(T):
                            'link_spans': [s.span_of('to')],
                            'review_record': 'You also need to check …: need to V, V=check.'})
     s.g('check', 'check', '확인하다')
-    s.g('whether', 'whether S′ V′', 'S′(이/가) V′하는지 (아닌지)')
+    s.g('whether', 'whether S′ V′', 'S′(이/가) V′하는지')
     s.g('news|story', 'news story', '뉴스 기사')
     s.g('is', 'is', '~이다')
     s.g('from', 'from', '~에서 나온')
-    s.g('reliable', 'reliable', '믿을 만한, 신뢰할 수 있는', star=W['reliable'])
+    s.g('reliable', 'reliable', '믿을 만한, 신뢰할 수 있는')
     s.g('media', 'media', '미디어, 언론')
-    s.g('source', 'source', '출처')
+    s.g('source', 'source', '출처 (흔한 뜻: 원천)')
     s.g('evidence', 'evidence', '증거')
     s.g('is', 'is', '~이다', at=s.text.index('is valid'))
-    s.g('valid', 'valid', '타당한, 근거가 확실한', star=W['valid'])
+    s.g('valid', 'valid', '타당한, 근거가 확실한')
     s.hint('[whether the news story is from a reliable media source]', '[그 뉴스 기사가 믿을 만한 미디어 출처에서 나온 것인지]',
            span='whether the news story is from a reliable media source', label='명사절 접속사 whether',
            links=[(['whether'], ['가', '인지'])], meaning='그 뉴스 기사가 믿을 만한 미디어 출처에서 나온 것인지',
@@ -385,13 +387,13 @@ def sentences(T):
     s.cl('main', 'you', subj='you', verbs=['will', 'be'], occ=1)
     s.cl('subordinate', 'that', subj='fake news', verbs=['can', 'cause'], marker='that')
     s.g('However', 'however', '하지만')
-    s.g('if', 'if S′ V′', '(만약) S′(이/가) V′한다면')
+    s.g('if', 'if S′ V′', 'S′(이/가) V′한다면')
     s.g('have', 'have', '가지고 있다')
     s.g('ability|to', 'ability to V', '~할 수 있는 능력')
     s.g('view', 'view', '보다, 바라보다')
     s.g('information', 'information', '정보')
     s.g('critically', 'critically', '비판적으로')
-    s.g('objectively', 'objectively', '객관적으로', star=W['objectively'])
+    s.g('objectively', 'objectively', '객관적으로')
     fw = s.g('will', 'will V', '~할 것이다', kind='function', combines_with=[])
     ba = s.g('be|able|to', 'be able to V', '~할 수 있다')
     link(fw, ba)
@@ -432,7 +434,7 @@ def sentences(T):
     s.cl('main', 'Anyone', subj='Anyone', verbs=['can', 'be'])
     s.g('Anyone', 'anyone', '누구든지')
     fc = s.g('can', 'can V', '~할 수 있다', kind='function', combines_with=[])
-    be = s.g('be', 'be', '~이 되다, ~이다')
+    be = s.g('be', 'be', '~이 되다 (흔한 뜻: ~이다)')
     link(fc, be)
     s.g('next', 'next', '다음의')
     s.g('person', 'person', '사람')
@@ -446,7 +448,7 @@ def sentences(T):
     s.g('fake|news', 'fake news', '가짜 뉴스')
     s.hint('the next person [producing or spreading fake news]', '[가짜 뉴스를 만들어 내거나 퍼뜨리는] 다음 사람',
            span='the next person producing or spreading fake news', label='현재분사 후치수식',
-           links=[(['ing', ('ing', 1)], ['거나', '는'])], meaning='가짜 뉴스를 만들어 내거나 퍼뜨리는 다음 사람',
+           links=[(['ing', ('ing', 1)], ['는'])], meaning='가짜 뉴스를 만들어 내거나 퍼뜨리는 다음 사람',
            explanation='현재분사 producing과 spreading이 or로 이어져 fake news를 공통 목적어로 받고, 앞 명사 the next person을 뒤에서 꾸민다.')
     s.review = '주절 Anyone can be the next person + 현재분사 후치수식 producing or spreading fake news(병렬 분사, 공통 목적어). 힌트 1개(현재분사 후치수식). 관계사·수동 없음.'
     out.append(s)
@@ -459,12 +461,12 @@ UNIT = {
     'today_words': [
         {'id': W['mislead'], 'text': 'mislead', 'meaning_ko': '속이다, 오도하다'},
         {'id': W['face_value'], 'text': 'at face value', 'meaning_ko': '액면 그대로, 곧이곧대로'},
+        {'id': W['critical'], 'text': 'critical thinking', 'meaning_ko': '비판적 사고'},
         {'id': W['evaluate'], 'text': 'evaluate', 'meaning_ko': '평가하다'},
+        {'id': W['biases'], 'text': 'biases', 'meaning_ko': '편견들'},
         {'id': W['credibility'], 'text': 'credibility', 'meaning_ko': '신뢰성'},
-        {'id': W['reliable'], 'text': 'reliable', 'meaning_ko': '믿을 만한, 신뢰할 수 있는'},
-        {'id': W['valid'], 'text': 'valid', 'meaning_ko': '타당한, 근거가 확실한'},
+        {'id': W['intent'], 'text': 'intent', 'meaning_ko': '의도'},
         {'id': W['eliminate'], 'text': 'eliminate', 'meaning_ko': '없애다, 제거하다'},
-        {'id': W['objectively'], 'text': 'objectively', 'meaning_ko': '객관적으로'},
     ],
 }
 
@@ -474,7 +476,7 @@ def analysis(_):
         'heading_kind': '주제',
         'title_or_topic_en': 'Four Ways to Spot and Avoid Fake News',
         'title_or_topic_ko': '가짜 뉴스를 가려내고 피하는 네 가지 방법',
-        'intent_ko': '가짜 뉴스에 속지 않으려면 헤드라인 너머까지 읽고, 뉴스를 비판적으로 판단하고, 자신의 편견을 점검하고, 출처의 신뢰성을 확인해야 하며, 이런 비판적·객관적인 태도가 가짜 뉴스의 피해를 줄인다는 점을 강조하는 글이다.',
+        'intent_ko': '가짜 뉴스에 속지 않으려면 헤드라인 너머까지 읽고, 뉴스를 비판적으로 판단하고, 자신의 편견을 점검하고, 출처의 신뢰성을 확인해야 하며, 이런 비판적·객관적인 태도가 가짜 뉴스의 피해를 줄일 수 있다는 점을 강조하는 글이다.',
         'flow': [
             {'sentence_ids': ['s31'], 'label': '질문',
              'text_ko': '정보가 넘쳐나는 인터넷에서 어떻게 가짜 뉴스에 속지 않을 수 있을지 묻는다.'},
@@ -483,7 +485,7 @@ def analysis(_):
             {'sentence_ids': ['s38', 's39', 's40', 's41', 's42', 's43'], 'label': '방법 3·4',
              'text_ko': '셋째, 자신의 편견이 판단에 영향을 주는지 살피고 반대 의견의 기사도 찾아 읽는다. 넷째, 누가 어떤 의도로 썼는지, 믿을 만한 출처인지, 증거가 타당한지 확인한다.'},
             {'sentence_ids': ['s44', 's45', 's46', 's47'], 'label': '결론',
-             'text_ko': '거짓 정보를 모두 없앨 수는 없지만, 정보를 비판적이고 객관적으로 보는 능력이 있으면 피해를 줄일 수 있다. 누구나 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있음을 잊지 말자.'},
+             'text_ko': '온라인에 퍼지는 거짓 정보를 모두 피하거나 없애기는 불가능할지도 모르지만, 정보를 비판적이고 객관적으로 보는 능력이 있으면 가짜 뉴스의 피해를 줄일 수 있다. 누구나 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있음을 잊지 말자.'},
         ],
         'easy_explanations': [
             {'sentence_id': 's35', 'explanatory_sentences': [
@@ -498,39 +500,39 @@ def analysis(_):
                 '그다음 내 생각과 반대되는 기사도 일부러 찾아 읽는다.']},
             {'sentence_id': 's47', 'explanatory_sentences': [
                 '47번 문장은 글 전체의 마지막 당부다.',
-                '도입부의 지나도 가짜 뉴스를 비판했지만 결국 자신이 퍼뜨리게 되었다.',
-                '글쓴이는 누구든 지나처럼 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있다고 경고한다.',
-                '그래서 앞에서 말한 방법들을 늘 기억해야 한다.']},
+                '도입부의 지나는 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했었다.',
+                '그런데 결국 지나 자신도 실수로 가짜 뉴스를 퍼뜨리게 되었다.',
+                '46번의 ‘잊지 마라!’는 바로 이 점을 기억하라는 말이다.',
+                '누구든 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있다는 것이다.']},
         ],
         'grammar_points': [
             {'id': 'u4-gp1', 'sentence_id': 's37', 'span': 'You should question, analyze, and evaluate what you read',
              'title': 'what S′ V′: S′가 V′하는 것', 'formula_key': 'what S′ V′',
              'explanation': '공식: what S′ V′ — S′(이/가) V′하는 것. what = 선행사를 품은 관계대명사(~하는 것), S′ = you(당신), V′ = read(읽다). '
-                            '→ 당신이 읽는 것. 이 what절 전체가 question, analyze, evaluate(의문을 제기하다, 분석하다, 평가하다)의 공통 목적어라 ‘당신이 읽는 것을 의문을 제기하고, 분석하고, 평가해야 한다’가 된다.',
+                            '→ 당신이 읽는 것. 이 what절 전체가 question, analyze, evaluate(의문을 제기하다, 분석하다, 평가하다)의 공통 목적어라 ‘당신이 읽는 것에 의문을 제기하고, 분석하고, 평가해야 한다’가 된다.',
              'practice': {'span': 'question, analyze, and evaluate what you read',
                           'formula_support': {'en': 'what S′ V′', 'ko': 'S′(이/가) V′하는 것'},
                           'support': [('s37', 'question'), ('s37', 'analyze'), ('s37', 'evaluate'), ('s37', 'read')],
                           'answer_ko': '당신이 읽는 것에 의문을 제기하고, 분석하고, 평가하다'}},
             {'id': 'u4-gp2', 'sentence_id': 's43', 'span': 'check whether the news story is from a reliable media source and the evidence is valid',
-             'title': 'whether S′ V′: S′가 V′하는지 (아닌지)', 'formula_key': 'whether S′ V′',
-             'explanation': '공식: whether S′ V′ — S′(이/가) V′하는지 (아닌지). S′ = the news story(그 뉴스 기사), V′ = is, 보어 = from a reliable media source(믿을 만한 미디어 출처에서 나온). '
-                            'and 뒤에도 같은 whether에 걸리는 절 the evidence(증거) is valid(타당한)가 이어진다. → 그 뉴스 기사가 믿을 만한 미디어 출처에서 나온 것인지, 그리고 증거가 타당한지. '
+             'title': 'whether S′ V′: S′가 V′하는지', 'formula_key': 'whether S′ V′',
+             'explanation': '공식: whether S′ V′ — S′(이/가) V′하는지. S′ = the news story(그 뉴스 기사), V′ = is(~이다), 보어 = from a reliable media source(믿을 만한 미디어 출처에서 나온). '
+                            'and 뒤에도 같은 whether에 걸리는 절 the evidence(증거) is(~이다) valid(타당한)가 이어진다. → 그 뉴스 기사가 믿을 만한 미디어 출처에서 나온 것인지, 그리고 증거가 타당한지. '
                             '앞의 check(확인하다)와 합치면 ‘~인지 확인하다’다.',
              'practice': {'span': 'whether the news story is from a reliable media source and the evidence is valid',
-                          'formula_support': {'en': 'whether S′ V′', 'ko': 'S′(이/가) V′하는지 (아닌지)'},
+                          'formula_support': {'en': 'whether S′ V′', 'ko': 'S′(이/가) V′하는지'},
                           'support': [('s43', 'news story'), ('s43', 'from'), ('s43', 'reliable'), ('s43', 'media'),
                                       ('s43', 'source'), ('s43', 'evidence'), ('s43', 'valid')],
                           'answer_ko': '그 뉴스 기사가 믿을 만한 미디어 출처에서 나온 것인지, 그리고 증거가 타당한지'}},
-            {'id': 'u4-gp3', 'sentence_id': 's44', 'span': 'it might be impossible to avoid or eliminate all false information',
-             'title': 'It … to V: ~하는 것은 …', 'formula_key': 'It … to V',
-             'explanation': '공식: It is 형용사 to V — ~하는 것은 (형용사)하다. It = 가주어(뒤의 to V를 대신함), might be impossible = 불가능할지도 모른다, '
-                            'to V = to avoid or eliminate(피하거나 없애다), 목적어 = all false information(모든 거짓 정보). → 모든 거짓 정보를 피하거나 없애는 것은 불가능할지도 모른다. '
-                            '긴 주어 to avoid … information을 뒤로 보내고 그 자리에 It을 둔 구조다.',
-             'practice': {'span': 'it might be impossible to avoid or eliminate all false information',
-                          'formula_support': {'en': 'It … to V', 'ko': '~하는 것은'},
-                          'support': [('s44', 'might V'), ('s44', 'impossible'), ('s44', 'avoid'), ('s44', 'eliminate'),
-                                      ('s44', 'false'), ('s44', 'information')],
-                          'answer_ko': '모든 거짓 정보를 피하거나 없애는 것은 불가능할지도 모른다'}},
+            {'id': 'u4-gp3', 'sentence_id': 's42', 'span': 'examine who wrote the news story',
+             'title': 'who V′(간접의문): 누가 V′했는지', 'formula_key': 'who V′',
+             'explanation': '공식: who V′ — 누가 V′했는지. who = 의문사이면서 이 절의 주어(누가), V′ = wrote(썼다), 목적어 = the news story(그 뉴스 기사). '
+                            '→ 누가 그 뉴스 기사를 썼는지. 이 절 전체가 앞 동사 examine(살펴보다)의 목적어라 ‘누가 그 뉴스 기사를 썼는지 살펴보다’가 된다. '
+                            'who 뒤에 주어가 따로 없고 바로 동사가 온다.',
+             'practice': {'span': 'who wrote the news story',
+                          'formula_support': {'en': 'who V′', 'ko': '누가 V′했는지'},
+                          'support': [('s42', 'wrote'), ('s42', 'news story')],
+                          'answer_ko': '누가 그 뉴스 기사를 썼는지'}},
         ],
         'formula_routes': [],
         'relations': [
