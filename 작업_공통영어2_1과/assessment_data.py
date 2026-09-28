@@ -7,8 +7,11 @@
 회차 편성 원칙: 한 회차 안에서 빈칸·어휘·순서·삽입·무관 문항의 정답 근거가 다른 문항 지문에
 원형으로 드러나지 않도록 원문 구간을 나눈다.
   1회: 요지 s11~s19 / 순서 s01~s10 / 삽입 s31~s43 / 장문(제목·어휘) s20~s30
-  2회: 내용 s01~s10 / 빈칸 s22~s30 / 무관 s11~s19 / 장문(제목·어휘) s31~s47
-  3회: 요약 s11~s19 / 함축 s22~s30 / 순서 s31~s43 / 장문(제목·어휘) s01~s14 (어휘 교체는 s01~s10 구간)
+  2회: 내용 s01~s10 / 빈칸 s20~s30 / 무관 s11~s19 / 장문(제목·어휘) s31~s47
+  3회: 요약 s31~s47 / 함축 s20~s30 / 순서 s11~s19 / 장문(제목·어휘) s01~s10
+4단계 M/N 블라인드 검토제안 반영: u4의 서수(First~Finally) 목록은 순서·삽입 답을 서수만으로 정하게 하므로
+3회 순서는 s11~s19로 옮기고 1회 삽입의 주어진 문장은 서수 없는 s33으로 바꿈. this phenomenon의 지시 대상을
+보이도록 빈칸·함축은 s20부터, 워크북 주장은 u4 전체(s31~)로 시작함. 3회 요약과 장문의 지문 중복을 없앰.
 """
 import re
 import sys
@@ -106,7 +109,7 @@ q(id='Q03', set_id='workbook', number=3, unit_id='u3', type='제목', first='s20
          4: '사람들은 자신의 믿음을 뒷받침하지 않는 뉴스는 무시한다고 했으므로 반대 내용이다.',
          5: '선거철은 확증 편향의 예로 나올 뿐, 선거가 언론에 주는 좋은 영향은 다루지 않는다.'})
 
-q(id='Q04', set_id='workbook', number=4, unit_id='u4', type='주장', first='s37', last='s47',
+q(id='Q04', set_id='workbook', number=4, unit_id='u4', type='주장', first='s31', last='s47',
   question='다음 글에서 필자가 주장하는 바로 가장 적절한 것은?',
   choices=['Read only reliable news sources that agree with your beliefs.',
            'Judge news impartially by checking whether its source is trustworthy and its evidence is sound.',
@@ -166,16 +169,16 @@ q(id='Q06', set_id='mock1', number=2, type='순서', first='s01', last='s10',
          3: '(B)를 주어진 글 바로 뒤에 두면 They가 가리킬 대상이 없다.',
          5: '(C) 뒤에 (B)가 오면 They가 가리킬 콘텐츠 제작자와 운동선수 사건이 아직 나오지 않았다.'})
 
-q(id='Q07', set_id='mock1', number=3, type='삽입', first='s31', last='s43', given='s38',
-  slots=['s33', 's35', 's36', 's38', 's41'],
+q(id='Q07', set_id='mock1', number=3, type='삽입', first='s31', last='s43', given='s33',
+  slots=['s32', 's33', 's35', 's36', 's37'],
   question='글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?',
-  answer=4,
-  evidence='You should question, analyze, and evaluate what you read. ( ④ ) Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion …',
-  explanation='주어진 문장은 가짜 뉴스를 피하는 세 번째 방법으로 자신의 편견을 점검하라는 내용이다. ④ 뒤의 문장들은 자신의 믿음이 판단에 영향을 줄 수 있는지 생각하고 자기 의견에 맞는 기사만 읽는지 스스로 물어보라며 편견 점검을 구체적으로 설명한다. 또 Second 다음, Finally 앞이라는 순서에도 맞으므로 ④가 알맞다.',
-  wrong={1: 'First 방법(헤드라인 너머 읽기)과 그 이유를 설명하는 They can be so stimulating … 사이이므로 Third가 들어갈 수 없다.',
-         2: 'Second보다 앞이라 First–Third–Second의 순서가 된다.',
-         3: 'Second, don’t read the news at face value.와 그것을 설명하는 Exercise critical thinking skills … 사이를 끊는다.',
-         5: '편견을 점검하는 구체적 방법(자기 믿음·의견 살피기)이 Third보다 먼저 나와 버리고, 바로 뒤가 Finally라 흐름이 어색하다.'})
+  answer=2,
+  evidence='First, read beyond the provocative headlines. ( ② ) So don’t just read the headlines, but read the text carefully.',
+  explanation='주어진 문장의 They는 앞 문장의 the provocative headlines를 가리키며, 헤드라인이 클릭을 더 얻으려고 너무 자극적이어서 무심코 클릭할 수 있다는 이유를 말한다. ② 뒤의 So don’t just read the headlines, but read the text carefully.는 이 이유에 따른 결론이므로 주어진 문장은 ②에 들어가야 한다.',
+  wrong={1: '① 앞에는 가짜 뉴스에 속지 않는 방법을 묻는 질문만 있어 They가 가리킬 헤드라인이 아직 나오지 않았다.',
+         3: '③ 앞에서 이미 So로 결론(헤드라인만 읽지 말고 본문을 읽어라)을 내렸으므로 그 이유가 결론 뒤에 오게 되고, ③ 뒤는 둘째 방법(Second)으로 넘어간다.',
+         4: '④는 둘째 방법(뉴스를 곧이곧대로 읽지 말 것)과 그 설명(비판적 사고 기술을 발휘할 것) 사이라, 헤드라인을 가리키는 They가 들어갈 자리가 아니다.',
+         5: '⑤ 앞뒤는 비판적 사고로 뉴스를 판단하고 읽은 것을 분석·평가하라는 내용이라 클릭을 끄는 헤드라인 이야기가 이어질 수 없다.'})
 
 q(id='Q08', set_id='mock1', number=4, type='제목', first='s20', last='s30', group='G1',
   question='윗글의 제목으로 가장 적절한 것은?',
@@ -231,7 +234,7 @@ q(id='Q10', set_id='mock2', number=1, type='내용', first='s01', last='s10',
          3: '기자는 흔들바위가 손상되었다는 인터넷 기사가 가짜라고 말했다.',
          5: '지나는 그 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했다.'})
 
-q(id='Q11', set_id='mock2', number=2, type='빈칸', first='s22', last='s30',
+q(id='Q11', set_id='mock2', number=2, type='빈칸', first='s20', last='s30',
   blank='fits their prejudices or experiences',
   question='다음 빈칸에 들어갈 말로 가장 적절한 것은?',
   choices=['matches what they already believe',
@@ -296,25 +299,25 @@ q(id='Q14', set_id='mock2', number=5, type='어휘', first='s31', last='s47', gr
 
 
 # ================================================================ 미니 모의고사 3회
-q(id='Q15', set_id='mock3', number=1, type='요약', first='s11', last='s19',
-  summary='Fake news, which is (A) ________ created to manipulate people, can cause serious harm, especially when people are (B) ________ during emergencies.',
+q(id='Q15', set_id='mock3', number=1, type='요약', first='s31', last='s47',
+  summary='To avoid being misled by fake news, you should judge the news (A) ________ and check whether it comes from a (B) ________ source.',
   question='다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?',
-  choices=['accidentally …… calm',
-           'intentionally …… fearful',
-           'intentionally …… careless',
-           'rarely …… fearful',
-           'accidentally …… informed'],
-  answer=2,
-  evidence='Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. / Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.',
-  explanation='가짜 뉴스는 사람들을 조종하려는 의도적인(deliberate) 시도이며, 암본 지진 때 이재민들이 여진을 몹시 불안해한(anxious) 상황에서 퍼져 큰 피해를 주었다. 따라서 (A) intentionally(의도적으로), (B) fearful(두려워하는)인 ②가 알맞다.',
-  choices_ko=['우연히 …… 침착한', '의도적으로 …… 두려워하는', '의도적으로 …… 부주의한',
-              '드물게 …… 두려워하는', '우연히 …… 정보를 잘 아는'],
-  wrong={1: '가짜 뉴스는 의도적으로 만들어지며, 이재민들은 침착한 것이 아니라 불안해했다.',
-         3: '(A)는 맞지만, 이재민들은 부주의한 것이 아니라 여진을 불안해했다.',
-         4: '(B)는 맞지만, 가짜 뉴스가 드물게 만들어진다는 내용은 없고 의도적으로 만들어진다고 했다.',
-         5: '가짜 뉴스는 우연히가 아니라 의도적으로 만들어지며, 이재민들은 정보를 잘 아는 상태가 아니었다.'})
+  choices=['quickly …… popular',
+           'critically …… popular',
+           'quickly …… trustworthy',
+           'critically …… trustworthy',
+           'emotionally …… famous'],
+  answer=4,
+  evidence='Exercise critical thinking skills to judge the news. / You also need to check whether the news story is from a reliable media source and the evidence is valid. / … if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause.',
+  explanation='글은 가짜 뉴스에 속지 않으려면 헤드라인 너머 본문을 읽고, 비판적 사고로 뉴스를 판단하며, 자신의 편견을 점검하고, 출처가 믿을 만한지 확인하라고 한다. 따라서 (A) critically(비판적으로), (B) trustworthy(신뢰할 수 있는)인 ④가 알맞다.',
+  choices_ko=['빨리 …… 인기 있는', '비판적으로 …… 인기 있는', '빨리 …… 신뢰할 수 있는',
+              '비판적으로 …… 신뢰할 수 있는', '감정적으로 …… 유명한'],
+  wrong={1: '뉴스를 빨리 판단하라는 내용은 없고 비판적으로 판단하라고 했으며, 출처는 인기가 아니라 믿을 만한지를 확인해야 한다.',
+         2: '(A)는 맞지만, 출처가 인기 있는지가 아니라 믿을 만한 미디어 출처인지를 확인하라고 했다.',
+         3: '(B)는 맞지만, 뉴스를 빨리 판단하라는 내용은 없고 비판적으로 판단하라고 했다.',
+         5: '감정이 아니라 비판적·객관적으로 보라고 했으며, 출처가 유명한지가 아니라 믿을 만한지를 확인하라고 했다.'})
 
-q(id='Q16', set_id='mock3', number=2, type='함축 의미', first='s22', last='s30',
+q(id='Q16', set_id='mock3', number=2, type='함축 의미', first='s20', last='s30',
   target='fall into the trap',
   question='밑줄 친 fall into the trap이 다음 글에서 의미하는 바로 가장 적절한 것은?',
   choices=['deliberately set up traps to fool other people',
@@ -333,28 +336,28 @@ q(id='Q16', set_id='mock3', number=2, type='함축 의미', first='s22', last='s
          3: '거짓 이야기를 퍼뜨리다 들킨다는 내용은 본문에 없다.',
          4: '선거철에도 사람들은 후보에 관한 뉴스를 믿는다고 했으므로 정보를 찾지 못한다는 것은 틀리다.'})
 
-q(id='Q17', set_id='mock3', number=3, type='순서', first='s31', last='s43',
-  blocks=('s31', 's34', {'B': ('s35', 's37'), 'A': ('s38', 's40'), 'C': ('s41', 's43')}),
+q(id='Q17', set_id='mock3', number=3, type='순서', first='s11', last='s19',
+  blocks=('s11', 's12', {'B': ('s13', 's15'), 'C': ('s16', 's17'), 'A': ('s18', 's19')}),
   question='주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?',
-  answer=2,
-  evidence='(B) “Second, don’t read the news at face value.” / (A) “Third, examine your biases.” / (C) “Finally, check the credibility of the source.”',
-  explanation='주어진 글은 가짜 뉴스에 속지 않는 방법을 묻고 첫째 방법(헤드라인 너머 읽기)을 제시한다. 이어서 (B) 둘째, 뉴스를 곧이곧대로 읽지 말고 비판적으로 판단하기, (A) 셋째, 자신의 편견 점검하기, (C) 마지막으로 출처의 신뢰성 확인하기가 차례로 온다. 따라서 (B)-(A)-(C)이다.',
-  wrong={1: '(A)의 Third가 (B)의 Second보다 먼저 나오게 된다.',
-         3: '(C)의 Finally가 (A)의 Third보다 먼저 나와 마지막 방법 뒤에 또 방법이 이어진다.',
-         4: '(C)의 Finally가 가장 먼저 오고 Third가 Second보다 앞선다.',
-         5: '(C)의 Finally가 맨 앞에 오고, Third–Second 순서가 뒤바뀐다.'})
+  answer=3,
+  evidence='(B) “It is made by certain groups …”의 It이 주어진 글의 Fake news를 받고 “It is very common for fake news to spread during states of emergency.”로 끝남 / (C) “For example, after an earthquake …”가 그 예를 들고 fake news stories를 언급 / (A) “One of those messages said …”의 those messages가 (C)의 fake news stories를 가리킴.',
+  explanation='주어진 글은 가짜 뉴스가 사람들을 조종하려는 의도적인 시도라고 정의한다. (B) 그것(It)을 누가 왜 만드는지, 어떤 해를 끼치는지 말하고, 비상사태에 가짜 뉴스가 흔히 퍼진다고 한다. (C) 그 예로 암본 지진 뒤 주민들이 집에 돌아가지 않은 이유가 소셜 미디어의 가짜 뉴스 이야기들 때문이었다고 한다. (A) 그 메시지들(those messages) 중 하나를 소개하고, 정부가 정보가 가짜라고 발표해야 했다고 끝맺는다. 따라서 (B)-(C)-(A)이다.',
+  wrong={1: '(A)의 those messages가 가리킬 가짜 뉴스 이야기들이 앞에 나오지 않았다.',
+         2: '(A)의 those messages가 가리킬 (C)의 fake news stories보다 (A)가 먼저 나온다.',
+         4: '(C)의 For example이 비상사태에 가짜 뉴스가 흔히 퍼진다는 (B)의 내용보다 먼저 나와 무엇의 예인지 알 수 없다.',
+         5: '(C)의 예시가 (B)보다 먼저 나오고, (A)의 those messages가 가리킬 대상도 (A)보다 뒤에 나온다.'})
 
-q(id='Q18', set_id='mock3', number=4, type='제목', first='s01', last='s14', group='G3',
+q(id='Q18', set_id='mock3', number=4, type='제목', first='s01', last='s10', group='G3',
   question='윗글의 제목으로 가장 적절한 것은?',
-  choices=['From Critic to Spreader: How Anyone Can Pass On Fake News',
+  choices=['From Critic to Spreader: How Gina Fell for Fake News',
            'Why Gina Decided to Stop Using Social Media',
            'The Hidden Danger of Famous Rocks in National Parks',
            'How Reporters Make Money from Fake Headlines',
            'The Benefits of Sharing News as Quickly as Possible'],
   answer=1,
-  evidence='At that time, Gina criticized those who had made and spread fake news … This time, however, Gina herself had accidentally contributed to the spread of fake news. Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual.',
-  explanation='가짜 뉴스를 비판하던 지나가 뜻하지 않게 가짜 뉴스를 퍼뜨린 경험을 소개하고, 이런 일이 드물지 않으며 가짜 뉴스가 사람들과 사회에 큰 해를 끼칠 수 있다고 설명한다. 따라서 ①이 제목으로 가장 적절하다.',
-  choices_ko=['비판자에서 유포자로: 누구나 가짜 뉴스를 퍼뜨릴 수 있는 방식',
+  evidence='At that time, Gina criticized those who had made and spread fake news … This time, however, Gina herself had accidentally contributed to the spread of fake news.',
+  explanation='예전에 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했던 지나가, 이번에는 흔들바위가 떨어졌다는 가짜 뉴스를 믿고 친구들에게 공유해 자신도 모르게 가짜 뉴스를 퍼뜨린 경험을 다룬다. 따라서 ①이 제목으로 가장 적절하다.',
+  choices_ko=['비판자에서 유포자로: 지나는 어떻게 가짜 뉴스에 속았나',
               '지나가 소셜 미디어 사용을 그만두기로 한 이유',
               '국립공원에 있는 유명한 바위의 숨겨진 위험',
               '기자들이 가짜 헤드라인으로 돈을 버는 방법',
@@ -364,8 +367,8 @@ q(id='Q18', set_id='mock3', number=4, type='제목', first='s01', last='s14', gr
          4: '돈을 벌려고 가짜 뉴스를 만든 것은 기자가 아니라 콘텐츠 제작자들이다.',
          5: '지나는 확인 없이 곧바로 공유했다가 가짜 뉴스를 퍼뜨렸으므로, 빠른 공유의 이점을 말하는 글이 아니다.'})
 
-q(id='Q19', set_id='mock3', number=5, type='어휘', first='s01', last='s14', group='G3',
-  marks=[('immediately', 's02'), ('undamaged', 's03'), ('embarrassed', 's04'), ('criticized', 's09'), ('deliberate', 's12')],
+q(id='Q19', set_id='mock3', number=5, type='어휘', first='s01', last='s10', group='G3',
+  marks=[('immediately', 's02'), ('undamaged', 's03'), ('embarrassed', 's04'), ('criticized', 's09'), ('accidentally', 's10')],
   replace=('embarrassed', 'pleased'),
   question='윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?',
   answer=3,
@@ -374,7 +377,7 @@ q(id='Q19', set_id='mock3', number=5, type='어휘', first='s01', last='s14', gr
   wrong={1: '헤드라인을 보고 확인 없이 곧바로(immediately) 공유했다는 흐름에 맞다.',
          2: '기자가 멀쩡한(undamaged) 흔들바위 옆에서 기사가 가짜라고 알리는 장면으로 적절하다.',
          4: '지나가 예전에 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했다(criticized)는 뜻으로 적절하다.',
-         5: '가짜 뉴스는 사람들을 조종하려는 의도적인(deliberate) 시도라는 정의로 적절하다.'})
+         5: '이번에는 지나 자신이 의도하지 않게(accidentally) 가짜 뉴스 확산에 한몫했다는 뜻으로 적절하다.'})
 
 
 # ================================================================ 조립
