@@ -1,0 +1,2091 @@
+{
+  "status": "SAVED_CONTENT_MATCH",
+  "scope": "full",
+  "content_validation": "PASS",
+  "format_validation": "PASS",
+  "format_scope": "full",
+  "format_checked_blocks": [
+    "cover",
+    "u1/reading",
+    "u1/analysis",
+    "u1/workbook",
+    "mock1",
+    "mock2",
+    "mock3",
+    "answers/quick",
+    "u1/answers",
+    "answers/mock1",
+    "answers/mock2",
+    "answers/mock3"
+  ],
+  "format_errors": [],
+  "plan_sha256": "921e204f064c7d6b35c57d4338176bacf212aebd3de8fe43709e2e2fcafe0241",
+  "contract_sha256": "a0494734ae7adb8c85086ce2d8a8395670ae94677c0dddb256fb69a1c0ff454c",
+  "reference_sha256": "9af8460d2af50152f0b49c92191b98f8b7fcccd8b1a459365bb073ff07c8319b",
+  "format_validation_scope": "Stored OOXML properties and effective character formatting; not visual pagination or content semantics",
+  "saved_sha256": "7a6c84a957bc75d09fa39550c04613c8e9f11398d39281633dc6b0bd6897a37c",
+  "checked_blocks": [
+    "cover",
+    "u1/reading",
+    "u1/analysis",
+    "u1/workbook",
+    "mock1",
+    "mock2",
+    "mock3",
+    "answers/quick",
+    "u1/answers",
+    "answers/mock1",
+    "answers/mock2",
+    "answers/mock3"
+  ],
+  "errors": [],
+  "extracted": {
+    "path": "/home/user/E2NEoh2/작업_공통영어2_1과/스킬수정본/gyogwaseo-unified/tests/release-test-1d372144beeb4bf8b00bd86ecaa4f35c/synthetic.docx",
+    "sha256": "7a6c84a957bc75d09fa39550c04613c8e9f11398d39281633dc6b0bd6897a37c",
+    "blocks": [
+      {
+        "id": "cover",
+        "elements": [
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "혼공교재 독해편"
+          },
+          {
+            "kind": "paragraph",
+            "text": "공통영어1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험  ·  0과"
+          },
+          {
+            "kind": "table",
+            "rows": [
+              [
+                [
+                  "Shared Layout Test Synthetic Data Only",
+                  "자동 연결 시험 · 학습용 자료 아님"
+                ]
+              ]
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "1개 문단   /   본문 3문장   /   전체 16문항"
+          },
+          {
+            "kind": "paragraph",
+            "text": "워크북 실전문제 1문항  +  미니 모의고사 5문항×3회"
+          },
+          {
+            "kind": "paragraph",
+            "text": "이 한 권으로 이어지는 학습"
+          },
+          {
+            "kind": "paragraph",
+            "text": "01   혼공해석지 — 먼저 스스로 해석하기"
+          },
+          {
+            "kind": "paragraph",
+            "text": "02   지문 분석 — 해석을 비교하고 흐름과 어법 확인하기"
+          },
+          {
+            "kind": "paragraph",
+            "text": "03   워크북 — 단어와 문단별 실전문제 풀기"
+          },
+          {
+            "kind": "paragraph",
+            "text": "04   미니 모의고사 — 세 회로 학습 마무리하기"
+          }
+        ]
+      },
+      {
+        "id": "u1/reading",
+        "elements": [
+          {
+            "kind": "paragraph",
+            "text": "공통영어1 시험 · 0과 혼공해석지"
+          },
+          {
+            "kind": "paragraph",
+            "text": "문단 1 · 시험용 본문 · 문장 1~3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Resource Care (자원 관리)"
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "읽는 법  ① / 마다 끊어 읽기   ② 동사(V) 찾기   ③ 주어(S) 찾기   ④ ※ 단어 뜻 보기(★부터)   ⑤ 아래 줄에 내 해석 쓰기   ⑥ 지문 분석지의 끊어읽기 해석과 비교"
+          },
+          {
+            "kind": "paragraph",
+            "text": "기호  / 끊어 읽는 곳     ★ 꼭 외울 말     S 주어     V 동사     S′·V′ 절 속의 주어·동사\n        (주격 관계대명사 뒤에는 별도 주어가 없어 V′만 표시)     [ ] 그 절을 이끄는 말(that·if·when 등)\n        [( )] 생략된 접속사·관계사     ／ 절과 절의 경계     [and]·[;]는 절을 잇는 표시이며, S·V/S′·V′는 실제 절의 범위에 따릅니다.\n        주어 없이 동사로 시작하면 명령문 — 주어를 적지 않습니다     ~ 다른 말이 들어갈 자리     ★핵심 워크북에서 다시 해석할 핵심 문장"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시작하기 전에 꼭"
+          },
+          {
+            "kind": "paragraph",
+            "text": "① 문장 맨 앞이 늘 주어는 아닙니다.\n   In · At · On · With · For · From · By 같은 전치사로 시작하는 덩어리는 지우고, 그 뒤에서 「누가·무엇이」를 찾으세요.\n   In flexible-time cultures, it seems …  →  In flexible-time cultures를 지우면 주어는 it\n   문두의 접속사절 범위를 먼저 확인하고 주절의 주어를 찾으세요. 콤마 유무만으로 구분하지 않습니다.\n   When we bought the bookshelves, the manager said …  →  주어는 the manager"
+          },
+          {
+            "kind": "paragraph",
+            "text": "② 해석은 S에 「은·는」, S′에 「이·가」를 붙여 시작합니다.\n   S they → 그들은        S′ the meeting → 그 회의가"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③ 한 문장에 동사가 둘이면 둘 다 적어 뒀어요.\n   and로 이어지면 V1 and V2, 절이 나뉘면 S·V를 따로 적었습니다.\n   주어·동사 줄은 문장에 나온 순서 그대로입니다. [ ] 안에는 그 절을 이끄는 말을 적었습니다. 이끄는 말이 없는 주절은 S·V로 바로 표시합니다."
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "Synthetic Source Heading"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1.  They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools.   ★﻿핵﻿심"
+          },
+          {
+            "kind": "paragraph",
+            "text": "주어·동사   S: They, V: repair"
+          },
+          {
+            "kind": "paragraph",
+            "text": "※ They — 시험용 뜻 (앞 문맥의 사람들) / ★ repair — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / useful — 시험용 뜻 / tools — 시험용 뜻"
+          },
+          {
+            "kind": "paragraph",
+            "text": "나의 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "2.  We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials.   ★﻿핵﻿심"
+          },
+          {
+            "kind": "paragraph",
+            "text": "주어·동사   S: We, V: save"
+          },
+          {
+            "kind": "paragraph",
+            "text": "※ We — 시험용 뜻 / save — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / valuable — 시험용 뜻 / materials — 시험용 뜻"
+          },
+          {
+            "kind": "paragraph",
+            "text": "나의 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "3.  I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "주어·동사   S: I, V: protect"
+          },
+          {
+            "kind": "paragraph",
+            "text": "※ I — 시험용 뜻 / protect — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / local — 시험용 뜻 / resources — 시험용 뜻"
+          },
+          {
+            "kind": "paragraph",
+            "text": "나의 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "틀린 문장은 다음에 다시!  지문 분석지의 해석과 달랐던 문장 번호를 여기 적어 두고, 다음엔 그것만 다시 풀어요 → ________________"
+          }
+        ]
+      },
+      {
+        "id": "u1/analysis",
+        "elements": [
+          {
+            "kind": "paragraph",
+            "text": "0과 · 문단 1 | 지문 분석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1.  1They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools.   ★﻿핵﻿심"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1시험용 대응 청크"
+          },
+          {
+            "kind": "paragraph",
+            "text": "↳ 자연 해석  시험용 자연 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "2.  1We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials.   ★﻿핵﻿심"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1시험용 대응 청크"
+          },
+          {
+            "kind": "paragraph",
+            "text": "↳ 자연 해석  시험용 자연 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "3.  1I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "1시험용 대응 청크"
+          },
+          {
+            "kind": "paragraph",
+            "text": "↳ 자연 해석  시험용 자연 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "0과 · 문단 1 | 지문 분석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "▶ 글의 의도"
+          },
+          {
+            "kind": "paragraph",
+            "text": "자원을 아끼자는 내용"
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "▶ 글의 흐름"
+          },
+          {
+            "kind": "paragraph",
+            "text": "(흐름)  [1~3번 문장] — 시험용 흐름"
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "▶ 각 문장 쉬운 풀이"
+          },
+          {
+            "kind": "paragraph",
+            "text": "[1번 문장]  They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools."
+          },
+          {
+            "kind": "paragraph",
+            "text": "↳  설명 하나. 설명 둘."
+          },
+          {
+            "kind": "paragraph",
+            "text": "[2번 문장]  We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials."
+          },
+          {
+            "kind": "paragraph",
+            "text": "↳  설명 하나. 설명 둘."
+          },
+          {
+            "kind": "paragraph",
+            "text": "[3번 문장]  I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "↳  설명 하나. 설명 둘."
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "▶ 구문으로 해석하기"
+          },
+          {
+            "kind": "paragraph",
+            "text": "① 시험 [1번 문장]:  They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. — 시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "② 시험 [2번 문장]:  We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. — 시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③ 시험 [3번 문장]:  I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources. — 시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "▶ 필수 유의어 / 반의어"
+          },
+          {
+            "kind": "paragraph",
+            "text": "term0head (시험용 뜻)   ≈  term0synonym (시험용 뜻)   ↔  term0antonym (시험용 뜻)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "term1head (시험용 뜻)   ≈  term1synonym (시험용 뜻)   ↔  term1antonym (시험용 뜻)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "term2head (시험용 뜻)   ≈  term2synonym (시험용 뜻)   ↔  term2antonym (시험용 뜻)"
+          }
+        ]
+      },
+      {
+        "id": "u1/workbook",
+        "elements": [
+          {
+            "kind": "paragraph",
+            "text": "0과 · 문단 1 워크북"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Resource Care (자원 관리)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1. 오늘의 낱말 — 우리말 뜻을 쓰세요"
+          },
+          {
+            "kind": "table",
+            "rows": [
+              [
+                [
+                  "1. repair"
+                ],
+                [
+                  ""
+                ],
+                [
+                  ""
+                ],
+                [
+                  ""
+                ]
+              ]
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "2. 유의어·반의어 뜻 쓰기 — 우리말 뜻을 쓰세요"
+          },
+          {
+            "kind": "table",
+            "rows": [
+              [
+                [
+                  "1. term0synonym"
+                ],
+                [
+                  ""
+                ],
+                [
+                  "2. term0antonym"
+                ],
+                [
+                  ""
+                ]
+              ],
+              [
+                [
+                  "3. term1head"
+                ],
+                [
+                  ""
+                ],
+                [
+                  "4. term1synonym"
+                ],
+                [
+                  ""
+                ]
+              ],
+              [
+                [
+                  "5. term1antonym"
+                ],
+                [
+                  ""
+                ],
+                [
+                  "6. term2head"
+                ],
+                [
+                  ""
+                ]
+              ],
+              [
+                [
+                  "7. term2synonym"
+                ],
+                [
+                  ""
+                ],
+                [
+                  "8. term2antonym"
+                ],
+                [
+                  ""
+                ]
+              ],
+              [
+                [
+                  "9. term0head"
+                ],
+                [
+                  ""
+                ],
+                [
+                  ""
+                ],
+                [
+                  ""
+                ]
+              ]
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "3. 실전문제"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1.  q1 시험용 발문"
+          },
+          {
+            "kind": "paragraph",
+            "text": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "①  Option 1 for q1 term0head"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②  Option 2 for q1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③  Option 3 for q1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④  Option 4 for q1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤  Option 5 for q1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "문단 1 워크북 (계속)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "4. 구문 결합해서 해석하기"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1.   repair → ______________________________"
+          },
+          {
+            "kind": "paragraph",
+            "text": "도움말  Formula 1 — 공식 뜻 1 / repair — 시험용 뜻"
+          },
+          {
+            "kind": "paragraph",
+            "text": "2.   save → ______________________________"
+          },
+          {
+            "kind": "paragraph",
+            "text": "도움말  Formula 2 — 공식 뜻 2 / save — 시험용 뜻"
+          },
+          {
+            "kind": "paragraph",
+            "text": "3.   protect → ______________________________"
+          },
+          {
+            "kind": "paragraph",
+            "text": "도움말  Formula 3 — 공식 뜻 3 / protect — 시험용 뜻"
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "5. 핵심 문장 2개 다시 해석하기"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1.   They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools."
+          },
+          {
+            "kind": "paragraph",
+            "text": "나의 해석  "
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": "2.   We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials."
+          },
+          {
+            "kind": "paragraph",
+            "text": "나의 해석  "
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          },
+          {
+            "kind": "paragraph",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "mock1",
+        "elements": [
+          {
+            "kind": "paragraph",
+            "text": "0과 미니 모의고사 1회"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Shared Layout Test Synthetic Data Only · 5문항"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1.  mock1-1 시험용 발문"
+          },
+          {
+            "kind": "paragraph",
+            "text": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "①  Option 1 for mock1-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②  Option 2 for mock1-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③  Option 3 for mock1-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④  Option 4 for mock1-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤  Option 5 for mock1-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "2.  mock1-2 시험용 발문"
+          },
+          {
+            "kind": "paragraph",
+            "text": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "①  Option 1 for mock1-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②  Option 2 for mock1-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③  Option 3 for mock1-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④  Option 4 for mock1-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤  Option 5 for mock1-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "3.  mock1-3 시험용 발문"
+          },
+          {
+            "kind": "paragraph",
+            "text": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "①  Option 1 for mock1-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②  Option 2 for mock1-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③  Option 3 for mock1-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④  Option 4 for mock1-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤  Option 5 for mock1-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "[4~5] 다음 글을 읽고 물음에 답하시오."
+          },
+          {
+            "kind": "paragraph",
+            "text": "① Changed ② repair ③ useful ④ useful ⑤ useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "4.  mock1-4 다음 글의 제목으로 가장 적절한 것은?"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①  Option 1 for mock1-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②  Option 2 for mock1-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③  Option 3 for mock1-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④  Option 4 for mock1-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤  Option 5 for mock1-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "5.  mock1-5 다음 글의 ①~⑤ 중 문맥상 낱말의 쓰임이 적절하지 않은 것은?"
+          }
+        ]
+      },
+      {
+        "id": "mock2",
+        "elements": [
+          {
+            "kind": "paragraph",
+            "text": "0과 미니 모의고사 2회"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Shared Layout Test Synthetic Data Only · 5문항"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1.  mock2-1 시험용 발문"
+          },
+          {
+            "kind": "paragraph",
+            "text": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "①  Option 1 for mock2-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②  Option 2 for mock2-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③  Option 3 for mock2-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④  Option 4 for mock2-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤  Option 5 for mock2-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "2.  mock2-2 시험용 발문"
+          },
+          {
+            "kind": "paragraph",
+            "text": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "①  Option 1 for mock2-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②  Option 2 for mock2-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③  Option 3 for mock2-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④  Option 4 for mock2-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤  Option 5 for mock2-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "3.  mock2-3 시험용 발문"
+          },
+          {
+            "kind": "paragraph",
+            "text": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "①  Option 1 for mock2-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②  Option 2 for mock2-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③  Option 3 for mock2-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④  Option 4 for mock2-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤  Option 5 for mock2-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "[4~5] 다음 글을 읽고 물음에 답하시오."
+          },
+          {
+            "kind": "paragraph",
+            "text": "① Changed ② repair ③ useful ④ useful ⑤ useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "4.  mock2-4 다음 글의 제목으로 가장 적절한 것은?"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①  Option 1 for mock2-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②  Option 2 for mock2-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③  Option 3 for mock2-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④  Option 4 for mock2-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤  Option 5 for mock2-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "5.  mock2-5 다음 글의 ①~⑤ 중 문맥상 낱말의 쓰임이 적절하지 않은 것은?"
+          }
+        ]
+      },
+      {
+        "id": "mock3",
+        "elements": [
+          {
+            "kind": "paragraph",
+            "text": "0과 미니 모의고사 3회"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Shared Layout Test Synthetic Data Only · 5문항"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1.  mock3-1 시험용 발문"
+          },
+          {
+            "kind": "paragraph",
+            "text": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "①  Option 1 for mock3-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②  Option 2 for mock3-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③  Option 3 for mock3-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④  Option 4 for mock3-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤  Option 5 for mock3-1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "2.  mock3-2 시험용 발문"
+          },
+          {
+            "kind": "paragraph",
+            "text": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "①  Option 1 for mock3-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②  Option 2 for mock3-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③  Option 3 for mock3-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④  Option 4 for mock3-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤  Option 5 for mock3-2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "3.  mock3-3 시험용 발문"
+          },
+          {
+            "kind": "paragraph",
+            "text": "They repair useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "①  Option 1 for mock3-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②  Option 2 for mock3-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③  Option 3 for mock3-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④  Option 4 for mock3-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤  Option 5 for mock3-3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "[4~5] 다음 글을 읽고 물음에 답하시오."
+          },
+          {
+            "kind": "paragraph",
+            "text": "① Changed ② repair ③ useful ④ useful ⑤ useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful useful tools. We save valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable valuable materials. I protect local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local local resources."
+          },
+          {
+            "kind": "paragraph",
+            "text": "4.  mock3-4 다음 글의 제목으로 가장 적절한 것은?"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①  Option 1 for mock3-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②  Option 2 for mock3-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③  Option 3 for mock3-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④  Option 4 for mock3-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤  Option 5 for mock3-4"
+          },
+          {
+            "kind": "paragraph",
+            "text": "5.  mock3-5 다음 글의 ①~⑤ 중 문맥상 낱말의 쓰임이 적절하지 않은 것은?"
+          }
+        ]
+      },
+      {
+        "id": "answers/quick",
+        "elements": [
+          {
+            "kind": "paragraph",
+            "text": "0과 정답과 해설"
+          },
+          {
+            "kind": "paragraph",
+            "text": "객관식 빠른 정답"
+          },
+          {
+            "kind": "paragraph",
+            "text": "워크북"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1. ①"
+          },
+          {
+            "kind": "paragraph",
+            "text": "미니 모의고사 1회"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1. ②   2. ③   3. ④   4. ⑤   5. ①"
+          },
+          {
+            "kind": "paragraph",
+            "text": "미니 모의고사 2회"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1. ②   2. ③   3. ④   4. ⑤   5. ①"
+          },
+          {
+            "kind": "paragraph",
+            "text": "미니 모의고사 3회"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1. ②   2. ③   3. ④   4. ⑤   5. ①"
+          }
+        ]
+      },
+      {
+        "id": "u1/answers",
+        "elements": [
+          {
+            "kind": "paragraph",
+            "text": "문단 1 워크북 정답"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1. 오늘의 낱말"
+          },
+          {
+            "kind": "table",
+            "rows": [
+              [
+                [
+                  "1. 고치다"
+                ],
+                [
+                  ""
+                ],
+                [
+                  ""
+                ]
+              ]
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "2. 유의어·반의어 뜻 쓰기"
+          },
+          {
+            "kind": "table",
+            "rows": [
+              [
+                [
+                  "1. 시험용 뜻"
+                ],
+                [
+                  "2. 시험용 뜻"
+                ],
+                [
+                  "3. 시험용 뜻"
+                ]
+              ],
+              [
+                [
+                  "4. 시험용 뜻"
+                ],
+                [
+                  "5. 시험용 뜻"
+                ],
+                [
+                  "6. 시험용 뜻"
+                ]
+              ],
+              [
+                [
+                  "7. 시험용 뜻"
+                ],
+                [
+                  "8. 시험용 뜻"
+                ],
+                [
+                  "9. 시험용 뜻"
+                ]
+              ]
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "3. 실전문제"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1.  ①"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "선지 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   Option 1 for q1 term0head   (1 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   Option 2 for q1   (2 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   Option 3 for q1   (3 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   Option 4 for q1   (4 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   Option 5 for q1   (5 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   2 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   3 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   4 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   5 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "4. 구문 결합해서 해석하기"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1. 시험 전용 결합 해석 1"
+          },
+          {
+            "kind": "paragraph",
+            "text": "2. 시험 전용 결합 해석 2"
+          },
+          {
+            "kind": "paragraph",
+            "text": "3. 시험 전용 결합 해석 3"
+          },
+          {
+            "kind": "paragraph",
+            "text": "5. 핵심 문장 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1. 시험용 자연 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "2. 시험용 자연 해석"
+          }
+        ]
+      },
+      {
+        "id": "answers/mock1",
+        "elements": [
+          {
+            "kind": "paragraph",
+            "text": "미니 모의고사 1회 정답과 해설"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1.  ②"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "선지 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   Option 1 for mock1-1   (1 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   Option 2 for mock1-1   (2 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   Option 3 for mock1-1   (3 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   Option 4 for mock1-1   (4 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   Option 5 for mock1-1   (5 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   1 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   3 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   4 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   5 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "2.  ③"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "선지 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   Option 1 for mock1-2   (1 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   Option 2 for mock1-2   (2 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   Option 3 for mock1-2   (3 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   Option 4 for mock1-2   (4 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   Option 5 for mock1-2   (5 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   1 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   2 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   4 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   5 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "3.  ④"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "선지 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   Option 1 for mock1-3   (1 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   Option 2 for mock1-3   (2 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   Option 3 for mock1-3   (3 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   Option 4 for mock1-3   (4 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   Option 5 for mock1-3   (5 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   1 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   2 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   3 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   5 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "4.  ⑤"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "선지 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   Option 1 for mock1-4   (1 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   Option 2 for mock1-4   (2 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   Option 3 for mock1-4   (3 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   Option 4 for mock1-4   (4 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   Option 5 for mock1-4   (5 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   1 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   2 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   3 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   4 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "5.  ①"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   2 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   3 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   4 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   5 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "answers/mock2",
+        "elements": [
+          {
+            "kind": "paragraph",
+            "text": "미니 모의고사 2회 정답과 해설"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1.  ②"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "선지 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   Option 1 for mock2-1   (1 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   Option 2 for mock2-1   (2 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   Option 3 for mock2-1   (3 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   Option 4 for mock2-1   (4 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   Option 5 for mock2-1   (5 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   1 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   3 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   4 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   5 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "2.  ③"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "선지 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   Option 1 for mock2-2   (1 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   Option 2 for mock2-2   (2 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   Option 3 for mock2-2   (3 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   Option 4 for mock2-2   (4 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   Option 5 for mock2-2   (5 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   1 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   2 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   4 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   5 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "3.  ④"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "선지 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   Option 1 for mock2-3   (1 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   Option 2 for mock2-3   (2 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   Option 3 for mock2-3   (3 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   Option 4 for mock2-3   (4 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   Option 5 for mock2-3   (5 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   1 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   2 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   3 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   5 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "4.  ⑤"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "선지 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   Option 1 for mock2-4   (1 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   Option 2 for mock2-4   (2 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   Option 3 for mock2-4   (3 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   Option 4 for mock2-4   (4 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   Option 5 for mock2-4   (5 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   1 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   2 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   3 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   4 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "5.  ①"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   2 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   3 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   4 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   5 시험용 배제 근거"
+          }
+        ]
+      },
+      {
+        "id": "answers/mock3",
+        "elements": [
+          {
+            "kind": "paragraph",
+            "text": "미니 모의고사 3회 정답과 해설"
+          },
+          {
+            "kind": "paragraph",
+            "text": "1.  ②"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "선지 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   Option 1 for mock3-1   (1 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   Option 2 for mock3-1   (2 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   Option 3 for mock3-1   (3 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   Option 4 for mock3-1   (4 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   Option 5 for mock3-1   (5 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   1 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   3 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   4 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   5 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "2.  ③"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "선지 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   Option 1 for mock3-2   (1 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   Option 2 for mock3-2   (2 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   Option 3 for mock3-2   (3 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   Option 4 for mock3-2   (4 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   Option 5 for mock3-2   (5 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   1 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   2 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   4 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   5 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "3.  ④"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "선지 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   Option 1 for mock3-3   (1 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   Option 2 for mock3-3   (2 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   Option 3 for mock3-3   (3 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   Option 4 for mock3-3   (4 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   Option 5 for mock3-3   (5 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   1 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   2 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   3 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   5 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "4.  ⑤"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "선지 해석"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   Option 1 for mock3-4   (1 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   Option 2 for mock3-4   (2 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   Option 3 for mock3-4   (3 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   Option 4 for mock3-4   (4 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   Option 5 for mock3-4   (5 시험용 해석)"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "①   1 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   2 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   3 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   4 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "5.  ①"
+          },
+          {
+            "kind": "paragraph",
+            "text": "정답 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "시험용 설명"
+          },
+          {
+            "kind": "paragraph",
+            "text": "오답 정리"
+          },
+          {
+            "kind": "paragraph",
+            "text": "②   2 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "③   3 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "④   4 시험용 배제 근거"
+          },
+          {
+            "kind": "paragraph",
+            "text": "⑤   5 시험용 배제 근거"
+          }
+        ]
+      }
+    ],
+    "unmanaged_body_elements": []
+  },
+  "layout_geometry_review": "NOT_PERFORMED",
+  "semantic_review": "NOT_PERFORMED",
+  "question_answer_validity": "NOT_PERFORMED"
+}
