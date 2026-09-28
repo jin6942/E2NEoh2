@@ -46,10 +46,6 @@ TYPE:
 주제
 QUESTION:
 다음 글의 주제로 가장 적절한 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q23", "202606041-Q23", "202609021-Q23"], "rationale": "주제 고1 표본 [142, 132, 168]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "주제", "benchmark_ids": ["202603241-Q23", "202606041-Q23", "202609021-Q23"], "reference_words": [142, 132, 168], "assessment_word_count": 161, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "주제 고1 표본 [142, 132, 168]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE:
 The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent. “Mom,” I shout out into the living room, “water is not coming out.” “Alyssa, shush!” Mom says. She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap. “To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck. As we pull into the parking lot, we can see the crowd. “You two go in. I’ll meet you inside,” Uncle Basil says. Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.
 CHOICES:
@@ -150,10 +146,6 @@ TYPE:
 함축 의미
 QUESTION:
 밑줄 친 Even that politeness is stretched thin이 다음 글에서 의미하는 바로 가장 적절한 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q21", "202606041-Q21", "202609021-Q21"], "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 168단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "함축 의미", "benchmark_ids": ["202603241-Q21", "202606041-Q21", "202609021-Q21"], "reference_words": [154, 149, 175], "assessment_word_count": 168, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 168단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE:
 There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin. As I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty. I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity. I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods. “I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”
 TARGET:
@@ -258,10 +250,6 @@ TYPE:
 내용
 QUESTION:
 다음 글의 내용과 일치하지 않는 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q26", "202606041-Q26", "202609021-Q26"], "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 140단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "내용", "benchmark_ids": ["202603241-Q26", "202606041-Q26", "202609021-Q26"], "reference_words": [142, 118, 167], "assessment_word_count": 140, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 140단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE:
 I look for Garrett, whom I find in the frozen aisle. Then I see something. Just past the frozen vegetables and ice cream, there is a case packed with ice. I open the door and reach for a bag. “What are you doing? We need water, not ice,” he reminds me. “Ice is water. Just help me,” I tell him. Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case. The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.
 CHOICES:
@@ -368,10 +356,6 @@ TYPE:
 빈칸
 QUESTION:
 다음 빈칸에 들어갈 말로 가장 적절한 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q31", "202606041-Q31", "202609021-Q31"], "rationale": "빈칸 고1 표본 [137, 137, 167]단어와 비교해 현재 144단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "빈칸", "benchmark_ids": ["202603241-Q31", "202606041-Q31", "202609021-Q31"], "reference_words": [137, 137, 167], "assessment_word_count": 144, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "빈칸 고1 표본 [137, 137, 167]단어와 비교해 현재 144단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE:
 The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle. “Thank you for helping us,” I tell him. “Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can ________________. I decide that one favor deserves another. “Why don’t you take a bag of ice for yourself,” I suggest. His smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” For a moment I think he is joking, but then realize he is serious.
 CHOICES:
@@ -472,10 +456,6 @@ TYPE:
 내용
 QUESTION:
 다음 글의 내용과 일치하지 않는 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q26", "202606041-Q26", "202609021-Q26"], "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 164단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "내용", "benchmark_ids": ["202603241-Q26", "202606041-Q26", "202609021-Q26"], "reference_words": [142, 118, 167], "assessment_word_count": 164, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 164단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE:
 For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his. “Is there a problem here?” It is Uncle Basil. He has arrived just in time. “Not at all.” The man looks at the ice with a bitter face, then leaves. *The above is a shortened version of the opening of the novel Dry (2018). It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. Her unwanted adventure ends when the water supply resumes and life is back to normal. Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.
 CHOICES:
@@ -553,10 +533,6 @@ TYPE:
 순서
 QUESTION:
 주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q36", "202606041-Q36", "202609021-Q36"], "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 186단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "순서", "benchmark_ids": ["202603241-Q36", "202606041-Q36", "202609021-Q36"], "reference_words": [134, 160, 168], "assessment_word_count": 186, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 186단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 GIVEN:
 I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.
 
@@ -594,10 +570,6 @@ TYPE:
 삽입
 QUESTION:
 글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q38", "202606041-Q38", "202609021-Q38"], "rationale": "삽입 고1 표본 [138, 167, 165]단어와 비교해 현재 140단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "삽입", "benchmark_ids": ["202603241-Q38", "202606041-Q38", "202609021-Q38"], "reference_words": [138, 167, 165], "assessment_word_count": 140, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "삽입 고1 표본 [138, 167, 165]단어와 비교해 현재 140단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 GIVEN:
 Just past the frozen vegetables and ice cream, there is a case packed with ice.
 PASSAGE:
@@ -626,10 +598,6 @@ TYPE:
 빈칸
 QUESTION:
 다음 빈칸에 들어갈 말로 가장 적절한 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q31", "202606041-Q31", "202609021-Q31"], "rationale": "빈칸 고1 표본 [137, 137, 167]단어와 비교해 현재 149단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "빈칸", "benchmark_ids": ["202603241-Q31", "202606041-Q31", "202609021-Q31"], "reference_words": [137, 137, 167], "assessment_word_count": 149, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "빈칸 고1 표본 [137, 137, 167]단어와 비교해 현재 149단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE:
 He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another. “Why don’t you take a bag of ice for yourself,” I suggest. His smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, ________________. “Is there a problem here?” It is Uncle Basil. He has arrived just in time. “Not at all.” The man looks at the ice with a bitter face, then leaves.
 CHOICES:
@@ -692,10 +660,6 @@ TYPE:
 제목
 QUESTION:
 윗글의 제목으로 가장 적절한 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 214단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "long41_42", "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "reference_words": [212, 212, 216], "assessment_word_count": 214, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 214단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE_GROUP:
 long-mock1
 CHOICES:
@@ -734,10 +698,6 @@ TYPE:
 어휘
 QUESTION:
 윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 214단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "long41_42", "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "reference_words": [212, 212, 216], "assessment_word_count": 214, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 214단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE_GROUP:
 long-mock1
 ANSWER:
@@ -764,10 +724,6 @@ TYPE:
 함축 의미
 QUESTION:
 밑줄 친 Black Friday at its worst가 다음 글에서 의미하는 바로 가장 적절한 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q21", "202606041-Q21", "202609021-Q21"], "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "함축 의미", "benchmark_ids": ["202603241-Q21", "202606041-Q21", "202609021-Q21"], "reference_words": [154, 149, 175], "assessment_word_count": 161, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE:
 The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent. “Mom,” I shout out into the living room, “water is not coming out.” “Alyssa, shush!” Mom says. She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap. “To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck. As we pull into the parking lot, we can see the crowd. “You two go in. I’ll meet you inside,” Uncle Basil says. Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.
 TARGET:
@@ -810,10 +766,6 @@ TYPE:
 심경·분위기
 QUESTION:
 다음 글에 드러난 ‘I’의 심경 변화로 가장 적절한 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q19", "202606041-Q19", "202609021-Q19"], "rationale": "심경·분위기 고1 표본 [107, 91, 123]단어와 비교해 현재 186단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "심경·분위기", "benchmark_ids": ["202603241-Q19", "202606041-Q19", "202609021-Q19"], "reference_words": [107, 91, 123], "assessment_word_count": 186, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "심경·분위기 고1 표본 [107, 91, 123]단어와 비교해 현재 186단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE:
 I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity. I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods. “I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.” “Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.” She looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.
 CHOICES:
@@ -852,10 +804,6 @@ TYPE:
 삽입
 QUESTION:
 글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q38", "202606041-Q38", "202609021-Q38"], "rationale": "삽입 고1 표본 [138, 167, 165]단어와 비교해 현재 164단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "삽입", "benchmark_ids": ["202603241-Q38", "202606041-Q38", "202609021-Q38"], "reference_words": [138, 167, 165], "assessment_word_count": 164, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "삽입 고1 표본 [138, 167, 165]단어와 비교해 현재 164단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 GIVEN:
 Her unwanted adventure ends when the water supply resumes and life is back to normal.
 PASSAGE:
@@ -911,10 +859,6 @@ TYPE:
 제목
 QUESTION:
 윗글의 제목으로 가장 적절한 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 247단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "long41_42", "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "reference_words": [212, 212, 216], "assessment_word_count": 247, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 247단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE_GROUP:
 long-mock2
 CHOICES:
@@ -953,10 +897,6 @@ TYPE:
 어휘
 QUESTION:
 윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 247단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "long41_42", "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "reference_words": [212, 212, 216], "assessment_word_count": 247, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 247단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE_GROUP:
 long-mock2
 ANSWER:
@@ -983,10 +923,6 @@ TYPE:
 순서
 QUESTION:
 주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q36", "202606041-Q36", "202609021-Q36"], "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "순서", "benchmark_ids": ["202603241-Q36", "202606041-Q36", "202609021-Q36"], "reference_words": [134, 160, 168], "assessment_word_count": 161, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 GIVEN:
 The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.
 “Mom,” I shout out into the living room, “water is not coming out.”
@@ -1026,10 +962,6 @@ TYPE:
 무관한 문장
 QUESTION:
 다음 글에서 전체 흐름과 관계 없는 문장은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q35", "202606041-Q35", "202609021-Q35"], "rationale": "무관한 문장 고1 표본 [157, 130, 165]단어와 비교해 현재 156단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "무관한 문장", "benchmark_ids": ["202603241-Q35", "202606041-Q35", "202609021-Q35"], "reference_words": [157, 130, 165], "assessment_word_count": 156, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "무관한 문장 고1 표본 [157, 130, 165]단어와 비교해 현재 156단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE:
 I look for Garrett, whom I find in the frozen aisle. Then I see something. ① Just past the frozen vegetables and ice cream, there is a case packed with ice. ② I open the door and reach for a bag. “What are you doing? We need water, not ice,” he reminds me. “Ice is water. Just help me,” I tell him. ③ Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. ④ Frozen vegetables keep most of their vitamins because they are frozen soon after they are picked. ⑤ By now other people have taken notice and begin to empty the ice case. The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.
 ANSWER:
@@ -1056,10 +988,6 @@ TYPE:
 심경·분위기
 QUESTION:
 다음 글에 드러난 ‘I’의 심경 변화로 가장 적절한 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q19", "202606041-Q19", "202609021-Q19"], "rationale": "심경·분위기 고1 표본 [107, 91, 123]단어와 비교해 현재 137단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "심경·분위기", "benchmark_ids": ["202603241-Q19", "202606041-Q19", "202609021-Q19"], "reference_words": [107, 91, 123], "assessment_word_count": 137, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "심경·분위기 고1 표본 [107, 91, 123]단어와 비교해 현재 137단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE:
 “Thank you for helping us,” I tell him. “Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another. “Why don’t you take a bag of ice for yourself,” I suggest. His smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.
 CHOICES:
@@ -1119,10 +1047,6 @@ TYPE:
 제목
 QUESTION:
 윗글의 제목으로 가장 적절한 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 239단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "long41_42", "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "reference_words": [212, 212, 216], "assessment_word_count": 239, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 239단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE_GROUP:
 long-mock3
 CHOICES:
@@ -1161,10 +1085,6 @@ TYPE:
 어휘
 QUESTION:
 윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?
-LENGTH_REVIEW:
-{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 239단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
-LENGTH_COMPARISON:
-{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "long41_42", "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "reference_words": [212, 212, 216], "assessment_word_count": 239, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 239단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
 PASSAGE_GROUP:
 long-mock3
 ANSWER:

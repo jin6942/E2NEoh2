@@ -167,7 +167,8 @@ q(id='Q07', set_id='mock1', number=2, type='삽입', first='s37', last='s51', gi
   answer=2,
   evidence='Then I see something. ( ② ) I open the door and reach for a bag.',
   explanation='주어진 문장은 냉동 채소와 아이스크림 바로 뒤에 얼음이 가득 든 케이스가 있다는 내용이다. ② 앞의 “Then I see something.”에서 앨리사가 무언가를 발견하고, 주어진 문장이 그 ‘무언가’가 얼음 케이스임을 밝힌다. ② 뒤의 “I open the door and reach for a bag.”의 the door와 a bag은 그 케이스의 문과 얼음 봉지이므로 ②에 들어가야 한다.',
-  wrong={1: '이 위치에 넣으면 얼음 케이스를 이미 설명한 뒤에 “Then I see something.”이 와서, 앨리사가 본 ‘무언가’가 무엇인지 끝내 밝혀지지 않는다.',
+  wrong={1: '이 위치에 넣으면 진열장을 먼저 소개한 뒤에 “Then I see something.”이 와서, 이미 소개한 대상을 새로 발견하는 것처럼 되어 발견 → 소개의 순서가 뒤바뀐다.',
+
          3: '이 위치에 넣으면 앨리사가 문을 열고 봉지에 손을 뻗은 뒤에야 진열장이 처음 소개되어, 발견(Then I see something) → 진열장 소개 → 문을 열고 봉지를 집는 행동의 순서가 거꾸로 된다.',
          4: '이 위치는 개릿과 앨리사가 얼음을 두고 주고받는 대화 사이로, 얼음 케이스를 처음 소개하는 문장이 들어가면 대화가 끊긴다.',
          5: '이 위치는 이미 문을 열고 얼음을 두고 대화까지 나눈 뒤라, 진열장을 처음 소개하는 문장이 오면 발견 → 소개 → 행동의 시간 순서가 뒤집힌다.'})

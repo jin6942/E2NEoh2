@@ -1,0 +1,75 @@
+{
+  "reviewer": "문제-재검증",
+  "independent": true,
+  "basis": "검수입력/문제_재검증_변경분.json(changes 43개·selected_data·comparison), 공통영어2_YBM(박)_UNIT02_원고.json(assessment가 comparison과 완전 일치 확인), 공통영어2_YBM(박준언)_UNIT02_문제_QC_HANDOFF.txt(변경 반영 확인), 수정인계.txt, 스킬수정본/gyogwaseo-unified/references/assessment-content.md 3절(117~135행)",
+  "checks": [
+    {
+      "id": "M-01",
+      "status": "resolved",
+      "note": "Q09 EVIDENCE 세 번째 인용이 학생 지문 long-mock1 마지막 블록에 그대로 있는 ‘As I approach the back of the store for water bottles, I realize I am too late.’로 교체되었고, 가공된 ‘⑤ full’ 문장은 더 이상 인용하지 않음. EXPLANATION도 ‘앨리사가 생수를 사러 갔을 때는 이미 너무 늦었다’로 바뀌어 복원형(empty)에 기대지 않음. 문제_QC_HANDOFF 712행도 같은 내용으로 맞춰짐. 정답 ① 판단과 일치."
+    },
+    {
+      "id": "M-02",
+      "status": "not_resolved",
+      "note": "③·⑤는 제안과 같은 효과로 해결: ‘the door·a bag이 가리킬 대상이 없다/알 수 없다’는 단정이 빠지고 시간·전개 순서(발견→소개→행동 역전) 근거로 바뀌었으며, 학생 지문의 실제 위치(③=I open the door… 뒤, ⑤=“Ice is water…” 뒤)와 맞음. ④도 번호 표기만 바뀌고 내용 타당. 그러나 M-02가 함께 지적한 ①은 ‘①에 넣으면’→‘이 위치에 넣으면’으로 번호 표기만 바뀌고 ‘앨리사가 본 ‘무언가’가 무엇인지 끝내 밝혀지지 않는다’는 과장이 그대로 남음(원고 explanations[6].wrong_reasons[0], 문제_QC_HANDOFF 612행). ① 배치에서는 바로 앞에 진열장이 소개되어 있고 뒤의 the door·a bag·not ice로 ‘무언가’를 진열장/얼음으로 의미상 참조할 수 있으므로, assessment-content.md 3절 125행(의미상 참조 가능한 대상이 있으면 ‘전혀 없다’고 설명하지 않음)·135행(해설 보완)에 어긋남. 수정 제안: ‘이 위치에 넣으면 진열장을 먼저 소개한 뒤에 “Then I see something.”이 와서, 이미 소개한 대상을 새로 발견하는 것처럼 되어 발견 → 소개의 순서가 뒤바뀐다.’"
+    },
+    {
+      "id": "M-03",
+      "status": "resolved",
+      "note": "Q01 ④, Q09 ⑤, Q16 EXPLANATION 모두 ‘물 공급 위기’로 통일됨. 원고 assessment 전체와 문제_QC_HANDOFF에서 ‘흐름 위기’ 잔존 없음(grep 확인). FINAL·워크북 WB01 도움말(flow crisis — 물 공급 위기)과 일치."
+    },
+    {
+      "id": "M-04",
+      "status": "resolved",
+      "note": "Q03 선지 ③이 학생용(selected_data)·원고 questions/explanations·문제_QC_HANDOFF 270행 모두 ‘Garrett reminded Alyssa that they needed water, not ice.’로 바뀌고 CHOICES_KR ③도 ‘처음에’ 삭제. 해설 ③(“We need water, not ice,” he reminds me.와 일치)은 그대로 유효. 검사기록 02_*의 옛 문구는 변경 전 산출물이고 04_* 새 검사본이 따로 있어 문제 없음."
+    },
+    {
+      "id": "M-05",
+      "status": "resolved",
+      "note": "Q01의 strange(u1-r1h, ①) 기록과 Q04의 heavy(u4-r1h, ④) 기록이 learned_relation_uses에서 제거됨(Q01은 배열이 앞으로 당겨진 결과 changes에 index별 replace로 나타남). 남은 기록: Q01 necessities(②)·luxuries(③)·quiet(④)·normal(⑤) 4건, Q04 finest(①)·worst(②)·easy(③) 3건. 선지와 정답은 유지. 다만 수정인계.txt 58행 [워크북 유반 사용]에 여전히 ‘Q01 strange·…’, ‘Q04 …·heavy’가 남아 있어 기록 동기화 필요(new_findings R-02)."
+    },
+    {
+      "id": "N-01",
+      "status": "resolved",
+      "note": "Q13 오답 ①·②에서 ‘Her가 가리킬 여성 인물/대상이 없다’는 단정이 빠지고, ‘서술자 자신을 3인칭 Her로 가리키며 결말을 요약하는 문장이 1인칭 현재 장면 한가운데 끼어들 수 없다’는 서술 시점·전개 근거로 바뀜. 학생 지문의 실제 위치(①=It is Uncle Basil. 뒤, ②=“Not at all.” 뒤)와 일치하고 정답 ⑤ 판단과 모순 없음. ③·④ 해설도 ‘소개되기 전에 Her가 나온다/그 뒤에야 소개된다’는 순서 표현이라 지시 대상 부재 단정이 아님."
+    },
+    {
+      "id": "N-02",
+      "status": "resolved",
+      "note": "Q18 EXPLANATION 첫 문장이 ‘자신들을 도와준 남자(him)에게 고마워하며(Thank you for helping us)…’로 바뀌어 발췌 밖 정보(카트를 밀어 준)에 기대지 않음. 이어지는 ‘호의에 보답하려고 얼음 한 봉지를 권한다’·‘나머지 얼음을 자기가 갖겠다’·‘눈이 무섭게 느껴진다’ 모두 제시 지문 안 근거이며 정답 ①(grateful → frightened)과 일치."
+    },
+    {
+      "id": "N-03",
+      "status": "resolved",
+      "note": "Q07·Q13 오답 분석이 모두 ‘이 위치에 넣으면/이 위치 앞은/이 위치는’으로 바뀌어 ‘① ①’ 중복 원문자 없음. 전체 20문항 wrong_reasons에서 원문자로 시작하는 문장 0건(스크립트 확인). 문제_QC_HANDOFF 612~615·870~873행도 반영."
+    },
+    {
+      "id": "N-04",
+      "status": "resolved",
+      "note": "기록만 필요한 사안. 수정인계.txt 56행에 ‘2회 삽입 Q13과 장문 Q14·15는 문장 62~70이 겹치나 삽입 답·어휘 표적은 겹치는 구간 밖’으로 기록되어 있음. 재확인: Q13 지문에 Q15 표적 원어휘(high 등)가 없고 long-mock2에 Q13 GIVEN이 속한 주석(71~74)이 없음."
+    }
+  ],
+  "q03_resolve": {
+    "answer": 4,
+    "note": "학생 지문(원문 37~51)만으로 직접 풀이. ① I look for Garrett, whom I find in the frozen aisle → 일치. ② Just past the frozen vegetables and ice cream, there is a case packed with ice → ‘near the ice cream’·‘filled with ice’ 일치. ③ “What are you doing? We need water, not ice,” he reminds me. → first 삭제 후 부사 해석 여지 없이 그대로 일치. ④ By now other people have taken notice and begin to empty the ice case → disregarded와 반대, 불일치. ⑤ put one bag of ice after another … until it is piled as high as it can get → 일치. 불일치는 ④ 하나뿐이며 제작 정답 ④와 같음."
+  },
+  "new_findings": [
+    {
+      "id": "R-01",
+      "location": "Q07(미니 모의고사 1회 2번 삽입) WRONG_ANALYSIS ① — 원고 assessment.explanations[6].wrong_reasons[0], 문제_QC_HANDOFF 612행",
+      "current": "이 위치에 넣으면 얼음 케이스를 이미 설명한 뒤에 “Then I see something.”이 와서, 앨리사가 본 ‘무언가’가 무엇인지 끝내 밝혀지지 않는다.",
+      "problem": "M-02의 ① 부분이 미반영(번호 표기만 수정). ① 배치에서도 ‘무언가’는 바로 앞에 소개된 진열장이나 뒤의 the door·a bag·not ice로 의미상 참조 가능하므로 ‘끝내 밝혀지지 않는다’는 과장. assessment-content.md 3절 125·135행.",
+      "proposed_fix": "이 위치에 넣으면 진열장을 먼저 소개한 뒤에 “Then I see something.”이 와서, 이미 소개한 대상을 새로 발견하는 것처럼 되어 발견 → 소개의 순서가 뒤바뀐다.",
+      "severity": "improve"
+    },
+    {
+      "id": "R-02",
+      "location": "공통영어2_YBM(박준언)_UNIT02_수정인계.txt 58행 [워크북 유반 사용]",
+      "current": "Q01 strange·necessities·luxuries·quiet·normal / … / Q04 finest·worst·easy·heavy",
+      "problem": "M-05 반영으로 원고에서 strange·heavy 연결을 뺐으나 인계 기록이 옛 목록 그대로라 원고와 불일치(수정인계 파일 시각 23:17, 원고 23:25).",
+      "proposed_fix": "Q01 necessities·luxuries·quiet·normal / Q04 finest·worst·easy 로 갱신.",
+      "severity": "improve"
+    }
+  ],
+  "summary": "지적 9건 중 8건 해결(M-01, M-03, M-04, M-05, N-01, N-02, N-03, N-04), 1건 미해결(M-02: Q07 ③·⑤는 해결됐으나 ①의 ‘끝내 밝혀지지 않는다’ 과장은 남음). Q03은 바뀐 선지 ③으로 직접 풀어도 정답이 ④ 하나. Q01·Q04는 strange·heavy를 뺀 뒤에도 유반 연결이 4건·3건 남고, 남은 choice_span 7건이 모두 선지의 실제 낱말과 일치. 바뀐 해설(Q01·Q07·Q09·Q13·Q16·Q18)은 학생이 보는 지문(long-mock1 ⑤ full 가공 포함) 안의 근거만 쓰고 정답·오답 판단과 맞으며, Q07 ① 말고는 지시 대상 부재 단정이 없음. 원고 assessment와 문제_QC_HANDOFF는 변경분과 일치. 새 지적: R-01(Q07 ① 해설 보완, M-02 잔여분), R-02(수정인계 58행 유반 목록에 strange·heavy 잔존)."
+}
