@@ -81,3 +81,8 @@
 - **then으로 이어진 병렬 동사:** s35 `She looks back …, then turns back …`, s70 `The man looks at …, then leaves.`는 and 없이 부사 then이 한 주어의 두 동사를 잇는다. 이 두 문장에 한해 V 칸에 then을 남겨 `V: looks then turns`, `V: looks then leaves`로 표시한다. then을 빼면 `looks turns`처럼 한 동사구로 보이기 때문이다. 다른 부사나 다른 교재로 확대하지 않는다.
 - **연결동사의 최소 보어:** 절 연결 힌트에서 be동사에만 허용하던 ‘뜻을 잡는 최소 보어’ 예외를 이 교재의 연결동사 get·become에도 적용한다. 대상은 s07 `[ever since people got tired]`, s36 `[before it becomes a deep flush]`, s74 `[this story can become a reality]`이다(사용자 결정은 ‘연결동사의 보어까지 표시’라는 일반 질문에 대한 답이었고 질문 예시가 s07·s36이었다. s74는 L-재검에서 같은 구조로 확인되어 같은 결정을 적용했으며, 사용자에게 적용 사실을 보고함). 보어를 빼면 ‘사람들이 된 이후로’처럼 뜻이 사라진다.
 - **그대로 두기로 한 항목:** 인명 각주는 교과서 해석처럼 영어 이름을 유지한다(`Alyssa — Alyssa (…)`). s72 `who has to make`의 S/V는 s54 need to와 같은 방식으로 `V′: has`를 유지하고, 분석 설명만 이에 맞춘다.
+
+### 출고 뒤 조판 결정 (2026-09-28, 이 스킬 사본에만 추가)
+
+- **LibreOffice 근거 간격 줄이기:** 사용자 결정 “간격 줄이기 조판 쓰기 — LibreOffice 기준으로 적용”. Word가 없는 환경이라 LibreOffice 예비 렌더(SHA256 432edb35…)에서 넘친 u1/analysis(9쪽)·u3/analysis(27쪽)에만 첫 단계 `spacing` 프로필을 적용했다. `layout_adjustments`에 `renderer:"LibreOffice"`와 `renderer_exception_approval`을 함께 기록하며, `scripts/compact_layout.py`는 이 승인 기록이 있을 때만 LibreOffice 관찰을 받는다. 승인 기록 없는 LibreOffice·다른 렌더러는 계속 거부한다. Word 렌더에서 원래 넘치지 않았다면 불필요한 축소일 수 있으므로 Word 확인 뒤 되돌릴 수 있다.
+- **★핵심 위치:** LibreOffice가 표식 안 U+FEFF를 줄바꿈 방지로 쓰지 않아 ‘★핵 / 심’으로 갈리는 현상(7쪽)이 있었다. U+2060·U+200D·U+202F·NBSP·언어 지정·`w:wordWrap`을 시험했으나 LibreOffice에서는 모두 갈렸다. 사용자 결정 “이전 규칙 유지, Word 확인”에 따라 문장 끝 위치와 기존 표식 문자를 유지하고 Word에서 확인한다.

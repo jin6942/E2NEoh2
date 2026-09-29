@@ -1,0 +1,736 @@
+{
+  "schema_version": 1,
+  "type": "release_text_preflight",
+  "status": "NOT_CERTIFIED",
+  "bindings": {
+    "manuscript_sha256": "d7ab07a4f3ce97ef72de50a48bbd7d3fe677ace15c47e009c2c4a09d84763099",
+    "plan_sha256": "2c1baa0b25395c36037200e914ce662106d7e8f97df47df286ea731a12ba5182",
+    "docx_sha256": "36460a1804677b4fc83f199678ff7004c8510b558c20b8e327642b2ff0124bad",
+    "pdf_sha256": "ba61e6a55e4d09fbab5e470bfe7a4e7b8bbe9be8bf8eae448113167b34976b31",
+    "learning_final_sha256": "56c79bc165e857e69742d9015495fe4ac67a8d92fa508b7ffe91dddebd2e5636",
+    "assessment_final_sha256": "0538152f2dd85922729d15e5d4689a31cae526c279f76a75605d85a7e07d7a7b",
+    "package_sha256": "3bcdb28df7dc7be5fc1e039afb3e7829c7e749dafa902555cd556cc34ba07cf1"
+  },
+  "machine_status": "PASS",
+  "errors": [],
+  "warnings": [],
+  "pdf": {
+    "pages": [
+      {
+        "page": 1,
+        "characters": 294,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 2,
+        "characters": 1525,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 3,
+        "characters": 1677,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 4,
+        "characters": 1421,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 5,
+        "characters": 1588,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 6,
+        "characters": 1838,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 7,
+        "characters": 725,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 8,
+        "characters": 2694,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 9,
+        "characters": 1552,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 10,
+        "characters": 1054,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 11,
+        "characters": 1632,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 12,
+        "characters": 1586,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 13,
+        "characters": 1623,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 14,
+        "characters": 1387,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 15,
+        "characters": 1403,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 16,
+        "characters": 2306,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 17,
+        "characters": 1251,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 18,
+        "characters": 2618,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 19,
+        "characters": 1661,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 20,
+        "characters": 876,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 21,
+        "characters": 1239,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 22,
+        "characters": 1300,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 23,
+        "characters": 473,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 24,
+        "characters": 1472,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 25,
+        "characters": 2778,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 26,
+        "characters": 1367,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 27,
+        "characters": 1100,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 28,
+        "characters": 1120,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 29,
+        "characters": 1176,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 30,
+        "characters": 1620,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 31,
+        "characters": 494,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 32,
+        "characters": 1692,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 33,
+        "characters": 364,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 34,
+        "characters": 2330,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 35,
+        "characters": 1319,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 36,
+        "characters": 726,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 37,
+        "characters": 1872,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 38,
+        "characters": 818,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 39,
+        "characters": 1467,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 40,
+        "characters": 1331,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 41,
+        "characters": 1929,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 42,
+        "characters": 542,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 43,
+        "characters": 2874,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 44,
+        "characters": 573,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 45,
+        "characters": 1633,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 46,
+        "characters": 1814,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 47,
+        "characters": 2937,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 48,
+        "characters": 1555,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 49,
+        "characters": 3371,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 50,
+        "characters": 1606,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 51,
+        "characters": 2756,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 52,
+        "characters": 1622,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 53,
+        "characters": 214,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 54,
+        "characters": 1659,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 55,
+        "characters": 1611,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 56,
+        "characters": 1612,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 57,
+        "characters": 1527,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 58,
+        "characters": 1786,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 59,
+        "characters": 2696,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 60,
+        "characters": 1464,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 61,
+        "characters": 2166,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 62,
+        "characters": 1800,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 63,
+        "characters": 2242,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 64,
+        "characters": 1548,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      }
+    ],
+    "fonts": [
+      "DejaVuSans",
+      "DejaVuSans-Bold",
+      "LiberationSerif",
+      "LiberationSerif-Bold",
+      "WenQuanYiZenHei"
+    ],
+    "footer_policy": "Only actual DOCX footer patterns near page foot excluded; no body crop",
+    "normalized_text_equal": true,
+    "normalization": "Whitespace including NBSP and invisible joiners in the exact approved ★핵심 marker only; no spelling, glyph or punctuation substitutions",
+    "expected_characters": 72872,
+    "observed_characters": 72872
+  },
+  "independent_review": "NOT_PERFORMED",
+  "visual_review": "NOT_PERFORMED",
+  "limits": [
+    "No automatic source/answer/font edits; R and J/K must resolve diagnostics on actual files.",
+    "Text equivalence does not prove pagination, clipping, translation or answer validity."
+  ]
+}
