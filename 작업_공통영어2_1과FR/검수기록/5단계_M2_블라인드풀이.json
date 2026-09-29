@@ -1,0 +1,43 @@
+{
+  "reviewer_id": "M2",
+  "role": "M",
+  "solved_before_answer_key": true,
+  "input_file": "작업_공통영어2_1과FR/검수입력/문제_블라인드_2차.json",
+  "input_sha256": "ec5588de9a079397b6b12876cadde53bec07bb54bccd41ad6e77614ba73720ef",
+  "input_sha256_note": "실제 파일 바이트의 sha256. 파일 내부 input_digest.file_sha256(4418f74d…)은 패킷 생성 원본 기준 값으로 보이며 이 파일 바이트값과 다름.",
+  "answers": {
+    "Q03": 1,
+    "Q04": 4
+  },
+  "rationales": {
+    "Q03": "바로 앞 절 'Even if you really want something to be true'와 결합하면, 어떤 것이 사실이기를 강하게 바란다고 해서 그것이 사실이 되는 것은 아니라는 뜻이므로 ①(바란다고 사실이 되지 않는다)이 정확한 환언이다. ②③④⑤는 지문에 근거가 없거나(②⑤) 과도한 일반화(③)이거나 지문 취지와 반대(④)이다.",
+    "Q04": "첫 문장 'This can distort your understanding of reality'에서 (A)=distort의 환언 twist, 'you must actively seek diverse sources of information and engage with people who have different views'에서 (B)=seek out이므로 ④ twist …… seek out."
+  },
+  "confidence": {
+    "Q03": "높음(0.97)",
+    "Q04": "높음(0.97)"
+  },
+  "checks": {
+    "Q03": {
+      "single_answer": "충족 — ①만 정답. ③은 'never'로 과장, 지문은 새 생각에 열린 태도·정보 확인을 말할 뿐 자기 의견 불신을 말하지 않음.",
+      "true_distractor": "없음",
+      "guessable_without_reading": "밑줄 문장 자체의 문자적 환언이 ①이라 난도는 낮으나, 지문 없이 푸는 오답 단서(길이·반복어)는 없음.",
+      "natural_english": "선택지 5개 모두 자연스러움.",
+      "underline_offsets": "발문 [9,47], 지문 [518,556] 모두 'it doesn’t always mean that it is true'와 정확히 일치.",
+      "cross_passage_leak": "없음 — Q02 s01~s04(뉴스 선택적 수용, 에코 체임버 정의·용어 설명)에는 바람/사실 관련 내용 없음."
+    },
+    "Q04": {
+      "single_answer": "충족 — ④만 정답.",
+      "true_distractor": "없음 — improve/sharpen은 distort와 반대, avoid/limit은 seek와 반대.",
+      "guessable_without_reading": "선택지 어휘 빈도: (A) improve1·twist2·sharpen2, (B) seek out2·avoid2·limit1 → 빈도상 최다 조합이 ②④⑤ 세 개로 갈려 빈도 단서로 정답 특정 불가. 다만 요약문 내부 논리('so we need to ___ diverse information')와 상식만으로 ④를 고를 여지가 있음(검토제안 수준).",
+      "natural_english": "요약문·선택지 자연스러움. 'twist our understanding of reality' 허용 범위.",
+      "cross_passage_leak": "없음 — Q02 s01~s04에 distort/seek 관련 표현 없음."
+    }
+  },
+  "concerns": [
+    "Q04 검토제안: (B) 정답 seek out이 지문 'actively seek diverse sources of information'의 seek를 거의 그대로 반복하고, 요약문의 'understanding of reality', 'diverse', 'different views'도 지문 표현 그대로라 표면 대응만으로 풀림. 난도 조정을 원하면 (B)를 look for/embrace 등으로 환언하거나 요약문 어구를 환언하는 방안 고려. 문항 오류는 아님.",
+    "Q04 검토제안: 요약문 'so we need to (B) diverse information and different views'는 avoid/limit을 넣으면 상식적으로 부자연스러워 지문을 읽지 않고도 (B) 소거가 쉬움. 오류는 아님.",
+    "Q03/Q04 공통 참고: 지문 첫 단어 'This'의 지시 대상(에코 체임버 상황)이 이 지문 안에 없고 Q02 쪽 문장에 있음. 다만 2문장에 'an echo chamber'가 나오고 정답 도출에 앞 문맥이 필요하지 않으므로 외부 지문 의존 오류는 아님. 교사 기준(동일 지문 공유 허용)상 유지 가능.",
+    "Q03 참고: 정답 ①은 'doesn’t always'(항상 ~은 아니다)를 'does not make it a fact'로 단정 환언하나 함축 의미 문항 관례상 허용 범위."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "reviewer_id": "N2",
+  "role": "N",
+  "solved_before_answer_key": true,
+  "input_file": "작업_공통영어2_1과FR/검수입력/문제_블라인드_2차.json",
+  "input_sha256": "ec5588de9a079397b6b12876cadde53bec07bb54bccd41ad6e77614ba73720ef",
+  "input_sha256_note": "sha256sum으로 계산한 실제 파일 바이트 해시. 파일 내부 input_digest.file_sha256(4418f74d...)는 자기 자신을 포함할 수 없어 다른 값이며, content_sha256=92c3ceec...로 기록되어 있음.",
+  "answers": {
+    "Q03": 1,
+    "Q04": 4
+  },
+  "rationales": {
+    "Q03": "앞 절 'Even if you really want something to be true'가 조건이므로, 밑줄은 '어떤 것이 사실이기를 강하게 바란다고 해서 그것이 사실이 되지는 않는다'는 뜻이다. 직전 문장 'Always remember to check the information you receive'와도 이어져 ① Wishing that an idea is true does not make it a fact가 정답이다.",
+    "Q04": "(A) 첫 문장 'This can distort your understanding of reality'에서 distort의 바꿔 쓰기인 twist가 맞다. (B) 'you must actively seek diverse sources of information and engage with people who have different views'에서 seek out이 맞으므로 ④ twist …… seek out이 정답이다."
+  },
+  "confidence": {
+    "Q03": "높음(0.95)",
+    "Q04": "높음(0.97)"
+  },
+  "checks": {
+    "single_answer": {
+      "Q03": "정답 1개 확인. ② 소셜 미디어 정보 대부분이 거짓이라는 말은 지문에 없음. ③ 'never trust your own opinions'는 지문에 없는 과잉 일반화. ④ 많은 사람이 동의하면 사실이 된다는 말은 밑줄과 반대. ⑤ 새 생각이 더 정확하다는 비교는 지문에 없음(지문은 open mind만 요구).",
+      "Q04": "정답 1개 확인. improve/sharpen은 distort와 반대. avoid/limit은 'seek diverse sources'와 반대. twist와 seek out 조합만 성립."
+    },
+    "true_distractor": "Q03·Q04 모두 사실상 참인 오답 없음.",
+    "guessability": {
+      "Q03": "①이 밑줄 문장을 거의 그대로 바꿔 쓴 것이라 쉽지만, 오답 ②~⑤도 지문 소재(social media, own opinions, agree, new ideas)를 써서 매력도가 있다. 지문을 안 읽고 고를 만큼 치명적인 단서는 아님.",
+      "Q04_word_frequency": "(A) 선택지 twist 2회·sharpen 2회·improve 1회, (B) 선택지 seek out 2회·avoid 2회·limit 1회. 정답 조합(twist·seek out)이 빈도만으로 특정되지 않는다(twist·avoid, sharpen·avoid도 2·2 조합). 빈도 단서 없음.",
+      "Q04_other": "요약문의 'so we need to'와 에코 체임버가 부정적이라는 상식만으로 방향은 짐작할 수 있다. 다만 요약 문항 형식상 일반적인 수준이라 오류로 보지 않음."
+    },
+    "english_naturalness": "Q03 선택지 5개, Q04 요약문과 선택지 모두 자연스러움. 'seek out diverse information and different views', 'twist our understanding of reality' 모두 자연스러운 연어.",
+    "cross_passage_leak": "Q02의 s01~s04(주어진 글, (A)(B)(C))는 원문 1~4문장으로, echo chamber의 정의와 'without considering alternative views'만 담는다. Q03 정답(바람이 사실을 만들지 않음)이나 Q04 정답 어휘(distort/twist, seek)는 드러나지 않는다. Q04 (B)의 '다양한 관점이 필요하다'는 방향이 Q02 (B) 'without considering alternative views'로 약하게 암시되지만, Q04 자체 지문에 'actively seek diverse sources'가 명시되어 있어 외부 단서에 의존하지 않고 풀 수 있다. 누설 없음.",
+    "shared_passage": "Q03·Q04가 같은 지문(원문 5~9문장, 90단어)을 공유하는 것은 교사 승인 사항. 서로의 선택지·요약문이 상대 문항의 정답을 드러내지 않음을 확인.",
+    "underline_offsets": "발문 [9,47]과 지문 [518,556] 모두 'it doesn’t always mean that it is true'를 정확히 가리킴."
+  },
+  "concerns": [
+    {
+      "id": "B-01",
+      "question_id": "Q04",
+      "severity": "검토제안",
+      "note": "(B) 정답 seek out이 지문의 'seek'와 거의 같은 말이고, 요약문의 'diverse information and different views'도 지문의 'diverse sources of information ... different views'를 그대로 가져왔다. 바꿔 쓰기 정도가 낮아 난이도가 낮다. 오류는 아니며 워크북 미니 모의고사 수준에서는 허용 가능."
+    },
+    {
+      "id": "B-02",
+      "question_id": "Q03",
+      "severity": "검토제안",
+      "note": "밑줄 부분이 비유가 아닌 문자 그대로의 진술이라 함축 의미 문항으로서는 추론 부담이 작다. ①은 'doesn’t always mean'의 'always'를 'does not make it a fact'로 옮겼는데, 바람만으로는 사실이 되지 않는다는 취지라 의미상 문제는 없다."
+    },
+    {
+      "id": "B-03",
+      "question_id": "Q02",
+      "severity": "검토제안",
+      "note": "Q02 주어진 글, (B), (C) 블록 끝에 공백이 남아 있음(도구가 만든 끝 공백으로 보임). 인쇄 결과에 영향이 없으면 무시 가능."
+    }
+  ]
+}
