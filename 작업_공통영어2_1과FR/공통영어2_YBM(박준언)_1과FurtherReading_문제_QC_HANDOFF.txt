@@ -173,7 +173,7 @@ ANSWER:
 EVIDENCE:
 Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.
 EXPLANATION:
-밑줄 친 부분은 어떤 것이 사실이기를 정말로 원하더라도 그렇다고 그것이 항상 사실인 것은 아니라는 뜻이다. 그래서 바로 앞 문장에서 받은 정보를 확인하고 새로운 생각을 논의할 때 열린 마음을 유지하라고 한다. 따라서 어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니라는 ①이 알맞다.
+밑줄 친 부분은 어떤 것이 사실이기를 정말로 원하더라도 그렇다고 그것이 항상 사실인 것은 아니라는 뜻이다. 이는 바로 앞 문장에서 받은 정보를 확인하고 새로운 생각을 논의할 때 열린 마음을 유지하라고 한 이유가 된다. 따라서 어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니라는 ①이 알맞다.
 WRONG_ANALYSIS:
 ② 소셜 미디어 정보의 대부분이 거짓이라는 내용은 없으며, 받은 정보를 확인하라고 했을 뿐이다.
 ③ 자신의 의견을 절대 믿지 말라는 것이 아니라, 바란다고 해서 늘 사실은 아니니 정보를 확인하고 열린 마음을 가지라는 뜻이다.

@@ -39,7 +39,7 @@ q(id='Q01', set_id='workbook', number=1, unit_id='u1', type='요지', first='s01
         ('u1-r3s', 2, 'various', 'various가 diverse(다양한)와 같은 뜻임을 알아야 필자의 요지를 판단할 수 있음'),
         ('u1-r1s', 3, 'restrict', 'restrict(제한하다)의 뜻을 알아야 정부가 의견 확산을 막아야 한다는 말이 본문에 없음을 판단할 수 있음'),
         ('u1-r1a', 4, 'expand', 'expand(넓히다)가 limit의 반대임을 알아야 에코 챔버가 능력을 제한한다는 본문과 어긋남을 판단할 수 있음'),
-        ('u1-r2s', 5, 'encourage', 'encourage가 foster(조장하다, 키우다)와 같은 뜻임을 알아도, 에코 챔버가 촉진하는 것은 협력이 아니라 사회적 분열임을 판단해야 함')],
+        ('u1-r2s', 5, 'encourage', 'encourage가 foster(조장하다, 키우다)와 같은 뜻임을 알아도, 에코 챔버가 조장하는 것은 협력이 아니라 사회적 분열임을 판단해야 함')],
   evidence='To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. / Always remember to check the information you receive, and keep an open mind when discussing new ideas.',
   explanation='글은 자신이 동의하는 의견만 듣는 에코 챔버가 현실 이해를 왜곡하고 사회적 분열을 조장할 수 있다고 설명한 뒤, 이를 피하려면 다양한 정보 출처와 다른 견해를 적극적으로 접하고 열린 마음을 유지하라고 한다. 따라서 ②가 요지다.',
   choices_ko=['획일적인 뉴스 출처는 사람들이 현실을 더 정확하게 이해하도록 돕는다.',
@@ -75,7 +75,7 @@ q(id='Q03', set_id='mock1', number=2, type='함축 의미', first='s05', last='s
            'New ideas are usually more accurate than old ones.'],
   answer=1,
   evidence='Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.',
-  explanation='밑줄 친 부분은 어떤 것이 사실이기를 정말로 원하더라도 그렇다고 그것이 항상 사실인 것은 아니라는 뜻이다. 그래서 바로 앞 문장에서 받은 정보를 확인하고 새로운 생각을 논의할 때 열린 마음을 유지하라고 한다. 따라서 어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니라는 ①이 알맞다.',
+  explanation='밑줄 친 부분은 어떤 것이 사실이기를 정말로 원하더라도 그렇다고 그것이 항상 사실인 것은 아니라는 뜻이다. 이는 바로 앞 문장에서 받은 정보를 확인하고 새로운 생각을 논의할 때 열린 마음을 유지하라고 한 이유가 된다. 따라서 어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니라는 ①이 알맞다.',
   choices_ko=['어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니다.',
               '소셜 미디어의 정보 대부분은 거짓으로 드러난다.',
               '자신의 의견은 절대 믿어서는 안 된다.',
@@ -226,7 +226,8 @@ def attach(data):
         'scope': {'kind': 'custom', 'course': data['metadata']['course'], 'unit_ids': [u['id'] for u in data['units']],
                   'instruction': ('2026-09-29 사용자 선택 “워크북 1 + 모의 1회 3문항”: 172단어 Further Reading에 맞춰 공통 단위 워크북 실전문제 1문항 + '
                                   '미니 모의고사 1회 3문항(공유 장문 없음, 앞·뒤 반 지문). 단문 100단어 안팎 허용(2026-09-28 사용자 기준), '
-                                  '문제 오류·지문 밖 정답 단서는 불가.')},
+                                  '문제 오류·지문 밖 정답 단서는 불가. 4단계 뒤 사용자 결정: 1회 2번 함축·3번 요약은 같은 지문(s05~s09)을 각각 싣는 것을 유지, '
+                                  '3번 요약 선택지는 모든 오답을 반쪽 정답으로 두지 않고 낱말별 빈도를 2·2·1로 고르게 한 수능형 분포(빈도 단서 방지).')},
         'plan': plan, 'questions': questions, 'quick_key': quick, 'explanations': exps,
         'passage_groups': list(groups.values()),
     }
