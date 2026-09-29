@@ -1,0 +1,577 @@
+{
+  "reviewer_id": "JK-R3",
+  "role": "K",
+  "renderer": "LibreOffice",
+  "review_date": "2026-09-29",
+  "scope": "10단계: 미니 모의고사 문구 수정(1회 1번 ①④, 2회 4번 ⑤, 3회 1번 선택지)과 해설(Q05·Q08·Q13·Q15) 수정 후 조판 재확인",
+  "pdf_sha256": {
+    "integrated": "40d78a7be6beadc56c490c145b2ac6f37034f9469398de70ab75e8ede7fd24fc",
+    "volume04": "2cea2fffa24379758fc0290afabf445a29742b6458d4d8e212857c1ba02fb2c8",
+    "volume05": "89965c1c7334db245f3a559f48642d9691b8ec877f6d75a528a0e82f80cbadb1"
+  },
+  "pdf_paths": {
+    "integrated": "작업_공통영어2_1과/예비렌더_LibreOffice/혼공독해교재_공통영어2_YBM(박)_1과_전체통합본.pdf",
+    "volume04": "작업_공통영어2_1과/예비렌더_LibreOffice/분권/혼공독해교재_공통영어2_YBM(박)_1과_04_실전모의.pdf",
+    "volume05": "작업_공통영어2_1과/예비렌더_LibreOffice/분권/혼공독해교재_공통영어2_YBM(박)_1과_05_정답해설지.pdf"
+  },
+  "page_counts": {
+    "integrated": 53,
+    "volume04": 7,
+    "volume05": 11,
+    "all_A4": true,
+    "unchanged_from_previous": true
+  },
+  "baseline_for_comparison": "git 2b786ff의 이전 LibreOffice 렌더(통합본 53쪽, 04분권 7쪽, 05분권 11쪽)",
+  "pages_reviewed": {
+    "integrated_detail": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "integrated_thumbnail": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "volume04": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "volume05": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "method": [
+    "110dpi 쪽 이미지(scratchpad r3/ib, i4, i5) 육안 검토: 통합본 p36~53 상세, p1~35 썸네일 시트",
+    "r3/book.pdf의 sha256이 게시 통합본과 같고, p48을 다시 렌더해 r3/ib/p-48.png와 픽셀 동일함을 확인(이미지=검수 대상 PDF)",
+    "60dpi 그레이 렌더로 이전 렌더(2b786ff)와 쪽별 픽셀 차분",
+    "pdftotext 쪽별 텍스트로 옛/새 문구 비교, 04·05분권과 통합본 p36~42·p43~53의 텍스트 비교(쪽번호 외 동일)",
+    "pdftotext -bbox-layout 줄 좌표로 본문 하단 위치 측정, 110dpi 픽셀 스캔으로 꼬리말 선(약 791.3pt, 1209px)과 마지막 글자 사이 여유 측정",
+    "FINAL.txt의 Q05·Q08·Q13·Q15 각 줄을 공백 제거 후 PDF 텍스트에서 검색"
+  ],
+  "change_footprint": {
+    "integrated_pages_pixel_identical_to_previous": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      37,
+      38,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      50,
+      53
+    ],
+    "integrated_pages_changed": {
+      "36": "1회 1번 ①④ 줄만",
+      "39": "2회 4번 ⑤ 줄만",
+      "40": "3회 1번 선택지 ①②⑤ 줄만",
+      "48": "Q05 해설·선지 해석·오답 정리(약 2줄 증가, 쪽 안에서 흡수)",
+      "49": "Q08 오답 ② 한 줄",
+      "51": "Q13 선지 해석 ⑤·오답 ③⑤",
+      "52": "Q15 선지 해석 ①②⑤·오답 ①②⑤"
+    },
+    "volume04_pages_changed": [
+      1,
+      4,
+      5
+    ],
+    "volume05_pages_changed": [
+      6,
+      7,
+      9,
+      10
+    ],
+    "page_break_positions_unchanged": true,
+    "per_page_first_and_last_body_lines_unchanged": "p36~53 모두 첫 줄·끝 줄 텍스트가 이전 렌더와 같음(p48은 끝 줄 같고 하단 좌표만 27.6pt 내려감)"
+  },
+  "checks": {
+    "question_separated_from_choices": "없음",
+    "shared_passage_4_5_separated_from_questions": "없음(1·2·3회 모두 [4~5] 지문+4번 선택지+5번 발문이 한 쪽)",
+    "stranded_title_at_page_bottom": "없음",
+    "clipping_or_footer_intrusion": "없음(최소 여유 p36·04분권 p1의 4~6pt, 기존과 같음)",
+    "right_margin": "본문 최대 x 559.3~559.9pt, 오른쪽 여백선 안",
+    "blank_pages": "없음",
+    "explanation_block_lone_heading": "없음(p48|49, p52|53 분할은 정답 근거/오답 정리 단위, 양쪽 모두 제목+본문)"
+  },
+  "boundaries": [
+    {
+      "volume": "integrated",
+      "boundary": "35|36",
+      "prev_page_ends_with": "문단4 워크북 끝",
+      "next_page_starts_with": "1과 미니 모의고사 1회 제목(새 쪽)",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "36|37",
+      "prev_page_ends_with": "1회 3번 본문 끝(선택지 ①~⑤가 본문 안에 들어간 문장 삽입형, 쪽 안에서 완결)",
+      "next_page_starts_with": "[4~5] 공유 지문 머리글+지문",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "37|38",
+      "prev_page_ends_with": "1회 5번 발문(선택지는 [4~5] 지문의 밑줄, 같은 쪽)",
+      "next_page_starts_with": "1과 미니 모의고사 2회 제목(새 쪽)",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "38|39",
+      "prev_page_ends_with": "2회 3번 본문 끝(선택지 ①~⑤가 본문 안에 들어간 무관한 문장형, 쪽 안에서 완결)",
+      "next_page_starts_with": "[4~5] 공유 지문 머리글+지문",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "39|40",
+      "prev_page_ends_with": "2회 5번 발문(선택지는 [4~5] 지문의 밑줄, 같은 쪽)",
+      "next_page_starts_with": "1과 미니 모의고사 3회 제목(새 쪽)",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "40|41",
+      "prev_page_ends_with": "3회 2번 선택지 ⑤ are easily led into ...",
+      "next_page_starts_with": "3회 3번 발문+〈주어진 글〉+(A)~(C)+선택지 ①~⑤",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "41|42",
+      "prev_page_ends_with": "3회 3번 선택지 ⑤ C → B → A",
+      "next_page_starts_with": "[4~5] 공유 지문 머리글+지문",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "42|43",
+      "prev_page_ends_with": "3회 5번 발문(선택지는 [4~5] 지문의 밑줄, 같은 쪽)",
+      "next_page_starts_with": "1과 정답과 해설 제목+객관식 빠른 정답(새 쪽)",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "43|44",
+      "prev_page_ends_with": "빠른 정답 3회 줄",
+      "next_page_starts_with": "문단 1 워크북 정답 제목",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "44|45",
+      "prev_page_ends_with": "문단1 워크북 정답 5. 핵심 문장 해석 끝",
+      "next_page_starts_with": "문단 2 워크북 정답 제목",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "45|46",
+      "prev_page_ends_with": "문단2 워크북 정답 끝",
+      "next_page_starts_with": "문단 3 워크북 정답 제목",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "46|47",
+      "prev_page_ends_with": "문단3 워크북 정답 끝",
+      "next_page_starts_with": "문단 4 워크북 정답 제목",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "47|48",
+      "prev_page_ends_with": "문단4 워크북 정답 끝",
+      "next_page_starts_with": "미니 모의고사 1회 정답과 해설 제목",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "48|49",
+      "prev_page_ends_with": "1회 3번 해설: '3. ②'+정답 근거 제목+영문 근거+한글 해설 2줄",
+      "next_page_starts_with": "1회 3번 오답 정리 제목+①③④⑤",
+      "result": "OK",
+      "note": "해설 블록이 정답 근거/오답 정리 사이에서 나뉘지만 양쪽 모두 제목+본문을 갖춰 외톨이 제목 아님. 이 분할 위치는 수정 전 렌더와 같음(p48 끝 줄·p49 첫 줄 텍스트 동일)"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "49|50",
+      "prev_page_ends_with": "1회 5번 오답 정리 ⑤",
+      "next_page_starts_with": "미니 모의고사 2회 정답과 해설 제목(새 쪽)",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "50|51",
+      "prev_page_ends_with": "2회 3번 오답 정리 ⑤",
+      "next_page_starts_with": "2회 '4. ②' 정답 근거 시작",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "51|52",
+      "prev_page_ends_with": "2회 5번 오답 정리 ⑤",
+      "next_page_starts_with": "미니 모의고사 3회 정답과 해설 제목(새 쪽)",
+      "result": "OK"
+    },
+    {
+      "volume": "integrated",
+      "boundary": "52|53",
+      "prev_page_ends_with": "3회 3번 해설: '3. ③'+정답 근거 제목+영문 근거+한글 해설 4줄",
+      "next_page_starts_with": "3회 3번 오답 정리 제목+①②④⑤",
+      "result": "OK",
+      "note": "48|49와 같은 형태. 외톨이 제목 아님, 수정 전과 같은 분할 위치"
+    },
+    {
+      "volume": "volume04",
+      "boundary": "1|2",
+      "prev_page_ends_with": "1회 3번 본문 끝(선택지 ①~⑤가 본문 안에 들어간 문장 삽입형, 쪽 안에서 완결)",
+      "next_page_starts_with": "[4~5] 공유 지문 머리글+지문",
+      "result": "OK",
+      "note": "통합본 36|37와 같은 내용·같은 분할"
+    },
+    {
+      "volume": "volume04",
+      "boundary": "2|3",
+      "prev_page_ends_with": "1회 5번 발문(선택지는 [4~5] 지문의 밑줄, 같은 쪽)",
+      "next_page_starts_with": "1과 미니 모의고사 2회 제목(새 쪽)",
+      "result": "OK",
+      "note": "통합본 37|38와 같은 내용·같은 분할"
+    },
+    {
+      "volume": "volume04",
+      "boundary": "3|4",
+      "prev_page_ends_with": "2회 3번 본문 끝(선택지 ①~⑤가 본문 안에 들어간 무관한 문장형, 쪽 안에서 완결)",
+      "next_page_starts_with": "[4~5] 공유 지문 머리글+지문",
+      "result": "OK",
+      "note": "통합본 38|39와 같은 내용·같은 분할"
+    },
+    {
+      "volume": "volume04",
+      "boundary": "4|5",
+      "prev_page_ends_with": "2회 5번 발문(선택지는 [4~5] 지문의 밑줄, 같은 쪽)",
+      "next_page_starts_with": "1과 미니 모의고사 3회 제목(새 쪽)",
+      "result": "OK",
+      "note": "통합본 39|40와 같은 내용·같은 분할"
+    },
+    {
+      "volume": "volume04",
+      "boundary": "5|6",
+      "prev_page_ends_with": "3회 2번 선택지 ⑤ are easily led into ...",
+      "next_page_starts_with": "3회 3번 발문+〈주어진 글〉+(A)~(C)+선택지 ①~⑤",
+      "result": "OK",
+      "note": "통합본 40|41와 같은 내용·같은 분할"
+    },
+    {
+      "volume": "volume04",
+      "boundary": "6|7",
+      "prev_page_ends_with": "3회 3번 선택지 ⑤ C → B → A",
+      "next_page_starts_with": "[4~5] 공유 지문 머리글+지문",
+      "result": "OK",
+      "note": "통합본 41|42와 같은 내용·같은 분할"
+    },
+    {
+      "volume": "volume05",
+      "boundary": "1|2",
+      "prev_page_ends_with": "빠른 정답 3회 줄",
+      "next_page_starts_with": "문단 1 워크북 정답 제목",
+      "result": "OK",
+      "note": "통합본 43|44와 같은 내용·같은 분할"
+    },
+    {
+      "volume": "volume05",
+      "boundary": "2|3",
+      "prev_page_ends_with": "문단1 워크북 정답 5. 핵심 문장 해석 끝",
+      "next_page_starts_with": "문단 2 워크북 정답 제목",
+      "result": "OK",
+      "note": "통합본 44|45와 같은 내용·같은 분할"
+    },
+    {
+      "volume": "volume05",
+      "boundary": "3|4",
+      "prev_page_ends_with": "문단2 워크북 정답 끝",
+      "next_page_starts_with": "문단 3 워크북 정답 제목",
+      "result": "OK",
+      "note": "통합본 45|46와 같은 내용·같은 분할"
+    },
+    {
+      "volume": "volume05",
+      "boundary": "4|5",
+      "prev_page_ends_with": "문단3 워크북 정답 끝",
+      "next_page_starts_with": "문단 4 워크북 정답 제목",
+      "result": "OK",
+      "note": "통합본 46|47와 같은 내용·같은 분할"
+    },
+    {
+      "volume": "volume05",
+      "boundary": "5|6",
+      "prev_page_ends_with": "문단4 워크북 정답 끝",
+      "next_page_starts_with": "미니 모의고사 1회 정답과 해설 제목",
+      "result": "OK",
+      "note": "통합본 47|48와 같은 내용·같은 분할"
+    },
+    {
+      "volume": "volume05",
+      "boundary": "6|7",
+      "prev_page_ends_with": "1회 3번 해설: '3. ②'+정답 근거 제목+영문 근거+한글 해설 2줄",
+      "next_page_starts_with": "1회 3번 오답 정리 제목+①③④⑤",
+      "result": "OK",
+      "note": "통합본 48|49와 같은 내용·같은 분할; 해설 블록이 정답 근거/오답 정리 사이에서 나뉘지만 양쪽 모두 제목+본문을 갖춰 외톨이 제목 아님. 이 분할 위치는 수정 전 렌더와 같음(p48 끝 줄·p49 첫 줄 텍스트 동일)"
+    },
+    {
+      "volume": "volume05",
+      "boundary": "7|8",
+      "prev_page_ends_with": "1회 5번 오답 정리 ⑤",
+      "next_page_starts_with": "미니 모의고사 2회 정답과 해설 제목(새 쪽)",
+      "result": "OK",
+      "note": "통합본 49|50와 같은 내용·같은 분할"
+    },
+    {
+      "volume": "volume05",
+      "boundary": "8|9",
+      "prev_page_ends_with": "2회 3번 오답 정리 ⑤",
+      "next_page_starts_with": "2회 '4. ②' 정답 근거 시작",
+      "result": "OK",
+      "note": "통합본 50|51와 같은 내용·같은 분할"
+    },
+    {
+      "volume": "volume05",
+      "boundary": "9|10",
+      "prev_page_ends_with": "2회 5번 오답 정리 ⑤",
+      "next_page_starts_with": "미니 모의고사 3회 정답과 해설 제목(새 쪽)",
+      "result": "OK",
+      "note": "통합본 51|52와 같은 내용·같은 분할"
+    },
+    {
+      "volume": "volume05",
+      "boundary": "10|11",
+      "prev_page_ends_with": "3회 3번 해설: '3. ③'+정답 근거 제목+영문 근거+한글 해설 4줄",
+      "next_page_starts_with": "3회 3번 오답 정리 제목+①②④⑤",
+      "result": "OK",
+      "note": "통합본 52|53와 같은 내용·같은 분할; 48|49와 같은 형태. 외톨이 제목 아님, 수정 전과 같은 분할 위치"
+    }
+  ],
+  "text_presence": [
+    {
+      "item": "1회 1번 ①",
+      "expected": "Fake news spreads mainly because people share it by mistake, not on purpose.",
+      "found_in": [
+        "FINAL.txt 429행",
+        "통합본 p36",
+        "04분권 p1",
+        "05분권 p6·통합본 p48 선지 해석(한글 뜻 포함)"
+      ],
+      "present": true
+    },
+    {
+      "item": "1회 1번 ④",
+      "expected": "After an earthquake, thousands of Ambon residents spent two weeks away from their homes.",
+      "found_in": [
+        "FINAL.txt 432행",
+        "통합본 p36",
+        "04분권 p1",
+        "05분권 p6·통합본 p48"
+      ],
+      "present": true
+    },
+    {
+      "item": "2회 4번 ⑤",
+      "expected": "Check Your Biases: The One Rule for Reading News",
+      "found_in": [
+        "FINAL.txt 735행",
+        "통합본 p39",
+        "04분권 p4",
+        "05분권 p9·통합본 p51"
+      ],
+      "present": true
+    },
+    {
+      "item": "3회 1번 선택지",
+      "expected": "① critically …… popular / ② objectively …… familiar / ③ quickly …… trustworthy / ④ critically …… trustworthy / ⑤ emotionally …… trustworthy",
+      "found_in": [
+        "FINAL.txt 797~801행",
+        "통합본 p40",
+        "04분권 p5",
+        "05분권 p10·통합본 p52 선지 해석"
+      ],
+      "present": true
+    },
+    {
+      "item": "Q05 해설(1회 1번)",
+      "expected": "해설 '사회를 어지럽히며 대중에게 …'; 오답 ① '‘주로’ 실수 때문에 퍼진다고 하지는 않았다…', ④ '예시의 세부 내용일 뿐, 글 전체의 요지가 아니다'; 선지 해석 ①④ 새 한글 뜻",
+      "found_in": [
+        "통합본 p48",
+        "05분권 p6"
+      ],
+      "present": true
+    },
+    {
+      "item": "Q08 해설(1회 4번)",
+      "expected": "오답 ② '선거 뉴스가 공정한지는 다루지 않으며, … 확증 편향의 예로만 나온다.'",
+      "found_in": [
+        "통합본 p49",
+        "05분권 p7"
+      ],
+      "present": true
+    },
+    {
+      "item": "Q13 해설(2회 4번)",
+      "expected": "선지 해석 ⑤ '(편견을 점검하라: 뉴스 읽기의 단 하나의 규칙)'; 오답 ③ '자기 의견에 맞는 기사만 읽고 있지 않은지 스스로 점검하라고…', ⑤ '편견 점검은 글이 제시한 네 가지 방법 중 하나일 뿐…'",
+      "found_in": [
+        "통합본 p51",
+        "05분권 p9"
+      ],
+      "present": true
+    },
+    {
+      "item": "Q15 해설(3회 1번)",
+      "expected": "선지 해석 ①~⑤ 새 선택지+한글 뜻; 오답 ① (A)는 맞지만 인기…, ② (A)의 objectively…익숙한지가 아니라…, ③ (B)는 맞지만 빨리…, ⑤ (B)는 맞지만 감정적으로…",
+      "found_in": [
+        "통합본 p52",
+        "05분권 p10"
+      ],
+      "present": true
+    },
+    {
+      "item": "옛 문구 잔존 여부",
+      "expected": "'Most fake news is created…', 'Earthquakes cause far more confusion…', 'How to Write News That Gets More Clicks', 'quickly …… popular', 'emotionally …… famous' 없음",
+      "found_in": [
+        "통합본·04·05 PDF pdftotext 검색 0건"
+      ],
+      "present": false,
+      "result": "OK(잔존 없음)"
+    },
+    {
+      "item": "FINAL.txt ↔ PDF 대조",
+      "expected": "Q05·Q08·Q13·Q15의 QUESTION·CHOICES·EVIDENCE·EXPLANATION·WRONG_ANALYSIS·CHOICES_KR 각 줄(공백 제거 비교)이 통합본과 04/05분권 텍스트에 모두 존재",
+      "found_in": [
+        "메타 항목(SOURCE_RANGE, 세트 ID)만 비표시 — 정상"
+      ],
+      "present": true
+    }
+  ],
+  "status": "PASS",
+  "findings": [
+    {
+      "id": "OBS-1",
+      "severity": "none(관찰)",
+      "where": "통합본 p36·04분권 p1 하단",
+      "detail": "1회 3번 지문 마지막 줄 하단(통합본 786.6pt, 분권 788.6pt)과 꼬리말 선(약 791.3pt) 사이 여유가 4~6pt로 좁음. 겹침·잘림 없음. 수정 전 렌더와 같은 값(이번 수정 범위 밖)이라 조치 불필요.",
+      "action": "없음"
+    },
+    {
+      "id": "OBS-2",
+      "severity": "none(관찰)",
+      "where": "통합본 p48·05분권 p6",
+      "detail": "Q05 해설이 약 2줄 늘어 본문 하단이 744.6pt→772.2pt로 내려옴. 꼬리말 선까지 약 19pt(110dpi 33px) 여유, 다음 쪽 분할 위치(1회 3번 정답 근거/오답 정리)는 변하지 않음.",
+      "action": "없음"
+    },
+    {
+      "id": "OBS-3",
+      "severity": "none(관찰)",
+      "where": "통합본 p37·p39·p42, p41, p43",
+      "detail": "[4~5] 세트 쪽과 3회 3번 쪽, 빠른 정답 쪽의 아래쪽 여백이 큼. 회차·정답 절 앞 쪽나눔에 따른 기존 디자인이며 수정 전과 같음. 빈 쪽은 아님.",
+      "action": "없음"
+    }
+  ],
+  "summary_ko": "통합본 53쪽·04분권 7쪽·05분권 11쪽 모두 쪽수와 쪽나눔 위치가 수정 전과 같다. 변경은 문구가 바뀐 줄(통합본 p36·39·40·48·49·51·52, 04분권 p1·4·5, 05분권 p6·7·9·10)에만 있고, p1~35는 이전 렌더와 픽셀까지 같다. 새 선택지와 수정 해설이 세 PDF에 모두 들어갔고, 옛 문구는 남아 있지 않다. 발문·선택지 분리, [4~5] 분리, 외톨이 제목, 잘림·꼬리말 침범, 빈 쪽은 없다. PASS."
+}
