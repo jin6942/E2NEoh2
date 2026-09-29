@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "kind": "INTEGRATED_PLUS_FIVE_DOCX",
+  "delivery_mode": "integrated_plus_five_docx",
+  "filename_base": "혼공독해교재_공통영어2_YBM(박)_1과FurtherReading",
+  "source_docx": {
+    "path": "/home/user/E2NEoh2/결과물/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_전체통합본.docx",
+    "sha256": "8b76dc77cb1a6d56e0acb7857b9345dbb9b2b79eaba068ec298ff72313cafe82"
+  },
+  "plan": {
+    "path": "/home/user/E2NEoh2/작업_공통영어2_1과FR/검사기록/05_전체_역할계획.json",
+    "sha256": "e86a5e6ff22212b51b74de3035bbd4f8792ebebb60152ea15fe9d6c8eeb05661"
+  },
+  "integrated_docx": {
+    "path": "/home/user/E2NEoh2/결과물/출고_FR_20260929/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_전체통합본.docx",
+    "filename": "혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_전체통합본.docx",
+    "sha256": "8b76dc77cb1a6d56e0acb7857b9345dbb9b2b79eaba068ec298ff72313cafe82"
+  },
+  "source_coverage": [
+    "cover",
+    "u1/reading",
+    "u1/analysis",
+    "u1/workbook",
+    "mock1",
+    "answers/quick",
+    "u1/answers",
+    "answers/mock1"
+  ],
+  "cover_policy": "PRESERVED_ONCE_IN_READING",
+  "volumes": [
+    {
+      "kind": "reading",
+      "filename": "혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_01_해석지.docx",
+      "path": "/home/user/E2NEoh2/결과물/출고_FR_20260929/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_01_해석지.docx",
+      "sha256": "bb4d25994913242dae642c652cdc533f435db4210b785f716cf46102d117e2f9",
+      "block_ids": [
+        "cover",
+        "u1/reading"
+      ],
+      "block_sha256": {
+        "cover": "7946960635ec754d413b63c519ea629d413a502aca4a17d702bdf03be8ada5ba",
+        "u1/reading": "c0c3505413d112d6c316c69d252ddf8df35e7b8b9f3600febb09e44b0f55f0ee"
+      }
+    },
+    {
+      "kind": "analysis",
+      "filename": "혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_02_지문분석지.docx",
+      "path": "/home/user/E2NEoh2/결과물/출고_FR_20260929/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_02_지문분석지.docx",
+      "sha256": "afda022b4ff6efd9579b5bc22b512af24a2b2dabf5deea540b1ddd964c20d213",
+      "block_ids": [
+        "u1/analysis"
+      ],
+      "block_sha256": {
+        "u1/analysis": "bd4837ec527412b17f10de0cd4b4f207d4711f555a518ab76a48ecbbac61d8df"
+      }
+    },
+    {
+      "kind": "workbook",
+      "filename": "혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_03_워크북+변형문제.docx",
+      "path": "/home/user/E2NEoh2/결과물/출고_FR_20260929/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_03_워크북+변형문제.docx",
+      "sha256": "13f42b5587e65f0a7d01be7d7e7625a1180d4e31ad1de34978fba4469c90ca71",
+      "block_ids": [
+        "u1/workbook"
+      ],
+      "block_sha256": {
+        "u1/workbook": "a05761875596fd8841e932862d3b99e6bd11e9de020e6b50ce7cae2b28eede29"
+      }
+    },
+    {
+      "kind": "mock",
+      "filename": "혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_04_실전모의.docx",
+      "path": "/home/user/E2NEoh2/결과물/출고_FR_20260929/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_04_실전모의.docx",
+      "sha256": "d5b168ef34b12237aa5d691d15f02ab4789eddb90a8ac13d2c15f3b60565a973",
+      "block_ids": [
+        "mock1"
+      ],
+      "block_sha256": {
+        "mock1": "b7394e34132a31da98db0e2b6a15c119a383a29e6869ef46a83a8c7ad269bd52"
+      }
+    },
+    {
+      "kind": "answers",
+      "filename": "혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_05_정답해설지.docx",
+      "path": "/home/user/E2NEoh2/결과물/출고_FR_20260929/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_05_정답해설지.docx",
+      "sha256": "fc9febf735f54f54a948332fc80fb8109f55193d8d73aff6fe3263e3e4f8acec",
+      "block_ids": [
+        "answers/quick",
+        "u1/answers",
+        "answers/mock1"
+      ],
+      "block_sha256": {
+        "answers/quick": "a0460df5f4025349722f741ad34e9409133892f9f63438fbbc073093e87a977b",
+        "u1/answers": "68a95227c5ad33e72759ea1b79458b347445685f6a4eff92ca4dfc5d2f07b948",
+        "answers/mock1": "e153c5f279a30bb8662db7ac0ca3fdbc29ef8fca88529b9e895a011114e9cafc"
+      }
+    }
+  ],
+  "visual_review": "NOT_PERFORMED",
+  "release_authorization": "NOT_PERFORMED",
+  "delivery_zip": {
+    "path": "/home/user/E2NEoh2/결과물/출고_FR_20260929/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading.zip",
+    "filename": "혼공독해교재_공통영어2_YBM(박)_1과FurtherReading.zip",
+    "sha256": "9d3cc15665236460be9800932f6629fa0d06295b545b191878f2091d09143c6d",
+    "docx_entry_sha256": {
+      "혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_전체통합본.docx": "8b76dc77cb1a6d56e0acb7857b9345dbb9b2b79eaba068ec298ff72313cafe82",
+      "혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_01_해석지.docx": "bb4d25994913242dae642c652cdc533f435db4210b785f716cf46102d117e2f9",
+      "혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_02_지문분석지.docx": "afda022b4ff6efd9579b5bc22b512af24a2b2dabf5deea540b1ddd964c20d213",
+      "혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_03_워크북+변형문제.docx": "13f42b5587e65f0a7d01be7d7e7625a1180d4e31ad1de34978fba4469c90ca71",
+      "혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_04_실전모의.docx": "d5b168ef34b12237aa5d691d15f02ab4789eddb90a8ac13d2c15f3b60565a973",
+      "혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_05_정답해설지.docx": "fc9febf735f54f54a948332fc80fb8109f55193d8d73aff6fe3263e3e4f8acec"
+    }
+  },
+  "saved_validation": {
+    "status": "SPLIT_CONTENT_MATCH",
+    "errors": [],
+    "protected_paths": [
+      "/home/user/E2NEoh2/결과물/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_전체통합본.docx",
+      "/home/user/E2NEoh2/작업_공통영어2_1과FR/검사기록/05_전체_역할계획.json",
+      "/home/user/E2NEoh2/결과물/출고_FR_20260929/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_전체통합본.docx",
+      "/home/user/E2NEoh2/결과물/출고_FR_20260929/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_01_해석지.docx",
+      "/home/user/E2NEoh2/결과물/출고_FR_20260929/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_02_지문분석지.docx",
+      "/home/user/E2NEoh2/결과물/출고_FR_20260929/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_03_워크북+변형문제.docx",
+      "/home/user/E2NEoh2/결과물/출고_FR_20260929/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_04_실전모의.docx",
+      "/home/user/E2NEoh2/결과물/출고_FR_20260929/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_05_정답해설지.docx",
+      "/home/user/E2NEoh2/결과물/출고_FR_20260929/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading.zip"
+    ],
+    "checked_volumes": [
+      "reading",
+      "analysis",
+      "workbook",
+      "mock",
+      "answers"
+    ],
+    "checked_docx_count": 6,
+    "integrated_copy": "BYTE_IDENTICAL",
+    "source_block_count": 8,
+    "delivery_zip": "SIX_DOCX_EXACT_BYTES",
+    "content_and_format_preservation": "EXACT_PARTITION",
+    "visual_review": "NOT_PERFORMED",
+    "release_authorization": "NOT_PERFORMED"
+  }
+}
