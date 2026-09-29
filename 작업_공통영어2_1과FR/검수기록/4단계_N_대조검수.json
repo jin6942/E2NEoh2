@@ -1,0 +1,140 @@
+{
+  "reviewer_id": "N",
+  "role": "N",
+  "kind": "questions",
+  "independent": true,
+  "solved_before_answer_key": true,
+  "blind_record": "검수기록/4단계_N_블라인드풀이.json (정답·원고·HANDOFF를 열기 전에 저장함)",
+  "answers": {"Q01": 2, "Q02": 3, "Q03": 2, "Q04": 4},
+  "key": {"Q01": 2, "Q02": 3, "Q03": 2, "Q04": 4},
+  "blind_vs_key": "4/4",
+  "length_reviews": {
+    "Q02": {
+      "status": "PASS",
+      "benchmark_ids": ["202603241-Q36", "202606041-Q36", "202609021-Q36"],
+      "rationale": "82단어(프로필 공백 기준 계산으로 확인). 기준 134/160/168단어의 49~61%로 기준보다 크게 짧고 문단이 각 1문장이다. 그러나 선생님 기준(전문 사용 불필요, 약 100단어 단일 문항 지문 허용)에서 82단어는 '약 100단어'의 하단 경계 안에 든다고 판단한다. 순서 단서(However 대조-정의-also 확장)가 모두 지문 안에 있어 정답이 유일하게 도출되고, 원문 172단어를 Q02(1~4문장)와 Q03·Q04(5~9문장)로 나눈 구조상 (A)에 5문장을 붙이면 Q03·Q04 지문 첫 문장 'This can distort...'와 겹쳐 (A)가 마지막이라는 외부 단서가 생기므로 늘리지 않는 편이 옳다. 짧은 것은 기록해 두되 불합격 사유는 아니다."
+    },
+    "Q03": {
+      "status": "PASS",
+      "benchmark_ids": ["202603241-Q21", "202606041-Q21", "202609021-Q21"],
+      "rationale": "90단어. 기준 154/149/175단어의 51~60%로 짧지만 선생님 기준(약 100단어 허용) 안에 든다. 밑줄 this trap의 지시 대상(an echo chamber)과 이를 피하는 방법(다양한 정보원·다른 견해·열린 마음)이 모두 지문 안에 있어 함축 의미를 지문만으로 도출할 수 있다. 단, 첫 문장 'This'의 선행사가 지문 밖에 있다(concerns 참조)."
+    },
+    "Q04": {
+      "status": "PASS",
+      "benchmark_ids": ["202603241-Q40", "202606041-Q40", "202609021-Q40"],
+      "rationale": "90단어. 기준 136/166/182단어의 49~66%로 짧지만 선생님 기준(약 100단어 허용) 안에 든다. 요약문의 두 빈칸 근거(distort ↔ twist, seek diverse sources ↔ seek out)가 모두 지문 안에 있다. 길이 자체는 합격이지만 요약문만 보고도 풀 수 있는 문제와 오답 구성 문제는 concerns에 따로 적었다."
+    }
+  },
+  "verified_ok": [
+    "4문항 PASSAGE·GIVEN·BLOCKS가 원본 PDF 4쪽 왼쪽 단 영어 본문과 글자 단위로 일치(Q01 전문 1073자 일치, Q03·Q04 지문은 원문 5~9문장 연속 구간과 일치)",
+    "4문항 EVIDENCE 인용 조각이 모두 원문에 그대로 있음",
+    "빠른 정답 Q01=2, Q02=3, Q03=2, Q04=4가 ANSWER와 블라인드 풀이 결과와 일치",
+    "Q03 PROMPT_UNDERLINES [[5,14]]가 발문 안의 'this trap'과 정확히 대응(블라인드 패킷의 [9,18]은 번호 '2.  ' 접두 포함 기준으로 같은 위치)",
+    "CHOICES_KR: Q01·Q03·Q04 모두 번호별 뜻이 영어 선택지와 맞음",
+    "워크북 learned_relation_uses 5건(u1-r3a Uniform, u1-r3s various, u1-r1s restrict, u1-r1a expand, u1-r2s encourage)의 term_id·choice_span·surface가 FINAL 유의어·반의어 3세트(limit/restrict/expand, foster/encourage/discourage, diverse/various/uniform)와 Q01 선택지 문자열에 정확히 대응",
+    "오늘의 낱말 8개가 FINAL ★ 표제어 8개와 같고, 정답의 뜻이 FINAL 각주의 뜻과 일치",
+    "유의어·반의어 9개 목록과 정답의 뜻이 FINAL [유의어·반의어]와 일치",
+    "구문 결합 4개의 표현·도움말·정답이 FINAL [구문으로 해석하기]와 일치",
+    "핵심 문장 2개(문장 2, 7)의 영어와 정답 해석이 FINAL [핵심 문장] 예 표시 문장과 [자연 해석]과 일치",
+    "Q01·Q02·Q04 정답 해설과 Q01·Q04 오답 이유는 지문 근거와 맞음"
+  ],
+  "status": "FIX_REQUIRED",
+  "findings": [
+    {
+      "id": "N-01",
+      "question_id": "Q04",
+      "current": "[요약문] An echo chamber can (A) ________ our understanding of reality and divide society, so we need to (B) ________ diverse information and different views. / ① improve …… seek out ② twist …… avoid ③ correct …… block ④ twist …… seek out ⑤ improve …… ignore",
+      "issue": "(1) 오답 ③ correct/block과 ⑤ improve/ignore는 (A)·(B) 둘 다 틀려, 이번 검수 기준인 '오답 쌍은 반쪽만 맞아야 한다'에 어긋난다. (2) 요약문에 병렬된 'and divide society'가 (A)를 부정어로 고정해(부정어는 twist뿐) (A)를 지문 없이 풀 수 있고, (B)의 avoid/block/ignore는 'diverse information and different views'와 상식적으로 어울리지 않아 지문을 읽지 않아도 ④가 나온다.",
+      "proposal": "요약문에서 'and divide society'를 삭제하고 오답을 모두 반쪽만 맞는 쌍으로 바꾼다. [요약문] An echo chamber can (A) ________ our understanding of reality, so we need to (B) ________ diverse information and different views. 선택지 ① improve …… seek out ② twist …… avoid ③ sharpen …… seek out ④ twist …… seek out ⑤ twist …… limit (정답 ④ 유지). CHOICES_KR ③ 날카롭게 하다 …… 찾아 나서다, ⑤ 왜곡하다 …… 제한하다. WRONG_ANALYSIS ③ '(B)는 맞지만, 에코 챔버는 현실에 대한 이해를 날카롭게 하는 것이 아니라 왜곡할 수 있다고 했다.' ⑤ '(A)는 맞지만, 다양한 정보와 다른 견해를 제한하는 것이 아니라 적극적으로 찾으라고 했다.' EXPLANATION의 '사회적 분열을 조장할 수 있으므로'는 요약문에서 뺀 내용이므로 '현실에 대한 이해를 왜곡할(distort) 수 있으므로'로 줄인다. 주의: 오답을 모두 반쪽만 맞게 만들면 정답 어휘가 두 칸에서 모두 최빈값(twist 3회, seek out 3회)이 되어 빈도로 찍을 수 있다. 반쪽 오답 원칙과 빈도 단서 가운데 무엇을 우선할지 선생님이 정해야 하며, 반쪽 원칙을 완화하면 오답 1개만 양쪽 오답으로 두는 것도 대안이다.",
+      "severity": "확정오류"
+    },
+    {
+      "id": "N-02",
+      "question_id": "Q03",
+      "current": "EXPLANATION: this trap은 앞에서 말한 에코 챔버, 곧 자신이 이미 동의하는 의견만 접하는 상황을 가리킨다. 그래서 이를 피하는 방법으로 다양한 정보 출처를 찾고 다른 견해를 가진 사람들과 교류하라고 한다. 따라서 자신이 이미 믿는 것과 맞는 견해에만 의존하는 것을 뜻하는 ②가 알맞다.",
+      "issue": "'자신이 이미 동의하는 의견만 접하는 상황'이라는 정의는 Q03 지문(원문 5~9문장)에 없고 Q02 지문(원문 4문장)에 있다. 해설의 핵심 단계가 발췌 밖 내용에 기대고 있어 assessment-content.md의 '교과서 발췌 문제도 정답 근거를 발췌 밖 내용에 의존하지 않는다'에 어긋난다. EVIDENCE는 지문 안 문장만 인용해 해설과 맞지 않는다.",
+      "proposal": "EXPLANATION: this trap은 바로 앞 문장의 an echo chamber(에코 챔버)를 가리킨다. 글은 이 함정을 피하려면 다양한 정보 출처를 적극적으로 찾고, 다른 견해를 가진 사람들과 교류하며, 새로운 생각을 논의할 때 열린 마음을 유지하라고 한다. 따라서 이 함정은 그 반대, 곧 자신이 이미 믿는 것과 맞는 견해에만 의존하는 것이므로 ②가 알맞다.",
+      "severity": "확정오류"
+    },
+    {
+      "id": "N-03",
+      "question_id": "Q03",
+      "current": "WRONG_ANALYSIS ①: 뉴스를 찾지 못하는 것이 아니라, 찾더라도 자기 생각과 같은 것만 접하는 것이 문제다.",
+      "issue": "뉴스를 골라 접하는 내용은 Q03 지문이 아닌 Q02 지문(원문 1문장)에 있다. 오답 이유가 발췌 밖 내용에 기댄다.",
+      "proposal": "① 정보를 찾지 못하는 것이 아니라, 다양한 정보 출처를 찾지 않고 다른 견해를 외면하는 것이 문제라고 했다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N-04",
+      "question_id": "Q03",
+      "current": "WRONG_ANALYSIS ③: 오히려 다른 견해를 가진 사람들과 교류하고 토론하라고 했으므로 반대 내용이다.",
+      "issue": "본문은 '토론하라'고 직접 말하지 않고(engage with people / keep an open mind when discussing new ideas), ③(토론에 시간을 너무 많이 씀)은 본문과 '반대'라기보다 함정의 내용이 아닐 뿐이다. 근거 표현이 부정확하다.",
+      "proposal": "③ 본문은 오히려 에코 챔버가 의미 있는 토론에 참여하는 능력을 제한한다고 했고 다른 견해를 가진 사람들과 교류하라고 했으므로, 토론에 시간을 많이 쓰는 것은 이 함정이 아니다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N-05",
+      "question_id": "Q03,Q04",
+      "current": "모의고사 1회 2번(Q03)과 3번(Q04)이 같은 90단어 지문(원문 5~9문장)을 각각 한 번씩, 총 두 번 싣는다. assessment.passage_groups는 [].",
+      "issue": "assessment-content.md '매회 마지막 두 문항의 공유 장문'은 마지막 두 문항이 한 지문을 공유할 때 '각 문항에 같은 지문을 두 번 싣지 않는다'고 하고 passage_groups 등록을 요구한다. 지금은 사실상 공유 지문인데 두 번 인쇄되고 그룹 등록도 없다. 또 Q04 요약문('so we need to ___ diverse information and different views')이 Q03의 해석 방향을 그대로 보여 준다(같은 지문이라 새 정보는 아님).",
+      "proposal": "선생님이 결정할 구성 문제다. (a) 공유 지문으로 확정하면 passage_groups에 {id, set_id:'mock1', question_ids:['Q03','Q04']}를 등록하고 [2~3] 안내 아래 지문을 한 번만 싣는다(기본 조합 제목+어휘와 다르므로 조합 승인 기록 필요). (b) 단일 문항으로 두려면 FR 1과 모의고사에 한해 같은 지문 반복을 허용한다는 결정을 기록한다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N-06",
+      "question_id": "Q03",
+      "current": "Q02 (A) 'The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with.' / Q03 정답 ② 'relying only on views that match what you already believe'",
+      "issue": "같은 모의고사 1회의 Q02 지문에 Q03 정답 ②와 사실상 같은 정의가 인쇄되어 있다. Q03은 자기 지문만으로도 풀리므로(해결책의 반대) 문항 오류는 아니지만, 다른 문항 지문이 정답의 뒷받침으로 작용한다.",
+      "proposal": "선생님이 판단할 사항이다. 원문 구조상 Q02에서 정의 문장을 뺄 수 없으므로 (a) 이 정도 겹침은 허용하고 N-02처럼 해설만 자기 지문 근거로 정리하거나, (b) 정답 표현을 Q02 (A)와 덜 겹치게 바꾼다(예: ② staying inside a narrow circle of like-minded information, CHOICES_KR '생각이 같은 정보의 좁은 울타리 안에 머무르는 것'). 개념상 겹침은 남는다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N-07",
+      "question_id": "Q03,Q04",
+      "current": "지문 첫 문장 'This can distort your understanding of reality, ...'",
+      "issue": "This의 선행 상황(원문 2~4문장)이 지문 밖에 있다. 다만 둘째 문장의 an echo chamber와 this trap으로 '에코 챔버 상황'임을 추론할 수 있고, 규칙상 본문 개작·지시 대상 보충은 금지이며, 범위를 4문장부터로 넓히면 Q02 (A)가 인쇄되어 (A)가 마지막 블록이라는 순서 단서가 생긴다.",
+      "proposal": "현행 지문 유지. 해설에서 This·this trap을 지문 안의 an echo chamber로 설명하도록 N-02처럼 고친다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N-08",
+      "question_id": "Q02",
+      "current": "WRONG_ANALYSIS ⑤: (C)의 뜻풀이가 용어를 꺼내는 (B)보다 먼저 나오고, (A)의 also도 (B) 뒤에 떨어져 흐름이 끊긴다.",
+      "issue": "C→B→A에서 (A)는 (B) 바로 뒤에 붙어 있어 '(B) 뒤에 떨어져'라는 표현이 맞지 않는다. 실제로는 (A)가 원래 뜻을 말한 (C)와 떨어져 있고, (C) 뒤의 However가 대조를 이루지 못하는 것이 배제 근거다.",
+      "proposal": "⑤ 주어진 글 바로 뒤에 (C)가 오면 아직 나오지 않은 에코 챔버의 뜻부터 풀이하게 되고, (C) 뒤에 오는 (B)의 However도 대조 관계를 이루지 못한다. 또 (A)의 also(또한)가 원래 뜻을 말한 (C)와 떨어진다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N-09",
+      "question_id": "Q02",
+      "current": "EVIDENCE: (B) “However, … can lead you to be trapped in an “echo chamber.”” / (C) “An echo chamber refers to an enclosed space …” / (A) “The term “echo chamber” is also used to describe …”",
+      "issue": "바깥 큰따옴표 안에 원문 큰따옴표가 겹쳐(“…“echo chamber.””) 읽기 어렵고, 다른 문항의 EVIDENCE 형식(바깥 따옴표 없음)과 다르다. 인용 조각 자체는 원문과 일치한다.",
+      "proposal": "EVIDENCE: (B) However, … can lead you to be trapped in an “echo chamber.” / (C) An echo chamber refers to an enclosed space … / (A) The term “echo chamber” is also used to describe …",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N-10",
+      "question_id": "Q02",
+      "current": "GIVEN 'These days, ... tastes or beliefs. ' / (B) '... an “echo chamber.” ' / (C) '... returns as an echo. ' (끝에 공백)",
+      "issue": "GIVEN, (B), (C) 문자열 끝에 공백이 남아 있다(블라인드 패킷에도 같음). 인쇄에는 보이지 않을 수 있으나 원문 복원 비교나 조판에서 차이가 날 수 있다.",
+      "proposal": "세 문자열의 끝 공백을 제거한다: '...tastes or beliefs.' / '...an “echo chamber.”' / '...returns as an echo.'",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N-11",
+      "question_id": "WB01",
+      "current": "[워크북 정답] 4. 구문 결합 3. 그것이 항상 그것이 사실이라는 것을 의미하는 것은 아니다 (FINAL [구문으로 해석하기] not always 항목의 '→ 그것이 항상 그것이 사실이라는 것을 의미하는 것은 아니다.'도 같음)",
+      "issue": "워크북과 FINAL은 서로 일치하지만 '그것이'가 겹쳐 한국어가 어색하다.",
+      "proposal": "워크북 정답과 FINAL을 함께 '그것이 사실이라는 것을 항상 의미하는 것은 아니다'로 바꾼다(또는 '그것이 항상 그것이 사실이라는 뜻은 아니다'). 두 곳을 반드시 같이 고친다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N-12",
+      "question_id": "Q01",
+      "current": "learned_relation_uses u1-r2s reason_ko: encourage가 foster(조장하다, 촉진하다)와 같은 뜻임을 알아도, 에코 챔버가 촉진하는 것은 협력이 아니라 사회적 분열임을 판단해야 함",
+      "issue": "FINAL 유의어·반의어의 foster 뜻은 '조장하다, 키우다'이고 '촉진하다'는 encourage의 뜻이다. term_id·span·surface는 맞다.",
+      "proposal": "encourage(촉진하다)가 foster(조장하다, 키우다)와 같은 뜻임을 알아도, 에코 챔버가 조장하는 것은 협력이 아니라 사회적 분열임을 판단해야 함",
+      "severity": "검토제안"
+    }
+  ]
+}

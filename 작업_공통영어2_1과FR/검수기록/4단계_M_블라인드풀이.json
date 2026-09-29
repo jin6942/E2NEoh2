@@ -1,0 +1,117 @@
+{
+  "reviewer_id": "M",
+  "role": "M",
+  "solved_before_answer_key": true,
+  "input_file": "작업_공통영어2_1과FR/검수입력/문제_블라인드.json",
+  "input_sha256": "cfdfc6bc66d01e622a96ca355a5ba3301574ebc66e405cb486941eebc17bae7f",
+  "input_sha256_note": "실제 파일 바이트의 sha256. 패킷 내부 표기 content_sha256=193fda1e68de108a5674168af9e7facccb09a28f27ddfb7df68e66884a304b92 (파일 자체 해시는 자기참조라 내부 표기 file_sha256 fe4b…와 다를 수 있음).",
+  "answers": {
+    "Q01": 2,
+    "Q02": 3,
+    "Q03": 2,
+    "Q04": 4
+  },
+  "rationales": {
+    "Q01": "후반부 'To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views ... keep an open mind'이 필자의 주장이므로 ②. ①④⑤는 본문과 반대(현실 이해 왜곡·비판적 사고/토론 능력 제한·사회 분열 조장), ③ 정부 규제는 언급 없음. 단일 정답, 복수 정답 없음.",
+    "Q02": "(B)가 However로 주어진 글(취향에 맞는 정보만 선택)을 받아 'echo chamber'를 따옴표로 처음 도입 → (C) An echo chamber의 원래 뜻(소리가 새지 않는 밀폐 공간) 정의 → (A) The term ... is also used로 비유적 의미 확장. B→C→A = ③. (A)의 also는 선행 정의가 필요해 첫 자리 불가, (C)가 처음이면 뉴스→echo chamber 연결이 끊김.",
+    "Q03": "this trap은 앞 문장의 an echo chamber에 빠지는 것이고, 해결책이 '다양한 정보원 찾기·다른 견해를 가진 사람과 교류·열린 마음'이므로 함정은 그 반대, 즉 이미 믿는 것과 맞는 견해에만 의존하는 것 → ②. ①⑤ 무관, ③ 토론 과다는 오히려 권장 방향, ④ 전문가 신뢰는 언급 없음.",
+    "Q04": "'This can distort your understanding of reality'(A=twist), 'foster social division'(divide society), 'actively seek diverse sources ... engage with people who have different views'(B=seek out) → ④ twist …… seek out. improve/correct는 distort와 반대, avoid/block/ignore는 seek와 반대."
+  },
+  "confidence": {
+    "Q01": "매우 높음(0.99)",
+    "Q02": "높음(0.97)",
+    "Q03": "높음(0.95)",
+    "Q04": "매우 높음(0.97)"
+  },
+  "checks": {
+    "Q01": {
+      "single_answer": "통과: ②만 정답, ①④⑤ 본문 반대, ③ 무언급",
+      "no_read_guess": "통과: ②가 가장 길지만 ⑤도 echo chamber를 포함하고 길이 차 작음",
+      "english": "자연스러움",
+      "cross_leak": "해당 없음(워크북 단독)",
+      "dangling": "없음(전문 172단어)"
+    },
+    "Q02": {
+      "single_answer": "통과: However/따옴표 첫 도입/정의/also의 연결로 B-C-A 유일",
+      "no_read_guess": "통과: 선택지 5개가 순열 6개 중 A-B-C만 제외한 표준 배열, 형식 단서 없음",
+      "english": "원문 그대로, 자연스러움. (B)(C)와 주어진 글 끝에 불필요한 후행 공백이 있음(표기상 사소)",
+      "cross_leak": "Q03·Q04 지문은 (A) 다음 문장 'This can distort…'부터 시작하므로 (A)(B)(C) 원래 순서가 다른 지문에 노출되지 않음 — 통과",
+      "dangling": "없음"
+    },
+    "Q03": {
+      "single_answer": "통과: ②만 정답",
+      "no_read_guess": "대체로 통과: ②가 가장 긴 선택지(약간의 길이 단서)",
+      "english": "선택지 자연스러움",
+      "cross_leak": "우려: Q02 (A) 'any situation in which you only hear opinions you already agree with'가 Q03 정답 ② 'relying only on views that match what you already believe'의 거의 직접적인 재진술. 같은 mock1에서 Q02가 Q03의 정답 단서를 인쇄함",
+      "dangling": "우려: 지문 첫 단어 This의 선행사(에코 체임버에 갇히는 것/동의하는 의견만 듣는 상황)가 지문 밖에 있음"
+    },
+    "Q04": {
+      "single_answer": "통과: ④만 정답",
+      "no_read_guess": "통과: twist·improve 각 2회, seek out 2회로 빈도 추측 불가",
+      "half_right": "불충족: ①(improve×/seek out○), ②(twist○/avoid×)는 반만 맞지만 ③ correct…block, ⑤ improve…ignore는 둘 다 틀린 완전 오답쌍",
+      "english": "요약문 자연스러움(twist our understanding of reality 허용 범위)",
+      "cross_leak": "Q03과 동일 지문 사용. 다른 문항 정답 단서 인쇄는 아님",
+      "dangling": "우려: Q03과 동일하게 첫 문장 This 선행사 없음"
+    }
+  },
+  "length_reviews": {
+    "Q02": {
+      "status": "PASS",
+      "measured_words": 82,
+      "benchmark_ids": ["202603241-Q36", "202606041-Q36", "202609021-Q36"],
+      "benchmark_words": [134, 160, 168],
+      "rationale": "벤치마크 최저 134단어의 약 61%로 짧다. 그러나 교사 기준상 '본문을 다 쓸 필요 없음, 단일 문항 약 100단어 허용'이며, FR 원문 전체가 172단어라 세 문항이 나눠 쓰는 구조상 길이가 제한된다. 주어진 글+(A)(B)(C) 각 1문장이지만 However·따옴표 첫 도입·정의·also라는 연결 단서가 모두 작동해 순서 판단이 성립하고 정답이 유일하다. 약 100단어 기준 대비 18단어 부족은 허용 범위로 보아 PASS. 다만 각 블록이 단일 문장이라 난도는 실제 학평보다 낮다는 점은 참고."
+    },
+    "Q03": {
+      "status": "PASS",
+      "measured_words": 90,
+      "benchmark_ids": ["202603241-Q21", "202606041-Q21", "202609021-Q21"],
+      "benchmark_words": [154, 149, 175],
+      "rationale": "벤치마크 최저 149단어의 약 60%이나 교사 기준 약 100단어에 근접(90단어)하고, 밑줄 this trap의 의미를 지문 내 해결책(다양한 정보원·다른 견해·열린 마음)과의 대조로 추론할 수 있어 문항이 성립한다. 길이 자체로는 PASS. 단, 길이와 별개로 첫 문장 This 선행사 부재와 Q02의 정답 단서 노출은 concerns에 기재."
+    },
+    "Q04": {
+      "status": "PASS",
+      "measured_words": 90,
+      "benchmark_ids": ["202603241-Q40", "202606041-Q40", "202609021-Q40"],
+      "benchmark_words": [136, 166, 182],
+      "rationale": "벤치마크 최저 136단어의 약 66%이나 교사 기준 약 100단어에 근접하고, 요약문 (A) 결과(distort)·(B) 해결책(seek)이 지문 안에서 모두 뒷받침되어 요약 문항으로 성립한다. PASS."
+    }
+  },
+  "concerns": [
+    {
+      "id": "M-B1",
+      "question_id": "Q03",
+      "type": "타 문항 정답 단서 노출",
+      "detail": "mock1 Q02 (A) 'The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with.'가 Q03 정답 ② 'relying only on views that match what you already believe'를 거의 그대로 제공한다. Q03은 자기 지문만으로도 풀리지만, 함축 의미의 핵심(에코 체임버=동의하는 의견만 듣는 상황)을 같은 세트의 다른 문항이 정의해 준다.",
+      "suggestion": "Q03 정답 선택지를 정의 문장과 표현이 겹치지 않도록 재진술(예: 'staying inside a circle of like-minded sources')하거나, Q03을 해당 정의가 없는 유형으로 바꾸는 방안 검토. 교사 기준(지문 밖 정답 단서 불가)에 따라 조정 권고."
+    },
+    {
+      "id": "M-B2",
+      "question_id": "Q03,Q04",
+      "type": "지시어 선행사 단절",
+      "detail": "Q03·Q04 지문 첫 문장 'This can distort your understanding of reality…'의 This가 지문 밖((A) 문장/에코 체임버에 갇히는 상황)을 가리킨다.",
+      "suggestion": "첫 문장을 'Being trapped in an echo chamber can distort your understanding of reality, …'로 최소 각색(정답 ②의 표현을 드러내지 않으면서 선행사 해소). Q02의 (A) 문장을 앞에 붙이는 방식은 Q02 순서 단서(A가 마지막)가 되므로 불가."
+    },
+    {
+      "id": "M-B3",
+      "question_id": "Q04",
+      "type": "요약 오답쌍 구성",
+      "detail": "③ correct …… block, ⑤ improve …… ignore는 (A)(B) 모두 틀린 완전 오답. '오답쌍은 반만 맞게' 기준 불충족.",
+      "suggestion": "예: ③ correct …… seek out, ⑤ twist …… ignore 로 바꾸어 모든 오답을 반정답으로 구성(①③: A 오답/B 정답, ②⑤: A 정답/B 오답). 이 경우 twist·seek out이 각 3회로 빈도 단서가 생기는 점은 트레이드오프이므로 기준 우선순위를 확인할 것."
+    },
+    {
+      "id": "M-B4",
+      "question_id": "Q03,Q04",
+      "type": "검토제안",
+      "detail": "3문항 미니 모의고사에서 Q03·Q04가 동일한 90단어 지문을 공유한다. 오류는 아니나 학생이 같은 지문을 두 번 읽게 된다.",
+      "suggestion": "현행 유지 가능(교사 기준상 본문 전부 사용 불필요). 필요 시 안내문 '[2~3] 다음 글을 읽고 물음에 답하시오.' 형태의 묶음 표기 검토."
+    },
+    {
+      "id": "M-B5",
+      "question_id": "Q02",
+      "type": "표기",
+      "detail": "주어진 글, (B), (C) 끝에 후행 공백이 있다.",
+      "suggestion": "후행 공백 제거(조판상 사소)."
+    }
+  ]
+}
