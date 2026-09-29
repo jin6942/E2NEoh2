@@ -23620,11 +23620,11 @@
     ],
     "answer": 3,
     "evidence": "Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. / It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved. / It is very common for fake news to spread during states of emergency.",
-    "explanation": "가짜 뉴스는 사람들을 조종하려는 의도적인 시도로, 사람들을 혼란스럽게 하고 사회에 심각한 해를 끼칠 수 있으며, 특히 비상사태 때 흔히 퍼진다. 암본 지진 사례는 이를 보여 준다. 따라서 ③이 요지다.",
+    "explanation": "가짜 뉴스는 사람들을 조종하려는 의도적인 시도로, 사람들을 혼란스럽게 하고 사회를 어지럽히며 대중에게 심각한 해를 끼칠 수 있고, 특히 비상사태 때 흔히 퍼진다. 암본 지진 사례는 이를 보여 준다. 따라서 ③이 요지다.",
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "지나처럼 실수로 퍼뜨리는 사람이 드물지 않다고는 했지만, 가짜 뉴스 자체는 사람들을 조종하려는 의도적인 시도이며 특정 집단이 목적을 가지고 만든다고 했으므로 요지가 될 수 없다."
+      "text": "지나처럼 실수로 퍼뜨리는 일이 드물지 않다고는 했지만, 가짜 뉴스가 ‘주로’ 실수 때문에 퍼진다고 하지는 않았다. 오히려 가짜 뉴스는 특정 집단이 목적을 가지고 사람들을 조종하려고 만든 의도적인 시도라고 했으므로 요지가 될 수 없다."
      },
      {
       "number": 2,
@@ -24104,7 +24104,7 @@
      },
      {
       "number": 3,
-      "text": "편견을 점검하고 반대 의견의 기사도 찾으라고 했을 뿐, 편향된 뉴스가 낫다는 내용은 없다."
+      "text": "자기 의견에 맞는 기사만 읽고 있지 않은지 스스로 점검하라고 했을 뿐, 편향된 뉴스가 낫다는 내용은 없다."
      },
      {
       "number": 4,
@@ -24231,7 +24231,7 @@
      },
      {
       "number": 5,
-      "text": "(B)는 맞지만, 감정이 아니라 비판적·객관적으로 판단하라고 했다."
+      "text": "(B)는 맞지만, 뉴스를 감정적으로 판단하라는 내용은 없고 비판적·객관적으로 판단하라고 했다."
      }
     ],
     "choices_ko": [
@@ -25009,7 +25009,7 @@
    "reason": "문단 3 분석 설명이 약 2줄 넘쳐 유의어/반의어 목록 2항목만 25쪽으로 넘어감(사용자 Word 확인). Word PDF는 받지 못해 evidence_pdf_sha256에는 같은 넘침이 보이는 LibreOffice 예비 렌더 PDF 해시를 기록함.",
    "kind": "compact_block",
    "profile": "spacing",
-   "content_sha256": "bd676256423aae4ef26f31726950c51b4f111e35f174370ab2e578aedf58fda6",
+   "content_sha256": "6cd4971b5060723d2a21a5fa23a0a684ba194332b45f7ed3a6d8c8035927df31",
    "renderer": "Microsoft Word",
    "evidence_pdf_sha256": "ac1927dce015edd1193d7d8b0204bab6b43dcf3547bc9b30a31e662b22ffddb2",
    "approval_reference": "2026-09-28 사용자 지시 “1. 다음쪽으로 넘어가. 수정해줘.” — 전달 교재를 Word로 열어 통합본 24~25쪽(u3)·34~35쪽(u4) 유의어/반의어 목록 넘침을 확인함. 소폭 조판 조정은 layout-rules 2026-09-25 승인 범위."
@@ -25020,7 +25020,7 @@
    "reason": "문단 4 분석 설명 끝 유의어/반의어 목록 objectively 1행만 35쪽으로 넘어감(사용자 Word 확인). Word PDF는 받지 못해 evidence_pdf_sha256에는 같은 넘침이 보이는 LibreOffice 예비 렌더 PDF 해시를 기록함.",
    "kind": "compact_block",
    "profile": "spacing",
-   "content_sha256": "bd676256423aae4ef26f31726950c51b4f111e35f174370ab2e578aedf58fda6",
+   "content_sha256": "6cd4971b5060723d2a21a5fa23a0a684ba194332b45f7ed3a6d8c8035927df31",
    "renderer": "Microsoft Word",
    "evidence_pdf_sha256": "ac1927dce015edd1193d7d8b0204bab6b43dcf3547bc9b30a31e662b22ffddb2",
    "approval_reference": "2026-09-28 사용자 지시 “1. 다음쪽으로 넘어가. 수정해줘.” — 전달 교재를 Word로 열어 통합본 24~25쪽(u3)·34~35쪽(u4) 유의어/반의어 목록 넘침을 확인함. 소폭 조판 조정은 layout-rules 2026-09-25 승인 범위."
