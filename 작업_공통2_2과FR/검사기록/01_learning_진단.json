@@ -1,0 +1,41 @@
+{
+  "status": "NOT_CERTIFIED",
+  "check_book": {
+    "status": "STRUCTURE_PASS",
+    "errors": [],
+    "learning": {
+      "status": "STRUCTURE_PASS",
+      "source_count": 1,
+      "unit_count": 1,
+      "sentence_count": 9,
+      "gloss_count": 130
+    },
+    "scope": "learning"
+  },
+  "diagnostic_counts": {
+    "ERROR": 0,
+    "WARNING": 0,
+    "INFO": 0
+  },
+  "diagnostics": [],
+  "thresholds": {
+    "hint_min_original_words": 15,
+    "hint_display_ratio": 0.8,
+    "choice_contiguous_words": 5
+  },
+  "formula_hints_excluded_from_ratio": 0,
+  "semantic_review": "NOT_PERFORMED",
+  "independent_reviews": "NOT_PERFORMED",
+  "saved_artifact_checks": "NOT_PERFORMED",
+  "visual_review": "NOT_PERFORMED",
+  "limitations": [
+    "Sentence counts are punctuation candidates; quoted speech and ambiguous boundaries require L review.",
+    "Overlap compares case-folded English/number tokens in each displayed passage; it cannot judge answer leakage or justified repetition.",
+    "Summary markers are structural only; choice/translation/explanation A/B meanings require L and M/N review.",
+    "Grammar omissions, preposition grouping, meaning and correct-answer uniqueness require existing L/M/N review.",
+    "No warning is an automatic edit, approval, or replacement for full final-artifact and release checks.",
+    "Learning scope excludes workbook and assessment checks; this report is not complete-book structure or release evidence."
+  ],
+  "scope": "learning",
+  "input_sha256": "820954a16acf9d69c5a82939b7e655531696a49a9a1708334409a1a33f9018d2"
+}
