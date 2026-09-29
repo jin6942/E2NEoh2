@@ -236,35 +236,6 @@
     ],
     "grammar_points": [
      {
-      "id": "u1-gp1",
-      "sentence_id": "s02",
-      "span": [
-       94,
-       142
-      ],
-      "title": "lead A to V: A(이/가) ~하게 만들다",
-      "formula_key": "lead A to V",
-      "explanation": "공식: lead A to V — A(이/가) ~하게 이끌다(만들다). can = ~할 수 있다, A = you(당신), to V = to be trapped(갇히게 되다: be p.p. 수동), in an “echo chamber” = 에코 챔버 안에. → 당신이 에코 챔버에 갇히게 만들 수 있다. 당신은 스스로 가두는 쪽이 아니라 ‘갇히는’ 쪽이라 to 뒤에 수동 be trapped를 쓴다.",
-      "practice": {
-       "span": [
-        94,
-        142
-       ],
-       "formula_support": {
-        "en": "lead A to V",
-        "ko": "A(이/가) ~하게 만들다"
-       },
-       "answer_ko": "당신이 에코 챔버에 갇히게 만들 수 있다",
-       "support_gloss_ids": [
-        "s02-g11",
-        "s02-g13",
-        "s02-g14",
-        "s02-g15",
-        "s02-g16"
-       ]
-      }
-     },
-     {
       "id": "u1-gp2",
       "sentence_id": "s04",
       "span": [
@@ -333,10 +304,6 @@
       "title": "be p.p.: ~되다 (현재 수동)",
       "formula_key": "be p.p.",
       "explanation": "공식: be p.p. — ~되다. S = The term “echo chamber”(‘에코 챔버’라는 용어), be = is, also = 또한, p.p. = used(사용된, use의 p.p.형). → ‘에코 챔버’라는 용어는 또한 사용된다. 용어는 스스로 사용하는 쪽이 아니라 사람들이 ‘사용하는’ 대상이라 수동을 쓴다.",
-      "supplemental": {
-       "reason": "s04의 현재 수동 is used는 필수 관계사 힌트 2개(in which, 생략 관계사)가 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 현재 수동 be p.p. 설명이 없어 이 단위 대표 사례로 1회 보충",
-       "function_gloss_id": "s04-g03"
-      },
       "practice": {
        "span": [
         0,
@@ -363,7 +330,7 @@
       "formula_key": "be p.p.",
       "route": "analysis",
       "grammar_point_id": "u1-gp4",
-      "review_record": "to be trapped: 힌트 2개(동명사 주어, without)가 있어 같은 공식(be p.p.)의 단위 대표 분석 u1-gp4로 연결(u1-gp1 lead A to V 설명에도 수동 부정사로 언급)"
+      "review_record": "to be trapped: 힌트 2개(동명사 주어, without)가 있어 같은 공식(be p.p.)의 단위 대표 분석 u1-gp4로 연결"
      },
      {
       "sentence_id": "s04",
@@ -371,7 +338,7 @@
       "formula_key": "be p.p.",
       "route": "analysis",
       "grammar_point_id": "u1-gp4",
-      "review_record": "is used: 관계사 힌트 2개가 있어 분석 보충 u1-gp4로 연결"
+      "review_record": "is used: 관계사 힌트 2개가 있어 분석 u1-gp4로 연결(2026-09-29 lead A to V 항목 삭제 요청에 따라 보충에서 기본 항목으로 전환)"
      }
     ],
     "relations": [
@@ -446,7 +413,6 @@
     ],
     "question_id": "Q01",
     "syntax_point_ids": [
-     "u1-gp1",
      "u1-gp2",
      "u1-gp3",
      "u1-gp4"
@@ -1528,7 +1494,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "동명사 주어 consistently encountering similar perspectives without considering alternative views(전체 유지) + can lead + lead A to V(A=you, to be trapped 수동 부정사). without + 동명사는 주어 동명사구 안. 힌트 2개(동명사 주어, without + 동명사). 수동 부정사 be trapped는 분석 u1-gp1(lead A to V)·u1-gp4(be p.p.)에서 설명.",
+    "review_record": "동명사 주어 consistently encountering similar perspectives without considering alternative views(전체 유지) + can lead + lead A to V(A=you, to be trapped 수동 부정사). without + 동명사는 주어 동명사구 안. 힌트 2개(동명사 주어, without + 동명사). 수동 부정사 be trapped는 분석 u1-gp4(be p.p.)로 연결. lead A to V 분석 항목은 2026-09-29 사용자 요청으로 삭제(각주로 지원).",
     "required_breaks": [],
     "protected_spans": [],
     "function_gloss_ids": [
@@ -2537,7 +2503,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "주절 수동 is also used(사이 부사 also) + 목적의 to describe + 목적어 any situation + 전치사 + 관계대명사 in which절(S′ you, V′ hear) + 그 안의 목적격 관계대명사 생략 관계절 you already agree with(선행사 opinions, 전치사 with의 목적어). 힌트 2개(in which, 생략 관계사). 현재 수동 is used는 힌트 자리가 없어 분석 보충 u1-gp4(be p.p.)로 연결.",
+    "review_record": "주절 수동 is also used(사이 부사 also) + 목적의 to describe + 목적어 any situation + 전치사 + 관계대명사 in which절(S′ you, V′ hear) + 그 안의 목적격 관계대명사 생략 관계절 you already agree with(선행사 opinions, 전치사 with의 목적어). 힌트 2개(in which, 생략 관계사). 현재 수동 is used는 힌트 자리가 없어 분석 u1-gp4(be p.p.)로 연결.",
     "required_breaks": [],
     "protected_spans": [],
     "function_gloss_ids": [

@@ -74,13 +74,11 @@ CHOICES_KR:
 [/Q01]
 
 [4. 구문 결합해서 해석하기]
-1. can lead you to be trapped in an “echo chamber.” → ______________________________
-도움말: lead A to V — A(이/가) ~하게 만들다 / can V — ~할 수 있다 / be p.p. — ~되다 / trapped — 갇힌 / in — ~ 안에 / echo chamber — 에코 챔버, 반향실 (자기와 같은 의견만 되풀이해 듣게 되는 환경)
-2. any situation in which you only hear opinions → ______________________________
+1. any situation in which you only hear opinions → ______________________________
 도움말: in which S′ V′ — S′(이/가) V′하는 / any — 어떤 ~이든, 모든 / situation — 상황 / only — 오직, ~만 / hear — 듣다 / opinions — 의견들
-3. it doesn’t always mean that it is true → ______________________________
+2. it doesn’t always mean that it is true → ______________________________
 도움말: not always — 항상 ~인 것은 아니다 / it — 그것은 / mean — 의미하다, 뜻하다 / that S′ V′ — S′(이/가) V′라는 것 / it — 그것이 / is — ~이다 / true — 사실인, 진실인
-4. The term “echo chamber” is also used → ______________________________
+3. The term “echo chamber” is also used → ______________________________
 도움말: be p.p. — ~되다 / term — 용어 / echo chamber — 에코 챔버, 반향실 / also — 또한 / used — 사용된
 
 [5. 핵심 문장 2개 다시 해석하기]
@@ -101,10 +99,9 @@ CHOICES_KR:
 | 4 | 막다, 억제하다 | 5 | 여러 가지의, 다양한 | 6 | 제한하다, 한정하다 |
 | 7 | 조장하다, 키우다 | 8 | 넓히다, 확장하다 | 9 | 다양한 |
 [4. 구문 결합해서 해석하기]
-1. 당신이 에코 챔버에 갇히게 만들 수 있다
-2. 당신이 의견들만 듣는 모든 상황
-3. 그것이 항상 그것이 사실이라는 것을 의미하는 것은 아니다
-4. ‘에코 챔버’라는 용어는 또한 사용된다
+1. 당신이 의견들만 듣는 모든 상황
+2. 그것이 항상 그것이 사실이라는 것을 의미하는 것은 아니다
+3. ‘에코 챔버’라는 용어는 또한 사용된다
 [5. 핵심 문장 해석]
 1. 하지만 대안적인 견해를 고려하지 않은 채 비슷한 관점만 계속 접하는 것은 당신을 ‘에코 챔버(반향실)’에 갇히게 만들 수 있다.
 2. 이러한 함정에 빠지지 않으려면, 당신은 다양한 정보 출처를 적극적으로 찾고 다른 견해를 가진 사람들과 교류해야 한다.

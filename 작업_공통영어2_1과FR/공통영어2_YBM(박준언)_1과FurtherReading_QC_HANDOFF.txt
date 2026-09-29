@@ -195,7 +195,6 @@ Even if you really want / something to be true, / it doesn’t always mean / tha
 [9번 문장] Even if you really want something to be true, it doesn’t always mean that it is true.
 9번 문장은 7~8번의 해결 방법을 마무리하며 기억할 점을 덧붙인다. 사람은 어떤 것이 사실이기를 정말로 바랄 때가 있다. 하지만 그렇게 바란다고 해서 그것이 늘 사실인 것은 아니다. 그래서 믿고 싶은 정보도 8번에서 말한 대로 한 번 더 확인해야 한다.
 [구문으로 해석하기]
-lead A to V: A(이/가) ~하게 만들다 [2번 문장]: can lead you to be trapped in an “echo chamber.” — 공식: lead A to V — A(이/가) ~하게 이끌다(만들다). can = ~할 수 있다, A = you(당신), to V = to be trapped(갇히게 되다: be p.p. 수동), in an “echo chamber” = 에코 챔버 안에. → 당신이 에코 챔버에 갇히게 만들 수 있다. 당신은 스스로 가두는 쪽이 아니라 ‘갇히는’ 쪽이라 to 뒤에 수동 be trapped를 쓴다.
 전치사 + 관계대명사 in which: S′(이/가) V′하는 N [4번 문장]: any situation in which you only hear opinions — 공식: N + in which S′ V′ — S′(이/가) V′하는 N(그 N 안에서). N = any situation(모든 상황), in which = 그 상황 안에서, S′ = you(당신), only = ~만(뒤의 opinions를 한정), V′ = hear(듣다), 목적어 = opinions(의견들). → 당신이 의견들만 듣는 모든 상황. in which 뒤에는 주어와 목적어를 모두 갖춘 완전한 절이 온다.
 not always: 항상 ~인 것은 아니다 (부분 부정) [9번 문장]: it doesn’t always mean that it is true — 공식: not always — 항상 ~인 것은 아니다(부분 부정). it = 그것(어떤 것이 사실이기를 원하는 것), doesn’t always mean = 항상 의미하는 것은 아니다, that it is true = 그것(사실이기를 원하는 어떤 것)이 사실이라는 것. → 그것이 항상 그것이 사실이라는 것을 의미하는 것은 아니다. ‘절대 아니다’가 아니라 ‘늘 그런 것은 아니다’라는 뜻이다.
 be p.p.: ~되다 (현재 수동) [4번 문장]: The term “echo chamber” is also used — 공식: be p.p. — ~되다. S = The term “echo chamber”(‘에코 챔버’라는 용어), be = is, also = 또한, p.p. = used(사용된, use의 p.p.형). → ‘에코 챔버’라는 용어는 또한 사용된다. 용어는 스스로 사용하는 쪽이 아니라 사람들이 ‘사용하는’ 대상이라 수동을 쓴다.

@@ -104,7 +104,7 @@ def sentences(T):
            links=[(['without', 'ing'], ['지 않고'])], meaning='대안적인 견해들을 고려하지 않고',
            explanation='without + 동명사 considering: ~하지 않고. 주어 동명사구 안에서 어떻게 접하는지를 덧붙인다.')
     s.review = ('동명사 주어 consistently encountering similar perspectives without considering alternative views(전체 유지) + can lead + lead A to V(A=you, to be trapped 수동 부정사). '
-                'without + 동명사는 주어 동명사구 안. 힌트 2개(동명사 주어, without + 동명사). 수동 부정사 be trapped는 분석 u1-gp1(lead A to V)·u1-gp4(be p.p.)에서 설명.')
+                'without + 동명사는 주어 동명사구 안. 힌트 2개(동명사 주어, without + 동명사). 수동 부정사 be trapped는 분석 u1-gp4(be p.p.)로 연결. lead A to V 분석 항목은 2026-09-29 사용자 요청으로 삭제(각주로 지원).')
     out.append(s)
 
     # ---------------- s03 ----------------
@@ -177,7 +177,7 @@ def sentences(T):
     s.relative_ids = [rel['id']]
     s.review = ('주절 수동 is also used(사이 부사 also) + 목적의 to describe + 목적어 any situation + 전치사 + 관계대명사 in which절(S′ you, V′ hear) + '
                 '그 안의 목적격 관계대명사 생략 관계절 you already agree with(선행사 opinions, 전치사 with의 목적어). 힌트 2개(in which, 생략 관계사). '
-                '현재 수동 is used는 힌트 자리가 없어 분석 보충 u1-gp4(be p.p.)로 연결.')
+                '현재 수동 is used는 힌트 자리가 없어 분석 u1-gp4(be p.p.)로 연결.')
     out.append(s)
 
     # ---------------- s05 ----------------
@@ -414,15 +414,6 @@ def analysis(_):
                 '그래서 믿고 싶은 정보도 8번에서 말한 대로 한 번 더 확인해야 한다.']},
         ],
         'grammar_points': [
-            {'id': 'u1-gp1', 'sentence_id': 's02', 'span': 'can lead you to be trapped in an “echo chamber.”',
-             'title': 'lead A to V: A(이/가) ~하게 만들다', 'formula_key': 'lead A to V',
-             'explanation': '공식: lead A to V — A(이/가) ~하게 이끌다(만들다). can = ~할 수 있다, A = you(당신), to V = to be trapped(갇히게 되다: be p.p. 수동), '
-                            'in an “echo chamber” = 에코 챔버 안에. → 당신이 에코 챔버에 갇히게 만들 수 있다. '
-                            '당신은 스스로 가두는 쪽이 아니라 ‘갇히는’ 쪽이라 to 뒤에 수동 be trapped를 쓴다.',
-             'practice': {'span': 'can lead you to be trapped in an “echo chamber.”',
-                          'formula_support': {'en': 'lead A to V', 'ko': 'A(이/가) ~하게 만들다'},
-                          'support': [('s02', 'can V'), ('s02', 'be p.p.'), ('s02', 'trapped'), ('s02', 'in'), ('s02', 'echo chamber')],
-                          'answer_ko': '당신이 에코 챔버에 갇히게 만들 수 있다'}},
             {'id': 'u1-gp2', 'sentence_id': 's04', 'span': 'any situation in which you only hear opinions',
              'title': '전치사 + 관계대명사 in which: S′(이/가) V′하는 N', 'formula_key': 'in which S′ V′',
              'explanation': '공식: N + in which S′ V′ — S′(이/가) V′하는 N(그 N 안에서). N = any situation(모든 상황), in which = 그 상황 안에서, '
@@ -445,8 +436,6 @@ def analysis(_):
              'title': 'be p.p.: ~되다 (현재 수동)', 'formula_key': 'be p.p.',
              'explanation': '공식: be p.p. — ~되다. S = The term “echo chamber”(‘에코 챔버’라는 용어), be = is, also = 또한, p.p. = used(사용된, use의 p.p.형). '
                             '→ ‘에코 챔버’라는 용어는 또한 사용된다. 용어는 스스로 사용하는 쪽이 아니라 사람들이 ‘사용하는’ 대상이라 수동을 쓴다.',
-             'supplemental': {'function': ('s04', 'be p.p.', 0),
-                              'reason': 's04의 현재 수동 is used는 필수 관계사 힌트 2개(in which, 생략 관계사)가 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 현재 수동 be p.p. 설명이 없어 이 단위 대표 사례로 1회 보충'},
              'practice': {'span': 'The term “echo chamber” is also used',
                           'formula_support': {'en': 'be p.p.', 'ko': '~되다'},
                           'support': [('s04', 'term'), ('s04', 'echo chamber'), ('s04', 'also'), ('s04', 'used')],
@@ -454,9 +443,9 @@ def analysis(_):
         ],
         'formula_routes': [
             {'function': ('s02', 'be p.p.', 0), 'route': 'analysis', 'grammar_point_id': 'u1-gp4',
-             'review_record': 'to be trapped: 힌트 2개(동명사 주어, without)가 있어 같은 공식(be p.p.)의 단위 대표 분석 u1-gp4로 연결(u1-gp1 lead A to V 설명에도 수동 부정사로 언급)'},
+             'review_record': 'to be trapped: 힌트 2개(동명사 주어, without)가 있어 같은 공식(be p.p.)의 단위 대표 분석 u1-gp4로 연결'},
             {'function': ('s04', 'be p.p.', 0), 'route': 'analysis', 'grammar_point_id': 'u1-gp4',
-             'review_record': 'is used: 관계사 힌트 2개가 있어 분석 보충 u1-gp4로 연결'},
+             'review_record': 'is used: 관계사 힌트 2개가 있어 분석 u1-gp4로 연결(2026-09-29 lead A to V 항목 삭제 요청에 따라 보충에서 기본 항목으로 전환)'},
         ],
         'relations': [
             {'head': {'id': 'u1-r1h', 'text': 'limit', 'meaning_ko': '제한하다'},
@@ -477,5 +466,5 @@ def workbook():
         'relation_order': ['u1-r2s', 'u1-r3a', 'u1-r1h', 'u1-r2a', 'u1-r3s', 'u1-r1s', 'u1-r2h', 'u1-r1a', 'u1-r3h'],
         'key_sentence_ids': ['s02', 's07'],
         'question_id': 'Q01',
-        'syntax_point_ids': ['u1-gp1', 'u1-gp2', 'u1-gp3', 'u1-gp4'],
+        'syntax_point_ids': ['u1-gp2', 'u1-gp3', 'u1-gp4'],
     }

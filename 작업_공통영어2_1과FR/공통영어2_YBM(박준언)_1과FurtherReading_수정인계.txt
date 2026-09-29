@@ -8,20 +8,20 @@
 
 ■ 2. 전달 파일 (결과물/출고_FR_20260929/)
 | 파일 | sha256 앞 16자리 | 쪽수(LibreOffice) |
-| 혼공독해교재_공통영어2_YBM(박)_1과FurtherReading.zip (DOCX 6개만) | 9d3cc15665236460 | - |
-| _전체통합본.docx | 8b76dc77cb1a6d56 | 14 |
+| 혼공독해교재_공통영어2_YBM(박)_1과FurtherReading.zip (DOCX 6개만) | ef6cd4ae374de012 | - |
+| _전체통합본.docx | db39cb84c90b57c4 | 13 |
 | _01_해석지.docx | bb4d25994913242d | 4 |
-| _02_지문분석지.docx | afda022b4ff6efd9 | 3 |
-| _03_워크북+변형문제.docx | 13f42b5587e65f0a | 2 |
+| _02_지문분석지.docx | 79a1c14df614fcc6 | 2 |
+| _03_워크북+변형문제.docx | 0fc9f17cd2329da6 | 2 |
 | _04_실전모의.docx | d5b168ef34b12237 | 1 |
-| _05_정답해설지.docx | fc9febf735f54f54 | 4 |
-split_book.py 추출(SPLIT_CONTENT_MATCH, verify 통과). 출고 텍스트 대조(검사기록/06_R준비_출고텍스트대조.json) 기계 PASS·경고 0.
+| _05_정답해설지.docx | e10e8573013820be | 4 |
+split_book.py 추출(SPLIT_CONTENT_MATCH, verify 통과). 출고 텍스트 대조(검사기록/09_R준비_출고텍스트대조_lead삭제.json) 기계 PASS·경고 0.
 
 ■ 3. 제작 기준 파일
 - 원문: (2022개정)2025년_공통영어2_YBM(박준언)_1과_본문_(20250723수정).pdf 4쪽 왼쪽 단(9문장, 1,073자, 172단어)
-- 공통 원고: 공통영어2_YBM(박)_1과FurtherReading_원고.json 1efb8f579cc8085e (작성 모듈 source_text_fr.py·fr1.py·assessment_fr.py → make_fr.py full, author.py는 1과 본문 폴더 것을 공용)
-- 해석·분석 FINAL: 공통영어2_YBM(박준언)_1과FurtherReading_FINAL.txt cb7a17e50fee80f6 (= 현재 QC_HANDOFF)
-- 문제 FINAL: 공통영어2_YBM(박준언)_1과FurtherReading_문제_FINAL.txt e3359ae619111064 (= 현재 문제_QC_HANDOFF)
+- 공통 원고: 공통영어2_YBM(박)_1과FurtherReading_원고.json 32408c576a2fac5a (작성 모듈 source_text_fr.py·fr1.py·assessment_fr.py → make_fr.py full, author.py는 1과 본문 폴더 것을 공용)
+- 해석·분석 FINAL: 공통영어2_YBM(박준언)_1과FurtherReading_FINAL.txt 4606d8b1371659ca (= 현재 QC_HANDOFF)
+- 문제 FINAL: 공통영어2_YBM(박준언)_1과FurtherReading_문제_FINAL.txt 728808800e8d9765 (= 현재 문제_QC_HANDOFF)
 - 스킬: 1과 본문과 같은 사본(작업_공통영어2_1과/스킬수정본/gyogwaseo-unified). 표지 괄호 표기는 기존 선택 칸 cover.lesson_note 사용(스킬 수정 없음).
 
 ■ 4. 구성
@@ -50,7 +50,7 @@ split_book.py 추출(SPLIT_CONTENT_MATCH, verify 통과). 출고 텍스트 대�
 ■ 7. 남은 확인·검토제안 (확정오류 아님)
 | # | 내용 | 처리 |
 | 1 | Word 렌더·Word 기준 조판 확인 | 미실시(환경에 Word 없음) |
-| 2 | 통합본 6~7쪽(02권 2~3쪽): 분석 설명부 끝 ‘필수 유의어/반의어’ 제목과 3행만 다음 쪽으로 넘어감(J-01·K-01) | Word에서도 넘치면 1과 본문과 같은 승인 소폭 조판 조정(spacing)으로 한 쪽에 넣음 |
+| 2 | 통합본 6~7쪽(02권 2~3쪽): 분석 설명부 끝 ‘필수 유의어/반의어’ 제목과 3행만 다음 쪽으로 넘어감(J-01·K-01) | ■10 lead 항목 삭제 뒤 LibreOffice에서 6쪽 한 쪽에 들어감(해소). Word에서만 다시 확인 |
 | 3 | 워크북 유의어·반의어 표 9칸 마지막 빈칸 답안선(J-02) | 스킬 조판 코드 공통 모양, 유지 |
 | 4 | 02·05권 단독 인쇄 시 표제가 ‘1과’뿐(R-01) | 표지 외 표기는 스킬 규칙상 과 표시만 사용, 유지 |
 | 5 | 2·3번 지문 첫 문장 This의 지시 대상이 지문 밖(R-03) | 둘째 문장으로 복원됨, 범위를 넓히면 순서 문제 단서가 생겨 유지 |
@@ -68,3 +68,11 @@ split_book.py 추출(SPLIT_CONTENT_MATCH, verify 통과). 출고 텍스트 대�
 - 삭제: 작업_공통영어2_1과FR/__pycache__, 작업용 임시 폴더(저장소 밖), 검사기록 01~03번 중간 계획·검사 파일 10개(git 기록에 남음).
 - 보존: 검사기록 04(최신 preflight)·05(현재 역할계획·제작검사, 분권 목록이 참조)·06(R 준비 대조), 검수기록·검수입력 전부, 출고 파일, 원고·FINAL.
 - 삭제 후 분권 verify(결과물/출고_FR_20260929) 다시 통과 확인.
+
+■ 10. 구문으로 해석하기 lead A to V 삭제 (2026-09-29, 사용자 요청 “구문해석하기에서 lead A to B는 없애줘”)
+- 삭제: 지문분석지 ‘구문으로 해석하기’의 lead A to V(2번 문장) 항목과 워크북 4번 ‘구문 결합해서 해석하기’·정답의 같은 문항. 해석지 각주(lead A to V — A(이/가) ~하게 이끌다)는 그대로 둠.
+- 대신: 스킬 규칙상 구문 항목은 기본 3개가 필요해, 보충 항목이던 be p.p.(4번 문장 The term “echo chamber” is also used)를 기본 항목으로 올림. 구문 항목 ①전치사+관계대명사 in which ②not always ③be p.p. — 워크북 4번도 같은 3문항.
+- 2번 문장 공식 연결(formula_route)은 be p.p. 항목으로 바꿈(be trapped).
+- 확인: make_fr full STRUCTURE_PASS, preflight 경고 0(검사기록 07), 역할계획·제작검사(08), QC 비교 결과 lead 항목만 빠지고 번호 1~3으로 당겨짐, DOCX 부분 갱신(u1 분석·워크북·정답), 분권 SPLIT_CONTENT_MATCH, 출고 텍스트 대조 기계 PASS·경고 0(09).
+- 쪽수(LibreOffice): 통합본 14→13쪽, 02권 3→2쪽. ■7-2 넘침도 LibreOffice 기준 해소. 렌더 눈 확인: 6쪽 분석·8쪽 워크북 4번·정답 4번 이상 없음.
+
