@@ -1,0 +1,244 @@
+{
+ "reviewer": "L-u1",
+ "unit": "u1",
+ "method": "검수 패킷 L_u1.json의 selected_data(9문장 chunks·natural_ko·clauses·glosses·lexical_coverage·hints(display_pairs·emphasis_links)·reading_checks, 단위 today_words·analysis(제목·의도·flow·easy_explanations·grammar_points·practice·formula_routes·relations))를 파이썬으로 원문 offset에서 풀어 전수 대조(청크 재결합=원문 확인, 모든 영어 낱말 위치의 각주/면제 연결 확인, 각주 등장 순서, 강조·대명사 참조 위치 직접 계산). QC_HANDOFF [지문] u1 출력과 fr1.py 작성 기록을 함께 확인. 원문 PDF 4쪽을 pypdfium2로 추출해 왼쪽 단 영어와 오른쪽 단 교과서 해석을 자연 해석·청크 의미 확인에 사용. 단위 연결 검수(단일 단위 전체): 용어(echo chamber·perspectives/views·information 뜻 통일), 지칭(their·This·this trap·it 2개·generic you), 흐름(flow 9문장 1회·쉬운 풀이 3문장 연결), 라벨·공식(관계사 각주 라벨, be p.p.·to V·V-ing·can/may/must 뜻, A/S′ 슬롯 표기, formula_support·formula_routes·supplemental)의 단위 내 일관성과 같은 과 1과 본문 원고·FINAL 선례를 대조. 규칙은 /home/user/E2NEoh2/작업_공통영어2_1과/스킬수정본/gyogwaseo-unified/의 SKILL.md, editorial-core.md, analysis-content.md, gloss-rules.md, grammar-labels.md, preposition-meanings.md, proper-nouns.md, common-errors.md, manuscript-data.md(문장 주석·힌트·대명사 참조·구문 결합 연습 계약), current-revision.md #13을 실제로 읽고 적용. 이상 없음으로 확인한 주요 항목: 원문·청크 보존과 영한 조각 수, 후치수식 경계(of reality·on common issues·of information), 8낱말 초과 청크 없음, 관계절 S/V(주격 V′만, 생략 [(that)]), 명령문 V만, 동명사 주어 전체 유지, 3인칭 단수 원형 표제어·복수형 보존, 수동 be p.p./실제 p.p. 분리, 독립 p.p. enclosed, avoid V-ing·when V-ing·without V-ing 기능 처리, 목적 to V 분리, 관계사 힌트 전부 포함·문장당 2개 이하, 강조 위치(S′ 이/가 포함), 자연 해석과 교과서 해석 의미 일치, 핵심 문장 s02·s07, 오늘의 낱말 8개·등장 순서, 유반 3세트(limit/restrict/expand, foster/encourage/discourage, diverse/various/uniform) 품사·치환·반대 관계, formula_routes 2건과 u1-gp4 보충 사유. 고유명사 없음.",
+ "sentences_checked": [
+  "s01",
+  "s02",
+  "s03",
+  "s04",
+  "s05",
+  "s06",
+  "s07",
+  "s08",
+  "s09"
+ ],
+ "status": "FIX_REQUIRED",
+ "findings": [
+  {
+   "id": "Lu1-01",
+   "sentence_id": "s03·s04·s06",
+   "field": "gloss",
+   "current": "s03-g01 echo chamber — 에코 챔버, 반향실 (star:false) / s04-g02 echo chamber — 에코 챔버, 반향실 (star:false) / s06-g02 echo chamber — 에코 챔버, 반향실 (star:false). 같은 단위 오늘의 낱말 u1-w4 echo chamber(에코 챔버, 반향실)는 s02-g16에만 ★",
+   "issue": "오늘의 낱말 u1-w4 ‘echo chamber’가 같은 단위 s03·s04·s06에 같은 뜻(에코 챔버, 반향실)으로 반복 등장하는데 첫 등장 s02에만 ★가 있다. editorial-core.md ‘분석·워크북·문항’(확정 목록에 대응하는 각주에 ★를 붙이고 같은 단위의 반복 출현에도 표시한다), gloss-rules.md ‘각주 ★와 항목 구분’(같은 단위의 다른 문장에 반복 등장해도 대응 항목에 ★), manuscript-data.md(★ 반복 표시는 의미가 같은 오늘의 낱말의 모든 등장과 대조) 위반. 검사기는 선언된 연결만 보므로 통과했다.",
+   "proposal": "s03-g01·s04-g02·s06-g02를 모두 star:true, today_word_id:\"u1-w4\"로 바꾼다(뜻·spans는 그대로). 해석지 표시는 ‘★ echo chamber — 에코 챔버, 반향실’.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-02",
+   "sentence_id": "s01",
+   "field": "sv",
+   "current": "S: everyone, V: accesses takes ／ [that] V′: suits",
+   "issue": "같은 절의 병렬 동사를 원문에서 잇는 and [77,80]가 verb_spans에 없어 동사가 공백으로만 이어진다. analysis-content.md ‘S/V 표기’(같은 절의 병렬 동사는 그 동사들을 잇는 and·or·but도 보존, `V: thinks and runs`, 접속사를 공백이나 쉼표로 대체하지 않는다), manuscript-data.md ‘문장 주석’(병렬 동사를 잇는 실제 and를 verb_spans에 원문 순서로 포함), current-revision.md #13 위반. 같은 과 1과 본문 FINAL도 ‘V′: had made and spread’처럼 and를 표시했다.",
+   "proposal": "clauses[0].verb_spans를 [[21,29],[77,80],[99,104]]로 바꿔 ‘S: everyone, V: accesses and takes ／ [that] V′: suits’로 표시",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-03",
+   "sentence_id": "s03",
+   "field": "sv",
+   "current": "S: An echo chamber, V: refers ／ [where] S′: sound, V′: doesn’t leak returns",
+   "issue": "같은 절의 병렬 동사를 원문에서 잇는 and [73,76]가 verb_spans에 없어 동사가 공백으로만 이어진다. analysis-content.md ‘S/V 표기’(같은 절의 병렬 동사는 그 동사들을 잇는 and·or·but도 보존, `V: thinks and runs`, 접속사를 공백이나 쉼표로 대체하지 않는다), manuscript-data.md ‘문장 주석’(병렬 동사를 잇는 실제 and를 verb_spans에 원문 순서로 포함), current-revision.md #13 위반. 같은 과 1과 본문 FINAL도 ‘V′: had made and spread’처럼 and를 표시했다.",
+   "proposal": "clauses[1].verb_spans를 [[56,63],[64,68],[73,76],[77,84]]로 바꿔 ‘[where] S′: sound, V′: doesn’t leak and returns’로 표시",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-04",
+   "sentence_id": "s05",
+   "field": "sv",
+   "current": "S: This, V: can distort limit",
+   "issue": "같은 절의 병렬 동사를 원문에서 잇는 and [48,51]가 verb_spans에 없어 동사가 공백으로만 이어진다. analysis-content.md ‘S/V 표기’(같은 절의 병렬 동사는 그 동사들을 잇는 and·or·but도 보존, `V: thinks and runs`, 접속사를 공백이나 쉼표로 대체하지 않는다), manuscript-data.md ‘문장 주석’(병렬 동사를 잇는 실제 and를 verb_spans에 원문 순서로 포함), current-revision.md #13 위반. 같은 과 1과 본문 FINAL도 ‘V′: had made and spread’처럼 and를 표시했다.",
+   "proposal": "clauses[0].verb_spans를 [[5,8],[9,16],[48,51],[52,57]]로 바꿔 ‘S: This, V: can distort and limit’로 표시(뒤의 think와 engage를 잇는 and [91,94]는 부정사 안이라 넣지 않음)",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-05",
+   "sentence_id": "s07",
+   "field": "sv",
+   "current": "S: you, V: must seek engage ／ [who] V′: have",
+   "issue": "같은 절의 병렬 동사를 원문에서 잇는 and [87,90]가 verb_spans에 없어 동사가 공백으로만 이어진다. analysis-content.md ‘S/V 표기’(같은 절의 병렬 동사는 그 동사들을 잇는 and·or·but도 보존, `V: thinks and runs`, 접속사를 공백이나 쉼표로 대체하지 않는다), manuscript-data.md ‘문장 주석’(병렬 동사를 잇는 실제 and를 verb_spans에 원문 순서로 포함), current-revision.md #13 위반. 같은 과 1과 본문 FINAL도 ‘V′: had made and spread’처럼 and를 표시했다.",
+   "proposal": "clauses[0].verb_spans를 [[37,41],[51,55],[87,90],[91,97]]로 바꿔 ‘S: you, V: must seek and engage ／ [who] V′: have’로 표시",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-06",
+   "sentence_id": "s08",
+   "field": "sv",
+   "current": "V: remember keep ／ [(that)] S′: you, V′: receive",
+   "issue": "같은 절의 병렬 동사를 원문에서 잇는 and [54,57]가 verb_spans에 없어 동사가 공백으로만 이어진다. analysis-content.md ‘S/V 표기’(같은 절의 병렬 동사는 그 동사들을 잇는 and·or·but도 보존, `V: thinks and runs`, 접속사를 공백이나 쉼표로 대체하지 않는다), manuscript-data.md ‘문장 주석’(병렬 동사를 잇는 실제 and를 verb_spans에 원문 순서로 포함), current-revision.md #13 위반. 같은 과 1과 본문 FINAL도 ‘V′: had made and spread’처럼 and를 표시했다.",
+   "proposal": "clauses[0].verb_spans를 [[7,15],[54,57],[58,62]]로 바꿔 ‘V: remember and keep ／ [(that)] S′: you, V′: receive’로 표시",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-07",
+   "sentence_id": "s02",
+   "field": "gloss",
+   "current": "be p.p. — ~되다, ~당하다 (s02-g13)",
+   "issue": "수동 기능 공식에 이 문맥에서 고르지 않은 뜻을 쉼표로 함께 남겼다(to be trapped: 갇히게 되다). gloss-rules.md ‘기본 형식과 순서’(기능어 뜻은 그 문맥의 한 뜻으로 정한다)·‘금지와 검수’ 8(선택하지 않은 뜻을 쉼표로 남기지 않는다) 위반. 같은 단위 s04-g03은 ‘be p.p. — ~되다’, 분석 u1-gp4 공식·formula_support도 ‘~되다’여서 단위 안 같은 공식의 뜻이 흔들린다. 이 각주는 u1-gp1 연습 도움말(support_gloss_ids)에도 그대로 나간다.",
+   "proposal": "s02-g13을 ‘be p.p. — ~되다’로 고친다(s04-g03·u1-gp4와 통일). trapped — 갇힌은 유지.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-08",
+   "sentence_id": "s04",
+   "field": "gloss",
+   "current": "in which S′ V′ — S′(이/가) V′하는 (전치사 + 관계대명사) (s04-g10)",
+   "issue": "전치사+관계대명사 각주의 통일 형식은 뜻 뒤에 ‘(관계대명사)’를 붙이는 것이다. gloss-rules.md ‘관계사·접속사’의 예 `in which S′ V′ — S′(이/가) V′하는 (관계대명사)`, grammar-labels.md(`by which S′ V′ — S′(이/가) V′하는 (관계대명사)`처럼 뜻을 통일). 허용 병기 목록에 ‘전치사 + 관계대명사’는 없고 ‘전치사’는 금지된 품사 라벨이다(grammar-labels.md ‘각주에 넣지 않을 분류 라벨’). 구조 힌트 이름표·분석 제목의 ‘전치사 + 관계대명사’는 각주 라벨 제한 밖이므로 그대로 둔다.",
+   "proposal": "s04-g10 뜻을 ‘S′(이/가) V′하는 (관계대명사)’로 고쳐 ‘in which S′ V′ — S′(이/가) V′하는 (관계대명사)’로 표시한다.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-09",
+   "sentence_id": "s04",
+   "field": "hint",
+   "current": "① any situation [in which you only hear] → [당신이 듣기만 하는] 모든 상황 (전치사 + 관계대명사 in which) / ② opinions [(that) you already agree with] → [당신이 이미 동의하는] 의견들 (목적격 관계대명사 that 생략). 두 쌍 모두 pronoun_refs 없음",
+   "issue": "구조 힌트의 실제 표시 영어에 인칭·소유 대명사(you/your/it)가 있는데 한국어에 [지칭 대상]이 없다. analysis-content.md ‘대명사와 지칭 대상’(표시 영어 안에 인칭·지시·소유·재귀 대명사가 있으면 한국어 대명사를 유지하고 바로 뒤에 [지칭 대상]을 붙인다; 단독 you의 각주 제외와 별개로 힌트의 `여러분[독자들]` 참조 표시는 적용), editorial-core.md·SKILL.md 구조 힌트 대명사 조항, manuscript-data.md ‘구조 힌트의 대명사 참조’(pronoun_refs) 위반. 같은 과 1과 본문은 generic you를 ‘당신[독자]이’로 표시했다(s35·s45 등). 위치는 표시 문자열 기준으로 직접 계산했다.",
+   "proposal": "①ko ‘[당신[독자]이 듣기만 하는] 모든 상황’, pronoun_refs [{en_span:[24,27],ko_pronoun_span:[1,3],ko_reference_span:[3,7]}], emphasis_links ko_spans [[7,8],[14,15]](이·는, en in which [15,23] 유지). ②ko ‘[당신[독자]이 이미 동의하는] 의견들’, pronoun_refs [{en_span:[17,20],ko_pronoun_span:[1,3],ko_reference_span:[3,7]}], emphasis_links ko_spans [[7,8],[15,16]](이·는, en that [11,15] 유지). 힌트 meaning_ko도 같은 참조로 맞춘다.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-10",
+   "sentence_id": "s05",
+   "field": "hint",
+   "current": "your ability [to think critically and engage] → [비판적으로 생각하고 참여하는] 당신의 능력 (to부정사 후치수식). pronoun_refs 없음",
+   "issue": "구조 힌트의 실제 표시 영어에 인칭·소유 대명사(you/your/it)가 있는데 한국어에 [지칭 대상]이 없다. analysis-content.md ‘대명사와 지칭 대상’(표시 영어 안에 인칭·지시·소유·재귀 대명사가 있으면 한국어 대명사를 유지하고 바로 뒤에 [지칭 대상]을 붙인다; 단독 you의 각주 제외와 별개로 힌트의 `여러분[독자들]` 참조 표시는 적용), editorial-core.md·SKILL.md 구조 힌트 대명사 조항, manuscript-data.md ‘구조 힌트의 대명사 참조’(pronoun_refs) 위반. 같은 과 1과 본문은 generic you를 ‘당신[독자]이’로 표시했다(s35·s45 등). 위치는 표시 문자열 기준으로 직접 계산했다.",
+   "proposal": "ko ‘[비판적으로 생각하고 참여하는] 당신[독자]의 능력’, pronoun_refs [{en_span:[0,4],ko_pronoun_span:[18,20],ko_reference_span:[20,24]}], emphasis_links는 기존 to [14,16] ↔ 는 [15,16] 그대로.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-11",
+   "sentence_id": "s08",
+   "field": "hint",
+   "current": "the information [(that) you receive] → [당신이 받는] 정보 (목적격 관계대명사 that 생략). pronoun_refs 없음",
+   "issue": "구조 힌트의 실제 표시 영어에 인칭·소유 대명사(you/your/it)가 있는데 한국어에 [지칭 대상]이 없다. analysis-content.md ‘대명사와 지칭 대상’(표시 영어 안에 인칭·지시·소유·재귀 대명사가 있으면 한국어 대명사를 유지하고 바로 뒤에 [지칭 대상]을 붙인다; 단독 you의 각주 제외와 별개로 힌트의 `여러분[독자들]` 참조 표시는 적용), editorial-core.md·SKILL.md 구조 힌트 대명사 조항, manuscript-data.md ‘구조 힌트의 대명사 참조’(pronoun_refs) 위반. 같은 과 1과 본문은 generic you를 ‘당신[독자]이’로 표시했다(s35·s45 등). 위치는 표시 문자열 기준으로 직접 계산했다.",
+   "proposal": "ko ‘[당신[독자]이 받는] 정보’, pronoun_refs [{en_span:[24,27],ko_pronoun_span:[1,3],ko_reference_span:[3,7]}], emphasis_links ko_spans [[7,8],[10,11]](이·는, en that [18,22] 유지).",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-12",
+   "sentence_id": "s09",
+   "field": "hint",
+   "current": "① [Even if you really want] → [당신이 정말로 원하더라도] (양보 접속사 even if) / ② [that it is true] → [그것이 사실이라는 것] (명사절 접속사 that). 두 쌍 모두 pronoun_refs 없음",
+   "issue": "구조 힌트의 실제 표시 영어에 인칭·소유 대명사(you/your/it)가 있는데 한국어에 [지칭 대상]이 없다. analysis-content.md ‘대명사와 지칭 대상’(표시 영어 안에 인칭·지시·소유·재귀 대명사가 있으면 한국어 대명사를 유지하고 바로 뒤에 [지칭 대상]을 붙인다; 단독 you의 각주 제외와 별개로 힌트의 `여러분[독자들]` 참조 표시는 적용), editorial-core.md·SKILL.md 구조 힌트 대명사 조항, manuscript-data.md ‘구조 힌트의 대명사 참조’(pronoun_refs) 위반. 같은 과 1과 본문은 generic you를 ‘당신[독자]이’로 표시했다(s35·s45 등). 위치는 표시 문자열 기준으로 직접 계산했다.",
+   "proposal": "①ko ‘[당신[독자]이 정말로 원하더라도]’, pronoun_refs [{en_span:[9,12],ko_pronoun_span:[1,3],ko_reference_span:[3,7]}], emphasis_links ko_spans [[7,8],[15,18]](이·더라도, en Even if [1,8] 유지). ②ko ‘[그것[사실이기를 원하는 어떤 것]이 사실이라는 것]’(참조어는 같은 문장 s09-g11 referent_ko), pronoun_refs [{en_span:[6,8],ko_pronoun_span:[1,3],ko_reference_span:[3,19]}], emphasis_links ko_spans [[19,20],[24,28]](이·라는 것, en that [1,5] 유지).",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-13",
+   "sentence_id": "s02",
+   "field": "analysis",
+   "current": "u1-gp1 span·practice.span [94,140] = ‘can lead you to be trapped in an “echo chamber’ (QC_HANDOFF 인용: [2번 문장]: can lead you to be trapped in an “echo chamber — 공식: …)",
+   "issue": "분석 인용과 워크북 4번 연습 영어가 여는 따옴표 “만 있고 닫는 따옴표 ”가 없는 채로 잘린다. 원문은 ‘in an “echo chamber.”’로 마침표 뒤에 닫는 따옴표가 있다(140=chamber 끝, 141=., 142=”). analysis-content.md ‘원문과 문장’(구두점·따옴표 보존), manuscript-data.md 구문 결합 연습 계약(practice.span은 실제 연속 원문) 취지에 어긋나 학생용에 짝이 맞지 않는 따옴표가 출력된다.",
+   "proposal": "u1-gp1의 span과 practice.span을 [94,142](‘can lead you to be trapped in an “echo chamber.”’)로 넓힌다. answer_ko ‘당신이 에코 챔버에 갇히게 만들 수 있다’·support_gloss_ids는 그대로. (대안: 두 span을 [94,120] ‘can lead you to be trapped’로 줄이고 answer_ko ‘당신이 갇히게 만들 수 있다’, support에서 s02-g15·s02-g16 제외, 설명의 in an “echo chamber” 대입 삭제.)",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-14",
+   "sentence_id": "s04",
+   "field": "analysis",
+   "current": "u1-gp2 explanation: … S′ = you(당신), V′ = only hear(듣기만 하다), 목적어 = opinions(의견들). → 당신이 의견들만 듣는 모든 상황. …",
+   "issue": "V′ 자리에 부사 only를 넣어 ‘듣기만 하다’로 대입해 놓고 결합 해석은 ‘의견들만 듣는’으로 써서, 자리별 뜻과 결합 해석의 수식 범위가 서로 다르다(듣기만 하다+의견들 → ‘의견들을 듣기만 하는’). S/V 줄은 V′: hear만 표시한다. analysis-content.md ‘공통 학습 단위별 지문분석’(대입은 낱말과 구의 범위를 정확히 구별, 결합 해석의 수식 대상 확인), ‘S/V 표기’(동사 칸에 부사를 넣지 않는다) 위반. 원문 뜻(교과서 해석 ‘이미 동의하는 의견만 듣는’)은 only가 opinions를 한정한다.",
+   "proposal": "해당 부분을 ‘S′ = you(당신), only = ~만(뒤의 opinions를 한정), V′ = hear(듣다), 목적어 = opinions(의견들). → 당신이 의견들만 듣는 모든 상황.’으로 고친다. answer_ko ‘당신이 의견들만 듣는 모든 상황’은 유지.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-15",
+   "sentence_id": "s04",
+   "field": "analysis",
+   "current": "u1-gp4 explanation: … be = is, also = 또한, p.p. = used(use의 p.p.형, 사용하다). → ‘에코 챔버’라는 용어는 또한 사용된다. …",
+   "issue": "수동의 p.p. 자리에 원형 뜻 ‘사용하다’를 대입했다. 같은 문장 각주 s04-g05는 ‘used — 사용된’(실제 p.p.형·수동 뜻)이고 연습 도움말도 이 각주를 그대로 준다. gloss-rules.md ‘실제 형태와 활용형’(수동의 낱말은 실제 p.p.형·수동 뜻), ‘금지와 검수’ 6(각주 뜻과 분석 내용 일치), editorial-core.md(공식과 낱말 뜻은 기존 승인 내용과 일치) 위반. 같은 과 1과 본문 분석도 ‘p.p. = provided(제공된, provide의 p.p.형)’ 형식이다.",
+   "proposal": "‘p.p. = used(사용된, use의 p.p.형)’으로 고친다.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu1-16",
+   "sentence_id": "s02·s09",
+   "field": "gloss",
+   "current": "s02-g12 lead A to V — A가 ~하게 이끌다, 만들다 / s09-g03 want A to V — A가 ~하기를 원하다 / u1-gp1 title ‘lead A to V: A가 ~하게 만들다’, formula_support.ko ‘A가 ~하게 만들다’",
+   "issue": "공식 슬롯의 주어 조사는 ‘A(이/가)’로 표기하는 것이 규칙이고(gloss-rules.md ‘기본 형식과 순서’의 S′/A 공식 조사 자리 (이/가), ‘공식 슬롯 표기’, analysis-content.md ‘공식의 목적어 표기’), 같은 단위의 S′ 공식(even if·where·in which·that)은 모두 (이/가)를 쓴다. 실제 A 자리도 ‘당신이’·‘어떤 것이’로 ‘이’가 들어간다. 같은 과 1과 본문도 stimulate/enable A to V — A(이/가)….",
+   "proposal": "s02-g12 ‘lead A to V — A(이/가) ~하게 이끌다, 만들다’, s09-g03 ‘want A to V — A(이/가) ~하기를 원하다’, u1-gp1 title ‘lead A to V: A(이/가) ~하게 만들다’, formula_support.ko ‘A(이/가) ~하게 만들다’, 설명 첫 공식도 ‘A(이/가) ~하게 이끌다(만들다)’.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu1-17",
+   "sentence_id": "s04",
+   "field": "analysis",
+   "current": "u1-gp2 formula_support {en:‘in which S′ V′’, ko:‘S′(이/가) V′하는 N’}",
+   "issue": "영어 공식에는 N 자리가 없는데 한국어 뜻에만 N이 있어 도움말의 자리 표기가 서로 맞지 않고, 같은 문장 각주 s04-g10 ‘S′(이/가) V′하는’과도 다르다. manuscript-data.md 구문 결합 연습 계약(formula_support는 formula_key와 일치, 연결 기능 각주가 있으면 같은 공식·뜻과 일치), editorial-core.md(공식과 낱말 뜻은 기존 승인 내용과 일치).",
+   "proposal": "formula_support.ko를 ‘S′(이/가) V′하는’으로 고친다(en·formula_key ‘in which S′ V′’ 유지).",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu1-18",
+   "sentence_id": "s09",
+   "field": "gloss",
+   "current": "not always — 항상 ~인 것은 아니다 (부분 부정) (s09-g08)",
+   "issue": "각주 뜻 뒤 병기는 grammar-labels.md ‘뜻 뒤에 허용되는 짧은 병기’ 목록(관계사·계속적 which·명사절 접속사/동격·분사구문·가주어 대응·능동 완료 p.p. 관계)만 허용하는데 ‘부분 부정’은 목록에 없는 분류 이름이다. 뜻 ‘항상 ~인 것은 아니다’가 이미 부분 부정의 의미를 전한다. 분석 u1-gp3 제목의 ‘(부분 부정)’은 각주 제한 밖이라 유지해도 된다.",
+   "proposal": "s09-g08을 ‘not always — 항상 ~인 것은 아니다’로 줄인다.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu1-19",
+   "sentence_id": "s03",
+   "field": "gloss",
+   "current": "as — ~로 (자격·형태) (s03-g10)",
+   "issue": "‘returns as an echo’의 as는 ‘메아리의 형태로’의 뜻 하나인데 괄호에 ‘자격·형태’ 두 관계를 함께 남겼다. gloss-rules.md ‘기본 형식과 순서’(기능어는 그 문맥의 한 뜻, 서로 다른 관계를 동시에 나열하지 않음, 고를 뜻을 괄호에 남기지 않음), ‘금지와 검수’ 8. 괄호 설명은 grammar-labels.md 허용 병기에도 없다. 같은 문장 청크·자연 해석은 ‘메아리로’다.",
+   "proposal": "s03-g10을 ‘as — ~로’로 고친다.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu1-20",
+   "sentence_id": "s05",
+   "field": "gloss",
+   "current": "★ distort — 왜곡하다, 비틀다 (s05-g03) / today_words u1-w6 meaning_ko ‘왜곡하다, 비틀다’",
+   "issue": "distort your understanding of reality의 문맥 뜻은 ‘왜곡하다’이고 ‘비틀다’는 물리적으로 형태를 비트는 다른 문맥의 뜻이라 문장에 대입되지 않는다(‘이해를 비틀다’). gloss-rules.md ‘기본 형식과 순서’(뜻은 문장에 실제로 대입할 수 있어야 하며 다른 문맥의 뜻을 목록으로 늘어놓지 않는다). 같은 과 L 검수의 manipulate(조종하다/조작하다) 지적과 같은 유형.",
+   "proposal": "s05-g03과 u1-w6 meaning_ko를 ‘왜곡하다’로 고친다(흔한 뜻 병기가 필요하면 ‘왜곡하다 (흔한 뜻: 비틀다)’).",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu1-21",
+   "sentence_id": "s08",
+   "field": "gloss",
+   "current": "s08-g06 headword ‘keep an open mind’, spans [[58,62],[66,70],[71,75]] (keep·open·mind); lexical_coverage의 an [63,65]는 exemption below-middle1-unneeded(관사)",
+   "issue": "표제어는 an을 포함한 숙어인데 spans가 an을 빼고, 같은 an은 ‘별도 뜻 지원 불필요한 관사’로 면제되어 표제어와 원문 위치 연결이 어긋난다. manuscript-data.md ‘문장 주석’(숙어 안 낱말도 그 숙어 각주가 실제로 덮는 위치에 연결). 이 각주는 오늘의 낱말 u1-w8의 원천이기도 하다.",
+   "proposal": "s08-g06 spans를 [[58,62],[63,65],[66,70],[71,75]]로 넓히고 lexical_coverage의 [63,65] 행을 gloss_id:\"s08-g06\"로 바꾼다(표제어·뜻·★ 유지).",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu1-22",
+   "sentence_id": "s09",
+   "field": "analysis",
+   "current": "u1-gp3 explanation: … that it is true = 그것이 사실이라는 것. → 그것이 항상 그것이 사실이라는 것을 의미하는 것은 아니다. … / practice.support_gloss_ids [s09-g07, s09-g09, s09-g10, s09-g13]",
+   "issue": "결합 해석에 ‘그것’이 두 번 나오지만 앞 it(원하는 일)과 that절 it(원하는 그 어떤 것)의 지칭 대상이 다른데 설명은 앞 it만 밝혀 둘을 같은 대상으로 읽기 쉽다. 연습 도움말에도 뒤 it(s09-g11 ‘그것이 (사실이기를 원하는 어떤 것)’)과 is(s09-g12 ‘~이다’)가 빠져 정답 ‘그것이 사실이라는’의 두 번째 지칭과 서술을 학생이 추측해야 한다. analysis-content.md ‘배운 구문을 바로 연습’(실제 구절 해석에 필요한 보조 기능·낱말 뜻 지원), manuscript-data.md(support_gloss_ids에 연습 범위의 필요한 각주 연결), 대입은 각 자리의 실제 뜻을 밝힌다.",
+   "proposal": "설명의 해당 부분을 ‘that it is true = 그것(사실이기를 원하는 어떤 것)이 사실이라는 것’으로 고치고, practice.support_gloss_ids를 [s09-g07, s09-g09, s09-g10, s09-g11, s09-g12, s09-g13]로 늘린다(answer_ko 유지).",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu1-23",
+   "sentence_id": "s02",
+   "field": "analysis",
+   "current": "u1 easy_explanations s02 ④ ‘글쓴이는 이 공간을 ‘에코 챔버’라고 부르며 글의 중심 소재로 삼는다.’",
+   "issue": "한 문장에 ‘에코 챔버라고 부른다’와 ‘중심 소재로 삼는다’ 두 내용을 ‘~며’로 이었다. analysis-content.md ‘각 문장 쉬운 풀이’ 3(한 문장에 한 가지 내용만 담는다).",
+   "proposal": "두 문장으로 나눈다: ‘글쓴이는 이 공간을 ‘에코 챔버’라고 부른다.’ / ‘에코 챔버는 이 글 전체의 중심 소재다.’",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu1-24",
+   "sentence_id": "s06",
+   "field": "analysis",
+   "current": "u1 easy_explanations s06 ③ ‘사람들이 각자 자기 생각만 들으면 서로 나뉘는 사회적 분열이 커질 수 있다.’ ④ ‘그러면 모두에게 걸린 공통 문제를 함께 해결하는 협력도 어려워진다.’",
+   "issue": "③ ‘자기 생각만 들으면’은 ‘자기 머릿속 생각만 듣는다’로 읽혀, 원문(s04 이미 동의하는 의견만 듣는 상황)과 어긋난다. ④ 원문은 may foster … making collaboration … challenging으로 가능성인데 ‘어려워진다’로 단정했다(③은 ‘커질 수 있다’로 가능성을 지켰다). analysis-content.md ‘각 문장 쉬운 풀이’ 8(원문보다 강한 단정 금지, can help 예), editorial-core.md(양태는 모든 자료에서 일치).",
+   "proposal": "③ ‘사람들이 각자 자기와 같은 생각만 들으면 사회가 서로 나뉘는 분열이 커질 수 있다.’ ④ ‘그러면 모두에게 걸린 공통 문제를 함께 해결하는 협력도 어려워질 수 있다.’",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu1-25",
+   "sentence_id": "s09",
+   "field": "analysis",
+   "current": "u1 easy_explanations s09 ② ‘사람은 어떤 소식이 사실이기를 바랄 때 그 소식을 쉽게 믿을 수 있다.’ ④ ‘그래서 믿고 싶은 정보일수록 한 번 더 확인해야 한다는 뜻이다.’",
+   "issue": "② ‘바랄 때 쉽게 믿는다’는 원문 9번(바란다고 해서 늘 사실인 것은 아니다)에 없는 인과이고, 원문의 something을 ‘소식’으로 좁혔다. ④ ‘믿고 싶은 정보일수록 … 해야 한다는 뜻이다’는 9번 문장이 말하지 않은 비례 관계·당부를 9번의 뜻으로 단정했다(확인 당부는 8번). analysis-content.md ‘각 문장 쉬운 풀이’ 8(원문에 없는 사실·인과 추측, 원문보다 강한 단정 금지), 1(앞 문맥 연결은 실제 전개와 맞을 때만).",
+   "proposal": "②~④를 ‘사람은 어떤 것이 사실이기를 정말로 바랄 때가 있다.’ / ‘하지만 그렇게 바란다고 해서 그것이 늘 사실인 것은 아니다.’ / ‘그래서 믿고 싶은 정보도 8번에서 말한 대로 한 번 더 확인해야 한다.’로 고친다(①은 유지).",
+   "severity": "검토제안"
+  }
+ ]
+}

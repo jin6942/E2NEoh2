@@ -148,7 +148,7 @@
     {
      "id": "u1-w6",
      "text": "distort",
-     "meaning_ko": "왜곡하다, 비틀다",
+     "meaning_ko": "왜곡하다",
      "source_gloss_id": "s05-g03"
     },
     {
@@ -211,7 +211,8 @@
        "2번 문장은 1번에서 말한 ‘골라 받아들이는 습관’이 어떤 결과를 낳는지 알려 준다.",
        "비슷한 관점만 계속 보고 다른 견해는 생각해 보지 않는 경우를 말한다.",
        "이런 습관이 이어지면 사람은 자신과 같은 생각만 듣는 공간에 갇힐 수 있다.",
-       "글쓴이는 이 공간을 ‘에코 챔버’라고 부르며 글의 중심 소재로 삼는다."
+       "글쓴이는 이 공간을 ‘에코 챔버’라고 부른다.",
+       "에코 챔버는 이 글 전체의 중심 소재다."
       ]
      },
      {
@@ -219,17 +220,17 @@
       "explanatory_sentences": [
        "6번 문장은 5번에 이어 에코 챔버의 더 큰 문제를 말한다.",
        "5번이 한 사람의 생각과 토론 능력에 미치는 영향을 말했다면, 6번은 사회 전체에 미치는 영향을 말한다.",
-       "사람들이 각자 자기 생각만 들으면 서로 나뉘는 사회적 분열이 커질 수 있다.",
-       "그러면 모두에게 걸린 공통 문제를 함께 해결하는 협력도 어려워진다."
+       "사람들이 각자 자기와 같은 생각만 들으면 사회가 서로 나뉘는 분열이 커질 수 있다.",
+       "그러면 모두에게 걸린 공통 문제를 함께 해결하는 협력도 어려워질 수 있다."
       ]
      },
      {
       "sentence_id": "s09",
       "explanatory_sentences": [
        "9번 문장은 7~8번의 해결 방법을 마무리하며 기억할 점을 덧붙인다.",
-       "사람은 어떤 소식이 사실이기를 바랄 때 그 소식을 쉽게 믿을 수 있다.",
-       "하지만 바란다고 해서 그 소식이 항상 사실이 되는 것은 아니다.",
-       "그래서 믿고 싶은 정보일수록 한 번 더 확인해야 한다는 뜻이다."
+       "사람은 어떤 것이 사실이기를 정말로 바랄 때가 있다.",
+       "하지만 그렇게 바란다고 해서 그것이 늘 사실인 것은 아니다.",
+       "그래서 믿고 싶은 정보도 8번에서 말한 대로 한 번 더 확인해야 한다."
       ]
      }
     ],
@@ -239,19 +240,19 @@
       "sentence_id": "s02",
       "span": [
        94,
-       140
+       142
       ],
-      "title": "lead A to V: A가 ~하게 만들다",
+      "title": "lead A to V: A(이/가) ~하게 만들다",
       "formula_key": "lead A to V",
-      "explanation": "공식: lead A to V — A가 ~하게 이끌다(만들다). can = ~할 수 있다, A = you(당신), to V = to be trapped(갇히게 되다: be p.p. 수동), in an “echo chamber” = 에코 챔버 안에. → 당신이 에코 챔버에 갇히게 만들 수 있다. 당신은 스스로 가두는 쪽이 아니라 ‘갇히는’ 쪽이라 to 뒤에 수동 be trapped를 쓴다.",
+      "explanation": "공식: lead A to V — A(이/가) ~하게 이끌다(만들다). can = ~할 수 있다, A = you(당신), to V = to be trapped(갇히게 되다: be p.p. 수동), in an “echo chamber” = 에코 챔버 안에. → 당신이 에코 챔버에 갇히게 만들 수 있다. 당신은 스스로 가두는 쪽이 아니라 ‘갇히는’ 쪽이라 to 뒤에 수동 be trapped를 쓴다.",
       "practice": {
        "span": [
         94,
-        140
+        142
        ],
        "formula_support": {
         "en": "lead A to V",
-        "ko": "A가 ~하게 만들다"
+        "ko": "A(이/가) ~하게 만들다"
        },
        "answer_ko": "당신이 에코 챔버에 갇히게 만들 수 있다",
        "support_gloss_ids": [
@@ -272,7 +273,7 @@
       ],
       "title": "전치사 + 관계대명사 in which: S′(이/가) V′하는 N",
       "formula_key": "in which S′ V′",
-      "explanation": "공식: N + in which S′ V′ — S′(이/가) V′하는 N(그 N 안에서). N = any situation(모든 상황), in which = 그 상황 안에서, S′ = you(당신), V′ = only hear(듣기만 하다), 목적어 = opinions(의견들). → 당신이 의견들만 듣는 모든 상황. in which 뒤에는 주어와 목적어를 모두 갖춘 완전한 절이 온다.",
+      "explanation": "공식: N + in which S′ V′ — S′(이/가) V′하는 N(그 N 안에서). N = any situation(모든 상황), in which = 그 상황 안에서, S′ = you(당신), only = ~만(뒤의 opinions를 한정), V′ = hear(듣다), 목적어 = opinions(의견들). → 당신이 의견들만 듣는 모든 상황. in which 뒤에는 주어와 목적어를 모두 갖춘 완전한 절이 온다.",
       "practice": {
        "span": [
         49,
@@ -280,7 +281,7 @@
        ],
        "formula_support": {
         "en": "in which S′ V′",
-        "ko": "S′(이/가) V′하는 N"
+        "ko": "S′(이/가) V′하는"
        },
        "answer_ko": "당신이 의견들만 듣는 모든 상황",
        "support_gloss_ids": [
@@ -301,7 +302,7 @@
       ],
       "title": "not always: 항상 ~인 것은 아니다 (부분 부정)",
       "formula_key": "not always",
-      "explanation": "공식: not always — 항상 ~인 것은 아니다(부분 부정). it = 그것(어떤 것이 사실이기를 원하는 것), doesn’t always mean = 항상 의미하는 것은 아니다, that it is true = 그것이 사실이라는 것. → 그것이 항상 그것이 사실이라는 것을 의미하는 것은 아니다. ‘절대 아니다’가 아니라 ‘늘 그런 것은 아니다’라는 뜻이다.",
+      "explanation": "공식: not always — 항상 ~인 것은 아니다(부분 부정). it = 그것(어떤 것이 사실이기를 원하는 것), doesn’t always mean = 항상 의미하는 것은 아니다, that it is true = 그것(사실이기를 원하는 어떤 것)이 사실이라는 것. → 그것이 항상 그것이 사실이라는 것을 의미하는 것은 아니다. ‘절대 아니다’가 아니라 ‘늘 그런 것은 아니다’라는 뜻이다.",
       "practice": {
        "span": [
         46,
@@ -316,6 +317,8 @@
         "s09-g07",
         "s09-g09",
         "s09-g10",
+        "s09-g11",
+        "s09-g12",
         "s09-g13"
        ]
       }
@@ -329,7 +332,7 @@
       ],
       "title": "be p.p.: ~되다 (현재 수동)",
       "formula_key": "be p.p.",
-      "explanation": "공식: be p.p. — ~되다. S = The term “echo chamber”(‘에코 챔버’라는 용어), be = is, also = 또한, p.p. = used(use의 p.p.형, 사용하다). → ‘에코 챔버’라는 용어는 또한 사용된다. 용어는 스스로 사용하는 쪽이 아니라 사람들이 ‘사용하는’ 대상이라 수동을 쓴다.",
+      "explanation": "공식: be p.p. — ~되다. S = The term “echo chamber”(‘에코 챔버’라는 용어), be = is, also = 또한, p.p. = used(사용된, use의 p.p.형). → ‘에코 챔버’라는 용어는 또한 사용된다. 용어는 스스로 사용하는 쪽이 아니라 사람들이 ‘사용하는’ 대상이라 수동을 쓴다.",
       "supplemental": {
        "reason": "s04의 현재 수동 is used는 필수 관계사 힌트 2개(in which, 생략 관계사)가 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 현재 수동 be p.p. 설명이 없어 이 단위 대표 사례로 1회 보충",
        "function_gloss_id": "s04-g03"
@@ -475,6 +478,10 @@
       [
        21,
        29
+      ],
+      [
+       77,
+       80
       ],
       [
        99,
@@ -1203,7 +1210,7 @@
       ]
      ],
      "headword": "lead A to V",
-     "meaning_ko": "A가 ~하게 이끌다, 만들다",
+     "meaning_ko": "A(이/가) ~하게 이끌다, 만들다",
      "star": false,
      "kind": "lexical",
      "verb_construction": {
@@ -1231,7 +1238,7 @@
       ]
      ],
      "headword": "be p.p.",
-     "meaning_ko": "~되다, ~당하다",
+     "meaning_ko": "~되다",
      "star": false,
      "kind": "function",
      "combines_with": [
@@ -1569,6 +1576,10 @@
        68
       ],
       [
+       73,
+       76
+      ],
+      [
        77,
        84
       ]
@@ -1590,7 +1601,8 @@
      ],
      "headword": "echo chamber",
      "meaning_ko": "에코 챔버, 반향실",
-     "star": false
+     "star": true,
+     "today_word_id": "u1-w4"
     },
     {
      "id": "s03-g02",
@@ -1737,7 +1749,7 @@
       ]
      ],
      "headword": "as",
-     "meaning_ko": "~로 (자격·형태)",
+     "meaning_ko": "~로",
      "star": false
     },
     {
@@ -2054,7 +2066,8 @@
      ],
      "headword": "echo chamber",
      "meaning_ko": "에코 챔버, 반향실",
-     "star": false
+     "star": true,
+     "today_word_id": "u1-w4"
     },
     {
      "id": "s04-g03",
@@ -2172,7 +2185,7 @@
       ]
      ],
      "headword": "in which S′ V′",
-     "meaning_ko": "S′(이/가) V′하는 (전치사 + 관계대명사)",
+     "meaning_ko": "S′(이/가) V′하는 (관계대명사)",
      "star": false
     },
     {
@@ -2399,12 +2412,28 @@
       49,
       85
      ],
-     "meaning_ko": "당신이 (의견들을) 듣기만 하는 모든 상황",
+     "meaning_ko": "당신[독자]이 (의견들을) 듣기만 하는 모든 상황",
      "explanation": "선행사 any situation을 in which(그 상황 안에서)가 받아 you only hear opinions …가 꾸민다. S′ you, V′ hear까지 표시하고 부사 only는 보존, 목적어 opinions 이하는 제외.",
      "display_pairs": [
       {
        "en": "any situation [in which you only hear]",
-       "ko": "[당신이 듣기만 하는] 모든 상황",
+       "ko": "[당신[독자]이 듣기만 하는] 모든 상황",
+       "pronoun_refs": [
+        {
+         "en_span": [
+          24,
+          27
+         ],
+         "ko_pronoun_span": [
+          1,
+          3
+         ],
+         "ko_reference_span": [
+          3,
+          7
+         ]
+        }
+       ],
        "emphasis_links": [
         {
          "en_spans": [
@@ -2415,12 +2444,12 @@
          ],
          "ko_spans": [
           [
-           3,
-           4
+           7,
+           8
           ],
           [
-           10,
-           11
+           14,
+           15
           ]
          ]
         }
@@ -2434,12 +2463,28 @@
       86,
       117
      ],
-     "meaning_ko": "당신이 이미 동의하는 의견들",
+     "meaning_ko": "당신[독자]이 이미 동의하는 의견들",
      "explanation": "선행사 opinions 뒤 목적격 관계대명사 that이 생략된 관계절. opinions가 agree with의 목적어 자리(전치사 with의 목적어). S′ you, V′ agree with까지 표시.",
      "display_pairs": [
       {
        "en": "opinions [(that) you already agree with]",
-       "ko": "[당신이 이미 동의하는] 의견들",
+       "ko": "[당신[독자]이 이미 동의하는] 의견들",
+       "pronoun_refs": [
+        {
+         "en_span": [
+          17,
+          20
+         ],
+         "ko_pronoun_span": [
+          1,
+          3
+         ],
+         "ko_reference_span": [
+          3,
+          7
+         ]
+        }
+       ],
        "emphasis_links": [
         {
          "en_spans": [
@@ -2450,12 +2495,12 @@
          ],
          "ko_spans": [
           [
-           3,
-           4
+           7,
+           8
           ],
           [
-           11,
-           12
+           15,
+           16
           ]
          ]
         }
@@ -2533,6 +2578,10 @@
        16
       ],
       [
+       48,
+       51
+      ],
+      [
        52,
        57
       ]
@@ -2579,7 +2628,7 @@
       ]
      ],
      "headword": "distort",
-     "meaning_ko": "왜곡하다, 비틀다",
+     "meaning_ko": "왜곡하다",
      "star": true,
      "today_word_id": "u1-w6",
      "kind": "lexical"
@@ -2881,12 +2930,28 @@
       58,
       101
      ],
-     "meaning_ko": "비판적으로 생각하고 (의미 있는 토론에) 참여하는 당신의 능력",
+     "meaning_ko": "비판적으로 생각하고 (의미 있는 토론에) 참여하는 당신[독자]의 능력",
      "explanation": "to think critically and (to) engage …가 앞 명사 your ability를 뒤에서 꾸민다(~하는 능력). to 하나에 동사 think와 engage가 병렬로 이어진다. 대상 in meaningful debates는 제외.",
      "display_pairs": [
       {
        "en": "your ability [to think critically and engage]",
-       "ko": "[비판적으로 생각하고 참여하는] 당신의 능력",
+       "ko": "[비판적으로 생각하고 참여하는] 당신[독자]의 능력",
+       "pronoun_refs": [
+        {
+         "en_span": [
+          0,
+          4
+         ],
+         "ko_pronoun_span": [
+          18,
+          20
+         ],
+         "ko_reference_span": [
+          20,
+          24
+         ]
+        }
+       ],
        "emphasis_links": [
         {
          "en_spans": [
@@ -3010,7 +3075,8 @@
      ],
      "headword": "echo chamber",
      "meaning_ko": "에코 챔버, 반향실",
-     "star": false
+     "star": true,
+     "today_word_id": "u1-w4"
     },
     {
      "id": "s06-g03",
@@ -3389,6 +3455,10 @@
       [
        51,
        55
+      ],
+      [
+       87,
+       90
       ],
       [
        91,
@@ -3935,6 +4005,10 @@
        15
       ],
       [
+       54,
+       57
+      ],
+      [
        58,
        62
       ]
@@ -4030,6 +4104,10 @@
       [
        58,
        62
+      ],
+      [
+       63,
+       65
       ],
       [
        66,
@@ -4187,9 +4265,7 @@
       63,
       65
      ],
-     "exemption": "below-middle1-unneeded",
-     "level": "below-middle1",
-     "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+     "gloss_id": "s08-g06"
     },
     {
      "span": [
@@ -4240,12 +4316,28 @@
       25,
       52
      ],
-     "meaning_ko": "당신이 받는 정보",
+     "meaning_ko": "당신[독자]이 받는 정보",
      "explanation": "선행사 the information 뒤 목적격 관계대명사 that이 생략된 관계절(receive의 목적어 자리). S′ you, V′ receive.",
      "display_pairs": [
       {
        "en": "the information [(that) you receive]",
-       "ko": "[당신이 받는] 정보",
+       "ko": "[당신[독자]이 받는] 정보",
+       "pronoun_refs": [
+        {
+         "en_span": [
+          24,
+          27
+         ],
+         "ko_pronoun_span": [
+          1,
+          3
+         ],
+         "ko_reference_span": [
+          3,
+          7
+         ]
+        }
+       ],
        "emphasis_links": [
         {
          "en_spans": [
@@ -4256,12 +4348,12 @@
          ],
          "ko_spans": [
           [
-           3,
-           4
+           7,
+           8
           ],
           [
-           6,
-           7
+           10,
+           11
           ]
          ]
         }
@@ -4444,7 +4536,7 @@
       ]
      ],
      "headword": "want A to V",
-     "meaning_ko": "A가 ~하기를 원하다",
+     "meaning_ko": "A(이/가) ~하기를 원하다",
      "star": false
     },
     {
@@ -4509,7 +4601,7 @@
       ]
      ],
      "headword": "not always",
-     "meaning_ko": "항상 ~인 것은 아니다 (부분 부정)",
+     "meaning_ko": "항상 ~인 것은 아니다",
      "star": false,
      "kind": "function",
      "combines_with": [
@@ -4707,12 +4799,28 @@
       0,
       23
      ],
-     "meaning_ko": "당신이 (어떤 것이 사실이기를) 정말로 원하더라도",
+     "meaning_ko": "당신[독자]이 (어떤 것이 사실이기를) 정말로 원하더라도",
      "explanation": "even if S′ V′: S′가 V′하더라도(양보). S′ you, V′ want까지 표시하고 사이 부사 really는 보존, want A to V의 A·to V는 제외.",
      "display_pairs": [
       {
        "en": "[Even if you really want]",
-       "ko": "[당신이 정말로 원하더라도]",
+       "ko": "[당신[독자]이 정말로 원하더라도]",
+       "pronoun_refs": [
+        {
+         "en_span": [
+          9,
+          12
+         ],
+         "ko_pronoun_span": [
+          1,
+          3
+         ],
+         "ko_reference_span": [
+          3,
+          7
+         ]
+        }
+       ],
        "emphasis_links": [
         {
          "en_spans": [
@@ -4723,12 +4831,12 @@
          ],
          "ko_spans": [
           [
-           3,
-           4
+           7,
+           8
           ],
           [
-           11,
-           14
+           15,
+           18
           ]
          ]
         }
@@ -4742,12 +4850,28 @@
       69,
       84
      ],
-     "meaning_ko": "그것이 사실이라는 것",
+     "meaning_ko": "그것[사실이기를 원하는 어떤 것]이 사실이라는 것",
      "explanation": "동사 mean의 목적어 that 명사절(S′ it, V′ is, 보어 true). 바깥의 doesn’t always mean(부분 부정)은 분석 u1-gp3에서 설명.",
      "display_pairs": [
       {
        "en": "[that it is true]",
-       "ko": "[그것이 사실이라는 것]",
+       "ko": "[그것[사실이기를 원하는 어떤 것]이 사실이라는 것]",
+       "pronoun_refs": [
+        {
+         "en_span": [
+          6,
+          8
+         ],
+         "ko_pronoun_span": [
+          1,
+          3
+         ],
+         "ko_reference_span": [
+          3,
+          19
+         ]
+        }
+       ],
        "emphasis_links": [
         {
          "en_spans": [
@@ -4758,12 +4882,12 @@
          ],
          "ko_spans": [
           [
-           3,
-           4
+           19,
+           20
           ],
           [
-           8,
-           12
+           24,
+           28
           ]
          ]
         }

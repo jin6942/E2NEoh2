@@ -34,7 +34,7 @@ def sentences(T):
     s.ch('and often selectively takes the information', '그리고 자주 선택적으로 정보를 받아들인다')
     s.ch('that suits their tastes or beliefs.', '자신들의 취향이나 신념에 맞는.')
     s.natural('요즘 모든 사람은 인터넷이나 소셜 미디어를 통해 뉴스를 접하고, 자신의 취향이나 신념에 맞는 정보를 자주 선택적으로 받아들인다.')
-    s.cl('main', 'everyone', subj='everyone', verbs=['accesses', 'takes'])
+    s.cl('main', 'everyone', subj='everyone', verbs=['accesses', 'and', 'takes'])
     s.cl('subject_relative', 'that', verbs=['suits'], marker='that')
     s.g('These|days', 'these days', '요즘')
     s.g('everyone', 'everyone', '모든 사람')
@@ -85,12 +85,12 @@ def sentences(T):
     s.g('alternative', 'alternative', '대안적인, 다른', star=W['alternative'])
     s.g('views', 'views', '견해들, 관점들')
     fc = s.g('can', 'can V', '~할 수 있다', kind='function', combines_with=[])
-    ld = s.g('lead|to', 'lead A to V', 'A가 ~하게 이끌다, 만들다',
+    ld = s.g('lead|to', 'lead A to V', 'A(이/가) ~하게 이끌다, 만들다',
              verb_construction={'kind': 'verb-frame', 'verb_span': s.span_of('lead'), 'lemma': 'lead',
                                 'link_spans': [s.span_of('to')],
                                 'review_record': 'lead you to be trapped: A=you, to V=to be trapped(수동 부정사).'})
     link(fc, ld)
-    fb = s.g('be', 'be p.p.', '~되다, ~당하다', kind='function', combines_with=[])
+    fb = s.g('be', 'be p.p.', '~되다', kind='function', combines_with=[])
     tr = s.g('trapped', 'trapped', '갇힌', verb_form=pp('passive-participle', s, 'trapped', 'trap', fb['id']))
     link(fb, tr)
     s.g('in', 'in', '~ 안에')
@@ -114,8 +114,8 @@ def sentences(T):
     s.ch('and returns as an echo.', '그리고 메아리로 되돌아오는.')
     s.natural('에코 챔버(반향실)는 소리가 밖으로 새어 나가지 않고 메아리로 되돌아오는 밀폐된 공간을 말한다.')
     s.cl('main', 'An', subj='An echo chamber', verbs=['refers'])
-    s.cl('subordinate', 'where', subj='sound', verbs=['doesn’t', 'leak', 'returns'], marker='where')
-    s.g('echo|chamber', 'echo chamber', '에코 챔버, 반향실')
+    s.cl('subordinate', 'where', subj='sound', verbs=['doesn’t', 'leak', 'and', 'returns'], marker='where')
+    s.g('echo|chamber', 'echo chamber', '에코 챔버, 반향실', star=W['echo_chamber'])
     s.g('refers|to', 'refer to A', 'A를 가리키다, 말하다', verb_form=v3(s, 'refers', 'refer', 'An echo chamber'))
     s.g('enclosed', 'enclosed', '밀폐된, 둘러싸인', star=W['enclosed'], verb_form=pp('past-participle', s, 'enclosed', 'enclose'))
     s.g('space', 'space', '공간')
@@ -125,7 +125,7 @@ def sentences(T):
     lk = s.g('leak|out', 'leak out', '새어 나가다')
     link(fd, lk)
     s.g('returns', 'return', '되돌아오다', verb_form=v3(s, 'returns', 'return', 'sound'))
-    s.g('as', 'as', '~로 (자격·형태)')
+    s.g('as', 'as', '~로')
     s.g('echo', 'echo', '메아리, 울림', at=s.text.index('echo.'))
     s.hint('an enclosed space [where sound doesn’t leak out]', '[소리가 새어 나가지 않는] 밀폐된 공간',
            span='an enclosed space where sound doesn’t leak out', label='관계부사 where',
@@ -148,7 +148,7 @@ def sentences(T):
     s.cl('subordinate', 'in', subj='you', verbs=['hear'], marker='in which')
     s.cl('subordinate', 'you', subj='you', verbs=['agree'], marker='that', omitted=True, occ=1)
     s.g('term', 'term', '용어')
-    s.g('echo|chamber', 'echo chamber', '에코 챔버, 반향실')
+    s.g('echo|chamber', 'echo chamber', '에코 챔버, 반향실', star=W['echo_chamber'])
     fb = s.g('is', 'be p.p.', '~되다', kind='function', combines_with=[])
     s.g('also', 'also', '또한')
     us = s.g('used', 'used', '사용된', verb_form=pp('passive-participle', s, 'used', 'use', fb['id']))
@@ -158,19 +158,21 @@ def sentences(T):
     link(ft, ds)
     s.g('any', 'any', '어떤 ~이든, 모든')
     s.g('situation', 'situation', '상황')
-    rel = s.g('in|which', 'in which S′ V′', 'S′(이/가) V′하는 (전치사 + 관계대명사)')
+    rel = s.g('in|which', 'in which S′ V′', 'S′(이/가) V′하는 (관계대명사)')
     s.g('only', 'only', '오직, ~만')
     s.g('hear', 'hear', '듣다')
     s.g('opinions', 'opinions', '의견들')
     s.g('already', 'already', '이미')
     s.g('agree|with', 'agree with A', 'A에 동의하다')
-    s.hint('any situation [in which you only hear]', '[당신이 듣기만 하는] 모든 상황',
+    s.hint('any situation [in which you only hear]', '[당신[독자]이 듣기만 하는] 모든 상황',
            span='any situation in which you only hear', label='전치사 + 관계대명사 in which',
-           links=[(['in which'], ['이', '는'])], meaning='당신이 (의견들을) 듣기만 하는 모든 상황',
+           links=[(['in which'], ['이', '는'])], refs=[('you', '당신', '[독자]')],
+           meaning='당신[독자]이 (의견들을) 듣기만 하는 모든 상황',
            explanation='선행사 any situation을 in which(그 상황 안에서)가 받아 you only hear opinions …가 꾸민다. S′ you, V′ hear까지 표시하고 부사 only는 보존, 목적어 opinions 이하는 제외.')
-    s.hint('opinions [(that) you already agree with]', '[당신이 이미 동의하는] 의견들',
+    s.hint('opinions [(that) you already agree with]', '[당신[독자]이 이미 동의하는] 의견들',
            span='opinions you already agree with', label='목적격 관계대명사 that 생략', display_mode='omitted-relative',
-           omitted_relative='that', links=[(['that'], ['이', '는'])], meaning='당신이 이미 동의하는 의견들',
+           omitted_relative='that', links=[(['that'], ['이', '는'])], refs=[('you', '당신', '[독자]')],
+           meaning='당신[독자]이 이미 동의하는 의견들',
            explanation='선행사 opinions 뒤 목적격 관계대명사 that이 생략된 관계절. opinions가 agree with의 목적어 자리(전치사 with의 목적어). S′ you, V′ agree with까지 표시.')
     s.relative_ids = [rel['id']]
     s.review = ('주절 수동 is also used(사이 부사 also) + 목적의 to describe + 목적어 any situation + 전치사 + 관계대명사 in which절(S′ you, V′ hear) + '
@@ -186,10 +188,10 @@ def sentences(T):
     s.ch('to think critically', '비판적으로 생각하는')
     s.ch('and engage in meaningful debates.', '그리고 의미 있는 토론에 참여하는.')
     s.natural('이는 현실에 대한 당신의 이해를 왜곡하고, 비판적으로 생각하고 의미 있는 토론에 참여하는 당신의 능력을 제한할 수 있다.')
-    s.cl('main', 'This', subj='This', verbs=['can', 'distort', 'limit'])
+    s.cl('main', 'This', subj='This', verbs=['can', 'distort', 'and', 'limit'])
     s.g('This', 'this', '이것은', referent_ko='이미 동의하는 의견만 듣게 되는 에코 챔버 상황')
     fc = s.g('can', 'can V', '~할 수 있다', kind='function', combines_with=[])
-    dt = s.g('distort', 'distort', '왜곡하다, 비틀다', star=W['distort'])
+    dt = s.g('distort', 'distort', '왜곡하다', star=W['distort'])
     s.g('your', 'your', '당신의')
     s.g('understanding', 'understanding', '이해')
     s.g('of', 'of', '~에 대한')
@@ -204,9 +206,10 @@ def sentences(T):
     s.g('meaningful', 'meaningful', '의미 있는')
     s.g('debates', 'debates', '토론들')
     s.brk('of', 'postnominal-preposition', 'of reality는 앞 명사 your understanding을 뒤에서 꾸미는 전치사구')
-    s.hint('your ability [to think critically and engage]', '[비판적으로 생각하고 참여하는] 당신의 능력',
+    s.hint('your ability [to think critically and engage]', '[비판적으로 생각하고 참여하는] 당신[독자]의 능력',
            span='your ability to think critically and engage', label='to부정사 후치수식',
-           links=[(['to'], ['는'])], meaning='비판적으로 생각하고 (의미 있는 토론에) 참여하는 당신의 능력',
+           links=[(['to'], ['는'])], refs=[('your', '당신', '[독자]')],
+           meaning='비판적으로 생각하고 (의미 있는 토론에) 참여하는 당신[독자]의 능력',
            explanation='to think critically and (to) engage …가 앞 명사 your ability를 뒤에서 꾸민다(~하는 능력). to 하나에 동사 think와 engage가 병렬로 이어진다. 대상 in meaningful debates는 제외.')
     s.review = ('단일 주절 This can distort … and limit …(조동사 can이 병렬 동사 둘을 모두 이끎). This는 앞 문장의 상황(이미 동의하는 의견만 듣는 것). '
                 'of reality 앞 후치수식 경계. ability to V(병렬 think / engage in). 힌트 1개(to부정사 후치수식). 수동 없음.')
@@ -222,7 +225,7 @@ def sentences(T):
     s.natural('더 나쁜 것은, 에코 챔버가 공통 문제에 대한 협력을 어렵게 만들면서 사회적 분열을 조장할 수도 있다는 것이다.')
     s.cl('main', 'an', subj='an echo chamber', verbs=['may', 'foster'])
     s.g('Worse|still', 'worse still', '더 나쁜 것은, 설상가상으로')
-    s.g('echo|chamber', 'echo chamber', '에코 챔버, 반향실')
+    s.g('echo|chamber', 'echo chamber', '에코 챔버, 반향실', star=W['echo_chamber'])
     fm = s.g('may', 'may V', '~할 수도 있다', kind='function', combines_with=[])
     fs = s.g('foster', 'foster', '조장하다, 키우다')
     link(fm, fs)
@@ -256,7 +259,7 @@ def sentences(T):
     s.ch('and engage with people', '그리고 사람들과 교류해야 한다')
     s.ch('who have different views.', '다른 견해를 가지고 있는.')
     s.natural('이러한 함정에 빠지지 않으려면, 당신은 다양한 정보 출처를 적극적으로 찾고 다른 견해를 가진 사람들과 교류해야 한다.')
-    s.cl('main', 'you', subj='you', verbs=['must', 'seek', 'engage'])
+    s.cl('main', 'you', subj='you', verbs=['must', 'seek', 'and', 'engage'])
     s.cl('subject_relative', 'who', verbs=['have'], marker='who')
     ft = s.g('To', 'to V', '~하기 위해', kind='function', combines_with=[])
     av = s.g('avoid', 'avoid V-ing', '~하는 것을 피하다')
@@ -297,22 +300,23 @@ def sentences(T):
     s.ch('and keep an open mind', '그리고 열린 마음을 유지하라')
     s.ch('when discussing new ideas.', '새로운 생각들을 논의할 때.')
     s.natural('항상 당신이 받은 정보를 잊지 말고 확인하고, 새로운 생각을 논의할 때는 열린 마음을 유지하라.')
-    s.cl('imperative', 'Always', verbs=['remember', 'keep'])
+    s.cl('imperative', 'Always', verbs=['remember', 'and', 'keep'])
     s.cl('subordinate', 'you', subj='you', verbs=['receive'], marker='that', omitted=True)
     s.g('Always', 'always', '항상')
     s.g('remember|to', 'remember to V', '~할 것을 기억하다, 잊지 않고 ~하다')
     s.g('check', 'check', '확인하다')
     s.g('information', 'information', '정보')
     s.g('receive', 'receive', '받다')
-    s.g('keep|open|mind', 'keep an open mind', '열린 마음을 유지하다', star=W['open_mind'])
+    s.g('keep|an|open|mind', 'keep an open mind', '열린 마음을 유지하다', star=W['open_mind'])
     fw = s.g('when', 'when V-ing', '~할 때', kind='function', combines_with=[])
     dc = s.g('discussing', 'discuss', '논의하다, 토론하다', verb_form=pp('ing', s, 'discussing', 'discuss'))
     link(fw, dc)
     s.g('new', 'new', '새로운')
     s.g('ideas', 'ideas', '생각들, 아이디어들')
-    s.hint('the information [(that) you receive]', '[당신이 받는] 정보',
+    s.hint('the information [(that) you receive]', '[당신[독자]이 받는] 정보',
            span='the information you receive', label='목적격 관계대명사 that 생략', display_mode='omitted-relative',
-           omitted_relative='that', links=[(['that'], ['이', '는'])], meaning='당신이 받는 정보',
+           omitted_relative='that', links=[(['that'], ['이', '는'])], refs=[('you', '당신', '[독자]')],
+           meaning='당신[독자]이 받는 정보',
            explanation='선행사 the information 뒤 목적격 관계대명사 that이 생략된 관계절(receive의 목적어 자리). S′ you, V′ receive.')
     s.hint('[when discussing]', '[논의할 때]', span='when discussing', label='축약된 when 부사절',
            links=[(['when', 'ing'], ['할 때'])], meaning='(새로운 생각들을) 논의할 때',
@@ -333,23 +337,25 @@ def sentences(T):
     s.cl('subordinate', 'that', subj='it', verbs=['is'], marker='that')
     s.g('Even|if', 'even if S′ V′', 'S′(이/가) V′하더라도')
     s.g('really', 'really', '정말로')
-    s.g('want|to', 'want A to V', 'A가 ~하기를 원하다')
+    s.g('want|to', 'want A to V', 'A(이/가) ~하기를 원하다')
     s.g('something', 'something', '어떤 것, 무언가')
     s.g('be', 'be', '~이다')
     s.g('true', 'true', '사실인, 진실인')
     s.g('it', 'it', '그것은', referent_ko='어떤 것이 사실이기를 원하는 것')
-    fd = s.g('doesn’t|always', 'not always', '항상 ~인 것은 아니다 (부분 부정)', kind='function', combines_with=[])
+    fd = s.g('doesn’t|always', 'not always', '항상 ~인 것은 아니다', kind='function', combines_with=[])
     mn = s.g('mean', 'mean', '의미하다, 뜻하다')
     link(fd, mn)
     s.g('that', 'that S′ V′', 'S′(이/가) V′라는 것')
     s.g('it', 'it', '그것이', referent_ko='사실이기를 원하는 어떤 것', at=s.text.index('it is true'))
     s.g('is', 'is', '~이다')
     s.g('true', 'true', '사실인, 진실인', at=s.text.index('true.'))
-    s.hint('[Even if you really want]', '[당신이 정말로 원하더라도]', span='Even if you really want', label='양보 접속사 even if',
-           links=[(['Even if'], ['이', '더라도'])], meaning='당신이 (어떤 것이 사실이기를) 정말로 원하더라도',
+    s.hint('[Even if you really want]', '[당신[독자]이 정말로 원하더라도]', span='Even if you really want', label='양보 접속사 even if',
+           links=[(['Even if'], ['이', '더라도'])], refs=[('you', '당신', '[독자]')],
+           meaning='당신[독자]이 (어떤 것이 사실이기를) 정말로 원하더라도',
            explanation='even if S′ V′: S′가 V′하더라도(양보). S′ you, V′ want까지 표시하고 사이 부사 really는 보존, want A to V의 A·to V는 제외.')
-    s.hint('[that it is true]', '[그것이 사실이라는 것]', span='that it is true', label='명사절 접속사 that',
-           links=[(['that'], ['이', '라는 것'])], meaning='그것이 사실이라는 것',
+    s.hint('[that it is true]', '[그것[사실이기를 원하는 어떤 것]이 사실이라는 것]', span='that it is true', label='명사절 접속사 that',
+           links=[(['that'], [('이', 1), '라는 것'])], refs=[('it', '그것', '[사실이기를 원하는 어떤 것]')],
+           meaning='그것[사실이기를 원하는 어떤 것]이 사실이라는 것',
            explanation='동사 mean의 목적어 that 명사절(S′ it, V′ is, 보어 true). 바깥의 doesn’t always mean(부분 부정)은 분석 u1-gp3에서 설명.')
     s.review = ('양보 부사절 Even if you really want something to be true(want A to V, A=something) + 주절 it doesn’t always mean + 목적어 that 명사절. '
                 'doesn’t always = 부분 부정(항상 ~인 것은 아니다). 앞 it은 사실이기를 원하는 일, that절 it은 원하는 그 어떤 것. 힌트 2개(even if, 명사절 that). 수동 없음.')
@@ -366,7 +372,7 @@ UNIT = {
         {'id': W['alternative'], 'text': 'alternative', 'meaning_ko': '대안적인, 다른'},
         {'id': W['echo_chamber'], 'text': 'echo chamber', 'meaning_ko': '에코 챔버, 반향실'},
         {'id': W['enclosed'], 'text': 'enclosed', 'meaning_ko': '밀폐된, 둘러싸인'},
-        {'id': W['distort'], 'text': 'distort', 'meaning_ko': '왜곡하다, 비틀다'},
+        {'id': W['distort'], 'text': 'distort', 'meaning_ko': '왜곡하다'},
         {'id': W['collaboration'], 'text': 'collaboration', 'meaning_ko': '협력, 공동 작업'},
         {'id': W['open_mind'], 'text': 'keep an open mind', 'meaning_ko': '열린 마음을 유지하다'},
     ],
@@ -394,49 +400,50 @@ def analysis(_):
                 '2번 문장은 1번에서 말한 ‘골라 받아들이는 습관’이 어떤 결과를 낳는지 알려 준다.',
                 '비슷한 관점만 계속 보고 다른 견해는 생각해 보지 않는 경우를 말한다.',
                 '이런 습관이 이어지면 사람은 자신과 같은 생각만 듣는 공간에 갇힐 수 있다.',
-                '글쓴이는 이 공간을 ‘에코 챔버’라고 부르며 글의 중심 소재로 삼는다.']},
+                '글쓴이는 이 공간을 ‘에코 챔버’라고 부른다.',
+                '에코 챔버는 이 글 전체의 중심 소재다.']},
             {'sentence_id': 's06', 'explanatory_sentences': [
                 '6번 문장은 5번에 이어 에코 챔버의 더 큰 문제를 말한다.',
                 '5번이 한 사람의 생각과 토론 능력에 미치는 영향을 말했다면, 6번은 사회 전체에 미치는 영향을 말한다.',
-                '사람들이 각자 자기 생각만 들으면 서로 나뉘는 사회적 분열이 커질 수 있다.',
-                '그러면 모두에게 걸린 공통 문제를 함께 해결하는 협력도 어려워진다.']},
+                '사람들이 각자 자기와 같은 생각만 들으면 사회가 서로 나뉘는 분열이 커질 수 있다.',
+                '그러면 모두에게 걸린 공통 문제를 함께 해결하는 협력도 어려워질 수 있다.']},
             {'sentence_id': 's09', 'explanatory_sentences': [
                 '9번 문장은 7~8번의 해결 방법을 마무리하며 기억할 점을 덧붙인다.',
-                '사람은 어떤 소식이 사실이기를 바랄 때 그 소식을 쉽게 믿을 수 있다.',
-                '하지만 바란다고 해서 그 소식이 항상 사실이 되는 것은 아니다.',
-                '그래서 믿고 싶은 정보일수록 한 번 더 확인해야 한다는 뜻이다.']},
+                '사람은 어떤 것이 사실이기를 정말로 바랄 때가 있다.',
+                '하지만 그렇게 바란다고 해서 그것이 늘 사실인 것은 아니다.',
+                '그래서 믿고 싶은 정보도 8번에서 말한 대로 한 번 더 확인해야 한다.']},
         ],
         'grammar_points': [
-            {'id': 'u1-gp1', 'sentence_id': 's02', 'span': 'can lead you to be trapped in an “echo chamber',
-             'title': 'lead A to V: A가 ~하게 만들다', 'formula_key': 'lead A to V',
-             'explanation': '공식: lead A to V — A가 ~하게 이끌다(만들다). can = ~할 수 있다, A = you(당신), to V = to be trapped(갇히게 되다: be p.p. 수동), '
+            {'id': 'u1-gp1', 'sentence_id': 's02', 'span': 'can lead you to be trapped in an “echo chamber.”',
+             'title': 'lead A to V: A(이/가) ~하게 만들다', 'formula_key': 'lead A to V',
+             'explanation': '공식: lead A to V — A(이/가) ~하게 이끌다(만들다). can = ~할 수 있다, A = you(당신), to V = to be trapped(갇히게 되다: be p.p. 수동), '
                             'in an “echo chamber” = 에코 챔버 안에. → 당신이 에코 챔버에 갇히게 만들 수 있다. '
                             '당신은 스스로 가두는 쪽이 아니라 ‘갇히는’ 쪽이라 to 뒤에 수동 be trapped를 쓴다.',
-             'practice': {'span': 'can lead you to be trapped in an “echo chamber',
-                          'formula_support': {'en': 'lead A to V', 'ko': 'A가 ~하게 만들다'},
+             'practice': {'span': 'can lead you to be trapped in an “echo chamber.”',
+                          'formula_support': {'en': 'lead A to V', 'ko': 'A(이/가) ~하게 만들다'},
                           'support': [('s02', 'can V'), ('s02', 'be p.p.'), ('s02', 'trapped'), ('s02', 'in'), ('s02', 'echo chamber')],
                           'answer_ko': '당신이 에코 챔버에 갇히게 만들 수 있다'}},
             {'id': 'u1-gp2', 'sentence_id': 's04', 'span': 'any situation in which you only hear opinions',
              'title': '전치사 + 관계대명사 in which: S′(이/가) V′하는 N', 'formula_key': 'in which S′ V′',
              'explanation': '공식: N + in which S′ V′ — S′(이/가) V′하는 N(그 N 안에서). N = any situation(모든 상황), in which = 그 상황 안에서, '
-                            'S′ = you(당신), V′ = only hear(듣기만 하다), 목적어 = opinions(의견들). → 당신이 의견들만 듣는 모든 상황. '
+                            'S′ = you(당신), only = ~만(뒤의 opinions를 한정), V′ = hear(듣다), 목적어 = opinions(의견들). → 당신이 의견들만 듣는 모든 상황. '
                             'in which 뒤에는 주어와 목적어를 모두 갖춘 완전한 절이 온다.',
              'practice': {'span': 'any situation in which you only hear opinions',
-                          'formula_support': {'en': 'in which S′ V′', 'ko': 'S′(이/가) V′하는 N'},
+                          'formula_support': {'en': 'in which S′ V′', 'ko': 'S′(이/가) V′하는'},
                           'support': [('s04', 'any'), ('s04', 'situation'), ('s04', 'only'), ('s04', 'hear'), ('s04', 'opinions')],
                           'answer_ko': '당신이 의견들만 듣는 모든 상황'}},
             {'id': 'u1-gp3', 'sentence_id': 's09', 'span': 'it doesn’t always mean that it is true',
              'title': 'not always: 항상 ~인 것은 아니다 (부분 부정)', 'formula_key': 'not always',
              'explanation': '공식: not always — 항상 ~인 것은 아니다(부분 부정). it = 그것(어떤 것이 사실이기를 원하는 것), doesn’t always mean = 항상 의미하는 것은 아니다, '
-                            'that it is true = 그것이 사실이라는 것. → 그것이 항상 그것이 사실이라는 것을 의미하는 것은 아니다. '
+                            'that it is true = 그것(사실이기를 원하는 어떤 것)이 사실이라는 것. → 그것이 항상 그것이 사실이라는 것을 의미하는 것은 아니다. '
                             '‘절대 아니다’가 아니라 ‘늘 그런 것은 아니다’라는 뜻이다.',
              'practice': {'span': 'it doesn’t always mean that it is true',
                           'formula_support': {'en': 'not always', 'ko': '항상 ~인 것은 아니다'},
-                          'support': [('s09', 'it'), ('s09', 'mean'), ('s09', 'that S′ V′'), ('s09', 'true', 1)],
+                          'support': [('s09', 'it'), ('s09', 'mean'), ('s09', 'that S′ V′'), ('s09', 'it', 1), ('s09', 'is'), ('s09', 'true', 1)],
                           'answer_ko': '그것이 항상 그것이 사실이라는 것을 의미하는 것은 아니다'}},
             {'id': 'u1-gp4', 'sentence_id': 's04', 'span': 'The term “echo chamber” is also used',
              'title': 'be p.p.: ~되다 (현재 수동)', 'formula_key': 'be p.p.',
-             'explanation': '공식: be p.p. — ~되다. S = The term “echo chamber”(‘에코 챔버’라는 용어), be = is, also = 또한, p.p. = used(use의 p.p.형, 사용하다). '
+             'explanation': '공식: be p.p. — ~되다. S = The term “echo chamber”(‘에코 챔버’라는 용어), be = is, also = 또한, p.p. = used(사용된, use의 p.p.형). '
                             '→ ‘에코 챔버’라는 용어는 또한 사용된다. 용어는 스스로 사용하는 쪽이 아니라 사람들이 ‘사용하는’ 대상이라 수동을 쓴다.',
              'supplemental': {'function': ('s04', 'be p.p.', 0),
                               'reason': 's04의 현재 수동 is used는 필수 관계사 힌트 2개(in which, 생략 관계사)가 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 현재 수동 be p.p. 설명이 없어 이 단위 대표 사례로 1회 보충'},
