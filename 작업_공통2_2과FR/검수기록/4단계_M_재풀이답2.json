@@ -1,0 +1,23 @@
+{
+  "reviewer": "M",
+  "solved_before_answer_key": true,
+  "inputs_read": ["/home/user/E2NEoh2/작업_공통2_2과FR/검수입력/문제_blind_재풀이2.json"],
+  "answers": {"Q04": 2, "Q05": 1},
+  "notes": {
+    "Q04": {
+      "evidence": "(A) 'typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible.' → 가뭄으로 수위가 낮아질 때에만 '보이는' 것이므로 seen. (B) 'The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.' + 'they bear records of the past severe droughts' → 과거 기록을 통해 가뭄이 가져오는 고난을 사람들에게 상기시키므로 remind (A of B). 따라서 ② seen …… remind.",
+      "closest_distractor": "③ seen …… relieve — (A)는 맞고 relieve A of B도 같은 틀이라 어법으로는 지워지지 않음. 그러나 '고난을 덜어 준다'는 것은 '고난을 경고하고 대비를 촉구한다'와 반대라 배제. ① hidden …… remind는 (B)가 맞아 매력적이나 (A)가 'become visible'과 반대.",
+      "doubt": "정답 유일. (B) 후보 remind/relieve/assure가 모두 'A of B' 틀이라 어법만으로 지워지던 문제는 해결됨. assure people of the hardships는 '고난이 온다고 확신시키다'로 억지로 읽힐 여지가 있으나 assure는 보통 안심시키는 긍정 문맥에 쓰이고, ④는 (A) buried('가뭄으로 수위가 낮아질 때에만 묻힐 수 있다')가 지문과 반대라 어차피 배제되므로 복수정답 위험 없음. 지문 116단어로 고1 요약 표본보다 짧은 점은 기존 의견과 같음."
+    },
+    "Q05": {
+      "evidence": "2문단 'The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.'(옛 경고) + 3문단 'The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought …'(더 건조한 미래) → ① Hunger Stones: Old Warnings for a Drier Future.",
+      "closest_distractor": "② The Hunger Stone: A Rare Find in a Czech Town — 도입부 1문단(체코 마을에서의 발견)만 다루어 범위가 좁고, 돌은 'found in rivers across central Europe'이며 가뭄 때마다 드러나므로 'rare find'라는 초점도 글의 중심이 아님. ③은 'reduced harvests, food shortages'와 반대, ④는 'water levels retreat'와 반대, ⑤는 홍수가 아니라 가뭄 기록.",
+      "doubt": "정답 유일. 새 오답 ②는 도입부 소재형 매력 오답으로 적절함. 다만 ⑤의 'floods' 함정이 같은 회차 Q02 ④·Q03 ①에도 이미 쓰여 한 회차에서 세 번 반복됨(경미). ④는 'Climate Change'를 제목 앞에 내세워 3문단 키워드를 끌어온 점은 좋으나 'Rivers Rise'가 명백히 반대라 쉽게 지워짐."
+    }
+  },
+  "set_level": {
+    "leak_check": "Q04 요약문 (B) remind people of the hardships는 여전히 Q03 함축 정답(가뭄이 굶주림과 고난을 가져옴)을 간접 확인해 줌(기존 M-07과 같은 수준, 오류 아님). Q05 새 오답은 다른 문항 답을 드러내지 않음.",
+    "length": "변경 없음(Q04 116단어, 장문 175단어).",
+    "overlap": "Q05 ⑤ 'Predicted Floods'가 Q02 ④·Q03 ①의 floods 오답과 소재가 겹침. 선지 소재 반복일 뿐 정답 노출은 아님."
+  }
+}

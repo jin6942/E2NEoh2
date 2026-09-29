@@ -1,0 +1,24 @@
+{
+  "reviewer": "N",
+  "solved_before_answer_key": true,
+  "inputs_read": ["/home/user/E2NEoh2/작업_공통2_2과FR/검수입력/문제_blind_재풀이2.json"],
+  "answers": {"Q04": 2, "Q05": 1},
+  "resolved_scope": "Q04·Q05 재풀이. 참고로 수정된 Q01 ⑤도 학생용으로 확인(여전히 일치 → Q01 정답 ④ 유지 판단). Q02·Q03·Q06 학생용은 직전 패킷과 동일해 답(5, 4, 3) 유지.",
+  "notes": {
+    "Q04": {
+      "evidence": "(A) \"when droughts occur and water levels retreat, these stones become visible\" → seen. (B) \"The words on the hunger stones are believed to warn of these hardships\" → remind people of the hardships(고난을 상기시키다). → ② seen …… remind.",
+      "closest_distractor": "③ seen …… relieve — (A)는 맞고 'relieve A of B'도 어법상 정상이라 의미로만 배제됨: 돌의 글은 고난을 덜어 주는(relieve) 것이 아니라 경고함. ④ buried …… assure는 (A) buried가 '가뭄 때만 묻힌다'가 되어 지문과 반대라 배제(assure people of the hardships는 단독으로는 '고난을 확실히 알게 하다'로 읽힐 여지가 조금 있으나 (A)에서 확실히 걸러짐). ①⑤ hidden은 (A)에서 반대.",
+      "doubt": "없음. (B) 세 동사 remind/relieve/assure 모두 'A of B' 틀에 어법상 결합되어 지난번 지적(어법만으로 소거)이 해소됨. 경미: assure는 (B)만 놓고 보면 remind와 아주 멀지 않지만 (A) buried로 차단되므로 복수 정답 아님."
+    },
+    "Q05": {
+      "evidence": "과거 가뭄 기록·경고(\"bear records of the past severe droughts\", \"warn of these hardships\") + 3문단 미래 전망(\"by 2050, 75 percent of the global population could suffer from the effects of drought\") → ① Old Warnings for a Drier Future.",
+      "closest_distractor": "② 'The Hunger Stone: A Rare Find in a Czech Town' — 1문단 도입만 다룬 지엽적 제목. 게다가 지문은 기아석이 중부 유럽 강 곳곳에 있다고 하여 'rare find'로 보기도 어려움. ③(가뭄이 식량 증산에 도움 — 반대), ④(강 수위가 매 여름 상승 — 반대, 원인도 무관), ⑤(홍수 예측 — 가뭄과 무관)은 명확히 배제.",
+      "doubt": "없음. 새 오답이 도입부 지엽(②)·인과 반대(③)·수위 반대(④)·가뭄↔홍수 치환(⑤)으로 유형이 다양해져 지난 오답보다 매력도가 높아짐."
+    }
+  },
+  "set_level": {
+    "leak_check": "변화 없음 — Q04 요약문의 remind/seen과 Q05 선지 어디에도 Q06 표적(continuation/occasional/cease/global/address)이나 원형 persist가 나오지 않음. Q05 ④ 'Climate Change'는 3문단 표현이지만 어휘 정답을 드러내지 않음.",
+    "length": "직전 판단(N-06) 유지 — 지문 범위 변경 없음.",
+    "overlap": "Q04 요약문 (B) remind가 Q05 정답의 'Warnings'와 개념상 이어지나 선지 표현이 달라 직접 힌트는 아님(수용)."
+  }
+}
