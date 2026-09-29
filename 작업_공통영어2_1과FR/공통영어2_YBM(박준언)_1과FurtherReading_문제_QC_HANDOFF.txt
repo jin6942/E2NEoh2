@@ -1,0 +1,228 @@
+[교재명] 공통영어2 YBM(박준언)
+[과목] 공통영어2
+[출판사·저자] YBM(박준언)
+[UNIT] UNIT01
+[학생용 과 표시] 1과
+[권위 원문] (2022개정)2025년_공통영어2_YBM(박준언)_1과_본문_(20250723수정).pdf · 원본 PDF 4쪽 Further Reading 왼쪽 단 영어 본문 전체(섹션 표시 Further Reading·제목 Breaking Out of the Echo Chamber 제외, 오른쪽 단 한국어 해석·쪽 표시 제외)
+[자료 범위] 워크북 + 미니 모의고사 + 정답해설
+
+[WB01]
+SOURCE:
+src
+LEARNING_UNIT:
+u1
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~9
+[1. 오늘의 낱말]
+우리말 뜻을 쓰세요.
+1. selectively
+2. perspectives
+3. alternative
+4. echo chamber
+5. enclosed
+6. distort
+7. collaboration
+8. keep an open mind
+[2. 유의어·반의어 뜻 쓰기]
+우리말 뜻을 쓰세요.
+1. encourage
+2. uniform
+3. limit
+4. discourage
+5. various
+6. restrict
+7. foster
+8. expand
+9. diverse
+[3. 실전문제]
+[Q01]
+SET:
+workbook
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~9
+TYPE:
+요지
+QUESTION:
+다음 글의 요지로 가장 적절한 것은?
+PASSAGE:
+These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs. However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.” An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo. The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with. This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.
+CHOICES:
+① Uniform news sources help people understand reality more accurately.
+② To avoid an echo chamber, we should look for various views and stay open to new ideas.
+③ Governments should restrict the spread of opinions on social media.
+④ Hearing only familiar opinions can expand our ability to debate.
+⑤ An echo chamber can encourage people to work together on common issues.
+ANSWER:
+2
+EVIDENCE:
+To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. / Always remember to check the information you receive, and keep an open mind when discussing new ideas.
+EXPLANATION:
+글은 자신이 동의하는 의견만 듣는 에코 챔버가 현실 이해를 왜곡하고 사회적 분열을 조장할 수 있다고 설명한 뒤, 이를 피하려면 다양한 정보 출처와 다른 견해를 적극적으로 접하고 열린 마음을 유지하라고 한다. 따라서 ②가 요지다.
+WRONG_ANALYSIS:
+① 다양한 정보 출처를 적극적으로 찾으라고 했으므로 획일적인 뉴스 출처가 도움이 된다는 것은 반대 내용이다.
+③ 정부가 의견의 확산을 제한해야 한다는 내용은 본문에 없다.
+④ 에코 챔버는 비판적으로 생각하고 토론에 참여하는 능력을 제한할 수 있다고 했으므로 반대 내용이다.
+⑤ 에코 챔버는 사회적 분열을 조장해 공통 문제에 대한 협력을 어렵게 만든다고 했으므로 반대 내용이다.
+CHOICES_KR:
+① 획일적인 뉴스 출처는 사람들이 현실을 더 정확하게 이해하도록 돕는다.
+② 에코 챔버를 피하려면 다양한 견해를 찾고 새로운 생각에 열려 있어야 한다.
+③ 정부는 소셜 미디어에서 의견이 퍼지는 것을 제한해야 한다.
+④ 익숙한 의견만 듣는 것은 우리의 토론 능력을 넓혀 줄 수 있다.
+⑤ 에코 챔버는 사람들이 공통 문제에 함께 협력하도록 촉진할 수 있다.
+[/Q01]
+
+[4. 구문 결합해서 해석하기]
+1. can lead you to be trapped in an “echo chamber.” → ______________________________
+도움말: lead A to V — A(이/가) ~하게 만들다 / can V — ~할 수 있다 / be p.p. — ~되다 / trapped — 갇힌 / in — ~ 안에 / echo chamber — 에코 챔버, 반향실 (자기와 같은 의견만 되풀이해 듣게 되는 환경)
+2. any situation in which you only hear opinions → ______________________________
+도움말: in which S′ V′ — S′(이/가) V′하는 / any — 어떤 ~이든, 모든 / situation — 상황 / only — 오직, ~만 / hear — 듣다 / opinions — 의견들
+3. it doesn’t always mean that it is true → ______________________________
+도움말: not always — 항상 ~인 것은 아니다 / it — 그것은 / mean — 의미하다, 뜻하다 / that S′ V′ — S′(이/가) V′라는 것 / it — 그것이 / is — ~이다 / true — 사실인, 진실인
+4. The term “echo chamber” is also used → ______________________________
+도움말: be p.p. — ~되다 / term — 용어 / echo chamber — 에코 챔버, 반향실 / also — 또한 / used — 사용된
+
+[5. 핵심 문장 2개 다시 해석하기]
+1. However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.”
+2. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views.
+[/WB01]
+[워크북 정답]
+[1. 오늘의 낱말]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 선택적으로, 골라서 | 2 | 관점들, 시각들 | 3 | 대안적인, 다른 |
+| 4 | 에코 챔버, 반향실 | 5 | 밀폐된, 둘러싸인 | 6 | 왜곡하다 |
+| 7 | 협력, 공동 작업 | 8 | 열린 마음을 유지하다 |  |  |
+[2. 유의어·반의어 뜻 쓰기]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 부추기다, 촉진하다 | 2 | 획일적인, 똑같은 | 3 | 제한하다 |
+| 4 | 막다, 억제하다 | 5 | 여러 가지의, 다양한 | 6 | 제한하다, 한정하다 |
+| 7 | 조장하다, 키우다 | 8 | 넓히다, 확장하다 | 9 | 다양한 |
+[4. 구문 결합해서 해석하기]
+1. 당신이 에코 챔버에 갇히게 만들 수 있다
+2. 당신이 의견들만 듣는 모든 상황
+3. 그것이 항상 그것이 사실이라는 것을 의미하는 것은 아니다
+4. ‘에코 챔버’라는 용어는 또한 사용된다
+[5. 핵심 문장 해석]
+1. 하지만 대안적인 견해를 고려하지 않은 채 비슷한 관점만 계속 접하는 것은 당신을 ‘에코 챔버(반향실)’에 갇히게 만들 수 있다.
+2. 이러한 함정에 빠지지 않으려면, 당신은 다양한 정보 출처를 적극적으로 찾고 다른 견해를 가진 사람들과 교류해야 한다.
+
+[Q02]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~4
+TYPE:
+순서
+QUESTION:
+주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?
+GIVEN:
+These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs. 
+BLOCKS:
+(A) The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with.
+(B) However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.” 
+(C) An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo. 
+CHOICES:
+① A → C → B
+② B → A → C
+③ B → C → A
+④ C → A → B
+⑤ C → B → A
+ANSWER:
+3
+EVIDENCE:
+(B) “However, … can lead you to be trapped in an “echo chamber.”” / (C) “An echo chamber refers to an enclosed space …” / (A) “The term “echo chamber” is also used to describe …”
+EXPLANATION:
+주어진 글은 요즘 사람들이 자신의 취향이나 신념에 맞는 정보만 골라 받아들인다고 말한다. (B) However로 이어 비슷한 관점만 접하면 ‘에코 챔버’에 갇힐 수 있다며 이 용어를 처음 꺼낸다. (C) 에코 챔버가 원래 소리가 새지 않고 메아리로 돌아오는 밀폐된 공간이라고 뜻을 풀이한다. (A) 이 용어가 also(또한) 이미 동의하는 의견만 듣는 상황에도 쓰인다고 뜻을 넓힌다. 따라서 (B)-(C)-(A)이다.
+WRONG_ANALYSIS:
+① (A)의 also(또한)는 에코 챔버의 원래 뜻을 먼저 말한 (C) 뒤라야 쓸 수 있고, 용어를 처음 꺼내는 (B)보다 앞설 수도 없다.
+② (A)의 also는 에코 챔버의 원래 뜻을 설명하는 (C)보다 앞에 올 수 없다.
+④ (C)가 주어진 글 바로 뒤에서 에코 챔버를 설명하면, 아직 그 용어가 나오지 않았는데 뜻부터 풀이하게 되고 (B)의 However도 흐름이 어색해진다.
+⑤ (C)의 뜻풀이가 용어를 꺼내는 (B)보다 먼저 나오고, (A)의 also도 (B) 뒤에 떨어져 흐름이 끊긴다.
+[/Q02]
+
+[Q03]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 5~9
+TYPE:
+함축 의미
+QUESTION:
+밑줄 친 this trap이 다음 글에서 의미하는 바로 가장 적절한 것은?
+PASSAGE:
+This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.
+TARGET:
+this trap
+PROMPT_UNDERLINES:
+[[5, 14]]
+CHOICES:
+① being unable to find any news on the Internet
+② relying only on views that match what you already believe
+③ spending too much time debating with other people
+④ trusting experts more than your own judgment
+⑤ avoiding social media to protect your privacy
+ANSWER:
+2
+EVIDENCE:
+This can distort your understanding of reality … / Worse still, an echo chamber may foster social division … / To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views.
+EXPLANATION:
+this trap은 앞에서 말한 에코 챔버, 곧 자신이 이미 동의하는 의견만 접하는 상황을 가리킨다. 그래서 이를 피하는 방법으로 다양한 정보 출처를 찾고 다른 견해를 가진 사람들과 교류하라고 한다. 따라서 자신이 이미 믿는 것과 맞는 견해에만 의존하는 것을 뜻하는 ②가 알맞다.
+WRONG_ANALYSIS:
+① 뉴스를 찾지 못하는 것이 아니라, 찾더라도 자기 생각과 같은 것만 접하는 것이 문제다.
+③ 오히려 다른 견해를 가진 사람들과 교류하고 토론하라고 했으므로 반대 내용이다.
+④ 전문가에 대한 믿음은 본문에서 다루지 않는다.
+⑤ 소셜 미디어를 피하는 것이나 사생활 보호는 본문과 관계없다.
+CHOICES_KR:
+① 인터넷에서 어떤 뉴스도 찾지 못하는 것
+② 자신이 이미 믿는 것과 맞는 견해에만 의존하는 것
+③ 다른 사람들과 토론하는 데 너무 많은 시간을 쓰는 것
+④ 자신의 판단보다 전문가를 더 믿는 것
+⑤ 사생활을 지키려고 소셜 미디어를 피하는 것
+[/Q03]
+
+[Q04]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 5~9
+TYPE:
+요약
+QUESTION:
+다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?
+PASSAGE:
+This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.
+[요약문]
+An echo chamber can (A) ________ our understanding of reality and divide society, so we need to (B) ________ diverse information and different views.
+CHOICES:
+① improve …… seek out
+② twist …… avoid
+③ correct …… block
+④ twist …… seek out
+⑤ improve …… ignore
+ANSWER:
+4
+EVIDENCE:
+This can distort your understanding of reality … / Worse still, an echo chamber may foster social division … / … you must actively seek diverse sources of information and engage with people who have different views.
+EXPLANATION:
+에코 챔버는 현실에 대한 이해를 왜곡하고(distort) 사회적 분열을 조장할 수 있으므로, 다양한 정보와 다른 견해를 적극적으로 찾아야(seek) 한다. 따라서 (A) twist(왜곡하다), (B) seek out(찾아 나서다)인 ④가 알맞다.
+WRONG_ANALYSIS:
+① (B)는 맞지만, 에코 챔버는 현실에 대한 이해를 향상시키는 것이 아니라 왜곡할 수 있다고 했다.
+② (A)는 맞지만, 다양한 정보와 다른 견해를 피하는 것이 아니라 적극적으로 찾으라고 했다.
+③ 에코 챔버가 이해를 바로잡는다는 내용은 없고, 다양한 정보를 막는 것이 아니라 찾아야 한다고 했다.
+⑤ 에코 챔버는 이해를 왜곡한다고 했고, 다른 견해는 무시하는 것이 아니라 찾아야 한다고 했다.
+CHOICES_KR:
+① 향상시키다 …… 찾아 나서다
+② 왜곡하다 …… 피하다
+③ 바로잡다 …… 막다
+④ 왜곡하다 …… 찾아 나서다
+⑤ 향상시키다 …… 무시하다
+[/Q04]

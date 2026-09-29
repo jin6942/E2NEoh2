@@ -1,0 +1,760 @@
+{
+  "status": "STRUCTURE_PASS",
+  "learning": {
+    "status": "STRUCTURE_PASS",
+    "scope": "full",
+    "lesson_identity": {
+      "number": 1,
+      "kind": "lesson",
+      "internal_id": "UNIT01",
+      "display": "1과"
+    },
+    "source_checks": [
+      {
+        "issues": [],
+        "subheading_count": 0,
+        "reviewed_boundary_count": 0,
+        "review_evidence": "REVIEWER_SUPPLIED_EXTERNAL_SOURCE_BYTES_NOT_CHECKED"
+      }
+    ],
+    "source_count": 1,
+    "unit_count": 1,
+    "sentence_count": 9,
+    "gloss_count": 129,
+    "shortages": [],
+    "sv_lines": {
+      "src/s01": "S: everyone, V: accesses and takes ／ [that] V′: suits",
+      "src/s02": "S: consistently encountering similar perspectives without considering alternative views, V: can lead",
+      "src/s03": "S: An echo chamber, V: refers ／ [where] S′: sound, V′: doesn’t leak and returns",
+      "src/s04": "S: The term “echo chamber”, V: is used ／ [in which] S′: you, V′: hear ／ [(that)] S′: you, V′: agree",
+      "src/s05": "S: This, V: can distort and limit",
+      "src/s06": "S: an echo chamber, V: may foster",
+      "src/s07": "S: you, V: must seek and engage ／ [who] V′: have",
+      "src/s08": "V: remember and keep ／ [(that)] S′: you, V′: receive",
+      "src/s09": "[Even if] S′: you, V′: want ／ S: it, V: doesn’t mean ／ [that] S′: it, V′: is"
+    },
+    "analysis_bodies": {
+      "status": "STRUCTURE_VALIDATED",
+      "semantic_review": "NOT_PERFORMED",
+      "standalone_model_translation_section": false,
+      "units": [
+        {
+          "unit_number": 1,
+          "source_id": "src",
+          "role": "analysis_reading_body",
+          "sentences": [
+            {
+              "source_id": "src",
+              "sentence_id": "s01",
+              "original": "These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 11
+                },
+                {
+                  "start": 12,
+                  "end": 38
+                },
+                {
+                  "start": 39,
+                  "end": 76
+                },
+                {
+                  "start": 77,
+                  "end": 120
+                },
+                {
+                  "start": 121,
+                  "end": 156
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "These days,",
+                    "everyone accesses the news",
+                    "through the Internet or social media,",
+                    "and often selectively takes the information",
+                    "that suits their tastes or beliefs."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "요즘,",
+                    "모든 사람은 뉴스를 접한다",
+                    "인터넷이나 소셜 미디어를 통해,",
+                    "그리고 자주 선택적으로 정보를 받아들인다",
+                    "자신들의 취향이나 신념에 맞는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "요즘 모든 사람은 인터넷이나 소셜 미디어를 통해 뉴스를 접하고, 자신의 취향이나 신념에 맞는 정보를 자주 선택적으로 받아들인다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s02",
+              "original": "However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 8
+                },
+                {
+                  "start": 9,
+                  "end": 55
+                },
+                {
+                  "start": 56,
+                  "end": 93
+                },
+                {
+                  "start": 94,
+                  "end": 120
+                },
+                {
+                  "start": 121,
+                  "end": 142
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "However,",
+                    "consistently encountering similar perspectives",
+                    "without considering alternative views",
+                    "can lead you to be trapped",
+                    "in an “echo chamber.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "하지만,",
+                    "지속적으로 비슷한 관점들을 접하는 것은",
+                    "대안적인 견해들을 고려하지 않고",
+                    "당신이 갇히게 만들 수 있다",
+                    "‘에코 챔버’ 안에."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "하지만 대안적인 견해를 고려하지 않은 채 비슷한 관점만 계속 접하는 것은 당신을 ‘에코 챔버(반향실)’에 갇히게 만들 수 있다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s03",
+              "original": "An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 43
+                },
+                {
+                  "start": 44,
+                  "end": 72
+                },
+                {
+                  "start": 73,
+                  "end": 96
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "An echo chamber refers to an enclosed space",
+                    "where sound doesn’t leak out",
+                    "and returns as an echo."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "에코 챔버는 밀폐된 공간을 가리킨다",
+                    "소리가 밖으로 새어 나가지 않는",
+                    "그리고 메아리로 되돌아오는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "에코 챔버(반향실)는 소리가 밖으로 새어 나가지 않고 메아리로 되돌아오는 밀폐된 공간을 말한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s04",
+              "original": "The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 23
+                },
+                {
+                  "start": 24,
+                  "end": 36
+                },
+                {
+                  "start": 37,
+                  "end": 62
+                },
+                {
+                  "start": 63,
+                  "end": 94
+                },
+                {
+                  "start": 95,
+                  "end": 118
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "The term “echo chamber”",
+                    "is also used",
+                    "to describe any situation",
+                    "in which you only hear opinions",
+                    "you already agree with."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "‘에코 챔버’라는 용어는",
+                    "또한 사용된다",
+                    "어떤 상황이든 설명하기 위해",
+                    "당신이 의견들만 듣는",
+                    "당신이 이미 동의하는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "‘에코 챔버’라는 용어는 당신이 이미 동의하는 의견만 듣게 되는 모든 상황을 설명할 때도 사용된다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s05",
+              "original": "This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 35
+                },
+                {
+                  "start": 36,
+                  "end": 47
+                },
+                {
+                  "start": 48,
+                  "end": 70
+                },
+                {
+                  "start": 71,
+                  "end": 90
+                },
+                {
+                  "start": 91,
+                  "end": 124
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "This can distort your understanding",
+                    "of reality,",
+                    "and limit your ability",
+                    "to think critically",
+                    "and engage in meaningful debates."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "이것은 당신의 이해를 왜곡할 수 있다",
+                    "현실에 대한,",
+                    "그리고 당신의 능력을 제한할 수 있다",
+                    "비판적으로 생각하는",
+                    "그리고 의미 있는 토론에 참여하는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "이는 현실에 대한 당신의 이해를 왜곡하고, 비판적으로 생각하고 의미 있는 토론에 참여하는 당신의 능력을 제한할 수 있다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s06",
+              "original": "Worse still, an echo chamber may foster social division, making collaboration on common issues challenging.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 12
+                },
+                {
+                  "start": 13,
+                  "end": 56
+                },
+                {
+                  "start": 57,
+                  "end": 77
+                },
+                {
+                  "start": 78,
+                  "end": 94
+                },
+                {
+                  "start": 95,
+                  "end": 107
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Worse still,",
+                    "an echo chamber may foster social division,",
+                    "making collaboration",
+                    "on common issues",
+                    "challenging."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "더 나쁜 것은,",
+                    "에코 챔버가 사회적 분열을 조장할 수도 있다는 것이다,",
+                    "협력을 만들면서",
+                    "공통 문제들에 대한",
+                    "어렵게."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "더 나쁜 것은, 에코 챔버가 공통 문제에 대한 협력을 어렵게 만들면서 사회적 분열을 조장할 수도 있다는 것이다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s07",
+              "original": "To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 32
+                },
+                {
+                  "start": 33,
+                  "end": 71
+                },
+                {
+                  "start": 72,
+                  "end": 86
+                },
+                {
+                  "start": 87,
+                  "end": 109
+                },
+                {
+                  "start": 110,
+                  "end": 135
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "To avoid falling into this trap,",
+                    "you must actively seek diverse sources",
+                    "of information",
+                    "and engage with people",
+                    "who have different views."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "이 함정에 빠지는 것을 피하기 위해,",
+                    "당신은 다양한 출처들을 적극적으로 찾아야 한다",
+                    "정보의",
+                    "그리고 사람들과 교류해야 한다",
+                    "다른 견해를 가지고 있는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "이러한 함정에 빠지지 않으려면, 당신은 다양한 정보 출처를 적극적으로 찾고 다른 견해를 가진 사람들과 교류해야 한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s08",
+              "original": "Always remember to check the information you receive, and keep an open mind when discussing new ideas.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 40
+                },
+                {
+                  "start": 41,
+                  "end": 53
+                },
+                {
+                  "start": 54,
+                  "end": 75
+                },
+                {
+                  "start": 76,
+                  "end": 102
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Always remember to check the information",
+                    "you receive,",
+                    "and keep an open mind",
+                    "when discussing new ideas."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "항상 정보를 확인할 것을 기억하라",
+                    "당신이 받는,",
+                    "그리고 열린 마음을 유지하라",
+                    "새로운 생각들을 논의할 때."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "항상 당신이 받은 정보를 잊지 말고 확인하고, 새로운 생각을 논의할 때는 열린 마음을 유지하라."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s09",
+              "original": "Even if you really want something to be true, it doesn’t always mean that it is true.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 23
+                },
+                {
+                  "start": 24,
+                  "end": 45
+                },
+                {
+                  "start": 46,
+                  "end": 68
+                },
+                {
+                  "start": 69,
+                  "end": 85
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Even if you really want",
+                    "something to be true,",
+                    "it doesn’t always mean",
+                    "that it is true."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "당신이 정말로 원하더라도",
+                    "어떤 것이 사실이기를,",
+                    "그것이 항상 의미하는 것은 아니다",
+                    "그것이 사실이라는 것을."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "어떤 것이 사실이기를 당신이 정말로 원하더라도, 그렇다고 그것이 항상 사실이라는 뜻은 아니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "source_artifact_bytes": "NOT_CHECKED_BY_THIS_TOOL",
+    "lexical_level_and_exemptions": "REVIEWER_SUPPLIED_NOT_AUTOMATICALLY_VERIFIED",
+    "all_repeated_today_word_occurrences": "REQUIRES_SEMANTIC_REVIEW",
+    "verb_form_declarations": {
+      "form_count": 13,
+      "phrase_count": 0,
+      "status": "DECLARED_LOCATIONS_CHECKED",
+      "scope": "REVIEWER_DECLARED_LOCATIONS_ONLY_NOT_GRAMMAR_OR_MEANING_INFERENCE"
+    },
+    "reading_rule_declarations": "SUPPLIED_CONSTRAINTS_ONLY_NOT_GRAMMAR_INFERENCE",
+    "reading_revision_audit": "DECLARATIONS_REQUIRED",
+    "relative_hint_declarations": {
+      "status": "DECLARED_LOCATIONS_CHECKED",
+      "declared_sentence_count": 9,
+      "undeclared_sentences": [],
+      "scope": "REVIEWER_DECLARED_LOCATIONS_ONLY_NOT_GRAMMAR_INFERENCE"
+    },
+    "syntax_training": {
+      "version": 1,
+      "status": "DECLARED_LINKS_CHECKED",
+      "units": [
+        {
+          "unit_id": "u1",
+          "status": "DECLARED_LINKS_CHECKED",
+          "base_grammar_point_count": 3,
+          "supplemental_count": 1,
+          "formula_occurrence_count": 2,
+          "practice_count": 4,
+          "workbook_links": "CHECKED",
+          "semantic_review": "NOT_PERFORMED"
+        }
+      ],
+      "semantic_review": "NOT_PERFORMED"
+    },
+    "semantic_review": "NOT_PERFORMED",
+    "visual_review": "NOT_PERFORMED"
+  },
+  "assessment": {
+    "status": "PASS",
+    "errors": [],
+    "checked_question_count": 4,
+    "scope": "record correspondence and required fields only",
+    "source_reconstruction": "NOT_CHECKED_BY_THIS_TOOL",
+    "semantic_review": "NOT_PERFORMED",
+    "independent_reviews": "NOT_PERFORMED",
+    "docx_presence": "NOT_CHECKED_BY_THIS_TOOL",
+    "visual_review": "NOT_PERFORMED"
+  },
+  "question_views": {
+    "Q01": {
+      "original": "These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs. However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.” An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo. The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with. This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        1073
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09"
+      ],
+      "word_count": 172,
+      "type": "요지",
+      "passage": "These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs. However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.” An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo. The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with. This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "요지",
+        "benchmark_ids": [
+          "202603241-Q22",
+          "202606041-Q22",
+          "202609021-Q22"
+        ],
+        "reference_words": [
+          133,
+          149,
+          173
+        ],
+        "assessment_word_count": 172,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "요지 고1 표본 [133, 149, 173]단어와 비교해 현재 172단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q02": {
+      "original": "These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs. However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.” An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo. The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        515
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04"
+      ],
+      "word_count": 82,
+      "type": "순서",
+      "passage": null,
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "given": "These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs. ",
+      "blocks": {
+        "A": "The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with.",
+        "B": "However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.” ",
+        "C": "An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo. "
+      },
+      "correct_order": [
+        "B",
+        "C",
+        "A"
+      ],
+      "length_comparison": {
+        "status": "NEEDS_INDEPENDENT_REVIEW",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "순서",
+        "benchmark_ids": [
+          "202603241-Q36",
+          "202606041-Q36",
+          "202609021-Q36"
+        ],
+        "reference_words": [
+          134,
+          160,
+          168
+        ],
+        "assessment_word_count": 82,
+        "shorter_than_all_references": true,
+        "independent_review_required": true,
+        "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 82단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함(사용자 기준: 단문 100단어 안팎 허용). 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q03": {
+      "original": "This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.",
+      "source_id": "src",
+      "source_span": [
+        516,
+        1073
+      ],
+      "source_sentence_ids": [
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09"
+      ],
+      "word_count": 90,
+      "type": "함축 의미",
+      "passage": "This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.",
+      "annotations": [
+        {
+          "kind": "underline",
+          "span": [
+            255,
+            264
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "target": "this trap",
+      "length_comparison": {
+        "status": "NEEDS_INDEPENDENT_REVIEW",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "함축 의미",
+        "benchmark_ids": [
+          "202603241-Q21",
+          "202606041-Q21",
+          "202609021-Q21"
+        ],
+        "reference_words": [
+          154,
+          149,
+          175
+        ],
+        "assessment_word_count": 90,
+        "shorter_than_all_references": true,
+        "independent_review_required": true,
+        "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 90단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함(사용자 기준: 단문 100단어 안팎 허용). 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q04": {
+      "original": "This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.",
+      "source_id": "src",
+      "source_span": [
+        516,
+        1073
+      ],
+      "source_sentence_ids": [
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09"
+      ],
+      "word_count": 90,
+      "type": "요약",
+      "passage": "This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "NEEDS_INDEPENDENT_REVIEW",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "요약",
+        "benchmark_ids": [
+          "202603241-Q40",
+          "202606041-Q40",
+          "202609021-Q40"
+        ],
+        "reference_words": [
+          136,
+          166,
+          182
+        ],
+        "assessment_word_count": 90,
+        "shorter_than_all_references": true,
+        "independent_review_required": true,
+        "rationale": "요약 고1 표본 [136, 166, 182]단어와 비교해 현재 90단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함(사용자 기준: 단문 100단어 안팎 허용). 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    }
+  },
+  "checked_question_count": 4,
+  "passage_group_views": {},
+  "independent_length_review_required": [
+    "Q02",
+    "Q03",
+    "Q04"
+  ],
+  "semantic_review": "NOT_PERFORMED",
+  "independent_reviews": "NOT_PERFORMED",
+  "docx_presence": "NOT_CHECKED_BY_THIS_TOOL",
+  "visual_review": "NOT_PERFORMED",
+  "input_sha256": "fe4b594d21e28b6d69db01d561be944b40af6ca36c31986ab42b8a0f09d4354a"
+}
