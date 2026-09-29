@@ -1,0 +1,43 @@
+{
+  "reviewer": "S",
+  "method": "원문 PDF((2022개정)2025년_공통영어2_YBM(박준언)_1과_본문_(20250723수정).pdf) 4쪽을 pypdfium2 5.13.0으로 독자 추출했다. 문자별 get_charbox(loose)의 중심 y로 줄을 묶고 x<380인 왼쪽 단만 취했으며, 한글·섹션 표시(Further Reading)·제목·쪽 표시(4)는 제외했다. 줄 끝 공백을 정리하고 줄바꿈은 공백 1칸으로 이었다(줄 끝 하이픈 분철 없음). 4쪽을 2배율 PNG로 렌더링해 육안으로 대조했고, 따옴표 부분은 6배율로 확대해 따로 확인했다. 단락은 들여쓰기로 셌다(첫 줄 x0=63.4pt, 나머지 줄 56.8~57.5pt, 들여쓰기 1곳 → 1단락). 문장은 [.!?] 뒤에 닫는 따옴표가 올 수 있고 그다음 공백과 대문자나 여는 따옴표가 오는 곳에서 나눴다. 이렇게 얻은 결과를 source_text_fr.py(PARAGRAPHS·TITLE·build())와 원고 JSON(sources[0].text, 문장 오프셋, sentences[].text, paragraphs, units, cover.topic_first, sources[0].provenance.sha256·location)에 대해 문자열 동일성과 코드포인트 단위로 대조했다. sha256sum으로 해시를 다시 계산했고, 스킬 스크립트 learning_units.group_units, source_contract.check_source_structure, question_source.excerpt(오프셋 연속성 검사)를 실행했다.",
+  "checked": {
+    "pdf_page": 4,
+    "body_lines_extracted": 18,
+    "paragraphs_by_indent": 1,
+    "sentences": 9,
+    "source_text_chars": 1073,
+    "title_match": true,
+    "section_label_excluded": "Further Reading",
+    "curly_quotes": {
+      "U+201C": 2,
+      "U+201D": 2,
+      "U+2019": 2,
+      "ascii_quote_or_apostrophe": 0
+    },
+    "curly_positions_verified": [
+      284,
+      298,
+      361,
+      406,
+      419,
+      1042
+    ],
+    "sentence_offsets_checked": 9,
+    "sentences_text_checked": 9,
+    "source_text_fr_build_equals_pdf": true,
+    "source_text_fr_bounds_equal_manuscript": true,
+    "source_text_fr_rows_equal_paragraphs": true,
+    "paragraphs_records": 1,
+    "units_records": 1,
+    "cover_topic_first_equals_pdf_title": true,
+    "provenance_sha256_recomputed": "a84f5471130f0f0420964122864df806b5719309fde01bc6090837c6c6174043",
+    "provenance_sha256_match": true,
+    "provenance_location_consistent": true,
+    "group_units": "READY (u1 = p01 = s01~s09, reason original-paragraph, unresolved 0; 원고 units와 source_id·paragraph_ids·sentence_ids 일치)",
+    "check_source_structure": "issues 0, subheading_count 0, reviewed_boundary_count 0",
+    "question_source_excerpt_s01_s09": "[0, 1073], 원문 전체 복원 일치"
+  },
+  "status": "PASS",
+  "findings": []
+}
