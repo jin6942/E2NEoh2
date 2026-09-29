@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "purpose": "REVIEW_INPUT_PACKET_NOT_FINAL",
+  "status": "NOT_FINAL",
+  "certification": "NOT_CERTIFIED",
+  "role": "questions-blind",
+  "input_digest": {
+    "content_sha256": "92c3ceec6f8c5effbb573008168a243ceb120629f73ad25a1d32a4102cf2bb62",
+    "canonical_full_json_sha256": "92c3ceec6f8c5effbb573008168a243ceb120629f73ad25a1d32a4102cf2bb62",
+    "file_sha256": "4418f74dbc36da7fafe6d5442b8fb3e611ecc9d3ee49958801c4919e74205f94",
+    "file_sha256_status": "EXACT_INPUT_BYTES"
+  },
+  "current_rules": [
+    {
+      "path": "SKILL.md",
+      "sha256": "f4b6e53dd36c0b3132f608a45156c868d7429b97bb7115b8017d230fe67a3d5f"
+    },
+    {
+      "path": "references/editorial-core.md",
+      "sha256": "620678de7335f75152ffa190d8139d31ffc1e03316825d62b202de32ee385396"
+    },
+    {
+      "path": "references/workflow.md",
+      "sha256": "dc6f355b56fa30110cb99864a1dbd6bb60fc3b27416e4a4b7ad7b4850543f958"
+    },
+    {
+      "path": "references/layout-rules.md",
+      "sha256": "de911e443e52b5df776c2ae7827635315ca248bf717cf29026e8c89b04b75d67"
+    },
+    {
+      "path": "references/runtime-and-data.md",
+      "sha256": "8e2fa22f7ada9cd5cbe5c0f28bc8852a4c230ec6acf36f1d750e966bb1b16b6c"
+    },
+    {
+      "path": "references/handoff-format.md",
+      "sha256": "e9b3ed617a7c3c90b079710c97431fac9ab41b1e84bf455f6bb803006e079619"
+    },
+    {
+      "path": "references/common-errors.md",
+      "sha256": "058db2bf1c0fb67cc43927a6a53cf8cd122e55ef54ca2db944ceaddaaf41c2e8"
+    },
+    {
+      "path": "references/current-revision.md",
+      "sha256": "13eaf6cedead59261a01bfd004034e807b73cecc2f69481cf8fb3ebd5ce74842"
+    },
+    {
+      "path": "references/manuscript-data.md",
+      "sha256": "5be58a9b8ed167dbf6235810964657f69bc571a66991cc0480ee974470898a5b"
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "42b57e1bc8e19542d160fb4c40a32691b3645bc493c7a23d6468f9245cf6e7a1"
+    },
+    {
+      "path": "references/review-efficiency.md",
+      "sha256": "37218e5b5973f1a368fe4bc32622fab0a90c09308bdaaafcab7150203052147d"
+    },
+    {
+      "path": "references/workbook.md",
+      "sha256": "c358dbc10dc4e457d746ea19321a1f22c16c8f098083588157dfe154a329cfc5"
+    },
+    {
+      "path": "references/assessment-content.md",
+      "sha256": "159d9fd4d0df776359abe0ac062976f9a7342089083b09498729bfab251dd394"
+    }
+  ],
+  "review_contract": {
+    "independent_review": "NOT_PERFORMED",
+    "approval_reuse": "NOT_IMPLEMENTED",
+    "complete_final_required": true,
+    "existing_release_gate_unchanged": true,
+    "required_independent_question_solvers": 2,
+    "context_is_not_assigned_or_reviewed": true,
+    "unresolved_items": "COORDINATOR_MUST_SUPPLY_BLIND_SAFE_ITEMS; NOT_CLEARED_BY_PACKET",
+    "blind_use": "Fresh independent solver only. Store own answers and reasoning before opening comparison, source, learning material, or author feedback. Removing answers does not restore blindness for a solver who already saw them."
+  },
+  "scope": {
+    "assigned": {
+      "question_ids": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04"
+      ]
+    },
+    "context_only": {
+      "question_ids": []
+    },
+    "whole_stage_assigned": true
+  },
+  "selected_data": {
+    "questions": [
+      {
+        "id": "Q01",
+        "set_id": "workbook",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 요지로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs. However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.” An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo. The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with. This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.",
+            "underlines": []
+          },
+          {
+            "text": "①  Uniform news sources help people understand reality more accurately.",
+            "underlines": []
+          },
+          {
+            "text": "②  To avoid an echo chamber, we should look for various views and stay open to new ideas.",
+            "underlines": []
+          },
+          {
+            "text": "③  Governments should restrict the spread of opinions on social media.",
+            "underlines": []
+          },
+          {
+            "text": "④  Hearing only familiar opinions can expand our ability to debate.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  An echo chamber can encourage people to work together on common issues.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q02",
+        "set_id": "mock1",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 글〉",
+            "underlines": []
+          },
+          {
+            "text": "These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs. ",
+            "underlines": []
+          },
+          {
+            "text": "(A) The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with.",
+            "underlines": []
+          },
+          {
+            "text": "(B) However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.” ",
+            "underlines": []
+          },
+          {
+            "text": "(C) An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo. ",
+            "underlines": []
+          },
+          {
+            "text": "①  A → C → B",
+            "underlines": []
+          },
+          {
+            "text": "②  B → A → C",
+            "underlines": []
+          },
+          {
+            "text": "③  B → C → A",
+            "underlines": []
+          },
+          {
+            "text": "④  C → A → B",
+            "underlines": []
+          },
+          {
+            "text": "⑤  C → B → A",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q03",
+        "set_id": "mock1",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  밑줄 친 it doesn’t always mean that it is true가 다음 글에서 의미하는 바로 가장 적절한 것은?",
+            "underlines": [
+              [
+                9,
+                47
+              ]
+            ]
+          },
+          {
+            "text": "This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.",
+            "underlines": [
+              [
+                518,
+                556
+              ]
+            ]
+          },
+          {
+            "text": "①  Wishing that an idea is true does not make it a fact.",
+            "underlines": []
+          },
+          {
+            "text": "②  Most information on social media turns out to be false.",
+            "underlines": []
+          },
+          {
+            "text": "③  You should never trust your own opinions.",
+            "underlines": []
+          },
+          {
+            "text": "④  Something becomes true when many people agree with it.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  New ideas are usually more accurate than old ones.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q04",
+        "set_id": "mock1",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.",
+            "underlines": []
+          },
+          {
+            "text": "[요약문] An echo chamber can (A) ________ our understanding of reality, so we need to (B) ________ diverse information and different views.",
+            "underlines": []
+          },
+          {
+            "text": "①  improve …… seek out",
+            "underlines": []
+          },
+          {
+            "text": "②  twist …… avoid",
+            "underlines": []
+          },
+          {
+            "text": "③  sharpen …… limit",
+            "underlines": []
+          },
+          {
+            "text": "④  twist …… seek out",
+            "underlines": []
+          },
+          {
+            "text": "⑤  sharpen …… avoid",
+            "underlines": []
+          }
+        ]
+      }
+    ],
+    "passage_groups": []
+  }
+}

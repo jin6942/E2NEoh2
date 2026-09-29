@@ -3,6 +3,8 @@
 조립 코드는 1과 본문 assessment_data.py와 같다(고1 공식 표본 grade=1).
 사용자 선택(2026-09-29 “워크북 1 + 모의 1회 3문항”): 장문 없이 앞·뒤 반 지문을 쓴다.
 회차 편성: 1회 1번 순서는 앞 반 s01~s04(주어진 글 s01)만, 2번 함축·3번 요약은 뒤 반 s05~s09.
+4단계 M·N 지적 반영: 2번 함축 표적을 this trap에서 s09 it doesn’t always mean that it is true로 교체(1번 순서 지문 s04가 this trap의 뜻을 알려 주던 문제),
+3번 요약은 요약문에서 and divide society를 빼고 수능형 고른 분포 선택지로(2026-09-29 사용자 선택), 2·3번 같은 지문 반복은 유지(사용자 선택).
 순서 문항의 문장 배열이 같은 회 다른 지문에 원래 순서로 드러나지 않게 하고, 함축·요약은 내용 판단 유형이라 같은 지문을 써도 답이 새지 않는다.
 단문(82·90단어)은 사용자 기준(100단어 안팎 허용)에 따른다.
 """
@@ -37,7 +39,7 @@ q(id='Q01', set_id='workbook', number=1, unit_id='u1', type='요지', first='s01
         ('u1-r3s', 2, 'various', 'various가 diverse(다양한)와 같은 뜻임을 알아야 필자의 요지를 판단할 수 있음'),
         ('u1-r1s', 3, 'restrict', 'restrict(제한하다)의 뜻을 알아야 정부가 의견 확산을 막아야 한다는 말이 본문에 없음을 판단할 수 있음'),
         ('u1-r1a', 4, 'expand', 'expand(넓히다)가 limit의 반대임을 알아야 에코 챔버가 능력을 제한한다는 본문과 어긋남을 판단할 수 있음'),
-        ('u1-r2s', 5, 'encourage', 'encourage가 foster(조장하다, 촉진하다)와 같은 뜻임을 알아도, 에코 챔버가 촉진하는 것은 협력이 아니라 사회적 분열임을 판단해야 함')],
+        ('u1-r2s', 5, 'encourage', 'encourage가 foster(조장하다, 키우다)와 같은 뜻임을 알아도, 에코 챔버가 촉진하는 것은 협력이 아니라 사회적 분열임을 판단해야 함')],
   evidence='To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. / Always remember to check the information you receive, and keep an open mind when discussing new ideas.',
   explanation='글은 자신이 동의하는 의견만 듣는 에코 챔버가 현실 이해를 왜곡하고 사회적 분열을 조장할 수 있다고 설명한 뒤, 이를 피하려면 다양한 정보 출처와 다른 견해를 적극적으로 접하고 열린 마음을 유지하라고 한다. 따라서 ②가 요지다.',
   choices_ko=['획일적인 뉴스 출처는 사람들이 현실을 더 정확하게 이해하도록 돕는다.',
@@ -56,49 +58,51 @@ q(id='Q02', set_id='mock1', number=1, type='순서', first='s01', last='s04',
   blocks=('s01', 's01', {'B': ('s02', 's02'), 'C': ('s03', 's03'), 'A': ('s04', 's04')}),
   question='주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?',
   answer=3,
-  evidence='(B) “However, … can lead you to be trapped in an “echo chamber.”” / (C) “An echo chamber refers to an enclosed space …” / (A) “The term “echo chamber” is also used to describe …”',
+  evidence='(B) However, … can lead you to be trapped in an “echo chamber.” / (C) An echo chamber refers to an enclosed space … / (A) The term “echo chamber” is also used to describe …',
   explanation='주어진 글은 요즘 사람들이 자신의 취향이나 신념에 맞는 정보만 골라 받아들인다고 말한다. (B) However로 이어 비슷한 관점만 접하면 ‘에코 챔버’에 갇힐 수 있다며 이 용어를 처음 꺼낸다. (C) 에코 챔버가 원래 소리가 새지 않고 메아리로 돌아오는 밀폐된 공간이라고 뜻을 풀이한다. (A) 이 용어가 also(또한) 이미 동의하는 의견만 듣는 상황에도 쓰인다고 뜻을 넓힌다. 따라서 (B)-(C)-(A)이다.',
   wrong={1: '(A)의 also(또한)는 에코 챔버의 원래 뜻을 먼저 말한 (C) 뒤라야 쓸 수 있고, 용어를 처음 꺼내는 (B)보다 앞설 수도 없다.',
          2: '(A)의 also는 에코 챔버의 원래 뜻을 설명하는 (C)보다 앞에 올 수 없다.',
          4: '(C)가 주어진 글 바로 뒤에서 에코 챔버를 설명하면, 아직 그 용어가 나오지 않았는데 뜻부터 풀이하게 되고 (B)의 However도 흐름이 어색해진다.',
-         5: '(C)의 뜻풀이가 용어를 꺼내는 (B)보다 먼저 나오고, (A)의 also도 (B) 뒤에 떨어져 흐름이 끊긴다.'})
+         5: '(C)의 뜻풀이가 용어를 꺼내는 (B)보다 먼저 나오고, (A)의 also가 받아야 할 (C)와 (A) 사이에 (B)가 끼어 연결이 끊긴다.'})
 
 q(id='Q03', set_id='mock1', number=2, type='함축 의미', first='s05', last='s09',
-  target='this trap',
-  question='밑줄 친 this trap이 다음 글에서 의미하는 바로 가장 적절한 것은?',
-  choices=['being unable to find any news on the Internet',
-           'relying only on views that match what you already believe',
-           'spending too much time debating with other people',
-           'trusting experts more than your own judgment',
-           'avoiding social media to protect your privacy'],
-  answer=2,
-  evidence='This can distort your understanding of reality … / Worse still, an echo chamber may foster social division … / To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views.',
-  explanation='this trap은 앞에서 말한 에코 챔버, 곧 자신이 이미 동의하는 의견만 접하는 상황을 가리킨다. 그래서 이를 피하는 방법으로 다양한 정보 출처를 찾고 다른 견해를 가진 사람들과 교류하라고 한다. 따라서 자신이 이미 믿는 것과 맞는 견해에만 의존하는 것을 뜻하는 ②가 알맞다.',
-  choices_ko=['인터넷에서 어떤 뉴스도 찾지 못하는 것', '자신이 이미 믿는 것과 맞는 견해에만 의존하는 것',
-              '다른 사람들과 토론하는 데 너무 많은 시간을 쓰는 것', '자신의 판단보다 전문가를 더 믿는 것',
-              '사생활을 지키려고 소셜 미디어를 피하는 것'],
-  wrong={1: '뉴스를 찾지 못하는 것이 아니라, 찾더라도 자기 생각과 같은 것만 접하는 것이 문제다.',
-         3: '오히려 다른 견해를 가진 사람들과 교류하고 토론하라고 했으므로 반대 내용이다.',
-         4: '전문가에 대한 믿음은 본문에서 다루지 않는다.',
-         5: '소셜 미디어를 피하는 것이나 사생활 보호는 본문과 관계없다.'})
+  target='it doesn’t always mean that it is true',
+  question='밑줄 친 it doesn’t always mean that it is true가 다음 글에서 의미하는 바로 가장 적절한 것은?',
+  choices=['Wishing that an idea is true does not make it a fact.',
+           'Most information on social media turns out to be false.',
+           'You should never trust your own opinions.',
+           'Something becomes true when many people agree with it.',
+           'New ideas are usually more accurate than old ones.'],
+  answer=1,
+  evidence='Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.',
+  explanation='밑줄 친 부분은 어떤 것이 사실이기를 정말로 원하더라도 그렇다고 그것이 항상 사실인 것은 아니라는 뜻이다. 그래서 바로 앞 문장에서 받은 정보를 확인하고 새로운 생각을 논의할 때 열린 마음을 유지하라고 한다. 따라서 어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니라는 ①이 알맞다.',
+  choices_ko=['어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니다.',
+              '소셜 미디어의 정보 대부분은 거짓으로 드러난다.',
+              '자신의 의견은 절대 믿어서는 안 된다.',
+              '많은 사람이 동의하면 어떤 것이 사실이 된다.',
+              '새로운 생각이 대개 옛 생각보다 더 정확하다.'],
+  wrong={2: '소셜 미디어 정보의 대부분이 거짓이라는 내용은 없으며, 받은 정보를 확인하라고 했을 뿐이다.',
+         3: '자신의 의견을 절대 믿지 말라는 것이 아니라, 바란다고 해서 늘 사실은 아니니 정보를 확인하고 열린 마음을 가지라는 뜻이다.',
+         4: '많은 사람이 동의하면 사실이 된다는 내용은 본문에 없다.',
+         5: '새로운 생각이 옛 생각보다 정확하다는 비교는 없고, 새로운 생각을 논의할 때 열린 마음을 유지하라고 했을 뿐이다.'})
 
 q(id='Q04', set_id='mock1', number=3, type='요약', first='s05', last='s09',
-  summary='An echo chamber can (A) ________ our understanding of reality and divide society, so we need to (B) ________ diverse information and different views.',
+  summary='An echo chamber can (A) ________ our understanding of reality, so we need to (B) ________ diverse information and different views.',
   question='다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?',
   choices=['improve …… seek out',
            'twist …… avoid',
-           'correct …… block',
+           'sharpen …… limit',
            'twist …… seek out',
-           'improve …… ignore'],
+           'sharpen …… avoid'],
   answer=4,
-  evidence='This can distort your understanding of reality … / Worse still, an echo chamber may foster social division … / … you must actively seek diverse sources of information and engage with people who have different views.',
-  explanation='에코 챔버는 현실에 대한 이해를 왜곡하고(distort) 사회적 분열을 조장할 수 있으므로, 다양한 정보와 다른 견해를 적극적으로 찾아야(seek) 한다. 따라서 (A) twist(왜곡하다), (B) seek out(찾아 나서다)인 ④가 알맞다.',
-  choices_ko=['향상시키다 …… 찾아 나서다', '왜곡하다 …… 피하다', '바로잡다 …… 막다',
-              '왜곡하다 …… 찾아 나서다', '향상시키다 …… 무시하다'],
+  evidence='This can distort your understanding of reality … / … you must actively seek diverse sources of information and engage with people who have different views.',
+  explanation='에코 챔버는 현실에 대한 이해를 왜곡할(distort) 수 있으므로, 다양한 정보와 다른 견해를 적극적으로 찾아야(seek) 한다. 따라서 (A) twist(왜곡하다), (B) seek out(찾아 나서다)인 ④가 알맞다.',
+  choices_ko=['향상시키다 …… 찾아 나서다', '왜곡하다 …… 피하다', '날카롭게 하다 …… 제한하다',
+              '왜곡하다 …… 찾아 나서다', '날카롭게 하다 …… 피하다'],
   wrong={1: '(B)는 맞지만, 에코 챔버는 현실에 대한 이해를 향상시키는 것이 아니라 왜곡할 수 있다고 했다.',
          2: '(A)는 맞지만, 다양한 정보와 다른 견해를 피하는 것이 아니라 적극적으로 찾으라고 했다.',
-         3: '에코 챔버가 이해를 바로잡는다는 내용은 없고, 다양한 정보를 막는 것이 아니라 찾아야 한다고 했다.',
-         5: '에코 챔버는 이해를 왜곡한다고 했고, 다른 견해는 무시하는 것이 아니라 찾아야 한다고 했다.'})
+         3: '에코 챔버는 현실에 대한 이해를 날카롭게 하는 것이 아니라 왜곡할 수 있다고 했고, 다양한 정보는 제한하는 것이 아니라 찾아야 한다고 했다.',
+         5: '에코 챔버는 이해를 날카롭게 하지 않고 왜곡할 수 있다고 했으며, 다양한 정보와 다른 견해는 피하지 말고 찾아야 한다고 했다.'})
 
 
 # ================================================================ 조립
