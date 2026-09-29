@@ -41,8 +41,7 @@ def sentences(T):
     s.g('during', 'during', '~ 동안')
     s.g('worst', 'worst', '최악의 (bad의 최상급)')
     s.g('drought', 'drought', '가뭄')
-    s.g('in', 'in', '~ 만에', at=s.text.index('in 500'))
-    s.g('years', 'years', '년, 해들')
+    s.g('in|500|years', 'in 500 years', '500년 만에', at=s.text.index('in 500'))
     s.g('in', 'in', '~의', at=s.text.index('in Europe'))
     s.g('Europe', 'Europe', 'Europe (유럽)', proper=True)
     s.g('stone', 'stone', '돌')
@@ -89,7 +88,7 @@ def sentences(T):
     wr = s.g('written', 'written', '쓰인, 새겨진', verb_form=pp('past-participle', s, 'written', 'write'))
     s.g('on', 'on', '~ 위에')
     s.g('it', 'it', '그것', referent_ko='그 돌')
-    rel = s.g('that', 'that V′', 'V′하는 (관계대명사)')
+    rel = s.g('that', 'that V′', 'V′하던 (관계대명사)')
     s.g('read', 'read', '(~라고) 적혀 있었다 (흔한 뜻: 읽었다)', verb_form=pp('irregular-past', s, 'read', 'read'))
     s.g('If', 'if S′ V′', 'S′(이/가) V′한다면')
     s.g('see', 'see', '보다')
@@ -97,13 +96,13 @@ def sentences(T):
     s.g('then', 'then', '그러면')
     s.g('cry', 'cry', '울다')
     s.brk('written', 'postpositive-adjective', 'written on it은 앞 명사 a sentence를 뒤에서 꾸미는 과거분사구')
-    s.hint('a sentence written on it [that read]', '그것[그 돌] 위에 쓰인, [다음과 같이 적혀 있던] 문장',
+    s.hint('a sentence written on it [that read]', '그것[그 돌] 위에 쓰인, [적혀 있던] 문장',
            span='a sentence written on it that read', label='주격 관계대명사 that',
            links=[(['that'], ['던'])], refs=[(('it', 1), '그것', '[그 돌]')],
-           meaning='그 돌 위에 쓰인, 다음과 같이 적혀 있던 문장',
-           explanation='선행사 a sentence를 주격 관계대명사 that이 받는다(과거분사구 written on it 뒤에 이어짐). 주격이라 별도 S′ 없이 V′ read(~라고 적혀 있었다)까지 표시하고 콜론 뒤 인용은 제외.')
-    s.hint('[If you see]', '[네가 본다면]', span='If you see', label='조건 접속사 if',
-           links=[(['If'], ['가', '본다면'])],
+           meaning='그 돌 위에 쓰인, 적혀 있던 문장',
+           explanation='선행사 a sentence를 주격 관계대명사 that이 받는다(과거분사구 written on it 뒤에 이어짐). 주격이라 별도 S′ 없이 V′ read(적혀 있었다)까지 표시하고 콜론 뒤 인용과 그 뜻(다음과 같이)은 제외.')
+    s.hint('[If you see]', '[네[이 글을 읽는 사람]가 본다면]', span='If you see', label='조건 접속사 if',
+           links=[(['If'], ['가', '본다면'])], refs=[('you', '네', '[이 글을 읽는 사람]')],
            meaning='네가 (나를) 본다면',
            explanation='인용문 안 조건절 if S′ V′: S′가 V′한다면. S′ you, V′ see까지 표시하고 목적어 me는 제외. then cry는 명령문 주절.')
     s.relative_ids = [rel['id']]
@@ -141,8 +140,8 @@ def sentences(T):
     # ---------------- s04 ----------------
     s = S('s04', T['s04'])
     s.ch('However,', '하지만,')
-    s.ch('when droughts occur', '가뭄이 발생할 때')
-    s.ch('and water levels retreat,', '그리고 수위가 낮아질 (때),')
+    s.ch('when droughts occur', '가뭄이 발생하고')
+    s.ch('and water levels retreat,', '수위가 낮아질 때,')
     s.ch('these stones become visible.', '이 돌들은 눈에 보이게 된다.')
     s.natural('하지만 가뭄이 들어 수위가 낮아지면 이 돌들이 모습을 드러낸다.')
     s.cl('subordinate', 'when', subj='droughts', verbs=['occur'], marker='when')
@@ -160,7 +159,7 @@ def sentences(T):
     s.g('visible', 'visible', '(눈에) 보이는', star=W['visible'])
     s.hint('[when droughts occur and water levels retreat]', '[가뭄이 발생하고 수위가 낮아질 때]',
            span='when droughts occur and water levels retreat', label='시간 접속사 when',
-           links=[(['when'], ['이', '질 때'])],
+           links=[(['when'], ['이', ('가', 1), '질 때'])],
            meaning='가뭄이 발생하고 수위가 낮아질 때',
            explanation='when S′ V′: S′가 V′할 때. 두 절(droughts occur / water levels retreat)이 and로 이어져 모두 when에 걸린다. 각 S′·V′까지 표시.')
     s.review = ('문두 연결어 However + when절 두 개가 and로 병렬(droughts occur / water levels retreat, 뒤 절은 [and] S′·V′로 표시) + 주절 these stones become visible. '
@@ -218,8 +217,8 @@ def sentences(T):
     s = S('s07', T['s07'], key=True)
     s.ch('The words', '그 글귀들은')
     s.ch('on the hunger stones', '기아석들 위의')
-    s.ch('are believed to warn of these hardships', '이러한 어려움들에 대해 경고하는 것으로 여겨진다')
-    s.ch('and to urge people to be prepared.', '그리고 사람들에게 대비하라고 촉구하는 것으로 (여겨진다).')
+    s.ch('are believed to warn of these hardships', '이러한 어려움들에 대해 경고하고')
+    s.ch('and to urge people to be prepared.', '사람들에게 대비하라고 촉구하는 것으로 여겨진다.')
     s.natural('기아석에 새겨진 글귀는 이러한 어려움을 경고하고, 사람들에게 대비하라고 촉구하는 것으로 여겨진다.')
     s.cl('main', 'The', subj='The words on the hunger stones', verbs=['are', 'believed'], disp='The words',
          disp_review='중심명사 words까지 표시하고 뒤에서 꾸미는 전치사구 on the hunger stones는 제외')
@@ -227,19 +226,20 @@ def sentences(T):
     s.g('on', 'on', '~ 위의')
     s.g('hunger|stones', 'hunger stones', '기아석들')
     f = s.g('are', 'be p.p.', '~되다', kind='function', combines_with=[])
-    bl = s.g('believed', 'believed', '여겨지는, 믿어지는', verb_form=pp('passive-participle', s, 'believed', 'believe', f['id']))
+    # 2026-09-29 사용자 결정 “p.p.에 to V 결합”(L-05): 수동 분리(be p.p.)는 유지하고 보충 to V 두 개를 believed 쪽 각주에 묶는다.
+    bl = s.g('believed|to|to', 'believed to V', '~하는 것으로 여겨지는',
+             verb_form=pp('passive-participle', s, 'believed', 'believe', f['id']),
+             verb_construction={'kind': 'to-complement', 'verb_span': s.span_of('believed'), 'lemma': 'believe',
+                                'link_spans': [s.span_of('to'), s.span_of('to', s.text.index('to urge'))],
+                                'review_record': 'are believed to warn … and to urge …: 수동 are believed 뒤 병렬 보충 to V 두 개(to warn, to urge).'})
     link(f, bl)
-    t1 = s.g('to', 'to V', '~하는 것으로', kind='function', combines_with=[])
-    wo = s.g('warn|of', 'warn of', '~에 대해 경고하다')
-    link(t1, wo)
+    s.g('warn|of', 'warn of', '~에 대해 경고하다')
     s.g('these', 'these', '이러한')
     s.g('hardships', 'hardships', '어려움들, 고난들', star=W['hardship'])
-    t2 = s.g('to', 'to V', '~하는 것으로', kind='function', combines_with=[], at=s.text.index('to urge'))
-    ur = s.g('urge|to', 'urge A to V', 'A에게 V하라고 촉구하다', star=W['urge'],
+    s.g('urge|to', 'urge A to V', 'A에게 V하라고 촉구하다', star=W['urge'],
              verb_construction={'kind': 'verb-frame', 'verb_span': s.span_of('urge'), 'lemma': 'urge',
                                 'link_spans': [s.span_of('to', s.text.index('to be'))],
                                 'review_record': 'urge people to be prepared: A = people, V = be prepared.'})
-    link(t2, ur)
     s.g('people', 'people', '사람들')
     s.g('be|prepared', 'be prepared', '대비하다, 준비가 되어 있다')
     s.brk('on', 'postnominal-preposition', 'on the hunger stones는 앞 명사 The words를 뒤에서 꾸미는 전치사구')
@@ -252,7 +252,7 @@ def sentences(T):
            meaning='사람들에게 대비하라고 촉구하다',
            explanation='urge A to V: A에게 V하라고 촉구하다. A = people, V = be prepared(대비하다). A 조사 에게와 연결 어미 라고만 강조.')
     s.review = ('주어 The words on the hunger stones(on 후치수식) + are believed(현재 수동) + 병렬 to부정사 to warn of these hardships and to urge people to be prepared(be believed to V). '
-                'urge A to V. 힌트 2개(be believed to V, urge A to V). 수동 are believed는 두 힌트가 있어 분석 보충 u1-gp4(be p.p.)로 연결하고, be believed to V 자체는 u1-gp2에서 분석. 관계사 없음.')
+                'urge A to V. 각주는 사용자 결정(2026-09-29 “p.p.에 to V 결합”)대로 be p.p. — ~되다 / believed to V — ~하는 것으로 여겨지는(병렬 to 두 개 연결). 힌트 2개(be believed to V, urge A to V). 수동 are believed는 두 힌트가 있어 분석 보충 u1-gp4(be p.p.)로 연결하고, be believed to V 자체는 u1-gp2에서 분석. 관계사 없음.')
     out.append(s)
 
     # ---------------- s08 ----------------
@@ -448,16 +448,16 @@ def analysis(_):
                           'formula_support': {'en': 'not just A but B', 'ko': '단지 A가 아니라 B'},
                           'support': [('s08', 'simple'), ('s08', 'occasional'), ('s08', 'drought'), ('s08', 'severe')],
                           'answer_ko': '단지 단순하고 가끔 일어나는 가뭄이 아니라 심각한 가뭄'}},
-            {'id': 'u1-gp4', 'sentence_id': 's01', 'span': 'a stone known as a “hunger stone” was found',
+            {'id': 'u1-gp4', 'sentence_id': 's01', 'span': 'was found',
              'title': 'be p.p.: ~되다 (was found: 발견되었다)', 'formula_key': 'be p.p.',
              'explanation': '공식: be p.p. — ~되다. be = was(과거), p.p. = found(발견된, find의 p.p.형). → was found = 발견되었다. '
                             '돌이 무언가를 발견한 것이 아니라 사람들에게 ‘발견된’ 쪽이라 수동(be p.p.)을 쓴다. 주어 a stone과 합치면 ‘돌이 발견되었다’.',
              'supplemental': {'function': ('s01', 'be p.p.', 0),
                               'reason': 's01의 수동 was found는 과거분사 후치수식 힌트가 이미 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 be p.p. 설명이 없어 이 단위 대표 사례로 1회 보충(s07 are believed, s09 is taken도 이 항목에 연결)'},
-             'practice': {'span': 'a stone known as a “hunger stone” was found',
+             'practice': {'span': 'was found',
                           'formula_support': {'en': 'be p.p.', 'ko': '~되다'},
-                          'support': [('s01', 'stone'), ('s01', 'known'), ('s01', 'as'), ('s01', 'hunger stone'), ('s01', 'found')],
-                          'answer_ko': '‘기아석’으로 알려진 돌이 발견되었다'}},
+                          'support': [('s01', 'found')],
+                          'answer_ko': '발견되었다'}},
             {'id': 'u1-gp5', 'sentence_id': 's09', 'span': 'The United Nations has predicted',
              'title': 'have p.p.: ~했다 (has predicted: 예측했다)', 'formula_key': 'have p.p.',
              'explanation': '공식: have p.p. — ~했다. have = has(주어가 단일 기관 The United Nations), p.p. = predicted(predict의 p.p.형; predict = 예측하다). '

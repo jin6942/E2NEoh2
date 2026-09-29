@@ -263,7 +263,15 @@ def verb_form_review(gloss, original):
         if gloss['spans'] != [[a, b]] + [list(p) for p in selected]:
             raise ValueError('Reviewed participle lexical spans must contain only its verb and particles')
         source_form = ' '.join([source_form] + [original[x:y] for x, y in selected])
-    if usage == 'passive-participle' and gloss['headword'].strip() != source_form:
+    # Local copy only (공통영어2 YBM(박준언) 2과 Further Reading, 2026-09-29 사용자 결정
+    # “p.p.에 to V 결합”): a passive p.p. completed by a reviewed to-complement keeps
+    # the actual p.p. and adds only the `to V` frame (`believed to V`).
+    passive_to = (usage == 'passive-participle' and not particle_spans
+                  and isinstance(gloss.get('verb_construction'), dict)
+                  and gloss['verb_construction'].get('kind') == 'to-complement')
+    if passive_to and gloss['headword'].strip() == source_form + ' to V':
+        pass
+    elif usage == 'passive-participle' and gloss['headword'].strip() != source_form:
         raise ValueError('Reviewed passive participle headword must preserve only its actual source p.p.')
     if usage == 'perfect-participle':
         # This must be in a field actually printed by the glossary renderer,
@@ -309,8 +317,18 @@ def verb_construction_review(gloss, original):
     if gloss['spans'] != [[a, b]] + [list(p) for p in selected]:
         raise ValueError('verb_construction lexical spans must contain only its source verb and linking words, not objects')
     head = gloss['headword'].split()
-    if not head or head[0].casefold() != lemma.casefold():
+    # Local copy only (2과 Further Reading, 2026-09-29): a passive p.p. + to V keeps
+    # its actual p.p. headword; parallel `to V … and to V` may link each actual to.
+    passive_to = (review['kind'] == 'to-complement' and isinstance(form, dict)
+                  and form.get('usage') == 'passive-participle')
+    expected_head = original[a:b] if passive_to else lemma
+    if not head or head[0].casefold() != expected_head.casefold():
         raise ValueError('verb_construction must use its reviewed lemma as the headword')
+    if passive_to:
+        if (head[1:] != ['to', 'V'] or not selected
+                or any(original[x:y].casefold() != 'to' for x, y in selected)):
+            raise ValueError('Reviewed passive to-complement must be one actual p.p. + to V frame')
+        return
     suffix = head[1:]
     if not any(w in {'A', 'B', 'V', 'V-ing'} for w in suffix):
         raise ValueError('verb_construction must retain its A/B/V frame')

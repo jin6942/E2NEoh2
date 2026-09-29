@@ -86,3 +86,10 @@
 
 - **LibreOffice 근거 간격 줄이기:** 사용자 결정 “간격 줄이기 조판 쓰기 — LibreOffice 기준으로 적용”. Word가 없는 환경이라 LibreOffice 예비 렌더(SHA256 432edb35…)에서 넘친 u1/analysis(9쪽)·u3/analysis(27쪽)에만 첫 단계 `spacing` 프로필을 적용했다. `layout_adjustments`에 `renderer:"LibreOffice"`와 `renderer_exception_approval`을 함께 기록하며, `scripts/compact_layout.py`는 이 승인 기록이 있을 때만 LibreOffice 관찰을 받는다. 승인 기록 없는 LibreOffice·다른 렌더러는 계속 거부한다. Word 렌더에서 원래 넘치지 않았다면 불필요한 축소일 수 있으므로 Word 확인 뒤 되돌릴 수 있다.
 - **★핵심 위치:** LibreOffice가 표식 안 U+FEFF를 줄바꿈 방지로 쓰지 않아 ‘★핵 / 심’으로 갈리는 현상(7쪽)이 있었다. U+2060·U+200D·U+202F·NBSP·언어 지정·`w:wordWrap`을 시험했으나 LibreOffice에서는 모두 갈렸다. 사용자 결정 “이전 규칙 유지, Word 확인”에 따라 문장 끝 위치와 기존 표식 문자를 유지하고 Word에서 확인한다.
+
+## 공통영어2 YBM(박준언) 2과 Further Reading의 수동 p.p. + 보충 to V 각주 (2026-09-29, 이 스킬 사본에만 추가)
+
+- **대상:** s07 `The words … are believed to warn of these hardships and to urge people to be prepared.` 독립 L 검수(L-05)에서 보충 to V를 따로 떼어 `to V — ~하는 것으로`라고 적은 것이 ‘동사 보충 to V는 구문으로 묶는다’는 규칙에 어긋난다고 지적했다. 수동 동사 뒤 보충 to V(be believed/said/thought to V)의 표기는 기존 규칙에 없었다.
+- **사용자 결정 “p.p.에 to V 결합”:** 수동 분리는 유지하고 보충 to V만 p.p. 쪽 각주에 묶는다. `be p.p. — ~되다 / believed to V — ~하는 것으로 여겨지는`. 각주 spans는 실제 believed와 병렬 to 두 개(to warn, to urge)이며 `verb_form.usage:passive-participle`과 `verb_construction.kind:to-complement`를 함께 둔다. warn of·urge A to V 등 V 자리 낱말은 따로 지원한다.
+- **검사기 보완(사용자 결정 “검사기 보완”):** `scripts/check_learning_content.py`는 원래 수동 p.p. 표제어를 실제 p.p. 한 낱말로만 받았다. 이 사본에서는 to-complement가 함께 선언된 경우에만 `실제 p.p. + to V` 표제어를 받고, 연결어는 실제 to만(병렬이면 여러 개) 허용한다. 원형 표제어·A/B 틀(verb-frame)·to 아닌 연결어는 계속 거부한다(`tests/test_passive_to_complement.py`). 다른 교재로 자동 확대하지 않는다.
+- **같은 검수의 다른 결정:** s09 `unless significant action is taken`의 significant는 ‘중대한, 상당한’(규모)으로 s05 오늘의 낱말 ‘중요한, 의미 있는’과 뜻이 달라 ★를 붙이지 않는다(사용자 결정 “★ 없이 둠”).

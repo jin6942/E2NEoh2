@@ -1,0 +1,80 @@
+{
+ "reviewed_by": "제작(Claude 세션)",
+ "date": "2026-09-29",
+ "user_decisions": [
+  {
+   "topic": "s07 수동 뒤 보충 to V 각주",
+   "decision": "p.p.에 to V 결합: be p.p. — ~되다 / believed to V — ~하는 것으로 여겨지는"
+  },
+  {
+   "topic": "s07 표기를 막는 검사기",
+   "decision": "검사기 보완(스킬 사본 check_learning_content.py, tests/test_passive_to_complement.py, approved-exceptions.md 기록)"
+  },
+  {
+   "topic": "s09 significant ★",
+   "decision": "★ 없이 둠(뜻이 ‘중대한, 상당한’으로 s05와 다름)"
+  }
+ ],
+ "self_decided_report_items": [
+  {
+   "topic": "S 기록 숫자 오기",
+   "decision": "summary 문구만 2018→2022·500으로 정정(correction_note 기록)"
+  }
+ ],
+ "findings": [
+  {
+   "id": "L-01",
+   "severity": "error",
+   "sentence_id": "s01",
+   "decision": "반영: in 500 years — 500년 만에 한 각주"
+  },
+  {
+   "id": "L-02",
+   "severity": "error",
+   "sentence_id": "s02",
+   "decision": "반영: that V′ — V′하던 (관계대명사)"
+  },
+  {
+   "id": "L-03",
+   "severity": "error",
+   "sentence_id": "s02",
+   "decision": "반영: 힌트 한국어 [적혀 있던], 강조 던"
+  },
+  {
+   "id": "L-04",
+   "severity": "error",
+   "sentence_id": "s02",
+   "decision": "반영: [네[이 글을 읽는 사람]가 본다면] + pronoun_refs (검수자가 제시한 대안 참조어 사용)"
+  },
+  {
+   "id": "L-05",
+   "severity": "error",
+   "sentence_id": "s07",
+   "decision": "반영: 사용자 결정대로 believed to V 결합, 단독 to V 각주 2개 삭제"
+  },
+  {
+   "id": "L-06",
+   "severity": "suggestion",
+   "sentence_id": "s04",
+   "decision": "반영: 수위가의 가 강조 추가"
+  },
+  {
+   "id": "L-07",
+   "severity": "suggestion",
+   "sentence_id": "s04",
+   "decision": "반영: 가뭄이 발생하고 / 수위가 낮아질 때,"
+  },
+  {
+   "id": "L-08",
+   "severity": "suggestion",
+   "sentence_id": "s07",
+   "decision": "반영: 경고하고 / … 촉구하는 것으로 여겨진다."
+  },
+  {
+   "id": "L-09",
+   "severity": "suggestion",
+   "sentence_id": "u1",
+   "decision": "반영: u1-gp4 span·practice를 was found로, 답 발견되었다, 지원 각주 found만"
+  }
+ ]
+}

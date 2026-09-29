@@ -169,13 +169,13 @@
      "id": "u1-w5",
      "text": "hardship",
      "meaning_ko": "어려움, 고난",
-     "source_gloss_id": "s07-g09"
+     "source_gloss_id": "s07-g08"
     },
     {
      "id": "u1-w6",
      "text": "urge",
      "meaning_ko": "촉구하다",
-     "source_gloss_id": "s07-g11"
+     "source_gloss_id": "s07-g09"
     },
     {
      "id": "u1-w7",
@@ -277,10 +277,10 @@
        },
        "answer_ko": "‘기아석’으로 알려진 돌",
        "support_gloss_ids": [
+        "s01-g10",
         "s01-g11",
         "s01-g12",
-        "s01-g13",
-        "s01-g14"
+        "s01-g13"
        ]
       }
      },
@@ -305,9 +305,9 @@
        },
        "answer_ko": "이러한 어려움들에 대해 경고하는 것으로 여겨진다",
        "support_gloss_ids": [
+        "s07-g06",
         "s07-g07",
-        "s07-g08",
-        "s07-g09"
+        "s07-g08"
        ]
       }
      },
@@ -343,7 +343,7 @@
       "id": "u1-gp4",
       "sentence_id": "s01",
       "span": [
-       72,
+       106,
        115
       ],
       "title": "be p.p.: ~되다 (was found: 발견되었다)",
@@ -351,24 +351,20 @@
       "explanation": "공식: be p.p. — ~되다. be = was(과거), p.p. = found(발견된, find의 p.p.형). → was found = 발견되었다. 돌이 무언가를 발견한 것이 아니라 사람들에게 ‘발견된’ 쪽이라 수동(be p.p.)을 쓴다. 주어 a stone과 합치면 ‘돌이 발견되었다’.",
       "supplemental": {
        "reason": "s01의 수동 was found는 과거분사 후치수식 힌트가 이미 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 be p.p. 설명이 없어 이 단위 대표 사례로 1회 보충(s07 are believed, s09 is taken도 이 항목에 연결)",
-       "function_gloss_id": "s01-g15"
+       "function_gloss_id": "s01-g14"
       },
       "practice": {
        "span": [
-        72,
+        106,
         115
        ],
        "formula_support": {
         "en": "be p.p.",
         "ko": "~되다"
        },
-       "answer_ko": "‘기아석’으로 알려진 돌이 발견되었다",
+       "answer_ko": "발견되었다",
        "support_gloss_ids": [
-        "s01-g11",
-        "s01-g12",
-        "s01-g13",
-        "s01-g14",
-        "s01-g16"
+        "s01-g15"
        ]
       }
      },
@@ -406,7 +402,7 @@
     "formula_routes": [
      {
       "sentence_id": "s01",
-      "function_gloss_id": "s01-g15",
+      "function_gloss_id": "s01-g14",
       "formula_key": "be p.p.",
       "route": "analysis",
       "grammar_point_id": "u1-gp4",
@@ -660,26 +656,22 @@
       [
        48,
        50
-      ]
-     ],
-     "headword": "in",
-     "meaning_ko": "~ 만에",
-     "star": false
-    },
-    {
-     "id": "s01-g08",
-     "spans": [
+      ],
+      [
+       51,
+       54
+      ],
       [
        55,
        60
       ]
      ],
-     "headword": "years",
-     "meaning_ko": "년, 해들",
+     "headword": "in 500 years",
+     "meaning_ko": "500년 만에",
      "star": false
     },
     {
-     "id": "s01-g09",
+     "id": "s01-g08",
      "spans": [
       [
        61,
@@ -691,7 +683,7 @@
      "star": false
     },
     {
-     "id": "s01-g10",
+     "id": "s01-g09",
      "spans": [
       [
        64,
@@ -703,7 +695,7 @@
      "star": false
     },
     {
-     "id": "s01-g11",
+     "id": "s01-g10",
      "spans": [
       [
        74,
@@ -715,7 +707,7 @@
      "star": false
     },
     {
-     "id": "s01-g12",
+     "id": "s01-g11",
      "spans": [
       [
        80,
@@ -735,7 +727,7 @@
      }
     },
     {
-     "id": "s01-g13",
+     "id": "s01-g12",
      "spans": [
       [
        86,
@@ -747,7 +739,7 @@
      "star": false
     },
     {
-     "id": "s01-g14",
+     "id": "s01-g13",
      "spans": [
       [
        92,
@@ -763,7 +755,7 @@
      "star": false
     },
     {
-     "id": "s01-g15",
+     "id": "s01-g14",
      "spans": [
       [
        106,
@@ -775,11 +767,11 @@
      "star": false,
      "kind": "function",
      "combines_with": [
-      "s01-g16"
+      "s01-g15"
      ]
     },
     {
-     "id": "s01-g16",
+     "id": "s01-g15",
      "spans": [
       [
        110,
@@ -796,12 +788,12 @@
        115
       ],
       "lemma": "find",
-      "function_gloss_id": "s01-g15"
+      "function_gloss_id": "s01-g14"
      },
      "kind": "lexical"
     },
     {
-     "id": "s01-g17",
+     "id": "s01-g16",
      "spans": [
       [
        116,
@@ -813,7 +805,7 @@
      "star": false
     },
     {
-     "id": "s01-g18",
+     "id": "s01-g17",
      "spans": [
       [
        121,
@@ -825,7 +817,7 @@
      "star": false
     },
     {
-     "id": "s01-g19",
+     "id": "s01-g18",
      "spans": [
       [
        127,
@@ -837,7 +829,7 @@
      "star": false
     },
     {
-     "id": "s01-g20",
+     "id": "s01-g19",
      "spans": [
       [
        132,
@@ -849,7 +841,7 @@
      "star": false
     },
     {
-     "id": "s01-g21",
+     "id": "s01-g20",
      "spans": [
       [
        142,
@@ -938,21 +930,21 @@
       55,
       60
      ],
-     "gloss_id": "s01-g08"
+     "gloss_id": "s01-g07"
     },
     {
      "span": [
       61,
       63
      ],
-     "gloss_id": "s01-g09"
+     "gloss_id": "s01-g08"
     },
     {
      "span": [
       64,
       70
      ],
-     "gloss_id": "s01-g10"
+     "gloss_id": "s01-g09"
     },
     {
      "span": [
@@ -968,21 +960,21 @@
       74,
       79
      ],
-     "gloss_id": "s01-g11"
+     "gloss_id": "s01-g10"
     },
     {
      "span": [
       80,
       85
      ],
-     "gloss_id": "s01-g12"
+     "gloss_id": "s01-g11"
     },
     {
      "span": [
       86,
       88
      ],
-     "gloss_id": "s01-g13"
+     "gloss_id": "s01-g12"
     },
     {
      "span": [
@@ -998,35 +990,35 @@
       92,
       98
      ],
-     "gloss_id": "s01-g14"
+     "gloss_id": "s01-g13"
     },
     {
      "span": [
       99,
       104
      ],
-     "gloss_id": "s01-g14"
+     "gloss_id": "s01-g13"
     },
     {
      "span": [
       106,
       109
      ],
-     "gloss_id": "s01-g15"
+     "gloss_id": "s01-g14"
     },
     {
      "span": [
       110,
       115
      ],
-     "gloss_id": "s01-g16"
+     "gloss_id": "s01-g15"
     },
     {
      "span": [
       116,
       118
      ],
-     "gloss_id": "s01-g17"
+     "gloss_id": "s01-g16"
     },
     {
      "span": [
@@ -1042,21 +1034,21 @@
       121,
       126
      ],
-     "gloss_id": "s01-g18"
+     "gloss_id": "s01-g17"
     },
     {
      "span": [
       127,
       131
      ],
-     "gloss_id": "s01-g19"
+     "gloss_id": "s01-g18"
     },
     {
      "span": [
       132,
       137
      ],
-     "gloss_id": "s01-g20"
+     "gloss_id": "s01-g19"
     },
     {
      "span": [
@@ -1072,14 +1064,14 @@
       142,
       146
      ],
-     "gloss_id": "s01-g21"
+     "gloss_id": "s01-g20"
     },
     {
      "span": [
       147,
       152
      ],
-     "gloss_id": "s01-g21"
+     "gloss_id": "s01-g20"
     }
    ],
    "hints": [
@@ -1113,7 +1105,7 @@
       }
      ],
      "structure_label": "과거분사 후치수식",
-     "participle_focus_gloss_id": "s01-g12"
+     "participle_focus_gloss_id": "s01-g11"
     }
    ],
    "reading_checks": {
@@ -1147,7 +1139,7 @@
     ],
     "protected_spans": [],
     "function_gloss_ids": [
-     "s01-g15"
+     "s01-g14"
     ],
     "relative_gloss_ids": []
    }
@@ -1342,7 +1334,7 @@
       ]
      ],
      "headword": "that V′",
-     "meaning_ko": "V′하는 (관계대명사)",
+     "meaning_ko": "V′하던 (관계대명사)",
      "star": false
     },
     {
@@ -1552,12 +1544,12 @@
       14,
       48
      ],
-     "meaning_ko": "그 돌 위에 쓰인, 다음과 같이 적혀 있던 문장",
-     "explanation": "선행사 a sentence를 주격 관계대명사 that이 받는다(과거분사구 written on it 뒤에 이어짐). 주격이라 별도 S′ 없이 V′ read(~라고 적혀 있었다)까지 표시하고 콜론 뒤 인용은 제외.",
+     "meaning_ko": "그 돌 위에 쓰인, 적혀 있던 문장",
+     "explanation": "선행사 a sentence를 주격 관계대명사 that이 받는다(과거분사구 written on it 뒤에 이어짐). 주격이라 별도 S′ 없이 V′ read(적혀 있었다)까지 표시하고 콜론 뒤 인용과 그 뜻(다음과 같이)은 제외.",
      "display_pairs": [
       {
        "en": "a sentence written on it [that read]",
-       "ko": "그것[그 돌] 위에 쓰인, [다음과 같이 적혀 있던] 문장",
+       "ko": "그것[그 돌] 위에 쓰인, [적혀 있던] 문장",
        "pronoun_refs": [
         {
          "en_span": [
@@ -1584,8 +1576,8 @@
          ],
          "ko_spans": [
           [
-           27,
-           28
+           20,
+           21
           ]
          ]
         }
@@ -1604,7 +1596,23 @@
      "display_pairs": [
       {
        "en": "[If you see]",
-       "ko": "[네가 본다면]",
+       "ko": "[네[이 글을 읽는 사람]가 본다면]",
+       "pronoun_refs": [
+        {
+         "en_span": [
+          4,
+          7
+         ],
+         "ko_pronoun_span": [
+          1,
+          2
+         ],
+         "ko_reference_span": [
+          2,
+          14
+         ]
+        }
+       ],
        "emphasis_links": [
         {
          "en_spans": [
@@ -1615,12 +1623,12 @@
          ],
          "ko_spans": [
           [
-           2,
-           3
+           14,
+           15
           ],
           [
-           4,
-           7
+           16,
+           19
           ]
          ]
         }
@@ -1879,7 +1887,7 @@
       56
      ],
      "exemption": "proper-name-repeat",
-     "first_gloss_id": "s01-g10",
+     "first_gloss_id": "s01-g09",
      "reason": "같은 지문에서 먼저 제공한 고유명사 반복"
     },
     {
@@ -1971,12 +1979,12 @@
     {
      "start": 9,
      "end": 28,
-     "ko": "가뭄이 발생할 때"
+     "ko": "가뭄이 발생하고"
     },
     {
      "start": 29,
      "end": 54,
-     "ko": "그리고 수위가 낮아질 (때),"
+     "ko": "수위가 낮아질 때,"
     },
     {
      "start": 55,
@@ -2276,6 +2284,10 @@
           [
            3,
            4
+          ],
+          [
+           12,
+           13
           ],
           [
            16,
@@ -2938,12 +2950,12 @@
     {
      "start": 31,
      "end": 70,
-     "ko": "이러한 어려움들에 대해 경고하는 것으로 여겨진다"
+     "ko": "이러한 어려움들에 대해 경고하고"
     },
     {
      "start": 71,
      "end": 105,
-     "ko": "그리고 사람들에게 대비하라고 촉구하는 것으로 (여겨진다)."
+     "ko": "사람들에게 대비하라고 촉구하는 것으로 여겨진다."
     }
    ],
    "natural_ko": "기아석에 새겨진 글귀는 이러한 어려움을 경고하고, 사람들에게 대비하라고 촉구하는 것으로 여겨진다.",
@@ -3039,11 +3051,20 @@
       [
        35,
        43
+      ],
+      [
+       44,
+       46
+      ],
+      [
+       75,
+       77
       ]
      ],
-     "headword": "believed",
-     "meaning_ko": "여겨지는, 믿어지는",
+     "headword": "believed to V",
+     "meaning_ko": "~하는 것으로 여겨지는",
      "star": false,
+     "kind": "lexical",
      "verb_form": {
       "usage": "passive-participle",
       "source_span": [
@@ -3053,26 +3074,28 @@
       "lemma": "believe",
       "function_gloss_id": "s07-g04"
      },
-     "kind": "lexical"
+     "verb_construction": {
+      "kind": "to-complement",
+      "verb_span": [
+       35,
+       43
+      ],
+      "lemma": "believe",
+      "link_spans": [
+       [
+        44,
+        46
+       ],
+       [
+        75,
+        77
+       ]
+      ],
+      "review_record": "are believed to warn … and to urge …: 수동 are believed 뒤 병렬 보충 to V 두 개(to warn, to urge)."
+     }
     },
     {
      "id": "s07-g06",
-     "spans": [
-      [
-       44,
-       46
-      ]
-     ],
-     "headword": "to V",
-     "meaning_ko": "~하는 것으로",
-     "star": false,
-     "kind": "function",
-     "combines_with": [
-      "s07-g07"
-     ]
-    },
-    {
-     "id": "s07-g07",
      "spans": [
       [
        47,
@@ -3085,11 +3108,10 @@
      ],
      "headword": "warn of",
      "meaning_ko": "~에 대해 경고하다",
-     "star": false,
-     "kind": "lexical"
+     "star": false
     },
     {
-     "id": "s07-g08",
+     "id": "s07-g07",
      "spans": [
       [
        55,
@@ -3101,7 +3123,7 @@
      "star": false
     },
     {
-     "id": "s07-g09",
+     "id": "s07-g08",
      "spans": [
       [
        61,
@@ -3114,23 +3136,7 @@
      "today_word_id": "u1-w5"
     },
     {
-     "id": "s07-g10",
-     "spans": [
-      [
-       75,
-       77
-      ]
-     ],
-     "headword": "to V",
-     "meaning_ko": "~하는 것으로",
-     "star": false,
-     "kind": "function",
-     "combines_with": [
-      "s07-g11"
-     ]
-    },
-    {
-     "id": "s07-g11",
+     "id": "s07-g09",
      "spans": [
       [
        78,
@@ -3163,7 +3169,7 @@
      }
     },
     {
-     "id": "s07-g12",
+     "id": "s07-g10",
      "spans": [
       [
        83,
@@ -3175,7 +3181,7 @@
      "star": false
     },
     {
-     "id": "s07-g13",
+     "id": "s07-g11",
      "spans": [
       [
        93,
@@ -3257,35 +3263,35 @@
       44,
       46
      ],
-     "gloss_id": "s07-g06"
+     "gloss_id": "s07-g05"
     },
     {
      "span": [
       47,
       51
      ],
-     "gloss_id": "s07-g07"
+     "gloss_id": "s07-g06"
     },
     {
      "span": [
       52,
       54
      ],
-     "gloss_id": "s07-g07"
+     "gloss_id": "s07-g06"
     },
     {
      "span": [
       55,
       60
      ],
-     "gloss_id": "s07-g08"
+     "gloss_id": "s07-g07"
     },
     {
      "span": [
       61,
       70
      ],
-     "gloss_id": "s07-g09"
+     "gloss_id": "s07-g08"
     },
     {
      "span": [
@@ -3300,42 +3306,42 @@
       75,
       77
      ],
-     "gloss_id": "s07-g10"
+     "gloss_id": "s07-g05"
     },
     {
      "span": [
       78,
       82
      ],
-     "gloss_id": "s07-g11"
+     "gloss_id": "s07-g09"
     },
     {
      "span": [
       83,
       89
      ],
-     "gloss_id": "s07-g12"
+     "gloss_id": "s07-g10"
     },
     {
      "span": [
       90,
       92
      ],
-     "gloss_id": "s07-g11"
+     "gloss_id": "s07-g09"
     },
     {
      "span": [
       93,
       95
      ],
-     "gloss_id": "s07-g13"
+     "gloss_id": "s07-g11"
     },
     {
      "span": [
       96,
       104
      ],
-     "gloss_id": "s07-g13"
+     "gloss_id": "s07-g11"
     }
    ],
    "hints": [
@@ -3409,7 +3415,7 @@
     }
    ],
    "reading_checks": {
-    "review_record": "주어 The words on the hunger stones(on 후치수식) + are believed(현재 수동) + 병렬 to부정사 to warn of these hardships and to urge people to be prepared(be believed to V). urge A to V. 힌트 2개(be believed to V, urge A to V). 수동 are believed는 두 힌트가 있어 분석 보충 u1-gp4(be p.p.)로 연결하고, be believed to V 자체는 u1-gp2에서 분석. 관계사 없음.",
+    "review_record": "주어 The words on the hunger stones(on 후치수식) + are believed(현재 수동) + 병렬 to부정사 to warn of these hardships and to urge people to be prepared(be believed to V). urge A to V. 각주는 사용자 결정(2026-09-29 “p.p.에 to V 결합”)대로 be p.p. — ~되다 / believed to V — ~하는 것으로 여겨지는(병렬 to 두 개 연결). 힌트 2개(be believed to V, urge A to V). 수동 are believed는 두 힌트가 있어 분석 보충 u1-gp4(be p.p.)로 연결하고, be believed to V 자체는 u1-gp2에서 분석. 관계사 없음.",
     "required_breaks": [
      {
       "at": 10,
@@ -3419,9 +3425,7 @@
     ],
     "protected_spans": [],
     "function_gloss_ids": [
-     "s07-g04",
-     "s07-g06",
-     "s07-g10"
+     "s07-g04"
     ],
     "relative_gloss_ids": []
    }
