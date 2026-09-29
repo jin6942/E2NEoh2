@@ -1,0 +1,32 @@
+{
+  "reviewer_id": "M3",
+  "role": "M",
+  "input_sha256": {"문제_QC_HANDOFF": "f913b7ddbab533ec343d7459cf86a332e75b8e9e90bc5de258960d3e815c4bde"},
+  "dispositions": [
+    {"id": "M3-01", "question_id": "Q05", "field": "오답 이유 ①", "verdict": "반영확인",
+     "current": "① 지나처럼 실수로 퍼뜨리는 일이 드물지 않다고는 했지만, 가짜 뉴스가 ‘주로’ 실수 때문에 퍼진다고 하지는 않았다. 오히려 가짜 뉴스는 특정 집단이 목적을 가지고 사람들을 조종하려고 만든 의도적인 시도라고 했으므로 요지가 될 수 없다.",
+     "note": "제안 문구와 일치(따옴표만 둥근 따옴표 ‘ ’로 표기 — 문제없음)."},
+    {"id": "M3-02", "question_id": "Q13", "field": "오답 이유 ③", "verdict": "반영확인",
+     "current": "③ 자기 의견에 맞는 기사만 읽고 있지 않은지 스스로 점검하라고 했을 뿐, 편향된 뉴스가 낫다는 내용은 없다.",
+     "note": "제안 문구와 일치. Q14 변형어(support)와의 충돌 해소."},
+    {"id": "M3-03 (N3-02 포함)", "question_id": "Q15", "field": "오답 이유 ⑤", "verdict": "반영확인",
+     "current": "⑤ (B)는 맞지만, 뉴스를 감정적으로 판단하라는 내용은 없고 비판적·객관적으로 판단하라고 했다.",
+     "note": "제안 문구와 일치. ③ 오답 이유와 형식도 맞음."},
+    {"id": "N3-01", "question_id": "Q05", "field": "정답 해설", "verdict": "반영확인",
+     "current": "가짜 뉴스는 사람들을 조종하려는 의도적인 시도로, 사람들을 혼란스럽게 하고 사회를 어지럽히며 대중에게 심각한 해를 끼칠 수 있고, 특히 비상사태 때 흔히 퍼진다. 암본 지진 사례는 이를 보여 준다. 따라서 ③이 요지다.",
+     "note": "원문 'confuse people, disturb society, and even seriously harm the public'과 대응이 정확함. 옛 문구('사회에 심각한 해를') 잔존 0건."},
+    {"id": "M3-04", "question_id": "Q15", "field": "선택지 ①", "verdict": "미반영(조정자 결정 수용)",
+     "note": "선택 사항이며 학생용 선택지 변경은 새 블라인드 라운드가 필요하다는 판단에 동의. 현행 유지로 문항 오류 없음."}
+  ],
+  "unchanged_checks": {
+    "answers_all_19": "Q01=2 Q02=5 Q03=1 Q04=2 / Q05=3 Q06=4 Q07=2 Q08=5 Q09=4 / Q10=4 Q11=1 Q12=3 Q13=2 Q14=4 / Q15=4 Q16=5 Q17=3 Q18=1 Q19=2 — 대조 단계와 동일",
+    "choices_and_choices_kr": "Q05·Q08·Q13·Q15 CHOICES·CHOICES_KR 대조 단계와 동일",
+    "Q08_wrong_analysis_2": "대조 단계에서 확인한 문구 그대로",
+    "file_delta": "파일 크기 68126 → 68287 바이트(+161)가 네 건 수정의 UTF-8 바이트 차이 합(+161)과 정확히 일치 — 그 밖의 변경 없음으로 판단"
+  },
+  "new_findings": [],
+  "carried_over": "M3-05(렌더 PDF가 수정 전 버전) — 출고 전 03·04·05 재렌더 및 재확인 필요, HANDOFF 자체 오류는 아님",
+  "status": "PASS",
+  "answers": {"Q05": 3, "Q13": 2, "Q15": 4},
+  "solved_before_answer_key": true
+}
