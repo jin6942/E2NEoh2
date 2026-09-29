@@ -483,7 +483,7 @@ def analysis(_):
              'review_record': 'is taken: 힌트 2개가 있어 같은 단위 be p.p. 대표 사례 u1-gp4로 연결'},
         ],
         'relations': [
-            {'head': {'id': 'u1-r1h', 'text': 'visible', 'meaning_ko': '(눈에) 보이는'},
+            {'head': {'id': 'u1-r1h', 'text': 'visible', 'meaning_ko': '눈에 보이는'},
              'synonym': {'id': 'u1-r1s', 'text': 'noticeable', 'meaning_ko': '눈에 띄는'},
              'antonym': {'id': 'u1-r1a', 'text': 'invisible', 'meaning_ko': '보이지 않는'}},
             {'head': {'id': 'u1-r2h', 'text': 'significant', 'meaning_ko': '중요한, 의미 있는'},

@@ -198,7 +198,7 @@ not just A but B: 단지 A가 아니라 B [8번 문장]: is not just a simple, o
 be p.p.: ~되다 (was found: 발견되었다) [1번 문장]: was found — 공식: be p.p. — ~되다. be = was(과거), p.p. = found(발견된, find의 p.p.형). → was found = 발견되었다. 돌이 무언가를 발견한 것이 아니라 사람들에게 ‘발견된’ 쪽이라 수동(be p.p.)을 쓴다. 주어 a stone과 합치면 ‘돌이 발견되었다’.
 have p.p.: ~했다 (has predicted: 예측했다) [9번 문장]: The United Nations has predicted — 공식: have p.p. — ~했다. have = has(주어가 단일 기관 The United Nations), p.p. = predicted(predict의 p.p.형; predict = 예측하다). → has predicted = 예측했다(이미 예측해 둔 상태). 주어 The United Nations(유엔)와 합치면 ‘유엔은 예측했다’.
 [유의어·반의어]
-표제어: visible ((눈에) 보이는) / 유의어: noticeable (눈에 띄는) / 반의어: invisible (보이지 않는)
+표제어: visible (눈에 보이는) / 유의어: noticeable (눈에 띄는) / 반의어: invisible (보이지 않는)
 표제어: significant (중요한, 의미 있는) / 유의어: important (중요한) / 반의어: insignificant (사소한, 하찮은)
 표제어: persist (지속되다, 계속되다) / 유의어: continue (계속되다) / 반의어: cease (그치다, 멈추다)
 ----- [/분석 단위] -----
