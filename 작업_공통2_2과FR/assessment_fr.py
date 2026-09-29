@@ -25,6 +25,9 @@ INSTRUCTION = ('2026-09-29 사용자 선택 “워크북 1 + 모의 1회 5문항
 MOCK_LENGTH_NOTE = (' 원문 전체가 175단어라, 회차 안 지문 범위를 서로 다르게 하고 어휘 문항 밑줄이 다른 지문에 드러나지 않도록 '
                     '짧게 발췌함. 4단계 M·N 독립 검수에서 근거가 지문 안에서 해결되어 수용 가능함을 확인.')
 
+LONG_LENGTH_NOTE = (' 공유 장문은 원문 전체(175단어)를 그대로 쓰며 더 늘릴 원문이 없음. '
+                    '4단계 M·N 독립 검수에서 문항 성립과 근거 자족을 확인.')
+
 Q = []  # 작성 순서 = 출력 순서
 
 
@@ -117,7 +120,7 @@ q(id='Q04', set_id='mock1', number=3, type='요약', first='s01', last='s07',
   choices_ko=['숨겨진 …… 일깨우다', '보이는 …… 일깨우다', '보이는 …… 덜어 주다', '묻힌 …… 확신시키다', '숨겨진 …… 덜어 주다'],
   wrong={1: '(B) remind는 맞지만, 기아석은 가뭄 때 숨겨지는 것이 아니라 드러나므로(become visible) (A) hidden은 반대다.',
          3: '(A) seen은 맞지만, 돌의 글은 사람들의 고난을 덜어 주는(relieve A of B) 것이 아니라 고난을 경고한다.',
-         4: '돌의 글은 고난이 오지 않는다고 안심시키거나 확신시키는(assure A of B) 것이 아니라 고난을 경고한다. 또 기아석은 가뭄 때 물 밖으로 드러나므로 (A) buried(묻힌)도 맞지 않다.',
+         4: '기아석은 가뭄 때 물 밖으로 드러나므로(become visible) (A) buried(묻힌)는 반대다. (B) assure A of B(A에게 B를 확신시키다·보장하다)도 돌의 글이 고난을 경고하고 대비를 촉구한다는 내용과 맞지 않는다.',
          5: '기아석은 가뭄 때 드러나며(hidden은 반대), 돌의 글은 고난을 덜어 주는 것이 아니라 경고한다.'})
 
 # 공유 장문(Q05 제목·Q06 어휘): 전체 원문 s01~s09
@@ -208,7 +211,8 @@ def attach(data):
         rationale = (f"{'공유 장문 41~42' if grouped else kind} 고1 표본 {refs}단어와 비교해 현재 {lc['assessment_word_count']}단어. "
                      + (BENCH_SHORT_NOTE if short else '표본 범위 이상으로 너무 짧지 않음. ')
                      + '연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.'
-                     + (MOCK_LENGTH_NOTE if row['set_id'] != 'workbook' else ''))
+                     + (MOCK_LENGTH_NOTE if row['set_id'] != 'workbook' and not grouped else '')
+                     + (LONG_LENGTH_NOTE if grouped else ''))
         req['length_review'] = {'profile_id': LENGTH_PROFILE_ID, 'grade': GRADE,
                                 'benchmark_ids': recommended_benchmarks(GRADE, bench_type), 'rationale': rationale}
         if short:

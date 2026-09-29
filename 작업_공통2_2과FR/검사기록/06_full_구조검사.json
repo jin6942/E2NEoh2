@@ -1,0 +1,1052 @@
+{
+  "status": "STRUCTURE_PASS",
+  "learning": {
+    "status": "STRUCTURE_PASS",
+    "scope": "full",
+    "lesson_identity": {
+      "number": 2,
+      "kind": "lesson",
+      "internal_id": "UNIT02",
+      "display": "2과"
+    },
+    "source_checks": [
+      {
+        "issues": [],
+        "subheading_count": 0,
+        "reviewed_boundary_count": 0,
+        "review_evidence": "REVIEWER_SUPPLIED_EXTERNAL_SOURCE_BYTES_NOT_CHECKED"
+      }
+    ],
+    "source_count": 1,
+    "unit_count": 1,
+    "sentence_count": 9,
+    "gloss_count": 127,
+    "shortages": [],
+    "sv_lines": {
+      "src/s01": "S: a stone, V: was found",
+      "src/s02": "S: The stone, V: had ／ [that] V′: read ／ [If] S′: you, V′: see ／ V: cry",
+      "src/s03": "S: The hunger stones, V: remain",
+      "src/s04": "[when] S′: droughts, V′: occur ／ [and] S′: water levels, V′: retreat ／ S: these stones, V: become",
+      "src/s05": "S: The stones, V: are ／ [because] S′: they, V′: bear",
+      "src/s06": "S: Droughts, V: cause",
+      "src/s07": "S: The words, V: are believed",
+      "src/s08": "S: experts, V: warn ／ [that] S′: the situation, V′: is ／ [(that)] S′: we, V′: face ／ [that] V′: could persist",
+      "src/s09": "S: The United Nations, V: has predicted ／ [that] S′: 75 percent of the global population, V′: could suffer ／ [unless] S′: significant action, V′: is taken"
+    },
+    "analysis_bodies": {
+      "status": "STRUCTURE_VALIDATED",
+      "semantic_review": "NOT_PERFORMED",
+      "standalone_model_translation_section": false,
+      "units": [
+        {
+          "unit_number": 1,
+          "source_id": "src",
+          "role": "analysis_reading_body",
+          "sentences": [
+            {
+              "source_id": "src",
+              "sentence_id": "s01",
+              "original": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 13
+                },
+                {
+                  "start": 14,
+                  "end": 22
+                },
+                {
+                  "start": 23,
+                  "end": 47
+                },
+                {
+                  "start": 48,
+                  "end": 60
+                },
+                {
+                  "start": 61,
+                  "end": 71
+                },
+                {
+                  "start": 72,
+                  "end": 79
+                },
+                {
+                  "start": 80,
+                  "end": 105
+                },
+                {
+                  "start": 106,
+                  "end": 115
+                },
+                {
+                  "start": 116,
+                  "end": 131
+                },
+                {
+                  "start": 132,
+                  "end": 153
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "In the summer",
+                    "of 2022,",
+                    "during the worst drought",
+                    "in 500 years",
+                    "in Europe,",
+                    "a stone",
+                    "known as a “hunger stone”",
+                    "was found",
+                    "in a Czech town",
+                    "along the Elbe River."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "여름에",
+                    "2022년의,",
+                    "최악의 가뭄 동안",
+                    "500년 만에",
+                    "유럽의,",
+                    "한 돌이",
+                    "‘기아석’으로 알려진",
+                    "발견되었다",
+                    "체코의 한 마을에서",
+                    "엘베강을 따라 있는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "유럽에 500년 만에 최악의 가뭄이 닥친 2022년 여름, 엘베강을 따라 있는 체코의 한 마을에서 ‘기아석’으로 알려진 돌이 발견되었다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s02",
+              "original": "The stone had a sentence written on it that read: “If you see me, then cry.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 24
+                },
+                {
+                  "start": 25,
+                  "end": 38
+                },
+                {
+                  "start": 39,
+                  "end": 49
+                },
+                {
+                  "start": 50,
+                  "end": 65
+                },
+                {
+                  "start": 66,
+                  "end": 76
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "The stone had a sentence",
+                    "written on it",
+                    "that read:",
+                    "“If you see me,",
+                    "then cry.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그 돌은 한 문장을 가지고 있었다",
+                    "그것 위에 쓰인",
+                    "다음과 같이 적혀 있던:",
+                    "“만약 네가 나를 본다면,",
+                    "그러면 울어라.”"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그 돌에는 “나를 보면 울어라.”라는 문장이 새겨져 있었다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s03",
+              "original": "The hunger stones, found in rivers across central Europe, typically remain underwater.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 18
+                },
+                {
+                  "start": 19,
+                  "end": 34
+                },
+                {
+                  "start": 35,
+                  "end": 57
+                },
+                {
+                  "start": 58,
+                  "end": 86
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "The hunger stones,",
+                    "found in rivers",
+                    "across central Europe,",
+                    "typically remain underwater."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "기아석들은,",
+                    "강들에서 발견되는",
+                    "중부 유럽 전역의,",
+                    "보통 물속에 남아 있다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "중부 유럽 곳곳의 강에서 발견되는 기아석들은 보통 물속에 잠겨 있다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s04",
+              "original": "However, when droughts occur and water levels retreat, these stones become visible.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 8
+                },
+                {
+                  "start": 9,
+                  "end": 28
+                },
+                {
+                  "start": 29,
+                  "end": 54
+                },
+                {
+                  "start": 55,
+                  "end": 83
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "However,",
+                    "when droughts occur",
+                    "and water levels retreat,",
+                    "these stones become visible."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "하지만,",
+                    "가뭄이 발생할 때",
+                    "그리고 수위가 낮아질 (때),",
+                    "이 돌들은 눈에 보이게 된다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "하지만 가뭄이 들어 수위가 낮아지면 이 돌들이 모습을 드러낸다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s05",
+              "original": "The stones are significant because they bear records of the past severe droughts.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 26
+                },
+                {
+                  "start": 27,
+                  "end": 52
+                },
+                {
+                  "start": 53,
+                  "end": 81
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "The stones are significant",
+                    "because they bear records",
+                    "of the past severe droughts."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그 돌들은 중요하다",
+                    "그것들이 기록들을 지니고 있기 때문에",
+                    "과거의 극심한 가뭄들의."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "이 돌들이 중요한 이유는 과거에 있었던 극심한 가뭄의 기록을 담고 있기 때문이다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s06",
+              "original": "Droughts cause reduced harvests, food shortages, and hunger, especially for the poor.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 32
+                },
+                {
+                  "start": 33,
+                  "end": 60
+                },
+                {
+                  "start": 61,
+                  "end": 85
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Droughts cause reduced harvests,",
+                    "food shortages, and hunger,",
+                    "especially for the poor."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "가뭄은 줄어든 수확량을 초래한다,",
+                    "식량 부족, 그리고 굶주림을,",
+                    "특히 가난한 사람들에게."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "가뭄은 수확량 감소와 식량 부족을 불러오고, 특히 가난한 사람들에게는 굶주림을 가져온다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s07",
+              "original": "The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 9
+                },
+                {
+                  "start": 10,
+                  "end": 30
+                },
+                {
+                  "start": 31,
+                  "end": 70
+                },
+                {
+                  "start": 71,
+                  "end": 105
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "The words",
+                    "on the hunger stones",
+                    "are believed to warn of these hardships",
+                    "and to urge people to be prepared."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그 글귀들은",
+                    "기아석들 위의",
+                    "이러한 어려움들에 대해 경고하는 것으로 여겨진다",
+                    "그리고 사람들에게 대비하라고 촉구하는 것으로 (여겨진다)."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "기아석에 새겨진 글귀는 이러한 어려움을 경고하고, 사람들에게 대비하라고 촉구하는 것으로 여겨진다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s08",
+              "original": "Considering the continuation of climate change, experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 28
+                },
+                {
+                  "start": 29,
+                  "end": 47
+                },
+                {
+                  "start": 48,
+                  "end": 60
+                },
+                {
+                  "start": 61,
+                  "end": 79
+                },
+                {
+                  "start": 80,
+                  "end": 87
+                },
+                {
+                  "start": 88,
+                  "end": 128
+                },
+                {
+                  "start": 129,
+                  "end": 149
+                },
+                {
+                  "start": 150,
+                  "end": 168
+                },
+                {
+                  "start": 169,
+                  "end": 181
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Considering the continuation",
+                    "of climate change,",
+                    "experts warn",
+                    "that the situation",
+                    "we face",
+                    "is not just a simple, occasional drought",
+                    "but a severe drought",
+                    "that could persist",
+                    "for decades."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "지속을 고려할 때",
+                    "기후 변화의,",
+                    "전문가들은 경고한다",
+                    "상황이",
+                    "우리가 직면한",
+                    "단지 단순하고 가끔 일어나는 가뭄이 아니라",
+                    "심각한 가뭄이라고",
+                    "지속될 수 있는",
+                    "수십 년 동안."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순히 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s09",
+              "original": "The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 32
+                },
+                {
+                  "start": 33,
+                  "end": 46
+                },
+                {
+                  "start": 47,
+                  "end": 57
+                },
+                {
+                  "start": 58,
+                  "end": 82
+                },
+                {
+                  "start": 83,
+                  "end": 112
+                },
+                {
+                  "start": 113,
+                  "end": 123
+                },
+                {
+                  "start": 124,
+                  "end": 158
+                },
+                {
+                  "start": 159,
+                  "end": 185
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "The United Nations has predicted",
+                    "that by 2050,",
+                    "75 percent",
+                    "of the global population",
+                    "could suffer from the effects",
+                    "of drought",
+                    "unless significant action is taken",
+                    "to address climate change."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "유엔은 예측했다",
+                    "2050년까지",
+                    "75퍼센트가",
+                    "전 세계 인구의",
+                    "영향으로 고통받을 수 있다고",
+                    "가뭄의",
+                    "중대한 조치가 취해지지 않는다면",
+                    "기후 변화에 대처하기 위해."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "유엔은 기후 변화에 대처하기 위한 중대한 조치가 취해지지 않으면 2050년까지 전 세계 인구의 75퍼센트가 가뭄의 영향으로 고통받을 수 있다고 예측했다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "source_artifact_bytes": "NOT_CHECKED_BY_THIS_TOOL",
+    "lexical_level_and_exemptions": "REVIEWER_SUPPLIED_NOT_AUTOMATICALLY_VERIFIED",
+    "all_repeated_today_word_occurrences": "REQUIRES_SEMANTIC_REVIEW",
+    "verb_form_declarations": {
+      "form_count": 10,
+      "phrase_count": 0,
+      "status": "DECLARED_LOCATIONS_CHECKED",
+      "scope": "REVIEWER_DECLARED_LOCATIONS_ONLY_NOT_GRAMMAR_OR_MEANING_INFERENCE"
+    },
+    "reading_rule_declarations": "SUPPLIED_CONSTRAINTS_ONLY_NOT_GRAMMAR_INFERENCE",
+    "reading_revision_audit": "DECLARATIONS_REQUIRED",
+    "relative_hint_declarations": {
+      "status": "DECLARED_LOCATIONS_CHECKED",
+      "declared_sentence_count": 9,
+      "undeclared_sentences": [],
+      "scope": "REVIEWER_DECLARED_LOCATIONS_ONLY_NOT_GRAMMAR_INFERENCE"
+    },
+    "syntax_training": {
+      "version": 1,
+      "status": "DECLARED_LINKS_CHECKED",
+      "units": [
+        {
+          "unit_id": "u1",
+          "status": "DECLARED_LINKS_CHECKED",
+          "base_grammar_point_count": 3,
+          "supplemental_count": 2,
+          "formula_occurrence_count": 4,
+          "practice_count": 5,
+          "workbook_links": "CHECKED",
+          "semantic_review": "NOT_PERFORMED"
+        }
+      ],
+      "semantic_review": "NOT_PERFORMED"
+    },
+    "semantic_review": "NOT_PERFORMED",
+    "visual_review": "NOT_PERFORMED"
+  },
+  "assessment": {
+    "status": "PASS",
+    "errors": [],
+    "checked_question_count": 6,
+    "scope": "record correspondence and required fields only",
+    "source_reconstruction": "NOT_CHECKED_BY_THIS_TOOL",
+    "semantic_review": "NOT_PERFORMED",
+    "independent_reviews": "NOT_PERFORMED",
+    "docx_presence": "NOT_CHECKED_BY_THIS_TOOL",
+    "visual_review": "NOT_PERFORMED"
+  },
+  "question_views": {
+    "Q01": {
+      "original": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”\nThe hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.\nConsidering the continuation of climate change, experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades. The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        1043
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09"
+      ],
+      "word_count": 175,
+      "type": "내용",
+      "passage": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”\nThe hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.\nConsidering the continuation of climate change, experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades. The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "내용",
+        "benchmark_ids": [
+          "202603241-Q26",
+          "202606041-Q26",
+          "202609021-Q26"
+        ],
+        "reference_words": [
+          142,
+          118,
+          167
+        ],
+        "assessment_word_count": 175,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 175단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q02": {
+      "original": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”\nThe hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        483
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05"
+      ],
+      "word_count": 84,
+      "type": "내용",
+      "passage": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”\nThe hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "NEEDS_INDEPENDENT_REVIEW",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "내용",
+        "benchmark_ids": [
+          "202603241-Q26",
+          "202606041-Q26",
+          "202609021-Q26"
+        ],
+        "reference_words": [
+          142,
+          118,
+          167
+        ],
+        "assessment_word_count": 84,
+        "shorter_than_all_references": true,
+        "independent_review_required": true,
+        "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 84단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임. 원문 전체가 175단어라, 회차 안 지문 범위를 서로 다르게 하고 어휘 문항 밑줄이 다른 지문에 드러나지 않도록 짧게 발췌함. 4단계 M·N 독립 검수에서 근거가 지문 안에서 해결되어 수용 가능함을 확인.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q03": {
+      "original": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”\nThe hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        569
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06"
+      ],
+      "word_count": 96,
+      "type": "함축 의미",
+      "passage": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”\nThe hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor.",
+      "annotations": [
+        {
+          "kind": "underline",
+          "span": [
+            205,
+            229
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "target": "If you see me, then cry.",
+      "length_comparison": {
+        "status": "NEEDS_INDEPENDENT_REVIEW",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "함축 의미",
+        "benchmark_ids": [
+          "202603241-Q21",
+          "202606041-Q21",
+          "202609021-Q21"
+        ],
+        "reference_words": [
+          154,
+          149,
+          175
+        ],
+        "assessment_word_count": 96,
+        "shorter_than_all_references": true,
+        "independent_review_required": true,
+        "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 96단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임. 원문 전체가 175단어라, 회차 안 지문 범위를 서로 다르게 하고 어휘 문항 밑줄이 다른 지문에 드러나지 않도록 짧게 발췌함. 4단계 M·N 독립 검수에서 근거가 지문 안에서 해결되어 수용 가능함을 확인.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q04": {
+      "original": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”\nThe hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        675
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07"
+      ],
+      "word_count": 116,
+      "type": "요약",
+      "passage": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”\nThe hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "NEEDS_INDEPENDENT_REVIEW",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "요약",
+        "benchmark_ids": [
+          "202603241-Q40",
+          "202606041-Q40",
+          "202609021-Q40"
+        ],
+        "reference_words": [
+          136,
+          166,
+          182
+        ],
+        "assessment_word_count": 116,
+        "shorter_than_all_references": true,
+        "independent_review_required": true,
+        "rationale": "요약 고1 표본 [136, 166, 182]단어와 비교해 현재 116단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임. 원문 전체가 175단어라, 회차 안 지문 범위를 서로 다르게 하고 어휘 문항 밑줄이 다른 지문에 드러나지 않도록 짧게 발췌함. 4단계 M·N 독립 검수에서 근거가 지문 안에서 해결되어 수용 가능함을 확인.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q05": {
+      "original": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”\nThe hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.\nConsidering the continuation of climate change, experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades. The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        1043
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09"
+      ],
+      "word_count": 175,
+      "type": "제목",
+      "passage": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”\nThe hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.\nConsidering the continuation of climate change, experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades. The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "NEEDS_INDEPENDENT_REVIEW",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 175,
+        "shorter_than_all_references": true,
+        "independent_review_required": true,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 175단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임. 공유 장문은 원문 전체(175단어)를 그대로 쓰며 더 늘릴 원문이 없음. 4단계 M·N 독립 검수에서 문항 성립과 근거 자족을 확인.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q06": {
+      "original": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”\nThe hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.\nConsidering the continuation of climate change, experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades. The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        1043
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09"
+      ],
+      "word_count": 175,
+      "type": "어휘",
+      "passage": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”\nThe hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.\nConsidering the continuation of climate change, experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could cease for decades. The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.",
+      "annotations": [
+        {
+          "kind": "numbered_word",
+          "number": 1,
+          "span": [
+            692,
+            704
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 2,
+          "span": [
+            786,
+            796
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 3,
+          "span": [
+            837,
+            842
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 4,
+          "span": [
+            921,
+            927
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 5,
+          "span": [
+            1018,
+            1025
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "replacement": {
+        "start": 837,
+        "end": 842,
+        "original": "persist",
+        "text": "cease"
+      },
+      "answer": 3,
+      "length_comparison": {
+        "status": "NEEDS_INDEPENDENT_REVIEW",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 175,
+        "shorter_than_all_references": true,
+        "independent_review_required": true,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 175단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임. 공유 장문은 원문 전체(175단어)를 그대로 쓰며 더 늘릴 원문이 없음. 4단계 M·N 독립 검수에서 문항 성립과 근거 자족을 확인.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    }
+  },
+  "checked_question_count": 6,
+  "passage_group_views": {
+    "long-mock1": {
+      "original": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”\nThe hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.\nConsidering the continuation of climate change, experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades. The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        1043
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09"
+      ],
+      "word_count": 175,
+      "type": "어휘",
+      "passage": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”\nThe hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.\nConsidering the continuation of climate change, experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could cease for decades. The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.",
+      "annotations": [
+        {
+          "kind": "numbered_word",
+          "number": 1,
+          "span": [
+            692,
+            704
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 2,
+          "span": [
+            786,
+            796
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 3,
+          "span": [
+            837,
+            842
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 4,
+          "span": [
+            921,
+            927
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 5,
+          "span": [
+            1018,
+            1025
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": true,
+      "replacement": {
+        "start": 837,
+        "end": 842,
+        "original": "persist",
+        "text": "cease"
+      },
+      "answer": 3,
+      "length_comparison": {
+        "status": "NEEDS_INDEPENDENT_REVIEW",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 175,
+        "shorter_than_all_references": true,
+        "independent_review_required": true,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 175단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임. 공유 장문은 원문 전체(175단어)를 그대로 쓰며 더 늘릴 원문이 없음. 4단계 M·N 독립 검수에서 문항 성립과 근거 자족을 확인.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      },
+      "question_ids": [
+        "Q05",
+        "Q06"
+      ],
+      "group_id": "long-mock1"
+    }
+  },
+  "independent_length_review_required": [
+    "Q02",
+    "Q03",
+    "Q04",
+    "Q05",
+    "Q06"
+  ],
+  "semantic_review": "NOT_PERFORMED",
+  "independent_reviews": "NOT_PERFORMED",
+  "docx_presence": "NOT_CHECKED_BY_THIS_TOOL",
+  "visual_review": "NOT_PERFORMED",
+  "input_sha256": "85ca8a6e23f2cffd7a1dfa9a99f768e6ed3d24137de2b58193f8102e4106ad31"
+}
