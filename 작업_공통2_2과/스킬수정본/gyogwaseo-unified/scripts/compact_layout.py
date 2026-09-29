@@ -83,7 +83,13 @@ def apply_compact_adjustments(data, blocks, contract, current_content_hash=None)
         seen.add(bid)
         if request.get('content_sha256') != revision:
             raise ValueError('Compact decision belongs to a different manuscript revision')
-        if (request.get('renderer') != 'Microsoft Word'
+        renderer = request.get('renderer')
+        # Local copy only (공통영어2 YBM(박준언) 2과, 2026-09-28): the user explicitly
+        # approved a LibreOffice-observed overflow when Word is unavailable. The
+        # exception must name that approval; any other renderer still fails.
+        libre_exception = (renderer == 'LibreOffice'
+                           and _nonempty(request.get('renderer_exception_approval')))
+        if ((renderer != 'Microsoft Word' and not libre_exception)
                 or type(request.get('observed_page')) is not int
                 or request['observed_page'] <= 0):
             raise ValueError('Compact adjustment needs an actual positive Word page observation')

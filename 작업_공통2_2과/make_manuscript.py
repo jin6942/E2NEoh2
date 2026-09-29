@@ -135,6 +135,22 @@ def main(scope='learning'):
         import assessment_data
         assessment_data.attach(data)
         data['set_labels'] = {f'mock{n}': f'미니 모의고사 {n}회' for n in (1, 2, 3)}
+        # 2026-09-28 사용자 결정 “간격 줄이기 조판 쓰기 — LibreOffice 기준으로 적용”:
+        # Word가 없는 환경이라 LibreOffice 예비 렌더(66쪽)에서 넘친 두 분석 설명부에만
+        # 첫 단계 spacing 프로필을 적용한다(글자 크기 유지).
+        sys.path.insert(0, str(SKILL / 'scripts'))
+        from book_plan import content_hash
+        rev = content_hash(data)
+        evidence = '432edb359b4de74bf77fa8059fd8ffcc2cf8e37949e79a0cac2422744658f9ff'
+        approval = '2026-09-28 사용자 결정: 간격 줄이기 조판 적용(LibreOffice 기준으로 적용)'
+        data['layout_adjustments'] = [
+            {'kind': 'compact_block', 'block_id': uid, 'profile': 'spacing', 'content_sha256': rev,
+             'renderer': 'LibreOffice', 'renderer_exception_approval': approval,
+             'observed_page': page, 'evidence_pdf_sha256': evidence, 'reason': reason,
+             'approval_reference': approval}
+            for uid, page, reason in [
+                ('u1/analysis', 9, '문단 1 분석 설명부의 필수 유의어/반의어 마지막 1줄(essentials)만 9쪽으로 넘어가 9쪽이 거의 빈 쪽(J-W01)'),
+                ('u3/analysis', 27, '문단 3 분석 설명부의 필수 유의어/반의어 제목과 3줄이 27쪽으로 넘어가 27쪽 대부분이 빈 쪽(J-W02)')]]
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding='utf-8')
     return data
 

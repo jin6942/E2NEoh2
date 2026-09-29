@@ -26472,5 +26472,31 @@
   "mock1": "미니 모의고사 1회",
   "mock2": "미니 모의고사 2회",
   "mock3": "미니 모의고사 3회"
- }
+ },
+ "layout_adjustments": [
+  {
+   "kind": "compact_block",
+   "block_id": "u1/analysis",
+   "profile": "spacing",
+   "content_sha256": "467d51247effe1f32aaf25b10ba00fbf589e414ff3740d4769cbdbd0a3f29384",
+   "renderer": "LibreOffice",
+   "renderer_exception_approval": "2026-09-28 사용자 결정: 간격 줄이기 조판 적용(LibreOffice 기준으로 적용)",
+   "observed_page": 9,
+   "evidence_pdf_sha256": "432edb359b4de74bf77fa8059fd8ffcc2cf8e37949e79a0cac2422744658f9ff",
+   "reason": "문단 1 분석 설명부의 필수 유의어/반의어 마지막 1줄(essentials)만 9쪽으로 넘어가 9쪽이 거의 빈 쪽(J-W01)",
+   "approval_reference": "2026-09-28 사용자 결정: 간격 줄이기 조판 적용(LibreOffice 기준으로 적용)"
+  },
+  {
+   "kind": "compact_block",
+   "block_id": "u3/analysis",
+   "profile": "spacing",
+   "content_sha256": "467d51247effe1f32aaf25b10ba00fbf589e414ff3740d4769cbdbd0a3f29384",
+   "renderer": "LibreOffice",
+   "renderer_exception_approval": "2026-09-28 사용자 결정: 간격 줄이기 조판 적용(LibreOffice 기준으로 적용)",
+   "observed_page": 27,
+   "evidence_pdf_sha256": "432edb359b4de74bf77fa8059fd8ffcc2cf8e37949e79a0cac2422744658f9ff",
+   "reason": "문단 3 분석 설명부의 필수 유의어/반의어 제목과 3줄이 27쪽으로 넘어가 27쪽 대부분이 빈 쪽(J-W02)",
+   "approval_reference": "2026-09-28 사용자 결정: 간격 줄이기 조판 적용(LibreOffice 기준으로 적용)"
+  }
+ ]
 }

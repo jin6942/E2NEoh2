@@ -155,6 +155,22 @@ class CompactLayoutTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     apply_compact_adjustments(data, blocks, contract)
 
+    def test_libreoffice_observation_needs_explicit_renderer_exception_approval(self):
+        # Local copy only: 공통영어2 YBM(박준언) 2과 user approval (2026-09-28).
+        for approval in ('', '  ', None):
+            with self.subTest(approval=approval):
+                data, blocks, contract = fixture()
+                data['layout_adjustments'] = [request(data, renderer='LibreOffice',
+                                                      renderer_exception_approval=approval)]
+                with self.assertRaises(ValueError):
+                    apply_compact_adjustments(data, blocks, contract)
+        data, blocks, contract = fixture()
+        data['layout_adjustments'] = [request(data, renderer='LibreOffice',
+                                              renderer_exception_approval='사용자 승인 2026-09-28')]
+        apply_compact_adjustments(data, blocks, contract)
+        self.assertTrue(any(e.get('role', '').endswith('_spacing')
+                            for b in blocks for e in b.get('elements', [])))
+
     def test_unknown_unapproved_missing_and_invalid_profiles_are_rejected(self):
         for profile in [None, '', 'aggressive', 'spacing']:
             with self.subTest(profile=profile):
