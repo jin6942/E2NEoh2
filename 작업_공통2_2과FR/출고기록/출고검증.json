@@ -1,60 +1,11 @@
 {
-  "status": "FAIL",
+  "status": "REVIEW_PENDING",
   "scope": "full",
-  "errors": [
-    {
-      "code": "REVIEW_SCOPE",
-      "detail": "UNIT02FR-Q-M-2026-09-29: full source/unit/question coverage must match the current request"
-    },
-    {
-      "code": "REVIEW_SCOPE",
-      "detail": "UNIT02FR-Q-N-2026-09-29: full source/unit/question coverage must match the current request"
-    }
-  ],
+  "errors": [],
   "pending": [
     {
       "code": "MISSING_ARTIFACT",
       "detail": "report/word_render"
-    },
-    {
-      "code": "LENGTH_REVIEW_PENDING",
-      "detail": "UNIT02FR-Q-M-2026-09-29/Q02"
-    },
-    {
-      "code": "LENGTH_REVIEW_PENDING",
-      "detail": "UNIT02FR-Q-M-2026-09-29/Q03"
-    },
-    {
-      "code": "LENGTH_REVIEW_PENDING",
-      "detail": "UNIT02FR-Q-M-2026-09-29/Q04"
-    },
-    {
-      "code": "LENGTH_REVIEW_PENDING",
-      "detail": "UNIT02FR-Q-M-2026-09-29/Q05"
-    },
-    {
-      "code": "LENGTH_REVIEW_PENDING",
-      "detail": "UNIT02FR-Q-M-2026-09-29/Q06"
-    },
-    {
-      "code": "LENGTH_REVIEW_PENDING",
-      "detail": "UNIT02FR-Q-N-2026-09-29/Q02"
-    },
-    {
-      "code": "LENGTH_REVIEW_PENDING",
-      "detail": "UNIT02FR-Q-N-2026-09-29/Q03"
-    },
-    {
-      "code": "LENGTH_REVIEW_PENDING",
-      "detail": "UNIT02FR-Q-N-2026-09-29/Q04"
-    },
-    {
-      "code": "LENGTH_REVIEW_PENDING",
-      "detail": "UNIT02FR-Q-N-2026-09-29/Q05"
-    },
-    {
-      "code": "LENGTH_REVIEW_PENDING",
-      "detail": "UNIT02FR-Q-N-2026-09-29/Q06"
     },
     {
       "code": "MISSING_REVIEW",
@@ -94,8 +45,8 @@
     "report/saved_docx": "e79a01ee992b45ec2104e66cb4859809c83d92421bb9f6a20ca497aa6452a61f",
     "review/review_S.json": "91a757a36fb44e4729915783168c2667dddef77b69937fddc378bf8deb819f69",
     "review/review_L.json": "c04fd27c14f79a436508527360cfe2276e0f3388873e31610eb0b20655933670",
-    "review/review_M.json": "44313b48ef44bfaf968814b22b5271ce3877fda6df1227d054f9b77018272add",
-    "review/review_N.json": "91943cc2ed12345fd886479d7ed95bd13eb021cf5dd7bb245d2bab0f814d5efb"
+    "review/review_M.json": "003eeaaff5a8f85901ce5c4e89b20b726f2763d1a1c9d9a728311cd6977e12bb",
+    "review/review_N.json": "993314a57ff8f574ee28e8445957eb00a7b766dab38e0c65f8dc46a92972a799"
   },
   "package_sha256": "496abd06f38e67ff1cdf2b07abc5ac2eb1638a00e1e54b32222b9cdc83f81cee",
   "bindings": {
@@ -286,5 +237,5 @@
     "READY_FOR_RELEASE validates supplied execution evidence and current files; it does not create a FINAL or perform a review.",
     "Unrecorded user messages cannot be detected; NOT_RECORDED never means user visual approval."
   ],
-  "record_sha256": "d5e3baf010121b626404885182f1e46f4d21a6b9b93378d9129b486837332f61"
+  "record_sha256": "a7d66f9d6cf4b8d09151899e6f553cebc7d2755616b9569d8217397bc38cc5e8"
 }
