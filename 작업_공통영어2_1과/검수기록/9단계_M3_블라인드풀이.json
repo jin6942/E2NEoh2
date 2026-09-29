@@ -1,0 +1,26 @@
+{
+  "reviewer_id": "M3",
+  "role": "M",
+  "solved_before_answer_key": true,
+  "input_file": "/home/user/E2NEoh2/작업_공통영어2_1과/검수입력/문제_블라인드_페이블반영.json",
+  "input_sha256": "4e4ee226ab1d615bf4bb0aafdc3156d51729cfd10cf6e78c4c35d4f207aa7579",
+  "answers": {"Q05": 3, "Q13": 2, "Q15": 4},
+  "rationales": {
+    "Q05": "가짜 뉴스는 사람들을 조종하려는 '의도적 시도(deliberate attempt)'이며 사회를 혼란시키고 심각한 해를 끼칠 수 있고, 특히 비상 상황에서 흔히 퍼진다(Ambon 지진 사례)는 것이 글의 핵심이므로 ③. ①은 'deliberate'와 정면 충돌(첫 문장의 accidental distributor를 과장), ②·⑤는 본문과 반대, ④는 본문과 일치하는 세부 사례일 뿐 요지가 아님.",
+    "Q13": "글은 도발적 제목 너머까지 읽기, 액면 그대로 받아들이지 않기, 자신의 편견 점검하기, 출처 신뢰성 확인하기라는 네 가지 방법으로 가짜 뉴스에 속지 않는 법을 안내하므로 ② 'Read Smart: How Not to Be Fooled by Fake News'. ⑤는 네 가지 중 하나(편견 점검)만을 'The One Rule'로 제시해 부분만 맞는 매력적 오답, ①·③·④는 본문과 반대.",
+    "Q15": "본문은 뉴스를 비판적으로(critical thinking, view information critically and objectively) 판단하고 출처의 신뢰성(credibility of the source, reliable media source)을 확인하라고 하므로 (A) critically, (B) trustworthy인 ④. ①(A만 맞음)·②(A의 objectively는 본문 근거 있으나 B familiar 오류)·③⑤(B만 맞음)는 모두 한쪽 빈칸만 맞는 반정답."
+  },
+  "confidence": {"Q05": 0.95, "Q13": 0.97, "Q15": 0.97},
+  "checks": {
+    "Q05": {"unique_answer": true, "true_distractor": "④는 본문 내용과 사실상 일치하는 세부 정보(요지 아님) — 요지 유형에서 통상 허용되는 '세부 사항 오답'이나 해설에서 '사실이지만 요지가 아닌 세부 사례'임을 명시해야 함", "guessable_without_passage": "약한 위험: ③이 가장 길고 fake news/on purpose/harm/emergencies 등 핵심어를 모두 담아 길이·포괄성으로 추측 가능. ②·⑤는 상식만으로 배제 가능. 치명적이지는 않음", "english_natural": true, "cross_question_clue_in_mock1": "없음 (Q06 Gina, Q07 식별 요령, Q08·Q09 확산 속도 지문 — 모두 다른 지문, ③의 핵심 정보 노출 없음)"},
+    "Q13": {"unique_answer": true, "true_distractor": "없음. ⑤는 부분만 맞으나 'The One Rule'이 네 가지 방법 제시와 모순되어 오답 확정", "guessable_without_passage": "낮음. 다만 ①③④가 상식상 부정적 진술이라 소거가 쉬움 — ②와 ⑤ 사이 판단은 본문 필요", "english_natural": true, "cross_question_clue_in_mock2": "없음. Q14는 같은 지문 어휘 문제(④ support↔oppose 변형이 Q13 지문에도 그대로 노출되나 Q13 정답 판단에 영향 없음). Q10·Q11·Q12는 다른 지문"},
+    "Q15": {"unique_answer": true, "true_distractor": "없음. ②의 objectively는 본문(critically and objectively) 근거가 있으나 B familiar가 틀려 오답 확정", "half_right_design": "①(A○B×), ②(A○B×), ③(A×B○), ⑤(A×B○) — 모든 오답이 반정답으로 두 빈칸 모두 확인 필요. 설계 기준 충족", "guessable_without_passage": "약한 위험: critically 2회(①④), trustworthy 3회(③④⑤)로 빈도 교집합이 ④ — 선택지 빈도만으로 추측 가능한 전형적 패턴", "english_natural": true, "cross_question_clue_in_mock3": "사실상 없음. Q16 지문의 'instead of critically examining it'에 critically가 나오나 Q15 본문 자체에도 critical/critically가 있어 외부 단서로 보기 어려움. Q17(Ambon), Q18·Q19(Gina)는 무관"}
+  },
+  "concerns": [
+    "Q05 ④는 본문과 일치하는 세부 사실이므로 해설의 오답 이유는 '사실이 아니다'가 아니라 '본문 속 예시(세부 사항)일 뿐 요지가 아니다'로 써야 함.",
+    "Q05 정답 ③이 선택지 중 가장 길고 핵심어를 망라해 길이·포괄성 단서가 약하게 존재(검토제안 수준).",
+    "Q15 선택지 단어 빈도(critically ×2, trustworthy ×3)의 교집합이 정답 ④ — 반정답 설계의 구조적 부산물로 약한 추측 단서(검토제안 수준). 필요시 ⑤의 B를 trustworthy 대신 동의어(reliable)로 바꾸면 빈도 단서가 약해짐.",
+    "Q13 지문(long-mock2)은 Q14 어휘 변형(④ support)이 들어간 상태로 제시됨 — 장문 세트의 일반적 구조이며 Q13 정답에는 영향 없음.",
+    "입력 패킷 내부 input_digest.file_sha256(36c004d9…)은 실제 파일 바이트의 sha256(4e4ee226…)과 다름 — 패킷에 digest를 삽입하기 전 해시로 보이며, 본 기록은 실제 파일 해시를 기재함."
+  ]
+}
