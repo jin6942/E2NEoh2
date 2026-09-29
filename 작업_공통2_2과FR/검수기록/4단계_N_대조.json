@@ -1,0 +1,97 @@
+{
+  "reviewer": "N",
+  "blind_record_saved_before_compare": "/home/user/E2NEoh2/작업_공통2_2과FR/검수기록/4단계_N_재풀이답.json",
+  "inputs_read": [
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검수입력/문제_blind_재풀이.json",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검수입력/문제_compare.json",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/assessment-content.md"
+  ],
+  "key_match": {"Q01": true, "Q02": true, "Q03": true, "Q04": true, "Q05": true, "Q06": true},
+  "checks_performed": [
+    "정답 6개: N 블라인드 답(4,5,4,2,1,3)과 quick_key·explanations.answer 모두 일치",
+    "선지: compare의 choices 원문이 학생용 선지와 문자 단위로 일치(Q01~Q05), Q06은 본문 번호형",
+    "근거 인용: Q01~Q05 evidence 전부 해당 문항 passage·학생용 지문에 그대로 존재. Q06만 복원형(persist) 인용 — 아래 N-02",
+    "지문 복원: Q02=s01~s05, Q03=s01~s06, Q04=s01~s07, Q05·Q06=s01~s09 연속 범위. Q06 passage는 cease 1곳만 교체, Q05 passage는 원형(persist) 보존 — 규칙 81 충족",
+    "함축 발문 밑줄: prompt_underlines [6,30] = 'If you see me, then cry.' (TARGET과 일치), 학생용 번호 접두 포함 [10,34]와 대응",
+    "어휘 오류 표현(cease)이 Q05 제목 정답 근거를 훼손하지 않음 — 'severe drought', UN 2050 전망 문장으로 'Drier Future' 근거 유지(규칙 82)",
+    "wrong_reasons: 5지선다 전 문항 정답 외 4개 모두 기재(규칙 149)",
+    "choices_ko: Q01~Q05 다섯 선지 모두 해석 제공, Q04는 빈칸 쌍 전체 보존(규칙 150). Q06은 본문 번호형이라 빈 배열 정상",
+    "영어 선지·요약문 문법: 오류 없음(요약문 'which can be seen only when droughts lower the water in rivers', 'alert people to the hardships' 정상)",
+    "length_reviews: Q02~Q06 NEEDS_INDEPENDENT_REVIEW 표시 — 아래 N-06에서 독립 판단 기록"
+  ],
+  "findings": [
+    {
+      "id": "N-01",
+      "question_id": "Q05",
+      "field": "근거",
+      "current": "evidence: \"The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.\" (2문단 한 문장만)",
+      "problem": "정답 ①의 'for a Drier Future'는 3문단(기후 변화로 장기화될 가뭄, UN 2050 전망)에 근거하는데 evidence에 3문단 표현이 없음. 제목은 글 전체를 포괄해야 하므로(규칙 113) 근거도 앞뒤 두 축을 모두 보여 주는 편이 학생에게 명확함. 해설 본문은 3문단 내용을 이미 언급하고 있어 오류는 아님.",
+      "proposed_fix": "evidence에 3문단 문장 추가: \"… / The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.\" (공유 지문에서 교체어 cease가 든 문장 대신 UN 문장을 쓰면 어휘 문항과 충돌 없음)",
+      "severity": "suggestion"
+    },
+    {
+      "id": "N-02",
+      "question_id": "Q06",
+      "field": "근거",
+      "current": "evidence: \"experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades.\"",
+      "problem": "학생이 보는 지문은 '… could ③ cease for decades'인데 근거가 복원형(persist)을 인용해 실제 제시문에 없는 문장이 됨. 해설에서 persist가 원래 낱말임을 설명하므로 의미상 오류는 아니나, 학생이 지문에서 이 문장을 찾으면 불일치로 보일 수 있음.",
+      "proposed_fix": "제시문 기준으로 인용하고 복원 낱말을 병기: \"not just a simple, occasional drought but a severe drought that could ③ cease for decades (→ persist)\" 또는 근거 앞에 '원래 문장:'을 명시.",
+      "severity": "suggestion"
+    },
+    {
+      "id": "N-03",
+      "question_id": "Q01",
+      "field": "오답 이유",
+      "current": "⑤: \"2050년까지 세계 인구의 75퍼센트가 가뭄의 영향으로 고통받을 수 있다고 했고, 상당한 조치가 취해지지 않는다면(unless significant action is taken)이라는 조건과도 일치한다.\"",
+      "problem": "선지 ⑤는 'most people in the world'로 환언했는데 오답 이유가 75 percent ↔ most의 대응을 설명하지 않음. 학생이 '75%를 most로 볼 수 있나'에서 가장 많이 멈칫하는 지점.",
+      "proposed_fix": "\"세계 인구의 75퍼센트는 세계 사람들의 대부분(most people in the world)에 해당하고, …조건과도 일치한다.\"로 보완.",
+      "severity": "suggestion"
+    },
+    {
+      "id": "N-04",
+      "question_id": "Q04",
+      "field": "오답 이유",
+      "current": "④: \"돌이 마르는지는 요점이 아니고, 돌의 글은 사람들을 위로하는 것이 아니라 대비하라고 촉구한다.\"",
+      "problem": "(A) dry는 '수위가 낮아질 때만 마른 상태가 된다'로 단독으로는 사실상 성립할 여지가 있어 '요점이 아니다'만으로는 배제 근거가 모호함. 실제 배제 결정 근거는 (B) comfort이므로 이를 앞세우는 편이 정확함.",
+      "proposed_fix": "\"(B) comfort가 틀렸다. 돌의 글은 사람들을 위로하는 것이 아니라 고난을 경고하고 대비하라고 촉구한다. 또한 (A)의 요점은 돌이 마르는 것이 아니라 '보이게 된다(become visible)'는 점이다.\"",
+      "severity": "suggestion"
+    },
+    {
+      "id": "N-05",
+      "question_id": "Q04",
+      "field": "선지 영어",
+      "current": "(B) 오답 blame / comfort / reward + 'people to the hardships'",
+      "problem": "'blame people to ~', 'reward people to ~', 'comfort people to ~'는 'to the hardships'와 결합이 비문 또는 매우 부자연스러워 의미가 아니라 어법만으로 소거 가능. 빈칸은 의미·논리로 배제되도록 하라는 규칙 174 취지상 변별력이 약함. 정답 유일성에는 영향 없음.",
+      "proposed_fix": "(B) 오답 중 1~2개를 'A to B' 구조와 어법상 결합 가능하되 의미가 틀린 동사로 교체 검토(예: attract, draw 등). 교체 시 대입해 단일 정답 재확인 필요.",
+      "severity": "suggestion"
+    },
+    {
+      "id": "N-06",
+      "question_id": "Q02",
+      "field": "세트",
+      "current": "length_comparison: Q02 84(표본 118~167), Q03 96(149~175), Q04 116(136~182), 장문 175(212~216) — 모두 NEEDS_INDEPENDENT_REVIEW",
+      "problem": "독립 판단: 모두 동학년·동유형 표본보다 짧고 특히 Q02(84)는 최소 표본의 약 71%. 그러나 (1) 권위 원문 전체가 175단어라 장문은 전문 사용으로 더 늘릴 수 없고, (2) Q02~Q04를 3문단까지 늘리면 Q06의 원형 persist 등 어휘 표적이 다시 노출되는 상충이 있으며, (3) 각 범위 안에서 정답·네 오답 근거가 자족적이고 정보 전개(발견→특징→의미→영향)가 성립함. 교과서 단일 단문 지문의 한계로 수용 가능하다고 판단. 오류로 보지 않음.",
+      "proposed_fix": "수정 불요. length_review rationale에 '원문 전체 175단어·어휘 문항 누출 방지를 위한 범위 선택, 독립 검수 N 수용' 취지를 기록해 두는 것만 권장.",
+      "severity": "suggestion"
+    },
+    {
+      "id": "N-07",
+      "question_id": "Q05",
+      "field": "선지 해석",
+      "current": "① \"기아석: 더 건조한 미래를 위한 옛 경고\"",
+      "problem": "'for a Drier Future'를 '~을 위한'으로 옮기면 미래에 도움을 주려는 목적처럼 읽혀 해설('옛 경고가 더 건조해질 미래에도 의미가 있다')과 뉘앙스가 약간 어긋남. 오역은 아님.",
+      "proposed_fix": "\"기아석: 더 건조해질 미래에 보내는 옛 경고\" 또는 \"더 건조해질 미래에 대한 옛 경고\".",
+      "severity": "suggestion"
+    }
+  ],
+  "rechecked_ok": {
+    "Q01": "정답·근거·해설·선지 해석 정확. learned_relation_uses(invisible/noticeable/important/cease/significant) 선지 위치 대응 확인.",
+    "Q02": "정답·근거·해설·오답 이유 4개·해석 모두 정확, 학생 이해 가능.",
+    "Q03": "근거 두 문장 모두 Q03 지문 안에 있음(수정으로 끝 문장 삭제 후에도 자족). 해설·오답 이유·해석 정확.",
+    "Q04": "정답·근거·해설 정확. choices_ko 빈칸 쌍 전체 보존.",
+    "Q05": "정답·해설·오답 이유 정확. 어휘 교체(cease)가 제목 근거를 훼손하지 않음.",
+    "Q06": "정답·해설(not just A but B 구조) 정확, 오답 이유 4개 적절."
+  },
+  "verdict": "PASS",
+  "verdict_note": "정답 6개 전부 일치, error 0건, suggestion 7건. 복수 정답·근거 충돌 없음. suggestion은 반영 여부를 제작자 판단에 맡기되 N-01·N-02·N-03은 학생 이해를 위해 반영 권장."
+}
