@@ -1,0 +1,19 @@
+{
+  "reviewer_id": "M2",
+  "role": "M",
+  "input_sha256": {
+    "작업_공통영어2_1과FR/공통영어2_YBM(박준언)_1과FurtherReading_문제_QC_HANDOFF.txt": "e3359ae619111064166acc5b687f8056cb9709b98738d2bf671fe0f6d2b873d9",
+    "작업_공통영어2_1과FR/공통영어2_YBM(박)_1과FurtherReading_원고.json": "1efb8f579cc8085ec4243fde7d252457a3bdd03320d36cd03b08dc636c391492"
+  },
+  "method": "git diff 16b79d1(M2 대조 기록 커밋) → 59f2716(HEAD)로 두 파일 변경을 전수 확인. 작업 트리는 HEAD와 동일.",
+  "dispositions": [
+    {"id": "M2-01", "result": "반영확인", "note": "문제 핸드오프 176행과 원고 explanations[Q03].explanation 모두 '이는 바로 앞 문장에서 받은 정보를 확인하고 새로운 생각을 논의할 때 열린 마음을 유지하라고 한 이유가 된다.'로 수정됨. 핸드오프의 변경은 이 1행뿐."},
+    {"id": "M2-03", "result": "반영확인", "note": "원고 Q01 learned_relation_uses u1-r2s reason_ko가 '…에코 챔버가 조장하는 것은 협력이 아니라 사회적 분열임을 판단해야 함'으로 수정됨. term_id·choice_number 5·choice_span [20,29]·surface 'encourage'는 변동 없음."},
+    {"id": "M2-02", "result": "유지타당", "note": "선택적 검토제안이므로 유지에 동의."},
+    {"id": "scope.instruction 사용자 결정 기록", "result": "반영확인", "note": "assessment.scope.instruction에 'Q03·Q04 같은 지문(s05~s09) 각각 싣기 유지'와 'Q04 요약 선택지 낱말별 빈도 2·2·1 수능형 분포(빈도 단서 방지)' 두 결정이 추가됨. 기존 문구는 그대로."}
+  ],
+  "unchanged_check": "정답(ANSWER·quick_key Q01=2, Q02=3, Q03=1, Q04=4), 선택지·CHOICES_KR, 지문, 요약문, TARGET·prompt_underlines [[5,43]], 오답 이유, EVIDENCE 모두 변동 없음. 원고 JSON의 변경은 scope.instruction, u1-r2s reason_ko, Q03 explanation 3곳뿐.",
+  "new_findings": [],
+  "status": "PASS",
+  "answers": {"Q01": 2, "Q02": 3, "Q03": 1, "Q04": 4}
+}
