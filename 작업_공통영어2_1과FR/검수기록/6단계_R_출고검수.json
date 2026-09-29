@@ -1,0 +1,193 @@
+{
+ "reviewer_id": "R",
+ "role": "R",
+ "kind": "release",
+ "independent": true,
+ "performed_at": "2026-09-29",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1"
+  ],
+  "question_ids": [
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04"
+  ],
+  "volumes": [
+   "전체통합본",
+   "01_해석지",
+   "02_지문분석지",
+   "03_워크북+변형문제",
+   "04_실전모의",
+   "05_정답해설지"
+  ]
+ },
+ "inputs": {
+  "docx_sha256": "8b76dc77cb1a6d56e0acb7857b9345dbb9b2b79eaba068ec298ff72313cafe82",
+  "pdf_sha256": "3f0281f202618674f983b0b40d46d971df303f5ab786550d444c2fa1a198cd7a",
+  "learning_final_sha256": "cb7a17e50fee80f6ced6809c1b31b26c28fac65ff279d0d8d7fc93eb8304bc72",
+  "assessment_final_sha256": "e3359ae619111064166acc5b687f8056cb9709b98738d2bf671fe0f6d2b873d9",
+  "zip_sha256": "9d3cc15665236460be9800932f6629fa0d06295b545b191878f2091d09143c6d",
+  "manuscript_sha256": "1efb8f579cc8085ec4243fde7d252457a3bdd03320d36cd03b08dc636c391492",
+  "plan_sha256": "e86a5e6ff22212b51b74de3035bbd4f8792ebebb60152ea15fe9d6c8eeb05661",
+  "manifest_sha256": "b3fbee2b909b74290cbc43ce4fc5d32a838e6bdb077d4b78140d3581f483c2de",
+  "source_pdf_sha256": "a84f5471130f0f0420964122864df806b5719309fde01bc6090837c6c6174043",
+  "content_digests": {
+   "source_content_sha256": "232804d7d3041cc1fde5aa664b69333d0d146403c65423f9035207a75acfaa28",
+   "learning_content_sha256": "633a2e4c7cb8822ba88392e6065bdd10dfb9cc0a4239f67f7069ad6220834555",
+   "assessment_content_sha256": "6076d57c37348c0a875ed85f5bd45f8a5c030e6063ae76402fd20203d2d05773"
+  },
+  "skill_package_sha256": "e0b7b4fa705941684a2cb746b809463bb0adb59a83032f6267306f07f1a0d853",
+  "split_docx_sha256": {
+   "01_해석지": "bb4d25994913242dae642c652cdc533f435db4210b785f716cf46102d117e2f9",
+   "02_지문분석지": "afda022b4ff6efd9579b5bc22b512af24a2b2dabf5deea540b1ddd964c20d213",
+   "03_워크북+변형문제": "13f42b5587e65f0a7d01be7d7e7625a1180d4e31ad1de34978fba4469c90ca71",
+   "04_실전모의": "d5b168ef34b12237aa5d691d15f02ab4789eddb90a8ac13d2c15f3b60565a973",
+   "05_정답해설지": "fc9febf735f54f54a948332fc80fb8109f55193d8d73aff6fe3263e3e4f8acec"
+  },
+  "split_pdf_sha256": {
+   "01_해석지": "590a664ef94650fa1562a7c97986d7fd3b29d0a441c504a1b41547289457200d",
+   "02_지문분석지": "570e3a2529a59ae78a992b7d64927dff6e62e7da2b05697be5453d150dcef1da",
+   "03_워크북+변형문제": "5c2f29fa8ce6029fcc72ceff469d464bc199146f4d9dab85de234534294b949a",
+   "04_실전모의": "be0dd654aaebb4e04cc257f41429cf5a27d6f2cdd515d12691ff97fb29df0d38",
+   "05_정답해설지": "57e6a002b4e8009f1674e8904fe89994ad59037f31bf9f1babb77f8955820bdb"
+  }
+ },
+ "method": "R은 제작자와 별도로 실제 파일을 직접 열어 확인했다. (1) sha256sum으로 DOCX 6개·ZIP·manifest·FINAL 2개·원고·계획·렌더 PDF(통합 1, 분권 5)·원문 PDF의 해시를 새로 계산했다. (2) zipfile/ElementTree로 DOCX 6개의 document.xml·footer 문단을 추출했다. 통합본 body에서 마지막 sectPr를 뺀 XML이 01~05권 body를 이은 것과 문자 단위로 같은지(285,788자) 보았고, document.xml 외 모든 부품이 바이트 동일한지와 sectPr 동일성도 확인했다. (3) ZIP을 열어 엔트리 이름·개수·바이트 해시를 출고 폴더 파일과 대조했고 testzip도 돌렸다. (4) 원문 PDF 4쪽을 pdftotext -layout으로 추출하고 왼쪽 단만 이어 원고 sources[0].text(1,073자, 172단어, 9문장)와 문자열이 같은지 확인했다. 해석지·분석지의 9문장과 Q01~Q04 지문·블록이 원문 부분 문자열인지도 확인했다. (5) 학습·문제 FINAL의 내용 행이 통합본 텍스트에 모두 있는지 정규화 부분 문자열로 대조했다. 누락 30행은 모두 메타 표기이거나 표시 형식만 다른 행(도움말 콜론, 흐름 범위 표기, 유반 ≈/↔ 표기)이었다. (6) 빠른 정답·해설 정답·원고 quick_key·블라인드 풀이(M/N 1차 Q01·Q02, M2/N2 2차 Q03·Q04)를 서로 대조했다. (7) 04권 XML에서 밑줄 run을 추출했다. (8) img_all p-01~p-14 가운데 p1·2·4·5·6·7·8·9·10·11·12·14를 육안으로 보았다. (9) 검수기록 각 파일의 status와 해시를 현재 해시, git 이력(546344e→5be4f7a), 스킬 verify_release.content_digests에 비추어 봤다. (10) 1과 본문 통합본·영어2 2과 FR 통합본의 텍스트와 비교해 다른 책의 잔재와 공통 템플릿 문구를 구분했다.",
+ "checks": [
+  {
+   "item": "1. 교재 정체성(표지·머리/바닥글·다른 책 잔재)",
+   "status": "PASS",
+   "evidence": "표지(p1): '공통영어2' / 'YBM(박준언) · 1과 (Further Reading)' / 'Breaking Out of the Echo Chamber · 에코 챔버에서 벗어나기' / '1개 문단 / 본문 9문장 / 전체 4문항' / '워크북 실전문제 1문항 + 미니 모의고사 3문항×1회' / '04 미니 모의고사 — 1회로 학습 마무리하기'. 교사 결정 '표지 1과 (Further Reading)'과 일치한다. 이 템플릿에는 머리글 부품이 없다. 바닥글(footer1.xml)은 로고·쪽번호·'ⓒ TOM’S EDU · blog.naver.com/jin6942'뿐이며 1과 본문판·영어2 FR판과 같은 공통 형식이다. 영역 표제는 '공통영어2 YBM(박준언) · 1과 혼공해석지 / 문단 1 · Further Reading · 문장 1~9 / Breaking Out of the Echo Chamber (에코 챔버에서 벗어나기)', '1과 · 문단 1 워크북 + 영문 제목', '1과 미니 모의고사 1회 / Breaking Out of the Echo Chamber · 3문항'이다. DOCX 모든 XML 부품에서 Fake/Gina/Happiness/2과/'영어2 YBM' 단독 표기를 검색해 0건이었다('공통영어2 YBM'만 있음). '시작하기 전에 꼭'의 예문 In flexible-time cultures…/When we bought the bookshelves…는 스킬 assets/layout-contract.json의 고정 문구이며 1과 본문판·영어2 FR판에도 똑같이 있어 잔재가 아니다. 다만 02·05권 표제는 '1과'만 보여 준다(R-01 검토제안)."
+  },
+  {
+   "item": "2a. 본문 9문장·원문 일치",
+   "status": "PASS",
+   "evidence": "원문 PDF 4쪽 왼쪽 단 추출문이 원고 sources[0].text와 완전히 같다(1,073자, 172단어, 9문장, 곧은 따옴표 0). 해석지 1~9번과 분석지 1~9번의 영문은 끊어읽기 기호와 청크 번호를 빼면 각 문장과 같다. 문장마다 해석지와 분석지에 1회씩 있어 누락이나 중복이 없다. Q01 지문(172단어)과 Q03·Q04 지문(90단어, s05~s09)도 원문 부분 문자열이다. Q02 주어진 글과 (A)(B)(C)는 각각 s01, s04, s02, s03과 같다."
+  },
+  {
+   "item": "2b. 분석(의도·흐름·쉬운 풀이·구문·유반)",
+   "status": "PASS",
+   "evidence": "분석지 p5~p7에 FINAL과 같은 순서로 실렸다. 글의 의도 1건, 흐름 4단(1~2·3~4·5~6·7~9번 문장), 쉬운 풀이 3건(2·6·9번), 구문으로 해석하기 ①~④(lead A to V, in which, not always, be p.p.), 필수 유의어/반의어 3세트(limit·foster·diverse)다. FINAL의 모든 내용 행이 DOCX에 있다(표기 형식 차이만 있음)."
+  },
+  {
+   "item": "2c. 워크북(오늘의 낱말·유반·실전문제·구문 결합·핵심 문장)",
+   "status": "PASS",
+   "evidence": "오늘의 낱말 8개는 해석지 ★ 8개(selectively, perspectives, alternative, echo chamber, enclosed, distort, collaboration, keep an open mind)와 같다. 유반 뜻 쓰기 9개는 분석지 3세트의 9낱말과 같다. 실전문제는 Q01 1문항이다. 구문 결합 4개는 분석 ①~④와 순서·도움말이 같다. 핵심 문장 2개는 s02·s07이며 해석지와 분석지의 ★핵심 표시(2·7번)와 맞는다. 워크북 정답의 낱말 뜻·유반 뜻·구문 결합 해석·핵심 문장 해석은 각주 뜻·분석 '→' 결과·자연 해석과 글자까지 같다."
+  },
+  {
+   "item": "2d. 4문항·빠른 정답·해설 일치",
+   "status": "PASS",
+   "evidence": "문항은 워크북 1(Q01 요지)과 모의 1회 1~3(Q02 순서, Q03 함축, Q04 요약)이다. 빠른 정답은 '워크북 1. ② / 미니 모의고사 1회 1. ③ 2. ① 3. ④'이다. 해설 정답(②, ③, ①, ④), 원고 quick_key(Q01=2, Q02=3, Q03=1, Q04=4), 문제 FINAL ANSWER, 블라인드 풀이(M·N 1차 Q01=2·Q02=3, M2·N2 2차 Q03=1·Q04=4)가 모두 같다. 해설마다 정답 근거·해설이 있고, 오답 정리는 정답을 뺀 4개다. 선지 해석은 Q01·Q03·Q04에 있으며 Q02 순서형은 선지 해석을 두지 않는 관례다. Q03 해설의 새 둘째 문장('이는 바로 앞 문장에서 … 이유가 된다')이 반영되어 있다. 문항과 해설의 누락·중복은 없다."
+  },
+  {
+   "item": "3a. ZIP = DOCX 6개 정확히",
+   "status": "PASS",
+   "evidence": "ZIP 엔트리는 전체통합본과 01~05, 모두 6개 .docx뿐이다. PDF나 내부 자료는 없다. 엔트리마다 sha256이 출고 폴더 파일과 같고 manifest의 docx_entry_sha256과도 같다. testzip 결과 이상 없음. 출고 폴더 통합본은 결과물/ 통합본과 바이트 동일하다(8b76dc77…)."
+  },
+  {
+   "item": "3b. 분권 재결합 = 통합본",
+   "status": "PASS",
+   "evidence": "통합본 body(sectPr 제외, 285,788자)가 01+02+03+04+05 body를 이은 것과 문자 단위로 같다. sectPr 5개가 모두 통합본과 같고, document.xml 외 부품(styles, footer, media 등)은 권마다 통합본과 바이트 동일하다. 블록 태그는 01=cover+u1/reading, 02=u1/analysis, 03=u1/workbook, 04=mock1, 05=answers/quick+u1/answers+answers/mock1이며 manifest와 같다. 분권 PDF는 4+3+2+1+4=14쪽으로 통합본 14쪽과 같다. 02~05권 첫 문단의 pageBreakBefore로 빈 첫 쪽은 생기지 않는다(LibreOffice 확인)."
+  },
+  {
+   "item": "3c. 학생용 01~04권 정답 비노출",
+   "status": "PASS",
+   "evidence": "01~04권 텍스트에서 정답·해설·근거·오답·빠른 정답·선지 해석 문자열은 0건이다. '번호. ①' 형태의 정답 행도 없다. answers/* 블록은 05권에만 있다. 참고로 02권 분석지의 자연 해석·구문 '→' 결과·유반 뜻과 01권 각주 뜻은 워크북 4·5번·낱말 정답과 겹친다. 이는 '해석지→분석지→워크북 복습' 설계에 따른 학습 내용이며 객관식 정답 노출이 아니다."
+  },
+  {
+   "item": "4. 단계별 최종 PASS의 현재 버전 연결(stale 여부)",
+   "status": "PASS",
+   "evidence": "S 원문대조 PASS(09:00)가 기록한 provenance a84f5471…은 원문 PDF의 현재 해시와 같다. source_content_sha256 232804d7…은 546344e·6e2fce2·59f2716·현재에서 모두 같아 유효하다. L은 1차 FIX_REQUIRED(09:10) 뒤 L재검수 PASS(09:16, 커밋 546344e)가 났다. 이 기록에는 파일 해시가 없지만 같은 커밋에서 저장된 학습 FINAL cb7a17e5…가 현재와 같고(git 이력상 이후 변경 없음, QC_HANDOFF도 동일), learning_content_sha256 633a2e4c…도 L재검수 시점과 현재가 같아 유효하다(이후 원고 변경은 units.workbook·assessment·question_sources뿐). M/N 1차(09:23)는 FIX_REQUIRED로 PASS가 아니며 대체되었다. M2 대조검수 PASS(09:43)는 해시가 없지만 M2 대조확인 PASS(09:46)가 문제 QC_HANDOFF e3359ae6…(=현재 문제 FINAL)와 원고 1efb8f57…(=현재)에 연결된다. N2 대조검수 PASS(09:44)는 2차 블라인드 입력 ec5588de…에 연결되고, N2 대조확인 PASS(09:46)가 같은 현재 해시 2개에 연결된다. N2-01(DOCX 재패치 뒤 저장본 확인)은 '미반영' 상태로 넘어왔으나 R이 현재 DOCX에서 모의 빠른 정답 1.③ 2.① 3.④, Q03 밑줄 2곳(발문·지문), Q04 새 요약문·선택지, Q03 새 해설 문구를 모두 확인해 해소했다. 블라인드 대상 확인: 1차 이후 Q01은 비표시 메타(learned_relation_uses)만, Q02는 변경이 없다. Q03·Q04는 2차 블라인드에서 다시 풀렸다. J 조판 PASS는 현재 통합 PDF 3f0281f2…에, K 분권 조판 PASS는 현재 분권 PDF 5개 해시에 모두 연결된다(J/K 기록은 09:50에 생성되어 대기 상태가 아님). R준비 기계 대조(machine PASS, 경고 0)는 원고·계획·DOCX·PDF·FINAL 2개·패키지(e0b7b4fa…, 작업_공통영어2_1과/스킬수정본 지문으로 재계산 일치)의 현재 해시에 연결된다. stale PASS는 없다."
+  },
+  {
+   "item": "5a. 문항 자기 지문 안 정답 근거(지문 밖 단서 없음)",
+   "status": "PASS",
+   "evidence": "Q01은 원문 전체(172단어)라 근거가 자족적이다. Q02는 s01~s04만 쓰며 However·용어 첫 도입·also로 B→C→A가 유일하게 정해진다. Q03·Q04는 s05~s09 지문 안에서 근거를 찾는다(Q03: s08·s09, Q04: s05의 distort, s07의 seek·different views). 같은 모의 1회 안에서 Q02 블록(s01~s04)에는 Q03 정답(바람≠사실)이나 Q04 정답 어휘(distort/seek)가 없다. Q03·Q04가 같은 지문을 공유하는 것은 교사가 승인한 사항이며, 서로의 선택지·요약문이 상대 정답을 드러내지 않는다. Q04 선택지는 (A) improve1·twist2·sharpen2, (B) seek out2·avoid2·limit1로 교사 결정인 수능형 분포(빈도 단서 없음)와 맞는다. 분량 Q02 82·Q03 90·Q04 90단어는 교사 결정(단문 100단어 안팎 허용) 범위다. Q03·Q04 지문 첫 문장의 This는 지문 밖(s04)을 가리키지만, 지문 안 'Worse still, an echo chamber …'와 'this trap'으로 추론할 수 있어 정답 판단에 지문 밖 정보가 필요하지 않다(R-03)."
+  },
+  {
+   "item": "5b. 교사 관점 출고 차단 요소",
+   "status": "PASS",
+   "evidence": "정답 오류·복수 정답·원문 불일치·정답 노출·권 누락·다른 책 혼입·빠른 정답 불일치는 없다. 렌더 14쪽에 겹침·잘림·빈 첫 쪽이 없다(p7 유반 3행 단독 쪽은 J-01 검토제안, 9번째 유반 옆 빈 답안선은 J-02 검토제안). 남은 사항은 모두 검토제안이거나 Word 확인 조건이다(findings)."
+  }
+ ],
+ "word_render": "NOT_PERFORMED (Microsoft Word unavailable; LibreOffice preview only)",
+ "status": "PASS",
+ "status_note": "R 내용·출고 검수 기준으로는 수정이 필요 없어 PASS다. 다만 이 PASS는 LibreOffice 미리보기에 근거한다. release-record.md·split-delivery.md 기준으로 Word 렌더와 시각 검수 기록이 없으면 여섯 파일 최종 출고 인증은 REVIEW_PENDING으로 남는다. 이 PASS를 Word 조판 통과로 읽으면 안 된다.",
+ "findings": [
+  {
+   "id": "R-01",
+   "severity": "검토제안",
+   "blocking": false,
+   "where": "02_지문분석지 표제 '1과 · 문단 1 | 지문 분석', 05_정답해설지 표제 '1과 정답과 해설'·'문단 1 워크북 정답'·'미니 모의고사 1회 정답과 해설'",
+   "issue": "분권을 따로 인쇄하면 02·05권 본문에는 'Further Reading'이나 제목이 없다. 1과 본문판(Fake News)의 02·05권도 표제가 똑같이 '1과 … 지문 분석', '1과 정답과 해설', '미니 모의고사 1회 정답과 해설'이다. 그래서 교사가 두 책의 정답지(FR 1회 1.③ 2.① 3.④와 본문판 1회)를 섞을 수 있다. 01·03·04권은 영문 제목이 표제에 있어 구분된다. 파일명에는 FurtherReading이 들어 있다.",
+   "proposal": "교사 결정은 '표지에 1과 (Further Reading)'였고 학생용 과 표시가 '1과'이므로 현행 유지도 규칙상 타당하다. 인쇄 혼동을 줄이려면 교사 확인을 받아 05권 '1과 정답과 해설' 옆에 제목이나 '(Further Reading)'을 붙이는 방안이 있다."
+  },
+  {
+   "id": "R-02",
+   "severity": "조건(출고 인증 보류 사유)",
+   "blocking": false,
+   "where": "전체 DOCX 6개",
+   "issue": "Word 렌더를 하지 못했다. J/K 조판 PASS와 R의 쪽 확인은 모두 LibreOffice 글꼴 대체 렌더(DejaVuSans·WenQuanYiZenHei·LiberationSerif) 기준이다. J-01(p7에 유반 3행만 넘어감)은 Word에서 해소될 수도, 남을 수도 있다.",
+   "proposal": "Word 환경에서 통합본과 분권 5권을 렌더해 쪽 넘김, 특히 분석 p6→p7, 모의 1회 한 쪽 수용, 해설 p13→p14를 확인한다. 그 결과를 word_layout 기록으로 남긴 뒤 출고 인증을 완료한다."
+  },
+  {
+   "id": "R-03",
+   "severity": "검토제안",
+   "blocking": false,
+   "where": "모의 1회 2번(Q03)·3번(Q04) 지문 첫 문장",
+   "issue": "지문이 'This can distort …'로 시작해 This의 선행 내용(s04, 동의하는 의견만 듣는 상황)이 지문 밖에 있다. 그래도 둘째 문장 'Worse still, an echo chamber …'와 'this trap'으로 에코 챔버의 해악이라는 점을 추론할 수 있다. Q04 요약문 주어 An echo chamber와의 연결도 지문 안에서 성립한다. 교사가 단문과 지문 반복을 승인했고 M2·N2도 블라인드로 같은 정답을 냈다.",
+   "proposal": "조치하지 않는다. 교사가 원하면 지문 앞에 s04를 넣어 s04~s09(약 110단어)로 늘리는 방안이 있으나, 그 경우 Q02 블록과 겹치므로 권하지 않는다."
+  },
+  {
+   "id": "R-04",
+   "severity": "검토제안",
+   "blocking": false,
+   "where": "분석지 '구문으로 해석하기' ①~④, 워크북 4번 1~4",
+   "issue": "항목 순서가 ①2번, ②4번, ③9번, ④4번 문장으로 본문 문장 순서가 아니다(4번 문장 항목이 둘로 나뉨). 분석지와 워크북, 정답의 순서는 서로 맞아 정답 대응 오류는 없다.",
+   "proposal": "의도한 우선순위 배열이면 유지한다. 문장 순서 배열을 원하면 ①2 ②4(in which) ③4(be p.p.) ④9로 바꾼다. 워크북 4번과 정답도 같이 바꿔야 한다."
+  },
+  {
+   "id": "R-05",
+   "severity": "기록 보완",
+   "blocking": false,
+   "where": "검수기록/2단계_L재검수.json, 5단계_M2_대조검수.json",
+   "issue": "두 PASS 기록에 입력 파일 sha256이 없다. 현재성은 git 커밋(546344e)·learning_content_sha256(633a2e4c…)·M2/N2 대조확인의 해시로 R이 따로 확인했다.",
+   "proposal": "출고 기록 JSON(verify_release/verify_split_release 입력)을 만들 때 L에는 learning_final_sha256 cb7a17e5…와 learning_content_sha256 633a2e4c…를 연결한다. M에는 해시가 있는 5단계_M2_대조확인.json을 현재 유효 기록으로 연결한다."
+  },
+  {
+   "id": "R-06",
+   "severity": "참고",
+   "blocking": false,
+   "where": "04권 Q02 주어진 글·(B)·(C) 문단 끝",
+   "issue": "문단 끝에 공백 1자가 남아 있다(문제 FINAL의 GIVEN·BLOCKS와 같다). 인쇄에는 보이지 않는다.",
+   "proposal": "조치하지 않는다(다음 재생성 때 정리해도 된다)."
+  }
+ ],
+ "carried_over": [
+  "J-01 검토제안(p7 유반 3행 단독 쪽, Word 확인 뒤 판단)",
+  "J-02 검토제안(유반 9번 옆 빈 답안선)",
+  "K-01 검토제안(02권 3쪽 여백, J-01과 같은 현상)",
+  "L재검수 R-01(4번 문장 힌트 '듣기만 하는' 범위 표현은 제작 판단으로 유지하고 원고 hint explanation에 기록함)"
+ ],
+ "teacher_decisions_verified": [
+  "단문 허용(Q02 82·Q03 90·Q04 90단어)",
+  "Q03/Q04 같은 지문 반복 유지(p10에 각각 실림)",
+  "Q04 수능형 선택지 분포(2·2·1)",
+  "표지 '1과 (Further Reading)'"
+ ],
+ "review_records_status": {
+  "S": "PASS(현재)",
+  "L": "FIX_REQUIRED→L재검수 PASS(현재)",
+  "M": "1차 FIX_REQUIRED→M2 대조검수 PASS→M2 대조확인 PASS(현재 해시)",
+  "N": "1차 FIX_REQUIRED→N2 대조검수 PASS→N2 대조확인 PASS(현재 해시)",
+  "J": "PASS(현재 PDF)",
+  "K": "PASS(현재 분권 PDF 5개)",
+  "R준비(기계)": "machine PASS, NOT_CERTIFIED(현재 해시)"
+ }
+}
