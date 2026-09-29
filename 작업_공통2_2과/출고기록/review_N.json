@@ -97,7 +97,7 @@
   }
  ],
  "bindings": {
-  "package_sha256": "c965a7d5ce04c997f8217597dc48e0a5e306d789b146eca4e281b6e913bd4097",
+  "package_sha256": "3bcdb28df7dc7be5fc1e039afb3e7829c7e749dafa902555cd556cc34ba07cf1",
   "assessment_content_sha256": "9bb2d97b42dfe2d5289b2ee4c5f15577698be2a3b85bf7279fc09f824ec7243f",
   "learning_final_sha256": "56c79bc165e857e69742d9015495fe4ac67a8d92fa508b7ffe91dddebd2e5636",
   "assessment_final_sha256": "0538152f2dd85922729d15e5d4689a31cae526c279f76a75605d85a7e07d7a7b"

@@ -23,3 +23,8 @@
 - LibreOffice 예비 렌더 66쪽, J·K 조판 검수(오류 0, MASTER 설계 유지 2, Word 확인 대기 17)
 - 스킬 사본의 시험 실행 임시 폴더 429개·캐시 삭제(원본 스킬에 없는 생성물), 스킬수정_2026-09-28.patch 기록
 - R 기계 대조 PASS(경고 0), 분권 5개·ZIP(split verify SPLIT_CONTENT_MATCH), verify_release REVIEW_PENDING(오류 0, Word·독립 R 남음)
+
+2026-09-28 출고 뒤 사용자 요청 “간격줄이기 조판쓰고 별표와 핵심단어는 붙어있게 해줘”
+- 사용자 결정 ① 간격 줄이기 “LibreOffice 기준으로 적용”: u1/analysis·u3/analysis에 spacing 프로필(글자 크기 유지). 스킬 사본 compact_layout.py에 승인 기록이 있을 때만 LibreOffice 관찰을 받는 예외와 시험 1개 추가(시험 14개 통과). 렌더 66→64쪽, 저장본·구조·R 통과, JK-재검 새 결함 0.
+- 사용자 결정 ② ★핵심: 처음 “문장 번호 옆으로 옮김”을 골랐으나, 이전 승인 규칙(3과 Cowork #15 후속: 번호 옆으로 옮기지 않음)과 충돌함을 알리고 다시 여쭤 “이전 규칙 유지, Word 확인”으로 확정. 문자 6가지(U+2060·U+200D·U+202F·NBSP·언어 지정·w:wordWrap) 시험 결과 LibreOffice에서는 모두 갈림 → 표식 변경 없음.
+- 분권·ZIP 다시 만듦(옛 출고 폴더 삭제 후 새로 내보냄, 21+15+10+6+12=64쪽), 출고 기록 재생성 → verify_release REVIEW_PENDING(오류 0).

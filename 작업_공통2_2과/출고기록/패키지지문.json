@@ -13,7 +13,7 @@
     "assets/source-subheading.xml": "9491f550c459b7256e5d3b1dfe1ecb95dd96ff7575418be73f1d0b479a50775b",
     "assets/structure-hint-ko.xml": "855d612659b0ce00c2699c1d76f613f516837d71e24cd9d902c794e4ad2370ef",
     "references/analysis-content.md": "b540184bc73f36428fbcf73dd77586bf34f5603808113cbedd6cc1ae276e1725",
-    "references/approved-exceptions.md": "90d743880f4330d169c33913f02491f4667a4b968ecaa889810258dfbba06e67",
+    "references/approved-exceptions.md": "d59f3cff98f6fdd2576ef891d1d9d40c8bb4a2be82c43773386ff515fcb8aef1",
     "references/assessment-content.md": "159d9fd4d0df776359abe0ac062976f9a7342089083b09498729bfab251dd394",
     "references/common-errors.md": "058db2bf1c0fb67cc43927a6a53cf8cd122e55ef54ca2db944ceaddaaf41c2e8",
     "references/current-revision.md": "13eaf6cedead59261a01bfd004034e807b73cecc2f69481cf8fb3ebd5ce74842",
@@ -46,7 +46,7 @@
     "scripts/check_learning_content.py": "14ff513580f14bb0418f5ad85c796b6d70f63f43c845d241b0ec358aee0173c1",
     "scripts/check_release_text.py": "9b74fbb5e70cd24e309d770e47d254da97172b28c7a8817a854fb1df20d209d6",
     "scripts/check_saved_docx.py": "9fa19dc680d763a1d6c53d43a24262604972046ed141ca0832904de11085b103",
-    "scripts/compact_layout.py": "447b3156db919aa570f86c74ecdd4da515c5b0aa07557eaf21115304cbc71449",
+    "scripts/compact_layout.py": "bca0bb62a3bde06eb54b5b36fbc215d5af8f5d397b89e0b484ec644e4766a165",
     "scripts/convert_thumbnail_input.py": "5276a9cef0637b63f7adad35a34f8a40bf42c66ae4745e59abc6ed7655d84688",
     "scripts/export_handoff.py": "a47ab2a49d9ccf5caaec6df38f21a9fe04d4724237d4bd1a74d59fd3fe3c0173",
     "scripts/learning_units.py": "f4ec54025cca73b993dbbb1049be07dc4715a958e3c3e168baf747cdf93b6ddc",
@@ -77,7 +77,7 @@
     "tests/test_book.py": "f29c1921fcf4fcc951a44b32ba9c5c1b62d44ae39306c7568b4961b82bd974e5",
     "tests/test_book_plan.py": "5e9e44b6b56b8c5dec444f0d008a307d1374594bdf2c142cf1b9ac95fd0e5bf7",
     "tests/test_build_book.py": "c9c40210c28d3f0a532c7eb91876c4953a38ebd9bdbaa3a311d3ed30b0b8f095",
-    "tests/test_compact_layout.py": "0fe36794cf6d053c685489bf8b85c00335bfa5bf41efcd47dd5c253429da4a73",
+    "tests/test_compact_layout.py": "60040a6d0ee643368e1094594c761640b3b1e2ea383b3094073ac499d2dea085",
     "tests/test_confirmed_layout.py": "22edb7c104a2433159726e9bdf4b2d41163a30c75ba12e7874dc0e3f38845b71",
     "tests/test_cover_simplify.py": "545727e81d8b6b8fc76239f77f5b9ec0fbdc69b7675b771aebc8d0add99da0c8",
     "tests/test_export_handoff.py": "106e74f8aded977f56590720d9b2ae235acbd8478664f51e6e0cb9fbc5b623dd",
@@ -119,5 +119,5 @@
     "tests/test_verb_function_hints.py": "8cdaf7a7b1245d416da0725cce8bfa3773d68acb986d266ece70047543cdd87d",
     "tests/test_verb_gloss_revision.py": "7476b33c8f06bb21155cbd394261c304618a4e349ab163b1adfd413cff0b72c6"
   },
-  "sha256": "c965a7d5ce04c997f8217597dc48e0a5e306d789b146eca4e281b6e913bd4097"
+  "sha256": "3bcdb28df7dc7be5fc1e039afb3e7829c7e749dafa902555cd556cc34ba07cf1"
 }

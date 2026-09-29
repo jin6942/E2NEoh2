@@ -8,13 +8,13 @@
 [진행 방식] 제작·검수 1~6단계를 이 세션이 모두 수행. 독립 검수는 제작 맥락을 공유하지 않는 서브에이전트(L-a~L-d, L-재검, L-재검2, M·N, J·K). S·R은 기계 대조(독립 아님으로 기록).
 
 [현재 단계] 최종 출고 파일 준비 완료(2026-09-28) — 전달 ZIP 결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과.zip. verify_release REVIEW_PENDING(오류 0, Word 렌더·Word 조판 검수·독립 R 남음)
-[통합 DOCX] 결과물_공통2_2과/혼공독해교재_공통영어2_YBM(박)_2과_전체통합본.docx (SHA256 1071d663…, full patch 후 저장본 검사 SAVED_CONTENT_MATCH·format PASS, 검사기록/05_full_*)
-[원고] 작업_공통2_2과/공통영어2_YBM(박)_UNIT02_원고.json (full, SHA256 86334bd1…; 작성 모듈 u1~u5.py·assessment_data.py → make_manuscript.py full)
+[통합 DOCX] 결과물_공통2_2과/혼공독해교재_공통영어2_YBM(박)_2과_전체통합본.docx (SHA256 36460a18…, 간격 줄이기 적용 후 저장본 검사 SAVED_CONTENT_MATCH·format PASS, 검사기록/07_full_*)
+[원고] 작업_공통2_2과/공통영어2_YBM(박)_UNIT02_원고.json (full, SHA256 d7ab07a4…; 작성 모듈 u1~u5.py·assessment_data.py → make_manuscript.py full)
 [학습 QC] 공통영어2_YBM(박준언)_UNIT02_QC_HANDOFF.txt (보존)
 [학습 FINAL] 공통영어2_YBM(박준언)_UNIT02_FINAL.txt (SHA256 56c79bc1…, L 독립 검수·재검 2회 완료)
 [문제 QC] 공통영어2_YBM(박준언)_UNIT02_문제_QC_HANDOFF.txt (SHA256 2a901176…, 교사용 분량 진단 포함, 보존)
 [문제 FINAL] 공통영어2_YBM(박준언)_UNIT02_문제_FINAL.txt (SHA256 0538152f…, --qc-diagnostics 없이, M·N 20/20 일치·지적 9건+재검증 2건 반영)
-[예비 렌더] 예비렌더_LibreOffice/혼공독해교재_공통영어2_YBM(박)_2과_전체통합본.pdf (66쪽, 대체 글꼴 · Word 아님)
+[예비 렌더] 예비렌더_LibreOffice/혼공독해교재_공통영어2_YBM(박)_2과_전체통합본.pdf (64쪽, 간격 줄이기 뒤, 대체 글꼴 · Word 아님)
 
 [부분별 상태]
 | 부분 | 제작 | 독립 검수 | DOCX 반영 |
@@ -26,6 +26,7 @@
 [사용자 결정(2026-09-28)]
   ① 새 스킬로 새로 제작, 5단위(작품 소개 합침), FR 제외, 조판 기준 최신 스킬+9/26 승인 4건
   ② 동사 없는 4문장(s17·s25·s53·s69) S/V 줄 생략 + 스킬 사본 보완 / s50 V만, s52 전달절만
+  ④ 출고 뒤: 간격 줄이기 LibreOffice 기준 적용(u1·u3 분석 설명부), ★핵심은 이전 규칙대로 문장 끝 유지·Word 확인
   ③ 인명 각주는 영어 이름 유지 / s35·s70 then을 V 칸에 유지(예외 기록) / s72 V′: has 유지 / 연결동사 get·become 최소 보어 표시(질문 예시 s07·s36, 같은 구조 s74에도 적용 — 사용자 보고)
 [제작 자체 결정(규칙 근거)] s10 도치 힌트 유지(영어2 YBM 2과 FR s16 선례), s15 강조구문 생략 that 표시 유지, s45 it = 카트, s58·s61 Why don’t you 힌트 삭제(고정 표현), s63 V: Excuse 유지, s46 take/notice 각주 분리(검사기 구조)·오늘의 낱말 notice
 [수량 예외] 없음(5단위 모두 핵심 2·쉬운 풀이 3·구문 기본 3·유반 3세트; 결합 공식 보충 u3 2개·u5 2개)
@@ -59,4 +60,4 @@
   Q01 necessities·luxuries·quiet·normal / Q02 courtesy×2·rudeness·full·worthless / Q03 discovered·filled×2·disregarded / Q04 finest·worst·easy / Q05 playful·earnest·restarts·decline
 
 [다음 조치] Word에서 통합본을 열어 출고검수.txt의 [Word 확인 대기 목록] 확인 → 넘침이 있으면 승인된 compact 프로필 적용 검토 → Word 렌더 기록·J/K·독립 R 후 verify_release 재실행
-[출고 관련 기록] 출고검수.txt, 수정이력.txt, 출고기록/, 검사기록/05_*·06_*, 스킬수정_2026-09-28.patch
+[출고 관련 기록] 출고검수.txt, 수정이력.txt, 출고기록/, 검사기록/07_*·08_*, 스킬수정_2026-09-28.patch

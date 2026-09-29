@@ -1,7 +1,7 @@
 {
  "stage": "6단계 J·K 조판 검수 반영 결정",
  "renderer": "LibreOffice 예비 렌더(Word 아님)",
- "docx_changed": false,
+ "docx_changed": true,
  "decisions": [
   {
    "id": "J-01",
@@ -10,18 +10,18 @@
   },
   {
    "id": "J-W01",
-   "decision": "Word 확인 대기",
-   "note": "{\"id\": \"J-W01\", \"page\": \"8-9\", \"priority\": \"high\", \"observation\": \"문단 1 지문 분석 설명부가 8쪽을 거의 끝까지 채우고 '▶ 필수 유의어 / 반의어' 3줄 중 마지막 essentials 1줄만 9쪽으로 넘어가 9쪽이 거의 빈 쪽이 됨.\", \"why_word\": \"대체 글꼴로 한두 줄 높이 차이가 생겨 발생 가능. Word에서는 8쪽 안에 들어갈 수 있음.\", \"recommendation\": \"Word 렌더에서도 1줄 넘침이면 2026-09-25 승인 compact_profile"
+   "decision": "반영(사용자 결정)",
+   "note": "{\"id\": \"J-W01\", \"page\": \"8-9\", \"priority\": \"high\", \"observation\": \"문단 1 지문 분석 설명부가 8쪽을 거의 끝까지 채우고 '▶ 필수 유의어 / 반의어' 3줄 중 마지막 essentials 1줄만 9쪽으로 넘어가 9쪽이 거의 빈 쪽이 됨.\", \"why_word\": \"대체 글꼴로 한두 줄 높이 차이가 생겨 발생 가능. Word에서는 8쪽 안에 들어갈 수 있음.\", \"recommendation\": \"Word 렌더에서도 1줄 넘침이면 2026-09-25 승인 compact_profile → 2026-09-28 사용자 결정 “LibreOffice 기준으로 간격 줄이기 적용”으로 spacing 프로필 적용, 해소(6단계_JK_재검.json)"
   },
   {
    "id": "J-W02",
-   "decision": "Word 확인 대기",
-   "note": "{\"id\": \"J-W02\", \"page\": \"26-27\", \"priority\": \"high\", \"observation\": \"문단 3 지문 분석 설명부(구문으로 해석하기 ⑤까지)가 26쪽을 채우고 '▶ 필수 유의어 / 반의어' 제목+3줄 전체가 27쪽으로 이동해 27쪽 대부분이 빈 공간. 제목 고립은 없음(제목과 항목은 함께 이동).\", \"why_word\": \"글꼴 대체로 설명부 줄 수가 늘었을 가능성.\", \"recommendation\": \"Word에서도 같으면 J-W01과 같이 승인 compact 프로필(spacing 우선) 적용 "
+   "decision": "반영(사용자 결정)",
+   "note": "{\"id\": \"J-W02\", \"page\": \"26-27\", \"priority\": \"high\", \"observation\": \"문단 3 지문 분석 설명부(구문으로 해석하기 ⑤까지)가 26쪽을 채우고 '▶ 필수 유의어 / 반의어' 제목+3줄 전체가 27쪽으로 이동해 27쪽 대부분이 빈 공간. 제목 고립은 없음(제목과 항목은 함께 이동).\", \"why_word\": \"글꼴 대체로 설명부 줄 수가 늘었을 가능성.\", \"recommendation\": \"Word에서도 같으면 J-W01과 같이 승인 compact 프로필(spacing 우선) 적용  → 2026-09-28 사용자 결정 “LibreOffice 기준으로 간격 줄이기 적용”으로 spacing 프로필 적용, 해소(6단계_JK_재검.json)"
   },
   {
    "id": "J-W03",
-   "decision": "Word 확인 대기",
-   "note": "{\"id\": \"J-W03\", \"page\": 7, \"priority\": \"high\", \"observation\": \"문단 1 지문 분석 15번 문장 끝 '★핵심' 표식이 '★핵'과 '심'으로 줄이 갈려 '심'만 다음 줄에 남음(마지막 영어 낱말 after.와 함께 이동하지 않음).\", \"why_word\": \"표식 내부 U+FEFF·앞 NBSP 3개를 LibreOffice가 줄바꿈 방지로 처리하지 않았을 수 있음. 규칙(layout-rules.md 2026-09-25 도구 보완, 3과 Cowork #15)은 Word 동작 기준.\", \"r"
+   "decision": "유지·Word 확인 대기(사용자 결정)",
+   "note": "{\"id\": \"J-W03\", \"page\": 7, \"priority\": \"high\", \"observation\": \"문단 1 지문 분석 15번 문장 끝 '★핵심' 표식이 '★핵'과 '심'으로 줄이 갈려 '심'만 다음 줄에 남음(마지막 영어 낱말 after.와 함께 이동하지 않음).\", \"why_word\": \"표식 내부 U+FEFF·앞 NBSP 3개를 LibreOffice가 줄바꿈 방지로 처리하지 않았을 수 있음. 규칙(layout-rules.md 2026-09-25 도구 보완, 3과 Cowork #15)은 Word 동작 기준.\", \"r → 2026-09-28 사용자 결정 “이전 규칙 유지, Word 확인”(문자 6가지 시험, LibreOffice에서는 해결 불가)"
   },
   {
    "id": "J-W04",
@@ -98,5 +98,9 @@
    "decision": "Word 확인 대기",
    "note": "{\"page\": \"36, 45-46\", \"item\": \"지문 분석 설명부의 쪽 경계. 36쪽은 필수 유반까지 한 쪽에 들어가 꽉 찬다. 45쪽에서는 어법 ⑤ 항목이 통째로 46쪽으로 넘어갔다.\", \"note\": \"이 렌더에서는 항목이 갈라지지 않았고 제목도 고립되지 않았다. Word에서 36쪽 유반 제목이 쪽 끝에 고립되지 않는지 확인한다.\"}"
   }
- ]
+ ],
+ "recheck": {
+  "record": "6단계_JK_재검.json",
+  "result": "64쪽 전 쪽 확인, 새 결함 0, 8·25쪽 외 화소 동일(쪽 번호 제외)"
+ }
 }
