@@ -206,7 +206,7 @@ QUESTION:
 PASSAGE:
 In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.” The hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.
 [요약문]
-Hunger stones, which can be (A) ________ only when droughts lower the water in rivers, are believed to (B) ________ people of the hardships that droughts bring.
+Hunger stones, which can be (A) ________ only when droughts lower the water in rivers, are believed to (B) ________ people of the hardships that droughts bring.
 CHOICES:
 ① hidden …… remind
 ② seen …… remind

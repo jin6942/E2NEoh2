@@ -107,7 +107,8 @@ q(id='Q03', set_id='mock1', number=2, type='함축 의미', first='s01', last='s
          5: '물이 얕아진다는 점은 맞지만, 수영의 위험에 대한 내용은 없고 가뭄으로 인한 굶주림을 말한다.'})
 
 q(id='Q04', set_id='mock1', number=3, type='요약', first='s01', last='s07',
-  summary='Hunger stones, which can be (A) ________ only when droughts lower the water in rivers, are believed to (B) ________ people of the hardships that droughts bring.',
+  # J-W 권고: (A)·(B)와 빈칸 사이는 줄바꿈 없는 공백(U+00A0)
+  summary='Hunger stones, which can be (A)\u00a0________ only when droughts lower the water in rivers, are believed to (B)\u00a0________ people of the hardships that droughts bring.',
   question='다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?',
   choices=['hidden …… remind',
            'seen …… remind',

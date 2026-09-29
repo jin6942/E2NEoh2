@@ -1,0 +1,94 @@
+{
+ "id": "UNIT02FR-Q-N-2026-09-29",
+ "kind": "questions",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "subagent-N-FR",
+ "execution_id": "session_01E2Ji6oqzJY84iXPZFpFMCt/FR-stage4-N",
+ "performed_at": "2026-09-29T11:10:00Z",
+ "method": "정답·해설 없는 블라인드 패킷으로 6문항 풀이 → 수정된 문항 블라인드 재풀이 2회 → 대조 패킷으로 정답·근거·해설·선지 해석 검수 → 제작 반영 → 재검 → check_book PASS",
+ "summary": "블라인드 답이 매 회차 정답과 일치(1차 6/6, 재풀이 4/4, 2/2). 오류 0, 제안 반영·수용. 모의 5문항은 원문 175단어라 고1 동유형 표본보다 짧음(독립 검수 수용 기록).",
+ "solved_before_answer_key": true,
+ "answers": {
+  "Q01": 4,
+  "Q02": 5,
+  "Q03": 4,
+  "Q04": 2,
+  "Q05": 1,
+  "Q06": 3
+ },
+ "scope": {
+  "kind": "custom",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1"
+  ],
+  "question_ids": [
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06"
+  ]
+ },
+ "findings": [
+  {
+   "id": "N-01",
+   "description": "N-01",
+   "status": "resolved",
+   "resolution": "반영 또는 수용(4단계_문제_검수종합.json decisions)",
+   "recheck": "4단계_N_재검.json + 구조 검사 PASS"
+  },
+  {
+   "id": "N-02",
+   "description": "N-02",
+   "status": "resolved",
+   "resolution": "반영 또는 수용(4단계_문제_검수종합.json decisions)",
+   "recheck": "4단계_N_재검.json + 구조 검사 PASS"
+  },
+  {
+   "id": "N-03",
+   "description": "N-03",
+   "status": "resolved",
+   "resolution": "반영 또는 수용(4단계_문제_검수종합.json decisions)",
+   "recheck": "4단계_N_재검.json + 구조 검사 PASS"
+  },
+  {
+   "id": "N-04",
+   "description": "N-04",
+   "status": "resolved",
+   "resolution": "반영 또는 수용(4단계_문제_검수종합.json decisions)",
+   "recheck": "4단계_N_재검.json + 구조 검사 PASS"
+  },
+  {
+   "id": "N-05",
+   "description": "N-05",
+   "status": "resolved",
+   "resolution": "반영 또는 수용(4단계_문제_검수종합.json decisions)",
+   "recheck": "4단계_N_재검.json + 구조 검사 PASS"
+  },
+  {
+   "id": "N-06",
+   "description": "N-06",
+   "status": "resolved",
+   "resolution": "반영 또는 수용(4단계_문제_검수종합.json decisions)",
+   "recheck": "4단계_N_재검.json + 구조 검사 PASS"
+  },
+  {
+   "id": "N-07",
+   "description": "N-07",
+   "status": "resolved",
+   "resolution": "반영 또는 수용(4단계_문제_검수종합.json decisions)",
+   "recheck": "4단계_N_재검.json + 구조 검사 PASS"
+  }
+ ],
+ "bindings": {
+  "package_sha256": "496abd06f38e67ff1cdf2b07abc5ac2eb1638a00e1e54b32222b9cdc83f81cee",
+  "assessment_content_sha256": "ab53e1a20390c58d39510181651f0b36c77111d283950b2fc2e58a575955fb4b",
+  "learning_final_sha256": "56416ffabcfd5d0374d1c77bcee193defded5fe95320d95632930e39f686200c",
+  "assessment_final_sha256": "292729965e7ce6b8cd6c0d30985b7ccd87257d965b923e790bf89fe0a526e459"
+ }
+}

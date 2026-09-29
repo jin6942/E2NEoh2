@@ -1,0 +1,290 @@
+{
+  "status": "FAIL",
+  "scope": "full",
+  "errors": [
+    {
+      "code": "REVIEW_SCOPE",
+      "detail": "UNIT02FR-Q-M-2026-09-29: full source/unit/question coverage must match the current request"
+    },
+    {
+      "code": "REVIEW_SCOPE",
+      "detail": "UNIT02FR-Q-N-2026-09-29: full source/unit/question coverage must match the current request"
+    }
+  ],
+  "pending": [
+    {
+      "code": "MISSING_ARTIFACT",
+      "detail": "report/word_render"
+    },
+    {
+      "code": "LENGTH_REVIEW_PENDING",
+      "detail": "UNIT02FR-Q-M-2026-09-29/Q02"
+    },
+    {
+      "code": "LENGTH_REVIEW_PENDING",
+      "detail": "UNIT02FR-Q-M-2026-09-29/Q03"
+    },
+    {
+      "code": "LENGTH_REVIEW_PENDING",
+      "detail": "UNIT02FR-Q-M-2026-09-29/Q04"
+    },
+    {
+      "code": "LENGTH_REVIEW_PENDING",
+      "detail": "UNIT02FR-Q-M-2026-09-29/Q05"
+    },
+    {
+      "code": "LENGTH_REVIEW_PENDING",
+      "detail": "UNIT02FR-Q-M-2026-09-29/Q06"
+    },
+    {
+      "code": "LENGTH_REVIEW_PENDING",
+      "detail": "UNIT02FR-Q-N-2026-09-29/Q02"
+    },
+    {
+      "code": "LENGTH_REVIEW_PENDING",
+      "detail": "UNIT02FR-Q-N-2026-09-29/Q03"
+    },
+    {
+      "code": "LENGTH_REVIEW_PENDING",
+      "detail": "UNIT02FR-Q-N-2026-09-29/Q04"
+    },
+    {
+      "code": "LENGTH_REVIEW_PENDING",
+      "detail": "UNIT02FR-Q-N-2026-09-29/Q05"
+    },
+    {
+      "code": "LENGTH_REVIEW_PENDING",
+      "detail": "UNIT02FR-Q-N-2026-09-29/Q06"
+    },
+    {
+      "code": "MISSING_REVIEW",
+      "detail": "word_layout: need 1, found 0"
+    },
+    {
+      "code": "MISSING_REVIEW",
+      "detail": "release: need 1, found 0"
+    }
+  ],
+  "checked_artifacts": [
+    "manuscript",
+    "plan",
+    "contract",
+    "docx",
+    "pdf",
+    "learning_final",
+    "assessment_final",
+    "source/src",
+    "report/structure",
+    "report/saved_docx",
+    "review/review_S.json",
+    "review/review_L.json",
+    "review/review_M.json",
+    "review/review_N.json"
+  ],
+  "observed_sha256": {
+    "manuscript": "261310d8a3d15018e91eb61ce7bbbfd367cd2b54d387bccc0dbc64e640c7be5c",
+    "plan": "0969e99d0229c9cf563dea9f0def19f2ad59f91e7969a7294b83364e9aa8193b",
+    "contract": "a0494734ae7adb8c85086ce2d8a8395670ae94677c0dddb256fb69a1c0ff454c",
+    "docx": "3955a4a62f3d253f58a524ac397e9f6bf5a3d9c92e5878fda5e4b7496b45c3fc",
+    "pdf": "80a03afbc2c862acf4681a090238daf312b622d86cc46bbaa69fff89fd8ca4bd",
+    "learning_final": "56416ffabcfd5d0374d1c77bcee193defded5fe95320d95632930e39f686200c",
+    "assessment_final": "292729965e7ce6b8cd6c0d30985b7ccd87257d965b923e790bf89fe0a526e459",
+    "source/src": "02f6f0ec6c1cbe870801855c583dbafcf3a99081f2c519e3e8f6ef157606a883",
+    "report/structure": "1f35e4346db3122396adaaa287352b8f12bdd223b0e9da8c53bca0b5f5c40c99",
+    "report/saved_docx": "e79a01ee992b45ec2104e66cb4859809c83d92421bb9f6a20ca497aa6452a61f",
+    "review/review_S.json": "91a757a36fb44e4729915783168c2667dddef77b69937fddc378bf8deb819f69",
+    "review/review_L.json": "c04fd27c14f79a436508527360cfe2276e0f3388873e31610eb0b20655933670",
+    "review/review_M.json": "44313b48ef44bfaf968814b22b5271ce3877fda6df1227d054f9b77018272add",
+    "review/review_N.json": "91943cc2ed12345fd886479d7ed95bd13eb021cf5dd7bb245d2bab0f814d5efb"
+  },
+  "package_sha256": "496abd06f38e67ff1cdf2b07abc5ac2eb1638a00e1e54b32222b9cdc83f81cee",
+  "bindings": {
+    "manuscript_sha256": "261310d8a3d15018e91eb61ce7bbbfd367cd2b54d387bccc0dbc64e640c7be5c",
+    "plan_sha256": "0969e99d0229c9cf563dea9f0def19f2ad59f91e7969a7294b83364e9aa8193b",
+    "contract_sha256": "a0494734ae7adb8c85086ce2d8a8395670ae94677c0dddb256fb69a1c0ff454c",
+    "docx_sha256": "3955a4a62f3d253f58a524ac397e9f6bf5a3d9c92e5878fda5e4b7496b45c3fc",
+    "pdf_sha256": "80a03afbc2c862acf4681a090238daf312b622d86cc46bbaa69fff89fd8ca4bd",
+    "learning_final_sha256": "56416ffabcfd5d0374d1c77bcee193defded5fe95320d95632930e39f686200c",
+    "assessment_final_sha256": "292729965e7ce6b8cd6c0d30985b7ccd87257d965b923e790bf89fe0a526e459",
+    "package_sha256": "496abd06f38e67ff1cdf2b07abc5ac2eb1638a00e1e54b32222b9cdc83f81cee",
+    "source_content_sha256": "3f4794ad997309164cd18fcb0430054e0b6100a3564eee3defb5713b1fda4f41",
+    "learning_content_sha256": "bb70683a64901f2fd109fc591659fa43cf1bcba17c63f24caa53f7d616d55cb3",
+    "assessment_content_sha256": "ab53e1a20390c58d39510181651f0b36c77111d283950b2fc2e58a575955fb4b"
+  },
+  "review_scope": {
+    "kind": "full",
+    "source_ids": [
+      "src"
+    ],
+    "unit_ids": [
+      "u1"
+    ],
+    "question_ids": [
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06"
+    ]
+  },
+  "pdf_pages": 15,
+  "assessment_configuration": {
+    "kind": "custom",
+    "label": "맞춤 편성",
+    "workbook_question_count": 1,
+    "mock_round_count": 1,
+    "mock_rounds": [
+      {
+        "set_id": "mock1",
+        "label": "미니 모의고사 1회",
+        "question_count": 5
+      }
+    ],
+    "instruction": "2026-09-29 사용자 선택 “워크북 1 + 모의 1회 5문항 (추천)”: 약 175단어 Further Reading 1단위에 맞춰 워크북 실전문제 1문항 + 미니 모의고사 1회 5문항(일반 3 + 공유 장문 제목·어휘 2). 공유 장문은 전체 원문이지만 고1 장문 표본보다 짧아 독립 검수에서 분량을 확인한다."
+  },
+  "review_contributors": [],
+  "user_feedback": {
+    "status": "NOT_RECORDED"
+  },
+  "protected_paths": [
+    "/home/user/E2NEoh2/(2022개정)2025년_공통영어2_YBM(박준언)_2과_본문_(20251205수정).pdf",
+    "/home/user/E2NEoh2/결과물_공통2_2과/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_전체통합본.docx",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/SKILL.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/agents/openai.yaml",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/artifact-template.json",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/assets/exam-length-profile.json",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/assets/icon.svg",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/assets/latest-approved-reference.docx",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/assets/layout-contract.json",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/assets/logo-horizontal.png",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/assets/preview.png",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/assets/review-line.xml",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/assets/source-subheading.xml",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/assets/structure-hint-ko.xml",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/analysis-content.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/approved-exceptions.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/assessment-content.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/common-errors.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/current-revision.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/editorial-core.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/gloss-rules.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/grammar-labels.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/handoff-format.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/layout-rules.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/manuscript-data.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/preposition-meanings.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/promotion.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/proper-nouns.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/release-record.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/review-efficiency.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/runtime-and-data.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/split-delivery.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/user-feedback.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/verification.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/workbook.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/workflow.md",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/requirements-visual.txt",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/requirements.txt",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/analysis_body.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/book_plan.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/build_book.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/build_promotion.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/build_thumbnail.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/check_answer_links.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/check_book.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/check_learning_content.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/check_release_text.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/check_saved_docx.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/compact_layout.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/convert_thumbnail_input.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/export_handoff.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/learning_units.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/master_docx.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/question_source.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/rasterize_pdf.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/render_word.ps1",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/review_coverage.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/review_packets.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/review_preflight.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/saved_format.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/source_contract.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/split_book.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/split_release_support.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/structure_hints.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/sv_line.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/syntax_training.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/user_feedback.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/verify_release.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/scripts/verify_split_release.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/revision_fixtures.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/run_tests.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/template-audit/layout-specimen.docx",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/template-audit/layout-specimen.json",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_analysis_body.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_answer_links.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_assessment_rule_revision.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_book.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_book_plan.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_build_book.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_compact_layout.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_confirmed_layout.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_cover_simplify.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_export_handoff.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_formula_training_display.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_formula_training_gloss.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_gloss_identity.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_handoff_diagnostics.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_header_standardization.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_hint_particles.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_layout_rule_revision.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_learning_content.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_learning_units.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_master_docx.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_passive_to_complement.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_preflight_scope.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_promotion.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_quantity_of_passive.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_question_source.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_reading_rule_revision.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_relative_hints.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_release.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_release_text.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_render_markers.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_review_coverage.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_review_packets.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_review_preflight.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_review_release_integration.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_rule_revision_integration.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_saved_docx.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_saved_format.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_special_lesson.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_split_book.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_split_release.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_sv_line.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_syntax_training.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_syntax_training_output.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_thumbnail_input.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_user_feedback.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_user_feedback_release.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_verb_function_hints.py",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_verb_gloss_revision.py",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검사기록/08_full_구조검사.json",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검사기록/08_full_역할계획.json",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검사기록/08_full_저장본검사.json",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/공통영어2_YBM(박)_2과FurtherReading_원고.json",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/공통영어2_YBM(박준언)_2과FurtherReading_FINAL.txt",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/공통영어2_YBM(박준언)_2과FurtherReading_문제_FINAL.txt",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/예비렌더_LibreOffice/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_전체통합본.pdf",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/출고기록/review_L.json",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/출고기록/review_M.json",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/출고기록/review_N.json",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/출고기록/review_S.json"
+  ],
+  "limits": [
+    "Hash/coverage checks do not prove review truth, human/agent independence, translation accuracy or unique answers.",
+    "READY_FOR_RELEASE validates supplied execution evidence and current files; it does not create a FINAL or perform a review.",
+    "Unrecorded user messages cannot be detected; NOT_RECORDED never means user visual approval."
+  ],
+  "record_sha256": "d5e3baf010121b626404885182f1e46f4d21a6b9b93378d9129b486837332f61"
+}

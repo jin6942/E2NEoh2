@@ -1,0 +1,111 @@
+{
+ "id": "UNIT02FR-L-learning-2026-09-29",
+ "kind": "learning",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "subagents-L-FR_L-FR-recheck",
+ "execution_id": "session_01E2Ji6oqzJY84iXPZFpFMCt/FR-stage2-L",
+ "performed_at": "2026-09-29T10:40:00Z",
+ "method": "L 1명이 원문 PDF·스킬 규칙과 대조해 s01~s09·분석·오늘의 낱말 전수 검수 → 제작 세션이 사용자 결정 3건 포함 반영 → L-재검(1차 패킷 대비 필드 단위 대조, 강조 위치 직접 계산) → 재검 제안 3건 처리(사용자 결정 1건) → check_learning_content·check_book PASS",
+ "summary": "1차 9건(오류 5·제안 4) 처리(L-07·L-08은 사용자 결정 “A 괄호 방식”으로 미반영), 재검 3건 처리. 사용자 결정: s07 believed to V 결합+검사기 보완, s09 significant ★ 없음, 병렬 청크 괄호 방식. 출고 전 J 확인 중 유반 visible 뜻 이중 괄호만 ‘눈에 보이는’으로 정리.",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1"
+  ]
+ },
+ "findings": [
+  {
+   "id": "L-01",
+   "description": "L-01",
+   "status": "resolved",
+   "resolution": "반영: in 500 years — 500년 만에 한 각주",
+   "recheck": "L-재검(2단계_L_재검.json) + 구조 검사 PASS"
+  },
+  {
+   "id": "L-02",
+   "description": "L-02",
+   "status": "resolved",
+   "resolution": "반영: that V′ — V′하던 (관계대명사)",
+   "recheck": "L-재검(2단계_L_재검.json) + 구조 검사 PASS"
+  },
+  {
+   "id": "L-03",
+   "description": "L-03",
+   "status": "resolved",
+   "resolution": "반영: 힌트 한국어 [적혀 있던], 강조 던",
+   "recheck": "L-재검(2단계_L_재검.json) + 구조 검사 PASS"
+  },
+  {
+   "id": "L-04",
+   "description": "L-04",
+   "status": "resolved",
+   "resolution": "반영: [네[이 글을 읽는 사람]가 본다면] + pronoun_refs (검수자가 제시한 대안 참조어 사용)",
+   "recheck": "L-재검(2단계_L_재검.json) + 구조 검사 PASS"
+  },
+  {
+   "id": "L-05",
+   "description": "L-05",
+   "status": "resolved",
+   "resolution": "반영: 사용자 결정대로 believed to V 결합, 단독 to V 각주 2개 삭제",
+   "recheck": "L-재검(2단계_L_재검.json) + 구조 검사 PASS"
+  },
+  {
+   "id": "L-06",
+   "description": "L-06",
+   "status": "resolved",
+   "resolution": "반영: 수위가의 가 강조 추가",
+   "recheck": "L-재검(2단계_L_재검.json) + 구조 검사 PASS"
+  },
+  {
+   "id": "L-07",
+   "description": "L-07",
+   "status": "resolved",
+   "resolution": "미반영(최종): 사용자 결정 “A 괄호 방식”으로 본책과 통일하여 괄호 보충 유지",
+   "recheck": "L-재검(2단계_L_재검.json) + 구조 검사 PASS"
+  },
+  {
+   "id": "L-08",
+   "description": "L-08",
+   "status": "resolved",
+   "resolution": "미반영(최종): 사용자 결정 “A 괄호 방식”으로 본책과 통일하여 괄호 보충 유지",
+   "recheck": "L-재검(2단계_L_재검.json) + 구조 검사 PASS"
+  },
+  {
+   "id": "L-09",
+   "description": "L-09",
+   "status": "resolved",
+   "resolution": "반영: u1-gp4 span·practice를 was found로, 답 발견되었다, 지원 각주 found만",
+   "recheck": "L-재검(2단계_L_재검.json) + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-01",
+   "description": "LR-01",
+   "status": "resolved",
+   "resolution": "사용자 결정 A 괄호 방식으로 반영",
+   "recheck": "제작 반영 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-02",
+   "description": "LR-02",
+   "status": "resolved",
+   "resolution": "반영: s02 if 힌트 explanation에 you의 참조어 근거(돌의 글을 읽는 사람) 기록",
+   "recheck": "제작 반영 + 구조 검사 PASS"
+  },
+  {
+   "id": "LR-03",
+   "description": "LR-03",
+   "status": "resolved",
+   "resolution": "반영: 현재 원고로 QC_HANDOFF·검사기록·학습 FINAL 다시 내보냄",
+   "recheck": "제작 반영 + 구조 검사 PASS"
+  }
+ ],
+ "bindings": {
+  "package_sha256": "496abd06f38e67ff1cdf2b07abc5ac2eb1638a00e1e54b32222b9cdc83f81cee",
+  "learning_content_sha256": "bb70683a64901f2fd109fc591659fa43cf1bcba17c63f24caa53f7d616d55cb3",
+  "learning_final_sha256": "56416ffabcfd5d0374d1c77bcee193defded5fe95320d95632930e39f686200c"
+ }
+}
