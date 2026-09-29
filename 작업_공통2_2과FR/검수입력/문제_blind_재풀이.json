@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "purpose": "REVIEW_INPUT_PACKET_NOT_FINAL",
+  "status": "NOT_FINAL",
+  "certification": "NOT_CERTIFIED",
+  "role": "questions-blind",
+  "input_digest": {
+    "content_sha256": "89bfdedf35853effe849914eb5c5b29ad855f8d8f017a91889354a07987fe465",
+    "canonical_full_json_sha256": "89bfdedf35853effe849914eb5c5b29ad855f8d8f017a91889354a07987fe465",
+    "file_sha256": "0dbc8dbade7beeeeb6e0615e13d8548c884cee6ab7ee269a37b77fad28e07622",
+    "file_sha256_status": "EXACT_INPUT_BYTES"
+  },
+  "current_rules": [
+    {
+      "path": "SKILL.md",
+      "sha256": "f4b6e53dd36c0b3132f608a45156c868d7429b97bb7115b8017d230fe67a3d5f"
+    },
+    {
+      "path": "references/editorial-core.md",
+      "sha256": "620678de7335f75152ffa190d8139d31ffc1e03316825d62b202de32ee385396"
+    },
+    {
+      "path": "references/workflow.md",
+      "sha256": "dc6f355b56fa30110cb99864a1dbd6bb60fc3b27416e4a4b7ad7b4850543f958"
+    },
+    {
+      "path": "references/layout-rules.md",
+      "sha256": "de911e443e52b5df776c2ae7827635315ca248bf717cf29026e8c89b04b75d67"
+    },
+    {
+      "path": "references/runtime-and-data.md",
+      "sha256": "8e2fa22f7ada9cd5cbe5c0f28bc8852a4c230ec6acf36f1d750e966bb1b16b6c"
+    },
+    {
+      "path": "references/handoff-format.md",
+      "sha256": "e9b3ed617a7c3c90b079710c97431fac9ab41b1e84bf455f6bb803006e079619"
+    },
+    {
+      "path": "references/common-errors.md",
+      "sha256": "058db2bf1c0fb67cc43927a6a53cf8cd122e55ef54ca2db944ceaddaaf41c2e8"
+    },
+    {
+      "path": "references/current-revision.md",
+      "sha256": "13eaf6cedead59261a01bfd004034e807b73cecc2f69481cf8fb3ebd5ce74842"
+    },
+    {
+      "path": "references/manuscript-data.md",
+      "sha256": "5be58a9b8ed167dbf6235810964657f69bc571a66991cc0480ee974470898a5b"
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "42b57e1bc8e19542d160fb4c40a32691b3645bc493c7a23d6468f9245cf6e7a1"
+    },
+    {
+      "path": "references/review-efficiency.md",
+      "sha256": "37218e5b5973f1a368fe4bc32622fab0a90c09308bdaaafcab7150203052147d"
+    },
+    {
+      "path": "references/workbook.md",
+      "sha256": "c358dbc10dc4e457d746ea19321a1f22c16c8f098083588157dfe154a329cfc5"
+    },
+    {
+      "path": "references/assessment-content.md",
+      "sha256": "159d9fd4d0df776359abe0ac062976f9a7342089083b09498729bfab251dd394"
+    }
+  ],
+  "review_contract": {
+    "independent_review": "NOT_PERFORMED",
+    "approval_reuse": "NOT_IMPLEMENTED",
+    "complete_final_required": true,
+    "existing_release_gate_unchanged": true,
+    "required_independent_question_solvers": 2,
+    "context_is_not_assigned_or_reviewed": true,
+    "unresolved_items": "COORDINATOR_MUST_SUPPLY_BLIND_SAFE_ITEMS; NOT_CLEARED_BY_PACKET",
+    "blind_use": "Fresh independent solver only. Store own answers and reasoning before opening comparison, source, learning material, or author feedback. Removing answers does not restore blindness for a solver who already saw them."
+  },
+  "scope": {
+    "assigned": {
+      "question_ids": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06"
+      ]
+    },
+    "context_only": {
+      "question_ids": []
+    },
+    "whole_stage_assigned": true
+  },
+  "selected_data": {
+    "questions": [
+      {
+        "id": "Q01",
+        "set_id": "workbook",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 내용과 일치하지 않는 것은?",
+            "underlines": [
+              [
+                19,
+                21
+              ]
+            ]
+          },
+          {
+            "text": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.” The hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared. Considering the continuation of climate change, experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades. The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.",
+            "underlines": []
+          },
+          {
+            "text": "①  Hunger stones usually stay invisible under the water of rivers.",
+            "underlines": []
+          },
+          {
+            "text": "②  The stones become noticeable when water levels drop in dry times.",
+            "underlines": []
+          },
+          {
+            "text": "③  The stones are important because they carry records of past droughts.",
+            "underlines": []
+          },
+          {
+            "text": "④  Experts expect the coming drought to cease within a short time.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Without significant action, most people in the world could suffer from drought by 2050.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q02",
+        "set_id": "mock1",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 내용과 일치하는 것은?",
+            "underlines": []
+          },
+          {
+            "text": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.” The hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts.",
+            "underlines": []
+          },
+          {
+            "text": "①  The hunger stone in the Czech town was discovered by scientists studying the river.",
+            "underlines": []
+          },
+          {
+            "text": "②  The sentence on the stone told people to be happy when they saw it.",
+            "underlines": []
+          },
+          {
+            "text": "③  Hunger stones in central European rivers can usually be seen above the water.",
+            "underlines": []
+          },
+          {
+            "text": "④  Hunger stones are important because they record the floods of the past.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Hunger stones appear when the water in rivers goes down during droughts.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q03",
+        "set_id": "mock1",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  밑줄 친 “If you see me, then cry.”가 다음 글에서 의미하는 바로 가장 적절한 것은?",
+            "underlines": [
+              [
+                10,
+                34
+              ]
+            ]
+          },
+          {
+            "text": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.” The hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor.",
+            "underlines": [
+              [
+                205,
+                229
+              ]
+            ]
+          },
+          {
+            "text": "①  Seeing the stone means that heavy rain and floods are coming soon.",
+            "underlines": []
+          },
+          {
+            "text": "②  People should be sad because the old stone has been damaged by the river.",
+            "underlines": []
+          },
+          {
+            "text": "③  Those who find the stone should cry with joy at their lucky discovery.",
+            "underlines": []
+          },
+          {
+            "text": "④  When this stone can be seen, a drought is bringing hunger and hard times.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  The stone warns people not to swim in the river when the water is low.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q04",
+        "set_id": "mock1",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.” The hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.",
+            "underlines": []
+          },
+          {
+            "text": "[요약문] Hunger stones, which can be (A) ________ only when droughts lower the water in rivers, are believed to (B) ________ people to the hardships that droughts bring.",
+            "underlines": []
+          },
+          {
+            "text": "①  hidden …… alert",
+            "underlines": []
+          },
+          {
+            "text": "②  seen …… alert",
+            "underlines": []
+          },
+          {
+            "text": "③  seen …… blame",
+            "underlines": []
+          },
+          {
+            "text": "④  dry …… comfort",
+            "underlines": []
+          },
+          {
+            "text": "⑤  hidden …… reward",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q05",
+        "set_id": "mock1",
+        "number": 4,
+        "passage_group_id": "long-mock1",
+        "student_blocks": [
+          {
+            "text": "4.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  Hunger Stones: Old Warnings for a Drier Future",
+            "underlines": []
+          },
+          {
+            "text": "②  How to Find Stones Hidden Under Rivers",
+            "underlines": []
+          },
+          {
+            "text": "③  Why Europe’s Rivers Are Getting Deeper",
+            "underlines": []
+          },
+          {
+            "text": "④  The Czech Town That Became Famous for Crying",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Farming Methods That Prevent Food Shortages",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q06",
+        "set_id": "mock1",
+        "number": 5,
+        "passage_group_id": "long-mock1",
+        "student_blocks": [
+          {
+            "text": "5.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": [
+              [
+                36,
+                38
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "passage_groups": [
+      {
+        "id": "long-mock1",
+        "question_ids": [
+          "Q05",
+          "Q06"
+        ],
+        "student_blocks": [
+          {
+            "text": "In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”",
+            "underlines": []
+          },
+          {
+            "text": "The hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.",
+            "underlines": []
+          },
+          {
+            "text": "Considering the ① continuation of climate change, experts warn that the situation we face is not just a simple, ② occasional drought but a severe drought that could ③ cease for decades. The United Nations has predicted that by 2050, 75 percent of the ④ global population could suffer from the effects of drought unless significant action is taken to ⑤ address climate change.",
+            "underlines": [
+              [
+                18,
+                30
+              ],
+              [
+                114,
+                124
+              ],
+              [
+                167,
+                172
+              ],
+              [
+                253,
+                259
+              ],
+              [
+                352,
+                359
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -4,8 +4,8 @@
 조립 코드는 같은 과 본책의 작업_공통2_2과/assessment_data.py와 같다(고1 grade 1 분량 비교).
 
 회차 편성 원칙: 공유 장문(Q05·Q06)이 전체 지문 s01~s09이므로, 같은 회의 일반 3문항은 원문을 보면
-답이 드러나는 빈칸·순서·삽입·무관 유형을 쓰지 않고 내용·함축·요지로 편성한다.
-어휘 문항에서 바꾼 표적(s08 severe)은 일반 3문항 지문(모두 s01~s07 안)에 나오지 않게 한다.
+답이 드러나는 빈칸·순서·삽입·무관 유형을 쓰지 않고 내용·함축·요약으로 편성한다.
+어휘 문항의 밑줄 5개(바꾼 표적 s08 persist 포함)는 일반 3문항 지문(모두 s01~s07 안)에 나오지 않는 s08~s09에만 둔다.
 """
 import re
 import sys
@@ -57,67 +57,66 @@ q(id='Q01', set_id='workbook', number=1, unit_id='u1', type='내용', first='s01
 
 
 # ================================================================ 미니 모의고사 1회
-q(id='Q02', set_id='mock1', number=1, type='내용', first='s01', last='s06',
+# 4단계 M·N 블라인드 의견 반영(2026-09-29): ① 일반 3문항 지문을 s01~s05 / s01~s06 / s01~s07로 서로 다르게 두고,
+# ② 어휘 문항 밑줄 5개를 일반 3문항 지문 밖(s08~s09)에만 두며, ③ 요지(장문 제목과 답이 겹침)를 요약으로 바꾼다.
+q(id='Q02', set_id='mock1', number=1, type='내용', first='s01', last='s05',
   question='다음 글의 내용과 일치하는 것은?',
-  choices=['The hunger stone in the Czech town was found in the spring of 2022.',
-           'The drought in Europe in 2022 was the worst one in 50 years.',
-           'Droughts can bring smaller harvests and a lack of food.',
-           'Hunger stones can be found only along the Elbe River.',
-           'The poor are the least affected by droughts.'],
-  answer=3,
-  evidence='Droughts cause reduced harvests, food shortages, and hunger, especially for the poor.',
-  explanation='가뭄은 수확량 감소, 식량 부족, 굶주림을 일으킨다고 했다. 따라서 가뭄이 더 적은 수확과 식량 부족을 가져올 수 있다는 ③이 글의 내용과 일치한다.',
-  choices_ko=['체코 마을의 기아석은 2022년 봄에 발견되었다.',
-              '2022년 유럽의 가뭄은 50년 만의 최악의 가뭄이었다.',
-              '가뭄은 더 적은 수확과 식량 부족을 가져올 수 있다.',
-              '기아석은 엘베강을 따라서만 발견될 수 있다.',
-              '가난한 사람들이 가뭄의 영향을 가장 적게 받는다.'],
-  wrong={1: '“In the summer of 2022”라고 했으므로 봄이 아니라 여름이다.',
-         2: '“the worst drought in 500 years”라고 했으므로 50년이 아니라 500년 만의 최악이다.',
-         4: '“found in rivers across central Europe”라고 했으므로 엘베강에서만 발견되는 것이 아니다.',
-         5: '“especially for the poor”라고 했으므로 가난한 사람들이 특히 큰 영향을 받는다.'})
+  choices=['The hunger stone in the Czech town was discovered by scientists studying the river.',
+           'The sentence on the stone told people to be happy when they saw it.',
+           'Hunger stones in central European rivers can usually be seen above the water.',
+           'Hunger stones are important because they record the floods of the past.',
+           'Hunger stones appear when the water in rivers goes down during droughts.'],
+  answer=5,
+  evidence='However, when droughts occur and water levels retreat, these stones become visible.',
+  explanation='기아석은 보통 물속에 있다가 가뭄이 들어 수위가 낮아지면 보이게 된다고 했다. 따라서 가뭄 때 강물이 줄어들면 기아석이 드러난다는 ⑤가 글의 내용과 일치한다.',
+  choices_ko=['체코 마을의 기아석은 강을 연구하던 과학자들이 발견했다.',
+              '돌에 새겨진 문장은 사람들에게 그것을 보면 기뻐하라고 했다.',
+              '중부 유럽 강의 기아석은 보통 물 위로 보인다.',
+              '기아석은 과거의 홍수를 기록하고 있어서 중요하다.',
+              '기아석은 가뭄 동안 강물이 줄어들 때 모습을 드러낸다.'],
+  wrong={1: '돌이 체코 마을에서 발견되었다는 내용만 있고, 누가 발견했는지는 나오지 않는다.',
+         2: '돌의 문장은 “If you see me, then cry.”(나를 보면 울어라)이므로 기뻐하라는 것이 아니다.',
+         3: '“typically remain underwater”라고 했으므로 보통은 물속에 잠겨 있다.',
+         4: '기아석은 과거의 심각한 가뭄(droughts) 기록을 담고 있다고 했으며 홍수가 아니다.'})
 
-q(id='Q03', set_id='mock1', number=2, type='함축 의미', first='s01', last='s07',
+# 함축 의미는 s07(경고한다는 설명)이 밑줄의 뜻을 바로 풀어 주므로 s01~s06으로 둔다(M·N 의견).
+q(id='Q03', set_id='mock1', number=2, type='함축 의미', first='s01', last='s06',
   target='If you see me, then cry.',
   question='밑줄 친 “If you see me, then cry.”가 다음 글에서 의미하는 바로 가장 적절한 것은?',
-  choices=['The stone was placed in the river to remember people who died in floods.',
+  choices=['Seeing the stone means that heavy rain and floods are coming soon.',
+           'People should be sad because the old stone has been damaged by the river.',
+           'Those who find the stone should cry with joy at their lucky discovery.',
            'When this stone can be seen, a drought is bringing hunger and hard times.',
-           'People should feel sad because the old stone has been damaged by water.',
-           'Anyone who finds the stone should return it to the river at once.',
-           'The stone marks the place where people used to say goodbye to each other.'],
-  answer=2,
-  evidence='However, when droughts occur and water levels retreat, these stones become visible.',
-  explanation='기아석은 보통 물속에 있다가 가뭄이 들어 수위가 내려가야 보이게 되고, 가뭄은 수확 감소·식량 부족·굶주림을 일으키며, 돌의 글은 이런 고난을 경고한다고 믿어진다. 따라서 “나를 보면 울어라”는 이 돌이 보인다면 가뭄으로 굶주림과 힘든 시기가 오고 있다는 뜻이다.',
-  choices_ko=['그 돌은 홍수로 죽은 사람들을 기억하기 위해 강에 놓였다.',
+           'The stone warns people not to swim in the river when the water is low.'],
+  answer=4,
+  evidence='However, when droughts occur and water levels retreat, these stones become visible. / Droughts cause reduced harvests, food shortages, and hunger, especially for the poor.',
+  explanation='기아석은 보통 물속에 있다가 가뭄이 들어 수위가 내려가야 보이게 되고, 가뭄은 수확 감소·식량 부족·굶주림을 일으킨다. 따라서 “나를 보면 울어라”는 이 돌이 보인다면 가뭄으로 굶주림과 힘든 시기가 오고 있다는 뜻이다.',
+  choices_ko=['그 돌을 보는 것은 곧 폭우와 홍수가 온다는 뜻이다.',
+              '오래된 돌이 강물에 손상되었기 때문에 사람들은 슬퍼해야 한다.',
+              '그 돌을 발견한 사람들은 운 좋은 발견에 기뻐서 울어야 한다.',
               '이 돌이 보일 때는 가뭄이 굶주림과 힘든 시기를 가져오고 있다.',
-              '오래된 돌이 물에 의해 손상되었기 때문에 사람들은 슬퍼해야 한다.',
-              '그 돌을 발견하는 사람은 누구든 즉시 그것을 강에 돌려놓아야 한다.',
-              '그 돌은 사람들이 서로 작별 인사를 하던 장소를 표시한다.'],
-  wrong={1: '홍수가 아니라 가뭄과 관련된 돌이며, 죽은 사람들을 기억한다는 내용은 없다.',
-         3: '돌이 물에 의해 손상되었다는 내용은 없고, 울어야 하는 이유는 가뭄이 가져올 고난이다.',
-         4: '돌을 강에 돌려놓으라는 내용은 없다.',
-         5: '작별 인사를 하던 장소라는 내용은 없다.'})
+              '그 돌은 물이 얕을 때 강에서 수영하지 말라고 경고한다.'],
+  wrong={1: '돌은 비가 많을 때가 아니라 가뭄으로 수위가 내려갈 때 보이므로 반대다.',
+         2: '돌이 손상되었다는 내용은 없고, 울어야 하는 이유는 가뭄이 가져올 굶주림이다.',
+         3: '가뭄이 굶주림을 일으킨다는 흐름이므로 기뻐서 우는 것이 아니라 슬퍼서 우는 것이다.',
+         5: '물이 얕아진다는 점은 맞지만, 수영의 위험에 대한 내용은 없고 가뭄으로 인한 굶주림을 말한다.'})
 
-# 요지는 s03~s07(69단어)이 고1 표본의 절반 수준이라, 발견 이야기(s01~s02)까지 포함한 s01~s07(116단어)로 둔다.
-q(id='Q04', set_id='mock1', number=3, type='요지', first='s01', last='s07',
-  question='다음 글의 요지로 가장 적절한 것은?',
-  choices=['Hunger stones were used to mark the best fishing spots in rivers.',
-           'People carved words on stones to celebrate good harvests.',
-           'Droughts in central Europe have always been short and mild.',
-           'Rivers in central Europe rarely change their water levels.',
-           'Hunger stones remind people of past hardships and warn them to prepare.'],
-  answer=5,
-  evidence='The stones are significant because they bear records of the past severe droughts.',
-  explanation='기아석은 과거의 심각한 가뭄 기록을 담고 있어 중요하며, 돌의 글은 가뭄이 가져오는 고난을 경고하고 사람들에게 대비하라고 촉구한다고 믿어진다. 따라서 ⑤가 요지다.',
-  choices_ko=['기아석은 강에서 가장 좋은 낚시 장소를 표시하는 데 쓰였다.',
-              '사람들은 좋은 수확을 축하하기 위해 돌에 글을 새겼다.',
-              '중부 유럽의 가뭄은 언제나 짧고 가벼웠다.',
-              '중부 유럽의 강들은 수위가 거의 변하지 않는다.',
-              '기아석은 사람들에게 과거의 고난을 떠올리게 하고 대비하라고 경고한다.'],
-  wrong={1: '낚시 장소를 표시했다는 내용은 없고, 가뭄 때 드러나 과거 가뭄을 기록한 돌이다.',
-         2: '돌의 글은 좋은 수확이 아니라 가뭄으로 인한 고난을 경고한다.',
-         3: '돌에는 과거의 심각한(severe) 가뭄 기록이 남아 있다고 했으므로 반대다.',
-         4: '가뭄이 들면 수위가 내려가(water levels retreat) 돌이 보인다고 했으므로 반대다. 2022년 가뭄 때 엘베강에서 돌이 발견된 것도 수위가 변한 예다.'})
+q(id='Q04', set_id='mock1', number=3, type='요약', first='s01', last='s07',
+  summary='Hunger stones, which can be (A) ________ only when droughts lower the water in rivers, are believed to (B) ________ people to the hardships that droughts bring.',
+  question='다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?',
+  choices=['hidden …… alert',
+           'seen …… alert',
+           'seen …… blame',
+           'dry …… comfort',
+           'hidden …… reward'],
+  answer=2,
+  evidence='However, when droughts occur and water levels retreat, these stones become visible. / The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.',
+  explanation='기아석은 가뭄이 들어 수위가 내려갈 때 보이게 되고(visible), 돌의 글은 가뭄이 가져오는 고난을 경고하고 대비하라고 촉구하는 것으로 여겨진다. 따라서 (A) seen(보이는), (B) alert(경고하다, 알리다)인 ②가 알맞다.',
+  choices_ko=['숨겨진 …… 경고하다', '보이는 …… 경고하다', '보이는 …… 탓하다', '마른 …… 위로하다', '숨겨진 …… 보상하다'],
+  wrong={1: '(B) alert는 맞지만, 기아석은 가뭄 때 숨겨지는 것이 아니라 드러나므로(become visible) (A) hidden은 반대다.',
+         3: '(A) seen은 맞지만, 돌의 글은 사람들을 탓하는 것이 아니라 고난을 경고한다.',
+         4: '돌이 마르는지는 요점이 아니고, 돌의 글은 사람들을 위로하는 것이 아니라 대비하라고 촉구한다.',
+         5: '기아석은 가뭄 때 드러나며, 사람들에게 보상하는 내용은 없다.'})
 
 # 공유 장문(Q05 제목·Q06 어휘): 전체 원문 s01~s09
 q(id='Q05', set_id='mock1', number=4, type='제목', first='s01', last='s09', group='G1',
@@ -141,15 +140,15 @@ q(id='Q05', set_id='mock1', number=4, type='제목', first='s01', last='s09', gr
          5: '식량 부족은 가뭄의 결과로 언급될 뿐, 그것을 막는 농사 방법은 나오지 않는다.'})
 
 q(id='Q06', set_id='mock1', number=5, type='어휘', first='s01', last='s09', group='G1',
-  marks=[('visible', 's04'), ('significant', 's05'), ('warn', 's07'), ('severe', 's08'), ('address', 's09')],
-  replace=('severe', 'mild'),
+  marks=[('continuation', 's08'), ('occasional', 's08'), ('persist', 's08'), ('global', 's09'), ('address', 's09')],
+  replace=('persist', 'cease'),
   question='윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?',
-  answer=4,
+  answer=3,
   evidence='experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades.',
-  explanation='not just A but B 구조로 단순하고 이따금 있는 가뭄(A)보다 더 나쁜 상황(B)을 말하고, 그 가뭄은 수십 년 동안 지속될 수 있다고 한다. 따라서 ④의 mild(가벼운)는 문맥에 맞지 않고 severe(심각한)가 되어야 한다.',
-  wrong={1: '가뭄으로 수위가 내려가면 물속에 있던 돌이 보이게(visible) 된다는 흐름에 맞다.',
-         2: '과거 가뭄의 기록을 담고 있어 중요하다(significant)는 뜻으로 적절하다.',
-         3: '돌의 글이 가뭄이 가져오는 고난을 경고한다(warn)는 뜻으로 적절하다.',
+  explanation='not just A but B 구조로 단순하고 이따금 있는 가뭄(A)이 아니라 더 심각한 상황(B)을 말한다. 기후 변화가 계속되는 것을 고려하면 그 심각한 가뭄은 수십 년 동안 지속될(persist) 수 있어야 문맥에 맞다. 따라서 ③의 cease(그치다)는 적절하지 않다.',
+  wrong={1: '기후 변화의 계속(continuation)을 고려한다는 뜻으로, 가뭄이 오래갈 것이라는 경고의 근거가 된다.',
+         2: '단순하고 이따금 있는(occasional) 가뭄이 아니라는 뜻으로, 뒤의 오래 지속되는 심각한 가뭄과 대조된다.',
+         4: '2050년까지 세계(global) 인구의 75퍼센트가 영향을 받을 수 있다는 뜻으로 적절하다.',
          5: '기후 변화에 대처하기(address) 위해 상당한 조치가 취해져야 한다는 뜻으로 적절하다.'})
 
 
