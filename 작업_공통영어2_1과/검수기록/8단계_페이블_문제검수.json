@@ -1,0 +1,79 @@
+{
+ "reviewer_id": "Fable",
+ "role": "external_question_review",
+ "performed_by": "사용자가 별도 페이블 세션에서 수행하고 결과를 대화로 전달(2026-09-29)",
+ "stage1": {
+  "inputs": [
+   "결과물/출고_20260928/..._03_워크북+변형문제.docx",
+   "결과물/출고_20260928/..._04_실전모의.docx",
+   "검수입력/페이블_문제_블라인드.json"
+  ],
+  "solved_before_answer_key": true,
+  "answers": {
+   "Q01": 2,
+   "Q02": 5,
+   "Q03": 1,
+   "Q04": 2,
+   "Q05": 3,
+   "Q06": 4,
+   "Q07": 2,
+   "Q08": 5,
+   "Q09": 4,
+   "Q10": 4,
+   "Q11": 1,
+   "Q12": 3,
+   "Q13": 2,
+   "Q14": 4,
+   "Q15": 4,
+   "Q16": 5,
+   "Q17": 3,
+   "Q18": 1,
+   "Q19": 2
+  },
+  "findings": [
+   {
+    "id": "F-01",
+    "question_id": "Q15",
+    "issue": "요약 선택지가 (A) quickly·emotionally, (B) popular·famous뿐이라 상식으로 ④가 골라짐",
+    "severity": "검토제안",
+    "disposition": "반영(사용자 선택) — 한쪽만 맞는 짝으로 교체, 페이블 안의 official은 reliable과 가까워 복수정답 위험이 있어 쓰지 않음"
+   },
+   {
+    "id": "F-02",
+    "question_id": "Q05,Q13",
+    "issue": "오답이 모두 상식에 어긋나 지문 없이 정답이 보임",
+    "severity": "검토제안",
+    "disposition": "반영(사용자 선택) — Q05 ①④, Q13 ⑤를 지문 내용을 빌린 오답으로 교체"
+   },
+   {
+    "id": "F-03",
+    "question_id": "워크북 실전문제",
+    "issue": "활동 번호 3과 문항 누적 번호 2~4가 섞임",
+    "severity": "검토제안",
+    "disposition": "미반영(사용자 선택) — 스킬 규칙(workbook.md: 워크북 실전문제는 전체에서 중복 없는 번호)"
+   }
+  ]
+ },
+ "stage2": {
+  "inputs": [
+   "05_정답해설지.docx",
+   "문제_FINAL.txt",
+   "FINAL.txt",
+   "교과서 PDF"
+  ],
+  "answer_match": "19/19",
+  "findings": [
+   {
+    "id": "F-04",
+    "question_id": "Q08",
+    "field": "오답 이유 ②",
+    "current": "선거철에 사람들은 지지 후보에게 유리한 뉴스를 맹목적으로 믿는다고 했으므로 반대 내용이다.",
+    "issue": "선택지는 뉴스의 공정성을 말하는데 본문은 독자의 편향을 말함 — '반대 내용' 단정이 과함",
+    "severity": "검토제안",
+    "disposition": "반영(사용자 선택)"
+   }
+  ],
+  "checked": "빠른 정답=해설=FINAL 19/19, 오답 이유 전수, 선지 해석 60개, 인용문 원문 대조(차이 0), 해설 해석 vs FINAL, 워크북 정답 vs FINAL 전부 일치"
+ },
+ "status": "PASS(확정오류 0, 검토제안 4)"
+}

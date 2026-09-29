@@ -22646,7 +22646,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "Most fake news is created by ordinary people who share stories by mistake."
+      "text": "Fake news spreads mainly because people share it by mistake, not on purpose."
      },
      {
       "number": 2,
@@ -22658,7 +22658,7 @@
      },
      {
       "number": 4,
-      "text": "Earthquakes cause far more confusion than any kind of false information."
+      "text": "After an earthquake, thousands of Ambon residents spent two weeks away from their homes."
      },
      {
       "number": 5,
@@ -22953,7 +22953,7 @@
      },
      {
       "number": 5,
-      "text": "How to Write News That Gets More Clicks"
+      "text": "Check Your Biases: The One Rule for Reading News"
      }
     ],
     "passage": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise critical thinking skills to judge the news.\nYou should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.\nIn the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!",
@@ -23003,11 +23003,11 @@
     "choices": [
      {
       "number": 1,
-      "text": "quickly …… popular"
+      "text": "critically …… popular"
      },
      {
       "number": 2,
-      "text": "critically …… popular"
+      "text": "objectively …… familiar"
      },
      {
       "number": 3,
@@ -23019,7 +23019,7 @@
      },
      {
       "number": 5,
-      "text": "emotionally …… famous"
+      "text": "emotionally …… trustworthy"
      }
     ],
     "passage": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise critical thinking skills to judge the news.\nYou should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.\nIn the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!",
@@ -23599,7 +23599,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "Most fake news is created by ordinary people who share stories by mistake."
+      "text": "Fake news spreads mainly because people share it by mistake, not on purpose."
      },
      {
       "number": 2,
@@ -23611,7 +23611,7 @@
      },
      {
       "number": 4,
-      "text": "Earthquakes cause far more confusion than any kind of false information."
+      "text": "After an earthquake, thousands of Ambon residents spent two weeks away from their homes."
      },
      {
       "number": 5,
@@ -23624,7 +23624,7 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "가짜 뉴스는 특정 집단이 의도를 가지고 만든다고 했다. 지나처럼 실수로 퍼뜨리는 사람이 있다는 것과 만드는 사람은 구별된다."
+      "text": "지나처럼 실수로 퍼뜨리는 사람이 드물지 않다고는 했지만, 가짜 뉴스 자체는 사람들을 조종하려는 의도적인 시도이며 특정 집단이 목적을 가지고 만든다고 했으므로 요지가 될 수 없다."
      },
      {
       "number": 2,
@@ -23632,7 +23632,7 @@
      },
      {
       "number": 4,
-      "text": "지진과 가짜 뉴스의 혼란을 비교하는 내용은 없으며, 주민들이 대피소에 남은 것은 가짜 뉴스 때문이었다."
+      "text": "주민들이 2주 동안 집을 떠나 지낸 것은 비상사태에 가짜 뉴스가 끼치는 해를 보여 주는 예시의 세부 내용일 뿐, 글 전체의 요지가 아니다."
      },
      {
       "number": 5,
@@ -23642,7 +23642,7 @@
     "choices_ko": [
      {
       "number": 1,
-      "text": "대부분의 가짜 뉴스는 실수로 이야기를 공유하는 평범한 사람들이 만든다."
+      "text": "가짜 뉴스는 주로 사람들이 일부러가 아니라 실수로 공유하기 때문에 퍼진다."
      },
      {
       "number": 2,
@@ -23654,7 +23654,7 @@
      },
      {
       "number": 4,
-      "text": "지진은 어떤 거짓 정보보다 훨씬 더 큰 혼란을 일으킨다."
+      "text": "지진 후 수천 명의 암본 주민이 2주 동안 집을 떠나 지냈다."
      },
      {
       "number": 5,
@@ -23796,7 +23796,7 @@
      },
      {
       "number": 2,
-      "text": "선거철에 사람들은 지지 후보에게 유리한 뉴스를 맹목적으로 믿는다고 했으므로 반대 내용이다."
+      "text": "선거 뉴스가 공정한지는 다루지 않으며, 선거철은 사람들이 자기 믿음에 맞는 뉴스를 맹목적으로 믿는 확증 편향의 예로만 나온다."
      },
      {
       "number": 3,
@@ -24091,7 +24091,7 @@
      },
      {
       "number": 5,
-      "text": "How to Write News That Gets More Clicks"
+      "text": "Check Your Biases: The One Rule for Reading News"
      }
     ],
     "answer": 2,
@@ -24112,7 +24112,7 @@
      },
      {
       "number": 5,
-      "text": "클릭을 노린 자극적인 헤드라인을 조심하라는 글이지, 클릭을 얻는 뉴스 작성법을 다루지 않는다."
+      "text": "편견 점검은 글이 제시한 네 가지 방법 중 하나일 뿐이며, 글은 이를 유일한 규칙이라고 하지 않는다."
      }
     ],
     "choices_ko": [
@@ -24134,7 +24134,7 @@
      },
      {
       "number": 5,
-      "text": "더 많은 클릭을 얻는 뉴스를 쓰는 방법"
+      "text": "편견을 점검하라: 뉴스 읽기의 단 하나의 규칙"
      }
     ]
    },
@@ -24194,11 +24194,11 @@
     "choices": [
      {
       "number": 1,
-      "text": "quickly …… popular"
+      "text": "critically …… popular"
      },
      {
       "number": 2,
-      "text": "critically …… popular"
+      "text": "objectively …… familiar"
      },
      {
       "number": 3,
@@ -24210,7 +24210,7 @@
      },
      {
       "number": 5,
-      "text": "emotionally …… famous"
+      "text": "emotionally …… trustworthy"
      }
     ],
     "answer": 4,
@@ -24219,11 +24219,11 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "뉴스를 빨리 판단하라는 내용은 없고 비판적으로 판단하라고 했으며, 출처는 인기가 아니라 믿을 만한지를 확인해야 한다."
+      "text": "(A)는 맞지만, 출처가 인기 있는지가 아니라 믿을 만한 미디어 출처인지를 확인하라고 했다."
      },
      {
       "number": 2,
-      "text": "(A)는 맞지만, 출처가 인기 있는지가 아니라 믿을 만한 미디어 출처인지를 확인하라고 했다."
+      "text": "(A)의 objectively는 정보를 객관적으로 보라는 글의 내용과 맞지만, 출처가 익숙한지가 아니라 믿을 만한지를 확인하라고 했다."
      },
      {
       "number": 3,
@@ -24231,17 +24231,17 @@
      },
      {
       "number": 5,
-      "text": "감정이 아니라 비판적·객관적으로 보라고 했으며, 출처가 유명한지가 아니라 믿을 만한지를 확인하라고 했다."
+      "text": "(B)는 맞지만, 감정이 아니라 비판적·객관적으로 판단하라고 했다."
      }
     ],
     "choices_ko": [
      {
       "number": 1,
-      "text": "빨리 …… 인기 있는"
+      "text": "비판적으로 …… 인기 있는"
      },
      {
       "number": 2,
-      "text": "비판적으로 …… 인기 있는"
+      "text": "객관적으로 …… 익숙한"
      },
      {
       "number": 3,
@@ -24253,7 +24253,7 @@
      },
      {
       "number": 5,
-      "text": "감정적으로 …… 유명한"
+      "text": "감정적으로 …… 신뢰할 수 있는"
      }
     ]
    },
@@ -25009,7 +25009,7 @@
    "reason": "문단 3 분석 설명이 약 2줄 넘쳐 유의어/반의어 목록 2항목만 25쪽으로 넘어감(사용자 Word 확인). Word PDF는 받지 못해 evidence_pdf_sha256에는 같은 넘침이 보이는 LibreOffice 예비 렌더 PDF 해시를 기록함.",
    "kind": "compact_block",
    "profile": "spacing",
-   "content_sha256": "c013b290e3879d648f8941de3a39fd2e167255f4670c4314feee449e96f70268",
+   "content_sha256": "bd676256423aae4ef26f31726950c51b4f111e35f174370ab2e578aedf58fda6",
    "renderer": "Microsoft Word",
    "evidence_pdf_sha256": "ac1927dce015edd1193d7d8b0204bab6b43dcf3547bc9b30a31e662b22ffddb2",
    "approval_reference": "2026-09-28 사용자 지시 “1. 다음쪽으로 넘어가. 수정해줘.” — 전달 교재를 Word로 열어 통합본 24~25쪽(u3)·34~35쪽(u4) 유의어/반의어 목록 넘침을 확인함. 소폭 조판 조정은 layout-rules 2026-09-25 승인 범위."
@@ -25020,7 +25020,7 @@
    "reason": "문단 4 분석 설명 끝 유의어/반의어 목록 objectively 1행만 35쪽으로 넘어감(사용자 Word 확인). Word PDF는 받지 못해 evidence_pdf_sha256에는 같은 넘침이 보이는 LibreOffice 예비 렌더 PDF 해시를 기록함.",
    "kind": "compact_block",
    "profile": "spacing",
-   "content_sha256": "c013b290e3879d648f8941de3a39fd2e167255f4670c4314feee449e96f70268",
+   "content_sha256": "bd676256423aae4ef26f31726950c51b4f111e35f174370ab2e578aedf58fda6",
    "renderer": "Microsoft Word",
    "evidence_pdf_sha256": "ac1927dce015edd1193d7d8b0204bab6b43dcf3547bc9b30a31e662b22ffddb2",
    "approval_reference": "2026-09-28 사용자 지시 “1. 다음쪽으로 넘어가. 수정해줘.” — 전달 교재를 Word로 열어 통합본 24~25쪽(u3)·34~35쪽(u4) 유의어/반의어 목록 넘침을 확인함. 소폭 조판 조정은 layout-rules 2026-09-25 승인 범위."

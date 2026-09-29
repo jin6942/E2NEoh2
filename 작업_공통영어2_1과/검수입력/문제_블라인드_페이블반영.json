@@ -1,0 +1,869 @@
+{
+  "schema_version": 1,
+  "purpose": "REVIEW_INPUT_PACKET_NOT_FINAL",
+  "status": "NOT_FINAL",
+  "certification": "NOT_CERTIFIED",
+  "role": "questions-blind",
+  "input_digest": {
+    "content_sha256": "bd676256423aae4ef26f31726950c51b4f111e35f174370ab2e578aedf58fda6",
+    "canonical_full_json_sha256": "ffca28acf336be461a437407d25feab0904ede4e857a6a8c79c99a68cc0e35cf",
+    "file_sha256": "36c004d91f03254a34b9907abf729bcb16d2f41b455369b9509c4891074e88f8",
+    "file_sha256_status": "EXACT_INPUT_BYTES"
+  },
+  "current_rules": [
+    {
+      "path": "SKILL.md",
+      "sha256": "f4b6e53dd36c0b3132f608a45156c868d7429b97bb7115b8017d230fe67a3d5f"
+    },
+    {
+      "path": "references/editorial-core.md",
+      "sha256": "620678de7335f75152ffa190d8139d31ffc1e03316825d62b202de32ee385396"
+    },
+    {
+      "path": "references/workflow.md",
+      "sha256": "dc6f355b56fa30110cb99864a1dbd6bb60fc3b27416e4a4b7ad7b4850543f958"
+    },
+    {
+      "path": "references/layout-rules.md",
+      "sha256": "de911e443e52b5df776c2ae7827635315ca248bf717cf29026e8c89b04b75d67"
+    },
+    {
+      "path": "references/runtime-and-data.md",
+      "sha256": "8e2fa22f7ada9cd5cbe5c0f28bc8852a4c230ec6acf36f1d750e966bb1b16b6c"
+    },
+    {
+      "path": "references/handoff-format.md",
+      "sha256": "e9b3ed617a7c3c90b079710c97431fac9ab41b1e84bf455f6bb803006e079619"
+    },
+    {
+      "path": "references/common-errors.md",
+      "sha256": "058db2bf1c0fb67cc43927a6a53cf8cd122e55ef54ca2db944ceaddaaf41c2e8"
+    },
+    {
+      "path": "references/current-revision.md",
+      "sha256": "13eaf6cedead59261a01bfd004034e807b73cecc2f69481cf8fb3ebd5ce74842"
+    },
+    {
+      "path": "references/manuscript-data.md",
+      "sha256": "5be58a9b8ed167dbf6235810964657f69bc571a66991cc0480ee974470898a5b"
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "42b57e1bc8e19542d160fb4c40a32691b3645bc493c7a23d6468f9245cf6e7a1"
+    },
+    {
+      "path": "references/review-efficiency.md",
+      "sha256": "37218e5b5973f1a368fe4bc32622fab0a90c09308bdaaafcab7150203052147d"
+    },
+    {
+      "path": "references/workbook.md",
+      "sha256": "c358dbc10dc4e457d746ea19321a1f22c16c8f098083588157dfe154a329cfc5"
+    },
+    {
+      "path": "references/assessment-content.md",
+      "sha256": "159d9fd4d0df776359abe0ac062976f9a7342089083b09498729bfab251dd394"
+    }
+  ],
+  "review_contract": {
+    "independent_review": "NOT_PERFORMED",
+    "approval_reuse": "NOT_IMPLEMENTED",
+    "complete_final_required": true,
+    "existing_release_gate_unchanged": true,
+    "required_independent_question_solvers": 2,
+    "context_is_not_assigned_or_reviewed": true,
+    "unresolved_items": "COORDINATOR_MUST_SUPPLY_BLIND_SAFE_ITEMS; NOT_CLEARED_BY_PACKET",
+    "blind_use": "Fresh independent solver only. Store own answers and reasoning before opening comparison, source, learning material, or author feedback. Removing answers does not restore blindness for a solver who already saw them."
+  },
+  "scope": {
+    "assigned": {
+      "question_ids": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "Q19"
+      ]
+    },
+    "context_only": {
+      "question_ids": []
+    },
+    "whole_stage_assigned": true
+  },
+  "selected_data": {
+    "questions": [
+      {
+        "id": "Q01",
+        "set_id": "workbook",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 주제로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news. It reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.",
+            "underlines": []
+          },
+          {
+            "text": "①  praising people who intentionally check the news before sharing it",
+            "underlines": []
+          },
+          {
+            "text": "②  how even someone who condemns fake news can unintentionally spread it",
+            "underlines": []
+          },
+          {
+            "text": "③  why unknown content creators prefer to write true stories",
+            "underlines": []
+          },
+          {
+            "text": "④  the harm that well-known athletes suffer from online rumors",
+            "underlines": []
+          },
+          {
+            "text": "⑤  the reasons reporters intentionally hide news about natural disasters",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q02",
+        "set_id": "workbook",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  다음 글의 내용과 일치하지 않는 것은?",
+            "underlines": [
+              [
+                19,
+                21
+              ]
+            ]
+          },
+          {
+            "text": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved. It is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
+            "underlines": []
+          },
+          {
+            "text": "①  Spreading fake news by accident, as Gina did, is not rare.",
+            "underlines": []
+          },
+          {
+            "text": "②  Fake news is an intentional effort to control people with incorrect information.",
+            "underlines": []
+          },
+          {
+            "text": "③  Some groups make fake news to get attention, money, or political benefits.",
+            "underlines": []
+          },
+          {
+            "text": "④  During emergencies, it is usual for false stories to be widely shared.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  After the earthquake, the government confirmed that the tsunami messages were accurate.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q03",
+        "set_id": "workbook",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "Fake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average. One explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it. Moreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+            "underlines": []
+          },
+          {
+            "text": "①  Why Fake News Travels Considerably Faster Than the Truth",
+            "underlines": []
+          },
+          {
+            "text": "②  True Stories Spread Only Slightly Slower Than Fake News",
+            "underlines": []
+          },
+          {
+            "text": "③  How People Learn to Disregard Stimulating Information",
+            "underlines": []
+          },
+          {
+            "text": "④  Accepting Unfavorable News: A Habit of Most Voters",
+            "underlines": []
+          },
+          {
+            "text": "⑤  The Positive Effects of Election Season on the Media",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q04",
+        "set_id": "workbook",
+        "number": 4,
+        "student_blocks": [
+          {
+            "text": "4.  다음 글에서 필자가 주장하는 바로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise critical thinking skills to judge the news. You should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid. In the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!",
+            "underlines": []
+          },
+          {
+            "text": "①  Read only reliable news sources that agree with your beliefs.",
+            "underlines": []
+          },
+          {
+            "text": "②  Judge news impartially by checking whether its source is trustworthy and its evidence is sound.",
+            "underlines": []
+          },
+          {
+            "text": "③  Judge a news story subjectively, since your first feelings about it are usually right.",
+            "underlines": []
+          },
+          {
+            "text": "④  Ignore all invalid news, because false information can be completely removed online.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Let social media companies remove every piece of unreliable information for you.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q05",
+        "set_id": "mock1",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 요지로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved. It is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
+            "underlines": []
+          },
+          {
+            "text": "①  Fake news spreads mainly because people share it by mistake, not on purpose.",
+            "underlines": []
+          },
+          {
+            "text": "②  Governments are the main cause of false information during natural disasters.",
+            "underlines": []
+          },
+          {
+            "text": "③  Fake news, made on purpose to mislead people, can cause serious harm, especially in emergencies.",
+            "underlines": []
+          },
+          {
+            "text": "④  After an earthquake, thousands of Ambon residents spent two weeks away from their homes.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Social media helps people get accurate safety information quickly in emergencies.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q06",
+        "set_id": "mock1",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 글〉",
+            "underlines": []
+          },
+          {
+            "text": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. ",
+            "underlines": []
+          },
+          {
+            "text": "(A) It reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. ",
+            "underlines": []
+          },
+          {
+            "text": "(B) They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.",
+            "underlines": []
+          },
+          {
+            "text": "(C) Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news. ",
+            "underlines": []
+          },
+          {
+            "text": "①  A → C → B",
+            "underlines": []
+          },
+          {
+            "text": "②  B → A → C",
+            "underlines": []
+          },
+          {
+            "text": "③  B → C → A",
+            "underlines": []
+          },
+          {
+            "text": "④  C → A → B",
+            "underlines": []
+          },
+          {
+            "text": "⑤  C → B → A",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q07",
+        "set_id": "mock1",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 문장〉",
+            "underlines": []
+          },
+          {
+            "text": "They can be so stimulating to get more clicks that you may click on them accidentally.",
+            "underlines": []
+          },
+          {
+            "text": "With so much information on the Internet, how can you make sure that fake news does not mislead you? ① First, read beyond the provocative headlines. ② So don’t just read the headlines, but read the text carefully. ③ Second, don’t read the news at face value. ④ Exercise critical thinking skills to judge the news. ⑤ You should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q08",
+        "set_id": "mock1",
+        "number": 4,
+        "passage_group_id": "long-mock1",
+        "student_blocks": [
+          {
+            "text": "4.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  How Social Media Helps Us Check the Facts",
+            "underlines": []
+          },
+          {
+            "text": "②  Election News: Always Fair and Balanced",
+            "underlines": []
+          },
+          {
+            "text": "③  Scientific Methods for Measuring the Speed of News",
+            "underlines": []
+          },
+          {
+            "text": "④  Critical Thinking: The Main Reason Fake News Spreads",
+            "underlines": []
+          },
+          {
+            "text": "⑤  What Makes Fake News Spread So Fast?",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q09",
+        "set_id": "mock1",
+        "number": 5,
+        "passage_group_id": "long-mock1",
+        "student_blocks": [
+          {
+            "text": "5.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": [
+              [
+                36,
+                38
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q10",
+        "set_id": "mock2",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 내용과 일치하는 것은?",
+            "underlines": []
+          },
+          {
+            "text": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was embarrassed by the fact that she had spread the fake news. It reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.",
+            "underlines": []
+          },
+          {
+            "text": "①  Gina first saw the news about the Heundeulbawi on TV.",
+            "underlines": []
+          },
+          {
+            "text": "②  Gina checked whether the story was true before sharing it.",
+            "underlines": []
+          },
+          {
+            "text": "③  A reporter said that the Heundeulbawi had been damaged.",
+            "underlines": []
+          },
+          {
+            "text": "④  The fake news about the athlete was made to attract people’s attention.",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Gina supported the people who spread the news about the athlete.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q11",
+        "set_id": "mock2",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "Fake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average. One explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it. Moreover, people are inclined to believe information that ________________ even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+            "underlines": []
+          },
+          {
+            "text": "①  matches what they already believe",
+            "underlines": []
+          },
+          {
+            "text": "②  comes from experts they have never trusted",
+            "underlines": []
+          },
+          {
+            "text": "③  challenges their usual way of thinking",
+            "underlines": []
+          },
+          {
+            "text": "④  has been checked by many other people",
+            "underlines": []
+          },
+          {
+            "text": "⑤  is shared by those who disagree with them",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q12",
+        "set_id": "mock2",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  다음 글에서 전체 흐름과 관계 없는 문장은?",
+            "underlines": [
+              [
+                21,
+                23
+              ]
+            ]
+          },
+          {
+            "text": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved. ① It is very common for fake news to spread during states of emergency. ② For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. ③ Indonesia is famous for its beautiful islands, which attract many tourists every year. ④ This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. ⑤ One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q13",
+        "set_id": "mock2",
+        "number": 4,
+        "passage_group_id": "long-mock2",
+        "student_blocks": [
+          {
+            "text": "4.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  Headlines Tell You Everything You Need to Know",
+            "underlines": []
+          },
+          {
+            "text": "②  Read Smart: How Not to Be Fooled by Fake News",
+            "underlines": []
+          },
+          {
+            "text": "③  Why Biased News Is Better Than No News",
+            "underlines": []
+          },
+          {
+            "text": "④  The Digital Age Has Finally Ended Fake News",
+            "underlines": []
+          },
+          {
+            "text": "⑤  Check Your Biases: The One Rule for Reading News",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q14",
+        "set_id": "mock2",
+        "number": 5,
+        "passage_group_id": "long-mock2",
+        "student_blocks": [
+          {
+            "text": "5.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": [
+              [
+                36,
+                38
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q15",
+        "set_id": "mock3",
+        "number": 1,
+        "student_blocks": [
+          {
+            "text": "1.  다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise critical thinking skills to judge the news. You should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that oppose your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid. In the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!",
+            "underlines": []
+          },
+          {
+            "text": "[요약문] To avoid being misled by fake news, you should judge the news (A) ________ and check whether it comes from a (B) ________ source.",
+            "underlines": []
+          },
+          {
+            "text": "①  critically …… popular",
+            "underlines": []
+          },
+          {
+            "text": "②  objectively …… familiar",
+            "underlines": []
+          },
+          {
+            "text": "③  quickly …… trustworthy",
+            "underlines": []
+          },
+          {
+            "text": "④  critically …… trustworthy",
+            "underlines": []
+          },
+          {
+            "text": "⑤  emotionally …… trustworthy",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q16",
+        "set_id": "mock3",
+        "number": 2,
+        "student_blocks": [
+          {
+            "text": "2.  밑줄 친 fall into the trap이 다음 글에서 의미하는 바로 가장 적절한 것은?",
+            "underlines": [
+              [
+                9,
+                27
+              ]
+            ]
+          },
+          {
+            "text": "Fake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average. One explanation for this phenomenon is that people like new and provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it. Moreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ignore news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something negative about other candidates.",
+            "underlines": [
+              [
+                964,
+                982
+              ]
+            ]
+          },
+          {
+            "text": "①  deliberately set up traps to fool other people",
+            "underlines": []
+          },
+          {
+            "text": "②  lose all interest in reading the news",
+            "underlines": []
+          },
+          {
+            "text": "③  get caught while spreading false stories online",
+            "underlines": []
+          },
+          {
+            "text": "④  fail to find any information about the candidates",
+            "underlines": []
+          },
+          {
+            "text": "⑤  are easily led into a way of thinking that misleads them",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q17",
+        "set_id": "mock3",
+        "number": 3,
+        "student_blocks": [
+          {
+            "text": "3.  주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "〈주어진 글〉",
+            "underlines": []
+          },
+          {
+            "text": "It is very common for fake news to spread during states of emergency. ",
+            "underlines": []
+          },
+          {
+            "text": "(A) One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.",
+            "underlines": []
+          },
+          {
+            "text": "(B) For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. ",
+            "underlines": []
+          },
+          {
+            "text": "(C) This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. ",
+            "underlines": []
+          },
+          {
+            "text": "①  A → C → B",
+            "underlines": []
+          },
+          {
+            "text": "②  B → A → C",
+            "underlines": []
+          },
+          {
+            "text": "③  B → C → A",
+            "underlines": []
+          },
+          {
+            "text": "④  C → A → B",
+            "underlines": []
+          },
+          {
+            "text": "⑤  C → B → A",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q18",
+        "set_id": "mock3",
+        "number": 4,
+        "passage_group_id": "long-mock3",
+        "student_blocks": [
+          {
+            "text": "4.  윗글의 제목으로 가장 적절한 것은?",
+            "underlines": []
+          },
+          {
+            "text": "①  From Critic to Spreader: Even Critics of Fake News Can Spread It",
+            "underlines": []
+          },
+          {
+            "text": "②  Why Gina Decided to Stop Using Social Media",
+            "underlines": []
+          },
+          {
+            "text": "③  The Hidden Danger of Famous Rocks in National Parks",
+            "underlines": []
+          },
+          {
+            "text": "④  How Reporters Make Money from Fake Headlines",
+            "underlines": []
+          },
+          {
+            "text": "⑤  The Benefits of Sharing News as Quickly as Possible",
+            "underlines": []
+          }
+        ]
+      },
+      {
+        "id": "Q19",
+        "set_id": "mock3",
+        "number": 5,
+        "passage_group_id": "long-mock3",
+        "student_blocks": [
+          {
+            "text": "5.  윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+            "underlines": [
+              [
+                36,
+                38
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "passage_groups": [
+      {
+        "id": "long-mock1",
+        "question_ids": [
+          "Q08",
+          "Q09"
+        ],
+        "student_blocks": [
+          {
+            "text": "Fake news on social media spreads significantly farther and faster than true stories. A study by the Massachusetts Institute of Technology in the US has shown that fake news spreads online 6 times faster than real news on average.",
+            "underlines": []
+          },
+          {
+            "text": "One explanation for this phenomenon is that people like new and ① provocative things. When information is astonishing, people not only feel that it is surprising, but they also want to ② share the stimulating news with others. By passing it to others on social media, they can gain attention because they are the first to post previously unknown, but possibly false, information. Also, fake news goes viral because people in their daily lives tend to think ③ simply and effortlessly. It is more likely for them to believe new information without any proof, instead of critically examining it.",
+            "underlines": [
+              [
+                66,
+                77
+              ],
+              [
+                187,
+                192
+              ],
+              [
+                459,
+                465
+              ]
+            ]
+          },
+          {
+            "text": "Moreover, people are inclined to believe information that fits their prejudices or experiences even when not true. In this process, people easily fall into the trap of “confirmation bias.” That is, they selectively accept news in a way that only confirms their beliefs and ④ trust news that doesn’t support them. During election season, for example, people tend to blindly believe any news describing their favored candidates in a positive way, while unconsciously believing news that reports something ⑤ negative about other candidates.",
+            "underlines": [
+              [
+                275,
+                280
+              ],
+              [
+                505,
+                513
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "long-mock2",
+        "question_ids": [
+          "Q13",
+          "Q14"
+        ],
+        "student_blocks": [
+          {
+            "text": "With so much information on the Internet, how can you make sure that fake news does not mislead you? First, read ① beyond the provocative headlines. They can be so stimulating to get more clicks that you may click on them ② accidentally. So don’t just read the headlines, but read the text carefully. Second, don’t read the news at face value. Exercise ③ critical thinking skills to judge the news.",
+            "underlines": [
+              [
+                115,
+                121
+              ],
+              [
+                224,
+                236
+              ],
+              [
+                355,
+                363
+              ]
+            ]
+          },
+          {
+            "text": "You should question, analyze, and evaluate what you read. Third, examine your biases. Consider if your own beliefs could affect your judgment. Ask yourself if you are only reading articles that suit your opinion, and look for articles that ④ support your opinion as well. Finally, check the credibility of the source. You should examine who wrote the news story and what the intent was behind writing the news story. You also need to check whether the news story is from a reliable media source and the evidence is valid.",
+            "underlines": [
+              [
+                242,
+                249
+              ]
+            ]
+          },
+          {
+            "text": "In the digital age, it might be impossible to avoid or eliminate all false information that spreads online. However, if you have the ability to view information critically and objectively, you will be able to ⑤ reduce the damage that fake news can cause. Don’t forget! Anyone can be the next person producing or spreading fake news!",
+            "underlines": [
+              [
+                211,
+                217
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "long-mock3",
+        "question_ids": [
+          "Q18",
+          "Q19"
+        ],
+        "student_blocks": [
+          {
+            "text": "While scrolling through her social media one day, Gina was astonished when she saw the news headline, “The Heundeulbawi in Seoraksan National Park Has Fallen.” Gina ① immediately shared the shocking story with her close friends. Later, during the morning news on TV, a reporter standing next to the undamaged Heundeulbawi said, “Today’s Internet stories of the Heundeulbawi being damaged were fake.” Gina was ② pleased by the fact that she had spread the fake news.",
+            "underlines": [
+              [
+                167,
+                178
+              ],
+              [
+                411,
+                418
+              ]
+            ]
+          },
+          {
+            "text": "It reminded her of another incident of fake news that had happened a while ago. The news that a famous athlete had died became the number one issue online, but it turned out to be fake. It had been made by content creators who sought people’s attention. They produced provocative false stories to make money by raising the number of views of their posts. At that time, Gina ③ criticized those who had made and spread fake news because it had hurt the athlete and confused people. This time, however, Gina herself had accidentally contributed to the spread of fake news.",
+            "underlines": [
+              [
+                376,
+                386
+              ]
+            ]
+          },
+          {
+            "text": "Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a ④ deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously ⑤ harm the public as well as all individuals involved.",
+            "underlines": [
+              [
+                106,
+                116
+              ],
+              [
+                373,
+                377
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
