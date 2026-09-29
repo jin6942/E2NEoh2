@@ -104,7 +104,8 @@ def sentences(T):
     s.hint('[If you see]', '[네[이 글을 읽는 사람]가 본다면]', span='If you see', label='조건 접속사 if',
            links=[(['If'], ['가', '본다면'])], refs=[('you', '네', '[이 글을 읽는 사람]')],
            meaning='네가 (나를) 본다면',
-           explanation='인용문 안 조건절 if S′ V′: S′가 V′한다면. S′ you, V′ see까지 표시하고 목적어 me는 제외. then cry는 명령문 주절.')
+           explanation='인용문 안 조건절 if S′ V′: S′가 V′한다면. S′ you, V′ see까지 표시하고 목적어 me는 제외. then cry는 명령문 주절. '
+                       'you는 돌에 새겨진 글을 보고 읽는 사람을 가리킨다(돌이 me로 자신을 말하며 그 글을 읽는 사람에게 말을 거는 문장).')
     s.relative_ids = [rel['id']]
     s.review = ('주절 The stone had a sentence + 과거분사 후치수식 written on it + 주격 관계대명사 that절(read: ~라고 적혀 있었다) + 콜론 뒤 인용 “If you see me, then cry.”(조건절 + 명령문 주절). '
                 '힌트 2개(필수 관계사 that, 인용 속 조건절 if). written on it은 관계사 힌트 표시 안에 함께 보임. 수동 없음.')
@@ -140,8 +141,9 @@ def sentences(T):
     # ---------------- s04 ----------------
     s = S('s04', T['s04'])
     s.ch('However,', '하지만,')
-    s.ch('when droughts occur', '가뭄이 발생하고')
-    s.ch('and water levels retreat,', '수위가 낮아질 때,')
+    # 2026-09-29 사용자 결정 “A 괄호 방식”(L 재검 LR-01): 본책 s73·s74와 같이 병렬 뒤 칸에 생략된 뜻을 괄호로 보충.
+    s.ch('when droughts occur', '가뭄이 발생할 때')
+    s.ch('and water levels retreat,', '그리고 수위가 낮아질 (때),')
     s.ch('these stones become visible.', '이 돌들은 눈에 보이게 된다.')
     s.natural('하지만 가뭄이 들어 수위가 낮아지면 이 돌들이 모습을 드러낸다.')
     s.cl('subordinate', 'when', subj='droughts', verbs=['occur'], marker='when')
@@ -217,8 +219,9 @@ def sentences(T):
     s = S('s07', T['s07'], key=True)
     s.ch('The words', '그 글귀들은')
     s.ch('on the hunger stones', '기아석들 위의')
-    s.ch('are believed to warn of these hardships', '이러한 어려움들에 대해 경고하고')
-    s.ch('and to urge people to be prepared.', '사람들에게 대비하라고 촉구하는 것으로 여겨진다.')
+    # 2026-09-29 사용자 결정 “A 괄호 방식”(L 재검 LR-01)
+    s.ch('are believed to warn of these hardships', '이러한 어려움들에 대해 경고하는 것으로 여겨진다')
+    s.ch('and to urge people to be prepared.', '그리고 사람들에게 대비하라고 촉구하는 것으로 (여겨진다).')
     s.natural('기아석에 새겨진 글귀는 이러한 어려움을 경고하고, 사람들에게 대비하라고 촉구하는 것으로 여겨진다.')
     s.cl('main', 'The', subj='The words on the hunger stones', verbs=['are', 'believed'], disp='The words',
          disp_review='중심명사 words까지 표시하고 뒤에서 꾸미는 전치사구 on the hunger stones는 제외')

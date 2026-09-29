@@ -13,6 +13,10 @@
   {
    "topic": "s09 significant ★",
    "decision": "★ 없이 둠(뜻이 ‘중대한, 상당한’으로 s05와 다름)"
+  },
+  {
+   "topic": "병렬 청크 괄호 보충(L 재검 LR-01)",
+   "decision": "A 괄호 방식: 본책 s73·s74와 같게 FR s04·s07을 괄호 보충으로 되돌림(L-07·L-08 반영 취소)"
   }
  ],
  "self_decided_report_items": [
@@ -62,13 +66,13 @@
    "id": "L-07",
    "severity": "suggestion",
    "sentence_id": "s04",
-   "decision": "반영: 가뭄이 발생하고 / 수위가 낮아질 때,"
+   "decision": "미반영(최종): 사용자 결정 “A 괄호 방식”으로 본책과 통일하여 괄호 보충 유지"
   },
   {
    "id": "L-08",
    "severity": "suggestion",
    "sentence_id": "s07",
-   "decision": "반영: 경고하고 / … 촉구하는 것으로 여겨진다."
+   "decision": "미반영(최종): 사용자 결정 “A 괄호 방식”으로 본책과 통일하여 괄호 보충 유지"
   },
   {
    "id": "L-09",
@@ -76,5 +80,23 @@
    "sentence_id": "u1",
    "decision": "반영: u1-gp4 span·practice를 was found로, 답 발견되었다, 지원 각주 found만"
   }
- ]
+ ],
+ "recheck_findings": [
+  {
+   "id": "LR-01",
+   "severity": "suggestion",
+   "decision": "사용자 결정 A 괄호 방식으로 반영"
+  },
+  {
+   "id": "LR-02",
+   "severity": "suggestion",
+   "decision": "반영: s02 if 힌트 explanation에 you의 참조어 근거(돌의 글을 읽는 사람) 기록"
+  },
+  {
+   "id": "LR-03",
+   "severity": "suggestion",
+   "decision": "반영: 현재 원고로 QC_HANDOFF·검사기록·학습 FINAL 다시 내보냄"
+  }
+ ],
+ "final_note": "LR-01 되돌림 뒤 s04·s07 청크는 1차 L이 검수한 원래 괄호 보충 문구와 같다(L-07·L-08은 suggestion, 사용자 결정으로 미반영). LR-02는 설명 문구 추가뿐이라 표시 내용 변화 없음. 학습 FINAL: 공통영어2_YBM(박준언)_2과FurtherReading_FINAL.txt (learning_sha256 6b4db0a3…), 진단 검사기록/02_learning_진단.json ERROR/WARNING/INFO 0. QC_HANDOFF.txt는 L에 넘긴 검수 전 인계본으로 보존."
 }

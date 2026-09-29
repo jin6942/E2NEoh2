@@ -1,0 +1,205 @@
+[교재명] 공통영어2 YBM(박준언)
+[과목] 공통영어2
+[출판사·저자] YBM(박준언)
+[UNIT] UNIT02
+[학생용 과 표시] 2과
+[권위 원문] (2022개정)2025년_공통영어2_YBM(박준언)_2과_본문_(20251205수정).pdf · 원본 PDF 4쪽 Further Reading 왼쪽 단 영어 본문 전체(섹션 표시 Further Reading·제목 Hunger Stones 제외, 오른쪽 단 한국어 해석 제외)
+[자료 범위] 혼공해석지 + 지문분석지
+
+===== [지문] u1 =====
+[SOURCE] src
+[학습 단위] u1
+[원문 범위] Further Reading · 원문 문장 1~9
+----- [문장 1] -----
+[핵심 문장] 아니오
+[원문]
+In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River.
+[혼공 끊어읽기]
+In the summer / of 2022, / during the worst drought / in 500 years / in Europe, / a stone / known as a “hunger stone” / was found / in a Czech town / along the Elbe River.
+[S/V] S: a stone, V: was found
+[각주]
+in — ~에 / summer — 여름 / of — ~의 / during — ~ 동안 / worst — 최악의 (bad의 최상급) / drought — 가뭄 / in 500 years — 500년 만에 / in — ~의 / Europe — Europe (유럽) / stone — 돌 / known — 알려진 / as — ~으로 / hunger stone — 기아석 (가뭄 때 드러나 굶주림을 경고하는 돌) / be p.p. — ~되다 / found — 발견된 / in — ~에서 / Czech — Czech (체코의) / town — 마을, 소도시 / along — ~을 따라 있는 / Elbe River — Elbe River (엘베강, 체코와 독일을 흐르는 강)
+[구조 힌트] a stone [known as a “hunger stone”] → [‘기아석’으로 알려진] 돌 (과거분사 후치수식)
+[분석 끊어읽기 영어]
+In the summer / of 2022, / during the worst drought / in 500 years / in Europe, / a stone / known as a “hunger stone” / was found / in a Czech town / along the Elbe River.
+[분석 끊어읽기 한국어]
+여름에 / 2022년의, / 최악의 가뭄 동안 / 500년 만에 / 유럽의, / 한 돌이 / ‘기아석’으로 알려진 / 발견되었다 / 체코의 한 마을에서 / 엘베강을 따라 있는.
+[자연 해석]
+유럽에 500년 만에 최악의 가뭄이 닥친 2022년 여름, 엘베강을 따라 있는 체코의 한 마을에서 ‘기아석’으로 알려진 돌이 발견되었다.
+----- [/문장 1] -----
+
+----- [문장 2] -----
+[핵심 문장] 아니오
+[원문]
+The stone had a sentence written on it that read: “If you see me, then cry.”
+[혼공 끊어읽기]
+The stone had a sentence / written on it / that read: / “If you see me, / then cry.”
+[S/V] S: The stone, V: had ／ [that] V′: read ／ [If] S′: you, V′: see ／ V: cry
+[각주]
+stone — 돌 / had — 가지고 있었다 (have의 과거) / sentence — 문장 / written — 쓰인, 새겨진 / on — ~ 위에 / it — 그것 (그 돌) / that V′ — V′하던 (관계대명사) / read — (~라고) 적혀 있었다 (흔한 뜻: 읽었다) / if S′ V′ — S′(이/가) V′한다면 / see — 보다 / me — 나를 (기아석) / then — 그러면 / cry — 울다
+[구조 힌트] a sentence written on it [that read] → 그것[그 돌] 위에 쓰인, [적혀 있던] 문장 (주격 관계대명사 that)
+[구조 힌트] [If you see] → [네[이 글을 읽는 사람]가 본다면] (조건 접속사 if)
+[분석 끊어읽기 영어]
+The stone had a sentence / written on it / that read: / “If you see me, / then cry.”
+[분석 끊어읽기 한국어]
+그 돌은 한 문장을 가지고 있었다 / 그것 위에 쓰인 / 다음과 같이 적혀 있던: / “만약 네가 나를 본다면, / 그러면 울어라.”
+[자연 해석]
+그 돌에는 “나를 보면 울어라.”라는 문장이 새겨져 있었다.
+----- [/문장 2] -----
+
+----- [문장 3] -----
+[핵심 문장] 아니오
+[원문]
+The hunger stones, found in rivers across central Europe, typically remain underwater.
+[혼공 끊어읽기]
+The hunger stones, / found in rivers / across central Europe, / typically remain underwater.
+[S/V] S: The hunger stones, V: remain
+[각주]
+hunger stones — 기아석들 / found — 발견되는 / in — ~에서 / rivers — 강들 / across — ~ 전역의 / central — 중부의 / typically — 보통, 일반적으로 / remain — (~한 상태로) 남아 있다 / underwater — 물속에
+[구조 힌트] The hunger stones, [found in rivers] → [강들에서 발견되는] 기아석들 (과거분사 후치수식)
+[분석 끊어읽기 영어]
+The hunger stones, / found in rivers / across central Europe, / typically remain underwater.
+[분석 끊어읽기 한국어]
+기아석들은, / 강들에서 발견되는 / 중부 유럽 전역의, / 보통 물속에 남아 있다.
+[자연 해석]
+중부 유럽 곳곳의 강에서 발견되는 기아석들은 보통 물속에 잠겨 있다.
+----- [/문장 3] -----
+
+----- [문장 4] -----
+[핵심 문장] 아니오
+[원문]
+However, when droughts occur and water levels retreat, these stones become visible.
+[혼공 끊어읽기]
+However, / when droughts occur / and water levels retreat, / these stones become visible.
+[S/V] [when] S′: droughts, V′: occur ／ [and] S′: water levels, V′: retreat ／ S: these stones, V: become
+[각주]
+however — 하지만, 그러나 / when S′ V′ — S′(이/가) V′할 때 / droughts — 가뭄들 / occur — 발생하다, 일어나다 / water levels — 수위 / ★ retreat — (물이) 빠지다, 낮아지다 (흔한 뜻: 후퇴하다) / these — 이 / stones — 돌들 / become — ~하게 되다 / ★ visible — (눈에) 보이는
+[구조 힌트] [when droughts occur and water levels retreat] → [가뭄이 발생하고 수위가 낮아질 때] (시간 접속사 when)
+[분석 끊어읽기 영어]
+However, / when droughts occur / and water levels retreat, / these stones become visible.
+[분석 끊어읽기 한국어]
+하지만, / 가뭄이 발생할 때 / 그리고 수위가 낮아질 (때), / 이 돌들은 눈에 보이게 된다.
+[자연 해석]
+하지만 가뭄이 들어 수위가 낮아지면 이 돌들이 모습을 드러낸다.
+----- [/문장 4] -----
+
+----- [문장 5] -----
+[핵심 문장] 아니오
+[원문]
+The stones are significant because they bear records of the past severe droughts.
+[혼공 끊어읽기]
+The stones are significant / because they bear records / of the past severe droughts.
+[S/V] S: The stones, V: are ／ [because] S′: they, V′: bear
+[각주]
+stones — 돌들 / are — ~이다 / ★ significant — 중요한, 의미 있는 / because S′ V′ — S′(이/가) V′하기 때문에 / they — 그것들이 (기아석들) / ★ bear — (기록 등을) 지니다, 담고 있다 (흔한 뜻: 곰) / records — 기록들 / of — ~의 / past — 과거의 / severe — 극심한, 심각한 / droughts — 가뭄들
+[구조 힌트] [because they bear] → [그것들[기아석들]이 지니고 있기 때문에] (이유 접속사 because)
+[분석 끊어읽기 영어]
+The stones are significant / because they bear records / of the past severe droughts.
+[분석 끊어읽기 한국어]
+그 돌들은 중요하다 / 그것들이 기록들을 지니고 있기 때문에 / 과거의 극심한 가뭄들의.
+[자연 해석]
+이 돌들이 중요한 이유는 과거에 있었던 극심한 가뭄의 기록을 담고 있기 때문이다.
+----- [/문장 5] -----
+
+----- [문장 6] -----
+[핵심 문장] 아니오
+[원문]
+Droughts cause reduced harvests, food shortages, and hunger, especially for the poor.
+[혼공 끊어읽기]
+Droughts cause reduced harvests, / food shortages, and hunger, / especially for the poor.
+[S/V] S: Droughts, V: cause
+[각주]
+droughts — 가뭄들 / cause — 초래하다, 일으키다 / reduced — 줄어든 / harvests — 수확량 / food shortages — 식량 부족 / hunger — 굶주림, 기아 / especially — 특히 / for — ~에게 / the poor — 가난한 사람들
+[분석 끊어읽기 영어]
+Droughts cause reduced harvests, / food shortages, and hunger, / especially for the poor.
+[분석 끊어읽기 한국어]
+가뭄은 줄어든 수확량을 초래한다, / 식량 부족, 그리고 굶주림을, / 특히 가난한 사람들에게.
+[자연 해석]
+가뭄은 수확량 감소와 식량 부족을 불러오고, 특히 가난한 사람들에게는 굶주림을 가져온다.
+----- [/문장 6] -----
+
+----- [문장 7] -----
+[핵심 문장] 예
+[원문]
+The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.
+[혼공 끊어읽기]
+The words / on the hunger stones / are believed to warn of these hardships / and to urge people to be prepared.
+[S/V] S: The words, V: are believed
+[각주]
+words — 글귀들, 말들 / on — ~ 위의 / hunger stones — 기아석들 / be p.p. — ~되다 / believed to V — ~하는 것으로 여겨지는 / warn of — ~에 대해 경고하다 / these — 이러한 / ★ hardships — 어려움들, 고난들 / ★ urge A to V — A에게 V하라고 촉구하다 / people — 사람들 / be prepared — 대비하다, 준비가 되어 있다
+[구조 힌트] [are believed to warn] → [경고하는 것으로 여겨진다] (be believed to V 구문)
+[구조 힌트] urge people [to be prepared] → 사람들에게 [대비하라고] 촉구하다 (urge A to V 구문)
+[분석 끊어읽기 영어]
+The words / on the hunger stones / are believed to warn of these hardships / and to urge people to be prepared.
+[분석 끊어읽기 한국어]
+그 글귀들은 / 기아석들 위의 / 이러한 어려움들에 대해 경고하는 것으로 여겨진다 / 그리고 사람들에게 대비하라고 촉구하는 것으로 (여겨진다).
+[자연 해석]
+기아석에 새겨진 글귀는 이러한 어려움을 경고하고, 사람들에게 대비하라고 촉구하는 것으로 여겨진다.
+----- [/문장 7] -----
+
+----- [문장 8] -----
+[핵심 문장] 예
+[원문]
+Considering the continuation of climate change, experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades.
+[혼공 끊어읽기]
+Considering the continuation / of climate change, / experts warn / that the situation / we face / is not just a simple, occasional drought / but a severe drought / that could persist / for decades.
+[S/V] S: experts, V: warn ／ [that] S′: the situation, V′: is ／ [(that)] S′: we, V′: face ／ [that] V′: could persist
+[각주]
+considering — ~을 고려할 때 / continuation — 지속, 계속 / of — ~의 / climate change — 기후 변화 / experts — 전문가들 / warn — 경고하다 / that S′ V′ — S′(이/가) V′라고 (접속사) / situation — 상황 / we — 우리가 (사람들, 인류) / face — 직면하다 (흔한 뜻: 얼굴) / is — ~이다 / not just A but B — 단지 A가 아니라 B / simple — 단순한 / ★ occasional — 가끔 일어나는, 이따금의 / drought — 가뭄 / severe — 심각한, 극심한 / drought — 가뭄 / that V′ — V′하는 (관계대명사) / could V — ~할 수 있을 것이다 / ★ persist — 지속되다, 계속되다 / for — ~ 동안 / decades — 수십 년
+[구조 힌트] the situation [(that) we face] → [우리[사람들]가 직면한] 상황 (목적격 관계대명사 that 생략)
+[구조 힌트] a severe drought [that could persist] → [지속될 수 있는] 심각한 가뭄 (주격 관계대명사 that)
+[분석 끊어읽기 영어]
+Considering the continuation / of climate change, / experts warn / that the situation / we face / is not just a simple, occasional drought / but a severe drought / that could persist / for decades.
+[분석 끊어읽기 한국어]
+지속을 고려할 때 / 기후 변화의, / 전문가들은 경고한다 / 상황이 / 우리가 직면한 / 단지 단순하고 가끔 일어나는 가뭄이 아니라 / 심각한 가뭄이라고 / 지속될 수 있는 / 수십 년 동안.
+[자연 해석]
+기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순히 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다.
+----- [/문장 8] -----
+
+----- [문장 9] -----
+[핵심 문장] 아니오
+[원문]
+The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.
+[혼공 끊어읽기]
+The United Nations has predicted / that by 2050, / 75 percent / of the global population / could suffer from the effects / of drought / unless significant action is taken / to address climate change.
+[S/V] S: The United Nations, V: has predicted ／ [that] S′: 75 percent of the global population, V′: could suffer ／ [unless] S′: significant action, V′: is taken
+[각주]
+United Nations — United Nations (유엔, 국제 연합) / have p.p. — ~했다 / predict — 예측하다 (predicted는 predict의 p.p.형) / that S′ V′ — S′(이/가) V′라고 (접속사) / by — ~까지 / percent — 퍼센트 / of — ~의 / global — 전 세계의 / population — 인구 / could V — ~할 수 있을 것이다 / suffer from — ~으로 고통받다 / effects — 영향들 / of — ~의 / drought — 가뭄 / unless S′ V′ — S′(이/가) V′하지 않는다면 / significant — 중대한, 상당한 / action — 조치, 행동 / be p.p. — ~되다 / taken — 취해진 / to V — ~하기 위해 / address — (문제를) 다루다, 대처하다 (흔한 뜻: 주소) / climate change — 기후 변화
+[구조 힌트] [that by 2050, 75 percent of the global population could suffer] → [2050년까지 전 세계 인구의 75퍼센트가 고통받을 수 있다고] (명사절 접속사 that)
+[구조 힌트] [unless significant action is taken] → [중대한 조치가 취해지지 않는다면] (조건 접속사 unless)
+[분석 끊어읽기 영어]
+The United Nations has predicted / that by 2050, / 75 percent / of the global population / could suffer from the effects / of drought / unless significant action is taken / to address climate change.
+[분석 끊어읽기 한국어]
+유엔은 예측했다 / 2050년까지 / 75퍼센트가 / 전 세계 인구의 / 영향으로 고통받을 수 있다고 / 가뭄의 / 중대한 조치가 취해지지 않는다면 / 기후 변화에 대처하기 위해.
+[자연 해석]
+유엔은 기후 변화에 대처하기 위한 중대한 조치가 취해지지 않으면 2050년까지 전 세계 인구의 75퍼센트가 가뭄의 영향으로 고통받을 수 있다고 예측했다.
+----- [/문장 9] -----
+
+----- [분석 단위] u1 -----
+[SOURCE_RANGE] Further Reading · 원문 문장 1~9
+[제목] Stones That Warn of Drought (가뭄을 경고하는 돌)
+[글의 의도/요지]
+가뭄으로 강물이 줄어들 때 드러나는 기아석을 소개하고, 그 돌이 과거 가뭄의 기록이자 대비하라는 경고임을 설명한다. 이어서 기후 변화로 앞으로 가뭄이 더 길고 심각해질 수 있다는 전문가와 유엔의 경고를 전한다.
+[글의 흐름]
+(도입) Further Reading · 원문 문장 1~2 — 2022년 유럽의 극심한 가뭄 때 체코의 한 마을에서 기아석이 발견되었다. 그 돌에는 “나를 보면 울어라.”라고 적혀 있었다.
+(설명) Further Reading · 원문 문장 3~7 — 기아석은 평소 물속에 있다가 가뭄으로 수위가 낮아지면 드러난다. 과거 가뭄의 기록을 담고 있어 중요하며, 가뭄이 가져오는 흉작·식량 부족·굶주림을 경고하고 대비를 촉구하는 것으로 여겨진다.
+(경고) Further Reading · 원문 문장 8~9 — 전문가들은 기후 변화로 수십 년 동안 이어질 수 있는 심각한 가뭄을 경고한다. 유엔은 중대한 조치가 없으면 2050년까지 세계 인구의 75퍼센트가 가뭄의 영향을 받을 수 있다고 예측했다.
+[각 문장 쉬운 풀이]
+[2번 문장] The stone had a sentence written on it that read: “If you see me, then cry.”
+2번 문장은 1번에서 발견된 기아석에 무엇이 적혀 있었는지 알려 준다. 돌에는 “나를 보면 울어라.”라는 문장이 새겨져 있었다. 여기서 ‘나’는 말하는 돌, 곧 기아석 자신이다. 이 돌을 보게 되는 때는 울 만큼 힘든 때라는 경고다. 왜 그런 때인지는 뒤의 4~7번 문장에서 설명된다.
+[5번 문장] The stones are significant because they bear records of the past severe droughts.
+5번 문장은 4번에서 모습을 드러낸 돌들이 왜 중요한지 설명한다. 기아석에는 과거에 있었던 극심한 가뭄의 기록이 남아 있다. 사람들은 이 기록을 보고 예전에도 이런 가뭄이 있었다는 것을 알 수 있다. 그래서 기아석은 단순한 돌이 아니라 역사를 담은 자료가 된다.
+[9번 문장] The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.
+9번 문장은 8번 전문가들의 경고에 유엔의 예측을 더한다. 유엔은 2050년까지 세계 인구의 75퍼센트가 가뭄의 영향을 받을 수 있다고 예측했다. 다만 이 예측에는 조건이 붙어 있다. 기후 변화에 대처하는 중대한 조치를 취하지 않는 경우다. 이 예측은 8번 전문가들의 경고를 숫자로 뒷받침한다.
+[구문으로 해석하기]
+명사 + p.p.: p.p.된(한) 명사 [1번 문장]: a stone known as a “hunger stone” — 공식: 명사(N) + p.p. — p.p.된(한) N. N = a stone(한 돌), p.p. = known(알려진), as a “hunger stone” = ‘기아석’으로. → ‘기아석’으로 알려진 돌. 돌이 스스로 알리는 것이 아니라 ‘기아석’이라고 알려진(불리는) 쪽이라 과거분사 known이 뒤에서 꾸민다. 이 명사구 전체가 문장의 주어다.
+be believed to V: V하는 것으로 여겨지다 [7번 문장]: are believed to warn of these hardships and to urge people to be prepared — 공식: be believed to V — V하는 것으로 여겨지다(믿어지다). be believed = are believed(여겨진다), V = warn of these hardships(이러한 어려움들에 대해 경고하다)와 urge people to be prepared(사람들에게 대비하라고 촉구하다). → 이러한 어려움들에 대해 경고하고 사람들에게 대비하라고 촉구하는 것으로 여겨진다. and 뒤의 to urge도 같은 are believed에 이어진다.
+not just A but B: 단지 A가 아니라 B [8번 문장]: is not just a simple, occasional drought but a severe drought — 공식: not just A but B — 단지 A가 아니라 B. A = a simple, occasional drought(단순하고 가끔 일어나는 가뭄), B = a severe drought(심각한 가뭄). → 단지 단순하고 가끔 일어나는 가뭄이 아니라 심각한 가뭄. 앞의 the situation … is(상황은 ~이다)와 합치면 ‘상황이 단지 단순하고 가끔 일어나는 가뭄이 아니라 심각한 가뭄이다’가 되며, 강조하려는 내용은 B다.
+be p.p.: ~되다 (was found: 발견되었다) [1번 문장]: was found — 공식: be p.p. — ~되다. be = was(과거), p.p. = found(발견된, find의 p.p.형). → was found = 발견되었다. 돌이 무언가를 발견한 것이 아니라 사람들에게 ‘발견된’ 쪽이라 수동(be p.p.)을 쓴다. 주어 a stone과 합치면 ‘돌이 발견되었다’.
+have p.p.: ~했다 (has predicted: 예측했다) [9번 문장]: The United Nations has predicted — 공식: have p.p. — ~했다. have = has(주어가 단일 기관 The United Nations), p.p. = predicted(predict의 p.p.형; predict = 예측하다). → has predicted = 예측했다(이미 예측해 둔 상태). 주어 The United Nations(유엔)와 합치면 ‘유엔은 예측했다’.
+[유의어·반의어]
+표제어: visible ((눈에) 보이는) / 유의어: noticeable (눈에 띄는) / 반의어: invisible (보이지 않는)
+표제어: significant (중요한, 의미 있는) / 유의어: important (중요한) / 반의어: insignificant (사소한, 하찮은)
+표제어: persist (지속되다, 계속되다) / 유의어: continue (계속되다) / 반의어: cease (그치다, 멈추다)
+----- [/분석 단위] -----
+===== [/지문] =====
