@@ -22,6 +22,9 @@ INSTRUCTION = ('2026-09-29 사용자 선택 “워크북 1 + 모의 1회 5문항
                '워크북 실전문제 1문항 + 미니 모의고사 1회 5문항(일반 3 + 공유 장문 제목·어휘 2). '
                '공유 장문은 전체 원문이지만 고1 장문 표본보다 짧아 독립 검수에서 분량을 확인한다.')
 
+MOCK_LENGTH_NOTE = (' 원문 전체가 175단어라, 회차 안 지문 범위를 서로 다르게 하고 어휘 문항 밑줄이 다른 지문에 드러나지 않도록 '
+                    '짧게 발췌함. 4단계 M·N 독립 검수에서 근거가 지문 안에서 해결되어 수용 가능함을 확인.')
+
 Q = []  # 작성 순서 = 출력 순서
 
 
@@ -36,24 +39,23 @@ q(id='Q01', set_id='workbook', number=1, unit_id='u1', type='내용', first='s01
            'The stones become noticeable when water levels drop in dry times.',
            'The stones are important because they carry records of past droughts.',
            'Experts expect the coming drought to cease within a short time.',
-           'Without significant action, most people in the world could suffer from drought by 2050.'],
+           'Without action on climate change, most people in the world could suffer from drought by 2050.'],
   answer=4,
   uses=[('u1-r1a', 1, 'invisible', 'visible의 반의어 invisible(보이지 않는)의 뜻을 알아야 돌이 보통 물속에 잠겨 있다는 본문 내용과 비교할 수 있음'),
         ('u1-r1s', 2, 'noticeable', 'visible과 같은 뜻의 noticeable(눈에 띄는)을 알아야 수위가 내려가면 돌이 보이게 된다는 본문 내용과 연결할 수 있음'),
         ('u1-r2s', 3, 'important', 'significant와 같은 뜻의 important(중요한)를 알아야 “The stones are significant because …”와 같은 내용임을 판단할 수 있음'),
-        ('u1-r3a', 4, 'cease', 'persist의 반의어 cease(그치다)의 뜻을 알아야 가뭄이 수십 년 지속될 수 있다는 본문과 반대임을 판단할 수 있음'),
-        ('u1-r2h', 5, 'significant', 'significant(중요한, 의미 있는)의 뜻을 알아야 상당한 조치가 없으면 피해가 생긴다는 선지를 해석할 수 있음')],
+        ('u1-r3a', 4, 'cease', 'persist의 반의어 cease(그치다)의 뜻을 알아야 가뭄이 수십 년 지속될 수 있다는 본문과 반대임을 판단할 수 있음')],
   evidence='experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades.',
   explanation='전문가들은 우리가 마주한 상황이 단순하고 이따금 있는 가뭄이 아니라 수십 년 동안 지속될 수 있는 심각한 가뭄이라고 경고한다. 따라서 다가올 가뭄이 짧은 기간 안에 그칠 것으로 예상한다는 ④는 글의 내용과 일치하지 않는다.',
   choices_ko=['기아석은 보통 강물 속에서 보이지 않는 채로 있다.',
               '그 돌들은 건조한 시기에 수위가 내려가면 눈에 띄게 된다.',
               '그 돌들은 과거 가뭄의 기록을 담고 있기 때문에 중요하다.',
               '전문가들은 다가올 가뭄이 짧은 기간 안에 그칠 것으로 예상한다.',
-              '상당한 조치가 없으면 2050년까지 세계 대부분의 사람들이 가뭄으로 고통받을 수 있다.'],
+              '기후 변화에 대한 조치가 없으면 2050년까지 세계 대부분의 사람들이 가뭄으로 고통받을 수 있다.'],
   wrong={1: '“The hunger stones … typically remain underwater.”와 일치한다.',
          2: '“when droughts occur and water levels retreat, these stones become visible”과 일치한다.',
          3: '“The stones are significant because they bear records of the past severe droughts.”와 일치한다.',
-         5: '2050년까지 세계 인구의 75퍼센트가 가뭄의 영향으로 고통받을 수 있다고 했고, 상당한 조치가 취해지지 않는다면(unless significant action is taken)이라는 조건과도 일치한다.'})
+         5: '2050년까지 세계 인구의 75퍼센트(4명 중 3명, 즉 대부분)가 가뭄의 영향으로 고통받을 수 있다고 했고, 기후 변화에 대처하는 상당한 조치가 취해지지 않는다면(unless significant action is taken to address climate change)이라는 조건과도 일치한다.'})
 
 
 # ================================================================ 미니 모의고사 1회
@@ -102,50 +104,50 @@ q(id='Q03', set_id='mock1', number=2, type='함축 의미', first='s01', last='s
          5: '물이 얕아진다는 점은 맞지만, 수영의 위험에 대한 내용은 없고 가뭄으로 인한 굶주림을 말한다.'})
 
 q(id='Q04', set_id='mock1', number=3, type='요약', first='s01', last='s07',
-  summary='Hunger stones, which can be (A) ________ only when droughts lower the water in rivers, are believed to (B) ________ people to the hardships that droughts bring.',
+  summary='Hunger stones, which can be (A) ________ only when droughts lower the water in rivers, are believed to (B) ________ people of the hardships that droughts bring.',
   question='다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?',
-  choices=['hidden …… alert',
-           'seen …… alert',
-           'seen …… blame',
-           'dry …… comfort',
-           'hidden …… reward'],
+  choices=['hidden …… remind',
+           'seen …… remind',
+           'seen …… relieve',
+           'buried …… assure',
+           'hidden …… relieve'],
   answer=2,
   evidence='However, when droughts occur and water levels retreat, these stones become visible. / The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.',
-  explanation='기아석은 가뭄이 들어 수위가 내려갈 때 보이게 되고(visible), 돌의 글은 가뭄이 가져오는 고난을 경고하고 대비하라고 촉구하는 것으로 여겨진다. 따라서 (A) seen(보이는), (B) alert(경고하다, 알리다)인 ②가 알맞다.',
-  choices_ko=['숨겨진 …… 경고하다', '보이는 …… 경고하다', '보이는 …… 탓하다', '마른 …… 위로하다', '숨겨진 …… 보상하다'],
-  wrong={1: '(B) alert는 맞지만, 기아석은 가뭄 때 숨겨지는 것이 아니라 드러나므로(become visible) (A) hidden은 반대다.',
-         3: '(A) seen은 맞지만, 돌의 글은 사람들을 탓하는 것이 아니라 고난을 경고한다.',
-         4: '돌이 마르는지는 요점이 아니고, 돌의 글은 사람들을 위로하는 것이 아니라 대비하라고 촉구한다.',
-         5: '기아석은 가뭄 때 드러나며, 사람들에게 보상하는 내용은 없다.'})
+  explanation='기아석은 가뭄이 들어 수위가 내려갈 때 보이게 되고(visible), 돌의 글은 가뭄이 가져오는 고난을 경고하는(warn of) 것으로 여겨진다. 따라서 (A) seen(보이는), (B) remind(A에게 B를 일깨우다)인 ②가 알맞다.',
+  choices_ko=['숨겨진 …… 일깨우다', '보이는 …… 일깨우다', '보이는 …… 덜어 주다', '묻힌 …… 확신시키다', '숨겨진 …… 덜어 주다'],
+  wrong={1: '(B) remind는 맞지만, 기아석은 가뭄 때 숨겨지는 것이 아니라 드러나므로(become visible) (A) hidden은 반대다.',
+         3: '(A) seen은 맞지만, 돌의 글은 사람들의 고난을 덜어 주는(relieve A of B) 것이 아니라 고난을 경고한다.',
+         4: '돌의 글은 고난이 오지 않는다고 안심시키거나 확신시키는(assure A of B) 것이 아니라 고난을 경고한다. 또 기아석은 가뭄 때 물 밖으로 드러나므로 (A) buried(묻힌)도 맞지 않다.',
+         5: '기아석은 가뭄 때 드러나며(hidden은 반대), 돌의 글은 고난을 덜어 주는 것이 아니라 경고한다.'})
 
 # 공유 장문(Q05 제목·Q06 어휘): 전체 원문 s01~s09
 q(id='Q05', set_id='mock1', number=4, type='제목', first='s01', last='s09', group='G1',
   question='윗글의 제목으로 가장 적절한 것은?',
   choices=['Hunger Stones: Old Warnings for a Drier Future',
-           'How to Find Stones Hidden Under Rivers',
-           'Why Europe’s Rivers Are Getting Deeper',
-           'The Czech Town That Became Famous for Crying',
-           'Farming Methods That Prevent Food Shortages'],
+           'The Hunger Stone: A Rare Find in a Czech Town',
+           'How Droughts Helped Europe Grow More Food',
+           'Climate Change: Why Rivers Rise Every Summer',
+           'Ancient Stones That Predicted Floods in Europe'],
   answer=1,
-  evidence='The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.',
+  evidence='The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared. / The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.',
   explanation='가뭄 때 드러나는 기아석은 과거 가뭄의 기록이자 고난에 대비하라는 경고이고, 전문가와 유엔은 기후 변화로 심각한 가뭄이 오래 지속될 수 있다고 경고한다. 따라서 옛 경고가 더 건조해질 미래에도 의미가 있다는 ①이 제목으로 가장 적절하다.',
-  choices_ko=['기아석: 더 건조한 미래를 위한 옛 경고',
-              '강 아래 숨겨진 돌을 찾는 방법',
-              '유럽의 강들이 더 깊어지고 있는 이유',
-              '울음으로 유명해진 체코 마을',
-              '식량 부족을 막는 농사 방법'],
-  wrong={2: '돌을 찾는 방법은 다루지 않는다.',
-         3: '가뭄 때 수위가 내려간다(water levels retreat)고 했으므로 강이 깊어진다는 것은 반대다.',
-         4: '체코 마을은 기아석이 발견된 장소로만 나오며, 마을이 유명해진 이야기가 아니다.',
-         5: '식량 부족은 가뭄의 결과로 언급될 뿐, 그것을 막는 농사 방법은 나오지 않는다.'})
+  choices_ko=['기아석: 더 건조한 미래에 대한 옛 경고',
+              '기아석: 체코 마을에서의 드문 발견',
+              '가뭄이 유럽의 식량 증산을 도운 방법',
+              '기후 변화: 강물이 매년 여름 불어나는 이유',
+              '유럽의 홍수를 예고한 옛 돌들'],
+  wrong={2: '체코 마을에서의 발견은 글을 시작하는 사례일 뿐이고, 글은 기아석의 의미와 앞으로의 가뭄 경고까지 다룬다.',
+         3: '가뭄은 수확 감소와 식량 부족을 일으킨다고 했으므로 반대다.',
+         4: '가뭄 때 수위가 내려간다(water levels retreat)고 했으므로 강물이 불어난다는 것은 반대다.',
+         5: '기아석은 홍수가 아니라 가뭄 때 드러나 가뭄의 고난을 경고한다.'})
 
 q(id='Q06', set_id='mock1', number=5, type='어휘', first='s01', last='s09', group='G1',
   marks=[('continuation', 's08'), ('occasional', 's08'), ('persist', 's08'), ('global', 's09'), ('address', 's09')],
   replace=('persist', 'cease'),
   question='윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?',
   answer=3,
-  evidence='experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades.',
-  explanation='not just A but B 구조로 단순하고 이따금 있는 가뭄(A)이 아니라 더 심각한 상황(B)을 말한다. 기후 변화가 계속되는 것을 고려하면 그 심각한 가뭄은 수십 년 동안 지속될(persist) 수 있어야 문맥에 맞다. 따라서 ③의 cease(그치다)는 적절하지 않다.',
+  evidence='experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could cease for decades.',
+  explanation='(원문 낱말: persist) not just A but B 구조로 단순하고 이따금 있는 가뭄(A)이 아니라 더 심각한 상황(B)을 말한다. 기후 변화가 계속되는 것을 고려하면 그 심각한 가뭄은 수십 년 동안 지속될(persist) 수 있어야 문맥에 맞다. 따라서 ③의 cease(그치다)는 적절하지 않다.',
   wrong={1: '기후 변화의 계속(continuation)을 고려한다는 뜻으로, 가뭄이 오래갈 것이라는 경고의 근거가 된다.',
          2: '단순하고 이따금 있는(occasional) 가뭄이 아니라는 뜻으로, 뒤의 오래 지속되는 심각한 가뭄과 대조된다.',
          4: '2050년까지 세계(global) 인구의 75퍼센트가 영향을 받을 수 있다는 뜻으로 적절하다.',
@@ -205,7 +207,8 @@ def attach(data):
         short = lc['shorter_than_all_references']
         rationale = (f"{'공유 장문 41~42' if grouped else kind} 고1 표본 {refs}단어와 비교해 현재 {lc['assessment_word_count']}단어. "
                      + (BENCH_SHORT_NOTE if short else '표본 범위 이상으로 너무 짧지 않음. ')
-                     + '연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.')
+                     + '연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.'
+                     + (MOCK_LENGTH_NOTE if row['set_id'] != 'workbook' else ''))
         req['length_review'] = {'profile_id': LENGTH_PROFILE_ID, 'grade': GRADE,
                                 'benchmark_ids': recommended_benchmarks(GRADE, bench_type), 'rationale': rationale}
         if short:
