@@ -426,27 +426,27 @@ QUESTION:
 PASSAGE:
 Unfortunately, becoming an accidental distributor of fake news like Gina is not unusual. Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. It is made by certain groups with the intention of attracting people’s attention, making profits, or gaining political benefits. It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved. It is very common for fake news to spread during states of emergency. For example, after an earthquake measuring 6.5 struck Ambon, Indonesia, in September 2019, thousands of residents did not return to their homes and were still in shelters for two weeks. This was because of fake news stories on social media that another earthquake followed by a tsunami was about to strike. One of those messages said, “It’s up to you if you want to believe me or not, but apparently Ambon is going to sink in the next few days.” Many displaced people were so anxious about aftershocks that the government had to announce that the information was fake.
 CHOICES:
-① Most fake news is created by ordinary people who share stories by mistake.
+① Fake news spreads mainly because people share it by mistake, not on purpose.
 ② Governments are the main cause of false information during natural disasters.
 ③ Fake news, made on purpose to mislead people, can cause serious harm, especially in emergencies.
-④ Earthquakes cause far more confusion than any kind of false information.
+④ After an earthquake, thousands of Ambon residents spent two weeks away from their homes.
 ⑤ Social media helps people get accurate safety information quickly in emergencies.
 ANSWER:
 3
 EVIDENCE:
 Fake news is a deliberate attempt to manipulate people by spreading inaccurate information. / It can confuse people, disturb society, and even seriously harm the public as well as all individuals involved. / It is very common for fake news to spread during states of emergency.
 EXPLANATION:
-가짜 뉴스는 사람들을 조종하려는 의도적인 시도로, 사람들을 혼란스럽게 하고 사회에 심각한 해를 끼칠 수 있으며, 특히 비상사태 때 흔히 퍼진다. 암본 지진 사례는 이를 보여 준다. 따라서 ③이 요지다.
+가짜 뉴스는 사람들을 조종하려는 의도적인 시도로, 사람들을 혼란스럽게 하고 사회를 어지럽히며 대중에게 심각한 해를 끼칠 수 있고, 특히 비상사태 때 흔히 퍼진다. 암본 지진 사례는 이를 보여 준다. 따라서 ③이 요지다.
 WRONG_ANALYSIS:
-① 가짜 뉴스는 특정 집단이 의도를 가지고 만든다고 했다. 지나처럼 실수로 퍼뜨리는 사람이 있다는 것과 만드는 사람은 구별된다.
+① 지나처럼 실수로 퍼뜨리는 일이 드물지 않다고는 했지만, 가짜 뉴스가 ‘주로’ 실수 때문에 퍼진다고 하지는 않았다. 오히려 가짜 뉴스는 특정 집단이 목적을 가지고 사람들을 조종하려고 만든 의도적인 시도라고 했으므로 요지가 될 수 없다.
 ② 정부는 오히려 정보가 가짜라고 발표해 바로잡았다.
-④ 지진과 가짜 뉴스의 혼란을 비교하는 내용은 없으며, 주민들이 대피소에 남은 것은 가짜 뉴스 때문이었다.
+④ 주민들이 2주 동안 집을 떠나 지낸 것은 비상사태에 가짜 뉴스가 끼치는 해를 보여 주는 예시의 세부 내용일 뿐, 글 전체의 요지가 아니다.
 ⑤ 소셜 미디어에서 퍼진 가짜 뉴스 때문에 주민들이 집에 돌아가지 못했으므로 반대 내용이다.
 CHOICES_KR:
-① 대부분의 가짜 뉴스는 실수로 이야기를 공유하는 평범한 사람들이 만든다.
+① 가짜 뉴스는 주로 사람들이 일부러가 아니라 실수로 공유하기 때문에 퍼진다.
 ② 정부가 자연재해 동안 거짓 정보의 주된 원인이다.
 ③ 사람들을 속이려고 일부러 만든 가짜 뉴스는 특히 비상사태에 심각한 해를 끼칠 수 있다.
-④ 지진은 어떤 거짓 정보보다 훨씬 더 큰 혼란을 일으킨다.
+④ 지진 후 수천 명의 암본 주민이 2주 동안 집을 떠나 지냈다.
 ⑤ 소셜 미디어는 비상사태에 사람들이 정확한 안전 정보를 빨리 얻도록 돕는다.
 [/Q05]
 
@@ -558,7 +558,7 @@ EXPLANATION:
 가짜 뉴스가 진짜 이야기보다 훨씬 빨리 퍼진다는 사실을 제시하고, 그 이유 세 가지(새롭고 자극적인 것을 좋아함, 단순하게 생각함, 확증 편향)를 설명한다. 따라서 ⑤가 제목으로 가장 적절하다.
 WRONG_ANALYSIS:
 ① 소셜 미디어의 가짜 뉴스가 더 빨리 퍼진다고 했을 뿐, 사실 확인을 돕는다는 내용은 없다.
-② 선거철에 사람들은 지지 후보에게 유리한 뉴스를 맹목적으로 믿는다고 했으므로 반대 내용이다.
+② 선거 뉴스가 공정한지는 다루지 않으며, 선거철은 사람들이 자기 믿음에 맞는 뉴스를 맹목적으로 믿는 확증 편향의 예로만 나온다.
 ③ MIT 연구 결과는 가짜 뉴스가 빠르다는 근거로 쓰였을 뿐, 측정 방법은 다루지 않는다.
 ④ 사람들이 비판적으로 검토하지 않고 믿기 때문에 퍼진다고 했으므로 비판적 사고가 원인이라는 것은 반대다.
 CHOICES_KR:
@@ -732,7 +732,7 @@ CHOICES:
 ② Read Smart: How Not to Be Fooled by Fake News
 ③ Why Biased News Is Better Than No News
 ④ The Digital Age Has Finally Ended Fake News
-⑤ How to Write News That Gets More Clicks
+⑤ Check Your Biases: The One Rule for Reading News
 ANSWER:
 2
 EVIDENCE:
@@ -741,15 +741,15 @@ EXPLANATION:
 가짜 뉴스에 속지 않는 네 가지 방법(헤드라인 너머 읽기, 곧이곧대로 읽지 않기, 편견 점검, 출처 신뢰성 확인)을 제시하고, 비판적·객관적 태도로 피해를 줄일 수 있다고 강조한다. 따라서 ②가 제목으로 가장 적절하다.
 WRONG_ANALYSIS:
 ① 헤드라인만 읽지 말고 본문을 주의 깊게 읽으라고 했으므로 반대 내용이다.
-③ 편견을 점검하고 반대 의견의 기사도 찾으라고 했을 뿐, 편향된 뉴스가 낫다는 내용은 없다.
+③ 자기 의견에 맞는 기사만 읽고 있지 않은지 스스로 점검하라고 했을 뿐, 편향된 뉴스가 낫다는 내용은 없다.
 ④ 디지털 시대에 모든 거짓 정보를 없애는 것은 불가능할지도 모른다고 했으므로 반대 내용이다.
-⑤ 클릭을 노린 자극적인 헤드라인을 조심하라는 글이지, 클릭을 얻는 뉴스 작성법을 다루지 않는다.
+⑤ 편견 점검은 글이 제시한 네 가지 방법 중 하나일 뿐이며, 글은 이를 유일한 규칙이라고 하지 않는다.
 CHOICES_KR:
 ① 헤드라인이 당신이 알아야 할 모든 것을 알려 준다
 ② 똑똑하게 읽기: 가짜 뉴스에 속지 않는 방법
 ③ 왜 편향된 뉴스가 뉴스가 없는 것보다 나은가
 ④ 디지털 시대가 마침내 가짜 뉴스를 끝냈다
-⑤ 더 많은 클릭을 얻는 뉴스를 쓰는 방법
+⑤ 편견을 점검하라: 뉴스 읽기의 단 하나의 규칙
 [/Q13]
 
 [Q14]
@@ -794,11 +794,11 @@ With so much information on the Internet, how can you make sure that fake news d
 [요약문]
 To avoid being misled by fake news, you should judge the news (A) ________ and check whether it comes from a (B) ________ source.
 CHOICES:
-① quickly …… popular
-② critically …… popular
+① critically …… popular
+② objectively …… familiar
 ③ quickly …… trustworthy
 ④ critically …… trustworthy
-⑤ emotionally …… famous
+⑤ emotionally …… trustworthy
 ANSWER:
 4
 EVIDENCE:
@@ -806,16 +806,16 @@ Exercise critical thinking skills to judge the news. / You also need to check wh
 EXPLANATION:
 글은 가짜 뉴스에 속지 않으려면 헤드라인 너머 본문을 읽고, 비판적 사고로 뉴스를 판단하며, 자신의 편견을 점검하고, 출처가 믿을 만한지 확인하라고 한다. 따라서 (A) critically(비판적으로), (B) trustworthy(신뢰할 수 있는)인 ④가 알맞다.
 WRONG_ANALYSIS:
-① 뉴스를 빨리 판단하라는 내용은 없고 비판적으로 판단하라고 했으며, 출처는 인기가 아니라 믿을 만한지를 확인해야 한다.
-② (A)는 맞지만, 출처가 인기 있는지가 아니라 믿을 만한 미디어 출처인지를 확인하라고 했다.
+① (A)는 맞지만, 출처가 인기 있는지가 아니라 믿을 만한 미디어 출처인지를 확인하라고 했다.
+② (A)의 objectively는 정보를 객관적으로 보라는 글의 내용과 맞지만, 출처가 익숙한지가 아니라 믿을 만한지를 확인하라고 했다.
 ③ (B)는 맞지만, 뉴스를 빨리 판단하라는 내용은 없고 비판적으로 판단하라고 했다.
-⑤ 감정이 아니라 비판적·객관적으로 보라고 했으며, 출처가 유명한지가 아니라 믿을 만한지를 확인하라고 했다.
+⑤ (B)는 맞지만, 뉴스를 감정적으로 판단하라는 내용은 없고 비판적·객관적으로 판단하라고 했다.
 CHOICES_KR:
-① 빨리 …… 인기 있는
-② 비판적으로 …… 인기 있는
+① 비판적으로 …… 인기 있는
+② 객관적으로 …… 익숙한
 ③ 빨리 …… 신뢰할 수 있는
 ④ 비판적으로 …… 신뢰할 수 있는
-⑤ 감정적으로 …… 유명한
+⑤ 감정적으로 …… 신뢰할 수 있는
 [/Q15]
 
 [Q16]
