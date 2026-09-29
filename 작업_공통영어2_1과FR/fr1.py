@@ -168,7 +168,7 @@ def sentences(T):
            span='any situation in which you only hear', label='전치사 + 관계대명사 in which',
            links=[(['in which'], ['이', '는'])], refs=[('you', '당신', '[독자]')],
            meaning='당신[독자]이 (의견들을) 듣기만 하는 모든 상황',
-           explanation='선행사 any situation을 in which(그 상황 안에서)가 받아 you only hear opinions …가 꾸민다. S′ you, V′ hear까지 표시하고 부사 only는 보존, 목적어 opinions 이하는 제외.')
+           explanation='선행사 any situation을 in which(그 상황 안에서)가 받아 you only hear opinions …가 꾸민다. S′ you, V′ hear까지 표시하고 부사 only는 보존, 목적어 opinions 이하는 제외. only는 뒤의 opinions를 한정하지만(u1-gp2) 절 연결 힌트는 목적어를 표시하지 않아 한국어에서 ‘듣기만 하는’으로 옮김(L재검수 R-01 판단 기록).')
     s.hint('opinions [(that) you already agree with]', '[당신[독자]이 이미 동의하는] 의견들',
            span='opinions you already agree with', label='목적격 관계대명사 that 생략', display_mode='omitted-relative',
            omitted_relative='that', links=[(['that'], ['이', '는'])], refs=[('you', '당신', '[독자]')],
