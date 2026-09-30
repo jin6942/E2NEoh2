@@ -1,0 +1,4924 @@
+{
+  "schema_version": 1,
+  "purpose": "REVIEW_INPUT_PACKET_NOT_FINAL",
+  "status": "NOT_FINAL",
+  "certification": "NOT_CERTIFIED",
+  "role": "learning",
+  "input_digest": {
+    "content_sha256": "b4ef3394dd0996048810970a3b5c782328f27577c3a0bc7ca632b826732cbaa1",
+    "canonical_full_json_sha256": "b4ef3394dd0996048810970a3b5c782328f27577c3a0bc7ca632b826732cbaa1",
+    "file_sha256": "d7692073d88dbdf55a5272f80d7c7334cfe6223a4aa09b2c740a33943a43533a",
+    "file_sha256_status": "EXACT_INPUT_BYTES"
+  },
+  "current_rules": [
+    {
+      "path": "SKILL.md",
+      "sha256": "f4b6e53dd36c0b3132f608a45156c868d7429b97bb7115b8017d230fe67a3d5f"
+    },
+    {
+      "path": "references/editorial-core.md",
+      "sha256": "620678de7335f75152ffa190d8139d31ffc1e03316825d62b202de32ee385396"
+    },
+    {
+      "path": "references/workflow.md",
+      "sha256": "dc6f355b56fa30110cb99864a1dbd6bb60fc3b27416e4a4b7ad7b4850543f958"
+    },
+    {
+      "path": "references/layout-rules.md",
+      "sha256": "de911e443e52b5df776c2ae7827635315ca248bf717cf29026e8c89b04b75d67"
+    },
+    {
+      "path": "references/runtime-and-data.md",
+      "sha256": "8e2fa22f7ada9cd5cbe5c0f28bc8852a4c230ec6acf36f1d750e966bb1b16b6c"
+    },
+    {
+      "path": "references/handoff-format.md",
+      "sha256": "e9b3ed617a7c3c90b079710c97431fac9ab41b1e84bf455f6bb803006e079619"
+    },
+    {
+      "path": "references/common-errors.md",
+      "sha256": "058db2bf1c0fb67cc43927a6a53cf8cd122e55ef54ca2db944ceaddaaf41c2e8"
+    },
+    {
+      "path": "references/current-revision.md",
+      "sha256": "13eaf6cedead59261a01bfd004034e807b73cecc2f69481cf8fb3ebd5ce74842"
+    },
+    {
+      "path": "references/manuscript-data.md",
+      "sha256": "5be58a9b8ed167dbf6235810964657f69bc571a66991cc0480ee974470898a5b"
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "42b57e1bc8e19542d160fb4c40a32691b3645bc493c7a23d6468f9245cf6e7a1"
+    },
+    {
+      "path": "references/review-efficiency.md",
+      "sha256": "37218e5b5973f1a368fe4bc32622fab0a90c09308bdaaafcab7150203052147d"
+    },
+    {
+      "path": "references/analysis-content.md",
+      "sha256": "b540184bc73f36428fbcf73dd77586bf34f5603808113cbedd6cc1ae276e1725"
+    },
+    {
+      "path": "references/gloss-rules.md",
+      "sha256": "3ee1cfa3708813a9f2f716b8099cf9898d91f672e2c0754939dd3b6a2d4465f7"
+    },
+    {
+      "path": "references/grammar-labels.md",
+      "sha256": "955df3a855b8891e1a9a0220bcff36567c2dc1cdaddc355ef3cf947734339ac3"
+    },
+    {
+      "path": "references/preposition-meanings.md",
+      "sha256": "2d4925a74820229d6a18fa3d5560f5469d7480cac5e8a211f58635723062a966"
+    },
+    {
+      "path": "references/proper-nouns.md",
+      "sha256": "0fc99a1aad355e4a3241bb0d758ae15d8bc142ad17150d54577f2646e1b7aebe"
+    }
+  ],
+  "review_contract": {
+    "independent_review": "NOT_PERFORMED",
+    "approval_reuse": "NOT_IMPLEMENTED",
+    "complete_final_required": true,
+    "existing_release_gate_unchanged": true,
+    "required_independent_question_solvers": 2,
+    "context_is_not_assigned_or_reviewed": true,
+    "unresolved_items": "CONSULT_CURRENT_HANDOFF_SEPARATELY; NOT_CLEARED_BY_PACKET"
+  },
+  "scope": {
+    "assigned": {
+      "unit_ids": [
+        "u1"
+      ],
+      "sentence_refs": [
+        {
+          "source_id": "src",
+          "sentence_id": "s01"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s02"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s03"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s04"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s05"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s06"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s07"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s08"
+        },
+        {
+          "source_id": "src",
+          "sentence_id": "s09"
+        }
+      ]
+    },
+    "context_only": {
+      "source_ids": [
+        "src"
+      ],
+      "unit_ids": [],
+      "sentence_refs": []
+    },
+    "whole_stage_assigned": true,
+    "cross_unit_consistency_review": "NOT_PERFORMED"
+  },
+  "selected_data": {
+    "metadata": {
+      "book_name": "공통영어2 YBM(박준언) 1과 Further Reading",
+      "course": "공통영어2",
+      "publisher_author": "YBM(박준언)",
+      "lesson": "1과",
+      "lesson_id": "UNIT01",
+      "syntax_training_version": 1
+    },
+    "units": [
+      {
+        "id": "u1",
+        "source_id": "src",
+        "paragraph_ids": [
+          "p01"
+        ],
+        "sentence_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s04",
+          "s05",
+          "s06",
+          "s07",
+          "s08",
+          "s09"
+        ],
+        "today_words": [
+          {
+            "id": "u1-w1",
+            "text": "selectively",
+            "meaning_ko": "선택적으로, 골라서",
+            "source_gloss_id": "s01-g10"
+          },
+          {
+            "id": "u1-w2",
+            "text": "perspectives",
+            "meaning_ko": "관점들, 시각들",
+            "source_gloss_id": "s02-g06"
+          },
+          {
+            "id": "u1-w3",
+            "text": "alternative",
+            "meaning_ko": "대안적인, 다른",
+            "source_gloss_id": "s02-g09"
+          },
+          {
+            "id": "u1-w4",
+            "text": "echo chamber",
+            "meaning_ko": "에코 챔버, 반향실",
+            "source_gloss_id": "s02-g16"
+          },
+          {
+            "id": "u1-w5",
+            "text": "enclosed",
+            "meaning_ko": "밀폐된, 둘러싸인",
+            "source_gloss_id": "s03-g03"
+          },
+          {
+            "id": "u1-w6",
+            "text": "distort",
+            "meaning_ko": "왜곡하다, 비틀다",
+            "source_gloss_id": "s05-g03"
+          },
+          {
+            "id": "u1-w7",
+            "text": "collaboration",
+            "meaning_ko": "협력, 공동 작업",
+            "source_gloss_id": "s06-g09"
+          },
+          {
+            "id": "u1-w8",
+            "text": "keep an open mind",
+            "meaning_ko": "열린 마음을 유지하다",
+            "source_gloss_id": "s08-g06"
+          }
+        ],
+        "analysis": {
+          "heading_kind": "제목",
+          "title_or_topic_en": "Breaking Out of the Echo Chamber",
+          "title_or_topic_ko": "에코 챔버에서 벗어나기",
+          "intent_ko": "자기가 동의하는 의견만 듣게 되는 ‘에코 챔버’가 무엇이고 어떤 해를 끼치는지 설명한 뒤, 다양한 정보와 다른 견해를 적극적으로 접하며 열린 마음을 가지라고 당부하는 글이다.",
+          "flow": [
+            {
+              "sentence_ids": [
+                "s01",
+                "s02"
+              ],
+              "label": "문제 제기",
+              "text_ko": "요즘 사람들은 인터넷과 소셜 미디어로 뉴스를 접하면서 자신의 취향이나 신념에 맞는 정보만 골라 받아들이곤 한다. 다른 견해를 고려하지 않고 비슷한 관점만 계속 접하면 에코 챔버에 갇힐 수 있다."
+            },
+            {
+              "sentence_ids": [
+                "s03",
+                "s04"
+              ],
+              "label": "개념 설명",
+              "text_ko": "에코 챔버는 원래 소리가 새지 않고 메아리로 되돌아오는 밀폐된 공간이다. 이 말은 이미 동의하는 의견만 듣는 상황을 가리킬 때도 쓰인다."
+            },
+            {
+              "sentence_ids": [
+                "s05",
+                "s06"
+              ],
+              "label": "문제점",
+              "text_ko": "에코 챔버는 현실에 대한 이해를 왜곡하고 비판적으로 생각하고 토론하는 능력을 제한할 수 있다. 더 나아가 사회적 분열을 조장해 공통 문제에 대한 협력을 어렵게 만들 수 있다."
+            },
+            {
+              "sentence_ids": [
+                "s07",
+                "s08",
+                "s09"
+              ],
+              "label": "해결 방법",
+              "text_ko": "이 함정을 피하려면 다양한 정보 출처를 찾고 다른 견해를 가진 사람들과 교류해야 한다. 받은 정보를 확인하고 열린 마음을 유지하며, 원하는 것이 곧 사실은 아니라는 점을 기억해야 한다."
+            }
+          ],
+          "easy_explanations": [
+            {
+              "sentence_id": "s02",
+              "explanatory_sentences": [
+                "2번 문장은 1번에서 말한 ‘골라 받아들이는 습관’이 어떤 결과를 낳는지 알려 준다.",
+                "비슷한 관점만 계속 보고 다른 견해는 생각해 보지 않는 경우를 말한다.",
+                "이런 습관이 이어지면 사람은 자신과 같은 생각만 듣는 공간에 갇힐 수 있다.",
+                "글쓴이는 이 공간을 ‘에코 챔버’라고 부르며 글의 중심 소재로 삼는다."
+              ]
+            },
+            {
+              "sentence_id": "s06",
+              "explanatory_sentences": [
+                "6번 문장은 5번에 이어 에코 챔버의 더 큰 문제를 말한다.",
+                "5번이 한 사람의 생각과 토론 능력에 미치는 영향을 말했다면, 6번은 사회 전체에 미치는 영향을 말한다.",
+                "사람들이 각자 자기 생각만 들으면 서로 나뉘는 사회적 분열이 커질 수 있다.",
+                "그러면 모두에게 걸린 공통 문제를 함께 해결하는 협력도 어려워진다."
+              ]
+            },
+            {
+              "sentence_id": "s09",
+              "explanatory_sentences": [
+                "9번 문장은 7~8번의 해결 방법을 마무리하며 기억할 점을 덧붙인다.",
+                "사람은 어떤 소식이 사실이기를 바랄 때 그 소식을 쉽게 믿을 수 있다.",
+                "하지만 바란다고 해서 그 소식이 항상 사실이 되는 것은 아니다.",
+                "그래서 믿고 싶은 정보일수록 한 번 더 확인해야 한다는 뜻이다."
+              ]
+            }
+          ],
+          "grammar_points": [
+            {
+              "id": "u1-gp1",
+              "sentence_id": "s02",
+              "span": [
+                94,
+                140
+              ],
+              "title": "lead A to V: A가 ~하게 만들다",
+              "formula_key": "lead A to V",
+              "explanation": "공식: lead A to V — A가 ~하게 이끌다(만들다). can = ~할 수 있다, A = you(당신), to V = to be trapped(갇히게 되다: be p.p. 수동), in an “echo chamber” = 에코 챔버 안에. → 당신이 에코 챔버에 갇히게 만들 수 있다. 당신은 스스로 가두는 쪽이 아니라 ‘갇히는’ 쪽이라 to 뒤에 수동 be trapped를 쓴다.",
+              "practice": {
+                "span": [
+                  94,
+                  140
+                ],
+                "formula_support": {
+                  "en": "lead A to V",
+                  "ko": "A가 ~하게 만들다"
+                },
+                "answer_ko": "당신이 에코 챔버에 갇히게 만들 수 있다",
+                "support_gloss_ids": [
+                  "s02-g11",
+                  "s02-g13",
+                  "s02-g14",
+                  "s02-g15",
+                  "s02-g16"
+                ]
+              }
+            },
+            {
+              "id": "u1-gp2",
+              "sentence_id": "s04",
+              "span": [
+                49,
+                94
+              ],
+              "title": "전치사 + 관계대명사 in which: S′(이/가) V′하는 N",
+              "formula_key": "in which S′ V′",
+              "explanation": "공식: N + in which S′ V′ — S′(이/가) V′하는 N(그 N 안에서). N = any situation(모든 상황), in which = 그 상황 안에서, S′ = you(당신), V′ = only hear(듣기만 하다), 목적어 = opinions(의견들). → 당신이 의견들만 듣는 모든 상황. in which 뒤에는 주어와 목적어를 모두 갖춘 완전한 절이 온다.",
+              "practice": {
+                "span": [
+                  49,
+                  94
+                ],
+                "formula_support": {
+                  "en": "in which S′ V′",
+                  "ko": "S′(이/가) V′하는 N"
+                },
+                "answer_ko": "당신이 의견들만 듣는 모든 상황",
+                "support_gloss_ids": [
+                  "s04-g08",
+                  "s04-g09",
+                  "s04-g11",
+                  "s04-g12",
+                  "s04-g13"
+                ]
+              }
+            },
+            {
+              "id": "u1-gp3",
+              "sentence_id": "s09",
+              "span": [
+                46,
+                84
+              ],
+              "title": "not always: 항상 ~인 것은 아니다 (부분 부정)",
+              "formula_key": "not always",
+              "explanation": "공식: not always — 항상 ~인 것은 아니다(부분 부정). it = 그것(어떤 것이 사실이기를 원하는 것), doesn’t always mean = 항상 의미하는 것은 아니다, that it is true = 그것이 사실이라는 것. → 그것이 항상 그것이 사실이라는 것을 의미하는 것은 아니다. ‘절대 아니다’가 아니라 ‘늘 그런 것은 아니다’라는 뜻이다.",
+              "practice": {
+                "span": [
+                  46,
+                  84
+                ],
+                "formula_support": {
+                  "en": "not always",
+                  "ko": "항상 ~인 것은 아니다"
+                },
+                "answer_ko": "그것이 항상 그것이 사실이라는 것을 의미하는 것은 아니다",
+                "support_gloss_ids": [
+                  "s09-g07",
+                  "s09-g09",
+                  "s09-g10",
+                  "s09-g13"
+                ]
+              }
+            },
+            {
+              "id": "u1-gp4",
+              "sentence_id": "s04",
+              "span": [
+                0,
+                36
+              ],
+              "title": "be p.p.: ~되다 (현재 수동)",
+              "formula_key": "be p.p.",
+              "explanation": "공식: be p.p. — ~되다. S = The term “echo chamber”(‘에코 챔버’라는 용어), be = is, also = 또한, p.p. = used(use의 p.p.형, 사용하다). → ‘에코 챔버’라는 용어는 또한 사용된다. 용어는 스스로 사용하는 쪽이 아니라 사람들이 ‘사용하는’ 대상이라 수동을 쓴다.",
+              "supplemental": {
+                "reason": "s04의 현재 수동 is used는 필수 관계사 힌트 2개(in which, 생략 관계사)가 있어 결합 힌트로 선정하지 않았고, 기본 분석 3개에 현재 수동 be p.p. 설명이 없어 이 단위 대표 사례로 1회 보충",
+                "function_gloss_id": "s04-g03"
+              },
+              "practice": {
+                "span": [
+                  0,
+                  36
+                ],
+                "formula_support": {
+                  "en": "be p.p.",
+                  "ko": "~되다"
+                },
+                "answer_ko": "‘에코 챔버’라는 용어는 또한 사용된다",
+                "support_gloss_ids": [
+                  "s04-g01",
+                  "s04-g02",
+                  "s04-g04",
+                  "s04-g05"
+                ]
+              }
+            }
+          ],
+          "formula_routes": [
+            {
+              "sentence_id": "s02",
+              "function_gloss_id": "s02-g13",
+              "formula_key": "be p.p.",
+              "route": "analysis",
+              "grammar_point_id": "u1-gp4",
+              "review_record": "to be trapped: 힌트 2개(동명사 주어, without)가 있어 같은 공식(be p.p.)의 단위 대표 분석 u1-gp4로 연결(u1-gp1 lead A to V 설명에도 수동 부정사로 언급)"
+            },
+            {
+              "sentence_id": "s04",
+              "function_gloss_id": "s04-g03",
+              "formula_key": "be p.p.",
+              "route": "analysis",
+              "grammar_point_id": "u1-gp4",
+              "review_record": "is used: 관계사 힌트 2개가 있어 분석 보충 u1-gp4로 연결"
+            }
+          ],
+          "relations": [
+            {
+              "head": {
+                "id": "u1-r1h",
+                "text": "limit",
+                "meaning_ko": "제한하다"
+              },
+              "synonym": {
+                "id": "u1-r1s",
+                "text": "restrict",
+                "meaning_ko": "제한하다, 한정하다"
+              },
+              "antonym": {
+                "id": "u1-r1a",
+                "text": "expand",
+                "meaning_ko": "넓히다, 확장하다"
+              }
+            },
+            {
+              "head": {
+                "id": "u1-r2h",
+                "text": "foster",
+                "meaning_ko": "조장하다, 키우다"
+              },
+              "synonym": {
+                "id": "u1-r2s",
+                "text": "encourage",
+                "meaning_ko": "부추기다, 촉진하다"
+              },
+              "antonym": {
+                "id": "u1-r2a",
+                "text": "discourage",
+                "meaning_ko": "막다, 억제하다"
+              }
+            },
+            {
+              "head": {
+                "id": "u1-r3h",
+                "text": "diverse",
+                "meaning_ko": "다양한"
+              },
+              "synonym": {
+                "id": "u1-r3s",
+                "text": "various",
+                "meaning_ko": "여러 가지의, 다양한"
+              },
+              "antonym": {
+                "id": "u1-r3a",
+                "text": "uniform",
+                "meaning_ko": "획일적인, 똑같은"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "sentences": [
+      {
+        "source_id": "src",
+        "id": "s01",
+        "text": "These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 11,
+            "ko": "요즘,"
+          },
+          {
+            "start": 12,
+            "end": 38,
+            "ko": "모든 사람은 뉴스를 접한다"
+          },
+          {
+            "start": 39,
+            "end": 76,
+            "ko": "인터넷이나 소셜 미디어를 통해,"
+          },
+          {
+            "start": 77,
+            "end": 120,
+            "ko": "그리고 자주 선택적으로 정보를 받아들인다"
+          },
+          {
+            "start": 121,
+            "end": 156,
+            "ko": "자신들의 취향이나 신념에 맞는."
+          }
+        ],
+        "natural_ko": "요즘 모든 사람은 인터넷이나 소셜 미디어를 통해 뉴스를 접하고, 자신의 취향이나 신념에 맞는 정보를 자주 선택적으로 받아들인다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 12,
+            "subject_spans": [
+              [
+                12,
+                20
+              ]
+            ],
+            "verb_spans": [
+              [
+                21,
+                29
+              ],
+              [
+                99,
+                104
+              ]
+            ]
+          },
+          {
+            "kind": "subject_relative",
+            "start": 121,
+            "marker": "that",
+            "subject_spans": [],
+            "verb_spans": [
+              [
+                126,
+                131
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s01-g01",
+            "spans": [
+              [
+                0,
+                5
+              ],
+              [
+                6,
+                10
+              ]
+            ],
+            "headword": "these days",
+            "meaning_ko": "요즘",
+            "star": false
+          },
+          {
+            "id": "s01-g02",
+            "spans": [
+              [
+                12,
+                20
+              ]
+            ],
+            "headword": "everyone",
+            "meaning_ko": "모든 사람",
+            "star": false
+          },
+          {
+            "id": "s01-g03",
+            "spans": [
+              [
+                21,
+                29
+              ]
+            ],
+            "headword": "access",
+            "meaning_ko": "접하다, 이용하다",
+            "star": false,
+            "verb_form": {
+              "usage": "third-person-singular",
+              "source_span": [
+                21,
+                29
+              ],
+              "lemma": "access",
+              "review_record": "주어 everyone(3인칭 단수)의 일반동사 accesses → 원형 access."
+            }
+          },
+          {
+            "id": "s01-g04",
+            "spans": [
+              [
+                34,
+                38
+              ]
+            ],
+            "headword": "news",
+            "meaning_ko": "뉴스",
+            "star": false
+          },
+          {
+            "id": "s01-g05",
+            "spans": [
+              [
+                39,
+                46
+              ]
+            ],
+            "headword": "through",
+            "meaning_ko": "~을 통해",
+            "star": false
+          },
+          {
+            "id": "s01-g06",
+            "spans": [
+              [
+                51,
+                59
+              ]
+            ],
+            "headword": "Internet",
+            "meaning_ko": "인터넷",
+            "star": false
+          },
+          {
+            "id": "s01-g07",
+            "spans": [
+              [
+                60,
+                62
+              ]
+            ],
+            "headword": "or",
+            "meaning_ko": "또는",
+            "star": false
+          },
+          {
+            "id": "s01-g08",
+            "spans": [
+              [
+                63,
+                69
+              ],
+              [
+                70,
+                75
+              ]
+            ],
+            "headword": "social media",
+            "meaning_ko": "소셜 미디어 (SNS)",
+            "star": false
+          },
+          {
+            "id": "s01-g09",
+            "spans": [
+              [
+                81,
+                86
+              ]
+            ],
+            "headword": "often",
+            "meaning_ko": "자주, 흔히",
+            "star": false
+          },
+          {
+            "id": "s01-g10",
+            "spans": [
+              [
+                87,
+                98
+              ]
+            ],
+            "headword": "selectively",
+            "meaning_ko": "선택적으로, 골라서",
+            "star": true,
+            "today_word_id": "u1-w1"
+          },
+          {
+            "id": "s01-g11",
+            "spans": [
+              [
+                99,
+                104
+              ]
+            ],
+            "headword": "take",
+            "meaning_ko": "받아들이다 (흔한 뜻: 가져가다)",
+            "star": false,
+            "verb_form": {
+              "usage": "third-person-singular",
+              "source_span": [
+                99,
+                104
+              ],
+              "lemma": "take",
+              "review_record": "주어 everyone(3인칭 단수)의 일반동사 takes → 원형 take."
+            }
+          },
+          {
+            "id": "s01-g12",
+            "spans": [
+              [
+                109,
+                120
+              ]
+            ],
+            "headword": "information",
+            "meaning_ko": "정보",
+            "star": false
+          },
+          {
+            "id": "s01-g13",
+            "spans": [
+              [
+                121,
+                125
+              ]
+            ],
+            "headword": "that V′",
+            "meaning_ko": "V′하는 (관계대명사)",
+            "star": false
+          },
+          {
+            "id": "s01-g14",
+            "spans": [
+              [
+                126,
+                131
+              ]
+            ],
+            "headword": "suit",
+            "meaning_ko": "~에 맞다, 어울리다",
+            "star": false,
+            "verb_form": {
+              "usage": "third-person-singular",
+              "source_span": [
+                126,
+                131
+              ],
+              "lemma": "suit",
+              "review_record": "주어 the information(선행사)(3인칭 단수)의 일반동사 suits → 원형 suit."
+            }
+          },
+          {
+            "id": "s01-g15",
+            "spans": [
+              [
+                132,
+                137
+              ]
+            ],
+            "headword": "their",
+            "meaning_ko": "그들의",
+            "star": false,
+            "referent_ko": "모든 사람"
+          },
+          {
+            "id": "s01-g16",
+            "spans": [
+              [
+                138,
+                144
+              ]
+            ],
+            "headword": "tastes",
+            "meaning_ko": "취향들",
+            "star": false
+          },
+          {
+            "id": "s01-g17",
+            "spans": [
+              [
+                145,
+                147
+              ]
+            ],
+            "headword": "or",
+            "meaning_ko": "또는",
+            "star": false
+          },
+          {
+            "id": "s01-g18",
+            "spans": [
+              [
+                148,
+                155
+              ]
+            ],
+            "headword": "beliefs",
+            "meaning_ko": "신념들, 믿음들",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              5
+            ],
+            "gloss_id": "s01-g01"
+          },
+          {
+            "span": [
+              6,
+              10
+            ],
+            "gloss_id": "s01-g01"
+          },
+          {
+            "span": [
+              12,
+              20
+            ],
+            "gloss_id": "s01-g02"
+          },
+          {
+            "span": [
+              21,
+              29
+            ],
+            "gloss_id": "s01-g03"
+          },
+          {
+            "span": [
+              30,
+              33
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              34,
+              38
+            ],
+            "gloss_id": "s01-g04"
+          },
+          {
+            "span": [
+              39,
+              46
+            ],
+            "gloss_id": "s01-g05"
+          },
+          {
+            "span": [
+              47,
+              50
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              51,
+              59
+            ],
+            "gloss_id": "s01-g06"
+          },
+          {
+            "span": [
+              60,
+              62
+            ],
+            "gloss_id": "s01-g07"
+          },
+          {
+            "span": [
+              63,
+              69
+            ],
+            "gloss_id": "s01-g08"
+          },
+          {
+            "span": [
+              70,
+              75
+            ],
+            "gloss_id": "s01-g08"
+          },
+          {
+            "span": [
+              77,
+              80
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              81,
+              86
+            ],
+            "gloss_id": "s01-g09"
+          },
+          {
+            "span": [
+              87,
+              98
+            ],
+            "gloss_id": "s01-g10"
+          },
+          {
+            "span": [
+              99,
+              104
+            ],
+            "gloss_id": "s01-g11"
+          },
+          {
+            "span": [
+              105,
+              108
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              109,
+              120
+            ],
+            "gloss_id": "s01-g12"
+          },
+          {
+            "span": [
+              121,
+              125
+            ],
+            "gloss_id": "s01-g13"
+          },
+          {
+            "span": [
+              126,
+              131
+            ],
+            "gloss_id": "s01-g14"
+          },
+          {
+            "span": [
+              132,
+              137
+            ],
+            "gloss_id": "s01-g15"
+          },
+          {
+            "span": [
+              138,
+              144
+            ],
+            "gloss_id": "s01-g16"
+          },
+          {
+            "span": [
+              145,
+              147
+            ],
+            "gloss_id": "s01-g17"
+          },
+          {
+            "span": [
+              148,
+              155
+            ],
+            "gloss_id": "s01-g18"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              105,
+              131
+            ],
+            "meaning_ko": "(자신의 취향이나 신념에) 맞는 정보",
+            "explanation": "선행사 the information을 주격 관계대명사 that이 받아 suits their tastes or beliefs가 꾸민다. V′ suits까지 표시하고 목적어는 제외.",
+            "display_pairs": [
+              {
+                "en": "the information [that suits]",
+                "ko": "[맞는] 정보",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        17,
+                        21
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        2,
+                        3
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "주격 관계대명사 that"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "주절 everyone accesses … and (often selectively) takes …(병렬 동사, 주어 everyone은 3인칭 단수) + 주격 관계절 that suits their tastes or beliefs(선행사 the information). their는 everyone을 받는 대명사(모든 사람). 힌트 1개(주격 관계사). 수동 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [],
+          "relative_gloss_ids": [
+            "s01-g13"
+          ]
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s02",
+        "text": "However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.”",
+        "key": true,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 8,
+            "ko": "하지만,"
+          },
+          {
+            "start": 9,
+            "end": 55,
+            "ko": "지속적으로 비슷한 관점들을 접하는 것은"
+          },
+          {
+            "start": 56,
+            "end": 93,
+            "ko": "대안적인 견해들을 고려하지 않고"
+          },
+          {
+            "start": 94,
+            "end": 120,
+            "ko": "당신이 갇히게 만들 수 있다"
+          },
+          {
+            "start": 121,
+            "end": 142,
+            "ko": "‘에코 챔버’ 안에."
+          }
+        ],
+        "natural_ko": "하지만 대안적인 견해를 고려하지 않은 채 비슷한 관점만 계속 접하는 것은 당신을 ‘에코 챔버(반향실)’에 갇히게 만들 수 있다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 9,
+            "subject_spans": [
+              [
+                9,
+                93
+              ]
+            ],
+            "verb_spans": [
+              [
+                94,
+                97
+              ],
+              [
+                98,
+                102
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s02-g01",
+            "spans": [
+              [
+                0,
+                7
+              ]
+            ],
+            "headword": "however",
+            "meaning_ko": "하지만, 그러나",
+            "star": false
+          },
+          {
+            "id": "s02-g02",
+            "spans": [
+              [
+                9,
+                21
+              ]
+            ],
+            "headword": "consistently",
+            "meaning_ko": "지속적으로, 꾸준히",
+            "star": false
+          },
+          {
+            "id": "s02-g03",
+            "spans": [
+              [
+                22,
+                34
+              ]
+            ],
+            "headword": "V-ing",
+            "meaning_ko": "~하는 것",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s02-g04"
+            ]
+          },
+          {
+            "id": "s02-g04",
+            "spans": [
+              [
+                22,
+                34
+              ]
+            ],
+            "headword": "encounter",
+            "meaning_ko": "접하다, 마주치다",
+            "star": false,
+            "verb_form": {
+              "usage": "ing",
+              "source_span": [
+                22,
+                34
+              ],
+              "lemma": "encounter"
+            },
+            "kind": "lexical"
+          },
+          {
+            "id": "s02-g05",
+            "spans": [
+              [
+                35,
+                42
+              ]
+            ],
+            "headword": "similar",
+            "meaning_ko": "비슷한, 유사한",
+            "star": false
+          },
+          {
+            "id": "s02-g06",
+            "spans": [
+              [
+                43,
+                55
+              ]
+            ],
+            "headword": "perspectives",
+            "meaning_ko": "관점들, 시각들",
+            "star": true,
+            "today_word_id": "u1-w2"
+          },
+          {
+            "id": "s02-g07",
+            "spans": [
+              [
+                56,
+                63
+              ]
+            ],
+            "headword": "without V-ing",
+            "meaning_ko": "~하지 않고",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s02-g08"
+            ]
+          },
+          {
+            "id": "s02-g08",
+            "spans": [
+              [
+                64,
+                75
+              ]
+            ],
+            "headword": "consider",
+            "meaning_ko": "고려하다",
+            "star": false,
+            "verb_form": {
+              "usage": "ing",
+              "source_span": [
+                64,
+                75
+              ],
+              "lemma": "consider"
+            },
+            "kind": "lexical"
+          },
+          {
+            "id": "s02-g09",
+            "spans": [
+              [
+                76,
+                87
+              ]
+            ],
+            "headword": "alternative",
+            "meaning_ko": "대안적인, 다른",
+            "star": true,
+            "today_word_id": "u1-w3"
+          },
+          {
+            "id": "s02-g10",
+            "spans": [
+              [
+                88,
+                93
+              ]
+            ],
+            "headword": "views",
+            "meaning_ko": "견해들, 관점들",
+            "star": false
+          },
+          {
+            "id": "s02-g11",
+            "spans": [
+              [
+                94,
+                97
+              ]
+            ],
+            "headword": "can V",
+            "meaning_ko": "~할 수 있다",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s02-g12"
+            ]
+          },
+          {
+            "id": "s02-g12",
+            "spans": [
+              [
+                98,
+                102
+              ],
+              [
+                107,
+                109
+              ]
+            ],
+            "headword": "lead A to V",
+            "meaning_ko": "A가 ~하게 이끌다, 만들다",
+            "star": false,
+            "kind": "lexical",
+            "verb_construction": {
+              "kind": "verb-frame",
+              "verb_span": [
+                98,
+                102
+              ],
+              "lemma": "lead",
+              "link_spans": [
+                [
+                  107,
+                  109
+                ]
+              ],
+              "review_record": "lead you to be trapped: A=you, to V=to be trapped(수동 부정사)."
+            }
+          },
+          {
+            "id": "s02-g13",
+            "spans": [
+              [
+                110,
+                112
+              ]
+            ],
+            "headword": "be p.p.",
+            "meaning_ko": "~되다, ~당하다",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s02-g14"
+            ]
+          },
+          {
+            "id": "s02-g14",
+            "spans": [
+              [
+                113,
+                120
+              ]
+            ],
+            "headword": "trapped",
+            "meaning_ko": "갇힌",
+            "star": false,
+            "verb_form": {
+              "usage": "passive-participle",
+              "source_span": [
+                113,
+                120
+              ],
+              "lemma": "trap",
+              "function_gloss_id": "s02-g13"
+            },
+            "kind": "lexical"
+          },
+          {
+            "id": "s02-g15",
+            "spans": [
+              [
+                121,
+                123
+              ]
+            ],
+            "headword": "in",
+            "meaning_ko": "~ 안에",
+            "star": false
+          },
+          {
+            "id": "s02-g16",
+            "spans": [
+              [
+                128,
+                132
+              ],
+              [
+                133,
+                140
+              ]
+            ],
+            "headword": "echo chamber",
+            "meaning_ko": "에코 챔버, 반향실 (자기와 같은 의견만 되풀이해 듣게 되는 환경)",
+            "star": true,
+            "today_word_id": "u1-w4"
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              7
+            ],
+            "gloss_id": "s02-g01"
+          },
+          {
+            "span": [
+              9,
+              21
+            ],
+            "gloss_id": "s02-g02"
+          },
+          {
+            "span": [
+              22,
+              34
+            ],
+            "gloss_id": "s02-g04"
+          },
+          {
+            "span": [
+              35,
+              42
+            ],
+            "gloss_id": "s02-g05"
+          },
+          {
+            "span": [
+              43,
+              55
+            ],
+            "gloss_id": "s02-g06"
+          },
+          {
+            "span": [
+              56,
+              63
+            ],
+            "gloss_id": "s02-g07"
+          },
+          {
+            "span": [
+              64,
+              75
+            ],
+            "gloss_id": "s02-g08"
+          },
+          {
+            "span": [
+              76,
+              87
+            ],
+            "gloss_id": "s02-g09"
+          },
+          {
+            "span": [
+              88,
+              93
+            ],
+            "gloss_id": "s02-g10"
+          },
+          {
+            "span": [
+              94,
+              97
+            ],
+            "gloss_id": "s02-g11"
+          },
+          {
+            "span": [
+              98,
+              102
+            ],
+            "gloss_id": "s02-g12"
+          },
+          {
+            "span": [
+              103,
+              106
+            ],
+            "exemption": "standalone-you",
+            "reason": "단독 you 각주 제외(사용자 지정)"
+          },
+          {
+            "span": [
+              107,
+              109
+            ],
+            "gloss_id": "s02-g12"
+          },
+          {
+            "span": [
+              110,
+              112
+            ],
+            "gloss_id": "s02-g13"
+          },
+          {
+            "span": [
+              113,
+              120
+            ],
+            "gloss_id": "s02-g14"
+          },
+          {
+            "span": [
+              121,
+              123
+            ],
+            "gloss_id": "s02-g15"
+          },
+          {
+            "span": [
+              124,
+              126
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              128,
+              132
+            ],
+            "gloss_id": "s02-g16"
+          },
+          {
+            "span": [
+              133,
+              140
+            ],
+            "gloss_id": "s02-g16"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              9,
+              55
+            ],
+            "meaning_ko": "비슷한 관점들을 지속적으로 접하는 것은",
+            "explanation": "동명사 encountering(~하는 것)이 이끄는 구가 문장 전체의 주어다. 뒤의 without considering alternative views까지 주어에 포함되고, 동사는 can lead다.",
+            "display_pairs": [
+              {
+                "en": "[consistently encountering] similar perspectives",
+                "ko": "비슷한 관점들을 [지속적으로 접하는 것은]",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        23,
+                        26
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        18,
+                        22
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "동명사 주어"
+          },
+          {
+            "span": [
+              56,
+              93
+            ],
+            "meaning_ko": "대안적인 견해들을 고려하지 않고",
+            "explanation": "without + 동명사 considering: ~하지 않고. 주어 동명사구 안에서 어떻게 접하는지를 덧붙인다.",
+            "display_pairs": [
+              {
+                "en": "[without considering] alternative views",
+                "ko": "대안적인 견해들을 [고려하지 않고]",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        1,
+                        8
+                      ],
+                      [
+                        17,
+                        20
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        14,
+                        18
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "전치사 without + 동명사"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "동명사 주어 consistently encountering similar perspectives without considering alternative views(전체 유지) + can lead + lead A to V(A=you, to be trapped 수동 부정사). without + 동명사는 주어 동명사구 안. 힌트 2개(동명사 주어, without + 동명사). 수동 부정사 be trapped는 분석 u1-gp1(lead A to V)·u1-gp4(be p.p.)에서 설명.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [
+            "s02-g03",
+            "s02-g07",
+            "s02-g11",
+            "s02-g13"
+          ],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s03",
+        "text": "An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 43,
+            "ko": "에코 챔버는 밀폐된 공간을 가리킨다"
+          },
+          {
+            "start": 44,
+            "end": 72,
+            "ko": "소리가 밖으로 새어 나가지 않는"
+          },
+          {
+            "start": 73,
+            "end": 96,
+            "ko": "그리고 메아리로 되돌아오는."
+          }
+        ],
+        "natural_ko": "에코 챔버(반향실)는 소리가 밖으로 새어 나가지 않고 메아리로 되돌아오는 밀폐된 공간을 말한다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                0,
+                15
+              ]
+            ],
+            "verb_spans": [
+              [
+                16,
+                22
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 44,
+            "marker": "where",
+            "subject_spans": [
+              [
+                50,
+                55
+              ]
+            ],
+            "verb_spans": [
+              [
+                56,
+                63
+              ],
+              [
+                64,
+                68
+              ],
+              [
+                77,
+                84
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s03-g01",
+            "spans": [
+              [
+                3,
+                7
+              ],
+              [
+                8,
+                15
+              ]
+            ],
+            "headword": "echo chamber",
+            "meaning_ko": "에코 챔버, 반향실",
+            "star": false
+          },
+          {
+            "id": "s03-g02",
+            "spans": [
+              [
+                16,
+                22
+              ],
+              [
+                23,
+                25
+              ]
+            ],
+            "headword": "refer to A",
+            "meaning_ko": "A를 가리키다, 말하다",
+            "star": false,
+            "verb_form": {
+              "usage": "third-person-singular",
+              "source_span": [
+                16,
+                22
+              ],
+              "lemma": "refer",
+              "review_record": "주어 An echo chamber(3인칭 단수)의 일반동사 refers → 원형 refer."
+            }
+          },
+          {
+            "id": "s03-g03",
+            "spans": [
+              [
+                29,
+                37
+              ]
+            ],
+            "headword": "enclosed",
+            "meaning_ko": "밀폐된, 둘러싸인",
+            "star": true,
+            "today_word_id": "u1-w5",
+            "verb_form": {
+              "usage": "past-participle",
+              "source_span": [
+                29,
+                37
+              ],
+              "lemma": "enclose"
+            }
+          },
+          {
+            "id": "s03-g04",
+            "spans": [
+              [
+                38,
+                43
+              ]
+            ],
+            "headword": "space",
+            "meaning_ko": "공간",
+            "star": false
+          },
+          {
+            "id": "s03-g05",
+            "spans": [
+              [
+                44,
+                49
+              ]
+            ],
+            "headword": "where S′ V′",
+            "meaning_ko": "S′(이/가) V′하는 (관계부사)",
+            "star": false
+          },
+          {
+            "id": "s03-g06",
+            "spans": [
+              [
+                50,
+                55
+              ]
+            ],
+            "headword": "sound",
+            "meaning_ko": "소리",
+            "star": false
+          },
+          {
+            "id": "s03-g07",
+            "spans": [
+              [
+                56,
+                63
+              ]
+            ],
+            "headword": "does not V",
+            "meaning_ko": "~하지 않다",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s03-g08"
+            ]
+          },
+          {
+            "id": "s03-g08",
+            "spans": [
+              [
+                64,
+                68
+              ],
+              [
+                69,
+                72
+              ]
+            ],
+            "headword": "leak out",
+            "meaning_ko": "새어 나가다",
+            "star": false,
+            "kind": "lexical"
+          },
+          {
+            "id": "s03-g09",
+            "spans": [
+              [
+                77,
+                84
+              ]
+            ],
+            "headword": "return",
+            "meaning_ko": "되돌아오다",
+            "star": false,
+            "verb_form": {
+              "usage": "third-person-singular",
+              "source_span": [
+                77,
+                84
+              ],
+              "lemma": "return",
+              "review_record": "주어 sound(3인칭 단수)의 일반동사 returns → 원형 return."
+            }
+          },
+          {
+            "id": "s03-g10",
+            "spans": [
+              [
+                85,
+                87
+              ]
+            ],
+            "headword": "as",
+            "meaning_ko": "~로 (자격·형태)",
+            "star": false
+          },
+          {
+            "id": "s03-g11",
+            "spans": [
+              [
+                91,
+                95
+              ]
+            ],
+            "headword": "echo",
+            "meaning_ko": "메아리, 울림",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              2
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              3,
+              7
+            ],
+            "gloss_id": "s03-g01"
+          },
+          {
+            "span": [
+              8,
+              15
+            ],
+            "gloss_id": "s03-g01"
+          },
+          {
+            "span": [
+              16,
+              22
+            ],
+            "gloss_id": "s03-g02"
+          },
+          {
+            "span": [
+              23,
+              25
+            ],
+            "gloss_id": "s03-g02"
+          },
+          {
+            "span": [
+              26,
+              28
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              29,
+              37
+            ],
+            "gloss_id": "s03-g03"
+          },
+          {
+            "span": [
+              38,
+              43
+            ],
+            "gloss_id": "s03-g04"
+          },
+          {
+            "span": [
+              44,
+              49
+            ],
+            "gloss_id": "s03-g05"
+          },
+          {
+            "span": [
+              50,
+              55
+            ],
+            "gloss_id": "s03-g06"
+          },
+          {
+            "span": [
+              56,
+              63
+            ],
+            "gloss_id": "s03-g07"
+          },
+          {
+            "span": [
+              64,
+              68
+            ],
+            "gloss_id": "s03-g08"
+          },
+          {
+            "span": [
+              69,
+              72
+            ],
+            "gloss_id": "s03-g08"
+          },
+          {
+            "span": [
+              73,
+              76
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              77,
+              84
+            ],
+            "gloss_id": "s03-g09"
+          },
+          {
+            "span": [
+              85,
+              87
+            ],
+            "gloss_id": "s03-g10"
+          },
+          {
+            "span": [
+              88,
+              90
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              91,
+              95
+            ],
+            "gloss_id": "s03-g11"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              26,
+              72
+            ],
+            "meaning_ko": "소리가 (밖으로) 새어 나가지 않는 밀폐된 공간",
+            "explanation": "선행사 an enclosed space(장소)를 관계부사 where가 받아 그 공간에서 일어나는 일을 설명한다. S′ sound, V′ doesn’t leak out까지 표시하고 병렬 동사 and returns as an echo는 제외.",
+            "display_pairs": [
+              {
+                "en": "an enclosed space [where sound doesn’t leak out]",
+                "ko": "[소리가 새어 나가지 않는] 밀폐된 공간",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        19,
+                        24
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        3,
+                        4
+                      ],
+                      [
+                        13,
+                        14
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "관계부사 where"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "주절 An echo chamber refers to + 목적어 an enclosed space + 관계부사 where절(S′ sound, V′ doesn’t leak out and returns, 병렬 동사). refer to A는 동사 구문으로 묶음. 힌트 1개(관계부사 where). 수동 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [
+            "s03-g07"
+          ],
+          "relative_gloss_ids": [
+            "s03-g05"
+          ]
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s04",
+        "text": "The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 23,
+            "ko": "‘에코 챔버’라는 용어는"
+          },
+          {
+            "start": 24,
+            "end": 36,
+            "ko": "또한 사용된다"
+          },
+          {
+            "start": 37,
+            "end": 62,
+            "ko": "어떤 상황이든 설명하기 위해"
+          },
+          {
+            "start": 63,
+            "end": 94,
+            "ko": "당신이 의견들만 듣는"
+          },
+          {
+            "start": 95,
+            "end": 118,
+            "ko": "당신이 이미 동의하는."
+          }
+        ],
+        "natural_ko": "‘에코 챔버’라는 용어는 당신이 이미 동의하는 의견만 듣게 되는 모든 상황을 설명할 때도 사용된다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                0,
+                23
+              ]
+            ],
+            "verb_spans": [
+              [
+                24,
+                26
+              ],
+              [
+                32,
+                36
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 63,
+            "marker": "in which",
+            "subject_spans": [
+              [
+                72,
+                75
+              ]
+            ],
+            "verb_spans": [
+              [
+                81,
+                85
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 95,
+            "marker": "that",
+            "omitted_marker": true,
+            "subject_spans": [
+              [
+                95,
+                98
+              ]
+            ],
+            "verb_spans": [
+              [
+                107,
+                112
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s04-g01",
+            "spans": [
+              [
+                4,
+                8
+              ]
+            ],
+            "headword": "term",
+            "meaning_ko": "용어",
+            "star": false
+          },
+          {
+            "id": "s04-g02",
+            "spans": [
+              [
+                10,
+                14
+              ],
+              [
+                15,
+                22
+              ]
+            ],
+            "headword": "echo chamber",
+            "meaning_ko": "에코 챔버, 반향실",
+            "star": false
+          },
+          {
+            "id": "s04-g03",
+            "spans": [
+              [
+                24,
+                26
+              ]
+            ],
+            "headword": "be p.p.",
+            "meaning_ko": "~되다",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s04-g05"
+            ]
+          },
+          {
+            "id": "s04-g04",
+            "spans": [
+              [
+                27,
+                31
+              ]
+            ],
+            "headword": "also",
+            "meaning_ko": "또한",
+            "star": false
+          },
+          {
+            "id": "s04-g05",
+            "spans": [
+              [
+                32,
+                36
+              ]
+            ],
+            "headword": "used",
+            "meaning_ko": "사용된",
+            "star": false,
+            "verb_form": {
+              "usage": "passive-participle",
+              "source_span": [
+                32,
+                36
+              ],
+              "lemma": "use",
+              "function_gloss_id": "s04-g03"
+            },
+            "kind": "lexical"
+          },
+          {
+            "id": "s04-g06",
+            "spans": [
+              [
+                37,
+                39
+              ]
+            ],
+            "headword": "to V",
+            "meaning_ko": "~하기 위해",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s04-g07"
+            ]
+          },
+          {
+            "id": "s04-g07",
+            "spans": [
+              [
+                40,
+                48
+              ]
+            ],
+            "headword": "describe",
+            "meaning_ko": "설명하다, 묘사하다",
+            "star": false,
+            "kind": "lexical"
+          },
+          {
+            "id": "s04-g08",
+            "spans": [
+              [
+                49,
+                52
+              ]
+            ],
+            "headword": "any",
+            "meaning_ko": "어떤 ~이든, 모든",
+            "star": false
+          },
+          {
+            "id": "s04-g09",
+            "spans": [
+              [
+                53,
+                62
+              ]
+            ],
+            "headword": "situation",
+            "meaning_ko": "상황",
+            "star": false
+          },
+          {
+            "id": "s04-g10",
+            "spans": [
+              [
+                63,
+                65
+              ],
+              [
+                66,
+                71
+              ]
+            ],
+            "headword": "in which S′ V′",
+            "meaning_ko": "S′(이/가) V′하는 (전치사 + 관계대명사)",
+            "star": false
+          },
+          {
+            "id": "s04-g11",
+            "spans": [
+              [
+                76,
+                80
+              ]
+            ],
+            "headword": "only",
+            "meaning_ko": "오직, ~만",
+            "star": false
+          },
+          {
+            "id": "s04-g12",
+            "spans": [
+              [
+                81,
+                85
+              ]
+            ],
+            "headword": "hear",
+            "meaning_ko": "듣다",
+            "star": false
+          },
+          {
+            "id": "s04-g13",
+            "spans": [
+              [
+                86,
+                94
+              ]
+            ],
+            "headword": "opinions",
+            "meaning_ko": "의견들",
+            "star": false
+          },
+          {
+            "id": "s04-g14",
+            "spans": [
+              [
+                99,
+                106
+              ]
+            ],
+            "headword": "already",
+            "meaning_ko": "이미",
+            "star": false
+          },
+          {
+            "id": "s04-g15",
+            "spans": [
+              [
+                107,
+                112
+              ],
+              [
+                113,
+                117
+              ]
+            ],
+            "headword": "agree with A",
+            "meaning_ko": "A에 동의하다",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              3
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              4,
+              8
+            ],
+            "gloss_id": "s04-g01"
+          },
+          {
+            "span": [
+              10,
+              14
+            ],
+            "gloss_id": "s04-g02"
+          },
+          {
+            "span": [
+              15,
+              22
+            ],
+            "gloss_id": "s04-g02"
+          },
+          {
+            "span": [
+              24,
+              26
+            ],
+            "gloss_id": "s04-g03"
+          },
+          {
+            "span": [
+              27,
+              31
+            ],
+            "gloss_id": "s04-g04"
+          },
+          {
+            "span": [
+              32,
+              36
+            ],
+            "gloss_id": "s04-g05"
+          },
+          {
+            "span": [
+              37,
+              39
+            ],
+            "gloss_id": "s04-g06"
+          },
+          {
+            "span": [
+              40,
+              48
+            ],
+            "gloss_id": "s04-g07"
+          },
+          {
+            "span": [
+              49,
+              52
+            ],
+            "gloss_id": "s04-g08"
+          },
+          {
+            "span": [
+              53,
+              62
+            ],
+            "gloss_id": "s04-g09"
+          },
+          {
+            "span": [
+              63,
+              65
+            ],
+            "gloss_id": "s04-g10"
+          },
+          {
+            "span": [
+              66,
+              71
+            ],
+            "gloss_id": "s04-g10"
+          },
+          {
+            "span": [
+              72,
+              75
+            ],
+            "exemption": "standalone-you",
+            "reason": "단독 you 각주 제외(사용자 지정)"
+          },
+          {
+            "span": [
+              76,
+              80
+            ],
+            "gloss_id": "s04-g11"
+          },
+          {
+            "span": [
+              81,
+              85
+            ],
+            "gloss_id": "s04-g12"
+          },
+          {
+            "span": [
+              86,
+              94
+            ],
+            "gloss_id": "s04-g13"
+          },
+          {
+            "span": [
+              95,
+              98
+            ],
+            "exemption": "standalone-you",
+            "reason": "단독 you 각주 제외(사용자 지정)"
+          },
+          {
+            "span": [
+              99,
+              106
+            ],
+            "gloss_id": "s04-g14"
+          },
+          {
+            "span": [
+              107,
+              112
+            ],
+            "gloss_id": "s04-g15"
+          },
+          {
+            "span": [
+              113,
+              117
+            ],
+            "gloss_id": "s04-g15"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              49,
+              85
+            ],
+            "meaning_ko": "당신이 (의견들을) 듣기만 하는 모든 상황",
+            "explanation": "선행사 any situation을 in which(그 상황 안에서)가 받아 you only hear opinions …가 꾸민다. S′ you, V′ hear까지 표시하고 부사 only는 보존, 목적어 opinions 이하는 제외.",
+            "display_pairs": [
+              {
+                "en": "any situation [in which you only hear]",
+                "ko": "[당신이 듣기만 하는] 모든 상황",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        15,
+                        23
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        3,
+                        4
+                      ],
+                      [
+                        10,
+                        11
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "전치사 + 관계대명사 in which"
+          },
+          {
+            "span": [
+              86,
+              117
+            ],
+            "meaning_ko": "당신이 이미 동의하는 의견들",
+            "explanation": "선행사 opinions 뒤 목적격 관계대명사 that이 생략된 관계절. opinions가 agree with의 목적어 자리(전치사 with의 목적어). S′ you, V′ agree with까지 표시.",
+            "display_pairs": [
+              {
+                "en": "opinions [(that) you already agree with]",
+                "ko": "[당신이 이미 동의하는] 의견들",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        11,
+                        15
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        3,
+                        4
+                      ],
+                      [
+                        11,
+                        12
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "목적격 관계대명사 that 생략",
+            "display_mode": "omitted-relative",
+            "omitted_relative": "that"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "주절 수동 is also used(사이 부사 also) + 목적의 to describe + 목적어 any situation + 전치사 + 관계대명사 in which절(S′ you, V′ hear) + 그 안의 목적격 관계대명사 생략 관계절 you already agree with(선행사 opinions, 전치사 with의 목적어). 힌트 2개(in which, 생략 관계사). 현재 수동 is used는 힌트 자리가 없어 분석 보충 u1-gp4(be p.p.)로 연결.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [
+            "s04-g03",
+            "s04-g06"
+          ],
+          "relative_gloss_ids": [
+            "s04-g10"
+          ]
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s05",
+        "text": "This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 35,
+            "ko": "이것은 당신의 이해를 왜곡할 수 있다"
+          },
+          {
+            "start": 36,
+            "end": 47,
+            "ko": "현실에 대한,"
+          },
+          {
+            "start": 48,
+            "end": 70,
+            "ko": "그리고 당신의 능력을 제한할 수 있다"
+          },
+          {
+            "start": 71,
+            "end": 90,
+            "ko": "비판적으로 생각하는"
+          },
+          {
+            "start": 91,
+            "end": 124,
+            "ko": "그리고 의미 있는 토론에 참여하는."
+          }
+        ],
+        "natural_ko": "이는 현실에 대한 당신의 이해를 왜곡하고, 비판적으로 생각하고 의미 있는 토론에 참여하는 당신의 능력을 제한할 수 있다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 0,
+            "subject_spans": [
+              [
+                0,
+                4
+              ]
+            ],
+            "verb_spans": [
+              [
+                5,
+                8
+              ],
+              [
+                9,
+                16
+              ],
+              [
+                52,
+                57
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s05-g01",
+            "spans": [
+              [
+                0,
+                4
+              ]
+            ],
+            "headword": "this",
+            "meaning_ko": "이것은",
+            "star": false,
+            "referent_ko": "이미 동의하는 의견만 듣게 되는 에코 챔버 상황"
+          },
+          {
+            "id": "s05-g02",
+            "spans": [
+              [
+                5,
+                8
+              ]
+            ],
+            "headword": "can V",
+            "meaning_ko": "~할 수 있다",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s05-g03",
+              "s05-g08"
+            ]
+          },
+          {
+            "id": "s05-g03",
+            "spans": [
+              [
+                9,
+                16
+              ]
+            ],
+            "headword": "distort",
+            "meaning_ko": "왜곡하다, 비틀다",
+            "star": true,
+            "today_word_id": "u1-w6",
+            "kind": "lexical"
+          },
+          {
+            "id": "s05-g04",
+            "spans": [
+              [
+                17,
+                21
+              ]
+            ],
+            "headword": "your",
+            "meaning_ko": "당신의",
+            "star": false
+          },
+          {
+            "id": "s05-g05",
+            "spans": [
+              [
+                22,
+                35
+              ]
+            ],
+            "headword": "understanding",
+            "meaning_ko": "이해",
+            "star": false
+          },
+          {
+            "id": "s05-g06",
+            "spans": [
+              [
+                36,
+                38
+              ]
+            ],
+            "headword": "of",
+            "meaning_ko": "~에 대한",
+            "star": false
+          },
+          {
+            "id": "s05-g07",
+            "spans": [
+              [
+                39,
+                46
+              ]
+            ],
+            "headword": "reality",
+            "meaning_ko": "현실",
+            "star": false
+          },
+          {
+            "id": "s05-g08",
+            "spans": [
+              [
+                52,
+                57
+              ]
+            ],
+            "headword": "limit",
+            "meaning_ko": "제한하다",
+            "star": false,
+            "kind": "lexical"
+          },
+          {
+            "id": "s05-g09",
+            "spans": [
+              [
+                58,
+                62
+              ]
+            ],
+            "headword": "your",
+            "meaning_ko": "당신의",
+            "star": false
+          },
+          {
+            "id": "s05-g10",
+            "spans": [
+              [
+                63,
+                70
+              ],
+              [
+                71,
+                73
+              ]
+            ],
+            "headword": "ability to V",
+            "meaning_ko": "~하는 능력",
+            "star": false
+          },
+          {
+            "id": "s05-g11",
+            "spans": [
+              [
+                74,
+                79
+              ]
+            ],
+            "headword": "think",
+            "meaning_ko": "생각하다",
+            "star": false
+          },
+          {
+            "id": "s05-g12",
+            "spans": [
+              [
+                80,
+                90
+              ]
+            ],
+            "headword": "critically",
+            "meaning_ko": "비판적으로",
+            "star": false
+          },
+          {
+            "id": "s05-g13",
+            "spans": [
+              [
+                95,
+                101
+              ],
+              [
+                102,
+                104
+              ]
+            ],
+            "headword": "engage in A",
+            "meaning_ko": "A에 참여하다",
+            "star": false
+          },
+          {
+            "id": "s05-g14",
+            "spans": [
+              [
+                105,
+                115
+              ]
+            ],
+            "headword": "meaningful",
+            "meaning_ko": "의미 있는",
+            "star": false
+          },
+          {
+            "id": "s05-g15",
+            "spans": [
+              [
+                116,
+                123
+              ]
+            ],
+            "headword": "debates",
+            "meaning_ko": "토론들",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              4
+            ],
+            "gloss_id": "s05-g01"
+          },
+          {
+            "span": [
+              5,
+              8
+            ],
+            "gloss_id": "s05-g02"
+          },
+          {
+            "span": [
+              9,
+              16
+            ],
+            "gloss_id": "s05-g03"
+          },
+          {
+            "span": [
+              17,
+              21
+            ],
+            "gloss_id": "s05-g04"
+          },
+          {
+            "span": [
+              22,
+              35
+            ],
+            "gloss_id": "s05-g05"
+          },
+          {
+            "span": [
+              36,
+              38
+            ],
+            "gloss_id": "s05-g06"
+          },
+          {
+            "span": [
+              39,
+              46
+            ],
+            "gloss_id": "s05-g07"
+          },
+          {
+            "span": [
+              48,
+              51
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              52,
+              57
+            ],
+            "gloss_id": "s05-g08"
+          },
+          {
+            "span": [
+              58,
+              62
+            ],
+            "gloss_id": "s05-g09"
+          },
+          {
+            "span": [
+              63,
+              70
+            ],
+            "gloss_id": "s05-g10"
+          },
+          {
+            "span": [
+              71,
+              73
+            ],
+            "gloss_id": "s05-g10"
+          },
+          {
+            "span": [
+              74,
+              79
+            ],
+            "gloss_id": "s05-g11"
+          },
+          {
+            "span": [
+              80,
+              90
+            ],
+            "gloss_id": "s05-g12"
+          },
+          {
+            "span": [
+              91,
+              94
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              95,
+              101
+            ],
+            "gloss_id": "s05-g13"
+          },
+          {
+            "span": [
+              102,
+              104
+            ],
+            "gloss_id": "s05-g13"
+          },
+          {
+            "span": [
+              105,
+              115
+            ],
+            "gloss_id": "s05-g14"
+          },
+          {
+            "span": [
+              116,
+              123
+            ],
+            "gloss_id": "s05-g15"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              58,
+              101
+            ],
+            "meaning_ko": "비판적으로 생각하고 (의미 있는 토론에) 참여하는 당신의 능력",
+            "explanation": "to think critically and (to) engage …가 앞 명사 your ability를 뒤에서 꾸민다(~하는 능력). to 하나에 동사 think와 engage가 병렬로 이어진다. 대상 in meaningful debates는 제외.",
+            "display_pairs": [
+              {
+                "en": "your ability [to think critically and engage]",
+                "ko": "[비판적으로 생각하고 참여하는] 당신의 능력",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        14,
+                        16
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        15,
+                        16
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "to부정사 후치수식"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "단일 주절 This can distort … and limit …(조동사 can이 병렬 동사 둘을 모두 이끎). This는 앞 문장의 상황(이미 동의하는 의견만 듣는 것). of reality 앞 후치수식 경계. ability to V(병렬 think / engage in). 힌트 1개(to부정사 후치수식). 수동 없음.",
+          "required_breaks": [
+            {
+              "at": 36,
+              "kind": "postnominal-preposition",
+              "reason": "of reality는 앞 명사 your understanding을 뒤에서 꾸미는 전치사구"
+            }
+          ],
+          "protected_spans": [],
+          "function_gloss_ids": [
+            "s05-g02"
+          ],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s06",
+        "text": "Worse still, an echo chamber may foster social division, making collaboration on common issues challenging.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 12,
+            "ko": "더 나쁜 것은,"
+          },
+          {
+            "start": 13,
+            "end": 56,
+            "ko": "에코 챔버가 사회적 분열을 조장할 수도 있다는 것이다,"
+          },
+          {
+            "start": 57,
+            "end": 77,
+            "ko": "협력을 만들면서"
+          },
+          {
+            "start": 78,
+            "end": 94,
+            "ko": "공통 문제들에 대한"
+          },
+          {
+            "start": 95,
+            "end": 107,
+            "ko": "어렵게."
+          }
+        ],
+        "natural_ko": "더 나쁜 것은, 에코 챔버가 공통 문제에 대한 협력을 어렵게 만들면서 사회적 분열을 조장할 수도 있다는 것이다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 13,
+            "subject_spans": [
+              [
+                13,
+                28
+              ]
+            ],
+            "verb_spans": [
+              [
+                29,
+                32
+              ],
+              [
+                33,
+                39
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s06-g01",
+            "spans": [
+              [
+                0,
+                5
+              ],
+              [
+                6,
+                11
+              ]
+            ],
+            "headword": "worse still",
+            "meaning_ko": "더 나쁜 것은, 설상가상으로",
+            "star": false
+          },
+          {
+            "id": "s06-g02",
+            "spans": [
+              [
+                16,
+                20
+              ],
+              [
+                21,
+                28
+              ]
+            ],
+            "headword": "echo chamber",
+            "meaning_ko": "에코 챔버, 반향실",
+            "star": false
+          },
+          {
+            "id": "s06-g03",
+            "spans": [
+              [
+                29,
+                32
+              ]
+            ],
+            "headword": "may V",
+            "meaning_ko": "~할 수도 있다",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s06-g04"
+            ]
+          },
+          {
+            "id": "s06-g04",
+            "spans": [
+              [
+                33,
+                39
+              ]
+            ],
+            "headword": "foster",
+            "meaning_ko": "조장하다, 키우다",
+            "star": false,
+            "kind": "lexical"
+          },
+          {
+            "id": "s06-g05",
+            "spans": [
+              [
+                40,
+                46
+              ]
+            ],
+            "headword": "social",
+            "meaning_ko": "사회적인",
+            "star": false
+          },
+          {
+            "id": "s06-g06",
+            "spans": [
+              [
+                47,
+                55
+              ]
+            ],
+            "headword": "division",
+            "meaning_ko": "분열",
+            "star": false
+          },
+          {
+            "id": "s06-g07",
+            "spans": [
+              [
+                57,
+                63
+              ]
+            ],
+            "headword": "V-ing",
+            "meaning_ko": "~하면서",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s06-g08"
+            ]
+          },
+          {
+            "id": "s06-g08",
+            "spans": [
+              [
+                57,
+                63
+              ]
+            ],
+            "headword": "make A B",
+            "meaning_ko": "A를 B하게 만들다",
+            "star": false,
+            "kind": "lexical",
+            "verb_form": {
+              "usage": "ing",
+              "source_span": [
+                57,
+                63
+              ],
+              "lemma": "make"
+            },
+            "verb_construction": {
+              "kind": "verb-frame",
+              "verb_span": [
+                57,
+                63
+              ],
+              "lemma": "make",
+              "link_spans": [],
+              "review_record": "making collaboration on common issues challenging: A=collaboration on common issues, B=challenging(형용사 보어)."
+            }
+          },
+          {
+            "id": "s06-g09",
+            "spans": [
+              [
+                64,
+                77
+              ]
+            ],
+            "headword": "collaboration",
+            "meaning_ko": "협력, 공동 작업",
+            "star": true,
+            "today_word_id": "u1-w7"
+          },
+          {
+            "id": "s06-g10",
+            "spans": [
+              [
+                78,
+                80
+              ]
+            ],
+            "headword": "on",
+            "meaning_ko": "~에 대한",
+            "star": false
+          },
+          {
+            "id": "s06-g11",
+            "spans": [
+              [
+                81,
+                87
+              ]
+            ],
+            "headword": "common",
+            "meaning_ko": "공통의",
+            "star": false
+          },
+          {
+            "id": "s06-g12",
+            "spans": [
+              [
+                88,
+                94
+              ]
+            ],
+            "headword": "issues",
+            "meaning_ko": "문제들, 쟁점들",
+            "star": false
+          },
+          {
+            "id": "s06-g13",
+            "spans": [
+              [
+                95,
+                106
+              ]
+            ],
+            "headword": "challenging",
+            "meaning_ko": "어려운, 힘든",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              5
+            ],
+            "gloss_id": "s06-g01"
+          },
+          {
+            "span": [
+              6,
+              11
+            ],
+            "gloss_id": "s06-g01"
+          },
+          {
+            "span": [
+              13,
+              15
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              16,
+              20
+            ],
+            "gloss_id": "s06-g02"
+          },
+          {
+            "span": [
+              21,
+              28
+            ],
+            "gloss_id": "s06-g02"
+          },
+          {
+            "span": [
+              29,
+              32
+            ],
+            "gloss_id": "s06-g03"
+          },
+          {
+            "span": [
+              33,
+              39
+            ],
+            "gloss_id": "s06-g04"
+          },
+          {
+            "span": [
+              40,
+              46
+            ],
+            "gloss_id": "s06-g05"
+          },
+          {
+            "span": [
+              47,
+              55
+            ],
+            "gloss_id": "s06-g06"
+          },
+          {
+            "span": [
+              57,
+              63
+            ],
+            "gloss_id": "s06-g08"
+          },
+          {
+            "span": [
+              64,
+              77
+            ],
+            "gloss_id": "s06-g09"
+          },
+          {
+            "span": [
+              78,
+              80
+            ],
+            "gloss_id": "s06-g10"
+          },
+          {
+            "span": [
+              81,
+              87
+            ],
+            "gloss_id": "s06-g11"
+          },
+          {
+            "span": [
+              88,
+              94
+            ],
+            "gloss_id": "s06-g12"
+          },
+          {
+            "span": [
+              95,
+              106
+            ],
+            "gloss_id": "s06-g13"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              57,
+              106
+            ],
+            "meaning_ko": "공통 문제들에 대한 협력을 어렵게 만들면서",
+            "explanation": "콤마 뒤 분사구 making …이 앞 내용과 함께 일어나는 결과를 ‘~하면서’로 덧붙인다. make A B: A를 B하게 만들다. A=collaboration on common issues, B=challenging(형용사).",
+            "display_pairs": [
+              {
+                "en": "making collaboration on common issues [challenging]",
+                "ko": "공통 문제들에 대한 협력을 [어렵게] 만들면서",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        0,
+                        6
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        13,
+                        14
+                      ],
+                      [
+                        18,
+                        19
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "make A B 구문",
+            "emphasis_policy": "ko-only-verb-construction"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "문두 Worse still(더 나쁜 것은) + 주절 an echo chamber may foster social division + 콤마 뒤 분사구 making A B(A=collaboration on common issues, B=challenging). on common issues 앞 후치수식 경계. 힌트 1개(분사구 속 make A B). 수동 없음.",
+          "required_breaks": [
+            {
+              "at": 78,
+              "kind": "postnominal-preposition",
+              "reason": "on common issues는 앞 명사 collaboration을 뒤에서 꾸미는 전치사구"
+            }
+          ],
+          "protected_spans": [],
+          "function_gloss_ids": [
+            "s06-g03",
+            "s06-g07"
+          ],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s07",
+        "text": "To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views.",
+        "key": true,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 32,
+            "ko": "이 함정에 빠지는 것을 피하기 위해,"
+          },
+          {
+            "start": 33,
+            "end": 71,
+            "ko": "당신은 다양한 출처들을 적극적으로 찾아야 한다"
+          },
+          {
+            "start": 72,
+            "end": 86,
+            "ko": "정보의"
+          },
+          {
+            "start": 87,
+            "end": 109,
+            "ko": "그리고 사람들과 교류해야 한다"
+          },
+          {
+            "start": 110,
+            "end": 135,
+            "ko": "다른 견해를 가지고 있는."
+          }
+        ],
+        "natural_ko": "이러한 함정에 빠지지 않으려면, 당신은 다양한 정보 출처를 적극적으로 찾고 다른 견해를 가진 사람들과 교류해야 한다.",
+        "clauses": [
+          {
+            "kind": "main",
+            "start": 33,
+            "subject_spans": [
+              [
+                33,
+                36
+              ]
+            ],
+            "verb_spans": [
+              [
+                37,
+                41
+              ],
+              [
+                51,
+                55
+              ],
+              [
+                91,
+                97
+              ]
+            ]
+          },
+          {
+            "kind": "subject_relative",
+            "start": 110,
+            "marker": "who",
+            "subject_spans": [],
+            "verb_spans": [
+              [
+                114,
+                118
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s07-g01",
+            "spans": [
+              [
+                0,
+                2
+              ]
+            ],
+            "headword": "to V",
+            "meaning_ko": "~하기 위해",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s07-g02"
+            ]
+          },
+          {
+            "id": "s07-g02",
+            "spans": [
+              [
+                3,
+                8
+              ]
+            ],
+            "headword": "avoid V-ing",
+            "meaning_ko": "~하는 것을 피하다",
+            "star": false,
+            "kind": "lexical"
+          },
+          {
+            "id": "s07-g03",
+            "spans": [
+              [
+                9,
+                16
+              ],
+              [
+                17,
+                21
+              ]
+            ],
+            "headword": "fall into A",
+            "meaning_ko": "A에 빠지다",
+            "star": false,
+            "verb_form": {
+              "usage": "ing",
+              "source_span": [
+                9,
+                16
+              ],
+              "lemma": "fall"
+            }
+          },
+          {
+            "id": "s07-g04",
+            "spans": [
+              [
+                22,
+                26
+              ]
+            ],
+            "headword": "this",
+            "meaning_ko": "이",
+            "star": false
+          },
+          {
+            "id": "s07-g05",
+            "spans": [
+              [
+                27,
+                31
+              ]
+            ],
+            "headword": "trap",
+            "meaning_ko": "함정, 덫",
+            "star": false
+          },
+          {
+            "id": "s07-g06",
+            "spans": [
+              [
+                37,
+                41
+              ]
+            ],
+            "headword": "must V",
+            "meaning_ko": "~해야 한다",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s07-g08",
+              "s07-g13"
+            ]
+          },
+          {
+            "id": "s07-g07",
+            "spans": [
+              [
+                42,
+                50
+              ]
+            ],
+            "headword": "actively",
+            "meaning_ko": "적극적으로",
+            "star": false
+          },
+          {
+            "id": "s07-g08",
+            "spans": [
+              [
+                51,
+                55
+              ]
+            ],
+            "headword": "seek",
+            "meaning_ko": "찾다, 구하다",
+            "star": false,
+            "kind": "lexical"
+          },
+          {
+            "id": "s07-g09",
+            "spans": [
+              [
+                56,
+                63
+              ]
+            ],
+            "headword": "diverse",
+            "meaning_ko": "다양한",
+            "star": false
+          },
+          {
+            "id": "s07-g10",
+            "spans": [
+              [
+                64,
+                71
+              ]
+            ],
+            "headword": "sources",
+            "meaning_ko": "출처들, 원천들",
+            "star": false
+          },
+          {
+            "id": "s07-g11",
+            "spans": [
+              [
+                72,
+                74
+              ]
+            ],
+            "headword": "of",
+            "meaning_ko": "~의",
+            "star": false
+          },
+          {
+            "id": "s07-g12",
+            "spans": [
+              [
+                75,
+                86
+              ]
+            ],
+            "headword": "information",
+            "meaning_ko": "정보",
+            "star": false
+          },
+          {
+            "id": "s07-g13",
+            "spans": [
+              [
+                91,
+                97
+              ],
+              [
+                98,
+                102
+              ]
+            ],
+            "headword": "engage with A",
+            "meaning_ko": "A와 교류하다, 관계를 맺다",
+            "star": false,
+            "kind": "lexical"
+          },
+          {
+            "id": "s07-g14",
+            "spans": [
+              [
+                103,
+                109
+              ]
+            ],
+            "headword": "people",
+            "meaning_ko": "사람들",
+            "star": false
+          },
+          {
+            "id": "s07-g15",
+            "spans": [
+              [
+                110,
+                113
+              ]
+            ],
+            "headword": "who V′",
+            "meaning_ko": "V′하는 (관계대명사)",
+            "star": false
+          },
+          {
+            "id": "s07-g16",
+            "spans": [
+              [
+                114,
+                118
+              ]
+            ],
+            "headword": "have",
+            "meaning_ko": "가지다",
+            "star": false
+          },
+          {
+            "id": "s07-g17",
+            "spans": [
+              [
+                119,
+                128
+              ]
+            ],
+            "headword": "different",
+            "meaning_ko": "다른",
+            "star": false
+          },
+          {
+            "id": "s07-g18",
+            "spans": [
+              [
+                129,
+                134
+              ]
+            ],
+            "headword": "views",
+            "meaning_ko": "견해들, 관점들",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              2
+            ],
+            "gloss_id": "s07-g01"
+          },
+          {
+            "span": [
+              3,
+              8
+            ],
+            "gloss_id": "s07-g02"
+          },
+          {
+            "span": [
+              9,
+              16
+            ],
+            "gloss_id": "s07-g03"
+          },
+          {
+            "span": [
+              17,
+              21
+            ],
+            "gloss_id": "s07-g03"
+          },
+          {
+            "span": [
+              22,
+              26
+            ],
+            "gloss_id": "s07-g04"
+          },
+          {
+            "span": [
+              27,
+              31
+            ],
+            "gloss_id": "s07-g05"
+          },
+          {
+            "span": [
+              33,
+              36
+            ],
+            "exemption": "standalone-you",
+            "reason": "단독 you 각주 제외(사용자 지정)"
+          },
+          {
+            "span": [
+              37,
+              41
+            ],
+            "gloss_id": "s07-g06"
+          },
+          {
+            "span": [
+              42,
+              50
+            ],
+            "gloss_id": "s07-g07"
+          },
+          {
+            "span": [
+              51,
+              55
+            ],
+            "gloss_id": "s07-g08"
+          },
+          {
+            "span": [
+              56,
+              63
+            ],
+            "gloss_id": "s07-g09"
+          },
+          {
+            "span": [
+              64,
+              71
+            ],
+            "gloss_id": "s07-g10"
+          },
+          {
+            "span": [
+              72,
+              74
+            ],
+            "gloss_id": "s07-g11"
+          },
+          {
+            "span": [
+              75,
+              86
+            ],
+            "gloss_id": "s07-g12"
+          },
+          {
+            "span": [
+              87,
+              90
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              91,
+              97
+            ],
+            "gloss_id": "s07-g13"
+          },
+          {
+            "span": [
+              98,
+              102
+            ],
+            "gloss_id": "s07-g13"
+          },
+          {
+            "span": [
+              103,
+              109
+            ],
+            "gloss_id": "s07-g14"
+          },
+          {
+            "span": [
+              110,
+              113
+            ],
+            "gloss_id": "s07-g15"
+          },
+          {
+            "span": [
+              114,
+              118
+            ],
+            "gloss_id": "s07-g16"
+          },
+          {
+            "span": [
+              119,
+              128
+            ],
+            "gloss_id": "s07-g17"
+          },
+          {
+            "span": [
+              129,
+              134
+            ],
+            "gloss_id": "s07-g18"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              0,
+              31
+            ],
+            "meaning_ko": "이 함정에 빠지는 것을 피하기 위해",
+            "explanation": "문두 To avoid …는 목적(~하기 위해)을 나타낸다. avoid V-ing: ~하는 것을 피하다(falling into this trap: 이 함정에 빠지는 것).",
+            "display_pairs": [
+              {
+                "en": "[To avoid] falling into this trap",
+                "ko": "이 함정에 빠지는 것을 [피하기 위해]",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        1,
+                        3
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        16,
+                        20
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "목적의 to부정사"
+          },
+          {
+            "span": [
+              103,
+              118
+            ],
+            "meaning_ko": "(다른 견해를) 가지고 있는 사람들",
+            "explanation": "선행사 people을 주격 관계대명사 who가 받아 have different views가 꾸민다. V′ have까지 표시하고 목적어 different views는 제외.",
+            "display_pairs": [
+              {
+                "en": "people [who have]",
+                "ko": "[가지고 있는] 사람들",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        8,
+                        11
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        6,
+                        7
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "주격 관계대명사 who"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "문두 목적의 to부정사 To avoid falling into this trap(avoid V-ing) + 주절 you must actively seek … and engage with …(조동사 must가 병렬 동사 둘을 이끎) + 주격 관계절 who have different views(선행사 people). of information 앞 후치수식 경계. this trap은 앞 문장들의 에코 챔버. 힌트 2개(목적의 to부정사, 주격 관계사). 수동 없음.",
+          "required_breaks": [
+            {
+              "at": 72,
+              "kind": "postnominal-preposition",
+              "reason": "of information은 앞 명사 diverse sources를 뒤에서 꾸미는 전치사구"
+            }
+          ],
+          "protected_spans": [],
+          "function_gloss_ids": [
+            "s07-g01",
+            "s07-g06"
+          ],
+          "relative_gloss_ids": [
+            "s07-g15"
+          ]
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s08",
+        "text": "Always remember to check the information you receive, and keep an open mind when discussing new ideas.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 40,
+            "ko": "항상 정보를 확인할 것을 기억하라"
+          },
+          {
+            "start": 41,
+            "end": 53,
+            "ko": "당신이 받는,"
+          },
+          {
+            "start": 54,
+            "end": 75,
+            "ko": "그리고 열린 마음을 유지하라"
+          },
+          {
+            "start": 76,
+            "end": 102,
+            "ko": "새로운 생각들을 논의할 때."
+          }
+        ],
+        "natural_ko": "항상 당신이 받은 정보를 잊지 말고 확인하고, 새로운 생각을 논의할 때는 열린 마음을 유지하라.",
+        "clauses": [
+          {
+            "kind": "imperative",
+            "start": 0,
+            "subject_spans": [],
+            "verb_spans": [
+              [
+                7,
+                15
+              ],
+              [
+                58,
+                62
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 41,
+            "marker": "that",
+            "omitted_marker": true,
+            "subject_spans": [
+              [
+                41,
+                44
+              ]
+            ],
+            "verb_spans": [
+              [
+                45,
+                52
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s08-g01",
+            "spans": [
+              [
+                0,
+                6
+              ]
+            ],
+            "headword": "always",
+            "meaning_ko": "항상",
+            "star": false
+          },
+          {
+            "id": "s08-g02",
+            "spans": [
+              [
+                7,
+                15
+              ],
+              [
+                16,
+                18
+              ]
+            ],
+            "headword": "remember to V",
+            "meaning_ko": "~할 것을 기억하다, 잊지 않고 ~하다",
+            "star": false
+          },
+          {
+            "id": "s08-g03",
+            "spans": [
+              [
+                19,
+                24
+              ]
+            ],
+            "headword": "check",
+            "meaning_ko": "확인하다",
+            "star": false
+          },
+          {
+            "id": "s08-g04",
+            "spans": [
+              [
+                29,
+                40
+              ]
+            ],
+            "headword": "information",
+            "meaning_ko": "정보",
+            "star": false
+          },
+          {
+            "id": "s08-g05",
+            "spans": [
+              [
+                45,
+                52
+              ]
+            ],
+            "headword": "receive",
+            "meaning_ko": "받다",
+            "star": false
+          },
+          {
+            "id": "s08-g06",
+            "spans": [
+              [
+                58,
+                62
+              ],
+              [
+                66,
+                70
+              ],
+              [
+                71,
+                75
+              ]
+            ],
+            "headword": "keep an open mind",
+            "meaning_ko": "열린 마음을 유지하다",
+            "star": true,
+            "today_word_id": "u1-w8"
+          },
+          {
+            "id": "s08-g07",
+            "spans": [
+              [
+                76,
+                80
+              ]
+            ],
+            "headword": "when V-ing",
+            "meaning_ko": "~할 때",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s08-g08"
+            ]
+          },
+          {
+            "id": "s08-g08",
+            "spans": [
+              [
+                81,
+                91
+              ]
+            ],
+            "headword": "discuss",
+            "meaning_ko": "논의하다, 토론하다",
+            "star": false,
+            "verb_form": {
+              "usage": "ing",
+              "source_span": [
+                81,
+                91
+              ],
+              "lemma": "discuss"
+            },
+            "kind": "lexical"
+          },
+          {
+            "id": "s08-g09",
+            "spans": [
+              [
+                92,
+                95
+              ]
+            ],
+            "headword": "new",
+            "meaning_ko": "새로운",
+            "star": false
+          },
+          {
+            "id": "s08-g10",
+            "spans": [
+              [
+                96,
+                101
+              ]
+            ],
+            "headword": "ideas",
+            "meaning_ko": "생각들, 아이디어들",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              6
+            ],
+            "gloss_id": "s08-g01"
+          },
+          {
+            "span": [
+              7,
+              15
+            ],
+            "gloss_id": "s08-g02"
+          },
+          {
+            "span": [
+              16,
+              18
+            ],
+            "gloss_id": "s08-g02"
+          },
+          {
+            "span": [
+              19,
+              24
+            ],
+            "gloss_id": "s08-g03"
+          },
+          {
+            "span": [
+              25,
+              28
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              29,
+              40
+            ],
+            "gloss_id": "s08-g04"
+          },
+          {
+            "span": [
+              41,
+              44
+            ],
+            "exemption": "standalone-you",
+            "reason": "단독 you 각주 제외(사용자 지정)"
+          },
+          {
+            "span": [
+              45,
+              52
+            ],
+            "gloss_id": "s08-g05"
+          },
+          {
+            "span": [
+              54,
+              57
+            ],
+            "exemption": "standalone-and-but",
+            "reason": "일반 연결 and/but 단독 각주 제외"
+          },
+          {
+            "span": [
+              58,
+              62
+            ],
+            "gloss_id": "s08-g06"
+          },
+          {
+            "span": [
+              63,
+              65
+            ],
+            "exemption": "below-middle1-unneeded",
+            "level": "below-middle1",
+            "reason": "관사: 초등 기초어로 문맥상 별도 뜻 지원 불필요"
+          },
+          {
+            "span": [
+              66,
+              70
+            ],
+            "gloss_id": "s08-g06"
+          },
+          {
+            "span": [
+              71,
+              75
+            ],
+            "gloss_id": "s08-g06"
+          },
+          {
+            "span": [
+              76,
+              80
+            ],
+            "gloss_id": "s08-g07"
+          },
+          {
+            "span": [
+              81,
+              91
+            ],
+            "gloss_id": "s08-g08"
+          },
+          {
+            "span": [
+              92,
+              95
+            ],
+            "gloss_id": "s08-g09"
+          },
+          {
+            "span": [
+              96,
+              101
+            ],
+            "gloss_id": "s08-g10"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              25,
+              52
+            ],
+            "meaning_ko": "당신이 받는 정보",
+            "explanation": "선행사 the information 뒤 목적격 관계대명사 that이 생략된 관계절(receive의 목적어 자리). S′ you, V′ receive.",
+            "display_pairs": [
+              {
+                "en": "the information [(that) you receive]",
+                "ko": "[당신이 받는] 정보",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        18,
+                        22
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        3,
+                        4
+                      ],
+                      [
+                        6,
+                        7
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "목적격 관계대명사 that 생략",
+            "display_mode": "omitted-relative",
+            "omitted_relative": "that"
+          },
+          {
+            "span": [
+              76,
+              91
+            ],
+            "meaning_ko": "(새로운 생각들을) 논의할 때",
+            "explanation": "접속사 when 뒤에 주어·be동사가 생략되고 V-ing가 이어진 형태(when you are discussing). ~할 때. 목적어 new ideas는 표시에서 제외.",
+            "display_pairs": [
+              {
+                "en": "[when discussing]",
+                "ko": "[논의할 때]",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        1,
+                        5
+                      ],
+                      [
+                        13,
+                        16
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        3,
+                        6
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "축약된 when 부사절"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "명령문 Always remember to check … and keep an open mind …(병렬 명령 동사) + 목적격 관계대명사 생략 관계절 you receive(선행사 the information) + 축약된 when 부사절 when discussing new ideas. remember to V(앞으로 할 일을 잊지 않다). 힌트 2개(생략 관계사, when + V-ing). 수동 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [
+            "s08-g07"
+          ],
+          "relative_gloss_ids": []
+        }
+      },
+      {
+        "source_id": "src",
+        "id": "s09",
+        "text": "Even if you really want something to be true, it doesn’t always mean that it is true.",
+        "key": false,
+        "chunks": [
+          {
+            "start": 0,
+            "end": 23,
+            "ko": "당신이 정말로 원하더라도"
+          },
+          {
+            "start": 24,
+            "end": 45,
+            "ko": "어떤 것이 사실이기를,"
+          },
+          {
+            "start": 46,
+            "end": 68,
+            "ko": "그것이 항상 의미하는 것은 아니다"
+          },
+          {
+            "start": 69,
+            "end": 85,
+            "ko": "그것이 사실이라는 것을."
+          }
+        ],
+        "natural_ko": "어떤 것이 사실이기를 당신이 정말로 원하더라도, 그렇다고 그것이 항상 사실이라는 뜻은 아니다.",
+        "clauses": [
+          {
+            "kind": "subordinate",
+            "start": 0,
+            "marker": "Even if",
+            "subject_spans": [
+              [
+                8,
+                11
+              ]
+            ],
+            "verb_spans": [
+              [
+                19,
+                23
+              ]
+            ]
+          },
+          {
+            "kind": "main",
+            "start": 46,
+            "subject_spans": [
+              [
+                46,
+                48
+              ]
+            ],
+            "verb_spans": [
+              [
+                49,
+                56
+              ],
+              [
+                64,
+                68
+              ]
+            ]
+          },
+          {
+            "kind": "subordinate",
+            "start": 69,
+            "marker": "that",
+            "subject_spans": [
+              [
+                74,
+                76
+              ]
+            ],
+            "verb_spans": [
+              [
+                77,
+                79
+              ]
+            ]
+          }
+        ],
+        "glosses": [
+          {
+            "id": "s09-g01",
+            "spans": [
+              [
+                0,
+                4
+              ],
+              [
+                5,
+                7
+              ]
+            ],
+            "headword": "even if S′ V′",
+            "meaning_ko": "S′(이/가) V′하더라도",
+            "star": false
+          },
+          {
+            "id": "s09-g02",
+            "spans": [
+              [
+                12,
+                18
+              ]
+            ],
+            "headword": "really",
+            "meaning_ko": "정말로",
+            "star": false
+          },
+          {
+            "id": "s09-g03",
+            "spans": [
+              [
+                19,
+                23
+              ],
+              [
+                34,
+                36
+              ]
+            ],
+            "headword": "want A to V",
+            "meaning_ko": "A가 ~하기를 원하다",
+            "star": false
+          },
+          {
+            "id": "s09-g04",
+            "spans": [
+              [
+                24,
+                33
+              ]
+            ],
+            "headword": "something",
+            "meaning_ko": "어떤 것, 무언가",
+            "star": false
+          },
+          {
+            "id": "s09-g05",
+            "spans": [
+              [
+                37,
+                39
+              ]
+            ],
+            "headword": "be",
+            "meaning_ko": "~이다",
+            "star": false
+          },
+          {
+            "id": "s09-g06",
+            "spans": [
+              [
+                40,
+                44
+              ]
+            ],
+            "headword": "true",
+            "meaning_ko": "사실인, 진실인",
+            "star": false
+          },
+          {
+            "id": "s09-g07",
+            "spans": [
+              [
+                46,
+                48
+              ]
+            ],
+            "headword": "it",
+            "meaning_ko": "그것은",
+            "star": false,
+            "referent_ko": "어떤 것이 사실이기를 원하는 것"
+          },
+          {
+            "id": "s09-g08",
+            "spans": [
+              [
+                49,
+                56
+              ],
+              [
+                57,
+                63
+              ]
+            ],
+            "headword": "not always",
+            "meaning_ko": "항상 ~인 것은 아니다 (부분 부정)",
+            "star": false,
+            "kind": "function",
+            "combines_with": [
+              "s09-g09"
+            ]
+          },
+          {
+            "id": "s09-g09",
+            "spans": [
+              [
+                64,
+                68
+              ]
+            ],
+            "headword": "mean",
+            "meaning_ko": "의미하다, 뜻하다",
+            "star": false,
+            "kind": "lexical"
+          },
+          {
+            "id": "s09-g10",
+            "spans": [
+              [
+                69,
+                73
+              ]
+            ],
+            "headword": "that S′ V′",
+            "meaning_ko": "S′(이/가) V′라는 것",
+            "star": false
+          },
+          {
+            "id": "s09-g11",
+            "spans": [
+              [
+                74,
+                76
+              ]
+            ],
+            "headword": "it",
+            "meaning_ko": "그것이",
+            "star": false,
+            "referent_ko": "사실이기를 원하는 어떤 것"
+          },
+          {
+            "id": "s09-g12",
+            "spans": [
+              [
+                77,
+                79
+              ]
+            ],
+            "headword": "is",
+            "meaning_ko": "~이다",
+            "star": false
+          },
+          {
+            "id": "s09-g13",
+            "spans": [
+              [
+                80,
+                84
+              ]
+            ],
+            "headword": "true",
+            "meaning_ko": "사실인, 진실인",
+            "star": false
+          }
+        ],
+        "lexical_coverage": [
+          {
+            "span": [
+              0,
+              4
+            ],
+            "gloss_id": "s09-g01"
+          },
+          {
+            "span": [
+              5,
+              7
+            ],
+            "gloss_id": "s09-g01"
+          },
+          {
+            "span": [
+              8,
+              11
+            ],
+            "exemption": "standalone-you",
+            "reason": "단독 you 각주 제외(사용자 지정)"
+          },
+          {
+            "span": [
+              12,
+              18
+            ],
+            "gloss_id": "s09-g02"
+          },
+          {
+            "span": [
+              19,
+              23
+            ],
+            "gloss_id": "s09-g03"
+          },
+          {
+            "span": [
+              24,
+              33
+            ],
+            "gloss_id": "s09-g04"
+          },
+          {
+            "span": [
+              34,
+              36
+            ],
+            "gloss_id": "s09-g03"
+          },
+          {
+            "span": [
+              37,
+              39
+            ],
+            "gloss_id": "s09-g05"
+          },
+          {
+            "span": [
+              40,
+              44
+            ],
+            "gloss_id": "s09-g06"
+          },
+          {
+            "span": [
+              46,
+              48
+            ],
+            "gloss_id": "s09-g07"
+          },
+          {
+            "span": [
+              49,
+              56
+            ],
+            "gloss_id": "s09-g08"
+          },
+          {
+            "span": [
+              57,
+              63
+            ],
+            "gloss_id": "s09-g08"
+          },
+          {
+            "span": [
+              64,
+              68
+            ],
+            "gloss_id": "s09-g09"
+          },
+          {
+            "span": [
+              69,
+              73
+            ],
+            "gloss_id": "s09-g10"
+          },
+          {
+            "span": [
+              74,
+              76
+            ],
+            "gloss_id": "s09-g11"
+          },
+          {
+            "span": [
+              77,
+              79
+            ],
+            "gloss_id": "s09-g12"
+          },
+          {
+            "span": [
+              80,
+              84
+            ],
+            "gloss_id": "s09-g13"
+          }
+        ],
+        "hints": [
+          {
+            "span": [
+              0,
+              23
+            ],
+            "meaning_ko": "당신이 (어떤 것이 사실이기를) 정말로 원하더라도",
+            "explanation": "even if S′ V′: S′가 V′하더라도(양보). S′ you, V′ want까지 표시하고 사이 부사 really는 보존, want A to V의 A·to V는 제외.",
+            "display_pairs": [
+              {
+                "en": "[Even if you really want]",
+                "ko": "[당신이 정말로 원하더라도]",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        1,
+                        8
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        3,
+                        4
+                      ],
+                      [
+                        11,
+                        14
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "양보 접속사 even if"
+          },
+          {
+            "span": [
+              69,
+              84
+            ],
+            "meaning_ko": "그것이 사실이라는 것",
+            "explanation": "동사 mean의 목적어 that 명사절(S′ it, V′ is, 보어 true). 바깥의 doesn’t always mean(부분 부정)은 분석 u1-gp3에서 설명.",
+            "display_pairs": [
+              {
+                "en": "[that it is true]",
+                "ko": "[그것이 사실이라는 것]",
+                "emphasis_links": [
+                  {
+                    "en_spans": [
+                      [
+                        1,
+                        5
+                      ]
+                    ],
+                    "ko_spans": [
+                      [
+                        3,
+                        4
+                      ],
+                      [
+                        8,
+                        12
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "structure_label": "명사절 접속사 that"
+          }
+        ],
+        "reading_checks": {
+          "review_record": "양보 부사절 Even if you really want something to be true(want A to V, A=something) + 주절 it doesn’t always mean + 목적어 that 명사절. doesn’t always = 부분 부정(항상 ~인 것은 아니다). 앞 it은 사실이기를 원하는 일, that절 it은 원하는 그 어떤 것. 힌트 2개(even if, 명사절 that). 수동 없음.",
+          "required_breaks": [],
+          "protected_spans": [],
+          "function_gloss_ids": [
+            "s09-g08"
+          ],
+          "relative_gloss_ids": []
+        }
+      }
+    ]
+  },
+  "context": {
+    "sources": [
+      {
+        "id": "src",
+        "label": "Further Reading",
+        "text": "These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs. However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.” An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo. The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with. This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.",
+        "sentences": [
+          {
+            "id": "s01",
+            "start": 0,
+            "end": 156
+          },
+          {
+            "id": "s02",
+            "start": 157,
+            "end": 299
+          },
+          {
+            "id": "s03",
+            "start": 300,
+            "end": 396
+          },
+          {
+            "id": "s04",
+            "start": 397,
+            "end": 515
+          },
+          {
+            "id": "s05",
+            "start": 516,
+            "end": 640
+          },
+          {
+            "id": "s06",
+            "start": 641,
+            "end": 748
+          },
+          {
+            "id": "s07",
+            "start": 749,
+            "end": 884
+          },
+          {
+            "id": "s08",
+            "start": 885,
+            "end": 987
+          },
+          {
+            "id": "s09",
+            "start": 988,
+            "end": 1073
+          }
+        ],
+        "subheadings": [],
+        "provenance": {
+          "filename": "(2022개정)2025년_공통영어2_YBM(박준언)_1과_본문_(20250723수정).pdf",
+          "sha256": "a84f5471130f0f0420964122864df806b5719309fde01bc6090837c6c6174043",
+          "location": "원본 PDF 4쪽 Further Reading 왼쪽 단 영어 본문 전체(섹션 표시 Further Reading·제목 Breaking Out of the Echo Chamber 제외, 오른쪽 단 한국어 해석·쪽 표시 제외)",
+          "verification_record": "2026-09-29 pypdfium2 텍스트 추출(4쪽 왼쪽 62% 영역, 공백 정규화 1,073자)을 원고와 문자 단위 대조해 완전 일치. 줄바꿈은 공백으로 연결. 곡선 따옴표(“ ”)·아포스트로피(’) 원문 유지. 단락 1개(들여쓰기 1곳)."
+        }
+      }
+    ],
+    "paragraphs": [
+      {
+        "id": "p01",
+        "source_id": "src",
+        "subheading_id": null,
+        "sentence_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s04",
+          "s05",
+          "s06",
+          "s07",
+          "s08",
+          "s09"
+        ]
+      }
+    ],
+    "grouping_resolutions": [],
+    "units": [],
+    "sentences": []
+  }
+}

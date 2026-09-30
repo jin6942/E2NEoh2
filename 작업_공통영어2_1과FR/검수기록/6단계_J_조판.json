@@ -1,0 +1,66 @@
+{
+  "reviewer_id": "J",
+  "role": "J",
+  "renderer": "LibreOffice",
+  "review_date": "2026-09-29",
+  "source_pdf": "/home/user/E2NEoh2/작업_공통영어2_1과FR/예비렌더_LibreOffice/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_전체통합본.pdf",
+  "source_pdf_sha256": "3f0281f202618674f983b0b40d46d971df303f5ab786550d444c2fa1a198cd7a",
+  "scope": {"kind": "partial", "pages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]},
+  "pages_reviewed": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+  "detail_pages": [2, 5, 6, 7, 9, 10, 13],
+  "context_pages": [],
+  "method": [
+    "110dpi 쪽 이미지 14쪽 전체 육안 확인",
+    "250dpi 재렌더 후 PIL 확대: p2(문장 블록 각주·힌트), p5(끊어읽기·자연 해석), p9(5번 핵심 문장 답안선), p10(2번 밑줄 발문, 3번 요약문·선지), p13(오답 정리 회색 소형 글씨)",
+    "pdftotext -bbox-layout 줄 좌표로 p6 하단 여유와 p7 넘친 블록 높이 측정",
+    "1과 본책 LibreOffice 렌더(p43 빠른 정답 단독 쪽)와 1과 K1·7단계 조판 기록의 선례 대조"
+  ],
+  "checklist": {
+    "cover": "PASS — 'YBM(박준언) · 1과 (Further Reading)'와 제목 띠 'Breaking Out of the Echo Chamber / 에코 챔버에서 벗어나기' 확인. 구성 '1개 문단 / 본문 9문장 / 전체 4문항', '워크북 실전문제 1문항 + 미니 모의고사 3문항×1회'",
+    "overlap_clipping_footer": "PASS — 14쪽 모두 겹침·글자 잘림·로고/바닥글 침범 없음. p6 마지막 줄 하단 758.7pt, 바닥글 선 약 791.7pt",
+    "blank_pages": "완전 빈 쪽 없음. p7(유의어/반의어 3행만), p11(빠른 정답만), p14(3번 오답 정리만)은 섹션 끝 자연 여백. p11은 1과 본책 p43과 같은 구성",
+    "orphan_titles_table_rows_answer_lines": "PASS — 제목 고립·표 행 잘림·답안선 단독 이월 없음",
+    "sentence_blocks": "PASS — 해석지 문장 1~9 블록(영문→주어·동사→※각주→구조 힌트→나의 해석→구분선)이 모두 한 쪽 안에서 완결. 문항 발문·지문·선택지 분리 없음",
+    "workbook_item4_item5": "PASS — p8은 실전문제 1번(지문+선지 5개)으로 끝나고 p9가 '문단 1 워크북 (계속)'과 '4. 구문 결합해서 해석하기'로 새 쪽 시작. 4번 마지막 도움말 뒤 빈 줄 하나 후 '5. 핵심 문장 2개 다시 해석하기' 제목·문장 1·2·각 나의 해석 2줄 답안선이 p9에 함께 있음",
+    "mini_mock_numbering": "PASS — p10 '1과 미니 모의고사 1회 · 3문항', 문항 번호 1·2·3. p13 해설도 1회 아래 1. ③ 2. ① 3. ④",
+    "quick_key": "PASS — p11 '워크북 1. ②', '미니 모의고사 1회 1. ③ 2. ① 3. ④'",
+    "mock1_new_content": "PASS — Q2 발문 밑줄 'it doesn’t always mean that it is true'와 지문 끝 같은 구절 밑줄 확인. Q3 요약문 'An echo chamber can (A) ____ our understanding of reality, so we need to (B) ____ diverse information and different views.'에 'and divide society' 없음. 선지 ① improve …… seek out ② twist …… avoid ③ sharpen …… limit ④ twist …… seek out ⑤ sharpen …… avoid. p13 해설 선지 해석도 같은 5개",
+    "readability": "PASS — 250dpi 확대에서 각주·구조 힌트·자연 해석·오답 정리 회색 글씨 모두 판독 가능. p9 첫 답안선이 110dpi에서 굵어 보인 것은 래스터화 현상이며 250dpi에서 네 줄 모두 같은 굵기"
+  },
+  "boundaries": [
+    {"pages": [1, 2], "status": "PASS", "summary": "표지 끝 → p2 혼공해석지 헤더(공통영어2 YBM(박준언) · 1과 혼공해석지 / 문단 1 · Further Reading · 문장 1~9)와 공통 안내로 시작"},
+    {"pages": [2, 3], "status": "PASS", "summary": "p2는 문장 2 블록의 나의 해석 공간·구분선으로 끝남 → p3는 문장 3 영문으로 시작. 블록 분리 없음"},
+    {"pages": [3, 4], "status": "PASS", "summary": "p3는 문장 6 나의 해석·구분선으로 끝남 → p4는 문장 7로 시작"},
+    {"pages": [4, 5], "status": "PASS", "summary": "p4는 문장 9와 '틀린 문장은 다음에 다시!' 안내로 해석지 끝 → p5 '1과 · 문단 1 | 지문 분석' 끊어읽기 1~9"},
+    {"pages": [5, 6], "status": "PASS", "summary": "p5는 9번 끊어읽기·자연 해석으로 끝남 → p6 같은 헤더 반복 후 글의 의도·흐름·쉬운 풀이·구문으로 해석하기 ①~④"},
+    {"pages": [6, 7], "status": "PASS", "summary": "p6는 구문 ④로 바닥글 선 직전까지 참 → '필수 유의어/반의어' 제목과 3행이 함께 p7로 이동. 제목 고립·행 분리는 없으나 p7이 3행만 있는 쪽이 됨(J-01 검토제안)"},
+    {"pages": [7, 8], "status": "PASS", "summary": "분석 끝 → p8 '1과 · 문단 1 워크북' 새 쪽 시작(1. 오늘의 낱말 표 8칸, 2. 유의어·반의어 9칸, 3. 실전문제 1번)"},
+    {"pages": [8, 9], "status": "PASS", "summary": "p8은 실전문제 1번 선지 ⑤까지 완결(하단 여백은 4번 새 쪽 규칙에 따른 것) → p9 '문단 1 워크북 (계속)'과 4번으로 새 쪽 시작, 5번이 필기선과 함께 이어짐"},
+    {"pages": [9, 10], "status": "PASS", "summary": "p9는 5번 문장 2의 나의 해석 답안선 2줄로 끝남 → p10 '1과 미니 모의고사 1회' 새 쪽"},
+    {"pages": [10, 11], "status": "PASS", "summary": "p10은 3번 선지 ⑤까지 완결 → p11 '1과 정답과 해설' 빠른 정답 단독 쪽(본책 p43과 동일 구성)"},
+    {"pages": [11, 12], "status": "PASS", "summary": "빠른 정답 → p12 '문단 1 워크북 정답' 1~5 전체가 한 쪽에 완결"},
+    {"pages": [12, 13], "status": "PASS", "summary": "워크북 정답 끝 → p13 '미니 모의고사 1회 정답과 해설' 새 쪽 시작(회차별 새 쪽 규칙 충족)"},
+    {"pages": [13, 14], "status": "PASS", "summary": "p13은 3번 정답 근거·선지 해석 ①~⑤까지 → p14는 '오답 정리' 제목과 ①②③⑤ 4항목이 함께 시작. 제목 고립 없음, 의미 경계에서 나뉨"}
+  ],
+  "status": "PASS",
+  "findings": [
+    {
+      "id": "J-01",
+      "page": 7,
+      "issue": "p6 지문 분석 설명부가 바닥글 선 직전(마지막 줄 하단 758.7pt)까지 차서 '필수 유의어/반의어' 제목과 3행(limit·foster·diverse, 약 61pt)만 p7로 넘어가 p7 대부분이 빈 쪽이다. 제목과 행이 함께 이동해 규칙상 허용되는 블록 이동이며 LibreOffice 글꼴 대체로 줄 수가 늘었을 가능성이 있다. 1과 본책 K1이 같은 현상을 검토제안으로 올렸고 7단계에서 분석 설명부 소폭 조판으로 해소한 선례가 있다.",
+      "severity": "검토제안",
+      "proposal": "Word 렌더에서도 넘치면 2026-09-25 승인 compact_profiles.spacing(분석 설명부 한정, 글자 크기 불변)을 p6 설명부에 적용해 유반 3행을 p6로 당긴다. 이 경우 통합본은 13쪽이 된다. Word에서 들어가면 조치하지 않는다."
+    },
+    {
+      "id": "J-02",
+      "page": 8,
+      "issue": "워크북 2. 유의어·반의어 뜻 쓰기가 9항목이라 '9. diverse' 오른쪽 칸에 낱말 없이 답안선만 하나 그려져 있다. 1과 본책 J1·K1도 같은 점을 검토제안으로 기록했다.",
+      "severity": "검토제안",
+      "proposal": "기존 표 디자인을 따르는 것이면 유지한다. 바꾸려면 빈 칸의 답안선만 생략한다(표 폭·열 구성은 유지)."
+    }
+  ],
+  "notes": [
+    "p10 2번 발문의 밑줄이 'true' 뒤 공백까지 약간 이어져 보인다(LibreOffice 렌더, 판독·의미에 영향 없음). 결함으로 보지 않았다.",
+    "글꼴 대체에 따른 미세한 줄바꿈 차이는 결함으로 보지 않았다."
+  ]
+}

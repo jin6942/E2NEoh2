@@ -1,0 +1,100 @@
+{
+  "reviewer": "L재검수-연결",
+  "scope": "1차 L-연결 지적 LX-01~LX-12의 반영 판정과, 최신 원고(L_재검수_변경분.json selected_data) 전체 u1~u4(s01~s47)의 단위 간 일관성 회귀 점검: 같은 구조의 단위 간 처리(각주 공식·구조 힌트 이름표·강조 대응·구문으로 해석하기 제목/공식 문구), today_words와 relations의 단위 안·단위 간 중복, 오늘의 낱말 ★ 연결, 쉬운 풀이·흐름·의도의 단위 간 서술 일관성과 교차 참조 번호.",
+  "method": "제작자 설명을 전제로 하지 않고 파이썬으로 패킷을 직접 조회. (1) changes 462건 전부를 before/after 텍스트로 풀어(경로→문장 id 대응) 읽고 LX 지적 관련 경로(u2 flow[1], s26-g01·lexical_coverage 재연결, s18-g05, s17 힌트, s19 힌트·emphasis, s09 힌트·pronoun_refs, u2 relations, u3 today_words 순서, u1·u2·u4 today_words 교체, u4-gp3 교체, u4 easy s47, u1-gp4 title)를 최신 값으로 대조. (2) 전 단위 today_words 32개의 source_gloss_id↔각주 star/today_word_id 쌍방 연결, 고아 ★, 같은 단위 반복 출현, 단위 간 today_words·relations 표제어 중복을 자동 대조. (3) 전 문장 gloss id 연속성·lexical_coverage의 gloss_id 존재 확인. (4) 전 문장 힌트 63개의 structure_label·display·emphasis_links/pronoun_refs 실제 부분 문자열을 출력해 같은 구조(가주어 It–진주어, 동격 that, so A that, 상관 구조, 전치사+동명사, 간접의문문, with 구문)의 단위 간 표시·강조 방식 비교. (5) 표제어가 같은 각주(It … for A to V/It is likely…/It … to V, that/who/what/if/whether S′ V′, because S′ V′, by, stories, spread 등)의 단위 간 뜻 비교. (6) 네 단위 grammar_points 16개의 title·formula_key·formula_support·explanation 첫머리 공식 문구와 support_gloss_ids 비교, formula_routes 연결 확인. (7) 규칙 대조: manuscript-data.md(hints·today_words·grammar_points), analysis-content.md(구조 힌트·구문으로 해석하기), gloss-rules.md(간접의문·가주어 연결·★), QC_HANDOFF 출력에서 학생 노출 여부 확인.",
+  "status": "PASS",
+  "dispositions": [
+    {
+      "id": "LX-01",
+      "result": "반영확인",
+      "evidence": "u2 analysis.flow[1].text_ko: '… 가짜 뉴스 때문에 주민들은 2주 동안 집에 돌아가지 않고 대피소에 머물렀고, 결국 정부가 그 정보가 가짜라고 발표해야 했다.'",
+      "note": "‘못했고’(불가능)가 ‘돌아가지 않고’로 바뀌어 s16 자연 해석·u2 쉬운 풀이 17번·PDF 해석과 일치. 어순이 제안과 조금 다르나 의미 동일."
+    },
+    {
+      "id": "LX-02",
+      "result": "반영확인",
+      "evidence": "s26-g01 'It is likely for A to V — A(이/가) ~할 가능성이 높다 (It은 뒤의 for A to V를 대신함)' spans [[0,2],[3,5],[11,17],[18,21],[27,29]]; s26-g02 'more — 더' 유지; 별도 is·likely 각주 삭제, lexical_coverage [3,5]·[11,17] → s26-g01 재연결; gloss id s26-g01~g13 연속, proof=s26-g09(★ u3-w4)와 u3 today_words source_gloss_id s26-g09 일치",
+      "note": "s15 ‘It … for A to V — A(이/가) ~하는 것은’과 표제어가 달라져 공식 뜻 충돌이 해소되었고, 힌트 ‘[그들[사람들]이 믿을] 가능성이 더 높다’와 대입(가능성이 높다 + 더)이 맞는다. 조사 표기도 s15와 같이 A(이/가)로 통일."
+    },
+    {
+      "id": "LX-03",
+      "result": "반영확인",
+      "evidence": "s18-g05 'it’s — ~이다 (It은 뒤의 if절을 대신함, It is의 줄임)'",
+      "note": "가주어를 ‘그것은’으로 옮기지 않아 s15·s44 가주어 각주 처리와 일치. 괄호 순서만 제안과 다름."
+    },
+    {
+      "id": "LX-04",
+      "result": "예외타당",
+      "evidence": "s17 hints[0] display '[that another earthquake followed by a tsunami was about to strike] → [쓰나미로 이어지는 또 다른 지진이 곧 닥칠 것이라는] (동격 접속사 that)' 변경 없음; s17-g08 'that S′ V′ — S′(이/가) V′라는 (앞 명사의 내용을 설명)'; reading_checks.review_record에 앞 명사 제외 사유 기록 없음",
+      "note": "manuscript-data.md의 앞 명사 유지 요구는 관계사 앞 명사·가주어 틀에 명시되어 있고 동격 that에는 명시가 없다. s17은 앞 명사 fake news stories와 that 사이에 on social media가 끼어 있어 일반형 연속 표시로는 앞 명사를 넣으면 표시가 크게 길어지고, 같은 문장 각주가 ‘앞 명사의 내용을 설명’이라고 연결 대상을 알려 주므로 제작자 예외를 타당하다고 판단한다. 다만 u1 s04·s06과 표시 방식이 다른 이유를 s17 review_record에 한 줄 남기기를 권한다(1차 제안의 조건)."
+    },
+    {
+      "id": "LX-05",
+      "result": "반영확인",
+      "evidence": "s19 hints[0] display ko '너무 불안해해서 … 정부가 발표해야 했다', emphasis_links ko_spans [[0,2],[6,8],[13,14]] = 너무/해서/가 (s33 ‘너무/어서/이’와 같은 방식); u2-gp3 title·formula_support·explanation ‘S′(이/가)’, answer_ko ‘정부가’",
+      "note": "학생 노출 표시와 강조는 s33과 같게 맞춰졌다. 내부 hint meaning_ko는 여전히 ‘너무 불안해해서 정부는 발표해야 했다’로 남아 있어 R연결-02로 따로 기록(학생 비노출, 검토제안)."
+    },
+    {
+      "id": "LX-06",
+      "result": "반영확인",
+      "evidence": "s09 hints[1] display ko '[그것[그 가짜 뉴스]이 상처를 주었기 때문에]', pronoun_refs ko_reference_span [3,12] = '[그 가짜 뉴스]', emphasis because ↔ 이/기 때문에 위치 재계산 확인",
+      "note": "특정 사건의 가짜 뉴스(s06~s09)와 u2의 일반 가짜 뉴스 지칭이 구분된다."
+    },
+    {
+      "id": "LX-07",
+      "result": "반영확인",
+      "evidence": "u2 relations[0].antonym: accidental '우발적인, 뜻하지 않은'",
+      "note": "s11 각주 accidental 뜻과 일치."
+    },
+    {
+      "id": "LX-08",
+      "result": "반영확인",
+      "evidence": "u3 today_words 순서: phenomenon(s22-g05) → go viral(s25-g03) → effortlessly → proof → be inclined to V → prejudices → confirmation bias → selectively; 단, id는 [u3-w2, u3-w1, u3-w3, …]",
+      "note": "원문 등장 순서로 바뀌어 네 단위 배열 기준이 같아졌다. 제안의 id 재부여는 하지 않았고 각주 today_word_id(s22-g05=u3-w2, s25-g03=u3-w1)와의 쌍방 연결은 정확하다. 학생 번호는 목록 위치에서 파생되므로(manuscript-data.md) 오류는 아니나, u1은 같은 재배열에서 id를 다시 매겼으므로 워크북 단계 전에 u3도 u3-w1=phenomenon으로 맞추면 단위 간 관리 기준이 같아진다."
+    },
+    {
+      "id": "LX-09",
+      "result": "반영확인",
+      "evidence": "u1 today_words: astonished·news headline·undamaged·embarrassed·incident·turn out to V·content creators·provocative (criticize·accidentally 제외); u2: distributor·manipulate·with the intention of V-ing·disturb·states of emergency·shelters·displaced·anxious (deliberate 제외); u4: mislead·at face value·critical thinking·evaluate·biases·credibility·intent·eliminate (reliable·valid·objectively 제외)",
+      "note": "네 단위 모두 today_words와 relations 표제어·유의어·반의어 사이 겹침 0건, 단위 간 today_words 중복 0건. 32개 모두 source_gloss_id의 각주에 star=true와 같은 today_word_id가 있고, 고아 ★ 0건, 같은 단위 반복 출현 누락 0건."
+    },
+    {
+      "id": "LX-10",
+      "result": "반영확인",
+      "evidence": "u4-gp3 {sentence_id:'s42', span:[11,43], title:'who V′(간접의문): 누가 V′했는지', formula_key:'who V′', practice:{span:[19,43], formula_support:{en:'who V′',ko:'누가 V′했는지'}, answer_ko:'누가 그 뉴스 기사를 썼는지', support_gloss_ids:['s42-g04','s42-g05']}}",
+      "note": "가주어 It–to V 중복이 해소되어 과 전체 구문으로 해석하기 16개에 같은 초점 중복 없음. s42-g03 뜻·힌트 ‘[who wrote] → [누가 썼는지] (간접의문문 who)’·explanation(examine=살펴보다, s42-g02와 일치)이 서로 맞고, support_gloss_ids도 다른 항목처럼 공식 각주(s42-g03)를 빼고 wrote·news story만 연결. 제목의 괄호 성격 표시는 u1-gp2 ‘(동격)’과 같은 방식."
+    },
+    {
+      "id": "LX-11",
+      "result": "반영확인",
+      "evidence": "u4 easy_explanations s47: ['47번 문장은 글 전체의 마지막 당부다.', '도입부의 지나는 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했었다.', '그런데 결국 지나 자신도 실수로 가짜 뉴스를 퍼뜨리게 되었다.', '46번의 ‘잊지 마라!’는 바로 이 점을 기억하라는 말이다.', '누구든 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있다는 것이다.']",
+      "note": "지나가 가짜 뉴스를 ‘만든’ 것처럼 읽히는 문장이 없어졌고 u1 흐름·s09·s10과 맞다. 46번 참조(s46 Don’t forget!)도 정확."
+    },
+    {
+      "id": "LX-12",
+      "result": "반영확인",
+      "evidence": "u1-gp4 title 'have p.p.: ~했다'",
+      "note": "제목에서 본문 예·번역이 빠져 다른 15개 제목의 ‘공식: 뜻’ 형식과 같아졌다. 제안 문구(지금까지 결과가 남아)는 쓰지 않았으나 u1-gp1 ‘had p.p.: (그 전에) ~했다’와 구별되고 설명 첫머리에 ‘(지금의 결과까지 이어짐)’이 있어 문제는 해소."
+    }
+  ],
+  "new_findings": [
+    {
+      "id": "R연결-01",
+      "sentence_id": "s06·s37·s43 (u1-gp2·u4-gp1·u4-gp2)",
+      "field": "units[].analysis.grammar_points[].title",
+      "current": "u1-gp2 '명사 + that S′ V′(동격): S′가 V′했다는 명사' / u4-gp1 'what S′ V′: S′가 V′하는 것' / u4-gp2 'whether S′ V′: S′가 V′하는지' ↔ 이번에 바뀐 u2-gp2 'It … for A to V: A(이/가) ~하는 것은 …' / u2-gp3 'so A that S′ V′: 너무 A해서 S′(이/가) V′하다'",
+      "issue": "이번 반영(Lu2-08·LX-05 연동)으로 u2 두 제목만 S′·A의 조사를 ‘(이/가)’로 바꾸어, 같은 분석지 ▶ 구문으로 해석하기 제목의 공식 문구가 단위마다 ‘S′가’와 ‘S′(이/가)’로 갈렸다. 세 항목 모두 같은 항목의 formula_support.ko와 explanation 첫머리는 이미 ‘S′(이/가)’라서 한 항목 안에서도 제목만 다르다. u4-gp2 제목은 이번에 ‘(아닌지)’만 지우고 ‘S′가’를 남겼다. (내부 필드: u2-gp2 explanation 첫머리 ‘A가 ~하는 것은 (형용사)하다’, s19 hints[0].explanation ‘너무 A해서 S′가 V′하다’도 같은 불일치.)",
+      "proposal": "u1-gp2 title '명사 + that S′ V′(동격): S′(이/가) V′했다는 명사' / u4-gp1 title 'what S′ V′: S′(이/가) V′하는 것' / u4-gp2 title 'whether S′ V′: S′(이/가) V′하는지'; 내부 설명도 u2-gp2 explanation 첫머리 '공식: It is 형용사 for A to V — A(이/가) ~하는 것은 (형용사)하다.', s19 hints[0].explanation 'so A that S′ V′(너무 A해서 S′(이/가) V′하다)'로 맞춤.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "R연결-02",
+      "sentence_id": "s19",
+      "field": "hints[0].meaning_ko",
+      "current": "너무 불안해해서 정부는 발표해야 했다",
+      "issue": "같은 힌트의 display ko는 ‘… 정부가 발표해야 했다’로 바뀌었는데 내부 근거 meaning_ko만 ‘정부는’으로 남았다. 같은 짝 구조의 s33 meaning_ko ‘너무 자극적이어서 당신이 클릭할 수도 있다’, u2-gp3 answer_ko ‘정부가’와도 다르다(LX-05 제안의 meaning_ko 부분 미적용). 학생용 출력에는 나오지 않는 내부 필드다.",
+      "proposal": "너무 불안해해서 정부가 발표해야 했다",
+      "severity": "검토제안"
+    }
+  ]
+}

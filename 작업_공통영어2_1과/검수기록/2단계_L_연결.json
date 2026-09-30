@@ -1,0 +1,103 @@
+{
+  "reviewer": "L-연결",
+  "method": "제작자 판단을 전제로 하지 않고 QC_HANDOFF 전문(u1~u4, 47문장)을 처음부터 끝까지 읽은 뒤, 원고 JSON(units[].today_words·analysis.grammar_points·formula_routes·relations·flow·easy_explanations, sentences[].glosses·hints·reading_checks·lexical_coverage)을 파이썬으로 뽑아 단위 간 대조. 원본 PDF 1~3쪽 오른쪽 단 한국어 해석을 pypdfium2로 추출해 의미 기준으로 사용. 규칙은 editorial-core.md, analysis-content.md(대명사와 지칭 대상·구문으로 해석하기·쉬운 풀이·수량), gloss-rules.md(대명사·가주어·★·검수 6), proper-nouns.md, manuscript-data.md(proper-name-repeat=같은 독립 본문), workbook.md를 실제로 읽고 적용. 점검 항목: (1) 대명사 지칭 사슬 — 지나(her/she/herself), 운동선수 가짜 뉴스(it s06·s07·s09), 콘텐츠 제작자(they/their s08), 일반 가짜 뉴스(it s13·s14), 암본 주민(their s16·this s17), 메시지 독자(you s18), 일반 사람들(they/them/their s23~s30), 독자 you(s33~s45), 헤드라인(they/them s33) 전수 확인. (2) 용어 일관성 — fake news·story/stories·spread(타/자동사·명사)·provocative/stimulating·social media·headline·source·credibility/reliable·confirmation bias/biases/prejudices·examine·attention·have/had/had been/be/being p.p. 각주와 구조 힌트 이름표(동격 접속사 that·명사절 접속사 that·주격 관계대명사·가주어 It과 진주어 to부정사/if절·목적의 to부정사·전치사 by + 동명사·so A that). (3) 고유명사 첫 등장 — Gina s01, Heundeulbawi s01(s03 반복), Seoraksan National Park s01, Ambon·Indonesia s16(s18 반복), Massachusetts Institute of Technology·the US s21; s11 Gina는 같은 독립 본문(src) 반복으로 proper-name-repeat(s01-g06) 연결되어 manuscript-data.md 148행 기준에 맞음. (4) 네 단위 제목/주제·의도·흐름을 글의 논증(사건→정의·해악→확산 이유→대처법·결론)으로 이어 읽고, 쉬운 풀이의 교차 참조(1~2번, 6번, 8번, 9번, 7~8번, 12번, 16번, 23번, 25번, 27번, 29~30번, 36~37번, 38번, 27~29번, 도입부 지나)를 해당 문장과 대조 — 번호는 모두 정확. (5) 단위별 오늘의 낱말 8개·★ 연결·유반 3세트의 단위 간/활동 간 충돌, 핵심 문장 8개. (6) 구문으로 해석하기 12개+보충 2개의 단위 간 중복과 formula_routes 12건(have/had/had been/be/being p.p.)의 경로 일관성. 흐름의 ‘10~10’·‘31~31’ 표기는 export_handoff.py의 범위 출력 방식이라 내용 지적에서 제외.",
+  "status": "FIX_REQUIRED",
+  "findings": [
+    {
+      "id": "LX-01",
+      "location": "u2/analysis.flow[1](비상사태 사례, s15~s19)",
+      "current": "2019년 암본 지진 뒤 또 다른 지진과 쓰나미가 온다는 가짜 뉴스 때문에 주민들은 2주 동안 집에 돌아가지 못했고, 결국 정부가 그 정보가 가짜라고 발표해야 했다.",
+      "issue": "원문 s16 ‘did not return to their homes and were still in shelters for two weeks’는 주민들이 (가짜 뉴스를 믿고 두려워서) 스스로 ‘돌아가지 않았다’는 뜻이다. 같은 원고의 s16 자연 해석(‘집으로 돌아가지 않고’), u2 쉬운 풀이 17번(‘주민들이 집에 돌아가지 않은 이유’), PDF 해석(‘집으로 돌아가지 않고 2주 동안 대피소에 머물렀다’)과 달리 흐름만 ‘못했고’(불가능)로 바꿔 의미가 어긋나고 단원 안에서 서술이 서로 맞지 않는다.",
+      "proposal": "2019년 암본 지진 뒤 또 다른 지진과 쓰나미가 온다는 가짜 뉴스 때문에 주민들은 집에 돌아가지 않고 2주 동안 대피소에 머물렀고, 결국 정부가 그 정보가 가짜라고 발표해야 했다.",
+      "severity": "확정오류"
+    },
+    {
+      "id": "LX-02",
+      "location": "u3/s26/gloss s26-g01",
+      "current": "It … for A to V — A가 ~할 가능성이 (It은 뒤의 for A to V를 대신함)",
+      "issue": "같은 표제어 ‘It … for A to V’가 u2 s15에서는 ‘A가 ~하는 것은’, u3 s26에서는 ‘A가 ~할 가능성이’로 뜻이 달라 단위 간 공식 뜻이 흔들린다(u2 구문으로 해석하기 u2-gp2 제목도 ‘A가 ~하는 것은’). 또 s26은 표제어에 likely가 없는데 뜻에 ‘가능성’을 넣어, 같은 문장의 별도 각주 ‘likely — 가능성이 높은, ~할 것 같은’과 뜻이 겹친다(대입 시 ‘가능성이 … 가능성이 높은’). gloss-rules.md ‘포함 범위’(숙어·구문과 불필요한 중복 금지)·‘가주어 It의 연결 안내’(It is likely that S′ V′ — S′(이/가) V′할 가능성이 높다처럼 전체 틀 제공) 위반.",
+      "proposal": "형용사까지 포함한 전체 틀로 바꾸고 겹치는 낱말 각주를 정리: ‘It is likely for A to V — A가 ~할 가능성이 높다 (It은 뒤의 for A to V를 대신함)’(spans: It·is·likely·for·to) + ‘more — 더’ 유지, 별도 ‘is — ~이다’·‘likely — 가능성이 높은, ~할 것 같은’ 각주는 이 틀에 흡수해 삭제(lexical_coverage를 새 gloss_id로 재연결). 구조 힌트 ‘It is more likely [for them to believe] → [그들[사람들]이 믿을] 가능성이 더 높다 (가주어 It과 진주어 to부정사)’는 그대로 대응. 전체 틀 대신 s15와 같은 표제어를 유지하려면 뜻을 ‘A가 ~하는 것은’으로 통일해야 하나 이 문장의 한국어 대응이 어색해지므로 전자를 권장.",
+      "severity": "확정오류"
+    },
+    {
+      "id": "LX-03",
+      "location": "u2/s18/gloss s18-g05",
+      "current": "it’s — (뒤의 if절을 대신하는) 그것은 ~이다 (It is의 줄임)",
+      "issue": "s18의 It은 구조 힌트·review_record에서 가주어(진주어 if절)로 판정했는데 각주 뜻은 ‘그것은’으로 옮기게 되어 있어, 가주어를 해석하지 않는 다른 단위의 처리(s15 ‘It … for A to V — A가 ~하는 것은 (It은 뒤의 for A to V를 대신함)’, s44 ‘It … to V — ~하는 것은 (It은 뒤의 to V를 대신함)’)와 어긋난다. 이 뜻을 대입하면 s18 분석 끊어읽기·자연 해석(‘당신에게 달려 있다’, ‘당신 마음이지만’)과도 맞지 않는다(gloss-rules.md 기본 형식: 뜻은 문장에 실제로 대입할 수 있어야 함).",
+      "proposal": "it’s — ~이다 (It is의 줄임, It은 뒤의 if절을 대신함)",
+      "severity": "확정오류"
+    },
+    {
+      "id": "LX-04",
+      "location": "u2/s17/hints[0](동격 접속사 that)",
+      "current": "[that another earthquake followed by a tsunami was about to strike] → [쓰나미로 이어지는 또 다른 지진이 곧 닥칠 것이라는] (동격 접속사 that)",
+      "issue": "같은 이름표 ‘동격 접속사 that’의 u1 힌트는 s04 ‘the fact [that she had spread] → [...] 사실’, s06 ‘The news [that a famous athlete had died] → [...] 뉴스’처럼 내용을 설명받는 앞 명사를 보여 주는데, s17만 앞 명사가 빠져 관형절(~라는)이 무엇을 꾸미는지 힌트에서 보이지 않는다. 힌트 explanation도 ‘앞 명사 fake news stories의 내용을 설명하는 동격절’이라고 적고 있어 표시와 판정이 맞지 않는다(analysis-content.md 구조 힌트: 실제 연결 대상은 남김).",
+      "proposal": "연속 원문으로 앞 명사를 포함: ‘fake news stories on social media [that another earthquake followed by a tsunami was about to strike] → [쓰나미로 이어지는 또 다른 지진이 곧 닥칠 것이라는] 소셜 미디어에 올라온 가짜 뉴스 이야기들 (동격 접속사 that)’ — 대괄호·emphasis_links(that ↔ ‘라는’) 위치 재정렬. 길이 때문에 앞 명사를 뺀다면 그 사유를 review_record에 남기고 u1과 다른 표시임을 L-u2 검수에서 확인.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "LX-05",
+      "location": "u2/s19/hints[0](so A that 짝 구조) ↔ u4/s33/hints[0]",
+      "current": "so anxious … that the government had to announce → 너무 불안해해서 … 정부는 발표해야 했다",
+      "issue": "같은 공식 ‘so A that S′ V′ — 너무 A해서 S′(이/가) V′하다’(s19·s33 각주 동일)의 짝 구조 힌트가 u4 s33에서는 ‘당신[독자]이’로 S′ 자리 조사 이/가를 쓰는데 u2 s19만 ‘정부는’이다. u2-gp3 설명·정답(‘정부가 발표해야 했다’)과도 다르다. gloss-rules.md ‘금지와 검수’ 6(기능 각주의 조사·연결 어미가 구조 힌트의 해당 부분에 그대로 대응).",
+      "proposal": "너무 불안해해서 … 정부가 발표해야 했다 (meaning_ko도 ‘너무 불안해해서 정부가 발표해야 했다’; 강조 범위는 s33과 같이 ‘너무’·‘해서’ 유지)",
+      "severity": "검토제안"
+    },
+    {
+      "id": "LX-06",
+      "location": "u1/s09/hints[1](이유 접속사 because)의 대명사 참조",
+      "current": "[because it had hurt] → [그것[가짜 뉴스]이 상처를 주었기 때문에] (이유 접속사 because)",
+      "issue": "s09의 it은 6~7번의 특정한 ‘유명 운동선수 사망 가짜 뉴스’를 가리키며 같은 문장 각주도 ‘it — 그것이 (그 가짜 뉴스)’로 특정한다. 반면 u2 s13·s14의 it은 일반적인 ‘가짜 뉴스’(각주 ‘그것은 (가짜 뉴스)’)다. 힌트 참조어를 ‘[가짜 뉴스]’로만 두면 과 전체에서 특정 사건과 일반 개념의 지칭이 구분되지 않는다(analysis-content.md 대명사와 지칭 대상: 지칭 대상은 같은 문장의 각주와 앞뒤 문맥에서 확인).",
+      "proposal": "[because it had hurt] → [그것[그 가짜 뉴스]이 상처를 주었기 때문에] (이유 접속사 because) — pronoun_refs의 ko_reference_span 재계산",
+      "severity": "검토제안"
+    },
+    {
+      "id": "LX-07",
+      "location": "u2/analysis.relations[0].antonym(u2-r1a) ↔ u2/s11 gloss accidental",
+      "current": "반의어: accidental (우연한, 뜻하지 않은)",
+      "issue": "같은 단위 s11 본문 각주는 ‘accidental — 우발적인, 뜻하지 않은’(PDF 해석 ‘우발적으로’)인데 유반 뜻은 ‘우연한, 뜻하지 않은’으로 달라 워크북 2번 뜻 쓰기 정답과 본문 각주가 어긋난다. 또 u1 유반(accidentally/unintentionally/intentionally)과 u2 유반(deliberate/intentional/accidental)이 ‘의도적 ↔ 뜻하지 않은’ 같은 축을 이어 가므로, 뜻 표기를 과 전체에서 맞춰 두어야 학생이 혼동하지 않는다.",
+      "proposal": "반의어: accidental (우발적인, 뜻하지 않은)",
+      "severity": "검토제안"
+    },
+    {
+      "id": "LX-08",
+      "location": "u3/today_words 순서",
+      "current": "go viral(s25) → phenomenon(s22) → effortlessly(s25) → proof(s26) → be inclined to V(s27) → prejudices(s27) → confirmation bias(s28) → selectively(s29)",
+      "issue": "u1·u2·u4의 오늘의 낱말은 모두 원문 등장 순서인데 u3만 go viral(s25)이 phenomenon(s22)보다 앞에 있다. 워크북 1번 번호와 정답표가 이 순서를 따르므로 단위 간 배열 기준이 달라진다.",
+      "proposal": "phenomenon(u3-w1) → go viral(u3-w2) → effortlessly → proof → be inclined to V → prejudices → confirmation bias → selectively 순으로 바꾸고 id를 다시 매김(각주 ★ 연결 source_gloss_id는 그대로).",
+      "severity": "검토제안"
+    },
+    {
+      "id": "LX-09",
+      "location": "u1·u2·u4/today_words ↔ analysis.relations 표제어",
+      "current": "u1: criticize·accidentally, u2: deliberate, u4: reliable·valid·objectively가 오늘의 낱말이면서 유반 표제어",
+      "issue": "워크북 1번(오늘의 낱말 뜻 쓰기)과 2번(유의어·반의어 뜻 쓰기)에서 같은 단위의 같은 낱말을 두 번 묻게 된다. 특히 u4는 유반 표제어 3개가 모두 오늘의 낱말과 겹쳐 1·2번 문항 6개가 중복된다(analysis-content.md 수량 예외: 같은 항목을 중복해 수를 채우지 않음의 취지). u3은 겹침이 없어 단위 간 기준도 다르다.",
+      "proposal": "겹치는 오늘의 낱말을 같은 단위의 다른 핵심어로 교체(예: u4 — oppose(s40), judgment(s39), intent(s42), evidence(s43) 중 선택; u1 — contribute(s10), undamaged(s03) 등; u2 — political benefits/aftershocks 등)하고 각주 ★를 재연결. 겹침을 의도적으로 유지한다면 그 판단을 작업기록에 남긴다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "LX-10",
+      "location": "u2/analysis.grammar_points u2-gp2 ↔ u4/analysis.grammar_points u4-gp3",
+      "current": "u2-gp2 ‘It … for A to V: A가 ~하는 것은 …’(s15) / u4-gp3 ‘It … to V: ~하는 것은 …’(s44)",
+      "issue": "과 전체 구문으로 해석하기 12개 중 가주어 It–진주어 to부정사가 두 단위에서 거의 같은 설명으로 반복된다(u4-gp3 설명은 for A 유무 차이도 언급하지 않음). u4에는 다른 단위에서 다루지 않은 근거가 충분하다: s42 간접의문문 who wrote … / what the intent was, s45 목적격 관계대명사 the damage that fake news can cause. (참고: u2-gp1 ‘명사 + to V’와 u3-gp3 ‘the first to V’도 to부정사 후치수식이라는 같은 문법이지만 the first to V는 별도 숙어 성격이 있어 유지 가능.)",
+      "proposal": "u4-gp3을 s42 ‘who/what 간접의문문: 누가 V′했는지 / S′가 무엇이었는지’로 교체하고 워크북 4번 연습·정답을 1:1로 재연결(예: who wrote the news story → 누가 그 뉴스 기사를 썼는지). 가주어를 유지하려면 설명 끝에 ‘u2의 It … for A to V와 달리 to V의 주체가 따로 나오지 않는다’처럼 차이를 밝혀 중복 이유를 드러낸다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "LX-11",
+      "location": "u4/analysis.easy_explanations s47 (3번째 설명문)",
+      "current": "글쓴이는 누구든 지나처럼 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있다고 경고한다.",
+      "issue": "u1에서 지나는 가짜 뉴스를 ‘만든’ 적이 없고 뜻하지 않게 ‘퍼뜨린’ 사람이다(s02·s04·s10, u1 제목 ‘실수로 가짜 뉴스를 퍼뜨린 지나’). ‘지나처럼 … 만들거나 퍼뜨리는’은 지나가 만들기도 한 것처럼 읽혀 도입부와의 연결이 부정확하다.",
+      "proposal": "글쓴이는 누구든 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있다고 경고한다. 지나처럼 뜻하지 않게 퍼뜨리는 경우도 여기에 들어간다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "LX-12",
+      "location": "u1/analysis.grammar_points u1-gp4 title",
+      "current": "have p.p.: ~했다 (Has Fallen: 떨어졌다)",
+      "issue": "다른 11개 항목 제목은 ‘공식: 뜻’(필요 시 짧은 성격 표시, 예: ‘had p.p.: (그 전에) ~했다’, ‘being p.p.: ~되는 것 (동명사의 수동)’) 형식인데 u1-gp4만 제목에 본문 실제 예와 번역을 넣었다. 같은 단위 u1-gp1과 나란히 보면 have p.p./had p.p.의 차이가 제목에서 보이지 않는다.",
+      "proposal": "have p.p.: (지금까지 결과가 남아) ~했다",
+      "severity": "검토제안"
+    }
+  ]
+}

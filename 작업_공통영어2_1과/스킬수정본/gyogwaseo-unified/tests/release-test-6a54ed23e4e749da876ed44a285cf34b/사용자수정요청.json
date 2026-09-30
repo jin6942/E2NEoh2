@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "round_id": "synthetic-round-2",
+  "requests": [
+    {
+      "id": "UR-001",
+      "user_text": "Synthetic request: keep the existing answer space.",
+      "source": "Synthetic test only, not a user instruction.",
+      "targets": [
+        "synthetic-workbook"
+      ],
+      "criteria": [
+        "The answer space is preserved."
+      ],
+      "disposition": "active",
+      "implementation": {
+        "status": "no_change_needed",
+        "producer_id": "synthetic-editor",
+        "execution_id": "synthetic-edit-run",
+        "detail": "Synthetic already-satisfied fixture, never actual evidence."
+      }
+    }
+  ]
+}

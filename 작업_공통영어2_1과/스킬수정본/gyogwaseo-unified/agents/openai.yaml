@@ -1,0 +1,13 @@
+interface:
+  display_name: "TOM’S EDU 통합 교과서"
+  short_description: "클로드·GPT·코덱스 공통 교과서 내용·MASTER 조판·독립 검수"
+  default_prompt: "$gyogwaseo-unified 스킬로 현재 교과서와 단계를 확인하고, 공통 규칙에 따라 같은 DOCX에 내용을 반영하며 독립 검수 상태를 구분해 줘."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  products:
+    - "chatgpt"
+    - "codex"
+    - "api"
+    - "atlas"
+  allow_implicit_invocation: true

@@ -1,0 +1,76 @@
+{
+  "reviewer_id": "M2",
+  "role": "M",
+  "kind": "questions",
+  "independent": true,
+  "solved_before_answer_key": true,
+  "blind_record": "작업_공통영어2_1과FR/검수기록/5단계_M2_블라인드풀이.json",
+  "compared_files": [
+    "작업_공통영어2_1과FR/공통영어2_YBM(박준언)_1과FurtherReading_문제_QC_HANDOFF.txt",
+    "(2022개정)2025년_공통영어2_YBM(박준언)_1과_본문_(20250723수정).pdf p.4 (pdftotext 왼쪽 단 추출)",
+    "작업_공통영어2_1과FR/검수기록/4단계_M_대조검수.json",
+    "작업_공통영어2_1과FR/검수기록/4단계_N_대조검수.json",
+    "작업_공통영어2_1과FR/공통영어2_YBM(박)_1과FurtherReading_원고.json (quick_key·explanations·learned_relation_uses 대조용)"
+  ],
+  "answers": {"Q03": 1, "Q04": 4},
+  "answer_key": {"Q02": 3, "Q03": 1, "Q04": 4},
+  "blind_vs_key": "2/2",
+  "status": "PASS",
+  "verified_ok": [
+    "블라인드 풀이 Q03=1, Q04=4가 핸드오프 ANSWER 및 원고 quick_key(Q01=2, Q02=3, Q03=1, Q04=4)와 일치.",
+    "PDF 4쪽 왼쪽 단 영어 본문(172단어)과 대조: Q01 PASSAGE 전문 일치, Q02 GIVEN+(B)+(C)+(A) 결합이 원문 1~4문장(82단어)과 일치, Q03·Q04 PASSAGE가 원문 5~9문장(90단어)과 문자 단위 일치(곡선 따옴표·아포스트로피 포함).",
+    "Q02·Q03·Q04 EVIDENCE 인용 조각(… 생략 기준) 모두 원문에 그대로 존재.",
+    "Q03 TARGET = 'it doesn’t always mean that it is true', PROMPT_UNDERLINES [[5,43]]이 발문 문자열에서 TARGET과 정확히 일치, 블라인드 패킷의 본문 밑줄 [518,556]도 같은 표현.",
+    "Q03 정답 해설·오답 이유 ②~⑤ 모두 Q03 자기 지문(원문 5~9) 안의 근거만 사용. Q02 지문(정의 문장 등)에 기대는 서술 없음.",
+    "Q04 정답 해설·오답 이유 ①②③⑤ 모두 지문 안 distort/seek 근거만 사용. 1차에 있던 '사회적 분열' 서술은 요약문에서 빠진 만큼 해설에서도 빠짐.",
+    "Q02 정답 해설·오답 이유 ①②④⑤ 모두 Q02 지문(주어진 글+A·B·C) 안의 However·정의·also 단서만 사용.",
+    "Q03 CHOICES_KR 5개, Q04 CHOICES_KR 5개 모두 영어 선택지와 번호별 의미 일치(improve 향상시키다, twist 왜곡하다, sharpen 날카롭게 하다, seek out 찾아 나서다, avoid 피하다, limit 제한하다).",
+    "원고 JSON의 Q02~Q04 문항·해설 문자열이 모두 문제 핸드오프에 그대로 존재(원고·핸드오프 불일치 없음).",
+    "교차 노출 점검: Q02 s01~s04에는 '바람과 사실' 관련 내용(Q03 정답)과 distort/seek 관련 내용(Q04 정답)이 없음. 1차 M-02의 Q02→Q03 정답 단서 노출은 해소됨."
+  ],
+  "dispositions": [
+    {"id": "M-01", "result": "반영확인", "note": "Q03 표적이 교체되어 지문 밖 정의('이미 동의하는 의견만 접하는 상황')에 기대던 해설 자체가 사라짐. 새 해설은 지문 8·9문장만으로 정답을 정당화함."},
+    {"id": "M-02", "result": "반영확인", "note": "M-02 예시안 그대로 TARGET·발문·선택지·정답(①)·밑줄 좌표·해설·오답·CHOICES_KR·quick_key가 함께 교체됨. Q02 s01~s04에 새 정답 단서 없음을 블라인드에서 확인."},
+    {"id": "M-03", "result": "반영확인", "note": "M-03 제안안(모든 오답 반쪽 정답) 그대로가 아니라 N-01이 명시한 상충(반쪽 원칙 vs 빈도 단서)을 빈도 단서 회피 쪽으로 해결: ① improve/seek out, ② twist/avoid 반쪽 정답, ③ sharpen/limit·⑤ sharpen/avoid 양쪽 오답. 오답 4개 중 3개 이상을 반쪽 정답으로 만들면 한쪽 칸에서 정답어가 3회로 최빈값이 되는 것이 불가피하므로, 현재 구성(반쪽 2 + 양쪽 오답 2, 각 칸 빈도 2·2·1)이 빈도 단서 없이 가능한 최대 반쪽 구성이다. 1차 원안의 correct/block·improve/ignore보다 개선되었고 동의함."},
+    {"id": "M-05", "result": "반영확인", "note": "Q02 WRONG_ANALYSIS ⑤가 M-05 제안대로 'also가 받아야 할 (C)와 (A) 사이에 (B)가 끼어 연결이 끊긴다'로 수정됨."},
+    {"id": "M-07", "result": "반영확인", "note": "u1-r2s reason_ko의 foster 뜻이 '조장하다, 키우다'로 FINAL과 일치하게 수정됨. 다만 뒷부분 '에코 챔버가 촉진하는 것은'은 제안의 '조장하는 것은'으로 바뀌지 않음(M2-03 검토제안)."},
+    {"id": "N-01", "result": "반영확인", "note": "요약문에서 'and divide society' 삭제, EXPLANATION에서 사회적 분열 서술 삭제, 오답쌍 재구성으로 빈도 단서 제거(M-03 참고). 요약문 논리만으로 (B) 소거가 쉬운 점은 약하게 남음(M2-02 검토제안)."},
+    {"id": "N-02", "result": "반영확인", "note": "Q03 표적 교체로 지문 밖 정의 의존 해설이 사라지고 새 해설은 자기 지문 근거만 사용."},
+    {"id": "N-08", "result": "반영확인", "note": "N-08 문안이 아니라 M-05 문안이 채택되었으나 '(B) 뒤에 떨어져'라는 부정확 서술이 제거되어 지적 취지 충족."},
+    {"id": "N-09", "result": "반영확인", "note": "Q02 EVIDENCE의 바깥 큰따옴표가 제거되어 다른 문항 형식과 같아짐. 인용 조각 원문 일치."},
+    {"id": "N-12", "result": "반영확인", "note": "M-07과 동일. foster 뜻 표기 수정 확인, '촉진하는 것은' 잔존(M2-03)."},
+    {"id": "N-05", "result": "유지타당", "note": "스킬 규칙상 공유 장문은 1회 인쇄·passage_groups 등록이 원칙이지만, 교사가 Q03·Q04 동일 지문 반복 인쇄를 명시 수용했으므로 유지에 동의. 결정 기록은 남겨 둘 것."},
+    {"id": "N-07", "result": "유지타당", "note": "첫 문장 This의 선행 상황이 지문 밖에 있으나 둘째 문장 'an echo chamber'로 복원되고, 새 Q03·Q04 정답 판단은 This의 선행사와 무관. 범위를 4문장부터로 넓히면 Q02 (A) 노출. 개작 금지 규칙상 현행 유지에 동의."},
+    {"id": "M-04", "result": "유지타당", "note": "N-07과 동일 판단."},
+    {"id": "N-10", "result": "유지타당", "note": "Q02 GIVEN·(B)·(C) 끝 공백은 생성 도구가 붙이는 조판용 공백이고 원문 복원·인쇄에 영향 없음(복원 대조 시 strip 후 일치 확인)."},
+    {"id": "M-08", "result": "유지타당", "note": "N-10과 동일."},
+    {"id": "N-11", "result": "유지타당", "note": "문항(Q02~Q04) 범위 밖인 학습 FINAL 해석 문구 사안. 워크북 정답과 FINAL이 현재 서로 일치하므로 학습 FINAL 쪽 결정 시 두 곳을 함께 고치는 조건으로 유지에 동의. '그것이'가 겹치는 어색함 자체는 여전히 남아 있음."},
+    {"id": "M-06·N-03·N-04·N-06", "result": "반영확인", "note": "모두 구 Q03(this trap) 오답 이유·교차 노출에 대한 지적으로, Q03 전면 교체로 대상이 사라져 해소됨."}
+  ],
+  "findings": [
+    {
+      "id": "M2-01",
+      "question_id": "Q03",
+      "current": "EXPLANATION: 밑줄 친 부분은 어떤 것이 사실이기를 정말로 원하더라도 그렇다고 그것이 항상 사실인 것은 아니라는 뜻이다. 그래서 바로 앞 문장에서 받은 정보를 확인하고 새로운 생각을 논의할 때 열린 마음을 유지하라고 한다. 따라서 …",
+      "issue": "'그래서 바로 앞 문장에서 …하라고 한다'는 뒤에 오는 밑줄 문장이 원인이고 앞 문장이 결과인 것처럼 읽혀 논리 방향이 어색하다. 정답 판단에는 영향 없음.",
+      "proposal": "EXPLANATION: 밑줄 친 부분은 어떤 것이 사실이기를 정말로 원하더라도 그렇다고 그것이 항상 사실인 것은 아니라는 뜻이다. 이는 바로 앞 문장에서 받은 정보를 확인하고 새로운 생각을 논의할 때 열린 마음을 유지하라고 한 이유가 된다. 따라서 어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니라는 ①이 알맞다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "M2-02",
+      "question_id": "Q04",
+      "current": "[요약문] An echo chamber can (A) ________ our understanding of reality, so we need to (B) ________ diverse information and different views. / 정답 ④ twist …… seek out",
+      "issue": "문항 오류는 아님. (1) 요약문의 'understanding of reality', 'diverse', 'different views'와 정답 seek out이 지문 표현(distort your understanding of reality, seek diverse sources, different views)을 거의 그대로 반복해 (B)는 표면 대응만으로 풀린다. (2) 'so we need to ___ diverse information and different views'에 avoid/limit을 넣으면 상식적으로 어색해 지문 없이 (B)를 좁힐 여지가 있다. 선택지 빈도 단서는 없음(각 칸 2·2·1).",
+      "proposal": "현행 유지 가능. 난도를 높이려면 (B) 정답을 seek out 대신 지문과 어형이 다른 환언(look for, turn to 등)으로 바꾸고 CHOICES_KR·해설을 함께 수정. 선택지 빈도 구조(각 칸 2·2·1)는 그대로 유지할 것.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "M2-03",
+      "question_id": "Q01 (learned_relation_uses u1-r2s)",
+      "current": "reason_ko: encourage가 foster(조장하다, 키우다)와 같은 뜻임을 알아도, 에코 챔버가 촉진하는 것은 협력이 아니라 사회적 분열임을 판단해야 함",
+      "issue": "M-07/N-12 제안 중 괄호 안 뜻은 고쳐졌으나 뒷부분 '촉진하는 것은'이 남아 foster를 다시 '촉진하다'로 풀이하는 셈이다. 의미상 오류는 아닌 표기 일관성 문제.",
+      "proposal": "reason_ko: encourage가 foster(조장하다, 키우다)와 같은 뜻임을 알아도, 에코 챔버가 조장하는 것은 협력이 아니라 사회적 분열임을 판단해야 함",
+      "severity": "검토제안"
+    }
+  ]
+}

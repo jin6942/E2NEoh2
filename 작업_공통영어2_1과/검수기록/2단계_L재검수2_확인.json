@@ -1,0 +1,84 @@
+{
+ "reviewer": "L재검수2-확인",
+ "method": "검수입력/L_재검수2_변경분.json을 파이썬으로 직접 읽어 changes 21건의 before/after를 전부 확인하고, selected_data 최신값에서 해당 문장(s14·s15·s17·s19·s21·s31·s33·s45)과 units u1·u2·u3·u4 grammar_points·u3 flow를 풀어 대조. 강조는 display_pairs의 ko 문자열을 ko_spans로 실제 잘라 확인(예: s21 '[가짜 뉴스가 퍼진다는 것'[6:7]='가'). 원고 전체 힌트 63개 display_pair의 emphasis_links·pronoun_refs를 모두 잘라 출력해 문법 대응이 아닌 글자(‘가짜’의 가, ‘이어지는’의 이 등)를 강조하는 범위가 있는지 전수 점검. 원고 전체 문자열에서 'S′가'·'A가 ~'·'정부는'·'대중도' 잔존 여부 검색. QC_HANDOFF.txt(패킷과 같은 시각 생성)에 s14·s19 힌트, u1-gp2·u2-gp2·u4-gp1·u4-gp2 제목·설명, u3 흐름이 최신값으로 출력되는지 확인. 원문은 패킷 context 원문과 PDF 추출 텍스트(s14·s19·s45 해당 문장)로 대조(이번 변경은 모두 한국어·범위 필드뿐이라 원문 변경 없음). 규칙: SKILL.md, editorial-core.md(구조 힌트 강조 대응), analysis-content.md(구조 힌트·구문으로 해석하기·흐름), manuscript-data.md(hints·grammar_points). 변경되지 않은 내용은 강조 전수 점검 외에 재검수하지 않음.",
+ "status": "PASS",
+ "dispositions": [
+  {
+   "id": "RU1U2-01",
+   "result": "반영확인",
+   "evidence": "s14 hints[1] display ko '[모든 개인들뿐만 아니라] 대중에게도', meaning_ko '모든 개인들뿐만 아니라 대중에게도', ko_spans [[7,13],[19,20]] → 실제 잘라 '뿐만 아니라'·'도'. en_spans [[12,22]] → 'as well as'. 청크 '대중에게 … 해를 끼칠 수 있다'·자연 해석 '대중에게도'와 일치. QC_HANDOFF 297행도 같음.",
+   "note": "explanation의 공식 'A뿐만 아니라 B도'는 유지(제안대로). 강조 끝점이 '에게도'의 '도'로 정확히 옮겨짐."
+  },
+  {
+   "id": "RU1U2-02",
+   "result": "반영확인",
+   "evidence": "s19 hints[0] meaning_ko '너무 불안해해서 정부가 발표해야 했다', explanation 'so A that S′ V′(너무 A해서 S′(이/가) V′하다): …'. display ko '너무 불안해해서 … 정부가 발표해야 했다', ko_spans [[0,2],[6,8],[13,14]] → '너무'·'해서'·'가'.",
+   "note": "display·meaning_ko·explanation·u2-gp3가 한 표기로 맞춰짐. 청크·자연 해석의 '정부는'은 해석 문장이라 힌트 공식 대상이 아님."
+  },
+  {
+   "id": "RU1U2-03",
+   "result": "반영확인",
+   "evidence": "u2-gp2 explanation 첫머리 '공식: It is 형용사 for A to V — A(이/가) ~하는 것은 (형용사)하다.'; u1-gp2 title '명사 + that S′ V′(동격): S′(이/가) V′했다는 명사'. QC_HANDOFF 215·414행 반영.",
+   "note": "u2-gp2 설명 뒷부분 '→ 가짜 뉴스가 퍼지는 것은…', 'for 뒤의 A가 to V의 주체다'는 실제 예시·설명 문장이라 공식 표기 대상이 아니며 그대로 두는 것이 맞음."
+  },
+  {
+   "id": "Ru3u4-01",
+   "result": "반영확인",
+   "evidence": "s21 hints[0] '[가짜 뉴스가 퍼진다는 것]' ko_spans [[6,7],[10,14]] → '가'(뉴스가)·'다는 것'. en_spans [[1,5]] → 'that'.",
+   "note": "‘가짜’의 가 강조 해소."
+  },
+  {
+   "id": "Ru3u4-02",
+   "result": "반영확인",
+   "evidence": "s31 hints[1] '[가짜 뉴스가 속이지 않는다는 것]' ko_spans [[6,7],[14,18]] → '가'·'다는 것'.",
+   "note": ""
+  },
+  {
+   "id": "Ru3u4-03",
+   "result": "반영확인",
+   "evidence": "s45 hints[1] '[가짜 뉴스가 일으킬 수 있는] 피해' ko_spans [[6,7],[15,16]] → '가'·'는'. s45-g13 'that S′ V′ — S′(이/가) V′하는'과 대응.",
+   "note": ""
+  },
+  {
+   "id": "Ru3u4-03 참고(u2 s15 같은 강조 오류)",
+   "result": "반영확인",
+   "evidence": "s15 hints[0] 'It is very common [for fake news to spread] → [가짜 뉴스가 퍼지는 것은] 매우 흔하다' ko_spans [[6,7],[10,14]] → '가'·'는 것은'. en_spans → 'for'·'to'.",
+   "note": "changes /sentences/14/…/ko_spans/0 (1→6, 2→7)로 반영. QC_HANDOFF 315행 표시와 일치."
+  },
+  {
+   "id": "Ru3u4-04",
+   "result": "반영확인",
+   "evidence": "u3 flow[1].text_ko '사람들은 새롭고 자극적인 것을 좋아한다. 놀라운 정보는 남과 나누고 싶어 하고, 아직 알려지지 않았지만 거짓일 수도 있는 정보를 가장 먼저 올린 사람은 관심을 얻을 수 있다.' (제안문과 동일). QC_HANDOFF 641행 반영.",
+   "note": "원문 s24 'can gain attention because they are the first to post previously unknown, but possibly false, information'의 가능 양태(can→수 있다)·possibly(거짓일 수도)·previously unknown(아직 알려지지 않았지만)이 살아 있고, 원문에 없던 '관심을 받으려고 퍼뜨린다'식 동기가 사라짐. s24 쉬운 풀이('가장 먼저 올린 사람은 다른 사람들의 관심을 받을 수 있다', '거짓일 수도 있다')·s23 자연 해석('공유하고 싶어 한다')과도 맞음."
+  },
+  {
+   "id": "R연결-01",
+   "result": "반영확인",
+   "evidence": "u1-gp2 title 'S′(이/가) V′했다는 명사', u4-gp1 title 'what S′ V′: S′(이/가) V′하는 것', u4-gp2 title 'whether S′ V′: S′(이/가) V′하는지', u2-gp2 explanation 'A(이/가) ~하는 것은', s19 hints[0].explanation '(너무 A해서 S′(이/가) V′하다)'. 추가로 s33 hints[0].explanation도 '(너무 A해서 S′(이/가) V′하다)'로 함께 통일.",
+   "note": "원고 전체 문자열 검색에서 공식 표기 'S′가'·'A가 ~'는 더 이상 없음(남은 'S′는 another earthquake'는 서술문, s31 'A가 ~에 있는 상황에서'는 with 구문 설명으로 이번 지적 범위 밖·비공식 표기). 16개 grammar_points 제목의 S′·A 조사 표기가 (이/가)로 일치."
+  },
+  {
+   "id": "R연결-02",
+   "result": "반영확인",
+   "evidence": "s19 hints[0].meaning_ko '너무 불안해해서 정부가 발표해야 했다' (RU1U2-02와 같은 변경).",
+   "note": "s33 meaning_ko '당신이'·u2-gp3 answer '정부가'와 일치."
+  },
+  {
+   "id": "LX-04 review_record 기록 권고",
+   "result": "반영확인",
+   "evidence": "s17 reading_checks.review_record 끝에 '앞 명사 fake news stories는 표시에서 제외: 명사와 that 사이에 on social media가 끼어 있어 이어진 표시가 지나치게 길어지고, 동격 내용 관계는 각주(앞 명사의 내용을 설명)와 설명에 적음(LX-04 미반영 사유, u1 s04·s06은 명사와 that이 붙어 있어 함께 표시).' 추가.",
+   "note": "기록 내용이 사실과 맞음: s04 'the fact [that she had spread]', s06 'The news [that a famous athlete had died]'는 앞 명사를 함께 표시하고, s17-g08 뜻 'S′(이/가) V′라는 (앞 명사의 내용을 설명)', 힌트 explanation 'that절이 앞 명사 fake news stories의 내용을 설명하는 동격절'로 연결 대상이 적혀 있음. 내부 필드라 학생 출력 영향 없음."
+  }
+ ],
+ "new_findings": [
+  {
+   "id": "R2C-참고-01",
+   "sentence_id": "s14",
+   "field": "reading_checks.review_record",
+   "current": "'… involved는 명사 뒤 과거분사 후치수식 → 앞에서 끊음. 힌트 1개(과거분사 후치수식). 관계사·수동 없음.'",
+   "issue": "실제 hints는 2개(과거분사 후치수식, B as well as A 상관 구조)인데 내부 기록은 '힌트 1개'로 남아 있다. 이번 changes에 포함되지 않은 기존 내부 필드이며 학생 출력과 해석·강조에는 영향이 없다(이번 확인 범위 밖에서 s14 힌트 확인 중 눈에 띈 것).",
+   "proposal": "'힌트 2개(과거분사 후치수식, B as well as A 상관 구조)'로 고침.",
+   "severity": "참고(비차단)"
+  }
+ ]
+}

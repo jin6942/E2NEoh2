@@ -1,0 +1,121 @@
+{
+ "reviewer": "L-u3",
+ "unit": "u3",
+ "method": "L_지시문.txt의 범위 1~6을 담당 u3(s20~s30, p05~p07, 소제목 The Reasons for the Viral Spread of Fake News) 전 문장·전 항목에 적용. 권위 PDF 2쪽 왼쪽 단 영어를 pypdf로 추출해 11문장 원문·단락 경계(p05 s20~21, p06 s22~26, p07 s27~30)를 대조하고 오른쪽 단 한국어 해석과 자연 해석·청크의 의미를 대조. L_u3.json selected_data와 QC_HANDOFF [지문] u3를 대조하고, 스크립트로 청크 재결합(11문장 모두 원문 일치)·영한 조각 수·8낱말 초과(s23 4번째 청크 9낱말: 목적어/want to V 경계뿐이라 유지 타당)·각주 spans/lexical_coverage·힌트 emphasis_links/pronoun_refs 실제 문자열을 출력해 확인. SKILL.md, editorial-core.md, analysis-content.md, gloss-rules.md, grammar-labels.md, preposition-meanings.md, proper-nouns.md, common-errors.md, manuscript-data.md를 읽고 적용. context(s15 가주어 틀, s19·s31 지시 대상, 앞 지문 고유명사 첫 등장)를 교차 확인. u3.py의 review 기록과 제작자 확인 요청(s30 something negative)을 판정. 기계 검사기 실행·DOCX/PDF 조판 검수는 범위 밖이라 수행하지 않음.",
+ "sentences_checked": [
+  "s20",
+  "s21",
+  "s22",
+  "s23",
+  "s24",
+  "s25",
+  "s26",
+  "s27",
+  "s28",
+  "s29",
+  "s30",
+  "u3-analysis(주제·의도·흐름·쉬운 풀이·구문으로 해석하기·formula_routes·유반·핵심 문장·오늘의 낱말)"
+ ],
+ "status": "FIX_REQUIRED",
+ "findings": [
+  {
+   "id": "Lu3-01",
+   "sentence_id": "s21",
+   "field": "gloss",
+   "current": "by — ~에 의한, ~의",
+   "issue": "기능어(전치사) by에 서로 다른 두 뜻을 쉼표로 나열했다. 기능어는 그 문맥의 한 뜻으로 정해야 한다(gloss-rules.md ‘기본 형식과 순서’ 기능어 한 뜻, ‘금지와 검수’ 8번 `By — ~무렵에는`에 선택하지 않은 뜻을 남기지 않는 예). 같은 문장의 한국어 청크(‘매사추세츠 공과대학의’)와도 한 뜻으로 대응시켜야 한다(gloss-rules.md 검수 6번).",
+   "proposal": "각주를 `by — ~에 의한`으로 한 뜻만 남기고, 대응 한국어 청크 `매사추세츠 공과대학의`를 `매사추세츠 공과대학에 의한`으로 맞춘다(자연 해석 ‘미국 매사추세츠 공과대학의 한 연구는 …’은 유지). 청크를 유지하려면 각주를 `by — ~의` 하나로 정한다.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu3-02",
+   "sentence_id": "s24",
+   "field": "gloss",
+   "current": "pass A to B — A를 B에게 전달하다 (spans: passing, to; verb_construction verb-frame, link_spans [[14,16]])",
+   "issue": "passing it to others의 to는 전치사 대표 뜻 ‘~에게’(preposition-meanings.md 대표 뜻 기본표 to — ~에, ~로, ~에게, ~까지)로 그대로 이해된다. 대표 뜻으로 문맥을 이해할 수 있으면 단어와 전치사를 분리하며 사전에 함께 등재되었다는 이유만으로 묶지 않는다(preposition-meanings.md ‘판단 순서’ 2번, gloss-rules.md ‘숙어·구문과 전치사’, 확정 경계 사례 contribute to / respond to 분리). provide A with B·test A against B처럼 전치사의 흔한 뜻으로 해석되지 않는 결합이 아니다.",
+   "proposal": "`by V-ing — ~함으로써 / pass — 전달하다 / it — 그것을 (그 자극적인 뉴스) / to — ~에게 / others — 다른 사람들`로 나눈다. s24-g02는 spans [[3,10]]만, headword `pass`, meaning_ko `전달하다`, verb_form {usage:ing, source_span:[3,10], lemma:pass}와 kind:lexical·s24-g01의 combines_with 연결을 유지하고 verb_construction을 삭제한다. 새 각주 `to — ~에게`(spans [[14,16]])를 it 뒤·others 앞에 원문 순서로 넣고 lexical_coverage [14,16]을 새 각주에 연결한다. 구조 힌트 [By passing] → [전달함으로써]와 reading_checks 기록(‘pass A to B’ 표현)도 이에 맞춘다.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu3-03",
+   "sentence_id": "s26",
+   "field": "gloss",
+   "current": "It … for A to V — A가 ~할 가능성이 (It은 뒤의 for A to V를 대신함) / is — ~이다 / more — 더 / likely — 가능성이 높은, ~할 것 같은",
+   "issue": "표제어 틀 `It … for A to V`에는 likely가 없는데 뜻에 likely의 뜻 ‘가능성이’를 넣어 표제어와 뜻이 어긋나고, 별도 likely 각주(‘가능성이 높은’)와 같은 정보를 중복한다. 문장에 대입하면 ‘가능성이 … 가능성이 높은’이 되어 대입이 성립하지 않는다(gloss-rules.md ‘기본 형식과 순서’ 뜻은 문장에 실제로 대입 가능, ‘포함 범위’ 숙어·구문과 같은 정보 중복 금지). 같은 지문 s15의 같은 틀은 `It … for A to V — A가 ~하는 것은`으로 되어 있어 같은 구문의 뜻도 서로 다르다. 가주어 틀의 승인 모델은 형용사까지 포함한 `It is likely that S′ V′ — S′(이/가) V′할 가능성이 높다`이다(gloss-rules.md ‘가주어 It의 연결 안내’).",
+   "proposal": "형용사를 포함한 한 틀로 바꾼다: `It is likely for A to V — A가 ~할 가능성이 높다 (It은 뒤의 for A to V를 대신함)`(spans: It[0,2], is[3,5], likely[11,17], for[18,21], to[27,29])를 첫 항목으로 두고 `more — 더`는 별도로 유지하며 별도 `is — ~이다`, `likely — 가능성이 높은, ~할 것 같은` 항목은 삭제한다(구조 힌트 ‘[그들[사람들]이 믿을] 가능성이 더 높다’와 일치). 틀을 s15와 같게 유지하려면 `It … for A to V — A가 ~하는 것은 (It은 뒤의 for A to V를 대신함)`으로 바꾸고 likely 각주는 `likely — 가능성이 높은` 한 뜻으로 둔다.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu3-04",
+   "sentence_id": "s24",
+   "field": "analysis",
+   "current": "[각 문장 쉬운 풀이] 24번 문장은 23번에서 말한 ‘나누고 싶은 마음’이 왜 생기는지 설명한다. / 아직 아무도 모르는 소식을 가장 먼저 올리면 사람들의 관심이 그 사람에게 몰린다. / 그 관심을 받고 싶어서 사람들은 소식이 사실인지 확인하지 않고 먼저 올린다. / 그 소식은 새롭지만 거짓일 수도 있다.",
+   "issue": "원문은 ‘they can gain attention’(관심을 얻을 수 있다)인데 ‘관심이 그 사람에게 몰린다’로 가능성을 단정으로 강화했다. ‘그 관심을 받고 싶어서 … 사실인지 확인하지 않고 먼저 올린다’는 원문에 없는 동기·행동(확인하지 않음)을 추측해 넣었다. 첫 문장의 ‘나누고 싶은 마음이 왜 생기는지’도 원문(나누면 관심을 얻을 수 있다)보다 강한 인과 단정이다(analysis-content.md ‘각 문장 쉬운 풀이’ 8번: 원문에 없는 사실·인과 추측, 원문보다 강한 단정 금지, can의 가능성 보존; 체크리스트 마지막 항목).",
+   "proposal": "explanatory_sentences를 다음으로 교체: [\"24번 문장은 23번에서 말한 ‘나누고 싶은 마음’에 이어, 소식을 나누면 무엇을 얻는지 설명한다.\", \"아직 아무도 모르는 소식을 소셜 미디어에 가장 먼저 올린 사람은 다른 사람들의 관심을 받을 수 있다.\", \"그런데 이렇게 먼저 올린 소식은 새롭기는 하지만 거짓일 수도 있다.\"]",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu3-05",
+   "sentence_id": "s30",
+   "field": "gloss",
+   "current": "while V-ing — ~하면서 (동시에)",
+   "issue": "기능어 뜻 뒤에 선택적 추가어를 괄호로 남긴 형태다. 기능어는 문맥의 한 뜻으로 정하고 `from — ~에서 (온)`처럼 괄호에 고를 뜻을 남기지 않는다(gloss-rules.md ‘기본 형식과 순서’). 허용 괄호는 (흔한 뜻: …)·(이/가)·p.p. 관계·허용 이름표뿐이다(grammar-labels.md ‘뜻 뒤에 허용되는 짧은 병기’).",
+   "proposal": "`while V-ing — ~하면서`로 한 뜻만 쓴다(청크 ‘그러면서 무의식적으로 뉴스를 믿는다’·자연 해석 ‘동시에 … 믿는다’와 의미 일치).",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu3-06",
+   "sentence_id": "s22",
+   "field": "gloss",
+   "current": "one — 한 (가지)",
+   "issue": "뜻에 선택적 부분 ‘(가지)’를 괄호로 남겨 ‘한’/‘한 가지’ 중 무엇인지 고르지 않았다(gloss-rules.md ‘기본 형식과 순서’ 괄호에 고를 뜻을 남기지 않음). 같은 문장의 청크는 ‘한 가지 설명은’이다.",
+   "proposal": "`one — 한 가지`",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu3-07",
+   "sentence_id": "s27",
+   "field": "gloss",
+   "current": "even — ~조차, 심지어",
+   "issue": "초점 부사 even에 두 표현을 나열했다. 기능어는 그 문맥의 한 뜻으로 정한다(gloss-rules.md ‘기본 형식과 순서’). 같은 문장의 구조 힌트 [사실이 아닐 때조차]·청크 ‘사실이 아닐 때조차’는 ‘~조차’에 대응한다(gloss-rules.md 검수 6번).",
+   "proposal": "`even — ~조차`",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu3-08",
+   "sentence_id": "s30",
+   "field": "hint",
+   "current": "any news [describing their favored candidates] → [그들[사람들]의 선호 후보들을 묘사하는] 어떤 뉴스든 (현재분사 후치수식)",
+   "issue": "같은 문장의 각주는 `their — 그들의 (사람들)`, `favored — 선호하는, 지지하는`, 한국어 청크는 ‘그들이 선호하는 후보들을 묘사하는’인데 힌트만 명사 ‘선호 후보들’로 옮겨 각주 뜻(선호하는)과 청크가 힌트에 이어지지 않는다(analysis-content.md 구조 힌트 ‘검수’ 둘째 단락: 각주 뜻이 힌트로 이어지는지 확인, gloss-rules.md 검수 6번).",
+   "proposal": "display_pairs.ko를 `[그들[사람들]이 선호하는 후보들을 묘사하는] 어떤 뉴스든`으로 고치고 pronoun_refs(그들/[사람들])와 emphasis_links의 한국어 ‘는’(묘사하는) 위치를 다시 계산한다. 영어·이름표는 유지.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu3-09",
+   "sentence_id": "s30",
+   "field": "reading_checks",
+   "current": "required_breaks: [] (review_record: “something negative는 -thing 대명사 뒤 형용사가 붙은 한 덩어리 명사구라 끊지 않음(L 검수 확인 요청)”)",
+   "issue": "[제작자 확인 요청 판정] something negative는 -thing 대명사 뒤에 반드시 놓이는 단일 형용사로 최소 명사구를 이루고 한국어 ‘부정적인 무언가’가 한 청크 안에서 대응하므로 현 비분할을 유지하는 것이 타당하다(editorial-core.md 형용사구 내부·고정 표현을 다시 자르지 않음; 억지 분할 금지). 다만 청크에 이미 있는 about other candidates 앞 경계는 something negative를 뒤에서 꾸미는 전치사구로 판정되는데 reading_checks.required_breaks에 기록되지 않았다(manuscript-data.md reading_checks.required_breaks: 명사 후치수식은 실제 구 시작 위치 기록; analysis-content.md 끊어읽기 R2026-09-23 기록 의무).",
+   "proposal": "청크는 그대로 두고 required_breaks에 {\"at\":199,\"kind\":\"postnominal-preposition\",\"reason\":\"about other candidates는 앞 명사구 something negative를 뒤에서 꾸미는 전치사구\"}를 추가한다. review_record의 ‘(L 검수 확인 요청)’은 ‘something negative는 -thing+단일 형용사의 최소 명사구로 비분할(L 검수 확인)’로 갱신한다.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu3-10",
+   "sentence_id": "s26",
+   "field": "gloss",
+   "current": "instead of V-ing — ~하는 대신에 (kind·combines_with 없음) / examine — 검토하다, 조사하다 (verb_form ing) ; reading_checks.function_gloss_ids: []",
+   "issue": "전치사+동명사 기능 공식인데 같은 단위 s24 `by V-ing`(kind:function, combines_with)·s30 `while V-ing`(kind:function)과 달리 기능 각주로 선언·연결되지 않았고 function_gloss_ids도 비어 있다(gloss-rules.md 기능 공식·낱말 한 쌍의 kind/combines_with 연결; manuscript-data.md function_gloss_ids는 해당 문장 기능 각주 ID 전체).",
+   "proposal": "s26-g12에 kind:function, combines_with:[\"s26-g14\"], s26-g14에 kind:lexical을 추가하고 reading_checks.function_gloss_ids를 [\"s26-g12\"]로 기록한다(표시 문구는 그대로).",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu3-11",
+   "sentence_id": "s21",
+   "field": "analysis",
+   "current": "[구문으로 해석하기 u3-gp1] explanation 공식 ‘숫자 times + 비교급 + than A — A보다 (숫자)배 더 …하게’ ↔ practice.formula_support {en:\"N times 비교급 than\", ko:\"~보다 N배 더 …하게\"}",
+   "issue": "워크북 도움말에 주는 공식·문맥 뜻은 분석에서 배운 공식과 일치해야 하는데(editorial-core.md ‘공식과 낱말 뜻은 기존 승인 내용과 일치’, analysis-content.md ‘배운 구문을 바로 연습’) 자리 표기(숫자/N, A 자리 유무)와 뜻 틀이 다르다.",
+   "proposal": "두 곳을 같은 공식으로 통일: explanation과 formula_support 모두 `N times + 비교급 + than A — A보다 N배 더 …하게`(formula_support.en `N times + 비교급 + than A`, ko `A보다 N배 더 …하게`).",
+   "severity": "검토제안"
+  }
+ ]
+}

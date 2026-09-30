@@ -1,0 +1,189 @@
+{
+ "reviewer": "L-u4",
+ "unit": "u4",
+ "method": "L_지시문.txt에 따라 SKILL.md, editorial-core, analysis-content, gloss-rules, grammar-labels, preposition-meanings, proper-nouns, common-errors, manuscript-data를 실제로 읽고 적용. 검수 패킷 L_u4.json의 s31~s47 전 필드(chunks·natural_ko·clauses·glosses·lexical_coverage·hints/display_pairs/emphasis_links/pronoun_refs·reading_checks)와 units.u4(today_words·analysis 전체)를 문장별로 전수 대조. 권위 PDF 3쪽(왼쪽 영어·오른쪽 해석)을 pypdfium2로 추출해 원문 일치와 해석 의미를 대조하고, 1~2쪽(s01~s30)은 쉬운 풀이의 앞 문맥 근거(지나의 비판·확증 편향) 확인에 사용. u4.py 작성 기록과 QC_HANDOFF u4 부분도 대조. 기계 확인: 청크 재결합=원문(17문장 모두 일치), 영한 청크 수 일치, 낱말 위치별 lexical_coverage 누락 0건(below-middle1 제외는 the/a만), 강조 위치 문자열 확인. 확인 결과 문제 없음: 단위 묶음(p08 6문장 → 소제목 h-ways 전체 17문장), 원문 전사, S/V 17문장(명령문 V만·주격 관계절 V′만·be able to → will be·병렬 동사 and 보존), 후치수식 경계(on/of/that/to/producing 앞), 수동·능동 완료 없음 → formula_routes [] 타당, 지정 대명사(they/them) 지시 대상, 3인칭 단수 spreads→spread, 불규칙 과거 wrote, to V 보충/목적 구분(need to V 결합, to get/to judge 분리), ★ 8개와 오늘의 낱말 연결, 핵심 문장 2개(s33·s45), 구문으로 해석하기 3개 한 초점·대입·연습 범위, 유반 3세트(치환 가능성·반대 관계). 8낱말 초과 청크 s43 ‘whether … source’(9낱말)는 be의 전치사구 보어라 자연스러운 경계가 없어 유지 판단. 교차 단위 일관성 검수는 범위 밖.",
+ "sentences_checked": [
+  "s31",
+  "s32",
+  "s33",
+  "s34",
+  "s35",
+  "s36",
+  "s37",
+  "s38",
+  "s39",
+  "s40",
+  "s41",
+  "s42",
+  "s43",
+  "s44",
+  "s45",
+  "s46",
+  "s47"
+ ],
+ "status": "FIX_REQUIRED",
+ "findings": [
+  {
+   "id": "Lu4-01",
+   "sentence_id": "s42",
+   "field": "gloss",
+   "current": "s42-g03: who V′ — 누가 V′했는지 (간접의문) / s42-g06: what S′ V′ — S′(이/가) 무엇이었는지 (간접의문)",
+   "issue": "각주에 금지된 분류 라벨 ‘간접의문(문)’을 붙였다. grammar-labels.md ‘각주에 넣지 않을 분류 라벨’에 ‘직접의문문, 간접의문문, 부정의문문’이 명시되어 있고, 허용 병기 목록(관계사·계속적 which·명사절 접속사/동격·분사구문·가주어·능동 완료 p.p. 관계)에 해당하지 않는다. 뜻(누가 V′했는지 / 무엇이었는지)만으로 기능이 드러나므로 라벨은 삭제 대상이다(구조 힌트의 structure_label ‘간접의문문 who/what’은 힌트 규칙이라 유지).",
+   "proposal": "s42-g03: who V′ — 누가 V′했는지 / s42-g06: what S′ V′ — S′(이/가) 무엇이었는지 (둘 다 괄호 라벨만 삭제, 뜻·spans·lexical_coverage 유지)",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu4-02",
+   "sentence_id": "s42",
+   "field": "gloss",
+   "current": "s42-g09: behind — ~ 뒤에 (숨은)",
+   "issue": "기능어(전치사) 뜻에 고를 선택지를 괄호로 남겼다. gloss-rules.md ‘기본 형식과 순서’: `from — ~에서 (온)`처럼 고를 뜻을 괄호에 남기지 않고 문맥의 한 뜻을 택한다; ‘금지와 검수’ 8(기능어는 해당 문맥의 한 뜻). 같은 문장의 한국어 청크는 ‘그 뉴스 기사를 쓴 것 뒤에 있는’으로 이미 한 뜻을 택하고 있어 각주와도 어긋난다.",
+   "proposal": "behind — ~ 뒤에 있는 (한국어 청크 ‘그 뉴스 기사를 쓴 것 뒤에 있는’과 일치)",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu4-03",
+   "sentence_id": "s43",
+   "field": "gloss",
+   "current": "s43-g04: whether S′ V′ — S′(이/가) V′하는지 (아닌지)",
+   "issue": "기능어 뜻에 선택적 요소 ‘(아닌지)’를 괄호로 남겼다(gloss-rules.md 기본 형식 4번째 항목의 `~에서 (온)` 금지 예와 같은 형태, 검수 8). 이 문장에는 or not이 없고 한국어 청크·구조 힌트·자연 해석은 모두 ‘~인지 / 타당한지’로 한 뜻만 쓴다. 같은 원고의 s18은 실제 or not이 있을 때만 괄호 없이 ‘if S′ V′ or not — S′(이/가) V′하는지 아닌지’로 적었다.",
+   "proposal": "whether S′ V′ — S′(이/가) V′하는지 (같은 공식을 쓰는 분석 u4-gp2 title ‘whether S′ V′: S′가 V′하는지’, explanation 첫머리 ‘공식: whether S′ V′ — S′(이/가) V′하는지.’, practice.formula_support.ko ‘S′(이/가) V′하는지’도 함께 맞춤)",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu4-04",
+   "sentence_id": "s45",
+   "field": "gloss",
+   "current": "s45-g02: if S′ V′ — (만약) S′(이/가) V′한다면",
+   "issue": "기능어(부사절 접속사) 뜻에 선택적 요소 ‘(만약)’을 괄호로 남겼다. gloss-rules.md 기본 형식(`~에서 (온)` 금지)·검수 8 위반. 구조 힌트는 ‘[당신[독자]이 가지고 있다면]’으로 ‘만약’ 없이 연결 어미 ‘다면’만 대응하므로 각주 뜻도 한 형태로 확정해야 한다(gloss-rules 검수 6: 기능 각주의 조사·연결 어미와 힌트 대응).",
+   "proposal": "if S′ V′ — S′(이/가) V′한다면",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu4-05",
+   "sentence_id": "s33",
+   "field": "hint",
+   "current": "so stimulating … that you may click → 너무 자극적이어서 … 당신[독자]이 클릭할 수도 있다 / emphasis_links: en [[0,2],[17,21]](so, that) ↔ ko [[0,2],[7,9]](너무, 어서)",
+   "issue": "선정 공식 각주 s33-g04 ‘so A that S′ V′ — 너무 A해서 S′(이/가) V′하다’에 S′(이/가) 자리가 명시되어 있는데, 실제 S′ 자리의 주어 조사 ‘이’(당신[독자]이)가 강조에서 빠졌다. analysis-content.md ‘영어·한국어의 문법 대응 강조’: 선정 공식에 S′(이/가) 자리가 명시되어 있으면 실제 한국어 주어 조사 이/가도 연결 어미와 함께 강조한다; 같은 원칙은 짝 구조에도 적용(‘일반형·짝 구조·기능 결합… 같은 원칙’). 같은 단위 s31·s37·s39·s43·s45 힌트는 모두 이/가를 포함했다.",
+   "proposal": "emphasis_links: [{en_spans:[[0,2],[17,21]], ko_spans:[[0,2],[7,9],[18,19]]}] (추가 [18,19] = ‘[독자]’ 뒤 ‘이’; 대명사·참조 괄호는 보통 글씨 유지)",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu4-06",
+   "sentence_id": "s47",
+   "field": "hint",
+   "current": "the next person [producing or spreading fake news] → [가짜 뉴스를 만들어 내거나 퍼뜨리는] 다음 사람 / emphasis_links: en [[23,26],[36,39]](ing, ing) ↔ ko [[13,15],[19,20]](거나, 는)",
+   "issue": "‘거나’는 등위접속사 or에 대응하는 말인데 현재분사(-ing ↔ ~하는) 기능 대응에 끼워 강조했다. analysis-content.md 문법 대응 강조: 병렬 준동사 두 개는 두 ing를 모두 고르되 and에 해당하는 ‘고’는 기능 대응에 끼우지 않는다(or의 ‘거나’도 같은 이유). 각주 s47-g06/g09 ‘V-ing — ~하는’의 기능 뜻은 공통 관형 어미 ‘는’ 하나에 대응한다.",
+   "proposal": "emphasis_links: [{en_spans:[[23,26],[36,39]], ko_spans:[[19,20]]}] (두 ing ↔ ‘퍼뜨리는’의 ‘는’만 강조, ‘거나’는 보통 글씨)",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu4-07",
+   "sentence_id": "s44",
+   "field": "analysis",
+   "current": "flow[3](결론, s44~s47) text_ko: 거짓 정보를 모두 없앨 수는 없지만, 정보를 비판적이고 객관적으로 보는 능력이 있으면 피해를 줄일 수 있다. 누구나 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있음을 잊지 말자.",
+   "issue": "원문 s44 ‘it might be impossible to avoid or eliminate all false information’은 추측(might)인데 흐름 요약이 ‘없앨 수는 없지만’으로 단정했다(양태 손실, avoid도 누락). editorial-core.md ‘해석·S/V·각주·구조 힌트’: 주체·시제·부정·양태·수치·지시 대상은 모든 자료에서 일치; analysis-content.md 쉬운 풀이 8 ‘원문보다 강한 단정’ 금지 취지와 같다. 교과서 해석도 ‘불가능할 수 있다’.",
+   "proposal": "온라인에 퍼지는 거짓 정보를 모두 피하거나 없애기는 불가능할지도 모르지만, 정보를 비판적이고 객관적으로 보는 능력이 있으면 가짜 뉴스의 피해를 줄일 수 있다. 누구나 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있음을 잊지 말자.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Lu4-08",
+   "sentence_id": "s45",
+   "field": "analysis",
+   "current": "intent_ko: … 이런 비판적·객관적인 태도가 가짜 뉴스의 피해를 줄인다는 점을 강조하는 글이다.",
+   "issue": "원문 s45는 ‘you will be able to reduce the damage’(줄일 수 있을 것)인데 요지가 ‘피해를 줄인다’로 가능 양태를 뺐다(editorial-core.md 양태 일치). 흐름 결론은 ‘줄일 수 있다’로 적어 서로도 다르다.",
+   "proposal": "… 이런 비판적·객관적인 태도가 가짜 뉴스의 피해를 줄일 수 있다는 점을 강조하는 글이다.",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu4-09",
+   "sentence_id": "s47",
+   "field": "analysis",
+   "current": "easy_explanations s47: [“47번 문장은 글 전체의 마지막 당부다.”, “도입부의 지나도 가짜 뉴스를 비판했지만 결국 자신이 퍼뜨리게 되었다.”, “글쓴이는 누구든 지나처럼 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있다고 경고한다.”, “그래서 앞에서 말한 방법들을 늘 기억해야 한다.”]",
+   "issue": "① ‘지나처럼 … 만들거나 퍼뜨리는’은 지나가 가짜 뉴스를 만든 것처럼 읽힐 수 있으나 원문(s09·s10)에서 지나는 실수로 퍼뜨렸을 뿐이다. ② 마지막 문장의 ‘그래서 … 방법들을 늘 기억해야 한다’는 원문에 없는 인과·당부다. 원문 s46 ‘Don’t forget!’의 잊지 말 대상은 바로 뒤 s47의 사실이다(analysis-content.md 쉬운 풀이 1 앞 문맥·역할 연결, 8 원문에 없는 인과 금지). 또 지나가 비판한 대상은 ‘가짜 뉴스를 만들고 퍼뜨린 사람들’이다(s09).",
+   "proposal": "[“47번 문장은 글 전체의 마지막 당부다.”, “도입부의 지나는 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했었다.”, “그런데 결국 지나 자신도 실수로 가짜 뉴스를 퍼뜨리게 되었다.”, “46번의 ‘잊지 마라!’는 바로 이 점을 기억하라는 말이다.”, “누구든 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있다는 것이다.”]",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu4-10",
+   "sentence_id": "s37",
+   "field": "analysis",
+   "current": "u4-gp1 explanation 끝: … 공통 목적어라 ‘당신이 읽는 것을 의문을 제기하고, 분석하고, 평가해야 한다’가 된다. / practice.answer_ko: 당신이 읽는 것에 의문을 제기하고, 분석하고, 평가하다",
+   "issue": "결합 해석 ‘것을 의문을 제기하고’는 목적격 조사가 겹친 비문이며, 같은 항목의 워크북 정답(answer_ko ‘것에 의문을 제기하고’)과도 다르다. analysis-content.md 구문으로 해석하기: 핵심 결합 해석을 정확히 보여 주고 분석·연습 정답을 1:1로 일치.",
+   "proposal": "explanation 끝을 ‘… 공통 목적어라 ‘당신이 읽는 것에 의문을 제기하고, 분석하고, 평가해야 한다’가 된다.’로 수정(answer_ko 유지)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu4-11",
+   "sentence_id": "s43",
+   "field": "analysis",
+   "current": "u4-gp2 explanation: … S′ = the news story(그 뉴스 기사), V′ = is, 보어 = from a reliable media source(믿을 만한 미디어 출처에서 나온). … the evidence(증거) is valid(타당한)가 이어진다.",
+   "issue": "대입 단계에서 V′ = is의 뜻이 빠졌다. analysis-content.md ‘어법 설명’: 각 자리에 실제 원문과 각 부분의 뜻을 대입한 뒤 결합한다(자리별 대응 없이 결합하지 않음).",
+   "proposal": "V′ = is(~이다) / 뒤 절도 ‘the evidence(증거) is(~이다) valid(타당한)’로 뜻을 대입",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu4-12",
+   "sentence_id": "s44",
+   "field": "analysis",
+   "current": "u4-gp3 practice.support_gloss_ids: [s44-g05, s44-g07, s44-g08, s44-g10, s44-g12, s44-g13]",
+   "issue": "연습 범위 ‘it might be impossible to avoid or eliminate all false information’의 정답 ‘모든 거짓 정보를 피하거나 없애는 것은 불가능할지도 모른다’에 필요한 all(모든)·or(또는)와 might V의 결합 낱말 be(~이다) 각주가 도움말에서 빠졌다. manuscript-data.md 구문 결합 연습 계약: 실제 구절 해석에 필요한 보조 기능·낱말 뜻을 빠뜨려 학생이 추측하게 만들지 않는다(같은 단위 gp1은 연습 범위 낱말을 모두 연결).",
+   "proposal": "support_gloss_ids: [s44-g05, s44-g06, s44-g07, s44-g08, s44-g09, s44-g10, s44-g11, s44-g12, s44-g13]",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu4-13",
+   "sentence_id": "s42",
+   "field": "hint",
+   "current": "[what the intent was] → [의도가 무엇이었는지] / emphasis_links: en [[1,5]](what) ↔ ko [[3,4],[5,11]](가, 무엇이었는지)",
+   "issue": "what의 대응 강조가 ‘무엇이었는지’ 전체라 was의 뜻인 ‘이었’(서술격·과거)까지 흡수했다. analysis-content.md 문법 대응 강조: 선택한 한 문법 기능의 실제 대응만 강조하고 동사 뜻·내용어로 넓히지 않는다(명사절 if ↔ 이/가 … 는지 예).",
+   "proposal": "emphasis_links: [{en_spans:[[1,5]], ko_spans:[[3,4],[5,7],[9,11]]}] (가 · 무엇 · 는지)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu4-14",
+   "sentence_id": "s31",
+   "field": "hint",
+   "current": "hints: [that fake news does not mislead] 1개 / reading_checks.required_breaks: {at:25, kind:postnominal-preposition, reason:\"on the Internet은 앞 명사 so much information을 뒤에서 꾸미는 전치사구\"} / 청크 한국어: 그렇게 많은 정보가 있는 상황에서 / 인터넷에,",
+   "issue": "문두 ‘With so much information on the Internet’은 with + A + 전치사구(‘A가 ~에 있는 상황에서’)이며, 한국어 청크(‘정보가 있는 상황에서 / 인터넷에’)·자연 해석(‘인터넷에 그렇게 많은 정보가 있는데’)·교과서 해석도 그렇게 읽는다. 그런데 내부 판정은 on the Internet을 명사 후치수식으로 기록해 청크 해석과 어긋난다. 또 힌트가 1개뿐이라 여유가 있는데 해석 연결이 어려운 with 구문 힌트가 없다(analysis-content.md 구조 힌트: 힌트 없는 부분도 어려운 연결 확인, 예시 `[With the planet becoming warmer] → [지구가 더 따뜻해지면서] (with 구문)`).",
+   "proposal": "required_breaks의 해당 항목을 삭제하거나 reason을 with 구문 판정으로 고치고(경계 자체는 유지), 두 번째 힌트 추가 검토: `[With so much information on the Internet] → [인터넷에 그렇게 많은 정보가 있는 상황에서] (with 구문)` (With ↔ ‘가 … 있는 상황에서’ 대응, s31-g01 뜻과 일치)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu4-15",
+   "sentence_id": "s34",
+   "field": "gloss",
+   "current": "s34 각주: do not V — ~하지 마라 / just — 그저, 단지 / … (but는 standalone-and-but 제외) / 힌트: don’t just read … but read → 그저 읽지 말고 … 읽어라",
+   "issue": "힌트와 내부 설명은 이 문장을 짝 구조 ‘not just A but B’로 판정했는데 각주에는 그 틀이 없고 ‘do not V — ~하지 마라’만 있어 힌트의 ‘지 말고’와 각주 뜻이 대응하지 않는다(gloss-rules.md 상관어구는 A·B를 포함한 하나의 틀로 제공; 검수 6 각주–힌트 연결 어미 일치).",
+   "proposal": "각주에 틀 `don’t just A but B — 그저 A하지 말고 B하라`(spans: don’t, just, but)를 두고 같은 위치의 do not V·just 중복 항목과 but 제외 행을 이 각주로 연결(read·headlines·text·carefully 낱말 각주는 유지). 또는 짝 구조 판정을 유지하지 않을 경우 힌트를 삭제하고 review_record에 사유 기록",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu4-16",
+   "sentence_id": "s47",
+   "field": "gloss",
+   "current": "s47-g03: be — ~이 되다, ~이다",
+   "issue": "‘can be the next person’의 문맥 뜻은 ‘~이 되다’ 하나인데 다른 뜻 ‘~이다’를 쉼표로 나열했다. gloss-rules.md 기본 형식: 문맥 뜻이 흔한 뜻과 다르면 문맥 뜻을 먼저 적고 흔한 뜻은 (흔한 뜻: …)으로 병기, 다른 문맥의 뜻을 목록으로 늘어놓지 않는다.",
+   "proposal": "be — ~이 되다 (흔한 뜻: ~이다)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu4-17",
+   "sentence_id": "s43",
+   "field": "gloss",
+   "current": "s43-g10: source — 출처",
+   "issue": "같은 단위 s41-g05는 같은 낱말·같은 뜻을 ‘source — 출처 (흔한 뜻: 원천)’으로 제공했는데 s43은 흔한 뜻 병기가 없다. gloss-rules.md: 같은 표현이 다른 문장에 나오면 다시 제공(같은 기준 적용), 다의어는 문맥 뜻+흔한 뜻.",
+   "proposal": "source — 출처 (흔한 뜻: 원천)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "Lu4-18",
+   "sentence_id": "s36",
+   "field": "natural",
+   "current": "뉴스를 판단할 때 비판적 사고 능력을 발휘하라.",
+   "issue": "원문의 목적 to부정사(to judge)를 ‘판단할 때’로 바꿔 목적 관계가 시간 관계로 바뀌었다. 같은 문장 각주 ‘to V — ~하기 위해’, 힌트 ‘[판단하기 위해] (목적의 to부정사)’, 교과서 해석 ‘뉴스를 판단하기 위해 …’와도 다르다(analysis-content.md 직역과 자연 해석, 각주–해석 일치).",
+   "proposal": "뉴스를 판단하기 위해 비판적 사고 능력을 발휘하라.",
+   "severity": "검토제안"
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+  "reviewer_id": "N",
+  "role": "N",
+  "kind": "questions",
+  "independent": true,
+  "solved_before_answer_key": true,
+  "input": "검수입력/문제_대조.json",
+  "blind_sources": {
+    "Q01-Q03,Q05,Q06,Q08-Q10,Q12-Q14": "1차(검수기록/4단계_N_블라인드풀이.json)",
+    "Q04,Q07,Q11,Q15,Q16": "2차(4단계_N_블라인드풀이_2차.json)",
+    "Q17,Q18,Q19": "3차(4단계_N_블라인드풀이_3차.json)"
+  },
+  "answers": {
+    "Q01": 2,
+    "Q02": 5,
+    "Q03": 1,
+    "Q04": 2,
+    "Q05": 3,
+    "Q06": 4,
+    "Q07": 2,
+    "Q08": 5,
+    "Q09": 4,
+    "Q10": 4,
+    "Q11": 1,
+    "Q12": 3,
+    "Q13": 2,
+    "Q14": 4,
+    "Q15": 4,
+    "Q16": 5,
+    "Q17": 3,
+    "Q18": 1,
+    "Q19": 2
+  },
+  "q18_resolve_after_wording_change": {
+    "choice_1": "From Critic to Spreader: Even Critics of Fake News Can Spread It",
+    "answer": 1,
+    "confidence": "high",
+    "rationale": "둘째 문단 끝의 'At that time, Gina criticized those who had made and spread fake news ... This time, however, Gina herself had accidentally contributed to the spread of fake news.'가 'From Critic to Spreader'를 뒷받침한다. 셋째 문단의 'becoming an accidental distributor of fake news like Gina is not unusual'은 'Even Critics ... Can Spread It'의 일반화를 뒷받침한다. ②~⑤는 지문에 없거나(소셜 미디어 중단, 바위의 위험, 빠른 공유의 이점) 주체가 틀렸다(돈을 번 것은 기자가 아니라 콘텐츠 제작자). 'Anyone'이 빠져 Q15 마지막 문장('Anyone can be the next person ...')과의 어휘 겹침도 해소됐다. 'Critic(s)'은 같은 회차 다른 지문에 나오지 않는다(Q15의 critical/critically는 다른 뜻)."
+  },
+  "blind_vs_key": {
+    "matches": 19,
+    "mismatches": []
+  },
+  "checks_performed": {
+    "key_and_quick_key": "19문항 모두 questions.answer = explanations.answer = quick_key = QC_HANDOFF ANSWER로 일치한다. 정답 번호 분포에서 한 번호가 70% 이상인 경우는 없다.",
+    "evidence_quotes": "EVIDENCE와 해설·오답 이유 안의 영어 인용을 모두 '/'·'…'로 분할해 source_excerpts 원문과 대조했다. 전부 일치하고, 불일치 0건이다. source_excerpts 47문장(778토큰)은 원본 PDF 추출 텍스트와 토큰 단위로 100% 일치한다.",
+    "handoff_consistency": "QC_HANDOFF의 Q01–Q19 CHOICES / ANSWER / EVIDENCE / EXPLANATION / WRONG_ANALYSIS / CHOICES_KR는 대조 패킷과 문자 단위로 일치한다. Q18 ① 새 문구와 CHOICES_KR ①도 반영돼 있다.",
+    "wrong_reasons_coverage": "19문항 모두 정답을 제외한 네 선지의 오답 이유가 빠짐없이 있다.",
+    "learned_relation_uses": "Q01–Q04의 term_id(u1~u4-r1~r3의 h/s/a)는 모두 L 패킷에 존재하는 ID이다. FINAL 유반 표(famous/criticize/accidentally, deliberate/inaccurate/common, significantly/ignore/negative, reliable/valid/objectively)의 해당 역할과 맞는다. choice_span 문자열은 surface와 모두 정확히 일치한다.",
+    "order_insertion_uniqueness": "Q06, Q07, Q17의 다섯 배열·위치를 모두 대입했다. 모두 하나로 정해지고, 정답 배열·위치에서 원문이 복원된다.",
+    "cross_question_clues": "워크북과 모의 1~3회 각 세트 안에서, 다른 문항 지문이 정답 근거를 노출하는 경우는 없다. 3회의 'Anyone' 겹침은 Q18 ① 문구 변경으로 해소됐다.",
+    "workbook_sections": "대조 패킷에는 워크북 섹션이 없어서 QC_HANDOFF의 WB01–WB04를 추가로 대조했다. 유의어·반의어 9개 뜻 정답이 FINAL 유반 표와 일치하고, 핵심 문장 2개(문장 4·9, 12·19, 23·29, 33·45)와 그 해석이 FINAL의 [핵심 문장] 예 표시 및 자연 해석과 일치한다. 오늘의 낱말과 구문 결합 연습의 세부 검수는 이번 문항 대조 범위 밖이라 전수 확인하지 않았다."
+  },
+  "length_reviews": {
+    "Q17": {
+      "status": "PASS",
+      "benchmark_ids": [
+        "202603241-Q36",
+        "202606041-Q36",
+        "202609021-Q36"
+      ],
+      "rationale": "GIVEN과 (A)(B)(C)를 중복 없이 합쳐 112단어이다. 고1 36번 표본 134·160·168단어보다 22~56단어 짧다. 교사 기준(단일 지문 약 100단어 허용, 질문 오류 및 지문 밖 단서 불가)으로 판단한다. 순서는 제시 지문 안의 근거만으로 하나로 정해진다. (B)의 'For example'은 GIVEN의 일반 진술을 예시한다. (C)의 'This was because of'는 (B)의 대피 상황을, 'another earthquake'는 (B)의 earthquake를 선행 대상으로 요구한다. (A)의 'One of those messages'는 (C)의 'fake news stories on social media'를 받는다. 나머지 네 배열은 지시·인과 관계가 끊겨 배제된다. GIVEN은 원문 범위 s15–s19의 첫 문장이고, 나머지를 빠짐없이 분할했다. 정답 배열 B-C-A에서 원문이 복원된다. 같은 회차 다른 문항 지문(Q15 s31–47, Q16 s20–30, Q18·Q19 s01–14)과 겹치는 문장이 없어 외부 단서도 없다. 정보 전개는 일반 진술, 사례, 원인, 구체 메시지와 결과로 이어져 순서 유형이 성립한다."
+    }
+  },
+  "status": "PASS",
+  "findings": [
+    {
+      "id": "N-01",
+      "question_id": "Q19",
+      "field": "explanations.wrong_reasons[⑤] / QC_HANDOFF WRONG_ANALYSIS ⑤",
+      "current": "가짜 뉴스가 대중과 관련된 모든 개인들에게 심각한 해를 끼칠(harm) 수 있다는 내용으로 적절하다.",
+      "issue": "원문 'seriously harm the public as well as all individuals involved'는 '관련된 모든 개인뿐만 아니라 대중에게도'이다(FINAL 문장 14 자연 해석). 현재 문구는 '대중과 관련된 개인들'로 읽혀 대상 관계가 모호하고, FINAL 해석과도 다르다.",
+      "proposal": "가짜 뉴스가 관련된 모든 개인뿐만 아니라 대중에게도 심각한 해를 끼칠(harm) 수 있다는 내용으로 적절하다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N-02",
+      "question_id": "Q06",
+      "field": "explanations.wrong_reasons[②③] / QC_HANDOFF WRONG_ANALYSIS ②③",
+      "current": "② (B)의 They가 가리킬 대상(content creators)이 앞에 없고, (B)의 This time, however는 이미 흔들바위 뉴스가 가짜로 밝혀진 뒤라야 이어질 수 있다. / ③ (B)를 주어진 글 바로 뒤에 두면 They가 가리킬 대상이 없다.",
+      "issue": "주어진 글에는 복수 명사 'her close friends'가 있어 They의 문법상 후보가 존재한다. 'They가 가리킬 대상이 없다'는 단정은 assessment-content.md 3절('의미상 참조 가능한 대상이 있으면 지시 대상이 전혀 없다고 설명하지 않는다')과 맞지 않는다. 배제 자체는 타당하므로 해설 보완 사안이다.",
+      "proposal": "② (B)의 They를 주어진 글의 her close friends로 볼 수는 없다(친구들이 돈을 벌려고 자극적인 거짓 이야기를 만든 것이 아니다). They가 가리킬 content creators는 (A)에 나오고, This time, however는 흔들바위 뉴스가 가짜로 밝혀진 뒤라야 이어질 수 있다. / ③ (B)를 주어진 글 바로 뒤에 두면 They를 her close friends로 읽게 되는데, 친구들이 돈을 벌려고 거짓 이야기를 만들었다는 것은 글의 흐름과 맞지 않는다. They가 가리킬 content creators는 (A)에 처음 나온다.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N-03",
+      "question_id": "Q01",
+      "field": "questions.learned_relation_uses[u1-r3a].reason_ko",
+      "current": "intentionally(일부러)의 뜻을 알아야 지나가 뉴스를 일부러 확인했다는 말이 본문과 어긋남을 판단할 수 있음",
+      "issue": "선지 ①은 '공유 전에 일부러 뉴스를 확인하는 사람들을 칭찬하는 것'이다. '지나가 뉴스를 일부러 확인했다'는 진술이 아니어서 reason_ko가 선지 내용을 잘못 요약했다. 내부 기록이라 학생용에는 영향이 없다.",
+      "proposal": "intentionally(일부러)의 뜻을 알아야, 공유하기 전에 일부러 뉴스를 확인하는 사람들을 칭찬한다는 ①이 확인 없이 곧바로 공유한 지나의 이야기와 맞지 않음을 판단할 수 있음",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N-04",
+      "question_id": "Q17",
+      "field": "explanations.explanation / QC_HANDOFF EXPLANATION",
+      "current": "(C) 그 이유(This was because …)가 곧 또 다른 지진과 쓰나미가 온다는 소셜 미디어의 가짜 뉴스 이야기들 때문이었다고 한다.",
+      "issue": "'이유가 … 때문이었다'는 의미가 중복되어 비문에 가깝다. 오답 배제에 쓰이는 'another earthquake'의 선행 대상((B)의 earthquake)도 해설에 빠져 있다.",
+      "proposal": "(C) 그렇게 된 이유(This was because …)는 또 다른 지진(another earthquake)과 쓰나미가 곧 닥친다는 소셜 미디어의 가짜 뉴스 이야기들이었다고 밝힌다.",
+      "severity": "검토제안"
+    }
+  ]
+}

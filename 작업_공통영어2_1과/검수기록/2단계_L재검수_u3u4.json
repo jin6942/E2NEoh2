@@ -1,0 +1,220 @@
+{
+ "reviewer": "L재검수-u3u4",
+ "scope": "담당 u3(s20~s30, p05~p07)·u4(s31~s47, p08~p10) 전 문장과 units u3·u4 analysis·today_words. 1차 기록 2단계_L_u3.json(Lu3-01~11)·2단계_L_u4.json(Lu4-01~18) 29건 판정 + L_재검수_변경분.json changes 중 담당 범위 356건(/sentences/19~46 287건, /units/2~3 69건) 회귀 점검 + 1차 누락 확정오류 탐색. 담당 범위에 제작자가 밝힌 반영 예외(Lu1-03·Lu2-06·LX-04)는 없음.",
+ "method": "L_재검수_지시문.txt에 따라 제작자 ‘반영’ 주장을 전제로 하지 않고 최신 selected_data를 직접 확인. 파이썬으로 1차 입력본(검수입력/L_u3.json·L_u4.json selected_data)과 최신 패킷을 문장별로 같은 형식(청크 영한 쌍·자연 해석·S/V·각주 id/spans 실제 문자열/뜻/kind/combines_with/verb_form·lexical_coverage·힌트 display_pairs의 emphasis_links·pronoun_refs를 실제 문자로 표시·reading_checks)으로 렌더링해 diff하고, changes 경로 목록(356건)과 개수를 대조해 모든 변경을 before/after로 확인. 구조 점검 스크립트: 각주 id 연번·원문 순서, combines_with·function_gloss_ids(kind:function 전체와 일치)·relative_gloss_ids·hint gloss_ids 존재, coverage–spans 일치, 모든 낱말 coverage, 청크 재결합, grammar_points practice 범위 포함·support_gloss_ids 범위 내 존재, today_words↔각주 star/today_word_id/뜻 일치, 강조 범위가 낱말 첫 글자의 ‘가/이’ 등을 잡는지 전수 검사. u3·u4 today_words 교체(LX-08·LX-09)와 u4-gp3 교체(LX-10)는 담당 단위 변경으로서 회귀 점검: ★·today_word_id·source_gloss_id 연결 모두 일치, 해제된 reliable·valid·objectively는 ★ 제거, 새 gp3는 연습 계약 충족. 참고(비차단): u3 today_words는 배열 순서만 원문 순서로 바뀌고 id는 u3-w2(phenomenon)·u3-w1(go viral) 순으로 남아 LX-08 제안(id 재부여)과 다름—연결은 정합하며 학생용 번호는 배열 순서로 파생되므로 오류로 보지 않음. 규칙 SKILL.md, editorial-core.md, analysis-content.md, gloss-rules.md, grammar-labels.md, preposition-meanings.md, common-errors.md, manuscript-data.md 해당 절 확인. 원문 대조는 패킷 원문·자연 해석·QC_HANDOFF로 수행(원문 텍스트 변경 없음). DOCX 조판·기계 검사기 실행은 범위 밖.",
+ "status": "FIX_REQUIRED",
+ "dispositions": [
+  {
+   "id": "Lu3-01",
+   "result": "반영확인",
+   "evidence": "s21-g02: by — ~에 의한 / chunk[1]: by the Massachusetts Institute of Technology=매사추세츠 공과대학에 의한 / natural_ko: 미국 매사추세츠 공과대학의 한 연구는 …(유지)",
+   "note": "제안 1안 그대로 반영. 기능어 한 뜻, 각주–청크 대응 일치."
+  },
+  {
+   "id": "Lu3-02",
+   "result": "반영확인",
+   "evidence": "s24-g02 [passing] pass — 전달하다 (verb_form ing, kind lexical, verb_construction 삭제) / s24-g04 [to] to — ~에게 / s24-g05 others / lexical_coverage to→s24-g04 / s24-g01 combines_with [s24-g02] / function_gloss_ids [s24-g01, s24-g09] / hint[0] explanation ‘목적어 it과 to others는 표시에서 제외’ / u3-gp3 support_gloss_ids s24-g16~g21(post·previously·unknown·possibly·false·information)",
+   "note": "분리·원문 순서·coverage 재연결 정확. 각주 ID 재번호(g04~g21)에 따라 can V(g09)·gp3 도움말 ID도 모두 올바르게 따라 바뀜(changes 109건 before/after 대조, 누락·오연결 없음). review_record도 갱신."
+  },
+  {
+   "id": "Lu3-03",
+   "result": "반영확인",
+   "evidence": "s26-g01 [It|is|likely|for|to] It is likely for A to V — A(이/가) ~할 가능성이 높다 (It은 뒤의 for A to V를 대신함) / s26-g02 more — 더 / 별도 is·likely 각주 삭제, coverage is·likely→s26-g01",
+   "note": "1안 반영. ‘A가’ 대신 ‘A(이/가)’는 S′(이/가) 표기 관례에 맞음. hint[0] ‘[그들[사람들]이 믿을] 가능성이 더 높다’와 for↔이·to↔을 대응 일치, 대입 시 중복 없음. LX-02와 같은 수정."
+  },
+  {
+   "id": "Lu3-04",
+   "result": "반영확인",
+   "evidence": "u3 easy_explanations[s24]: [“24번 문장은 23번에서 말한 ‘나누고 싶은 마음’에 이어, 소식을 나누면 무엇을 얻는지 설명한다.”, “아직 아무도 모르는 소식을 소셜 미디어에 가장 먼저 올린 사람은 다른 사람들의 관심을 받을 수 있다.”, “그런데 이렇게 먼저 올린 소식은 새롭기는 하지만 거짓일 수도 있다.”]",
+   "note": "제안 문구와 동일. can의 가능성·possibly false 보존. 다만 같은 단위 flow[1]에 같은 유형의 단정·동기 추측이 남아 있어 신규 지적 Ru3u4-04로 기록."
+  },
+  {
+   "id": "Lu3-05",
+   "result": "반영확인",
+   "evidence": "s30-g18: while V-ing — ~하면서 (kind function, combines_with s30-g20)",
+   "note": "괄호 선택지 삭제."
+  },
+  {
+   "id": "Lu3-06",
+   "result": "반영확인",
+   "evidence": "s22-g01: one — 한 가지",
+   "note": "청크 ‘한 가지 설명은’과 일치."
+  },
+  {
+   "id": "Lu3-07",
+   "result": "반영확인",
+   "evidence": "s27-g12: even — ~조차",
+   "note": "힌트·청크 ‘사실이 아닐 때조차’와 일치."
+  },
+  {
+   "id": "Lu3-08",
+   "result": "반영확인",
+   "evidence": "s30 hint[0] ko: [그들[사람들]이 선호하는 후보들을 묘사하는] 어떤 뉴스든 / meaning_ko 동일 / emphasis ko [23,24]=‘는’(묘사하는) / pronoun_refs ko_pronoun [1,3]=그들, ko_reference [3,8]=[사람들], en [21,26]=their",
+   "note": "강조·대명사 참조 위치 재계산이 실제 문자와 일치(스크립트로 확인)."
+  },
+  {
+   "id": "Lu3-09",
+   "result": "반영확인",
+   "evidence": "s30 reading_checks.required_breaks: [{at:199(=‘about other candidates.’ 시작), kind:postnominal-preposition, reason:…}] / review_record: ‘something negative는 -thing+단일 형용사의 최소 명사구로 비분할(L 검수 확인)…’",
+   "note": "제작자 확인 요청 판정(비분할 유지)대로 기록, 청크 변동 없음."
+  },
+  {
+   "id": "Lu3-10",
+   "result": "반영확인",
+   "evidence": "s26-g10 instead of V-ing: kind function, combines_with [s26-g12] / s26-g12 examine: kind lexical / reading_checks.function_gloss_ids [s26-g10]",
+   "note": "재번호 뒤 ID로 정확히 연결(제안의 g12/g14는 옛 번호)."
+  },
+  {
+   "id": "Lu3-11",
+   "result": "반영확인",
+   "evidence": "u3-gp1 title ‘N times + 비교급 + than A: A보다 N배 더 …하게’, formula_key·practice.formula_support.en ‘N times + 비교급 + than A’, formula_support.ko ‘A보다 N배 더 …하게’, explanation ‘공식: N times + 비교급 + than A — A보다 N배 더 …하게. N times = 6 times(6배)…’",
+   "note": "설명·도움말·키·제목 모두 한 공식으로 통일."
+  },
+  {
+   "id": "Lu4-01",
+   "result": "반영확인",
+   "evidence": "s42-g03: who V′ — 누가 V′했는지 / s42-g06: what S′ V′ — S′(이/가) 무엇이었는지",
+   "note": "금지 라벨 삭제, 힌트 structure_label ‘간접의문문 who/what’은 유지."
+  },
+  {
+   "id": "Lu4-02",
+   "result": "반영확인",
+   "evidence": "s42-g09: behind — ~ 뒤에 있는",
+   "note": "청크 ‘그 뉴스 기사를 쓴 것 뒤에 있는’과 일치."
+  },
+  {
+   "id": "Lu4-03",
+   "result": "반영확인",
+   "evidence": "s43-g04: whether S′ V′ — S′(이/가) V′하는지 / u4-gp2 title ‘whether S′ V′: S′가 V′하는지’, explanation ‘공식: whether S′ V′ — S′(이/가) V′하는지.’, practice.formula_support.ko ‘S′(이/가) V′하는지’",
+   "note": "각주·분석·도움말 세 곳 모두 반영."
+  },
+  {
+   "id": "Lu4-04",
+   "result": "반영확인",
+   "evidence": "s45-g02: if S′ V′ — S′(이/가) V′한다면",
+   "note": "힌트 ‘[당신[독자]이 가지고 있다면]’과 연결 어미 대응 일치."
+  },
+  {
+   "id": "Lu4-05",
+   "result": "반영확인",
+   "evidence": "s33 hint[0] emphasis_links ko_spans [[0,2],[7,9],[18,19]] = 너무 / 어서 / 이(‘당신[독자]이’의 이)",
+   "note": "추가 위치가 실제 주격 조사 ‘이’와 일치(스크립트 확인), 대명사 참조 괄호는 보통 글씨."
+  },
+  {
+   "id": "Lu4-06",
+   "result": "반영확인",
+   "evidence": "s47 hint[0] emphasis_links ko_spans [[19,20]] = ‘는’(퍼뜨리는), en [[23,26],[36,39]] = ing·ing",
+   "note": "‘거나’ 강조 해제."
+  },
+  {
+   "id": "Lu4-07",
+   "result": "반영확인",
+   "evidence": "u4 flow[3] text_ko: 온라인에 퍼지는 거짓 정보를 모두 피하거나 없애기는 불가능할지도 모르지만, 정보를 비판적이고 객관적으로 보는 능력이 있으면 가짜 뉴스의 피해를 줄일 수 있다. 누구나 …",
+   "note": "might 양태·avoid 보존, 제안 문구와 동일."
+  },
+  {
+   "id": "Lu4-08",
+   "result": "반영확인",
+   "evidence": "u4 intent_ko: … 이런 비판적·객관적인 태도가 가짜 뉴스의 피해를 줄일 수 있다는 점을 강조하는 글이다.",
+   "note": "가능 양태 보존, flow 결론과도 일치."
+  },
+  {
+   "id": "Lu4-09",
+   "result": "반영확인",
+   "evidence": "u4 easy_explanations[s47]: [“47번 문장은 글 전체의 마지막 당부다.”, “도입부의 지나는 가짜 뉴스를 만들고 퍼뜨린 사람들을 비판했었다.”, “그런데 결국 지나 자신도 실수로 가짜 뉴스를 퍼뜨리게 되었다.”, “46번의 ‘잊지 마라!’는 바로 이 점을 기억하라는 말이다.”, “누구든 가짜 뉴스를 만들거나 퍼뜨리는 사람이 될 수 있다는 것이다.”]",
+   "note": "제안과 동일, s09(those who had made and spread)·s10(accidentally) 원문과 일치. LX-11도 함께 해소."
+  },
+  {
+   "id": "Lu4-10",
+   "result": "반영확인",
+   "evidence": "u4-gp1 explanation 끝: ‘… 공통 목적어라 ‘당신이 읽는 것에 의문을 제기하고, 분석하고, 평가해야 한다’가 된다.’ / answer_ko ‘당신이 읽는 것에 의문을 제기하고, 분석하고, 평가하다’",
+   "note": "조사 겹침 해소, 정답과 일치."
+  },
+  {
+   "id": "Lu4-11",
+   "result": "반영확인",
+   "evidence": "u4-gp2 explanation: ‘… V′ = is(~이다), 보어 = from a reliable media source(…) … the evidence(증거) is(~이다) valid(타당한)…’",
+   "note": "대입 단계 뜻 보완."
+  },
+  {
+   "id": "Lu4-12",
+   "result": "반영확인",
+   "evidence": "u4-gp3가 LX-10에 따라 s42 ‘who V′’로 교체됨: sentence_id s42, span [11,43] ‘examine who wrote the news story’, practice.span [19,43] ‘who wrote the news story’, formula_support {en:‘who V′’, ko:‘누가 V′했는지’}, answer_ko ‘누가 그 뉴스 기사를 썼는지’, support_gloss_ids [s42-g04 wrote — 썼다 (write의 과거), s42-g05 news story — 뉴스 기사]",
+   "note": "지적 대상이던 s44 연습 자체가 교체되어 도움말 누락 문제는 소멸. 새 연습은 연습 범위의 낱말 각주(wrote·news story; the는 기초어 면제)를 모두 연결했고 주초점 who V′는 formula_support로 제공되어 중복 없음. 연습 범위가 분석 범위 안에 있고, formula_support가 s42-g03 각주와 같은 공식·뜻이며, 정답도 청크·힌트와 일치(manuscript-data.md 구문 결합 연습 계약 충족)."
+  },
+  {
+   "id": "Lu4-13",
+   "result": "반영확인",
+   "evidence": "s42 hint[1] emphasis_links ko_spans [[3,4],[5,7],[9,11]] = 가 / 무엇 / 는지",
+   "note": "was 뜻 ‘이었’은 보통 글씨."
+  },
+  {
+   "id": "Lu4-14",
+   "result": "반영확인",
+   "evidence": "s31 required_breaks: [] (postnominal 항목 삭제) / review_record ‘… with + A + 전치사구(A가 ~에 있는 상황에서). on 앞 경계는 with 구문 안 A와 전치사구 사이. 힌트 2개(with 구문, 명사절 that)…’ / 새 hint[0] ‘[With so much information on the Internet] → [인터넷에 그렇게 많은 정보가 있는 상황에서] (with 구문)’, emphasis With ↔ 가[15,16]·있는 상황에서[17,24]",
+   "note": "판정 정정과 힌트 추가 모두 반영. 힌트는 common-errors.md with 구문 형식과 s31-g01 ‘~이 있는 상황에서’에 대응하고 문장당 2개 이내. 단, 기존 hint[1](명사절 that)의 강조 위치 오류는 이번 변경과 무관한 기존 오류로 신규 지적 Ru3u4-02에 기록."
+  },
+  {
+   "id": "Lu4-15",
+   "result": "반영확인",
+   "evidence": "s34-g02 [don’t|just|but] don’t just A but B — 그저 A하지 말고 B하라 / do not V·just 별도 항목 삭제, coverage don’t·just·but→s34-g02 / read(g03, g05)·headlines·text·carefully 유지 / function_gloss_ids []",
+   "note": "1안 반영. 힌트 ‘그저 읽지 말고 … 읽어라’(그저 / 지 말고 강조)와 각주 뜻 대응 일치. 짝 구조 틀이라 kind:function이 아니므로 function_gloss_ids 비움도 정합."
+  },
+  {
+   "id": "Lu4-16",
+   "result": "반영확인",
+   "evidence": "s47-g03: be — ~이 되다 (흔한 뜻: ~이다)",
+   "note": ""
+  },
+  {
+   "id": "Lu4-17",
+   "result": "반영확인",
+   "evidence": "s43-g10: source — 출처 (흔한 뜻: 원천)",
+   "note": "s41-g05와 같은 기준."
+  },
+  {
+   "id": "Lu4-18",
+   "result": "반영확인",
+   "evidence": "s36 natural_ko: 뉴스를 판단하기 위해 비판적 사고 능력을 발휘하라.",
+   "note": "각주 to V·힌트 목적과 일치."
+  }
+ ],
+ "new_findings": [
+  {
+   "id": "Ru3u4-01",
+   "sentence_id": "s21",
+   "field": "hints[0].display_pairs[0].emphasis_links",
+   "current": "[that fake news spreads] → [가짜 뉴스가 퍼진다는 것], ko_spans [[1,2],[10,14]] — [1,2]는 명사 ‘가짜’의 첫 글자 ‘가’",
+   "issue": "that S′ V′의 S′(이/가) 대응 강조가 주격 조사 ‘가’(6번째 글자, ‘뉴스가’)가 아니라 명사 ‘가짜’의 첫 음절에 걸려 있다. 문법 대응과 무관한 글자를 강조하고 정작 S′ 조사는 보통 글씨가 된다(editorial-core.md 구조 힌트: 선택한 문법의 실제 대응과 명시된 S′ 주어 조사 이/가를 emphasis_links로 연결, 무관한 글자·조사 강조 금지; analysis-content.md 문법 대응 강조). 1차 검수 입력본에서부터 있던 오류로 1차 L 검수가 놓침.",
+   "proposal": "ko_spans를 [[6,7],[10,14]]로 수정(‘뉴스가’의 가 + ‘다는 것’). en_spans [[1,5]] 유지.",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Ru3u4-02",
+   "sentence_id": "s31",
+   "field": "hints[1].display_pairs[0].emphasis_links",
+   "current": "[that fake news does not mislead] → [가짜 뉴스가 속이지 않는다는 것], ko_spans [[1,2],[14,18]] — [1,2]는 ‘가짜’의 ‘가’",
+   "issue": "Ru3u4-01과 같은 오류: S′ 주격 조사 ‘가’(6번째 글자) 대신 명사 ‘가짜’의 첫 글자를 강조(editorial-core.md·analysis-content.md 문법 대응 강조). 이번에 with 구문 힌트가 앞에 추가되어 hints 번호만 0→1로 바뀌었고 값은 그대로 남음.",
+   "proposal": "ko_spans를 [[6,7],[14,18]]로 수정(‘뉴스가’의 가 + ‘다는 것’).",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Ru3u4-03",
+   "sentence_id": "s45",
+   "field": "hints[1].display_pairs[0].emphasis_links",
+   "current": "the damage [that fake news can cause] → [가짜 뉴스가 일으킬 수 있는] 피해, ko_spans [[1,2],[15,16]] — [1,2]는 ‘가짜’의 ‘가’",
+   "issue": "목적격 관계대명사 that S′ V′(s45-g13 ‘S′(이/가) V′하는’)의 S′ 조사 ‘가’(6번째 글자) 대신 명사 ‘가짜’의 첫 글자를 강조(Ru3u4-01과 같은 근거). 참고: 범위 밖 u2 s15 hints[0] ‘[가짜 뉴스가 퍼지는 것은] 매우 흔하다’도 ko_spans [1,2]로 같은 유형이 확인됨(u2 담당 확인 필요).",
+   "proposal": "ko_spans를 [[6,7],[15,16]]로 수정(‘뉴스가’의 가 + ‘있는’의 는).",
+   "severity": "확정오류"
+  },
+  {
+   "id": "Ru3u4-04",
+   "sentence_id": "s22~s24",
+   "field": "u3 analysis.flow[1].text_ko",
+   "current": "사람들은 새롭고 자극적인 것을 좋아한다. 놀라운 정보는 남과 나누고 싶고, 먼저 올리면 관심을 받기 때문에 확인되지 않은 정보도 퍼뜨린다.",
+   "issue": "원문 s24는 ‘they can gain attention because they are the first to post previously unknown, but possibly false, information’(가장 먼저 올린 사람이라서 관심을 얻을 수 있다)이다. 흐름 요약은 can의 가능 양태를 빼고(‘관심을 받기 때문에’), ‘관심을 받으려고 확인되지 않은 정보도 퍼뜨린다’는 원문에 없는 동기·인과를 만들었다. 이는 Lu3-04에서 쉬운 풀이로 고친 것과 같은 유형이며, 수정된 쉬운 풀이(‘… 관심을 받을 수 있다’, ‘… 거짓일 수도 있다’)와도 단위 안에서 어긋난다(editorial-core.md ‘주체·시제·부정·양태·… 모든 자료에서 일치’; analysis-content.md 쉬운 풀이 8번 원문에 없는 인과·강한 단정 금지 취지; Lu4-07과 같은 판정 기준).",
+   "proposal": "사람들은 새롭고 자극적인 것을 좋아한다. 놀라운 정보는 남과 나누고 싶어 하고, 아직 알려지지 않았지만 거짓일 수도 있는 정보를 가장 먼저 올린 사람은 관심을 얻을 수 있다.",
+   "severity": "확정오류"
+  }
+ ]
+}

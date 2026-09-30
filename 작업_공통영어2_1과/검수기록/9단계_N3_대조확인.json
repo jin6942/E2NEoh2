@@ -1,0 +1,56 @@
+{
+  "reviewer_id": "N3",
+  "role": "N",
+  "input_sha256": {"문제_QC_HANDOFF": "f913b7ddbab533ec343d7459cf86a332e75b8e9e90bc5de258960d3e815c4bde"},
+  "dispositions": [
+    {
+      "id": "N3-01",
+      "question_id": "Q05",
+      "field": "정답 해설",
+      "result": "반영확인",
+      "current": "가짜 뉴스는 사람들을 조종하려는 의도적인 시도로, 사람들을 혼란스럽게 하고 사회를 어지럽히며 대중에게 심각한 해를 끼칠 수 있고, 특히 비상사태 때 흔히 퍼진다. 암본 지진 사례는 이를 보여 준다. 따라서 ③이 요지다.",
+      "note": "원문 disturb society / seriously harm the public에 맞게 고쳐졌다. 문장 연결도 자연스럽다."
+    },
+    {
+      "id": "N3-02",
+      "question_id": "Q15",
+      "field": "오답 이유 ⑤",
+      "result": "반영확인",
+      "current": "(B)는 맞지만, 뉴스를 감정적으로 판단하라는 내용은 없고 비판적·객관적으로 판단하라고 했다.",
+      "note": "M3 문구로 반영되었다. 선지 해석 '감정적으로'와 맞고, ③ 오답 이유와 문형도 같아졌다. N3-02를 충족한다."
+    },
+    {
+      "id": "M3-01",
+      "question_id": "Q05",
+      "field": "오답 이유 ①",
+      "result": "반영확인",
+      "current": "지나처럼 실수로 퍼뜨리는 일이 드물지 않다고는 했지만, 가짜 뉴스가 ‘주로’ 실수 때문에 퍼진다고 하지는 않았다. 오히려 가짜 뉴스는 특정 집단이 목적을 가지고 사람들을 조종하려고 만든 의도적인 시도라고 했으므로 요지가 될 수 없다.",
+      "note": "선지의 mainly(주로)를 짚었다. 본문 근거(not unusual / deliberate attempt / certain groups with the intention)와도 맞다."
+    },
+    {
+      "id": "M3-02",
+      "question_id": "Q13",
+      "field": "오답 이유 ③",
+      "result": "반영확인",
+      "current": "자기 의견에 맞는 기사만 읽고 있지 않은지 스스로 점검하라고 했을 뿐, 편향된 뉴스가 낫다는 내용은 없다.",
+      "note": "학생 지문에서 ④ 자리는 Q14용 support로 바뀌어 있다. 새 문구는 그 자리의 원문 oppose에 기대지 않는다. 밑줄이 없는 앞 문장(Ask yourself if you are only reading articles that suit your opinion)만 근거로 삼으므로 Q14 정답을 누설하지 않는다. Q14 해설의 oppose 언급은 Q14 자체의 정답 해설이므로 문제없다."
+    },
+    {
+      "id": "Q15-①-choice",
+      "question_id": "Q15",
+      "field": "선지 ①",
+      "result": "반영확인",
+      "current": "① critically …… popular",
+      "note": "조정자 결정대로 바뀌지 않았다. (A)만 맞는 반쪽 정답 오답이며 문제없다. M3가 선택 사항으로 낸 'carefully' 안은 반영되지 않았고, 그대로 두어도 문제없다."
+    }
+  ],
+  "checked": {
+    "answers_and_quick_key": "HANDOFF ANSWER 19문항과 원고.json quick_key가 모두 일치한다. Q05=3, Q08=5, Q13=2, Q15=4.",
+    "manuscript_sync": "원고.json explanations의 Q05·Q13·Q15 해설과 오답 이유가 HANDOFF 문구와 같다.",
+    "unchanged_items": "Q05·Q13·Q15의 선지·선지 해석·EVIDENCE, Q08 오답 이유 전체, Q14 해설·오답 이유는 이전과 같다."
+  },
+  "new_findings": [],
+  "status": "PASS",
+  "answers": {"Q05": 3, "Q13": 2, "Q15": 4},
+  "solved_before_answer_key": true
+}

@@ -1,0 +1,19 @@
+[역할] 공통영어2 YBM(박준언) 1과 분권(5권) 조판 독립 검수자. 전체통합본은 이미 J/K 검수를 마쳤다(검수기록/5단계_J1·J2·K1·K2_조판.json, 모두 PASS). 분권은 같은 내용을 권별 새 문서로 나눈 것이라 쪽 흐름이 달라질 수 있다. 통합본에서 정상이던 쪽이 분권에서도 정상이라고 가정하지 않는다. 한국어로 기록한다.
+
+[입력]
+- 권별 쪽 이미지(110dpi): /tmp/claude-0/-home-user-E2NEoh2/11327c85-375b-5dff-9f41-155b0c91aad0/scratchpad/vol/img01 … img05 (p-01.png부터)
+- 같은 렌더 PDF: /home/user/E2NEoh2/작업_공통영어2_1과/예비렌더_LibreOffice/분권/*.pdf
+- 비교용 통합본 이미지: /tmp/claude-0/-home-user-E2NEoh2/11327c85-375b-5dff-9f41-155b0c91aad0/scratchpad/jk/img/
+- 규칙: /home/user/E2NEoh2/작업_공통영어2_1과/스킬수정본/gyogwaseo-unified/references/split-delivery.md, layout-rules.md
+- LibreOffice(글꼴 대체) 렌더다. renderer는 "LibreOffice"로 적고 Word라고 쓰지 않는다. 글꼴 대체로 인한 미세한 줄바꿈 차이는 결함으로 보지 않는다.
+
+[확인] 담당 권의 전 쪽과 모든 인접 쪽 경계:
+1. 권의 첫 쪽·마지막 쪽(01권만 기존 표지로 시작, 다른 권은 기존 영역 제목으로 시작. 새 표지·광고 문구 없음).
+2. 겹침·잘림·바닥글/로고 침범·빈 쪽·비정상 큰 빈 공간, 제목 고립, 표 행·필기선 분리, 문항과 선지·공유 장문 분리.
+3. 학생용 01~04권에 정답·해설 블록이 섞이지 않았는지, 05권에 정답·해설이 모두 있는지(빠른 정답·워크북 답·실전문제/모의고사 해설).
+4. 권별 범위: 01 해석지(표지·안내+모든 단위 혼공해석지), 02 지문분석지(끊어읽기·자연 해석·분석·구문으로 해석하기·유반), 03 워크북+변형문제, 04 실전모의(미니 모의고사 3회), 05 정답해설지.
+5. 작은 글씨 판독 가능성.
+
+[출력] 다른 파일은 수정하지 말고 지정 JSON에 저장:
+{"reviewer_id":"<ID>","role":"J"|"K","renderer":"LibreOffice","volumes":[{"volume":"01_해석지","pdf_sha256":"...","pages":[...],"detail_pages":[...],"boundaries":[{"pages":[p,p+1],"status":"PASS|FAIL","summary":"..."}],"first_last_page":"...","scope_check":"...","status":"PASS|FIX_REQUIRED"}],"status":"PASS|FIX_REQUIRED","findings":[{"id":"<ID>-01","volume":"..","page":n,"issue":"...","severity":"확정오류|검토제안","proposal":"..."}]}
+최종 답변은 상태·건수·중요 결함만 한국어로 짧게.

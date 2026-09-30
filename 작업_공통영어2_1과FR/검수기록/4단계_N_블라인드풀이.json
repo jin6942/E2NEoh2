@@ -1,0 +1,64 @@
+{
+  "reviewer_id": "N",
+  "role": "N",
+  "solved_before_answer_key": true,
+  "input_sha256": "cfdfc6bc66d01e622a96ca355a5ba3301574ebc66e405cb486941eebc17bae7f",
+  "input_sha256_note": "sha256sum of 검수입력/문제_블라인드.json as read. The packet's internal input_digest.file_sha256 (fe4b594d...) differs from the file's actual bytes, which is expected when a file carries its own hash; content_sha256 is 193fda1e...",
+  "answers": {"Q01": 2, "Q02": 3, "Q03": 2, "Q04": 4},
+  "rationales": {
+    "Q01": "필자는 에코 체임버의 폐해(현실 이해 왜곡, 비판적 사고·토론 능력 제한, 사회 분열)를 설명한 뒤 'To avoid falling into this trap, you must actively seek diverse sources ... and keep an open mind'라고 주장하므로 ②가 요지이다. ①④⑤는 본문과 반대, ③은 언급 없음. 정답 유일, 선택지 영어 자연스러움.",
+    "Q02": "(B)의 However가 주어진 글(취향에 맞는 정보만 선택)과 대조를 이루며 'echo chamber'를 처음 도입하고, (C)가 An echo chamber의 원래 뜻(소리가 새지 않는 밀폐 공간)을 정의하며, (A)의 'is also used'가 (C)의 원래 뜻 다음에 비유적 의미를 덧붙이므로 B-C-A(③). (C)는 주어진 글 직후에 올 연결고리가 없고, (A)의 also는 (C) 뒤를 요구하므로 다른 순서 불가, 정답 유일.",
+    "Q03": "this trap은 바로 앞 문장의 an echo chamber를 가리키며, 이를 피하는 방법이 '다양한 정보원 찾기, 다른 견해를 가진 사람과 교류, 열린 마음'이므로 그 반대인 '이미 믿는 것과 맞는 견해에만 의존하는 것'(②)이 의미이다. ③은 debates 어휘 유인, ①⑤는 뉴스·소셜미디어 소재 유인, ④는 근거 없음. 정답 유일.",
+    "Q04": "본문 'This can distort your understanding of reality'(A=twist, 왜곡하다)와 'you must actively seek diverse sources of information and engage with people who have different views'(B=seek out)이므로 ④. ①(improve/seek out)과 ②(twist/avoid)는 반쪽만 맞음, ③(correct/block)과 ⑤(improve/ignore)는 양쪽 모두 틀림. 정답 유일."
+  },
+  "confidence": {"Q01": 0.98, "Q02": 0.97, "Q03": 0.95, "Q04": 0.97},
+  "length_reviews": {
+    "Q02": {
+      "status": "PASS",
+      "benchmark_ids": ["202603241-Q36", "202606041-Q36", "202609021-Q36"],
+      "rationale": "82단어(프로필 공백 기준 계산으로 확인). 기준 134/160/168단어의 49~61%로 기준보다 크게 짧고 문단이 각 1문장이다. 그러나 선생님 기준(전문 사용 불필요, 약 100단어 단일 문항 지문 허용)에서 82단어는 '약 100단어'의 하단 경계 안에 든다고 판단한다. 순서 단서(However 대조-정의-also 확장)가 모두 지문 안에 있어 정답이 유일하게 도출되고, 원문 172단어를 Q02(1~4문장)와 Q03·Q04(5~9문장)로 나눈 구조상 (A)에 5문장을 붙이면 Q03·Q04 지문 첫 문장 'This can distort...'와 겹쳐 (A)가 마지막이라는 외부 단서가 생기므로 늘리지 않는 편이 옳다. 짧은 것은 기록해 두되 불합격 사유는 아니다."
+    },
+    "Q03": {
+      "status": "PASS",
+      "benchmark_ids": ["202603241-Q21", "202606041-Q21", "202609021-Q21"],
+      "rationale": "90단어. 기준 154/149/175단어의 51~60%로 짧지만 선생님 기준(약 100단어 허용) 안에 든다. 밑줄 this trap의 지시 대상(an echo chamber)과 이를 피하는 방법(다양한 정보원·다른 견해·열린 마음)이 모두 지문 안에 있어 함축 의미를 지문만으로 도출할 수 있다. 단, 첫 문장 'This'의 선행사가 지문 밖에 있다(concerns 참조)."
+    },
+    "Q04": {
+      "status": "PASS",
+      "benchmark_ids": ["202603241-Q40", "202606041-Q40", "202609021-Q40"],
+      "rationale": "90단어. 기준 136/166/182단어의 49~66%로 짧지만 선생님 기준(약 100단어 허용) 안에 든다. 요약문의 두 빈칸 근거(distort ↔ twist, seek diverse sources ↔ seek out)가 모두 지문 안에 있다. 길이 자체는 합격이지만 요약문만 보고도 풀 수 있는 문제와 오답 구성 문제는 concerns에 따로 적었다."
+    }
+  },
+  "concerns": [
+    {
+      "question_id": "Q03,Q04",
+      "severity": "검토제안",
+      "issue": "지문이 'This can distort your understanding of reality...'로 시작해 This의 선행사(에코 체임버에 갇히는 상황 / 동의하는 의견만 듣는 상황)가 지문 밖(Q02 지문)에 있다. 둘째 문장의 'an echo chamber'로 추론은 되지만 첫 문장 지시어가 떠 있다.",
+      "proposal": "첫 문장을 'An echo chamber can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates.'로 바꾸고, 둘째 문장은 'Worse still, it may foster social division, making collaboration on common issues challenging.'으로 고친다. Q02 (A)의 문장을 앞에 붙이면 Q02 순서 단서가 되므로 그 방법은 쓰지 않는다."
+    },
+    {
+      "question_id": "Q03",
+      "severity": "검토제안",
+      "issue": "Q02 (A) 'any situation in which you only hear opinions you already agree with'가 Q03 정답 ② 'relying only on views that match what you already believe'의 거의 직접적인 정의로 같은 모의고사 1에 인쇄되어 있다. Q03 자체 지문만으로도 풀리지만(해결책을 뒤집으면 됨), 다른 문항 지문에 에코 체임버의 정의가 그대로 있어 외부 단서로 작용한다.",
+      "proposal": "선생님이 판단할 사항이다. 원문 구조상 Q02에서 정의 문장을 뺄 수 없으므로 (a) 이 정도 겹침을 허용하거나, (b) Q03을 같은 지문에서 다른 유형(예: 무관한 문장·어휘)으로 바꾸는 것을 검토한다. 최소한 정답 표현을 Q02 (A)와 덜 겹치게 바꿀 수는 있으나(예: 'staying within a narrow range of like-minded information') 개념상 겹침은 남는다."
+    },
+    {
+      "question_id": "Q03,Q04",
+      "severity": "검토제안",
+      "issue": "모의고사 1의 Q03과 Q04가 같은 90단어 지문을 두 번 그대로 인쇄한다. 문항 간 새 외부 단서는 없지만(같은 지문), Q04 요약문('so we need to ___ diverse information and different views')이 Q03의 해석 방향을 그대로 보여 준다.",
+      "proposal": "의도적인 구성이면 두 문항을 하나의 지문 아래 [2~3] 세트(장문처럼)로 묶어 한 번만 싣는 것이 자연스럽다."
+    },
+    {
+      "question_id": "Q04",
+      "severity": "검토제안",
+      "issue": "(1) 오답 ③ correct/block과 ⑤ improve/ignore는 두 칸 모두 틀려 '반쪽만 맞는 오답' 기준에 어긋난다. (2) 요약문 'can (A) our understanding of reality and divide society'에서 병렬된 divide society가 (A)를 부정어로 확정하고(부정어는 twist뿐), '(B) diverse information and different views'에 avoid/block/ignore는 상식적으로 불가능해 지문을 읽지 않고도 ④가 나온다. (3) 빈도상 B는 seek out이 유일한 최빈값이다.",
+      "proposal": "요약문에서 'and divide society'를 빼고 (B)를 지문의 'check the information you receive'에 맞춰 그럴듯한 오답이 나오게 바꾼다. 예: '[요약문] An echo chamber can (A) ________ our understanding of reality, so we should seek diverse views and (B) ________ the information we receive.' 선택지 ① twist …… verify ② twist …… accept ③ broaden …… verify ④ twist …… share ⑤ sharpen …… verify(정답 ①). 참고로 모든 오답을 반쪽만 맞게 만들면 정답 어휘가 두 칸 모두 최빈값이 되어 빈도로 찍을 수 있으므로, 반쪽 오답 원칙과 빈도 단서 사이에서 선생님이 우선순위를 정해야 한다."
+    },
+    {
+      "question_id": "Q01,Q02",
+      "severity": "참고",
+      "issue": "워크북 Q01에 원문 전체가 원래 순서대로 실려 있다. 모의고사 1이 아닌 워크북이므로 기준 위반은 아니지만, 같은 책자에서 워크북과 모의고사를 함께 풀게 하면 Q02 순서가 노출된다.",
+      "proposal": "배치 확인 정도만 하면 된다(모의고사를 따로 떼어 쓰는 경우 문제 없음)."
+    }
+  ]
+}

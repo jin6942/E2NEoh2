@@ -1,0 +1,75 @@
+{
+  "reviewer_id": "N",
+  "role": "N",
+  "input_sha256": {
+    "문제_QC_HANDOFF": "445bf969ac040c1fb0eae6ecbd6576e3ee01fbd4f1fdb770a949b7546ef92c21",
+    "원고": "02a6348ede54737fa0edf3d95848de278e7e5e7e25060c264f5cc1f2f6418eea"
+  },
+  "method": "재출력된 QC_HANDOFF와 원고.json을 대조 패킷(검수입력/문제_대조.json)과 전 문항·전 필드(ANSWER, EVIDENCE, EXPLANATION, WRONG_ANALYSIS, CHOICES, CHOICES_KR, learned_relation_uses) 단위로 비교했다. 달라진 곳은 Q01 LRU 2건, Q03 CHOICES_KR ③, Q06 WRONG_ANALYSIS ②③, Q07 WRONG_ANALYSIS ①③④⑤, Q17 EXPLANATION, Q19 WRONG_ANALYSIS ⑤뿐이고, 모두 8개 지적 사항에 해당한다. 그 밖의 필드는 바뀌지 않았다. 원고.json의 questions, explanations, quick_key는 QC_HANDOFF와 19문항 모두 일치한다(불일치 0건).",
+  "dispositions": [
+    {
+      "id": "N-01",
+      "result": "반영확인",
+      "evidence": "Q19 WRONG_ANALYSIS ⑤ = '가짜 뉴스가 관련된 모든 개인뿐만 아니라 대중에게도 심각한 해를 끼칠(harm) 수 있다는 내용으로 적절하다.' 제안 문구와 같고 FINAL 문장 14 해석과도 일치한다."
+    },
+    {
+      "id": "N-02",
+      "result": "반영확인",
+      "evidence": "Q06 WRONG_ANALYSIS ②③이 'They를 her close friends로 볼 수는 없다/읽게 되는데 … 맞지 않는다'로 바뀌었다. '지시 대상이 없다'는 단정은 제거됐다. ②의 This time, however 근거와 ⑤는 유지됐고, 정답 ④와 나머지 오답 배제 논리도 그대로다."
+    },
+    {
+      "id": "N-03",
+      "result": "반영확인",
+      "evidence": "원고.json Q01 u1-r3a reason_ko = 'intentionally(일부러)의 뜻을 알아야, 공유 전에 일부러 뉴스를 확인하는 사람들을 칭찬한다는 말이 확인 없이 곧바로 공유한 지나의 이야기와 어긋남을 판단할 수 있음'. 선지 ① 내용을 정확히 요약한다. term_id, choice_span[20,33], surface는 변동이 없고 위치도 일치한다."
+    },
+    {
+      "id": "N-04",
+      "result": "반영확인",
+      "evidence": "Q17 EXPLANATION의 (C) 부분 = '그렇게 된 이유(This was because …)는 또 다른 지진(another earthquake)과 쓰나미가 곧 닥친다는 소셜 미디어의 가짜 뉴스 이야기들이었다고 밝힌다.' 의미 중복이 해소됐고 another earthquake 근거가 들어갔다. 나머지 해설과 오답 이유는 그대로다."
+    },
+    {
+      "id": "M-01",
+      "result": "반영확인",
+      "evidence": "N-01과 같은 수정(Q19 WRONG_ANALYSIS ⑤)으로 반영됐다."
+    },
+    {
+      "id": "M-02",
+      "result": "반영확인",
+      "evidence": "Q07 WRONG_ANALYSIS ①③④⑤가 모두 '이 위치 …'로 시작해, 이전의 '① ① 앞에는' 같은 번호 중복 출력이 없어졌다. ③의 '③ 뒤는'도 '뒤는'으로 정리됐다. 배제 논리는 바뀌지 않았다."
+    },
+    {
+      "id": "M-03",
+      "result": "반영확인",
+      "evidence": "원고.json Q01 u1-r3a는 N-03과 같이 반영됐다. u1-r1a reason_ko = 'unknown(알려지지 않은)의 뜻을 알아도, 콘텐츠 제작자들이 참된 이야기를 선호한다는 말은 관심과 돈을 위해 자극적인 거짓 이야기를 만들었다는 본문과 반대임을 판단해야 함'으로 바뀌어 Q01 WRONG_ANALYSIS ③과 논리가 일치한다. choice_span[4,11]과 surface 'unknown'도 일치한다."
+    },
+    {
+      "id": "M-04",
+      "result": "반영확인",
+      "evidence": "Q03 CHOICES_KR ③ = '사람들은 어떻게 자극적인 정보를 무시하게 되는가'. 'How People Learn to Disregard Stimulating Information'의 뜻(어떻게 무시하게 되는가)을 정확히 옮겼다. 영어 선지와 나머지 KR은 바뀌지 않았다."
+    }
+  ],
+  "new_findings": [],
+  "status": "PASS",
+  "answers": {
+    "Q01": 2,
+    "Q02": 5,
+    "Q03": 1,
+    "Q04": 2,
+    "Q05": 3,
+    "Q06": 4,
+    "Q07": 2,
+    "Q08": 5,
+    "Q09": 4,
+    "Q10": 4,
+    "Q11": 1,
+    "Q12": 3,
+    "Q13": 2,
+    "Q14": 4,
+    "Q15": 4,
+    "Q16": 5,
+    "Q17": 3,
+    "Q18": 1,
+    "Q19": 2
+  },
+  "solved_before_answer_key": true
+}

@@ -1,0 +1,48 @@
+{
+  "reviewer_id": "N2",
+  "role": "N",
+  "input_sha256": {
+    "공통영어2_YBM(박준언)_1과FurtherReading_문제_QC_HANDOFF.txt": "e3359ae619111064166acc5b687f8056cb9709b98738d2bf671fe0f6d2b873d9",
+    "공통영어2_YBM(박)_1과FurtherReading_원고.json": "1efb8f579cc8085ec4243fde7d252457a3bdd03320d36cd03b08dc636c391492",
+    "compared_against_commit": "16b79d1 (직전 커밋) → 59f2716 (현재 HEAD, 작업 트리 변경 없음)"
+  },
+  "dispositions": [
+    {
+      "id": "N2-02",
+      "result": "반영확인",
+      "note": "원고 assessment.scope.instruction 끝에 두 결정이 덧붙여짐. (1) '1회 2번 함축·3번 요약은 같은 지문(s05~s09)을 각각 싣는 것을 유지' (2) '3번 요약 선택지는 모든 오답을 반쪽 정답으로 두지 않고 낱말별 빈도를 2·2·1로 고르게 한 수능형 분포(빈도 단서 방지)'. 앞부분의 '공유 장문 없음', passage_groups=[]와 모순 없음. 생성 스크립트 assessment_fr.py에도 같은 문구가 들어가 재생성 때도 유지됨."
+    },
+    {
+      "id": "N2-03",
+      "result": "반영확인",
+      "note": "원고 Q01 learned_relation_uses u1-r2s reason_ko가 '… 에코 챔버가 조장하는 것은 협력이 아니라 사회적 분열임을 판단해야 함'으로 바뀜. foster 뜻 '(조장하다, 키우다)'는 그대로 유지됨. term_id, choice_number 5, choice_span [20,29], surface 'encourage'는 바뀌지 않음. assessment_fr.py도 같은 문구."
+    },
+    {
+      "id": "M2-01",
+      "result": "반영확인",
+      "note": "Q03 EXPLANATION 둘째 문장이 '이는 바로 앞 문장에서 받은 정보를 확인하고 새로운 생각을 논의할 때 열린 마음을 유지하라고 한 이유가 된다.'로 바뀜. 원고와 HANDOFF에서 같은 문구. 밑줄 문장이 앞 문장 조언의 이유라는 인과 방향이 맞고, 근거가 Q03 자기 지문 안에만 있음."
+    },
+    {
+      "id": "N2-01",
+      "result": "미반영",
+      "note": "코디네이터 계획대로 FINAL 뒤에 DOCX를 다시 패치하기로 미룸. 이번 확인 범위(HANDOFF·원고)의 차단 사유는 아님. DOCX 재패치 뒤 저장본에서 모의 1회 빠른 정답 '1. ③  2. ①  3. ④', Q03 밑줄 두 곳, Q04 새 요약문·선택지, 새 Q03 해설 문구를 확인해야 함."
+    },
+    {
+      "id": "N2-04",
+      "result": "미반영",
+      "note": "의도적 유지. N2가 선택 사항(검토제안)으로 판단한 항목이라 유지에 동의함."
+    }
+  ],
+  "unchanged_check": {
+    "result": "확인",
+    "note": "직전 커밋 대비 HANDOFF의 차이는 Q03 EXPLANATION 한 줄뿐이다. 원고 assessment.questions에서 바뀐 필드는 Q01 learned_relation_uses 하나이고, 그것도 reason_ko 문구만 바뀌었다. explanations에서는 Q03 explanation만 바뀌었다. 문항 텍스트, 지문, 선택지, CHOICES_KR, 정답, 근거, 오답 이유, 밑줄 좌표, passage_groups는 그대로다. quick_key도 Q01=2, Q02=3, Q03=1, Q04=4로 같다."
+  },
+  "new_findings": [],
+  "status": "PASS",
+  "answers": {
+    "Q01": 2,
+    "Q02": 3,
+    "Q03": 1,
+    "Q04": 4
+  }
+}

@@ -1,0 +1,169 @@
+{
+ "reviewer": "L재검수-u1u2",
+ "scope": "u1(s01~s10)·u2(s11~s19) 해석·분석. 1차 기록 2단계_L_u1.json(Lu1-01~05)·2단계_L_u2.json(Lu2-01~17) 22건의 반영 판정, changes 중 /sentences/0~18·/units/0~1 경로 전체(106건) before/after 회귀 대조, 1차 누락 확정오류 탐색. LX(연결) 지적은 담당 1차 지적이 아니므로 판정 대상에서 제외했으나 담당 범위 안에서 반영된 LX-01·03·05·06·07·09 변경은 회귀 점검에 포함.",
+ "method": "L_재검수_변경분.json을 python으로 읽어 changes를 문장 index 0~18·units 0~1로 걸러 경로별 before/after 전수 확인. selected_data 최신값에서 청크·자연 해석·S/V(clauses verb_spans를 원문 문자열로 복원)·각주·lexical_coverage·힌트(display_pairs ko/en 문자열에서 emphasis_links·pronoun_refs 위치를 잘라 실제 대응 글자 확인)·today_words↔각주 star/today_word_id 연결·grammar_points practice support_gloss_ids(원문 순서·각주 내용)·easy_explanations·flow·intent·relations를 풀어 대조. QC_HANDOFF 출력(각주 by·s14/s19 힌트·s18 S/V)이 최신 데이터와 같음을 확인. 제작자 예외는 scripts/check_learning_content.py(능동 완료 p.p. 관계 문자열 검사, 271행)·manuscript-data.md·grammar-labels.md·analysis-content.md S/V 표기(U57)·gloss-rules.md와 대조.",
+ "status": "PASS",
+ "dispositions": [
+  {
+   "id": "Lu1-01",
+   "result": "반영확인",
+   "evidence": "s03 hint[1] ko: [흔들바위가 손상되는 것에 관한] 기사들 / emphasis_links: of↔'에 관한', being↔'가'+'되는 것' / meaning_ko: 흔들바위가 손상되는 것에 관한 기사들 / 청크 8: 흔들바위가 손상되는 것에 관한 / u1-gp5 answer_ko: 흔들바위가 손상되는 것에 관한 기사들",
+   "note": "각주 of — ~에 관한, being p.p. — ~되는 것과 힌트·청크·연습 정답이 직역으로 일치. 의미상 주어 조사 '가'를 동명사 링크에 묶은 것은 같은 동명사 기능의 불연속 대응으로 허용 범위. 자연 해석 '손상되었다는'은 유지되어 문제없음."
+  },
+  {
+   "id": "Lu1-02",
+   "result": "반영확인",
+   "evidence": "s04-g03: by — ~에 (흔한 뜻: ~에 의해); 청크 '사실에', 자연 해석 '사실에 당황했다'",
+   "note": "권장안대로 각주 수정. QC_HANDOFF 출력도 동일."
+  },
+  {
+   "id": "Lu1-03",
+   "result": "예외타당",
+   "evidence": "s04-g08·s09-g07: spread — 퍼뜨리다 (spread는 spread의 p.p.형) / u1-gp1 설명 '(퍼뜨렸다; spread는 spread의 p.p.형)'",
+   "note": "check_learning_content.py 271행이 능동 완료 각주 meaning_ko에 '({실제형}는 {lemma}의 p.p.형)' 문자열을 필수로 검사하고, manuscript-data.md(verb_form perfect-participle)·grammar-labels.md 45행도 이 관계 안내를 '반드시 제공'으로 규정한다. 1차 제안 문구('p.p.형도 spread로 원형과 같음')로 바꾸어도 검사를 통과하지 못하므로 현행 규칙상 유지가 맞다. (1차 기록의 hurt는 s09에서 동일 형식 유지.)"
+  },
+  {
+   "id": "Lu1-04",
+   "result": "반영확인",
+   "evidence": "s03-g15: stories — 기사들 (흔한 뜻: 이야기들); u1-gp5 support s03-g15 동일 출력",
+   "note": ""
+  },
+  {
+   "id": "Lu1-05",
+   "result": "반영확인",
+   "evidence": "u1 easy_explanations s10 마지막: '가짜 뉴스를 비판하던 사람도 뜻하지 않게 가짜 뉴스를 퍼뜨릴 수 있다는 점이 이 글의 출발점이다.'",
+   "note": "제안 문구와 다르나 '누구나' 일반화를 없애고 s09~s10의 지나 사례(비판하던 사람 → 뜻하지 않게 퍼뜨림)에 근거한 표현으로 바뀌어 원문보다 강한 단정 문제가 해소됨. intent_ko와도 일치."
+  },
+  {
+   "id": "Lu2-01",
+   "result": "반영확인",
+   "evidence": "u2-gp1 practice.support_gloss_ids: [s12-g03, s12-g04, s12-g05, s12-g06] (attempt to V — ~하려는 시도 포함, 원문 순서)",
+   "note": ""
+  },
+  {
+   "id": "Lu2-02",
+   "result": "반영확인",
+   "evidence": "s17-g12: by — ~로",
+   "note": ""
+  },
+  {
+   "id": "Lu2-03",
+   "result": "반영확인",
+   "evidence": "s19 hint[0] display ko: 너무 불안해해서 … 정부가 발표해야 했다 / emphasis_links ko: '너무','해서','가' ↔ en 'so','that'",
+   "note": "학생 출력(display_pairs)은 각주·u2-gp3 정답과 일치. 다만 내부 meaning_ko('정부는')·explanation('S′가')이 남아 있음 → RU1U2-02(검토제안)."
+  },
+  {
+   "id": "Lu2-04",
+   "result": "반영확인",
+   "evidence": "u2 flow[1]: … 주민들은 2주 동안 집에 돌아가지 않고 대피소에 머물렀고, 결국 정부가 …",
+   "note": "did not return·were still in shelters와 일치(LX-01과 동일 수정)."
+  },
+  {
+   "id": "Lu2-05",
+   "result": "반영확인",
+   "evidence": "s17-g11: followed — 이어지는 / 청크 4: 이어지는",
+   "note": "s17 청크 '또 다른 지진이 / 이어지는 / 쓰나미로'와 힌트 '쓰나미로 이어지는 또 다른 지진이'가 일치."
+  },
+  {
+   "id": "Lu2-06",
+   "result": "예외타당",
+   "evidence": "s18 clause[but]: S: Ambon, V: is (verb_spans에서 going 제거) / s18-g12: be going to V — ~할 것이다 / s17 that절: V′ was (be about to V)",
+   "note": "'is going'(진행 오독)이 제거되었고, be 고정 숙어는 be만 V에 두고 뜻은 각주가 맡는 U57(be able to)·s17 be about to 처리와 같은 방식이다. analysis-content.md 'S/V의 동사 범위와 각주 묶음 범위는 같을 필요 없음'에도 부합. had to announce는 조동사 상당어구 have to라 다른 처리여도 모순 아님."
+  },
+  {
+   "id": "Lu2-07",
+   "result": "반영확인",
+   "evidence": "s18-g05: it’s — ~이다 (It은 뒤의 if절을 대신함, It is의 줄임)",
+   "note": ""
+  },
+  {
+   "id": "Lu2-08",
+   "result": "반영확인",
+   "evidence": "s15-g01: It … for A to V — A(이/가) ~하는 것은 (It은 뒤의 for A to V를 대신함) / u2-gp2 title·formula_support.ko: A(이/가) ~하는 것은 / u2-gp3 title: 너무 A해서 S′(이/가) V′하다",
+   "note": "제안 범위는 모두 반영. 같은 항목 explanation의 공식 줄 'A가 ~하는 것은'과 u1-gp2 title 'S′가'는 미통일 → RU1U2-03(검토제안)."
+  },
+  {
+   "id": "Lu2-09",
+   "result": "반영확인",
+   "evidence": "s12-g05: manipulate — 조종하다 (흔한 뜻: 조작하다) / today_words u2-w2 manipulate: 조종하다",
+   "note": "today_word id가 LX-09 재선정으로 u2-w3→u2-w2로 바뀌었고 각주 today_word_id도 u2-w2로 일치."
+  },
+  {
+   "id": "Lu2-10",
+   "result": "반영확인",
+   "evidence": "s14-g05: disturb — 어지럽히다 (흔한 뜻: 방해하다) / today_words u2-w4 disturb: 어지럽히다",
+   "note": "id u2-w5→u2-w4 재번호, 각주 연결 일치."
+  },
+  {
+   "id": "Lu2-11",
+   "result": "반영확인",
+   "evidence": "s14-g10 spans [[64,67],[68,74]] = 'the','public' / lexical_coverage [64,67] → gloss_id s14-g10 (면제 제거)",
+   "note": ""
+  },
+  {
+   "id": "Lu2-12",
+   "result": "반영확인",
+   "evidence": "s14 hint[1] 추가: the public [as well as all individuals] → [모든 개인들뿐만 아니라] 대중도 (B as well as A 상관 구조), emphasis as well as ↔ '뿐만 아니라'+'도'",
+   "note": "상관 표현만 대응 강조(analysis-content.md 139행 기준) 적합. 다만 harm의 대상 조사 '에게'가 빠진 '대중도' → RU1U2-01(검토제안)."
+  },
+  {
+   "id": "Lu2-13",
+   "result": "반영확인",
+   "evidence": "s16-g11: thousands of — 수천 명의",
+   "note": ""
+  },
+  {
+   "id": "Lu2-14",
+   "result": "반영확인",
+   "evidence": "s16 청크 2: 규모가 6.5인 지진이 / hint ko: [규모가 6.5인 지진이 강타한 후에], emphasis after ↔ '이'[12,13]+'한 후에'[16,20]",
+   "note": "강조 위치 재계산 정확. 자연 해석 '규모 6.5의 지진'은 유지(허용)."
+  },
+  {
+   "id": "Lu2-15",
+   "result": "반영확인",
+   "evidence": "u2 easy_explanations s11: 많은 사람이 지나처럼 모르는 사이에 가짜 뉴스를 퍼뜨린다는 뜻이다.",
+   "note": ""
+  },
+  {
+   "id": "Lu2-16",
+   "result": "반영확인",
+   "evidence": "u2 intent_ko: … 특히 비상사태 때 잘 퍼져 사회에 혼란과 해를 끼칠 수 있다는 점을 …",
+   "note": ""
+  },
+  {
+   "id": "Lu2-17",
+   "result": "반영확인",
+   "evidence": "u2 title_or_topic_en: What Fake News Is and the Harm It Does to Society / ko: 가짜 뉴스의 정체와 사회에 끼치는 해",
+   "note": "영어를 한국어에 맞추는 두 번째 안 적용."
+  }
+ ],
+ "new_findings": [
+  {
+   "id": "RU1U2-01",
+   "sentence_id": "s14",
+   "field": "hint",
+   "current": "hint[1] display ko: [모든 개인들뿐만 아니라] 대중도 / meaning_ko: 모든 개인들뿐만 아니라 대중도 / emphasis ko_spans [[7,13],[17,18]]",
+   "issue": "the public은 harm의 대상(청크 '대중에게 … 해를 끼칠 수 있다', 자연 해석 '대중에게도')인데 힌트는 '대중도'로 '에게'가 빠져, 따로 떼어 읽으면 대중이 해를 끼치는 주체처럼 읽힐 수 있다. gloss-rules.md 금지와 검수 6(각주 뜻·끊어읽기 해석·힌트 일치), analysis-content.md 구조 힌트 검수 2(대괄호 대응과 한국어에서 붙여 읽을 자리).",
+   "proposal": "display ko: [모든 개인들뿐만 아니라] 대중에게도 / emphasis_links: [{\"en_spans\": [[12,22]], \"ko_spans\": [[7,13],[19,20]]}] / meaning_ko: 모든 개인들뿐만 아니라 대중에게도 (explanation의 'B도'는 유지 가능)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "RU1U2-02",
+   "sentence_id": "s19",
+   "field": "hint(내부 필드)",
+   "current": "hint[0] meaning_ko: 너무 불안해해서 정부는 발표해야 했다 / explanation: so A that S′ V′(너무 A해서 S′가 V′하다) …",
+   "issue": "학생 출력 display ko는 '정부가'로 고쳤으나 같은 힌트의 내부 근거 meaning_ko는 '정부는', explanation 공식은 'S′가'로 남아 한 힌트 안에서 서로 다르다(학생 출력 필드는 아님). s03 Lu1-01 수정 때는 meaning_ko도 함께 맞춘 것과도 처리가 다르다.",
+   "proposal": "meaning_ko: 너무 불안해해서 정부가 발표해야 했다 / explanation 괄호: (너무 A해서 S′(이/가) V′하다)",
+   "severity": "검토제안"
+  },
+  {
+   "id": "RU1U2-03",
+   "sentence_id": "s15, s06",
+   "field": "analysis",
+   "current": "u2-gp2 explanation: '공식: It is 형용사 for A to V — A가 ~하는 것은 (형용사)하다.' / u1-gp2 title: '명사 + that S′ V′(동격): S′가 V′했다는 명사' (같은 항목 formula_support.ko는 'S′(이/가) V′했다는 N')",
+   "issue": "Lu2-08 반영으로 각주·제목·formula_support는 'A(이/가)'·'S′(이/가)'로 통일됐으나 u2-gp2 설명의 공식 줄과 u1-gp2 제목만 'A가'·'S′가'로 남아 같은 항목 안에서 공식 표기가 다르다(gloss-rules.md 기본 형식의 S′/A 공식 조사 자리 (이/가) 표기).",
+   "proposal": "u2-gp2 explanation: '공식: It is 형용사 for A to V — A(이/가) ~하는 것은 (형용사)하다.' / u1-gp2 title: '명사 + that S′ V′(동격): S′(이/가) V′했다는 명사'",
+   "severity": "검토제안"
+  }
+ ]
+}

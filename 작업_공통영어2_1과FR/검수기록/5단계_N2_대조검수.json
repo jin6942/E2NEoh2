@@ -1,0 +1,153 @@
+{
+  "reviewer_id": "N2",
+  "role": "N",
+  "kind": "questions",
+  "independent": true,
+  "solved_before_answer_key": true,
+  "blind_record": "작업_공통영어2_1과FR/검수기록/5단계_N2_블라인드풀이.json (문제_블라인드_2차.json만 읽고 저장한 뒤 비교 자료를 열었음)",
+  "input_sha256": "ec5588de9a079397b6b12876cadde53bec07bb54bccd41ad6e77614ba73720ef",
+  "compared_files": [
+    "작업_공통영어2_1과FR/공통영어2_YBM(박준언)_1과FurtherReading_문제_QC_HANDOFF.txt",
+    "(2022개정)2025년_공통영어2_YBM(박준언)_1과_본문_(20250723수정).pdf p.4 (왼쪽 단 영어 본문, pdftotext 좌측 단 잘라내기 172단어)",
+    "작업_공통영어2_1과FR/검수기록/4단계_M_대조검수.json",
+    "작업_공통영어2_1과FR/검수기록/4단계_N_대조검수.json",
+    "작업_공통영어2_1과FR/공통영어2_YBM(박)_1과FurtherReading_원고.json (assessment.quick_key, questions, learned_relation_uses 확인용)",
+    "결과물/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_전체통합본.docx, 검사기록/03_전체_제작검사.json (출력본 반영 여부 확인용)"
+  ],
+  "answers": {
+    "Q03": 1,
+    "Q04": 4
+  },
+  "answer_key": {
+    "Q02": 3,
+    "Q03": 1,
+    "Q04": 4
+  },
+  "blind_vs_key": "2/2",
+  "verified_ok": [
+    "블라인드 풀이 Q03=①, Q04=④가 HANDOFF ANSWER와 원고 quick_key(Q01=2, Q02=3, Q03=1, Q04=4)와 일치.",
+    "원문 대조: Q03·Q04 PASSAGE = PDF 4쪽 원문 5~9문장(90단어)과 글자 단위 일치. Q02 GIVEN+(B)+(C)+(A)를 이어 붙이면 원문 1~4문장과 일치(원문 앞부분과 정확히 같음).",
+    "EVIDENCE: Q02 세 조각, Q03 두 문장, Q04 두 조각(… 생략 기준) 모두 원문에 그대로 있고, 각 문항 자기 지문 안에 있다. N-09대로 Q02 바깥 따옴표 제거됨.",
+    "Q03 PROMPT_UNDERLINES [[5,43]] = 'it doesn’t always mean that it is true' = TARGET. 블라인드 패킷 발문 [9,47](번호 '2.  ' 포함)과 본문 [518,556]도 같은 표현.",
+    "Q02 정답 해설과 오답 이유 ①②④⑤: However 대조, 용어 첫 등장, 정의, also 확장이라는 Q02 지문 안 단서만 사용.",
+    "Q03 정답 해설과 오답 이유 ②~⑤: 밑줄 문장과 바로 앞 문장(Always remember to check ... keep an open mind ...)만 근거로 삼고, Q02 지문(원문 1~4문장)의 정의나 소셜 미디어 내용에 기대지 않는다.",
+    "Q04 정답 해설과 오답 이유 ①②③⑤: distort(1문장)와 seek(3문장)만 근거로 삼음. 1차의 '사회적 분열' 설명이 요약문 변경에 맞게 빠짐.",
+    "CHOICES_KR: Q03 5개(① 어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니다 등)와 Q04 5쌍(향상시키다/왜곡하다/날카롭게 하다, 찾아 나서다/피하다/제한하다) 모두 영어 선택지와 번호별 의미 일치.",
+    "Q02 누설 점검: s01~s04에 distort/twist, seek, '바란다고 사실이 되지 않는다'에 해당하는 내용이 없음. Q03·Q04 정답 단서 누설 없음. Q03·Q04 사이에도 선택지나 요약문이 서로의 정답을 드러내지 않음.",
+    "Q04 빈도 점검: (A) twist 2·sharpen 2·improve 1, (B) seek out 2·avoid 2·limit 1. (2,2) 조합이 ②④⑤ 세 개라 정답이 빈도로 특정되지 않음. avoid·limit는 지문에 나오는 낱말(To avoid, limit your ability)을 쓴 매력적인 오답.",
+    "워크북 구문 결합 3번이 Q03 표적과 같은 표현(it doesn’t always mean that it is true)이지만, 워크북 세트이고 직역만 묻는다. 미니 모의고사 1회 안의 교차 단서가 아니므로 문제없음."
+  ],
+  "status": "PASS",
+  "status_note": "Q02·Q03·Q04의 문항 내용, 정답, 해설, 오답 이유, 선택지 해석, 근거 인용, 원고 빠른 정답에 확정오류가 없다. 다만 결과물 DOCX와 03_전체_제작검사.json은 수정 전(09:17) 출력 그대로다(N2-01). 출고 전 전체 재출력과 저장본 재검사가 필요하다.",
+  "dispositions": [
+    {
+      "id": "M-01",
+      "result": "반영확인",
+      "note": "Q03 표적을 바꾸면서 해설을 새로 썼다. 새 해설은 밑줄 문장과 바로 앞 문장만 근거로 삼고, 지문 밖 정의(이미 동의하는 의견만 듣는 상황)를 쓰지 않는다."
+    },
+    {
+      "id": "M-02",
+      "result": "반영확인",
+      "note": "M-02 예시안대로 표적, 발문, 선택지 5개, 정답 ①이 반영됨. Q02 s01~s04에는 '바란다고 사실이 되지 않는다'는 내용이 없어 교차 노출이 해소됨. 블라인드로 풀어도 ①이 하나로 도출됨."
+    },
+    {
+      "id": "M-03",
+      "result": "반영확인",
+      "note": "완전 오답쌍 correct·block, improve·ignore는 없어짐. '모든 오답을 반쪽만 맞게' 하는 원안 대신 수능형 2·2·1 분포(twist 2·sharpen 2·improve 1 / seek out 2·avoid 2·limit 1)를 택했다. 그래서 ③ sharpen·limit, ⑤ sharpen·avoid는 여전히 두 칸 다 틀린다. 하지만 M-03 스스로 적은 대로 원안은 빈도 단서(twist 3회)를 만든다. 현행안은 빈도 단서가 없고 수능 요약 문항 분포와도 같아 더 타당하다. 이 선택은 기록해 두기를 권함(N2-02)."
+    },
+    {
+      "id": "M-05",
+      "result": "반영확인",
+      "note": "Q02 ⑤ 오답 이유가 M-05 제안 문장대로 바뀜: also가 받아야 할 (C)와 (A) 사이에 (B)가 끼어 연결이 끊긴다."
+    },
+    {
+      "id": "M-07",
+      "result": "반영확인",
+      "note": "원고 learned_relation_uses u1-r2s의 foster 뜻이 '조장하다, 키우다'로 고쳐져 FINAL과 일치함. 뒤쪽 '에코 챔버가 촉진하는 것은'은 M/N 제안의 '조장하는 것은'으로 바뀌지 않고 남았다. 의미상 오류는 아니고 내부 기록 문구라 선택 사항(N2-03)."
+    },
+    {
+      "id": "N-01",
+      "result": "반영확인",
+      "note": "요약문에서 'and divide society'가 빠지고 해설의 '사회적 분열' 부분도 빠짐. 오답 구성은 N-01이 적은 반쪽 원칙과 빈도 단서의 충돌을 빈도 단서 제거 쪽으로 해결했고, 빈도 단서는 없음을 확인함. 요약문 속 'so' 논리만으로 어느 정도 짐작할 수 있는 문제는 남는다(N2-04, 검토제안)."
+    },
+    {
+      "id": "N-02",
+      "result": "반영확인",
+      "note": "M-01과 같음. 새 Q03 해설은 자기 지문(원문 5~9문장) 안의 근거만 사용함."
+    },
+    {
+      "id": "N-08",
+      "result": "반영확인",
+      "note": "Q02 ⑤가 (C)와 (A) 사이에 (B)가 끼어 also 연결이 끊긴다는 내용으로 고쳐짐. N-08이 덧붙인 However 대조 근거는 ④ 오답 이유에 들어 있어 전체 논리가 충분함."
+    },
+    {
+      "id": "N-09",
+      "result": "반영확인",
+      "note": "Q02 EVIDENCE의 바깥 따옴표가 제거되어 '(B) However, … can lead you to be trapped in an “echo chamber.” / (C) … / (A) …' 형식이 됨. 조각은 원문과 일치."
+    },
+    {
+      "id": "N-12",
+      "result": "반영확인",
+      "note": "M-07과 같음. foster 뜻 표기가 FINAL과 일치. 남은 '촉진하는' 문구는 N2-03 참조."
+    },
+    {
+      "id": "N-03 / N-04 / N-06 / M-06",
+      "result": "반영확인",
+      "note": "(참고, 요청 목록 밖) 옛 Q03(this trap) 오답 이유와 정답 표현에 대한 지적이다. Q03 표적과 선택지를 통째로 바꿔 대상이 사라짐. 새 오답 이유에는 같은 유형의 문제(발췌 밖 근거, '토론하라' 같은 본문에 없는 표현)가 없음."
+    },
+    {
+      "id": "N-05",
+      "result": "유지타당",
+      "note": "교사가 Q03·Q04의 같은 지문 반복을 받아들였으므로 동의함. Q03·Q04가 서로 정답을 드러내지 않는 것도 확인함. 다만 assessment-content.md의 공유 장문 규칙(한 번 싣기, passage_groups 등록)과 형식상 충돌한다. HANDOFF와 원고에는 이 교사 결정이 적혀 있지 않다(passage_groups=[]). 추후 검사나 검수에서 다시 지적되지 않도록 결정 기록을 남기기를 권함(N2-02에 함께 적음)."
+    },
+    {
+      "id": "N-07 / M-04",
+      "result": "유지타당",
+      "note": "동의함. 새 Q03 표적은 첫 문장 This와 상관없이 풀린다. Q04의 'This = 에코 챔버의 해악'은 둘째 문장 'Worse still, an echo chamber may …'와 'this trap'으로 지문 안에서 복원된다. 범위를 4문장까지 넓히면 Q02 (A)가 마지막이라는 순서 단서가 생기고, 지시 대상을 보충하는 것은 개작 금지 규칙에 걸린다."
+    },
+    {
+      "id": "N-10 / M-08",
+      "result": "유지타당",
+      "note": "동의함. GIVEN, (B), (C) 끝 공백은 도구가 문장을 이을 때 만드는 구분자로 보인다. 끝 공백을 없애고 이어 붙이면 원문과 정확히 같게 복원됨을 확인함. 문단 끝 공백은 인쇄에 보이지 않고 정답이나 해설에도 영향이 없다."
+    },
+    {
+      "id": "N-11",
+      "result": "유지타당",
+      "note": "동의함. 학습 FINAL과 워크북 정답이 함께 쓰는 번역 문구 문제라 이번 문항 QC 범위 밖이다. 두 곳이 서로 일치하므로 정합성 오류도 아니다. 고친다면 학습 단계에서 FINAL과 워크북 정답 두 곳을 함께 고쳐야 한다."
+    }
+  ],
+  "findings": [
+    {
+      "id": "N2-01",
+      "question_id": "Q03, Q04 (출력본·빠른 정답)",
+      "current": "결과물/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_전체통합본.docx(09:17)와 검사기록/03_전체_제작검사.json(09:17)은 아직 옛 Q03(this trap, ② relying only on …)과 옛 Q04(correct …… block 등)를 담고 있다. 빠른 정답도 '1. ③   2. ②   3. ④'다. 수정 뒤에는 04_전체_preflight_MN반영.json만 있고 재출력 기록이 없다.",
+      "issue": "HANDOFF와 원고 quick_key(Q03=1)는 맞다. 하지만 저장된 DOCX의 문항, 해설, 빠른 정답은 수정 전 상태다. 이대로 출고하면 모의 1회 2번 정답이 ②로 나간다.",
+      "proposal": "현재 원고로 전체 DOCX를 다시 출력하고 제작검사를 다시 실행한다. 그다음 저장본에서 확인할 것: 빠른 정답 '1. ③   2. ①   3. ④', Q03 발문과 본문의 밑줄 두 곳, Q04 요약문과 새 선택지, 해설지의 '① 영어 (한국어)' 결합 형식.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N2-02",
+      "question_id": "Q03, Q04 (결정 기록)",
+      "current": "HANDOFF와 원고에 두 결정이 적혀 있지 않다. (1) Q03·Q04 같은 지문 반복 허용(passage_groups=[]). (2) Q04 오답을 '반쪽 원칙' 대신 수능형 분포로 구성.",
+      "issue": "두 결정 모두 타당하다고 본다. 다만 기록이 없으면 이후 검수자나 검사기가 N-05와 M-03을 다시 오류로 올릴 수 있다.",
+      "proposal": "교사 결정 기록(current-revision 또는 작업 기록)에 적어 둔다. 'FR 1과 미니 모의 1회 Q03·Q04는 원문 5~9문장을 문항마다 싣는 것을 교사가 승인함(공유 장문 아님)'과 'Q04 요약 오답은 빈도 단서를 피하려고 수능형 2·2·1 분포로 구성함'.",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N2-03",
+      "question_id": "Q01 (learned_relation_uses u1-r2s)",
+      "current": "reason_ko: encourage가 foster(조장하다, 키우다)와 같은 뜻임을 알아도, 에코 챔버가 촉진하는 것은 협력이 아니라 사회적 분열임을 판단해야 함",
+      "issue": "foster 뜻 표기는 고쳐졌다. 하지만 M-07과 N-12 제안에 있던 '촉진하는 것은' → '조장하는 것은' 교체가 빠졌다. 의미 오류는 아니다.",
+      "proposal": "encourage가 foster(조장하다, 키우다)와 같은 뜻임을 알아도, 에코 챔버가 조장하는 것은 협력이 아니라 사회적 분열임을 판단해야 함",
+      "severity": "검토제안"
+    },
+    {
+      "id": "N2-04",
+      "question_id": "Q04",
+      "current": "[요약문] An echo chamber can (A) ________ our understanding of reality, so we need to (B) ________ diverse information and different views.",
+      "issue": "빈도 단서는 없다. 그러나 'so'로 이어진 인과 구조 때문에 (A) 부정어·(B) 긍정어 조합(④)만 문장 안에서 앞뒤가 맞는다. ①②③⑤는 요약문 자체가 모순이다. 그래서 echo chamber가 부정적 개념이라는 것만 알면 지문 없이도 고를 여지가 있다. (B) 정답 seek out과 'diverse … different views'도 지문 표현과 거의 같다. 요약 유형에서 흔한 수준이라 오류는 아니다.",
+      "proposal": "현행 유지 가능. 난도를 높이려면 두 가지를 검토한다. (B)를 지문과 다른 말로 바꾼다(seek out → look beyond, CHOICES_KR '너머를 살펴보다'; 요약문 'look beyond familiar information and views' 등). 또는 인과 연결어 'so'를 'and the writer urges us to'처럼 중립적으로 바꾼다. 바꾸면 해설, 오답 이유, CHOICES_KR, 빈도 분포를 다시 확인해야 한다.",
+      "severity": "검토제안"
+    }
+  ]
+}

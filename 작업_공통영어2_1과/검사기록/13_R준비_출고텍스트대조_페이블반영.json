@@ -1,0 +1,686 @@
+{
+  "schema_version": 1,
+  "type": "release_text_preflight",
+  "status": "NOT_CERTIFIED",
+  "bindings": {
+    "manuscript_sha256": "1d2fa642af40b406b1615c6433d37227c04a87f1911b9130ba372a51990edd41",
+    "plan_sha256": "6d2359a1799025ce0f7430b9489372cdc3556f40dd015ed620800f7292d63ae5",
+    "docx_sha256": "40b6f528291bb56f57c9f44ac841709139e713f5858e2181297f8cc2d0d6a2e2",
+    "pdf_sha256": "40d78a7be6beadc56c490c145b2ac6f37034f9469398de70ab75e8ede7fd24fc",
+    "learning_final_sha256": "9516ff5e6e0127f95baf0fb6437ea68b687cf40dee17f4d255827fee55014bb7",
+    "assessment_final_sha256": "f913b7ddbab533ec343d7459cf86a332e75b8e9e90bc5de258960d3e815c4bde",
+    "package_sha256": "e0b7b4fa705941684a2cb746b809463bb0adb59a83032f6267306f07f1a0d853"
+  },
+  "machine_status": "PASS",
+  "errors": [],
+  "warnings": [
+    {
+      "id": "R-0001",
+      "code": "PDF_MARKER_BREAK",
+      "detail": {
+        "page": 51,
+        "characters": 1603,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": [
+          {
+            "marker": "④",
+            "character_index": 1275,
+            "next_character": "의",
+            "next_character_index": 1278,
+            "marker_box": [
+              548.3160400390625,
+              455.2080078125,
+              555.0480346679688,
+              461.9309997558594
+            ],
+            "next_box": [
+              45.17599868774414,
+              440.21099853515625,
+              52.25,
+              448.2300109863281
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "R-0002",
+      "code": "PLACEHOLDER_CANDIDATE",
+      "detail": {
+        "block": "answers/mock1",
+        "role": "wrong_reason",
+        "text": "④   주민들이 2주 동안 집을 떠나 지낸 것은 비상사태에 가짜 뉴스가 끼치는 해를 보여 주는 예시의 세부 내용일 뿐, 글 전체의 요지가 아니다."
+      }
+    },
+    {
+      "id": "R-0003",
+      "code": "PLACEHOLDER_CANDIDATE",
+      "detail": {
+        "block": "answers/mock1",
+        "role": "wrong_reason",
+        "text": "⑤   다른 후보에 대해 부정적인(negative) 내용을 보도하는 뉴스를 믿는다는 선거철 예시로 적절하다."
+      }
+    }
+  ],
+  "pdf": {
+    "pages": [
+      {
+        "page": 1,
+        "characters": 310,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 2,
+        "characters": 2167,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 3,
+        "characters": 2487,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 4,
+        "characters": 1863,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 5,
+        "characters": 593,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 6,
+        "characters": 2658,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 7,
+        "characters": 2627,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 8,
+        "characters": 556,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 9,
+        "characters": 1843,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 10,
+        "characters": 1329,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 11,
+        "characters": 1700,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 12,
+        "characters": 1901,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 13,
+        "characters": 2312,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 14,
+        "characters": 2690,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 15,
+        "characters": 2480,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 16,
+        "characters": 1937,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 17,
+        "characters": 1008,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 18,
+        "characters": 1793,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 19,
+        "characters": 2208,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 20,
+        "characters": 1622,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 21,
+        "characters": 1819,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 22,
+        "characters": 2897,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 23,
+        "characters": 573,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 24,
+        "characters": 2774,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 25,
+        "characters": 2106,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 26,
+        "characters": 1198,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 27,
+        "characters": 1813,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 28,
+        "characters": 1356,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 29,
+        "characters": 2057,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 30,
+        "characters": 1989,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 31,
+        "characters": 2464,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 32,
+        "characters": 870,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 33,
+        "characters": 2702,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 34,
+        "characters": 2140,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 35,
+        "characters": 988,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 36,
+        "characters": 3791,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 37,
+        "characters": 1757,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 38,
+        "characters": 4285,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 39,
+        "characters": 1648,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 40,
+        "characters": 3375,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 41,
+        "characters": 814,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 42,
+        "characters": 1893,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 43,
+        "characters": 209,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 44,
+        "characters": 1741,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 45,
+        "characters": 1815,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 46,
+        "characters": 1694,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 47,
+        "characters": 1949,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "LiberationSerif-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 48,
+        "characters": 2829,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 49,
+        "characters": 1925,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 50,
+        "characters": 2364,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 51,
+        "characters": 1603,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": [
+          {
+            "marker": "④",
+            "character_index": 1275,
+            "next_character": "의",
+            "next_character_index": 1278,
+            "marker_box": [
+              548.3160400390625,
+              455.2080078125,
+              555.0480346679688,
+              461.9309997558594
+            ],
+            "next_box": [
+              45.17599868774414,
+              440.21099853515625,
+              52.25,
+              448.2300109863281
+            ]
+          }
+        ]
+      },
+      {
+        "page": 52,
+        "characters": 2572,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      },
+      {
+        "page": 53,
+        "characters": 1860,
+        "fonts": [
+          "DejaVuSans",
+          "DejaVuSans-Bold",
+          "WenQuanYiZenHei"
+        ],
+        "marker_break_candidates": []
+      }
+    ],
+    "fonts": [
+      "DejaVuSans",
+      "DejaVuSans-Bold",
+      "LiberationSerif",
+      "LiberationSerif-Bold",
+      "WenQuanYiZenHei"
+    ],
+    "footer_policy": "Only actual DOCX footer patterns near page foot excluded; no body crop",
+    "normalized_text_equal": true,
+    "normalization": "Whitespace including NBSP and invisible joiners in the exact approved ★핵심 marker only; no spelling, glyph or punctuation substitutions",
+    "expected_characters": 76579,
+    "observed_characters": 76579
+  },
+  "independent_review": "NOT_PERFORMED",
+  "visual_review": "NOT_PERFORMED",
+  "limits": [
+    "No automatic source/answer/font edits; R and J/K must resolve diagnostics on actual files.",
+    "Text equivalence does not prove pagination, clipping, translation or answer validity."
+  ]
+}
