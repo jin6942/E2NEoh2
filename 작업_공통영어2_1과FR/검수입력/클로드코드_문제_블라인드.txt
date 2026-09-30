@@ -11,11 +11,11 @@ workbook
 [지문]
 These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs. However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.” An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo. The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with. This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.
 [선택지]
-① Uniform news sources help people understand reality more accurately.
+① An echo chamber originally refers to an enclosed space where sound returns as an echo.
 ② To avoid an echo chamber, we should look for various views and stay open to new ideas.
 ③ Governments should restrict the spread of opinions on social media.
-④ Hearing only familiar opinions can expand our ability to debate.
-⑤ An echo chamber can encourage people to work together on common issues.
+④ Social media has expanded the ways in which people can access the news.
+⑤ People should be encouraged to share their opinions freely on social media.
 
 ==== 미니 모의고사 1회 1번 ====
 [세트]
@@ -43,17 +43,17 @@ These days, everyone accesses the news through the Internet or social media, and
 [유형]
 함축 의미
 [발문]
-밑줄 친 it doesn’t always mean that it is true가 다음 글에서 의미하는 바로 가장 적절한 것은?
+밑줄 친 falling into this trap이 다음 글에서 의미하는 바로 가장 적절한 것은?
 [지문]
 This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.
 [밑줄 부분]
-it doesn’t always mean that it is true
+falling into this trap
 [선택지]
-① Wishing that an idea is true does not make it a fact.
-② Most information on social media turns out to be false.
-③ You should never trust your own opinions.
-④ Something becomes true when many people agree with it.
-⑤ New ideas are usually more accurate than old ones.
+① being surrounded only by views similar to your own
+② believing every piece of information you find online
+③ arguing with people whose opinions differ from yours
+④ losing interest in social issues that affect everyone
+⑤ spreading false news without checking the facts
 
 ==== 미니 모의고사 1회 3번 ====
 [세트]

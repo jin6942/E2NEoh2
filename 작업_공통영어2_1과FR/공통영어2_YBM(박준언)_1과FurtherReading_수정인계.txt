@@ -8,25 +8,25 @@
 
 ■ 2. 전달 파일 (결과물/출고_FR_20260929/)
 | 파일 | sha256 앞 16자리 | 쪽수(LibreOffice) |
-| 혼공독해교재_공통영어2_YBM(박)_1과FurtherReading.zip (DOCX 6개만) | ef6cd4ae374de012 | - |
-| _전체통합본.docx | db39cb84c90b57c4 | 13 |
-| _01_해석지.docx | bb4d25994913242d | 4 |
-| _02_지문분석지.docx | 79a1c14df614fcc6 | 2 |
-| _03_워크북+변형문제.docx | 0fc9f17cd2329da6 | 2 |
-| _04_실전모의.docx | d5b168ef34b12237 | 1 |
-| _05_정답해설지.docx | e10e8573013820be | 4 |
-split_book.py 추출(SPLIT_CONTENT_MATCH, verify 통과). 출고 텍스트 대조(검사기록/09_R준비_출고텍스트대조_lead삭제.json) 기계 PASS·경고 0.
+| 혼공독해교재_공통영어2_YBM(박)_1과FurtherReading.zip (DOCX 6개만) | a042d51921eec2be | - |
+| _전체통합본.docx | 134242524bf66671 | 13 |
+| _01_해석지.docx | 27d0fb3d4991e760 | 4 |
+| _02_지문분석지.docx | aa211488e16f836b | 2 |
+| _03_워크북+변형문제.docx | e530fdf0ad276d00 | 2 |
+| _04_실전모의.docx | 2a3e211914286655 | 1 |
+| _05_정답해설지.docx | 2258665c82fe9000 | 4 |
+split_book.py 추출(SPLIT_CONTENT_MATCH, verify 통과). 출고 텍스트 대조(검사기록/10_R준비_출고텍스트대조_검수반영.json) 기계 PASS·경고 0.
 
 ■ 3. 제작 기준 파일
 - 원문: (2022개정)2025년_공통영어2_YBM(박준언)_1과_본문_(20250723수정).pdf 4쪽 왼쪽 단(9문장, 1,073자, 172단어)
-- 공통 원고: 공통영어2_YBM(박)_1과FurtherReading_원고.json 32408c576a2fac5a (작성 모듈 source_text_fr.py·fr1.py·assessment_fr.py → make_fr.py full, author.py는 1과 본문 폴더 것을 공용)
-- 해석·분석 FINAL: 공통영어2_YBM(박준언)_1과FurtherReading_FINAL.txt 4606d8b1371659ca (= 현재 QC_HANDOFF)
-- 문제 FINAL: 공통영어2_YBM(박준언)_1과FurtherReading_문제_FINAL.txt 728808800e8d9765 (= 현재 문제_QC_HANDOFF)
+- 공통 원고: 공통영어2_YBM(박)_1과FurtherReading_원고.json 5726e5452849368c (작성 모듈 source_text_fr.py·fr1.py·assessment_fr.py → make_fr.py full, author.py는 1과 본문 폴더 것을 공용)
+- 해석·분석 FINAL: 공통영어2_YBM(박준언)_1과FurtherReading_FINAL.txt d6ec51d3f2558588 (= 현재 QC_HANDOFF)
+- 문제 FINAL: 공통영어2_YBM(박준언)_1과FurtherReading_문제_FINAL.txt 5df35820f25f82eb (= 현재 문제_QC_HANDOFF)
 - 스킬: 1과 본문과 같은 사본(작업_공통영어2_1과/스킬수정본/gyogwaseo-unified). 표지 괄호 표기는 기존 선택 칸 cover.lesson_note 사용(스킬 수정 없음).
 
 ■ 4. 구성
 - 공통 단위 1개(단락 1개, s01~s09).
-- 문제(사용자 선택 “워크북 1 + 모의 1회 3문항”): 워크북 1번 요지(전체 172단어, ②) / 1회 1번 순서(s01~s04 82단어, ③) / 2번 함축(s05~s09 90단어, 밑줄 it doesn’t always mean that it is true, ①) / 3번 요약(s05~s09, ④).
+- 문제(사용자 선택 “워크북 1 + 모의 1회 3문항”): 워크북 1번 요지(전체 172단어, ②) / 1회 1번 순서(s01~s04 82단어, ③) / 2번 함축(s05~s09 90단어, 밑줄 falling into this trap, ①; ■11 A5) / 3번 요약(s05~s09, ④).
 
 ■ 5. 검수 이력 (검수기록/)
 | 단계 | 기록 | 결과 |
@@ -51,7 +51,7 @@ split_book.py 추출(SPLIT_CONTENT_MATCH, verify 통과). 출고 텍스트 대�
 | # | 내용 | 처리 |
 | 1 | Word 렌더·Word 기준 조판 확인 | 미실시(환경에 Word 없음) |
 | 2 | 통합본 6~7쪽(02권 2~3쪽): 분석 설명부 끝 ‘필수 유의어/반의어’ 제목과 3행만 다음 쪽으로 넘어감(J-01·K-01) | ■10 lead 항목 삭제 뒤 LibreOffice에서 6쪽 한 쪽에 들어감(해소). Word에서만 다시 확인 |
-| 3 | 워크북 유의어·반의어 표 9칸 마지막 빈칸 답안선(J-02) | 스킬 조판 코드 공통 모양, 유지 |
+| 3 | 워크북 유의어·반의어 표 9칸 마지막 빈칸 답안선(J-02) | ■11 A1에서 해소(스킬 조판 코드·규칙 수정) |
 | 4 | 02·05권 단독 인쇄 시 표제가 ‘1과’뿐(R-01) | 표지 외 표기는 스킬 규칙상 과 표시만 사용, 유지 |
 | 5 | 2·3번 지문 첫 문장 This의 지시 대상이 지문 밖(R-03) | 둘째 문장으로 복원됨, 범위를 넓히면 순서 문제 단서가 생겨 유지 |
 | 6 | 순서 문제 문단 끝 공백 1칸(R-06) | 도구 출력, 인쇄에 보이지 않음 |
@@ -76,3 +76,19 @@ split_book.py 추출(SPLIT_CONTENT_MATCH, verify 통과). 출고 텍스트 대�
 - 확인: make_fr full STRUCTURE_PASS, preflight 경고 0(검사기록 07), 역할계획·제작검사(08), QC 비교 결과 lead 항목만 빠지고 번호 1~3으로 당겨짐, DOCX 부분 갱신(u1 분석·워크북·정답), 분권 SPLIT_CONTENT_MATCH, 출고 텍스트 대조 기계 PASS·경고 0(09).
 - 쪽수(LibreOffice): 통합본 14→13쪽, 02권 3→2쪽. ■7-2 넘침도 LibreOffice 기준 해소. 렌더 눈 확인: 6쪽 분석·8쪽 워크북 4번·정답 4번 이상 없음.
 
+■ 11. 클로드 코드 검수 반영 A1~A6 (2026-09-30, 사용자 지시. 로컬 이전을 위해 사용자 승인 “지금 올리기”로 커밋·푸시)
+- 작업 방식(사용자 선택 “소스부터 고쳐 다시 만들기”): fr1.py·assessment_fr.py·make_fr.py를 고쳐 원고 JSON → QC → FINAL, 통합본 DOCX 부분 갱신 → 분권 5권·ZIP 재출고. 새 작업본 없이 기존 파일 덮어씀.
+| # | 내용 | 반영 위치 |
+| A1 | 워크북 유의어·반의어 9번 오른쪽 빈 칸의 답란 밑줄 삭제(홀수 마지막 칸 완전히 비움) | 스킬 master_docx.py 표 생성 + references/runtime-and-data.md 규칙 문장 + 테스트(사용자 선택 “스킬 조판 코드·규칙 수정”). 모든 새 교재에 적용, 이미 전달한 1과 본문은 그대로 |
+| A2 | 문장 4 구조 힌트 ‘듣기만 하는’ → ‘~만 듣는’ | fr1.py(힌트 한국어·내부 meaning·explanation 기록) |
+| A3 | 문장 6 청크 making collaboration on common issues challenging 한 청크(5→3청크), 한국어 ‘공통 문제들에 대한 협력을 어렵게 만들면서.’ | fr1.py. 후치수식 전치사구 필수 경계 기록 삭제, 이 교재 한정 예외로 검토 기록(사용자 선택 “이번 교재만 예외로 합치기”, 스킬 규칙 불변) |
+| A4 | 정답해설 1회 3번 해설 전체를 새 쪽에서 시작 | 스킬 book_plan.py: question_page_break를 정답해설 블록(answer/문항ID)까지 확장 + 규칙 문장 + 테스트. make_fr.py ANSWER_PAGE_BREAKS에 관찰 기록(LibreOffice 관찰, 사유에 명시). 사용자 선택 “이번 문항만 새 쪽 시작” |
+| A5 | 1회 2번 함축 밑줄을 falling into this trap으로, 발문·선택지·근거·해설·선지 해석·오답 정리 교체(정답 ① 유지) | assessment_fr.py Q03 |
+| A6 | 워크북 실전문제 1번 오답 ①④⑤ 교체, 선지 해석·오답 정리 ①④⑤ 교체(②③·정답·근거·해설 유지) | assessment_fr.py Q01. 내부 학습 어휘 연결(learned_relation_uses)을 새 선택지에 맞춤: ② various ③ restrict ④ expanded ⑤ encouraged(uniform 연결은 선택지에서 빠짐) |
+- 확인: make_fr full STRUCTURE_PASS, preflight 경고 1(A6 새 ①이 지문 문구 ‘refers to an enclosed space’와 겹침 — 요지 아닌 사실 오답으로 의도한 것, 지시 문구 그대로 유지), QC 비교 결과 A2·A3·A5·A6 부분만 바뀜, DOCX 변경 블록 u1/reading·u1/analysis·u1/workbook·mock1·u1/answers·answers/mock1, 분권 SPLIT_CONTENT_MATCH, 출고 텍스트 대조 기계 PASS·경고 0(검사기록 10).
+- 렌더(LibreOffice): 통합본 13쪽, 분권 4·2·2·1·4쪽. pdftotext·그림으로 A1~A6 확인(A5 밑줄은 지문 셋째 문장 falling into this trap에만, A4는 05권 4쪽에 3번 해설 전체).
+- 스킬 테스트: 관련 5개 모듈 81개 중 78 통과. 실패 3건은 수정 전 스킬에서도 똑같이 실패(예전 규칙 기준 테스트, 이번 수정과 무관).
+- 검수입력/클로드코드_문제_블라인드.txt를 문제_FINAL에서 같은 규칙으로 다시 만들어 덮어씀.
+- 검사기록: 도구가 기존 기록 덮어쓰기를 막아 10번 새 기록 4개 생성. 지난 기록 07~09(lead 삭제 때 4개)는 2026-09-30 사용자 지시 “지난 검사기록은 지워”로 삭제(git 기록에 남음). ■10의 07~09 언급은 당시 기록.
+- Word 확인은 여전히 미실시(A4 쪽 나눔 포함).
+- 검사기록 04~06(lead 삭제 전 기록)은 문제 2차 검수 기록(검수기록/5단계_N2_대조검수.json)이 근거로 가리켜 보존(2026-09-30 사용자 선택 “그대로 두기”).

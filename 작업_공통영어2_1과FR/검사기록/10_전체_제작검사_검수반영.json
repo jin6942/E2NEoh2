@@ -3,26 +3,26 @@
   "scope": "full",
   "mode": "patch",
   "output": "/home/user/E2NEoh2/결과물/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_전체통합본.docx",
-  "plan_output": "/home/user/E2NEoh2/작업_공통영어2_1과FR/검사기록/08_전체_역할계획_lead삭제.json",
-  "report_output": "/home/user/E2NEoh2/작업_공통영어2_1과FR/검사기록/08_전체_제작검사_lead삭제.json",
+  "plan_output": "/home/user/E2NEoh2/작업_공통영어2_1과FR/검사기록/10_전체_역할계획_검수반영.json",
+  "report_output": "/home/user/E2NEoh2/작업_공통영어2_1과FR/검사기록/10_전체_제작검사_검수반영.json",
   "input_path": "/home/user/E2NEoh2/작업_공통영어2_1과FR/공통영어2_YBM(박)_1과FurtherReading_원고.json",
-  "input_file_sha256": "32408c576a2fac5a3baaf6484720f0e1ea4df2c376f40444147cd0fcdf684863",
-  "manuscript_sha256": "2f1a99bdaa9116d37fe4729f0e1d19abc778a1836b80c644e5bb8254f9b9bcca",
-  "plan_sha256": "11c93e5db7e48dd6c550a00928196761e531ce55b758362bc9bbbf38d534bca7",
+  "input_file_sha256": "5726e5452849368c57b24e10241edbae8f41660273d90f45217adfd8b0244076",
+  "manuscript_sha256": "daae01a0754d4348d4f842b3727919f5003b40d58775c28e3c50204da7bfd04a",
+  "plan_sha256": "d028e837fadd36a5fea7302ad1429f7c8e8c16419f20a670e6c816b94e3566a3",
   "contract_sha256": "a0494734ae7adb8c85086ce2d8a8395670ae94677c0dddb256fb69a1c0ff454c",
   "reference_sha256": "9af8460d2af50152f0b49c92191b98f8b7fcccd8b1a459365bb073ff07c8319b",
-  "saved_sha256": "db39cb84c90b57c4c86244a55c5901bdfbaf5ad847210706fbe727c7772424ba",
+  "saved_sha256": "134242524bf66671d93d1c0f66c651e1d3ad346c25789f6d98953372cb5652e2",
   "changed_blocks": [
-    "u1/analysis",
-    "u1/workbook",
-    "u1/answers"
+    "answers/mock1"
   ],
   "preserved_blocks": [
     "cover",
     "u1/reading",
+    "u1/analysis",
+    "u1/workbook",
     "mock1",
     "answers/quick",
-    "answers/mock1"
+    "u1/answers"
   ],
   "saved_docx_validation": {
     "status": "SAVED_CONTENT_MATCH",
@@ -41,11 +41,11 @@
       "answers/mock1"
     ],
     "format_errors": [],
-    "plan_sha256": "11c93e5db7e48dd6c550a00928196761e531ce55b758362bc9bbbf38d534bca7",
+    "plan_sha256": "d028e837fadd36a5fea7302ad1429f7c8e8c16419f20a670e6c816b94e3566a3",
     "contract_sha256": "a0494734ae7adb8c85086ce2d8a8395670ae94677c0dddb256fb69a1c0ff454c",
     "reference_sha256": "9af8460d2af50152f0b49c92191b98f8b7fcccd8b1a459365bb073ff07c8319b",
     "format_validation_scope": "Stored OOXML properties and effective character formatting; not visual pagination or content semantics",
-    "saved_sha256": "db39cb84c90b57c4c86244a55c5901bdfbaf5ad847210706fbe727c7772424ba",
+    "saved_sha256": "134242524bf66671d93d1c0f66c651e1d3ad346c25789f6d98953372cb5652e2",
     "checked_blocks": [
       "cover",
       "u1/reading",
@@ -59,7 +59,7 @@
     "errors": [],
     "extracted": {
       "path": "/home/user/E2NEoh2/결과물/혼공독해교재_공통영어2_YBM(박)_1과FurtherReading_전체통합본.docx",
-      "sha256": "db39cb84c90b57c4c86244a55c5901bdfbaf5ad847210706fbe727c7772424ba",
+      "sha256": "134242524bf66671d93d1c0f66c651e1d3ad346c25789f6d98953372cb5652e2",
       "blocks": [
         {
           "id": "cover",
@@ -270,7 +270,7 @@
             },
             {
               "kind": "paragraph",
-              "text": "구조 힌트   any situation [in which you only hear] → [당신[독자]이 듣기만 하는] 모든 상황 (전치사 + 관계대명사 in which)"
+              "text": "구조 힌트   any situation [in which you only hear] → [당신[독자]이 ~만 듣는] 모든 상황 (전치사 + 관계대명사 in which)"
             },
             {
               "kind": "paragraph",
@@ -318,7 +318,7 @@
             },
             {
               "kind": "paragraph",
-              "text": "6.  Worse still,  /  an echo chamber may foster social division,  /  making collaboration  /  on common issues  /  challenging."
+              "text": "6.  Worse still,  /  an echo chamber may foster social division,  /  making collaboration on common issues challenging."
             },
             {
               "kind": "paragraph",
@@ -535,11 +535,11 @@
             },
             {
               "kind": "paragraph",
-              "text": "6.  1Worse still, / 2an echo chamber may foster social division, / 3making collaboration / 4on common issues / 5challenging."
+              "text": "6.  1Worse still, / 2an echo chamber may foster social division, / 3making collaboration on common issues challenging."
             },
             {
               "kind": "paragraph",
-              "text": "1더 나쁜 것은, / 2에코 챔버가 사회적 분열을 조장할 수도 있다는 것이다, / 3협력을 만들면서 / 4공통 문제들에 대한 / 5어렵게."
+              "text": "1더 나쁜 것은, / 2에코 챔버가 사회적 분열을 조장할 수도 있다는 것이다, / 3공통 문제들에 대한 협력을 어렵게 만들면서."
             },
             {
               "kind": "paragraph",
@@ -884,7 +884,7 @@
             },
             {
               "kind": "paragraph",
-              "text": "①  Uniform news sources help people understand reality more accurately."
+              "text": "①  An echo chamber originally refers to an enclosed space where sound returns as an echo."
             },
             {
               "kind": "paragraph",
@@ -896,11 +896,11 @@
             },
             {
               "kind": "paragraph",
-              "text": "④  Hearing only familiar opinions can expand our ability to debate."
+              "text": "④  Social media has expanded the ways in which people can access the news."
             },
             {
               "kind": "paragraph",
-              "text": "⑤  An echo chamber can encourage people to work together on common issues."
+              "text": "⑤  People should be encouraged to share their opinions freely on social media."
             },
             {
               "kind": "paragraph",
@@ -1041,7 +1041,7 @@
             },
             {
               "kind": "paragraph",
-              "text": "2.  밑줄 친 it doesn’t always mean that it is true가 다음 글에서 의미하는 바로 가장 적절한 것은?"
+              "text": "2.  밑줄 친 falling into this trap이 다음 글에서 의미하는 바로 가장 적절한 것은?"
             },
             {
               "kind": "paragraph",
@@ -1049,23 +1049,23 @@
             },
             {
               "kind": "paragraph",
-              "text": "①  Wishing that an idea is true does not make it a fact."
+              "text": "①  being surrounded only by views similar to your own"
             },
             {
               "kind": "paragraph",
-              "text": "②  Most information on social media turns out to be false."
+              "text": "②  believing every piece of information you find online"
             },
             {
               "kind": "paragraph",
-              "text": "③  You should never trust your own opinions."
+              "text": "③  arguing with people whose opinions differ from yours"
             },
             {
               "kind": "paragraph",
-              "text": "④  Something becomes true when many people agree with it."
+              "text": "④  losing interest in social issues that affect everyone"
             },
             {
               "kind": "paragraph",
-              "text": "⑤  New ideas are usually more accurate than old ones."
+              "text": "⑤  spreading false news without checking the facts"
             },
             {
               "kind": "paragraph",
@@ -1247,7 +1247,7 @@
             },
             {
               "kind": "paragraph",
-              "text": "①   Uniform news sources help people understand reality more accurately.   (획일적인 뉴스 출처는 사람들이 현실을 더 정확하게 이해하도록 돕는다.)"
+              "text": "①   An echo chamber originally refers to an enclosed space where sound returns as an echo.   (에코 챔버는 원래 소리가 메아리로 되돌아오는 밀폐된 공간을 가리킨다.)"
             },
             {
               "kind": "paragraph",
@@ -1259,11 +1259,11 @@
             },
             {
               "kind": "paragraph",
-              "text": "④   Hearing only familiar opinions can expand our ability to debate.   (익숙한 의견만 듣는 것은 우리의 토론 능력을 넓혀 줄 수 있다.)"
+              "text": "④   Social media has expanded the ways in which people can access the news.   (소셜 미디어는 사람들이 뉴스를 접하는 방법을 넓혔다.)"
             },
             {
               "kind": "paragraph",
-              "text": "⑤   An echo chamber can encourage people to work together on common issues.   (에코 챔버는 사람들이 공통 문제에 함께 협력하도록 촉진할 수 있다.)"
+              "text": "⑤   People should be encouraged to share their opinions freely on social media.   (사람들이 소셜 미디어에서 자유롭게 의견을 나누도록 장려해야 한다.)"
             },
             {
               "kind": "paragraph",
@@ -1271,7 +1271,7 @@
             },
             {
               "kind": "paragraph",
-              "text": "①   다양한 정보 출처를 적극적으로 찾으라고 했으므로 획일적인 뉴스 출처가 도움이 된다는 것은 반대 내용이다."
+              "text": "①   본문에 나온 사실이지만 용어의 뜻풀이일 뿐, 글이 말하려는 중심 내용이 아니다."
             },
             {
               "kind": "paragraph",
@@ -1279,11 +1279,11 @@
             },
             {
               "kind": "paragraph",
-              "text": "④   에코 챔버는 비판적으로 생각하고 토론에 참여하는 능력을 제한할 수 있다고 했으므로 반대 내용이다."
+              "text": "④   본문은 사람들이 인터넷과 소셜 미디어로 뉴스를 접한다고 했을 뿐, 뉴스 접근 방법이 넓어졌다는 내용은 없고 요지도 아니다."
             },
             {
               "kind": "paragraph",
-              "text": "⑤   에코 챔버는 사회적 분열을 조장해 공통 문제에 대한 협력을 어렵게 만든다고 했으므로 반대 내용이다."
+              "text": "⑤   의견을 자유롭게 나누도록 장려하라는 내용은 본문에 없다. 글은 다양한 견해를 찾으라고 했다."
             },
             {
               "kind": "paragraph",
@@ -1368,11 +1368,11 @@
             },
             {
               "kind": "paragraph",
-              "text": "Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true."
+              "text": "Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. / To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views."
             },
             {
               "kind": "paragraph",
-              "text": "밑줄 친 부분은 어떤 것이 사실이기를 정말로 원하더라도 그렇다고 그것이 항상 사실인 것은 아니라는 뜻이다. 이는 바로 앞 문장에서 받은 정보를 확인하고 새로운 생각을 논의할 때 열린 마음을 유지하라고 한 이유가 된다. 따라서 어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니라는 ①이 알맞다."
+              "text": "밑줄 친 ‘이 함정에 빠지는 것’은 바로 앞 문장에서 사회적 분열까지 일으킨다고 한 에코 챔버에 갇히는 것을 가리킨다. 이를 피하려면 다양한 정보 출처를 찾고 다른 견해를 가진 사람들과 교류하라고 했으므로, 함정은 그 반대 상태, 곧 자신과 비슷한 견해에만 둘러싸이는 것이다. 따라서 ①이 알맞다."
             },
             {
               "kind": "paragraph",
@@ -1380,23 +1380,23 @@
             },
             {
               "kind": "paragraph",
-              "text": "①   Wishing that an idea is true does not make it a fact.   (어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니다.)"
+              "text": "①   being surrounded only by views similar to your own   (자신과 비슷한 견해에만 둘러싸이는 것)"
             },
             {
               "kind": "paragraph",
-              "text": "②   Most information on social media turns out to be false.   (소셜 미디어의 정보 대부분은 거짓으로 드러난다.)"
+              "text": "②   believing every piece of information you find online   (온라인에서 찾은 모든 정보를 믿는 것)"
             },
             {
               "kind": "paragraph",
-              "text": "③   You should never trust your own opinions.   (자신의 의견은 절대 믿어서는 안 된다.)"
+              "text": "③   arguing with people whose opinions differ from yours   (자신과 의견이 다른 사람들과 다투는 것)"
             },
             {
               "kind": "paragraph",
-              "text": "④   Something becomes true when many people agree with it.   (많은 사람이 동의하면 어떤 것이 사실이 된다.)"
+              "text": "④   losing interest in social issues that affect everyone   (모두에게 영향을 미치는 사회 문제에 관심을 잃는 것)"
             },
             {
               "kind": "paragraph",
-              "text": "⑤   New ideas are usually more accurate than old ones.   (새로운 생각이 대개 옛 생각보다 더 정확하다.)"
+              "text": "⑤   spreading false news without checking the facts   (사실을 확인하지 않고 거짓 뉴스를 퍼뜨리는 것)"
             },
             {
               "kind": "paragraph",
@@ -1404,19 +1404,19 @@
             },
             {
               "kind": "paragraph",
-              "text": "②   소셜 미디어 정보의 대부분이 거짓이라는 내용은 없으며, 받은 정보를 확인하라고 했을 뿐이다."
+              "text": "②   받은 정보를 확인하라는 말은 있지만, 글이 말하는 함정은 온라인 정보를 다 믿는 것이 아니라 에코 챔버에 갇히는 것이다."
             },
             {
               "kind": "paragraph",
-              "text": "③   자신의 의견을 절대 믿지 말라는 것이 아니라, 바란다고 해서 늘 사실은 아니니 정보를 확인하고 열린 마음을 가지라는 뜻이다."
+              "text": "③   다른 견해를 가진 사람들과 교류하라고 했을 뿐, 그들과 다투는 것을 함정이라고 하지 않았다."
             },
             {
               "kind": "paragraph",
-              "text": "④   많은 사람이 동의하면 사실이 된다는 내용은 본문에 없다."
+              "text": "④   에코 챔버가 공통 문제에 대한 협력을 어렵게 만든다고 했을 뿐, 사회 문제에 관심을 잃는 것이 함정은 아니다."
             },
             {
               "kind": "paragraph",
-              "text": "⑤   새로운 생각이 옛 생각보다 정확하다는 비교는 없고, 새로운 생각을 논의할 때 열린 마음을 유지하라고 했을 뿐이다."
+              "text": "⑤   거짓 뉴스를 퍼뜨리는 내용은 본문에 없다."
             },
             {
               "kind": "paragraph",

@@ -74,7 +74,7 @@ The term “echo chamber” / is also used / to describe any situation / in whic
 [S/V] S: The term “echo chamber”, V: is used ／ [in which] S′: you, V′: hear ／ [(that)] S′: you, V′: agree
 [각주]
 term — 용어 / ★ echo chamber — 에코 챔버, 반향실 / be p.p. — ~되다 / also — 또한 / used — 사용된 / to V — ~하기 위해 / describe — 설명하다, 묘사하다 / any — 어떤 ~이든, 모든 / situation — 상황 / in which S′ V′ — S′(이/가) V′하는 (관계대명사) / only — 오직, ~만 / hear — 듣다 / opinions — 의견들 / already — 이미 / agree with A — A에 동의하다
-[구조 힌트] any situation [in which you only hear] → [당신[독자]이 듣기만 하는] 모든 상황 (전치사 + 관계대명사 in which)
+[구조 힌트] any situation [in which you only hear] → [당신[독자]이 ~만 듣는] 모든 상황 (전치사 + 관계대명사 in which)
 [구조 힌트] opinions [(that) you already agree with] → [당신[독자]이 이미 동의하는] 의견들 (목적격 관계대명사 that 생략)
 [분석 끊어읽기 영어]
 The term “echo chamber” / is also used / to describe any situation / in which you only hear opinions / you already agree with.
@@ -107,15 +107,15 @@ This can distort your understanding / of reality, / and limit your ability / to 
 [원문]
 Worse still, an echo chamber may foster social division, making collaboration on common issues challenging.
 [혼공 끊어읽기]
-Worse still, / an echo chamber may foster social division, / making collaboration / on common issues / challenging.
+Worse still, / an echo chamber may foster social division, / making collaboration on common issues challenging.
 [S/V] S: an echo chamber, V: may foster
 [각주]
 worse still — 더 나쁜 것은, 설상가상으로 / ★ echo chamber — 에코 챔버, 반향실 / may V — ~할 수도 있다 / foster — 조장하다, 키우다 / social — 사회적인 / division — 분열 / V-ing — ~하면서 / make A B — A를 B하게 만들다 / ★ collaboration — 협력, 공동 작업 / on — ~에 대한 / common — 공통의 / issues — 문제들, 쟁점들 / challenging — 어려운, 힘든
 [구조 힌트] making collaboration on common issues [challenging] → 공통 문제들에 대한 협력을 [어렵게] 만들면서 (make A B 구문)
 [분석 끊어읽기 영어]
-Worse still, / an echo chamber may foster social division, / making collaboration / on common issues / challenging.
+Worse still, / an echo chamber may foster social division, / making collaboration on common issues challenging.
 [분석 끊어읽기 한국어]
-더 나쁜 것은, / 에코 챔버가 사회적 분열을 조장할 수도 있다는 것이다, / 협력을 만들면서 / 공통 문제들에 대한 / 어렵게.
+더 나쁜 것은, / 에코 챔버가 사회적 분열을 조장할 수도 있다는 것이다, / 공통 문제들에 대한 협력을 어렵게 만들면서.
 [자연 해석]
 더 나쁜 것은, 에코 챔버가 공통 문제에 대한 협력을 어렵게 만들면서 사회적 분열을 조장할 수도 있다는 것이다.
 ----- [/문장 6] -----

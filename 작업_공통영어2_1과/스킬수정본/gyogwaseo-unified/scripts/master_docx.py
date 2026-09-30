@@ -299,8 +299,11 @@ class RoleBank:
                 if offset % 2 == 0:
                     value = f'{item_index + 1}. {entries[item_index]}' if item_index < len(entries) else ''
                     cell.append(self.paragraph('workbook_word_cell', [{'run': 0, 'text': value}]))
-                else:
+                elif item_index < len(entries):
                     cell.append(self.paragraph('workbook_word_answer_space'))
+                else:
+                    # Odd count: the unused answer cell stays fully empty (no answer underline).
+                    cell.append(self.paragraph('workbook_word_cell', [{'run': 0, 'text': ''}]))
             result.append(row)
         return result
 

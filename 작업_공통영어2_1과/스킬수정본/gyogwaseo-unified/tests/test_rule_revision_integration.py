@@ -92,6 +92,17 @@ class RuleRevisionIntegrationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'shared-passage group'):
             compile_plan(data)
 
+    def test_word_observed_answer_page_break_keeps_one_explanation_together(self):
+        data=fixture();data['layout_adjustments']=[{'kind':'question_page_break','block_id':'answers/mock1',
+            'before_anchor':'answer/mock1-3','content_sha256':content_hash(data),'renderer':'Microsoft Word',
+            'observed_page':9,'reason':'Synthetic observation record for adapter test only.'}]
+        plan=compile_plan(data)
+        a=next(e for b in plan['blocks'] for e in b['elements'] if e.get('anchor')=='answer/mock1-3')
+        self.assertTrue(a['page_break_before']);self.assertEqual(a['role'],'question_answer')
+        data['layout_adjustments'][0]['block_id']='mock1'
+        with self.assertRaisesRegex(ValueError,'noninitial content anchor|answers block'):
+            compile_plan(data)
+
     def test_explicit_word_observed_shared_passage_page_break_still_overrides_default_flow(self):
         data=fixture();data['layout_adjustments']=[{'kind':'question_page_break','block_id':'mock1',
             'before_anchor':'passage_group/mock1-long','content_sha256':content_hash(data),'renderer':'Microsoft Word',

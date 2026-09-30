@@ -164,11 +164,11 @@ def sentences(T):
     s.g('opinions', 'opinions', '의견들')
     s.g('already', 'already', '이미')
     s.g('agree|with', 'agree with A', 'A에 동의하다')
-    s.hint('any situation [in which you only hear]', '[당신[독자]이 듣기만 하는] 모든 상황',
+    s.hint('any situation [in which you only hear]', '[당신[독자]이 ~만 듣는] 모든 상황',
            span='any situation in which you only hear', label='전치사 + 관계대명사 in which',
            links=[(['in which'], ['이', '는'])], refs=[('you', '당신', '[독자]')],
-           meaning='당신[독자]이 (의견들을) 듣기만 하는 모든 상황',
-           explanation='선행사 any situation을 in which(그 상황 안에서)가 받아 you only hear opinions …가 꾸민다. S′ you, V′ hear까지 표시하고 부사 only는 보존, 목적어 opinions 이하는 제외. only는 뒤의 opinions를 한정하지만(u1-gp2) 절 연결 힌트는 목적어를 표시하지 않아 한국어에서 ‘듣기만 하는’으로 옮김(L재검수 R-01 판단 기록).')
+           meaning='당신[독자]이 (의견들)만 듣는 모든 상황',
+           explanation='선행사 any situation을 in which(그 상황 안에서)가 받아 you only hear opinions …가 꾸민다. S′ you, V′ hear까지 표시하고 부사 only는 보존, 목적어 opinions 이하는 제외. only는 뒤의 opinions를 한정하지만(u1-gp2) 절 연결 힌트는 목적어를 표시하지 않아 한국어에서 ‘~만 듣는’으로 옮김(2026-09-30 검수 반영 A2: 이전 ‘듣기만 하는’은 only의 범위를 동사로 오해하게 해 교체).')
     s.hint('opinions [(that) you already agree with]', '[당신[독자]이 이미 동의하는] 의견들',
            span='opinions you already agree with', label='목적격 관계대명사 that 생략', display_mode='omitted-relative',
            omitted_relative='that', links=[(['that'], ['이', '는'])], refs=[('you', '당신', '[독자]')],
@@ -219,9 +219,7 @@ def sentences(T):
     s = S('s06', T['s06'])
     s.ch('Worse still,', '더 나쁜 것은,')
     s.ch('an echo chamber may foster social division,', '에코 챔버가 사회적 분열을 조장할 수도 있다는 것이다,')
-    s.ch('making collaboration', '협력을 만들면서')
-    s.ch('on common issues', '공통 문제들에 대한')
-    s.ch('challenging.', '어렵게.')
+    s.ch('making collaboration on common issues challenging.', '공통 문제들에 대한 협력을 어렵게 만들면서.')
     s.natural('더 나쁜 것은, 에코 챔버가 공통 문제에 대한 협력을 어렵게 만들면서 사회적 분열을 조장할 수도 있다는 것이다.')
     s.cl('main', 'an', subj='an echo chamber', verbs=['may', 'foster'])
     s.g('Worse|still', 'worse still', '더 나쁜 것은, 설상가상으로')
@@ -241,14 +239,14 @@ def sentences(T):
     s.g('common', 'common', '공통의')
     s.g('issues', 'issues', '문제들, 쟁점들')
     s.g('challenging', 'challenging', '어려운, 힘든')
-    s.brk('on', 'postnominal-preposition', 'on common issues는 앞 명사 collaboration을 뒤에서 꾸미는 전치사구')
     s.hint('making collaboration on common issues [challenging]', '공통 문제들에 대한 협력을 [어렵게] 만들면서',
            span='making collaboration on common issues challenging', label='make A B 구문',
            links=[(['making'], ['을', '게'])], emphasis_policy='ko-only-verb-construction',
            meaning='공통 문제들에 대한 협력을 어렵게 만들면서',
            explanation='콤마 뒤 분사구 making …이 앞 내용과 함께 일어나는 결과를 ‘~하면서’로 덧붙인다. make A B: A를 B하게 만들다. A=collaboration on common issues, B=challenging(형용사).')
     s.review = ('문두 Worse still(더 나쁜 것은) + 주절 an echo chamber may foster social division + 콤마 뒤 분사구 making A B(A=collaboration on common issues, B=challenging). '
-                'on common issues 앞 후치수식 경계. 힌트 1개(분사구 속 make A B). 수동 없음.')
+                '2026-09-30 검수 반영 A3(사용자 선택 “이번 교재만 예외로 합치기”): make A B의 A 안 후치수식(collaboration on common issues) 앞 경계를 두지 않고 making … challenging을 한 청크로 합침(6낱말). '
+                '스킬 규칙(명사 후치수식 전치사구 앞 필수 경계)의 이 교재 한정 예외이며 스킬 규칙은 바꾸지 않음. 힌트 1개(분사구 속 make A B). 수동 없음.')
     out.append(s)
 
     # ---------------- s07 ----------------

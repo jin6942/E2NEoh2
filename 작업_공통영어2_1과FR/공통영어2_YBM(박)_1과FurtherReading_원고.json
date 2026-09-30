@@ -2402,12 +2402,12 @@
       49,
       85
      ],
-     "meaning_ko": "당신[독자]이 (의견들을) 듣기만 하는 모든 상황",
-     "explanation": "선행사 any situation을 in which(그 상황 안에서)가 받아 you only hear opinions …가 꾸민다. S′ you, V′ hear까지 표시하고 부사 only는 보존, 목적어 opinions 이하는 제외. only는 뒤의 opinions를 한정하지만(u1-gp2) 절 연결 힌트는 목적어를 표시하지 않아 한국어에서 ‘듣기만 하는’으로 옮김(L재검수 R-01 판단 기록).",
+     "meaning_ko": "당신[독자]이 (의견들)만 듣는 모든 상황",
+     "explanation": "선행사 any situation을 in which(그 상황 안에서)가 받아 you only hear opinions …가 꾸민다. S′ you, V′ hear까지 표시하고 부사 only는 보존, 목적어 opinions 이하는 제외. only는 뒤의 opinions를 한정하지만(u1-gp2) 절 연결 힌트는 목적어를 표시하지 않아 한국어에서 ‘~만 듣는’으로 옮김(2026-09-30 검수 반영 A2: 이전 ‘듣기만 하는’은 only의 범위를 동사로 오해하게 해 교체).",
      "display_pairs": [
       {
        "en": "any situation [in which you only hear]",
-       "ko": "[당신[독자]이 듣기만 하는] 모든 상황",
+       "ko": "[당신[독자]이 ~만 듣는] 모든 상황",
        "pronoun_refs": [
         {
          "en_span": [
@@ -2438,8 +2438,8 @@
            8
           ],
           [
-           14,
-           15
+           13,
+           14
           ]
          ]
         }
@@ -2997,18 +2997,8 @@
     },
     {
      "start": 57,
-     "end": 77,
-     "ko": "협력을 만들면서"
-    },
-    {
-     "start": 78,
-     "end": 94,
-     "ko": "공통 문제들에 대한"
-    },
-    {
-     "start": 95,
      "end": 107,
-     "ko": "어렵게."
+     "ko": "공통 문제들에 대한 협력을 어렵게 만들면서."
     }
    ],
    "natural_ko": "더 나쁜 것은, 에코 챔버가 공통 문제에 대한 협력을 어렵게 만들면서 사회적 분열을 조장할 수도 있다는 것이다.",
@@ -3378,14 +3368,8 @@
     }
    ],
    "reading_checks": {
-    "review_record": "문두 Worse still(더 나쁜 것은) + 주절 an echo chamber may foster social division + 콤마 뒤 분사구 making A B(A=collaboration on common issues, B=challenging). on common issues 앞 후치수식 경계. 힌트 1개(분사구 속 make A B). 수동 없음.",
-    "required_breaks": [
-     {
-      "at": 78,
-      "kind": "postnominal-preposition",
-      "reason": "on common issues는 앞 명사 collaboration을 뒤에서 꾸미는 전치사구"
-     }
-    ],
+    "review_record": "문두 Worse still(더 나쁜 것은) + 주절 an echo chamber may foster social division + 콤마 뒤 분사구 making A B(A=collaboration on common issues, B=challenging). 2026-09-30 검수 반영 A3(사용자 선택 “이번 교재만 예외로 합치기”): make A B의 A 안 후치수식(collaboration on common issues) 앞 경계를 두지 않고 making … challenging을 한 청크로 합침(6낱말). 스킬 규칙(명사 후치수식 전치사구 앞 필수 경계)의 이 교재 한정 예외이며 스킬 규칙은 바꾸지 않음. 힌트 1개(분사구 속 make A B). 수동 없음.",
+    "required_breaks": [],
     "protected_spans": [],
     "function_gloss_ids": [
      "s06-g03",
@@ -4942,7 +4926,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "Uniform news sources help people understand reality more accurately."
+      "text": "An echo chamber originally refers to an enclosed space where sound returns as an echo."
      },
      {
       "number": 2,
@@ -4954,25 +4938,15 @@
      },
      {
       "number": 4,
-      "text": "Hearing only familiar opinions can expand our ability to debate."
+      "text": "Social media has expanded the ways in which people can access the news."
      },
      {
       "number": 5,
-      "text": "An echo chamber can encourage people to work together on common issues."
+      "text": "People should be encouraged to share their opinions freely on social media."
      }
     ],
     "passage": "These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs. However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.” An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo. The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with. This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.",
     "learned_relation_uses": [
-     {
-      "term_id": "u1-r3a",
-      "choice_number": 1,
-      "choice_span": [
-       0,
-       7
-      ],
-      "surface": "Uniform",
-      "reason_ko": "uniform(획일적인)의 뜻을 알아야 다양한 정보 출처를 찾으라는 본문과 반대임을 판단할 수 있음"
-     },
      {
       "term_id": "u1-r3s",
       "choice_number": 2,
@@ -4997,21 +4971,21 @@
       "term_id": "u1-r1a",
       "choice_number": 4,
       "choice_span": [
-       35,
-       41
+       17,
+       25
       ],
-      "surface": "expand",
-      "reason_ko": "expand(넓히다)가 limit의 반대임을 알아야 에코 챔버가 능력을 제한한다는 본문과 어긋남을 판단할 수 있음"
+      "surface": "expanded",
+      "reason_ko": "expand(넓히다)의 뜻을 알아야 뉴스 접근 방법이 넓어졌다는 말이 본문에 없고 요지도 아님을 판단할 수 있음"
      },
      {
       "term_id": "u1-r2s",
       "choice_number": 5,
       "choice_span": [
-       20,
-       29
+       17,
+       27
       ],
-      "surface": "encourage",
-      "reason_ko": "encourage가 foster(조장하다, 키우다)와 같은 뜻임을 알아도, 에코 챔버가 조장하는 것은 협력이 아니라 사회적 분열임을 판단해야 함"
+      "surface": "encouraged",
+      "reason_ko": "encourage(장려하다)의 뜻을 알아야 의견을 자유롭게 나누도록 장려하라는 말이 본문에 없음을 판단할 수 있음"
      }
     ]
    },
@@ -5084,37 +5058,37 @@
     "set_id": "mock1",
     "number": 2,
     "type": "함축 의미",
-    "question": "밑줄 친 it doesn’t always mean that it is true가 다음 글에서 의미하는 바로 가장 적절한 것은?",
+    "question": "밑줄 친 falling into this trap이 다음 글에서 의미하는 바로 가장 적절한 것은?",
     "answer": 1,
     "choice_mode": "text",
     "choices": [
      {
       "number": 1,
-      "text": "Wishing that an idea is true does not make it a fact."
+      "text": "being surrounded only by views similar to your own"
      },
      {
       "number": 2,
-      "text": "Most information on social media turns out to be false."
+      "text": "believing every piece of information you find online"
      },
      {
       "number": 3,
-      "text": "You should never trust your own opinions."
+      "text": "arguing with people whose opinions differ from yours"
      },
      {
       "number": 4,
-      "text": "Something becomes true when many people agree with it."
+      "text": "losing interest in social issues that affect everyone"
      },
      {
       "number": 5,
-      "text": "New ideas are usually more accurate than old ones."
+      "text": "spreading false news without checking the facts"
      }
     ],
     "passage": "This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.",
-    "target": "it doesn’t always mean that it is true",
+    "target": "falling into this trap",
     "prompt_underlines": [
      [
       5,
-      43
+      27
      ]
     ]
    },
@@ -5186,7 +5160,7 @@
     "choices": [
      {
       "number": 1,
-      "text": "Uniform news sources help people understand reality more accurately."
+      "text": "An echo chamber originally refers to an enclosed space where sound returns as an echo."
      },
      {
       "number": 2,
@@ -5198,11 +5172,11 @@
      },
      {
       "number": 4,
-      "text": "Hearing only familiar opinions can expand our ability to debate."
+      "text": "Social media has expanded the ways in which people can access the news."
      },
      {
       "number": 5,
-      "text": "An echo chamber can encourage people to work together on common issues."
+      "text": "People should be encouraged to share their opinions freely on social media."
      }
     ],
     "answer": 2,
@@ -5211,7 +5185,7 @@
     "wrong_reasons": [
      {
       "number": 1,
-      "text": "다양한 정보 출처를 적극적으로 찾으라고 했으므로 획일적인 뉴스 출처가 도움이 된다는 것은 반대 내용이다."
+      "text": "본문에 나온 사실이지만 용어의 뜻풀이일 뿐, 글이 말하려는 중심 내용이 아니다."
      },
      {
       "number": 3,
@@ -5219,17 +5193,17 @@
      },
      {
       "number": 4,
-      "text": "에코 챔버는 비판적으로 생각하고 토론에 참여하는 능력을 제한할 수 있다고 했으므로 반대 내용이다."
+      "text": "본문은 사람들이 인터넷과 소셜 미디어로 뉴스를 접한다고 했을 뿐, 뉴스 접근 방법이 넓어졌다는 내용은 없고 요지도 아니다."
      },
      {
       "number": 5,
-      "text": "에코 챔버는 사회적 분열을 조장해 공통 문제에 대한 협력을 어렵게 만든다고 했으므로 반대 내용이다."
+      "text": "의견을 자유롭게 나누도록 장려하라는 내용은 본문에 없다. 글은 다양한 견해를 찾으라고 했다."
      }
     ],
     "choices_ko": [
      {
       "number": 1,
-      "text": "획일적인 뉴스 출처는 사람들이 현실을 더 정확하게 이해하도록 돕는다."
+      "text": "에코 챔버는 원래 소리가 메아리로 되돌아오는 밀폐된 공간을 가리킨다."
      },
      {
       "number": 2,
@@ -5241,11 +5215,11 @@
      },
      {
       "number": 4,
-      "text": "익숙한 의견만 듣는 것은 우리의 토론 능력을 넓혀 줄 수 있다."
+      "text": "소셜 미디어는 사람들이 뉴스를 접하는 방법을 넓혔다."
      },
      {
       "number": 5,
-      "text": "에코 챔버는 사람들이 공통 문제에 함께 협력하도록 촉진할 수 있다."
+      "text": "사람들이 소셜 미디어에서 자유롭게 의견을 나누도록 장려해야 한다."
      }
     ]
    },
@@ -5305,66 +5279,66 @@
     "choices": [
      {
       "number": 1,
-      "text": "Wishing that an idea is true does not make it a fact."
+      "text": "being surrounded only by views similar to your own"
      },
      {
       "number": 2,
-      "text": "Most information on social media turns out to be false."
+      "text": "believing every piece of information you find online"
      },
      {
       "number": 3,
-      "text": "You should never trust your own opinions."
+      "text": "arguing with people whose opinions differ from yours"
      },
      {
       "number": 4,
-      "text": "Something becomes true when many people agree with it."
+      "text": "losing interest in social issues that affect everyone"
      },
      {
       "number": 5,
-      "text": "New ideas are usually more accurate than old ones."
+      "text": "spreading false news without checking the facts"
      }
     ],
     "answer": 1,
-    "evidence": "Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.",
-    "explanation": "밑줄 친 부분은 어떤 것이 사실이기를 정말로 원하더라도 그렇다고 그것이 항상 사실인 것은 아니라는 뜻이다. 이는 바로 앞 문장에서 받은 정보를 확인하고 새로운 생각을 논의할 때 열린 마음을 유지하라고 한 이유가 된다. 따라서 어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니라는 ①이 알맞다.",
+    "evidence": "Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. / To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views.",
+    "explanation": "밑줄 친 ‘이 함정에 빠지는 것’은 바로 앞 문장에서 사회적 분열까지 일으킨다고 한 에코 챔버에 갇히는 것을 가리킨다. 이를 피하려면 다양한 정보 출처를 찾고 다른 견해를 가진 사람들과 교류하라고 했으므로, 함정은 그 반대 상태, 곧 자신과 비슷한 견해에만 둘러싸이는 것이다. 따라서 ①이 알맞다.",
     "wrong_reasons": [
      {
       "number": 2,
-      "text": "소셜 미디어 정보의 대부분이 거짓이라는 내용은 없으며, 받은 정보를 확인하라고 했을 뿐이다."
+      "text": "받은 정보를 확인하라는 말은 있지만, 글이 말하는 함정은 온라인 정보를 다 믿는 것이 아니라 에코 챔버에 갇히는 것이다."
      },
      {
       "number": 3,
-      "text": "자신의 의견을 절대 믿지 말라는 것이 아니라, 바란다고 해서 늘 사실은 아니니 정보를 확인하고 열린 마음을 가지라는 뜻이다."
+      "text": "다른 견해를 가진 사람들과 교류하라고 했을 뿐, 그들과 다투는 것을 함정이라고 하지 않았다."
      },
      {
       "number": 4,
-      "text": "많은 사람이 동의하면 사실이 된다는 내용은 본문에 없다."
+      "text": "에코 챔버가 공통 문제에 대한 협력을 어렵게 만든다고 했을 뿐, 사회 문제에 관심을 잃는 것이 함정은 아니다."
      },
      {
       "number": 5,
-      "text": "새로운 생각이 옛 생각보다 정확하다는 비교는 없고, 새로운 생각을 논의할 때 열린 마음을 유지하라고 했을 뿐이다."
+      "text": "거짓 뉴스를 퍼뜨리는 내용은 본문에 없다."
      }
     ],
     "choices_ko": [
      {
       "number": 1,
-      "text": "어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니다."
+      "text": "자신과 비슷한 견해에만 둘러싸이는 것"
      },
      {
       "number": 2,
-      "text": "소셜 미디어의 정보 대부분은 거짓으로 드러난다."
+      "text": "온라인에서 찾은 모든 정보를 믿는 것"
      },
      {
       "number": 3,
-      "text": "자신의 의견은 절대 믿어서는 안 된다."
+      "text": "자신과 의견이 다른 사람들과 다투는 것"
      },
      {
       "number": 4,
-      "text": "많은 사람이 동의하면 어떤 것이 사실이 된다."
+      "text": "모두에게 영향을 미치는 사회 문제에 관심을 잃는 것"
      },
      {
       "number": 5,
-      "text": "새로운 생각이 대개 옛 생각보다 더 정확하다."
+      "text": "사실을 확인하지 않고 거짓 뉴스를 퍼뜨리는 것"
      }
     ]
    },
@@ -5502,8 +5476,8 @@
    "first_sentence": "s05",
    "last_sentence": "s09",
    "target_span": [
-    518,
-    556
+    242,
+    264
    ],
    "length_review": {
     "profile_id": "kr-hs-english-2026-3-6-9-v1",
@@ -5538,5 +5512,16 @@
  ],
  "set_labels": {
   "mock1": "미니 모의고사 1회"
- }
+ },
+ "layout_adjustments": [
+  {
+   "block_id": "answers/mock1",
+   "before_anchor": "answer/Q04",
+   "observed_page": 12,
+   "reason": "통합본 12쪽에서 시작한 미니 모의고사 1회 3번 해설(정답 근거·선지 해석)의 「오답 정리」 4줄만 13쪽으로 넘어감. 검수자 지시: 3번 해설 블록 전체를 한 쪽에 두고 12쪽 하단 여백은 허용. 작업 환경에 Word가 없어 LibreOffice 예비 렌더(A1~A6 내용 반영 뒤 통합본 13쪽)로 관찰함. Word 확인은 사용자에게 남김.",
+   "kind": "question_page_break",
+   "content_sha256": "575ba09624c2fd2565e2c7a43211d08e5c5eeeee03af50da0c78cbc1d3e61646",
+   "renderer": "Microsoft Word"
+  }
+ ]
 }

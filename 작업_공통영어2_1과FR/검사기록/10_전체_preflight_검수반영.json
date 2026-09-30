@@ -18,10 +18,58 @@
   },
   "diagnostic_counts": {
     "ERROR": 0,
-    "WARNING": 0,
+    "WARNING": 1,
     "INFO": 2
   },
   "diagnostics": [
+    {
+      "severity": "WARNING",
+      "code": "CHOICE_PASSAGE_OVERLAP",
+      "location": "assessment/questions/Q01/choices/1",
+      "message": "Review matching wording in context; proper names, necessary terms and justified repetition may remain.",
+      "question_id": "Q01",
+      "choice_number": 1,
+      "passage_location": "assessment/questions/Q01/passage",
+      "five_word_match_count": 3,
+      "examples": [
+        {
+          "choice_span": [
+            27,
+            54
+          ],
+          "passage_span": [
+            316,
+            343
+          ],
+          "phrase": "refers to an enclosed space",
+          "context": "an “echo chamber.” An echo chamber refers to an enclosed space where sound doesn’t leak out and r"
+        },
+        {
+          "choice_span": [
+            34,
+            60
+          ],
+          "passage_span": [
+            323,
+            349
+          ],
+          "phrase": "to an enclosed space where",
+          "context": "o chamber.” An echo chamber refers to an enclosed space where sound doesn’t leak out and returns"
+        },
+        {
+          "choice_span": [
+            37,
+            66
+          ],
+          "passage_span": [
+            326,
+            355
+          ],
+          "phrase": "an enclosed space where sound",
+          "context": "hamber.” An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an"
+        }
+      ]
+    },
     {
       "severity": "INFO",
       "code": "SET_ANSWER_DISTRIBUTION",
@@ -72,5 +120,5 @@
     "Grammar omissions, preposition grouping, meaning and correct-answer uniqueness require existing L/M/N review.",
     "No warning is an automatic edit, approval, or replacement for full final-artifact and release checks."
   ],
-  "input_sha256": "32408c576a2fac5a3baaf6484720f0e1ea4df2c376f40444147cd0fcdf684863"
+  "input_sha256": "5726e5452849368c57b24e10241edbae8f41660273d90f45217adfd8b0244076"
 }

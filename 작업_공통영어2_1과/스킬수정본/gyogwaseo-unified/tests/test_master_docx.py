@@ -102,6 +102,9 @@ class MasterTests(unittest.TestCase):
         text = ''.join(table.xpath('.//w:t/text()', namespaces=m.NS))
         self.assertIn('3. gamma', text)
         self.assertNotIn('4.', text)
+        last_cells = table.findall('w:tr', m.NS)[-1].findall('w:tc', m.NS)
+        self.assertEqual(len(last_cells[1].findall('.//w:pBdr', m.NS)), 1)
+        self.assertEqual(last_cells[3].findall('.//w:pBdr', m.NS), [])
 
     def test_guide_line_breaks_and_approved_edits_survive(self):
         first_index = str(self.bank.contract['roles']['guide_item_one']['locator']['zero_based_index'])

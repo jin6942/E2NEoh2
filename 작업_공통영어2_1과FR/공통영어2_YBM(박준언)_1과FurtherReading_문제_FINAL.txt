@@ -49,11 +49,11 @@ QUESTION:
 PASSAGE:
 These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs. However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.” An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo. The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with. This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.
 CHOICES:
-① Uniform news sources help people understand reality more accurately.
+① An echo chamber originally refers to an enclosed space where sound returns as an echo.
 ② To avoid an echo chamber, we should look for various views and stay open to new ideas.
 ③ Governments should restrict the spread of opinions on social media.
-④ Hearing only familiar opinions can expand our ability to debate.
-⑤ An echo chamber can encourage people to work together on common issues.
+④ Social media has expanded the ways in which people can access the news.
+⑤ People should be encouraged to share their opinions freely on social media.
 ANSWER:
 2
 EVIDENCE:
@@ -61,16 +61,16 @@ To avoid falling into this trap, you must actively seek diverse sources of infor
 EXPLANATION:
 글은 자신이 동의하는 의견만 듣는 에코 챔버가 현실 이해를 왜곡하고 사회적 분열을 조장할 수 있다고 설명한 뒤, 이를 피하려면 다양한 정보 출처와 다른 견해를 적극적으로 접하고 열린 마음을 유지하라고 한다. 따라서 ②가 요지다.
 WRONG_ANALYSIS:
-① 다양한 정보 출처를 적극적으로 찾으라고 했으므로 획일적인 뉴스 출처가 도움이 된다는 것은 반대 내용이다.
+① 본문에 나온 사실이지만 용어의 뜻풀이일 뿐, 글이 말하려는 중심 내용이 아니다.
 ③ 정부가 의견의 확산을 제한해야 한다는 내용은 본문에 없다.
-④ 에코 챔버는 비판적으로 생각하고 토론에 참여하는 능력을 제한할 수 있다고 했으므로 반대 내용이다.
-⑤ 에코 챔버는 사회적 분열을 조장해 공통 문제에 대한 협력을 어렵게 만든다고 했으므로 반대 내용이다.
+④ 본문은 사람들이 인터넷과 소셜 미디어로 뉴스를 접한다고 했을 뿐, 뉴스 접근 방법이 넓어졌다는 내용은 없고 요지도 아니다.
+⑤ 의견을 자유롭게 나누도록 장려하라는 내용은 본문에 없다. 글은 다양한 견해를 찾으라고 했다.
 CHOICES_KR:
-① 획일적인 뉴스 출처는 사람들이 현실을 더 정확하게 이해하도록 돕는다.
+① 에코 챔버는 원래 소리가 메아리로 되돌아오는 밀폐된 공간을 가리킨다.
 ② 에코 챔버를 피하려면 다양한 견해를 찾고 새로운 생각에 열려 있어야 한다.
 ③ 정부는 소셜 미디어에서 의견이 퍼지는 것을 제한해야 한다.
-④ 익숙한 의견만 듣는 것은 우리의 토론 능력을 넓혀 줄 수 있다.
-⑤ 에코 챔버는 사람들이 공통 문제에 함께 협력하도록 촉진할 수 있다.
+④ 소셜 미디어는 사람들이 뉴스를 접하는 방법을 넓혔다.
+⑤ 사람들이 소셜 미디어에서 자유롭게 의견을 나누도록 장려해야 한다.
 [/Q01]
 
 [4. 구문 결합해서 해석하기]
@@ -152,36 +152,36 @@ Further Reading · 원문 문장 5~9
 TYPE:
 함축 의미
 QUESTION:
-밑줄 친 it doesn’t always mean that it is true가 다음 글에서 의미하는 바로 가장 적절한 것은?
+밑줄 친 falling into this trap이 다음 글에서 의미하는 바로 가장 적절한 것은?
 PASSAGE:
 This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.
 TARGET:
-it doesn’t always mean that it is true
+falling into this trap
 PROMPT_UNDERLINES:
-[[5, 43]]
+[[5, 27]]
 CHOICES:
-① Wishing that an idea is true does not make it a fact.
-② Most information on social media turns out to be false.
-③ You should never trust your own opinions.
-④ Something becomes true when many people agree with it.
-⑤ New ideas are usually more accurate than old ones.
+① being surrounded only by views similar to your own
+② believing every piece of information you find online
+③ arguing with people whose opinions differ from yours
+④ losing interest in social issues that affect everyone
+⑤ spreading false news without checking the facts
 ANSWER:
 1
 EVIDENCE:
-Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.
+Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. / To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views.
 EXPLANATION:
-밑줄 친 부분은 어떤 것이 사실이기를 정말로 원하더라도 그렇다고 그것이 항상 사실인 것은 아니라는 뜻이다. 이는 바로 앞 문장에서 받은 정보를 확인하고 새로운 생각을 논의할 때 열린 마음을 유지하라고 한 이유가 된다. 따라서 어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니라는 ①이 알맞다.
+밑줄 친 ‘이 함정에 빠지는 것’은 바로 앞 문장에서 사회적 분열까지 일으킨다고 한 에코 챔버에 갇히는 것을 가리킨다. 이를 피하려면 다양한 정보 출처를 찾고 다른 견해를 가진 사람들과 교류하라고 했으므로, 함정은 그 반대 상태, 곧 자신과 비슷한 견해에만 둘러싸이는 것이다. 따라서 ①이 알맞다.
 WRONG_ANALYSIS:
-② 소셜 미디어 정보의 대부분이 거짓이라는 내용은 없으며, 받은 정보를 확인하라고 했을 뿐이다.
-③ 자신의 의견을 절대 믿지 말라는 것이 아니라, 바란다고 해서 늘 사실은 아니니 정보를 확인하고 열린 마음을 가지라는 뜻이다.
-④ 많은 사람이 동의하면 사실이 된다는 내용은 본문에 없다.
-⑤ 새로운 생각이 옛 생각보다 정확하다는 비교는 없고, 새로운 생각을 논의할 때 열린 마음을 유지하라고 했을 뿐이다.
+② 받은 정보를 확인하라는 말은 있지만, 글이 말하는 함정은 온라인 정보를 다 믿는 것이 아니라 에코 챔버에 갇히는 것이다.
+③ 다른 견해를 가진 사람들과 교류하라고 했을 뿐, 그들과 다투는 것을 함정이라고 하지 않았다.
+④ 에코 챔버가 공통 문제에 대한 협력을 어렵게 만든다고 했을 뿐, 사회 문제에 관심을 잃는 것이 함정은 아니다.
+⑤ 거짓 뉴스를 퍼뜨리는 내용은 본문에 없다.
 CHOICES_KR:
-① 어떤 생각이 사실이기를 바란다고 해서 그것이 사실이 되는 것은 아니다.
-② 소셜 미디어의 정보 대부분은 거짓으로 드러난다.
-③ 자신의 의견은 절대 믿어서는 안 된다.
-④ 많은 사람이 동의하면 어떤 것이 사실이 된다.
-⑤ 새로운 생각이 대개 옛 생각보다 더 정확하다.
+① 자신과 비슷한 견해에만 둘러싸이는 것
+② 온라인에서 찾은 모든 정보를 믿는 것
+③ 자신과 의견이 다른 사람들과 다투는 것
+④ 모두에게 영향을 미치는 사회 문제에 관심을 잃는 것
+⑤ 사실을 확인하지 않고 거짓 뉴스를 퍼뜨리는 것
 [/Q03]
 
 [Q04]

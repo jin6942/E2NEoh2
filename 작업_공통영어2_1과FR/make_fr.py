@@ -19,6 +19,14 @@ from author import find_word  # noqa: E402
 PDF = ROOT / '(2022개정)2025년_공통영어2_YBM(박준언)_1과_본문_(20250723수정).pdf'
 OUT = HERE / '공통영어2_YBM(박)_1과FurtherReading_원고.json'
 UNIT_MODULES = ['fr1']
+# 2026-09-30 검수 반영 A4(사용자 선택 “이번 문항만 새 쪽 시작”): 미니 모의고사 1회 3번 해설 블록을 한 쪽에 모음.
+# 스킬 question_page_break를 정답해설 블록(answer/문항ID)까지 넓힌 기능을 사용한다.
+ANSWER_PAGE_BREAKS = [
+    {'block_id': 'answers/mock1', 'before_anchor': 'answer/Q04', 'observed_page': 12,
+     'reason': ('통합본 12쪽에서 시작한 미니 모의고사 1회 3번 해설(정답 근거·선지 해석)의 「오답 정리」 4줄만 13쪽으로 넘어감. '
+                '검수자 지시: 3번 해설 블록 전체를 한 쪽에 두고 12쪽 하단 여백은 허용. '
+                '작업 환경에 Word가 없어 LibreOffice 예비 렌더(A1~A6 내용 반영 뒤 통합본 13쪽)로 관찰함. Word 확인은 사용자에게 남김.')},
+]
 
 
 def sha(path):
@@ -132,6 +140,10 @@ def main(scope='learning'):
         import assessment_fr
         assessment_fr.attach(data)
         data['set_labels'] = {'mock1': '미니 모의고사 1회'}
+        from book_plan import content_hash
+        revision = content_hash(data)
+        data['layout_adjustments'] = [dict(row, kind='question_page_break', content_sha256=revision,
+                                           renderer='Microsoft Word') for row in ANSWER_PAGE_BREAKS]
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding='utf-8')
     return data
 

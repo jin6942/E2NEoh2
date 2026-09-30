@@ -232,7 +232,7 @@ def question_elements(q, view, source_label, scope='mock', *, include_passage=Tr
 
 
 def explanation_elements(q, e):
-    els = [p('question_answer', [r(0, f'{q["number"]}.  '), r(1, CIRCLES[e['answer'] - 1])]),
+    els = [p('question_answer', [r(0, f'{q["number"]}.  '), r(1, CIRCLES[e['answer'] - 1])], anchor='answer/' + q['id']),
            p('choice_translation_heading', '정답 근거'),
            p('question_evidence', e['evidence']),
            p('question_explanation', e['explanation'], chain=False)]
@@ -580,8 +580,10 @@ def apply_continuations(data, blocks):
             raise ValueError('Continuation requires one existing noninitial content anchor')
         if kind == 'question_page_break':
             target = elements[positions[0]]
-            if not anchor.startswith(('question/', 'passage_group/')):
-                raise ValueError('Question page break requires a question or shared-passage anchor')
+            if not anchor.startswith(('question/', 'passage_group/', 'answer/')):
+                raise ValueError('Question page break requires a question, shared-passage or answer anchor')
+            if anchor.startswith('answer/') and not bid.startswith('answers/'):
+                raise ValueError('Answer page break belongs to an answers block')
             if anchor.startswith('question/'):
                 qid = anchor[len('question/'):]
                 question = next((q for q in data.get('assessment', {}).get('questions', []) if q['id'] == qid), {})

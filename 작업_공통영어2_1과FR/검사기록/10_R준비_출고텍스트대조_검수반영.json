@@ -3,13 +3,13 @@
   "type": "release_text_preflight",
   "status": "NOT_CERTIFIED",
   "bindings": {
-    "manuscript_sha256": "32408c576a2fac5a3baaf6484720f0e1ea4df2c376f40444147cd0fcdf684863",
-    "plan_sha256": "201ee86326393b915f315a7c06dc157d0c351974148e37b67c03ab562ee8597f",
-    "docx_sha256": "db39cb84c90b57c4c86244a55c5901bdfbaf5ad847210706fbe727c7772424ba",
-    "pdf_sha256": "50400bbcf031cc06e57cfdf13aab7d1a0cc063c299f9690049aaafbbad29b1a2",
-    "learning_final_sha256": "4606d8b1371659ca01a1fbc31c79d780be1239a0644582046e7785d98433933f",
-    "assessment_final_sha256": "728808800e8d97655a22f158b5eecf073a9e8e5850e1599d699df2db482cf7dc",
-    "package_sha256": "e0b7b4fa705941684a2cb746b809463bb0adb59a83032f6267306f07f1a0d853"
+    "manuscript_sha256": "5726e5452849368c57b24e10241edbae8f41660273d90f45217adfd8b0244076",
+    "plan_sha256": "0580d2a50d8ced1dbb79e9a037bf17f1ec02e6fe5c76fefc796591a6626a7396",
+    "docx_sha256": "134242524bf66671d93d1c0f66c651e1d3ad346c25789f6d98953372cb5652e2",
+    "pdf_sha256": "2d1e5eadbef8d79e630a57019accafe4805050711021f05d70922c86b266bf58",
+    "learning_final_sha256": "d6ec51d3f2558588ef9d5c5a8298b414e3edf5fe8e3541ba57229ddef177c64d",
+    "assessment_final_sha256": "5df35820f25f82eb301caecad708ee71adc151e3e3d4e66e74e3d3188c8dc4e5",
+    "package_sha256": "796366ef65c902b0331996a59e3262b32a6ca06b155ce43f5e2f2e9666228e4b"
   },
   "machine_status": "PASS",
   "errors": [],
@@ -38,7 +38,7 @@
       },
       {
         "page": 3,
-        "characters": 2430,
+        "characters": 2425,
         "fonts": [
           "DejaVuSans",
           "DejaVuSans-Bold",
@@ -58,7 +58,7 @@
       },
       {
         "page": 5,
-        "characters": 2731,
+        "characters": 2715,
         "fonts": [
           "DejaVuSans",
           "DejaVuSans-Bold",
@@ -82,7 +82,7 @@
       },
       {
         "page": 7,
-        "characters": 1894,
+        "characters": 1923,
         "fonts": [
           "DejaVuSans",
           "DejaVuSans-Bold",
@@ -105,7 +105,7 @@
       },
       {
         "page": 9,
-        "characters": 2530,
+        "characters": 2515,
         "fonts": [
           "DejaVuSans",
           "DejaVuSans-Bold",
@@ -127,7 +127,7 @@
       },
       {
         "page": 11,
-        "characters": 1770,
+        "characters": 1788,
         "fonts": [
           "DejaVuSans",
           "DejaVuSans-Bold",
@@ -138,7 +138,7 @@
       },
       {
         "page": 12,
-        "characters": 2353,
+        "characters": 1876,
         "fonts": [
           "DejaVuSans",
           "DejaVuSans-Bold",
@@ -148,7 +148,7 @@
       },
       {
         "page": 13,
-        "characters": 319,
+        "characters": 812,
         "fonts": [
           "DejaVuSans",
           "DejaVuSans-Bold",
@@ -167,8 +167,8 @@
     "footer_policy": "Only actual DOCX footer patterns near page foot excluded; no body crop",
     "normalized_text_equal": true,
     "normalization": "Whitespace including NBSP and invisible joiners in the exact approved ★핵심 marker only; no spelling, glyph or punctuation substitutions",
-    "expected_characters": 16864,
-    "observed_characters": 16864
+    "expected_characters": 16911,
+    "observed_characters": 16911
   },
   "independent_review": "NOT_PERFORMED",
   "visual_review": "NOT_PERFORMED",
