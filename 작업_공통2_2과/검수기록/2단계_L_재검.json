@@ -1,0 +1,446 @@
+{
+ "reviewer": "L-재검",
+ "independent": true,
+ "inputs_checked": [
+  "검수기록/2단계_L_a_u1.json, 2단계_L_b_u2.json, 2단계_L_c_u3u4.json, 2단계_L_d_u5.json 전체(지적 68건과 user_report_items)",
+  "검수기록/2단계_L_반영결정.json 전체(사용자 결정 4건, 제작팀 자체 결정 5건, 68건별 결정)",
+  "검수입력/L재검_변경분.json: changes 195개 경로의 before/after 전수 대조, selected_data의 현재 units u1~u5(today_words·analysis 전체)와 바뀐 문장 s06·s07·s12·s16·s17·s20·s29~s37·s39·s45·s46·s50·s52·s53·s55·s56·s58·s61·s62·s65·s70~s72·s74의 chunks·natural_ko·clauses·glosses·lexical_coverage·hints·reading_checks",
+  "전 문장 기계 대조(스크립트): 청크 재결합·경계, 한국어 청크 비어 있음 여부, emphasis_links 범위의 괄호·공백 포함 여부, lexical_coverage의 모든 영어 낱말 포함과 gloss_id↔spans 일치 — 이상 없음",
+  "바뀐 힌트와 전 힌트의 emphasis_links·pronoun_refs를 표시 문자열 기준 [start,end)로 직접 계산해 실제 강조 글자 확인",
+  "공통영어2_YBM(박준언)_UNIT02_QC_HANDOFF.txt: s06·s07·s35·s45·s46·s50·s63·s70·s72 표시와 u2·u3 분석부(유반·구문으로 해석하기) 학생용 형태 확인",
+  "assessment_data.py Q02·Q03의 uses 항목(유반 세트 연결)만 참고로 확인"
+ ],
+ "rules_read": [
+  "스킬수정본/gyogwaseo-unified/SKILL.md",
+  "references/editorial-core.md ‘해석·S/V·각주·구조 힌트’",
+  "references/analysis-content.md ‘끊어읽기’, ‘구조 힌트’(대명사와 지칭 대상, 문법 대응 강조), ‘직역과 자연 해석’, ‘공통 학습 단위별 지문분석’, ‘각 문장 쉬운 풀이’·체크리스트",
+  "references/gloss-rules.md 전체(기본 형식과 순서, 실제 형태와 활용형, 기능 공식·낱말, 숙어·구문과 전치사, 대명사, 금지와 검수, 각주 ★)",
+  "references/grammar-labels.md",
+  "references/preposition-meanings.md(기능어 한 뜻 기준 참조)",
+  "references/proper-nouns.md",
+  "references/common-errors.md 1~10",
+  "references/workbook.md ‘1. 오늘의 낱말’",
+  "references/manuscript-data.md ‘문장 주석’, ‘구조 힌트의 대명사 참조’, ‘공통 단위’, ‘분석·워크북 구문 결합 연습 계약’",
+  "references/approved-exceptions.md 맨 끝 ‘공통영어2 YBM(박준언) 2과’ 두 절"
+ ],
+ "finding_checks": [
+  {
+   "id": "La-01",
+   "status": "resolved",
+   "note": "s07 청크 3·4를 합쳐 영 3조각(This is / what … drought / ever since … “drought.”)↔한 3조각. get tired of가 한 청크 안에 있고 protected_spans [70,82] fixed-expression(gloss s07-g09)이 실제 ‘got tired of’를 가리킴. 재결합·조각 수 정상."
+  },
+  {
+   "id": "La-02",
+   "status": "resolved",
+   "note": "s16-g06 ‘in — ~에 서 있는’(괄호 없음), 청크 ‘계산대 줄에 서 있는’과 대입 일치."
+  },
+  {
+   "id": "La-03",
+   "status": "resolved",
+   "note": "청크 2 ‘언론이 가뭄을 가리켜 계속 불러 온 것이다’, u1-gp2 설명·practice.answer_ko도 같은 문구로 맞춤. 힌트([언론이 계속 불러 온 것], A 제외)·자연 해석은 그대로라 모순 없음."
+  },
+  {
+   "id": "La-04",
+   "status": "resolved",
+   "note": "직접 계산: s07 힌트2 KO ‘[사람들이 싫증이 난 이후로 줄곧]’ [4,5]=‘이’, [10,18]=‘난 이후로 줄곧’. s12 KO ‘[우리[Alyssa 일행]가 들어설 때]’ [14,15]=‘가’, [18,21]=‘설 때’. 제안대로. 다만 같은 기준이 다른 단위에 적용되지 않아 LR-04로 따로 올림."
+  },
+  {
+   "id": "La-05",
+   "status": "resolved",
+   "note": "anchor — (뉴스) 앵커, 진행자 (흔한 뜻: 닻)."
+  },
+  {
+   "id": "La-06",
+   "status": "resolved",
+   "note": "s06-g11 flow crisis에 ★·today_word_id u1-w2. 오늘의 낱말 u1-w2의 source_gloss_id가 s08-g02에서 s06-g11(첫 ★ 등장)로 바뀌었으나 학생용 표기(crisis — 위기)와 s08-g02 ★는 그대로라 문제 없음."
+  },
+  {
+   "id": "La-07",
+   "status": "resolved",
+   "note": "s17 자연 해석 ‘삶에 꼭 필요한 것들이다.’ 중복 해소."
+  },
+  {
+   "id": "La-08",
+   "status": "resolved",
+   "note": "u1 의도: ‘Alyssa와 남동생이 삼촌과 함께’, ‘전자 제품 대신 주로 생수’로 수정. 흐름(대부분 생수)과 일치."
+  },
+  {
+   "id": "La-09",
+   "status": "resolved",
+   "note": "u1 쉬운 풀이 7번 둘째 문장 ‘사람들은 ‘가뭄’이라는 말을 너무 자주 들어서 이제 그 말을 듣는 것에 지쳐 버렸다.’ 제안문 그대로."
+  },
+  {
+   "id": "La-10",
+   "status": "resolved",
+   "note": "u1 쉬운 풀이 15번 ‘텔레비전이나 비디오 게임’으로 수정, 각주·청크와 일치."
+  },
+  {
+   "id": "Lb-01",
+   "status": "resolved",
+   "note": "s20-g04 ‘be p.p. — ~되어 있다’. 힌트 ‘stretched(늘어난) → is stretched(늘어나 있다)’의 is↔있다 강조([0,2]↔[4,6])와 청크 ‘늘어나 있다’에 대응. 같은 기준을 s65에 적용하지 않은 점은 LR-03."
+  },
+  {
+   "id": "Lb-02",
+   "status": "resolved",
+   "note": "s29 한국어 청크 ‘“미안해요, / 하지만 우리가 여기에 먼저 있었어요,” / 그녀가 말한다.’ but↔하지만 대응, 3=3."
+  },
+  {
+   "id": "Lb-03",
+   "status": "resolved",
+   "note": "s33-g06 ‘at — ~ 때’ 한 뜻."
+  },
+  {
+   "id": "Lb-04",
+   "status": "resolved",
+   "note": "사용자 결정(then 유지)대로 S/V ‘V: looks then turns’ 유지, approved-exceptions.md 2과 추가 절에 s35·s70 기록, s35 review_record에 승인 예외 명시. QC 649행 확인."
+  },
+  {
+   "id": "Lb-05",
+   "status": "resolved",
+   "note": "s36-g10 referent ‘얼굴의 붉은 기’, 힌트 KO ‘[그것[얼굴의 붉은 기]이 짙은 홍조가 되기 전에]’. pronoun_refs: [1,3]=‘그것’, [3,13]=‘[얼굴의 붉은 기]’. emphasis [13,14]=‘이’, [23,27]=‘기 전에’. meaning_ko·explanation도 통일."
+  },
+  {
+   "id": "Lb-06",
+   "status": "resolved",
+   "note": "u2 쉬운 풀이 36번이 제안 5문장 그대로(연결→사실→거절→추측은 ‘~을 것이다’로 완화→돌아선다). ‘서둘러’·‘때문이다’ 단정 제거."
+  },
+  {
+   "id": "Lb-07",
+   "status": "resolved",
+   "note": "사용자 결정(연결동사 최소 보어 표시)대로 s07·s36 현행 유지, 두 힌트 explanation에 결정 기록, approved-exceptions.md에 대상 s07·s36 기록. 같은 처리의 s74는 목록에 없어 LR-05."
+  },
+  {
+   "id": "Lb-08",
+   "status": "resolved",
+   "note": "u2-gp3 설명에서 ‘find A p.p.’ 공식 제거, ‘find 뒤 내용 = it pulled away(…)’로 V 자리 대입만 남김. practice 그대로."
+  },
+  {
+   "id": "Lb-09",
+   "status": "resolved",
+   "note": "s34 청크 2 ‘그리고 나와 몇 병을 나눌 수 있을 거야.”’ 괄호 제거."
+  },
+  {
+   "id": "Lb-10",
+   "status": "resolved",
+   "note": "soccer — 축구부 (흔한 뜻: 축구)."
+  },
+  {
+   "id": "Lb-11",
+   "status": "resolved",
+   "note": "s31 청크 ‘Hali는 나 쪽으로 더 가까이 몸을 기울인다.’ 각주 to — ~쪽으로 / me — 나와 대입 일치."
+  },
+  {
+   "id": "Lb-12",
+   "status": "resolved",
+   "note": "s32 자연 해석 ‘“그 일은 미안해, Alyssa.”’"
+  },
+  {
+   "id": "Lb-13",
+   "status": "resolved",
+   "note": "u2 쉬운 풀이 28번을 ‘왕관은 … 떠올리게 한다 / 물이 그만큼 귀한 것이 되었다는 뜻이다 / 여자는 그 보물을 손에 넣은 사람처럼 보인다’로 분리, ‘자랑스럽게’ 삭제."
+  },
+  {
+   "id": "Lb-14",
+   "status": "resolved",
+   "note": "유반 empty(비어 있는) / bare(텅 빈, 아무것도 없는) / full(가득 찬). ‘The shelves are already bare’ 대입 가능, 품사(형용사)·뜻 일치. Q02의 u2-r1a full 사용과도 충돌 없음."
+  },
+  {
+   "id": "Lb-15",
+   "status": "resolved",
+   "note": "u2 의도 제안문 그대로(겉으로는 예의·속으로는 적대감, 마지막 순간에 가로챈 여자)."
+  },
+  {
+   "id": "Lb-16",
+   "status": "resolved",
+   "note": "s36-g05 spans에 the [38,41] 추가, lexical_coverage 해당 행 gloss_id s36-g05로 변경. 학생용 출력 변화 없음."
+  },
+  {
+   "id": "Lc-01",
+   "status": "resolved",
+   "note": "변형 반영 적합: s37-g07 ‘frozen — 냉동식품(의)’은 ‘냉동식품(의) 통로에서’로 대입되어 u3-gp1 정답 ‘냉동식품 통로에서’를 도움말로 만들 수 있음. 뜻이 오늘의 낱말(냉동된, 얼린)과 달라 ★ 제거하고 u3-w1 source를 같은 뜻의 s39-g03(★)으로 옮긴 것은 ‘★는 의미가 같은 등장과 대조’(manuscript-data.md) 기준에 맞음. review_record에 사유 기록."
+  },
+  {
+   "id": "Lc-02",
+   "status": "resolved",
+   "note": "s39-g07 ‘(냉동) 진열장 (흔한 뜻: 경우)’, u3-w2 ‘(냉동) 진열장’. ‘유리문’ 추측 제거."
+  },
+  {
+   "id": "Lc-03",
+   "status": "resolved",
+   "note": "s45 청크 1 ‘Garrett과 나는 얼음 봉지를 하나씩 차례로 넣는다’, 4=4."
+  },
+  {
+   "id": "Lc-04",
+   "status": "resolved",
+   "note": "s45 힌트2 KO ‘[그것[카트]이 될 수 있는 만큼 높이]’ ko_spans [7,8]=‘이’, [16,18]=‘만큼’. en [1,3]·[9,11]=as·as."
+  },
+  {
+   "id": "Lc-05",
+   "status": "resolved",
+   "note": "u3-gp4 설명을 ‘카트(it)가 무언가를 쌓는 것이 아니라, 두 사람이 얼음을 쌓아서 카트가 (얼음으로) 가득 쌓이는 쪽이라 수동’으로 수정해 수동 주어와 설명 주체 일치. 제목·answer_ko(그것(카트)이 가득 쌓인다)도 새 뜻에 맞춤."
+  },
+  {
+   "id": "Lc-06",
+   "status": "partially",
+   "note": "각주 부분은 B안으로 해결: take — 하다 (taken은 take의 p.p.형) / ★ notice — 주목, 알아챔. have p.p.(~했다)와 결합하면 ‘주목을 했다(=주목했다)’, 둘째 뜻으로는 ‘알아챔을 했다→알아챘다’가 되어 청크 ‘다른 사람들이 알아챘다’와 통함. take notice는 ‘주목하다/알아채다’ 뜻이라 ‘주목을 했다’는 타당하다. 비승인 괄호 (take notice: 알아차리다)는 삭제됐고, 오늘의 낱말도 notice라 ★ 위치 문제가 해소됨. 남은 것: ① 같은 단위 u3-gp5 설명이 아직 ‘taken(take의 p.p.형; take notice = 알아차리다)’로 옛 숙어 각주 기준의 대입을 보여 주어 새 도움말(take — 하다, notice — 주목, 알아챔)과 맞지 않음(LR-01). ② take — 하다에 흔한 뜻 병기가 빠짐(LR-02)."
+  },
+  {
+   "id": "Lc-07",
+   "status": "resolved",
+   "note": "B안 적용: u3-w7 ‘notice — 주목, 알아챔’, source s46-g06(★), 유반 표제어 notice(주목, 알아챔)와 뜻·순서 일치. 명사 선정이라 p.p. 실제형 유지 규칙과 무관."
+  },
+  {
+   "id": "Lc-08",
+   "status": "resolved",
+   "note": "u3-w5 ‘piled — (짐이) 가득 쌓인’, ★ 각주 s45-g12와 같은 표제어·뜻(수동 p.p. 실제형 유지)."
+  },
+  {
+   "id": "Lc-09",
+   "status": "resolved",
+   "note": "s46-g09 ice case — 얼음 진열장에 ★·today_word_id u3-w2. review_record에 사유 기록."
+  },
+  {
+   "id": "Lc-10",
+   "status": "resolved",
+   "note": "u3 쉬운 풀이 45번이 제안 4문장 그대로. 주제어 ‘두 사람은’ 보완, 번역 반복 제거."
+  },
+  {
+   "id": "Lc-11",
+   "status": "resolved",
+   "note": "u3 쉬운 풀이 46번 ‘물이 부족하자 사람들이 얼음까지 서둘러 차지하려 한다는 것을 보여 준다.’"
+  },
+  {
+   "id": "Lc-12",
+   "status": "resolved",
+   "note": "유반 2세트 find(발견하다, 찾아내다) / discover(발견하다) / lose(잃어버리다). s37 ‘whom I find’ → ‘whom I discover’ 대입 가능, 모두 동사로 품사 일치, find↔lose는 사전상 반대 짝. Q03 ①(discovered, u3-r2s)도 새 세트와 연결되어 있음."
+  },
+  {
+   "id": "Lc-13",
+   "status": "resolved",
+   "note": "유의어를 note(주목, 주의)로 교체. ‘have taken note’로 take와 연어가 성립하고, 명사 note의 ‘주목, 주의’ 뜻도 실제 사전 뜻. 제안(heed)과 같은 효과."
+  },
+  {
+   "id": "Lc-14",
+   "status": "resolved",
+   "note": "s50 청크 ‘“보아하니 / 너희가 도움이 좀 필요하겠구나.”’ 자리표 제거, 두 조각 모두 읽힘, 2=2(제안 문구 그대로). 다만 각주·힌트의 ‘~인 것 같다’와 대응이 흐려진 점은 LR-06."
+  },
+  {
+   "id": "Lc-15",
+   "status": "resolved",
+   "note": "s52 청크 ‘“Thank you for helping us,” / I tell him.’ ↔ ‘“우리를 도와줘서 고마워요,” / 나는 그에게 말한다.’ 2=2, 숙어 비분리, S/V(S: I, V: tell) 그대로."
+  },
+  {
+   "id": "Lc-16",
+   "status": "resolved",
+   "note": "s53 a[5,6], s55 the[30,33], s56 the[54,57], s61 the[63,66]을 각 숙어 각주 spans·lexical_coverage에 연결. 위치 직접 확인."
+  },
+  {
+   "id": "Lc-17",
+   "status": "resolved",
+   "note": "s58·s61 제안 표현 힌트 삭제, 두 review_record에 ‘각주로 충분, u4-gp3에서 분석’ 기록. formula_routes에 이 힌트를 참조하는 항목 없음. 두 문장에 수동 등 다른 후보 없음."
+  },
+  {
+   "id": "Lc-18",
+   "status": "resolved",
+   "note": "Lc-17로 힌트가 삭제되어 해당 없음(강조 범위 문제 소멸)."
+  },
+  {
+   "id": "Lc-19",
+   "status": "resolved",
+   "note": "s61 자연 해석 ‘“너희가 얼음 한 봉지를 가져가는 게 어떠니, 나머지는 내가 가질게.”’ will 양태 보존. 청크(그리고 내가 나머지를 가질게)·u4 쉬운 풀이 61번과 일치."
+  },
+  {
+   "id": "Lc-20",
+   "status": "resolved",
+   "note": "u4-gp1 support_gloss_ids [s47-g06, s47-g07, s47-g09]."
+  },
+  {
+   "id": "Lc-21",
+   "status": "resolved",
+   "note": "u4-gp2 support_gloss_ids [s56-g03, s56-g04]."
+  },
+  {
+   "id": "Lc-22",
+   "status": "resolved",
+   "note": "u4 흐름 ‘끌어낼 수 있다고 느끼며’로 can 보존."
+  },
+  {
+   "id": "Lc-23",
+   "status": "resolved",
+   "note": "u4 쉬운 풀이 56번을 ‘앞 장면에서 Alyssa는 한 여자에게 생수를 빼앗겼다. / Hali도 … 거절했다. / 그런 Alyssa에게 … 믿게 해 준다.’로 분리, 원래 마지막 문장(반전 연결)은 유지."
+  },
+  {
+   "id": "Lc-24",
+   "status": "resolved",
+   "note": "사용자 A안(카트 유지)대로 청크·힌트 ‘그것[카트]이 가득 쌓일 때까지’, 힌트 meaning_ko ‘(얼음으로) 가득 쌓일’, 자연 해석 ‘카트가 더는 쌓을 수 없을 만큼 높이 가득 찰 때까지’, u3 흐름 ‘가득 찰 때까지’로 통일. ‘카트가 가득 차다’는 자연스러운 한국어이고 it=카트 지칭과 맞음. 두 it 각주(카트)·pronoun_refs도 그대로 일관."
+  },
+  {
+   "id": "Ld-01",
+   "status": "resolved",
+   "note": "s74 힌트1 KO에서 [25,26]=‘요인들이’의 ‘이’, [33,36]=‘는다면’. 무관한 ‘원인이’의 ‘이’([17,18]) 강조 제거."
+  },
+  {
+   "id": "Ld-02",
+   "status": "resolved",
+   "note": "addressed — (문제가) 해결된, 다뤄진 (흔한 뜻: 주소)."
+  },
+  {
+   "id": "Ld-03",
+   "status": "resolved",
+   "note": "u5-w8 ‘addressed — (문제가) 해결된, 다뤄진’(흔한 뜻 괄호 없이), source s74-g09 유지."
+  },
+  {
+   "id": "Ld-04",
+   "status": "resolved",
+   "note": "s74 한국어 4·5조각 ‘기후 변화, 인구 증가를 포함하여, / 그리고 농업을 위해 너무 많은 물을 사용하는 것(을 포함하여),’ 6=6."
+  },
+  {
+   "id": "Ld-05",
+   "status": "resolved",
+   "note": "locked — (꽉) 고정된 (흔한 뜻: 잠긴). 피동 ‘붙잡힌’ 제거. u5-gp4의 locked(고정된)와 일치."
+  },
+  {
+   "id": "Ld-06",
+   "status": "resolved",
+   "note": "it’s — 그것이 ~이다 (= it is)."
+  },
+  {
+   "id": "Ld-07",
+   "status": "resolved",
+   "note": "s65-g19 ‘A and not B — B가 아니라 A’, spans and[107,110]·not[111,114], lexical_coverage의 and도 s65-g19로 연결. ours(우리의 것)·his(그의 것) 대입 시 ‘그의 것이 아니라 우리의 것’으로 청크와 일치."
+  },
+  {
+   "id": "Ld-08",
+   "status": "resolved",
+   "note": "s62 자연 해석 ‘… 생각하지만, 곧 … 깨닫는다.’ 현재 유지. u5 흐름도 ‘생각하지만 곧 … 깨닫는다’로 함께 맞춤."
+  },
+  {
+   "id": "Ld-09",
+   "status": "resolved",
+   "note": "s62-g01 spans [[0,3],[4,5],[6,12]], a[4,5]를 s62-g01로 연결."
+  },
+  {
+   "id": "Ld-10",
+   "status": "resolved",
+   "note": "with — ~로."
+  },
+  {
+   "id": "Ld-11",
+   "status": "resolved",
+   "note": "bitter — 씁쓸한, 억울해하는 (흔한 뜻: (맛이) 쓴)."
+  },
+  {
+   "id": "Ld-12",
+   "status": "resolved",
+   "note": "s71-g01 spans [[1,4],[5,10]], The를 s71-g01로 연결."
+  },
+  {
+   "id": "Ld-13",
+   "status": "resolved",
+   "note": "s71 review_record를 실제 힌트(of the opening 후치수식, of↔의)와 shortened 각주 지원으로 정정."
+  },
+  {
+   "id": "Ld-14",
+   "status": "resolved",
+   "note": "u5 쉬운 풀이 65번이 제안 5문장 그대로. ‘이름표’·‘힘으로도’ 제거."
+  },
+  {
+   "id": "Ld-15",
+   "status": "resolved",
+   "note": "영어 제목 ‘Timely Help and a Warning’, 한국어 ‘때맞춘 도움, 그리고 경고’와 같은 의미 한 쌍."
+  },
+  {
+   "id": "Ld-16",
+   "status": "resolved",
+   "note": "u5 의도 ‘… 떠나는 장면으로 소설 도입부 발췌가 끝난다.’"
+  },
+  {
+   "id": "Ld-17",
+   "status": "resolved",
+   "note": "u5-gp4 설명 ‘주어 his hands가 무엇을 고정하는 것이 아니라 손잡이에 ‘고정된’ 상태이므로 수동(be p.p.)을 쓴다.’"
+  },
+  {
+   "id": "Ld-18",
+   "status": "resolved",
+   "note": "playful (장난스러운, 장난기 있는)."
+  }
+ ],
+ "new_findings": [
+  {
+   "id": "LR-01",
+   "sentence_id": "s46 / u3-analysis(u3-gp5)",
+   "field": "구문으로 해석하기(u3-gp5 설명)",
+   "current": "공식: have p.p. — ~했다. have = 현재완료의 조동사, p.p. = taken(take의 p.p.형; take notice = 알아차리다). → have taken notice = 알아챘다(이미 알아차린 상태). … practice support_gloss_ids [s46-g02, g03, g05(take — 하다), g06(notice — 주목, 알아챔)], answer_ko ‘다른 사람들이 알아챘다’",
+   "problem": "Lc-06 B안으로 s46 각주가 take — 하다 / notice — 주목, 알아챔으로 나뉘었는데, 같은 단위 분석 설명은 삭제된 옛 숙어 뜻(take notice = 알아차리다)으로 대입하고 take·notice의 실제 각주 뜻을 대입하지 않는다. 워크북 4번 도움말(take — 하다, notice — 주목, 알아챔)과 분석 설명이 서로 다른 경로로 답을 만든다. 근거: SKILL.md·analysis-content.md ‘배운 구문을 바로 연습’(공식과 낱말 뜻은 기존 승인 내용과 일치), ‘어법 설명은 각 자리에 실제 원문과 각 부분의 뜻 대입’, gloss-rules.md 금지와 검수 6(각주 뜻과 같은 문장의 분석 내용 일치).",
+   "proposed_fix": "설명을 ‘공식: have p.p. — ~했다. have = 현재완료의 조동사, p.p. = taken(take의 p.p.형, take = 하다), notice = 주목(알아챔). → have taken notice = 주목을 했다, 곧 알아챘다. 주어 other people(다른 사람들)과 합치면 ‘다른 사람들이 알아챘다’.’처럼 새 각주 뜻으로 대입한다. 제목·practice·answer_ko는 그대로 둘 수 있다. 같은 단위 Q03 uses의 설명 문구(take notice(알아차리다))는 문항 담당 검수에 참고로 넘긴다.",
+   "severity": "improve"
+  },
+  {
+   "id": "LR-02",
+   "sentence_id": "s46",
+   "field": "각주(s46-g05)",
+   "current": "take — 하다 (taken은 take의 p.p.형)  ※ 이전판 ‘(행동을) 하다, 취하다 (…)’",
+   "problem": "take의 흔한 뜻(가져가다, 잡다)과 이 문맥 뜻(주목을 ‘하다’)이 다른데 흔한 뜻 병기가 없다. 이번 수정에서 ‘(행동을)’과 ‘취하다’를 지워 ‘take = 하다’가 일반 뜻처럼 읽힌다. 같은 본문 s58·s61은 take — 가져가다다. 대입(주목을 했다) 자체는 성립한다. 근거: gloss-rules.md ‘기본 형식과 순서’(문맥 뜻이 흔한 뜻과 다르면 문맥 뜻 뒤에 흔한 뜻 병기), editorial-core.md 다의어 단락, common-errors.md 4.",
+   "proposed_fix": "take — (주목 등을) 하다 (흔한 뜻: 가져가다) (taken은 take의 p.p.형). p.p. 관계 괄호는 유지한다. u3-gp5 도움말은 같은 각주 ID를 쓰므로 함께 바뀐다.",
+   "severity": "improve"
+  },
+  {
+   "id": "LR-03",
+   "sentence_id": "s65 / u5-analysis(u5-gp4)",
+   "field": "각주(s65-g04)·구문으로 해석하기",
+   "current": "s65-g04 ‘be p.p. — ~되다’ / locked — (꽉) 고정된. 청크·힌트 ‘그의 손이 단단히 고정되어 있는 한’, u5-gp4 제목 ‘be p.p.: ~되다 (are locked: 고정되어 있다)’, formula_support.ko ‘~되다’, answer_ko ‘그의 손이 단단히 고정되어 있다’",
+   "problem": "Lb-01에서 상태 수동 s20을 ‘be p.p. — ~되어 있다’로 고친 기준이 같은 교재의 상태 수동 s65에는 적용되지 않았다. 각주·도움말 ‘~되다’+‘고정된’을 결합하면 ‘고정된다’가 되어 청크·힌트·정답 ‘고정되어 있다’와 어긋난다. Lb-01 참고란도 다른 단위를 같은 기준으로 확인하라고 적었다. 수정 뒤 교재 안에서 s20과 s65의 처리가 서로 다르다. 근거: gloss-rules.md 금지와 검수 6(기능 각주의 어미가 힌트 해당 부분에 대응), 기능 공식 표 아래 ‘문맥에 맞는 한 뜻을 고른다’, manuscript-data.md 연습 계약(answer_ko는 결합 해석, formula_support는 연결 기능 각주와 같은 공식·뜻).",
+   "proposed_fix": "s65-g04 meaning_ko를 ‘~되어 있다’로 고친다. u5-gp4 제목 ‘be p.p.: ~되어 있다 (are locked: 고정되어 있다)’, 설명 첫머리 ‘공식: be p.p. — ~되어 있다’, practice.formula_support.ko ‘~되어 있다’로 맞춘다(formula_key be p.p.와 answer_ko는 유지). s45 is piled(가득 쌓일)·s74 are not addressed(해결되지 않는다면)는 동작 의미라 ‘~되다’ 유지가 맞다.",
+   "severity": "error"
+  },
+  {
+   "id": "LR-04",
+   "sentence_id": "s21, s31, s45, s73",
+   "field": "구조 힌트(emphasis_links)",
+   "current": "s21 [내[Alyssa]가 다가갈 때] ko [[10,11],[16,17]]=‘가’+‘때’ / s31 [그녀[Hali]의 엄마가 끌고 갈 때] [[13,14],[20,21]]=‘가’+‘때’ / s45 [그것[카트]이 가득 쌓일 때까지] [[7,8],[15,18]]=‘이’+‘때까지’(이번 회차에 문구·위치 수정) / s73 [물 공급이 재개될 때] [[5,6],[11,12]]=‘이’+‘때’",
+   "problem": "La-04는 공식 ‘S′(이/가) V′할 때’의 관형 어미 -ㄹ이 어간과 한 음절로 결합하면 그 음절을 포함해야 한다고 보고 s12(‘설 때’)·s07(‘난 이후로 줄곧’)만 고쳤다. 같은 구조의 다른 단위 힌트 4개는 뒤 명사만 강조한다. 수정 뒤 교재 안에서 as·until·when 힌트의 강조 범위가 서로 다르다. s45는 이번 회차에 힌트 문구를 고치면서 위치를 다시 계산했는데도 같은 기준을 적용하지 않았다. 근거: analysis-content.md ‘영어·한국어의 문법 대응 강조’(고정어와 자리 어미를 모두 표시, 어간과 어미가 한 음절에 결합하면 필요한 최소 음절을 고름).",
+   "proposed_fix": "ko_spans를 s21 [[10,11],[14,17]](‘가’+‘갈 때’), s31 [[13,14],[18,21]](‘가’+‘갈 때’), s45 힌트1 [[7,8],[13,18]](‘이’+‘일 때까지’), s73 [[5,6],[9,12]](‘이’+‘될 때’)로 고친다. 영어 쪽과 문구는 그대로 둔다.",
+   "severity": "improve"
+  },
+  {
+   "id": "LR-05",
+   "sentence_id": "s74",
+   "field": "구조 힌트 2(가주어 It과 진주어 that절)",
+   "current": "it is possible that [this story can become a reality] → [이 이야기가 현실이 될 수 있을] 가능성이 있다 / explanation ‘that절 S′ this story, V′ can become에 연결동사의 최소 보어 a reality까지 표시.’",
+   "problem": "연결동사 become의 보어까지 절 연결 힌트에 표시했다. 그런데 2026-09-28 사용자 승인 예외(approved-exceptions.md ‘연결동사의 최소 보어’)는 대상을 s07·s36으로 명시하고, 반영결정의 Lb-07 결정문도 ‘(s07·s36)’이다. s74는 같은 처리인데도 승인 기록 밖에 있다. 보어를 빼면 ‘이 이야기가 될 수 있을’로 뜻이 사라지므로 표시 자체는 결정 취지와 맞는다. 근거: analysis-content.md·editorial-core.md 구조 힌트(be동사만 최소 보어 예외), approved-exceptions.md ‘다른 교재로 확대하지 않는다’·대상 명시.",
+   "proposed_fix": "(추천) approved-exceptions.md 2과 절의 ‘연결동사의 최소 보어’ 대상에 s74 `[this story can become a reality]`를 추가하고, s74 힌트 explanation에 ‘연결동사 최소 보어 표시는 2026-09-28 사용자 결정’을 적는다. 사용자 결정의 범위가 s07·s36뿐이라면 표시를 `[this story can become] → [이 이야기가 될 수 있을]`로 줄여야 하는데 뜻이 사라지므로 추천하지 않는다. 범위 확인은 user_report_items 1번.",
+   "severity": "improve"
+  },
+  {
+   "id": "LR-06",
+   "sentence_id": "s50",
+   "field": "한국어 청크",
+   "current": "“Looks like / you could use some help.” ↔ ‘“보아하니 / 너희가 도움이 좀 필요하겠구나.”’ (각주 look like S′ V′ — S′(이/가) V′하는 것 같다, 힌트 [너희[…]가 필요로 할 것 같다], 자연 해석 ‘도움이 좀 필요한 것 같구나.’)",
+   "problem": "Lc-14 수정으로 자리표 문제는 해결됐다. 다만 직역 청크에서 look like의 공식 뜻 ‘~하는 것 같다’가 사라지고 ‘보아하니 … -겠구나’로 바뀌었다. 그래서 같은 문장의 각주·구조 힌트·자연 해석이 모두 쓰는 ‘것 같다’ 대응이 청크에만 없다. 근거: gloss-rules.md 금지와 검수 6(각주 뜻과 끊어읽기 해석·구조 힌트 일치), analysis-content.md ‘직역과 자연 해석’(한국어 청크는 직역 역할).",
+   "proposed_fix": "청크 2를 ‘너희가 도움이 좀 필요한 것 같구나.”’로 고친다(청크 1 ‘“보아하니’ 유지, 2=2). 자연 해석·각주·힌트는 그대로 둔다.",
+   "severity": "improve"
+  }
+ ],
+ "user_report_items": [
+  {
+   "id": "UR-R1",
+   "related_finding": "LR-05",
+   "sentence_id": "s74",
+   "question": "‘연결동사 최소 보어 표시’ 결정(현행 유지)이 s74 `it is possible that [this story can become a reality]`에도 적용되는지 확인이 필요합니다. 승인 기록에는 대상이 s07·s36만 적혀 있습니다.",
+   "options": [
+    "(a) 같은 결정으로 보고 승인 예외 대상에 s74를 추가·기록 — 추천(보어를 빼면 ‘이 이야기가 될 수 있을’로 뜻이 사라짐)",
+    "(b) 규칙 문언대로 `[this story can become]`까지로 줄임"
+   ]
+  },
+  {
+   "id": "UR-R2",
+   "related_finding": "LR-01",
+   "sentence_id": "s46 / Q03",
+   "question": "L 범위 밖 참고: 워크북 실전문제 Q03(assessment_data.py)의 uses 설명이 ‘disregard(무시하다)가 take notice(알아차리다)와 반대’라고 적혀 있습니다. 현재 유반 세트는 notice(주목, 알아챔, 명사) ↔ disregard(무시, 묵살, 명사)이고 선지는 동사 disregarded입니다. 학생용 출력과 관계되는지는 문항 담당 독립 검수에서 확인하도록 넘깁니다.",
+   "options": [
+    "문항 검수 단계에서 확인"
+   ]
+  }
+ ],
+ "checked_ok_summary": "68건 중 67건이 제안대로 또는 같은 효과로 반영되었고 1건(Lc-06)은 각주 부분만 해결되었다. 변경 경로 195개를 before/after로 모두 대조했다. 결정문과 다르거나 결정문에 없는 변경은 없었다. 제작팀이 추가로 고친 곳(La-06의 source_gloss_id 이동, Ld-08에 맞춘 u5 흐름 문구, u3 흐름·gp4 제목·답을 ‘가득’으로 맞춘 것)도 서로 모순이 없다. 기계 대조(청크 재결합·경계·조각 수, 강조 범위 문자, lexical_coverage 전 낱말 포함과 gloss 범위 일치)는 전 문장에서 이상이 없다. 강조·대명사 위치는 바뀐 힌트 s07·s12·s36·s45·s74를 직접 계산했다. 결과: s07 ‘이’+‘난 이후로 줄곧’, s12 ‘가’+‘설 때’, s36 ‘그것’/‘[얼굴의 붉은 기]’ 참조와 ‘이’+‘기 전에’, s45 ‘이’+‘때까지’ 및 ‘이’+‘만큼’, s74 ‘요인들이’의 ‘이’+‘는다면’으로 의도대로 표시된다. 새 유반 세트: u2 empty/bare/full은 ‘The shelves are already bare’로 대입되고, u3 find/discover/lose는 s37 ‘whom I discover’로 대입된다(모두 동사, find↔lose 반의). notice/note/disregard는 모두 명사이고 ‘have taken note’로 연어가 성립한다. 실전문제 Q03의 discovered 선지도 새 세트와 연결된다. 바뀐 청크의 조각 수는 s07 3=3, s29 3=3, s52 2=2, s74 6=6이다. 숙어 get tired of, thank you for V-ing는 분리되지 않았다. 자연 해석 s61(will의 ‘가질게’)·s62(현재 ‘생각하지만’)의 시제·양태가 교과서 해석과 맞다. Lc-06 B안의 대입 ‘주목을 했다(→알아챘다)’는 take notice의 뜻으로 타당하다. 오늘의 낱말 notice·piled·addressed·frozen·case는 각주 ★·유반 표제어·workbook.md 실제형 규칙과 맞는다. 사용자 결정 4건도 모두 정확히 적용되었다: 인명 각주 영어 유지(QC 89·196행 Alyssa — Alyssa (…)), s35·s70 ‘V: looks then turns / looks then leaves’ 유지와 승인 예외 기록, s72 ‘[who] V′: has’ 유지와 u5-gp2 설명 ‘V′ = has(S/V 표시; has to make = 해야 하다 …)’로 일치, s07·s36 연결동사 보어 표시 유지와 explanation 기록. 제작팀 자체 결정 5건(s10 도치 힌트 유지, s15 생략 that 유지, s45 it=카트 유지·표현 수정, s58·s61 힌트 삭제, s63 V: Excuse 유지)도 원고에 그대로 적용되어 있다. 새 지적 6건 가운데 error는 1건(LR-03 s65 상태 수동을 Lb-01 기준에 맞출 것)이다. 나머지는 improve로, 같은 단위 분석 설명 정렬(LR-01), take 흔한 뜻 병기(LR-02), 다른 단위 강조 범위 일관화(LR-04), s74 승인 범위 기록(LR-05), s50 청크 대응(LR-06)이다."
+}

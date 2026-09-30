@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "stage": "7단계 독립 최종 검수",
+  "reviewer": "FABLE",
+  "independent": true,
+  "date": "2026-09-30",
+  "target": {
+    "book": "공통영어2 YBM(박준언) 2과 Further Reading “Hunger Stones” 혼공독해교재",
+    "repo": "jin6942/E2NEoh2",
+    "branch": "claude/eager-galileo-x93mpu",
+    "commit": "68b3f28",
+    "delivery_dir": "결과물_공통2_2과/출고_FurtherReading/",
+    "docx_sha256_prefix": {
+      "전체통합본": "3955a4a6",
+      "01_해석지": "b3173681",
+      "02_지문분석지": "828dd4b9",
+      "03_워크북+변형문제": "4087730e",
+      "04_실전모의": "38a640cd",
+      "05_정답해설지": "389220ea",
+      "zip": "c96a221a"
+    },
+    "source_pdf": "(2022개정)2025년_공통영어2_YBM(박준언)_2과_본문_(20251205수정).pdf 4쪽 Further Reading 영어 본문",
+    "rules": "작업_공통2_2과/스킬수정본/gyogwaseo-unified (SKILL.md, analysis-content, gloss-rules, grammar-labels, assessment-content, workbook, layout-rules, approved-exceptions, preposition-meanings, proper-nouns, split-delivery)"
+  },
+  "method": {
+    "order": [
+      "1단계 블라인드 풀이: 04_실전모의.docx·03_워크북+변형문제.docx의 문항만 보고 6문항 풀이 후 답 기록(05·문제_FINAL·검수기록은 그 뒤에 열람)",
+      "2단계 문항 대조: 05_정답해설지 및 문제_FINAL.txt와 대조, 밑줄 낱말 노출 확인",
+      "3단계 해석·분석: 원문 PDF 4쪽(pdftotext 왼쪽 단 추출 + 페이지 이미지 확인)과 01·02·03·04 대조. 끊어읽기 재결합 문자열이 원문과 완전 일치함을 기계 대조",
+      "4단계 조판·전달: DOCX XML(pageBreakBefore·밑줄·NBSP·sectPr·footer), 분권 5개 텍스트 합 = 통합본 텍스트, ZIP 엔트리·SHA256 대조, LibreOffice 예비 렌더(15쪽) 확인, 사용자 컴퓨터의 Microsoft Word(Microsoft 365, 맑은 고딕·Times New Roman 실제 글꼴)로 통합본과 분권 5개를 각각 열어 PDF로 내보내 전 쪽 확인"
+    ],
+    "word_render": {
+      "performed": true,
+      "app": "Microsoft Word (Microsoft 365, Windows)",
+      "integrated_pages": 18,
+      "volume_pages": {"01_해석지": 5, "02_지문분석지": 3, "03_워크북+변형문제": 2, "04_실전모의": 2, "05_정답해설지": 6},
+      "volume_flow_equals_integrated": true,
+      "libreoffice_prelim_pages": 15,
+      "word_page_map": {
+        "1": "표지", "2": "공통 안내 + 문장 1~2", "3": "문장 3~6", "4": "문장 7~8", "5": "문장 9 + 복습란",
+        "6": "분석 끊어읽기 1~9", "7": "분석 설명 의도~구문 ④", "8": "구문 ⑤ + 유반",
+        "9": "워크북 1~3", "10": "워크북 4~5", "11": "모의 1~3", "12": "장문 [4~5]",
+        "13": "빠른 정답", "14": "워크북 정답 1~4", "15": "워크북 정답 5(3줄)", "16": "모의 해설 1, 2(선지 해석까지)", "17": "2 오답 정리, 3, 4(선지 해석까지)", "18": "4 오답 정리, 5"
+      }
+    }
+  },
+  "blind_answers": {
+    "recorded_before_opening_key": true,
+    "answers": [
+      {"id": "워크북 Q01", "answer": 4, "basis": "본문 ‘a severe drought that could persist for decades’와 반대(짧은 기간 안에 그침 X). ①②③⑤는 본문과 일치."},
+      {"id": "모의 1", "answer": 5, "basis": "‘when droughts occur and water levels retreat, these stones become visible’. ① 과학자 발견 언급 없음, ② happy 반대, ③ usually seen above water 반대, ④ floods 반대."},
+      {"id": "모의 2", "answer": 4, "basis": "돌이 보임 = 가뭄 → reduced harvests·food shortages·hunger. ①⑤ 홍수·수영 무관, ② 돌 손상 무관, ③ 기쁨 반대."},
+      {"id": "모의 3", "answer": 2, "basis": "become visible ↔ seen, warn of these hardships ↔ remind. ③ relieve 반대, ①⑤ hidden 반대, ④ buried/assure 무관."},
+      {"id": "모의 4", "answer": 1, "basis": "옛 경고문 + 앞으로 더 심한 가뭄(전문가·UN 2050) 전체 포괄. ② 첫 문단만, ③④⑤ 사실 반대."},
+      {"id": "모의 5", "answer": 3, "basis": "‘for decades’ 지속 문맥이므로 cease가 부적절(원어 persist). ①②④⑤ 자연스러움."}
+    ],
+    "match_with_key": "6/6 일치 (워크북 ④ / 모의 ⑤④②①③)"
+  },
+  "verdict": {
+    "overall": "PASS",
+    "error_count": 0,
+    "suggestion_count": 6,
+    "user_decision_count": 3,
+    "note": "정답·근거·해설·선지 해석·오답 이유 모두 정답 유일. 원문 글자 일치(해석지·분석지·워크북 지문·모의 지문·장문 복원 모두 원문과 완전 일치). 규칙 위반·번역 오류·깨진 조판은 발견하지 못함. Word 실제 렌더에서 새로 확인된 거의 빈 쪽 1곳(워크북 정답 5번)은 승인된 spacing 프로필 적용 대상이므로 사용자 결정 항목으로 올림."
+  },
+  "findings": [
+    {
+      "id": "F-S01",
+      "grade": "suggestion",
+      "area": "조판(Word 신규 확인)",
+      "location": "05_정답해설지 3쪽(통합본 15쪽) · 문단 1 워크북 정답 ‘5. 핵심 문장 해석’",
+      "current": "Word 렌더에서 14쪽이 4번 구문 결합 정답까지 정확히 차고, ‘5. 핵심 문장 해석’ 제목+해석 2줄(3줄)만 15쪽으로 넘어가 거의 빈 쪽이 생김. LibreOffice 예비 렌더(13쪽 한 쪽)에서는 보이지 않던 Word 고유 넘침.",
+      "problem": "layout-rules.md 「2026-09-25 분석 설명·워크북 정답의 소폭 조판 조정」: 실제 Word에서 넘친 워크북 정답에 compact_profiles.spacing 적용 허용. 「페이지 나눔과 검수」: 큰 빈 공간 확인. 규칙 위반은 아니나 승인 프로필 적용 대상.",
+      "fix": "u1/answers에 compact_profiles.spacing(문단 앞 −0.5pt·뒤 −1pt·행간 −0.8pt)만 적용해 Word 재확인. 3줄 회수라 spacing 단계로 충분할 가능성이 높으며 부족해도 spacing_and_type로 넘어가지 말고 보고. 적용 여부는 사용자 결정.",
+      "user_decision_needed": true
+    },
+    {
+      "id": "F-S02",
+      "grade": "suggestion",
+      "area": "자연 해석",
+      "location": "02_지문분석지 1쪽 8번 문장 ↳ 자연 해석 · 05_정답해설지 워크북 정답 ‘5. 핵심 문장 해석 2’",
+      "current": "…단순히 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다.",
+      "problem": "원문 ‘not just a simple, occasional drought’의 형용사 simple이 부사 ‘단순히’로 흡수되어 ‘not just’와 겹쳐 읽힘. 한국어 청크(단지 단순하고 가끔 일어나는 가뭄이 아니라)·워크북 정답 3·실전문제 해설(단순하고 이따금 있는 가뭄)은 simple을 형용사로 유지하므로 자연 해석만 다름. analysis-content.md 「직역과 자연 해석」(수치·비교·양태 보존)에 비추어 오류라기보다 표현 통일 권고.",
+      "fix": "‘단순하고 가끔 찾아오는 가뭄이 아니라’로 두 곳(분석지 자연 해석, 정답지 핵심 문장 해석 2 = 같은 문자열)을 함께 수정.",
+      "user_decision_needed": false
+    },
+    {
+      "id": "F-S03",
+      "grade": "suggestion",
+      "area": "각주·끊어읽기(규칙 해석 확인)",
+      "location": "01_해석지 5쪽(Word) 9번 문장 각주 ‘percent — 퍼센트 / of — ~의’, 청크 ‘75 percent / of the global population’",
+      "current": "percent와 of를 분리하고 of 앞에서 끊음. 청크 한국어 ‘75퍼센트가 / 전 세계 인구의’, 힌트·자연 해석은 ‘전 세계 인구의 75퍼센트’.",
+      "problem": "gloss-rules.md 「숙어·구문과 전치사」에 `percent of — 퍼센트의`가 수량+of 결합 예시로 있으나 ‘같은 어순·의미가 성립할 때’로 한정. 여기서는 ‘전 세계 인구의 75퍼센트’처럼 어순이 뒤집히므로 the amount of plastic 예외 제외 사례와 같아 현재 분리가 타당해 보임. 내부 review_record도 일반 후치수식으로 판정.",
+      "fix": "현재 처리 유지 권장. 다만 같은 스킬을 쓰는 다른 과에서 ‘percent of’를 묶은 사례가 있으면 그쪽과 통일 여부만 확인.",
+      "user_decision_needed": false
+    },
+    {
+      "id": "F-S04",
+      "grade": "suggestion",
+      "area": "각주 형식(고유명사)",
+      "location": "01_해석지 2쪽 1번 문장 ‘Europe — Europe (유럽)’, ‘Czech — Czech (체코의)’, ‘Elbe River — Elbe River (엘베강, …)’ · 5쪽 9번 ‘United Nations — United Nations (유엔, 국제 연합)’ · 03 워크북 4-5 도움말 동일",
+      "current": "영어 표제어 뒤에 영어를 반복하고 괄호 안에 한국어를 둠.",
+      "problem": "proper-nouns.md 「표기」 예시는 `Montreal — 몬트리올 (캐나다 도시)`처럼 뜻 자리에 한국어 이름. approved-exceptions.md의 사용자 결정은 ‘인명 각주는 영어 이름 유지(Alyssa — Alyssa (…))’로 인명에 한정. 본책(UNIT02)도 California 등 지명에 같은 방식을 써서 이 교재만의 문제는 아님.",
+      "fix": "지명·기관명까지 영어 반복 방식으로 갈지, 규칙 예시대로 `Europe — 유럽`으로 갈지 사용자 결정. 어느 쪽이든 본책과 FR을 함께 맞출 것.",
+      "user_decision_needed": true
+    },
+    {
+      "id": "F-S05",
+      "grade": "suggestion",
+      "area": "조판(빠른 정답 머리, J-W06)",
+      "location": "05_정답해설지 1쪽(통합본 13쪽) ‘객관식 빠른 정답’·‘워크북’ 머리",
+      "current": "Word에서도 ‘객관식 빠른 정답’ 머리와 ‘워크북’ 띠가 빈 음영 줄로 이어져 한 띠처럼 보임(‘미니 모의고사 1회’ 띠는 분리됨).",
+      "problem": "규칙 위반 아님(본책과 같은 MASTER 구성). 시각적으로 두 제목이 한 상자로 읽힘.",
+      "fix": "바꾸려면 MASTER/역할 계약 차원(본책 포함)이므로 사용자 결정. 이 교재만 고치지 말 것.",
+      "user_decision_needed": true
+    },
+    {
+      "id": "F-S06",
+      "grade": "suggestion",
+      "area": "조판(낱말 표)",
+      "location": "03_워크북+변형문제 1쪽 ‘2. 유의어·반의어 뜻 쓰기’ 9번 행",
+      "current": "9. persist만 있는 마지막 행의 오른쪽 빈 칸에도 답안선이 그어짐.",
+      "problem": "규칙 위반 아님(workbook.md 마지막 남는 셀은 빈칸). 홀수 개수일 때 빈 칸 답안선이 남는 MASTER 표 동작으로 보임.",
+      "fix": "생성기에서 빈 셀의 답안선 생략이 가능하면 다음 스킬 갱신 때 반영. 이번 출고 수정 대상은 아님.",
+      "user_decision_needed": false
+    }
+  ],
+  "word_check": [
+    {"id": "J-W01", "page_word": "7~8 (분권 02: 2~3)", "result": "문제있음(넘침 유지, 결정대로)", "detail": "Word에서도 7쪽은 파란 헤더~구문 ④로 가득 차고, 구문 ⑤(3줄)+‘▶ 필수 유의어 / 반의어’(제목+3줄) 약 8줄만 8쪽으로 넘어가 8쪽이 거의 빈 쪽. 항목 중간 갈림·제목 고립 없음. 사용자 결정 ‘그대로, Word 확인’대로 적용돼 있음. 추가 조치 없음(기록만)."},
+    {"id": "J-W02", "page_word": "해석지 4 · 분석지 6", "result": "문제없음", "detail": "해석지 7번 ‘prepared. ★핵심’, 8번 ‘decades. ★핵심’ 모두 같은 줄. 분석지 6쪽 7·8번도 마지막 낱말과 같은 줄에 ★핵심이 붙어 있고 ‘★핵/심’ 갈림 없음."},
+    {"id": "J-W03", "page_word": "11", "result": "문제없음", "detail": "요약문 2행이 ‘(B) ________ people of the hardships …’로 시작해 (B)와 빈칸이 같은 줄에 붙어 있음."},
+    {"id": "J-W04", "page_word": "3~5", "result": "문제없음(자연 이동)", "detail": "Word에서는 3쪽에 3~6번, 4쪽에 7~8번, 5쪽에 9번+복습란. 3쪽 하단 약 1/5, 4쪽 하단 약 1/3 여유가 남지만 다음 문장 블록이 통째로 들어가지 않아 넘어간 것이며 복습란은 9번 블록과 함께 있음. layout-rules 「남은 공간을 활용하는 페이지 흐름」의 ‘블록 전체가 들어가지 않는 경우의 이동 허용’에 해당."},
+    {"id": "J-W05", "page_word": "2·4·6", "result": "문제없음", "detail": "실제 글꼴(맑은 고딕·Times New Roman)에서 각주·힌트·청크 줄 감김이 자연스럽고 낱말 중간 잘림 없음. 공통 안내의 ‘읽는 법’ 줄 끝 ‘지문 분석/지의’와 ‘기호’ 줄 끝 ‘핵심/문장’이 다음 줄로 감기는 것은 MASTER 공통 문구의 자연 줄 감김(이 교재 고유 아님)."},
+    {"id": "J-W06", "page_word": "13", "result": "문제있음(경미, 본책과 동일)", "detail": "‘객관식 빠른 정답’ 머리와 ‘워크북’ 띠 사이 빈 줄에도 음영이 있어 한 띠로 보임. F-S05로 사용자 결정 항목에 올림."},
+    {"id": "J-W07", "page_word": "18", "result": "문제없음", "detail": "Word에서는 마지막 쪽(18쪽)이 5번 해설로 상단 약 1/3만 쓰고 끝나 바닥글과의 여유가 충분함(LibreOffice 15쪽의 22pt 여유 상황은 Word에서 발생하지 않음)."},
+    {"id": "W-NEW-01", "page_word": "14~15", "result": "문제있음(신규)", "detail": "워크북 정답 5번(제목+2줄)만 15쪽으로 넘어가 거의 빈 쪽. F-S01 참조(승인 spacing 프로필 적용 대상, 사용자 결정)."}
+  ],
+  "user_decisions_needed": [
+    "F-S01: 워크북 정답(u1/answers)에 승인된 compact_profiles.spacing을 적용해 5번 핵심 문장 해석을 14쪽으로 회수할지(Word 넘침 확인됨), 아니면 그대로 둘지.",
+    "F-S04: 지명·기관명 각주 형식 — 현재 ‘Europe — Europe (유럽)’(본책과 동일) 유지 vs 규칙 예시 ‘Europe — 유럽’. 본책과 함께 결정.",
+    "F-S05: 빠른 정답 머리 음영이 한 띠로 보이는 MASTER 구성을 바꿀지(본책 포함 공통 사항)."
+  ],
+  "checked_ok": [
+    "원문 일치: 해석지 9문장 재결합·분석지 청크 재결합·워크북 Q01 지문·모의 1~3 지문(원문 앞부분 1~5·1~6·1~7문장)·공유 장문(①~⑤ 제거, cease→persist 복원) 모두 원문 PDF 텍스트와 완전 일치",
+    "원문 단락 3개(1~2 / 3~7 / 8~9)를 장문에서 유지, 일반 문항은 한 문단 출력",
+    "정답 유일성·근거 인용·해설·선지 해석(① 영어 (한국어) 형식)·네 오답 이유 모두 확인, 빠른 정답과 해설 번호 일치, 모의 정답 분포 ①~⑤ 각 1",
+    "어휘 문항 다섯 밑줄(continuation·occasional·cease·global·address)이 같은 회차 다른 지문(1~7문장 범위)에 원형으로 노출되지 않음, 발문 부정어 ‘않은/않는’ 밑줄, 함축 의미 발문·본문 밑줄(따옴표 제외) 일치",
+    "워크북: 오늘의 낱말 8·유반 9(섞음)·실전문제 1(유반 invisible·noticeable·important·cease 사용)·구문 결합 5(분석 ①~⑤와 1:1, 도움말 공식·낱말 뜻 일치)·핵심 문장 2(해석지·분석지 ★핵심과 동일), 정답 3열·번호 대응, 학생용에 힌트 없음",
+    "각주: ★ 8개가 오늘의 낱말과 대응(s09 significant ★ 없음 = 사용자 결정), 수동 be p.p./believed to V(사용자 결정)·have p.p./predict(p.p. 관계)·독립 p.p.(known·found·written·reduced·taken)·they/it/we 지시 대상·단독 you 제외·금지 라벨 없음",
+    "S/V: 절 순서, 주격 관계사 V′만, 생략 that 표시, 명령문 V만(cry), 긴 명사구 주어 축약(a stone / The words / the situation), 수량 표현 전체 유지(75 percent of the global population)",
+    "구조 힌트: 관계사절 4곳 모두 포함, 문장당 최대 2, 대응 강조(굵게+밑줄) 위치가 공식과 일치, 대명사 참조 괄호 보통 글씨, 이름표 1회, 수동·완료 기능 공식은 분석 ④⑤ 대표 사례로 연결",
+    "분석: 의도 2문장, 흐름 3단계에 1~9 모두 1회, 쉬운 풀이 3문장(2·5·9) 원문 순, 구문 5개(기본 3+보충 2) 공식→대입→결합 형식, 유반 3세트",
+    "조판: 분석 설명부 새 쪽·파란 헤더, 4번 구문 결합 새 쪽·5번 이어 배치·빈 문단 1개·나의 해석 2줄, 장문 세트 새 쪽, 모의 문항 사이 24.7pt, 해설 회차 새 쪽, ‘정답 근거’ 별도 제목, 원문자 맑은 고딕, 바닥글(쪽 번호·ⓒ TOM’S EDU) 6개 파일 동일, 용지 A4·여백 720/360twips",
+    "전달: 분권 5개 이름·순서(01~05)·SHA256이 분권내보내기.json과 일치, ZIP 엔트리 정확히 DOCX 6개·바이트 동일, 통합본 사본 = 결과물 원본(바이트 동일), 분권 텍스트 합 = 통합본 텍스트, Word 분권 쪽 흐름 = 통합본 쪽 흐름"
+  ],
+  "temp_files_note": "Word 확인용 사본을 사용자 컴퓨터 C:\\Users\\user\\Documents\\FR_Word확인_임시\\ 에 두었음(DOCX 6개 + Word 내보낸 PDF 6개). 검수 뒤 삭제 대상."
+}

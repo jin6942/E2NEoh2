@@ -1,0 +1,23 @@
+{
+ "id": "UNIT02FR-S-source-2026-09-29",
+ "kind": "source",
+ "status": "PASS",
+ "reviewer_id": "claude-session_01E2Ji6oqzJY84iXPZFpFMCt-S",
+ "execution_id": "session_01E2Ji6oqzJY84iXPZFpFMCt/FR-stage2-S",
+ "independent": false,
+ "independence_note": "제작 세션이 기계 대조로 수행(독립 검수자 아님). 판정은 결정적 문자 대조에 근거.",
+ "performed_at": "2026-09-29T09:50:00Z",
+ "method": "pypdfium2 텍스트층에서 4쪽 영어 본문 추출·공백 정규화 → 원고 9문장을 단락 순서대로 이은 문자열과 글자 단위 비교, 단락 3개 들여쓰기 대조(검수기록/2단계_S_원문대조.json)",
+ "summary": "9문장 1,043자 글자 단위 일치, 단락 p01~p03 시작 일치. 제목 Hunger Stones는 표지·분석 제목에만 사용.",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ]
+ },
+ "bindings": {
+  "package_sha256": "496abd06f38e67ff1cdf2b07abc5ac2eb1638a00e1e54b32222b9cdc83f81cee",
+  "source_content_sha256": "3f4794ad997309164cd18fcb0430054e0b6100a3564eee3defb5713b1fda4f41"
+ },
+ "findings": []
+}

@@ -1,0 +1,111 @@
+{
+  "reviewer": "M",
+  "solved_before_answer_key": true,
+  "blind_record": "/home/user/E2NEoh2/작업_공통2_2과FR/검수기록/4단계_M_재풀이답.json (문제_compare.json 열기 전 저장)",
+  "inputs_read": [
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검수입력/문제_blind_재풀이.json",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검수입력/문제_compare.json",
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/references/assessment-content.md"
+  ],
+  "key_match": {
+    "Q01": true,
+    "Q02": true,
+    "Q03": true,
+    "Q04": true,
+    "Q05": true,
+    "Q06": true
+  },
+  "mechanical_checks": "compare 지문·선지가 블라인드 패킷과 일치함(Q05·Q06은 원번호 제거, Q05 passage는 정상형 persist. 규칙 81항의 '각 문항 passage는 자기 변형 결과 보존'에 부합). 8개 evidence 인용이 모두 원문에 글자 그대로 있음. Q01 learned_relation_uses 5개 choice_span 문자열 일치. Q03 prompt_underlines [6,30] = TARGET 일치. Q06 밑줄 5개가 해당 낱말에 정확히 걸림.",
+  "findings": [
+    {
+      "id": "M-01",
+      "question_id": "Q01",
+      "field": "근거",
+      "current": "learned_relation_uses ⑤ reason_ko: 'significant(중요한, 의미 있는)의 뜻을 알아야 상당한 조치가 없으면 피해가 생긴다는 선지를 해석할 수 있음'",
+      "problem": "선지 ⑤의 'significant action'은 '상당한(규모가 큰)' 뜻이며, 선지 해석(choices_ko ⑤)도 '상당한 조치'로 옮김. reason_ko가 제시한 학습 의미 '중요한, 의미 있는'과 선지에서 실제 쓰인 의미가 달라 설명이 앞뒤로 어긋남. 또한 이 표현은 지문의 'significant action'을 그대로 옮긴 것이어서 학습 어휘 의미 판단이 필요한 자리로 보기 약함.",
+      "proposed_fix": "reason_ko를 'significant는 본문의 significant action처럼 \"상당한\"의 뜻으로도 쓰이며, 이를 알아야 ⑤가 unless significant action is taken 조건과 같은 내용임을 판단할 수 있음'처럼 실제 쓰인 뜻으로 고치거나, 학습 의미 판단 사례에서 ⑤를 빼고 ①~④만 기록.",
+      "severity": "suggestion"
+    },
+    {
+      "id": "M-02",
+      "question_id": "Q01",
+      "field": "오답 이유",
+      "current": "⑤: '2050년까지 세계 인구의 75퍼센트가 가뭄의 영향으로 고통받을 수 있다고 했고, 상당한 조치가 취해지지 않는다면(unless significant action is taken)이라는 조건과도 일치한다.'",
+      "problem": "선지의 'most people in the world'가 본문의 '75 percent of the global population'을 바꿔 말한 것이라는 연결이 명시되지 않아, 학생이 'most'와 '75퍼센트'의 대응을 스스로 추론해야 함.",
+      "proposed_fix": "'…세계 인구의 75퍼센트(75 percent of the global population), 즉 대부분(most)이 …'처럼 바꿔 말한 표현의 대응을 한 구절 덧붙임.",
+      "severity": "suggestion"
+    },
+    {
+      "id": "M-03",
+      "question_id": "Q04",
+      "field": "오답 이유",
+      "current": "④: '돌이 마르는지는 요점이 아니고, 돌의 글은 사람들을 위로하는 것이 아니라 대비하라고 촉구한다.'",
+      "problem": "(A) dry는 '가뭄으로 수위가 낮아질 때만 마른 상태가 될 수 있다'로 읽으면 사실과 모순되지 않으므로 '요점이 아니다'라는 설명은 배제 근거로 약함. 실제 결정적 배제 근거는 (B) comfort. 학생이 (A) dry도 틀렸다고 오해할 수 있음.",
+      "proposed_fix": "'(A) dry는 돌이 드러난다는 핵심(become visible)을 담지 못하며, 특히 (B) comfort(위로하다)는 고난을 경고하고 대비를 촉구한다는 내용과 맞지 않는다.'로 결정 근거를 (B)에 두도록 수정.",
+      "severity": "suggestion"
+    },
+    {
+      "id": "M-04",
+      "question_id": "Q04",
+      "field": "요약문",
+      "current": "요약문 '(B) ________ people to the hardships that droughts bring' / (B) 후보 alert, blame, comfort, reward",
+      "problem": "'동사 + people + to the hardships' 틀에 어법상 맞는 것은 alert A to B뿐임(blame A for B, reward A for B, comfort A in B가 정상 구조). 의미를 몰라도 전치사 to만으로 (B) 오답 셋이 지워져 사실상 ①/② 이지선다가 됨. 영어 오류는 아니며 정답은 유일함.",
+      "proposed_fix": "(B) 오답을 'warn/prepare'와 의미로 경쟁하면서 'A to B' 틀에도 맞는 동사(예: attract, introduce, expose 등 문맥 검토 필요)로 교체하거나, 현 구성을 유지하려면 오답 이유에 의미상 배제 근거를 계속 명시. 교체 시 유일정답 재검증 필요.",
+      "severity": "suggestion"
+    },
+    {
+      "id": "M-05",
+      "question_id": "Q05",
+      "field": "근거",
+      "current": "evidence: 'The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.'",
+      "problem": "정답 ① 'Old Warnings for a Drier Future' 중 'Drier Future' 부분의 근거는 3문단(UN 2050년 예측)에 있는데 근거 인용이 2문단 끝 문장 하나뿐임. 공유 지문에서 3문단의 'persist'가 Q06 때문에 'cease'로 바뀌어 있으므로, 그 영향을 받지 않는 UN 문장을 함께 인용해야 제목 근거가 온전함(규칙 82항: 어휘 오류 표현이 제목 정답 근거를 훼손하지 않는지 확인).",
+      "proposed_fix": "evidence에 ' / The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.'를 추가.",
+      "severity": "suggestion"
+    },
+    {
+      "id": "M-06",
+      "question_id": "Q06",
+      "field": "근거",
+      "current": "evidence: '… but a severe drought that could persist for decades.'",
+      "problem": "학생이 보는 공유 지문에는 'could ③ cease for decades'로 나와 있어, 근거 인용이 학생 지문과 글자가 다름. 해설에 persist가 원래 표현이라는 설명은 있으나 근거 칸만 보면 지문에 없는 문장을 인용한 것처럼 보임.",
+      "proposed_fix": "근거를 학생 지문의 문맥 단서('not just a simple, occasional drought but a severe drought'와 'Considering the continuation of climate change')로 적고, persist는 '원래 표현'임을 해설에 두거나 근거에 '(원문: persist)'로 표시.",
+      "severity": "suggestion"
+    },
+    {
+      "id": "M-07",
+      "question_id": "Q03",
+      "field": "세트",
+      "current": "Q03(1~6문장)과 Q04(1~7문장)의 지문 범위가 한 문장 차이. Q04 지문 끝 문장 'The words … warn of these hardships and to urge people to be prepared.'와 요약문 '(B) alert people to the hardships that droughts bring'이 같은 회차에 실림.",
+      "problem": "Q03에서 해석 문장을 빼 함축 추론이 필요해졌으나, 바로 다음 Q04 지문·요약문이 Q03 정답 ④(가뭄이 굶주림과 힘든 시기를 가져온다)의 의미를 그대로 확인해 주는 교차 단서가 남음. 규칙상 동일 발췌 반복 자체는 허용되므로 오류는 아님.",
+      "proposed_fix": "현 구성 유지 가능. 개선하려면 Q04를 3문단까지 포함한 범위로 넓혀 요약 초점을 '기후 변화로 장기화될 가뭄에 대한 경고'로 옮기는 방안을 검토(Q05 제목·Q06 어휘와의 겹침 재확인 필요).",
+      "severity": "suggestion"
+    },
+    {
+      "id": "M-08",
+      "question_id": "Q02",
+      "field": "세트",
+      "current": "Q02 84단어, Q03 96단어, Q04 116단어, 장문 175단어. length_review는 모두 NEEDS_INDEPENDENT_REVIEW.",
+      "problem": "독립 검수 의견: 네 문항 모두 발췌 범위 안에서 정답과 네 오답의 근거가 자족적이라 문항은 성립함. 다만 Q02는 고1 내용 일치 표본(118~167)보다 크게 짧고 5문장에서 선지 5개를 하나씩 뽑아 정보 밀도가 높음. 원문 전체가 175단어라 연속 범위를 넓히면 Q03·Q04와의 겹침이 커지는 제약이 있어 현 분량을 수용 가능하다고 판단.",
+      "proposed_fix": "수정 불요. length_review에 '원문 전체 175단어, 회차 내 범위 분리를 위해 짧게 발췌, 근거 자족 확인(검수자 M)'을 기록.",
+      "severity": "suggestion"
+    },
+    {
+      "id": "M-09",
+      "question_id": "Q06",
+      "field": "세트",
+      "current": "어휘 밑줄 5개(continuation, occasional, cease, global, address)가 모두 3문단 두 문장(약 64단어)에 몰려 있음.",
+      "problem": "모의 Q02~Q04 지문에서 원형을 확인해 소거하는 문제는 해결됨. 다만 1~2문단에 밑줄이 없어 장문 앞 2/3는 어휘 판단과 무관해지고 고1 41~42번형의 전반 분산과 다름. 오류는 아님.",
+      "proposed_fix": "현 구성 유지 가능. 추후 개선 시 Q02~Q04 범위 밖에서 새 표적을 찾기 어렵다는 제약을 해설 편성표에 기록.",
+      "severity": "suggestion"
+    }
+  ],
+  "revision_resolution": {
+    "어휘 밑줄 노출": "해결. 회차 내 다른 지문에 없는 3문단으로 표적을 옮김.",
+    "지문 겹침": "부분 해결. 범위를 5·6·7문장으로 나눴으나 사실상 같은 지문의 반복(M-07).",
+    "함축 지문 끝 문장": "Q03 자체는 해결. Q04 지문을 통한 교차 단서는 남음(M-07).",
+    "요지·제목 겹침": "해결. Q04를 요약 유형으로 바꿈.",
+    "약한 오답": "Q02는 개선. Q04 (B)는 어법만으로 지워짐(M-04). Q03 ①⑤와 미수정 Q05 ②③⑤는 여전히 약하나 오류 수준은 아님."
+  },
+  "verdict": "PASS",
+  "verdict_note": "6문항 정답 모두 블라인드 답과 일치하고, 정답 유일성·근거 인용·선지 해석·영어 표현에 확정 오류 없음. 발견 9건은 모두 suggestion(해설 보완·세트 설계 의견)."
+}

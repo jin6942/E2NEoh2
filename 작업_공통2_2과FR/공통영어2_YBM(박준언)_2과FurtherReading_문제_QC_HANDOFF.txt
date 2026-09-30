@@ -1,0 +1,336 @@
+[교재명] 공통영어2 YBM(박준언)
+[과목] 공통영어2
+[출판사·저자] YBM(박준언)
+[UNIT] UNIT02
+[학생용 과 표시] 2과
+[권위 원문] (2022개정)2025년_공통영어2_YBM(박준언)_2과_본문_(20251205수정).pdf · 원본 PDF 4쪽 Further Reading 왼쪽 단 영어 본문 전체(섹션 표시 Further Reading·제목 Hunger Stones 제외, 오른쪽 단 한국어 해석 제외)
+[자료 범위] 워크북 + 미니 모의고사 + 정답해설
+
+[WB01]
+SOURCE:
+src
+LEARNING_UNIT:
+u1
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~9
+[1. 오늘의 낱말]
+우리말 뜻을 쓰세요.
+1. retreat
+2. visible
+3. significant
+4. bear
+5. hardship
+6. urge
+7. occasional
+8. persist
+[2. 유의어·반의어 뜻 쓰기]
+우리말 뜻을 쓰세요.
+1. important
+2. cease
+3. visible
+4. insignificant
+5. continue
+6. noticeable
+7. significant
+8. invisible
+9. persist
+[3. 실전문제]
+[Q01]
+SET:
+workbook
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~9
+TYPE:
+내용
+QUESTION:
+다음 글의 내용과 일치하지 않는 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q26", "202606041-Q26", "202609021-Q26"], "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 175단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임."}
+LENGTH_COMPARISON:
+{"status": "RECORDED", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "내용", "benchmark_ids": ["202603241-Q26", "202606041-Q26", "202609021-Q26"], "reference_words": [142, 118, 167], "assessment_word_count": 175, "shorter_than_all_references": false, "independent_review_required": false, "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 175단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE:
+In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.” The hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared. Considering the continuation of climate change, experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades. The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to address climate change.
+CHOICES:
+① Hunger stones usually stay invisible under the water of rivers.
+② The stones become noticeable when water levels drop in dry times.
+③ The stones are important because they carry records of past droughts.
+④ Experts expect the coming drought to cease within a short time.
+⑤ Without significant action, most people in the world could suffer from drought by 2050.
+ANSWER:
+4
+EVIDENCE:
+experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades.
+EXPLANATION:
+전문가들은 우리가 마주한 상황이 단순하고 이따금 있는 가뭄이 아니라 수십 년 동안 지속될 수 있는 심각한 가뭄이라고 경고한다. 따라서 다가올 가뭄이 짧은 기간 안에 그칠 것으로 예상한다는 ④는 글의 내용과 일치하지 않는다.
+WRONG_ANALYSIS:
+① “The hunger stones … typically remain underwater.”와 일치한다.
+② “when droughts occur and water levels retreat, these stones become visible”과 일치한다.
+③ “The stones are significant because they bear records of the past severe droughts.”와 일치한다.
+⑤ 2050년까지 세계 인구의 75퍼센트가 가뭄의 영향으로 고통받을 수 있다고 했고, 상당한 조치가 취해지지 않는다면(unless significant action is taken)이라는 조건과도 일치한다.
+CHOICES_KR:
+① 기아석은 보통 강물 속에서 보이지 않는 채로 있다.
+② 그 돌들은 건조한 시기에 수위가 내려가면 눈에 띄게 된다.
+③ 그 돌들은 과거 가뭄의 기록을 담고 있기 때문에 중요하다.
+④ 전문가들은 다가올 가뭄이 짧은 기간 안에 그칠 것으로 예상한다.
+⑤ 상당한 조치가 없으면 2050년까지 세계 대부분의 사람들이 가뭄으로 고통받을 수 있다.
+[/Q01]
+
+[4. 구문 결합해서 해석하기]
+1. a stone known as a “hunger stone” → ______________________________
+도움말: N + p.p. — p.p.된(한) N / stone — 돌 / known — 알려진 / as — ~으로 / hunger stone — 기아석 (가뭄 때 드러나 굶주림을 경고하는 돌)
+2. are believed to warn of these hardships → ______________________________
+도움말: be believed to V — V하는 것으로 여겨지다 / warn of — ~에 대해 경고하다 / these — 이러한 / hardships — 어려움들, 고난들
+3. not just a simple, occasional drought but a severe drought → ______________________________
+도움말: not just A but B — 단지 A가 아니라 B / simple — 단순한 / occasional — 가끔 일어나는, 이따금의 / drought — 가뭄 / severe — 심각한, 극심한
+4. was found → ______________________________
+도움말: be p.p. — ~되다 / found — 발견된
+5. The United Nations has predicted → ______________________________
+도움말: have p.p. — ~했다 / United Nations — United Nations (유엔, 국제 연합) / predict — 예측하다 (predicted는 predict의 p.p.형)
+
+[5. 핵심 문장 2개 다시 해석하기]
+1. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.
+2. Considering the continuation of climate change, experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades.
+[/WB01]
+[워크북 정답]
+[1. 오늘의 낱말]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | (물이) 빠지다, 낮아지다 | 2 | (눈에) 보이는 | 3 | 중요한, 의미 있는 |
+| 4 | (기록 등을) 지니다, 담고 있다 | 5 | 어려움, 고난 | 6 | 촉구하다 |
+| 7 | 가끔 일어나는, 이따금의 | 8 | 지속되다, 계속되다 |  |  |
+[2. 유의어·반의어 뜻 쓰기]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 중요한 | 2 | 그치다, 멈추다 | 3 | (눈에) 보이는 |
+| 4 | 사소한, 하찮은 | 5 | 계속되다 | 6 | 눈에 띄는 |
+| 7 | 중요한, 의미 있는 | 8 | 보이지 않는 | 9 | 지속되다, 계속되다 |
+[4. 구문 결합해서 해석하기]
+1. ‘기아석’으로 알려진 돌
+2. 이러한 어려움들에 대해 경고하는 것으로 여겨진다
+3. 단지 단순하고 가끔 일어나는 가뭄이 아니라 심각한 가뭄
+4. 발견되었다
+5. 유엔은 예측했다
+[5. 핵심 문장 해석]
+1. 기아석에 새겨진 글귀는 이러한 어려움을 경고하고, 사람들에게 대비하라고 촉구하는 것으로 여겨진다.
+2. 기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순히 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다.
+
+[Q02]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~6
+TYPE:
+내용
+QUESTION:
+다음 글의 내용과 일치하는 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q26", "202606041-Q26", "202609021-Q26"], "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 96단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "independent_review_required": true}
+LENGTH_COMPARISON:
+{"status": "NEEDS_INDEPENDENT_REVIEW", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "내용", "benchmark_ids": ["202603241-Q26", "202606041-Q26", "202609021-Q26"], "reference_words": [142, 118, 167], "assessment_word_count": 96, "shorter_than_all_references": true, "independent_review_required": true, "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 96단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE:
+In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.” The hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor.
+CHOICES:
+① The hunger stone in the Czech town was found in the spring of 2022.
+② The drought in Europe in 2022 was the worst one in 50 years.
+③ Droughts can bring smaller harvests and a lack of food.
+④ Hunger stones can be found only along the Elbe River.
+⑤ The poor are the least affected by droughts.
+ANSWER:
+3
+EVIDENCE:
+Droughts cause reduced harvests, food shortages, and hunger, especially for the poor.
+EXPLANATION:
+가뭄은 수확량 감소, 식량 부족, 굶주림을 일으킨다고 했다. 따라서 가뭄이 더 적은 수확과 식량 부족을 가져올 수 있다는 ③이 글의 내용과 일치한다.
+WRONG_ANALYSIS:
+① “In the summer of 2022”라고 했으므로 봄이 아니라 여름이다.
+② “the worst drought in 500 years”라고 했으므로 50년이 아니라 500년 만의 최악이다.
+④ “found in rivers across central Europe”라고 했으므로 엘베강에서만 발견되는 것이 아니다.
+⑤ “especially for the poor”라고 했으므로 가난한 사람들이 특히 큰 영향을 받는다.
+CHOICES_KR:
+① 체코 마을의 기아석은 2022년 봄에 발견되었다.
+② 2022년 유럽의 가뭄은 50년 만의 최악의 가뭄이었다.
+③ 가뭄은 더 적은 수확과 식량 부족을 가져올 수 있다.
+④ 기아석은 엘베강을 따라서만 발견될 수 있다.
+⑤ 가난한 사람들이 가뭄의 영향을 가장 적게 받는다.
+[/Q02]
+
+[Q03]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~7
+TYPE:
+함축 의미
+QUESTION:
+밑줄 친 “If you see me, then cry.”가 다음 글에서 의미하는 바로 가장 적절한 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q21", "202606041-Q21", "202609021-Q21"], "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 116단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "independent_review_required": true}
+LENGTH_COMPARISON:
+{"status": "NEEDS_INDEPENDENT_REVIEW", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "함축 의미", "benchmark_ids": ["202603241-Q21", "202606041-Q21", "202609021-Q21"], "reference_words": [154, 149, 175], "assessment_word_count": 116, "shorter_than_all_references": true, "independent_review_required": true, "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 116단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE:
+In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.” The hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.
+TARGET:
+If you see me, then cry.
+PROMPT_UNDERLINES:
+[[6, 30]]
+CHOICES:
+① The stone was placed in the river to remember people who died in floods.
+② When this stone can be seen, a drought is bringing hunger and hard times.
+③ People should feel sad because the old stone has been damaged by water.
+④ Anyone who finds the stone should return it to the river at once.
+⑤ The stone marks the place where people used to say goodbye to each other.
+ANSWER:
+2
+EVIDENCE:
+However, when droughts occur and water levels retreat, these stones become visible.
+EXPLANATION:
+기아석은 보통 물속에 있다가 가뭄이 들어 수위가 내려가야 보이게 되고, 가뭄은 수확 감소·식량 부족·굶주림을 일으키며, 돌의 글은 이런 고난을 경고한다고 믿어진다. 따라서 “나를 보면 울어라”는 이 돌이 보인다면 가뭄으로 굶주림과 힘든 시기가 오고 있다는 뜻이다.
+WRONG_ANALYSIS:
+① 홍수가 아니라 가뭄과 관련된 돌이며, 죽은 사람들을 기억한다는 내용은 없다.
+③ 돌이 물에 의해 손상되었다는 내용은 없고, 울어야 하는 이유는 가뭄이 가져올 고난이다.
+④ 돌을 강에 돌려놓으라는 내용은 없다.
+⑤ 작별 인사를 하던 장소라는 내용은 없다.
+CHOICES_KR:
+① 그 돌은 홍수로 죽은 사람들을 기억하기 위해 강에 놓였다.
+② 이 돌이 보일 때는 가뭄이 굶주림과 힘든 시기를 가져오고 있다.
+③ 오래된 돌이 물에 의해 손상되었기 때문에 사람들은 슬퍼해야 한다.
+④ 그 돌을 발견하는 사람은 누구든 즉시 그것을 강에 돌려놓아야 한다.
+⑤ 그 돌은 사람들이 서로 작별 인사를 하던 장소를 표시한다.
+[/Q03]
+
+[Q04]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~7
+TYPE:
+요지
+QUESTION:
+다음 글의 요지로 가장 적절한 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q22", "202606041-Q22", "202609021-Q22"], "rationale": "요지 고1 표본 [133, 149, 173]단어와 비교해 현재 116단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "independent_review_required": true}
+LENGTH_COMPARISON:
+{"status": "NEEDS_INDEPENDENT_REVIEW", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "요지", "benchmark_ids": ["202603241-Q22", "202606041-Q22", "202609021-Q22"], "reference_words": [133, 149, 173], "assessment_word_count": 116, "shorter_than_all_references": true, "independent_review_required": true, "rationale": "요지 고1 표본 [133, 149, 173]단어와 비교해 현재 116단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE:
+In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.” The hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible. The stones are significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.
+CHOICES:
+① Hunger stones were used to mark the best fishing spots in rivers.
+② People carved words on stones to celebrate good harvests.
+③ Droughts in central Europe have always been short and mild.
+④ Rivers in central Europe rarely change their water levels.
+⑤ Hunger stones remind people of past hardships and warn them to prepare.
+ANSWER:
+5
+EVIDENCE:
+The stones are significant because they bear records of the past severe droughts.
+EXPLANATION:
+기아석은 과거의 심각한 가뭄 기록을 담고 있어 중요하며, 돌의 글은 가뭄이 가져오는 고난을 경고하고 사람들에게 대비하라고 촉구한다고 믿어진다. 따라서 ⑤가 요지다.
+WRONG_ANALYSIS:
+① 낚시 장소를 표시했다는 내용은 없고, 가뭄 때 드러나 과거 가뭄을 기록한 돌이다.
+② 돌의 글은 좋은 수확이 아니라 가뭄으로 인한 고난을 경고한다.
+③ 돌에는 과거의 심각한(severe) 가뭄 기록이 남아 있다고 했으므로 반대다.
+④ 가뭄이 들면 수위가 내려가(water levels retreat) 돌이 보인다고 했으므로 반대다. 2022년 가뭄 때 엘베강에서 돌이 발견된 것도 수위가 변한 예다.
+CHOICES_KR:
+① 기아석은 강에서 가장 좋은 낚시 장소를 표시하는 데 쓰였다.
+② 사람들은 좋은 수확을 축하하기 위해 돌에 글을 새겼다.
+③ 중부 유럽의 가뭄은 언제나 짧고 가벼웠다.
+④ 중부 유럽의 강들은 수위가 거의 변하지 않는다.
+⑤ 기아석은 사람들에게 과거의 고난을 떠올리게 하고 대비하라고 경고한다.
+[/Q04]
+
+[PASSAGE_GROUP long-mock1]
+QUESTION_IDS:
+Q05, Q06
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~9
+PASSAGE:
+In the summer of 2022, during the worst drought in 500 years in Europe, a stone known as a “hunger stone” was found in a Czech town along the Elbe River. The stone had a sentence written on it that read: “If you see me, then cry.”
+The hunger stones, found in rivers across central Europe, typically remain underwater. However, when droughts occur and water levels retreat, these stones become ① visible. The stones are ② significant because they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor. The words on the hunger stones are believed to ③ warn of these hardships and to urge people to be prepared.
+Considering the continuation of climate change, experts warn that the situation we face is not just a simple, occasional drought but a ④ mild drought that could persist for decades. The United Nations has predicted that by 2050, 75 percent of the global population could suffer from the effects of drought unless significant action is taken to ⑤ address climate change.
+ANNOTATIONS_BASIS:
+Transformed passage before generated labels; zero-based Unicode codepoints [start,end). These are not offsets in the displayed PASSAGE; text identifies each marked span.
+ANNOTATIONS:
+[{"kind": "numbered_word", "number": 1, "span": [393, 400], "text": "visible"}, {"kind": "numbered_word", "number": 2, "span": [417, 428], "text": "significant"}, {"kind": "numbered_word", "number": 3, "span": [617, 621], "text": "warn"}, {"kind": "numbered_word", "number": 4, "span": [811, 815], "text": "mild"}, {"kind": "numbered_word", "number": 5, "span": [1018, 1025], "text": "address"}]
+[/PASSAGE_GROUP long-mock1]
+
+[Q05]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~9
+TYPE:
+제목
+QUESTION:
+윗글의 제목으로 가장 적절한 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 175단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "independent_review_required": true}
+LENGTH_COMPARISON:
+{"status": "NEEDS_INDEPENDENT_REVIEW", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "long41_42", "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "reference_words": [212, 212, 216], "assessment_word_count": 175, "shorter_than_all_references": true, "independent_review_required": true, "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 175단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE_GROUP:
+long-mock1
+CHOICES:
+① Hunger Stones: Old Warnings for a Drier Future
+② How to Find Stones Hidden Under Rivers
+③ Why Europe’s Rivers Are Getting Deeper
+④ The Czech Town That Became Famous for Crying
+⑤ Farming Methods That Prevent Food Shortages
+ANSWER:
+1
+EVIDENCE:
+The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.
+EXPLANATION:
+가뭄 때 드러나는 기아석은 과거 가뭄의 기록이자 고난에 대비하라는 경고이고, 전문가와 유엔은 기후 변화로 심각한 가뭄이 오래 지속될 수 있다고 경고한다. 따라서 옛 경고가 더 건조해질 미래에도 의미가 있다는 ①이 제목으로 가장 적절하다.
+WRONG_ANALYSIS:
+② 돌을 찾는 방법은 다루지 않는다.
+③ 가뭄 때 수위가 내려간다(water levels retreat)고 했으므로 강이 깊어진다는 것은 반대다.
+④ 체코 마을은 기아석이 발견된 장소로만 나오며, 마을이 유명해진 이야기가 아니다.
+⑤ 식량 부족은 가뭄의 결과로 언급될 뿐, 그것을 막는 농사 방법은 나오지 않는다.
+CHOICES_KR:
+① 기아석: 더 건조한 미래를 위한 옛 경고
+② 강 아래 숨겨진 돌을 찾는 방법
+③ 유럽의 강들이 더 깊어지고 있는 이유
+④ 울음으로 유명해진 체코 마을
+⑤ 식량 부족을 막는 농사 방법
+[/Q05]
+
+[Q06]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+Further Reading · 원문 문장 1~9
+TYPE:
+어휘
+QUESTION:
+윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?
+LENGTH_REVIEW:
+{"profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 175단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "independent_review_required": true}
+LENGTH_COMPARISON:
+{"status": "NEEDS_INDEPENDENT_REVIEW", "profile_id": "kr-hs-english-2026-3-6-9-v1", "grade": 1, "benchmark_type": "long41_42", "benchmark_ids": ["202603241-Q41_42", "202606041-Q41_42", "202609021-Q41_42"], "reference_words": [212, 212, 216], "assessment_word_count": 175, "shorter_than_all_references": true, "independent_review_required": true, "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 175단어. 동일 유형 공식 표본보다 짧아 독립 검수에서 분량·정보 전개를 확인해야 함. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.", "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"}
+PASSAGE_GROUP:
+long-mock1
+ANSWER:
+4
+EVIDENCE:
+experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades.
+EXPLANATION:
+not just A but B 구조로 단순하고 이따금 있는 가뭄(A)보다 더 나쁜 상황(B)을 말하고, 그 가뭄은 수십 년 동안 지속될 수 있다고 한다. 따라서 ④의 mild(가벼운)는 문맥에 맞지 않고 severe(심각한)가 되어야 한다.
+WRONG_ANALYSIS:
+① 가뭄으로 수위가 내려가면 물속에 있던 돌이 보이게(visible) 된다는 흐름에 맞다.
+② 과거 가뭄의 기록을 담고 있어 중요하다(significant)는 뜻으로 적절하다.
+③ 돌의 글이 가뭄이 가져오는 고난을 경고한다(warn)는 뜻으로 적절하다.
+⑤ 기후 변화에 대처하기(address) 위해 상당한 조치가 취해져야 한다는 뜻으로 적절하다.
+[/Q06]

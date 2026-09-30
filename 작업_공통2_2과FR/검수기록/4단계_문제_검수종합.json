@@ -1,0 +1,69 @@
+{
+ "stage": "4단계 문제 독립 검수 종합 (2과 Further Reading)",
+ "date": "2026-09-29",
+ "solvers": {
+  "M": {
+   "blind": "4단계_M_블라인드답.json",
+   "reblind": [
+    "4단계_M_재풀이답.json",
+    "4단계_M_재풀이답2.json"
+   ],
+   "compare": "4단계_M_대조.json",
+   "recheck": "4단계_M_재검.json",
+   "match": "6/6 (1차), 바뀐 Q02·Q03·Q04·Q06 재풀이 4/4, Q04·Q05 재풀이 2/2",
+   "findings": "블라인드 6·세트 3, 대조 9, 재검 3 (error 0)"
+  },
+  "N": {
+   "blind": "4단계_N_블라인드답.json",
+   "reblind": [
+    "4단계_N_재풀이답.json",
+    "4단계_N_재풀이답2.json"
+   ],
+   "compare": "4단계_N_대조.json",
+   "recheck": "4단계_N_재검.json",
+   "match": "6/6 (1차), 재풀이 4/4, 2/2",
+   "findings": "블라인드 7·세트 3, 대조 7, 재검 1 (error 0)"
+  }
+ },
+ "separation": "M·N은 서로 다른 서브에이전트. 매 회차 블라인드 패킷(정답·해설 없음)으로 먼저 풀고 답 파일 저장 뒤 대조 패킷 열람. N은 M 기록을 보지 않음.",
+ "decisions": {
+  "블라인드 세트 지적(M·N 공통)": "반영: 모의 일반 3문항 지문 s01~s05/s01~s06/s01~s07로 분리, 어휘 밑줄 5개를 s08~s09로 이동(persist→cease, 정답 ③), 요지→요약 유형 교체, 함축 지문에서 s07 제외, 약한 오답 교체",
+  "워크북 지문의 어휘 원형 노출(M·N)": "미반영: 교과서 본문 전체가 해석지·분석지에 실리는 내신 교재 구조상 불가피(재풀이 지시에 명시)",
+  "M-01·M-02·N-03 Q01": "반영: ⑤에서 significant 제거·학습 어휘 연결 삭제, 75퍼센트=대부분 설명",
+  "M-03·M-04·N-04·N-05 Q04": "반영: (B) 동사를 A of B 틀(remind/relieve/assure)로, (A) dry→buried, 오답 이유 재작성",
+  "M-05·N-01 Q05 근거": "반영: UN 예측 문장 추가",
+  "N-07 Q05 해석": "반영: 미래에 대한",
+  "M-06·N-02 Q06 근거": "반영: 학생 지문(cease) 인용, 원래 낱말 persist는 해설",
+  "M-07·M-09": "수용(ACCEPTED_AS_IS): 175단어 단일 지문의 구조적 제약, 수정인계 편성표에 기록",
+  "M-08·N-06 분량": "반영: length_review rationale에 발췌 사유·독립 검수 수용 기록",
+  "M-10·N-R01 Q04 ④ 오답 이유": "반영: (A) buried를 결정 근거로 앞에 두고 assure 뜻 정정",
+  "M-11 Q05 ⑤ 홍수 소재 반복": "수용: 오류 아님(소재 반복), 수정 안 함",
+  "M-12 장문 분량 사유": "반영: 공유 장문은 별도 사유 문구(원문 전체 사용)"
+ },
+ "reverification": {
+  "record": [
+   "4단계_M_재검.json",
+   "4단계_N_재검.json"
+  ],
+  "result": "둘 다 PASS, 새 error 0. 마지막 반영(M-10·N-R01·M-12)은 해설·기록 문구만 바뀌어 정답·선지 변화 없음"
+ },
+ "question_final": {
+  "file": "공통영어2_YBM(박준언)_2과FurtherReading_문제_FINAL.txt",
+  "sha256": "609713371d7c423513b8f51f5aba68a4d57873fdfaf98cb35cf1a7531da8cfec",
+  "qc_diagnostics": false
+ },
+ "answers": {
+  "workbook": {
+   "Q01": 4
+  },
+  "mock1": {
+   "Q02": 5,
+   "Q03": 4,
+   "Q04": 2,
+   "Q05": 1,
+   "Q06": 3
+  }
+ },
+ "manuscript_sha256": "85ca8a6e23f2cffd7a1dfa9a99f768e6ed3d24137de2b58193f8102e4106ad31",
+ "docx_sha256": "c69088b3742d65a559f76c83b19df86b743b9c72753792815fba519112a91b60"
+}

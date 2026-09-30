@@ -1,0 +1,43 @@
+{
+  "reviewer": "N",
+  "solved_before_answer_key": true,
+  "inputs_read": ["/home/user/E2NEoh2/작업_공통2_2과FR/검수입력/문제_blind.json"],
+  "answers": {"Q01": 4, "Q02": 3, "Q03": 2, "Q04": 5, "Q05": 1, "Q06": 4},
+  "notes": {
+    "Q01": {
+      "evidence": "\"experts warn that the situation we face is not just a simple, occasional drought but a severe drought that could persist for decades\" — 가뭄이 수십 년 지속될 수 있다고 경고하므로 ④ 'cease within a short time'은 불일치.",
+      "closest_distractor": "⑤ 'most people in the world' — 지문은 '75 percent of the global population'. 75%를 most로 바꾼 것이라 일치로 판단 가능. ①~③은 typically remain underwater / water levels retreat → visible / bear records of the past severe droughts의 직접 환언.",
+      "doubt": "경미: ⑤의 most ↔ 75 percent 환언은 수용 가능하나 학생 일부가 멈칫할 수 있음. 복수 정답 가능성은 없음. 발문 '않는' 밑줄은 [19,21]로 정확."
+    },
+    "Q02": {
+      "evidence": "\"Droughts cause reduced harvests, food shortages, and hunger\" → ③ 'smaller harvests and a lack of food'.",
+      "closest_distractor": "② 'worst one in 50 years' — 지문은 500 years로 숫자 함정. ① spring(지문 summer), ④ only along the Elbe(지문 rivers across central Europe), ⑤ the poor least affected(지문 especially for the poor)는 명확히 배제.",
+      "doubt": "오답 네 개가 모두 단어 하나 바꾼 단순 대조형이라 쉬운 편. 지문 96단어로 고1 모의 내용 일치 유형 치고 짧음. 정답 성립에는 문제 없음."
+    },
+    "Q03": {
+      "evidence": "\"when droughts occur and water levels retreat, these stones become visible\" + \"Droughts cause reduced harvests, food shortages, and hunger\" + \"The words on the hunger stones are believed to warn of these hardships\" → ② 돌이 보이면 가뭄이 굶주림과 어려움을 가져오고 있다는 뜻.",
+      "closest_distractor": "③ '돌이 물에 훼손되어 슬퍼해야 한다' — cry와 표면적으로 연결되나 지문 근거 없음. 나머지(①홍수 추모, ④강에 되돌려 놓기, ⑤작별 장소)는 근거 전무.",
+      "doubt": "지문 마지막 문장이 밑줄의 의미를 사실상 직접 풀어 주고 오답이 지문과 무관해 너무 쉬움(함의 추론 유형의 변별력 부족). 표시: 발문에도 인용구가 밑줄 처리됨([10,34])—실제 모의고사 관례상 발문 인용구에는 밑줄을 긋지 않는 경우가 많아 확인 권장. 지문 내 밑줄 [205,229]는 따옴표 안쪽 문장에 정확."
+    },
+    "Q04": {
+      "evidence": "\"The stones are significant because they bear records of the past severe droughts.\" / \"The words on the hunger stones are believed to warn of these hardships and to urge people to be prepared.\" → ⑤.",
+      "closest_distractor": "사실상 경쟁 오답 없음. ③(가뭄은 늘 짧고 약했다), ④(수위가 거의 안 변한다)는 지문과 반대, ①②는 근거 없음.",
+      "doubt": "오답 네 개가 모두 지문과 반대이거나 무관해 정답이 티 남(너무 쉬움). ⑤ 선지가 지문 마지막 문장을 거의 그대로 옮긴 형태. 고1 요지 유형은 보통 우리말 선지가 표준인데 영어 선지로 제시됨—의도된 형식인지 확인 권장."
+    },
+    "Q05": {
+      "evidence": "앞부분은 과거 가뭄 기록·경고로서의 hunger stone(\"bear records of the past severe droughts\", \"warn of these hardships\"), 뒷부분은 기후 변화로 수십 년 지속될 가뭄과 UN 전망(\"by 2050, 75 percent of the global population could suffer from the effects of drought\") → ① 'Old Warnings for a Drier Future'.",
+      "closest_distractor": "④ 'The Czech Town That Became Famous for Crying' — 도입의 체코 마을·cry를 끌어온 표면 함정이나 지엽적이고 사실 왜곡. ②③⑤는 주제 이탈(③은 수위 하강과 반대).",
+      "doubt": "정답 명확, 복수 정답 없음. 다만 같은 회차 3번(Q04) 정답 ⑤와 내용이 겹쳐 3번을 푼 학생에게 추가 단서가 됨."
+    },
+    "Q06": {
+      "evidence": "\"not just a simple, occasional drought but a ④ mild drought that could persist for decades\" — not just A but B 구조상 B는 A보다 강한 개념이어야 하고, 앞 문맥(past severe droughts, climate change 경고)과도 맞지 않음 → mild가 부적절(원래 severe 등).",
+      "closest_distractor": "⑤ address — '기후 변화에 대처하다'로 적절. ① visible(수위 하강 시 보임), ② significant(기록을 지녀 중요), ③ warn(고난을 경고)도 모두 적절.",
+      "doubt": "복수 정답 없음. 다만 세트 누출: 같은 회차 Q02~Q04 지문에 visible·significant·warn이 원형 그대로 실려 있어 ①②③이 적절함이 즉시 확인되고 사실상 ④·⑤ 양자택일이 됨. 또한 워크북 Q01 지문에 원래 낱말 'a severe drought that could persist for decades'가 그대로 나와 워크북과 모의고사를 함께 배포하면 정답이 그대로 노출됨. 발문 '않은' 밑줄 [36,38] 정확, 지문 밑줄 5개 위치도 visible/significant/warn/mild/address로 정확."
+    }
+  },
+  "set_level": {
+    "leak_check": "(1) 모의 1회 안: Q02(1번)·Q03(2번)·Q04(3번) 지문이 장문 1~2문단과 동일해 Q06의 ① visible ② significant ③ warn이 원문 그대로 노출됨 → 5지선다가 ④/⑤ 2지선다로 축소. 바뀐 낱말 ④ mild의 원형(severe)은 모의 1회 안의 다른 지문에는 나오지 않음(Q02~Q04는 3문단 미포함). (2) 교재 간: 워크북 Q01 지문이 전문을 담고 있어 'a severe drought that could persist for decades'가 그대로 보임 → 함께 쓰이면 Q06 정답 직접 누출. (3) Q04 정답 ⑤와 Q05 정답 ①이 같은 요지를 공유하고, Q03 지문 마지막 문장이 Q03 정답을 직접 풀어 줌.",
+    "length": "단어 수: Q02 96, Q03·Q04 각 116, 장문 세트(Q05·Q06) 180, 워크북 Q01 175. 고1 모의 기준 내용 일치(보통 130~170), 밑줄 함의(보통 150 이상, 추상도 높은 고난도 유형), 요지(보통 120~150), 장문 제목·어휘(보통 250~300 이상)에 비해 모두 짧음. 문항 자체는 성립하나 Q03·Q04는 근거가 한두 문장에 몰려 변별력이 낮고, 장문 세트는 '장문'으로 보기 어려운 길이. 교과서 한 과 지문 범위의 한계로 보이며 ‘교과서 기반 미니 모의’ 성격으로 허용 가능한 수준이지만 고1 모의고사 난이도와 동등하다고 보기는 어려움.",
+    "overlap": "모의 2번(Q03)·3번(Q04)이 글자까지 동일한 지문(116단어)을 사용. 단독으로 정답 성립에는 문제가 없으나, 3번 정답 ⑤('warn them to prepare')가 2번 밑줄 의미 풀이 근거와 같은 문장에서 나와 상호 힌트가 되고, 학생 입장에서 같은 지문을 두 번 읽는 비효율과 '모의고사' 형식감 저하가 있음. 1번(Q02)도 같은 지문의 앞부분이며 장문(Q05·Q06)도 같은 글이라 회차 전체가 한 지문의 반복. 교과서 단일 지문 회차라 불가피한 면이 있으나, 최소한 2·3번 중 하나는 범위를 달리하거나(예: 3번은 3문단 포함 전문으로 요지) 유형을 바꾸는 것을 권장. 치명적 결함은 아님(주의 수준)."
+  }
+}

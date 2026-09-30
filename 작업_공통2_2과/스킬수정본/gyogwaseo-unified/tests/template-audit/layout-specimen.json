@@ -1,0 +1,1747 @@
+{
+  "purpose": "LAYOUT_SPECIMEN_ONLY",
+  "blocks": [
+    {
+      "id": "cover",
+      "elements": [
+        {
+          "role": "cover_brand",
+          "runs": [
+            {
+              "run": 0,
+              "text": "TOM’S EDU   /   독해편"
+            }
+          ]
+        },
+        {
+          "role": "cover_lesson_label",
+          "runs": [
+            {
+              "run": 0,
+              "text": "LESSON"
+            }
+          ]
+        },
+        {
+          "role": "cover_lesson_number",
+          "runs": [
+            {
+              "run": 0,
+              "text": "00"
+            }
+          ]
+        },
+        {
+          "role": "cover_course_title",
+          "runs": [
+            {
+              "run": 0,
+              "text": "영어2 혼공교재"
+            }
+          ]
+        },
+        {
+          "role": "cover_publisher",
+          "runs": [
+            {
+              "run": 0,
+              "text": "서식 시험본 · 내용·문항 검수 완료본 아님"
+            }
+          ]
+        },
+        {
+          "kind": "table",
+          "role": "cover_topic_box",
+          "entries": [
+            "A Shared Textbook Standard",
+            "클로드 · GPT · 코덱스 공통 서식"
+          ]
+        },
+        {
+          "role": "cover_counts",
+          "runs": [
+            {
+              "run": 0,
+              "text": "기존 MASTER 역할과 확정 예외의 결합"
+            }
+          ]
+        },
+        {
+          "role": "cover_assessment_counts",
+          "runs": [
+            {
+              "run": 0,
+              "text": "문장·각주 · 분석 3줄 · 워크북 · 주어진 글 박스 · 해설"
+            }
+          ]
+        },
+        {
+          "role": "cover_steps_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "이 한 권으로 이어지는 학습"
+            }
+          ]
+        },
+        {
+          "role": "cover_step",
+          "runs": [
+            {
+              "run": 0,
+              "text": "01   혼공해석지 — 먼저 스스로 해석하기"
+            }
+          ]
+        },
+        {
+          "role": "cover_step",
+          "runs": [
+            {
+              "run": 0,
+              "text": "02   지문 분석 — 해석을 비교하고 흐름과 어법 확인하기"
+            }
+          ]
+        },
+        {
+          "role": "cover_step",
+          "runs": [
+            {
+              "run": 0,
+              "text": "03   워크북 — 단어와 문단별 실전문제 풀기"
+            }
+          ]
+        },
+        {
+          "role": "cover_step",
+          "runs": [
+            {
+              "run": 0,
+              "text": "04   미니 모의고사 — 세 회로 학습 마무리하기"
+            }
+          ],
+          "chain": false
+        }
+      ]
+    },
+    {
+      "id": "unit1/reading",
+      "elements": [
+        {
+          "role": "interpretation_header",
+          "runs": [
+            {
+              "run": 0,
+              "text": "공통 조판 시험 · 혼공해석지"
+            }
+          ],
+          "page_break_before": true
+        },
+        {
+          "role": "unit_source_range",
+          "runs": [
+            {
+              "run": 0,
+              "text": "문단 1 · 서식 표본"
+            }
+          ]
+        },
+        {
+          "role": "unit_topic_english",
+          "runs": [
+            {
+              "run": 0,
+              "text": "A Broken Laptop and a Hidden Problem"
+            },
+            {
+              "run": 0,
+              "text": " (고장 난 노트북과 그 뒤에 숨은 문제)",
+              "format_role": "unit_topic_korean"
+            }
+          ]
+        },
+        {
+          "role": "unit_hook",
+          "runs": [
+            {
+              "run": 0,
+              "text": "잠깐, 이 글은"
+            },
+            {
+              "run": 1,
+              "text": "  길에서 노트북을 떨어뜨린 Liz는 고칠지 버릴지 망설입니다. 이 선택이 왜 큰 문제로 이어질까요?"
+            }
+          ]
+        },
+        {
+          "role": "guide_reading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "읽는 법  "
+            },
+            {
+              "run": 1,
+              "text": "① / 마다 끊어 읽기   ② 동사(V) 찾기   ③ 주어(S) 찾기   ④ ※ 단어 뜻 보기(★부터)   ⑤ 아래 줄에 내 해석 쓰기   ⑥ 지문 분석지의 끊어읽기 해석과 비교"
+            }
+          ]
+        },
+        {
+          "role": "guide_symbols",
+          "runs": [
+            {
+              "run": 0,
+              "text": "기호  "
+            },
+            {
+              "run": 1,
+              "text": "/ 끊어 읽는 곳     ★ 꼭 외울 말     S 주어     V 동사     S′·V′ 절 속의 주어·동사"
+            },
+            {
+              "run": 2,
+              "text": "\n        (주격 관계대명사 뒤에는 별도 주어가 없어 V′만 표시)     [ ] 그 절을 이끄는 말(that·if·when 등)"
+            },
+            {
+              "run": 3,
+              "text": "\n        [( )] 생략된 접속사·관계사     ／ 절과 절의 경계     [and]·[;]는 절을 잇는 표시이며, S·V/S′·V′는 실제 절의 범위에 따릅니다."
+            },
+            {
+              "run": 4,
+              "text": "\n        주어 없이 동사로 시작하면 명령문 — 주어를 적지 않습니다     ~ 다른 말이 들어갈 자리"
+            }
+          ]
+        },
+        {
+          "role": "guide_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "시작하기 전에 꼭"
+            }
+          ]
+        },
+        {
+          "role": "guide_item_one",
+          "runs": [
+            {
+              "run": 0,
+              "text": "① 문장 맨 앞이 늘 주어는 아닙니다."
+            },
+            {
+              "run": 1,
+              "text": "\n"
+            },
+            {
+              "run": 2,
+              "text": "   In · At · On · With · For · From · By 같은 전치사로 시작하는 덩어리는 지우고, 그 뒤에서 「누가·무엇이」를 찾으세요."
+            },
+            {
+              "run": 3,
+              "text": "\n"
+            },
+            {
+              "run": 4,
+              "text": "   In flexible-time cultures, it seems …  →  In flexible-time cultures를 지우면 주어는 it"
+            },
+            {
+              "run": 5,
+              "text": "\n"
+            },
+            {
+              "run": 6,
+              "text": "   문두의 접속사절 범위를 먼저 확인하고 주절의 주어를 찾으세요. 콤마 유무만으로 구분하지 않습니다."
+            },
+            {
+              "run": 7,
+              "text": "\n"
+            },
+            {
+              "run": 8,
+              "text": "   When we bought the bookshelves, the manager said …  →  주어는 the manager"
+            }
+          ]
+        },
+        {
+          "role": "guide_item_two",
+          "runs": [
+            {
+              "run": 0,
+              "text": "② 해석은 S에 「은·는」, S′에 「이·가」를 붙여 시작합니다."
+            },
+            {
+              "run": 1,
+              "text": "\n"
+            },
+            {
+              "run": 2,
+              "text": "   S they → 그들은        S′ the meeting → 그 회의가"
+            }
+          ]
+        },
+        {
+          "role": "guide_item_three",
+          "runs": [
+            {
+              "run": 0,
+              "text": "③ 한 문장에 동사가 둘이면 둘 다 적어 뒀어요."
+            },
+            {
+              "run": 1,
+              "text": "\n"
+            },
+            {
+              "run": 2,
+              "text": "   and로 이어지면 V1 and V2, 절이 나뉘면 S·V를 따로 적었습니다."
+            },
+            {
+              "run": 3,
+              "text": "\n"
+            },
+            {
+              "run": 4,
+              "text": "   주어·동사 줄은 문장에 나온 순서 그대로입니다. [ ] 안에는 그 절을 이끄는 말을 적었습니다. 이끄는 말이 없는 주절은 S·V로 바로 표시합니다."
+            }
+          ]
+        },
+        {
+          "role": "interpretation_rule",
+          "runs": []
+        },
+        {
+          "role": "interpretation_english",
+          "runs": [
+            {
+              "run": 0,
+              "text": "1. "
+            },
+            {
+              "run": 1,
+              "text": "On her way to a study group meeting,"
+            },
+            {
+              "run": 2,
+              "text": "  /  "
+            },
+            {
+              "run": 3,
+              "text": "Liz accidentally dropped her laptop"
+            },
+            {
+              "run": 4,
+              "text": "  /  "
+            },
+            {
+              "run": 5,
+              "text": "on the street,"
+            },
+            {
+              "run": 6,
+              "text": "  /  "
+            },
+            {
+              "run": 7,
+              "text": "seriously damaging it."
+            }
+          ]
+        },
+        {
+          "role": "sv",
+          "runs": [
+            {
+              "run": 0,
+              "text": "주어·동사  "
+            },
+            {
+              "run": 1,
+              "text": "S: Liz, V: dropped"
+            }
+          ]
+        },
+        {
+          "role": "gloss",
+          "runs": [
+            {
+              "run": 0,
+              "text": "※ On her way to — ~로 가는 길에 (on one’s way to) / study group meeting — 스터디 모임 / Liz — 리즈 / "
+            },
+            {
+              "run": 1,
+              "text": "★"
+            },
+            {
+              "run": 2,
+              "text": " accidentally — 실수로 / dropped — 떨어뜨렸다 / laptop — 노트북 / on — ~위에 / street — 길 / seriously — 심하게 / damaging — 손상시켜서 (이 문장의 V-ing — 그 결과 ~해서 + damage — 손상시키다) / it — 그것을(노트북을)"
+            }
+          ]
+        },
+        {
+          "role": "structure_hint",
+          "runs": [
+            {
+              "run": 0,
+              "text": "구조 힌트  "
+            },
+            {
+              "run": 1,
+              "text": "seriously damaging it → 그것을 심하게 손상시키며 (현재분사 — 앞 행동의 결과를 나타내는 분사구문)"
+            }
+          ]
+        },
+        {
+          "role": "interpretation_answer_label",
+          "runs": [
+            {
+              "run": 0,
+              "text": "나의 해석"
+            }
+          ]
+        },
+        {
+          "role": "interpretation_answer_space_one",
+          "runs": []
+        },
+        {
+          "role": "interpretation_answer_space_two",
+          "runs": [],
+          "chain": false
+        },
+        {
+          "role": "interpretation_key_english",
+          "runs": [
+            {
+              "run": 0,
+              "text": "6. "
+            },
+            {
+              "run": 1,
+              "text": "In this case,"
+            },
+            {
+              "run": 2,
+              "text": "  /  "
+            },
+            {
+              "run": 3,
+              "text": "getting rid of the old one"
+            },
+            {
+              "run": 4,
+              "text": "  /  "
+            },
+            {
+              "run": 5,
+              "text": "and purchasing a new one"
+            },
+            {
+              "run": 6,
+              "text": "  /  "
+            },
+            {
+              "run": 7,
+              "text": "might seem like a more reasonable option."
+            },
+            {
+              "run": 8,
+              "text": "   ★핵심"
+            }
+          ]
+        },
+        {
+          "role": "sv",
+          "runs": [
+            {
+              "run": 0,
+              "text": "주어·동사  "
+            },
+            {
+              "run": 1,
+              "text": "S: getting rid of the old one and purchasing a new one, V: might seem"
+            }
+          ]
+        },
+        {
+          "role": "gloss",
+          "runs": [
+            {
+              "run": 0,
+              "text": "※ On her way to — ~로 가는 길에 (on one’s way to) / study group meeting — 스터디 모임 / Liz — 리즈 / "
+            },
+            {
+              "run": 1,
+              "text": "★"
+            },
+            {
+              "run": 2,
+              "text": " accidentally — 실수로 / dropped — 떨어뜨렸다 / laptop — 노트북 / on — ~위에 / street — 길 / seriously — 심하게 / damaging — 손상시켜서 (이 문장의 V-ing — 그 결과 ~해서 + damage — 손상시키다) / it — 그것을(노트북을)"
+            }
+          ]
+        },
+        {
+          "role": "interpretation_answer_label",
+          "runs": [
+            {
+              "run": 0,
+              "text": "나의 해석"
+            }
+          ]
+        },
+        {
+          "role": "interpretation_answer_space_one",
+          "runs": []
+        },
+        {
+          "role": "interpretation_answer_space_two",
+          "runs": [],
+          "chain": true
+        },
+        {
+          "role": "interpretation_review_line",
+          "runs": [
+            {
+              "run": 0,
+              "text": "틀린 문장은 다음에 다시!  "
+            },
+            {
+              "run": 1,
+              "text": "지문 분석지의 해석과 달랐던 문장 번호를 여기 적어 두고, 다음엔 그것만 다시 풀어요 → "
+            },
+            {
+              "run": 2,
+              "text": "________________"
+            }
+          ],
+          "chain": false
+        }
+      ]
+    },
+    {
+      "id": "unit1/analysis",
+      "elements": [
+        {
+          "role": "analysis_header",
+          "runs": [
+            {
+              "run": 0,
+              "text": "문단 1 | 지문 분석"
+            }
+          ],
+          "page_break_before": true
+        },
+        {
+          "role": "analysis_english_chunks",
+          "runs": [
+            {
+              "run": 0,
+              "text": "1. "
+            },
+            {
+              "run": 1,
+              "text": "1"
+            },
+            {
+              "run": 2,
+              "text": "On her way to a study group meeting,"
+            },
+            {
+              "run": 3,
+              "text": " / "
+            },
+            {
+              "run": 4,
+              "text": "2"
+            },
+            {
+              "run": 5,
+              "text": "Liz accidentally dropped her laptop"
+            },
+            {
+              "run": 6,
+              "text": " / "
+            },
+            {
+              "run": 7,
+              "text": "3"
+            },
+            {
+              "run": 8,
+              "text": "on the street,"
+            },
+            {
+              "run": 9,
+              "text": " / "
+            },
+            {
+              "run": 10,
+              "text": "4"
+            },
+            {
+              "run": 11,
+              "text": "seriously damaging it."
+            }
+          ]
+        },
+        {
+          "role": "analysis_korean_chunks",
+          "runs": [
+            {
+              "run": 0,
+              "text": "1"
+            },
+            {
+              "run": 1,
+              "text": "스터디 모임에 가는 길에,"
+            },
+            {
+              "run": 2,
+              "text": " / "
+            },
+            {
+              "run": 3,
+              "text": "2"
+            },
+            {
+              "run": 4,
+              "text": "Liz는 실수로 자기 노트북을 떨어뜨렸다"
+            },
+            {
+              "run": 5,
+              "text": " / "
+            },
+            {
+              "run": 6,
+              "text": "3"
+            },
+            {
+              "run": 7,
+              "text": "길 위에,"
+            },
+            {
+              "run": 8,
+              "text": " / "
+            },
+            {
+              "run": 9,
+              "text": "4"
+            },
+            {
+              "run": 10,
+              "text": "그 결과 그것을 심하게 손상시켰다."
+            }
+          ]
+        },
+        {
+          "role": "analysis_natural_translation",
+          "runs": [
+            {
+              "run": 0,
+              "text": "↳ 자연 해석  "
+            },
+            {
+              "run": 1,
+              "text": "스터디 모임에 가던 길에 Liz는 그만 노트북을 길바닥에 떨어뜨려 크게 망가뜨리고 말았다."
+            }
+          ]
+        },
+        {
+          "role": "analysis_sentence_gap",
+          "runs": []
+        },
+        {
+          "role": "analysis_header",
+          "runs": [
+            {
+              "run": 0,
+              "text": "문단 1 | 지문 분석"
+            }
+          ],
+          "page_break_before": true
+        },
+        {
+          "role": "analysis_section_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "▶ 글의 의도"
+            }
+          ]
+        },
+        {
+          "role": "analysis_prose",
+          "runs": [
+            {
+              "run": 0,
+              "text": "고장 난 노트북을 버리고 새것을 사는 쪽이 편해 보이지만, 그렇게 하면 전자 폐기물 문제를 키우게 된다고 말하고 있다."
+            }
+          ]
+        },
+        {
+          "role": "analysis_sentence_gap",
+          "runs": []
+        },
+        {
+          "role": "analysis_flow_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "▶ 글의 흐름"
+            }
+          ]
+        },
+        {
+          "role": "analysis_flow_item",
+          "runs": [
+            {
+              "run": 0,
+              "text": "(도입) "
+            },
+            {
+              "run": 1,
+              "text": "[1~3번 문장]"
+            },
+            {
+              "run": 2,
+              "text": " — Liz가 노트북을 떨어뜨려 망가뜨렸고, 수리를 망설인다"
+            }
+          ]
+        },
+        {
+          "role": "analysis_sentence_gap",
+          "runs": []
+        },
+        {
+          "role": "analysis_easy_explanation_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "▶ 각 문장 쉬운 풀이"
+            }
+          ]
+        },
+        {
+          "role": "analysis_easy_sentence",
+          "runs": [
+            {
+              "run": 0,
+              "text": "[3번 문장] "
+            },
+            {
+              "run": 1,
+              "text": "She can have it repaired, but she is hesitating to do so."
+            }
+          ]
+        },
+        {
+          "role": "analysis_easy_explanation",
+          "runs": [
+            {
+              "run": 0,
+              "text": "↳ "
+            },
+            {
+              "run": 1,
+              "text": "Liz가 직접 수리한다는 뜻이 아니라 다른 사람에게 맡겨 고칠 수 있다는 뜻이에요. 하지만 비용과 시간이 걱정돼 아직 결정을 못 하고 있어요."
+            }
+          ]
+        },
+        {
+          "role": "analysis_sentence_gap",
+          "runs": []
+        },
+        {
+          "role": "analysis_grammar_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "▶ 어법 포인트"
+            }
+          ]
+        },
+        {
+          "role": "analysis_grammar_item",
+          "runs": [
+            {
+              "run": 0,
+              "text": "① 결과를 덧붙이는 -ing"
+            },
+            {
+              "run": 1,
+              "text": " [1번 문장]"
+            },
+            {
+              "run": 2,
+              "text": ": "
+            },
+            {
+              "run": 3,
+              "text": "seriously damaging it"
+            },
+            {
+              "run": 4,
+              "text": " — 여기서는 노트북을 떨어뜨린 결과 심하게 손상시켰다는 뜻이다. 「, V-ing」가 항상 동시동작을 뜻하는 것은 아니며, 이 문장에서는 「그 결과 ~했다」로 연결한다."
+            }
+          ]
+        },
+        {
+          "role": "analysis_sentence_gap",
+          "runs": []
+        },
+        {
+          "role": "analysis_relations_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "▶ 필수 유의어 / 반의어"
+            }
+          ]
+        },
+        {
+          "role": "analysis_relations_item",
+          "runs": [
+            {
+              "run": 0,
+              "text": "expensive"
+            },
+            {
+              "run": 1,
+              "text": " (비싼)"
+            },
+            {
+              "run": 2,
+              "text": "   ≈  "
+            },
+            {
+              "run": 3,
+              "text": "costly"
+            },
+            {
+              "run": 4,
+              "text": " (비용이 많이 드는)"
+            },
+            {
+              "run": 5,
+              "text": "   ↔ "
+            },
+            {
+              "run": 6,
+              "text": "inexpensive"
+            },
+            {
+              "run": 7,
+              "text": " (비싸지 않은)"
+            }
+          ],
+          "chain": false
+        }
+      ]
+    },
+    {
+      "id": "unit1/workbook",
+      "elements": [
+        {
+          "role": "workbook_header",
+          "runs": [
+            {
+              "run": 0,
+              "text": "문단 1 워크북 · 서식 표본"
+            }
+          ],
+          "page_break_before": true
+        },
+        {
+          "role": "workbook_subtitle",
+          "runs": [
+            {
+              "run": 0,
+              "text": "A Broken Laptop and a Hidden Problem (고장 난 노트북과 그 뒤에 숨은 문제)"
+            }
+          ]
+        },
+        {
+          "role": "workbook_words_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "1. 오늘의 낱말 — 우리말 뜻을 쓰세요"
+            }
+          ]
+        },
+        {
+          "kind": "table",
+          "role": "workbook_word_table",
+          "entries": [
+            "accidentally",
+            "cracked",
+            "hesitating",
+            "repairs",
+            "reasonable option",
+            "purchasing",
+            "contributing",
+            "e-waste"
+          ]
+        },
+        {
+          "role": "workbook_table_gap",
+          "runs": []
+        },
+        {
+          "role": "workbook_relations_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "2. 유의어·반의어 뜻 쓰기 — 우리말 뜻을 쓰세요"
+            }
+          ]
+        },
+        {
+          "kind": "table",
+          "role": "workbook_relations_table",
+          "entries": [
+            "sensible",
+            "minor",
+            "expensive",
+            "unreasonable",
+            "costly",
+            "serious",
+            "inexpensive",
+            "reasonable",
+            "grave"
+          ]
+        },
+        {
+          "role": "workbook_table_gap",
+          "runs": []
+        },
+        {
+          "role": "workbook_question_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "3. 실전문제"
+            }
+          ]
+        },
+        {
+          "role": "workbook_question_prompt",
+          "runs": [
+            {
+              "run": 0,
+              "text": "1. 다음 글의 요지로 가장 적절한 것은?"
+            }
+          ]
+        },
+        {
+          "role": "workbook_question_passage",
+          "runs": [
+            {
+              "run": 0,
+              "text": "On her way to a study group meeting, Liz accidentally dropped her laptop on the street, seriously damaging it. Although it still turns on, the screen is cracked, and some keys are not working. She can have it repaired, but she is hesitating to do so. Sometimes repairs are expensive, and they often take a long time. Besides, the laptop is about five years old. In this case, getting rid of the old one and purchasing a new one might seem like a more reasonable option. In reality, however, it may not be the best thing to do. If Liz throws her laptop in the trash, she will be contributing to a serious problem: e-waste."
+            }
+          ]
+        },
+        {
+          "role": "workbook_question_choice",
+          "runs": [
+            {
+              "run": 0,
+              "text": "① "
+            },
+            {
+              "run": 1,
+              "text": "Repair costs determine the value of every electronic device."
+            }
+          ],
+          "chain": true
+        },
+        {
+          "role": "workbook_question_choice",
+          "runs": [
+            {
+              "run": 0,
+              "text": "② "
+            },
+            {
+              "run": 1,
+              "text": "Replacing a broken laptop can add to the problem of e-waste."
+            }
+          ],
+          "chain": true
+        },
+        {
+          "role": "workbook_question_choice",
+          "runs": [
+            {
+              "run": 0,
+              "text": "③ "
+            },
+            {
+              "run": 1,
+              "text": "Longer use always makes repairing a laptop less expensive."
+            }
+          ],
+          "chain": true
+        },
+        {
+          "role": "workbook_question_choice",
+          "runs": [
+            {
+              "run": 0,
+              "text": "④ "
+            },
+            {
+              "run": 1,
+              "text": "Electronic devices have become simpler to repair at home."
+            }
+          ],
+          "chain": true
+        },
+        {
+          "role": "workbook_question_choice",
+          "runs": [
+            {
+              "run": 0,
+              "text": "⑤ "
+            },
+            {
+              "run": 1,
+              "text": "Repairing a laptop usually causes more waste than replacing it."
+            }
+          ],
+          "chain": false
+        },
+        {
+          "role": "workbook_question_gap",
+          "runs": []
+        },
+        {
+          "role": "workbook_key_sentences_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "4. 핵심 문장 1개 다시 해석하기"
+            }
+          ]
+        },
+        {
+          "role": "workbook_key_sentence",
+          "runs": [
+            {
+              "run": 0,
+              "text": "1.  "
+            },
+            {
+              "run": 1,
+              "text": "In this case, getting rid of the old one and purchasing a new one might seem like a more reasonable option."
+            }
+          ]
+        },
+        {
+          "role": "workbook_key_answer_label",
+          "runs": [
+            {
+              "run": 0,
+              "text": "나의 해석  "
+            }
+          ]
+        },
+        {
+          "role": "workbook_key_answer_space",
+          "runs": [],
+          "chain": false
+        }
+      ]
+    },
+    {
+      "id": "mock1",
+      "elements": [
+        {
+          "role": "mock_round_header",
+          "runs": [
+            {
+              "run": 0,
+              "text": "미니 모의고사 · 박스 서식 표본"
+            }
+          ],
+          "page_break_before": true
+        },
+        {
+          "role": "mock_subtitle",
+          "runs": [
+            {
+              "run": 0,
+              "text": "삽입과 순서 · 서식 확인용"
+            }
+          ]
+        },
+        {
+          "role": "mock_question_prompt",
+          "runs": [
+            {
+              "run": 0,
+              "text": "1. 주어진 문장이 들어가기에 가장 적절한 곳은?"
+            }
+          ]
+        },
+        {
+          "role": "given_label",
+          "runs": [
+            {
+              "run": 0,
+              "text": "〈주어진 문장〉"
+            }
+          ]
+        },
+        {
+          "role": "given_box",
+          "runs": [
+            {
+              "run": 0,
+              "text": "Repairing a device can help reduce the amount of waste we produce."
+            }
+          ]
+        },
+        {
+          "role": "mock_question_passage",
+          "runs": [
+            {
+              "run": 0,
+              "text": "On her way to a study group meeting, Liz accidentally dropped her laptop on the street, seriously damaging it. Although it still turns on, the screen is cracked, and some keys are not working. She can have it repaired, but she is hesitating to do so. Sometimes repairs are expensive, and they often take a long time. Besides, the laptop is about five years old. In this case, getting rid of the old one and purchasing a new one might seem like a ________________. In reality, however, it may not be the best thing to do. If Liz throws her laptop in the trash, she will be contributing to a serious problem: e-waste."
+            }
+          ]
+        },
+        {
+          "role": "mock_question_prompt_spaced",
+          "runs": [
+            {
+              "run": 0,
+              "text": "2. 주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?"
+            }
+          ]
+        },
+        {
+          "role": "given_label",
+          "runs": [
+            {
+              "run": 0,
+              "text": "〈주어진 글〉"
+            }
+          ]
+        },
+        {
+          "role": "given_box",
+          "runs": [
+            {
+              "run": 0,
+              "text": "Many people replace damaged electronic devices instead of repairing them. This choice may seem convenient, but it can have a serious environmental cost."
+            }
+          ]
+        },
+        {
+          "role": "mock_question_passage",
+          "runs": [
+            {
+              "run": 0,
+              "text": "(A) Some communities now offer practical support for repairs."
+            }
+          ]
+        },
+        {
+          "role": "mock_question_passage",
+          "runs": [
+            {
+              "run": 0,
+              "text": "(B) Throwing devices away adds to the growing amount of e-waste."
+            }
+          ]
+        },
+        {
+          "role": "mock_question_passage",
+          "runs": [
+            {
+              "run": 0,
+              "text": "(C) People can use this support to keep their devices working longer."
+            }
+          ]
+        },
+        {
+          "role": "mock_question_choice",
+          "runs": [
+            {
+              "run": 0,
+              "text": "① "
+            },
+            {
+              "run": 1,
+              "text": "(A) → (C) → (B)"
+            }
+          ],
+          "chain": true
+        },
+        {
+          "role": "mock_question_choice",
+          "runs": [
+            {
+              "run": 0,
+              "text": "② "
+            },
+            {
+              "run": 1,
+              "text": "(B) → (A) → (C)"
+            }
+          ],
+          "chain": true
+        },
+        {
+          "role": "mock_question_choice",
+          "runs": [
+            {
+              "run": 0,
+              "text": "③ "
+            },
+            {
+              "run": 1,
+              "text": "(B) → (C) → (A)"
+            }
+          ],
+          "chain": true
+        },
+        {
+          "role": "mock_question_choice",
+          "runs": [
+            {
+              "run": 0,
+              "text": "④ "
+            },
+            {
+              "run": 1,
+              "text": "(C) → (A) → (B)"
+            }
+          ],
+          "chain": true
+        },
+        {
+          "role": "mock_question_choice",
+          "runs": [
+            {
+              "run": 0,
+              "text": "⑤ "
+            },
+            {
+              "run": 1,
+              "text": "(C) → (B) → (A)"
+            }
+          ],
+          "chain": false
+        }
+      ]
+    },
+    {
+      "id": "answers",
+      "elements": [
+        {
+          "role": "answers_header",
+          "runs": [
+            {
+              "run": 0,
+              "text": "정답과 해설 · 서식 표본"
+            }
+          ],
+          "page_break_before": true
+        },
+        {
+          "role": "quick_answers_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "객관식 빠른 정답"
+            }
+          ]
+        },
+        {
+          "role": "quick_answers_set_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "미니 모의고사 1회"
+            }
+          ]
+        },
+        {
+          "role": "quick_answers_row",
+          "runs": [
+            {
+              "run": 0,
+              "text": "1. ④   2. ②   3. ⑤   4. ①   5. ③"
+            }
+          ]
+        },
+        {
+          "role": "workbook_answers_header",
+          "runs": [
+            {
+              "run": 0,
+              "text": "워크북 정답"
+            }
+          ]
+        },
+        {
+          "role": "workbook_answer_unit_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "문단 1 워크북 정답"
+            }
+          ]
+        },
+        {
+          "role": "workbook_answer_activity_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "1. 오늘의 낱말"
+            }
+          ]
+        },
+        {
+          "kind": "table",
+          "role": "workbook_answer_grid",
+          "entries": [
+            {
+              "runs": [
+                {
+                  "run": 0,
+                  "text": "1."
+                },
+                {
+                  "run": 1,
+                  "text": " 실수로"
+                }
+              ]
+            },
+            {
+              "runs": [
+                {
+                  "run": 0,
+                  "text": "2."
+                },
+                {
+                  "run": 1,
+                  "text": " 금이 간"
+                }
+              ]
+            },
+            {
+              "runs": [
+                {
+                  "run": 0,
+                  "text": "3."
+                },
+                {
+                  "run": 1,
+                  "text": " 망설이는"
+                }
+              ]
+            },
+            {
+              "runs": [
+                {
+                  "run": 0,
+                  "text": "4."
+                },
+                {
+                  "run": 1,
+                  "text": " 수리"
+                }
+              ]
+            },
+            {
+              "runs": [
+                {
+                  "run": 0,
+                  "text": "5."
+                },
+                {
+                  "run": 1,
+                  "text": " 합리적인 선택"
+                }
+              ]
+            },
+            {
+              "runs": [
+                {
+                  "run": 0,
+                  "text": "6."
+                },
+                {
+                  "run": 1,
+                  "text": " 구매하는"
+                }
+              ]
+            },
+            {
+              "runs": [
+                {
+                  "run": 0,
+                  "text": "7."
+                },
+                {
+                  "run": 1,
+                  "text": " 기여하는"
+                }
+              ]
+            },
+            {
+              "runs": [
+                {
+                  "run": 0,
+                  "text": "8."
+                },
+                {
+                  "run": 1,
+                  "text": " 전자 폐기물"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "workbook_key_answers_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "4. 핵심 문장 해석"
+            }
+          ]
+        },
+        {
+          "role": "workbook_key_answer",
+          "runs": [
+            {
+              "run": 0,
+              "text": "1. 이런 상황이라면 쓰던 노트북을 처분하고 새것을 사는 편이 더 합리적인 선택처럼 보일 수 있다."
+            }
+          ]
+        },
+        {
+          "role": "mock_answers_header",
+          "runs": [
+            {
+              "run": 0,
+              "text": "미니 모의고사 1회 정답과 해설"
+            }
+          ],
+          "page_break_before": false
+        },
+        {
+          "role": "question_answer",
+          "runs": [
+            {
+              "run": 0,
+              "text": "1. "
+            },
+            {
+              "run": 1,
+              "text": "④"
+            }
+          ]
+        },
+        {
+          "role": "question_evidence",
+          "runs": [
+            {
+              "run": 0,
+              "text": "정답 근거  원문 4~6번: 비싼 수리비, 긴 수리 시간, 약 5년 된 기기를 근거로 새것 구매가 “a more reasonable option”처럼 보인다고 한다."
+            }
+          ]
+        },
+        {
+          "role": "question_explanation",
+          "runs": [
+            {
+              "run": 0,
+              "text": "빈칸은 교체가 처음에는 합리적인 선택처럼 보인다는 판단을 나타낸다. sensible choice는 reasonable option을 문맥에 맞게 바꾼 표현이다."
+            }
+          ]
+        },
+        {
+          "role": "choice_translation_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "선지 해석"
+            }
+          ]
+        },
+        {
+          "role": "choice_translation",
+          "runs": [
+            {
+              "run": 0,
+              "text": "①  "
+            },
+            {
+              "run": 1,
+              "text": "English choice 1  "
+            },
+            {
+              "run": 2,
+              "text": "(선지 1의 한국어 해석)"
+            }
+          ]
+        },
+        {
+          "role": "choice_translation",
+          "runs": [
+            {
+              "run": 0,
+              "text": "②  "
+            },
+            {
+              "run": 1,
+              "text": "English choice 2  "
+            },
+            {
+              "run": 2,
+              "text": "(선지 2의 한국어 해석)"
+            }
+          ]
+        },
+        {
+          "role": "choice_translation",
+          "runs": [
+            {
+              "run": 0,
+              "text": "③  "
+            },
+            {
+              "run": 1,
+              "text": "English choice 3  "
+            },
+            {
+              "run": 2,
+              "text": "(선지 3의 한국어 해석)"
+            }
+          ]
+        },
+        {
+          "role": "correct_choice_translation",
+          "runs": [
+            {
+              "run": 0,
+              "text": "④  "
+            },
+            {
+              "run": 1,
+              "text": "English choice 4  "
+            },
+            {
+              "run": 2,
+              "text": "(선지 4의 한국어 해석)"
+            }
+          ]
+        },
+        {
+          "role": "choice_translation",
+          "runs": [
+            {
+              "run": 0,
+              "text": "⑤  "
+            },
+            {
+              "run": 1,
+              "text": "English choice 5  "
+            },
+            {
+              "run": 2,
+              "text": "(선지 5의 한국어 해석)"
+            }
+          ]
+        },
+        {
+          "role": "wrong_reasons_heading",
+          "runs": [
+            {
+              "run": 0,
+              "text": "오답 정리"
+            }
+          ]
+        },
+        {
+          "role": "wrong_reason",
+          "runs": [
+            {
+              "run": 0,
+              "text": "①  "
+            },
+            {
+              "run": 1,
+              "text": "이 영역에는 선지 1이 원문 문맥에 맞지 않는 구체적 이유를 제공한다."
+            }
+          ],
+          "chain": true
+        },
+        {
+          "role": "wrong_reason",
+          "runs": [
+            {
+              "run": 0,
+              "text": "②  "
+            },
+            {
+              "run": 1,
+              "text": "이 영역에는 선지 2이 원문 문맥에 맞지 않는 구체적 이유를 제공한다."
+            }
+          ],
+          "chain": true
+        },
+        {
+          "role": "wrong_reason",
+          "runs": [
+            {
+              "run": 0,
+              "text": "③  "
+            },
+            {
+              "run": 1,
+              "text": "이 영역에는 선지 3이 원문 문맥에 맞지 않는 구체적 이유를 제공한다."
+            }
+          ],
+          "chain": true
+        },
+        {
+          "role": "wrong_reason",
+          "runs": [
+            {
+              "run": 0,
+              "text": "⑤  "
+            },
+            {
+              "run": 1,
+              "text": "이 영역에는 선지 5이 원문 문맥에 맞지 않는 구체적 이유를 제공한다."
+            }
+          ],
+          "chain": false
+        }
+      ]
+    },
+    {
+      "id": "underline-role-check",
+      "elements": [
+        {
+          "role": "mock_round_header",
+          "runs": [
+            {
+              "run": 0,
+              "text": "밑줄 및 제목 폭 서식 표본"
+            }
+          ],
+          "page_break_before": true
+        },
+        {
+          "kind": "table",
+          "role": "cover_topic_box",
+          "entries": [
+            "The Guardian of the Blue Heart of the Planet",
+            "지구의 푸른 심장을 지키는 수호자"
+          ]
+        },
+        {
+          "role": "mock_question_prompt",
+          "runs": [
+            {
+              "run": 0,
+              "text": "1. 밑줄 친 "
+            },
+            {
+              "run": 0,
+              "text": "creates room for other types of insects to flourish",
+              "underline": true
+            },
+            {
+              "run": 0,
+              "text": "가 의미하는 바로 가장 적절한 것은?"
+            }
+          ],
+          "required_underlines": [
+            [
+              8,
+              59
+            ]
+          ],
+          "chain": false
+        },
+        {
+          "role": "mock_question_passage",
+          "runs": [
+            {
+              "run": 0,
+              "text": "① "
+            },
+            {
+              "run": 1,
+              "text": "multiply",
+              "format_role": "question_underlined_reference"
+            },
+            {
+              "run": 0,
+              "text": "   ② "
+            },
+            {
+              "run": 1,
+              "text": "excessive",
+              "format_role": "question_underlined_reference"
+            },
+            {
+              "run": 0,
+              "text": "   ③ "
+            },
+            {
+              "run": 1,
+              "text": "vital",
+              "format_role": "question_underlined_reference"
+            },
+            {
+              "run": 0,
+              "text": "   ④ "
+            },
+            {
+              "run": 1,
+              "text": "lack",
+              "format_role": "question_underlined_reference"
+            },
+            {
+              "run": 0,
+              "text": "   ⑤ "
+            },
+            {
+              "run": 1,
+              "text": "possible",
+              "format_role": "question_underlined_reference"
+            }
+          ],
+          "required_underlines": [
+            [
+              2,
+              10
+            ],
+            [
+              15,
+              24
+            ],
+            [
+              29,
+              34
+            ],
+            [
+              39,
+              43
+            ],
+            [
+              48,
+              56
+            ]
+          ],
+          "chain": false
+        }
+      ]
+    }
+  ]
+}

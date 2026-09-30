@@ -1,0 +1,43 @@
+{
+  "reviewer": "N",
+  "solved_before_answer_key": true,
+  "inputs_read": ["/home/user/E2NEoh2/작업_공통2_2과FR/검수입력/문제_blind_재풀이.json"],
+  "answers": {"Q01": 4, "Q02": 5, "Q03": 4, "Q04": 2, "Q05": 1, "Q06": 3},
+  "resolved_scope": "Q02·Q03·Q04·Q06 재풀이. Q01·Q05는 원고 불변으로 지난 답(4, 1) 유지 확인.",
+  "notes": {
+    "Q02": {
+      "evidence": "\"when droughts occur and water levels retreat, these stones become visible\" → ⑤ 'appear when the water in rivers goes down during droughts'.",
+      "closest_distractor": "④ 'record the floods of the past' — 앞부분 'important because they record ...'은 지문과 같아 끝까지 읽지 않으면 고를 수 있으나 지문은 past severe droughts. ③은 typically remain underwater와 반대, ②는 'cry'와 반대, ①은 발견자(scientists) 언급 없음.",
+      "doubt": "경미: 지문 84단어로 더 짧아짐(고1 내용 일치 유형 치고 짧음). 정답 성립·복수 정답 문제 없음. 오답 유형(언급 없음/반대/대상 바꾸기)이 다양해져 지난번보다 개선."
+    },
+    "Q03": {
+      "evidence": "\"when droughts occur and water levels retreat, these stones become visible\" + \"Droughts cause reduced harvests, food shortages, and hunger\" + 돌 이름 'hunger stone' → ④ 돌이 보이면 가뭄이 굶주림과 고난을 가져오고 있다.",
+      "closest_distractor": "⑤ 'warns people not to swim in the river when the water is low' — 경고·저수위라는 표면 요소를 공유하나 지문은 수영이 아닌 가뭄·굶주림을 다룸. ①은 홍수(지문은 가뭄), ②는 훼손 근거 없음, ③은 기쁨의 울음으로 cry 왜곡.",
+      "doubt": "없음(경미: 정답 근거가 두 문장 결합이라 이제 함축 추론이 필요함. 여전히 고1 기준 쉬운 편이나 수용 가능)."
+    },
+    "Q04": {
+      "evidence": "(A) \"when droughts occur and water levels retreat, these stones become visible\" → seen. (B) \"The words on the hunger stones are believed to warn of these hardships\" → alert (alert A to B: A에게 B를 경고하다). → ② seen …… alert.",
+      "closest_distractor": "① hidden …… alert — (B)는 맞지만 (A) hidden은 '가뭄으로 수위가 낮아질 때만 숨겨진다'가 되어 지문과 반대. ④ dry는 '수위가 낮아질 때만 마른 상태가 된다'로 (A)만 보면 사실상 말이 되지만 (B) comfort가 틀려 배제됨.",
+      "doubt": "경미 2건: (1) ④의 (A) dry는 단독으로는 성립 가능한 표현이라 (A)만으로는 ②와 ④를 가를 수 없음 — (B)에서 갈리므로 복수 정답은 아님. (2) (B) 오답 blame/comfort/reward는 'to the hardships'와 결합이 어법상 부자연스러워(blame A to B, reward A to B는 비문) 의미가 아니라 어법으로도 배제 가능 — 변별력 약간 저하. 필요 시 (B) 오답을 'to'와 결합 가능한 동사(예: attract, introduce 등)로 바꾸는 것을 고려."
+    },
+    "Q06": {
+      "evidence": "\"not just a simple, occasional drought but a severe drought that could ③ cease for decades\" — 심각한 가뭄이 '수십 년간 멈출' 수 있다는 것은 앞뒤(severe, 기후 변화 지속, UN의 2050 전망)와 모순. 원래 persist/last 류가 적절 → ③.",
+      "closest_distractor": "② occasional — 'not just a simple, occasional drought but ...' 구조에서 severe·장기화와 대비되는 '가끔 있는'으로 적절. ① continuation(기후 변화의 지속), ④ global population, ⑤ address(대처하다)도 적절.",
+      "doubt": "없음. 밑줄 5개 위치 정확(continuation/occasional/cease/global/address), 발문 '않은' 밑줄 정확."
+    },
+    "Q01": {"evidence": "원고 불변. 지난 풀이와 동일(④ — 'a severe drought that could persist for decades').", "closest_distractor": "⑤ most ↔ 75 percent", "doubt": null},
+    "Q05": {"evidence": "원고 불변. 지난 풀이와 동일(① — 과거 가뭄 기록·경고 + 기후 변화로 장기화될 가뭄).", "closest_distractor": "④ Czech Town ... Crying", "doubt": null}
+  },
+  "set_level": {
+    "leak_check": "해결됨. Q06 밑줄이 모두 3문단(continuation/occasional/cease/global/address)으로 옮겨졌고, 모의 1~3번(Q02~Q04) 지문은 모두 2문단에서 끝나 이 낱말들과 원형 persist가 모의 회차 안에서 노출되지 않음. 1~3번 지문으로 Q06 선지를 소거할 수 없음. (워크북 원형 노출은 조정자 지시로 제외. 참고로 워크북 Q01 선지 ④에 'cease'가 쓰였으나 정답 누출은 아님.)",
+    "length": "Q02 84, Q03 96, Q04 116, 장문 180단어. 지문 겹침을 줄이려고 앞부분을 잘라 Q02·Q03은 더 짧아짐. 여전히 고1 모의 같은 유형보다 짧지만 각 문항의 근거는 지문 안에 충분히 있어 문항 성립에는 문제 없음. 교과서 단일 지문 회차의 한계로 수용 가능(주의 수준).",
+    "overlap": "부분 해결. 2·3번이 더 이상 글자까지 같은 지문이 아님(Q03은 'especially for the poor.'에서 끝나고 Q04만 'warn ... be prepared' 문장 포함). 다만 Q02⊂Q03⊂Q04⊂장문으로 같은 글의 앞부분을 점점 길게 쓰는 구조라 회차 전체가 한 지문의 반복인 점은 그대로 — 교과서 단일 지문 회차에서는 불가피하다고 봄. 유형이 내용 일치/함축/요약문/제목·어휘로 분산되어 체감 중복은 줄었음.",
+    "prior_issues": {
+      "어휘 밑줄 노출": "해결 — 위 leak_check 참고.",
+      "지문 겹침": "부분 해결 — 동일 지문 해소, 앞부분 누적 구조는 남음(수용 가능).",
+      "함축 지문 끝 문장": "해결 — Q03 지문에서 'The words ... warn of these hardships and to urge people to be prepared.'가 빠져 밑줄 의미를 직접 풀어 주지 않음. 학생이 '보임(수위 하강)'과 '가뭄→굶주림'을 결합해 추론해야 함.",
+      "요지·제목 겹침": "해결 — 3번이 요지에서 요약문 완성으로 바뀌어 4번 제목 정답(Old Warnings for a Drier Future)과 선지 차원의 직접 겹침은 사라짐. 요약문 (B) alert가 '경고' 개념을 공유하지만 제목의 'Drier Future'(3문단) 요소는 3번에서 드러나지 않아 힌트 효과 작음.",
+      "약한 오답": "대체로 해결 — Q02는 앞부분 일치·뒷부분 왜곡형(④) 등 매력 오답이 생김. Q03 오답이 cry·저수위·경고 요소를 활용해 그럴듯해짐. Q04는 (B) 오답 blame/reward/comfort가 어법상 'to'와 어울리지 않아 쉽게 소거되는 점이 남음(suggestion)."
+    }
+  }
+}

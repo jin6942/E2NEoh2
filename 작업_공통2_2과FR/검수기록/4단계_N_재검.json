@@ -1,0 +1,72 @@
+{
+  "reviewer": "N",
+  "blind_record_saved_before_compare": "/home/user/E2NEoh2/작업_공통2_2과FR/검수기록/4단계_N_재풀이답2.json",
+  "inputs_read": [
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검수입력/문제_blind_재풀이2.json",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검수입력/문제_compare2.json"
+  ],
+  "key_match": {"Q01": true, "Q02": true, "Q03": true, "Q04": true, "Q05": true, "Q06": true},
+  "checks_performed": [
+    "정답: N 재풀이2 답 Q04=2, Q05=1 및 기존 답 Q01=4, Q02=5, Q03=4, Q06=3이 quick_key·explanations와 모두 일치",
+    "선지: compare2 choices가 학생용 선지와 문자 단위로 일치(Q01~Q05)",
+    "근거 인용: Q01~Q06 evidence 전부 학생용 지문에 존재(Q05·Q06은 번호 표시·NBSP만 제외하면 문자 일치)",
+    "Q05 passage는 원형(persist), Q06 passage는 cease 1곳 교체 유지(공유 장문 규칙 81 충족)",
+    "Q01 learned_relation_uses: ⑤에서 significant가 빠진 선지 변경에 맞춰 ⑤ 항목이 삭제되고 ①~④ span이 실제 선지 낱말과 정확히 일치",
+    "Q04 요약문·(B) 3동사 대입, Q05 새 오답 4개, Q01 ⑤ 변경 선지 재검토"
+  ],
+  "finding_checks": [
+    {
+      "id": "N-01",
+      "status": "FIXED",
+      "evidence": "Q05 evidence에 3문단 UN 문장('The United Nations has predicted that by 2050, 75 percent of the global population could suffer … address climate change.')이 추가됨. 교체어 cease가 든 문장이 아니라 UN 문장을 써서 어휘 문항과 충돌 없음."
+    },
+    {
+      "id": "N-02",
+      "status": "FIXED",
+      "evidence": "Q06 evidence가 학생 제시문 그대로 '… a severe drought that could cease for decades.'로 바뀌고, explanation 앞에 '(원문 낱말: persist)'가 병기됨."
+    },
+    {
+      "id": "N-03",
+      "status": "FIXED",
+      "evidence": "Q01 ⑤ 오답 이유에 '75퍼센트(4명 중 3명, 즉 대부분)'가 추가되어 most와의 대응이 설명됨. 선지도 'Without action on climate change, …'로 바뀌어 지문의 'unless significant action is taken to address climate change'와 대응(조치가 없으면 상당한 조치도 없으므로 논리적으로 일치)하고, 오답 이유·choices_ko('기후 변화에 대한 조치가 없으면')도 함께 갱신됨."
+    },
+    {
+      "id": "N-04",
+      "status": "FIXED",
+      "evidence": "Q04 전체 재설계로 ④가 buried …… assure로 바뀌었고, 오답 이유에 (B)와 (A) buried 두 배제 근거가 모두 적힘. 다만 assure 뜻풀이에 새 부정확성이 있어 N-R01로 따로 기록."
+    },
+    {
+      "id": "N-05",
+      "status": "FIXED",
+      "evidence": "(B) 보기가 remind/relieve/assure로 모두 'A of B' 틀에 어법상 결합됨. 이제 relieve(③⑤)는 의미로만 배제되어 어법만으로 지워지는 문제가 해소됨."
+    },
+    {
+      "id": "N-06",
+      "status": "ACCEPTED_AS_IS",
+      "evidence": "지문 범위는 바뀌지 않았고, Q02~Q06 length_review rationale에 '원문 전체 175단어, 회차 안 범위 분리·어휘 밑줄 노출 방지를 위한 짧은 발췌, M·N 독립 검수 수용'이 기록됨. 제안한 대로 처리됨."
+    },
+    {
+      "id": "N-07",
+      "status": "FIXED",
+      "evidence": "Q05 ① choices_ko가 '기아석: 더 건조한 미래에 대한 옛 경고'로 수정됨."
+    }
+  ],
+  "new_findings": [
+    {
+      "id": "N-R01",
+      "question_id": "Q04",
+      "field": "오답 이유",
+      "current": "④: \"돌의 글은 고난이 오지 않는다고 안심시키거나 확신시키는(assure A of B) 것이 아니라 고난을 경고한다. 또 기아석은 가뭄 때 물 밖으로 드러나므로 (A) buried(묻힌)도 맞지 않다.\"",
+      "problem": "'assure people of the hardships'는 문자 그대로 'A에게 B(고난)를 확신시키다/보증하다'이지 '고난이 오지 않는다고 안심시키다'가 아님. 해설의 뜻풀이가 부정확하고, 실제로 (B) assure는 단독 대입 시 '고난을 확실히 알게 하다'로 읽혀 remind와 아주 멀지는 않음. ④의 결정적 배제 근거는 (A) buried(가뭄 때만 묻힌다 → 지문과 반대)임. 정답 유일성에는 문제 없음(① hidden·④ buried·⑤ hidden이 (A)에서, ③ relieve가 (B)에서 배제).",
+      "proposed_fix": "순서를 바꿔 (A)를 앞세우고 assure 뜻을 정확히: \"기아석은 가뭄 때 물 밖으로 드러나므로 (A) buried(묻힌)는 반대다. 또 assure A of B(A에게 B를 보장하다·확신시키다)는 주로 안전·도움처럼 좋은 것을 약속할 때 쓰여, 고난을 경고하는 돌의 글과 어울리지 않는다.\" (대안: (B) assure를 cure처럼 'A of B' 틀이면서 의미가 분명히 틀린 동사로 교체하고 재대입 확인)",
+      "severity": "suggestion"
+    }
+  ],
+  "new_changes_verified": {
+    "Q04": "remind(②, 정답) — 'remind people of the hardships' 경고 취지와 일치. relieve(③⑤) — 'relieve A of B' 어법 정상, 의미상 반대로 배제. assure(④) — 어법 정상, (A) buried로 확실히 배제. (A): seen만 지문과 맞고 hidden·buried는 반대. 유일 정답 ② 확인. 요약문 문장 자체도 어법·의미 오류 없음. choices_ko(일깨우다/덜어 주다/확신시키다/묻힌) 정확.",
+    "Q05": "새 오답 ②(체코 마을 발견 — 도입부 지엽), ③(가뭄이 식량 증산 — 반대), ④(강물이 매 여름 불어남 — 반대), ⑤(홍수 예고 — 가뭄과 치환) 모두 명확히 오답이며 ①과 경쟁하지 않음. 영어 표현 오류 없음. 오답 이유·choices_ko 정확.",
+    "Q01": "⑤ 'Without action on climate change, most people in the world could suffer from drought by 2050.' — 지문과 일치하는 선지로 정상, 정답 ④ 유지. 새 오류 없음."
+  },
+  "verdict": "PASS",
+  "verdict_note": "정답 6개 전부 일치. N-01~N-05·N-07은 FIXED, N-06은 제안대로 ACCEPTED_AS_IS. 새 제안 1건(N-R01, Q04 ④ 오답 이유의 assure 뜻풀이 부정확)은 suggestion으로, 정답 유일성에는 영향이 없어 FINAL을 막지 않음. 다만 해설 정확성을 위해 반영을 권장."
+}

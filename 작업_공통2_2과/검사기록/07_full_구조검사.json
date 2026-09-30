@@ -1,0 +1,4849 @@
+{
+  "status": "STRUCTURE_PASS",
+  "learning": {
+    "status": "STRUCTURE_PASS",
+    "scope": "full",
+    "lesson_identity": {
+      "number": 2,
+      "kind": "lesson",
+      "internal_id": "UNIT02",
+      "display": "2과"
+    },
+    "source_checks": [
+      {
+        "issues": [],
+        "subheading_count": 0,
+        "reviewed_boundary_count": 0,
+        "review_evidence": "REVIEWER_SUPPLIED_EXTERNAL_SOURCE_BYTES_NOT_CHECKED"
+      }
+    ],
+    "source_count": 1,
+    "unit_count": 5,
+    "sentence_count": 74,
+    "gloss_count": 569,
+    "shortages": [],
+    "sv_lines": {
+      "src/s01": "S: The kitchen tap, V: makes",
+      "src/s02": "S: It, V: coughs",
+      "src/s03": "S: It, V: spits and goes",
+      "src/s04": "S: I, V: shout ／ S: water, V: is coming",
+      "src/s05": "S: Mom, V: says",
+      "src/s06": "S: She, V: is watching ／ [where] S′: a news anchor, V′: is talking",
+      "src/s07": "S: This, V: is ／ [what] S′: the media, V′: has been calling ／ [ever since] S′: people, V′: got",
+      "src/s08": "S: the crisis, V: is entering",
+      "src/s09": "S: We, V: have",
+      "src/s10": "S: Uncle Basil, V: says",
+      "src/s11": "S: My little brother Garrett and I, V: jump",
+      "src/s12": "[As] S′: we, V′: pull ／ S: we, V: can see",
+      "src/s13": "S: You two, V: go",
+      "src/s14": "S: I, V: ’ll meet ／ S: Uncle Basil, V: says",
+      "src/s15": "S: it, V: ’s ／ [but] S: it, V: ’s ／ [(that)] S′: people, V′: are",
+      "src/s16": "S: What I see in the carts in the checkout line, V: are ／ [What] S′: I, V′: see",
+      "src/s17": "",
+      "src/s18": "S: a look, V: is",
+      "src/s19": "S: hostility, V: is",
+      "src/s20": "S: that politeness, V: is stretched",
+      "src/s21": "[As] S′: I, V′: approach ／ S: I, V: realize ／ [(that)] S′: I, V′: am",
+      "src/s22": "S: The shelves, V: are",
+      "src/s23": "S: I, V: manage",
+      "src/s24": "S: people, V: place",
+      "src/s25": "",
+      "src/s26": "S: I, V: find ／ [that] S′: someone, V′: abandoned ／ [when] S′: it, V′: wasn’t",
+      "src/s27": "S: I, V: reach",
+      "src/s28": "S: She, V: stacks",
+      "src/s29": "S: I, V: ’m ／ [but] S: we, V: were ／ S: she, V: says",
+      "src/s30": "S: her daughter, V: steps ／ [(that)] S′: I, V′: recognize",
+      "src/s31": "[As] S′: her mother, V′: pulls ／ S: Hali, V: leans",
+      "src/s32": "S: I, V: ’m",
+      "src/s33": "S: I, V: Didn’t share ／ S: I, V: point",
+      "src/s34": "S: you, V: could return and share",
+      "src/s35": "S: She, V: looks then turns ／ [who] V′: ’s moving",
+      "src/s36": "S: she, V: gets and turns ／ [before] S′: it, V′: becomes",
+      "src/s37": "S: I, V: look ／ [whom] S′: I, V′: find",
+      "src/s38": "S: I, V: see",
+      "src/s39": "S: a case, V: is",
+      "src/s40": "S: I, V: open and reach",
+      "src/s41": "S: you, V: are doing",
+      "src/s42": "S: We, V: need ／ S: he, V: reminds",
+      "src/s43": "S: Ice, V: is",
+      "src/s44": "V: help ／ S: I, V: tell",
+      "src/s45": "S: Garrett and I, V: put ／ [until] S′: it, V′: is piled ／ [as] S′: it, V′: can get",
+      "src/s46": "S: other people, V: have taken and begin",
+      "src/s47": "S: The cart, V: is",
+      "src/s48": "S: a man, V: comes",
+      "src/s49": "S: He, V: smiles",
+      "src/s50": "V: Looks ／ [like] S′: you, V′: could use",
+      "src/s51": "S: He, V: doesn’t wait",
+      "src/s52": "S: I, V: tell",
+      "src/s53": "",
+      "src/s54": "S: We, V: need",
+      "src/s55": "S: He, V: smiles ／ [and] S: I, V: return",
+      "src/s56": "S: It, V: is ／ [that] S′: difficult times, V′: can bring",
+      "src/s57": "S: I, V: decide ／ [that] S′: one favor, V′: deserves",
+      "src/s58": "S: you, V: don’t take ／ S: I, V: suggest",
+      "src/s59": "S: His smile, V: does fade",
+      "src/s60": "S: I, V: have ／ S: he, V: says",
+      "src/s61": "S: you, V: don’t take ／ [and] S: I, V: ’ll keep",
+      "src/s62": "S: I, V: think but realize ／ [(that)] S′: he, V′: is joking ／ [(that)] S′: he, V′: is",
+      "src/s63": "V: Excuse",
+      "src/s64": "S: He, V: is smiling ／ [but] S: his eyes, V: scare",
+      "src/s65": "[As long as] S′: his hands, V′: are locked ／ S: nothing, V: is ／ [that] S′: it, V′: ’s",
+      "src/s66": "S: a problem, V: Is",
+      "src/s67": "S: It, V: is",
+      "src/s68": "S: He, V: has arrived",
+      "src/s69": "",
+      "src/s70": "S: The man, V: looks then leaves",
+      "src/s71": "S: The above, V: is",
+      "src/s72": "S: It, V: tells ／ [who] V′: has",
+      "src/s73": "S: Her unwanted adventure, V: ends ／ [when] S′: the water supply, V′: resumes ／ [and] S′: life, V′: is",
+      "src/s74": "[Provided that] S′: the factors, V′: are addressed ／ S: it, V: is ／ [that] S′: this story, V′: can become"
+    },
+    "analysis_bodies": {
+      "status": "STRUCTURE_VALIDATED",
+      "semantic_review": "NOT_PERFORMED",
+      "standalone_model_translation_section": false,
+      "units": [
+        {
+          "unit_number": 1,
+          "source_id": "src",
+          "role": "analysis_reading_body",
+          "sentences": [
+            {
+              "source_id": "src",
+              "sentence_id": "s01",
+              "original": "The kitchen tap makes strange sounds.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 15
+                },
+                {
+                  "start": 16,
+                  "end": 37
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "The kitchen tap",
+                    "makes strange sounds."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "주방 수도꼭지가",
+                    "이상한 소리들을 낸다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "주방 수도꼭지가 이상한 소리를 낸다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s02",
+              "original": "It coughs.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 10
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "It coughs."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그것은 기침을 한다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "수도꼭지가 기침을 한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s03",
+              "original": "It spits once, and then goes silent.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 14
+                },
+                {
+                  "start": 15,
+                  "end": 36
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "It spits once,",
+                    "and then goes silent."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그것은 한 번 침을 뱉는다,",
+                    "그러고 나서 조용해진다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "수도꼭지는 한 번 침을 뱉더니 이내 조용해진다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s04",
+              "original": "“Mom,” I shout out into the living room, “water is not coming out.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 6
+                },
+                {
+                  "start": 7,
+                  "end": 18
+                },
+                {
+                  "start": 19,
+                  "end": 40
+                },
+                {
+                  "start": 41,
+                  "end": 67
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“Mom,”",
+                    "I shout out",
+                    "into the living room,",
+                    "“water is not coming out.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“엄마,”",
+                    "나는 소리쳐 외친다",
+                    "거실 안으로,",
+                    "“물이 나오고 있지 않아요.”"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“엄마,” 나는 거실을 향해 소리친다. “물이 안 나와요.”"
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s05",
+              "original": "“Alyssa, shush!” Mom says.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 16
+                },
+                {
+                  "start": 17,
+                  "end": 26
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“Alyssa, shush!”",
+                    "Mom says."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“Alyssa, 쉿!”",
+                    "엄마가 말한다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“Alyssa, 조용히 해!” 엄마가 말한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s06",
+              "original": "She is watching the TV, where a news anchor is talking about the “flow crisis.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 23
+                },
+                {
+                  "start": 24,
+                  "end": 54
+                },
+                {
+                  "start": 55,
+                  "end": 79
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "She is watching the TV,",
+                    "where a news anchor is talking",
+                    "about the “flow crisis.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그녀는 TV를 보고 있다,",
+                    "그리고 거기에서 뉴스 앵커가 이야기하고 있다",
+                    "‘물 공급 위기’에 관해."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "엄마는 TV를 보고 있는데, TV에서는 뉴스 앵커가 ‘물 공급 위기’에 관해 이야기하고 있다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s07",
+              "original": "This is what the media has been calling the drought ever since people got tired of hearing the word “drought.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 7
+                },
+                {
+                  "start": 8,
+                  "end": 51
+                },
+                {
+                  "start": 52,
+                  "end": 110
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "This is",
+                    "what the media has been calling the drought",
+                    "ever since people got tired of hearing the word “drought.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "이것은",
+                    "언론이 가뭄을 가리켜 계속 불러 온 것이다",
+                    "사람들이 ‘가뭄’이라는 단어를 듣는 것에 싫증이 난 이후로 줄곧."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "이것은 사람들이 ‘가뭄’이라는 단어를 듣는 데 싫증이 난 이후로 언론이 가뭄을 줄곧 불러 온 이름이다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s08",
+              "original": "Now the crisis is entering a new stage.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 3
+                },
+                {
+                  "start": 4,
+                  "end": 39
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Now",
+                    "the crisis is entering a new stage."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "이제",
+                    "그 위기는 새로운 단계로 접어들고 있다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "이제 위기는 새로운 단계로 접어들고 있다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s09",
+              "original": "We have no running water out of the tap.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 24
+                },
+                {
+                  "start": 25,
+                  "end": 40
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "We have no running water",
+                    "out of the tap."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "우리는 수돗물을 전혀 갖고 있지 않다",
+                    "수도꼭지에서 나오는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "수도꼭지에서 수돗물이 나오지 않는다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s10",
+              "original": "“To the mall!” says Uncle Basil.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 14
+                },
+                {
+                  "start": 15,
+                  "end": 32
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“To the mall!”",
+                    "says Uncle Basil."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“쇼핑몰로!”",
+                    "Basil 삼촌이 말한다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“쇼핑몰로 가자!” Basil 삼촌이 말한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s11",
+              "original": "My little brother Garrett and I jump in our uncle’s truck.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 31
+                },
+                {
+                  "start": 32,
+                  "end": 58
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "My little brother Garrett and I",
+                    "jump in our uncle’s truck."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "내 남동생 Garrett과 나는",
+                    "우리 삼촌의 트럭에 올라탄다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "남동생 Garrett과 나는 삼촌의 트럭에 올라탄다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s12",
+              "original": "As we pull into the parking lot, we can see the crowd.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 32
+                },
+                {
+                  "start": 33,
+                  "end": 54
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "As we pull into the parking lot,",
+                    "we can see the crowd."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "우리가 주차장에 차를 몰고 들어설 때,",
+                    "우리는 사람들의 무리를 볼 수 있다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "우리가 주차장에 들어서자 많은 사람들이 몰려 있는 것이 보인다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s13",
+              "original": "“You two go in.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 15
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“You two go in."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“너희 둘은 들어가."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“너희 둘은 먼저 들어가."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s14",
+              "original": "I’ll meet you inside,” Uncle Basil says.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 22
+                },
+                {
+                  "start": 23,
+                  "end": 40
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "I’ll meet you inside,”",
+                    "Uncle Basil says."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "내가 너희를 안에서 만날게,”",
+                    "Basil 삼촌이 말한다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "안에서 만나자.” Basil 삼촌이 말한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s15",
+              "original": "Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 6
+                },
+                {
+                  "start": 7,
+                  "end": 29
+                },
+                {
+                  "start": 30,
+                  "end": 42
+                },
+                {
+                  "start": 43,
+                  "end": 54
+                },
+                {
+                  "start": 55,
+                  "end": 91
+                },
+                {
+                  "start": 92,
+                  "end": 109
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Inside",
+                    "it’s like Black Friday",
+                    "at its worst",
+                    "— but today",
+                    "it’s not televisions and video games",
+                    "people are after."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "안은",
+                    "블랙 프라이데이 같다",
+                    "최악일 때의",
+                    "— 하지만 오늘",
+                    "텔레비전과 비디오 게임이 아니다",
+                    "사람들이 찾고 있는 것은."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "매장 안은 최악의 블랙 프라이데이 같다. 하지만 오늘 사람들이 찾는 것은 텔레비전이나 비디오 게임이 아니다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s16",
+              "original": "What I see in the carts in the checkout line are mostly water bottles.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 10
+                },
+                {
+                  "start": 11,
+                  "end": 23
+                },
+                {
+                  "start": 24,
+                  "end": 44
+                },
+                {
+                  "start": 45,
+                  "end": 70
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "What I see",
+                    "in the carts",
+                    "in the checkout line",
+                    "are mostly water bottles."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "내가 보는 것은",
+                    "카트들 안에서",
+                    "계산대 줄에 서 있는",
+                    "대부분 생수병들이다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "계산대 줄에 선 카트들 안에 보이는 것은 대부분 생수병이다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s17",
+              "original": "The essentials of life.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 14
+                },
+                {
+                  "start": 15,
+                  "end": 23
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "The essentials",
+                    "of life."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그 필수품들",
+                    "삶의."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "삶에 꼭 필요한 것들이다."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "unit_number": 2,
+          "source_id": "src",
+          "role": "analysis_reading_body",
+          "sentences": [
+            {
+              "source_id": "src",
+              "sentence_id": "s18",
+              "original": "There is a look of impatience on the faces of the people in line.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 15
+                },
+                {
+                  "start": 16,
+                  "end": 29
+                },
+                {
+                  "start": 30,
+                  "end": 42
+                },
+                {
+                  "start": 43,
+                  "end": 56
+                },
+                {
+                  "start": 57,
+                  "end": 65
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "There is a look",
+                    "of impatience",
+                    "on the faces",
+                    "of the people",
+                    "in line."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "표정이 있다",
+                    "조급함의",
+                    "얼굴들에",
+                    "사람들의",
+                    "줄을 선."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "줄을 선 사람들의 얼굴에는 조급한 표정이 역력하다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s19",
+              "original": "There is even hostility, hidden by a thin layer of politeness.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 24
+                },
+                {
+                  "start": 25,
+                  "end": 31
+                },
+                {
+                  "start": 32,
+                  "end": 47
+                },
+                {
+                  "start": 48,
+                  "end": 62
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "There is even hostility,",
+                    "hidden",
+                    "by a thin layer",
+                    "of politeness."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "심지어 적대감도 있다,",
+                    "숨겨진",
+                    "얇은 층에 의해",
+                    "공손함의."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "얇은 공손함 뒤에 숨은 적대감마저 느껴진다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s20",
+              "original": "Even that politeness is stretched thin.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 20
+                },
+                {
+                  "start": 21,
+                  "end": 39
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Even that politeness",
+                    "is stretched thin."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "심지어 그 공손함조차",
+                    "얇게 늘어나 있다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그 공손함마저 곧 끊어질 듯 얇게 늘어나 있다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s21",
+              "original": "As I approach the back of the store for water bottles, I realize I am too late.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 22
+                },
+                {
+                  "start": 23,
+                  "end": 35
+                },
+                {
+                  "start": 36,
+                  "end": 54
+                },
+                {
+                  "start": 55,
+                  "end": 64
+                },
+                {
+                  "start": 65,
+                  "end": 79
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "As I approach the back",
+                    "of the store",
+                    "for water bottles,",
+                    "I realize",
+                    "I am too late."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "내가 뒤편에 다가갈 때",
+                    "가게의",
+                    "생수병들을 구하러,",
+                    "나는 깨닫는다",
+                    "내가 너무 늦었다는 것을."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "생수를 구하러 매장 뒤편으로 다가가던 나는 내가 너무 늦었다는 것을 깨닫는다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s22",
+              "original": "The shelves are already empty.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 30
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "The shelves are already empty."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "선반들은 이미 비어 있다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "진열대는 이미 텅 비어 있다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s23",
+              "original": "I manage my way to the side aisle, trying my luck.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 15
+                },
+                {
+                  "start": 16,
+                  "end": 34
+                },
+                {
+                  "start": 35,
+                  "end": 50
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "I manage my way",
+                    "to the side aisle,",
+                    "trying my luck."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "나는 애써 나아간다",
+                    "옆 통로로,",
+                    "내 운을 시험해 보면서."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "나는 운을 시험해 볼 겸 사람들 사이를 헤치고 옆 통로로 간다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s24",
+              "original": "Sometimes people place unwanted items in the wrong shelves.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 9
+                },
+                {
+                  "start": 10,
+                  "end": 37
+                },
+                {
+                  "start": 38,
+                  "end": 59
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Sometimes",
+                    "people place unwanted items",
+                    "in the wrong shelves."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "때때로",
+                    "사람들은 원하지 않는 물건들을 놓는다",
+                    "엉뚱한 선반들에."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "가끔 사람들은 필요 없어진 물건을 엉뚱한 진열대에 놓아 두기도 한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s25",
+              "original": "Lucky!",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 6
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Lucky!"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "운이 좋다!"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "운이 좋다!"
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s26",
+              "original": "I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 29
+                },
+                {
+                  "start": 30,
+                  "end": 58
+                },
+                {
+                  "start": 59,
+                  "end": 75
+                },
+                {
+                  "start": 76,
+                  "end": 117
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "I find a single case of water",
+                    "that someone abandoned there",
+                    "maybe yesterday,",
+                    "when it wasn’t such a precious commodity."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "나는 딱 한 상자의 생수를 발견한다",
+                    "누군가가 그곳에 버려두었던",
+                    "아마 어제,",
+                    "그리고 그때 그것은 그렇게 귀한 물건이 아니었다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "누군가 아마 어제쯤 그곳에 두고 간 생수 한 상자를 발견한다. 그때만 해도 물은 그렇게 귀한 물건이 아니었다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s27",
+              "original": "I reach for it, only to find it pulled away at the last second by a woman.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 15
+                },
+                {
+                  "start": 16,
+                  "end": 43
+                },
+                {
+                  "start": 44,
+                  "end": 62
+                },
+                {
+                  "start": 63,
+                  "end": 74
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "I reach for it,",
+                    "only to find it pulled away",
+                    "at the last second",
+                    "by a woman."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "나는 그것을 향해 손을 뻗는다,",
+                    "그러나 결국 그것이 당겨져 가 버린 것을 발견할 뿐이다",
+                    "마지막 순간에",
+                    "한 여자에 의해."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "나는 그 상자를 향해 손을 뻗지만, 마지막 순간에 한 여자가 그것을 끌어가 버린다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s28",
+              "original": "She stacks it on top of her cart like a crown on top of her canned goods.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 13
+                },
+                {
+                  "start": 14,
+                  "end": 32
+                },
+                {
+                  "start": 33,
+                  "end": 45
+                },
+                {
+                  "start": 46,
+                  "end": 73
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "She stacks it",
+                    "on top of her cart",
+                    "like a crown",
+                    "on top of her canned goods."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그녀는 그것을 쌓아 올린다",
+                    "그녀의 카트 맨 위에",
+                    "왕관처럼",
+                    "그녀의 통조림 식품들 위의."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그녀는 그 상자를 카트에 담긴 통조림 위에 왕관처럼 올려놓는다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s29",
+              "original": "“I’m sorry, but we were here first,” she says.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 11
+                },
+                {
+                  "start": 12,
+                  "end": 36
+                },
+                {
+                  "start": 37,
+                  "end": 46
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“I’m sorry,",
+                    "but we were here first,”",
+                    "she says."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“미안해요,",
+                    "하지만 우리가 여기에 먼저 있었어요,”",
+                    "그녀가 말한다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“미안하지만 우리가 먼저 왔어요.” 그 여자가 말한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s30",
+              "original": "And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 8
+                },
+                {
+                  "start": 9,
+                  "end": 35
+                },
+                {
+                  "start": 36,
+                  "end": 44
+                },
+                {
+                  "start": 45,
+                  "end": 68
+                },
+                {
+                  "start": 69,
+                  "end": 85
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "And then",
+                    "her daughter steps forward",
+                    "— a girl",
+                    "I recognize from soccer",
+                    "— Hali Hartling."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그러고 나서",
+                    "그녀의 딸이 앞으로 나온다",
+                    "— 한 소녀",
+                    "내가 축구부에서 알아보는",
+                    "— Hali Hartling이다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그러자 그녀의 딸이 앞으로 나오는데, 내가 축구부에서 알고 지내는 Hali Hartling이다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s31",
+              "original": "As her mother pulls their cart away, Hali leans closer to me.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 36
+                },
+                {
+                  "start": 37,
+                  "end": 61
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "As her mother pulls their cart away,",
+                    "Hali leans closer to me."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그녀의 엄마가 그들의 카트를 끌고 갈 때,",
+                    "Hali는 나 쪽으로 더 가까이 몸을 기울인다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "엄마가 카트를 끌고 가자 Hali가 내 쪽으로 몸을 기울인다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s32",
+              "original": "“I’m sorry about that, Alyssa.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 31
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“I’m sorry about that, Alyssa.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“그 일에 대해 미안해, Alyssa.”"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“그 일은 미안해, Alyssa.”"
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s33",
+              "original": "“Didn’t I share my water with you at the practice last week?” I point out to her.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 33
+                },
+                {
+                  "start": 34,
+                  "end": 49
+                },
+                {
+                  "start": 50,
+                  "end": 61
+                },
+                {
+                  "start": 62,
+                  "end": 81
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“Didn’t I share my water with you",
+                    "at the practice",
+                    "last week?”",
+                    "I point out to her."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“내가 너와 내 물을 나누지 않았니",
+                    "연습 때",
+                    "지난주?”",
+                    "나는 그녀에게 짚어 말한다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“지난주 연습 때 내가 너한테 물을 나눠 주지 않았니?” 나는 그녀에게 짚어 말한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s34",
+              "original": "“Maybe you could return the favor and share a few bottles with me.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 33
+                },
+                {
+                  "start": 34,
+                  "end": 67
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“Maybe you could return the favor",
+                    "and share a few bottles with me.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“아마 너는 그 호의를 갚을 수 있을 거야",
+                    "그리고 나와 몇 병을 나눌 수 있을 거야.”"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“너도 그 호의를 갚는 셈 치고 나랑 물 몇 병 나눠 주면 좋겠어.”"
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s35",
+              "original": "She looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 29
+                },
+                {
+                  "start": 30,
+                  "end": 66
+                },
+                {
+                  "start": 67,
+                  "end": 88
+                },
+                {
+                  "start": 89,
+                  "end": 106
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "She looks back to her mother,",
+                    "who’s already moving down the aisle,",
+                    "then turns back to me",
+                    "shaking her head."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그녀는 그녀의 엄마를 돌아본다,",
+                    "그리고 그 사람은 이미 통로를 따라 이동하고 있다,",
+                    "그러고 나서 나에게로 다시 돌아선다",
+                    "그녀의 고개를 저으면서."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "Hali는 이미 통로를 따라 걸어가고 있는 엄마를 돌아보더니, 고개를 저으며 다시 내 쪽으로 돌아선다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s36",
+              "original": "And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 8
+                },
+                {
+                  "start": 9,
+                  "end": 47
+                },
+                {
+                  "start": 48,
+                  "end": 66
+                },
+                {
+                  "start": 67,
+                  "end": 98
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "And then",
+                    "she gets a little bit red in the face,",
+                    "and turns to leave",
+                    "before it becomes a deep flush."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그러고 나서",
+                    "그녀는 얼굴이 조금 빨개진다,",
+                    "그리고 떠나기 위해 돌아선다",
+                    "그것이 짙은 홍조가 되기 전에."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그러고는 얼굴이 살짝 붉어지더니, 얼굴이 새빨개지기 전에 자리를 뜨려고 돌아선다."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "unit_number": 3,
+          "source_id": "src",
+          "role": "analysis_reading_body",
+          "sentences": [
+            {
+              "source_id": "src",
+              "sentence_id": "s37",
+              "original": "I look for Garrett, whom I find in the frozen aisle.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 19
+                },
+                {
+                  "start": 20,
+                  "end": 31
+                },
+                {
+                  "start": 32,
+                  "end": 52
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "I look for Garrett,",
+                    "whom I find",
+                    "in the frozen aisle."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "나는 Garrett을 찾는다,",
+                    "그리고 그를 나는 발견한다",
+                    "냉동식품 통로에서."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "나는 Garrett을 찾다가 냉동식품 통로에서 그를 발견한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s38",
+              "original": "Then I see something.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 21
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Then I see something."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그때 나는 무언가를 본다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그때 무언가가 눈에 들어온다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s39",
+              "original": "Just past the frozen vegetables and ice cream, there is a case packed with ice.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 46
+                },
+                {
+                  "start": 47,
+                  "end": 62
+                },
+                {
+                  "start": 63,
+                  "end": 79
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Just past the frozen vegetables and ice cream,",
+                    "there is a case",
+                    "packed with ice."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "냉동 채소와 아이스크림을 바로 지나서,",
+                    "진열장이 있다",
+                    "얼음으로 가득 찬."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "냉동 채소와 아이스크림 코너를 바로 지나면 얼음이 가득 든 진열장이 있다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s40",
+              "original": "I open the door and reach for a bag.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 15
+                },
+                {
+                  "start": 16,
+                  "end": 36
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "I open the door",
+                    "and reach for a bag."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "나는 문을 연다",
+                    "그리고 한 봉지를 향해 손을 뻗는다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "나는 진열장 문을 열고 얼음 한 봉지를 향해 손을 뻗는다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s41",
+              "original": "“What are you doing?",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 20
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“What are you doing?"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“너는 무엇을 하고 있니?"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“뭐 하는 거야?"
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s42",
+              "original": "We need water, not ice,” he reminds me.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 24
+                },
+                {
+                  "start": 25,
+                  "end": 39
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "We need water, not ice,”",
+                    "he reminds me."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "우리는 물이 필요해, 얼음이 아니라,”",
+                    "그가 나에게 일깨운다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "우리한테 필요한 건 얼음이 아니라 물이야.” Garrett이 나에게 일깨워 준다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s43",
+              "original": "“Ice is water.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 14
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“Ice is water."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“얼음은 물이야."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“얼음도 물이잖아."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s44",
+              "original": "Just help me,” I tell him.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 14
+                },
+                {
+                  "start": 15,
+                  "end": 26
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Just help me,”",
+                    "I tell him."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그냥 나를 도와줘,”",
+                    "나는 그에게 말한다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그냥 좀 도와줘.” 내가 동생에게 말한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s45",
+              "original": "Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 46
+                },
+                {
+                  "start": 47,
+                  "end": 61
+                },
+                {
+                  "start": 62,
+                  "end": 79
+                },
+                {
+                  "start": 80,
+                  "end": 102
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Garrett and I put one bag of ice after another",
+                    "into our cart,",
+                    "until it is piled",
+                    "as high as it can get."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "Garrett과 나는 얼음 봉지를 하나씩 차례로 넣는다",
+                    "우리의 카트 안으로,",
+                    "그것이 가득 쌓일 때까지",
+                    "그것이 될 수 있는 만큼 높이."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "Garrett과 나는 카트가 더는 쌓을 수 없을 만큼 높이 가득 찰 때까지 얼음 봉지를 하나씩 카트에 담는다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s46",
+              "original": "By now other people have taken notice and begin to empty the ice case.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 6
+                },
+                {
+                  "start": 7,
+                  "end": 37
+                },
+                {
+                  "start": 38,
+                  "end": 70
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "By now",
+                    "other people have taken notice",
+                    "and begin to empty the ice case."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "이제쯤은",
+                    "다른 사람들이 알아챘다",
+                    "그리고 얼음 진열장을 비우기 시작한다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "이쯤 되자 다른 사람들도 눈치를 채고 얼음 진열장을 비우기 시작한다."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "unit_number": 4,
+          "source_id": "src",
+          "role": "analysis_reading_body",
+          "sentences": [
+            {
+              "source_id": "src",
+              "sentence_id": "s47",
+              "original": "The cart is ridiculously heavy now, and almost impossible to push.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 35
+                },
+                {
+                  "start": 36,
+                  "end": 57
+                },
+                {
+                  "start": 58,
+                  "end": 66
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "The cart is ridiculously heavy now,",
+                    "and almost impossible",
+                    "to push."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "카트는 이제 터무니없이 무겁다,",
+                    "그리고 거의 불가능하다",
+                    "밀기에."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "카트는 이제 말도 안 되게 무거워서 밀기가 거의 불가능하다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s48",
+              "original": "Then, a man in a business suit comes up behind us.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 5
+                },
+                {
+                  "start": 6,
+                  "end": 11
+                },
+                {
+                  "start": 12,
+                  "end": 30
+                },
+                {
+                  "start": 31,
+                  "end": 50
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Then,",
+                    "a man",
+                    "in a business suit",
+                    "comes up behind us."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그때,",
+                    "한 남자가",
+                    "정장을 입은",
+                    "우리 뒤로 다가온다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그때 정장 차림의 한 남자가 우리 뒤로 다가온다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s49",
+              "original": "He smiles.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 10
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "He smiles."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그는 미소 짓는다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그는 미소를 짓는다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s50",
+              "original": "“Looks like you could use some help.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 11
+                },
+                {
+                  "start": 12,
+                  "end": 37
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“Looks like",
+                    "you could use some help.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“보아하니",
+                    "너희가 도움이 좀 필요한 것 같구나.”"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“도움이 좀 필요한 것 같구나.”"
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s51",
+              "original": "He doesn’t wait for us to answer before grabbing the cart’s handle.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 15
+                },
+                {
+                  "start": 16,
+                  "end": 32
+                },
+                {
+                  "start": 33,
+                  "end": 67
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "He doesn’t wait",
+                    "for us to answer",
+                    "before grabbing the cart’s handle."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그는 기다리지 않는다",
+                    "우리가 대답하기를",
+                    "카트의 손잡이를 잡기 전에."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그는 우리가 대답하기도 전에 카트 손잡이를 잡는다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s52",
+              "original": "“Thank you for helping us,” I tell him.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 27
+                },
+                {
+                  "start": 28,
+                  "end": 39
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“Thank you for helping us,”",
+                    "I tell him."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“우리를 도와줘서 고마워요,”",
+                    "나는 그에게 말한다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“도와주셔서 감사합니다.” 내가 그에게 말한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s53",
+              "original": "“Not a problem.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 15
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“Not a problem."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“문제없어."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“별거 아니야."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s54",
+              "original": "We all need to help one another.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 33
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "We all need to help one another.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "우리는 모두 서로를 도울 필요가 있어.”"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "우리 모두 서로 도와야지.”"
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s55",
+              "original": "He smiles again, and I return the smile.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 16
+                },
+                {
+                  "start": 17,
+                  "end": 40
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "He smiles again,",
+                    "and I return the smile."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그는 다시 미소 짓는다,",
+                    "그리고 나는 미소로 답한다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그가 다시 미소를 짓고, 나도 미소로 답한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s56",
+              "original": "It is good to know that difficult times can bring out the best in people.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 10
+                },
+                {
+                  "start": 11,
+                  "end": 18
+                },
+                {
+                  "start": 19,
+                  "end": 62
+                },
+                {
+                  "start": 63,
+                  "end": 73
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "It is good",
+                    "to know",
+                    "that difficult times can bring out the best",
+                    "in people."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "좋다",
+                    "아는 것은",
+                    "어려운 시기가 가장 좋은 면을 끌어낼 수 있다는 것을",
+                    "사람들 안에 있는."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "어려운 시기가 사람들의 가장 좋은 면을 끌어낼 수 있다는 것을 알게 되니 좋다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s57",
+              "original": "I decide that one favor deserves another.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 8
+                },
+                {
+                  "start": 9,
+                  "end": 41
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "I decide",
+                    "that one favor deserves another."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "나는 결심한다",
+                    "하나의 호의는 또 다른 호의를 받을 만하다고."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "나는 호의에는 호의로 보답해야 한다고 마음먹는다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s58",
+              "original": "“Why don’t you take a bag of ice for yourself,” I suggest.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 32
+                },
+                {
+                  "start": 33,
+                  "end": 47
+                },
+                {
+                  "start": 48,
+                  "end": 58
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“Why don’t you take a bag of ice",
+                    "for yourself,”",
+                    "I suggest."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“얼음 한 봉지를 가져가는 게 어때요",
+                    "당신 자신을 위해,”",
+                    "나는 제안한다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“얼음 한 봉지 가져가세요.” 내가 제안한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s59",
+              "original": "His smile does not fade.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 24
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "His smile does not fade."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그의 미소는 사라지지 않는다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그의 미소는 사라지지 않는다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s60",
+              "original": "“I have a better idea,” he says.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 23
+                },
+                {
+                  "start": 24,
+                  "end": 32
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“I have a better idea,”",
+                    "he says."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“나에게 더 좋은 생각이 있어,”",
+                    "그가 말한다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“더 좋은 생각이 있단다.” 그가 말한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s61",
+              "original": "“Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 32
+                },
+                {
+                  "start": 33,
+                  "end": 48
+                },
+                {
+                  "start": 49,
+                  "end": 73
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“Why don’t you take a bag of ice",
+                    "for yourselves,",
+                    "and I’ll keep the rest.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“너희가 얼음 한 봉지를 가져가는 게 어때",
+                    "너희 자신을 위해,",
+                    "그리고 내가 나머지를 가질게.”"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“너희가 얼음 한 봉지를 가져가는 게 어떠니, 나머지는 내가 가질게.”"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "unit_number": 5,
+          "source_id": "src",
+          "role": "analysis_reading_body",
+          "sentences": [
+            {
+              "source_id": "src",
+              "sentence_id": "s62",
+              "original": "For a moment I think he is joking, but then realize he is serious.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 12
+                },
+                {
+                  "start": 13,
+                  "end": 34
+                },
+                {
+                  "start": 35,
+                  "end": 51
+                },
+                {
+                  "start": 52,
+                  "end": 66
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "For a moment",
+                    "I think he is joking,",
+                    "but then realize",
+                    "he is serious."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "잠시 동안",
+                    "나는 그가 농담하고 있다고 생각한다,",
+                    "하지만 곧 깨닫는다",
+                    "그가 진지하다는 것을."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "잠시 나는 그가 농담하는 거라고 생각하지만, 곧 그가 진지하다는 것을 깨닫는다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s63",
+              "original": "“Excuse me?”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 12
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“Excuse me?”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“뭐라고요?”"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“네? 뭐라고요?”"
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s64",
+              "original": "He is still smiling, but his eyes scare me.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 20
+                },
+                {
+                  "start": 21,
+                  "end": 43
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "He is still smiling,",
+                    "but his eyes scare me."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그는 여전히 웃고 있다,",
+                    "하지만 그의 눈이 나를 겁먹게 한다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그는 여전히 웃고 있지만, 그의 눈빛이 나를 겁나게 한다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s65",
+              "original": "As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 38
+                },
+                {
+                  "start": 39,
+                  "end": 52
+                },
+                {
+                  "start": 53,
+                  "end": 65
+                },
+                {
+                  "start": 66,
+                  "end": 82
+                },
+                {
+                  "start": 83,
+                  "end": 91
+                },
+                {
+                  "start": 92,
+                  "end": 119
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "As long as his hands are firmly locked",
+                    "on the handle",
+                    "of our cart,",
+                    "there is nothing",
+                    "to prove",
+                    "that it’s ours and not his."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그의 손이 단단히 고정되어 있는 한",
+                    "손잡이에",
+                    "우리 카트의,",
+                    "아무것도 없다",
+                    "증명할",
+                    "그것이 그의 것이 아니라 우리의 것이라는 것을."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그의 손이 우리 카트 손잡이를 단단히 붙잡고 있는 한, 카트가 그의 것이 아니라 우리 것이라는 걸 증명할 방법은 아무것도 없다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s66",
+              "original": "“Is there a problem here?”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 26
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“Is there a problem here?”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“여기에 문제가 있나요?”"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“무슨 문제라도 있나요?”"
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s67",
+              "original": "It is Uncle Basil.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 18
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "It is Uncle Basil."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그것은 Basil 삼촌이다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "그 말을 한 사람은 Basil 삼촌이다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s68",
+              "original": "He has arrived just in time.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 28
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "He has arrived just in time."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그는 딱 제때에 도착했다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "삼촌이 마침 딱 맞춰 도착한 것이다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s69",
+              "original": "“Not at all.”",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 13
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "“Not at all.”"
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "“전혀 아니에요.”"
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "“아뇨, 전혀요.”"
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s70",
+              "original": "The man looks at the ice with a bitter face, then leaves.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 24
+                },
+                {
+                  "start": 25,
+                  "end": 44
+                },
+                {
+                  "start": 45,
+                  "end": 57
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "The man looks at the ice",
+                    "with a bitter face,",
+                    "then leaves."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그 남자는 얼음을 바라본다",
+                    "씁쓸한 얼굴로,",
+                    "그러고 나서 떠난다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "남자는 씁쓸한 얼굴로 얼음을 바라보다가 자리를 뜬다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s71",
+              "original": "*The above is a shortened version of the opening of the novel Dry (2018).",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 33
+                },
+                {
+                  "start": 34,
+                  "end": 48
+                },
+                {
+                  "start": 49,
+                  "end": 73
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "*The above is a shortened version",
+                    "of the opening",
+                    "of the novel Dry (2018)."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "*위의 글은 줄인 판이다",
+                    "도입부의",
+                    "소설 『Dry』(2018)의."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "*위 글은 소설 『Dry』(2018)의 도입부를 줄인 것이다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s72",
+              "original": "It tells the story of a girl who has to make tough choices for her family during a disastrous California drought.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 18
+                },
+                {
+                  "start": 19,
+                  "end": 28
+                },
+                {
+                  "start": 29,
+                  "end": 58
+                },
+                {
+                  "start": 59,
+                  "end": 73
+                },
+                {
+                  "start": 74,
+                  "end": 113
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "It tells the story",
+                    "of a girl",
+                    "who has to make tough choices",
+                    "for her family",
+                    "during a disastrous California drought."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그것은 이야기를 들려준다",
+                    "한 소녀의",
+                    "힘든 선택들을 해야 하는",
+                    "그녀의 가족을 위해",
+                    "재앙과도 같은 캘리포니아 가뭄 동안."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "이 소설은 재앙과도 같은 캘리포니아 가뭄 속에서 가족을 위해 힘든 선택을 해야 하는 한 소녀의 이야기를 들려준다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s73",
+              "original": "Her unwanted adventure ends when the water supply resumes and life is back to normal.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 27
+                },
+                {
+                  "start": 28,
+                  "end": 57
+                },
+                {
+                  "start": 58,
+                  "end": 85
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Her unwanted adventure ends",
+                    "when the water supply resumes",
+                    "and life is back to normal."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "그녀의 원치 않는 모험은 끝난다",
+                    "물 공급이 재개될 때",
+                    "그리고 생활이 정상으로 돌아올 (때)."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "물 공급이 다시 시작되고 생활이 정상으로 돌아오면서 소녀의 원치 않던 모험은 끝이 난다."
+                }
+              ]
+            },
+            {
+              "source_id": "src",
+              "sentence_id": "s74",
+              "original": "Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.",
+              "source_spans": [
+                {
+                  "start": 0,
+                  "end": 25
+                },
+                {
+                  "start": 26,
+                  "end": 67
+                },
+                {
+                  "start": 68,
+                  "end": 86
+                },
+                {
+                  "start": 87,
+                  "end": 131
+                },
+                {
+                  "start": 132,
+                  "end": 173
+                },
+                {
+                  "start": 174,
+                  "end": 226
+                }
+              ],
+              "blocks": [
+                {
+                  "role": "analysis_english_chunks",
+                  "chunks": [
+                    "Provided that the factors",
+                    "contributing to water shortages worldwide",
+                    "are not addressed,",
+                    "including climate change, population growth,",
+                    "and using too much water for agriculture,",
+                    "it is possible that this story can become a reality."
+                  ]
+                },
+                {
+                  "role": "analysis_korean_chunks",
+                  "chunks": [
+                    "만약 요인들이",
+                    "전 세계적으로 물 부족의 원인이 되는",
+                    "해결되지 않는다면,",
+                    "기후 변화, 인구 증가를 포함하여,",
+                    "그리고 농업을 위해 너무 많은 물을 사용하는 것(을 포함하여),",
+                    "이 이야기가 현실이 될 수 있을 가능성이 있다."
+                  ]
+                },
+                {
+                  "role": "analysis_natural_translation",
+                  "text": "기후 변화, 인구 증가, 농업용수 과다 사용처럼 전 세계적으로 물 부족을 일으키는 요인들이 해결되지 않는다면, 이 이야기는 현실이 될 수도 있다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "source_artifact_bytes": "NOT_CHECKED_BY_THIS_TOOL",
+    "lexical_level_and_exemptions": "REVIEWER_SUPPLIED_NOT_AUTOMATICALLY_VERIFIED",
+    "all_repeated_today_word_occurrences": "REQUIRES_SEMANTIC_REVIEW",
+    "verb_form_declarations": {
+      "form_count": 58,
+      "phrase_count": 1,
+      "status": "DECLARED_LOCATIONS_CHECKED",
+      "scope": "REVIEWER_DECLARED_LOCATIONS_ONLY_NOT_GRAMMAR_OR_MEANING_INFERENCE"
+    },
+    "reading_rule_declarations": "SUPPLIED_CONSTRAINTS_ONLY_NOT_GRAMMAR_INFERENCE",
+    "reading_revision_audit": "DECLARATIONS_REQUIRED",
+    "relative_hint_declarations": {
+      "status": "DECLARED_LOCATIONS_CHECKED",
+      "declared_sentence_count": 74,
+      "undeclared_sentences": [],
+      "scope": "REVIEWER_DECLARED_LOCATIONS_ONLY_NOT_GRAMMAR_INFERENCE"
+    },
+    "syntax_training": {
+      "version": 1,
+      "status": "DECLARED_LINKS_CHECKED",
+      "units": [
+        {
+          "unit_id": "u1",
+          "status": "DECLARED_LINKS_CHECKED",
+          "base_grammar_point_count": 3,
+          "supplemental_count": 0,
+          "formula_occurrence_count": 0,
+          "practice_count": 3,
+          "workbook_links": "CHECKED",
+          "semantic_review": "NOT_PERFORMED"
+        },
+        {
+          "unit_id": "u2",
+          "status": "DECLARED_LINKS_CHECKED",
+          "base_grammar_point_count": 3,
+          "supplemental_count": 0,
+          "formula_occurrence_count": 1,
+          "practice_count": 3,
+          "workbook_links": "CHECKED",
+          "semantic_review": "NOT_PERFORMED"
+        },
+        {
+          "unit_id": "u3",
+          "status": "DECLARED_LINKS_CHECKED",
+          "base_grammar_point_count": 3,
+          "supplemental_count": 2,
+          "formula_occurrence_count": 2,
+          "practice_count": 5,
+          "workbook_links": "CHECKED",
+          "semantic_review": "NOT_PERFORMED"
+        },
+        {
+          "unit_id": "u4",
+          "status": "DECLARED_LINKS_CHECKED",
+          "base_grammar_point_count": 3,
+          "supplemental_count": 0,
+          "formula_occurrence_count": 0,
+          "practice_count": 3,
+          "workbook_links": "CHECKED",
+          "semantic_review": "NOT_PERFORMED"
+        },
+        {
+          "unit_id": "u5",
+          "status": "DECLARED_LINKS_CHECKED",
+          "base_grammar_point_count": 3,
+          "supplemental_count": 2,
+          "formula_occurrence_count": 3,
+          "practice_count": 5,
+          "workbook_links": "CHECKED",
+          "semantic_review": "NOT_PERFORMED"
+        }
+      ],
+      "semantic_review": "NOT_PERFORMED"
+    },
+    "semantic_review": "NOT_PERFORMED",
+    "visual_review": "NOT_PERFORMED"
+  },
+  "assessment": {
+    "status": "PASS",
+    "errors": [],
+    "checked_question_count": 20,
+    "scope": "record correspondence and required fields only",
+    "source_reconstruction": "NOT_CHECKED_BY_THIS_TOOL",
+    "semantic_review": "NOT_PERFORMED",
+    "independent_reviews": "NOT_PERFORMED",
+    "docx_presence": "NOT_CHECKED_BY_THIS_TOOL",
+    "visual_review": "NOT_PERFORMED"
+  },
+  "question_views": {
+    "Q01": {
+      "original": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        861
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17"
+      ],
+      "word_count": 161,
+      "type": "주제",
+      "passage": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "주제",
+        "benchmark_ids": [
+          "202603241-Q23",
+          "202606041-Q23",
+          "202609021-Q23"
+        ],
+        "reference_words": [
+          142,
+          132,
+          168
+        ],
+        "assessment_word_count": 161,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "주제 고1 표본 [142, 132, 168]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q02": {
+      "original": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.\nI manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”",
+      "source_id": "src",
+      "source_span": [
+        862,
+        1753
+      ],
+      "source_sentence_ids": [
+        "s18",
+        "s19",
+        "s20",
+        "s21",
+        "s22",
+        "s23",
+        "s24",
+        "s25",
+        "s26",
+        "s27",
+        "s28",
+        "s29",
+        "s30",
+        "s31",
+        "s32"
+      ],
+      "word_count": 168,
+      "type": "함축 의미",
+      "passage": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.\nI manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”",
+      "annotations": [
+        {
+          "kind": "underline",
+          "span": [
+            129,
+            167
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "target": "Even that politeness is stretched thin",
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "함축 의미",
+        "benchmark_ids": [
+          "202603241-Q21",
+          "202606041-Q21",
+          "202609021-Q21"
+        ],
+        "reference_words": [
+          154,
+          149,
+          175
+        ],
+        "assessment_word_count": 168,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 168단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q03": {
+      "original": "I look for Garrett, whom I find in the frozen aisle. Then I see something. Just past the frozen vegetables and ice cream, there is a case packed with ice. I open the door and reach for a bag.\n“What are you doing? We need water, not ice,” he reminds me.\n“Ice is water. Just help me,” I tell him.\nGarrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+      "source_id": "src",
+      "source_span": [
+        2110,
+        2813
+      ],
+      "source_sentence_ids": [
+        "s37",
+        "s38",
+        "s39",
+        "s40",
+        "s41",
+        "s42",
+        "s43",
+        "s44",
+        "s45",
+        "s46",
+        "s47",
+        "s48",
+        "s49",
+        "s50",
+        "s51"
+      ],
+      "word_count": 140,
+      "type": "내용",
+      "passage": "I look for Garrett, whom I find in the frozen aisle. Then I see something. Just past the frozen vegetables and ice cream, there is a case packed with ice. I open the door and reach for a bag.\n“What are you doing? We need water, not ice,” he reminds me.\n“Ice is water. Just help me,” I tell him.\nGarrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "내용",
+        "benchmark_ids": [
+          "202603241-Q26",
+          "202606041-Q26",
+          "202609021-Q26"
+        ],
+        "reference_words": [
+          142,
+          118,
+          167
+        ],
+        "assessment_word_count": 140,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 140단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q04": {
+      "original": "The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.\n“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious.",
+      "source_id": "src",
+      "source_span": [
+        2579,
+        3318
+      ],
+      "source_sentence_ids": [
+        "s47",
+        "s48",
+        "s49",
+        "s50",
+        "s51",
+        "s52",
+        "s53",
+        "s54",
+        "s55",
+        "s56",
+        "s57",
+        "s58",
+        "s59",
+        "s60",
+        "s61",
+        "s62"
+      ],
+      "word_count": 144,
+      "type": "빈칸",
+      "passage": "The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.\n“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can ________________. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "replacement": {
+        "start": 410,
+        "end": 426,
+        "original": "bring out the best in people",
+        "text": "________________"
+      },
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "빈칸",
+        "benchmark_ids": [
+          "202603241-Q31",
+          "202606041-Q31",
+          "202609021-Q31"
+        ],
+        "reference_words": [
+          137,
+          137,
+          167
+        ],
+        "assessment_word_count": 144,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "빈칸 고1 표본 [137, 137, 167]단어와 비교해 현재 144단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q05": {
+      "original": "For a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.\n*The above is a shortened version of the opening of the novel Dry (2018). It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. Her unwanted adventure ends when the water supply resumes and life is back to normal. Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.",
+      "source_id": "src",
+      "source_span": [
+        3252,
+        4143
+      ],
+      "source_sentence_ids": [
+        "s62",
+        "s63",
+        "s64",
+        "s65",
+        "s66",
+        "s67",
+        "s68",
+        "s69",
+        "s70",
+        "s71",
+        "s72",
+        "s73",
+        "s74"
+      ],
+      "word_count": 164,
+      "type": "내용",
+      "passage": "For a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.\n*The above is a shortened version of the opening of the novel Dry (2018). It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. Her unwanted adventure ends when the water supply resumes and life is back to normal. Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "내용",
+        "benchmark_ids": [
+          "202603241-Q26",
+          "202606041-Q26",
+          "202609021-Q26"
+        ],
+        "reference_words": [
+          142,
+          118,
+          167
+        ],
+        "assessment_word_count": 164,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "내용 고1 표본 [142, 118, 167]단어와 비교해 현재 164단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q06": {
+      "original": "I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+      "source_id": "src",
+      "source_span": [
+        1142,
+        2109
+      ],
+      "source_sentence_ids": [
+        "s23",
+        "s24",
+        "s25",
+        "s26",
+        "s27",
+        "s28",
+        "s29",
+        "s30",
+        "s31",
+        "s32",
+        "s33",
+        "s34",
+        "s35",
+        "s36"
+      ],
+      "word_count": 186,
+      "type": "순서",
+      "passage": null,
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "given": "I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\n",
+      "blocks": {
+        "A": "As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n",
+        "B": "“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+        "C": "I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. "
+      },
+      "correct_order": [
+        "C",
+        "A",
+        "B"
+      ],
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "순서",
+        "benchmark_ids": [
+          "202603241-Q36",
+          "202606041-Q36",
+          "202609021-Q36"
+        ],
+        "reference_words": [
+          134,
+          160,
+          168
+        ],
+        "assessment_word_count": 186,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 186단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q07": {
+      "original": "I look for Garrett, whom I find in the frozen aisle. Then I see something. Just past the frozen vegetables and ice cream, there is a case packed with ice. I open the door and reach for a bag.\n“What are you doing? We need water, not ice,” he reminds me.\n“Ice is water. Just help me,” I tell him.\nGarrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+      "source_id": "src",
+      "source_span": [
+        2110,
+        2813
+      ],
+      "source_sentence_ids": [
+        "s37",
+        "s38",
+        "s39",
+        "s40",
+        "s41",
+        "s42",
+        "s43",
+        "s44",
+        "s45",
+        "s46",
+        "s47",
+        "s48",
+        "s49",
+        "s50",
+        "s51"
+      ],
+      "word_count": 140,
+      "type": "삽입",
+      "passage": "I look for Garrett, whom I find in the frozen aisle. Then I see something.  I open the door and reach for a bag.\n“What are you doing? We need water, not ice,” he reminds me.\n“Ice is water. Just help me,” I tell him.\nGarrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+      "annotations": [
+        {
+          "kind": "insertion_slot",
+          "number": 1,
+          "offset": 53
+        },
+        {
+          "kind": "insertion_slot",
+          "number": 2,
+          "offset": 75
+        },
+        {
+          "kind": "insertion_slot",
+          "number": 3,
+          "offset": 113
+        },
+        {
+          "kind": "insertion_slot",
+          "number": 4,
+          "offset": 174
+        },
+        {
+          "kind": "insertion_slot",
+          "number": 5,
+          "offset": 216
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "given": "Just past the frozen vegetables and ice cream, there is a case packed with ice.",
+      "answer": 2,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "삽입",
+        "benchmark_ids": [
+          "202603241-Q38",
+          "202606041-Q38",
+          "202609021-Q38"
+        ],
+        "reference_words": [
+          138,
+          167,
+          165
+        ],
+        "assessment_word_count": 140,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "삽입 고1 표본 [138, 167, 165]단어와 비교해 현재 140단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q08": {
+      "original": "He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.",
+      "source_id": "src",
+      "source_span": [
+        2904,
+        3642
+      ],
+      "source_sentence_ids": [
+        "s55",
+        "s56",
+        "s57",
+        "s58",
+        "s59",
+        "s60",
+        "s61",
+        "s62",
+        "s63",
+        "s64",
+        "s65",
+        "s66",
+        "s67",
+        "s68",
+        "s69",
+        "s70"
+      ],
+      "word_count": 149,
+      "type": "빈칸",
+      "passage": "He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, ________________.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "replacement": {
+        "start": 538,
+        "end": 554,
+        "original": "there is nothing to prove that it’s ours and not his",
+        "text": "________________"
+      },
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "빈칸",
+        "benchmark_ids": [
+          "202603241-Q31",
+          "202606041-Q31",
+          "202609021-Q31"
+        ],
+        "reference_words": [
+          137,
+          137,
+          167
+        ],
+        "assessment_word_count": 149,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "빈칸 고1 표본 [137, 137, 167]단어와 비교해 현재 149단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q09": {
+      "original": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.\nThere is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        1141
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17",
+        "s18",
+        "s19",
+        "s20",
+        "s21",
+        "s22"
+      ],
+      "word_count": 214,
+      "type": "제목",
+      "passage": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.\nThere is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 214,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 214단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q10": {
+      "original": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.\nThere is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        1141
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17",
+        "s18",
+        "s19",
+        "s20",
+        "s21",
+        "s22"
+      ],
+      "word_count": 214,
+      "type": "어휘",
+      "passage": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.\nThere is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already full.",
+      "annotations": [
+        {
+          "kind": "numbered_word",
+          "number": 1,
+          "span": [
+            78,
+            84
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 2,
+          "span": [
+            335,
+            340
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 3,
+          "span": [
+            593,
+            598
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 4,
+          "span": [
+            881,
+            891
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 5,
+          "span": [
+            1135,
+            1139
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "replacement": {
+        "start": 1135,
+        "end": 1139,
+        "original": "empty",
+        "text": "full"
+      },
+      "answer": 5,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 214,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 214단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q11": {
+      "original": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        861
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17"
+      ],
+      "word_count": 161,
+      "type": "함축 의미",
+      "passage": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+      "annotations": [
+        {
+          "kind": "underline",
+          "span": [
+            674,
+            699
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "target": "Black Friday at its worst",
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "함축 의미",
+        "benchmark_ids": [
+          "202603241-Q21",
+          "202606041-Q21",
+          "202609021-Q21"
+        ],
+        "reference_words": [
+          154,
+          149,
+          175
+        ],
+        "assessment_word_count": 161,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "함축 의미 고1 표본 [154, 149, 175]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q12": {
+      "original": "I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+      "source_id": "src",
+      "source_span": [
+        1142,
+        2109
+      ],
+      "source_sentence_ids": [
+        "s23",
+        "s24",
+        "s25",
+        "s26",
+        "s27",
+        "s28",
+        "s29",
+        "s30",
+        "s31",
+        "s32",
+        "s33",
+        "s34",
+        "s35",
+        "s36"
+      ],
+      "word_count": 186,
+      "type": "심경·분위기",
+      "passage": "I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "심경·분위기",
+        "benchmark_ids": [
+          "202603241-Q19",
+          "202606041-Q19",
+          "202609021-Q19"
+        ],
+        "reference_words": [
+          107,
+          91,
+          123
+        ],
+        "assessment_word_count": 186,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "심경·분위기 고1 표본 [107, 91, 123]단어와 비교해 현재 186단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q13": {
+      "original": "For a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.\n*The above is a shortened version of the opening of the novel Dry (2018). It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. Her unwanted adventure ends when the water supply resumes and life is back to normal. Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.",
+      "source_id": "src",
+      "source_span": [
+        3252,
+        4143
+      ],
+      "source_sentence_ids": [
+        "s62",
+        "s63",
+        "s64",
+        "s65",
+        "s66",
+        "s67",
+        "s68",
+        "s69",
+        "s70",
+        "s71",
+        "s72",
+        "s73",
+        "s74"
+      ],
+      "word_count": 164,
+      "type": "삽입",
+      "passage": "For a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.\n*The above is a shortened version of the opening of the novel Dry (2018). It tells the story of a girl who has to make tough choices for her family during a disastrous California drought.  Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.",
+      "annotations": [
+        {
+          "kind": "insertion_slot",
+          "number": 1,
+          "offset": 290
+        },
+        {
+          "kind": "insertion_slot",
+          "number": 2,
+          "offset": 333
+        },
+        {
+          "kind": "insertion_slot",
+          "number": 3,
+          "offset": 391
+        },
+        {
+          "kind": "insertion_slot",
+          "number": 4,
+          "offset": 465
+        },
+        {
+          "kind": "insertion_slot",
+          "number": 5,
+          "offset": 579
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "given": "Her unwanted adventure ends when the water supply resumes and life is back to normal.",
+      "answer": 5,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "삽입",
+        "benchmark_ids": [
+          "202603241-Q38",
+          "202606041-Q38",
+          "202609021-Q38"
+        ],
+        "reference_words": [
+          138,
+          167,
+          165
+        ],
+        "assessment_word_count": 164,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "삽입 고1 표본 [138, 167, 165]단어와 비교해 현재 164단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q14": {
+      "original": "Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.\n“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.",
+      "source_id": "src",
+      "source_span": [
+        2405,
+        3642
+      ],
+      "source_sentence_ids": [
+        "s45",
+        "s46",
+        "s47",
+        "s48",
+        "s49",
+        "s50",
+        "s51",
+        "s52",
+        "s53",
+        "s54",
+        "s55",
+        "s56",
+        "s57",
+        "s58",
+        "s59",
+        "s60",
+        "s61",
+        "s62",
+        "s63",
+        "s64",
+        "s65",
+        "s66",
+        "s67",
+        "s68",
+        "s69",
+        "s70"
+      ],
+      "word_count": 247,
+      "type": "제목",
+      "passage": "Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.\n“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 247,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 247단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q15": {
+      "original": "Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.\n“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.",
+      "source_id": "src",
+      "source_span": [
+        2405,
+        3642
+      ],
+      "source_sentence_ids": [
+        "s45",
+        "s46",
+        "s47",
+        "s48",
+        "s49",
+        "s50",
+        "s51",
+        "s52",
+        "s53",
+        "s54",
+        "s55",
+        "s56",
+        "s57",
+        "s58",
+        "s59",
+        "s60",
+        "s61",
+        "s62",
+        "s63",
+        "s64",
+        "s65",
+        "s66",
+        "s67",
+        "s68",
+        "s69",
+        "s70"
+      ],
+      "word_count": 247,
+      "type": "어휘",
+      "passage": "Garrett and I put one bag of ice after another into our cart, until it is piled as low as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.\n“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.",
+      "annotations": [
+        {
+          "kind": "numbered_word",
+          "number": 1,
+          "span": [
+            83,
+            86
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 2,
+          "span": [
+            198,
+            203
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 3,
+          "span": [
+            479,
+            483
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 4,
+          "span": [
+            597,
+            601
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 5,
+          "span": [
+            749,
+            755
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "replacement": {
+        "start": 83,
+        "end": 86,
+        "original": "high",
+        "text": "low"
+      },
+      "answer": 1,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 247,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 247단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q16": {
+      "original": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        861
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17"
+      ],
+      "word_count": 161,
+      "type": "순서",
+      "passage": null,
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "given": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\n",
+      "blocks": {
+        "A": "Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.",
+        "B": "She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n",
+        "C": "“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\n"
+      },
+      "correct_order": [
+        "B",
+        "C",
+        "A"
+      ],
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "순서",
+        "benchmark_ids": [
+          "202603241-Q36",
+          "202606041-Q36",
+          "202609021-Q36"
+        ],
+        "reference_words": [
+          134,
+          160,
+          168
+        ],
+        "assessment_word_count": 161,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "순서 고1 표본 [134, 160, 168]단어와 비교해 현재 161단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q17": {
+      "original": "I look for Garrett, whom I find in the frozen aisle. Then I see something. Just past the frozen vegetables and ice cream, there is a case packed with ice. I open the door and reach for a bag.\n“What are you doing? We need water, not ice,” he reminds me.\n“Ice is water. Just help me,” I tell him.\nGarrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+      "source_id": "src",
+      "source_span": [
+        2110,
+        2813
+      ],
+      "source_sentence_ids": [
+        "s37",
+        "s38",
+        "s39",
+        "s40",
+        "s41",
+        "s42",
+        "s43",
+        "s44",
+        "s45",
+        "s46",
+        "s47",
+        "s48",
+        "s49",
+        "s50",
+        "s51"
+      ],
+      "word_count": 140,
+      "type": "무관한 문장",
+      "passage": "I look for Garrett, whom I find in the frozen aisle. Then I see something. Just past the frozen vegetables and ice cream, there is a case packed with ice. I open the door and reach for a bag.\n“What are you doing? We need water, not ice,” he reminds me.\n“Ice is water. Just help me,” I tell him.\nGarrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. Frozen vegetables keep most of their vitamins because they are frozen soon after they are picked. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.",
+      "annotations": [
+        {
+          "kind": "sentence_number",
+          "number": 1,
+          "offset": 75
+        },
+        {
+          "kind": "sentence_number",
+          "number": 2,
+          "offset": 155
+        },
+        {
+          "kind": "sentence_number",
+          "number": 3,
+          "offset": 295
+        },
+        {
+          "kind": "sentence_number",
+          "number": 4,
+          "offset": 398
+        },
+        {
+          "kind": "sentence_number",
+          "number": 5,
+          "offset": 496
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "answer": 4,
+      "addition": {
+        "start": 398,
+        "end": 496,
+        "text": "Frozen vegetables keep most of their vitamins because they are frozen soon after they are picked. "
+      },
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "무관한 문장",
+        "benchmark_ids": [
+          "202603241-Q35",
+          "202606041-Q35",
+          "202609021-Q35"
+        ],
+        "reference_words": [
+          157,
+          130,
+          165
+        ],
+        "assessment_word_count": 156,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "무관한 문장 고1 표본 [157, 130, 165]단어와 비교해 현재 156단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q18": {
+      "original": "“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.",
+      "source_id": "src",
+      "source_span": [
+        2814,
+        3495
+      ],
+      "source_sentence_ids": [
+        "s52",
+        "s53",
+        "s54",
+        "s55",
+        "s56",
+        "s57",
+        "s58",
+        "s59",
+        "s60",
+        "s61",
+        "s62",
+        "s63",
+        "s64",
+        "s65"
+      ],
+      "word_count": 137,
+      "type": "심경·분위기",
+      "passage": "“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "심경·분위기",
+        "benchmark_ids": [
+          "202603241-Q19",
+          "202606041-Q19",
+          "202609021-Q19"
+        ],
+        "reference_words": [
+          107,
+          91,
+          123
+        ],
+        "assessment_word_count": 137,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "심경·분위기 고1 표본 [107, 91, 123]단어와 비교해 현재 137단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q19": {
+      "original": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.\nI manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+      "source_id": "src",
+      "source_span": [
+        862,
+        2109
+      ],
+      "source_sentence_ids": [
+        "s18",
+        "s19",
+        "s20",
+        "s21",
+        "s22",
+        "s23",
+        "s24",
+        "s25",
+        "s26",
+        "s27",
+        "s28",
+        "s29",
+        "s30",
+        "s31",
+        "s32",
+        "s33",
+        "s34",
+        "s35",
+        "s36"
+      ],
+      "word_count": 239,
+      "type": "제목",
+      "passage": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.\nI manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+      "annotations": [],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 239,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 239단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    },
+    "Q20": {
+      "original": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.\nI manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+      "source_id": "src",
+      "source_span": [
+        862,
+        2109
+      ],
+      "source_sentence_ids": [
+        "s18",
+        "s19",
+        "s20",
+        "s21",
+        "s22",
+        "s23",
+        "s24",
+        "s25",
+        "s26",
+        "s27",
+        "s28",
+        "s29",
+        "s30",
+        "s31",
+        "s32",
+        "s33",
+        "s34",
+        "s35",
+        "s36"
+      ],
+      "word_count": 239,
+      "type": "어휘",
+      "passage": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.\nI manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and hide a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+      "annotations": [
+        {
+          "kind": "numbered_word",
+          "number": 1,
+          "span": [
+            19,
+            29
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 2,
+          "span": [
+            163,
+            167
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 3,
+          "span": [
+            496,
+            504
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 4,
+          "span": [
+            846,
+            852
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 5,
+          "span": [
+            1012,
+            1016
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": false,
+      "replacement": {
+        "start": 1012,
+        "end": 1016,
+        "original": "share",
+        "text": "hide"
+      },
+      "answer": 5,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 239,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 239단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      }
+    }
+  },
+  "checked_question_count": 20,
+  "passage_group_views": {
+    "long-mock1": {
+      "original": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.\nThere is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.",
+      "source_id": "src",
+      "source_span": [
+        0,
+        1141
+      ],
+      "source_sentence_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17",
+        "s18",
+        "s19",
+        "s20",
+        "s21",
+        "s22"
+      ],
+      "word_count": 214,
+      "type": "어휘",
+      "passage": "The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.\n“Mom,” I shout out into the living room, “water is not coming out.”\n“Alyssa, shush!” Mom says.\nShe is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.\n“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.\nAs we pull into the parking lot, we can see the crowd.\n“You two go in. I’ll meet you inside,” Uncle Basil says.\nInside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.\nThere is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already full.",
+      "annotations": [
+        {
+          "kind": "numbered_word",
+          "number": 1,
+          "span": [
+            78,
+            84
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 2,
+          "span": [
+            335,
+            340
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 3,
+          "span": [
+            593,
+            598
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 4,
+          "span": [
+            881,
+            891
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 5,
+          "span": [
+            1135,
+            1139
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": true,
+      "replacement": {
+        "start": 1135,
+        "end": 1139,
+        "original": "empty",
+        "text": "full"
+      },
+      "answer": 5,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 214,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 214단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      },
+      "question_ids": [
+        "Q09",
+        "Q10"
+      ],
+      "group_id": "long-mock1"
+    },
+    "long-mock2": {
+      "original": "Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.\n“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.",
+      "source_id": "src",
+      "source_span": [
+        2405,
+        3642
+      ],
+      "source_sentence_ids": [
+        "s45",
+        "s46",
+        "s47",
+        "s48",
+        "s49",
+        "s50",
+        "s51",
+        "s52",
+        "s53",
+        "s54",
+        "s55",
+        "s56",
+        "s57",
+        "s58",
+        "s59",
+        "s60",
+        "s61",
+        "s62",
+        "s63",
+        "s64",
+        "s65",
+        "s66",
+        "s67",
+        "s68",
+        "s69",
+        "s70"
+      ],
+      "word_count": 247,
+      "type": "어휘",
+      "passage": "Garrett and I put one bag of ice after another into our cart, until it is piled as low as it can get. By now other people have taken notice and begin to empty the ice case.\nThe cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.\n“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.\n“Thank you for helping us,” I tell him.\n“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another.\n“Why don’t you take a bag of ice for yourself,” I suggest.\nHis smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”\nFor a moment I think he is joking, but then realize he is serious. “Excuse me?”\nHe is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.\n“Is there a problem here?”\nIt is Uncle Basil. He has arrived just in time.\n“Not at all.”\nThe man looks at the ice with a bitter face, then leaves.",
+      "annotations": [
+        {
+          "kind": "numbered_word",
+          "number": 1,
+          "span": [
+            83,
+            86
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 2,
+          "span": [
+            198,
+            203
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 3,
+          "span": [
+            479,
+            483
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 4,
+          "span": [
+            597,
+            601
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 5,
+          "span": [
+            749,
+            755
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": true,
+      "replacement": {
+        "start": 83,
+        "end": 86,
+        "original": "high",
+        "text": "low"
+      },
+      "answer": 1,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 247,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 247단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      },
+      "question_ids": [
+        "Q14",
+        "Q15"
+      ],
+      "group_id": "long-mock2"
+    },
+    "long-mock3": {
+      "original": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.\nI manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+      "source_id": "src",
+      "source_span": [
+        862,
+        2109
+      ],
+      "source_sentence_ids": [
+        "s18",
+        "s19",
+        "s20",
+        "s21",
+        "s22",
+        "s23",
+        "s24",
+        "s25",
+        "s26",
+        "s27",
+        "s28",
+        "s29",
+        "s30",
+        "s31",
+        "s32",
+        "s33",
+        "s34",
+        "s35",
+        "s36"
+      ],
+      "word_count": 239,
+      "type": "어휘",
+      "passage": "There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.\nAs I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.\nI manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.\nI reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.\n“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”\n“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and hide a few bottles with me.”\nShe looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.",
+      "annotations": [
+        {
+          "kind": "numbered_word",
+          "number": 1,
+          "span": [
+            19,
+            29
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 2,
+          "span": [
+            163,
+            167
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 3,
+          "span": [
+            496,
+            504
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 4,
+          "span": [
+            846,
+            852
+          ]
+        },
+        {
+          "kind": "numbered_word",
+          "number": 5,
+          "span": [
+            1012,
+            1016
+          ]
+        }
+      ],
+      "source_reconstruction": "PASS",
+      "semantic_review": "NOT_PERFORMED",
+      "preserve_paragraphs": true,
+      "replacement": {
+        "start": 1012,
+        "end": 1016,
+        "original": "share",
+        "text": "hide"
+      },
+      "answer": 5,
+      "length_comparison": {
+        "status": "RECORDED",
+        "profile_id": "kr-hs-english-2026-3-6-9-v1",
+        "grade": 1,
+        "benchmark_type": "long41_42",
+        "benchmark_ids": [
+          "202603241-Q41_42",
+          "202606041-Q41_42",
+          "202609021-Q41_42"
+        ],
+        "reference_words": [
+          212,
+          212,
+          216
+        ],
+        "assessment_word_count": 239,
+        "shorter_than_all_references": false,
+        "independent_review_required": false,
+        "rationale": "공유 장문 41~42 고1 표본 [212, 212, 216]단어와 비교해 현재 239단어. 표본 범위 이상으로 너무 짧지 않음. 연속 원문 범위 안에서 정답과 네 오답의 근거가 자족적임.",
+        "educational_sufficiency": "NOT_CHECKED_BY_THIS_TOOL"
+      },
+      "question_ids": [
+        "Q19",
+        "Q20"
+      ],
+      "group_id": "long-mock3"
+    }
+  },
+  "independent_length_review_required": [],
+  "semantic_review": "NOT_PERFORMED",
+  "independent_reviews": "NOT_PERFORMED",
+  "docx_presence": "NOT_CHECKED_BY_THIS_TOOL",
+  "visual_review": "NOT_PERFORMED",
+  "input_sha256": "d7ab07a4f3ce97ef72de50a48bbd7d3fe677ace15c47e009c2c4a09d84763099"
+}

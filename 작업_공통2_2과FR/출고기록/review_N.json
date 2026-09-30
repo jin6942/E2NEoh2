@@ -1,0 +1,141 @@
+{
+ "id": "UNIT02FR-Q-N-2026-09-29",
+ "kind": "questions",
+ "status": "PASS",
+ "independent": true,
+ "reviewer_id": "subagent-N-FR",
+ "execution_id": "session_01E2Ji6oqzJY84iXPZFpFMCt/FR-stage4-N",
+ "performed_at": "2026-09-29T11:10:00Z",
+ "method": "정답·해설 없는 블라인드 패킷으로 6문항 풀이 → 수정된 문항 블라인드 재풀이 2회 → 대조 패킷으로 정답·근거·해설·선지 해석 검수 → 제작 반영 → 재검 → check_book PASS",
+ "summary": "블라인드 답이 매 회차 정답과 일치(1차 6/6, 재풀이 4/4, 2/2). 오류 0, 제안 반영·수용. 모의 5문항은 원문 175단어라 고1 동유형 표본보다 짧음(독립 검수 수용 기록).",
+ "solved_before_answer_key": true,
+ "answers": {
+  "Q01": 4,
+  "Q02": 5,
+  "Q03": 4,
+  "Q04": 2,
+  "Q05": 1,
+  "Q06": 3
+ },
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ],
+  "unit_ids": [
+   "u1"
+  ],
+  "question_ids": [
+   "Q01",
+   "Q02",
+   "Q03",
+   "Q04",
+   "Q05",
+   "Q06"
+  ]
+ },
+ "findings": [
+  {
+   "id": "N-01",
+   "description": "N-01",
+   "status": "resolved",
+   "resolution": "반영 또는 수용(4단계_문제_검수종합.json decisions)",
+   "recheck": "4단계_N_재검.json + 구조 검사 PASS"
+  },
+  {
+   "id": "N-02",
+   "description": "N-02",
+   "status": "resolved",
+   "resolution": "반영 또는 수용(4단계_문제_검수종합.json decisions)",
+   "recheck": "4단계_N_재검.json + 구조 검사 PASS"
+  },
+  {
+   "id": "N-03",
+   "description": "N-03",
+   "status": "resolved",
+   "resolution": "반영 또는 수용(4단계_문제_검수종합.json decisions)",
+   "recheck": "4단계_N_재검.json + 구조 검사 PASS"
+  },
+  {
+   "id": "N-04",
+   "description": "N-04",
+   "status": "resolved",
+   "resolution": "반영 또는 수용(4단계_문제_검수종합.json decisions)",
+   "recheck": "4단계_N_재검.json + 구조 검사 PASS"
+  },
+  {
+   "id": "N-05",
+   "description": "N-05",
+   "status": "resolved",
+   "resolution": "반영 또는 수용(4단계_문제_검수종합.json decisions)",
+   "recheck": "4단계_N_재검.json + 구조 검사 PASS"
+  },
+  {
+   "id": "N-06",
+   "description": "N-06",
+   "status": "resolved",
+   "resolution": "반영 또는 수용(4단계_문제_검수종합.json decisions)",
+   "recheck": "4단계_N_재검.json + 구조 검사 PASS"
+  },
+  {
+   "id": "N-07",
+   "description": "N-07",
+   "status": "resolved",
+   "resolution": "반영 또는 수용(4단계_문제_검수종합.json decisions)",
+   "recheck": "4단계_N_재검.json + 구조 검사 PASS"
+  }
+ ],
+ "length_reviews": {
+  "Q02": {
+   "status": "PASS",
+   "benchmark_ids": [
+    "202603241-Q26",
+    "202606041-Q26",
+    "202609021-Q26"
+   ],
+   "rationale": "현재 84단어(s01~s05) vs 고1 내용 일치 표본 142·118·167단어(평균 약 142). 최단 표본의 약 71%, 평균의 약 59%로 다섯 문항 중 표본 대비 가장 짧음. 정보 전개: 사례 도입(2022년 체코 엘베강, 최악 가뭄) → 돌의 문구 → 평소 상태(물속) → 가뭄 시 드러남 → 의미(과거 가뭄 기록)로 5문장이 완결된 설명 단위를 이룸. 근거 자족: ①(발견자 언급 없음)·②(cry)·③(typically remain underwater)·④(droughts, not floods)·⑤(water levels retreat → visible)가 모두 범위 안 서로 다른 문장에서 판정되어 대입 오답·정답 모두 지문만으로 해결됨. 한계: 선지와 문장이 거의 1:1이라 실제 26번보다 훑어 읽기 부담이 작음. 대안 검토: s01~s06(96) 또는 s01~s07(116)으로 늘려도 Q06 누출은 없으나 선지 판단에 쓰이는 정보는 늘지 않고 Q03·Q04와 범위가 같아짐. 결론: 짧지만 문항 성립·유일 정답에 지장이 없고 5개 선지를 받칠 사실 정보가 충분하므로 PASS. (선택적 개선: 범위를 s01~s06으로 넓히고 ⑤ 등 한 선지를 s06 내용으로 돌리면 표본 분량에 더 가까워짐 — 필수 아님.)"
+  },
+  "Q03": {
+   "status": "PASS",
+   "benchmark_ids": [
+    "202603241-Q21",
+    "202606041-Q21",
+    "202609021-Q21"
+   ],
+   "rationale": "현재 96단어(s01~s06) vs 고1 함축 의미 표본 154·149·175단어(평균 약 159). 최단 표본의 약 64%, 평균의 약 60%. 정보 전개: 밑줄 문구 제시(s02) → 돌이 평소 잠겨 있음(s03) → 가뭄으로 수위가 내려가야 보임(s04) → 과거 가뭄 기록(s05) → 가뭄이 수확 감소·식량 부족·굶주림을 일으킴(s06). 학생은 '보이면'=가뭄, '울어라'=굶주림·고난을 s04·s06과 명칭 hunger stone을 결합해 추론해야 하므로 함축 추론 구조가 성립함. 근거 자족: 정답 ④와 오답 ①(홍수)·②(훼손)·③(기쁨)·⑤(수영) 배제 근거가 모두 범위 안에 있음. 대안 검토: s07을 더하면 116단어가 되지만 그 문장('warn of these hardships')이 밑줄 의미를 직접 풀어 주어 함축 추론이 사라짐(1차 검수 지적 사항) → 현재 범위가 이 유형에 가능한 최적 범위. 3문단 포함은 Q06 누출로 불가. 결론: 실제 21번보다 짧고 추상도가 낮지만, 이 원문에서 함축 문항이 성립하는 최대 범위이며 추론 단계가 살아 있으므로 PASS."
+  },
+  "Q04": {
+   "status": "PASS",
+   "benchmark_ids": [
+    "202603241-Q40",
+    "202606041-Q40",
+    "202609021-Q40"
+   ],
+   "rationale": "현재 116단어(s01~s07) vs 고1 요약 표본 136·166·182단어(평균 약 161). 최단 표본의 약 85%, 평균의 약 72%. 정보 전개: 사례 → 평소 잠김 → 가뭄 시 드러남(요약 (A)의 근거) → 과거 가뭄 기록 → 가뭄의 고난 → 돌의 글이 고난을 경고하고 대비를 촉구함(요약 (B)의 근거)으로, 요약문 두 빈칸이 각각 지문의 서로 다른 핵심 축(발견 조건·기능)에 대응하는 구조가 온전함. 근거 자족: (A) seen/hidden/buried, (B) remind/relieve/assure 판단이 모두 범위 안 문장으로 해결됨. 대안 검토: 3문단을 넣으면 Q06 누출 → s01~s07이 비장문 문항의 최대 범위이며 이미 이를 사용함. 결론: 표본보다 짧지만 요약에 필요한 두 개념과 그 전개가 모두 들어 있어 PASS."
+  },
+  "Q05": {
+   "status": "PASS",
+   "benchmark_ids": [
+    "202603241-Q41_42",
+    "202606041-Q41_42",
+    "202609021-Q41_42"
+   ],
+   "rationale": "현재 175단어(s01~s09, 원문 전체·3문단) vs 고1 41~42 장문 표본 212·212·216단어(평균 약 213). 표본의 약 82%. 원문 전체를 사용하므로 더 늘릴 연속 범위가 없음(창작·다른 본문 결합은 규칙상 금지). 정보 전개: 1문단 사례(2022 체코, 문구) → 2문단 기아석의 원리·의미·경고 → 3문단 기후 변화로 인한 장기 가뭄 경고와 UN 2050 전망으로 '과거 경고 → 미래 위험'의 전체 논지가 3단 구성으로 완결됨. 제목 문항은 이 전체를 포괄하는 ①을 요구하고, 오답 ②(1문단 지엽)·③④⑤(내용 반대·치환)를 가르는 데 세 문단이 모두 쓰임. 어휘 교체(cease)가 제목 근거('severe drought', UN 전망)를 훼손하지 않음. 결론: 실제 장문보다 약간 짧으나 전문 사용·3문단 전개로 제목 추론에 충분하므로 PASS."
+  },
+  "Q06": {
+   "status": "PASS",
+   "benchmark_ids": [
+    "202603241-Q41_42",
+    "202606041-Q41_42",
+    "202609021-Q41_42"
+   ],
+   "rationale": "현재 175단어(Q05와 같은 공유 지문, 원문 전체) vs 고1 41~42 장문 표본 212·212·216단어(평균 약 213), 약 82%. 전문 사용으로 범위 확장 불가. 정보 전개·근거: 표적 5개(continuation/occasional/cease/global/address)는 누출 방지를 위해 3문단(약 60단어)에 모여 있어 실제 42번처럼 글 전체에 흩어진 배치보다 탐색 범위는 좁음. 그러나 정답 ③ cease의 판단은 3문단의 'not just a simple, occasional drought but a severe drought'(대조 구조)와 앞 문단의 'past severe droughts', 기후 변화 지속 맥락이 함께 받쳐 주고, 오답 ①②④⑤의 적절성도 문단 안에서 확인됨. 근거 자족·유일 정답에 문제 없음. 결론: 표적 분포가 좁은 점은 한계지만 분량 부족으로 문항이 성립하기 어려운 수준은 아니므로 PASS."
+  }
+ },
+ "bindings": {
+  "package_sha256": "496abd06f38e67ff1cdf2b07abc5ac2eb1638a00e1e54b32222b9cdc83f81cee",
+  "assessment_content_sha256": "8b93195be760e5acf7da3884d3255fcba93a1cdf5e7364e649958c39c13ed294",
+  "learning_final_sha256": "26732639c48d4e2c2fc81f1fd50c8bcad3e626c0b28bc370c5a87cd39799a4e0",
+  "assessment_final_sha256": "294ed13f7b133372bfb2222e958f7d0e3c242142871fdd4ce0aa66cedabd9c8a"
+ }
+}

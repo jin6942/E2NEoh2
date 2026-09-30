@@ -1,0 +1,468 @@
+{
+ "reviewed_by": "제작(Claude 세션)",
+ "date": "2026-09-28",
+ "user_decisions": [
+  {
+   "topic": "인명 각주 표기",
+   "decision": "현행 유지(영어 이름)"
+  },
+  {
+   "topic": "s35·s70 then",
+   "decision": "then 유지, 예외 기록"
+  },
+  {
+   "topic": "s72 have to",
+   "decision": "V′: has 유지, 분석 설명만 맞춤"
+  },
+  {
+   "topic": "연결동사 최소 보어",
+   "decision": "보어까지 표시(현행 유지)"
+  }
+ ],
+ "self_decided_report_items": [
+  {
+   "topic": "s10 도치 힌트",
+   "decision": "유지: 영어2 YBM 2과 FR s16 독립 검수 반영·출고 선례(FLb-11) 확인"
+  },
+  {
+   "topic": "s15 강조구문 생략 that",
+   "decision": "유지(검수자 추천, 기록 차원 보고)"
+  },
+  {
+   "topic": "s45 it 지칭",
+   "decision": "카트 유지(검수자 추천 A), 표현 수정"
+  },
+  {
+   "topic": "s58·s61 Why don’t you 힌트",
+   "decision": "규칙대로 삭제"
+  },
+  {
+   "topic": "s63 Excuse me S/V",
+   "decision": "명령문 규칙대로 V: Excuse 유지"
+  }
+ ],
+ "findings": [
+  {
+   "id": "La-01",
+   "severity": "error",
+   "sentence_id": "s07",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "La-02",
+   "severity": "error",
+   "sentence_id": "s16",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "La-03",
+   "severity": "improve",
+   "sentence_id": "s07",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "La-04",
+   "severity": "improve",
+   "sentence_id": "s07, s12",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "La-05",
+   "severity": "improve",
+   "sentence_id": "s06",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "La-06",
+   "severity": "improve",
+   "sentence_id": "s06",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "La-07",
+   "severity": "improve",
+   "sentence_id": "s17",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "La-08",
+   "severity": "improve",
+   "sentence_id": "u1-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "La-09",
+   "severity": "improve",
+   "sentence_id": "u1-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "La-10",
+   "severity": "improve",
+   "sentence_id": "u1-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lb-01",
+   "severity": "error",
+   "sentence_id": "s20",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lb-02",
+   "severity": "error",
+   "sentence_id": "s29",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lb-03",
+   "severity": "error",
+   "sentence_id": "s33",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lb-04",
+   "severity": "error",
+   "sentence_id": "s35",
+   "decision": "사용자 결정(2026-09-28): then 유지, s35·s70만 승인 예외로 기록(approved-exceptions.md 사본)"
+  },
+  {
+   "id": "Lb-05",
+   "severity": "error",
+   "sentence_id": "s36",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lb-06",
+   "severity": "error",
+   "sentence_id": "s36",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lb-07",
+   "severity": "improve",
+   "sentence_id": "s36",
+   "decision": "사용자 결정(2026-09-28): 연결동사 get·become에도 최소 보어 표시 허용, 현행 유지(s07·s36)"
+  },
+  {
+   "id": "Lb-08",
+   "severity": "improve",
+   "sentence_id": "u2-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lb-09",
+   "severity": "improve",
+   "sentence_id": "s34",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lb-10",
+   "severity": "improve",
+   "sentence_id": "s30",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lb-11",
+   "severity": "improve",
+   "sentence_id": "s31",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lb-12",
+   "severity": "improve",
+   "sentence_id": "s32",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lb-13",
+   "severity": "improve",
+   "sentence_id": "s28",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lb-14",
+   "severity": "improve",
+   "sentence_id": "u2-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lb-15",
+   "severity": "improve",
+   "sentence_id": "u2-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lb-16",
+   "severity": "improve",
+   "sentence_id": "s36",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-01",
+   "severity": "improve",
+   "sentence_id": "s37",
+   "decision": "반영(변형): s37 frozen은 ‘냉동식품(의)’로 고치고 뜻이 달라 ★ 제거, 오늘의 낱말 frozen의 ★는 s39로"
+  },
+  {
+   "id": "Lc-02",
+   "severity": "improve",
+   "sentence_id": "s39",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-03",
+   "severity": "improve",
+   "sentence_id": "s45",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-04",
+   "severity": "error",
+   "sentence_id": "s45",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-05",
+   "severity": "error",
+   "sentence_id": "u3-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-06",
+   "severity": "error",
+   "sentence_id": "s46",
+   "decision": "부분 반영(B안): 검사기가 능동 완료 원형 각주를 A/B/V 틀 없는 숙어로 합치는 것을 허용하지 않아 take(하다)·notice(주목, 알아챔)로 나누고 대입 가능한 뜻으로 수정. ★는 notice."
+  },
+  {
+   "id": "Lc-07",
+   "severity": "error",
+   "sentence_id": "u3-today_words",
+   "decision": "B안 반영: 오늘의 낱말을 notice — 주목, 알아챔으로 변경(★ 각주·유반 표제어와 일치)"
+  },
+  {
+   "id": "Lc-08",
+   "severity": "error",
+   "sentence_id": "u3-today_words",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-09",
+   "severity": "error",
+   "sentence_id": "s46",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-10",
+   "severity": "improve",
+   "sentence_id": "s45",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-11",
+   "severity": "improve",
+   "sentence_id": "s46",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-12",
+   "severity": "error",
+   "sentence_id": "u3-analysis",
+   "decision": "반영: 유반 2세트를 find/discover/lose로 교체"
+  },
+  {
+   "id": "Lc-13",
+   "severity": "improve",
+   "sentence_id": "u3-analysis",
+   "decision": "반영: 유의어 attention을 take와 함께 쓸 수 있는 note(주목, 주의)로 교체"
+  },
+  {
+   "id": "Lc-14",
+   "severity": "improve",
+   "sentence_id": "s50",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-15",
+   "severity": "error",
+   "sentence_id": "s52",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-16",
+   "severity": "improve",
+   "sentence_id": "s53·s55·s56·s61",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-17",
+   "severity": "improve",
+   "sentence_id": "s58·s61",
+   "decision": "반영: s58·s61 제안 고정 표현 힌트 삭제, review_record에 사유 기록"
+  },
+  {
+   "id": "Lc-18",
+   "severity": "improve",
+   "sentence_id": "s58·s61",
+   "decision": "해당 없음: Lc-17로 힌트 삭제"
+  },
+  {
+   "id": "Lc-19",
+   "severity": "error",
+   "sentence_id": "s61",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-20",
+   "severity": "error",
+   "sentence_id": "u4-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-21",
+   "severity": "improve",
+   "sentence_id": "u4-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-22",
+   "severity": "improve",
+   "sentence_id": "u4-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-23",
+   "severity": "improve",
+   "sentence_id": "s56",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Lc-24",
+   "severity": "improve",
+   "sentence_id": "s45",
+   "decision": "반영(UR-1 A안, it = 카트 유지): 청크·힌트 ‘가득 쌓일’, 자연 해석 ‘카트가 … 가득 찰 때까지’"
+  },
+  {
+   "id": "Ld-01",
+   "severity": "error",
+   "sentence_id": "s74",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-02",
+   "severity": "error",
+   "sentence_id": "s74",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-03",
+   "severity": "error",
+   "sentence_id": "u5-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-04",
+   "severity": "error",
+   "sentence_id": "s74",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-05",
+   "severity": "error",
+   "sentence_id": "s65",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-06",
+   "severity": "improve",
+   "sentence_id": "s65",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-07",
+   "severity": "improve",
+   "sentence_id": "s65",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-08",
+   "severity": "improve",
+   "sentence_id": "s62",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-09",
+   "severity": "improve",
+   "sentence_id": "s62",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-10",
+   "severity": "improve",
+   "sentence_id": "s70",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-11",
+   "severity": "improve",
+   "sentence_id": "s70",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-12",
+   "severity": "improve",
+   "sentence_id": "s71",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-13",
+   "severity": "improve",
+   "sentence_id": "s71",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-14",
+   "severity": "improve",
+   "sentence_id": "u5-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-15",
+   "severity": "improve",
+   "sentence_id": "u5-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-16",
+   "severity": "improve",
+   "sentence_id": "u5-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-17",
+   "severity": "improve",
+   "sentence_id": "u5-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  },
+  {
+   "id": "Ld-18",
+   "severity": "improve",
+   "sentence_id": "u5-analysis",
+   "decision": "반영: 검수자 수정안대로 수정"
+  }
+ ],
+ "rereview": [
+  {
+   "record": "2단계_L_재검.json",
+   "result": "68건 중 67 해결·1 부분(Lc-06 분석 설명 → LR-01로 해결), 새 지적 6건(LR-01~06) 모두 반영"
+  },
+  {
+   "record": "2단계_L_재검2.json",
+   "result": "LR-01~06 6/6 해결, 새 지적 2건(LR2-01 강조 음절 s27·s50 반영, LR2-02 s74 기록 문구 사실대로 수정·사용자 보고)"
+  }
+ ],
+ "learning_final": {
+  "file": "공통영어2_YBM(박준언)_UNIT02_FINAL.txt",
+  "source_manuscript_sha256": "483e3dc980928c8c4a5849f3b88b89134b32ca593dd0ebecbbc8eba080560947"
+ }
+}

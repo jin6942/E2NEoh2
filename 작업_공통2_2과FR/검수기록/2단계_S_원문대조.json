@@ -1,0 +1,25 @@
+{
+ "id": "UNIT02FR-S-source-2026-09-29",
+ "kind": "source",
+ "status": "PASS",
+ "reviewer_id": "claude-session-01E2Ji6oqzJY84iXPZFpFMCt-S",
+ "execution_id": "session_01E2Ji6oqzJY84iXPZFpFMCt/FR-stage2-S",
+ "independent": false,
+ "independence_note": "2과 본책과 같은 배분: S는 제작 세션이 결정적 기계 대조로 수행(독립 검수자 아님). 의미 검수는 L이 따로 수행.",
+ "performed_at": "2026-09-29T09:53:00Z",
+ "method": "① pypdfium2 텍스트층에서 4쪽 영어 줄만 추출(쪽번호 ‘- 4 -’·코너명 Further Reading·제목 Hunger Stones·한국어 해석 제외) → 원고 9문장을 단락 순서대로 이은 문자열과 공백 정규화 후 글자 단위 완전 일치 비교. ② 단락 경계: 4쪽 페이지 이미지·글자 상자로 p01·p02·p03 첫 줄 들여쓰기(x≈64pt, 기본 57pt)를 확인하고 단락 중간 문장이 들여쓴 줄로 시작하지 않음을 확인.",
+ "summary": "9문장 1,043자 완전 일치(곡선 따옴표 “If you see me, then cry.”·아포스트로피·숫자 2022·500·2050·75 percent 포함). 단락 3개(2·5·2문장) 모두 원문 들여쓰기와 일치. 제목 Hunger Stones는 표지·분석 제목에만 쓰고 본문 문장에 넣지 않음. 사용자 결정(2026-09-29 “1단위”)으로 3단락 전체를 한 학습 단위로 묶음.",
+ "scope": {
+  "kind": "full",
+  "source_ids": [
+   "src"
+  ]
+ },
+ "bindings": {
+  "source_pdf_sha256": "02f6f0ec6c1cbe870801855c583dbafcf3a99081f2c519e3e8f6ef157606a883",
+  "source_content_sha256": "3f4794ad997309164cd18fcb0430054e0b6100a3564eee3defb5713b1fda4f41",
+  "manuscript_file_sha256": "b9e9db2862eda667e9abfb4bc9319392a98841cd957165d438af6088d16123b3"
+ },
+ "findings": [],
+ "correction_note": "2026-09-29 L-FR 보고(user_report_items 3)에 따라 summary의 숫자 오기(2018→2022·500)만 바로잡음. 대조 방법·결과·bindings는 그대로."
+}

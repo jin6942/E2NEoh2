@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "kind": "INTEGRATED_PLUS_FIVE_DOCX",
+  "delivery_mode": "integrated_plus_five_docx",
+  "filename_base": "혼공독해교재_공통영어2_YBM(박)_2과",
+  "source_docx": {
+    "path": "/home/user/E2NEoh2/결과물_공통2_2과/혼공독해교재_공통영어2_YBM(박)_2과_전체통합본.docx",
+    "sha256": "36460a1804677b4fc83f199678ff7004c8510b558c20b8e327642b2ff0124bad"
+  },
+  "plan": {
+    "path": "/home/user/E2NEoh2/작업_공통2_2과/검사기록/07_full_역할계획.json",
+    "sha256": "2c1baa0b25395c36037200e914ce662106d7e8f97df47df286ea731a12ba5182"
+  },
+  "integrated_docx": {
+    "path": "/home/user/E2NEoh2/결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과_전체통합본.docx",
+    "filename": "혼공독해교재_공통영어2_YBM(박)_2과_전체통합본.docx",
+    "sha256": "36460a1804677b4fc83f199678ff7004c8510b558c20b8e327642b2ff0124bad"
+  },
+  "source_coverage": [
+    "cover",
+    "u1/reading",
+    "u1/analysis",
+    "u1/workbook",
+    "u2/reading",
+    "u2/analysis",
+    "u2/workbook",
+    "u3/reading",
+    "u3/analysis",
+    "u3/workbook",
+    "u4/reading",
+    "u4/analysis",
+    "u4/workbook",
+    "u5/reading",
+    "u5/analysis",
+    "u5/workbook",
+    "mock1",
+    "mock2",
+    "mock3",
+    "answers/quick",
+    "u1/answers",
+    "u2/answers",
+    "u3/answers",
+    "u4/answers",
+    "u5/answers",
+    "answers/mock1",
+    "answers/mock2",
+    "answers/mock3"
+  ],
+  "cover_policy": "PRESERVED_ONCE_IN_READING",
+  "volumes": [
+    {
+      "kind": "reading",
+      "filename": "혼공독해교재_공통영어2_YBM(박)_2과_01_해석지.docx",
+      "path": "/home/user/E2NEoh2/결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과_01_해석지.docx",
+      "sha256": "10d9b6c12cf92bd5a26a1d18d1a7b212c505130b6c7b40950e669442d786e810",
+      "block_ids": [
+        "cover",
+        "u1/reading",
+        "u2/reading",
+        "u3/reading",
+        "u4/reading",
+        "u5/reading"
+      ],
+      "block_sha256": {
+        "cover": "07ba38bc34ac3aa366fd13c4088385fe3ef1e61b43a4445c1b653b0a6d21757b",
+        "u1/reading": "5f75376e0fdd006b1d44fb315ebfa8e74e4afb2a6bd2ef2fb5243ac0616dfaa7",
+        "u2/reading": "8044089431bcaf4aca48807cc7678752f77851e1a69584f1bd6a8dc20c5b48e8",
+        "u3/reading": "4ea9187bd86bf07d6094044b490c2fcb33fbb2321d35d4a60f54d06126b2b0c5",
+        "u4/reading": "4c7ac90f8d93edf28872b72d32c49a8a0e979954fa34ed44b28ea2484518852f",
+        "u5/reading": "511987c1e314f6d8505e99994c9648c54b21763769ae32ddaeefe38ecfc374cf"
+      }
+    },
+    {
+      "kind": "analysis",
+      "filename": "혼공독해교재_공통영어2_YBM(박)_2과_02_지문분석지.docx",
+      "path": "/home/user/E2NEoh2/결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과_02_지문분석지.docx",
+      "sha256": "587a4474b8d5d8faf827f1b8d977b30581b35a4da48f6fee7ae6913ecbf707dc",
+      "block_ids": [
+        "u1/analysis",
+        "u2/analysis",
+        "u3/analysis",
+        "u4/analysis",
+        "u5/analysis"
+      ],
+      "block_sha256": {
+        "u1/analysis": "99acbc652e0beea73949268765a8e0ed3dbc2cac20c06a8a00769aae699e2392",
+        "u2/analysis": "e4801734f5f56e4a56b82760854a90561f167bc9ee6819a5d2d3702eb8989226",
+        "u3/analysis": "2cb9493bbbf4ec308b4b8a94b947214eafc3c11de8e92a7dc4d66f9e5eeef64c",
+        "u4/analysis": "6b2087b6dbd0465f3361cebefdea550f4b890cc449dfd347e468bf55e6c54ff8",
+        "u5/analysis": "09ff10c60db2f41cddc11594fc563cfd753f871aa27810043d00c4e6bc906635"
+      }
+    },
+    {
+      "kind": "workbook",
+      "filename": "혼공독해교재_공통영어2_YBM(박)_2과_03_워크북+변형문제.docx",
+      "path": "/home/user/E2NEoh2/결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과_03_워크북+변형문제.docx",
+      "sha256": "1ff432891df943d51ce25eaf325af4a26cf6fceba49a50279aa8614d378df898",
+      "block_ids": [
+        "u1/workbook",
+        "u2/workbook",
+        "u3/workbook",
+        "u4/workbook",
+        "u5/workbook"
+      ],
+      "block_sha256": {
+        "u1/workbook": "562e1cf899b059d44fb3d93a83f8e671436ea8e3d8b26de629699c2f080dbb41",
+        "u2/workbook": "4fa981f5688bcec30e5acaaed538fa2f812c87fbf9dd4fa7bf88b7f40669dbde",
+        "u3/workbook": "b1494bcc84e2b830599b769cdc11b633ad68aa8cb67f923aa9ed0fd773172071",
+        "u4/workbook": "b555e7360a060cd5724ed3cde66d5159c94f78d937916692c3faaa4e3828a8d6",
+        "u5/workbook": "d784c523262a12f04530b5584e070c8a20838de3bf4162ba0a55026344b500e3"
+      }
+    },
+    {
+      "kind": "mock",
+      "filename": "혼공독해교재_공통영어2_YBM(박)_2과_04_실전모의.docx",
+      "path": "/home/user/E2NEoh2/결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과_04_실전모의.docx",
+      "sha256": "de44e5775952084fd55e04a8dbea077c9ff881cc7a9452ac8500410e8830f0fa",
+      "block_ids": [
+        "mock1",
+        "mock2",
+        "mock3"
+      ],
+      "block_sha256": {
+        "mock1": "845b959b96a65d579331ffc5839a5edfca91f7972dc09e91b1ceaf14fec97022",
+        "mock2": "2c0c4220a61479871a0359a15e861cd1337f3518182a673664c6b09169118e63",
+        "mock3": "b9aeea2efe7a1be1cd91e4ffbc146f5dc86e18185cc8f324a92f0f73e6867f65"
+      }
+    },
+    {
+      "kind": "answers",
+      "filename": "혼공독해교재_공통영어2_YBM(박)_2과_05_정답해설지.docx",
+      "path": "/home/user/E2NEoh2/결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과_05_정답해설지.docx",
+      "sha256": "c57a6f83142e6d697fbac77e48b24d27cbadb0fce8967215290ada52c8b206cb",
+      "block_ids": [
+        "answers/quick",
+        "u1/answers",
+        "u2/answers",
+        "u3/answers",
+        "u4/answers",
+        "u5/answers",
+        "answers/mock1",
+        "answers/mock2",
+        "answers/mock3"
+      ],
+      "block_sha256": {
+        "answers/quick": "5b092636d12cbedf84c7591dbe47fbfe0b52f152c31ad1beb772088fbb7e79b7",
+        "u1/answers": "0dfa4ea5af3e171f149d929e7490ffa3f936ef4f77d9ca608ee572aa7db32089",
+        "u2/answers": "2c5f9972dafa4aad5e7d7da8d83d16388dee4b71adcea4276d964757ade7550e",
+        "u3/answers": "b7cb60351fa0b3e83ff639bdecd43cbe10a0c7943f7bccbb6c10df100a9049b6",
+        "u4/answers": "eee7b20f21f7a54b4a6202278ab904cef9ba50099ee148bd40a3afc913b6627b",
+        "u5/answers": "d7ebf1e7cda8912003da13b684682ce1b149b8fe63daa4d4f0daf89fab293e16",
+        "answers/mock1": "625bff57db1eb10737bb7a13ecde14fabf1c810599fd3026897bb4d67582747d",
+        "answers/mock2": "5acee58b591a0b65305ec275324a2c65aad9b1bd6e124a84bef859a6651446a7",
+        "answers/mock3": "35d6c9b4ec7b58018575ce84fc26d89bb74caf12154bfa352f11b985a47530ff"
+      }
+    }
+  ],
+  "visual_review": "NOT_PERFORMED",
+  "release_authorization": "NOT_PERFORMED",
+  "delivery_zip": {
+    "path": "/home/user/E2NEoh2/결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과.zip",
+    "filename": "혼공독해교재_공통영어2_YBM(박)_2과.zip",
+    "sha256": "5eaf0cdb40f4e800131d5eeccfc902293ee13baf5eaff925e0ed817c9cb3c69a",
+    "docx_entry_sha256": {
+      "혼공독해교재_공통영어2_YBM(박)_2과_전체통합본.docx": "36460a1804677b4fc83f199678ff7004c8510b558c20b8e327642b2ff0124bad",
+      "혼공독해교재_공통영어2_YBM(박)_2과_01_해석지.docx": "10d9b6c12cf92bd5a26a1d18d1a7b212c505130b6c7b40950e669442d786e810",
+      "혼공독해교재_공통영어2_YBM(박)_2과_02_지문분석지.docx": "587a4474b8d5d8faf827f1b8d977b30581b35a4da48f6fee7ae6913ecbf707dc",
+      "혼공독해교재_공통영어2_YBM(박)_2과_03_워크북+변형문제.docx": "1ff432891df943d51ce25eaf325af4a26cf6fceba49a50279aa8614d378df898",
+      "혼공독해교재_공통영어2_YBM(박)_2과_04_실전모의.docx": "de44e5775952084fd55e04a8dbea077c9ff881cc7a9452ac8500410e8830f0fa",
+      "혼공독해교재_공통영어2_YBM(박)_2과_05_정답해설지.docx": "c57a6f83142e6d697fbac77e48b24d27cbadb0fce8967215290ada52c8b206cb"
+    }
+  },
+  "saved_validation": {
+    "status": "SPLIT_CONTENT_MATCH",
+    "errors": [],
+    "protected_paths": [
+      "/home/user/E2NEoh2/결과물_공통2_2과/혼공독해교재_공통영어2_YBM(박)_2과_전체통합본.docx",
+      "/home/user/E2NEoh2/작업_공통2_2과/검사기록/07_full_역할계획.json",
+      "/home/user/E2NEoh2/결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과_전체통합본.docx",
+      "/home/user/E2NEoh2/결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과_01_해석지.docx",
+      "/home/user/E2NEoh2/결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과_02_지문분석지.docx",
+      "/home/user/E2NEoh2/결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과_03_워크북+변형문제.docx",
+      "/home/user/E2NEoh2/결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과_04_실전모의.docx",
+      "/home/user/E2NEoh2/결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과_05_정답해설지.docx",
+      "/home/user/E2NEoh2/결과물_공통2_2과/출고/혼공독해교재_공통영어2_YBM(박)_2과.zip"
+    ],
+    "checked_volumes": [
+      "reading",
+      "analysis",
+      "workbook",
+      "mock",
+      "answers"
+    ],
+    "checked_docx_count": 6,
+    "integrated_copy": "BYTE_IDENTICAL",
+    "source_block_count": 28,
+    "delivery_zip": "SIX_DOCX_EXACT_BYTES",
+    "content_and_format_preservation": "EXACT_PARTITION",
+    "visual_review": "NOT_PERFORMED",
+    "release_authorization": "NOT_PERFORMED"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "reviewer": "M",
+  "solved_before_answer_key": true,
+  "inputs_read": ["/home/user/E2NEoh2/작업_공통2_2과FR/검수입력/문제_blind_재풀이.json"],
+  "answers": {"Q01": 4, "Q02": 5, "Q03": 4, "Q04": 2, "Q05": 1, "Q06": 3},
+  "notes": {
+    "Q01": {"evidence": "변경 없음. 'a severe drought that could persist for decades' → ④ 불일치.", "closest_distractor": "⑤ (75 percent → most, 조건 유지로 일치)", "doubt": null},
+    "Q02": {
+      "evidence": "'when droughts occur and water levels retreat, these stones become visible.' → ⑤ 'Hunger stones appear when the water in rivers goes down during droughts.' 일치.",
+      "closest_distractor": "④ 'important because they record the floods of the past' — 앞부분(important because they record)은 지문과 같고 droughts만 floods로 바꾼 함정이라 가장 헷갈림. ①은 발견자(scientists) 언급 없음, ②는 'cry'와 반대(happy), ③은 'typically remain underwater'와 반대.",
+      "doubt": "정답 유일. 오답이 반대·치환·언급 없음으로 다양화되어 지난번보다 나음. 다만 지문이 약 84단어(5문장)로 더 짧아졌고 선지 5개가 문장 5개에서 하나씩 나와 고1 내용 일치 문항치고 매우 짧음. ①은 '언급 없음' 유형이라 일치 문항에서 허용되나, 학생이 지문 전체를 대조해야 배제 가능."
+    },
+    "Q03": {
+      "evidence": "'when droughts occur and water levels retreat, these stones become visible.' + 'they bear records of the past severe droughts. Droughts cause reduced harvests, food shortages, and hunger, especially for the poor.' → 돌이 드러났다는 것은 가뭄이 닥쳐 굶주림과 고난이 온다는 뜻 → ④.",
+      "closest_distractor": "② 'People should be sad because the old stone has been damaged by the river.' — 'cry=슬퍼하라'에 끌리는 함정이나 슬픔의 원인이 돌의 손상이라는 근거 없음. ③ 'cry with joy'도 cry 표면어 함정.",
+      "doubt": "정답 유일. 해석 문장('The words ... warn of these hardships')을 지문에서 뺀 덕분에 추론이 필요해짐(개선). 다만 ①(floods), ⑤(swim) 등은 여전히 근거가 약해 쉽게 지워짐. 같은 회차 Q04 지문 끝 문장과 요약문('alert people to the hardships that droughts bring')이 이 문항의 함의를 그대로 알려 주는 교차 단서는 남아 있음."
+    },
+    "Q04": {
+      "evidence": "(A) 'typically remain underwater. However, when droughts occur and water levels retreat, these stones become visible' → only when droughts lower the water에 맞는 말은 seen. (B) 'The words ... are believed to warn of these hardships and to urge people to be prepared' → alert people to the hardships. 따라서 ② seen …… alert.",
+      "closest_distractor": "① hidden …… alert — (B)는 맞지만 (A) hidden을 넣으면 '가뭄으로 수위가 낮아질 때만 숨겨진다'가 되어 지문과 반대. 'only when'을 놓치면 선택할 수 있는 매력적 오답.",
+      "doubt": "정답 유일. 요약문 영어 자연스러움(alert A to B 용법 정상). ④ dry(돌이 '마른' 상태)도 문법상 들어갈 수는 있으나 comfort가 틀려 배제되고, ③ blame·⑤ reward는 (B)에서 바로 지워져 (B) 오답은 약한 편. 지문 길이 약 116단어로 고1 요약문(보통 150~200단어)보다 짧음."
+    },
+    "Q05": {"evidence": "변경 없음. 과거 경고 + 수십 년 지속될 가뭄·2050년 예측 → ①.", "closest_distractor": "④ The Czech Town That Became Famous for Crying (도입부 소재 함정)", "doubt": "②③⑤가 지문 소재와 멀어 여전히 쉬움(미수정)."},
+    "Q06": {
+      "evidence": "'not just a simple, occasional drought but a severe drought that could ③ cease for decades' — 심각한 가뭄이 '수십 년 동안 멈출 수 있다'는 것은 not just A but B 대비와 뒤 문장(2050년 75퍼센트 피해 예측)에 모순. persist/last여야 함 → ③.",
+      "closest_distractor": "② occasional — 'simple, occasional drought'는 '수십 년 지속되는 심각한 가뭄'과 대비되는 A항으로 적절. ① continuation(기후변화의 지속), ④ global(세계 인구), ⑤ address(대처하다)도 적절.",
+      "doubt": "정답 유일. 밑줄 5개가 모두 3문단(약 64단어, 2문장)에 몰려 있어 고1 어휘 문항의 통상 분포(지문 전반에 분산)와 다름. 같은 회차 다른 지문에는 3문단이 없으므로 회차 내 노출은 없음(워크북 노출은 코디네이터 지시에 따라 제외)."
+    }
+  },
+  "set_level": {
+    "leak_check": "해결됨. 어휘 밑줄을 모두 3문단(모의 Q02~Q04 지문에 없는 부분)으로 옮겨, 같은 회차 안에서 원형 확인으로 소거되는 선지가 없어짐. 이전의 Q04 ③ 'short and mild' 같은 간접 단서도 사라짐. 남은 교차 단서: Q04 지문 끝 문장과 요약문(B)가 Q03 함축 의미의 답(가뭄이 고난을 가져온다)을 사실상 확인해 줌(부분 미해결, 경미).",
+    "length": "Q02 약 84단어(이전 96보다 더 짧아짐), Q03 약 96, Q04 약 116, 장문 약 180(47+69+64). 원문 자체가 약 175단어라 한계가 있음. 문항은 모두 성립하지만 Q02 내용 일치와 Q04 요약문은 고1 평균보다 짧고, 장문 세트는 여전히 단일 지문 수준.",
+    "overlap": "부분 해결. Q02(1~5문장), Q03(1~6문장), Q04(1~7문장)로 범위를 한 문장씩 다르게 했으나 사실상 같은 지문의 반복이며 Q03과 Q04는 한 문장 차이. 지적별 판단: (1) 어휘 밑줄 노출: 해결. (2) 지문 겹침: 부분 해결(범위만 조정). (3) 함축 지문 끝 문장: Q03 지문에서 해석 문장이 빠져 해결되었으나 같은 회차 Q04 지문에 그대로 있어 교차 단서로 남음. (4) 요지·제목 겹침: Q04를 요약문 유형으로 바꿔 유형 겹침은 해결. 요약문 (B) alert와 Q05 제목 'Old Warnings'는 내용이 가깝지만 과도하지 않음. (5) 약한 오답: Q02·Q04(A)는 개선. Q03 ①⑤, Q04 (B)의 blame/reward, 미수정인 Q05 ②③⑤는 여전히 약함."
+  }
+}

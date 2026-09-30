@@ -1,0 +1,39 @@
+[교재] 공통영어2 YBM(박준언) 2과 Further Reading “Hunger Stones” (내부 UNIT02, 표지 “2 과 (Further Reading)”) — 본책과 별도 교재
+[전달 기본 이름] 혼공독해교재_공통영어2_YBM(박)_2과FurtherReading
+[작업 폴더] 저장소 jin6942/E2NEoh2 · 브랜치 claude/eager-galileo-x93mpu · 작업_공통2_2과FR/ · 결과물_공통2_2과/(통합본) · 결과물_공통2_2과/출고_FurtherReading/(ZIP)
+[권위 원문] (2022개정)2025년_공통영어2_YBM(박준언)_2과_본문_(20251205수정).pdf 4쪽 Further Reading 영어 본문(SHA256 02f6f0ec…), 9문장 1,043자·3단락
+[공통 단위] u1 s01~s09(p01~p03) — 2026-09-29 사용자 결정 “1단위”
+[공통 스킬] 작업_공통2_2과/스킬수정본/gyogwaseo-unified(본책과 같은 사본). 이 교재용 추가: 수동 p.p.+보충 to V 각주 허용(check_learning_content.py, tests/test_passive_to_complement.py, approved-exceptions.md 끝 절)
+[진행 방식] 제작·검수 1~6단계를 이 세션이 수행. 독립 검수는 제작 맥락을 공유하지 않는 서브에이전트(L, L-재검, M, N, J). S·R은 기계 대조(독립 아님으로 기록).
+
+[현재 단계] 7단계 FABLE 독립 최종 검수(PASS, Word 실제 렌더) 반영 후 재출고(2026-09-30) — 전달 ZIP 결과물_공통2_2과/출고_FurtherReading/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading.zip (SHA256 8968d5d2…, DOCX 6개). verify_release REVIEW_PENDING(오류 0). 남은 것: 반영 후 DOCX의 Word 재확인(15쪽 워크북 정답 회수, 7·8쪽 분석 8번 자연 해석) → word_render·word_layout·release 게이트 연결
+[통합 DOCX] 결과물_공통2_2과/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_전체통합본.docx (SHA256 3c561ccf…, 3955a4a6…에 patch, 저장본 검사 SAVED_CONTENT_MATCH·format PASS, 검사기록/09_full_*)
+[원고] 공통영어2_YBM(박)_2과FurtherReading_원고.json (full, SHA256 6e32d994…; source_text_fr.py·fr1.py·assessment_fr.py → make_fr.py full)
+[학습 QC] 공통영어2_YBM(박준언)_2과FurtherReading_QC_HANDOFF.txt (L에 넘긴 검수 전 인계본, 보존)
+[학습 FINAL] 공통영어2_YBM(박준언)_2과FurtherReading_FINAL.txt (SHA256 26732639…, L 독립 검수·재검 완료 + 7단계 F-S02 반영)
+[문제 QC] 공통영어2_YBM(박준언)_2과FurtherReading_문제_QC_HANDOFF.txt (첫 문제 원고, 교사용 분량 진단 포함, 보존)
+[문제 FINAL] 공통영어2_YBM(박준언)_2과FurtherReading_문제_FINAL.txt (SHA256 294ed13f…, 7단계 F-S02(정답지 핵심 문장 해석 2) 반영, M·N 블라인드 일치·재검 PASS·분량 판정 PASS)
+[예비 렌더] 예비렌더_LibreOffice/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_전체통합본.pdf (15쪽, 대체 글꼴 · Word 아님; Word 실제 렌더는 FABLE 기준 18쪽 — 통합본 18 = 분권 5+3+2+2+6). 분권 01 해석지 4 · 02 지문분석지 3 · 03 워크북+변형문제 2 · 04 실전모의 2 · 05 정답해설지 4쪽
+
+[사용자 결정(2026-09-29)]
+- 학습 단위 “1단위 (추천)”, 문제 편성 “워크북 1 + 모의 1회 5문항 (추천)”
+- s07 각주 “p.p.에 to V 결합”: be p.p. — ~되다 / believed to V — ~하는 것으로 여겨지는 → 검사기가 막아 “검사기 보완”(스킬 사본만)
+- s09 significant “★ 없이 둠”(뜻이 ‘중대한, 상당한’으로 s05 오늘의 낱말과 다름)
+- 병렬 청크 “A 괄호 방식”(본책 s73·s74와 통일): s04 ‘그리고 수위가 낮아질 (때)’, s07 ‘… 촉구하는 것으로 (여겨진다)’
+- 분석지 7쪽 거의 빈 쪽 “그대로, Word 확인”(간격 줄이기 최대 한도로도 2줄 남음을 시험)
+
+[문제 편성표] 워크북 1 + 미니 모의고사 1회 5문항(일반 3 + 공유 장문 2) = 6문항
+- Q01 워크북 내용 불일치 s01~s09 ④ (유반 사용: invisible·noticeable·important·cease)
+- 모의 1 Q02 내용 일치 s01~s05 ⑤ / 2 Q03 함축 의미 s01~s06 ④ / 3 Q04 요약 s01~s07 ② / [4~5] 공유 장문 s01~s09: 4 Q05 제목 ①, 5 Q06 어휘(s08~s09 밑줄 5개, persist→cease) ③
+- 모의 정답 분포 ①1 ②1 ③1 ④1 ⑤1
+- 구조 제약: 원문 175단어 하나라 일반 3문항은 1~2문단(최대 116단어)에서 범위를 달리해 고르고, 어휘 밑줄은 그 지문에 없는 3문단에만 둠. 모의 5문항 모두 고1 동유형 표본보다 짧음 → M·N 각각 분량 판정 PASS(검수기록/4단계_*_분량판정.json). M 권고: 원문이 더 긴 과에서는 같은 편성을 반복하지 말고 범위를 넓힐 것.
+
+[Word 확인 대기 목록] 출고검수.txt 참고(J-W01~J-W07)
+[다음 조치] Word에서 통합본을 열어 Word 확인 대기 목록 확인 → Word 렌더 기록·Word 조판 검수·독립 R 후 verify_release 재실행
+[7단계 독립 최종 검수(2026-09-30)] 검수기록/7단계_FABLE_검수.json — FABLE, Microsoft Word(Microsoft 365) 실제 렌더, PASS·error 0·suggestion 6, 블라인드 6/6 일치. 출고기록/출고기록.json의 independent_final_review로 연결(수정 전 DOCX 3955a4a6… 대상이라 verify_release 게이트 입력으로는 미연결)
+[7단계 사용자 결정(2026-09-30)]
+- F-S01 워크북 정답(u1/answers)에 spacing 프로필만 적용(spacing_and_type 금지). 근거 해시는 Word PDF 대신 7단계_FABLE_검수.json(사용자 결정 “FABLE 검수 파일로 대신”)
+- F-S02 s08 자연 해석 ‘단순히 가끔 찾아오는’→‘단순하고 가끔 찾아오는’(분석지·정답지 두 곳)
+- F-S04 지명·기관명 각주 현행 유지 → 저장소 맨 위 스킬_걸림_목록.md에 기록
+- F-S03·F-S05·F-S06 조치 없음
+[출고 관련 기록] 출고검수.txt, 수정이력.txt, 출고기록/, 검사기록/09_*, 검수기록/, 저장소 맨 위 작업기록.md

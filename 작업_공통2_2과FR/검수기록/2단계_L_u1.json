@@ -1,0 +1,143 @@
+{
+  "reviewer": "L-FR",
+  "scope": {
+    "unit_ids": ["u1"],
+    "sentence_ids": ["s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", "s09"]
+  },
+  "inputs_checked": [
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검수입력/L_u1.json 전체(selected_data: metadata, units[u1] today_words·analysis, sentences s01~s09의 text·chunks·natural_ko·clauses·glosses·lexical_coverage·hints·reading_checks; context.sources·paragraphs·grouping_resolutions; input_digest file_sha256 b9e9db28…)",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/공통영어2_YBM(박준언)_2과FurtherReading_QC_HANDOFF.txt 전체(205행) — JSON 값과 출력 문구 대조",
+    "/home/user/E2NEoh2/(2022개정)2025년_공통영어2_YBM(박준언)_2과_본문_(20251205수정).pdf 4쪽(index 3) — pypdfium2 텍스트 추출, 영어 본문(제목 Hunger Stones 뒤~한국어 해석 앞)을 줄바꿈→공백으로 이어 context.sources[0].text와 글자 단위 비교: 완전 일치. s01~s09 각 text도 sources start/end 절단값과 일치. 오른쪽 단 한국어 해석은 뜻 확인 참고로만 사용",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검수기록/2단계_S_원문대조.json (참고)",
+    "/home/user/E2NEoh2/작업_공통2_2과/공통영어2_YBM(박준언)_UNIT02_FINAL.txt (같은 과 본책의 각주 표기 선례 확인용 grep: to V·흔한 뜻·in 각주)"
+  ],
+  "rules_read": [
+    "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/SKILL.md",
+    "references/editorial-core.md",
+    "references/analysis-content.md (끊어읽기, S/V, 구조 힌트, 대명사와 지칭 대상, 문법 대응 강조, 직역과 자연 해석, 공통 학습 단위별 지문분석, 각 문장 쉬운 풀이)",
+    "references/gloss-rules.md",
+    "references/grammar-labels.md",
+    "references/preposition-meanings.md",
+    "references/proper-nouns.md",
+    "references/common-errors.md",
+    "references/approved-exceptions.md (공통영어2 YBM(박준언) 2과 절 포함)",
+    "references/manuscript-data.md (문장 주석, 구조 힌트의 대명사 참조, 공통 단위, 분석·워크북 구문 결합 연습 계약)",
+    "references/handoff-format.md",
+    "references/workbook.md (오늘의 낱말 표기 부분만)"
+  ],
+  "findings": [
+    {
+      "id": "L-01",
+      "sentence_id": "s01",
+      "field": "각주",
+      "current": "s01-g07 `in — ~ 만에` / s01-g08 `years — 년, 해들` (원문 in 500 years)",
+      "problem": "in + 기간이 대표 뜻(~안에, ~에)으로 풀리지 않아 ‘~만에’가 된 경우인데 in과 years를 따로 나눴다. preposition-meanings.md ‘판단 순서’ 3(대표 뜻으로 해결되지 않으면 필요한 최소 결합을 묶음, `in 11 days` 같은 시간 표현 포함)과 ‘확정 경계 사례’(`in 11 days — 11일 만에`, ‘~만에’는 대표 뜻으로 분리해 처리하지 않음), editorial-core.md(`in 11 days`는 ‘11일 만에’로 묶는다)에 어긋난다. 분리된 in에 ‘~ 만에’를 붙이면 전치사 한 개가 ‘만에’라는 드문 뜻을 가진 것처럼 보이고, years의 ‘년, 해들’은 문장에 넣어 읽을 수 있는 한 가지 뜻도 아니다.",
+      "proposed_fix": "s01-g07·s01-g08을 하나로 합쳐 `in 500 years — 500년 만에`(spans [[48,60]] 또는 [[48,50],[55,60]])로 쓰고, lexical_coverage의 in(48)·years(55)를 새 각주 ID에 연결한다. 청크 ‘500년 만에’와 자연 해석은 그대로 둔다.",
+      "severity": "error"
+    },
+    {
+      "id": "L-02",
+      "sentence_id": "s02",
+      "field": "각주",
+      "current": "s02-g07 `that V′ — V′하는 (관계대명사)` (원문 a sentence … that read:, 같은 문장의 구조 힌트·청크는 ‘적혀 있던’)",
+      "problem": "관계절 동사 read는 과거형(과거 서술)이다. 그런데 각주는 현재 관형 ‘V′하는’으로, 같은 문장의 구조 힌트 `[다음과 같이 적혀 있던]`·한국어 청크 ‘적혀 있던’과 시제가 어긋난다. gloss-rules.md ‘관계사·접속사’, grammar-labels.md, analysis-content.md 구조 힌트 절은 “과거 관형 관계절은 실제 과거 연결을 보존해 `who V′ — V′했던 (관계대명사)`처럼 제공하고 힌트·연결 분석에도 맞는 관형 연결을 쓴다”고 정한다. gloss-rules.md 검수 6(각주와 힌트의 조사·연결 어미 일치)에도 어긋난다.",
+      "proposed_fix": "`that V′ — V′하던 (관계대명사)`로 고친다(힌트의 ‘있던’과 같은 과거 관형 연결). ‘V′했던’을 쓰려면 힌트·청크도 ‘적혀 있었던’으로 함께 맞춘다.",
+      "severity": "error"
+    },
+    {
+      "id": "L-03",
+      "sentence_id": "s02",
+      "field": "구조 힌트",
+      "current": "hints[0] display ko `그것[그 돌] 위에 쓰인, [다음과 같이 적혀 있던] 문장` (en `a sentence written on it [that read]`)",
+      "problem": "영어 대괄호는 [that read]에서 끝나는데 한국어 대괄호에 ‘다음과 같이’가 들어 있다. 이는 read 뒤 콜론 인용문(동사 뒤 대상)이 맡는 뜻이며 표시 영어에 없는 부분이다. analysis-content.md ‘선정과 작성’(절 연결 힌트는 연결어 + 실제 S′·V′까지만, 동사 뒤 목적어·대상과 그 뜻은 넣지 않음)과 ‘검수’ 1·2(한국어도 선택한 부분만 옮기며 표시하지 않은 대상을 덧붙이지 않음), manuscript-data.md hints 계약에 어긋난다.",
+      "proposed_fix": "ko를 `그것[그 돌] 위에 쓰인, [적혀 있던] 문장`으로 줄인다. emphasis_links는 en that [26,30] ↔ ko ‘던’ [20,21]로 다시 맞추고, pronoun_refs(ko_pronoun_span [0,2], ko_reference_span [2,7])는 그대로 둔다. 내부 meaning_ko도 같은 범위로 맞춘다.",
+      "severity": "error"
+    },
+    {
+      "id": "L-04",
+      "sentence_id": "s02",
+      "field": "구조 힌트",
+      "current": "hints[1] `[If you see] → [네가 본다면]` (pronoun_refs 없음)",
+      "problem": "표시 영어 안에 인칭대명사 you가 있는데 한국어 ‘네’ 뒤에 [지칭 대상]이 없다. analysis-content.md ‘대명사와 지칭 대상’(표시 영어 안에 인칭·지시·소유·재귀 대명사가 있으면 한국어 대명사 뒤에 [지칭 대상]을 붙임, 승인 예 `[after you throw … away] → [여러분[독자들]이 버린 후에]`)과 manuscript-data.md ‘구조 힌트의 대명사 참조’에 어긋난다. 단독 you의 각주 제외는 힌트 참조 표시와 별개다(analysis-content.md 같은 절). 문맥상 you는 돌을 보게 되는 사람(돌의 글귀를 읽는 사람)이다.",
+      "proposed_fix": "ko를 `[네[돌을 보는 사람]가 본다면]`으로 고치고 pronoun_refs `[{\"en_span\":[4,7],\"ko_pronoun_span\":[1,2],\"ko_reference_span\":[2,12]}]`를 넣는다. emphasis_links는 en If [1,3] ↔ ko ‘가’ [12,13]·‘본다면’ [14,17]로 다시 맞춘다. 참조어는 ‘돌을 보는 사람’ 대신 문맥에 맞는 다른 짧은 명사구(예: 이 글을 읽는 사람)로 바꿀 수 있다.",
+      "severity": "error"
+    },
+    {
+      "id": "L-05",
+      "sentence_id": "s07",
+      "field": "각주",
+      "current": "s07-g06 `to V — ~하는 것으로` (to warn) / s07-g10 `to V — ~하는 것으로` (to urge); 앞의 s07-g04 `be p.p. — ~되다` / s07-g05 `believed — 여겨지는, 믿어지는`",
+      "problem": "to warn·to urge는 are believed의 뜻을 완성하는 보충 to V인데, 따로 떼어 낸 to V에 ‘~하는 것으로’를 붙였다. 이 뜻은 believe와 결합할 때만 생기는 뜻이다. editorial-core.md·gloss-rules.md는 “동사의 뜻을 완성하는 to V는 동사 구문으로 묶고, 단독 to V에 `~하기로·~하려고·~하는 데`(동사 의존 뜻)를 붙이지 않는다”고 정한다. 이 문장의 구조 힌트(`be believed to V 구문`)와 분석 u1-gp2(공식 be believed to V — V하는 것으로 여겨지다)는 결합 공식을 쓰는데 각주에만 그 공식이 없다. gloss-rules.md 검수 6(각주·힌트·분석 일치)에도 어긋난다.",
+      "proposed_fix": "단독 to V 각주 s07-g06·s07-g10을 없애고 believed와 두 to를 한 구문으로 연결한다. 추천안: `be p.p. — ~되다`(s07-g04)는 유지하고, s07-g05를 `believed to V — ~하는 것으로 여겨지는`으로 바꾼다(verb_construction kind:to-complement, verb_span [35,43], link_spans [[44,46],[75,77]]; verb_form passive-participle 유지). warn of·urge A to V 등 V 자리 낱말은 그대로 둔다. function_gloss_ids에서 s07-g06·s07-g10을 빼고, lexical_coverage의 to(44)·to(75)는 새 구문 각주에 연결한다. 어떤 표기를 쓸지는 user_report_items 1에서 사용자 결정이 필요하다.",
+      "severity": "error"
+    },
+    {
+      "id": "L-06",
+      "sentence_id": "s04",
+      "field": "구조 힌트",
+      "current": "hints[0] `[when droughts occur and water levels retreat] → [가뭄이 발생하고 수위가 낮아질 때]`, emphasis_links ko ‘이’[3,4]·‘질 때’[16,19]만 연결",
+      "problem": "when 공식 `S′(이/가) V′할 때`의 S′ 자리가 둘(droughts, water levels)인데, 첫 S′의 ‘이’만 강조하고 두 번째 S′ ‘수위가’의 ‘가’는 강조하지 않았다. analysis-content.md ‘문법 대응 강조’는 선정 공식의 S′(이/가) 자리에 실제로 들어간 주어 조사를 강조한다고 정한다. 병렬 동명사 두 개의 ing를 모두 고르는 by/without 예와 같은 원리이지만, and로 이은 두 번째 S′까지 반드시 강조해야 한다는 명문 규정은 없어 suggestion으로 둔다.",
+      "proposed_fix": "같은 링크의 ko_spans에 ‘수위가’의 ‘가’ [12,13]를 더해 [[3,4],[12,13],[16,19]]로 기록한다. ‘발생하고’의 ‘고’(and)는 넣지 않는다.",
+      "severity": "suggestion"
+    },
+    {
+      "id": "L-07",
+      "sentence_id": "s04",
+      "field": "끊어읽기",
+      "current": "chunk [29,54] `and water levels retreat,` ↔ `그리고 수위가 낮아질 (때),` (앞 청크 `가뭄이 발생할 때`)",
+      "problem": "한국어 청크에 원문 대응이 없는 보충 괄호 ‘(때)’가 들어가고 when이 두 번 번역된다. 같은 문장의 구조 힌트 ‘가뭄이 발생하고 수위가 낮아질 때’와 연결 방식도 다르다(gloss-rules.md 검수 6의 끊어읽기 해석·힌트 일치 취지). 청크 안 괄호를 금지하는 명문 규정은 없어 suggestion이다.",
+      "proposed_fix": "`가뭄이 발생하고 / 수위가 낮아질 때,`처럼 괄호 없이 두 청크로 대응시킨다(청크 수 4 유지).",
+      "severity": "suggestion"
+    },
+    {
+      "id": "L-08",
+      "sentence_id": "s07",
+      "field": "끊어읽기",
+      "current": "chunk [71,105] `and to urge people to be prepared.` ↔ `그리고 사람들에게 대비하라고 촉구하는 것으로 (여겨진다).`",
+      "problem": "L-07과 같이 한국어 청크에 보충 괄호 ‘(여겨진다)’가 들어 있다. 앞 청크의 ‘여겨진다’를 다시 채운 것이라 직역 청크에서 원문에 없는 동사가 한 번 더 나온다. 명문 금지 규정은 없어 suggestion이다.",
+      "proposed_fix": "앞 청크를 `이러한 어려움들에 대해 경고하고`로, 이 청크를 `사람들에게 대비하라고 촉구하는 것으로 여겨진다.`로 옮겨 괄호를 없애거나, 괄호 없이 `그리고 사람들에게 대비하라고 촉구하는 것으로.`로 둔다.",
+      "severity": "suggestion"
+    },
+    {
+      "id": "L-09",
+      "sentence_id": "u1",
+      "field": "분석",
+      "current": "u1-gp4(be p.p., s01) practice.span [72,115] `a stone known as a “hunger stone” was found`, answer_ko `‘기아석’으로 알려진 돌이 발견되었다`, support_gloss_ids s01-g11·g12·g13·g14·g16",
+      "problem": "be p.p. 연습 범위에 u1-gp1(N + p.p.)의 초점 구절 known as a “hunger stone”이 그대로 들어가 한 연습이 두 초점을 함께 다룬다. analysis-content.md ‘배운 구문을 바로 연습’은 분석 인용 안에서 같은 문법 초점의 최소 연습 구절을 고르라고 정한다. 주어를 포함해야 하는지는 판단 여지가 있어 suggestion이다.",
+      "proposed_fix": "practice.span을 [106,115] `was found`로, answer_ko를 `발견되었다`로, support_gloss_ids를 [s01-g16]로 줄인다. 주어를 꼭 보여 주려면 s09 is taken 등 수식어가 없는 다른 사례를 고르는 방법도 있다(formula_routes 대표 항목은 u1-gp4 유지).",
+      "severity": "suggestion"
+    }
+  ],
+  "user_report_items": [
+    {
+      "topic": "s07 be believed to V의 각주 표기(수동 분리 규칙과 보충 to V 결합 규칙이 겹치는 경우)",
+      "detail": "원문 `are believed to warn of … and to urge …`. 현행 규칙에는 수동의 분리(`be p.p. — ~되다 / believed — 여겨지는`)와 보충 to V의 결합(`decide to V`처럼 묶음)이 있고, 수동 동사 뒤 보충 to V(be believed/said/thought to V)를 어떻게 표기할지는 정해져 있지 않다. 예외로 한 덩어리 사전형을 허용한 것은 be called A·be born뿐이다. 현재 원고는 to V를 따로 떼어 ‘~하는 것으로’라는 동사 의존 뜻을 붙여 규칙과 충돌한다(L-05).",
+      "recommendation": "추천: `be p.p. — ~되다 / believed to V — ~하는 것으로 여겨지는`(수동 분리 유지 + 보충 to V를 p.p. 낱말 쪽에 결합, link_spans에 to 두 개). 대안: be called A처럼 `be believed to V — ~하는 것으로 여겨지다` 한 각주로 두기. 이 경우 s07의 be p.p. 기능 각주가 없어지므로 formula_routes의 s07-g04 연결도 함께 뺀다."
+    },
+    {
+      "topic": "s09 significant에 ★를 붙일지(오늘의 낱말 반복 출현 판정)",
+      "detail": "오늘의 낱말 u1-w3 significant는 s05에서 ‘중요한, 의미 있는’(★)이다. 같은 단위 s09 `significant action`의 각주 s09-g16은 ‘중대한, 상당한’이며 ★가 없다. editorial-core.md·gloss-rules.md는 같은 단위의 반복 출현에도 ★를 붙이라고 하고, manuscript-data.md는 ‘의미가 같은’ 오늘의 낱말의 모든 등장과 대조하라고 한다. s09의 뜻(규모·정도가 큰 조치)을 같은 의미로 볼지는 판단이 갈린다.",
+      "recommendation": "뜻의 중심이 ‘상당한/중대한(규모)’이라 s05의 ‘중요한, 의미 있는’과 다른 뜻으로 보고 ★ 없이 두기를 추천한다. 같은 뜻으로 본다면 s09-g16에 star=true, today_word_id=u1-w3를 붙인다."
+    },
+    {
+      "topic": "검수 범위 밖 참고: S 원문대조 기록의 숫자 표기",
+      "detail": "2단계_S_원문대조.json summary에 ‘숫자 2018·2050·75 percent 포함’이라고 적혀 있다. 원문과 PDF의 연도는 2022이고 2018은 본문에 없다. 원고 원문은 PDF와 완전히 일치하므로 교재 내용에는 영향이 없다. 기록 문구만 틀렸다.",
+      "recommendation": "S 기록의 summary 문구를 ‘2022·500·2050·75’로 바로잡는다(원고 수정 불필요)."
+    }
+  ],
+  "checked_without_findings": [
+    "원문: 9문장 전체가 PDF 4쪽 영어 본문과 글자 단위로 일치한다(곡선 따옴표 “hunger stone”·“If you see me, then cry.” 포함). 단락 p01(2)·p02(5)·p03(2)문장, 사용자 결정대로 9문장 1단위.",
+    "끊어읽기 영어: 모든 청크를 이어 붙이면 원문이 복원된다. 영·한 청크 수가 모든 문장에서 같다. 필수 경계를 모두 확인했다. s01 of 2022·in 500 years·in Europe·known as…·along…, s02 written on it, s03 found…·across…, s05 of the past…, s07 on the hunger stones, s08 of climate change, s09 of the global population·of drought 앞에서 끊는다. 숙어(warn of, suffer from, urge A to V, be prepared)는 갈라지지 않았다. 수동 by 구는 없다. s09 75 percent of는 한국어 어순이 뒤집혀(전 세계 인구의 75퍼센트) 수량+of 예외를 적용하지 않은 판단이 타당하다.",
+    "자연 해석: 9문장 모두 원문의 주체·시제·부정·양태·수치(2022, 500년, 2050년, 75퍼센트)·조건(unless)·could의 가능성을 보존하고, 교과서 해석과 뜻이 일치한다. s06의 especially for the poor를 굶주림에 거는 해석은 교과서 해석과 같아 허용했다.",
+    "S/V: s01·s07 주어 표시 축약(a stone / The words, 뒤수식어 제외)과 검토 기록이 타당하다. s08 that절 주어 the situation 축약, [(that)] S′: we, V′: face, [that] V′: could persist(주격이라 S′ 없음). s09 수량 주어 75 percent of the global population은 전체를 유지했고 V′: could suffer, is taken. s02 명령문 V: cry에 (You)를 보충하지 않았다. s04 [and] S′·V′ 병렬 종속절. 동사 칸에 보어·목적어가 없다.",
+    "각주 형식: 수동 was found·are believed·is taken은 be p.p./실제 p.p.형 쌍으로 나눴다. 능동 완료 has predicted는 `have p.p. — ~했다 / predict — 예측하다 (predicted는 predict의 p.p.형)`. 독립 p.p. known·written·found(s03)·reduced는 실제형·문맥 뜻. 불규칙 과거 had·read는 현행 표기. worst는 (bad의 최상급). 목적 to address는 `to V — ~하기 위해`. could V, not just A but B(상관어구 한 각주), because/when/if/unless/that 틀도 확인했다. 지정 대명사 they(s05)와 we·me·it에 지시 대상이 붙어 있다. 단독 you는 제외, and는 standalone-and-but로 처리했다. 관사만 below-middle1 제외. 모든 낱말 위치에 lexical_coverage 행이 있다. 원문 등장 순서도 맞다.",
+    "고유명사: Europe·Czech·Elbe River·United Nations는 첫 등장에만 현행 방식(영어 이름 유지 + 한국어 설명)으로 제공했고, s03 Europe은 proper-name-repeat로 s01-g10에 연결했다(사용자 결정 ① 적용 확인).",
+    "다의어의 흔한 뜻 병기: retreat·read·face·address·bear. bear의 ‘(흔한 뜻: 곰)’·address의 ‘(흔한 뜻: 주소)’처럼 다른 품사의 흔한 뜻을 적은 방식은 같은 과 본책 FINAL의 선례(addressed — … (흔한 뜻: 주소), place — 놓다 (흔한 뜻: 장소))와 같아 지적하지 않았다.",
+    "구조 힌트: 문장당 2개 이하를 지켰다. 관계사 필수 포함도 지켰다(s02 that, s08 생략 that·주격 that. s08은 한도 때문에 that 명사절을 각주·S/V·분석으로 돌렸다는 기록이 있다). 표시 문자열로 강조 위치를 직접 계산해 확인한 결과는 다음과 같다. s01 known↔알려진, s03 found↔발견되는(독립 p.p. 전체 대응). s05 because↔이·기 때문에, s07 to↔는 것으로 / to↔에게·라고(ko-only), s08 (that)↔가·한 / that↔는, s09 that↔가·다고 / unless↔가·지 않는다면(두 번째 ‘지’). 대명사 참조 s02 그것[그 돌], s05 그것들[기아석들]이, s08 우리[사람들]가의 위치와 대상이 맞다. 절 연결 힌트는 S′·V′에서 끝나고 목적어를 붙이지 않았다(s02 hints[0]·[1]은 L-03·L-04). 힌트가 없는 s06은 관계사·접속사절·수동이 없어 빈 힌트가 타당하다.",
+    "오늘의 낱말 8개(retreat, visible, significant, bear, hardship, urge, occasional, persist): 각 source_gloss_id의 각주에 star=true와 today_word_id가 연결되어 있고 뜻이 각주와 맞는다. s09 significant는 user_report_items 2에서 다룬다.",
+    "분석: 제목(Stones That Warn of Drought / 가뭄을 경고하는 돌)과 의도가 적절하다. 흐름 3단계가 s01~s09를 순서대로 한 번씩 포함한다. 쉬운 풀이 3문장(s02·s05·s09)은 원문 순서이고, 앞 문맥·역할을 연결하며, 한 문장에 한 내용이고, 원문보다 강한 단정이 없다. grammar_points는 기본 3개(N + p.p., be believed to V, not just A but B)와 보충 2개(be p.p. → gp4, have p.p. → gp5)다. formula_routes 4개가 대상 기능 각주 s01-g15·s07-g04·s09-g02·s09-g18을 빠짐없이 연결한다. 각 practice의 span은 분석 span 안에 있고, formula_support는 formula_key와 일치하며, answer_ko의 태·시제·양태가 맞다(gp4 범위는 L-09).",
+    "유의어·반의어 3세트: visible–noticeable–invisible, significant–important–insignificant, persist–continue–cease. 원문 문맥(become visible / are significant / could persist for decades)에 대입해 품사와 치환 가능성을 확인했다.",
+    "사용자 결정 ②(then을 V에 남기는 예외)·③(have to 류 V′ has)·④(연결동사 최소 보어)는 이 단위에 해당하는 구문이 없어 잘못 적용된 곳이 없다."
+  ],
+  "verdict": "FAIL"
+}

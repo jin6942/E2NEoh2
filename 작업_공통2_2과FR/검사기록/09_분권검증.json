@@ -1,0 +1,29 @@
+{
+  "status": "SPLIT_CONTENT_MATCH",
+  "errors": [],
+  "protected_paths": [
+    "/home/user/E2NEoh2/결과물_공통2_2과/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_전체통합본.docx",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검사기록/09_full_역할계획.json",
+    "/home/user/E2NEoh2/결과물_공통2_2과/출고_FurtherReading/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_전체통합본.docx",
+    "/home/user/E2NEoh2/결과물_공통2_2과/출고_FurtherReading/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_01_해석지.docx",
+    "/home/user/E2NEoh2/결과물_공통2_2과/출고_FurtherReading/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_02_지문분석지.docx",
+    "/home/user/E2NEoh2/결과물_공통2_2과/출고_FurtherReading/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_03_워크북+변형문제.docx",
+    "/home/user/E2NEoh2/결과물_공통2_2과/출고_FurtherReading/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_04_실전모의.docx",
+    "/home/user/E2NEoh2/결과물_공통2_2과/출고_FurtherReading/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_05_정답해설지.docx",
+    "/home/user/E2NEoh2/결과물_공통2_2과/출고_FurtherReading/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading.zip"
+  ],
+  "checked_volumes": [
+    "reading",
+    "analysis",
+    "workbook",
+    "mock",
+    "answers"
+  ],
+  "checked_docx_count": 6,
+  "integrated_copy": "BYTE_IDENTICAL",
+  "source_block_count": 8,
+  "delivery_zip": "SIX_DOCX_EXACT_BYTES",
+  "content_and_format_preservation": "EXACT_PARTITION",
+  "visual_review": "NOT_PERFORMED",
+  "release_authorization": "NOT_PERFORMED"
+}

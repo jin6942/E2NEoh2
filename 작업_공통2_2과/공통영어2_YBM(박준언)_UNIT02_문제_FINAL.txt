@@ -1,0 +1,1101 @@
+[교재명] 공통영어2 YBM(박준언)
+[과목] 공통영어2
+[출판사·저자] YBM(박준언)
+[UNIT] UNIT02
+[학생용 과 표시] 2과
+[권위 원문] (2022개정)2025년_공통영어2_YBM(박준언)_2과_본문_(20251205수정).pdf · 원본 PDF 1~3쪽 왼쪽 단 영어 본문 전체(제목 Dry, 오른쪽 단 한국어 해석, 4쪽 Further Reading 제외)
+[자료 범위] 워크북 + 미니 모의고사 + 정답해설
+
+[WB01]
+SOURCE:
+src
+LEARNING_UNIT:
+u1
+SOURCE_RANGE:
+본문 · 원문 문장 1~17
+[1. 오늘의 낱말]
+우리말 뜻을 쓰세요.
+1. tap
+2. crisis
+3. drought
+4. stage
+5. running water
+6. crowd
+7. checkout line
+8. essentials
+[2. 유의어·반의어 뜻 쓰기]
+우리말 뜻을 쓰세요.
+1. quiet
+2. luxuries
+3. strange
+4. noisy
+5. necessities
+6. odd
+7. silent
+8. normal
+9. essentials
+[3. 실전문제]
+[Q01]
+SET:
+workbook
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 1~17
+TYPE:
+주제
+QUESTION:
+다음 글의 주제로 가장 적절한 것은?
+PASSAGE:
+The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent. “Mom,” I shout out into the living room, “water is not coming out.” “Alyssa, shush!” Mom says. She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap. “To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck. As we pull into the parking lot, we can see the crowd. “You two go in. I’ll meet you inside,” Uncle Basil says. Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.
+CHOICES:
+① strange sounds that often come from old kitchen taps
+② people rushing to buy necessities as a water crisis worsens
+③ shoppers’ strong desire for luxuries on Black Friday
+④ the media’s efforts to keep people quiet about the drought
+⑤ a normal family trip to a crowded shopping mall
+ANSWER:
+2
+EVIDENCE:
+We have no running water out of the tap. / Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.
+EXPLANATION:
+가뭄 위기로 수도꼭지의 물이 끊기자 앨리사 가족은 쇼핑몰로 가고, 그곳에서 사람들이 텔레비전이나 비디오 게임이 아니라 삶의 필수품인 생수를 사려고 몰려든 모습이 그려진다. 따라서 물 위기가 심해지면서 사람들이 필수품을 사려고 몰려드는 모습이라는 ②가 주제로 가장 적절하다.
+WRONG_ANALYSIS:
+① 수도꼭지의 이상한 소리는 물이 끊겼음을 알리는 첫 장면일 뿐 글 전체의 중심 내용이 아니다.
+③ 오늘 사람들이 원하는 것은 텔레비전과 비디오 게임이 아니라고 했으므로 사치품을 사려는 욕구는 본문과 반대다.
+④ 언론은 사람들이 ‘가뭄’이라는 말을 듣는 데 지치자 그것을 ‘물 공급 위기’라고 불렀을 뿐, 사람들을 조용하게 만들려 했다는 내용은 없다.
+⑤ 물이 끊겨 생수를 사러 가는 위기 상황이므로 평범한 가족 나들이가 아니다.
+CHOICES_KR:
+① 오래된 부엌 수도꼭지에서 흔히 나는 이상한 소리
+② 물 위기가 심해지면서 필수품을 사려고 몰려드는 사람들
+③ 블랙 프라이데이에 사치품을 사려는 쇼핑객들의 강한 욕구
+④ 가뭄에 대해 사람들을 조용하게 만들려는 언론의 노력
+⑤ 붐비는 쇼핑몰로 가는 평범한 가족 나들이
+[/Q01]
+
+[4. 구문 결합해서 해석하기]
+1. the TV, where a news anchor is talking about the “flow crisis.” → ______________________________
+도움말: , where S′ V′ — 그리고 거기에서 S′(이/가) V′하다 / TV — 텔레비전 / news — 뉴스 / anchor — (뉴스) 앵커, 진행자 (흔한 뜻: 닻) / be V-ing — ~하고 있다 / talk — 이야기하다 / about — ~에 관해 / flow crisis — 물 공급 위기
+2. what the media has been calling the drought → ______________________________
+도움말: what S′ V′ — S′(이/가) V′하는 것 / media — 언론, 대중 매체 / has been calling A B — A를 B라고 (계속) 불러 오고 있다 / drought — 가뭄
+3. it’s not televisions and video games people are after → ______________________________
+도움말: it is not A that S′ V′ — S′(이/가) V′하는 것은 A가 아니다 / televisions — 텔레비전들 / video games — 비디오 게임들 / people — 사람들 / be after — ~을 찾다, 구하려 하다
+
+[5. 핵심 문장 2개 다시 해석하기]
+1. This is what the media has been calling the drought ever since people got tired of hearing the word “drought.”
+2. Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after.
+[/WB01]
+[워크북 정답]
+[1. 오늘의 낱말]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 수도꼭지 | 2 | 위기 | 3 | 가뭄 |
+| 4 | 단계 | 5 | 수돗물 | 6 | (모여 있는) 사람들, 군중 |
+| 7 | 계산대 줄 | 8 | 필수품들, 꼭 필요한 것들 |  |  |
+[2. 유의어·반의어 뜻 쓰기]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 조용한 | 2 | 사치품들 | 3 | 이상한 |
+| 4 | 시끄러운 | 5 | 필수품들, 꼭 필요한 것들 | 6 | 이상한, 특이한 |
+| 7 | 조용한, 소리 없는 | 8 | 평범한, 정상적인 | 9 | 필수품들 |
+[4. 구문 결합해서 해석하기]
+1. TV, 그리고 거기에서 뉴스 앵커가 ‘물 공급 위기’에 관해 이야기하고 있다
+2. 언론이 가뭄을 가리켜 계속 불러 온 것
+3. 사람들이 찾는 것은 텔레비전과 비디오 게임이 아니다
+[5. 핵심 문장 해석]
+1. 이것은 사람들이 ‘가뭄’이라는 단어를 듣는 데 싫증이 난 이후로 언론이 가뭄을 줄곧 불러 온 이름이다.
+2. 매장 안은 최악의 블랙 프라이데이 같다. 하지만 오늘 사람들이 찾는 것은 텔레비전이나 비디오 게임이 아니다.
+
+[WB02]
+SOURCE:
+src
+LEARNING_UNIT:
+u2
+SOURCE_RANGE:
+본문 · 원문 문장 18~36
+[1. 오늘의 낱말]
+우리말 뜻을 쓰세요.
+1. impatience
+2. hostility
+3. politeness
+4. aisle
+5. precious
+6. commodity
+7. return the favor
+8. flush
+[2. 유의어·반의어 뜻 쓰기]
+우리말 뜻을 쓰세요.
+1. courtesy
+2. full
+3. precious
+4. rudeness
+5. bare
+6. worthless
+7. politeness
+8. empty
+9. valuable
+[3. 실전문제]
+[Q02]
+SET:
+workbook
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 18~32
+TYPE:
+함축 의미
+QUESTION:
+밑줄 친 Even that politeness is stretched thin이 다음 글에서 의미하는 바로 가장 적절한 것은?
+PASSAGE:
+There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin. As I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty. I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity. I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods. “I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.”
+TARGET:
+Even that politeness is stretched thin
+PROMPT_UNDERLINES:
+[[5, 43]]
+CHOICES:
+① People are treating one another with warm and sincere courtesy.
+② People are openly showing their rudeness by fighting in line.
+③ People are barely managing to keep up their courtesy.
+④ People feel calm because the shelves are still full of water.
+⑤ People think bottled water has become worthless.
+ANSWER:
+3
+EVIDENCE:
+There is a look of impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.
+EXPLANATION:
+줄 선 사람들의 얼굴에는 조급함이 있고, 얇은 예의 층 아래 적대감까지 숨어 있다고 했다. 밑줄 친 부분은 ‘그 예의마저 얇게 늘어나 있다’는 뜻으로, 겉으로 지키던 예의조차 곧 무너질 만큼 겨우 유지되고 있음을 나타낸다. 실제로 뒤에서 한 여자가 앨리사가 잡으려던 생수 상자를 마지막 순간에 가로챈다. 따라서 ③이 알맞다.
+WRONG_ANALYSIS:
+① 예의가 ‘얇게 늘어나’ 있다는 것은 겨우 유지되는 상태이므로 따뜻하고 진심 어린 예의와는 반대다.
+② 적대감은 얇은 예의 층에 ‘숨겨져’ 있다고 했으므로, 사람들이 줄에서 드러내 놓고 싸운다는 것은 지나친 해석이다.
+④ 선반은 이미 비어 있었고 사람들의 얼굴에는 조급함이 있었으므로 맞지 않는다.
+⑤ 어제만 해도 생수가 그렇게 귀하지 않았다는 말은 지금은 귀중한 상품이 되었다는 뜻이므로, 가치가 없어졌다는 것은 반대다.
+CHOICES_KR:
+① 사람들은 따뜻하고 진심 어린 예의로 서로를 대하고 있다.
+② 사람들은 줄에서 싸우며 드러내 놓고 무례함을 보이고 있다.
+③ 사람들은 예의를 겨우 유지하고 있다.
+④ 선반이 아직 물로 가득 차 있어서 사람들은 차분하다.
+⑤ 사람들은 생수가 가치 없어졌다고 생각한다.
+[/Q02]
+
+[4. 구문 결합해서 해석하기]
+1. I am too late → ______________________________
+도움말: (that) S′ V′ — S′(이/가) V′라는 것 / I — 내가 / am — ~이다 / too — 너무 / late — 늦은
+2. a single case of water that someone abandoned there maybe yesterday → ______________________________
+도움말: N + that S′ V′ — S′(이/가) V′했던 N / a single case of — (딱) 한 상자의 / water — 생수, 물 / someone — 누군가 / abandon — 버리다, 버려두다 / there — 그곳에 / maybe — 아마 / yesterday — 어제
+3. only to find it pulled away → ______________________________
+도움말: only to V — (그러나) 결국 ~할 뿐이다 / find — 발견하다, 알게 되다 / it — 그것이 / pulled away — 당겨져 가 버린, 끌려간
+
+[5. 핵심 문장 2개 다시 해석하기]
+1. I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.
+2. I reach for it, only to find it pulled away at the last second by a woman.
+[/WB02]
+[워크북 정답]
+[1. 오늘의 낱말]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 조급함, 초조함 | 2 | 적대감 | 3 | 공손함, 예의 바름 |
+| 4 | 통로 | 5 | 귀한, 귀중한 | 6 | 상품, 물건 |
+| 7 | (받은) 호의를 갚다 | 8 | (얼굴의) 홍조, 붉어짐 |  |  |
+[2. 유의어·반의어 뜻 쓰기]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 공손함, 예의 | 2 | 가득 찬 | 3 | 귀한, 귀중한 |
+| 4 | 무례함 | 5 | 텅 빈, 아무것도 없는 | 6 | 가치 없는, 쓸모없는 |
+| 7 | 공손함, 예의 바름 | 8 | 비어 있는 | 9 | 귀중한, 값비싼 |
+[4. 구문 결합해서 해석하기]
+1. 내가 너무 늦었다는 것
+2. 누군가가 아마 어제 그곳에 버려두었던 생수 한 상자
+3. 그러나 결국 그것이 당겨져 가 버린 것을 발견할 뿐이다
+[5. 핵심 문장 해석]
+1. 누군가 아마 어제쯤 그곳에 두고 간 생수 한 상자를 발견한다. 그때만 해도 물은 그렇게 귀한 물건이 아니었다.
+2. 나는 그 상자를 향해 손을 뻗지만, 마지막 순간에 한 여자가 그것을 끌어가 버린다.
+
+[WB03]
+SOURCE:
+src
+LEARNING_UNIT:
+u3
+SOURCE_RANGE:
+본문 · 원문 문장 37~46
+[1. 오늘의 낱말]
+우리말 뜻을 쓰세요.
+1. frozen
+2. case
+3. packed
+4. remind
+5. piled
+6. one after another
+7. notice
+8. empty
+[2. 유의어·반의어 뜻 쓰기]
+우리말 뜻을 쓰세요.
+1. discover
+2. disregard
+3. packed
+4. lose
+5. note
+6. filled
+7. find
+8. empty
+9. notice
+[3. 실전문제]
+[Q03]
+SET:
+workbook
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 37~51
+TYPE:
+내용
+QUESTION:
+다음 글의 내용과 일치하지 않는 것은?
+PASSAGE:
+I look for Garrett, whom I find in the frozen aisle. Then I see something. Just past the frozen vegetables and ice cream, there is a case packed with ice. I open the door and reach for a bag. “What are you doing? We need water, not ice,” he reminds me. “Ice is water. Just help me,” I tell him. Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case. The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.
+CHOICES:
+① Alyssa discovered her brother in the frozen food aisle.
+② Alyssa saw a case filled with ice near the ice cream.
+③ Garrett reminded Alyssa that they needed water, not ice.
+④ Other shoppers disregarded what the two were doing.
+⑤ The two filled the cart with ice until it was piled high.
+ANSWER:
+4
+EVIDENCE:
+By now other people have taken notice and begin to empty the ice case.
+EXPLANATION:
+앨리사와 개릿이 카트에 얼음 봉지를 가득 쌓자, 이제는 다른 사람들도 알아차리고(have taken notice) 얼음 진열장을 비우기 시작한다고 했다. 따라서 다른 쇼핑객들이 두 사람의 행동을 무시했다는 ④는 본문과 일치하지 않는다.
+WRONG_ANALYSIS:
+① “I look for Garrett, whom I find in the frozen aisle.”와 일치한다(find = discover).
+② “Just past the frozen vegetables and ice cream, there is a case packed with ice.”와 일치한다(packed = filled).
+③ “We need water, not ice,” he reminds me.와 일치한다.
+⑤ “Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get.”과 일치한다.
+CHOICES_KR:
+① 앨리사는 냉동식품 통로에서 남동생을 발견했다.
+② 앨리사는 아이스크림 근처에서 얼음이 가득 든 진열장을 보았다.
+③ 개릿은 자신들에게 필요한 것은 얼음이 아니라 물이라고 앨리사에게 상기시켰다.
+④ 다른 쇼핑객들은 두 사람이 하는 일을 무시했다.
+⑤ 두 사람은 카트가 높이 쌓일 때까지 얼음으로 채웠다.
+[/Q03]
+
+[4. 구문 결합해서 해석하기]
+1. Garrett, whom I find in the frozen aisle → ______________________________
+도움말: , whom S′ V′ — 그리고 그를 S′(이/가) V′하다 / I — 내가 / find — 발견하다 / in — ~에서 / frozen — 냉동식품(의) / aisle — 통로
+2. a case packed with ice → ______________________________
+도움말: N + p.p. — p.p.된(한) N / case — (냉동) 진열장 (흔한 뜻: 경우) / packed — 가득 찬, 꽉 채워진 / with — ~으로 / ice — 얼음
+3. as high as it can get → ______________________________
+도움말: as high as S′ V′ — S′(이/가) V′하는 만큼 높이 / it — 그것이 / can V — ~할 수 있다 / get — (어떤 상태가) 되다
+4. it is piled → ______________________________
+도움말: be p.p. — ~되다 / it — 그것이 / piled — (짐이) 가득 쌓인
+5. other people have taken notice → ______________________________
+도움말: have p.p. — ~했다 / other — 다른 / people — 사람들 / take — (주목 등을) 하다 (흔한 뜻: 가져가다) (taken은 take의 p.p.형) / notice — 주목, 알아챔
+
+[5. 핵심 문장 2개 다시 해석하기]
+1. Just past the frozen vegetables and ice cream, there is a case packed with ice.
+2. Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get.
+[/WB03]
+[워크북 정답]
+[1. 오늘의 낱말]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 냉동된, 얼린 | 2 | (냉동) 진열장 | 3 | 가득 찬, 꽉 채워진 |
+| 4 | (잊지 않도록) 일깨우다, 상기시키다 | 5 | (짐이) 가득 쌓인 | 6 | 하나씩 차례로 |
+| 7 | 주목, 알아챔 | 8 | 비우다 |  |  |
+[2. 유의어·반의어 뜻 쓰기]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 발견하다 | 2 | 무시, 묵살 | 3 | 가득 찬 |
+| 4 | 잃어버리다 | 5 | 주목, 주의 | 6 | 가득 찬, 채워진 |
+| 7 | 발견하다, 찾아내다 | 8 | 비어 있는 | 9 | 주목, 알아챔 |
+[4. 구문 결합해서 해석하기]
+1. Garrett, 그리고 그를 나는 냉동식품 통로에서 발견한다
+2. 얼음으로 가득 찬 진열장
+3. 그것(카트)이 될 수 있는 만큼 높이
+4. 그것(카트)이 가득 쌓인다
+5. 다른 사람들이 알아챘다
+[5. 핵심 문장 해석]
+1. 냉동 채소와 아이스크림 코너를 바로 지나면 얼음이 가득 든 진열장이 있다.
+2. Garrett과 나는 카트가 더는 쌓을 수 없을 만큼 높이 가득 찰 때까지 얼음 봉지를 하나씩 카트에 담는다.
+
+[WB04]
+SOURCE:
+src
+LEARNING_UNIT:
+u4
+SOURCE_RANGE:
+본문 · 원문 문장 47~61
+[1. 오늘의 낱말]
+우리말 뜻을 쓰세요.
+1. ridiculously
+2. impossible
+3. business suit
+4. bring out
+5. favor
+6. deserve
+7. fade
+8. the rest
+[2. 유의어·반의어 뜻 쓰기]
+우리말 뜻을 쓰세요.
+1. finest
+2. light
+3. difficult
+4. worst
+5. weighty
+6. easy
+7. best
+8. heavy
+9. hard
+[3. 실전문제]
+[Q04]
+SET:
+workbook
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 47~62
+TYPE:
+빈칸
+QUESTION:
+다음 빈칸에 들어갈 말로 가장 적절한 것은?
+PASSAGE:
+The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle. “Thank you for helping us,” I tell him. “Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can ________________. I decide that one favor deserves another. “Why don’t you take a bag of ice for yourself,” I suggest. His smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” For a moment I think he is joking, but then realize he is serious.
+CHOICES:
+① lead people to show their finest qualities
+② bring out the worst side of people
+③ make everyday life easy for everyone
+④ make people’s hearts heavy with worry
+⑤ make people stop trusting strangers
+ANSWER:
+1
+EVIDENCE:
+“Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can ________. I decide that one favor deserves another.
+EXPLANATION:
+정장 차림의 남자가 무거운 카트를 밀어 주며 “우리는 모두 서로 도와야 해요.”라고 말하고, 앨리사는 미소로 답한 뒤 호의에는 호의로 보답하기로 한다. 빈칸 문장은 ‘어려운 시기가 ~할 수 있다는 것을 알게 되어 좋다’이므로, 어려운 시기가 사람들의 가장 좋은 면을 끌어낸다는 긍정적인 내용이 와야 한다. 따라서 ①이 알맞다.
+WRONG_ANALYSIS:
+② 앨리사는 남자의 도움에 미소로 답하고 ‘알게 되어 좋다’고 했으므로 사람들의 가장 나쁜 면이 드러난다는 말은 문맥과 반대다. 뒤에서 남자의 속셈이 드러나지만, 빈칸 문장은 그 전에 앨리사가 한 생각이다.
+③ 어려운 시기가 모든 사람의 일상을 쉽게 만든다는 것은 물 부족과 무거운 카트라는 본문 상황과 맞지 않는다.
+④ 걱정으로 마음이 무거워지는 것은 ‘알게 되어 좋다’와 어울리지 않고, 이 장면은 도움을 받은 고마움을 말한다.
+⑤ 낯선 남자의 도움을 받고 호의에 보답하려는 장면이므로 낯선 사람을 믿지 않게 된다는 것은 반대다.
+CHOICES_KR:
+① 사람들이 자신의 가장 훌륭한 자질을 보여 주게 하다
+② 사람들의 가장 나쁜 면을 끌어내다
+③ 모든 사람의 일상을 쉽게 만들다
+④ 사람들의 마음을 걱정으로 무겁게 하다
+⑤ 사람들이 낯선 사람을 믿지 않게 만들다
+[/Q04]
+
+[4. 구문 결합해서 해석하기]
+1. almost impossible to push → ______________________________
+도움말: 형용사 + to V — V하기에 (형용사)한 / almost — 거의 / impossible — 불가능한 / push — 밀다
+2. It is good to know → ______________________________
+도움말: It is 형용사 to V — V하는 것은 (형용사)하다 / good — 좋은 / know — 알다
+3. Why don’t you take a bag of ice for yourselves → ______________________________
+도움말: Why don’t you V? — ~하는 게 어때? / take — 가져가다 / a bag of — 한 봉지의 / ice — 얼음 / for — ~을 위해 / yourselves — 너희 자신
+
+[5. 핵심 문장 2개 다시 해석하기]
+1. It is good to know that difficult times can bring out the best in people.
+2. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”
+[/WB04]
+[워크북 정답]
+[1. 오늘의 낱말]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 터무니없이, 어처구니없을 만큼 | 2 | 불가능한 | 3 | (사무용) 정장 |
+| 4 | (좋은 점을) 끌어내다, 드러나게 하다 | 5 | 호의, 친절 | 6 | ~을 받을 만하다 |
+| 7 | (점점) 사라지다, 희미해지다 | 8 | 나머지 |  |  |
+[2. 유의어·반의어 뜻 쓰기]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 가장 훌륭한 것 | 2 | 가벼운 | 3 | 어려운, 힘든 |
+| 4 | 가장 나쁜 것 | 5 | 무거운, 묵직한 | 6 | 쉬운, 편한 |
+| 7 | 가장 좋은 것 | 8 | 무거운 | 9 | 어려운, 힘든 |
+[4. 구문 결합해서 해석하기]
+1. 밀기에 거의 불가능한
+2. 아는 것은 좋다
+3. 너희가 너희 자신을 위해 얼음 한 봉지를 가져가는 게 어때
+[5. 핵심 문장 해석]
+1. 어려운 시기가 사람들의 가장 좋은 면을 끌어낼 수 있다는 것을 알게 되니 좋다.
+2. “너희가 얼음 한 봉지를 가져가는 게 어떠니, 나머지는 내가 가질게.”
+
+[WB05]
+SOURCE:
+src
+LEARNING_UNIT:
+u5
+SOURCE_RANGE:
+본문 · 원문 문장 62~74
+[1. 오늘의 낱말]
+우리말 뜻을 쓰세요.
+1. serious
+2. firmly
+3. prove
+4. disastrous
+5. resume
+6. factor
+7. water shortage
+8. addressed
+[2. 유의어·반의어 뜻 쓰기]
+우리말 뜻을 쓰세요.
+1. restart
+2. decline
+3. serious
+4. halt
+5. increase
+6. earnest
+7. resume
+8. playful
+9. growth
+[3. 실전문제]
+[Q05]
+SET:
+workbook
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 62~74
+TYPE:
+내용
+QUESTION:
+다음 글의 내용과 일치하지 않는 것은?
+PASSAGE:
+For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his. “Is there a problem here?” It is Uncle Basil. He has arrived just in time. “Not at all.” The man looks at the ice with a bitter face, then leaves. *The above is a shortened version of the opening of the novel Dry (2018). It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. Her unwanted adventure ends when the water supply resumes and life is back to normal. Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.
+CHOICES:
+① Alyssa first thought the man was being playful, but he was earnest.
+② The man’s eyes scared Alyssa even though he was smiling.
+③ Uncle Basil showed up at just the right moment.
+④ In the novel, the girl’s adventure ends when the water supply restarts.
+⑤ The writer mentions a decline in population as a cause of water shortages.
+ANSWER:
+5
+EVIDENCE:
+Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, …
+EXPLANATION:
+필자는 전 세계 물 부족의 요인으로 기후 변화, 인구 증가(population growth), 농업에 물을 너무 많이 쓰는 것을 든다. 따라서 인구 감소를 원인으로 언급한다는 ⑤는 본문과 일치하지 않는다.
+WRONG_ANALYSIS:
+① “For a moment I think he is joking, but then realize he is serious.”와 일치한다(joking ≈ playful, serious = earnest).
+② “He is still smiling, but his eyes scare me.”와 일치한다.
+③ “He has arrived just in time.”과 일치한다.
+④ “Her unwanted adventure ends when the water supply resumes …”와 일치한다(resume = restart).
+CHOICES_KR:
+① 앨리사는 처음에 남자가 장난친다고 생각했지만 그는 진지했다.
+② 남자는 웃고 있었지만 그의 눈은 앨리사를 겁먹게 했다.
+③ 바질 삼촌은 딱 알맞은 때에 나타났다.
+④ 소설에서 소녀의 모험은 물 공급이 다시 시작되면서 끝난다.
+⑤ 필자는 인구 감소를 물 부족의 원인으로 언급한다.
+[/Q05]
+
+[4. 구문 결합해서 해석하기]
+1. As long as his hands are firmly locked on the handle of our cart → ______________________________
+도움말: as long as S′ V′ — S′(이/가) V′하는 한 / his — 그의 / hands — 손들 / be p.p. — ~되어 있다 / firmly — 단단히, 꽉 / locked — (꽉) 고정된 (흔한 뜻: 잠긴) / on — ~에 / handle — 손잡이 / of — ~의 / our — 우리의 / cart — 카트
+2. a girl who has to make tough choices for her family → ______________________________
+도움말: N + who V′ — V′하는 N / girl — 소녀 / have to V — ~해야 한다 / make — (선택을) 하다 (흔한 뜻: 만들다) / tough — 힘든, 어려운 / choices — 선택들 / for — ~을 위해 / her — 그녀의 / family — 가족
+3. Provided that the factors contributing to water shortages worldwide are not addressed → ______________________________
+도움말: provided that S′ V′ — S′(이/가) V′한다면 / factors — 요인들 / V-ing — ~하는 / contribute — (원인이 되어) 기여하다 / to — ~에 / water shortages — 물 부족 / worldwide — 전 세계적으로 / be not p.p. — ~되지 않다 / addressed — (문제가) 해결된, 다뤄진 (흔한 뜻: 주소)
+4. his hands are firmly locked → ______________________________
+도움말: be p.p. — ~되어 있다 / his — 그의 / hands — 손들 / firmly — 단단히, 꽉 / locked — (꽉) 고정된 (흔한 뜻: 잠긴)
+5. the factors contributing to water shortages worldwide are not addressed → ______________________________
+도움말: be not p.p. — ~되지 않다 / factors — 요인들 / V-ing — ~하는 / contribute — (원인이 되어) 기여하다 / to — ~에 / water shortages — 물 부족 / worldwide — 전 세계적으로 / addressed — (문제가) 해결된, 다뤄진 (흔한 뜻: 주소)
+
+[5. 핵심 문장 2개 다시 해석하기]
+1. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.
+2. Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.
+[/WB05]
+[워크북 정답]
+[1. 오늘의 낱말]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 진지한 | 2 | 단단히, 꽉 | 3 | 증명하다 |
+| 4 | 재앙과도 같은, 처참한 | 5 | 재개되다, 다시 시작되다 | 6 | 요인 |
+| 7 | 물 부족 | 8 | (문제가) 해결된, 다뤄진 |  |  |
+[2. 유의어·반의어 뜻 쓰기]
+| 번호 | 뜻 | 번호 | 뜻 | 번호 | 뜻 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 다시 시작되다 | 2 | 감소, 하락 | 3 | 진지한 |
+| 4 | 멈추다, 중단되다 | 5 | 증가 | 6 | 진지한, 진심 어린 |
+| 7 | 재개되다, 다시 시작되다 | 8 | 장난스러운, 장난기 있는 | 9 | 증가, 성장 |
+[4. 구문 결합해서 해석하기]
+1. 그의 손이 우리 카트의 손잡이에 단단히 고정되어 있는 한
+2. 그녀의 가족을 위해 힘든 선택들을 해야 하는 한 소녀
+3. 전 세계적으로 물 부족의 원인이 되는 요인들이 해결되지 않는다면
+4. 그의 손이 단단히 고정되어 있다
+5. 전 세계적으로 물 부족의 원인이 되는 요인들이 해결되지 않는다
+[5. 핵심 문장 해석]
+1. 그의 손이 우리 카트 손잡이를 단단히 붙잡고 있는 한, 카트가 그의 것이 아니라 우리 것이라는 걸 증명할 방법은 아무것도 없다.
+2. 기후 변화, 인구 증가, 농업용수 과다 사용처럼 전 세계적으로 물 부족을 일으키는 요인들이 해결되지 않는다면, 이 이야기는 현실이 될 수도 있다.
+
+[Q06]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 23~36
+TYPE:
+순서
+QUESTION:
+주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?
+GIVEN:
+I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity.
+
+BLOCKS:
+(A) As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.” 
+(B) “Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.” She looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.
+(C) I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods. “I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. 
+CHOICES:
+① A → C → B
+② B → A → C
+③ B → C → A
+④ C → A → B
+⑤ C → B → A
+ANSWER:
+4
+EVIDENCE:
+(C) “I reach for it …”의 it이 주어진 글의 a single case of water를 가리킴 / (A) “As her mother pulls their cart away, Hali leans closer to me.”가 (C)에서 소개된 딸 Hali와 그 엄마를 이어받음 / (B) “Maybe you could return the favor …”가 (A)의 사과에 대한 응답이고, 마지막에 Hali가 떠나려고 돌아섬
+EXPLANATION:
+주어진 글에서 앨리사는 옆 통로에서 생수 한 상자를 발견한다. (C) 그것을 잡으려는 순간 한 여자가 가로채고, 그 딸 할리가 앞으로 나선다. (A) 엄마가 카트를 끌고 가는 사이 할리가 다가와 사과한다. (B) 앨리사는 지난주 연습 때 물을 나눠 준 일을 말하며 보답을 부탁하지만, 할리는 고개를 저으며 얼굴을 붉히고 떠나려 한다. 따라서 (C)-(A)-(B)이다.
+WRONG_ANALYSIS:
+① (A)가 주어진 글 바로 뒤에 오면 her mother, their cart, Hali가 누구인지 알 수 없고, 할리가 무엇에 대해 사과하는지도 알 수 없다.
+② (B)가 주어진 글 바로 뒤에 오면 앨리사가 말을 거는 her가 누구인지 알 수 없고, 아직 생수를 빼앗기지도 않았는데 물을 나눠 달라고 부탁하게 된다.
+③ (B)–(C)–(A)도 (B)의 her와 물 부탁이 생수를 빼앗기기 전에 나와 맞지 않는다.
+⑤ (C)–(B)–(A)가 가장 헷갈리는 배열이다. 그러나 (B)의 ‘보답해 달라’는 부탁은 (A)의 사과에 대한 응답이고, (B)에서 이미 통로를 따라 가고 있는 엄마는 (A)에서 엄마가 카트를 끌고 가기 시작한 뒤의 모습이다. 또 (B) 끝에서 할리가 떠나려고 돌아선 뒤 (A)에서 다시 다가와 사과하는 것은 어색하다.
+[/Q06]
+
+[Q07]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 37~51
+TYPE:
+삽입
+QUESTION:
+글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?
+GIVEN:
+Just past the frozen vegetables and ice cream, there is a case packed with ice.
+PASSAGE:
+I look for Garrett, whom I find in the frozen aisle. ① Then I see something. ② I open the door and reach for a bag. ③ “What are you doing? We need water, not ice,” he reminds me. ④ “Ice is water. Just help me,” I tell him. ⑤ Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case. The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.
+ANSWER:
+2
+EVIDENCE:
+Then I see something. ( ② ) I open the door and reach for a bag.
+EXPLANATION:
+주어진 문장은 냉동 채소와 아이스크림 바로 뒤에 얼음이 가득 든 케이스가 있다는 내용이다. ② 앞의 “Then I see something.”에서 앨리사가 무언가를 발견하고, 주어진 문장이 그 ‘무언가’가 얼음 케이스임을 밝힌다. ② 뒤의 “I open the door and reach for a bag.”의 the door와 a bag은 그 케이스의 문과 얼음 봉지이므로 ②에 들어가야 한다.
+WRONG_ANALYSIS:
+① 이 위치에 넣으면 진열장을 먼저 소개한 뒤에 “Then I see something.”이 와서, 이미 소개한 대상을 새로 발견하는 것처럼 되어 발견 → 소개의 순서가 뒤바뀐다.
+③ 이 위치에 넣으면 앨리사가 문을 열고 봉지에 손을 뻗은 뒤에야 진열장이 처음 소개되어, 발견(Then I see something) → 진열장 소개 → 문을 열고 봉지를 집는 행동의 순서가 거꾸로 된다.
+④ 이 위치는 개릿과 앨리사가 얼음을 두고 주고받는 대화 사이로, 얼음 케이스를 처음 소개하는 문장이 들어가면 대화가 끊긴다.
+⑤ 이 위치는 이미 문을 열고 얼음을 두고 대화까지 나눈 뒤라, 진열장을 처음 소개하는 문장이 오면 발견 → 소개 → 행동의 시간 순서가 뒤집힌다.
+[/Q07]
+
+[Q08]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 55~70
+TYPE:
+빈칸
+QUESTION:
+다음 빈칸에 들어갈 말로 가장 적절한 것은?
+PASSAGE:
+He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another. “Why don’t you take a bag of ice for yourself,” I suggest. His smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, ________________. “Is there a problem here?” It is Uncle Basil. He has arrived just in time. “Not at all.” The man looks at the ice with a bitter face, then leaves.
+CHOICES:
+① he will surely let go of the handle soon
+② Uncle Basil will never find us in the crowd
+③ we have no way to show that the cart belongs to us
+④ the ice in our cart will melt before long
+⑤ everyone in the store will help us get the cart back
+ANSWER:
+3
+EVIDENCE:
+“Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” … He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, ________.
+EXPLANATION:
+남자는 앨리사 남매에게 얼음 한 봉지만 가져가고 나머지는 자기가 갖겠다고 진지하게 말하며, 웃고 있지만 눈빛이 무섭다. 그의 손이 카트 손잡이를 단단히 붙잡고 있는 한, 카트가 앨리사 남매의 것이라는 걸 보여 줄 방법이 없다는 내용이 와야 한다. 따라서 ③이 알맞다.
+WRONG_ANALYSIS:
+① 남자가 손잡이를 ‘단단히’ 잡고 있고 나머지 얼음을 갖겠다고 진지하게 말했으므로, 곧 손을 놓을 것이라는 말은 흐름과 반대다.
+② 바질 삼촌은 바로 뒤에서 “Is there a problem here?”라고 말하며 제때 나타나므로 맞지 않는다.
+④ 얼음이 녹는다는 것은 남자가 손잡이를 붙잡고 있는 한(As long as …)이라는 조건과 연결되지 않는다.
+⑤ 가게 사람들이 도와준다는 내용은 없고, 앨리사는 남자의 눈빛에 겁을 먹은 상태다.
+CHOICES_KR:
+① 그가 곧 틀림없이 손잡이를 놓을 것이다
+② 바질 삼촌은 붐비는 사람들 속에서 결코 우리를 찾지 못할 것이다
+③ 우리는 카트가 우리 것임을 보여 줄 방법이 없다
+④ 우리 카트의 얼음이 곧 녹을 것이다
+⑤ 가게의 모든 사람이 우리가 카트를 되찾도록 도와줄 것이다
+[/Q08]
+
+[PASSAGE_GROUP long-mock1]
+QUESTION_IDS:
+Q09, Q10
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 1~22
+PASSAGE:
+The kitchen tap makes strange sounds. It coughs. It spits once, and then goes ① silent.
+“Mom,” I shout out into the living room, “water is not coming out.”
+“Alyssa, shush!” Mom says.
+She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got ② tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap.
+“To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck.
+As we pull into the parking lot, we can see the ③ crowd.
+“You two go in. I’ll meet you inside,” Uncle Basil says.
+Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.
+There is a look of ④ impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched thin.
+As I approach the back of the store for water bottles, I realize I am too late. The shelves are already ⑤ full.
+ANNOTATIONS_BASIS:
+Transformed passage before generated labels; zero-based Unicode codepoints [start,end). These are not offsets in the displayed PASSAGE; text identifies each marked span.
+ANNOTATIONS:
+[{"kind": "numbered_word", "number": 1, "span": [78, 84], "text": "silent"}, {"kind": "numbered_word", "number": 2, "span": [335, 340], "text": "tired"}, {"kind": "numbered_word", "number": 3, "span": [593, 598], "text": "crowd"}, {"kind": "numbered_word", "number": 4, "span": [881, 891], "text": "impatience"}, {"kind": "numbered_word", "number": 5, "span": [1135, 1139], "text": "full"}]
+[/PASSAGE_GROUP long-mock1]
+
+[Q09]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 1~22
+TYPE:
+제목
+QUESTION:
+윗글의 제목으로 가장 적절한 것은?
+PASSAGE_GROUP:
+long-mock1
+CHOICES:
+① The Day the Water Stopped: A Rush for the Essentials
+② A Black Friday Sale on Televisions and Games
+③ How Uncle Basil Fixed the Broken Kitchen Tap
+④ A Relaxing Weekend Trip to the Shopping Mall
+⑤ A New Name for the Drought: The Media’s Choice
+ANSWER:
+1
+EVIDENCE:
+We have no running water out of the tap. / What I see in the carts in the checkout line are mostly water bottles. The essentials of life. / As I approach the back of the store for water bottles, I realize I am too late.
+EXPLANATION:
+가뭄 위기로 수도꼭지의 물이 끊긴 날, 앨리사 가족은 쇼핑몰로 가고, 사람들은 삶의 필수품인 생수를 사려고 몰려들어 앨리사가 생수를 사러 갔을 때는 이미 너무 늦었다. 따라서 ‘물이 멈춘 날: 필수품을 향한 쇄도’라는 ①이 제목으로 가장 적절하다.
+WRONG_ANALYSIS:
+② 오늘 사람들이 사려는 것은 텔레비전과 비디오 게임이 아니라고 했다.
+③ 바질 삼촌은 아이들을 쇼핑몰에 데려갈 뿐 수도꼭지를 고치지 않는다.
+④ 조급함과 적대감이 감도는 위기 속 외출이므로 편안한 주말 여행이 아니다.
+⑤ 언론이 가뭄을 ‘물 공급 위기’라고 부른다는 것은 한 문장의 세부 내용일 뿐 글 전체를 포괄하지 못한다.
+CHOICES_KR:
+① 물이 멈춘 날: 필수품을 향한 쇄도
+② 텔레비전과 게임의 블랙 프라이데이 할인
+③ 바질 삼촌이 고장 난 부엌 수도꼭지를 고친 방법
+④ 쇼핑몰로 가는 편안한 주말 여행
+⑤ 가뭄의 새 이름: 언론의 선택
+[/Q09]
+
+[Q10]
+SET:
+미니 모의고사 1회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 1~22
+TYPE:
+어휘
+QUESTION:
+윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?
+PASSAGE_GROUP:
+long-mock1
+ANSWER:
+5
+EVIDENCE:
+As I approach the back of the store for water bottles, I realize I am too late.
+EXPLANATION:
+앨리사는 생수를 사러 매장 뒤쪽으로 가면서 자신이 너무 늦었다는 것을 깨닫는다. 너무 늦었다는 것은 이미 물이 다 팔렸다는 뜻이므로, 선반이 이미 ‘가득 차(full)’ 있다는 ⑤는 문맥에 맞지 않고 empty(비어 있는)가 되어야 한다.
+WRONG_ANALYSIS:
+① 물이 한 번 튀어나온 뒤 수도꼭지가 조용해졌다(silent)는 것은 물이 끊긴 상황과 맞다.
+② 사람들이 ‘가뭄’이라는 말을 듣는 데 지쳐서(tired) 언론이 다른 이름을 쓰게 되었다는 흐름에 맞다.
+③ 주차장에 들어서며 사람들의 무리(crowd)를 보았다는 것은 뒤의 블랙 프라이데이 같은 혼잡과 이어진다.
+④ 줄 선 사람들의 얼굴에 조급함(impatience)이 있다는 것은 뒤의 적대감·얇은 예의와 이어진다.
+[/Q10]
+
+[Q11]
+SET:
+미니 모의고사 2회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 1~17
+TYPE:
+함축 의미
+QUESTION:
+밑줄 친 Black Friday at its worst가 다음 글에서 의미하는 바로 가장 적절한 것은?
+PASSAGE:
+The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent. “Mom,” I shout out into the living room, “water is not coming out.” “Alyssa, shush!” Mom says. She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap. “To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck. As we pull into the parking lot, we can see the crowd. “You two go in. I’ll meet you inside,” Uncle Basil says. Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.
+TARGET:
+Black Friday at its worst
+PROMPT_UNDERLINES:
+[[5, 30]]
+CHOICES:
+① a day when stores give the biggest discounts of the year
+② a scene of huge crowds rushing wildly to buy things
+③ a quiet store where only a few people are shopping
+④ a time when TVs and video games sell out quickly
+⑤ a sad day when people remember a past disaster
+ANSWER:
+2
+EVIDENCE:
+As we pull into the parking lot, we can see the crowd. / … but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles.
+EXPLANATION:
+주차장에 들어서자마자 사람들의 무리가 보이고, 매장 안은 ‘최악일 때의 블랙 프라이데이’ 같다고 했다. 블랙 프라이데이는 사람들이 물건을 사려고 몰려드는 날이며, at its worst는 그 혼잡이 가장 심한 상태라는 뜻이다. 오늘은 텔레비전이 아니라 생수를 사려고 몰려든 것이므로, 엄청난 인파가 물건을 사려고 정신없이 몰려드는 장면이라는 ②가 알맞다.
+WRONG_ANALYSIS:
+① 할인은 본문에 나오지 않으며, 이 표현은 할인 자체가 아니라 몰려든 사람들의 혼잡을 나타낸다.
+③ 주차장에서부터 인파가 보였으므로 사람이 적은 조용한 상점은 반대다.
+④ 오늘 사람들이 원하는 것은 텔레비전과 비디오 게임이 아니라고 했다.
+⑤ 슬픈 기념일이라는 내용은 본문에 없다.
+CHOICES_KR:
+① 상점들이 연중 가장 큰 할인을 하는 날
+② 엄청난 인파가 물건을 사려고 정신없이 몰려드는 장면
+③ 몇 사람만 쇼핑하고 있는 조용한 상점
+④ 텔레비전과 비디오 게임이 빨리 매진되는 때
+⑤ 사람들이 과거의 재난을 기억하는 슬픈 날
+[/Q11]
+
+[Q12]
+SET:
+미니 모의고사 2회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 23~36
+TYPE:
+심경·분위기
+QUESTION:
+다음 글에 드러난 ‘I’의 심경 변화로 가장 적절한 것은?
+PASSAGE:
+I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a precious commodity. I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods. “I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans closer to me. “I’m sorry about that, Alyssa.” “Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and share a few bottles with me.” She looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.
+CHOICES:
+① bored → excited
+② nervous → relieved
+③ angry → grateful
+④ hopeful → disappointed
+⑤ jealous → proud
+ANSWER:
+4
+EVIDENCE:
+I manage my way to the side aisle, trying my luck. … Lucky! I find a single case of water … / I reach for it, only to find it pulled away at the last second by a woman. / … then turns back to me shaking her head.
+EXPLANATION:
+앨리사는 운을 시험해 보려고 옆 통로로 가서 버려진 생수 한 상자를 발견하고 “Lucky!”라고 외칠 만큼 기대에 찬다. 그러나 손을 뻗는 순간 한 여자가 그것을 가로채 가고, 물을 나눠 달라는 부탁도 할리가 고개를 저어 거절한다. 따라서 ‘희망에 찬 → 실망한’의 ④가 알맞다.
+WRONG_ANALYSIS:
+① 처음에 운을 시험하며 물을 찾는 모습은 지루함이 아니고, 뒤는 신이 난 것이 아니라 실망한 것이다.
+② 처음에는 긴장보다 기대가 드러나고, 물을 빼앗기고 부탁을 거절당한 뒤 안도할 일은 없다.
+③ 물을 빼앗기고 부탁을 거절당했으므로 고마워할 일이 없다.
+⑤ 질투나 자랑스러움이 드러나는 장면이 없다.
+CHOICES_KR:
+① 지루한 → 신이 난
+② 긴장한 → 안도한
+③ 화난 → 고마워하는
+④ 희망에 찬 → 실망한
+⑤ 질투하는 → 자랑스러운
+[/Q12]
+
+[Q13]
+SET:
+미니 모의고사 2회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 62~74
+TYPE:
+삽입
+QUESTION:
+글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?
+GIVEN:
+Her unwanted adventure ends when the water supply resumes and life is back to normal.
+PASSAGE:
+For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his. “Is there a problem here?” It is Uncle Basil. ① He has arrived just in time. “Not at all.” ② The man looks at the ice with a bitter face, then leaves. ③ *The above is a shortened version of the opening of the novel Dry (2018). ④ It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. ⑤ Provided that the factors contributing to water shortages worldwide are not addressed, including climate change, population growth, and using too much water for agriculture, it is possible that this story can become a reality.
+ANSWER:
+5
+EVIDENCE:
+It tells the story of a girl who has to make tough choices for her family during a disastrous California drought. ( ⑤ ) Provided that the factors …
+EXPLANATION:
+주어진 문장은 ‘그녀의 원치 않은 모험은 물 공급이 재개되고 삶이 정상으로 돌아오면서 끝난다’는 내용이다. Her가 가리킬 대상은 ⑤ 앞 문장의 a girl(가뭄 속에서 가족을 위해 힘든 선택을 해야 하는 소녀)이며, 소설 줄거리 소개가 시작에서 끝으로 이어진 뒤 ⑤ 뒤에서 물 부족의 원인과 경고로 넘어간다. 따라서 ⑤에 들어가야 한다.
+WRONG_ANALYSIS:
+① 이 위치 앞은 바질 삼촌이 나타난 1인칭 현재 장면으로, 서술자 자신을 3인칭 Her로 가리키며 물 공급이 재개되는 결말을 요약하는 문장이 장면 한가운데 끼어들 수 없다.
+② 이 위치 앞은 남자가 “Not at all.”이라고 답하는 장면으로, 이야기가 아직 진행 중인 1인칭 서술 속에 3인칭 결말 요약이 들어갈 수 없다.
+③ 이 위치에 넣으면 이야기가 끝난 것처럼 보이지만, 곧이어 ‘위 글은 소설 도입부를 줄인 것’이라는 설명이 나와 모순되고, 소녀(a girl)도 그 뒤에야 소개된다.
+④ 이 위치는 소설을 처음 언급한 문장 바로 뒤로, 소녀가 소개되기 전에 Her가 나오고 “It tells the story of a girl …”보다 결말이 먼저 오게 된다.
+[/Q13]
+
+[PASSAGE_GROUP long-mock2]
+QUESTION_IDS:
+Q14, Q15
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 45~70
+PASSAGE:
+Garrett and I put one bag of ice after another into our cart, until it is piled as ① low as it can get. By now other people have taken notice and begin to empty the ice case.
+The cart is ridiculously ② heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles.
+“Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.
+“Thank you for helping us,” I tell him.
+“Not a problem. We all need to ③ help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the ④ best in people. I decide that one favor deserves another.
+“Why don’t you take a bag of ice for yourself,” I suggest.
+His smile does not fade. “I have a ⑤ better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.”
+For a moment I think he is joking, but then realize he is serious. “Excuse me?”
+He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.
+“Is there a problem here?”
+It is Uncle Basil. He has arrived just in time.
+“Not at all.”
+The man looks at the ice with a bitter face, then leaves.
+ANNOTATIONS_BASIS:
+Transformed passage before generated labels; zero-based Unicode codepoints [start,end). These are not offsets in the displayed PASSAGE; text identifies each marked span.
+ANNOTATIONS:
+[{"kind": "numbered_word", "number": 1, "span": [83, 86], "text": "low"}, {"kind": "numbered_word", "number": 2, "span": [198, 203], "text": "heavy"}, {"kind": "numbered_word", "number": 3, "span": [479, 483], "text": "help"}, {"kind": "numbered_word", "number": 4, "span": [597, 601], "text": "best"}, {"kind": "numbered_word", "number": 5, "span": [749, 755], "text": "better"}]
+[/PASSAGE_GROUP long-mock2]
+
+[Q14]
+SET:
+미니 모의고사 2회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 45~70
+TYPE:
+제목
+QUESTION:
+윗글의 제목으로 가장 적절한 것은?
+PASSAGE_GROUP:
+long-mock2
+CHOICES:
+① How to Push a Heavy Cart with Ease
+② Uncle Basil’s Clever Business Idea
+③ A Helping Hand with a Selfish Plan
+④ A Stranger Who Wanted Nothing in Return
+⑤ Why Ice Sells Better Than Bottled Water
+ANSWER:
+3
+EVIDENCE:
+“Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” / For a moment I think he is joking, but then realize he is serious.
+EXPLANATION:
+정장 차림의 남자가 무거운 카트를 밀어 주며 서로 도와야 한다고 말하지만, 곧 얼음 한 봉지만 가져가고 나머지는 자기가 갖겠다고 진지하게 말한다. 바질 삼촌이 나타나자 그는 씁쓸한 얼굴로 떠난다. 따라서 ‘이기적인 속셈이 있는 도움의 손길’이라는 ③이 제목으로 가장 적절하다.
+WRONG_ANALYSIS:
+① 카트가 무거워 밀기 힘들다는 것은 장면의 출발점일 뿐, 카트를 쉽게 미는 방법은 나오지 않는다.
+② 바질 삼촌은 마지막에 나타나 남자를 떠나게 할 뿐이며, 사업 아이디어를 낸다는 내용은 없다.
+④ 남자는 나머지 얼음을 모두 가지려 했으므로 대가를 바라지 않았다는 것은 반대다.
+⑤ 얼음과 생수의 판매 비교는 나오지 않는다.
+CHOICES_KR:
+① 무거운 카트를 쉽게 미는 방법
+② 바질 삼촌의 기발한 사업 아이디어
+③ 이기적인 속셈이 있는 도움의 손길
+④ 대가를 전혀 바라지 않은 낯선 사람
+⑤ 얼음이 생수보다 더 잘 팔리는 이유
+[/Q14]
+
+[Q15]
+SET:
+미니 모의고사 2회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 45~70
+TYPE:
+어휘
+QUESTION:
+윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?
+PASSAGE_GROUP:
+long-mock2
+ANSWER:
+1
+EVIDENCE:
+Garrett and I put one bag of ice after another into our cart … / The cart is ridiculously heavy now, and almost impossible to push.
+EXPLANATION:
+앨리사와 개릿은 얼음 봉지를 하나씩 계속 카트에 넣었고, 그 결과 카트는 터무니없이 무거워져 밀기 거의 불가능해졌다. 따라서 얼음이 ‘가능한 한 낮게(low)’ 쌓였다는 ①은 문맥에 맞지 않고 high(높이)가 되어야 한다.
+WRONG_ANALYSIS:
+② 얼음을 가득 실어 카트가 무거워(heavy) 밀기 거의 불가능하다는 흐름에 맞다.
+③ 남자가 “우리는 모두 서로 도와야(help) 해요.”라고 말하며 도움을 당연하게 여기는 말로 적절하다.
+④ 남자의 도움을 받은 앨리사가 어려운 시기가 사람들의 가장 좋은(best) 면을 끌어낸다고 생각하는 흐름에 맞다.
+⑤ 앨리사의 제안(얼음 한 봉지)보다 ‘더 나은(better)’ 생각이 있다며 자기 몫을 늘리려는 남자의 속셈을 보여 준다.
+[/Q15]
+
+[Q16]
+SET:
+미니 모의고사 3회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 1~17
+TYPE:
+순서
+QUESTION:
+주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?
+GIVEN:
+The kitchen tap makes strange sounds. It coughs. It spits once, and then goes silent.
+“Mom,” I shout out into the living room, “water is not coming out.”
+“Alyssa, shush!” Mom says.
+
+BLOCKS:
+(A) Inside it’s like Black Friday at its worst — but today it’s not televisions and video games people are after. What I see in the carts in the checkout line are mostly water bottles. The essentials of life.
+(B) She is watching the TV, where a news anchor is talking about the “flow crisis.” This is what the media has been calling the drought ever since people got tired of hearing the word “drought.” Now the crisis is entering a new stage. We have no running water out of the tap. 
+(C) “To the mall!” says Uncle Basil. My little brother Garrett and I jump in our uncle’s truck. As we pull into the parking lot, we can see the crowd. “You two go in. I’ll meet you inside,” Uncle Basil says. 
+CHOICES:
+① A → C → B
+② B → A → C
+③ B → C → A
+④ C → A → B
+⑤ C → B → A
+ANSWER:
+3
+EVIDENCE:
+(B) “She is watching the TV …”의 She가 주어진 글의 Mom이며, 엄마가 “쉿!”이라고 한 이유(뉴스 시청)를 설명함 / (C) “To the mall!”이 (B)의 ‘수돗물이 나오지 않는다’에 대한 대응 / (A) “Inside …”가 (C)의 “You two go in. I’ll meet you inside”에 이어짐
+EXPLANATION:
+주어진 글에서 수도꼭지의 물이 끊기자 앨리사가 엄마를 부르지만 엄마는 “쉿!”이라고 한다. (B) 엄마는 ‘물 공급 위기’에 관한 뉴스를 보고 있었고, 위기가 새 단계에 들어서 수돗물이 나오지 않는다. (C) 그러자 바질 삼촌이 “쇼핑몰로!”라고 외치고, 주차장에서 인파를 본 뒤 아이들에게 먼저 들어가라고 한다. (A) 안은 최악일 때의 블랙 프라이데이 같고, 카트에는 대부분 생수가 담겨 있다. 따라서 (B)-(C)-(A)이다.
+WRONG_ANALYSIS:
+① (A)가 주어진 글 바로 뒤에 오면 Inside가 어디의 안인지 알 수 없다.
+② (B) 다음 (A)가 오면 쇼핑몰에 가기도 전에 매장 안의 장면이 나오고, 그 뒤 (C)에서 다시 쇼핑몰로 출발하게 된다.
+④ (C)가 주어진 글 바로 뒤에 오면 엄마가 “쉿!”이라고 한 이유가 설명되지 않은 채 쇼핑몰로 떠나고, 매장 안 장면 (A) 뒤에 다시 집에서 TV를 보는 (B)가 이어진다.
+⑤ (C)–(B)–(A)가 가장 헷갈리는 배열이다. 그러나 (B)의 She is watching the TV는 주어진 글에서 “쉿!”이라고 한 엄마의 모습을 바로 이어 설명하는 것이며, 트럭을 타고 쇼핑몰 주차장에 들어간 (C) 뒤에 집 안의 뉴스 장면이 오면 시간과 장소가 거꾸로 된다.
+[/Q16]
+
+[Q17]
+SET:
+미니 모의고사 3회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 37~51
+TYPE:
+무관한 문장
+QUESTION:
+다음 글에서 전체 흐름과 관계 없는 문장은?
+PASSAGE:
+I look for Garrett, whom I find in the frozen aisle. Then I see something. ① Just past the frozen vegetables and ice cream, there is a case packed with ice. ② I open the door and reach for a bag. “What are you doing? We need water, not ice,” he reminds me. “Ice is water. Just help me,” I tell him. ③ Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. ④ Frozen vegetables keep most of their vitamins because they are frozen soon after they are picked. ⑤ By now other people have taken notice and begin to empty the ice case. The cart is ridiculously heavy now, and almost impossible to push. Then, a man in a business suit comes up behind us. He smiles. “Looks like you could use some help.” He doesn’t wait for us to answer before grabbing the cart’s handle.
+ANSWER:
+4
+EVIDENCE:
+Garrett and I put one bag of ice after another into our cart, until it is piled as high as it can get. By now other people have taken notice and begin to empty the ice case.
+EXPLANATION:
+글은 물이 떨어진 매장에서 앨리사가 얼음 케이스를 발견하고, 동생과 함께 카트에 얼음을 가득 쌓자 다른 사람들도 따라 하며, 무거운 카트에 한 남자가 다가오는 흐름이다. ④는 냉동 채소가 수확 직후 얼려져 비타민이 대부분 유지된다는 일반 정보로, 얼음을 쌓는 장면과 다른 사람들이 알아차리는 장면 사이를 끊는다.
+WRONG_ANALYSIS:
+① 앨리사가 본 ‘무언가’가 얼음이 가득 든 케이스임을 밝혀 이야기의 전환점이 된다.
+② 케이스 문을 열고 얼음 봉지에 손을 뻗는 행동으로, 앞 문장의 발견에 이어진다.
+③ 개릿과 함께 카트에 얼음을 가득 쌓는 장면으로, 앞의 “Just help me”에 이어진다.
+⑤ 두 사람이 얼음을 쌓자 다른 사람들도 알아차리고 얼음 케이스를 비우기 시작한다는 내용으로 ③에 이어진다.
+[/Q17]
+
+[Q18]
+SET:
+미니 모의고사 3회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 52~65
+TYPE:
+심경·분위기
+QUESTION:
+다음 글에 드러난 ‘I’의 심경 변화로 가장 적절한 것은?
+PASSAGE:
+“Thank you for helping us,” I tell him. “Not a problem. We all need to help one another.” He smiles again, and I return the smile. It is good to know that difficult times can bring out the best in people. I decide that one favor deserves another. “Why don’t you take a bag of ice for yourself,” I suggest. His smile does not fade. “I have a better idea,” he says. “Why don’t you take a bag of ice for yourselves, and I’ll keep the rest.” For a moment I think he is joking, but then realize he is serious. “Excuse me?” He is still smiling, but his eyes scare me. As long as his hands are firmly locked on the handle of our cart, there is nothing to prove that it’s ours and not his.
+CHOICES:
+① grateful → frightened
+② jealous → satisfied
+③ bored → curious
+④ nervous → relieved
+⑤ angry → calm
+ANSWER:
+1
+EVIDENCE:
+“Thank you for helping us,” I tell him. / It is good to know that difficult times can bring out the best in people. / He is still smiling, but his eyes scare me.
+EXPLANATION:
+처음에 앨리사는 자신들을 도와준 남자(him)에게 고마워하며(Thank you for helping us) 미소로 답하고, 호의에 보답하려고 얼음 한 봉지를 권한다. 그러나 남자가 나머지 얼음을 자기가 갖겠다고 진지하게 말하고, 웃는 얼굴과 달리 그의 눈이 무섭게 느껴진다. 따라서 ‘고마워하는 → 겁먹은’의 ①이 알맞다.
+WRONG_ANALYSIS:
+② 질투하거나 만족하는 모습은 없고, 마지막에는 겁을 먹는다.
+③ 지루함은 드러나지 않으며, 남자의 속셈을 알게 된 뒤의 감정은 호기심이 아니라 두려움이다.
+④ 처음에는 긴장이 아니라 고마움을 느끼고, 뒤로 갈수록 안도가 아니라 두려움이 커진다.
+⑤ 처음부터 화를 내지 않았고, 마지막에도 차분하기보다 겁을 먹는다.
+CHOICES_KR:
+① 고마워하는 → 겁먹은
+② 질투하는 → 만족한
+③ 지루한 → 호기심 있는
+④ 긴장한 → 안도한
+⑤ 화난 → 차분한
+[/Q18]
+
+[PASSAGE_GROUP long-mock3]
+QUESTION_IDS:
+Q19, Q20
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 18~36
+PASSAGE:
+There is a look of ① impatience on the faces of the people in line. There is even hostility, hidden by a thin layer of politeness. Even that politeness is stretched ② thin.
+As I approach the back of the store for water bottles, I realize I am too late. The shelves are already empty.
+I manage my way to the side aisle, trying my luck. Sometimes people place unwanted items in the wrong shelves. Lucky! I find a single case of water that someone abandoned there maybe yesterday, when it wasn’t such a ③ precious commodity.
+I reach for it, only to find it pulled away at the last second by a woman. She stacks it on top of her cart like a crown on top of her canned goods.
+“I’m sorry, but we were here first,” she says. And then her daughter steps forward — a girl I recognize from soccer — Hali Hartling. As her mother pulls their cart away, Hali leans ④ closer to me. “I’m sorry about that, Alyssa.”
+“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor and ⑤ hide a few bottles with me.”
+She looks back to her mother, who’s already moving down the aisle, then turns back to me shaking her head. And then she gets a little bit red in the face, and turns to leave before it becomes a deep flush.
+ANNOTATIONS_BASIS:
+Transformed passage before generated labels; zero-based Unicode codepoints [start,end). These are not offsets in the displayed PASSAGE; text identifies each marked span.
+ANNOTATIONS:
+[{"kind": "numbered_word", "number": 1, "span": [19, 29], "text": "impatience"}, {"kind": "numbered_word", "number": 2, "span": [163, 167], "text": "thin"}, {"kind": "numbered_word", "number": 3, "span": [496, 504], "text": "precious"}, {"kind": "numbered_word", "number": 4, "span": [846, 852], "text": "closer"}, {"kind": "numbered_word", "number": 5, "span": [1012, 1016], "text": "hide"}]
+[/PASSAGE_GROUP long-mock3]
+
+[Q19]
+SET:
+미니 모의고사 3회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 18~36
+TYPE:
+제목
+QUESTION:
+윗글의 제목으로 가장 적절한 것은?
+PASSAGE_GROUP:
+long-mock3
+CHOICES:
+① A Crown Made of Canned Goods
+② When Water Is Precious, Kindness Runs Dry
+③ How Soccer Practice Made Two Girls Best Friends
+④ Full Shelves and Friendly Shoppers
+⑤ Why Stores Put Items on the Wrong Shelves
+ANSWER:
+2
+EVIDENCE:
+There is even hostility, hidden by a thin layer of politeness. / I reach for it, only to find it pulled away at the last second by a woman. / … then turns back to me shaking her head.
+EXPLANATION:
+물이 귀해진 상황에서 줄 선 사람들은 얇은 예의 아래 적대감을 숨기고 있고, 앨리사가 겨우 찾은 생수 한 상자는 한 여자에게 빼앗기며, 예전에 물을 나눠 준 할리에게 보답을 부탁하지만 거절당한다. 따라서 ‘물이 귀해지면 친절이 바닥난다’는 ②가 제목으로 가장 적절하다.
+WRONG_ANALYSIS:
+① 여자가 생수 상자를 통조림 위에 왕관처럼 올려놓는다는 한 장면의 비유일 뿐 글 전체를 포괄하지 못한다.
+③ 앨리사가 축구 연습 때 할리에게 물을 나눠 준 적은 있지만, 할리는 보답을 거절하므로 두 사람이 가장 친한 친구가 되었다는 것은 맞지 않는다.
+④ 선반은 이미 비어 있었고 사람들에게는 조급함과 적대감이 있었으므로 반대다.
+⑤ 사람들이 원치 않는 물건을 엉뚱한 선반에 두기도 한다는 것은 앨리사가 옆 통로를 찾아본 이유일 뿐이며, 가게가 그렇게 한다는 내용도 아니다.
+CHOICES_KR:
+① 통조림으로 만든 왕관
+② 물이 귀해지면 친절이 바닥난다
+③ 축구 연습이 두 소녀를 가장 친한 친구로 만든 방법
+④ 가득 찬 선반과 친절한 쇼핑객들
+⑤ 가게가 물건을 엉뚱한 선반에 두는 이유
+[/Q19]
+
+[Q20]
+SET:
+미니 모의고사 3회
+SOURCE:
+src
+SOURCE_RANGE:
+본문 · 원문 문장 18~36
+TYPE:
+어휘
+QUESTION:
+윗글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?
+PASSAGE_GROUP:
+long-mock3
+ANSWER:
+5
+EVIDENCE:
+“Didn’t I share my water with you at the practice last week?” I point out to her. “Maybe you could return the favor …”
+EXPLANATION:
+앨리사는 지난주 연습 때 할리에게 자기 물을 나눠 주었던 일을 말하며 그 호의에 보답해 달라고 부탁한다. 보답(return the favor)은 물을 ‘나눠 주는(share)’ 것이어야 하므로, 몇 병을 함께 ‘숨기자(hide)’는 ⑤는 문맥에 맞지 않고 share가 되어야 한다.
+WRONG_ANALYSIS:
+① 줄 선 사람들의 얼굴에 조급함(impatience)이 보인다는 것은 뒤의 적대감과 이어진다.
+② 적대감을 숨긴 예의마저 ‘얇게(thin)’ 늘어나 있다는 것은 사람들의 긴장이 커지는 흐름에 맞다.
+③ 어제만 해도 생수가 그렇게 귀한(precious) 상품이 아니었다는 것은 물이 부족해진 지금과 대비된다.
+④ 엄마가 카트를 끌고 가는 사이 할리가 앨리사에게 더 가까이(closer) 다가와 사과한다는 흐름에 맞다.
+[/Q20]
