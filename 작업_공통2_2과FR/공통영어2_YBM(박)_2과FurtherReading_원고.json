@@ -3507,7 +3507,7 @@
      "ko": "수십 년 동안."
     }
    ],
-   "natural_ko": "기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순히 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다.",
+   "natural_ko": "기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순하고 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다.",
    "clauses": [
     {
      "kind": "main",
@@ -5798,5 +5798,18 @@
  ],
  "set_labels": {
   "mock1": "미니 모의고사 1회"
- }
+ },
+ "layout_adjustments": [
+  {
+   "kind": "compact_block",
+   "block_id": "u1/answers",
+   "profile": "spacing",
+   "content_sha256": "393120eae4e0f00b1d374d0e26b5305d8ea4cb83dd8d3bcfaa6d68be34acd36b",
+   "renderer": "Microsoft Word",
+   "observed_page": 15,
+   "evidence_pdf_sha256": "6c5599736b157e8f7113eb99b956b77df7dc4a159b8f1fca7ecaad1972c9aa9d",
+   "reason": "Microsoft Word(Microsoft 365) 렌더 18쪽 중 14쪽이 워크북 정답 4번까지 차고 ‘5. 핵심 문장 해석’ 제목+해석 2줄만 15쪽으로 넘어가 거의 빈 쪽(7단계 FABLE F-S01·W-NEW-01). 근거 해시는 Word PDF가 아니라 그 렌더를 기록한 검수기록/7단계_FABLE_검수.json의 SHA-256(Word PDF는 사용자 컴퓨터 FR_Word확인_임시 폴더에만 있음, 사용자 결정)",
+   "approval_reference": "2026-09-30 사용자 결정: 7단계 FABLE F-S01 워크북 정답에 spacing 프로필 적용(spacing 단계만)"
+  }
+ ]
 }

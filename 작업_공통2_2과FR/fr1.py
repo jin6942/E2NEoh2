@@ -269,7 +269,7 @@ def sentences(T):
     s.ch('but a severe drought', '심각한 가뭄이라고')
     s.ch('that could persist', '지속될 수 있는')
     s.ch('for decades.', '수십 년 동안.')
-    s.natural('기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순히 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다.')
+    s.natural('기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순하고 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다.')
     s.cl('main', 'experts', subj='experts', verbs=['warn'])
     s.cl('subordinate', 'that', subj='the situation we face', verbs=['is'], marker='that', disp='the situation',
          disp_review='중심명사 situation까지 표시하고 뒤에서 꾸미는 생략 관계절 (that) we face는 제외')

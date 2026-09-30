@@ -140,11 +140,11 @@
  "artifacts": {
   "manuscript": {
    "path": "../공통영어2_YBM(박)_2과FurtherReading_원고.json",
-   "sha256": "261310d8a3d15018e91eb61ce7bbbfd367cd2b54d387bccc0dbc64e640c7be5c"
+   "sha256": "6e32d99445f555058c3f00178e49e50e8a83ab4c0d5ed63087aaf8b57855f5a2"
   },
   "plan": {
-   "path": "../검사기록/08_full_역할계획.json",
-   "sha256": "0969e99d0229c9cf563dea9f0def19f2ad59f91e7969a7294b83364e9aa8193b"
+   "path": "../검사기록/09_full_역할계획.json",
+   "sha256": "48b9200e65d905eb5d2af48536e8aedb089d386d1a4092be53ad15b881b0bed7"
   },
   "contract": {
    "path": "../../작업_공통2_2과/스킬수정본/gyogwaseo-unified/assets/layout-contract.json",
@@ -152,29 +152,29 @@
   },
   "docx": {
    "path": "../../결과물_공통2_2과/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_전체통합본.docx",
-   "sha256": "3955a4a62f3d253f58a524ac397e9f6bf5a3d9c92e5878fda5e4b7496b45c3fc"
+   "sha256": "3c561ccfedfb10574d593c75aadc977b153df23008c9b2ff653516f9dfa1d96d"
   },
   "pdf": {
    "path": "../예비렌더_LibreOffice/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_전체통합본.pdf",
-   "sha256": "80a03afbc2c862acf4681a090238daf312b622d86cc46bbaa69fff89fd8ca4bd"
+   "sha256": "9f6fa11dc9e87e079f6dec4b08dcd5258605c8a02d95a0c42898b989ada7be2b"
   },
   "learning_final": {
    "path": "../공통영어2_YBM(박준언)_2과FurtherReading_FINAL.txt",
-   "sha256": "56416ffabcfd5d0374d1c77bcee193defded5fe95320d95632930e39f686200c"
+   "sha256": "26732639c48d4e2c2fc81f1fd50c8bcad3e626c0b28bc370c5a87cd39799a4e0"
   },
   "assessment_final": {
    "path": "../공통영어2_YBM(박준언)_2과FurtherReading_문제_FINAL.txt",
-   "sha256": "292729965e7ce6b8cd6c0d30985b7ccd87257d965b923e790bf89fe0a526e459"
+   "sha256": "294ed13f7b133372bfb2222e958f7d0e3c242142871fdd4ce0aa66cedabd9c8a"
   }
  },
  "reports": {
   "structure": {
-   "path": "../검사기록/08_full_구조검사.json",
-   "sha256": "1f35e4346db3122396adaaa287352b8f12bdd223b0e9da8c53bca0b5f5c40c99"
+   "path": "../검사기록/09_full_구조검사.json",
+   "sha256": "a0a924d280299860f60ea87b0ecb3c1ddb330a23a0389db897bb10081f6c0070"
   },
   "saved_docx": {
-   "path": "../검사기록/08_full_저장본검사.json",
-   "sha256": "e79a01ee992b45ec2104e66cb4859809c83d92421bb9f6a20ca497aa6452a61f"
+   "path": "../검사기록/09_full_저장본검사.json",
+   "sha256": "78781a9df47eb84149747d9af421ccfe9d23476929864f54c623f62b2360caa0"
   }
  },
  "reviews": [
@@ -184,15 +184,25 @@
   },
   {
    "path": "review_L.json",
-   "sha256": "c04fd27c14f79a436508527360cfe2276e0f3388873e31610eb0b20655933670"
+   "sha256": "b955faad2673638b24575064227e9f9f0128253964433969c2af07a17074fc48"
   },
   {
    "path": "review_M.json",
-   "sha256": "003eeaaff5a8f85901ce5c4e89b20b726f2763d1a1c9d9a728311cd6977e12bb"
+   "sha256": "ad0b472d74f040c76fd61ef3113ae16ab3c52f0ab82b41d67ff4042a982961f3"
   },
   {
    "path": "review_N.json",
-   "sha256": "993314a57ff8f574ee28e8445957eb00a7b766dab38e0c65f8dc46a92972a799"
+   "sha256": "53249cfd56f5fa44928cb0b180db5ae9e52cf196f9f40a3eff5400851b2e2d38"
   }
- ]
+ ],
+ "independent_final_review": {
+  "path": "../검수기록/7단계_FABLE_검수.json",
+  "sha256": "6c5599736b157e8f7113eb99b956b77df7dc4a159b8f1fca7ecaad1972c9aa9d",
+  "reviewer": "FABLE",
+  "verdict": "PASS (error 0, suggestion 6)",
+  "reviewed_docx_sha256_prefix": "3955a4a6",
+  "word_render": "Microsoft Word(Microsoft 365) 통합본 18쪽·분권 5+3+2+2+6쪽, Word PDF는 사용자 컴퓨터에만 있음",
+  "word_check": "J-W01 문제있음(결정대로 유지)·J-W02 문제없음·J-W03 문제없음·J-W04 문제없음·J-W05 문제없음·J-W06 문제있음(경미, 유지 결정)·J-W07 문제없음·W-NEW-01 → F-S01 spacing 적용",
+  "gate_note": "FABLE의 Word 확인은 수정 전 DOCX(3955a4a6…)를 대상으로 했고 Word PDF가 저장소에 없어, verify_release의 word_render·word_layout·release 게이트 입력으로는 연결하지 않음. F-S01·F-S02 반영 후 DOCX의 Word 재확인 뒤 연결 예정."
+ }
 }

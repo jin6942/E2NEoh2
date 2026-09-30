@@ -13,3 +13,10 @@
 - 대조 반영: Q01 ⑤ significant 제거·75%=대부분, Q04 (B) 동사 A of B 틀(remind/relieve/assure)·(A) buried, Q05 근거 UN 문장·오답 교체·해석 ‘미래에 대한’, Q06 근거 학생 지문 기준, 분량 사유 기록(장문은 별도 문구), Q04 ④ 오답 이유 정정
 - 재풀이 4/4, 2/2 일치, 재검 PASS, 분량 판정 5문항 PASS(M·N 각각)
 5·6단계: LibreOffice 예비 렌더 15쪽, 7쪽 거의 빈 쪽(사용자 결정 Word 확인), 유반 visible 뜻 ‘((눈에) 보이는)’ 이중 괄호 → ‘눈에 보이는’, J PASS(결함 0, Word 확인 7건), J-W03 요약문 (A)·(B) 뒤 줄바꿈 없는 공백, R 기계 대조 PASS(경고 0), 분권 5개·ZIP(SPLIT_CONTENT_MATCH), 출고 기록 verify_release REVIEW_PENDING(오류 0)
+7단계(2026-09-30) FABLE 독립 최종 검수(Word 실제 렌더) 반영
+- F-S01: make_fr.py에 layout_adjustments compact_block u1/answers·spacing(observed_page 15, renderer Microsoft Word, 근거 7단계_FABLE_검수.json SHA256 6c559973…)
+- F-S02: fr1.py s08 natural ‘단순히’→‘단순하고’ → 학습 FINAL·문제 FINAL 각 1줄 변경
+- 통합본 3955a4a6… → patch(바뀐 블록 u1/analysis·u1/answers, 나머지 6블록 보존) → 3c561ccf…, 저장본 검사 PASS
+- 옛 출고_FurtherReading 삭제 후 같은 이름으로 분권 5개·ZIP 재출력(SPLIT_CONTENT_MATCH), R 기계 대조 PASS(경고 0), verify_release REVIEW_PENDING(오류 0)
+- 옛 검사기록 08_* 삭제(09_*로 대체), 예비 렌더 PDF 같은 이름으로 교체(LibreOffice 15쪽, 변화 없음)
+- F-S04는 스킬_걸림_목록.md 한 줄, F-S03·05·06 조치 없음

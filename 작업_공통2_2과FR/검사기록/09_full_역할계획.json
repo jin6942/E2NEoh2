@@ -3944,7 +3944,7 @@
             },
             {
               "run": 1,
-              "text": "기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순히 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다."
+              "text": "기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순하고 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다."
             }
           ],
           "chain": false
@@ -5883,7 +5883,7 @@
           "page_break_before": true
         },
         {
-          "role": "workbook_answer_activity_heading",
+          "role": "workbook_answer_activity_heading__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -5994,7 +5994,7 @@
           ]
         },
         {
-          "role": "workbook_answer_activity_heading",
+          "role": "workbook_answer_activity_heading__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6117,7 +6117,7 @@
           ]
         },
         {
-          "role": "workbook_answer_activity_heading",
+          "role": "workbook_answer_activity_heading__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6126,7 +6126,7 @@
           ]
         },
         {
-          "role": "question_answer",
+          "role": "question_answer__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6139,7 +6139,7 @@
           ]
         },
         {
-          "role": "choice_translation_heading",
+          "role": "choice_translation_heading__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6148,7 +6148,7 @@
           ]
         },
         {
-          "role": "question_evidence",
+          "role": "question_evidence__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6157,7 +6157,7 @@
           ]
         },
         {
-          "role": "question_explanation",
+          "role": "question_explanation__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6167,7 +6167,7 @@
           "chain": false
         },
         {
-          "role": "choice_translation_heading",
+          "role": "choice_translation_heading__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6176,7 +6176,7 @@
           ]
         },
         {
-          "role": "choice_translation",
+          "role": "choice_translation__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6194,7 +6194,7 @@
           "chain": true
         },
         {
-          "role": "choice_translation",
+          "role": "choice_translation__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6212,7 +6212,7 @@
           "chain": true
         },
         {
-          "role": "choice_translation",
+          "role": "choice_translation__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6230,7 +6230,7 @@
           "chain": true
         },
         {
-          "role": "correct_choice_translation",
+          "role": "correct_choice_translation__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6248,7 +6248,7 @@
           "chain": true
         },
         {
-          "role": "choice_translation",
+          "role": "choice_translation__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6266,7 +6266,7 @@
           "chain": false
         },
         {
-          "role": "wrong_reasons_heading",
+          "role": "wrong_reasons_heading__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6275,7 +6275,7 @@
           ]
         },
         {
-          "role": "wrong_reason",
+          "role": "wrong_reason__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6289,7 +6289,7 @@
           "chain": true
         },
         {
-          "role": "wrong_reason",
+          "role": "wrong_reason__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6303,7 +6303,7 @@
           "chain": true
         },
         {
-          "role": "wrong_reason",
+          "role": "wrong_reason__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6317,7 +6317,7 @@
           "chain": true
         },
         {
-          "role": "wrong_reason",
+          "role": "wrong_reason__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6331,7 +6331,7 @@
           "chain": false
         },
         {
-          "role": "workbook_key_answers_heading",
+          "role": "workbook_key_answers_heading__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6340,7 +6340,7 @@
           ]
         },
         {
-          "role": "workbook_key_answer",
+          "role": "workbook_key_answer__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6350,7 +6350,7 @@
           "chain": true
         },
         {
-          "role": "workbook_key_answer",
+          "role": "workbook_key_answer__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6360,7 +6360,7 @@
           "chain": true
         },
         {
-          "role": "workbook_key_answer",
+          "role": "workbook_key_answer__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6370,7 +6370,7 @@
           "chain": true
         },
         {
-          "role": "workbook_key_answer",
+          "role": "workbook_key_answer__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6380,7 +6380,7 @@
           "chain": true
         },
         {
-          "role": "workbook_key_answer",
+          "role": "workbook_key_answer__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6390,7 +6390,7 @@
           "chain": false
         },
         {
-          "role": "workbook_key_answers_heading",
+          "role": "workbook_key_answers_heading__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6399,7 +6399,7 @@
           ]
         },
         {
-          "role": "workbook_key_answer",
+          "role": "workbook_key_answer__compact_spacing",
           "runs": [
             {
               "run": 0,
@@ -6409,11 +6409,11 @@
           "chain": true
         },
         {
-          "role": "workbook_key_answer",
+          "role": "workbook_key_answer__compact_spacing",
           "runs": [
             {
               "run": 0,
-              "text": "2. 기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순히 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다."
+              "text": "2. 기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순하고 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다."
             }
           ],
           "chain": false

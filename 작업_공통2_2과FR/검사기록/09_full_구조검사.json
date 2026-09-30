@@ -475,7 +475,7 @@
                 },
                 {
                   "role": "analysis_natural_translation",
-                  "text": "기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순히 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다."
+                  "text": "기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순하고 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다."
                 }
               ]
             },
@@ -1048,5 +1048,5 @@
   "independent_reviews": "NOT_PERFORMED",
   "docx_presence": "NOT_CHECKED_BY_THIS_TOOL",
   "visual_review": "NOT_PERFORMED",
-  "input_sha256": "261310d8a3d15018e91eb61ce7bbbfd367cd2b54d387bccc0dbc64e640c7be5c"
+  "input_sha256": "6e32d99445f555058c3f00178e49e50e8a83ab4c0d5ed63087aaf8b57855f5a2"
 }

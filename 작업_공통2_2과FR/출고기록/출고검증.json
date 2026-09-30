@@ -33,34 +33,34 @@
     "review/review_N.json"
   ],
   "observed_sha256": {
-    "manuscript": "261310d8a3d15018e91eb61ce7bbbfd367cd2b54d387bccc0dbc64e640c7be5c",
-    "plan": "0969e99d0229c9cf563dea9f0def19f2ad59f91e7969a7294b83364e9aa8193b",
+    "manuscript": "6e32d99445f555058c3f00178e49e50e8a83ab4c0d5ed63087aaf8b57855f5a2",
+    "plan": "48b9200e65d905eb5d2af48536e8aedb089d386d1a4092be53ad15b881b0bed7",
     "contract": "a0494734ae7adb8c85086ce2d8a8395670ae94677c0dddb256fb69a1c0ff454c",
-    "docx": "3955a4a62f3d253f58a524ac397e9f6bf5a3d9c92e5878fda5e4b7496b45c3fc",
-    "pdf": "80a03afbc2c862acf4681a090238daf312b622d86cc46bbaa69fff89fd8ca4bd",
-    "learning_final": "56416ffabcfd5d0374d1c77bcee193defded5fe95320d95632930e39f686200c",
-    "assessment_final": "292729965e7ce6b8cd6c0d30985b7ccd87257d965b923e790bf89fe0a526e459",
+    "docx": "3c561ccfedfb10574d593c75aadc977b153df23008c9b2ff653516f9dfa1d96d",
+    "pdf": "9f6fa11dc9e87e079f6dec4b08dcd5258605c8a02d95a0c42898b989ada7be2b",
+    "learning_final": "26732639c48d4e2c2fc81f1fd50c8bcad3e626c0b28bc370c5a87cd39799a4e0",
+    "assessment_final": "294ed13f7b133372bfb2222e958f7d0e3c242142871fdd4ce0aa66cedabd9c8a",
     "source/src": "02f6f0ec6c1cbe870801855c583dbafcf3a99081f2c519e3e8f6ef157606a883",
-    "report/structure": "1f35e4346db3122396adaaa287352b8f12bdd223b0e9da8c53bca0b5f5c40c99",
-    "report/saved_docx": "e79a01ee992b45ec2104e66cb4859809c83d92421bb9f6a20ca497aa6452a61f",
+    "report/structure": "a0a924d280299860f60ea87b0ecb3c1ddb330a23a0389db897bb10081f6c0070",
+    "report/saved_docx": "78781a9df47eb84149747d9af421ccfe9d23476929864f54c623f62b2360caa0",
     "review/review_S.json": "91a757a36fb44e4729915783168c2667dddef77b69937fddc378bf8deb819f69",
-    "review/review_L.json": "c04fd27c14f79a436508527360cfe2276e0f3388873e31610eb0b20655933670",
-    "review/review_M.json": "003eeaaff5a8f85901ce5c4e89b20b726f2763d1a1c9d9a728311cd6977e12bb",
-    "review/review_N.json": "993314a57ff8f574ee28e8445957eb00a7b766dab38e0c65f8dc46a92972a799"
+    "review/review_L.json": "b955faad2673638b24575064227e9f9f0128253964433969c2af07a17074fc48",
+    "review/review_M.json": "ad0b472d74f040c76fd61ef3113ae16ab3c52f0ab82b41d67ff4042a982961f3",
+    "review/review_N.json": "53249cfd56f5fa44928cb0b180db5ae9e52cf196f9f40a3eff5400851b2e2d38"
   },
   "package_sha256": "496abd06f38e67ff1cdf2b07abc5ac2eb1638a00e1e54b32222b9cdc83f81cee",
   "bindings": {
-    "manuscript_sha256": "261310d8a3d15018e91eb61ce7bbbfd367cd2b54d387bccc0dbc64e640c7be5c",
-    "plan_sha256": "0969e99d0229c9cf563dea9f0def19f2ad59f91e7969a7294b83364e9aa8193b",
+    "manuscript_sha256": "6e32d99445f555058c3f00178e49e50e8a83ab4c0d5ed63087aaf8b57855f5a2",
+    "plan_sha256": "48b9200e65d905eb5d2af48536e8aedb089d386d1a4092be53ad15b881b0bed7",
     "contract_sha256": "a0494734ae7adb8c85086ce2d8a8395670ae94677c0dddb256fb69a1c0ff454c",
-    "docx_sha256": "3955a4a62f3d253f58a524ac397e9f6bf5a3d9c92e5878fda5e4b7496b45c3fc",
-    "pdf_sha256": "80a03afbc2c862acf4681a090238daf312b622d86cc46bbaa69fff89fd8ca4bd",
-    "learning_final_sha256": "56416ffabcfd5d0374d1c77bcee193defded5fe95320d95632930e39f686200c",
-    "assessment_final_sha256": "292729965e7ce6b8cd6c0d30985b7ccd87257d965b923e790bf89fe0a526e459",
+    "docx_sha256": "3c561ccfedfb10574d593c75aadc977b153df23008c9b2ff653516f9dfa1d96d",
+    "pdf_sha256": "9f6fa11dc9e87e079f6dec4b08dcd5258605c8a02d95a0c42898b989ada7be2b",
+    "learning_final_sha256": "26732639c48d4e2c2fc81f1fd50c8bcad3e626c0b28bc370c5a87cd39799a4e0",
+    "assessment_final_sha256": "294ed13f7b133372bfb2222e958f7d0e3c242142871fdd4ce0aa66cedabd9c8a",
     "package_sha256": "496abd06f38e67ff1cdf2b07abc5ac2eb1638a00e1e54b32222b9cdc83f81cee",
     "source_content_sha256": "3f4794ad997309164cd18fcb0430054e0b6100a3564eee3defb5713b1fda4f41",
-    "learning_content_sha256": "bb70683a64901f2fd109fc591659fa43cf1bcba17c63f24caa53f7d616d55cb3",
-    "assessment_content_sha256": "ab53e1a20390c58d39510181651f0b36c77111d283950b2fc2e58a575955fb4b"
+    "learning_content_sha256": "a8ebb0d78625985e6d58be6f3a16677b161900f00091c2b5277259c53d86de11",
+    "assessment_content_sha256": "8b93195be760e5acf7da3884d3255fcba93a1cdf5e7364e649958c39c13ed294"
   },
   "review_scope": {
     "kind": "full",
@@ -220,9 +220,9 @@
     "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_user_feedback_release.py",
     "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_verb_function_hints.py",
     "/home/user/E2NEoh2/작업_공통2_2과/스킬수정본/gyogwaseo-unified/tests/test_verb_gloss_revision.py",
-    "/home/user/E2NEoh2/작업_공통2_2과FR/검사기록/08_full_구조검사.json",
-    "/home/user/E2NEoh2/작업_공통2_2과FR/검사기록/08_full_역할계획.json",
-    "/home/user/E2NEoh2/작업_공통2_2과FR/검사기록/08_full_저장본검사.json",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검사기록/09_full_구조검사.json",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검사기록/09_full_역할계획.json",
+    "/home/user/E2NEoh2/작업_공통2_2과FR/검사기록/09_full_저장본검사.json",
     "/home/user/E2NEoh2/작업_공통2_2과FR/공통영어2_YBM(박)_2과FurtherReading_원고.json",
     "/home/user/E2NEoh2/작업_공통2_2과FR/공통영어2_YBM(박준언)_2과FurtherReading_FINAL.txt",
     "/home/user/E2NEoh2/작업_공통2_2과FR/공통영어2_YBM(박준언)_2과FurtherReading_문제_FINAL.txt",
@@ -237,5 +237,5 @@
     "READY_FOR_RELEASE validates supplied execution evidence and current files; it does not create a FINAL or perform a review.",
     "Unrecorded user messages cannot be detected; NOT_RECORDED never means user visual approval."
   ],
-  "record_sha256": "a7d66f9d6cf4b8d09151899e6f553cebc7d2755616b9569d8217397bc38cc5e8"
+  "record_sha256": "527f2ae0f442d6a707fbe397a8e1f626ccba54aaf1b9d229d1251e291c809a81"
 }

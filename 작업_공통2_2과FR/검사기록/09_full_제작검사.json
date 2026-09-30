@@ -3,25 +3,25 @@
   "scope": "full",
   "mode": "patch",
   "output": "/home/user/E2NEoh2/결과물_공통2_2과/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_전체통합본.docx",
-  "plan_output": "/home/user/E2NEoh2/작업_공통2_2과FR/검사기록/08_full_역할계획.json",
-  "report_output": "/home/user/E2NEoh2/작업_공통2_2과FR/검사기록/08_full_제작검사.json",
+  "plan_output": "/home/user/E2NEoh2/작업_공통2_2과FR/검사기록/09_full_역할계획.json",
+  "report_output": "/home/user/E2NEoh2/작업_공통2_2과FR/검사기록/09_full_제작검사.json",
   "input_path": "/home/user/E2NEoh2/작업_공통2_2과FR/공통영어2_YBM(박)_2과FurtherReading_원고.json",
-  "input_file_sha256": "261310d8a3d15018e91eb61ce7bbbfd367cd2b54d387bccc0dbc64e640c7be5c",
-  "manuscript_sha256": "4bd075f2cc4b881dd353d3d82de2158528563437b69980904c19eba10ccb6c19",
-  "plan_sha256": "4c753d4a4a137bc49698e8eb885b3df39bd401be10202c3e0d2debb8c15a7764",
+  "input_file_sha256": "6e32d99445f555058c3f00178e49e50e8a83ab4c0d5ed63087aaf8b57855f5a2",
+  "manuscript_sha256": "ffde460106096dda9276f1dca66d550f12ff122c074db1188a64889d9a2fa3f8",
+  "plan_sha256": "c22cc6e8a101ddcc0591d95371e5d2bd58369cd0681737345d028f9d6b82325b",
   "contract_sha256": "a0494734ae7adb8c85086ce2d8a8395670ae94677c0dddb256fb69a1c0ff454c",
   "reference_sha256": "9af8460d2af50152f0b49c92191b98f8b7fcccd8b1a459365bb073ff07c8319b",
-  "saved_sha256": "3955a4a62f3d253f58a524ac397e9f6bf5a3d9c92e5878fda5e4b7496b45c3fc",
+  "saved_sha256": "3c561ccfedfb10574d593c75aadc977b153df23008c9b2ff653516f9dfa1d96d",
   "changed_blocks": [
-    "mock1"
+    "u1/analysis",
+    "u1/answers"
   ],
   "preserved_blocks": [
     "cover",
     "u1/reading",
-    "u1/analysis",
     "u1/workbook",
+    "mock1",
     "answers/quick",
-    "u1/answers",
     "answers/mock1"
   ],
   "saved_docx_validation": {
@@ -41,11 +41,11 @@
       "answers/mock1"
     ],
     "format_errors": [],
-    "plan_sha256": "4c753d4a4a137bc49698e8eb885b3df39bd401be10202c3e0d2debb8c15a7764",
+    "plan_sha256": "c22cc6e8a101ddcc0591d95371e5d2bd58369cd0681737345d028f9d6b82325b",
     "contract_sha256": "a0494734ae7adb8c85086ce2d8a8395670ae94677c0dddb256fb69a1c0ff454c",
     "reference_sha256": "9af8460d2af50152f0b49c92191b98f8b7fcccd8b1a459365bb073ff07c8319b",
     "format_validation_scope": "Stored OOXML properties and effective character formatting; not visual pagination or content semantics",
-    "saved_sha256": "3955a4a62f3d253f58a524ac397e9f6bf5a3d9c92e5878fda5e4b7496b45c3fc",
+    "saved_sha256": "3c561ccfedfb10574d593c75aadc977b153df23008c9b2ff653516f9dfa1d96d",
     "checked_blocks": [
       "cover",
       "u1/reading",
@@ -59,7 +59,7 @@
     "errors": [],
     "extracted": {
       "path": "/home/user/E2NEoh2/결과물_공통2_2과/혼공독해교재_공통영어2_YBM(박)_2과FurtherReading_전체통합본.docx",
-      "sha256": "3955a4a62f3d253f58a524ac397e9f6bf5a3d9c92e5878fda5e4b7496b45c3fc",
+      "sha256": "3c561ccfedfb10574d593c75aadc977b153df23008c9b2ff653516f9dfa1d96d",
       "blocks": [
         {
           "id": "cover",
@@ -567,7 +567,7 @@
             },
             {
               "kind": "paragraph",
-              "text": "↳ 자연 해석  기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순히 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다."
+              "text": "↳ 자연 해석  기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순하고 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다."
             },
             {
               "kind": "paragraph",
@@ -1359,7 +1359,7 @@
             },
             {
               "kind": "paragraph",
-              "text": "2. 기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순히 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다."
+              "text": "2. 기후 변화가 계속되는 것을 고려할 때, 전문가들은 우리가 직면한 상황이 단순하고 가끔 찾아오는 가뭄이 아니라 수십 년 동안 이어질 수 있는 심각한 가뭄이라고 경고한다."
             }
           ]
         },

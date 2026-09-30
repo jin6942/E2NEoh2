@@ -101,11 +101,18 @@
    "status": "resolved",
    "resolution": "반영: 현재 원고로 QC_HANDOFF·검사기록·학습 FINAL 다시 내보냄",
    "recheck": "제작 반영 + 구조 검사 PASS"
+  },
+  {
+   "id": "F-S02",
+   "description": "7단계 FABLE 독립 최종 검수: s08 자연 해석 ‘단순히’→‘단순하고’(분석지·워크북 정답 핵심 문장 해석 2)",
+   "status": "resolved",
+   "resolution": "2026-09-30 사용자 결정대로 FABLE 수정안 문구 그대로 반영",
+   "recheck": "export_handoff 재출력 diff 두 곳만 변경 확인 + 구조 검사·저장본 검사 PASS"
   }
  ],
  "bindings": {
   "package_sha256": "496abd06f38e67ff1cdf2b07abc5ac2eb1638a00e1e54b32222b9cdc83f81cee",
-  "learning_content_sha256": "bb70683a64901f2fd109fc591659fa43cf1bcba17c63f24caa53f7d616d55cb3",
-  "learning_final_sha256": "56416ffabcfd5d0374d1c77bcee193defded5fe95320d95632930e39f686200c"
+  "learning_content_sha256": "a8ebb0d78625985e6d58be6f3a16677b161900f00091c2b5277259c53d86de11",
+  "learning_final_sha256": "26732639c48d4e2c2fc81f1fd50c8bcad3e626c0b28bc370c5a87cd39799a4e0"
  }
 }

@@ -121,6 +121,21 @@ def main(scope='learning'):
         import assessment_fr
         assessment_fr.attach(data)
         data['set_labels'] = {'mock1': '미니 모의고사 1회'}
+        # 2026-09-30 사용자 결정(7단계 FABLE F-S01): Word 실제 렌더에서 워크북 정답 ‘5. 핵심 문장 해석’(제목+2줄)만
+        # 15쪽으로 넘어가 거의 빈 쪽이 생김 → u1/answers에 첫 단계 spacing 프로필만 적용(spacing_and_type 금지).
+        # 근거: Word PDF는 사용자 컴퓨터에만 있어, 사용자 결정 “FABLE 검수 파일로 대신”에 따라
+        # 7단계_FABLE_검수.json(Word 렌더 18쪽 기록)의 SHA-256을 evidence_pdf_sha256 자리에 기록한다.
+        sys.path.insert(0, str(SKILL / 'scripts'))
+        from book_plan import content_hash
+        approval = '2026-09-30 사용자 결정: 7단계 FABLE F-S01 워크북 정답에 spacing 프로필 적용(spacing 단계만)'
+        data['layout_adjustments'] = [
+            {'kind': 'compact_block', 'block_id': 'u1/answers', 'profile': 'spacing',
+             'content_sha256': content_hash(data), 'renderer': 'Microsoft Word', 'observed_page': 15,
+             'evidence_pdf_sha256': sha(HERE / '검수기록' / '7단계_FABLE_검수.json'),
+             'reason': ('Microsoft Word(Microsoft 365) 렌더 18쪽 중 14쪽이 워크북 정답 4번까지 차고 ‘5. 핵심 문장 해석’ 제목+해석 2줄만 '
+                        '15쪽으로 넘어가 거의 빈 쪽(7단계 FABLE F-S01·W-NEW-01). 근거 해시는 Word PDF가 아니라 그 렌더를 기록한 '
+                        '검수기록/7단계_FABLE_검수.json의 SHA-256(Word PDF는 사용자 컴퓨터 FR_Word확인_임시 폴더에만 있음, 사용자 결정)'),
+             'approval_reference': approval}]
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding='utf-8')
     return data
 

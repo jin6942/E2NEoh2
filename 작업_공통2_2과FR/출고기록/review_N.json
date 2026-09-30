@@ -134,8 +134,8 @@
  },
  "bindings": {
   "package_sha256": "496abd06f38e67ff1cdf2b07abc5ac2eb1638a00e1e54b32222b9cdc83f81cee",
-  "assessment_content_sha256": "ab53e1a20390c58d39510181651f0b36c77111d283950b2fc2e58a575955fb4b",
-  "learning_final_sha256": "56416ffabcfd5d0374d1c77bcee193defded5fe95320d95632930e39f686200c",
-  "assessment_final_sha256": "292729965e7ce6b8cd6c0d30985b7ccd87257d965b923e790bf89fe0a526e459"
+  "assessment_content_sha256": "8b93195be760e5acf7da3884d3255fcba93a1cdf5e7364e649958c39c13ed294",
+  "learning_final_sha256": "26732639c48d4e2c2fc81f1fd50c8bcad3e626c0b28bc370c5a87cd39799a4e0",
+  "assessment_final_sha256": "294ed13f7b133372bfb2222e958f7d0e3c242142871fdd4ce0aa66cedabd9c8a"
  }
 }
