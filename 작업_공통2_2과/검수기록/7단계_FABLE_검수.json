@@ -1,0 +1,121 @@
+{
+  "stage": "7단계 FABLE 독립 최종 검수",
+  "reviewer": "Claude Fable 5.1 (제작 미참여 · 파일 미수정)",
+  "date": "2026-09-30",
+  "target": {
+    "book": "공통영어2 YBM(박준언) 2과 본책 혼공독해교재 (소설 『Dry』 도입부 + 작품 소개, 74문장, u1~u5, 문제 20개)",
+    "repo": "jin6942/E2NEoh2 · claude/eager-galileo-x93mpu (검수 시점 remote HEAD 57c6500 — 2과 본책 파일은 68b3f28과 동일)",
+    "files": {
+      "전체통합본.docx": "SHA256 36460a18…(수정인계와 일치)",
+      "zip": "SHA256 5eaf0cdb…(수정인계와 일치, DOCX 6개)",
+      "source_pdf": "(2022개정)2025년_공통영어2_YBM(박준언)_2과_본문_(20251205수정).pdf 1~3쪽 왼쪽 단"
+    },
+    "rules": "작업_공통2_2과/스킬수정본/gyogwaseo-unified/ SKILL.md + references(analysis-content, gloss-rules, grammar-labels, preposition-meanings, proper-nouns, assessment-content, workbook, layout-rules, approved-exceptions)",
+    "word_render": "사용자 PC(tom, Windows) Microsoft Word로 전체통합본을 열어 PDF 저장(FABLE검수_전체통합본.pdf, 68쪽) 후 쪽 단위 확인 — Word 실측"
+  },
+  "procedure": [
+    "1단계: 03·04 DOCX만 보고 20문항 블라인드 풀이, 답·근거 기록 후 05 개봉",
+    "2단계: 05 정답해설지 대조(정답·근거·선지 해석·오답 이유·유일정답·회차 내 답 노출·장문 세트), 20문항 지문의 원문 복원을 기계 대조",
+    "3단계: 원문 PDF ↔ 01·02 74문장 글자 대조(기계), 청크 수·영한 대응, S/V·각주·구조 힌트·분석·유반·워크북 4·5번을 규칙에 비추어 확인",
+    "4단계: Word 렌더 PDF(68쪽) 쪽 흐름·빈 쪽·넘침·밑줄·머리글·분권 확인, [Word 확인 대기 목록] 항목별 판정"
+  ],
+  "blind_answers": {
+    "workbook": {"1": "②", "2": "③", "3": "④", "4": "①", "5": "⑤"},
+    "mock1": {"1": "④", "2": "②", "3": "③", "4": "①", "5": "⑤"},
+    "mock2": {"1": "②", "2": "④", "3": "⑤", "4": "③", "5": "①"},
+    "mock3": {"1": "③", "2": "④", "3": "①", "4": "②", "5": "⑤"},
+    "match_with_answer_key": "20/20 일치",
+    "rationale": {
+      "워크북1": "수돗물 끊김→마트에 생수 사러 몰림, 'The essentials of life'",
+      "워크북2": "hostility hidden by a thin layer of politeness → 그 예의마저 얇게 늘어남",
+      "워크북3": "원문 other people have taken notice ↔ ④ disregarded",
+      "워크북4": "원문 bring out the best in people; 뒤 one favor deserves another",
+      "워크북5": "원문 population growth ↔ ⑤ decline in population",
+      "1회1": "물통 발견→(C) 여자가 가로챔·Hali 등장→(A) 엄마 떠남·사과→(B) 나눠 달라·거절",
+      "1회2": "Then I see something. 뒤·I open the door 앞",
+      "1회3": "원문 there is nothing to prove that it's ours and not his",
+      "1회4": "물 끊긴 날 필수품(생수) 쇄도",
+      "1회5": "I am too late → 선반은 empty여야 함(full 오류)",
+      "2회1": "뒤 문장 not televisions… people are after, 카트 가득 물병 → 인파 혼잡",
+      "2회2": "Lucky! → 가로채임·Hali 거절: hopeful→disappointed",
+      "2회3": "Her = a girl(④ 뒤 문장) → ⑤",
+      "2회4": "도와주는 척하다 얼음 전부 차지하려 함",
+      "2회5": "piled as high as it can get(low 오류)",
+      "3회1": "(B) She=Mom→(C) 마트로→(A) 매장 안",
+      "3회2": "④ 냉동채소 비타민 문장 무관",
+      "3회3": "Thank you → his eyes scare me: grateful→frightened",
+      "3회4": "물 케이스 가로채임·Hali 거절 → 친절이 바닥남",
+      "3회5": "return the favor and share(hide 오류)"
+    }
+  },
+  "summary": {
+    "overall": "FAIL (Word 조판 error 7건 — 내용은 PASS)",
+    "error_count": 7,
+    "suggestion_count": 9,
+    "user_decision_count": 5,
+    "by_part": {
+      "문제 20개(2단계)": {"error": 0, "suggestion": 4},
+      "u1": {"error": 1, "suggestion": 1},
+      "u2": {"error": 0, "suggestion": 0},
+      "u3": {"error": 0, "suggestion": 1},
+      "u4": {"error": 1, "suggestion": 0},
+      "u5": {"error": 2, "suggestion": 0},
+      "워크북 공통": {"error": 0, "suggestion": 2},
+      "정답해설 조판": {"error": 3, "suggestion": 1}
+    },
+    "content_checks_passed": [
+      "74문장 원문 글자 일치(PDF ↔ 01 해석지, 02 분석지 영어 청크 동일, 한국어 청크 수 동일)",
+      "20문항 지문 가공 복원 시 모두 원문과 일치(빈칸·어휘·순서·삽입·무관 되돌림)",
+      "정답 분포 ①②③④⑤ 각 4개, 회차 안 답 노출 없음, 장문 세트 구성·어휘 오류가 제목 근거 훼손 없음",
+      "구문으로 해석하기 ↔ 워크북 4번 1:1(u1 3, u2 3, u3 5, u4 3, u5 5), 핵심 문장 ★핵심 ↔ 워크북 5번 ↔ 자연 해석 일치",
+      "유반 3세트×5 ↔ 워크북 2번 9항목 ↔ 정답표 일치, 오늘의 낱말 8×5 ↔ 각주 ★ 연결",
+      "사용자 결정 적용 확인: s17·s25·s53·s69 S/V 줄 없음, s50 V만·s52 전달절만, 인명 영어 유지, s35·s70 V에 then 유지, s72 V′: has, s07·s36·s74 연결동사 보어 표시, ★핵심 문장 끝 유지, u1·u3 분석 설명부 간격 줄이기 적용",
+      "분권 5개 이름·순서·내용 = 통합본 블록과 동일(끝 빈 문단만 차이), ZIP에 DOCX 6개"
+    ]
+  },
+  "findings": [
+    {"id": "F-E01", "grade": "error", "location": "전체통합본 Word 6쪽 (01 해석지 u1 끝)", "current": "17번 문장(The essentials of life.) 한 문장과 복습란만 남고 쪽의 90%가 빔", "problem": "거의 빈 쪽 (layout-rules 쪽 흐름·SKILL '제목만 남은 쪽·거의 빈 쪽' 확인 대상). 16번 블록이 5쪽 끝에 못 들어가 17번만 넘어감", "fix": "u1 해석지 문장 블록 간격을 승인된 spacing 프로필 범위에서 조정해 16·17번을 5쪽에 넣거나, Word 기준 쪽 나눔 재확인"},
+    {"id": "F-E02", "grade": "error", "location": "Word 34쪽 (02 분석지 u4 끊어읽기)", "current": "60·61번 두 문장만 새 쪽에 남고 나머지 빔(33쪽 아래 여백 있음)", "problem": "거의 빈 쪽. LibreOffice 예비 렌더에는 없던 Word 넘침", "fix": "u4/analysis 끊어읽기부에 승인 spacing 프로필 적용 검토(승인 범위가 '분석 설명부·워크북 정답'이라면 사용자 승인 필요)"},
+    {"id": "F-E03", "grade": "error", "location": "Word 43쪽 (02 분석지 u5 끊어읽기)", "current": "74번 한 문장만 새 쪽", "problem": "거의 빈 쪽. [Word 확인 대기] 41→42쪽 항목이 Word에서도 동일하게 발생", "fix": "F-E02와 같음(u5/analysis 끊어읽기부)"},
+    {"id": "F-E04", "grade": "error", "location": "Word 44→45쪽 (02 분석지 u5 설명부)", "current": "구문으로 해석하기 ⑤와 필수 유의어/반의어가 45쪽으로 넘어가 45쪽의 85%가 빔", "problem": "분석 설명부 넘침. u1·u3에는 LibreOffice 근거로 spacing을 적용했으나 Word에서는 u5가 넘침", "fix": "u5/analysis 설명부에 승인 spacing 프로필 적용(Word 근거로 layout_adjustments 기록)"},
+    {"id": "F-E05", "grade": "error", "location": "Word 59→60쪽 (05 정답해설지 문단 5 워크북 정답)", "current": "'5. 핵심 문장 해석' 제목과 답 2개만 60쪽에 고립", "problem": "워크북 정답 넘침·제목 고립. [Word 확인 대기] 59쪽 바닥글 근접 항목의 실제 결과", "fix": "u5/answers에 승인 spacing 프로필 적용(승인 범위 안)"},
+    {"id": "F-E06", "grade": "error", "location": "Word 64→65쪽 (05 정답해설지 2회 5번)", "current": "5번 '오답 정리' 제목+4줄만 65쪽에 고립, 64쪽 본문은 바닥글 선에 근접", "problem": "해설 블록 고립(거의 빈 쪽)", "fix": "answers/mock2 간격 미세 조정 또는 5번 전체를 65쪽으로 이동(assessment-content '정답 근거 제목… 해설 페이지 증가 허용')"},
+    {"id": "F-E07", "grade": "error", "location": "Word 67→68쪽 (05 정답해설지 3회 5번)", "current": "5번 '오답 정리' 제목+4줄만 68쪽에 고립", "problem": "F-E06과 동일", "fix": "F-E06과 동일"},
+    {"id": "F-S01", "grade": "suggestion", "location": "03 워크북 문단 3 · 1번 8 empty / 2번 8 empty (Word 27쪽)", "current": "오늘의 낱말 8 'empty'(정답 비우다·동사) 와 유반 8 'empty'(정답 비어 있는·형용사)가 같은 쪽에 같은 표제어로 나옴", "problem": "학생이 같은 낱말에 다른 답을 써야 해 채점 혼동. 규칙 위반은 아님(유반 packed↔empty 자체는 적절)", "fix": "유반 반의어를 empty 대신 다른 실제 반의어로 바꾸거나, 오늘의 낱말 8을 다른 낱말(ice case 등)로 교체"},
+    {"id": "F-S02", "grade": "suggestion", "location": "03 워크북 u2·u3·u5 1번·2번 표", "current": "politeness·precious(u2), packed·notice(u3), serious·resume(u5)가 오늘의 낱말과 유반 표제어에 모두 실림", "problem": "같은 쪽에서 같은 뜻을 두 번 쓰게 됨(학습 중복). 규칙에 금지 조항은 없음", "fix": "정책 확인 후 필요하면 오늘의 낱말에서 유반 표제어를 제외"},
+    {"id": "F-S03", "grade": "suggestion", "location": "03 워크북 문단 1 · 4번 3 도움말 / 02 분석지 u1 구문 ③", "current": "도움말 'it is not A that S′ V′', 분석 제목 'It is not A that S′ V′' vs 해석지 s15 각주 'it’s not A (that) S′ V′' 및 분석 공식 '(that)'", "problem": "workbook.md '공식과 낱말 뜻은 기존 승인 내용과 일치' — that/(that) 표기 불일치", "fix": "도움말·분석 제목을 각주와 같은 'it’s not A (that) S′ V′'로 통일"},
+    {"id": "F-S04", "grade": "suggestion", "location": "04 실전모의 3회 2번 (Word 52쪽)", "current": "①②와 ③ 사이에 번호 없는 대화문 두 문장(“What are you doing?…”, “Ice is water…”)이 끼어 있고 ⑤ 뒤에도 무번호 문장 4개", "problem": "공식 학평 무관 문장 유형은 ①~⑤가 연속 문장. 규칙 위반은 아니나 형식 이질", "fix": "번호 범위를 ① Just past… ② I open… ③ “What are you doing?…” ④ 추가 문장 ⑤ Garrett and I put…처럼 연속 문장으로 재배정(추가 문장 위치·정답 재검토 필요)"},
+    {"id": "F-S05", "grade": "suggestion", "location": "04 실전모의 2회 3번 지문 ↔ 2회 [4~5] 장문 (Word 50~51쪽)", "current": "62~70번 문장 9개가 같은 회차에 두 번 인쇄됨(삽입 문항 앞부분 = 장문 끝부분)", "problem": "답 노출은 없음(수정인계 기록대로). 다만 한 회차에서 같은 본문을 두 번 읽게 됨", "fix": "장문 범위를 45~65로 줄이거나 삽입 지문을 66~74로 좁혀 겹침 축소(분량 표본 재확인 필요)"},
+    {"id": "F-S06", "grade": "suggestion", "location": "04 실전모의 1회 3번 지문 첫 문장", "current": "'He smiles again, and I return the smile.'로 시작 — He의 지시 대상(정장 남자)이 발췌 밖(48번)", "problem": "assessment-content '대명사 지시 대상이 발췌 범위 안에 남아야' — 정답 판단에는 영향 없음", "fix": "발췌를 52번(“Thank you for helping us,” I tell him.) 또는 47번부터로 넓히기"},
+    {"id": "F-S07", "grade": "suggestion", "location": "Word 61→62쪽 (05 1회 3번 해설)", "current": "정답 근거는 61쪽, 선지 해석·오답 정리는 62쪽으로 갈림", "problem": "한 문항 해설이 쪽에 걸침(허용 범위이나 읽기 불편)", "fix": "F-E06 조정과 함께 확인"},
+    {"id": "F-S08", "grade": "suggestion", "location": "03 워크북 5개 단위 2번 유반 표 10번째 칸 (Word 10·20·27·36·46쪽)", "current": "9항목 표의 마지막 빈 칸에 낱말 없이 답안선만 남음(JK 결함 2건 → MASTER 설계 유지로 기록됨)", "problem": "학생이 빈 답안선을 보고 빠진 항목으로 오해 가능", "fix": "workbook_answer_grid처럼 남는 셀은 선 없이 비우도록 MASTER 역할 보완 검토"},
+    {"id": "F-S09", "grade": "suggestion", "location": "Word 9쪽 (u1 분석 설명부)", "current": "LibreOffice 넘침 근거로 spacing을 적용했으나 Word에서는 아래 8% 정도 여유가 남음", "problem": "approved-exceptions '원래 넘치지 않았다면 불필요한 축소일 수 있으므로 Word 확인 뒤 되돌릴 수 있다'", "fix": "Word 기준으로 u1 spacing을 되돌릴지 사용자 판단(u3 26쪽은 여유가 거의 없어 유지 권장)"}
+  ],
+  "word_check_results": [
+    {"item": "8쪽(LO) 간격 줄이기 — u1 분석 설명부", "word_page": 9, "result": "문제없음 — 한 쪽에 들어감, 아래 여유 약 8%. Word 기준으로는 축소 없이도 들어갔을 가능성 → 되돌릴지 사용자 판단(F-S09)"},
+    {"item": "25쪽(LO) 간격 줄이기 — u3 분석 설명부", "word_page": 26, "result": "문제없음 — 한 쪽에 들어감, 여유 작음(유지 권장)"},
+    {"item": "7쪽 15번 문장 끝 ★핵심 갈림", "word_page": 8, "result": "문제없음 — Word에서는 '★핵심'이 갈리지 않고 통째로 다음 줄 첫머리(after. ★핵심)로 감. 7번 문장 ★핵심(7쪽)은 줄 끝 정상"},
+    {"item": "22→23쪽 빈 공간(u3 해석지)", "word_page": "22~24", "result": "문제없음(참고) — 문장 블록 유지로 22쪽 15%·23쪽 35%·24쪽 45% 여백. 깨짐 아님"},
+    {"item": "30→31쪽 빈 공간(u4 해석지)", "word_page": "29~32", "result": "문제없음(참고) — 31쪽 20% 여백. 단 32쪽은 60·61번+복습란만 있어 60% 여백"},
+    {"item": "38~40쪽 빈 공간(u5 해석지)", "word_page": "38~41", "result": "문제없음(참고) — 38쪽 30% 여백. 41쪽은 74번+복습란만 있어 60% 여백. 6쪽(17번 단독)은 문제있음(F-E01)"},
+    {"item": "41→42쪽 문단 5 분석 74번 한 문장만 다음 쪽", "word_page": "42→43", "result": "문제있음 — Word에서도 74번만 43쪽에 단독(F-E03). 34쪽에도 같은 현상(60·61번, F-E02)"},
+    {"item": "53쪽 빠른 정답 머리 음영", "word_page": 54, "result": "문제없음 — 음영·정답 표시 정상"},
+    {"item": "56·57쪽 워크북 정답 3열 표 4번 행 칸 여유", "word_page": "56·57", "result": "문제없음 — '4. (잊지 않도록) 일깨우다, 상기시키다'가 칸 안에 한 줄로 들어감"},
+    {"item": "59쪽 바닥글 근접", "word_page": "59→60", "result": "문제있음 — 문단 5 정답이 넘쳐 '5. 핵심 문장 해석'이 60쪽에 고립(F-E05)"},
+    {"item": "61쪽 '( ⑤ )' 줄 갈림", "word_page": 64, "result": "문제없음 — '( ⑤ )' 뒤에서 자연 줄바꿈, 기호 갈림 없음"},
+    {"item": "기타 대체 글꼴 줄 감김 차이", "word_page": "전체", "result": "문제있음 — Word 68쪽(LO 64쪽). 추가 넘침: 45쪽(u5 설명부 ⑤·유반, F-E04), 65쪽·68쪽(2·3회 5번 오답 정리 고립, F-E06·07). 밑줄·빈칸·머리글·바닥글·분권 순서는 정상"}
+  ],
+  "user_decisions_needed": [
+    {"id": "D-01", "topic": "u5 구문으로 해석하기 ④ be p.p. / ⑤ be not p.p. 를 같은 공식으로 볼지", "detail": "SKILL '같은 단위·같은 공식의 보충 설명은 한 번만' — 각주는 be p.p.(s65)·be not p.p.(s74)를 별개 기능 공식으로 두므로 현재 2개 보충. 또 워크북 u5 4번 항목 4·5가 항목 1·3의 부분 구절이라 같은 절을 두 번 해석함. 하나로 줄일지 결정 필요"},
+    {"id": "D-02", "topic": "문항 지문 속 '*The above…' 별표 유지 여부", "detail": "원문 각주 표시 '*'가 워크북 5번·2회 3번 지문에 그대로 인쇄됨(해석지 s71도 유지). 원문 보존 원칙상 유지가 규칙에 맞으나 문항에서는 오타처럼 보임"},
+    {"id": "D-03", "topic": "Word 렌더 기준 조판 확정", "detail": "Word 68쪽 vs LibreOffice 64쪽. 출고 기준 렌더를 Word로 잡을 경우 F-E01~07 처리와 u1 spacing 되돌림(F-S09) 판단 필요. 승인 spacing 프로필 범위(분석 설명부·워크북 정답)에 없는 '끊어읽기부'(F-E02·03)·'해석지'(F-E01)·'모의 해설'(F-E06·07) 조정은 별도 승인 필요"},
+    {"id": "D-04", "topic": "오늘의 낱말과 유반 표제어 중복 허용 여부(F-S01·02)", "detail": "특히 u3 empty(동사/형용사 다른 답)는 학생 혼동 소지가 큼"},
+    {"id": "D-05", "topic": "3회 2번 무관 문장 번호 연속화(F-S04)", "detail": "공식 형식으로 맞추면 추가 문장 위치와 정답 번호가 바뀔 수 있음"}
+  ],
+  "notes": [
+    "블라인드 풀이 전에는 05·문제_FINAL·검수기록을 열지 않았음. 문제_FINAL.txt·검수기록/은 이 검수에서 사용하지 않음",
+    "Word 확인용으로 사용자 PC Downloads에 FABLE검수_전체통합본.docx·FABLE검수_전체통합본.pdf를 남겼음(저장소 밖). 삭제는 사용자 승인 후 진행",
+    "s59 'V: does fade', s74 'V′: are addressed'처럼 분리형 not을 V 칸에서 뺀 것은 다른 교재(영어2 YBM 1과 'is not new → V: is')와 같은 관례로 보아 지적하지 않음",
+    "s7 각주 drought 2회 등 한 문장 안 반복 각주는 출현 위치별 제공 관례(s21 I 3회 등)와 같아 지적하지 않음"
+  ]
+}
