@@ -1,0 +1,74 @@
+공통영어2 YBM(박준언) 1과 Further Reading “Breaking Out of the Echo Chamber” — 문제 블라인드(정답·해설 없음)
+출처: 문제_FINAL.txt에서 정답·근거·해설·오답 이유·선택지 해석을 뺀 것. 문항 번호는 교재 번호.
+
+==== 워크북 실전문제 1번 ====
+[세트]
+workbook
+[유형]
+요지
+[발문]
+다음 글의 요지로 가장 적절한 것은?
+[지문]
+These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs. However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.” An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo. The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with. This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.
+[선택지]
+① Uniform news sources help people understand reality more accurately.
+② To avoid an echo chamber, we should look for various views and stay open to new ideas.
+③ Governments should restrict the spread of opinions on social media.
+④ Hearing only familiar opinions can expand our ability to debate.
+⑤ An echo chamber can encourage people to work together on common issues.
+
+==== 미니 모의고사 1회 1번 ====
+[세트]
+미니 모의고사 1회
+[유형]
+순서
+[발문]
+주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?
+[주어진 글]
+These days, everyone accesses the news through the Internet or social media, and often selectively takes the information that suits their tastes or beliefs.
+[이어질 글]
+(A) The term “echo chamber” is also used to describe any situation in which you only hear opinions you already agree with.
+(B) However, consistently encountering similar perspectives without considering alternative views can lead you to be trapped in an “echo chamber.”
+(C) An echo chamber refers to an enclosed space where sound doesn’t leak out and returns as an echo.
+[선택지]
+① A → C → B
+② B → A → C
+③ B → C → A
+④ C → A → B
+⑤ C → B → A
+
+==== 미니 모의고사 1회 2번 ====
+[세트]
+미니 모의고사 1회
+[유형]
+함축 의미
+[발문]
+밑줄 친 it doesn’t always mean that it is true가 다음 글에서 의미하는 바로 가장 적절한 것은?
+[지문]
+This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.
+[밑줄 부분]
+it doesn’t always mean that it is true
+[선택지]
+① Wishing that an idea is true does not make it a fact.
+② Most information on social media turns out to be false.
+③ You should never trust your own opinions.
+④ Something becomes true when many people agree with it.
+⑤ New ideas are usually more accurate than old ones.
+
+==== 미니 모의고사 1회 3번 ====
+[세트]
+미니 모의고사 1회
+[유형]
+요약
+[발문]
+다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?
+[지문]
+This can distort your understanding of reality, and limit your ability to think critically and engage in meaningful debates. Worse still, an echo chamber may foster social division, making collaboration on common issues challenging. To avoid falling into this trap, you must actively seek diverse sources of information and engage with people who have different views. Always remember to check the information you receive, and keep an open mind when discussing new ideas. Even if you really want something to be true, it doesn’t always mean that it is true.
+[요약문]
+An echo chamber can (A) ________ our understanding of reality, so we need to (B) ________ diverse information and different views.
+[선택지]
+① improve …… seek out
+② twist …… avoid
+③ sharpen …… limit
+④ twist …… seek out
+⑤ sharpen …… avoid
